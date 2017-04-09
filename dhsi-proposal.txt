@@ -1,4 +1,5 @@
-Proposed title: Advanced TEI/XML: Steering the XPath
+Proposed title: This time, *really* learn XPath: Task-oriented XPath training for document archeology and project management (Advanced TEI/XML)   
+Instructors: Elisa E. Beshero-Bondar and David J. Birnbaum 
 
 Description: Coders of XML and members of the TEI community, including those who have completed advanced XSLT training workshops, often discover that their understanding and command of XPath (including regular expression processing in XPath) is not sufficient for their development needs. Our course will devote serious, sustained attention to writing and applying XPath in a variety of frameworks (including XSLT, XQuery, Schematron), with a variety of materials (including XML and plain-text documents), and involving a variety of task types (such as “date arithmetic” and “string surgery”). Participants will explore in detail path expressions, patterns, sequence expressions, type expressions, regular expressions, predicates, operators, functions (from the core library and user-defined), and other features, and will practice these in different XML-related contexts (including XSLT, XQuery, and Schematron). We will teach Schematron together with and in context with XSLT to highlight similarities in the pattern-matching aspects of these technologies, used, respectively, to validate documents and to transform them for publication. The course will assist coders with complex processing of information from markup and from plain text, with emphases on 1) sharing strategies for systematically building archives and databases, and 2) increasing participants' confidence and fluency in extracting information coded in XML in those archives and databases. Students enrolled in this course will emerge with strengthened skills in systematic encoding and project management. 
 
@@ -8,3 +9,6 @@ The course immerses participants in the following technologies:
 * XPath
 * Schematron
 * XSLT
+* XQuery
+
+NOTE: Because this course requires prior experience with XSLT or XQuery, it should be scheduled in the second week of the DHSI, with basic XSLT or XQuery courses in the first week. We think participants would benefit from having already run some basic XPath and XSLT before, so we don't imagine teaching these technologies entirely "from scratch", but we imagine expanding our participants' understanding of XPath's powers in specific contexts that they are likely to encounter in building and managing projects. 
