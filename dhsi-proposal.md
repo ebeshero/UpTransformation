@@ -14,4 +14,4 @@ The course immerses participants in the following technologies:
 * XSLT
 * XQuery
 
-**Note:** Because this course requires prior experience with XSLT or XQuery, it should be scheduled in the second week of the DHSI, with basic XSLT or XQuery courses in the first week. Participants in our workshop will need have some basic XPath and XSLT experience, since ours is intended as an advanced XPath workshop, and rather than teaching these other technologies entirely from scratch, we will focus on expanding our participants’ XPath competence in contexts that they are likely to encounter in building and managing projects. 
+**Note:** Because this course requires prior experience with XSLT or XQuery, it should be scheduled in the second week of the DHSI, with basic XSLT or XQuery courses in the first week. Participants in our workshop will need to have some basic XPath and XSLT experience, since ours is intended as an advanced XPath workshop, and rather than teaching these other technologies entirely from scratch, we will concentrate on expanding our participants’ XPath competence in contexts that they are likely to encounter in building and managing projects. 
