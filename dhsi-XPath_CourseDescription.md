@@ -1,7 +1,8 @@
 # XPath for Document Archeology and Project Management
 ## course number 44
-### offered in week 2 of the [Digital Humanities Summer Institute: 11-15 June, 2018](http://www.dhsi.org/courses.php) 
+### when: offered in week 2 of the [Digital Humanities Summer Institute: 11-15 June, 2018](http://www.dhsi.org/courses.php) 
 #### [Link to Register for DHSI Courses](https://www.regonline.ca/registration/Checkin.aspx?EventID=2039249)
+### Instructors: Elisa Beshero-Bondar and David J. Birnbaum
 
 ### Description: 
 Learn XPath intensively and gain superpowers with XML processing! Whether you’ve recently learned XML and want to build something with it, or whether you’ve worked with XPath before but are rusty, new and experienced coders will benefit alike from our course. XPath is usually not the center of a DHSI class, and people often gain hasty "ad hoc" experience with it when learning it only along the way to doing something else. Concentrating intensively for a week on XPath will "power up" what you can do with XML, and will help you refine the way you code your documents. Our course will assist XML coders (whether beginners or experienced) with complex processing of information from markup and from plain text. Our goals are 1) to share strategies for systematically building archives and databases, and 2) to increase participants’ confidence and fluency in extracting information coded in XML in those archives and databases. 
