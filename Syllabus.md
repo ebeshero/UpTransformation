@@ -25,19 +25,21 @@ Please install on a laptop you're bringing with you:
 ### Morning: @9:30am: 
 * The seven types of nodes; Neglected XPath Axes (ancestor::, preceding:: and following::, etc);
 * Xpath Predicates 
+* Working with XPath in XQuery
 
 ### Afternoon @1:15pm: 
 * Long XPath Expressions with Functions and Predicates
 * for-loops (for $i in ___ )
+* FLWOR statements (XQuery)
 
 ## Wednesday June 13
 ### Morning: @9:30am:
-* FLWOR statements (XQuery)
+* Introducting XSLT
 * "It's always a namespace issue": working with multiple namespaces
-
-### Afternoon: 1:15pm:
 * XSLT template matching and context nodes
 * Identity transformation
+
+### Afternoon: 1:15pm:
 * xsl:apply-templates and the @select attribute
 * When to use xsl:value-of 
 * XSLT vs XQuery for the same task? Push vs. Pull processing
