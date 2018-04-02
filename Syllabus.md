@@ -41,7 +41,7 @@ Please install on a laptop you're bringing with you:
 * XSLT template matching and context nodes
 * Identity transformation
 
-### Afternoon: 1:15pm:
+### Afternoon: @1:15pm:
 * xsl:apply-templates and the @select attribute
 * When to use xsl:value-of 
 * XSLT vs XQuery for the same task? Push vs. Pull processing
@@ -53,7 +53,7 @@ Please install on a laptop you're bringing with you:
 * Practice with different applications of the same XPath functions 
   * looping over distinct values, mapping back to the tree
 
-### Afternoon: 1:15pm:
+### Afternoon: @1:15pm:
 * Writing Schematron with XPath functions
 * Open practice session: Work with XPath (sample activities provided, or work on your own projects), build something interesting! Instructors circulate and help
 
