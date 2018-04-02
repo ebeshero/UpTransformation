@@ -39,7 +39,7 @@ Please install on a laptop you're bringing with you:
 * Identity transformation
 * xsl:apply-templates and the @select attribute
 * When to use xsl:value-of 
-* XSLT vs XQuery for the same task?
+* XSLT vs XQuery for the same task? Push vs. Pull processing
 
 
 ## Thursday June 14
@@ -49,8 +49,8 @@ Please install on a laptop you're bringing with you:
   * looping over distinct values, mapping back to the tree
 
 ### Afternoon: 1:15pm:
-* Open practice session: Work with XPath, build something interesting! Instructors circulate and help.
+* Open practice session: Work with XPath (sample activities provided, or work on your own projects), build something interesting! Instructors circulate and help
 
 ## Friday June 15 
 ### Morning: @9:30am: 
-* 
+* Recap of XPath and its applications; next steps
