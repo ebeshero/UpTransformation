@@ -20,6 +20,7 @@ Please install on a laptop you're bringing with you:
 * Simple XPath expressions to explore document structures and data; 
 * XPath Functions: how to use them 
 * Function Signatures and Cardinality
+* Reading and evaluating XML projects with XPath
 
 ## Tuesday June 12: 
 ### Morning: @9:30am: 
