@@ -5,6 +5,8 @@ a repository for materials related to teaching and writing on technologies of up
 
 ## [Course Description](dhsi-XPath_CourseDescription.md) 
 
+## [Syllabus](Syllabus.md)
+
 ## Topics to cover through the week (not necessarily in this order)
 
 ### About XPath itself
