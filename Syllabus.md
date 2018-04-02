@@ -1,4 +1,5 @@
-# Syllabus for XPath for Document Archaeology
+# XPath for Document Archaeology: Syllabus 
+## Digital Humanities Summer Institute Week 2 (June 11 - 15)
 ## General Timing 
 ○ 9:30am	-	12:00pm	 Morning	Session
 ○ 12:00pm	-	1:15pm Lunch
