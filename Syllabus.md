@@ -49,11 +49,12 @@ Please install on a laptop you're bringing with you:
 
 ## Thursday June 14
 ### Morning: @9:30am:
-* Schematron: applying XPath to govern your code
+* Schematron: applying XPath path expressions to check and govern your code
 * Practice with different applications of the same XPath functions 
   * looping over distinct values, mapping back to the tree
 
 ### Afternoon: 1:15pm:
+* Writing Schematron with XPath functions
 * Open practice session: Work with XPath (sample activities provided, or work on your own projects), build something interesting! Instructors circulate and help
 
 ## Friday June 15 
