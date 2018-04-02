@@ -22,7 +22,9 @@ Afternoon: @1:15pm:
 
 ## Tuesday June 12: @9:30am: 
 * The seven types of nodes; Neglected XPath Axes (ancestor, preceding and following, etc);
-* Xpath Predicates and How to Think About Them
+* Xpath Predicates 
+* Long XPath Expressions with Functions and Predicates
+* Introducing FLWOR
 
 @1:15pm: 
 
