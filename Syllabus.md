@@ -30,7 +30,7 @@ Please install on a laptop you're bringing with you:
 
 ### Afternoon @1:15pm: 
 * Long XPath Expressions with Functions and Predicates
-* for-loops (for $i in ___ )
+* for-loops and $i
 * FLWOR statements (XQuery)
 * XPath Predicate Filters and the Where statement in FLWORs
 
