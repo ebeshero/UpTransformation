@@ -25,13 +25,14 @@ Please install on a laptop you're bringing with you:
 ## Tuesday June 12: 
 ### Morning: @9:30am: 
 * The seven types of nodes; Neglected XPath Axes (ancestor::, preceding:: and following::, etc);
-* Xpath Predicates 
+* Xpath Predicate Filters vs. Path Steps
 * Working with XPath in XQuery
 
 ### Afternoon @1:15pm: 
 * Long XPath Expressions with Functions and Predicates
 * for-loops (for $i in ___ )
 * FLWOR statements (XQuery)
+* XPath Predicate Filters and the Where statement in FLWORs
 
 ## Wednesday June 13
 ### Morning: @9:30am:
