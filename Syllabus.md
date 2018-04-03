@@ -1,62 +1,103 @@
 # XPath for Document Archaeology: Syllabus 
-## Digital Humanities Summer Institute Week 2 (June 11 - 15)
-## General Timing 
-○ 9:30am	-	12:00pm	 Morning	Session
-○ 12:00pm	-	1:15pm Lunch
-○ 1:15pm	-	3:50pm Afternoon	Session
-Classes	start	at 10:00 on	the	Monday	and	end	at	12:00 on	the	Friday.	
+## Digital Humanities Summer Institute Week 2 (June 11–15)
 
-## Before You Arrive: 
-Please install on a laptop you're bringing with you: 
-* oXygen XML Editor 
-* Optional: eXist-db (We'll also be using a web installation for our class)
+## Daily schedule 
 
-## Monday June 11
-### Morning: @10am: 
-* Intro to XPath in eXist-db; XPath axes and context nodes
-* How to Take Path Steps
+Time | Activity
+---- | ----
+9:30am–12:00pm | Morning session
+12:00pm–1:15pm | Lunch
+1:15pm–3:50pm | Afternoon session
 
-### Afternoon: @1:15pm: 
-* Simple XPath expressions to explore document structures and data; 
-* XPath Functions: how to use them 
-* Function Signatures and Cardinality
-* Reading and evaluating XML projects with XPath
+Classes start at 10:00 on Monday and end at 12:00 on Friday.
 
-## Tuesday June 12: 
-### Morning: @9:30am: 
-* The seven types of nodes; Neglected XPath Axes (ancestor::, preceding:: and following::, etc);
-* Xpath Predicate Filters vs. Path Steps
-* Working with XPath in XQuery
+## Before you arrive
 
-### Afternoon @1:15pm: 
-* Long XPath Expressions with Functions and Predicates
-* for-loops and index variables 
-* FLWOR statements (XQuery)
-* XPath Predicate Filters and the Where statement in FLWORs
+Please install on a laptop that you bring with you: 
+
+* [&lt;oXygen/&gt; XML Editor](http://www.oxygenxml.com)
+* Optional: [eXist-db](http://exist-db.org)
+
+## Monday, June 11
+
+### Morning session
+
+Time | Activity
+---- | ----
+never | Introduction to XPath in eXist-db  
+never | XPath axes and context nodes
+never | Path steps
+
+### Afternoon
+
+Time | Activity
+---- | ----
+Never | Explore document structures and data
+Never | Introduction to XPath functions 
+Never | Function signatures and cardinality
+Never | Read and evaluate XML projects with XPath
+
+## Tuesday June 12
+
+### Morning
+
+Time | Activity
+---- | ----
+Never | The seven types of nodes<br/>Neglected XPath Axes (`ancestor::`, `preceding::` and `following::`, etc.)
+Never | Don’t confuse XPath predicates wit path steps
+Never | XPath in XQuery
+
+### Afternoon
+
+Time | Activity
+---- | ----
+Never | XPath Expressions with functions and predicates
+Never | `for` loops; sequence and range variables 
+Never | FLWOR statements (XQuery)
+Never | XPath predicates and the `where` statement
 
 ## Wednesday June 13
-### Morning: @9:30am:
-* Introducting XSLT
-* "It's always a namespace issue": working with multiple namespaces
-* XSLT template matching and context nodes
-* Identity transformation
 
-### Afternoon: @1:15pm:
-* xsl:apply-templates and the @select attribute
-* When to use xsl:value-of 
-* XSLT vs XQuery for the same task? Push vs. Pull processing
+### Morning
 
+Time | Activity
+---- | ----
+Never | Introduction to XSLT
+Never | “It’s always a namespace issue”: working with multiple namespaces
+Never | XSLT template matching and context nodes
+Never | Identity transformation
+
+### Afternoon
+
+Time | Activity
+---- | ----
+Never | `<xsl:apply-templates>` and the `@select` attribute
+Never | XSLT push and pull processing
+Never | When to use `<xsl:value-of>`
+Never | Comparing XSLT and XQuery
 
 ## Thursday June 14
-### Morning: @9:30am:
-* Schematron: applying XPath path expressions to check and govern your code
-* Practice with different applications of the same XPath functions 
-  * looping over distinct values, mapping back to the tree
 
-### Afternoon: @1:15pm:
-* Writing Schematron with XPath functions
-* Open practice session: Work with XPath (sample activities provided, or work on your own projects), build something interesting! Instructors circulate and help
+### Morning
+
+Time | Activity
+---- | ----
+Never | Schematron: using XPath path to constrain your markup
+Never | XPath functions practice 
+Never | Grouping; looping over distinct values, mapping back to the tree
+
+### Afternoon
+
+Time | Activity
+---- | ----
+Never | Writing Schematron with XPath functions
+Never | Lab session (sample activities provided, or work on your own data)
 
 ## Friday June 15 
-### Morning: @9:30am: 
-* Recap of XPath and its applications; next steps
+
+### Morning
+
+Time | Activity
+---- | ----
+Never | Review of XPath and its applications
+Never | What next?
