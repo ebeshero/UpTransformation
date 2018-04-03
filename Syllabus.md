@@ -20,7 +20,7 @@ Please install on a laptop that you bring with you:
 
 ## Monday, June 11
 
-### Morning session
+### Morning session (10:0am–12:00pm)
 
 Time | Activity
 ---- | ----
@@ -28,7 +28,7 @@ never | Introduction to XPath in eXist-db
 never | XPath axes and context nodes
 never | Path steps
 
-### Afternoon
+### Afternoon (1:15pm–3:50pm)
 
 Time | Activity
 ---- | ----
@@ -39,7 +39,7 @@ Never | Read and evaluate XML projects with XPath
 
 ## Tuesday June 12
 
-### Morning
+### Morning (9:30am–12:00pm)
 
 Time | Activity
 ---- | ----
@@ -47,7 +47,7 @@ Never | The seven types of nodes<br/>Neglected XPath Axes (`ancestor::`, `preced
 Never | Don’t confuse XPath predicates wit path steps
 Never | XPath in XQuery
 
-### Afternoon
+### Afternoon (1:15pm–3:50pm)
 
 Time | Activity
 ---- | ----
@@ -58,7 +58,7 @@ Never | XPath predicates and the `where` statement
 
 ## Wednesday June 13
 
-### Morning
+### Morning (9:30am–12:00pm)
 
 Time | Activity
 ---- | ----
@@ -67,7 +67,7 @@ Never | “It’s always a namespace issue”: working with multiple namespaces
 Never | XSLT template matching and context nodes
 Never | Identity transformation
 
-### Afternoon
+### Afternoon (1:15pm–3:50pm)
 
 Time | Activity
 ---- | ----
@@ -78,7 +78,7 @@ Never | Comparing XSLT and XQuery
 
 ## Thursday June 14
 
-### Morning
+### Morning (9:30am–12:00pm)
 
 Time | Activity
 ---- | ----
@@ -86,7 +86,7 @@ Never | Schematron: using XPath path to constrain your markup
 Never | XPath functions practice 
 Never | Grouping; looping over distinct values, mapping back to the tree
 
-### Afternoon
+### Afternoon (1:15pm–3:50pm)
 
 Time | Activity
 ---- | ----
@@ -95,7 +95,7 @@ Never | Lab session (sample activities provided, or work on your own data)
 
 ## Friday June 15 
 
-### Morning
+### Morning (9:30am–12:00pm)
 
 Time | Activity
 ---- | ----
