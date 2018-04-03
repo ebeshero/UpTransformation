@@ -31,15 +31,17 @@ Please install on a laptop that you bring with you:
 ### Afternoon (1:15pm–3:50pm)
 
 * Explore document structures and data
-* Introduction to XPath functions 
-* Function signatures and cardinality
+* XPath functions 
+* XPath function signatures and cardinality
+* XPath predicates
 * Read and evaluate XML projects with XPath
 
 ## Tuesday June 12: XPath and XQuery
 
 ### Morning (9:30am–12:00pm)
 
-* The seven types of nodes<br/>Neglected XPath Axes (`ancestor::`, `preceding::` and `following::`, etc.)
+* The seven types of nodes
+* Neglected XPath Axes (`ancestor::`, `preceding::` and `following::`, `self::`, etc.)
 * Don’t confuse XPath predicates wit path steps
 * XPath in XQuery
 
