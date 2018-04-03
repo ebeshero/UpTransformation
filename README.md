@@ -1,23 +1,30 @@
 # UpTransformation
-a repository for materials related to teaching and writing on technologies of up-conversion, featuring regex, XPath, XSLT, Schematron..
 
-## DHSI 2018 Course 44 (week 2, 11-15 June, 2018): XPath for Document Archaeology and Project Management
+A repository for materials related to teaching and writing on technologies of up-conversion, featuring regex, XPath, XSLT, 
+XQuery, and Schematron.
 
-## [Course Description](dhsi-XPath_CourseDescription.md) 
+## XPath for Document Archaeology and Project Management
 
-## [Syllabus](Syllabus.md)
+[DHSI](http://dhsi.org) 2018 Course 44 (week 2, 11–15 June, 2018).
 
-## Topics to cover through the week (not necessarily in this order)
+* [Course Description](dhsi-XPath_CourseDescription.md) 
+* [Syllabus](Syllabus.md)
+
+## Topics
+
+(Not necessarily in this order.)
 
 ### About XPath itself
+
 1. Path expressions
 1. Axes
-1. Predicates
 1. Functions (including regex)
+1. Predicates
 1. Working with datatypes
 
 ### About XPath contexts
-1. Schematron
-1. XSLT
+
 1. XQuery
+1. XSLT
+1. Schematron
 
