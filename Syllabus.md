@@ -1,4 +1,4 @@
-# XPath for Document Archaeology: Syllabus 
+# XPath for Document Archaeology and Project Management: Syllabus 
 
 Digital Humanities Summer Institute Week 2 (June 11–15, 2018)
 
