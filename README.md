@@ -9,6 +9,7 @@ XQuery, and Schematron.
 
 * [Course Description](dhsi-XPath_CourseDescription.md) 
 * [Syllabus](Syllabus.md)
+* [References](References.md)
 
 ## Topics
 

@@ -42,12 +42,13 @@ Please install on a laptop that you bring with you:
 
 * The seven types of nodes
 * Neglected XPath Axes (`ancestor::`, `preceding::` and `following::`, `self::`, etc.)
-* Don’t confuse XPath predicates wit path steps
+* Don’t confuse XPath predicates with path steps
+* Regex in XPath
 * XPath in XQuery
 
 ### Afternoon (1:15pm–3:50pm)
 
-* XPath Expressions with functions and predicates
+* XPath expressions with functions and predicates
 * `for` loops; sequence and range variables 
 * FLWOR statements (XQuery)
 * XPath predicates and the `where` statement
