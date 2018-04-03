@@ -1,9 +1,4 @@
-# UpTransformation
-
-A repository for materials related to teaching and writing on technologies of up-conversion, featuring regex, XPath, XSLT, 
-XQuery, and Schematron.
-
-## XPath for Document Archaeology and Project Management
+# XPath for Document Archaeology and Project Management
 
 [DHSI](http://dhsi.org) 2018 Course 44 (week 2, 11–15 June, 2018).
 
