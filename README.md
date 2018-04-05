@@ -3,6 +3,7 @@
 * [Course Description](dhsi-XPath_CourseDescription.md) 
 * [Syllabus](Syllabus.md)
 * [References](References.md)
+* [Course Pack](XPath_coursepak.pdf)
 
 ## Topics
 
