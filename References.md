@@ -18,11 +18,11 @@ There are no XPath-specific reference books, but XPath is discussed in  the book
 
 ### XQuery
 
-The only XQuery book you need is Priscilla Walmsley, _XQuery_, 2nd edition, 2015, O’Reilly Media, Inc. It contains documentation of both XPath functions used in XQuery and XQuery itself. The Mulberry Technologies [XQuery 1.0 Quick Reference](http://mulberrytech.com/quickref/xquery1.pdf) and [XQuery 1.0 and XPath 2.0 Functions and Operators Quick Reference](http://mulberrytech.com/quickref/functions.pdf) by Sam Wilmott are excellent, but they do not include more recent features.
+The only general XQuery book you need is Priscilla Walmsley, _XQuery_, 2nd edition, 2015, O’Reilly. It contains documentation of both XPath functions used in XQuery and XQuery itself. If you use eXist-db as your XML database, we also recommend Erik Siegel and Adam Retter, _eXist: a NoSQL document database and application platform_, O’Reilly, 2014. The Mulberry Technologies [XQuery 1.0 Quick Reference](http://mulberrytech.com/quickref/xquery1.pdf) and [XQuery 1.0 and XPath 2.0 Functions and Operators Quick Reference](http://mulberrytech.com/quickref/functions.pdf) by Sam Wilmott are excellent, but they do not include more recent features.
 
 ### XSLT
 
-The best XSLT reference book is Michael Kay, _XSLT 2.0 and XPath 2.0 Programmer’s Reference_, 4th edition, 2008, Wrox, but it has not been updated for XPath 3.1 or XSLT 3.0. There are no XSLT 3.0 reference books, but XSLT 3.0 elements are documented on line in the [XSLT elements](https://www.saxonica.com/documentation/index.html#!xsl-elements) section of the documentation for [Saxon](http://www.saxonica.com/documentation/documentation.xml). The Mulberry Technologies [XSLT 2.0 Quick Reference ](http://mulberrytech.com/quickref/xslt2.pdf) by Sam Wilmott is excellent, but it does not include more recent features.
+The best XSLT reference book is Michael Kay, _XSLT 2.0 and XPath 2.0 Programmer’s Reference_, 4th edition, Wrox, 2008, but it has not been updated for XPath 3.1 or XSLT 3.0. There are no XSLT 3.0 reference books, but XSLT 3.0 elements are documented on line in the [XSLT elements](https://www.saxonica.com/documentation/index.html#!xsl-elements) section of the documentation for [Saxon](http://www.saxonica.com/documentation/documentation.xml). The Mulberry Technologies [XSLT 2.0 Quick Reference ](http://mulberrytech.com/quickref/xslt2.pdf) by Sam Wilmott is excellent, but it does not include more recent features.
 
 ### Schematron
 
