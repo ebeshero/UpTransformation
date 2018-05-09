@@ -1,0 +1,25 @@
+start = schedule
+schedule = element schedule { day+ }
+day = element day { d, synopsis, slot+ }
+d =
+  attribute d {
+    "Monday, July 11"
+    | "Tuesday, July 12"
+    | "Wednesday, July 13"
+    | "Thursday, July 14"
+    | "Friday, July 15"
+  }
+synopsis = element synopsis { text }
+slot = element slot { title, desc?, activity+, outcome?, clocktime }
+title = element title { text }
+clocktime = attribute time { xsd:time }
+activity = element act { acttype?, desc, outcome?, durtime }
+acttype = attribute type { "Presentation" | "Discussion" | "Talk_lab" | "Code_lab" }
+durtime = attribute time { xsd:int }
+link = element link { text }
+outcome = element outcome { goal* }
+goal = element goal { text }
+desc =
+  element desc {
+    mixed { mdlist? }
+  }
