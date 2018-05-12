@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schedule.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<schedule>
+    <day d="Monday, June 11">
+        <title>XPath</title>
+        <slot time="10:00:00">
+            <title>Introduction to XPath in eXist-db</title>
+            <act time="PT1H">
+                <desc>Simple XPath expressions</desc>
+            </act>
+            <act time="PT30M">
+                <desc>XPath axes and context nodes </desc>
+            </act>
+            <act time="PT30M">
+                <desc>XPath path steps</desc>
+            </act>
+        </slot>
+        <slot time="13:15:00">
+            <title>Exploring document structures and data with XPath</title>
+            <act time="PT40M">
+                <desc>XPath functions</desc>
+            </act>
+            <act time="PT35M">
+                <desc>XPath function signatures and cardinality</desc>
+            </act>
+            <act time="PT40M">
+                <desc>XPath predicates</desc>
+            </act>
+            <act time="PT40M">
+                <desc>Read and evaluate XML projects with XPath</desc>
+            </act>
+        </slot>
+    </day>
+    <day d="Tuesday, June 12">
+        <title>XPath and XQuery</title>
+        <slot time="09:30:00">
+            <title>Introduction to XPath in XQuery</title>
+            <act time="PT30M">
+                <desc>The seven types of nodes</desc>
+            </act>
+            <act time="PT30M">
+                <desc>Neglected XPath axes (<code>ancestor::</code>, <code>preceding::</code> and
+                        <code>following::</code>, <code>self::</code>, etc.)</desc>
+            </act>
+            <act time="PT30M">
+                <desc>Don’t confuse XPath predicates with path steps</desc>
+            </act>
+            <act time="PT30M">
+                <desc>Regex in XPath</desc>
+            </act>
+            <act time="PT30M">
+                <desc>XPath in XQuery</desc>
+            </act>
+        </slot>
+        <slot time="13:15:00">
+            <title>XQuery flow control</title>
+            <act time="PT40M">
+                <desc>XPath expressions with functions and predicates</desc>
+            </act>
+            <act time="PT40M">
+                <desc><code>for</code> loops; sequence and range variables</desc>
+            </act>
+            <act time="PT40M">
+                <desc>FLWOR statements (XQuery)</desc>
+            </act>
+            <act time="PT35M">
+                <desc>XPath predicates and the <code>where</code> statement</desc>
+            </act>
+        </slot>
+    </day>
+    <day d="Wednesday, June 13">
+        <title>XPath and XSLT</title>
+        <slot time="09:30:00">
+            <title>Introduction to XPath in XSLT</title>
+            <act time="PT40M">
+                <desc>XSLT overview</desc>
+            </act>
+            <act time="PT40M">
+                <desc>It’s always a namespace issue: working with multiple namespaces</desc>
+            </act>
+            <act time="PT40M">
+                <desc>XSLT template matching and context nodes</desc>
+            </act>
+            <act time="PT30M">
+                <desc>Identity transformation</desc>
+            </act>
+        </slot>
+        <slot time="13:15:00">
+            <title>Pushing and pulling</title>
+            <act time="PT40M">
+                <desc><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
+                    attribute</desc>
+            </act>
+            <act time="PT40M">
+                <desc>XSLT push and pull processing</desc>
+            </act>
+            <act time="PT40M">
+                <desc>When to use <code>&lt;xsl:value-of&gt;</code></desc>
+            </act>
+            <act time="PT35M">
+                <desc>Comparing XSLT and XQuery</desc>
+            </act>
+        </slot>
+    </day>
+    <day d="Thursday, June 14">
+        <title>XPath and Schematron</title>
+        <slot time="09:30:00">
+            <title>Using Schematron to constrain your markup</title>
+            <act time="PT1H">
+                <desc>Schematron overview</desc>
+            </act>
+            <act time="PT30M">
+                <desc>XPath functions practice</desc>
+            </act>
+            <act time="PT1H">
+                <desc>Grouping; looping over distinct values, mapping back to the tree</desc>
+            </act>
+        </slot>
+        <slot time="13:15:00">
+            <title>Writing Schematron with XPath function</title>
+            <act time="PT2H35M">
+                <desc>Lab session (sample materials provided, or work with your own data)</desc>
+            </act>
+        </slot>
+    </day>
+    <day d="Friday, June 15">
+        <title>Taking stock</title>
+        <slot time="09:30:00">
+            <title>Review of XPath applications</title>
+            <act time="PT1H30M">
+                <desc>Review of XPath and its applications</desc>
+            </act>
+            <act time="PT1H">
+                <desc>What next?</desc>
+            </act>
+        </slot>
+    </day>
+</schedule>

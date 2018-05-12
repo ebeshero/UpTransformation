@@ -1,25 +1,49 @@
 start = schedule
-schedule = element schedule { day+ }
-day = element day { d, synopsis, slot+ }
+schedule = element schedule { monday, tuesday, wednesday, thursday, friday }
+day = title, slot+
+monday =
+    element day {
+        attribute d { "Monday, June 11" },
+        day
+    }
+tuesday =
+    element day {
+        attribute d { "Tuesday, June 12" },
+        day
+    }
+wednesday =
+    element day {
+        attribute d { "Wednesday, June 13" },
+        day
+    }
+thursday =
+    element day {
+        attribute d { "Thursday, June 14" },
+        day
+    }
+friday =
+    element day {
+        attribute d { "Friday, June 15" },
+        day
+    }
 d =
-  attribute d {
-    "Monday, July 11"
-    | "Tuesday, July 12"
-    | "Wednesday, July 13"
-    | "Thursday, July 14"
-    | "Friday, July 15"
-  }
-synopsis = element synopsis { text }
-slot = element slot { title, desc?, activity+, outcome?, clocktime }
+    attribute d {
+        "Monday, July 11"
+        | "Tuesday, July 12"
+        | "Wednesday, July 13"
+        | "Thursday, July 14"
+        | "Friday, July 15"
+    }
 title = element title { text }
-clocktime = attribute time { xsd:time }
-activity = element act { acttype?, desc, outcome?, durtime }
-acttype = attribute type { "Presentation" | "Discussion" | "Talk_lab" | "Code_lab" }
-durtime = attribute time { xsd:int }
-link = element link { text }
-outcome = element outcome { goal* }
-goal = element goal { text }
 desc =
-  element desc {
-    mixed { mdlist? }
-  }
+    element desc {
+        mixed { code* }
+    }
+code = element code { text }
+slot = element slot { clocktime, title, desc?, activity+ }
+# @clocktime is starting time in "09:00:00" 24-hour format
+clocktime = attribute time { xsd:time }
+# @durtime format is "PTxHyM", where "PT" is required, "x" is the 
+# number of hours and "y" the number of minutes, expressed as integers 
+activity = element act { desc, durtime }
+durtime = attribute time { xsd:duration }
