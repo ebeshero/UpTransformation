@@ -8,7 +8,6 @@
         <html>
             <head>
                 <title>Schedule</title>
-                <link rel="stylesheet" type="text/css" href="http://www.obdurodon.org/css/style.css"/>
                 <link rel="stylesheet" type="text/css" href="style.css"/>
                 <style type="text/css">
                     body {
