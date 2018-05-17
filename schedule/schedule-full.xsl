@@ -3,12 +3,16 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
+    <xsl:output method="xml" indent="no" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html>
             <head>
                 <title>Schedule</title>
                 <link rel="stylesheet" type="text/css" href="http://www.obdurodon.org/css/style.css"/>
+                <style type="text/css">
+                    body {
+                        line-height: 1.25em;
+                    }</style>
             </head>
             <body>
                 <h1>Schedule</h1>
@@ -46,12 +50,44 @@
     <xsl:template match="act">
         <li>
             <xsl:apply-templates select="desc"/>
-            <xsl:value-of select="concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes)')"/>
+            <xsl:value-of
+                select="concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes)')"/>
+            <xsl:apply-templates select="details"/>
         </li>
     </xsl:template>
     <xsl:template match="code">
         <code>
             <xsl:apply-templates/>
         </code>
+        <xsl:if test="@url">
+            <a href="{@url}">
+                <sup>⬀</sup>
+            </a>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="details">
+        <ol>
+            <xsl:apply-templates/>
+        </ol>
+    </xsl:template>
+    <xsl:template match="item | example">
+        <li>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+    <xsl:template match="emph">
+        <em>
+            <xsl:apply-templates/>
+        </em>
+    </xsl:template>
+    <xsl:template match="examples">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+    <xsl:template match="link">
+        <a href="{.}">
+            <xsl:value-of select="."/>
+        </a>
     </xsl:template>
 </xsl:stylesheet>

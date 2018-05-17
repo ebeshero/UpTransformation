@@ -39,11 +39,25 @@ desc =
     element desc {
         mixed { code* }
     }
-code = element code { text }
+code = element code { url?, text }
+url = attribute url { text }
 slot = element slot { clocktime, title, desc?, activity+ }
 # @clocktime is starting time in "09:00:00" 24-hour format
 clocktime = attribute time { xsd:time }
 # @durtime format is "PTxHyM", where "PT" is required, "x" is the 
 # number of hours and "y" the number of minutes, expressed as integers 
-activity = element act { desc, durtime }
+activity = element act { durtime, desc, details? }
 durtime = attribute time { xsd:duration }
+details = element details { item+ }
+item =
+    element item {
+        mixed { (link | code | emph)* },
+        examples?
+    }
+link = element link { text }
+examples = element examples { example+ }
+example =
+    element example {
+        mixed { code* }
+    }
+emph = element emph { text }
