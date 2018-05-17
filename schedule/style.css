@@ -1,0 +1,244 @@
+/* fix: 
+toc should scroll to top (and collapse) on reload
+collapsable hierarchical toc
+*/
+/*
+  style.css
+  Author: David J. Birnbaum
+  Email: djbpitt@pitt.edu
+  Original version: 2007-08-02
+  Last revised: 2011-04-08
+  Functionality: css mimics html frames
+  Partially based on:
+  http://ella.slis.indiana.edu/~jawalsh/share/css/tei2html.css
+  John Walsh, jawalsh@indiana.edu
+  Accessed: 2007-08-02
+ */
+dfn{
+    /* opera and safari don't style dfn at all;
+       other browsers may use italic instead of true oblique
+       (is this font-specific?) */
+    font-style:oblique;
+}
+html{
+    background-color:#f4eee2;
+    color:black;
+}
+body{
+    font-family:cambria, "palatino linotype", times, serif;
+    /* georgia is missing the acute accent, so IErenders a box */
+    line-height:1.2em;
+    background-color:#f4eee2;
+    color:black;
+    padding-left:5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;
+    color:#351408;
+    line-height:1.4em;
+    page-break-after:avoid;
+    position:relative;
+    /* otherwise IE cuts off top of H1 with increased line-height */
+}
+p{
+    line-height:1.2em;
+}
+pre{
+    font-family:"Andale Mono", "Courier New", monospace;
+    font-size:95%;
+    line-height:1.1em;
+    border:1px dashed #990000;
+    /* background-color : aqua; */
+    background-color:#D3C8B4;
+    color:black;
+    margin:1em;
+    padding:1em;
+}
+.pre-highlight{
+    font-style:italic;
+    font-weight:bold;
+    color:#D7301F;
+}
+pre.bad_code{
+    background-color:#FFC0CB
+}
+.pre-colored{ /* color non-pre stuff like pre */
+    border:1px dashed #990000;
+    /* background-color : aqua; */
+    background-color:#D3C8B4;
+    color:black;
+    margin:1em;
+    padding:1em;
+}
+code{
+    font-family:"Andale Mono", "Courier New", monospace;
+    /*color : #870429;*/
+    color:#D7301F;
+    font-weight:bold;
+}
+sub,
+sup{
+    line-height:0em;
+}
+ol li ol{
+    list-style-type:lower-alpha;
+}
+/* set main spacing at the h3 element instead of the ul
+    so that it will be present when the list is collapsed
+    but add a bit more at the ul level */
+#toc h2{
+    margin-bottom:0px;
+    padding-bottom:0.5em;
+    cursor:pointer; /* indicate clickability */
+}
+#toc h3{
+    font-size:100%;
+    margin-bottom:0px;
+    padding-bottom:0.1em;
+    margin-top:0px;
+    padding-top:0.3em;
+    cursor:pointer; /* indicate clickability */
+}
+/* toc lists have no bullets and no top-level indentation 
+    they are also closer to the header above than below */
+#toc ul{
+    margin-left:0px;
+    padding-left:0px;
+    margin-top:0px;
+    padding-top:0px;
+    margin-bottom:0px;
+    padding-bottom:0.5em;
+}
+#toc li > span{
+    list-style-type:none;
+    /* simulate a link */
+    color:blue;
+    cursor:pointer;
+}
+#toc li > span:hover{
+    text-decoration:underline;
+}
+a{
+    text-decoration:none; /* don't underline links */
+}
+a:link:hover,
+a:visited:hover{
+    text-decoration:underline;
+}
+li > p{
+    /* paragraphs are okay within list items, but:
+        need to suppress usual vertical spacing to avoid spacing between list items
+        need to tab non-initial paragraphs to make up for lack of vertical spacing */
+    margin:0px;
+    padding:0px;
+}
+li > p + p{
+    text-indent:1.5em;
+}
+table{
+    border-collapse:collapse;
+}
+table,
+th,
+td{
+    border-color:gray;
+    border-style:solid;
+    border-width:1px;
+    padding:5px;
+}
+.level2{
+    /* indentation for nested list */
+    margin-left:1em;
+}
+.level3{
+    /* indentation for nested list */
+    margin-left:2em;
+}
+.level4{
+    /* indentation for nested list */
+    margin-left:3em;
+}
+.level5{
+    /* indentation for nested list */
+    margin-left:4em;
+}
+/* floating divs for pseudo-frames*/
+#header{
+    padding:0px 0px 0px; /* top, right-left, bottom */
+    overflow:visible;
+    height:200px;
+    white-space:nowrap;
+}
+.frame{
+    /* for toc and entries frames 
+    must specify top and bottom in order for scroll bars to work */
+    position:absolute;
+    top:200px;
+    bottom:0px;
+    overflow:auto;
+    margin:0px 5px 10px; /* top, right-left, bottom */
+}
+#toc{
+    left:5px;
+    width:185px;
+    font-size:smaller;
+    line-height:1.2em;
+}
+#entries{
+    left:190px;
+    padding-left:10px;
+    border-left-style:solid;
+    border-left-width:1px;
+}
+#entries h2{
+    margin-top:14px;
+}
+p.boilerplate span{
+    text-indent:-1em;
+    margin-left:1em;
+    display:block;
+    font-size:smaller;
+    line-height:1.2em;
+}
+.logo{
+    color:#A00000;
+    /*font-style : normal;*/
+}
+dt{
+    font-size:larger;
+    line-height:1.2em;
+    margin-bottom:.2em;
+    margin-top:.7em;
+}
+dt > span:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.arrow{
+    color:teal;
+}
+dl.normal > dt{
+    font-size:inherit;
+}
+dl.normal > dd{
+    font-size:inherit;
+}
+dd > span{
+    display:block;
+    text-indent:-1em;
+    margin-left:1em;
+}
+.offline{
+    opacity:0.4;
+}
+q{
+    quotes:'“' '”' '‘' '’';
+}
+.note {
+    font-size: smaller;
+}
