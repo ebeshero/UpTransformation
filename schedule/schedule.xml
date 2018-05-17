@@ -6,8 +6,8 @@
         <title>XPath</title>
         <slot time="10:00:00">
             <title>Introduction to XPath in eXist-db</title>
-            <act time="PT1H">
-                <desc>Simple XPath expressions</desc>
+            <act time="PT15M">
+                <desc>Getting started</desc>
                 <details>
                     <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link>,
                         click “New XQuery”, and erase all content in the editing window. You’ll type
@@ -16,6 +16,11 @@
                         contain <emph>nodes</emph> (elements, attributes, etc.) or <emph>atomic
                         </emph>values (strings, numbers, etc.) A sequence of one item is nonetheless
                         a sequence, as is an <emph>empty sequence</emph>.</item>
+                </details>
+            </act>
+            <act time="PT45M">
+                <desc>Simple XPath expressions</desc>
+                <details>
                     <item>Strings and numbers (atomic values) are XPath expressions <examples>
                             <example><code>"Hi, Mom!"</code> (strings are enclosed in single or
                                 double quotation marks)</example>
