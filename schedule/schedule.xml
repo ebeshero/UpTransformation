@@ -9,9 +9,10 @@
             <act time="PT15M">
                 <desc>Getting started</desc>
                 <details>
-                    <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link>,
-                        click “New XQuery”, and erase all content in the editing window. You’ll type
-                        your XPath in the editing window and run it with the “Eval” button.</item>
+                    <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> (or
+                        eXist-db on your own laptop, if you’ve installed it), click “New XQuery”,
+                        and erase all content in the editing window. You’ll type your XPath in the
+                        editing window and run it with the “Eval” button.</item>
                     <item>All XPath expressions return a <emph>sequence</emph>. Sequences may
                         contain <emph>nodes</emph> (elements, attributes, etc.) or <emph>atomic
                         </emph>values (strings, numbers, etc.) A sequence of one item is nonetheless
