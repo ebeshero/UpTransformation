@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Schedule</title><link rel="stylesheet" type="text/css" href="http://www.obdurodon.org/css/style.css"/><link rel="stylesheet" type="text/css" href="style.css"/><style type="text/css">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Schedule</title><link rel="stylesheet" type="text/css" href="style.css"/><style type="text/css">
                     body {
                         line-height: 1.25em;
                     }
@@ -26,7 +26,7 @@
                 </ol></li><li>Simple XPath expressions (45 minutes)<ol>
                     <li>Strings and numbers (atomic values) are XPath expressions <ul>
                             <li><code>"Hi, Mom!"</code> (strings are enclosed in single or
-                                double quotation marks)</li>
+                                double quotation marks—straight, not curly!)</li>
                             <li><code>1</code> (numbers are not enclosed in quotation
                                 marks)</li>
                             <li><code>1.0</code> (What should this return?)</li>
@@ -43,7 +43,8 @@
                             <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
                                 parentheses?)</li>
                         </ul></li>
-                    <li>Nested XPath library functions and operations are XPath expressions<ul>
+                    <li>Nested XPath library functions and operations are XPath expressions. Read
+                        them from the inside out<ul>
                             <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code> (Remember those
                                 two sets of parentheses?)</li>
                             <li><code>translate(upper-case('Hi,
