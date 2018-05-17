@@ -12,10 +12,19 @@
                 <style type="text/css">
                     body {
                         line-height: 1.25em;
+                    }
+                    section > ul > li > ol {
+                        display: none;
+                    }
+                    button {
+                        background-color: lightcyan;
                     }</style>
+                <script type="text/javascript" src="schedule.js">/**/</script>
             </head>
             <body>
                 <h1>Schedule</h1>
+                <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
+                        all</button></p>
                 <xsl:apply-templates/>
             </body>
         </html>
