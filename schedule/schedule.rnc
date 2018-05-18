@@ -51,10 +51,11 @@ durtime = attribute time { xsd:duration }
 details = element details { item+ }
 item =
     element item {
-        mixed { (link | code | emph)* },
+        mixed { (link | q | code | emph)* },
         examples?
     }
 link = element link { text }
+q = element q { text }
 examples = element examples { example+ }
 example =
     element example {
