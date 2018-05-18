@@ -101,9 +101,9 @@
         </xsl:if>
     </xsl:template>
     <xsl:template match="examples">
-        <ul>
+        <ol>
             <xsl:apply-templates/>
-        </ul>
+        </ol>
     </xsl:template>
     <xsl:template match="link">
         <a href="{.}">
