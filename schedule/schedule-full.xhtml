@@ -52,21 +52,23 @@
                         </ul></li>
                     <li>XPath library functions (with arguments) are XPath expressions <ul>
                             <li><code>upper-case('dhsi')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a></li>
+                            <li><code>concat('Curly', 'Larry', 'Moe')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a></li>
                             <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
                                 parentheses?)</li>
                         </ul></li>
                     <li>Nested XPath library functions and operations are XPath expressions. Read
                         them from the inside out<ul>
-                            <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code> (Remember those
-                                two sets of parentheses?)</li>
-                            <li><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code>
-                                (How is this different from <code>upper-case(translate('Hi,
-                                    Mom!','AEIOU','xxxxx'))</code>?</li>
+                            <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a> (Remember those two sets
+                                of parentheses?)</li>
+                            <li><code>translate()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a> and <code>upper-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a>: <code>translate(upper-case('Hi,
+                                    Mom!'),'AEIOU','xxxxx')</code> (How is this different from
+                                    <code>upper-case(translate('Hi,
+                                Mom!','AEIOU','xxxxx'))</code>?</li>
                             <li><code>format-dateTime(current-dateTime(),'[h].[m01][Pn] on [FNn],
                                     [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
                         </ul></li>
                     <li>Nested functions are hard to read. Use the <em>arrow
-                            operator</em> (<code>=&gt;</code>) instead<ul>
+                            operator</em><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a> (<code>=&gt;</code>) instead<ul>
                             <li><code>upper-case('Hi, Mom!') =&gt;
                                     translate('AEIOU','xxxxx')</code></li>
                             <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn] on

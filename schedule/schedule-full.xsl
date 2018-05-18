@@ -69,10 +69,16 @@
             <xsl:apply-templates/>
         </code>
         <xsl:if test="@url">
-            <a href="{@url}">
-                <sup>⬀</sup>
-            </a>
+            <xsl:call-template name="pointer">
+                <xsl:with-param name="input" as="attribute(url)" select="@url"/>
+            </xsl:call-template>
         </xsl:if>
+    </xsl:template>
+    <xsl:template name="pointer">
+        <xsl:param name="input" as="xs:string" required="yes"/>
+        <a href="{@url}">
+            <sup>⬀</sup>
+        </a>
     </xsl:template>
     <xsl:template match="details">
         <ol>
@@ -88,6 +94,11 @@
         <em>
             <xsl:apply-templates/>
         </em>
+        <xsl:if test="@url">
+            <xsl:call-template name="pointer">
+                <xsl:with-param name="input" as="attribute(url)" select="@url"/>
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
     <xsl:template match="examples">
         <ul>

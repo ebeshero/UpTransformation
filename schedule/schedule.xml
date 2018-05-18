@@ -63,17 +63,26 @@
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
                                     >upper-case('dhsi')</code></example>
                             <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-concat"
+                                    >concat('Curly', 'Larry', 'Moe')</code></example>
+                            <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-count"
                                     >count(('Curly', 'Larry', 'Moe'))</code> (Why two sets of
                                 parentheses?)</example>
                         </examples></item>
                     <item>Nested XPath library functions and operations are XPath expressions. Read
                         them from the inside out<examples>
-                            <example><code>max((1 + 2, 10 div 5, 6 * 0.2))</code> (Remember those
-                                two sets of parentheses?)</example>
-                            <example><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code>
-                                (How is this different from <code>upper-case(translate('Hi,
-                                    Mom!','AEIOU','xxxxx'))</code>?</example>
+                            <example><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
+                                    >max((1 + 2, 10 div 5, 6 * 0.2))</code> (Remember those two sets
+                                of parentheses?)</example>
+                            <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-translate"
+                                    >translate()</code> and <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
+                                    >upper-case()</code>: <code>translate(upper-case('Hi,
+                                    Mom!'),'AEIOU','xxxxx')</code> (How is this different from
+                                    <code>upper-case(translate('Hi,
+                                Mom!','AEIOU','xxxxx'))</code>?</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
                                     >format-dateTime(current-dateTime(),'[h].[m01][Pn] on [FNn],
