@@ -10,9 +10,9 @@
                 <desc>Getting started</desc>
                 <details>
                     <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> (or
-                        eXist-db on your own laptop, if you’ve installed it), click “New XQuery”,
-                        and erase all content in the editing window. You’ll type your XPath in the
-                        editing window and run it with the “Eval” button.</item>
+                        eXide within eXist-db on your own laptop, if you’ve installed it), click
+                        “New XQuery”, and erase all content in the editing window. You’ll type your
+                        XPath in the editing window and run it with the “Eval” button.</item>
                     <item>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
                         means learning the:<examples>
                             <example>Vocabulary (e.g., the division operator in XPath is <code
@@ -77,12 +77,9 @@
                                 of parentheses?)</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-translate"
-                                    >translate()</code> and <code
-                                    url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
-                                    >upper-case()</code>: <code>translate(upper-case('Hi,
-                                    Mom!'),'AEIOU','xxxxx')</code> (How is this different from
-                                    <code>upper-case(translate('Hi,
-                                Mom!','AEIOU','xxxxx'))</code>?</example>
+                                    >translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code> (How
+                                is this different from <code>upper-case(translate('Hi,
+                                    Mom!','AEIOU','xxxxx'))</code>?)</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
                                     >format-dateTime(current-dateTime(),'[h].[m01][Pn] on [FNn],
@@ -96,12 +93,33 @@
                             <example><code>current-dateTime() => format-dateTime('[h].[m01][Pn] on
                                     [FNn], [D1o] [MNn]')</code></example>
                         </examples></item>
+                    <item>Path expressions may span multiple lines (try it with the examples above),
+                        that is, new-line and space have the same meaning</item>
                 </details>
             </act>
-            <act time="PT30M">
-                <desc>XPath axes and context nodes </desc>
+            <act time="PT15M">
+                <desc>XPath in &lt;oXygen/&gt;</desc>
+                <details>
+                    <item>Launch &lt;oXygen/&gt; editor, hit Ctrl+u (Windows) or Cmd+u (MacOS),
+                        enter <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>,
+                        and hit <q>OK</q>. (Backup copy in
+                            <q>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</q>).</item>
+                    <item>Set the dropdown in the upper left to <q>XPath 3.0</q>. Enter some XPath
+                        expressions (from above, such as <code>1 + 1</code>). Limited to one line;
+                        hit <q>Enter</q> to run the expression.</item>
+                    <item>Go to Window → Show View → XPath/XQuery Builder. Set dropdown in upper
+                        left to <q>XPath 3.0</q>. Enter some XPath expressions. May span multiple
+                        lines; hit <q>Ctrl+Enter</q> (Windows) or Cmd+Enter (MacOS) to run, or click
+                        the red right-pointed triangle.</item>
+                </details>
             </act>
-            <act time="PT30M">
+            <act time="PT25M">
+                <desc>XPath path expressions</desc>
+                <details>
+                    <item>Axes and context nodes</item>
+                </details>
+            </act>
+            <act time="PT20M">
                 <desc>XPath path steps</desc>
             </act>
         </slot>

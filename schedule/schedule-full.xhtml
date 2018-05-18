@@ -16,11 +16,11 @@
         <h2>Monday, June 11: XPath</h2>
         <section><h3>Introduction to XPath in eXist-db (10:00 a.m.–12:00 p.m.)</h3><ul><li>Getting started (20 minutes)<ol>
                     <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a> (or
-                        eXist-db on your own laptop, if you’ve installed it), click “New XQuery”,
-                        and erase all content in the editing window. You’ll type your XPath in the
-                        editing window and run it with the “Eval” button.</li>
+                        eXide within eXist-db on your own laptop, if you’ve installed it), click
+                        “New XQuery”, and erase all content in the editing window. You’ll type your
+                        XPath in the editing window and run it with the “Eval” button.</li>
                     <li>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
-                        means learning the:<ul>
+                        means learning the:<ol>
                             <li>Vocabulary (e.g., the division operator in XPath is <code>div</code><a href="https://www.w3.org/TR/xpath-31/#id-arithmetic"><sup>⬀</sup></a>,
                                 not <code>/</code>)</li>
                             <li>Syntax (e.g., in XPath <em>conditional expressions</em>,
@@ -28,53 +28,68 @@
                                 is required: <code>if (condition) then 1 else ()</code>)</li>
                             <li>Function library (e.g., <code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a> and <code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> are functions, but there is no
                                     <code>length()</code> or <code>len()</code>)</li>
-                        </ul></li>
+                        </ol></li>
                     <li>All XPath expressions return a <em>sequence</em>. Sequences may
                         contain <em>nodes</em> (elements, attributes, etc.), <em>atomic
                         </em>values (strings, numbers, etc.), or both. A sequence of one item is
                         nonetheless a sequence, as is an <em>empty sequence</em>. Nested
                         sequences are automatically flattened.</li>
                 </ol></li><li>Simple XPath expressions (40 minutes)<ol>
-                    <li>Strings and numbers (atomic values) are XPath expressions <ul>
+                    <li>Strings and numbers (atomic values) are XPath expressions <ol>
                             <li><code>"Hi, Mom!"</code> (strings are enclosed in single or
                                 double quotation marks—straight, not curly!)</li>
                             <li><code>1</code> (numbers are not enclosed in quotation
                                 marks)</li>
                             <li><code>1.0</code> (What should this return? <em>lexical
                                     space</em> and <em>value space</em>)</li>
-                        </ul></li>
-                    <li>Arithmetic expressions are XPath expressions<ul>
+                        </ol></li>
+                    <li>Arithmetic expressions are XPath expressions<ol>
                             <li><code>1 + 1</code></li>
-                        </ul></li>
-                    <li>XPath library functions (with no arguments) are XPath expressions<ul>
+                        </ol></li>
+                    <li>XPath library functions (with no arguments) are XPath expressions<ol>
                             <li><code>current-date()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-current-date"><sup>⬀</sup></a></li>
                             <li><code>current-dateTime()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-current-dateTime"><sup>⬀</sup></a></li>
-                        </ul></li>
-                    <li>XPath library functions (with arguments) are XPath expressions <ul>
+                        </ol></li>
+                    <li>XPath library functions (with arguments) are XPath expressions <ol>
                             <li><code>upper-case('dhsi')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a></li>
                             <li><code>concat('Curly', 'Larry', 'Moe')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a></li>
                             <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
                                 parentheses?)</li>
-                        </ul></li>
+                        </ol></li>
                     <li>Nested XPath library functions and operations are XPath expressions. Read
-                        them from the inside out<ul>
+                        them from the inside out<ol>
                             <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a> (Remember those two sets
                                 of parentheses?)</li>
-                            <li><code>translate()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a> and <code>upper-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a>: <code>translate(upper-case('Hi,
-                                    Mom!'),'AEIOU','xxxxx')</code> (How is this different from
-                                    <code>upper-case(translate('Hi,
-                                Mom!','AEIOU','xxxxx'))</code>?</li>
+                            <li><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a> (How
+                                is this different from <code>upper-case(translate('Hi,
+                                    Mom!','AEIOU','xxxxx'))</code>?)</li>
                             <li><code>format-dateTime(current-dateTime(),'[h].[m01][Pn] on [FNn],
                                     [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
-                        </ul></li>
+                        </ol></li>
                     <li>Nested functions are hard to read. Use the <em>arrow
-                            operator</em><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a> (<code>=&gt;</code>) instead<ul>
+                            operator</em><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a> (<code>=&gt;</code>) instead<ol>
                             <li><code>upper-case('Hi, Mom!') =&gt;
                                     translate('AEIOU','xxxxx')</code></li>
                             <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn] on
                                     [FNn], [D1o] [MNn]')</code></li>
-                        </ul></li>
-                </ol></li><li>XPath axes and context nodes  (30 minutes)</li><li>XPath path steps (30 minutes)</li></ul></section>
+                        </ol></li>
+                    <li>Path expressions may span multiple lines (try it with the examples above),
+                        that is, new-line and space have the same meaning</li>
+                </ol></li><li>XPath in &lt;oXygen/&gt; (15 minutes)<ol>
+                    <li>Launch &lt;oXygen/&gt; editor, hit Ctrl+u (Windows) or Cmd+u (MacOS),
+                        enter <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>,
+                        and hit <q>OK</q>. (Backup copy in
+                            <q>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</q>).</li>
+                    <li>Set the dropdown in the upper left to <q>XPath 3.0</q>. Enter some XPath
+                        expressions (from above, such as <code>1 + 1</code>). Limited to one line;
+                        hit <q>Enter</q> to run the expression.</li>
+                    <li>Go to Window → Show View → XPath/XQuery Builder. Set dropdown in upper
+                        left to <q>XPath 3.0</q>. Enter some XPath expressions. May span multiple
+                        lines; hit <q>Ctrl+Enter</q> (Windows) or Cmd+Enter (MacOS) to run, or click
+                        the red right-pointed triangle.</li>
+                </ol></li><li>XPath path expressions (25 minutes)<ol>
+                    <li>Axes and context nodes</li>
+                </ol></li><li>XPath path steps (20 minutes)</li></ul></section>
         <section><h3>Exploring document structures and data with XPath (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath functions (40 minutes)</li><li>XPath function signatures and cardinality (35 minutes)</li><li>XPath predicates (40 minutes)</li><li>Read and evaluate XML projects with XPath (40 minutes)</li></ul></section>
     </section>
     <section>
