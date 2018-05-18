@@ -6,20 +6,37 @@
         <title>XPath</title>
         <slot time="10:00:00">
             <title>Introduction to XPath in eXist-db</title>
-            <act time="PT15M">
+            <act time="PT20M">
                 <desc>Getting started</desc>
                 <details>
                     <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> (or
                         eXist-db on your own laptop, if you’ve installed it), click “New XQuery”,
                         and erase all content in the editing window. You’ll type your XPath in the
                         editing window and run it with the “Eval” button.</item>
+                    <item>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
+                        means learning the:<examples>
+                            <example>Vocabulary (e.g., the division operator in XPath is <code
+                                    url="https://www.w3.org/TR/xpath-31/#id-arithmetic">div</code>,
+                                not <code>/</code>)</example>
+                            <example>Syntax (e.g., in XPath <emph>conditional expressions</emph>,
+                                the <code url="https://www.w3.org/TR/xpath-31/#doc-xpath31-IfExpr"
+                                    >if</code> test must be parenthesized and an <code>else</code>
+                                is required: <code>if (condition) then 1 else ()</code>)</example>
+                            <example>Function library (e.g., <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-string-length"
+                                    >string-length()</code> and <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-count"
+                                    >count()</code> are functions, but there is no
+                                    <code>length()</code> or <code>len()</code>)</example>
+                        </examples></item>
                     <item>All XPath expressions return a <emph>sequence</emph>. Sequences may
-                        contain <emph>nodes</emph> (elements, attributes, etc.) or <emph>atomic
-                        </emph>values (strings, numbers, etc.) A sequence of one item is nonetheless
-                        a sequence, as is an <emph>empty sequence</emph>.</item>
+                        contain <emph>nodes</emph> (elements, attributes, etc.), <emph>atomic
+                        </emph>values (strings, numbers, etc.), or both. A sequence of one item is
+                        nonetheless a sequence, as is an <emph>empty sequence</emph>. Nested
+                        sequences are automatically flattened.</item>
                 </details>
             </act>
-            <act time="PT45M">
+            <act time="PT40M">
                 <desc>Simple XPath expressions</desc>
                 <details>
                     <item>Strings and numbers (atomic values) are XPath expressions <examples>
@@ -27,7 +44,8 @@
                                 double quotation marks—straight, not curly!)</example>
                             <example><code>1</code> (numbers are not enclosed in quotation
                                 marks)</example>
-                            <example><code>1.0</code> (What should this return?)</example>
+                            <example><code>1.0</code> (What should this return? <emph>lexical
+                                    space</emph> and <emph>value space</emph>)</example>
                         </examples></item>
                     <item>Arithmetic expressions are XPath expressions<examples>
                             <example><code>1 + 1</code></example>
@@ -53,15 +71,17 @@
                         them from the inside out<examples>
                             <example><code>max((1 + 2, 10 div 5, 6 * 0.2))</code> (Remember those
                                 two sets of parentheses?)</example>
-                            <example><code>translate(upper-case('Hi,
-                                Mom!'),'AEIOU','xxxxx')</code></example>
+                            <example><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code>
+                                (How is this different from <code>upper-case(translate('Hi,
+                                    Mom!','AEIOU','xxxxx'))</code>?</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
                                     >format-dateTime(current-dateTime(),'[h].[m01][Pn] on [FNn],
                                     [D1o] [MNn]')</code></example>
                         </examples></item>
-                    <item>Nested functions are hard to read. Use the <emph>arrow operator</emph>
-                            (<code>=&gt;</code>) instead<examples>
+                    <item>Nested functions are hard to read. Use the <emph
+                            url="https://www.w3.org/TR/xpath-31/#id-arrow-operator">arrow
+                            operator</emph> (<code>=&gt;</code>) instead<examples>
                             <example><code>upper-case('Hi, Mom!') =>
                                     translate('AEIOU','xxxxx')</code></example>
                             <example><code>current-dateTime() => format-dateTime('[h].[m01][Pn] on

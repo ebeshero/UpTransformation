@@ -14,7 +14,7 @@
                         line-height: 1.25em;
                     }
                     section > ul > li > ol {
-                        display: none;
+                        display: block;
                     }
                     button {
                         background-color: lightcyan;

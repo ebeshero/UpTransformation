@@ -58,6 +58,6 @@ link = element link { text }
 examples = element examples { example+ }
 example =
     element example {
-        mixed { code* }
+        mixed { (emph | code)* }
     }
-emph = element emph { text }
+emph = element emph { url?, text }
