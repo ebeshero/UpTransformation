@@ -5,9 +5,9 @@
     <day d="Monday, June 11">
         <title>XPath</title>
         <slot time="10:00:00">
-            <title>Introduction to XPath in eXist-db</title>
+            <title>Introduction to XPath in eXist-db and &lt;oXygen/&gt;</title>
             <act time="PT20M">
-                <desc>Getting started</desc>
+                <desc>Getting started with XPath and eXide</desc>
                 <details>
                     <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> (or
                         eXide within eXist-db on your own laptop, if you’ve installed it), click
@@ -100,23 +100,55 @@
             <act time="PT15M">
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Launch &lt;oXygen/&gt; editor, hit Ctrl+u (Windows) or Cmd+u (MacOS),
-                        enter <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>,
+                    <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
+                        (MacOS), copy and paste
+                            <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
                         and hit <q>OK</q>. (Backup copy in
-                            <q>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</q>).</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)</item>
                     <item>Set the dropdown in the upper left to <q>XPath 3.0</q>. Enter some XPath
                         expressions (from above, such as <code>1 + 1</code>). Limited to one line;
-                        hit <q>Enter</q> to run the expression.</item>
-                    <item>Go to Window → Show View → XPath/XQuery Builder. Set dropdown in upper
-                        left to <q>XPath 3.0</q>. Enter some XPath expressions. May span multiple
-                        lines; hit <q>Ctrl+Enter</q> (Windows) or Cmd+Enter (MacOS) to run, or click
-                        the red right-pointed triangle.</item>
+                        hit <q>Enter</q> to run the expression. (This widget works only if you have
+                        an XML document open in &lt;oXygen/&gt;, even if you aren’t using the
+                        document in your XPath expression.)</item>
+                    <item>Go to Window → Show View → XPath/XQuery Builder. Set the dropdown in the
+                        upper left to <q>XPath 3.0</q>. Enter some XPath expressions. May span
+                        multiple lines; hit <q>Ctrl+Enter</q> (Windows) or <q>Cmd+Enter</q> (MacOS)
+                        to run, or click the red right-pointed triangle. </item>
                 </details>
             </act>
             <act time="PT25M">
                 <desc>XPath path expressions</desc>
                 <details>
-                    <item>Axes and context nodes</item>
+                    <item>An XPath <emph>path expression</emph> is a sequence of steps, each of
+                        which proceeds from one node (called the <emph>context node</emph>) to a
+                        sequence of zero (!) or more others. It returns the final destination nodes
+                        in document order (order of start tags). (Details at Kay 1227)</item>
+                    <item>It is not an error to ask for something that doesn’t exist; it just
+                        returns an empty sequence.</item>
+                    <item>An XPath expression that begins with a slash (<code>/</code>) starts at
+                        the <emph>document node</emph>. Any other XPath expression starts at the
+                        current context<examples>
+                            <example>blah</example>
+                            <example>blah</example>
+                        </examples></item>
+                    <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
+                        &lt;oXygen/&gt; XPath exploration interfaces take care of them for you
+                        behind the scenes.</item>
+                    <item>Sample XPath path expression: <code>/TEI/text/body/div</code>: start at
+                        the document node, then navigate to a sequence of all its
+                            <code>&lt;TEI&gt;</code> children. For each of those, navigate to all of
+                        their <code>&lt;text&gt;</code> children, then to their
+                            <code>&lt;body&gt;</code> children, and then to their
+                            <code>&lt;div&gt;</code> children.</item>
+                    <item>XPath steps are separated by single slashes (<code>/</code>).</item>
+                    <item>Path steps move along axes; see:
+                            <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.
+                        The default is the <emph>child</emph> axis.</item>
+                    <item>Each path step returns a sequence of zero or more context nodes for the
+                        next path steps.</item>
+                    <item>Path expressions may be combined with other types of expressions, e.g.,
+                            <q>navigate from the document node to all of the acts in the play and
+                            then return a count of the speeches in each act</q>.</item>
                 </details>
             </act>
             <act time="PT20M">
