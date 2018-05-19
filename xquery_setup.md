@@ -5,19 +5,9 @@ Our course begins by exploring XPath and XQuery inside eXist-db, an open-source 
 eXist-db requires Java SE 1.8, so if you did not have it installed before you arrived, please do so now: <http://www.oracle.com/technetwork/java/javase/downloads/index.html>. If you aren’t sure whether you have Java (or the right version of Java) installed, follow the instructions at <https://www.java.com/en/download/help/version_manual.xml> to check.
 
 We will use eXide, the integrated development environment (IDE) bundled with eXist-db. 
-After you install and launch eXist-db, you can open eXide by clicking on the eXide icon in your eXist dashboard. If you are running eXist on your own machine with default settings, you can open your dashboard (locally) in a web browser at the address <http://localhost:8080>, and you can launch eXide directly, bypassing the dashboard, with <http://localhost:8080/exist/apps/eXide/>.
+After you install and launch eXist-db, access eXide by clicking on the eXide icon in your eXist dashboard. If you are running eXist on your own machine with default settings, you can open your dashboard (locally) in a web browser at the address <http://localhost:8080>, and you can launch eXide directly, bypassing the dashboard, with <http://localhost:8080/exist/apps/eXide/>.
 
-When you install eXist-db on your own machine, you also install all documentation for both the XQuery function library (core XPath and XQuery functions) and eXist-db itself. The default location for the function library documentation on your local machine is <http://localhost:8080/exist/apps/fundocs/> (if you’re consulting local documentation for the first time, you’ll be prompted to generate it first), and you can also find a copy on the eXist-db demo server at <http://demo.exist-db.org/exist/apps/fundocs/> inside the database. You can eXide and use interactive tutorials on the demo server any time you like; eXide is located at <http://demo.exist-db.org/exist/apps/eXide/index.html>, and in our class we will be accessing Elisa's web installation at [http://newtfire.org:8338](http://newtfire.org:8338). Since you do not have permissions to write to either server, you can’t save your own documents there. So if you want to experiment with saving your own files, install your own copy of eXist-db on your own machine.
-<!-- ebb: EDITED TO HERE! -->
-When in the IDE you will notice some similarities and differences of XQuery compared to other languages we’ve visited in this Institute, such as Python, Bash shell scripting, and XPath. 
-
-For these tutorials, we’ll be using the following XML documents, which you can download from the GitHub repo and then save into your local copy of eXist-db. You can do that by “Collections” icon on your eXist-db dashboard, creating a new collection under the `/db` root collection, and storing the XML documents there.
-
-* [test_1.xml](test_1.xml) (small practice sample)
-* [test_2.xml](test_2.xml) (another small practice sample)
-* [ozymandias.xml](ozymandias.xml) (TEI version of Shelley’s “Ozymandias”)
-* [ozymandias_2.xml](ozymandias_2.xml) (the same, but with richer markup to correct the spelling of “desart”)
-* [hamlet.xml](hamlet.xml) (the WordHoard TEI version of _Hamlet_)
+When you install eXist-db on your own machine, you also install all documentation for both the XQuery function library (core XPath and XQuery functions) and eXist-db itself. The default location for the function library documentation on your local machine is <http://localhost:8080/exist/apps/fundocs/> (if you’re consulting local documentation for the first time, you’ll be prompted to generate it first). You can also find a copy on the eXist-db demo server on the internet at <http://demo.exist-db.org/exist/apps/fundocs/>. You can access eXide and use interactive tutorials online on the demo server any time you like; that instance of eXide is located at <http://demo.exist-db.org/exist/apps/eXide/index.html>. eXist-db is often installed on web servers as a “background service” to support XML-based projects online, and in our class we will be accessing Elisa’s web installation at [http://newtfire.org:8338](http://newtfire.org:8338). If you have access to a web server, you may wish to explore the [advanced eXist-db documentation](https://exist-db.org/exist/apps/doc/advanced-installation.xml#headless) to try installing eXist-db there and learn how to use it to support dynamic searches. For now, though, unless you have permissions to save files on the web installations of eXist-db, you can’t upload and save your own documents there. That is why we recommend installing your own local copy of eXist-db on your machine, so you can practice and experiment with saving and querying your own files.
 
 ## Quick notes
 
@@ -35,7 +25,9 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 
 In order to start writing XQuery to explore documents, we first have to locate those documents in the eXist-db database. eXist-db, and XQuery in general, uses the term _collection_ to refer to what we would call a directory or subdirectory on our local file system. The database is organized hierarchically, with a root collection called `/db`, and we can navigate from there to a file or subcollection with a path, as we would with a regular file system.
 
-To address the specific document or collections you wish to work with from the database, we typically assign it to a variable using either the `doc()` (for  single document) or `collection()` (for multiple documents) function, with the full path as the argument. You can create a variable in two ways, with `declare variable` (declarations must be at the beginning of your document, before any other XQuery code) or with `let` (as part of a FLWOR expression, which we discuss below). Here’s the `declare variable` syntax:
+To address the specific document or collections you wish to work with from the database, we typically assign it to a variable using either the `doc()` (for  single document) or `collection()` (for multiple documents) function, with the full path as the argument. You can create two different kinds of variables:
+1) a global variable, with `declare variable` (declarations must be at the beginning of your document, before any other XQuery code)
+1) a variable in a FLOWR expression, usually introduced by `let`, which we discuss below). Here’s the `declare variable` syntax:
 
 ```xquery
 declare variable $data := doc("/db/neh-2017/hamlet.xml");
@@ -61,7 +53,7 @@ and
 let $data as document-node() := doc("/db/neh-2017/hamlet.xml")
 ```
 
-New coders sometimes ignore the `as` operator because 1) it isn’t required and 2) it can provoke annoying error messages. [Those error messages are your friends!](../week_1/dont_panic.md) If you omit the `as` operator and make an error, you’ve still made an error, and it’s better to know about the error and correct it than to get the wrong results without being aware that they’re wrong.
+New coders sometimes ignore the `as` operator because 1) it isn’t required and 2) it can provoke annoying error messages. If you omit the `as` operator and make an error, you’ve still made an error, and it’s better to know about the error and correct it than to get the wrong results without being aware that they’re wrong.
 
 In summary, each XQuery that you write will begin with something like the following:
 
@@ -151,7 +143,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 count(distinct-values(doc('/db/neh-2017/hamlet.xml')//tei:speaker))
 ```
 
-Everything happens in one line here, which has the advantage of concision, but at the expense of making the code harder to write (it’s easy to lose count and wind up with unbalanced paraentheses) and harder to debug. For example, if you get the wrong result, you could have pointed to the wrong document, you could have used the wrong element name to find the speakers, you could have made an error in trying to get the `distinct-values()` of something, you could have made an error in trying to `count()` something, or you could have all of the pieces correct, but in the wrong order. For example, if you put `distinct-values()` outside `count()`, instead of the reverse, you’ll get one number, but it will be a different number, and the wrong one. Why is that the case?
+Everything happens in one line here, but at the expense of making the code hard to write (it’s easy to lose count and wind up with unbalanced parentheses) and difficult to debug. For example, if you get the wrong result, you could have pointed to the wrong document, you could have used the wrong element name to find the speakers, you could have made an error in trying to get the `distinct-values()` of something, you could have made an error in trying to `count()` something, or you could have all of the pieces correct, but in the wrong order. For example, if you put `distinct-values()` outside `count()`, instead of the reverse, you’ll get one number, but it will be a different number, and the wrong one. (Why is that the case?)
 
 With a FLWOR expression, it’s easier to segment, change, and build your results:
 
@@ -164,21 +156,8 @@ let $count := count($distinct)
 return $count
 ```
 
-No one would ever write such a simple expression this way, but this example shows you how you can create individual steps by declaring variables. During development, we might write each step separately and return the result to verify that we are asking for what we think we’re asking for. If we wanted to change the code to focus on a single scene, instead of the entire play, or to get us the distinct speakers for each act, or to count the speakers by act, we could do so by adding a few lines and editing the result.
-
-## Your turn
-
-Experiment now with writing your own FLWOR expressions, and then we’ll tackle Michael Kay’s [Blooming FLWOR—an introduction to the XQuery FLWOR expression](http://www.stylusstudio.com/xquery-flwor.html) together.
+This example shows you how you can create individual steps by declaring variables. During development, we might write each step separately and return the result to verify that we are asking for what we think we’re asking for. If we wanted to change the code to focus on a single scene, instead of the entire play, or to get us the distinct speakers for each act, or to count the speakers by act, we could do so by adding a few lines and editing the result.
 
 
-SCRAP???
+For more examples and explanation of FLWOR expressions, see Michael Kay’s [Learn XQuery in 10 Minutes](http://www.stylusstudio.com/xquery-primer.html) (which we think will take more than 10 minutes, but it’s a great longer introduction and resource for reference. See also Kay’s [Blooming FLWOR—an introduction to the XQuery FLWOR expression](http://www.stylusstudio.com/xquery-flwor.html).
 
-
-## A 10-minute introduction to XQuery
-
-Michael Kay’s [Learn XQuery in 10 Minutes](http://www.stylusstudio.com/xquery-primer.html) tutorial will take you more than 10 minutes, but it’s a great longer introduction and resource for reference. Kay describes XQuery as:
-
-> … a query language for data stored in XML form. So its main role is to get information out of XML databases—this includes relational databases that store XML data, or that present an XML view of the data they hold.
-
-
-Unlike XSLT, which is a programming language for transforming XML documents, XQuery is not written in XML and it uses more of an imperative (step-by-step) processing model than XSLT. For these reasons, new users may find it more intuitive (if you’ve ever worked with SQL, a language for interacting with relationship databases, you’ll find XQuery very similar) and easier to write than XSLT. Because we typically use XQuery to engage with an XML database, it allows us to query many documents at a time, and to create dynamic HTML output, which responds to user-specified paramaters. Don’t let learning XQuery turn you away from using XSLT; although they may overlap for many uses, there are situations where XSLT may be simpler, and more appropriate, than XQuery.
