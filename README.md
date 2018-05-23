@@ -3,5 +3,5 @@
 * [Course Description](dhsi-XPath_CourseDescription.md) 
 * [Syllabus](schedule/schedule-full.xhtml)
 * [References](References.md)
-* [Course Pack](XPath_coursepak.pdf)
+* [Course Pack](https://github.com/ebeshero/UpTransformation/blob/master/coursepack/XPath_coursepak.pdf)
 
