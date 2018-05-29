@@ -1,7 +1,3 @@
-# XPath for Document Archeology and Project Management
-## course number 44
-### when: offered in week 2 of the [Digital Humanities Summer Institute: 11-15 June, 2018](http://www.dhsi.org/courses.php) 
-#### [Link to Register for DHSI Courses](https://www.regonline.ca/registration/Checkin.aspx?EventID=2039249)
 ### Instructors: Elisa Beshero-Bondar and David J. Birnbaum
 
 ### Description: 
