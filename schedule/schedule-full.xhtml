@@ -126,8 +126,38 @@
     </section>
     <section>
         <h2>Tuesday, June 12: XPath and XQuery</h2>
-        <section><h3>Introduction to XPath in XQuery (9:30 a.m.–12:00 p.m.)</h3><ul><li>The seven types of nodes (30 minutes)</li><li>Neglected XPath axes (<code>ancestor::</code>, <code>preceding::</code> and
-                        <code>following::</code>, <code>self::</code>, etc.) (30 minutes)</li><li>Don’t confuse XPath predicates with path steps (30 minutes)</li><li>Regex in XPath (30 minutes)</li><li>XPath in XQuery (30 minutes)</li></ul></section>
+        <section><h3>Introduction to XPath in eXist-db (9:30 a.m.–12:00 p.m.)</h3><ul><li>The seven types of nodes (and how to access them in eXist-db) (35 minutes)<ol>
+                    <li><code>document()</code> (This node contains the root element, but sits above it).</li>
+                    <li><code>collection() (This node contains a collection of XML documents.)</code></li>
+                    <li><code>element() (Review the anatomy of an element.)</code> 
+                    </li>
+                    <li><code>text()</code> (This is not a function, but an actual node. <ol><li>Look at the difference between <code>text()</code> and two functions that return text extracted from the tree: <code>string()</code> and <code>data()</code></li>
+                    <li>Access <code>text()</code> in <em>mixed content</em> using the <code>preceding-sibling::</code> and <code>following-sibling::</code> axes </li>
+                    </ol></li>
+                    <li><code>attribute()</code> (The attribute node has a special relationship to its element on the <code>parent::</code> axis, but otherwise has no relationship to other elements on the tree.)
+                        <ol><li><code>string()</code> function to retrieve the value in eXist</li></ol>
+                       </li>
+                    <li><code>comment()</code>  
+                    <ol><li><code>&lt;!-- --&gt;</code></li></ol>
+                    </li>
+                    <li><code>namespace()</code> (XML documents can written in multiple namespaces, and the namespace node lets us navigate them.) 
+                    <ol>
+                        <li>Navigate the namespaces of an XHTML and SVG document. </li>
+                    </ol>
+                    </li>
+                </ol></li><li>Neglected XPath axes (35 minutes)<ol><li><code>ancestor::</code> <ol><li>Navigate a TEI document from a node in the <code>&lt;text&gt;</code> to a corresponding node in the <code>&lt;teiHeader&gt;</code>.</li></ol> </li>
+                    <li><code>preceding::</code> and <code>following::</code><ol><li>Access stage directions in MRM’s <em>Charles the First</em></li></ol></li>
+                    <li><code>self:: (.) Often used in predicates.</code>
+                    <ol><li>String functions: <code>matches(., '^[A-Z]')</code></li></ol></li>
+                </ol></li><li>Don’t confuse XPath predicates with path steps (10 minutes)</li><li>String Functions Intensive Unit: Regex in XPath (40 minutes)<ol><li><code>contains()</code> vs. <code>matches()</code></li>
+                <li><code>translate()</code> vs. <code>replace()</code></li>
+                    <li><code>substring-before()</code> and <code>substring-after()</code> vs. <code>tokenize()</code></li>
+                </ol></li><li>XPath in XQuery: Introducing Variables (30 minutes)<ol>
+                    <li>Global variables and syntax, how to return their values in eXist-db</li>
+                    <li>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>, <q>Return</q></li>
+                    <li>The simplest FLWOR: <q>let</q> and <q>return</q></li>
+                    
+                </ol></li></ul></section>
         <section><h3>XQuery flow control (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath expressions with functions and predicates (40 minutes)</li><li><code>for</code> loops; sequence and range variables (40 minutes)</li><li>FLWOR statements (XQuery) (40 minutes)</li><li>XPath predicates and the <code>where</code> statement (35 minutes)</li></ul></section>
     </section>
     <section>
