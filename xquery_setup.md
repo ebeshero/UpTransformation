@@ -1,8 +1,8 @@
 # Introducing eXist-db and XQuery
 
-Our course begins by exploring XPath and XQuery inside eXist-db, an open-source XML database with an XQuery engine that incorporates XPath processing. You can read about eXist-db at their [homepage](http://exist-db.org/exist/apps/homepage/index.html) and click on the “Download eXistdb” button to scroll to a link where you can download the most recent stable release.
+We will be exploring XPath and XQuery inside eXist-db, an open-source XML database with an XQuery engine that incorporates XPath processing. You can read about eXist-db at their [homepage](http://exist-db.org/exist/apps/homepage/index.html) and click on the “Download eXistdb” button to scroll to a link where you can download the most recent stable release.
 
-eXist-db requires Java SE 1.8, so if you did not have it installed before you arrived, please do so now: <http://www.oracle.com/technetwork/java/javase/downloads/index.html>. If you aren’t sure whether you have Java (or the right version of Java) installed, follow the instructions at <https://www.java.com/en/download/help/version_manual.xml> to check.
+eXist-db requires Java SE 1.8, and if you do not have this, you will need to download and install it first: <http://www.oracle.com/technetwork/java/javase/downloads/index.html>. If you are not sure whether you have Java (or the right version of Java) installed, follow the instructions at <https://www.java.com/en/download/help/version_manual.xml> to check.
 
 We will use eXide, the integrated development environment (IDE) bundled with eXist-db. 
 After you install and launch eXist-db, access eXide by clicking on the eXide icon in your eXist dashboard. If you are running eXist on your own machine with default settings, you can open your dashboard (locally) in a web browser at the address <http://localhost:8080>, and you can launch eXide directly, bypassing the dashboard, with <http://localhost:8080/exist/apps/eXide/>.
@@ -161,3 +161,4 @@ This example shows you how you can create individual steps by declaring variable
 
 For more examples and explanation of FLWOR expressions, see Michael Kay’s [Learn XQuery in 10 Minutes](http://www.stylusstudio.com/xquery-primer.html) (which we think will take more than 10 minutes, but it’s a great longer introduction and resource for reference. See also Kay’s [Blooming FLWOR—an introduction to the XQuery FLWOR expression](http://www.stylusstudio.com/xquery-flwor.html).
 
+Thanks to David J. Birnbaum and the organizers of the [NEH Institute, Make *your* edition: models and methods for digital textual scholarship](https://pittsburgh-neh-institute.github.io/Institute-Materials-2017/), held in Pittsburgh, PA  July 2017 for permission to adapt this introduction to XQuery from their course material. 
