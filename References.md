@@ -18,7 +18,7 @@ There are no XPath-specific reference books, but XPath is discussed in  the book
 
 ### XQuery
 
-One of the best resources for exploring and building with XQuery is the eXist XML database. We have prepared [instructions to install this locally on your computer](xquery_setup.md) to upload your own files there. 
+One of the best resources for exploring and building with XQuery is the eXist XML database. We have prepared [instructions to install this locally on your computer](xquery_setup.html) to upload your own files there. 
 
 The only general XQuery book you need is Priscilla Walmsley, _XQuery_, 2nd edition, 2015, O’Reilly. It contains documentation of both XPath functions used in XQuery and XQuery itself. If you use eXist-db as your XML database, we also recommend Erik Siegel and Adam Retter, _eXist: a NoSQL document database and application platform_, O’Reilly, 2014. The Mulberry Technologies [XQuery 1.0 Quick Reference](http://mulberrytech.com/quickref/xquery1.pdf) and [XQuery 1.0 and XPath 2.0 Functions and Operators Quick Reference](http://mulberrytech.com/quickref/functions.pdf) by Sam Wilmott are excellent, but they do not include more recent features. If you use eXist-db, you should subscribe to the [exist-open](https://sourceforge.net/projects/exist/lists/exist-open) mailing list.
 
