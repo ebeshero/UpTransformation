@@ -174,22 +174,57 @@
     <day d="Tuesday, June 12">
         <title>XPath and XQuery</title>
         <slot time="09:30:00">
-            <title>Introduction to XPath in XQuery</title>
-            <act time="PT30M">
-                <desc>The seven types of nodes</desc>
+            <title>Introduction to XPath in eXist-db</title>
+            <act time="PT35M">
+                <desc>The seven types of nodes (and how to access them in eXist-db)</desc>
+                <details>
+                    <item><code>document()</code> (This node contains the root element, but sits above it).</item>
+                    <item><code>collection() (This node contains a collection of XML documents.)</code></item>
+                    <item><code>element() (Review the anatomy of an element.)</code> 
+                    </item>
+                    <item><code>text()</code> (This is not a function, but an actual node. <examples><example>Look at the difference between <code>text()</code> and two functions that return text extracted from the tree: <code>string()</code> and <code>data()</code></example>
+                    <example>Access <code>text()</code> in <emph>mixed content</emph> using the <code>preceding-sibling::</code> and <code>following-sibling::</code> axes </example>
+                    </examples></item>
+                    <item><code>attribute()</code> (The attribute node has a special relationship to its element on the <code>parent::</code> axis, but otherwise has no relationship to other elements on the tree.)
+                        <examples><example><code>string()</code> function to retrieve the value in eXist</example></examples>
+                       </item>
+                    <item><code>comment()</code>  
+                    <examples><example><code>&lt;!-- --&gt;</code></example></examples>
+                    </item>
+                    <item><code>namespace()</code> (XML documents can written in multiple namespaces, and the namespace node lets us navigate them.) 
+                    <examples>
+                        <example>Navigate the namespaces of an XHTML and SVG document. </example>
+                    </examples>
+                    </item>
+                </details>
             </act>
-            <act time="PT30M">
-                <desc>Neglected XPath axes (<code>ancestor::</code>, <code>preceding::</code> and
-                        <code>following::</code>, <code>self::</code>, etc.)</desc>
+            <act time="PT35M">
+                <desc>Neglected XPath axes</desc>
+                <details><item><code>ancestor::</code> <examples><example>Navigate a TEI document from a node in the <code>&lt;text&gt;</code> to a corresponding node in the <code>&lt;teiHeader&gt;</code>.</example></examples> </item>
+                    <item><code>preceding::</code> and <code>following::</code><examples><example>Access stage directions in MRM’s <emph>Charles the First</emph></example></examples></item>
+                    <item><code>self:: (.) Often used in predicates.</code>
+                    <examples><example>String functions: <code>matches(., '^[A-Z]')</code></example></examples></item>
+                </details>
             </act>
-            <act time="PT30M">
+            <act time="PT10M">
+                <!--ebb: Does this need 30 minutes? I'm cutting back b/c we can combine with other units. Giving time to string functions-->
                 <desc>Don’t confuse XPath predicates with path steps</desc>
             </act>
-            <act time="PT30M">
-                <desc>Regex in XPath</desc>
+            <act time="PT40M">
+                <desc>String Functions Intensive Unit: Regex in XPath</desc>
+                <details><item><code>contains()</code> vs. <code>matches()</code></item>
+                <item><code>translate()</code> vs. <code>replace()</code></item>
+                    <item><code>substring-before()</code> and <code>substring-after()</code> vs. <code>tokenize()</code></item>
+                </details>
             </act>
             <act time="PT30M">
-                <desc>XPath in XQuery</desc>
+                <desc>XPath in XQuery: Introducing Variables</desc>
+                <details>
+                    <item>Global variables and syntax, how to return their values in eXist-db</item>
+                    <item>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>, <q>Return</q></item>
+                    <item>The simplest FLWOR: <q>let</q> and <q>return</q></item>
+                    
+                </details>
             </act>
         </slot>
         <slot time="13:15:00">
