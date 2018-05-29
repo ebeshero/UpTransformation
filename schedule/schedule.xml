@@ -179,8 +179,8 @@
                 <desc>The seven types of nodes (and how to access them in eXist-db)</desc>
                 <details>
                     <item><code>document()</code> (This node contains the root element, but sits above it).</item>
-                    <item><code>collection() (This node contains a collection of XML documents.)</code></item>
-                    <item><code>element() (Review the anatomy of an element.)</code> 
+                    <item><code>collection()</code> (This node contains a collection of XML documents.)</item>
+                    <item><code>element()</code> (Review the anatomy of an element.) 
                     </item>
                     <item><code>text()</code> (This is not a function, but an actual node. <examples><example>Look at the difference between <code>text()</code> and two functions that return text extracted from the tree: <code>string()</code> and <code>data()</code></example>
                     <example>Access <code>text()</code> in <emph>mixed content</emph> using the <code>preceding-sibling::</code> and <code>following-sibling::</code> axes </example>
