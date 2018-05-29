@@ -1,4 +1,4 @@
-# XPath for Document Archaeology and Project Management: References
+# Resources and References
 
 ## Specifications
 
