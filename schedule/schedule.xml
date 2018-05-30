@@ -56,7 +56,7 @@
             <act time="PT40M">
                 <desc>Simple XPath expressions</desc>
                 <details>
-                    <item>Strings and numbers (atomic values) are XPath expressions <examples>
+                    <item>Review: strings and numbers (atomic values) are XPath expressions <examples>
                             <example><code>"Hi, Mom!"</code> (strings are enclosed in single or
                                 double quotation marks—straight, not curly!)</example>
                             <example><code>1</code> (numbers are not enclosed in quotation
@@ -66,6 +66,8 @@
                         </examples></item>
                     <item>Arithmetic expressions are XPath expressions<examples>
                             <example><code>1 + 1</code></example>
+                            <example>Practice: <code>+</code>, <code>-</code>, <code>*</code>,
+                                    <code>div</code>, <code>idiv</code>, <code>mod</code></example>
                         </examples></item>
                     <item>XPath library functions (with no arguments) are XPath expressions<examples>
                             <example><code
