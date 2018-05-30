@@ -77,17 +77,19 @@
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-current-dateTime"
                                     >current-dateTime()</code></example>
                         </examples></item>
-                    <item>XPath library functions (with arguments) are XPath expressions <examples>
+                    <item>XPath library functions (with arguments) are XPath expressions<examples>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
-                                    >upper-case('dhsi')</code></example>
+                                    >upper-case('dhsi')</code> (how many arguments, and of what
+                                type?)</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-concat"
-                                    >concat('Curly', 'Larry', 'Moe')</code></example>
+                                    >concat('Curly', 'Larry', 'Moe')</code> (how many arguments, and
+                                of what type?)</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-count"
                                     >count(('Curly', 'Larry', 'Moe'))</code> (Why two sets of
-                                parentheses?)</example>
+                                parentheses? Hint: How many arguments, and of what type?)</example>
                         </examples></item>
                     <item>Nested XPath library functions and operations are XPath expressions. Read
                         them from the inside out<examples>
