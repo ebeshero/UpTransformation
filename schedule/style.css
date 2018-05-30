@@ -49,37 +49,37 @@ p{
     line-height:1.2em;
 }
 pre{
-    font-family:"Andale Mono", "Courier New", monospace;
-    font-size:95%;
-    line-height:1.1em;
-    border:1px dashed #990000;
+    font-family:"Andale Mono", "Courier New", monospace !important;
+    font-size:95% !important;
+    line-height:1.1em !important;
+    border:1px dashed #990000 !important;
     /* background-color : aqua; */
-    background-color:#D3C8B4;
-    color:black;
-    margin:1em;
-    padding:1em;
+    background-color:#D3C8B4 !important;
+    color:black !important;
+    margin:1em !important;
+    padding:1em !important;
 }
 .pre-highlight{
-    font-style:italic;
-    font-weight:bold;
-    color:#D7301F;
+    font-style:italic !important;
+    font-weight:bold !important;
+    color:#D7301F !important;
 }
 pre.bad_code{
-    background-color:#FFC0CB
+    background-color:#FFC0CB !important
 }
 .pre-colored{ /* color non-pre stuff like pre */
-    border:1px dashed #990000;
+    border:1px dashed #990000 !important;
     /* background-color : aqua; */
-    background-color:#D3C8B4;
-    color:black;
-    margin:1em;
-    padding:1em;
+    background-color:#D3C8B4 !important;
+    color:black !important;
+    margin:1em !important;
+    padding:1em !important;
 }
 code{
-    font-family:"Andale Mono", "Courier New", monospace;
+    font-family:"Andale Mono", "Courier New", monospace !important;
     /*color : #870429;*/
-    color:#D7301F;
-    font-weight:bold;
+    color:#D7301F !important;
+    font-weight:bold !important;
 }
 sub,
 sup{

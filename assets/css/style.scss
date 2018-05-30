@@ -1,0 +1,37 @@
+---
+---
+
+@import "{{ site.theme }}";
+pre{
+    font-family:"Andale Mono", "Courier New", monospace;
+    font-size:95%;
+    line-height:1.1em;
+    border:1px dashed #990000;
+    /* background-color : aqua; */
+    background-color:#D3C8B4;
+    color:black;
+    margin:1em;
+    padding:1em;
+}
+.pre-highlight{
+    font-style:italic;
+    font-weight:bold;
+    color:#D7301F;
+}
+pre.bad_code{
+    background-color:#FFC0CB
+}
+.pre-colored{ /* color non-pre stuff like pre */
+    border:1px dashed #990000;
+    /* background-color : aqua; */
+    background-color:#D3C8B4;
+    color:black;
+    margin:1em;
+    padding:1em;
+}
+code{
+    font-family:"Andale Mono", "Courier New", monospace;
+    /*color : #870429;*/
+    color:#D7301F;
+    font-weight:bold;
+}
