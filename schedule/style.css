@@ -22,13 +22,13 @@ dfn{
 }
 html{
     background-color:#f4eee2;
-    color:black;
+    color:black; 
 }
 body{
     font-family:cambria, "palatino linotype", times, serif;
     /* georgia is missing the acute accent, so IErenders a box */
     line-height:1.2em;
-    background-color:#f4eee2;
+    background-color:#f4eee2 !important;
     color:black;
     padding-left:5px;
 }
@@ -79,6 +79,7 @@ code{
     font-family:"Andale Mono", "Courier New", monospace !important;
     /*color : #870429;*/
     color:#D7301F !important;
+    background-color:#f4eee2 !important;
     font-weight:bold !important;
 }
 sub,
