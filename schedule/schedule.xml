@@ -210,16 +210,30 @@
         </slot>
         <slot time="13:15:00">
             <title>Exploring document structures and data with XPath</title>
-            <act time="PT40M">
+            <act time="PT25M">
                 <desc>XPath functions</desc>
+                <details>
+                    <item>Common functions on strings<examples>
+                            <example><code>concat()</code>:
+                                    <code>concat('Curly','Larry','Moe')</code><code>concat('Curly is
+                                    #', 1)</code></example>
+                            <example><code>string-join()</code>: <code>string-join(( 'Curly',
+                                    'Larry', 'Moe'), ', ')</code>; <code>string-join(/TEI//speaker,
+                                    ', ')</code></example>
+                            <example><code>string-length()</code>: <code>string-length('Curly,
+                                    Larry, and Moe')</code></example>
+                            <example><code>lower-case()</code>, <code>upper-case()</code>:
+                                    <code>lower-case('Curly, Larry, and Moe')</code></example>
+                        </examples></item>
+                </details>
             </act>
-            <act time="PT35M">
+            <act time="PT20M">
                 <desc>XPath function signatures and cardinality</desc>
             </act>
-            <act time="PT40M">
+            <act time="PT50M">
                 <desc>XPath predicates</desc>
             </act>
-            <act time="PT40M">
+            <act time="PT60M">
                 <desc>Read and evaluate XML projects with XPath</desc>
             </act>
         </slot>
