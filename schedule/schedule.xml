@@ -275,6 +275,17 @@
             </act>
             <act time="PT15M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
+                <details>
+                    <item>The <emph>function signature</emph> is the number and type of arguments it
+                        accepts or requires</item>
+                    <item><emph>Type error</emph>: <code>string-length(1.2345)</code></item>
+                    <item><emph>Cardinality error</emph>: string-length(/TEI/speaker)</item>
+                    <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
+                            'Larry', 'Moe')</code> is broken?</item>
+                    <item>The error message is your friend. Read it.</item>
+                    <item>Mozilla Development Network (MDN):
+                            <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>
+                </details>
             </act>
             <act time="PT25M">
                 <desc>XPath predicates</desc>
