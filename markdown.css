@@ -2,6 +2,14 @@ a.link-no-style {
   color: inherit;
 }
 body {background-color:#D3C8B4; font-family:cambria, "palatino linotype", times, serif;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;}
+
 /*  table#team tr td img {max-width:150px; width:15%;}*/
 tr:nth-child(even) {background: #f0f5f5}
 .rpad {padding-right:2em;}
