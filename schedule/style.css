@@ -39,7 +39,7 @@ h4,
 h5,
 h6{
     font-family:Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;
-    color:#351408;
+    color:/*#351408*/ seagreen;
     line-height:1.4em;
     page-break-after:avoid;
     position:relative;

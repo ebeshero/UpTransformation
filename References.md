@@ -1,4 +1,4 @@
-# Resources and References
+# Resources and references
 
 ## Specifications
 
