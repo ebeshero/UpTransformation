@@ -293,9 +293,9 @@
                 <desc>XPath in XQuery: Introducing Variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
-                    <item>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>,
-                            <q>Return</q></item>
-                    <item>The simplest FLWOR: <q>let</q> and <q>return</q>
+                    <item>FLWOR variables: <code>For</code>, <code>Let</code>, <code>Where</code>, <code>Order by</code>,
+                            <code>Return</code></item>
+                    <item>The simplest FLWOR: <code>Let</code> and <code>Return</code>
                         <examples>
                             <example>Retrieve whole elements</example>
                             <example>Retrieve only their text</example>
@@ -328,7 +328,7 @@
                 </details>
             </act>
             <act time="PT40M">
-                <desc>FLWOR statements (XQuery in eXist-db): How <q>For</q> works</desc>
+                <desc>FLWOR statements (XQuery in eXist-db): How <code>For</code> works</desc>
                 <details>
                     <item><code>For $i in $YourSequenceVariable</code> and iterative returns</item>
                     <item>The <code>$pos</code> variable: <code>For $i at $pos in
