@@ -198,7 +198,7 @@
                     </item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>Neglected XPath axes</desc>
                 <details><item><code>ancestor::</code> <examples><example>Navigate a TEI document from a node in the <code>&lt;text&gt;</code> to a corresponding node in the <code>&lt;teiHeader&gt;</code>.</example></examples> </item>
                     <item><code>preceding::</code> and <code>following::</code><examples><example>Access stage directions in MRM’s <emph>Charles the First</emph></example></examples></item>
@@ -206,11 +206,11 @@
                     <examples><example>String functions: <code>matches(., '^[A-Z]')</code></example></examples></item>
                 </details>
             </act>
-            <act time="PT10M">
-                <!--ebb: Does this need 30 minutes? I'm cutting back b/c we can combine with other units. Giving time to string functions-->
-                <desc>Don’t confuse XPath predicates with path steps</desc>
+            <act time="PT30M">
+                <desc> Don’t confuse XPath predicates with path steps. Review Scavenger Hunt Exercise.</desc>
+                <details><item>Exercise: [TBD: Can you find the following? 5 or 6 things to review what we have been teaching.] </item></details>
             </act>
-            <act time="PT40M">
+            <act time="PT30M">
                 <desc>String Functions Intensive Unit: Regex in XPath</desc>
                 <details><item><code>contains()</code> vs. <code>matches()</code></item>
                 <item><code>translate()</code> vs. <code>replace()</code></item>
@@ -222,7 +222,12 @@
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
                     <item>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>, <q>Return</q></item>
-                    <item>The simplest FLWOR: <q>let</q> and <q>return</q></item>
+                    <item>The simplest FLWOR: <q>let</q> and <q>return</q>
+                    <examples>
+                        <example>Retrieve whole elements</example>
+                        <example>Retrieve only their text</example>
+                    </examples>
+                    </item>
                     
                 </details>
             </act>
@@ -230,13 +235,30 @@
         <slot time="13:15:00">
             <title>XQuery flow control</title>
             <act time="PT40M">
-                <desc>XPath expressions with functions and predicates</desc>
+                <desc>Defining variables: XPath expressions with functions and predicates</desc>
+                <details><item>FLWOR Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending the previous Scavenger Hunt.</item>
+                
+                </details>
             </act>
             <act time="PT40M">
-                <desc><code>for</code> loops; sequence and range variables</desc>
+                <desc>XPath <code>for</code> loops; sequence and range variables (&lt;oXygen/&gt;)</desc>
+                <details>
+                    <item><code>for $i in (sequence) return ...</code></item>
+                    <item>Practice examples in &lt;oXygen/&gt;
+                    <examples>
+                        <example>Use XPath builder window: for each of a set of keyed attributes, return something associated with each one.</example>
+                    </examples>
+                    </item>
+                   
+                </details>
             </act>
             <act time="PT40M">
-                <desc>FLWOR statements (XQuery)</desc>
+                <desc>FLWOR statements (XQuery in eXist-db): How <q>For</q> works</desc>
+                <details>
+                    <item><code>For $i in $YourSequenceVariable</code> and iterative returns</item>
+                    <item>The <code>$pos</code> variable: <code>For $i at $pos in $YourSequenceVariable</code></item>
+                </details>
+                
             </act>
             <act time="PT35M">
                 <desc>XPath predicates and the <code>where</code> statement</desc>
