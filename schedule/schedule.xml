@@ -157,12 +157,12 @@
                             <code>&lt;body&gt;</code> children, and then to their
                             <code>&lt;div&gt;</code> children.</item>
                     <item>XPath steps are separated by single slashes (<code>/</code>).</item>
-                    <item>It is not an error to ask for something that doesn’t exist; it just
-                        returns an empty sequence.</item>
                     <item>An XPath expression that begins with a slash (<code>/</code>) starts at
                         the <emph>document node</emph>; this is an <emph>absolute path</emph>. Any
                         other XPath expression starts at the current context; this is a
                             <emph>relative path</emph>.</item>
+                    <item>It is not an error to ask for something that doesn’t exist; it just
+                        returns an empty sequence.</item>
                     <item>With <emph>Hamlet</emph> open and selected, go to the XPath Toolbar or
                         XPath Builder and try the following examples. Click on some of the results
                         in the lower panel:<examples>
@@ -179,19 +179,33 @@
                     <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
                         behind the scenes.</item>
-                    <item>Path steps move along axes: child, parent, descendant, ancestor,
-                        preceding-sibling, following-sibling, etc. The default is the
-                            <emph>child</emph> axis. See:
-                            <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
-                    <item>Each path step returns a sequence of zero or more context nodes for the
-                        next path steps.</item>
-                    <item>Path expressions may be combined with other types of expressions, e.g.,
-                            <q>navigate from the document node to all of the acts in the play and
-                            then return a count of the speeches in each act</q>.</item>
                 </details>
             </act>
             <act time="PT20M">
                 <desc>XPath path steps</desc>
+                <details>
+                    <item>Path steps move along axes: child, parent, descendant, ancestor,
+                        preceding-sibling, following-sibling, etc. See:
+                            <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
+                    <item>Axes are specified with a double colon, e.g., <code>descendant::div</code><examples>
+                            <example>The default is the <emph>child</emph> axis, so
+                                    <code>/TEI/teiHeader</code> is synonymous with
+                                    <code>/child::TEI/child::teiHeader</code>.</example>
+                            <example><code>//</code> is shorthand for
+                                    <code>descendant-or-self::</code> (you can usually think of it
+                                as <emph>descendant</emph>), so <code>/TEI//div</code> finds all of
+                                the <code>&lt;div&gt;</code> elements that are descendants of the
+                                    <code>&lt;TEI&gt;</code> root element, that is, anywhere in the
+                                document.</example>
+                        </examples>
+                    </item>
+                    <item>Each path step returns a sequence of zero or more context nodes for the
+                        next path steps.</item>
+                    <item>Path expressions may be combined with other types of expressions, e.g.,
+                            <q>navigate from the document node to all of the acts in the play and
+                            then return a count of the speeches in each act</q>. (Every step except
+                        the last must return nodes, and not atomic values. Why?)</item>
+                </details>
             </act>
         </slot>
         <slot time="13:15:00">
