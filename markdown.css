@@ -1,7 +1,8 @@
 a.link-no-style {
   color: inherit;
 }
-body {background-color:#D3C8B4; font-family:cambria, "palatino linotype", times, serif;}
+a.btn {color:#F4EEE2;}
+body {background-color:#F4EEE2; font-family:cambria, "palatino linotype", times, serif;}
 h1,
 h2,
 h3,
@@ -9,8 +10,8 @@ h4,
 h5,
 h6{
     font-family:Verdana, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana Ref", sans-serif;}
-h1 {font-size: 1.8em; color:#D3C8B4;}
-h2 {font-size: 1.6em; color:#D3C8B4;}
+h1 {font-size: 1.8em; color:#F4EEE2;}
+h2 {font-size: 1.6em; color:#F4EEE2;}
 h3 {font-size: 1.4em;}
 h4 {font-size: 1.2em;}
 /*  table#team tr td img {max-width:150px; width:15%;}*/
