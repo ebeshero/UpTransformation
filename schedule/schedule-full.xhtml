@@ -172,7 +172,68 @@
                             then return a count of the speeches in each act</q>. (Every step except
                         the last must return nodes, and not atomic values. Why?)</li>
                 </ol></li></ul></section>
-        <section><h3>Exploring document structures and data with XPath (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath functions (40 minutes)</li><li>XPath function signatures and cardinality (35 minutes)</li><li>XPath predicates (40 minutes)</li><li>Read and evaluate XML projects with XPath (40 minutes)</li></ul></section>
+        <section><h3>Exploring document structures and data with XPath (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath functions for strings (25 minutes)<ol>
+                    <li>Common functions on strings<ol>
+                            <li><code>concat()</code>:
+                                    <code>concat('Curly','Larry','Moe')</code><code>concat('Curly is
+                                    #', 1)</code></li>
+                            <li><code>string-join()</code>: <code>string-join(( 'Curly',
+                                    'Larry', 'Moe'), ', ')</code>; <code>string-join(/TEI//speaker,
+                                    ', ')</code></li>
+                            <li><code>string-length()</code>: <code>string-length('Curly,
+                                    Larry, and Moe')</code></li>
+                            <li><code>lower-case()</code>, <code>upper-case()</code>:
+                                    <code>lower-case('Curly, Larry, and Moe')</code></li>
+                            <li><code>normalize-space()</code>: <code>normalize-space(' Curly,
+                                    Larry, Moe ')</code></li>
+                            <li><code>substring-before()</code>,
+                                <code>substring-after()</code>: <code>substring-before('Larry',
+                                    'r')</code></li>
+                            <li><code>substring()</code>: <code>substring('Curly', 1,
+                                2)</code>. XPath starts counting with 1 (not 0).</li>
+                            <li><code>contains()</code>: <code>contains('Ophelia',
+                                'ph')</code></li>
+                        </ol></li>
+                    <li>Three ways to apply a function to a sequence<ol>
+                            <li>Explicit <code>for</code>: for $speaker in /TEI//speaker return
+                                contains($speaker, 'ph')</li>
+                            <li>Implicit <code>for</code>: /TEI//speaker/contains(.,
+                                'ph')</li>
+                            <li>Simple map: /TEI//speaker ! contains(., 'ph')</li>
+                        </ol></li>
+                    <li>Difference between simple map (<code>!</code>) and arrow (<code>=&gt;</code>) <ol>
+                            <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
+                            <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
+                        </ol></li>
+                </ol></li><li>XPath functions for numbers (15 minutes)<ol>
+                    <li><code>max()</code>, <code>min()</code>, <code>sum()</code>,
+                            <code>avg()</code>. What happens when these are applied to strings? To a
+                        sequence that mixes strings and numbers?</li>
+                    <li><code>ceiling()</code>, <code>floor()</code>:
+                            <code>ceiling(3.141592653)</code></li>
+                    <li><code>round()</code>: <code>round(3.141592653, 4)</code></li>
+                    <li><code>format-number()</code>: <code>format-number(1,
+                        '#.000')</code></li>
+                </ol></li><li>XPath functions for sequences (15 minutes)<ol>
+                    <li><code>distinct-values()</code>:
+                            <code>distinct-values(/TEI//speaker)</code></li>
+                    <li><code>count()</code><ol>
+                            <li><code>count(/TEI/speaker)</code></li>
+                            <li><code>count(distinct-values(/TEI//speaker))</code></li>
+                            <li><code>distinct-values(count(/TEI//speaker))</code></li>
+                        </ol></li>
+                    <li><code>reverse()</code>: <code>reverse(/TEI//speaker)</code></li>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (15 minutes)<ol>
+                    <li>The <em>function signature</em> is the number and type of arguments it
+                        accepts or requires</li>
+                    <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
+                    <li><em>Cardinality error</em>: string-length(/TEI/speaker)</li>
+                    <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
+                            'Larry', 'Moe')</code> is broken?</li>
+                    <li>The error message is your friend. Read it.</li>
+                    <li>Mozilla Development Network (MDN):
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a></li>
+                </ol></li><li>XPath predicates (25 minutes)</li><li>Read and evaluate XML projects with XPath (60 minutes)</li></ul></section>
     </section>
     <section>
         <h2>Tuesday, June 12: XPath and XQuery</h2>
