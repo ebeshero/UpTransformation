@@ -127,12 +127,12 @@
                             <code>&lt;body&gt;</code> children, and then to their
                             <code>&lt;div&gt;</code> children.</li>
                     <li>XPath steps are separated by single slashes (<code>/</code>).</li>
-                    <li>It is not an error to ask for something that doesn’t exist; it just
-                        returns an empty sequence.</li>
                     <li>An XPath expression that begins with a slash (<code>/</code>) starts at
                         the <em>document node</em>; this is an <em>absolute path</em>. Any
                         other XPath expression starts at the current context; this is a
                             <em>relative path</em>.</li>
+                    <li>It is not an error to ask for something that doesn’t exist; it just
+                        returns an empty sequence.</li>
                     <li>With <em>Hamlet</em> open and selected, go to the XPath Toolbar or
                         XPath Builder and try the following examples. Click on some of the results
                         in the lower panel:<ol>
@@ -149,16 +149,29 @@
                     <li>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
                         behind the scenes.</li>
+                </ol></li><li>XPath path steps (20 minutes)<ol>
                     <li>Path steps move along axes: child, parent, descendant, ancestor,
-                        preceding-sibling, following-sibling, etc. The default is the
-                            <em>child</em> axis. See:
+                        preceding-sibling, following-sibling, etc. See:
                             <a href="http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes">http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</a>.</li>
+                    <li>Axes are specified with a double colon, e.g., <code>descendant::div</code><ol>
+                            <li>The default is the <em>child</em> axis, so
+                                    <code>/TEI/teiHeader</code> is synonymous with
+                                    <code>/child::TEI/child::teiHeader</code>.</li>
+                            <li><code>//</code> is shorthand for
+                                    <code>descendant-or-self::</code> (you can usually think of it
+                                as <em>descendant</em>), so <code>/TEI//div</code> finds all of
+                                the <code>&lt;div&gt;</code> elements that are descendants of the
+                                    <code>&lt;TEI&gt;</code> root element, that is, anywhere in the
+                                document.</li>
+                        </ol>
+                    </li>
                     <li>Each path step returns a sequence of zero or more context nodes for the
                         next path steps.</li>
                     <li>Path expressions may be combined with other types of expressions, e.g.,
                             <q>navigate from the document node to all of the acts in the play and
-                            then return a count of the speeches in each act</q>.</li>
-                </ol></li><li>XPath path steps (20 minutes)</li></ul></section>
+                            then return a count of the speeches in each act</q>. (Every step except
+                        the last must return nodes, and not atomic values. Why?)</li>
+                </ol></li></ul></section>
         <section><h3>Exploring document structures and data with XPath (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath functions (40 minutes)</li><li>XPath function signatures and cardinality (35 minutes)</li><li>XPath predicates (40 minutes)</li><li>Read and evaluate XML projects with XPath (40 minutes)</li></ul></section>
     </section>
     <section>
