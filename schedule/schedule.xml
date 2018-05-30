@@ -33,7 +33,24 @@
                         contain <emph>nodes</emph> (elements, attributes, etc.), <emph>atomic
                         </emph>values (strings, numbers, etc.), or both. A sequence of one item is
                         nonetheless a sequence, as is an <emph>empty sequence</emph>. Nested
-                        sequences are automatically flattened.</item>
+                        sequences are automatically flattened.<examples>
+                            <example>Type a number and hit Eval. This is a one-item sequence that
+                                consists of a single atomic value. Try integers and decimal numbers.
+                                Try wrapping the number in parentheses.</example>
+                            <example>Type a string (inside single or double quotes) and hit Eval.
+                                This is a one-item sequence that consists of a single atomic value.
+                                Try omitting the quotation marks. Try using curly quotation marks.
+                                Try wrapping the string in parentheses.</example>
+                            <example>Type empty parentheses and hit Eval. This is an empty
+                                sequence.</example>
+                            <example>Type multiple items of different types (numbers, strings),
+                                separated by commas. Try wrapping them in parentheses. Try wrapping
+                                them in multiple parentheses. Try removing the commas. This is a
+                                multi-item sequence.</example>
+                            <example>Try to type a nested sequence, e.g., <code>(1, 2, (3,
+                                    4))</code>, and hit Eval. What result do you expect? What do you
+                                get?</example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT40M">
@@ -178,32 +195,57 @@
             <act time="PT35M">
                 <desc>The seven types of nodes (and how to access them in eXist-db)</desc>
                 <details>
-                    <item><code>document()</code> (This node contains the root element, but sits above it).</item>
-                    <item><code>collection()</code> (This node contains a collection of XML documents.)</item>
-                    <item><code>element()</code> (Review the anatomy of an element.) 
+                    <item><code>document()</code> (This node contains the root element, but sits
+                        above it).</item>
+                    <item><code>collection()</code> (This node contains a collection of XML
+                        documents.)</item>
+                    <item><code>element()</code> (Review the anatomy of an element.) </item>
+                    <item><code>text()</code> (This is not a function, but an actual node. <examples>
+                            <example>Look at the difference between <code>text()</code> and two
+                                functions that return text extracted from the tree:
+                                    <code>string()</code> and <code>data()</code></example>
+                            <example>Access <code>text()</code> in <emph>mixed content</emph> using
+                                the <code>preceding-sibling::</code> and
+                                    <code>following-sibling::</code> axes </example>
+                        </examples></item>
+                    <item><code>attribute()</code> (The attribute node has a special relationship to
+                        its element on the <code>parent::</code> axis, but otherwise has no
+                        relationship to other elements on the tree.) <examples>
+                            <example><code>string()</code> function to retrieve the value in
+                                eXist</example>
+                        </examples>
                     </item>
-                    <item><code>text()</code> (This is not a function, but an actual node. <examples><example>Look at the difference between <code>text()</code> and two functions that return text extracted from the tree: <code>string()</code> and <code>data()</code></example>
-                    <example>Access <code>text()</code> in <emph>mixed content</emph> using the <code>preceding-sibling::</code> and <code>following-sibling::</code> axes </example>
-                    </examples></item>
-                    <item><code>attribute()</code> (The attribute node has a special relationship to its element on the <code>parent::</code> axis, but otherwise has no relationship to other elements on the tree.)
-                        <examples><example><code>string()</code> function to retrieve the value in eXist</example></examples>
-                       </item>
-                    <item><code>comment()</code>  
-                    <examples><example><code>&lt;!-- --&gt;</code></example></examples>
+                    <item><code>comment()</code>
+                        <examples>
+                            <example><code>&lt;!-- --&gt;</code></example>
+                        </examples>
                     </item>
-                    <item><code>namespace()</code> (XML documents can written in multiple namespaces, and the namespace node lets us navigate them.) 
-                    <examples>
-                        <example>Navigate the namespaces of an XHTML and SVG document. </example>
-                    </examples>
+                    <item><code>namespace()</code> (XML documents can written in multiple
+                        namespaces, and the namespace node lets us navigate them.) <examples>
+                            <example>Navigate the namespaces of an XHTML and SVG document.
+                            </example>
+                        </examples>
                     </item>
                 </details>
             </act>
             <act time="PT35M">
                 <desc>Neglected XPath axes</desc>
-                <details><item><code>ancestor::</code> <examples><example>Navigate a TEI document from a node in the <code>&lt;text&gt;</code> to a corresponding node in the <code>&lt;teiHeader&gt;</code>.</example></examples> </item>
-                    <item><code>preceding::</code> and <code>following::</code><examples><example>Access stage directions in MRM’s <emph>Charles the First</emph></example></examples></item>
+                <details>
+                    <item><code>ancestor::</code>
+                        <examples>
+                            <example>Navigate a TEI document from a node in the
+                                    <code>&lt;text&gt;</code> to a corresponding node in the
+                                    <code>&lt;teiHeader&gt;</code>.</example>
+                        </examples>
+                    </item>
+                    <item><code>preceding::</code> and <code>following::</code><examples>
+                            <example>Access stage directions in MRM’s <emph>Charles the
+                                First</emph></example>
+                        </examples></item>
                     <item><code>self:: (.) Often used in predicates.</code>
-                    <examples><example>String functions: <code>matches(., '^[A-Z]')</code></example></examples></item>
+                        <examples>
+                            <example>String functions: <code>matches(., '^[A-Z]')</code></example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT10M">
@@ -212,18 +254,21 @@
             </act>
             <act time="PT40M">
                 <desc>String Functions Intensive Unit: Regex in XPath</desc>
-                <details><item><code>contains()</code> vs. <code>matches()</code></item>
-                <item><code>translate()</code> vs. <code>replace()</code></item>
-                    <item><code>substring-before()</code> and <code>substring-after()</code> vs. <code>tokenize()</code></item>
+                <details>
+                    <item><code>contains()</code> vs. <code>matches()</code></item>
+                    <item><code>translate()</code> vs. <code>replace()</code></item>
+                    <item><code>substring-before()</code> and <code>substring-after()</code> vs.
+                            <code>tokenize()</code></item>
                 </details>
             </act>
             <act time="PT30M">
                 <desc>XPath in XQuery: Introducing Variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
-                    <item>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>, <q>Return</q></item>
+                    <item>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>,
+                            <q>Return</q></item>
                     <item>The simplest FLWOR: <q>let</q> and <q>return</q></item>
-                    
+
                 </details>
             </act>
         </slot>
