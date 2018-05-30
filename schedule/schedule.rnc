@@ -37,7 +37,7 @@ d =
 title = element title { text }
 desc =
     element desc {
-        mixed { code* }
+        mixed { (code | q)*}
     }
 code = element code { url?, text }
 url = attribute url { text }

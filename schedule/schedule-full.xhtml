@@ -177,7 +177,7 @@
                             </li>
                         </ol>
                     </li>
-                </ol></li><li>Neglected XPath axes (35 minutes)<ol>
+                </ol></li><li>Neglected XPath axes (25 minutes)<ol>
                     <li><code>ancestor::</code>
                         <ol>
                             <li>Navigate a TEI document from a node in the
@@ -193,19 +193,35 @@
                         <ol>
                             <li>String functions: <code>matches(., '^[A-Z]')</code></li>
                         </ol></li>
-                </ol></li><li>Don’t confuse XPath predicates with path steps (10 minutes)</li><li>String Functions Intensive Unit: Regex in XPath (40 minutes)<ol>
+                </ol></li><li> Don’t confuse XPath predicates with path steps. Review Scavenger Hunt Exercise. (30 minutes)<ol><li>Exercise: [TBD: Can you find the following? 5 or 6 things to review what we have been teaching.] </li></ol></li><li>String Functions Intensive Unit: Regex in XPath (30 minutes)<ol>
                     <li><code>contains()</code> vs. <code>matches()</code></li>
                     <li><code>translate()</code> vs. <code>replace()</code></li>
                     <li><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code></li>
                 </ol></li><li>XPath in XQuery: Introducing Variables (30 minutes)<ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
-                    <li>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>,
-                            <q>Return</q></li>
-                    <li>The simplest FLWOR: <q>let</q> and <q>return</q></li>
-
+                    <li>FLWOR variables: <q>For</q>, <q>Let</q>, <q>Where</q>, <q>Order by</q>, <q>Return</q></li>
+                    <li>The simplest FLWOR: <q>let</q> and <q>return</q>
+                    <ol>
+                        <li>Retrieve whole elements</li>
+                        <li>Retrieve only their text</li>
+                    </ol>
+                    </li>
                 </ol></li></ul></section>
-        <section><h3>XQuery flow control (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath expressions with functions and predicates (40 minutes)</li><li><code>for</code> loops; sequence and range variables (40 minutes)</li><li>FLWOR statements (XQuery) (40 minutes)</li><li>XPath predicates and the <code>where</code> statement (35 minutes)</li></ul></section>
+        <section><h3>XQuery flow control (1:15 p.m.–3:50 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (40 minutes)<ol><li>FLWOR Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending the previous Scavenger Hunt.</li>
+                
+                </ol></li><li>XPath <code>for</code> loops; sequence and range variables (&lt;oXygen/&gt;) (40 minutes)<ol>
+                    <li><code>for $i in (sequence) return ...</code></li>
+                    <li>Practice examples in &lt;oXygen/&gt;
+                    <ol>
+                        <li>Use XPath builder window: for each of a set of keyed attributes, return something associated with each one.</li>
+                    </ol>
+                    </li>
+                   
+                </ol></li><li>FLWOR statements (XQuery in eXist-db): How <q>For</q> works (40 minutes)<ol>
+                    <li><code>For $i in $YourSequenceVariable</code> and iterative returns</li>
+                    <li>The <code>$pos</code> variable: <code>For $i at $pos in $YourSequenceVariable</code></li>
+                </ol></li><li>XPath predicates and the <code>where</code> statement (35 minutes)</li></ul></section>
     </section>
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
