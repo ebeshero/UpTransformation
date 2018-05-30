@@ -249,11 +249,34 @@
             </act>
             <act time="PT15M">
                 <desc>XPath functions for numbers</desc>
+                <details>
+                    <item><code>max()</code>, <code>min()</code>, <code>sum()</code>,
+                            <code>avg()</code>. What happens when these are applied to strings? To a
+                        sequence that mixes strings and numbers?</item>
+                    <item><code>ceiling()</code>, <code>floor()</code>:
+                            <code>ceiling(3.141592653)</code></item>
+                    <item><code>round()</code>: <code>round(3.141592653, 4)</code></item>
+                    <item><code>format-number()</code>: <code>format-number(1,
+                        '#.000')</code></item>
+                </details>
             </act>
             <act time="PT15M">
-                <desc>XPath function signatures and cardinality</desc>
+                <desc>XPath functions for sequences</desc>
+                <details>
+                    <item><code>distinct-values()</code>:
+                            <code>distinct-values(/TEI//speaker)</code></item>
+                    <item><code>count()</code><examples>
+                            <example><code>count(/TEI/speaker)</code></example>
+                            <example><code>count(distinct-values(/TEI//speaker))</code></example>
+                            <example><code>distinct-values(count(/TEI//speaker))</code></example>
+                        </examples></item>
+                    <item><code>reverse()</code>: <code>reverse(/TEI//speaker)</code></item>
+                </details>
             </act>
-            <act time="PT40M">
+            <act time="PT15M">
+                <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
+            </act>
+            <act time="PT25M">
                 <desc>XPath predicates</desc>
             </act>
             <act time="PT60M">
