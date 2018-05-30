@@ -57,9 +57,9 @@
                 <desc>Simple XPath expressions</desc>
                 <details>
                     <item>Review: strings and numbers (atomic values) are XPath expressions <examples>
-                            <example><code>"Hi, Mom!"</code> (strings are enclosed in single or
-                                double quotation marks—straight, not curly!)</example>
-                            <example><code>1</code> (numbers are not enclosed in quotation
+                            <example><code>"Hi, Mom!"</code> (Strings are enclosed in single or
+                                double quotation marks—straight, not curly)</example>
+                            <example><code>1</code> (Numbers are not enclosed in quotation
                                 marks)</example>
                             <example><code>1.0</code> (What should this return? <emph>lexical
                                     space</emph> and <emph>value space</emph>)</example>
@@ -81,11 +81,11 @@
                     <item>XPath library functions (with arguments) are XPath expressions<examples>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
-                                    >upper-case('dhsi')</code> (how many arguments, and of what
+                                    >upper-case('dhsi')</code> (How many arguments, and of what
                                 type?)</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-concat"
-                                    >concat('Curly', 'Larry', 'Moe')</code> (how many arguments, and
+                                    >concat('Curly', 'Larry', 'Moe')</code> (How many arguments, and
                                 of what type?)</example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-count"
@@ -123,19 +123,24 @@
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
-                        (MacOS), copy and paste
-                            <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
-                        and hit <q>OK</q>. (Backup copy in
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)</item>
-                    <item>Set the dropdown in the upper left to <q>XPath 3.0</q>. Enter some XPath
-                        expressions (from above, such as <code>1 + 1</code>). Limited to one line;
-                        hit <q>Enter</q> to run the expression. (This widget works only if you have
-                        an XML document open in &lt;oXygen/&gt;, even if you aren’t using the
-                        document in your XPath expression.)</item>
+                        (MacOS), copy and paste the string
+                            <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>, and
+                        hit <q>OK</q>. (Backup copy at
+                            <q>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</q>.)
+                        This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
+                    <item>Set the dropdown in the upper left to <q>XPath 3.0</q>. (This widget is
+                        called the <emph
+                            url="https://www.oxygenxml.com/doc/versions/20.0/ug-editor/topics/xpath-console.html"
+                            >XPath Toolbar</emph>.) Enter some XPath expressions (from above, such
+                        as <code>1 + 1</code>). Limited to one line; hit <q>Enter</q> to run the
+                        expression. (The XPath Toolbar works only if you have an XML document open
+                        in &lt;oXygen/&gt;, even if you aren’t using the document in your XPath
+                        expression.)</item>
                     <item>Go to Window → Show View → XPath/XQuery Builder. Set the dropdown in the
                         upper left to <q>XPath 3.0</q>. Enter some XPath expressions. May span
-                        multiple lines; hit <q>Ctrl+Enter</q> (Windows) or <q>Cmd+Enter</q> (MacOS)
-                        to run, or click the red right-pointed triangle. </item>
+                        multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
+                        (Windows) or <q>Cmd+Enter</q> (MacOS), or click the red right-pointed
+                        triangle.</item>
                 </details>
             </act>
             <act time="PT25M">
@@ -145,13 +150,27 @@
                         which proceeds from one node (called the <emph>context node</emph>) to a
                         sequence of zero (!) or more others. It returns the final destination nodes
                         in document order (order of start tags). (Details at Kay 1227)</item>
+                    <item>For example, <code>/TEI/teiHeader/fileDesc/titleStmt/title</code> starts
+                        from the document node (leading <code>/</code>) and then finds all of its
+                            <code>&lt;TEI&gt;</code> children (there is exactly 1). For each
+                            <code>&lt;TEI&gt;</code> element, it finds all of its
+                            <code>&lt;teiHeader&gt;</code> children, etc.</item>
                     <item>It is not an error to ask for something that doesn’t exist; it just
                         returns an empty sequence.</item>
                     <item>An XPath expression that begins with a slash (<code>/</code>) starts at
                         the <emph>document node</emph>. Any other XPath expression starts at the
-                        current context<examples>
-                            <example>blah</example>
-                            <example>blah</example>
+                        current context. With Hamlet open and selected, go to the XPath Toolbar (not
+                        the Builder) and try the following examples. Click on some of the results in
+                        the lower panel:<examples>
+                            <example><code>/TEI/teiHeader/fileDesc/titleStmt/title</code> (returns 1
+                                    <code>&lt;title&gt;</code> element)</example>
+                            <example><code>/TEI/text/body/div</code> (returns 5
+                                    <code>&lt;div&gt;</code> elements)</example>
+                            <example><code>/TEI/teiHeader/fileDesc/titleStmt/info</code> (returns no
+                                results; this is not an error)</example>
+                            <example><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (throws
+                                an error; notice the space in the middle, which is illegal in an
+                                XPath path expression)</example>
                         </examples></item>
                     <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath exploration interfaces take care of them for you
