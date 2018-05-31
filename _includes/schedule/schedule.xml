@@ -355,11 +355,9 @@
                 </details>
             </act>
             <act time="PT30M">
-                <desc> Don’t confuse XPath predicates with path steps. Review Scavenger Hunt
-                    Exercise.</desc>
+                <desc> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to review XPath syntax we have learned so far.</desc>
                 <details>
-                    <item>Exercise: [TBD: Can you find the following? 5 or 6 things to review what
-                        we have been teaching.] </item>
+                    <item>Exercise: Work with the Digital Mitford Site Index posted in eXist at <link>/db/mitford/si.xml</link> or the official version at its external location: <link>http://digitalmitford.org/si.xml</link>  Can you find the following [5 or 6 things to review what we have been teaching]. </item>
                 </details>
             </act>
             <act time="PT30M">
@@ -375,9 +373,9 @@
                 <desc>XPath in XQuery: Introducing Variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
-                    <item>FLWOR variables: <code>For</code>, <code>Let</code>, <code>Where</code>,
+                    <item><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>, <code>Where</code>,
                             <code>Order by</code>, <code>Return</code></item>
-                    <item>The simplest FLWOR: <code>Let</code> and <code>Return</code>
+                    <item>The simplest <code>FLWOR</code>: <code>Let</code> and <code>Return</code>
                         <examples>
                             <example>Retrieve whole elements</example>
                             <example>Retrieve only their text</example>
@@ -391,8 +389,7 @@
             <act time="PT40M">
                 <desc>Defining variables: XPath expressions with functions and predicates</desc>
                 <details>
-                    <item>FLWOR Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending
-                        the previous Scavenger Hunt.</item>
+                    <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending the previous Scavenger Hunt.</item>
 
                 </details>
             </act>
@@ -409,17 +406,28 @@
 
                 </details>
             </act>
-            <act time="PT40M">
-                <desc>FLWOR statements (XQuery in eXist-db): How <code>For</code> works</desc>
+            <act time="PT45M">
+                <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>For</code> works</desc>
                 <details>
                     <item><code>For $i in $YourSequenceVariable</code> and iterative returns</item>
                     <item>The <code>$pos</code> variable: <code>For $i at $pos in
                             $YourSequenceVariable</code></item>
+                    <item>Sorting and ordering: XPath <code>sort()</code> function: using this above a for-loop, vs. the XQuery <code>Order by</code> statement inside a for-loop to control the order of processing and returns.</item>
                 </details>
 
             </act>
-            <act time="PT35M">
+            <act time="PT15M">
                 <desc>XPath predicates and the <code>where</code> statement</desc>
+                <details>
+                    <item>Adding where to <code>FLWOR</code> with a for-loop to limit the returns</item>
+                    <item>Which is more efficient in XQuery: a predicate or where? </item>
+                </details>
+            </act>
+            <act time="PT15M">
+                <desc><q>FLWORs everywhere!</q>: Putting all the petals together</desc>
+                <details>
+                    <item>Wrap-up Review Exercise, creating a FLWOR showing all possible parts.</item>
+                </details>
             </act>
         </slot>
     </day>
