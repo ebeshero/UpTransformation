@@ -3,12 +3,12 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:output method="xml" indent="no" doctype-system="about:legacy-compat"/>
+    <xsl:output method="xml" indent="no"/>
     <xsl:template match="/">
         <html>
             <head>
                 <title>Schedule</title>
-                <link rel="stylesheet" type="text/css" href="style.css"/>
+                <link rel="stylesheet" type="text/css" href="../../style.css"/>
                 <style type="text/css">
                     body {
                         line-height: 1.25em;
