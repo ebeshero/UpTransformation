@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:output method="xml" indent="no"/>
+    <xsl:output method="xhtml" indent="no" omit-xml-declaration="yes"/>
     <xsl:template match="/">
         <html>
             <head>
