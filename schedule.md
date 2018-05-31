@@ -1,4 +1,4 @@
-{% include schedule-full.html %}
+{% include schedule/schedule-full.xhtml %}
 
 
 
