@@ -16,8 +16,8 @@
                     section > ul > li > ol {
                         display: block;
                     }
-                    button {
-                        background-color: lightcyan;
+                    button { background: linear-gradient(to right, teal , seagreen); color:#f4eee2; width:150px; padding:.25em;}
+                    /*background-color: lightcyan;*/
                     }</style>
                 <script type="text/javascript" src="schedule.js">/**/</script>
             </head>
