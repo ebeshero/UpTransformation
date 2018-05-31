@@ -88,6 +88,9 @@
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
+    <xsl:template match="image">
+        <img src="images/{.}" alt="@alt"/>
+    </xsl:template>
     <xsl:template match="q">
         <q>
             <xsl:apply-templates/>

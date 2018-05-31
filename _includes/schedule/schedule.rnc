@@ -46,19 +46,19 @@ slot = element slot { clocktime, title, desc?, activity+ }
 clocktime = attribute time { xsd:time }
 # @durtime format is "PTxHyM", where "PT" is required, "x" is the 
 # number of hours and "y" the number of minutes, expressed as integers 
-activity = element act { durtime, desc, details? }
+activity = element act { image?, durtime, desc, details? }
 durtime = attribute time { xsd:duration }
 details = element details { item+ }
-item =
-    element item {
-        mixed { (link | q | code | emph)* },
+item = element item {mixed { (link | q | code | emph | image)* },
         examples?
     }
+image = element image {text, alt}
+alt = attribute alt {text} # describes the image
 link = element link { text }
 q = element q { text }
 examples = element examples { example+ }
 example =
     element example {
-        mixed { (emph | code)* }
+        mixed { (link | q | code | emph | image)* }
     }
 emph = element emph { url?, text }
