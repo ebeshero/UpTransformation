@@ -272,10 +272,8 @@
                         <ol>
                             <li>String functions: <code>matches(., '^[A-Z]')</code></li>
                         </ol></li>
-                </ol></li><li> Don’t confuse XPath predicates with path steps. Review Scavenger Hunt
-                    Exercise. (30 minutes)<ol>
-                    <li>Exercise: [TBD: Can you find the following? 5 or 6 things to review what
-                        we have been teaching.] </li>
+                </ol></li><li> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to review XPath syntax we have learned so far. (30 minutes)<ol>
+                    <li>Exercise: Work with the Digital Mitford Site Index posted in eXist at <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external location: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a>  Can you find the following [5 or 6 things to review what we have been teaching]. </li>
                 </ol></li><li>String Functions Intensive Unit: Regex in XPath (30 minutes)<ol>
                     <li><code>contains()</code> vs. <code>matches()</code></li>
                     <li><code>translate()</code> vs. <code>replace()</code></li>
@@ -283,9 +281,9 @@
                             <code>tokenize()</code></li>
                 </ol></li><li>XPath in XQuery: Introducing Variables (30 minutes)<ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
-                    <li>FLWOR variables: <code>For</code>, <code>Let</code>, <code>Where</code>,
+                    <li><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>, <code>Where</code>,
                             <code>Order by</code>, <code>Return</code></li>
-                    <li>The simplest FLWOR: <code>Let</code> and <code>Return</code>
+                    <li>The simplest <code>FLWOR</code>: <code>Let</code> and <code>Return</code>
                         <ol>
                             <li>Retrieve whole elements</li>
                             <li>Retrieve only their text</li>
@@ -293,8 +291,7 @@
                     </li>
                 </ol></li></ul></section>
         <section><h3>XQuery flow control (1:15 p.m.–3:50 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (40 minutes)<ol>
-                    <li>FLWOR Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending
-                        the previous Scavenger Hunt.</li>
+                    <li><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending the previous Scavenger Hunt.</li>
 
                 </ol></li><li>XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;) (40 minutes)<ol>
@@ -305,11 +302,17 @@
                         </ol>
                     </li>
 
-                </ol></li><li>FLWOR statements (XQuery in eXist-db): How <code>For</code> works (40 minutes)<ol>
+                </ol></li><li><code>FLWOR</code> statements (XQuery in eXist-db): How <code>For</code> works (45 minutes)<ol>
                     <li><code>For $i in $YourSequenceVariable</code> and iterative returns</li>
                     <li>The <code>$pos</code> variable: <code>For $i at $pos in
                             $YourSequenceVariable</code></li>
-                </ol></li><li>XPath predicates and the <code>where</code> statement (35 minutes)</li></ul></section>
+                    <li>Sorting and ordering: XPath <code>sort()</code> function: using this above a for-loop, vs. the XQuery <code>Order by</code> statement inside a for-loop to control the order of processing and returns.</li>
+                </ol></li><li>XPath predicates and the <code>where</code> statement (15 minutes)<ol>
+                    <li>Adding where to <code>FLWOR</code> with a for-loop to limit the returns</li>
+                    <li>Which is more efficient in XQuery: a predicate or where? </li>
+                </ol></li><li><q>FLWORs everywhere!</q>: Putting all the petals together (15 minutes)<ol>
+                    <li>Wrap-up Review Exercise, creating a FLWOR showing all possible parts.</li>
+                </ol></li></ul></section>
     </section>
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
