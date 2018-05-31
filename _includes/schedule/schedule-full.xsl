@@ -41,6 +41,7 @@
     </xsl:template>
     <xsl:template match="act">
         <li>
+            <xsl:apply-templates select="image"/>
             <xsl:apply-templates select="desc"/>
             <xsl:value-of
                 select="concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes)')"/>
