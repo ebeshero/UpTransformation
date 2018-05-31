@@ -5,12 +5,12 @@
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xhtml" indent="no" omit-xml-declaration="yes"/>
     <xsl:template match="/">
-            <body>
+            <section title="schedule">
                 <h1>Schedule</h1>
                 <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                         all</button></p>
                 <xsl:apply-templates/>
-            </body>
+            </section>
     </xsl:template>
     <xsl:template match="day">
         <section>
