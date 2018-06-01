@@ -250,4 +250,4 @@ q{
 .note {
     font-size: smaller;
 }
-img.icon{width:10%; max-width:500px; padding:.5em;}
+img.icon{position: relative; top:7px; /*right: -2px*/; width:10%; max-width:500px; padding:.5em;}
