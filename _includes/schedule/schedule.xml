@@ -348,7 +348,7 @@
                             <example>Access stage directions in MRM’s <emph>Charles the
                                 First</emph></example>
                         </examples></item>
-                    <item><code>self:: (.) Often used in predicates.</code>
+                    <item><code>self:: (.)</code> Often used in predicates.
                         <examples>
                             <example>String functions: <code>matches(., '^[A-Z]')</code></example>
                         </examples></item>
@@ -421,8 +421,7 @@
                 <details>
                 <item>Text returns: combining strings into one result: <code>concat()</code> and <code>string-join()</code></item>
                 
-                    <item>Exercise: produce a simple TSV of co-occurrence relationships for network analysis: Who is mentioned together in the same paragraphs or scenes?</item>
-                    <item>If time: XML or HTML returns: using curly braces to layer and activate XQuery in an XML file. (Share and discuss fully written example)</item>
+                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an HTML file.</item>
                 </details>
             </act>
            
