@@ -52,8 +52,9 @@ details = element details { item+ }
 item = element item {mixed { (link | q | code | emph | image)* },
         examples?
     }
-image = element image {text, alt}
+image = element image {text, alt, size}
 alt = attribute alt {text} # describes the image
+size = attribute size {"icon" | "larger"}
 link = element link { text }
 q = element q { text }
 examples = element examples { example+ }
