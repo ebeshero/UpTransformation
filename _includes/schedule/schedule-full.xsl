@@ -90,7 +90,7 @@
         </a>
     </xsl:template>
     <xsl:template match="image">
-        <img src="images/{.}" alt="{@alt}" class="{@size}"/>
+        <img src="images/{.}" alt="{@alt}" title="{@alt}" class="{@size}"/>
     </xsl:template>
     <xsl:template match="q">
         <q>
