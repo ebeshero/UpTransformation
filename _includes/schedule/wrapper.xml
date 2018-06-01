@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <head>
+        <title>Local view of schedule</title>
+        <script type="text/javascript" src="../../schedule.js">/**/</script>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+    </head>
+    <body>
+        <h1>Local view of schedule</h1>
+        <xi:include href="schedule-full.html"/>
+    </body>
+</html>
