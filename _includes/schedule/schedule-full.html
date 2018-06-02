@@ -172,7 +172,7 @@
                                 the document node to all of the acts in the play and then returns a
                                 count of the speeches in each act</li>
                             <li>What’s wrong with <code>//body/div/count(//sp)</code>?
-                                    <button class="answer">Answer</button><span class="answer"> The leading double slash resets the current context to
+                                    <button class="answer">Answer</button> <span class="answer">The leading double slash resets the current context to
                                     the document node, and selects all <code>&lt;sp&gt;</code>
                                     elements in the entire document, instead of just the individual
                                     act.</span></li>
@@ -188,26 +188,26 @@
                         </ol></li>
                     <li>Find the acts (<code>&lt;div&gt;</code> children of
                             <code>&lt;body&gt;</code>) in <em>Hamlet</em>
-                        <button class="answer">Answer</button><span class="answer"> 
+                        <button class="answer">Answer</button> <span class="answer">
                             <code>//body/div</code>
                         </span></li>
                     <li>Find the stage directions (<code>&lt;stage&gt;</code>) in
                             <em>Hamlet</em>
-                        <button class="answer">Answer</button><span class="answer"> 
+                        <button class="answer">Answer</button> <span class="answer">
                             <code>//stage</code>
                         </span></li>
                     <li>Find the <code>&lt;stage&gt;</code> children of <code>&lt;div&gt;</code>
                         elements (but not other <code>&lt;stage&gt;</code> elements) in
                             <em>Hamlet</em>
-                        <button class="answer">Answer</button><span class="answer"> 
+                        <button class="answer">Answer</button> <span class="answer">
                             <code>//div/stage</code>
                         </span></li>
                     <li>Find the parents of the stage directions in <em>Hamlet</em>
-                        <button class="answer">Answer</button><span class="answer"> 
+                        <button class="answer">Answer</button> <span class="answer">
                             <code>//stage/..</code> or <code>//stage/parent::*</code>
                         </span></li>
                     <li>Find the <code>&lt;div&gt;</code> parents of the stage directions in
-                            <em>Hamlet</em>, but not other parents <button class="answer">Answer</button><span class="answer"> 
+                            <em>Hamlet</em>, but not other parents <button class="answer">Answer</button> <span class="answer">
                             <code>//stage/parent::div</code>
                         </span></li>
                 </ol></li></ul></section>
@@ -219,7 +219,7 @@
                             <li><code>concat('Curly is #', 1)</code></li>
                             <li>Or use the <em>concatenation operator</em>: <code>'Curly is
                                     #' || 1</code></li>
-                            <li>What’s wrong with <code>concat(//speaker)</code>? <button class="answer">Answer</button><span class="answer"> The
+                            <li>What’s wrong with <code>concat(//speaker)</code>? <button class="answer">Answer</button> <span class="answer">The
                                     arguments to <code>concat()</code> must be two or more
                                     individual atomic (or atomizable) items, and
                                         <code>//speaker</code> is a sequence.</span></li>
@@ -230,7 +230,7 @@
                                 ')</code></li>
                             <li><code>string-join(//speaker, ', ')</code></li>
                             <li><code>string-join(//speaker)</code> Why does this work when
-                                    <code>concat(//speaker)</code> didn’t? <button class="answer">Answer</button><span class="answer"> The first
+                                    <code>concat(//speaker)</code> didn’t? <button class="answer">Answer</button> <span class="answer">The first
                                     argument to <code>string-join()</code> is a sequence. All
                                     arguments to <code>concat()</code> must be atomic or
                                     atomizable.</span></li>
@@ -280,10 +280,10 @@
                             <li><code>format-number(1, '#.###')</code></li>
                         </ol></li>
                     <li>Find the length in character count of each <code>&lt;speaker&gt;</code>
-                        <button class="answer">Answer</button><span class="answer"> <code>//speaker/string-length()</code> (why doesn’t
+                        <button class="answer">Answer</button> <span class="answer"><code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</span></li>
                     <li>Find the length of longest speaker name
-                                <button class="answer">Answer</button><span class="answer"> <code>max(//speaker/string-length())</code></span></li>
+                                <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
                 </ol></li><li>XPath functions for sequences (15 minutes; 2:05 p.m.–2:20 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
                     <li><code>distinct-values()</code>
                         <ol>
@@ -304,16 +304,16 @@
                         </ol></li>
                     <li>How many <code>&lt;speaker&gt;</code> elements are there in
                             <em>Hamlet</em>?
-                        <button class="answer">Answer</button><span class="answer"> <code>count(//speaker)</code></span></li>
+                        <button class="answer">Answer</button> <span class="answer"><code>count(//speaker)</code></span></li>
                     <li>How many <em>distinct</em>
                         <code>&lt;speaker&gt;</code> elements are there in <em>Hamlet</em>?
-                                <button class="answer">Answer</button><span class="answer"> <code>count(distinct-values(//speaker))</code></span></li>
+                                <button class="answer">Answer</button> <span class="answer"><code>count(distinct-values(//speaker))</code></span></li>
                     <li>How many acts are there in <em>Hamlet</em>?
-                                <button class="answer">Answer</button><span class="answer"> <code>count(//body/div)</code></span></li>
+                                <button class="answer">Answer</button> <span class="answer"><code>count(//body/div)</code></span></li>
                     <li>How many scenes are there in <em>Hamlet</em>?
-                                <button class="answer">Answer</button><span class="answer"> <code>count(//div/div)</code></span></li>
+                                <button class="answer">Answer</button> <span class="answer"><code>count(//div/div)</code></span></li>
                     <li>What does <code>count(//div)</code> tell you about <em>Hamlet</em>,
-                        and why is it unhelpful? <button class="answer">Answer</button><span class="answer"> It counts <code>&lt;div&gt;</code> elements
+                        and why is it unhelpful? <button class="answer">Answer</button> <span class="answer">It counts <code>&lt;div&gt;</code> elements
                             of different types together: acts, scenes, cast list.</span></li>
                 </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (15 minutes; 2:20 p.m.–2:35 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
                     <li>The <em>function signature</em> is the number and type of arguments it
@@ -462,7 +462,17 @@
     </section>
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
-        <section><h3>Introduction to XPath in XSLT (9:30 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview (40 minutes; 9:30 a.m.–10:10 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>It’s always a namespace issue: working with multiple namespaces (40 minutes; 10:10 a.m.–10:50 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>XSLT template matching and context nodes (40 minutes; 10:50 a.m.–11:30 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Identity transformation (30 minutes; 11:30 a.m.–12:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li></ul></section>
+        <section><h3>Introduction to XPath in XSLT (9:30 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview (40 minutes; 9:30 a.m.–10:10 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
+                    <li>XSLT (eXtensible Stylesheet Language Transformations) is an XML document with special namespaced elements designed to process XML documents</li>
+                    <li/>
+                    <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element, with <code>&lt;xsl:template&gt;</code> children.
+                    </li>
+                    <li>A <em>declarative programming language</em>. Not written to be executed in a line-by-line order. Template elements (or <em>template rules</em>) do the work, but can be written in any order. The program runs based on the patterns found in source document, and the same XSLT stylesheet might run in a different way on different source XML documents. That is, an XSLT stylesheet can work on various differently structured XML files, producing distinct output, depending on the pattern matches it recognizes. The sequence in which the template rules fire is determined by what surfaces in the source document with each template match.</li>
+                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the selection of the next template rules to fire. <code>&lt;xsl:apply-templates&gt;</code> <em>consumes</em> the XML node matched in the template rule, and determines that its children or other nodes in a set XPath relationship to the template match will be processed. </li>
+                    <li>When <code>&lt;xsl:apply-templates&gt;</code> is set, it can have a <code>@select</code> attribute that directly determines which XML elements in the source document will be processed next.</li>
+                </ol></li><li>It’s always a namespace issue: working with multiple namespaces (40 minutes; 10:10 a.m.–10:50 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
+                    <li/>
+                </ol></li><li>XSLT template matching and context nodes (40 minutes; 10:50 a.m.–11:30 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Identity transformation (30 minutes; 11:30 a.m.–12:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li></ul></section>
         <section><h3>Pushing and pulling (1:15 p.m.–3:50 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute (40 minutes; 1:15 p.m.–1:55 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>XSLT push and pull processing (40 minutes; 1:55 p.m.–2:35 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>When to use <code>&lt;xsl:value-of&gt;</code> (40 minutes; 2:35 p.m.–3:15 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Comparing XSLT and XQuery (35 minutes; 3:15 p.m.–3:50 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li></ul></section>
     </section>

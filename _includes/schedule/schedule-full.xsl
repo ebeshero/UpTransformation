@@ -45,7 +45,7 @@
     </xsl:template>
     <xsl:template match="act">
         <xsl:variable name="session_start" as="xs:time" select="xs:time(../@time)"/>
-        <!-- add PT0M to force type -->
+        <!-- add PT0M to force type in cases where total is 0 -->
         <xsl:variable name="act_start" as="xs:time"
             select="$session_start + sum(preceding-sibling::act/@time/xs:dayTimeDuration(.), xs:dayTimeDuration('PT0M'))"/>
         <xsl:variable name="act_end" as="xs:time" select="$act_start + xs:dayTimeDuration(@time)"/>
@@ -114,8 +114,9 @@
     </xsl:template>
     <xsl:template match="answer">
         <button class="answer">Answer</button>
+        <!-- ensure at least one space between the button and the answer-->
+        <xsl:text> </xsl:text>
         <span class="answer">
-            <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
