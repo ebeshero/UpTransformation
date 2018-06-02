@@ -66,4 +66,7 @@ example =
         mixed { (examples | link | q | code | emph | image)* }
     }
 emph = element emph { url?, text }
-answer = element answer { code, text }
+answer =
+    element answer {
+        mixed { code }
+    }
