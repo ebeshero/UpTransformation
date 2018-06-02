@@ -112,4 +112,10 @@
             <xsl:apply-templates/>
         </q>
     </xsl:template>
+    <xsl:template match="answer">
+        <button class="answer">Answer</button>
+        <span class="answer">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 </xsl:stylesheet>

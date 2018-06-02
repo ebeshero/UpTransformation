@@ -10,6 +10,10 @@ function init() {
     for (var i = 0, length = localCollapses.length; localCollapses[i]; i++) {
         localCollapses[i].addEventListener('click', localCollapse, false);
     }
+    var answers = document.querySelectorAll('button.answer');
+    for (var i = 0, length = answers.length; answers[i]; i++) {
+        answers[i].addEventListener('click', showAnswer, false);
+    }
 }
 function expand() {
     var sections = document.querySelectorAll('section > ul > li > ol');
@@ -28,4 +32,7 @@ function localExpand() {
 }
 function localCollapse() {
     this.nextElementSibling.style.display = 'none';
+}
+function showAnswer() {
+    this.nextElementSibling.style.display = 'inline';
 }

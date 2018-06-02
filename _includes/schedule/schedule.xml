@@ -14,7 +14,7 @@
                         “New XQuery”, and erase all content in the editing window. You’ll type your
                         XPath in the editing window and run it with the “Eval” button.</item>
                     <item>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
-                        means learning the:<examples>
+                        means learning the …<examples>
                             <example>Vocabulary (e.g., the division operator in XPath is <code
                                     url="https://www.w3.org/TR/xpath-31/#id-arithmetic">div</code>,
                                 not <code>/</code>)</example>
@@ -27,7 +27,8 @@
                                     >string-length()</code> and <code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-count"
                                     >count()</code> are functions, but there is no
-                                    <code>length()</code> or <code>len()</code>)</example>
+                                    <code>length()</code> or <code>len()</code> or
+                                    <code>size()</code>)</example>
                         </examples></item>
                     <item>All XPath expressions return a <emph>sequence</emph>. Sequences may
                         contain <emph>nodes</emph> (elements, attributes, etc.), <emph>atomic
@@ -53,7 +54,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc>Simple XPath expressions</desc>
                 <details>
                     <item>Review: strings and numbers (atomic values) are XPath expressions <examples>
@@ -75,6 +76,9 @@
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-current-date"
                                     >current-date()</code></example>
                             <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-current-time"
+                                    >current-time()</code></example>
+                            <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-current-dateTime"
                                     >current-dateTime()</code></example>
                         </examples></item>
@@ -91,7 +95,10 @@
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-count"
                                     >count(('Curly', 'Larry', 'Moe'))</code> (Why two sets of
                                 parentheses? Hint: How many arguments, and of what type?)</example>
-                        </examples></item>
+                            <example>Function <emph>signatures</emph> and <emph>cardinality</emph>:
+                                    <code>count($items as item()*) as xs:integer</code></example>
+                        </examples>
+                    </item>
                     <item>Nested XPath library functions and operations are XPath expressions. Read
                         them from the inside out<examples>
                             <example><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
@@ -119,7 +126,7 @@
                         that is, new-line and space have the same meaning</item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT20M">
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
@@ -133,9 +140,9 @@
                             url="https://www.oxygenxml.com/doc/versions/20.0/ug-editor/topics/xpath-console.html"
                             >XPath Toolbar</emph>.) Enter some XPath expressions (from above, such
                         as <code>1 + 1</code>). Limited to one line; hit <q>Enter</q> to run the
-                        expression. (The XPath Toolbar works only if you have an XML document open
-                        in &lt;oXygen/&gt;, even if you aren’t using the document in your XPath
-                        expression.)</item>
+                        expression. The XPath Toolbar works only if you have an XML document open in
+                        &lt;oXygen/&gt;, even if you aren’t using the document in your XPath
+                        expression.</item>
                     <item>Go to Window → Show View → XPath/XQuery Builder. Set the dropdown in the
                         upper left to <q>XPath 3.0</q>. Enter some XPath expressions. May span
                         multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
@@ -148,8 +155,8 @@
                 <details>
                     <item>An XPath <emph>path expression</emph> is a sequence of steps, each of
                         which proceeds from one node (called the <emph>context node</emph>) to a
-                        sequence of zero (!) or more others. It returns the final destination nodes
-                        in document order (order of start tags). (Details at Kay 1227)</item>
+                        sequence of zero (!) or more others. It returns the results in document
+                        order (order of start tags). (Details at Kay 1227)</item>
                     <item>Sample XPath path expression: <code>/TEI/text/body/div</code>: start at
                         the document node, then navigate to a sequence of all its
                             <code>&lt;TEI&gt;</code> children. For each of those, navigate to all of
@@ -178,7 +185,8 @@
                         </examples></item>
                     <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
-                        behind the scenes.</item>
+                        behind the scenes. eXide does not; you have to specify namespaces in
+                        eXide.</item>
                 </details>
             </act>
             <act time="PT20M">
@@ -196,7 +204,8 @@
                                 as <emph>descendant</emph>), so <code>/TEI//div</code> finds all of
                                 the <code>&lt;div&gt;</code> elements that are descendants of the
                                     <code>&lt;TEI&gt;</code> root element, that is, anywhere in the
-                                document.</example>
+                                document. The document node has a descendant axis, too:
+                                    <code>//div</code></example>
                         </examples>
                     </item>
                     <item>Each path step returns a sequence of zero or more context nodes for the
@@ -205,6 +214,15 @@
                             <q>navigate from the document node to all of the acts in the play and
                             then return a count of the speeches in each act</q>. (Every step except
                         the last must return nodes, and not atomic values. Why?)</item>
+                    <item>Find the acts (<code>&lt;div&gt;</code> children of
+                            <code>&lt;body&gt;</code>) in <emph>Hamlet</emph> <answer>
+                                <code>//body/div</code>
+                            </answer></item>
+                    <item>Find the stage directions (<code>&lt;stage&gt;</code>( in
+                            <emph>Hamlet</emph></item>
+                    <item>Find the parents of the stage directions in <emph>Hamlet</emph></item>
+                    <item>Find the <code>&lt;div&gt;</code> parents of the stage directions in
+                            <emph>Hamlet</emph>, but not other parents</item>
                 </details>
             </act>
         </slot>
@@ -214,36 +232,48 @@
                 <desc>XPath functions for strings</desc>
                 <details>
                     <item>Common functions on strings<examples>
-                            <example><code>concat()</code>:
-                                    <code>concat('Curly','Larry','Moe')</code><code>concat('Curly is
-                                    #', 1)</code></example>
-                            <example><code>string-join()</code>: <code>string-join(( 'Curly',
-                                    'Larry', 'Moe'), ', ')</code>; <code>string-join(/TEI//speaker,
-                                    ', ')</code></example>
-                            <example><code>string-length()</code>: <code>string-length('Curly,
-                                    Larry, and Moe')</code></example>
-                            <example><code>lower-case()</code>, <code>upper-case()</code>:
-                                    <code>lower-case('Curly, Larry, and Moe')</code></example>
-                            <example><code>normalize-space()</code>: <code>normalize-space(' Curly,
-                                    Larry, Moe ')</code></example>
-                            <example><code>substring-before()</code>,
-                                <code>substring-after()</code>: <code>substring-before('Larry',
-                                    'r')</code></example>
-                            <example><code>substring()</code>: <code>substring('Curly', 1,
-                                2)</code>. XPath starts counting with 1 (not 0).</example>
-                            <example><code>contains()</code>: <code>contains('Ophelia',
-                                'ph')</code></example>
-                        </examples></item>
-                    <item>Three ways to apply a function to a sequence<examples>
-                            <example>Explicit <code>for</code>: for $speaker in /TEI//speaker return
-                                contains($speaker, 'ph')</example>
-                            <example>Implicit <code>for</code>: /TEI//speaker/contains(.,
-                                'ph')</example>
-                            <example>Simple map: /TEI//speaker ! contains(., 'ph')</example>
-                        </examples></item>
-                    <item>Difference between simple map (<code>!</code>) and arrow (<code>=></code>) <examples>
-                            <example><code>('Curly', 'Larry', 'Moe') => count()</code></example>
-                            <example><code>('Curly', 'Larry', 'Moe') ! count(.)</code></example>
+                            <example><code>concat()</code>
+                                <examples>
+                                    <example>
+                                        <code>concat('Curly','Larry','Moe')</code></example>
+                                    <example><code>concat('Curly is #', 1)</code></example>
+                                    <example>Or use the <emph>concatenation operator</emph>:
+                                            <code>'Curly is #' || 1</code></example>
+                                </examples>
+                            </example>
+                            <example><code>string-join()</code><examples>
+                                    <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
+                                            ')</code></example>
+                                </examples></example>
+                            <example><code>string-length()</code><examples>
+                                    <example><code>string-length('Curly, Larry, and
+                                        Moe')</code></example>
+                                </examples></example>
+                            <example><code>lower-case()</code>, <code>upper-case()</code>
+                                <examples>
+                                    <example><code>lower-case('Curly, Larry, and
+                                        Moe')</code></example>
+                                </examples></example>
+                            <example><code>normalize-space()</code><examples>
+                                    <example><code>normalize-space(' Curly, Larry, Moe
+                                        ')</code></example>
+                                </examples></example>
+                            <example><code>substring-before()</code>, <code>substring-after()</code><examples>
+                                    <example><code>substring-before('Larry', 'r')</code> What if
+                                        there’s more than one?</example>
+                                    <example><code>substring-after('Larry', 'r')</code> What if
+                                        there’s more than one?</example>
+                                </examples></example>
+                            <example><code>substring()</code><examples>
+                                    <example><code>substring('Curly', 1, 2)</code> XPath starts
+                                        counting with 1 (not 0).</example>
+                                </examples></example>
+                            <example><code>contains()</code><examples>
+                                    <example><code>contains('Ophelia', 'ph')</code> Foreshadowing:
+                                        This returns a Boolean (<code>True</code> or
+                                            <code>False</code>) value. How might this be
+                                        useful?</example>
+                                </examples></example>
                         </examples></item>
                 </details>
             </act>
@@ -251,13 +281,22 @@
                 <desc>XPath functions for numbers</desc>
                 <details>
                     <item><code>max()</code>, <code>min()</code>, <code>sum()</code>,
-                            <code>avg()</code>. What happens when these are applied to strings? To a
-                        sequence that mixes strings and numbers?</item>
-                    <item><code>ceiling()</code>, <code>floor()</code>:
-                            <code>ceiling(3.141592653)</code></item>
-                    <item><code>round()</code>: <code>round(3.141592653, 4)</code></item>
-                    <item><code>format-number()</code>: <code>format-number(1,
-                        '#.000')</code></item>
+                            <code>avg()</code><examples>
+                            <example><code>max((1, 2, 3))</code>, etc.</example>
+                            <example>What happens when these are applied to strings? To a sequence
+                                that mixes strings and numbers?</example>
+                        </examples></item>
+                    <item><code>ceiling()</code>, <code>floor()</code>
+                        <examples>
+                            <example><code>ceiling(3.141592653)</code></example>
+                        </examples></item>
+                    <item><code>round()</code><examples>
+                            <example><code>round(3.141592653, 4)</code></example>
+                        </examples></item>
+                    <item><code>format-number()</code><examples>
+                            <example><code>format-number(1, '#.000')</code></example>
+                            <example><code>format-number(1, '#.###')</code></example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT15M">
@@ -292,6 +331,35 @@
             </act>
             <act time="PT60M">
                 <desc>Read and evaluate XML projects with XPath</desc>
+                <details>
+                    <item>Three ways to apply a function to a sequence<examples>
+                            <example>Explicit <code>for</code><examples>
+                                    <example><code>for $speaker in /TEI//speaker return
+                                            contains($speaker, 'ph')</code></example>
+                                </examples></example>
+                            <example>Implicit <code>for</code><examples>
+                                    <example><code>/TEI//speaker/contains(., 'ph')</code></example>
+                                </examples></example>
+                            <example>Simple map (<code>!</code>)<!-- add URL --><examples>
+                                    <example><code>/TEI//speaker ! contains(.,
+                                        'ph')</code></example>
+                                </examples></example>
+                        </examples></item>
+                    <item>Difference between simple map (<code>!</code>) and arrow (<code>=></code>) <examples>
+                            <example><code>('Curly', 'Larry', 'Moe') => count()</code></example>
+                            <example><code>('Curly', 'Larry', 'Moe') ! count(.)</code></example>
+                        </examples></item>
+                    <item>Concatenating nodes<examples>
+                            <example><code>string-join()</code><examples>
+                                    <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
+                                            ')</code></example>
+                                    <example><code>concat(/TEI//speaker, ', ')</code> Why doesn’t
+                                        this work?</example>
+                                    <example><code>string-join(/TEI//speaker, ', ')</code> Use this
+                                        instead</example>
+                                </examples></example>
+                        </examples></item>
+                </details>
             </act>
         </slot>
     </day>
@@ -304,7 +372,8 @@
                 <details>
                     <item><code>document()</code> (This node contains the root element, but sits
                         above it).</item>
-                    <item><code>processing-instruction()</code> (This node includes things like schema associations)</item>
+                    <item><code>processing-instruction()</code> (This node includes things like
+                        schema associations)</item>
                     <item><code>element()</code> (Review the anatomy of an element.) </item>
                     <item><code>text()</code> (This is not a function, but an actual node. <examples>
                             <example>Look at the difference between <code>text()</code> and two
@@ -348,16 +417,19 @@
                             <example>Access stage directions in MRM’s <emph>Charles the
                                 First</emph></example>
                         </examples></item>
-                    <item><code>self:: (.)</code> Often used in predicates.
-                        <examples>
+                    <item><code>self:: (.)</code> Often used in predicates. <examples>
                             <example>String functions: <code>matches(., '^[A-Z]')</code></example>
                         </examples></item>
                 </details>
             </act>
             <act time="PT30M">
-                <desc> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to review XPath syntax we have learned so far.</desc>
+                <desc> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to
+                    review XPath syntax we have learned so far.</desc>
                 <details>
-                    <item>Exercise: Work with the Digital Mitford Site Index posted in eXist at <link>/db/mitford/si.xml</link> or the official version at its external location: <link>http://digitalmitford.org/si.xml</link>  Can you find the following [5 or 6 things to review what we have been teaching]. </item>
+                    <item>Exercise: Work with the Digital Mitford Site Index posted in eXist at
+                            <link>/db/mitford/si.xml</link> or the official version at its external
+                        location: <link>http://digitalmitford.org/si.xml</link> Can you find the
+                        following [5 or 6 things to review what we have been teaching]. </item>
                 </details>
             </act>
             <act time="PT30M">
@@ -373,8 +445,8 @@
                 <desc>XPath in XQuery: Introducing Variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
-                    <item><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>, <code>Where</code>,
-                            <code>Order by</code>, <code>Return</code></item>
+                    <item><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
+                            <code>Where</code>, <code>Order by</code>, <code>Return</code></item>
                     <item>The simplest <code>FLWOR</code>: <code>Let</code> and <code>Return</code>
                         <examples>
                             <example>Retrieve whole elements</example>
@@ -389,7 +461,8 @@
             <act time="PT40M">
                 <desc>Defining variables: XPath expressions with functions and predicates</desc>
                 <details>
-                    <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements mimicking/extending the previous Scavenger Hunt.</item>
+                    <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
+                        mimicking/extending the previous Scavenger Hunt.</item>
 
                 </details>
             </act>
@@ -399,32 +472,44 @@
                 <details>
                     <item><code>for $i in (sequence) return ...</code></item>
                     <item>Practice examples in &lt;oXygen/&gt; <examples>
-                            <example>Use XPath builder window: for each of a set of keyed attributes, return something associated with each one.</example>
+                            <example>Use XPath builder window: for each of a set of keyed
+                                attributes, return something associated with each one.</example>
                         </examples>
                     </item>
 
                 </details>
             </act>
             <act time="PT40M">
-                <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>For</code> works</desc>
+                <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>For</code>
+                    works</desc>
                 <details>
                     <item><code>For $i in $YourSequenceVariable</code> and iterative returns</item>
-                    <item>The <code>$pos</code> variable: <code>For $i at $pos in $YourSequenceVariable</code></item>
-                    <item>Sorting and ordering: XPath <code>sort()</code> function: using this above a for-loop, vs. the XQuery <code>Order by</code> statement inside a for-loop to control the order of processing and returns.</item>
-                    <item>Adding where to <code>FLWOR</code> with a for-loop to limit the returns</item>
-                    <item>Which is more efficient in XQuery: a predicate or <code>Where</code>? </item>
+                    <item>The <code>$pos</code> variable: <code>For $i at $pos in
+                            $YourSequenceVariable</code></item>
+                    <item>Sorting and ordering: XPath <code>sort()</code> function: using this above
+                        a for-loop, vs. the XQuery <code>Order by</code> statement inside a for-loop
+                        to control the order of processing and returns.</item>
+                    <item>Adding where to <code>FLWOR</code> with a for-loop to limit the
+                        returns</item>
+                    <item>Which is more efficient in XQuery: a predicate or <code>Where</code>?
+                    </item>
                 </details>
 
             </act>
-            <act time="PT35M"><image size="icon" alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell">flower.jpg</image>
+            <act time="PT35M">
+                <image size="icon"
+                    alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
+                    >flower.jpg</image>
                 <desc>Putting it all together: FLWORs for pulling data</desc>
                 <details>
-                <item>Text returns: combining strings into one result: <code>concat()</code> and <code>string-join()</code></item>
-                
-                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an HTML file.</item>
+                    <item>Text returns: combining strings into one result: <code>concat()</code> and
+                            <code>string-join()</code></item>
+
+                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an
+                        HTML file.</item>
                 </details>
             </act>
-           
+
         </slot>
     </day>
     <day d="Wednesday, June 13">
