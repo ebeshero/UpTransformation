@@ -43,6 +43,7 @@ button {
     border-radius: 15px;
     color: #f4eee2;
     width: 100px;
+    font-size: 80%; /* shrink font and strip padding to reduce button bloat */
     padding: 0; /*background-color: lightcyan;*/
 }
 li > button {
