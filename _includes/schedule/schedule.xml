@@ -433,9 +433,21 @@
             <title>Introduction to XPath in XSLT</title>
             <act time="PT40M">
                 <desc>XSLT overview</desc>
+                <details>
+                    <item>XSLT (eXtensible Stylesheet Language Transformations) is an XML document with special namespaced elements designed to process XML documents</item>
+                    <item></item>
+                    <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element, with <code>&lt;xsl:template&gt;</code> children.
+                    </item>
+                    <item>A <emph>declarative programming language</emph>. Not written to be executed in a line-by-line order. Template elements (or <emph>template rules</emph>) do the work, but can be written in any order. The program runs based on the patterns found in source document, and the same XSLT stylesheet might run in a different way on different source XML documents. That is, an XSLT stylesheet can work on various differently structured XML files, producing distinct output, depending on the pattern matches it recognizes. The sequence in which the template rules fire is determined by what surfaces in the source document with each template match.</item>
+                    <item>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the selection of the next template rules to fire. <code>&lt;xsl:apply-templates&gt;</code> <emph>consumes</emph> the XML node matched in the template rule, and determines that its children or other nodes in a set XPath relationship to the template match will be processed. </item>
+                    <item>When <code>&lt;xsl:apply-templates&gt;</code> is set, it can have a <code>@select</code> attribute that directly determines which XML elements in the source document will be processed next.</item>
+                </details>
             </act>
             <act time="PT40M">
                 <desc>It’s always a namespace issue: working with multiple namespaces</desc>
+                <details>
+                    <item></item>
+                </details>
             </act>
             <act time="PT40M">
                 <desc>XSLT template matching and context nodes</desc>
