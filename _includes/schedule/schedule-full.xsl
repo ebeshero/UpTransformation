@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:djb="http://www.obdurodon.org"
+    xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xhtml" indent="no" omit-xml-declaration="yes"/>
+    <xsl:function name="djb:format-time" as="xs:string">
+        <xsl:param name="input" as="xs:time" required="yes"/>
+        <xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/>
+    </xsl:function>
     <xsl:template match="/">
         <section title="schedule">
             <h1>Schedule</h1>
@@ -35,21 +39,23 @@
             select="xs:time(../@time) + sum(following-sibling::act/@time/xs:dayTimeDuration(.))"/>
         <h3>
             <xsl:value-of
-                select="concat(., ' (', format-time(xs:time(../@time), '[h]:[m01] [Pn]'), '–', format-time($duration, '[h]:[m01] [Pn]'), ')')"
+                select="concat(., ' (', djb:format-time(../@time), '–', djb:format-time($duration), ')')"
             />
         </h3>
     </xsl:template>
     <xsl:template match="act">
         <xsl:variable name="session_start" as="xs:time" select="xs:time(../@time)"/>
-        <!--        <xsl:variable name="act_start" as="xs:time"
-            select="$session_start + xs:dayTimeDuration(sum(preceding-sibling::act/@time/xs:dayTimeDuration(.)))"/>
+        <!-- add PT0M to force type -->
+        <xsl:variable name="act_start" as="xs:time"
+            select="$session_start + sum(preceding-sibling::act/@time/xs:dayTimeDuration(.), xs:dayTimeDuration('PT0M'))"/>
         <xsl:variable name="act_end" as="xs:time" select="$act_start + xs:dayTimeDuration(@time)"/>
--->
         <li>
             <xsl:apply-templates select="image"/>
             <xsl:apply-templates select="desc"/>
             <xsl:value-of
-                select="concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes)')"/>
+                select="
+                    concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes; ',
+                    djb:format-time($act_start), '–', djb:format-time($act_end), ')')"/>
             <xsl:text> </xsl:text>
             <button class="localExpand">Expand</button>
             <xsl:text> | </xsl:text>
