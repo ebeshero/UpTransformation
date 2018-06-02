@@ -214,15 +214,32 @@
                             <q>navigate from the document node to all of the acts in the play and
                             then return a count of the speeches in each act</q>. (Every step except
                         the last must return nodes, and not atomic values. Why?)</item>
+                    <item><code>*</code> matches any element<examples>
+                            <example><code>/TEI/teiHeader/*</code> matches all child elements of the
+                                    <code>&lt;teiHeader&gt;</code></example>
+                        </examples></item>
                     <item>Find the acts (<code>&lt;div&gt;</code> children of
-                            <code>&lt;body&gt;</code>) in <emph>Hamlet</emph> <answer>
-                                <code>//body/div</code>
-                            </answer></item>
-                    <item>Find the stage directions (<code>&lt;stage&gt;</code>( in
-                            <emph>Hamlet</emph></item>
-                    <item>Find the parents of the stage directions in <emph>Hamlet</emph></item>
+                            <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
+                        <answer>
+                            <code>//body/div</code>
+                        </answer></item>
+                    <item>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                            <emph>Hamlet</emph>
+                        <answer>
+                            <code>//stage</code>
+                        </answer></item>
+                    <item>Find the <code>&lt;stage&gt;</code> children of <code>&lt;div&gt;</code>
+                        elements (but not other <code>&lt;stage&gt;</code> elements) <answer>
+                            <code>//div/stage</code>
+                        </answer></item>
+                    <item>Find the parents of the stage directions in <emph>Hamlet</emph>
+                        <answer>
+                            <code>//stage/..</code> or <code>//stage/parent::*</code>
+                        </answer></item>
                     <item>Find the <code>&lt;div&gt;</code> parents of the stage directions in
-                            <emph>Hamlet</emph>, but not other parents</item>
+                            <emph>Hamlet</emph>, but not other parents <answer>
+                            <code>//stage/parent::div</code>
+                        </answer></item>
                 </details>
             </act>
         </slot>
@@ -231,53 +248,48 @@
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
                 <details>
-                    <item>Common functions on strings<examples>
-                            <example><code>concat()</code>
-                                <examples>
-                                    <example>
-                                        <code>concat('Curly','Larry','Moe')</code></example>
-                                    <example><code>concat('Curly is #', 1)</code></example>
-                                    <example>Or use the <emph>concatenation operator</emph>:
-                                            <code>'Curly is #' || 1</code></example>
-                                </examples>
-                            </example>
-                            <example><code>string-join()</code><examples>
-                                    <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
-                                            ')</code></example>
-                                </examples></example>
-                            <example><code>string-length()</code><examples>
-                                    <example><code>string-length('Curly, Larry, and
-                                        Moe')</code></example>
-                                </examples></example>
-                            <example><code>lower-case()</code>, <code>upper-case()</code>
-                                <examples>
-                                    <example><code>lower-case('Curly, Larry, and
-                                        Moe')</code></example>
-                                </examples></example>
-                            <example><code>normalize-space()</code><examples>
-                                    <example><code>normalize-space(' Curly, Larry, Moe
-                                        ')</code></example>
-                                </examples></example>
-                            <example><code>substring-before()</code>, <code>substring-after()</code><examples>
-                                    <example><code>substring-before('Larry', 'r')</code> What if
-                                        there’s more than one?</example>
-                                    <example><code>substring-after('Larry', 'r')</code> What if
-                                        there’s more than one?</example>
-                                </examples></example>
-                            <example><code>substring()</code><examples>
-                                    <example><code>substring('Curly', 1, 2)</code> XPath starts
-                                        counting with 1 (not 0).</example>
-                                </examples></example>
-                            <example><code>contains()</code><examples>
-                                    <example><code>contains('Ophelia', 'ph')</code> Foreshadowing:
-                                        This returns a Boolean (<code>True</code> or
-                                            <code>False</code>) value. How might this be
-                                        useful?</example>
-                                </examples></example>
+                    <item><code>concat()</code>
+                        <examples>
+                            <example>
+                                <code>concat('Curly','Larry','Moe')</code></example>
+                            <example><code>concat('Curly is #', 1)</code></example>
+                            <example>Or use the <emph>concatenation operator</emph>: <code>'Curly is
+                                    #' || 1</code></example>
+                        </examples>
+                    </item>
+                    <item><code>string-join()</code><examples>
+                            <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
+                                ')</code></example>
+                        </examples></item>
+                    <item><code>string-length()</code><examples>
+                            <example><code>string-length('Curly, Larry, and Moe')</code></example>
+                        </examples></item>
+                    <item><code>lower-case()</code>, <code>upper-case()</code>
+                        <examples>
+                            <example><code>lower-case('Curly, Larry, and Moe')</code></example>
+                        </examples></item>
+                    <item><code>normalize-space()</code><examples>
+                            <example><code>normalize-space(' Curly, Larry, Moe ')</code></example>
+                        </examples></item>
+                    <item><code>substring-before()</code>, <code>substring-after()</code><examples>
+                            <example><code>substring-before('Larry', 'r')</code> What if there’s
+                                more than one?</example>
+                            <example><code>substring-after('Larry', 'r')</code> What if there’s more
+                                than one?</example>
+                        </examples></item>
+                    <item><code>substring()</code><examples>
+                            <example><code>substring('Curly', 1, 2)</code> XPath starts counting
+                                with 1 (not 0).</example>
+                        </examples></item>
+                    <item><code>contains()</code> Foreshadowing: This returns a Boolean
+                            (<code>True</code> or <code>False</code>) value. How might this be useful?<examples>
+                            <example><code>contains('Ophelia', 'ph')</code></example>
+                            <example><code>//speaker/contains(., 'ph')</code> (the dot refers to the
+                                current context item)</example>
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT25M">
                 <desc>XPath functions for numbers</desc>
                 <details>
                     <item><code>max()</code>, <code>min()</code>, <code>sum()</code>,
@@ -297,6 +309,11 @@
                             <example><code>format-number(1, '#.000')</code></example>
                             <example><code>format-number(1, '#.###')</code></example>
                         </examples></item>
+                    <item>Length in character count of each <code>&lt;speaker&gt;</code>
+                        <answer><code>//speaker/string-length()</code> (why doesn’t
+                                <code>string-length(//speaker)</code> work?)</answer></item>
+                    <item>Length of longest speaker name
+                                <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
             <act time="PT15M">
@@ -309,7 +326,16 @@
                             <example><code>count(distinct-values(/TEI//speaker))</code></example>
                             <example><code>distinct-values(count(/TEI//speaker))</code></example>
                         </examples></item>
-                    <item><code>reverse()</code>: <code>reverse(/TEI//speaker)</code></item>
+                    <item><code>sort()</code><examples>
+                            <example><code>sort(//speaker)</code></example>
+                            <example><code>sort($speakers,(), function($item)
+                                    {string-length($item)})</code></example>
+                        </examples></item>
+                    <item>How many <code>&lt;speaker&gt;</code> elements are there?
+                                <answer><code>count(//speaker)</code></answer></item>
+                    <item>How many <emph>distinct</emph>
+                        <code>&lt;speaker&gt;</code> elements are there?
+                                <answer><code>count(distinct-values(//speaker))</code></answer></item>
                 </details>
             </act>
             <act time="PT15M">
@@ -329,7 +355,7 @@
             <act time="PT25M">
                 <desc>XPath predicates</desc>
             </act>
-            <act time="PT60M">
+            <act time="PT50M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
                     <item>Three ways to apply a function to a sequence<examples>
