@@ -5,12 +5,12 @@
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xhtml" indent="no" omit-xml-declaration="yes"/>
     <xsl:template match="/">
-            <section title="schedule">
-                <h1>Schedule</h1>
-                <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
-                        all</button></p>
-                <xsl:apply-templates/>
-            </section>
+        <section title="schedule">
+            <h1>Schedule</h1>
+            <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
+                all</button></p>
+            <xsl:apply-templates/>
+        </section>
     </xsl:template>
     <xsl:template match="day">
         <section>
@@ -40,11 +40,20 @@
         </h3>
     </xsl:template>
     <xsl:template match="act">
+        <xsl:variable name="session_start" as="xs:time" select="xs:time(../@time)"/>
+        <!--        <xsl:variable name="act_start" as="xs:time"
+            select="$session_start + xs:dayTimeDuration(sum(preceding-sibling::act/@time/xs:dayTimeDuration(.)))"/>
+        <xsl:variable name="act_end" as="xs:time" select="$act_start + xs:dayTimeDuration(@time)"/>
+-->
         <li>
             <xsl:apply-templates select="image"/>
             <xsl:apply-templates select="desc"/>
             <xsl:value-of
                 select="concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes)')"/>
+            <xsl:text> </xsl:text>
+            <button class="localExpand">Expand</button>
+            <xsl:text> | </xsl:text>
+            <button class="localCollapse">Collapse</button>
             <xsl:apply-templates select="details"/>
         </li>
     </xsl:template>
