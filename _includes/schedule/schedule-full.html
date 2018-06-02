@@ -326,7 +326,7 @@
                     <li>The error message is your friend. Read it.</li>
                     <li>Mozilla Development Network (MDN):
                             <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a></li>
-                </ol></li><li>XPath predicates (25 minutes; 2:35 p.m.–3:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Something or other (15 minutes; 3:00 p.m.–3:15 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:15 p.m.–3:50 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
+                </ol></li><li>XPath predicates (25 minutes; 2:35 p.m.–3:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Odds and ends (15 minutes; 3:00 p.m.–3:15 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
                     <li>Three ways to apply a function to a sequence<ol>
                             <li>Explicit <code>for</code><ol>
                                     <li><code>for $speaker in /TEI//speaker return
@@ -354,7 +354,7 @@
                                         instead</li>
                                 </ol></li>
                         </ol></li>
-                </ol></li></ul></section>
+                </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:15 p.m.–3:50 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li></ul></section>
     </section>
     <section>
         <h2>Tuesday, June 12: XPath and XQuery</h2>
@@ -463,15 +463,30 @@
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
         <section><h3>Introduction to XPath in XSLT (9:30 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview (40 minutes; 9:30 a.m.–10:10 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
-                    <li>XSLT (eXtensible Stylesheet Language Transformations) is an XML document with special namespaced elements designed to process XML documents</li>
-                    <li/>
-                    <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element, with <code>&lt;xsl:template&gt;</code> children.
-                    </li>
-                    <li>A <em>declarative programming language</em>. Not written to be executed in a line-by-line order. Template elements (or <em>template rules</em>) do the work, but can be written in any order. The program runs based on the patterns found in source document, and the same XSLT stylesheet might run in a different way on different source XML documents. That is, an XSLT stylesheet can work on various differently structured XML files, producing distinct output, depending on the pattern matches it recognizes. The sequence in which the template rules fire is determined by what surfaces in the source document with each template match.</li>
-                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the selection of the next template rules to fire. <code>&lt;xsl:apply-templates&gt;</code> <em>consumes</em> the XML node matched in the template rule, and determines that its children or other nodes in a set XPath relationship to the template match will be processed. </li>
-                    <li>When <code>&lt;xsl:apply-templates&gt;</code> is set, it can have a <code>@select</code> attribute that directly determines which XML elements in the source document will be processed next.</li>
+                    <li>XSLT (eXtensible Stylesheet Language Transformations) is an XML document
+                        with special namespaced elements designed to process XML documents</li>
+                    <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
+                        with <code>&lt;xsl:template&gt;</code> children.</li>
+                    <li>A <em>declarative programming language</em>. Not written to be
+                        executed in a line-by-line order. Template elements (or <em>template
+                            rules</em>) do the work, but can be written in any order. The program
+                        runs based on the patterns found in source document, and the same XSLT
+                        stylesheet might run in a different way on different source XML documents.
+                        That is, an XSLT stylesheet can work on various differently structured XML
+                        files, producing distinct output, depending on the pattern matches it
+                        recognizes. The sequence in which the template rules fire is determined by
+                        what surfaces in the source document with each template match.</li>
+                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
+                        selection of the next template rules to fire.
+                            <code>&lt;xsl:apply-templates&gt;</code>
+                        <em>consumes</em> the XML node matched in the template rule, and
+                        determines that its children or other nodes in a set XPath relationship to
+                        the template match will be processed. </li>
+                    <li>When <code>&lt;xsl:apply-templates&gt;</code> is set, it can have a
+                            <code>@select</code> attribute that directly determines which XML
+                        elements in the source document will be processed next.</li>
                 </ol></li><li>It’s always a namespace issue: working with multiple namespaces (40 minutes; 10:10 a.m.–10:50 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
-                    <li/>
+                    <li>[PLACEHOLDER]</li>
                 </ol></li><li>XSLT template matching and context nodes (40 minutes; 10:50 a.m.–11:30 a.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Identity transformation (30 minutes; 11:30 a.m.–12:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li></ul></section>
         <section><h3>Pushing and pulling (1:15 p.m.–3:50 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute (40 minutes; 1:15 p.m.–1:55 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>XSLT push and pull processing (40 minutes; 1:55 p.m.–2:35 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>When to use <code>&lt;xsl:value-of&gt;</code> (40 minutes; 2:35 p.m.–3:15 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Comparing XSLT and XQuery (35 minutes; 3:15 p.m.–3:50 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li></ul></section>
