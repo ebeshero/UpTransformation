@@ -68,5 +68,5 @@ example =
 emph = element emph { url?, text }
 answer =
     element answer {
-        mixed { code }
+        mixed { code* }
     }
