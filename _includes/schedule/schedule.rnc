@@ -66,7 +66,7 @@ q =
 examples = element examples { example+ }
 example =
     element example {
-        mixed { (examples | link | q | code | emph | image)* }
+        mixed { (answer | examples | link | q | code | emph | image)* }
     }
 emph = element emph { url?, text }
 answer =

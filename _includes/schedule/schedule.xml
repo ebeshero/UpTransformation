@@ -192,31 +192,47 @@
             <act time="PT20M">
                 <desc>XPath path steps</desc>
                 <details>
-                    <item>Path steps move along axes: child, parent, descendant, ancestor,
-                        preceding-sibling, following-sibling, etc. See:
+                    <item>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
+                            <code>descendant::</code>, <code>ancestor::</code>,
+                            <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
+                        See:
                             <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
-                    <item>Axes are specified with a double colon, e.g., <code>descendant::div</code><examples>
+                    <item>Axes are specified with a double colon, e.g., <code>descendant::div</code>
+                        matches all <code>&lt;div&gt;</code> descendants of the current context
+                        node. There are two common shortcut notations<examples>
                             <example>The default is the <emph>child</emph> axis, so
                                     <code>/TEI/teiHeader</code> is synonymous with
-                                    <code>/child::TEI/child::teiHeader</code>.</example>
+                                    <code>/child::TEI/child::teiHeader</code>. Use the
+                                shorthand.</example>
                             <example><code>//</code> is shorthand for
-                                    <code>descendant-or-self::</code> (you can usually think of it
-                                as <emph>descendant</emph>), so <code>/TEI//div</code> finds all of
-                                the <code>&lt;div&gt;</code> elements that are descendants of the
-                                    <code>&lt;TEI&gt;</code> root element, that is, anywhere in the
-                                document. The document node has a descendant axis, too:
-                                    <code>//div</code></example>
+                                    <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
+                                finds all of the <code>&lt;div&gt;</code> elements that are
+                                descendants of the <code>&lt;TEI&gt;</code> root element, that is,
+                                anywhere in the document. The document node has a descendant axis,
+                                too: <code>//div</code>. Be careful with this one!</example>
                         </examples>
                     </item>
                     <item>Each path step returns a sequence of zero or more context nodes for the
-                        next path steps.</item>
-                    <item>Path expressions may be combined with other types of expressions, e.g.,
-                            <q>navigate from the document node to all of the acts in the play and
-                            then return a count of the speeches in each act</q>. (Every step except
-                        the last must return nodes, and not atomic values. Why?)</item>
+                        next path step. Only the final path step is permitted to return something
+                        other than a node. Why?</item>
+                    <item>The end of a path expression may return nodes or atomic values<examples>
+                            <example><code>//body/div/count(descendant::sp)</code> navigates from
+                                the document node to all of the acts in the play and then returns a
+                                count of the speeches in each act</example>
+                            <example>What’s wrong with <code>//body/div/count(//sp)</code>?
+                                    <answer>The leading double slash resets the current context to
+                                    the document node, and selects all <code>&lt;sp&gt;</code>
+                                    elements in the entire document, instead of just the individual
+                                    act.</answer></example>
+                        </examples></item>
                     <item><code>*</code> matches any element<examples>
                             <example><code>/TEI/teiHeader/*</code> matches all child elements of the
                                     <code>&lt;teiHeader&gt;</code></example>
+                        </examples></item>
+                    <item><code>..</code> matches the parent node of the current context node. That
+                        is, it’s shorthand for <code>parent::*</code><examples>
+                            <example><code>//stage/..</code> matches the parent nodes of all
+                                    <code>&lt;stage&gt;</code> elements</example>
                         </examples></item>
                     <item>Find the acts (<code>&lt;div&gt;</code> children of
                             <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
@@ -229,7 +245,9 @@
                             <code>//stage</code>
                         </answer></item>
                     <item>Find the <code>&lt;stage&gt;</code> children of <code>&lt;div&gt;</code>
-                        elements (but not other <code>&lt;stage&gt;</code> elements) <answer>
+                        elements (but not other <code>&lt;stage&gt;</code> elements) in
+                            <emph>Hamlet</emph>
+                        <answer>
                             <code>//div/stage</code>
                         </answer></item>
                     <item>Find the parents of the stage directions in <emph>Hamlet</emph>
@@ -255,11 +273,21 @@
                             <example><code>concat('Curly is #', 1)</code></example>
                             <example>Or use the <emph>concatenation operator</emph>: <code>'Curly is
                                     #' || 1</code></example>
+                            <example>What’s wrong with <code>concat(//speaker)</code>? <answer>The
+                                    arguments to <code>concat()</code> must be two or more
+                                    individual atomic (or atomizable) items, and
+                                        <code>//speaker</code> is a sequence.</answer></example>
                         </examples>
                     </item>
                     <item><code>string-join()</code><examples>
                             <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                 ')</code></example>
+                            <example><code>string-join(//speaker, ', ')</code></example>
+                            <example><code>string-join(//speaker)</code> Why does this work when
+                                    <code>concat(//speaker)</code> didn’t? <answer>The first
+                                    argument to <code>string-join()</code> is a sequence. All
+                                    arguments to <code>concat()</code> must be atomic or
+                                    atomizable.</answer></example>
                         </examples></item>
                     <item><code>string-length()</code><examples>
                             <example><code>string-length('Curly, Larry, and Moe')</code></example>
@@ -309,33 +337,46 @@
                             <example><code>format-number(1, '#.000')</code></example>
                             <example><code>format-number(1, '#.###')</code></example>
                         </examples></item>
-                    <item>Length in character count of each <code>&lt;speaker&gt;</code>
+                    <item>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <answer><code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</answer></item>
-                    <item>Length of longest speaker name
+                    <item>Find the length of longest speaker name
                                 <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
             <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
-                    <item><code>distinct-values()</code>:
-                            <code>distinct-values(/TEI//speaker)</code></item>
+                    <item><code>distinct-values()</code>
+                        <examples>
+                            <example><code>distinct-values(/TEI//speaker)</code></example>
+                        </examples></item>
                     <item><code>count()</code><examples>
-                            <example><code>count(/TEI/speaker)</code></example>
-                            <example><code>count(distinct-values(/TEI//speaker))</code></example>
-                            <example><code>distinct-values(count(/TEI//speaker))</code></example>
+                            <example><code>count(('Curly', 'Larry', 'Moe',
+                                'Curly'))</code></example>
+                            <example><code>count(distinct-values(('Curly', 'Larry', 'Moe',
+                                    'Curly')))</code></example>
+                            <example><code>distinct-values(count(('Curly', 'Larry', 'Moe',
+                                    'Curly')))</code></example>
                         </examples></item>
                     <item><code>sort()</code><examples>
                             <example><code>sort(//speaker)</code></example>
-                            <example><code>sort($speakers,(), function($item)
+                            <example><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></example>
                         </examples></item>
-                    <item>How many <code>&lt;speaker&gt;</code> elements are there?
-                                <answer><code>count(//speaker)</code></answer></item>
+                    <item>How many <code>&lt;speaker&gt;</code> elements are there in
+                            <emph>Hamlet</emph>?
+                        <answer><code>count(//speaker)</code></answer></item>
                     <item>How many <emph>distinct</emph>
-                        <code>&lt;speaker&gt;</code> elements are there?
+                        <code>&lt;speaker&gt;</code> elements are there in <emph>Hamlet</emph>?
                                 <answer><code>count(distinct-values(//speaker))</code></answer></item>
+                    <item>How many acts are there in <emph>Hamlet</emph>?
+                                <answer><code>count(//body/div)</code></answer></item>
+                    <item>How many scenes are there in <emph>Hamlet</emph>?
+                                <answer><code>count(//div/div)</code></answer></item>
+                    <item>What does <code>count(//div)</code> tell you about <emph>Hamlet</emph>,
+                        and why is it unhelpful? <answer>It counts <code>&lt;div&gt;</code> elements
+                            of different types together: acts, scenes, cast list.</answer></item>
                 </details>
             </act>
             <act time="PT15M">
@@ -344,7 +385,8 @@
                     <item>The <emph>function signature</emph> is the number and type of arguments it
                         accepts or requires</item>
                     <item><emph>Type error</emph>: <code>string-length(1.2345)</code></item>
-                    <item><emph>Cardinality error</emph>: string-length(/TEI/speaker)</item>
+                    <item><emph>Cardinality error</emph>:
+                        <code>string-length(/TEI/speaker)</code></item>
                     <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</item>
                     <item>The error message is your friend. Read it.</item>
@@ -355,7 +397,10 @@
             <act time="PT25M">
                 <desc>XPath predicates</desc>
             </act>
-            <act time="PT50M">
+            <act time="PT15M">
+                <desc>Something or other</desc>
+            </act>
+            <act time="PT35M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
                     <item>Three ways to apply a function to a sequence<examples>

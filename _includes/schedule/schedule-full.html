@@ -144,31 +144,47 @@
                         behind the scenes. eXide does not; you have to specify namespaces in
                         eXide.</li>
                 </ol></li><li>XPath path steps (20 minutes; 11:40 a.m.–12:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
-                    <li>Path steps move along axes: child, parent, descendant, ancestor,
-                        preceding-sibling, following-sibling, etc. See:
+                    <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
+                            <code>descendant::</code>, <code>ancestor::</code>,
+                            <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
+                        See:
                             <a href="http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes">http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</a>.</li>
-                    <li>Axes are specified with a double colon, e.g., <code>descendant::div</code><ol>
+                    <li>Axes are specified with a double colon, e.g., <code>descendant::div</code>
+                        matches all <code>&lt;div&gt;</code> descendants of the current context
+                        node. There are two common shortcut notations<ol>
                             <li>The default is the <em>child</em> axis, so
                                     <code>/TEI/teiHeader</code> is synonymous with
-                                    <code>/child::TEI/child::teiHeader</code>.</li>
+                                    <code>/child::TEI/child::teiHeader</code>. Use the
+                                shorthand.</li>
                             <li><code>//</code> is shorthand for
-                                    <code>descendant-or-self::</code> (you can usually think of it
-                                as <em>descendant</em>), so <code>/TEI//div</code> finds all of
-                                the <code>&lt;div&gt;</code> elements that are descendants of the
-                                    <code>&lt;TEI&gt;</code> root element, that is, anywhere in the
-                                document. The document node has a descendant axis, too:
-                                    <code>//div</code></li>
+                                    <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
+                                finds all of the <code>&lt;div&gt;</code> elements that are
+                                descendants of the <code>&lt;TEI&gt;</code> root element, that is,
+                                anywhere in the document. The document node has a descendant axis,
+                                too: <code>//div</code>. Be careful with this one!</li>
                         </ol>
                     </li>
                     <li>Each path step returns a sequence of zero or more context nodes for the
-                        next path steps.</li>
-                    <li>Path expressions may be combined with other types of expressions, e.g.,
-                            <q>navigate from the document node to all of the acts in the play and
-                            then return a count of the speeches in each act</q>. (Every step except
-                        the last must return nodes, and not atomic values. Why?)</li>
+                        next path step. Only the final path step is permitted to return something
+                        other than a node. Why?</li>
+                    <li>The end of a path expression may return nodes or atomic values<ol>
+                            <li><code>//body/div/count(descendant::sp)</code> navigates from
+                                the document node to all of the acts in the play and then returns a
+                                count of the speeches in each act</li>
+                            <li>What’s wrong with <code>//body/div/count(//sp)</code>?
+                                    <button class="answer">Answer</button><span class="answer"> The leading double slash resets the current context to
+                                    the document node, and selects all <code>&lt;sp&gt;</code>
+                                    elements in the entire document, instead of just the individual
+                                    act.</span></li>
+                        </ol></li>
                     <li><code>*</code> matches any element<ol>
                             <li><code>/TEI/teiHeader/*</code> matches all child elements of the
                                     <code>&lt;teiHeader&gt;</code></li>
+                        </ol></li>
+                    <li><code>..</code> matches the parent node of the current context node. That
+                        is, it’s shorthand for <code>parent::*</code><ol>
+                            <li><code>//stage/..</code> matches the parent nodes of all
+                                    <code>&lt;stage&gt;</code> elements</li>
                         </ol></li>
                     <li>Find the acts (<code>&lt;div&gt;</code> children of
                             <code>&lt;body&gt;</code>) in <em>Hamlet</em>
@@ -181,7 +197,9 @@
                             <code>//stage</code>
                         </span></li>
                     <li>Find the <code>&lt;stage&gt;</code> children of <code>&lt;div&gt;</code>
-                        elements (but not other <code>&lt;stage&gt;</code> elements) <button class="answer">Answer</button><span class="answer"> 
+                        elements (but not other <code>&lt;stage&gt;</code> elements) in
+                            <em>Hamlet</em>
+                        <button class="answer">Answer</button><span class="answer"> 
                             <code>//div/stage</code>
                         </span></li>
                     <li>Find the parents of the stage directions in <em>Hamlet</em>
@@ -201,11 +219,21 @@
                             <li><code>concat('Curly is #', 1)</code></li>
                             <li>Or use the <em>concatenation operator</em>: <code>'Curly is
                                     #' || 1</code></li>
+                            <li>What’s wrong with <code>concat(//speaker)</code>? <button class="answer">Answer</button><span class="answer"> The
+                                    arguments to <code>concat()</code> must be two or more
+                                    individual atomic (or atomizable) items, and
+                                        <code>//speaker</code> is a sequence.</span></li>
                         </ol>
                     </li>
                     <li><code>string-join()</code><ol>
                             <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                 ')</code></li>
+                            <li><code>string-join(//speaker, ', ')</code></li>
+                            <li><code>string-join(//speaker)</code> Why does this work when
+                                    <code>concat(//speaker)</code> didn’t? <button class="answer">Answer</button><span class="answer"> The first
+                                    argument to <code>string-join()</code> is a sequence. All
+                                    arguments to <code>concat()</code> must be atomic or
+                                    atomizable.</span></li>
                         </ol></li>
                     <li><code>string-length()</code><ol>
                             <li><code>string-length('Curly, Larry, and Moe')</code></li>
@@ -251,40 +279,54 @@
                             <li><code>format-number(1, '#.000')</code></li>
                             <li><code>format-number(1, '#.###')</code></li>
                         </ol></li>
-                    <li>Length in character count of each <code>&lt;speaker&gt;</code>
+                    <li>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <button class="answer">Answer</button><span class="answer"> <code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</span></li>
-                    <li>Length of longest speaker name
+                    <li>Find the length of longest speaker name
                                 <button class="answer">Answer</button><span class="answer"> <code>max(//speaker/string-length())</code></span></li>
                 </ol></li><li>XPath functions for sequences (15 minutes; 2:05 p.m.–2:20 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
-                    <li><code>distinct-values()</code>:
-                            <code>distinct-values(/TEI//speaker)</code></li>
+                    <li><code>distinct-values()</code>
+                        <ol>
+                            <li><code>distinct-values(/TEI//speaker)</code></li>
+                        </ol></li>
                     <li><code>count()</code><ol>
-                            <li><code>count(/TEI/speaker)</code></li>
-                            <li><code>count(distinct-values(/TEI//speaker))</code></li>
-                            <li><code>distinct-values(count(/TEI//speaker))</code></li>
+                            <li><code>count(('Curly', 'Larry', 'Moe',
+                                'Curly'))</code></li>
+                            <li><code>count(distinct-values(('Curly', 'Larry', 'Moe',
+                                    'Curly')))</code></li>
+                            <li><code>distinct-values(count(('Curly', 'Larry', 'Moe',
+                                    'Curly')))</code></li>
                         </ol></li>
                     <li><code>sort()</code><ol>
                             <li><code>sort(//speaker)</code></li>
-                            <li><code>sort($speakers,(), function($item)
+                            <li><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></li>
                         </ol></li>
-                    <li>How many <code>&lt;speaker&gt;</code> elements are there?
-                                <button class="answer">Answer</button><span class="answer"> <code>count(//speaker)</code></span></li>
+                    <li>How many <code>&lt;speaker&gt;</code> elements are there in
+                            <em>Hamlet</em>?
+                        <button class="answer">Answer</button><span class="answer"> <code>count(//speaker)</code></span></li>
                     <li>How many <em>distinct</em>
-                        <code>&lt;speaker&gt;</code> elements are there?
+                        <code>&lt;speaker&gt;</code> elements are there in <em>Hamlet</em>?
                                 <button class="answer">Answer</button><span class="answer"> <code>count(distinct-values(//speaker))</code></span></li>
+                    <li>How many acts are there in <em>Hamlet</em>?
+                                <button class="answer">Answer</button><span class="answer"> <code>count(//body/div)</code></span></li>
+                    <li>How many scenes are there in <em>Hamlet</em>?
+                                <button class="answer">Answer</button><span class="answer"> <code>count(//div/div)</code></span></li>
+                    <li>What does <code>count(//div)</code> tell you about <em>Hamlet</em>,
+                        and why is it unhelpful? <button class="answer">Answer</button><span class="answer"> It counts <code>&lt;div&gt;</code> elements
+                            of different types together: acts, scenes, cast list.</span></li>
                 </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (15 minutes; 2:20 p.m.–2:35 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
                     <li>The <em>function signature</em> is the number and type of arguments it
                         accepts or requires</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
-                    <li><em>Cardinality error</em>: string-length(/TEI/speaker)</li>
+                    <li><em>Cardinality error</em>:
+                        <code>string-length(/TEI/speaker)</code></li>
                     <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</li>
                     <li>The error message is your friend. Read it.</li>
                     <li>Mozilla Development Network (MDN):
                             <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a></li>
-                </ol></li><li>XPath predicates (25 minutes; 2:35 p.m.–3:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Read and evaluate XML projects with XPath (50 minutes; 3:00 p.m.–3:50 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
+                </ol></li><li>XPath predicates (25 minutes; 2:35 p.m.–3:00 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Something or other (15 minutes; 3:00 p.m.–3:15 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:15 p.m.–3:50 p.m.) <button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button><ol>
                     <li>Three ways to apply a function to a sequence<ol>
                             <li>Explicit <code>for</code><ol>
                                     <li><code>for $speaker in /TEI//speaker return
