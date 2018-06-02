@@ -57,10 +57,12 @@
                     concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes; ',
                     djb:format-time($act_start), '–', djb:format-time($act_end), ')')"/>
             <xsl:text> </xsl:text>
-            <button class="localExpand">Expand</button>
-            <xsl:text> | </xsl:text>
-            <button class="localCollapse">Collapse</button>
-            <xsl:apply-templates select="details"/>
+            <xsl:if test="details">
+                <button class="localExpand">Expand</button>
+                <xsl:text> | </xsl:text>
+                <button class="localCollapse">Collapse</button>
+                <xsl:apply-templates select="details"/>
+            </xsl:if>
         </li>
     </xsl:template>
     <xsl:template match="code">
