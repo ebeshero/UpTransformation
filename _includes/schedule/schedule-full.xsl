@@ -115,6 +115,7 @@
     <xsl:template match="answer">
         <button class="answer">Answer</button>
         <span class="answer">
+            <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
