@@ -47,7 +47,7 @@ button {
 }
 li > button {
     /* buttons for individual sessions */
-    width: 75px;
+    width: 65px;
 }
 h1,
 h2,
@@ -105,6 +105,9 @@ sup {
 }
 ol li ol {
     list-style-type: lower-alpha;
+}
+ol li ol li ol {
+    list-style-type: lower-roman;
 }
 /* set main spacing at the h3 element instead of the ul
     so that it will be present when the list is collapsed
@@ -267,4 +270,7 @@ img.icon {
     width: 5%;
     max-width: 125px;
     padding: .5em;
+}
+span.answer {
+    display: none;
 }
