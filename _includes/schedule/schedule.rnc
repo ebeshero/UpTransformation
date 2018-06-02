@@ -37,7 +37,7 @@ d =
 title = element title { text }
 desc =
     element desc {
-        mixed { (code | q)*}
+        mixed { (code | q)* }
     }
 code = element code { url?, text }
 url = attribute url { text }
@@ -49,17 +49,20 @@ clocktime = attribute time { xsd:time }
 activity = element act { image?, durtime, desc, details? }
 durtime = attribute time { xsd:duration }
 details = element details { item+ }
-item = element item {mixed { (link | q | code | emph | image)* },
+item =
+    element item {
+        mixed { (link | q | code | emph | image)* },
         examples?
     }
-image = element image {text, alt, size}
-alt = attribute alt {text} # describes the image
-size = attribute size {"icon" | "larger"}
+image = element image { text, alt, size }
+alt = attribute alt { text }
+# describes the image
+size = attribute size { "icon" | "larger" }
 link = element link { text }
 q = element q { text }
 examples = element examples { example+ }
 example =
     element example {
-        mixed { (link | q | code | emph | image)* }
+        mixed { (examples | link | q | code | emph | image)* }
     }
 emph = element emph { url?, text }
