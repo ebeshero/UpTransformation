@@ -542,26 +542,33 @@
             <act time="PT20M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
-                    <item>All speeches (<code>&lt;sp&gt;</code>) by Ophelia
+                    <item>Find all speeches (<code>&lt;sp&gt;</code>) by Ophelia
                                 <answer><code>//sp[speaker eq 'Ophelia']</code></answer></item>
-                    <item>All speeches in Act 2 by Ophelia <answer><code>//body/div[2]//sp[speaker
-                                eq 'Ophelia']</code></answer></item>
-                    <item>What XPath would find all of the stage directions
-                            (<code>&lt;stage&gt;</code>) that are descendants of a metrical line
-                            (<code>&lt;l&gt;</code>)? How many are there?</item>
-                    <item>What XPath would find all of the stage directions that are children of a
-                        speech (<code>&lt;sp&gt;</code>), that is, inside a speech but not inside a
-                        line within a speech?</item>
-                    <item>What XPath would find all of the stage directions that are not children of
-                        a speech or a line? What are their parent element types? (Hint: use
-                    the <code url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code> function.)</item>
-                    <item>For the stage directions you identified in #2c, above, write an XPath
-                        expression that will return not the <code>&lt;stage&gt;</code> elements
-                        themselves, but their parent elements, whatever they might be. What are
-                        those parent elements? (You haven't yet learned the XPath to return just the
-                        names of the parent elements [rather than the elements themselves], but you
-                        can locate them, click on each one in the list &lt;oXygen/&gt; returns, and
-                        look at it directly.)</item>
+                    <item>Find all speeches in Act 2 by Ophelia
+                                <answer><code>//body/div[2]//sp[speaker eq
+                            'Ophelia']</code></answer></item>
+                    <item>What types of elements can have stage directions
+                            (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
+                        function.)</item>
+                    <item>Are there speeches that don’t any contain metrical lines
+                            (<code>&lt;l&gt;</code>)? What kinds of elements they contain
+                        instead?</item>
+                    <item>What’s the difference between <code>//sp[@who="Hamlet"]/l[1]</code> and
+                            <code>(//sp[@who="Hamlet"]/l)[1]</code>?</item>
+                    <item>What XPath expressions will find the last stage direction in the entire
+                        document? (Note: there should be only one!)</item>
+                    <item>What XPath expression will find all speeches elements with more than 8
+                        liness?</item>
+                    <item>Building on your answer to the preceding question, what XPath expression
+                        will tell you how many line children each of those speeches has?</item>
+                    <item>Building on your answers to the preceding two questions, what XPath
+                        expression will find the speakers of all speeches that have more than 8 line
+                        subelements? What XPath expression will find the speakers of those lines
+                        (with no duplication!)?</item>
+                    <item>How long is the longest speech?</item>
+                    <item>Building on your answer to the last question, who is the speaker of the
+                        longest speech?</item>
                 </details>
             </act>
         </slot>
