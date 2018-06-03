@@ -118,6 +118,8 @@
         </q>
     </xsl:template>
     <xsl:template match="answer">
+        <!-- ensure at least one space between the question and the button -->
+        <xsl:text> </xsl:text>
         <button class="answer">Answer</button>
         <!-- ensure at least one space between the button and the answer-->
         <xsl:text> </xsl:text>
