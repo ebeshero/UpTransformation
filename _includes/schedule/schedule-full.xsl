@@ -59,7 +59,7 @@
             <xsl:text> </xsl:text>
             <xsl:if test="details">
                 <button class="localExpand">Expand</button>
-                <xsl:text> | </xsl:text>
+                <xsl:text>&#xa0;|&#xa0; </xsl:text>
                 <button class="localCollapse">Collapse</button>
                 <xsl:apply-templates select="details"/>
             </xsl:if>
