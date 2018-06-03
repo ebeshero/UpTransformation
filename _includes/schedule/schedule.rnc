@@ -26,14 +26,6 @@ friday =
         attribute d { "Friday, June 15" },
         day
     }
-d =
-    attribute d {
-        "Monday, July 11"
-        | "Tuesday, July 12"
-        | "Wednesday, July 13"
-        | "Thursday, July 14"
-        | "Friday, July 15"
-    }
 title = element title { text }
 desc =
     element desc {
