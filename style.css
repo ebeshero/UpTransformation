@@ -264,9 +264,10 @@ q {
 .note {
     font-size: smaller;
 }
+li[img] {line-height:1.25em !important; }
 img.icon {
     position: relative;
-    top: 10px; /*right: -2px*/
+    top: 12px; /*right: -2px*/
     ;
     width: 60px;
     padding-left: .5em;
