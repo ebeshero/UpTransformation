@@ -281,3 +281,4 @@ span.buttons {
     display: inline-block;
     white-space: nowrap;
 }
+section[title="mainPage"] > p {text-align:center !important;}
