@@ -126,7 +126,7 @@
                         that is, new-line and space have the same meaning</item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
@@ -150,7 +150,7 @@
                         triangle.</item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT30M">
                 <desc>XPath path expressions</desc>
                 <details>
                     <item>An XPath <emph>path expression</emph> is a sequence of steps, each of
@@ -266,7 +266,8 @@
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
                 <details>
-                    <item><code>concat()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-concat"
+                            >concat()</code>
                         <examples>
                             <example>
                                 <code>concat('Curly','Larry','Moe')</code></example>
@@ -279,7 +280,8 @@
                                         <code>//speaker</code> is a sequence.</answer></example>
                         </examples>
                     </item>
-                    <item><code>string-join()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-string-join"
+                            >string-join()</code><examples>
                             <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                 ')</code></example>
                             <example><code>string-join(//speaker, ', ')</code></example>
@@ -289,27 +291,38 @@
                                     arguments to <code>concat()</code> must be atomic or
                                     atomizable.</answer></example>
                         </examples></item>
-                    <item><code>string-length()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-string-length"
+                            >string-length()</code><examples>
                             <example><code>string-length('Curly, Larry, and Moe')</code></example>
                         </examples></item>
-                    <item><code>lower-case()</code>, <code>upper-case()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-lower-case"
+                            >lower-case()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
+                            >upper-case()</code>
                         <examples>
                             <example><code>lower-case('Curly, Larry, and Moe')</code></example>
                         </examples></item>
-                    <item><code>normalize-space()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-normalize-space"
+                            >normalize-space()</code><examples>
                             <example><code>normalize-space(' Curly, Larry, Moe ')</code></example>
                         </examples></item>
-                    <item><code>substring-before()</code>, <code>substring-after()</code><examples>
+                    <item><code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-substring-before"
+                            >substring-before()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-substring-after"
+                            >substring-after()</code><examples>
                             <example><code>substring-before('Larry', 'r')</code> What if there’s
                                 more than one?</example>
                             <example><code>substring-after('Larry', 'r')</code> What if there’s more
                                 than one?</example>
                         </examples></item>
-                    <item><code>substring()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-substring"
+                            >substring()</code><examples>
                             <example><code>substring('Curly', 1, 2)</code> XPath starts counting
                                 with 1 (not 0).</example>
                         </examples></item>
-                    <item><code>contains()</code> Foreshadowing: This returns a Boolean
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-contains"
+                            >contains()</code> Foreshadowing: This returns a Boolean
                             (<code>True</code> or <code>False</code>) value. How might this be useful?<examples>
                             <example><code>contains('Ophelia', 'ph')</code></example>
                             <example><code>//speaker/contains(., 'ph')</code> (the dot refers to the
@@ -320,22 +333,35 @@
             <act time="PT25M">
                 <desc>XPath functions for numbers</desc>
                 <details>
-                    <item><code>max()</code>, <code>min()</code>, <code>sum()</code>,
-                            <code>avg()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
+                            >max()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-min">min()</code>,
+                            <code url="https://www.w3.org/TR/xpath-functions-31/#func-sum"
+                            >sum()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-avg">avg()</code><examples>
                             <example><code>max((1, 2, 3))</code>, etc.</example>
                             <example>What happens when these are applied to strings? To a sequence
                                 that mixes strings and numbers?</example>
                         </examples></item>
-                    <item><code>ceiling()</code>, <code>floor()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"
+                            >ceiling()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-floor"
+                            >floor()</code>
                         <examples>
                             <example><code>ceiling(3.141592653)</code></example>
                         </examples></item>
-                    <item><code>round()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-round"
+                            >round()</code><examples>
                             <example><code>round(3.141592653, 4)</code></example>
                         </examples></item>
-                    <item><code>format-number()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-format-number"
+                            >format-number()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-format-integer"
+                            >format-integer()</code><examples>
                             <example><code>format-number(1, '#.000')</code></example>
                             <example><code>format-number(1, '#.###')</code></example>
+                            <example><code>format-integer(154,'I')</code></example>
+                            <example><code>format-integer(154,'w')</code></example>
                         </examples></item>
                     <item>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <answer><code>//speaker/string-length()</code> (why doesn’t
@@ -347,11 +373,13 @@
             <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
-                    <item><code>distinct-values()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"
+                            >distinct-values()</code>
                         <examples>
                             <example><code>distinct-values(/TEI//speaker)</code></example>
                         </examples></item>
-                    <item><code>count()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-count"
+                            >count()</code><examples>
                             <example><code>count(('Curly', 'Larry', 'Moe',
                                 'Curly'))</code></example>
                             <example><code>count(distinct-values(('Curly', 'Larry', 'Moe',
@@ -359,7 +387,8 @@
                             <example><code>distinct-values(count(('Curly', 'Larry', 'Moe',
                                     'Curly')))</code></example>
                         </examples></item>
-                    <item><code>sort()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-sort"
+                            >sort()</code><examples>
                             <example><code>sort(//speaker)</code></example>
                             <example><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></example>
@@ -390,11 +419,11 @@
                     <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</item>
                     <item>The error message is your friend. Read it.</item>
-                    <item>Mozilla Development Network (MDN):
-                            <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>
+                    <!--<item>Mozilla Development Network (MDN):
+                            <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT30M">
                 <desc>XPath predicates</desc>
                 <details>
                     <item><emph>Predicates</emph>, in square brackets after a path step,
@@ -403,15 +432,19 @@
                             <example><code>//body/div[3]</code> matches the third
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq 3]</code></example>
-                            <example><code>//body/div[last()]</code> matches the last
+                            <example><code url="https://www.w3.org/TR/xpath-functions-31/#func-last"
+                                    >//body/div[last()]</code> matches the last
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq
                                 last()]</code></example>
-                            <example>Numerical predicates count away from the context node<examples>
+                            <example>Numerical predicates count away from the context node in any direction<examples>
                                     <example><code>//sp/preceding-sibling::stage[1]</code> matches
                                         the first <code>&lt;stage&gt;</code> element before (but on
                                         the same hierarchical level as) each
                                         <code>&lt;sp&gt;</code></example>
+                                    <example>Why are there only 20 <code>&lt;stage&gt;</code>
+                                        elements above, although there are 1137 speeches?<answer>No
+                                            node is returned more than once</answer></example>
                                     <example><code>//sp/ancestor[1]</code> is equivalent to
                                             <code>//sp/..</code> (<code>//sp/ancestor</code> matches
                                             <emph>all</emph> ancestors)</example>
@@ -423,10 +456,14 @@
                         </examples></item>
                     <item>Predicates with functions<examples>
                             <example><code>//body/div[count(div) gt 2]</code></example>
-                            <example><code>//sp[speaker eq 'Rosencrantz']</code></example>
-                            <example><code>//sp[contains(speaker, 'Rosencrantz')]</code></example>
-                            <example><code>//sp/speaker[. eq 'Rosencrantz']</code></example>
-                            <example><code>//sp/speaker[contains(., 'Rosencrantz')]</code></example>
+                            <example><code>//sp[speaker eq 'Rosencrantz']</code> (finds
+                                speeches)</example>
+                            <example><code>//sp[contains(speaker, 'Rosencrantz')]</code> (finds
+                                speeches)</example>
+                            <example><code>//sp/speaker[. eq 'Rosencrantz']</code> (finds
+                                speakers)</example>
+                            <example><code>//sp/speaker[contains(., 'Rosencrantz')]</code> (finds
+                                speakers)</example>
                         </examples></item>
                     <item>Combined predicates<examples>
                             <example><code>//sp[speaker eq 'Rosencrantz'][count(l) gt
@@ -438,65 +475,72 @@
                             <example><code>//sp[speaker eq 'Rosencrantz' or speaker eq
                                     'Guildenstern']</code></example>
                         </examples></item>
+                    <item>Predicates can appear on any path step<examples>
+                            <example><code>//body/div[3]//sp</code></example>
+                        </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT25M">
                 <desc>Odds and ends</desc>
                 <details>
                     <item>Two types of comparison<examples>
-                            <example>General comparison <code>=</code>
-                                <code>!=</code>
-                                <code>&lt;</code>
-                                <code>&lt;=</code>
-                                <code>&gt;</code>
-                                <code>&gt;=</code>
+                            <example><emph
+                                    url="https://www.w3.org/TR/xpath-30/#id-general-comparisons"
+                                    >General comparison</emph>
+                                <code>=</code>, <code>!=</code>, <code>&lt;</code>,
+                                    <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>
                             </example>
-                            <example>Value comparison <code>eq</code>
-                                <code>ne</code>
-                                <code>lt</code>
-                                <code>le</code>
-                                <code>gt</code>
-                                <code>ge</code>
+                            <example><emph
+                                    url="https://www.w3.org/TR/xpath-30/#id-value-comparisons">Value
+                                    comparison</emph>
+                                <code>eq</code>, <code>ne</code>, <code>lt</code>, <code>le</code>,
+                                    <code>gt</code>, <code>ge</code>
                             </example>
                             <example><code>//sp[speaker eq 'Rosencrantz']</code></example>
                             <example><code>//sp[speaker = 'Rosencrantz']</code></example>
                             <example><code>//sp[speaker = ('Rosencrantz',
                                 'Guildenstern')]</code></example>
-                            <example>Uh oh: <code>//sp[speaker eq ('Rosencrantz',
+                            <example>Uh oh!: <code>//sp[speaker eq ('Rosencrantz',
                                     'Guildenstern')]</code></example>
                             <example><code>//sp[speaker eq 'Rosencrantz' or speaker eq
                                     'Guildenstern']</code></example>
                         </examples></item>
-                    <item>Three ways to apply a function to a sequence<examples>
-                            <example>Explicit <code>for</code><examples>
+                    <item>Explicit and implicit <code>for</code><examples>
+                            <example>Explicit <code
+                                    url="https://www.w3.org/TR/2017/PR-xpath-31-20170117/xpath-31-diff.html#id-for-expressions"
+                                    >for</code><examples>
                                     <example><code>for $speaker in /TEI//speaker return
-                                            contains($speaker, 'ph')</code></example>
+                                            $speaker[contains(., 'ph')]</code></example>
                                 </examples></example>
                             <example>Implicit <code>for</code><examples>
-                                    <example><code>/TEI//speaker/contains(., 'ph')</code></example>
-                                </examples></example>
-                            <example>Simple map (<code>!</code>)<!-- add URL --><examples>
-                                    <example><code>/TEI//speaker ! contains(.,
-                                        'ph')</code></example>
+                                    <example><code>/TEI//speaker[contains(., 'ph')]</code></example>
                                 </examples></example>
                         </examples></item>
-                    <item>Difference between simple map (<code>!</code>) and arrow (<code>=></code>) <examples>
+                    <item>Difference between simple map (<code
+                            url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>) and
+                        arrow (<code url="https://www.w3.org/TR/xpath-31/#id-arrow-operator"
+                            >=></code>) <examples>
                             <example><code>('Curly', 'Larry', 'Moe') => count()</code></example>
                             <example><code>('Curly', 'Larry', 'Moe') ! count(.)</code></example>
                         </examples></item>
                     <item>Concatenating nodes<examples>
-                            <example><code>string-join()</code><examples>
-                                    <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
-                                            ')</code></example>
-                                    <example><code>concat(/TEI//speaker, ', ')</code> Why doesn’t
-                                        this work?</example>
-                                    <example><code>string-join(/TEI//speaker, ', ')</code> Use this
-                                        instead</example>
-                                </examples></example>
+                            <example>Why doesn’t this work?
+                                <code>concat(/TEI//speaker)</code></example>
+                            <example>Use this instead
+                                <code>string-join(/TEI//speaker)</code></example>
+                            <example>Add a separator <code>string-join(/TEI//speaker, ',
+                                ')</code></example>
+                            <example>Remove duplicates
+                                    <code>string-join(distinct-values(/TEI//speaker), ',
+                                ')</code></example>
+                            <example>Alphabetize<code>string-join(sort(distinct-values(/TEI//speaker)),
+                                    ', ')</code></example>
+                            <example>Make it legible <code>distinct-values(/TEI//speaker) => sort()
+                                    => string-join(', ')</code></example>
                         </examples></item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT20M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
                     <item>All speeches (<code>&lt;sp&gt;</code>) by Ophelia

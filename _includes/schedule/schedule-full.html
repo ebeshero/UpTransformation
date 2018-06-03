@@ -90,7 +90,7 @@
                         </ol></li>
                     <li>Path expressions may span multiple lines (try it with the examples above),
                         that is, new-line and space have the same meaning</li>
-                </ol></li><li>XPath in &lt;oXygen/&gt; (20 minutes; 10:55 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath in &lt;oXygen/&gt; (15 minutes; 10:55 a.m.–11:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
                             <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>, and
@@ -108,7 +108,7 @@
                         multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
                         (Windows) or <q>Cmd+Enter</q> (MacOS), or click the red right-pointed
                         triangle.</li>
-                </ol></li><li>XPath path expressions (25 minutes; 11:15 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath path expressions (30 minutes; 11:10 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>An XPath <em>path expression</em> is a sequence of steps, each of
                         which proceeds from one node (called the <em>context node</em>) to a
                         sequence of zero (!) or more others. It returns the results in document
@@ -324,9 +324,8 @@
                     <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</li>
                     <li>The error message is your friend. Read it.</li>
-                    <li>Mozilla Development Network (MDN):
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a></li>
-                </ol></li><li>XPath predicates (25 minutes; 2:35 p.m.–3:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    
+                </ol></li><li>XPath predicates (30 minutes; 2:35 p.m.–3:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>
@@ -337,11 +336,14 @@
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq
                                 last()]</code></li>
-                            <li>Numerical predicates count away from the context node<ol>
+                            <li>Numerical predicates count away from the context node in any direction<ol>
                                     <li><code>//sp/preceding-sibling::stage[1]</code> matches
                                         the first <code>&lt;stage&gt;</code> element before (but on
                                         the same hierarchical level as) each
                                         <code>&lt;sp&gt;</code></li>
+                                    <li>Why are there only 20 <code>&lt;stage&gt;</code>
+                                        elements above, although there are 1137 speeches? <button class="answer">Answer</button> <span class="answer">No
+                                            node is returned more than once</span></li>
                                     <li><code>//sp/ancestor[1]</code> is equivalent to
                                             <code>//sp/..</code> (<code>//sp/ancestor</code> matches
                                             <em>all</em> ancestors)</li>
@@ -353,10 +355,14 @@
                         </ol></li>
                     <li>Predicates with functions<ol>
                             <li><code>//body/div[count(div) gt 2]</code></li>
-                            <li><code>//sp[speaker eq 'Rosencrantz']</code></li>
-                            <li><code>//sp[contains(speaker, 'Rosencrantz')]</code></li>
-                            <li><code>//sp/speaker[. eq 'Rosencrantz']</code></li>
-                            <li><code>//sp/speaker[contains(., 'Rosencrantz')]</code></li>
+                            <li><code>//sp[speaker eq 'Rosencrantz']</code> (finds
+                                speeches)</li>
+                            <li><code>//sp[contains(speaker, 'Rosencrantz')]</code> (finds
+                                speeches)</li>
+                            <li><code>//sp/speaker[. eq 'Rosencrantz']</code> (finds
+                                speakers)</li>
+                            <li><code>//sp/speaker[contains(., 'Rosencrantz')]</code> (finds
+                                speakers)</li>
                         </ol></li>
                     <li>Combined predicates<ol>
                             <li><code>//sp[speaker eq 'Rosencrantz'][count(l) gt
@@ -368,42 +374,35 @@
                             <li><code>//sp[speaker eq 'Rosencrantz' or speaker eq
                                     'Guildenstern']</code></li>
                         </ol></li>
-                </ol></li><li>Odds and ends (15 minutes; 3:00 p.m.–3:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Predicates can appear on any path step<ol>
+                            <li><code>//body/div[3]//sp</code></li>
+                        </ol></li>
+                </ol></li><li>Odds and ends (25 minutes; 3:05 p.m.–3:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Two types of comparison<ol>
-                            <li>General comparison <code>=</code>
-                                <code>!=</code>
-                                <code>&lt;</code>
-                                <code>&lt;=</code>
-                                <code>&gt;</code>
-                                <code>&gt;=</code>
+                            <li>General comparison <code>=</code>, <code>!=</code>,
+                                    <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>,
+                                    <code>&gt;=</code>
                             </li>
-                            <li>Value comparison <code>eq</code>
-                                <code>ne</code>
-                                <code>lt</code>
-                                <code>le</code>
-                                <code>gt</code>
-                                <code>ge</code>
+                            <li>Value comparison <code>eq</code>, <code>ne</code>,
+                                    <code>lt</code>, <code>le</code>, <code>gt</code>,
+                                    <code>ge</code>
                             </li>
                             <li><code>//sp[speaker eq 'Rosencrantz']</code></li>
                             <li><code>//sp[speaker = 'Rosencrantz']</code></li>
                             <li><code>//sp[speaker = ('Rosencrantz',
                                 'Guildenstern')]</code></li>
-                            <li>Uh oh: <code>//sp[speaker eq ('Rosencrantz',
+                            <li>Uh oh!: <code>//sp[speaker eq ('Rosencrantz',
                                     'Guildenstern')]</code></li>
                             <li><code>//sp[speaker eq 'Rosencrantz' or speaker eq
                                     'Guildenstern']</code></li>
                         </ol></li>
-                    <li>Three ways to apply a function to a sequence<ol>
+                    <li>Explicit and implicit <code>for</code><ol>
                             <li>Explicit <code>for</code><ol>
                                     <li><code>for $speaker in /TEI//speaker return
-                                            contains($speaker, 'ph')</code></li>
+                                            $speaker[contains(., 'ph')]</code></li>
                                 </ol></li>
                             <li>Implicit <code>for</code><ol>
-                                    <li><code>/TEI//speaker/contains(., 'ph')</code></li>
-                                </ol></li>
-                            <li>Simple map (<code>!</code>)<ol>
-                                    <li><code>/TEI//speaker ! contains(.,
-                                        'ph')</code></li>
+                                    <li><code>/TEI//speaker[contains(., 'ph')]</code></li>
                                 </ol></li>
                         </ol></li>
                     <li>Difference between simple map (<code>!</code>) and arrow (<code>=&gt;</code>) <ol>
@@ -411,16 +410,21 @@
                             <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
                         </ol></li>
                     <li>Concatenating nodes<ol>
-                            <li><code>string-join()</code><ol>
-                                    <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
-                                            ')</code></li>
-                                    <li><code>concat(/TEI//speaker, ', ')</code> Why doesn’t
-                                        this work?</li>
-                                    <li><code>string-join(/TEI//speaker, ', ')</code> Use this
-                                        instead</li>
-                                </ol></li>
+                            <li>Why doesn’t this work?
+                                <code>concat(/TEI//speaker)</code></li>
+                            <li>Use this instead
+                                <code>string-join(/TEI//speaker)</code></li>
+                            <li>Add a separator <code>string-join(/TEI//speaker, ',
+                                ')</code></li>
+                            <li>Remove duplicates
+                                    <code>string-join(distinct-values(/TEI//speaker), ',
+                                ')</code></li>
+                            <li>Alphabetize<code>string-join(sort(distinct-values(/TEI//speaker)),
+                                    ', ')</code></li>
+                            <li>Make it legible <code>distinct-values(/TEI//speaker) =&gt; sort()
+                                    =&gt; string-join(', ')</code></li>
                         </ol></li>
-                </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:15 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Read and evaluate XML projects with XPath (20 minutes; 3:30 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>All speeches (<code>&lt;sp&gt;</code>) by Ophelia
                                  <button class="answer">Answer</button> <span class="answer"><code>//sp[speaker eq 'Ophelia']</code></span></li>
                     <li>All speeches in Act 2 by Ophelia  <button class="answer">Answer</button> <span class="answer"><code>//body/div[2]//sp[speaker
