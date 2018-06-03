@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="dhsi.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="20.0" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>editor.format.preserve.spaces.elements.v11</String>
+                        <String-array>
+                            <String>xsl:text</String>
+                            <String>xsl:comment</String>
+                            <String>xsl:processing-instruction</String>
+                            <String>literallayout</String>
+                            <String>programlisting</String>
+                            <String>screen</String>
+                            <String>synopsis</String>
+                            <String>pre</String>
+                            <String>xd:pre</String>
+                            <String>tei:title[@xml:lang="bg"]</String>
+                            <String>title[@xml:lang="bg"]</String>
+                            <String>msName</String>
+                            <String>answer[@type="block"]</String>
+                        </String-array>
+                    </entry>
+                    <entry>
+                        <String>editor.format.strip.spaces.elements</String>
+                        <String-array>
+                            <String>//bg</String>
+                            <String>//en</String>
+                            <String>//ru</String>
+                        </String-array>
+                    </entry>
+                    <entry>
+                        <String>key.editor.format.xml.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="dhsi.xpr">
+        <folder path="."/>
+    </projectTree>
+</project>
