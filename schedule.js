@@ -2,11 +2,11 @@ window.addEventListener('DOMContentLoaded', init, false);
 function init() {
     document.getElementById('expand').addEventListener('click', expand, false);
     document.getElementById('collapse').addEventListener('click', collapse, false);
-    var localExpands = document.querySelectorAll('li > button.localExpand');
+    var localExpands = document.querySelectorAll('button.localExpand');
     for (var i = 0, length = localExpands.length; localExpands[i]; i++) {
         localExpands[i].addEventListener('click', localExpand, false);
     }
-    var localCollapses = document.querySelectorAll('li > button.localCollapse');
+    var localCollapses = document.querySelectorAll('button.localCollapse');
     for (var i = 0, length = localCollapses.length; localCollapses[i]; i++) {
         localCollapses[i].addEventListener('click', localCollapse, false);
     }
@@ -28,10 +28,10 @@ function collapse() {
     }
 }
 function localExpand() {
-    this.nextElementSibling.nextElementSibling.style.display = 'block';
+    this.parentElement.nextElementSibling.style.display = 'block';
 }
 function localCollapse() {
-    this.nextElementSibling.style.display = 'none';
+    this.parentElement.nextElementSibling.style.display = 'none';
 }
 function showAnswer() {
     this.nextElementSibling.style.display = 'inline';

@@ -4,7 +4,6 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
     <xsl:output method="xml" indent="no" omit-xml-declaration="yes"/>
-    <xsl:strip-space elements="*"/>
     <xsl:function name="djb:format-time" as="xs:string">
         <xsl:param name="input" as="xs:time" required="yes"/>
         <xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/>
@@ -118,6 +117,8 @@
         </q>
     </xsl:template>
     <xsl:template match="answer">
+        <!-- ensure at least one space between the question and the button -->
+        <xsl:text> </xsl:text>
         <button class="answer">Answer</button>
         <!-- ensure at least one space between the button and the answer-->
         <xsl:text> </xsl:text>

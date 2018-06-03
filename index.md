@@ -1,4 +1,6 @@
-[DHSI](http://dhsi.org) 2018 Course 44 (week 2, 11–15 June, 2018).
+Welcome to our [DHSI] course materials, and prepare to learn a lot about XPath and how to apply it! 
+
+
 
 
 

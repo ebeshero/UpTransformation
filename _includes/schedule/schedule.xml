@@ -403,14 +403,16 @@
                                 element (same as <code>//body/div[position() eq 3]</code></example>
                             <example><code>//body/div[last()]</code> matches the last
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
-                                element (same as <code>//body/div[position() eq 3]</code></example>
+                                element (same as <code>//body/div[position() eq
+                                last()]</code></example>
                             <example>Numerical predicates count away from the context node<examples>
                                     <example><code>//sp/preceding-sibling::stage[1]</code> matches
                                         the first <code>&lt;stage&gt;</code> element before (but on
                                         the same hierarchical level as) each
                                         <code>&lt;sp&gt;</code></example>
                                     <example><code>//sp/ancestor[1]</code> is equivalent to
-                                            <code>//sp/..</code></example>
+                                            <code>//sp/..</code> (<code>//sp/ancestor</code> matches
+                                            <emph>all</emph> ancestors)</example>
                                 </examples></example>
                         </examples></item>
                     <item>Predicates with node tests<examples>
@@ -418,13 +420,51 @@
                                     <code>//div/stage</code></example>
                         </examples></item>
                     <item>Predicates with functions<examples>
-                            <example><code>//sp[speaker eq 'Ophelia']</code></example>
+                            <example><code>//body/div[count(div) gt 2]</code></example>
+                            <example><code>//sp[speaker eq 'Rosencrantz']</code></example>
+                            <example><code>//sp[contains(speaker, 'Rosencrantz')]</code></example>
+                            <example><code>//sp/speaker[. eq 'Rosencrantz']</code></example>
+                            <example><code>//sp/speaker[contains(., 'Rosencrantz')]</code></example>
+                        </examples></item>
+                    <item>Combined predicates<examples>
+                            <example><code>//sp[speaker eq 'Rosencrantz'][count(l) gt
+                                10]</code></example>
+                        </examples></item>
+                    <item>Compound predicates with <code>and</code> or <code>or</code><examples>
+                            <example><code>//sp[speaker eq 'Rosencrantz' and count(l) gt
+                                10]</code></example>
+                            <example><code>//sp[speaker eq 'Rosencrantz' or speaker eq
+                                    'Guildenstern']</code></example>
                         </examples></item>
                 </details>
             </act>
             <act time="PT15M">
                 <desc>Odds and ends</desc>
                 <details>
+                    <item>Two types of comparison<examples>
+                            <example>General comparison <code>=</code>
+                                <code>!=</code>
+                                <code>&lt;</code>
+                                <code>&lt;=</code>
+                                <code>&gt;</code>
+                                <code>&gt;=</code>
+                            </example>
+                            <example>Value comparison <code>eq</code>
+                                <code>ne</code>
+                                <code>lt</code>
+                                <code>le</code>
+                                <code>gt</code>
+                                <code>ge</code>
+                            </example>
+                            <example><code>//sp[speaker eq 'Rosencrantz']</code></example>
+                            <example><code>//sp[speaker = 'Rosencrantz']</code></example>
+                            <example><code>//sp[speaker = ('Rosencrantz',
+                                'Guildenstern')]</code></example>
+                            <example>Uh oh: <code>//sp[speaker eq ('Rosencrantz',
+                                    'Guildenstern')]</code></example>
+                            <example><code>//sp[speaker eq 'Rosencrantz' or speaker eq
+                                    'Guildenstern']</code></example>
+                        </examples></item>
                     <item>Three ways to apply a function to a sequence<examples>
                             <example>Explicit <code>for</code><examples>
                                     <example><code>for $speaker in /TEI//speaker return
@@ -456,6 +496,12 @@
             </act>
             <act time="PT35M">
                 <desc>Read and evaluate XML projects with XPath</desc>
+                <details>
+                    <item>All speeches (<code>&lt;sp&gt;</code>) by Ophelia
+                                <answer><code>//sp[speaker eq 'Ophelia']</code></answer></item>
+                    <item>All speeches in Act 2 by Ophelia <answer><code>//body/div[2]//sp[speaker
+                                eq 'Ophelia']</code></answer></item>
+                </details>
             </act>
         </slot>
     </day>
@@ -636,14 +682,15 @@
                         <emph>consumes</emph> the XML node matched in the template rule, and
                         determines that its children or other nodes in a set XPath relationship to
                         the template match will be processed. </item>
-                    <item><code>xsl:apply-templates</code> with or without an <code>@select</code>: <code>@select</code> <q>prunes the tree</q> with a specific XPath expression that specifically identifies  which XML elements in the source document will be processed next. Without <code>@select</code>, all element contents are consumed and processed by default.</item>
+                    <item><code>xsl:apply-templates</code> with or without <code>@select</code>: <code>@select</code> <q>prunes the tree</q> with a specific XPath expression that specifically identifies  which XML elements in the source document will be processed next. Without <code>@select</code>, all element contents are consumed and processed by default.</item>
                         <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and defined by its relation to the node being matched by the template rule (in the <code>@match</code> on <code>xsl:template</code>. </item>
                 </details>
             </act>
             <act time="PT40M">
                 <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q> </item>
+                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
+                    </item>
                 </details>
             </act>
             <act time="PT40M">
