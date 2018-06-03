@@ -789,7 +789,64 @@
         <slot time="09:30:00">
             <title>Review of XPath applications</title>
             <act time="PT1H30M">
-                <desc>Review of XPath and its applications</desc>
+                <desc>Building our syllabus</desc>
+                <details>
+                    <item>Our schedule in XML:
+                            <link>https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.xml</link><examples>
+                            <example>Divided into 5 days: <code>&lt;day d="Monday, June
+                                    11"&gt;</code></example>
+                            <example>Each day has two slots: <code>&lt;slot
+                                    time="10:00:00"&gt;</code></example>
+                            <example>Slots have activities: <code>&lt;act time="PT20M"&gt;</code>,
+                                    <code>&lt;act time="PT1H30M"&gt;</code></example>
+                        </examples></item>
+                    <item>How we use XPath in Schematron
+                            <link>https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.sch</link><examples>
+                            <example><code>&lt;sch:rule context="slot[1]/@time"&gt;</code><examples>
+                                    <example><code>&lt;sch:assert test="if (ancestor::day/@d eq
+                                            'Monday, June 11') then . eq '10:00:00' else . eq
+                                            '09:30:00'"&gt;Monday starts at 10:00 a.m., other days
+                                            at 9:30&lt;/sch:assert&gt;</code></example>
+                                </examples></example>
+                            <example><code>&lt;sch:rule context="slot[2]/@time"&gt;</code><examples>
+                                    <example><code>&lt;sch:assert test=" if (ancestor::day/@d ne
+                                            'Friday, June 15') then . eq '13:15:00' else
+                                            1"&gt;Afternoon sessions Monday through Thursday start
+                                            at 1:15 p.m.&lt;/sch:assert&gt;</code></example>
+                                    <example><code>&lt;sch:assert test="ancestor::day/@d ne 'Friday,
+                                            June 15'"&gt;There is no afternoon session on
+                                            Friday&lt;/sch:assert&gt;</code></example>
+                                </examples></example>
+                            <example><code>&lt;sch:rule context="slot[1]"&gt;</code><examples>
+                                    <example><code>&lt;sch:assert test=" if (../@d eq 'Monday, June
+                                            11') then sum(act/@time/xs:dayTimeDuration(.)) eq
+                                            xs:dayTimeDuration('PT2H') else
+                                            sum(act/@time/xs:dayTimeDuration(.)) eq
+                                            xs:dayTimeDuration('PT2H30M')"&gt;Duration of
+                                            &lt;sch:value-of
+                                            select="sum(act/@time/xs:dayTimeDuration(.))"/&gt; is
+                                            incorrect; Monday should be PT2H and other days should
+                                            be PT2H30M&lt;/sch:assert&gt;</code></example>
+                                </examples></example>
+                            <example>
+                                <code>&lt;sch:rule context="slot[2]"&gt;</code><examples>
+                                    <example><code>&lt;sch:assert test="
+                                            sum(act/@time/xs:dayTimeDuration(.)) eq
+                                            xs:dayTimeDuration('PT2H35M')"&gt;Duration of
+                                            &lt;sch:value-of
+                                            select="sum(act/@time/xs:dayTimeDuration(.))"/&gt; is
+                                            incorrect; duration of all afternoon sessions should be
+                                            PT2H35M&lt;/sch:assert&gt;</code></example>
+                                </examples>
+                            </example>
+                            <example><code>&lt;sch:rule context="title"&gt;</code><examples>
+                                    <example><code>&lt;sch:assert
+                                            test="string-length(normalize-space(.)) gt 0"&gt;title
+                                            must have content&lt;/sch:assert&gt;</code></example>
+                                </examples></example>
+                        </examples></item>
+                    <item>Uses of XPath in XSLT</item>
+                </details>
             </act>
             <act time="PT1H">
                 <desc>What next?</desc>
