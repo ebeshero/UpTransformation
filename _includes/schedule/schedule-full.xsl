@@ -3,7 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:djb="http://www.obdurodon.org"
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0" xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:output method="xhtml" indent="no" omit-xml-declaration="yes"/>
+    <xsl:output method="xml" indent="no" omit-xml-declaration="yes"/>
+    <xsl:strip-space elements="*"/>
     <xsl:function name="djb:format-time" as="xs:string">
         <xsl:param name="input" as="xs:time" required="yes"/>
         <xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/>
@@ -58,9 +59,11 @@
                     djb:format-time($act_start), '–', djb:format-time($act_end), ')')"/>
             <xsl:text> </xsl:text>
             <xsl:if test="details">
-                <button class="localExpand">Expand</button>
-                <xsl:text> | </xsl:text>
-                <button class="localCollapse">Collapse</button>
+                <span class="buttons">
+                    <button class="localExpand">Expand</button>
+                    <xsl:text>&#xa0;|&#xa0;</xsl:text>
+                    <button class="localCollapse">Collapse</button>
+                </span>
                 <xsl:apply-templates select="details"/>
             </xsl:if>
         </li>
