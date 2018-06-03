@@ -504,31 +504,46 @@
         <title>XPath and XQuery</title>
         <slot time="09:30:00">
             <title>XPath and XQuery in eXist-db</title>
-            <act time="PT10M"><desc>Housekeeping: documents, collections, and namespaces</desc>
+            <act time="PT10M">
+                <desc>Housekeeping: documents, collections, and namespaces</desc>
                 <details>
-                    <item>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a window with <code>xquery version "3.1";</code> at the top.</item>
-                    <item>Access a document with the XPath <code>doc()</code> function, with its filepath address in eXist-db as the argument: <examples><example>To access <emph>Hamlet</emph>: <code>doc('/db/apps/shakespeare/data/ham.xml')</code></example></examples>
+                    <item>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                        window with <code>xquery version "3.1";</code> at the top.</item>
+                    <item>Access a document with the XPath <code>doc()</code> function, with its
+                        filepath address in eXist-db as the argument: <examples>
+                            <example>To access <emph>Hamlet</emph>:
+                                    <code>doc('/db/apps/shakespeare/data/ham.xml')</code></example>
+                        </examples>
                     </item>
-                    <item>Access a collection (a directory containing XML files) with the XPath <code>collection()</code> function, with its file directory address in eXist-db as the argument: 
-                    <examples>
-                        <example>To access the Shakespeare collection: <code>collection('/db/apps/shakespeare/data/')</code></example>
-                    </examples>
+                    <item>Access a collection (a directory containing XML files) with the XPath
+                            <code>collection()</code> function, with its file directory address in
+                        eXist-db as the argument: <examples>
+                            <example>To access the Shakespeare collection:
+                                    <code>collection('/db/apps/shakespeare/data/')</code></example>
+                        </examples>
                     </item>
-                    <item>When working with XML in a namespace (like the TEI), declare that namespace and apply its namespace prefix to any elements you are searching for in the document. Note: attributes do not take the document namespace.
-                    <examples>
-                        <example><code>declare namespace tei="http://www.tei-c.org/ns/1.0";</code></example>
-                        <example>This retrieves all the TEI <code>&lt;stage&gt;</code>  elements in <emph>Hamlet</emph>: <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code>.</example>
-                        <example>How would you retrieve all of the stage directions in the entire Shakespeare collection?                         <answer><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></answer>
-                        </example>
-                    </examples></item>
+                    <item>When working with XML in a namespace (like the TEI), declare that
+                        namespace and apply its namespace prefix to any elements you are searching
+                        for in the document. Note: attributes do not take the document namespace. <examples>
+                            <example><code>declare namespace
+                                    tei="http://www.tei-c.org/ns/1.0";</code></example>
+                            <example>This retrieves all the TEI <code>&lt;stage&gt;</code> elements
+                                in <emph>Hamlet</emph>:
+                                    <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code>.</example>
+                            <example>How would you retrieve all of the stage directions in the
+                                entire Shakespeare collection?
+                                        <answer><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></answer>
+                            </example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT30M">
-                <desc>The seven types of nodes (and the most important ones for us to access with XPath)</desc>
+                <desc>The seven types of nodes (and the most important ones for us to access with
+                    XPath)</desc>
                 <details>
                     <item><code>document()</code> (This node contains the root element, but sits
                         above it).</item>
-                    
+
                     <item><code>element()</code> (Review the anatomy of an element.) </item>
                     <item><code>attribute()</code> (The attribute node has a special relationship to
                         its element on the <code>parent::</code> axis, but otherwise has no
@@ -538,19 +553,40 @@
                         </examples>
                     </item>
                     <item><code>text()</code> (This is not a function, but an actual node. <examples>
-                        <example>In eXist, switch to a new play document (Mary Russell Mitford’s <emph>Charles the First</emph> tragedy) and take a look at its stage directions with <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>. Now, test each of the following expressions and notice the difference in your results:
-                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>, <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>. What is the difference? <answer>In <emph>mixed content</emph> like this, accessing the <code>text()</code> only retrieves the immediate <code>text()</code> node children of the <code>&lt;stage&gt;</code> element. But the <code>string()</code> function pulls all the <code>text()</code> nodes down the <code>descendant::</code> axis from <code>&lt;stage&gt;</code>.</answer></example></examples>
-                            </item>
-                    
-                    <item>Very rarely do we need to access the last three kinds of nodes with XPath: 5) <code>comment()</code> (to access XML comments <code>&lt;!-- --&gt;</code>); 6) <code>namespace()</code> (to access multiple namespaces in an XML document); 7) <code>processing-instruction()</code> (includes things like schema associations).</item>
+                            <example>In eXist, switch to a new play document (Mary Russell Mitford’s
+                                    <emph>Charles the First</emph> tragedy) and take a look at its
+                                stage directions with
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>.
+                                Now, test each of the following expressions and notice the
+                                difference in your results:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>,
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>.
+                                What is the difference? <answer>In <emph>mixed content</emph> like
+                                    this, accessing the <code>text()</code> only retrieves the
+                                    immediate <code>text()</code> node children of the
+                                        <code>&lt;stage&gt;</code> element. But the
+                                        <code>string()</code> function pulls all the
+                                        <code>text()</code> nodes down the <code>descendant::</code>
+                                    axis from <code>&lt;stage&gt;</code>.</answer></example>
+                        </examples>
+                    </item>
+
+                    <item>Very rarely do we need to access the last three kinds of nodes with XPath:
+                        5) <code>comment()</code> (to access XML comments <code>&lt;!--
+                            --&gt;</code>); 6) <code>namespace()</code> (to access multiple
+                        namespaces in an XML document); 7) <code>processing-instruction()</code>
+                        (includes things like schema associations).</item>
                 </details>
             </act>
             <act time="PT20M">
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code> and <code>following::</code><examples>
-                            <example>Find all the stage directions (marked in <code>&lt;stage&gt;</code> elements) that immediately precede spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in <emph>Charles the First</emph>.
-                                <answer>There are 34: <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage[preceding-sibling::tei:l]</code></answer>
+                            <example>Find all the stage directions (marked in
+                                    <code>&lt;stage&gt;</code> elements) that immediately precede
+                                spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in
+                                    <emph>Charles the First</emph>. <answer>There are 34:
+                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage[preceding-sibling::tei:l]</code></answer>
                             </example>
                         </examples></item>
                     <item><code>self:: (.)</code> Often used in predicates. <examples>
@@ -559,8 +595,8 @@
                     <item><code>ancestor::</code>
                         <examples>
                             <example>Navigate a TEI document from a node in the
-                                <code>&lt;text&gt;</code> element to a corresponding node in the
-                                <code>&lt;teiHeader&gt;</code>.</example>
+                                    <code>&lt;text&gt;</code> element to a corresponding node in the
+                                    <code>&lt;teiHeader&gt;</code>.</example>
                         </examples>
                     </item>
                 </details>
@@ -710,10 +746,10 @@
                         the <code>@match</code> on <code>xsl:template</code>. </item>
                     <item><code>xsl:apply-templates</code> with or without <code>@select</code>:
                             <code>@select</code>
-                        <q>prunes the tree</q> with an XPath expression that specifically
-                        identifies which XML elements in the source document will be processed next.
-                        Without <code>@select</code>, all element contents are consumed and
-                        processed by default.</item>
+                        <q>prunes the tree</q> with an XPath expression that specifically identifies
+                        which XML elements in the source document will be processed next. Without
+                            <code>@select</code>, all element contents are consumed and processed by
+                        default.</item>
                     <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </item>
@@ -722,7 +758,8 @@
             <act time="PT40M">
                 <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q> </item>
+                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
+                    </item>
                 </details>
             </act>
             <act time="PT40M">
@@ -831,7 +868,12 @@
                                             must have content&lt;/sch:assert&gt;</code></example>
                                 </examples></example>
                         </examples></item>
-                    <item>Uses of XPath in XSLT</item>
+                    <item>Uses of XPath in XSLT<examples>
+                            <example>Stuff stuff stuff
+                                <answer type="block">this
+    that
+the other</answer></example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT1H">

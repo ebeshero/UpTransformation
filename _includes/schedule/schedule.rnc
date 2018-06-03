@@ -63,5 +63,7 @@ example =
 emph = element emph { url?, text }
 answer =
     element answer {
+        type?,
         mixed { (code | emph | q)* }
     }
+type = attribute type { "inline" | "block" }
