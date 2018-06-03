@@ -72,7 +72,8 @@
                                     (<code>/</code> is not division)</example>
                         </examples></item>
                     <item>XPath library functions (with no arguments) are XPath expressions<examples>
-                            <example><code url="https://www.w3.org/TR/xpath-functions-31/#func-current-date"
+                            <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-current-date"
                                     >current-date()</code></example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-current-time"
@@ -178,8 +179,8 @@
                                     <code>&lt;div&gt;</code> elements)</example>
                             <example><code>/TEI/teiHeader/fileDesc/titleStmt/info</code> (returns no
                                 results; this is not an error)</example>
-                            <example><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (throws in an
-                                XPath path expression)</example>
+                            <example><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (throws
+                                in an XPath path expression)</example>
                         </examples></item>
                     <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
@@ -456,6 +457,28 @@
             </act>
             <act time="PT35M">
                 <desc>Read and evaluate XML projects with XPath</desc>
+                <details>
+                    <item>All speeches (<code>&lt;sp&gt;</code>) by Ophelia
+                                <answer><code>//sp[speaker eq 'Ophelia']</code></answer></item>
+                    <item>All speeches in Act 2 by Ophelia <answer><code>//body/div[2]//sp[speaker
+                                eq 'Ophelia']</code></answer></item>
+                    <item>What XPath would find all of the stage directions
+                            (<code>&lt;stage&gt;</code>) that are descendants of a metrical line
+                            (<code>&lt;l&gt;</code>)? How many are there?</item>
+                    <item>What XPath would find all of the stage directions that are children of a
+                        speech (<code>&lt;sp&gt;</code>), that is, inside a speech but not inside a
+                        line within a speech?</item>
+                    <item>What XPath would find all of the stage directions that are not children of
+                        a speech or a line? What are their parent element types? (Hint: use
+                    the <code url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code> function.)</item>
+                    <item>For the stage directions you identified in #2c, above, write an XPath
+                        expression that will return not the <code>&lt;stage&gt;</code> elements
+                        themselves, but their parent elements, whatever they might be. What are
+                        those parent elements? (You haven't yet learned the XPath to return just the
+                        names of the parent elements [rather than the elements themselves], but you
+                        can locate them, click on each one in the list &lt;oXygen/&gt; returns, and
+                        look at it directly.)</item>
+                </details>
             </act>
         </slot>
     </day>
@@ -631,17 +654,32 @@
                         with special namespaced elements designed to process XML documents</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</item>
-                    <item>A <emph>declarative programming language</emph>. Not written to be executed in a line-by-line order. Template elements (or <emph>template rules</emph>) do the work, but can be written in any order. </item>
-                    <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>: The <code>@match</code> here is a special kind of XPath called an <emph>XPath pattern</emph>, which could be found anywhere in the document hierarchy. Note: It is inefficient for processing to write these pattern expressions as we would an XPath search in the XPath Toolbar.</item>
-                    <item>In each example below, look at the <code>@match</code> value: What should the XPath pattern be matching in the source XML document? And how is this XPath different from the way we write XPath in the XPath Toolbar? 
-                    <examples>
-                        <example><code>&lt;xsl:template match="div/head&gt;"</code>
-                            <answer>Matches any <code>&lt;head&gt;</code> child of a <code>&lt;div&gt;</code> at any level of the XML hierarchy. In the XPath Toolbar, we have to start the expression with two leading forward slashes (<code>//</code>) to indicate we are looking <q>down</q> the tree from the document node.</answer>
-                        </example>
-                        <example><code>&lt;xsl:template match="div[count(descendant::p) gt 1]&gt;"</code>
-                            <answer>Matches any <code>&lt;div&gt;</code> element that contains multiple (more than one) <code>&lt;p&gt;</code> descendants. In the XPath toolbar, we must add <code>//</code> to the beginning.</answer>
-                        </example>
-                    </examples>
+                    <item>A <emph>declarative programming language</emph>. Not written to be
+                        executed in a line-by-line order. Template elements (or <emph>template
+                            rules</emph>) do the work, but can be written in any order. </item>
+                    <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
+                        The <code>@match</code> here is a special kind of XPath called an
+                            <emph>XPath pattern</emph>, which could be found anywhere in the
+                        document hierarchy. Note: It is inefficient for processing to write these
+                        pattern expressions as we would an XPath search in the XPath Toolbar.</item>
+                    <item>In each example below, look at the <code>@match</code> value: What should
+                        the XPath pattern be matching in the source XML document? And how is this
+                        XPath different from the way we write XPath in the XPath Toolbar? <examples>
+                            <example><code>&lt;xsl:template match="div/head&gt;"</code>
+                                <answer>Matches any <code>&lt;head&gt;</code> child of a
+                                        <code>&lt;div&gt;</code> at any level of the XML hierarchy.
+                                    In the XPath Toolbar, we have to start the expression with two
+                                    leading forward slashes (<code>//</code>) to indicate we are
+                                    looking <q>down</q> the tree from the document node.</answer>
+                            </example>
+                            <example><code>&lt;xsl:template match="div[count(descendant::p) gt
+                                    1]&gt;"</code>
+                                <answer>Matches any <code>&lt;div&gt;</code> element that contains
+                                    multiple (more than one) <code>&lt;p&gt;</code> descendants. In
+                                    the XPath toolbar, we must add <code>//</code> to the
+                                    beginning.</answer>
+                            </example>
+                        </examples>
                     </item>
                     <item>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
                         selection of the next template rules to fire.
@@ -651,6 +689,15 @@
                         the template match will be processed. </item>
                     <item><code>xsl:apply-templates</code> with or without an <code>@select</code>: <code>@select</code> <q>prunes the tree</q> with a specific XPath expression that specifically identifies  which XML elements in the source document will be processed next. Without <code>@select</code>, all element contents are consumed and processed by default.</item>
                         <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and defined by its relation to the node being matched by the template rule (in the <code>@match</code> on <code>xsl:template</code>. </item>
+                    <item><code>xsl:apply-templates</code> with or without <code>@select</code>:
+                            <code>@select</code>
+                        <q>prunes the tree</q> with a specific XPath expression that specifically
+                        identifies which XML elements in the source document will be processed next.
+                        Without <code>@select</code>, all element contents are consumed and
+                        processed by default.</item>
+                    <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
+                        defined by its relation to the node being matched by the template rule (in
+                        the <code>@match</code> on <code>xsl:template</code>. </item>
                 </details>
             </act>
             <act time="PT40M">
