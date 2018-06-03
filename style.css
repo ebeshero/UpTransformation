@@ -266,13 +266,13 @@ q {
 }
 li[img] {line-height:1.25em !important; }
 img.icon {
+    vertical-align:bottom;
+    height: 1.25em;
     position: relative;
-    top: 12px; /*right: -2px*/
-    ;
-    width: 60px;
-    padding-left: .5em;
-    padding-right: .5em;
-    padding-bottom: .25em;
+    top: 2px; /*right: -2px;*/
+    padding-left: .3em;
+    padding-right: .3em;
+    padding-bottom: .2em;
 }
 span.answer {
     display: none;
