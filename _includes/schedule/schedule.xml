@@ -590,7 +590,7 @@
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
                     <item><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
                             <code>Where</code>, <code>Order by</code>, <code>Return</code></item>
-                    <item>The simplest <code>FLWOR</code>: <code>Let</code> and <code>Return</code>
+                    <item>The simplest <code>FLWOR</code>: <code>let</code> and <code>return</code>
                         <examples>
                             <example>Retrieve whole elements</example>
                             <example>Retrieve only their text</example>
@@ -623,18 +623,17 @@
                 </details>
             </act>
             <act time="PT40M">
-                <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>For</code>
+                <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>for</code>
                     works</desc>
                 <details>
-                    <item><code>For $i in $YourSequenceVariable</code> and iterative returns</item>
-                    <item>The <code>$pos</code> variable: <code>For $i at $pos in
+                    <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
+                    <item>The <code>$pos</code> variable: <code>for $i at $pos in
                             $YourSequenceVariable</code></item>
                     <item>Sorting and ordering: XPath <code>sort()</code> function: using this above
-                        a for-loop, vs. the XQuery <code>Order by</code> statement inside a for-loop
+                        a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</item>
-                    <item>Adding where to <code>FLWOR</code> with a for-loop to limit the
-                        returns</item>
-                    <item>Which is more efficient in XQuery: a predicate or <code>Where</code>?
+                    <item>Adding <code>where</code> in a <code>for-loop</code> to limit the returns</item>
+                    <item>Which is more efficient in XQuery: a predicate or <code>where</code>?
                     </item>
                 </details>
 
@@ -648,8 +647,7 @@
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></item>
 
-                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an
-                        HTML file.</item>
+                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an HTML file.</item>
                 </details>
             </act>
 
