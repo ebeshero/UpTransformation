@@ -463,28 +463,37 @@
                     <item>Find all speeches in Act 2 by Ophelia
                                 <answer><code>//body/div[2]//sp[speaker eq
                             'Ophelia']</code></answer></item>
-                    <item>What types of elements can have stage directions
+                    <item>Find the types of elements can have stage directions
                             (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
                             url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
-                        function.)</item>
+                        function.)
+                        <answer><code>distinct-values(//stage/../name())</code></answer></item>
                     <item>Are there speeches that don’t any contain metrical lines
-                            (<code>&lt;l&gt;</code>)? What kinds of elements they contain
-                        instead?</item>
-                    <item>What’s the difference between <code>//sp[@who="Hamlet"]/l[1]</code> and
-                            <code>(//sp[@who="Hamlet"]/l)[1]</code>?</item>
+                            (<code>&lt;l&gt;</code>)?
+                        <answer><code>//sp[not(l)]</code></answer></item>
+                    <item>Building on your answer to the alst question, what kinds of elements they
+                        contain instead?
+                            <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
+                    <item>Find Hamlet’s first speech <answer><code>(//sp[speaker eq
+                                'Hamlet']/l)[1]</code></answer></item>
                     <item>What XPath expressions will find the last stage direction in the entire
-                        document? (Note: there should be only one!)</item>
+                        document? (Note: there should be only one!)
+                                <answer><code>(//stage)[last()]</code></answer></item>
                     <item>What XPath expression will find all speeches elements with more than 8
-                        liness?</item>
+                        line children? <answer><code>//sp[count(l) gt 8]</code></answer></item>
                     <item>Building on your answer to the preceding question, what XPath expression
-                        will tell you how many line children each of those speeches has?</item>
+                        will tell you how many line children each of those speeches has?
+                                <answer><code>//sp[count(l) gt 8]/count(l)</code></answer></item>
                     <item>Building on your answers to the preceding two questions, what XPath
                         expression will find the speakers of all speeches that have more than 8 line
-                        subelements? What XPath expression will find the speakers of those lines
-                        (with no duplication!)?</item>
-                    <item>How long is the longest speech?</item>
+                        children? What XPath expression will find the speakers of those lines (with
+                        no duplication!)? <answer><code>distinct-values(//sp[count(l) gt
+                                8]/speaker)</code></answer></item>
+                    <item>How long is the longest speech?
+                                <answer><code>max(//sp/string-length(normalize-space()))</code></answer></item>
                     <item>Building on your answer to the last question, who is the speaker of the
-                        longest speech?</item>
+                        longest speech? <answer><code>//sp[string-length(normalize-space()) eq
+                                max(//sp/string-length(normalize-space()))]/speaker</code></answer></item>
                 </details>
             </act>
         </slot>
@@ -493,10 +502,15 @@
         <title>XPath and XQuery</title>
         <slot time="09:30:00">
             <title>XPath and XQuery in eXist-db</title>
-            <act time="PT10M"><desc>Housekeeping: documents, collections, and namespaces</desc>
+            <act time="PT10M">
+                <desc>Housekeeping: documents, collections, and namespaces</desc>
                 <details>
-                    <item>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a window with <code>xquery version "3.1";</code> at the top.</item>
-                    <item>Access a document with the XPath <code>doc()</code> function using its filepath address in eXist-db: <examples><example><code>doc('/db/apps/shakespeare/data/ham.xml')</code></example></examples>
+                    <item>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                        window with <code>xquery version "3.1";</code> at the top.</item>
+                    <item>Access a document with the XPath <code>doc()</code> function using its
+                        filepath address in eXist-db: <examples>
+                            <example><code>doc('/db/apps/shakespeare/data/ham.xml')</code></example>
+                        </examples>
                     </item>
                     <item>Access a collection (a directory containing XML files) with the X</item>
                     <item>Namespaces </item>
@@ -542,9 +556,11 @@
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code> and <code>following::</code><examples>
-                            <example>Find all the stage directions (marked in <code>&lt;stage&gt;</code> elements) that immediately precede spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in <emph>Hamlet</emph>.
-                                <answer>xquery version "3.1";
-                                    declare namespace tei="http://www.tei-c.org/ns/1.0";
+                            <example>Find all the stage directions (marked in
+                                    <code>&lt;stage&gt;</code> elements) that immediately precede
+                                spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in
+                                    <emph>Hamlet</emph>. <answer>xquery version "3.1"; declare
+                                    namespace tei="http://www.tei-c.org/ns/1.0";
                                     doc('/db/apps/shakespeare/data/ham.xml')//tei:stage[preceding-sibling::tei:l]</answer>
                             </example>
                         </examples></item>
@@ -554,8 +570,8 @@
                     <item><code>ancestor::</code>
                         <examples>
                             <example>Navigate a TEI document from a node in the
-                                <code>&lt;text&gt;</code> to a corresponding node in the
-                                <code>&lt;teiHeader&gt;</code>.</example>
+                                    <code>&lt;text&gt;</code> to a corresponding node in the
+                                    <code>&lt;teiHeader&gt;</code>.</example>
                         </examples>
                     </item>
                 </details>
@@ -694,8 +710,15 @@
                         <emph>consumes</emph> the XML node matched in the template rule, and
                         determines that its children or other nodes in a set XPath relationship to
                         the template match will be processed. </item>
-                    <item><code>xsl:apply-templates</code> with or without an <code>@select</code>: <code>@select</code> <q>prunes the tree</q> with a specific XPath expression that specifically identifies  which XML elements in the source document will be processed next. Without <code>@select</code>, all element contents are consumed and processed by default.</item>
-                        <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and defined by its relation to the node being matched by the template rule (in the <code>@match</code> on <code>xsl:template</code>. </item>
+                    <item><code>xsl:apply-templates</code> with or without an <code>@select</code>:
+                            <code>@select</code>
+                        <q>prunes the tree</q> with a specific XPath expression that specifically
+                        identifies which XML elements in the source document will be processed next.
+                        Without <code>@select</code>, all element contents are consumed and
+                        processed by default.</item>
+                    <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
+                        defined by its relation to the node being matched by the template rule (in
+                        the <code>@match</code> on <code>xsl:template</code>. </item>
                     <item><code>xsl:apply-templates</code> with or without <code>@select</code>:
                             <code>@select</code>
                         <q>prunes the tree</q> with a specific XPath expression that specifically
@@ -710,7 +733,8 @@
             <act time="PT40M">
                 <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q> </item>
+                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
+                    </item>
                 </details>
             </act>
             <act time="PT40M">
