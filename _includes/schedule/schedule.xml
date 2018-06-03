@@ -458,42 +458,44 @@
             <act time="PT35M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
-                    <item>Find all speeches (<code>&lt;sp&gt;</code>) by Ophelia
-                                <answer><code>//sp[speaker eq 'Ophelia']</code></answer></item>
-                    <item>Find all speeches in Act 2 by Ophelia
-                                <answer><code>//body/div[2]//sp[speaker eq
-                            'Ophelia']</code></answer></item>
-                    <item>Find the types of elements can have stage directions
+                    <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
+                                <answer><code>count(//sp[speaker eq
+                        'Ophelia'])</code></answer></item>
+                    <item>How many speeches does Ophelia have in Act 2?
+                                <answer><code>count(//body/div[2]//sp[speaker eq
+                            'Ophelia'])</code></answer></item>
+                    <item>What types of elements can have stage directions
                             (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
                             url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
                         function.)
                         <answer><code>distinct-values(//stage/../name())</code></answer></item>
-                    <item>Are there speeches that don’t any contain metrical lines
+                    <item>Are there speeches that don’t any contain any metrical lines
                             (<code>&lt;l&gt;</code>)?
                         <answer><code>//sp[not(l)]</code></answer></item>
-                    <item>Building on your answer to the alst question, what kinds of elements they
+                    <item>Building on your answer to the last question, what kinds of elements they
                         contain instead?
                             <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
-                    <item>Find Hamlet’s first speech <answer><code>(//sp[speaker eq
+                    <item>What is Hamlet’s first speech? <answer><code>(//sp[speaker eq
                                 'Hamlet']/l)[1]</code></answer></item>
-                    <item>What XPath expressions will find the last stage direction in the entire
-                        document? (Note: there should be only one!)
+                    <item>What is the last stage direction in the entire document?
                                 <answer><code>(//stage)[last()]</code></answer></item>
-                    <item>What XPath expression will find all speeches elements with more than 8
-                        line children? <answer><code>//sp[count(l) gt 8]</code></answer></item>
-                    <item>Building on your answer to the preceding question, what XPath expression
-                        will tell you how many line children each of those speeches has?
-                                <answer><code>//sp[count(l) gt 8]/count(l)</code></answer></item>
-                    <item>Building on your answers to the preceding two questions, what XPath
-                        expression will find the speakers of all speeches that have more than 8 line
-                        children? What XPath expression will find the speakers of those lines (with
-                        no duplication!)? <answer><code>distinct-values(//sp[count(l) gt
+                    <item>How many speeches have more than 8 line children?
+                                <answer><code>count(//sp[count(l) gt 8])</code></answer></item>
+                    <item>Building on your answer to the preceding question, how many line children
+                        does each of those speeches have? <answer><code>//sp[count(l) gt
+                                8]/count(l)</code></answer></item>
+                    <item>Building on your answers to the preceding two questions, who are the
+                        speakers of speeches that have more than 8 line children (with no repetition
+                        of speaker names!)? <answer><code>distinct-values(//sp[count(l) gt
                                 8]/speaker)</code></answer></item>
                     <item>How long is the longest speech?
-                                <answer><code>max(//sp/string-length(normalize-space()))</code></answer></item>
+                                <answer><code>max(//sp/string-length())</code> (or, better:
+                                <code>max(//sp/string-length(normalize-space()))</code>)</answer></item>
                     <item>Building on your answer to the last question, who is the speaker of the
-                        longest speech? <answer><code>//sp[string-length(normalize-space()) eq
-                                max(//sp/string-length(normalize-space()))]/speaker</code></answer></item>
+                        longest speech? <answer><code>//sp[string-length() eq
+                                max(//sp/string-length())]/speaker</code> (or, better:
+                                <code>//sp[string-length(normalize-space()) eq
+                                max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
                 </details>
             </act>
         </slot>

@@ -392,41 +392,43 @@
                                 </ol></li>
                         </ol></li>
                 </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:15 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Find all speeches (<code>&lt;sp&gt;</code>) by Ophelia
-                                 <button class="answer">Answer</button> <span class="answer"><code>//sp[speaker eq 'Ophelia']</code></span></li>
-                    <li>Find all speeches in Act 2 by Ophelia
-                                 <button class="answer">Answer</button> <span class="answer"><code>//body/div[2]//sp[speaker eq
-                            'Ophelia']</code></span></li>
-                    <li>Find the types of elements can have stage directions
+                    <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
+                                 <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
+                        'Ophelia'])</code></span></li>
+                    <li>How many speeches does Ophelia have in Act 2?
+                                 <button class="answer">Answer</button> <span class="answer"><code>count(//body/div[2]//sp[speaker eq
+                            'Ophelia'])</code></span></li>
+                    <li>What types of elements can have stage directions
                             (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
                         function.)
                          <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
-                    <li>Are there speeches that don’t any contain metrical lines
+                    <li>Are there speeches that don’t any contain any metrical lines
                             (<code>&lt;l&gt;</code>)?
                          <button class="answer">Answer</button> <span class="answer"><code>//sp[not(l)]</code></span></li>
-                    <li>Building on your answer to the alst question, what kinds of elements they
+                    <li>Building on your answer to the last question, what kinds of elements they
                         contain instead?
                              <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
-                    <li>Find Hamlet’s first speech  <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
+                    <li>What is Hamlet’s first speech?  <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
                                 'Hamlet']/l)[1]</code></span></li>
-                    <li>What XPath expressions will find the last stage direction in the entire
-                        document? (Note: there should be only one!)
+                    <li>What is the last stage direction in the entire document?
                                  <button class="answer">Answer</button> <span class="answer"><code>(//stage)[last()]</code></span></li>
-                    <li>What XPath expression will find all speeches elements with more than 8
-                        line children?  <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt 8]</code></span></li>
-                    <li>Building on your answer to the preceding question, what XPath expression
-                        will tell you how many line children each of those speeches has?
-                                 <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt 8]/count(l)</code></span></li>
-                    <li>Building on your answers to the preceding two questions, what XPath
-                        expression will find the speakers of all speeches that have more than 8 line
-                        children? What XPath expression will find the speakers of those lines (with
-                        no duplication!)?  <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
+                    <li>How many speeches have more than 8 line children?
+                                 <button class="answer">Answer</button> <span class="answer"><code>count(//sp[count(l) gt 8])</code></span></li>
+                    <li>Building on your answer to the preceding question, how many line children
+                        does each of those speeches have?  <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt
+                                8]/count(l)</code></span></li>
+                    <li>Building on your answers to the preceding two questions, who are the
+                        speakers of speeches that have more than 8 line children (with no repetition
+                        of speaker names!)?  <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
                                 8]/speaker)</code></span></li>
                     <li>How long is the longest speech?
-                                 <button class="answer">Answer</button> <span class="answer"><code>max(//sp/string-length(normalize-space()))</code></span></li>
+                                 <button class="answer">Answer</button> <span class="answer"><code>max(//sp/string-length())</code> (or, better:
+                                <code>max(//sp/string-length(normalize-space()))</code>)</span></li>
                     <li>Building on your answer to the last question, who is the speaker of the
-                        longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length(normalize-space()) eq
-                                max(//sp/string-length(normalize-space()))]/speaker</code></span></li>
+                        longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length() eq
+                                max(//sp/string-length())]/speaker</code> (or, better:
+                                <code>//sp[string-length(normalize-space()) eq
+                                max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
                 </ol></li></ul></section>
     </section>
     <section>
