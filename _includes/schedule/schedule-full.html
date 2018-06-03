@@ -422,29 +422,26 @@
     <section>
         <h2>Tuesday, June 12: XPath and XQuery</h2>
         <section><h3>XPath and XQuery in eXist-db (9:30 a.m.–12:00 p.m.)</h3><ul><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:30 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
-                        window with <code>xquery version "3.1";</code> at the top.</li>
-                    <li>Access a document with the XPath <code>doc()</code> function using its
-                        filepath address in eXist-db: <ol>
-                            <li><code>doc('/db/apps/shakespeare/data/ham.xml')</code></li>
-                        </ol>
+                    <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a window with <code>xquery version "3.1";</code> at the top.</li>
+                    <li>Access a document with the XPath <code>doc()</code> function, with its filepath address in eXist-db as the argument: <ol><li>To access <em>Hamlet</em>: <code>doc('/db/apps/shakespeare/data/ham.xml')</code></li></ol>
                     </li>
-                    <li>Access a collection (a directory containing XML files) with the X</li>
-                    <li>Namespaces </li>
-                </ol></li><li>The seven types of nodes (and how to access them in eXist-db) (30 minutes; 9:40 a.m.–10:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Access a collection (a directory containing XML files) with the XPath <code>collection()</code> function, with its file directory address in eXist-db as the argument: 
+                    <ol>
+                        <li>To access the Shakespeare collection: <code>collection('/db/apps/shakespeare/data/')</code></li>
+                    </ol>
+                    </li>
+                    <li>When working with XML in a namespace (like the TEI), declare that namespace and apply its namespace prefix to any elements you are searching for in the document. Note: attributes do not take the document namespace.
+                    <ol>
+                        <li><code>declare namespace tei="http://www.tei-c.org/ns/1.0";</code></li>
+                        <li>This retrieves all the TEI <code>&lt;stage&gt;</code>  elements in <em>Hamlet</em>: <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code>.</li>
+                        <li>How would you retrieve all of the stage directions in the entire Shakespeare collection?                          <button class="answer">Answer</button> <span class="answer"><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></span>
+                        </li>
+                    </ol></li>
+                </ol></li><li>The seven types of nodes (and the most important ones for us to access with XPath) (30 minutes; 9:40 a.m.–10:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>document()</code> (This node contains the root element, but sits
                         above it).</li>
-                    <li><code>processing-instruction()</code> (This node includes things like
-                        schema associations)</li>
+                    
                     <li><code>element()</code> (Review the anatomy of an element.) </li>
-                    <li><code>text()</code> (This is not a function, but an actual node. <ol>
-                            <li>Look at the difference between <code>text()</code> and two
-                                functions that return text extracted from the tree:
-                                    <code>string()</code> and <code>data()</code></li>
-                            <li>Access <code>text()</code> in <em>mixed content</em> using
-                                the <code>preceding-sibling::</code> and
-                                    <code>following-sibling::</code> axes </li>
-                        </ol></li>
                     <li><code>attribute()</code> (The attribute node has a special relationship to
                         its element on the <code>parent::</code> axis, but otherwise has no
                         relationship to other elements on the tree.) <ol>
@@ -452,25 +449,16 @@
                                 eXist</li>
                         </ol>
                     </li>
-                    <li><code>comment()</code>
-                        <ol>
-                            <li><code>&lt;!-- --&gt;</code></li>
-                        </ol>
-                    </li>
-                    <li><code>namespace()</code> (XML documents can written in multiple
-                        namespaces, and the namespace node lets us navigate them.) <ol>
-                            <li>Navigate the namespaces of an XHTML and SVG document.
+                    <li><code>text()</code> (This is not a function, but an actual node. <ol>
+                        <li>In eXist, switch to a new play document (Mary Russell Mitford’s <em>Charles the First</em> tragedy) and take a look at its stage directions with <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>. Now, test each of the following expressions and notice the difference in your results:
+                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>, <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>. What is the difference?  <button class="answer">Answer</button> <span class="answer">In <em>mixed content</em> like this, accessing the <code>text()</code> only retrieves the immediate <code>text()</code> node children of the <code>&lt;stage&gt;</code> element. But the <code>string()</code> function pulls all the <code>text()</code> nodes down the <code>descendant::</code> axis from <code>&lt;stage&gt;</code>.</span></li></ol>
                             </li>
-                        </ol>
-                    </li>
+                    
+                    <li>Very rarely do we need to access the last three kinds of nodes with XPath: 5) <code>comment()</code> (to access XML comments <code>&lt;!-- --&gt;</code>); 6) <code>namespace()</code> (to access multiple namespaces in an XML document); 7) <code>processing-instruction()</code> (includes things like schema associations).</li>
                 </ol></li><li>Neglected XPath axes (20 minutes; 10:10 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>preceding::</code> and <code>following::</code><ol>
-                            <li>Find all the stage directions (marked in
-                                    <code>&lt;stage&gt;</code> elements) that immediately precede
-                                spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in
-                                    <em>Hamlet</em>.  <button class="answer">Answer</button> <span class="answer">xquery version "3.1"; declare
-                                    namespace tei="http://www.tei-c.org/ns/1.0";
-                                    doc('/db/apps/shakespeare/data/ham.xml')//tei:stage[preceding-sibling::tei:l]</span>
+                            <li>Find all the stage directions (marked in <code>&lt;stage&gt;</code> elements) that immediately precede spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in <em>Charles the First</em>.
+                                 <button class="answer">Answer</button> <span class="answer">There are 34: <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage[preceding-sibling::tei:l]</code></span>
                             </li>
                         </ol></li>
                     <li><code>self:: (.)</code> Often used in predicates. <ol>
@@ -479,8 +467,8 @@
                     <li><code>ancestor::</code>
                         <ol>
                             <li>Navigate a TEI document from a node in the
-                                    <code>&lt;text&gt;</code> to a corresponding node in the
-                                    <code>&lt;teiHeader&gt;</code>.</li>
+                                <code>&lt;text&gt;</code> element to a corresponding node in the
+                                <code>&lt;teiHeader&gt;</code>.</li>
                         </ol>
                     </li>
                 </ol></li><li> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to
@@ -498,7 +486,7 @@
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
                     <li><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
                             <code>Where</code>, <code>Order by</code>, <code>Return</code></li>
-                    <li>The simplest <code>FLWOR</code>: <code>Let</code> and <code>Return</code>
+                    <li>The simplest <code>FLWOR</code>: <code>let</code> and <code>return</code>
                         <ol>
                             <li>Retrieve whole elements</li>
                             <li>Retrieve only their text</li>
@@ -518,24 +506,22 @@
                         </ol>
                     </li>
 
-                </ol></li><li><code>FLWOR</code> statements (XQuery in eXist-db): How <code>For</code>
+                </ol></li><li><code>FLWOR</code> statements (XQuery in eXist-db): How <code>for</code>
                     works (40 minutes; 2:35 p.m.–3:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>For $i in $YourSequenceVariable</code> and iterative returns</li>
-                    <li>The <code>$pos</code> variable: <code>For $i at $pos in
+                    <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
+                    <li>The <code>$pos</code> variable: <code>for $i at $pos in
                             $YourSequenceVariable</code></li>
                     <li>Sorting and ordering: XPath <code>sort()</code> function: using this above
-                        a for-loop, vs. the XQuery <code>Order by</code> statement inside a for-loop
+                        a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</li>
-                    <li>Adding where to <code>FLWOR</code> with a for-loop to limit the
-                        returns</li>
-                    <li>Which is more efficient in XQuery: a predicate or <code>Where</code>?
+                    <li>Adding <code>where</code> in a <code>for-loop</code> to limit the returns</li>
+                    <li>Which is more efficient in XQuery: a predicate or <code>where</code>?
                     </li>
                 </ol></li><li><img src="images/flower.jpg" alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" title="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" class="icon"/>Putting it all together: FLWORs for pulling data (35 minutes; 3:15 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></li>
 
-                    <li>HTML returns: how to use curly braces to layer and activate XQuery in an
-                        HTML file.</li>
+                    <li>HTML returns: how to use curly braces to layer and activate XQuery in an HTML file.</li>
                 </ol></li></ul></section>
     </section>
     <section>
@@ -589,7 +575,7 @@
                         the <code>@match</code> on <code>xsl:template</code>. </li>
                     <li><code>xsl:apply-templates</code> with or without <code>@select</code>:
                             <code>@select</code>
-                        <q>prunes the tree</q> with a specific XPath expression that specifically
+                        <q>prunes the tree</q> with an XPath expression that specifically
                         identifies which XML elements in the source document will be processed next.
                         Without <code>@select</code>, all element contents are consumed and
                         processed by default.</li>
@@ -597,8 +583,7 @@
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </li>
                 </ol></li><li>Preparing to write XSLT in &lt;oXygen/&gt; (40 minutes; 10:10 a.m.–10:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
-                    </li>
+                    <li>Namespaces and why they matter: <q>It’s always a namespace issue.</q> </li>
                 </ol></li><li>XSLT template matching and context nodes (40 minutes; 10:50 a.m.–11:30 a.m.) </li><li>Identity transformation (30 minutes; 11:30 a.m.–12:00 p.m.) </li></ul></section>
         <section><h3>Pushing and pulling (1:15 p.m.–3:50 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute (40 minutes; 1:15 p.m.–1:55 p.m.) </li><li>XSLT push and pull processing (40 minutes; 1:55 p.m.–2:35 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (40 minutes; 2:35 p.m.–3:15 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:15 p.m.–3:50 p.m.) </li></ul></section>
@@ -620,7 +605,7 @@
                             <li>Slots have activities: <code>&lt;act time="PT20M"&gt;</code>,
                                     <code>&lt;act time="PT1H30M"&gt;</code></li>
                         </ol></li>
-                    <li>Using XPath in Schematron
+                    <li>How we use XPath in Schematron
                             <a href="https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.sch">https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.sch</a><ol>
                             <li><code>&lt;sch:rule context="slot[1]/@time"&gt;</code><ol>
                                     <li><code>&lt;sch:assert test="if (ancestor::day/@d eq
