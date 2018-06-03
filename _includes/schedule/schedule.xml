@@ -396,6 +396,33 @@
             </act>
             <act time="PT25M">
                 <desc>XPath predicates</desc>
+                <details>
+                    <item><emph>Predicates</emph>, in square brackets after a path step,
+                            <emph>filter</emph> the results</item>
+                    <item>Numerical predicates<examples>
+                            <example><code>//body/div[3]</code> matches the third
+                                    <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
+                                element (same as <code>//body/div[position() eq 3]</code></example>
+                            <example><code>//body/div[last()]</code> matches the last
+                                    <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
+                                element (same as <code>//body/div[position() eq 3]</code></example>
+                            <example>Numerical predicates count away from the context node<examples>
+                                    <example><code>//sp/preceding-sibling::stage[1]</code> matches
+                                        the first <code>&lt;stage&gt;</code> element before (but on
+                                        the same hierarchical level as) each
+                                        <code>&lt;sp&gt;</code></example>
+                                    <example><code>//sp/ancestor[1]</code> is equivalent to
+                                            <code>//sp/..</code></example>
+                                </examples></example>
+                        </examples></item>
+                    <item>Predicates with node tests<examples>
+                            <example><code>//stage[parent::div]</code> is equivalent to
+                                    <code>//div/stage</code></example>
+                        </examples></item>
+                    <item>Predicates with functions<examples>
+                            <example><code>//sp[speaker eq 'Ophelia']</code></example>
+                        </examples></item>
+                </details>
             </act>
             <act time="PT15M">
                 <desc>Odds and ends</desc>
