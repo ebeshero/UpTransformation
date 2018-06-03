@@ -135,8 +135,7 @@
                                     <code>&lt;div&gt;</code> elements)</li>
                             <li><code>/TEI/teiHeader/fileDesc/titleStmt/info</code> (returns no
                                 results; this is not an error)</li>
-                            <li><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (throws
-                                an error; notice the space in the middle, which is illegal in an
+                            <li><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (throws in an
                                 XPath path expression)</li>
                         </ol></li>
                     <li>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
@@ -212,7 +211,7 @@
                         </span></li>
                 </ol></li></ul></section>
         <section><h3>Exploring document structures and data with XPath (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath functions for strings (25 minutes; 1:15 p.m.–1:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>concat()</code>
+                    <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
                         <ol>
                             <li>
                                 <code>concat('Curly','Larry','Moe')</code></li>
@@ -225,7 +224,7 @@
                                         <code>//speaker</code> is a sequence.</span></li>
                         </ol>
                     </li>
-                    <li><code>string-join()</code><ol>
+                    <li><code>string-join()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-join"><sup>⬀</sup></a><ol>
                             <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                 ')</code></li>
                             <li><code>string-join(//speaker, ', ')</code></li>
@@ -235,49 +234,51 @@
                                     arguments to <code>concat()</code> must be atomic or
                                     atomizable.</span></li>
                         </ol></li>
-                    <li><code>string-length()</code><ol>
+                    <li><code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a><ol>
                             <li><code>string-length('Curly, Larry, and Moe')</code></li>
                         </ol></li>
-                    <li><code>lower-case()</code>, <code>upper-case()</code>
+                    <li><code>lower-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-lower-case"><sup>⬀</sup></a>, <code>upper-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a>
                         <ol>
                             <li><code>lower-case('Curly, Larry, and Moe')</code></li>
                         </ol></li>
-                    <li><code>normalize-space()</code><ol>
+                    <li><code>normalize-space()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-normalize-space"><sup>⬀</sup></a><ol>
                             <li><code>normalize-space(' Curly, Larry, Moe ')</code></li>
                         </ol></li>
-                    <li><code>substring-before()</code>, <code>substring-after()</code><ol>
+                    <li><code>substring-before()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-before"><sup>⬀</sup></a>, <code>substring-after()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-after"><sup>⬀</sup></a><ol>
                             <li><code>substring-before('Larry', 'r')</code> What if there’s
                                 more than one?</li>
                             <li><code>substring-after('Larry', 'r')</code> What if there’s more
                                 than one?</li>
                         </ol></li>
-                    <li><code>substring()</code><ol>
+                    <li><code>substring()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring"><sup>⬀</sup></a><ol>
                             <li><code>substring('Curly', 1, 2)</code> XPath starts counting
                                 with 1 (not 0).</li>
                         </ol></li>
-                    <li><code>contains()</code> Foreshadowing: This returns a Boolean
+                    <li><code>contains()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains"><sup>⬀</sup></a> Foreshadowing: This returns a Boolean
                             (<code>True</code> or <code>False</code>) value. How might this be useful?<ol>
                             <li><code>contains('Ophelia', 'ph')</code></li>
                             <li><code>//speaker/contains(., 'ph')</code> (the dot refers to the
                                 current context item)</li>
                         </ol></li>
                 </ol></li><li>XPath functions for numbers (25 minutes; 1:40 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>max()</code>, <code>min()</code>, <code>sum()</code>,
-                            <code>avg()</code><ol>
+                    <li><code>max()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>, <code>min()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-min"><sup>⬀</sup></a>,
+                            <code>sum()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sum"><sup>⬀</sup></a>, <code>avg()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-avg"><sup>⬀</sup></a><ol>
                             <li><code>max((1, 2, 3))</code>, etc.</li>
                             <li>What happens when these are applied to strings? To a sequence
                                 that mixes strings and numbers?</li>
                         </ol></li>
-                    <li><code>ceiling()</code>, <code>floor()</code>
+                    <li><code>ceiling()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"><sup>⬀</sup></a>, <code>floor()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-floor"><sup>⬀</sup></a>
                         <ol>
                             <li><code>ceiling(3.141592653)</code></li>
                         </ol></li>
-                    <li><code>round()</code><ol>
+                    <li><code>round()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-round"><sup>⬀</sup></a><ol>
                             <li><code>round(3.141592653, 4)</code></li>
                         </ol></li>
-                    <li><code>format-number()</code><ol>
+                    <li><code>format-number()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-number"><sup>⬀</sup></a>, <code>format-integer()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-integer"><sup>⬀</sup></a><ol>
                             <li><code>format-number(1, '#.000')</code></li>
                             <li><code>format-number(1, '#.###')</code></li>
+                            <li><code>format-integer(154,'I')</code></li>
+                            <li><code>format-integer(154,'w')</code></li>
                         </ol></li>
                     <li>Find the length in character count of each <code>&lt;speaker&gt;</code>
                          <button class="answer">Answer</button> <span class="answer"><code>//speaker/string-length()</code> (why doesn’t
@@ -285,11 +286,11 @@
                     <li>Find the length of longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
                 </ol></li><li>XPath functions for sequences (15 minutes; 2:05 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>distinct-values()</code>
+                    <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
                         </ol></li>
-                    <li><code>count()</code><ol>
+                    <li><code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a><ol>
                             <li><code>count(('Curly', 'Larry', 'Moe',
                                 'Curly'))</code></li>
                             <li><code>count(distinct-values(('Curly', 'Larry', 'Moe',
@@ -297,7 +298,7 @@
                             <li><code>distinct-values(count(('Curly', 'Larry', 'Moe',
                                     'Curly')))</code></li>
                         </ol></li>
-                    <li><code>sort()</code><ol>
+                    <li><code>sort()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sort"><sup>⬀</sup></a><ol>
                             <li><code>sort(//speaker)</code></li>
                             <li><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></li>
@@ -332,7 +333,7 @@
                             <li><code>//body/div[3]</code> matches the third
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq 3]</code></li>
-                            <li><code>//body/div[last()]</code> matches the last
+                            <li><code>//body/div[last()]</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-last"><sup>⬀</sup></a> matches the last
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq
                                 last()]</code></li>
@@ -379,13 +380,14 @@
                         </ol></li>
                 </ol></li><li>Odds and ends (25 minutes; 3:05 p.m.–3:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Two types of comparison<ol>
-                            <li>General comparison <code>=</code>, <code>!=</code>,
-                                    <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>,
-                                    <code>&gt;=</code>
+                            <li><em>General comparison</em><a href="https://www.w3.org/TR/xpath-30/#id-general-comparisons"><sup>⬀</sup></a>
+                                <code>=</code>, <code>!=</code>, <code>&lt;</code>,
+                                    <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>
                             </li>
-                            <li>Value comparison <code>eq</code>, <code>ne</code>,
-                                    <code>lt</code>, <code>le</code>, <code>gt</code>,
-                                    <code>ge</code>
+                            <li><em>Value
+                                    comparison</em><a href="https://www.w3.org/TR/xpath-30/#id-value-comparisons"><sup>⬀</sup></a>
+                                <code>eq</code>, <code>ne</code>, <code>lt</code>, <code>le</code>,
+                                    <code>gt</code>, <code>ge</code>
                             </li>
                             <li><code>//sp[speaker eq 'Rosencrantz']</code></li>
                             <li><code>//sp[speaker = 'Rosencrantz']</code></li>
@@ -397,7 +399,7 @@
                                     'Guildenstern']</code></li>
                         </ol></li>
                     <li>Explicit and implicit <code>for</code><ol>
-                            <li>Explicit <code>for</code><ol>
+                            <li>Explicit <code>for</code><a href="https://www.w3.org/TR/2017/PR-xpath-31-20170117/xpath-31-diff.html#id-for-expressions"><sup>⬀</sup></a><ol>
                                     <li><code>for $speaker in /TEI//speaker return
                                             $speaker[contains(., 'ph')]</code></li>
                                 </ol></li>
@@ -405,7 +407,8 @@
                                     <li><code>/TEI//speaker[contains(., 'ph')]</code></li>
                                 </ol></li>
                         </ol></li>
-                    <li>Difference between simple map (<code>!</code>) and arrow (<code>=&gt;</code>) <ol>
+                    <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
+                        arrow (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) <ol>
                             <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
                             <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
                         </ol></li>
@@ -474,8 +477,7 @@
                         </ol>
                     </li>
                     <li><code>preceding::</code> and <code>following::</code><ol>
-                            <li>Access stage directions in MRM’s <em>Charles the
-                                First</em></li>
+                            <li>Find all the stage directions that precede or follow lines in Hamlet   </li>
                         </ol></li>
                     <li><code>self:: (.)</code> Often used in predicates. <ol>
                             <li>String functions: <code>matches(., '^[A-Z]')</code></li>
@@ -542,24 +544,26 @@
                         with special namespaced elements designed to process XML documents</li>
                     <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</li>
-                    <li>A <em>declarative programming language</em>. Not written to be
-                        executed in a line-by-line order. Template elements (or <em>template
-                            rules</em>) do the work, but can be written in any order. </li>
+                    <li>A <em>declarative programming language</em>. Not written to be executed in a line-by-line order. Template elements (or <em>template rules</em>) do the work, but can be written in any order. </li>
+                    <li>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>: The <code>@match</code> here is a special kind of XPath called an <em>XPath pattern</em>, which could be found anywhere in the document hierarchy. Note: It is inefficient for processing to write these pattern expressions as we would an XPath search in the XPath Toolbar.</li>
+                    <li>In each example below, look at the <code>@match</code> value: What should the XPath pattern be matching in the source XML document? And how is this XPath different from the way we write XPath in the XPath Toolbar? 
+                    <ol>
+                        <li><code>&lt;xsl:template match="div/head&gt;"</code>
+                             <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;head&gt;</code> child of a <code>&lt;div&gt;</code> at any level of the XML hierarchy. In the XPath Toolbar, we have to start the expression with two leading forward slashes (<code>//</code>) to indicate we are looking <q>down</q> the tree from the document node.</span>
+                        </li>
+                        <li><code>&lt;xsl:template match="div[count(descendant::p) gt 1]&gt;"</code>
+                             <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;div&gt;</code> element that contains multiple (more than one) <code>&lt;p&gt;</code> descendants. In the XPath toolbar, we must add <code>//</code> to the beginning.</span>
+                        </li>
+                    </ol>
+                    </li>
                     <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
                         selection of the next template rules to fire.
                             <code>&lt;xsl:apply-templates&gt;</code>
                         <em>consumes</em> the XML node matched in the template rule, and
                         determines that its children or other nodes in a set XPath relationship to
                         the template match will be processed. </li>
-                    <li><code>xsl:apply-templates</code> with or without an <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with a specific XPath expression that specifically
-                        identifies which XML elements in the source document will be processed next.
-                        Without <code>@select</code>, all element contents are consumed and
-                        processed by default.</li>
-                    <li>The XPath expression in <code>@select</code> is literal and contextual,
-                        defined in relation to the node being matched by the template rule (in the
-                            <code>@match</code> on <code>xsl:template</code>. </li>
+                    <li><code>xsl:apply-templates</code> with or without <code>@select</code>: <code>@select</code> <q>prunes the tree</q> with a specific XPath expression that specifically identifies  which XML elements in the source document will be processed next. Without <code>@select</code>, all element contents are consumed and processed by default.</li>
+                        <li>The XPath expression in <code>@select</code> is <em>literal</em> and defined by its relation to the node being matched by the template rule (in the <code>@match</code> on <code>xsl:template</code>. </li>
                 </ol></li><li>Preparing to write XSLT in &lt;oXygen/&gt; (40 minutes; 10:10 a.m.–10:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
                     </li>
