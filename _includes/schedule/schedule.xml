@@ -596,28 +596,21 @@
                         with <code>&lt;xsl:template&gt;</code> children.</item>
                     <item>A <emph>declarative programming language</emph>. Not written to be
                         executed in a line-by-line order. Template elements (or <emph>template
-                            rules</emph>) do the work, but can be written in any order. The program
-                        runs based on the patterns found in source document, and the same XSLT
-                        stylesheet might run in a different way on different source XML documents.
-                        That is, an XSLT stylesheet can work on various differently structured XML
-                        files, producing distinct output, depending on the pattern matches it
-                        recognizes. The sequence in which the template rules fire is determined by
-                        what surfaces in the source document with each template match.</item>
+                            rules</emph>) do the work, but can be written in any order. </item>
                     <item>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
                         selection of the next template rules to fire.
                             <code>&lt;xsl:apply-templates&gt;</code>
                         <emph>consumes</emph> the XML node matched in the template rule, and
                         determines that its children or other nodes in a set XPath relationship to
                         the template match will be processed. </item>
-                    <item>When <code>&lt;xsl:apply-templates&gt;</code> is set, it can have a
-                            <code>@select</code> attribute that directly determines which XML
-                        elements in the source document will be processed next.</item>
+                    <item><code>xsl:apply-templates</code> with or without an <code>@select</code>: <code>@select</code> <q>prunes the tree</q> with a specific XPath expression that specifically identifies  which XML elements in the source document will be processed next. Without <code>@select</code>, all element contents are consumed and processed by default.</item>
+                        <item>The XPath expression in <code>@select</code> is literal and contextual, defined in relation to the node being matched by the template rule (in the <code>@match</code> on <code>xsl:template</code>. </item>
                 </details>
             </act>
             <act time="PT40M">
-                <desc>It’s always a namespace issue: working with multiple namespaces</desc>
+                <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>[PLACEHOLDER]</item>
+                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q> </item>
                 </details>
             </act>
             <act time="PT40M">

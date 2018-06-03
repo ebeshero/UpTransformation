@@ -32,7 +32,7 @@ body {
     color: black;
     padding-left: 5px;
 }
-
+section.main-content {max-width:80rem !important;}
 section > ul > li > ol {
     display: none;
 }
