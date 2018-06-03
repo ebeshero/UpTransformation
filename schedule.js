@@ -34,5 +34,12 @@ function localCollapse() {
     this.parentElement.nextElementSibling.style.display = 'none';
 }
 function showAnswer() {
-    this.nextElementSibling.style.display = 'inline';
+    var target = this.nextElementSibling;
+    if (target.tagName == 'DIV') {
+        target.style.display = 'block';
+        target.style.whiteSpace = 'pre';
+        target.style.backgroundColor = 'lightcyan';
+    } else {
+        target.style.display = 'inline';
+    }
 }

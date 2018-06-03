@@ -122,8 +122,9 @@
         <button class="answer">Answer</button>
         <!-- ensure at least one space between the button and the answer-->
         <xsl:text> </xsl:text>
-        <span class="answer">
+        <xsl:element name="{if (@type eq 'block') then 'div' else 'span'}">
+            <xsl:attribute name="class" select="'answer'"/>
             <xsl:apply-templates/>
-        </span>
+        </xsl:element>
     </xsl:template>
 </xsl:stylesheet>
