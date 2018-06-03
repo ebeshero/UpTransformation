@@ -32,7 +32,9 @@ body {
     color: black;
     padding-left: 5px;
 }
-section.main-content {max-width:80rem !important;}
+section.main-content {
+    max-width: 80rem !important;
+}
 section > ul > li > ol {
     display: none;
 }
@@ -40,6 +42,7 @@ section > ul > li > ol {
 button {
     /* buttons for entire schedule */
     background: linear-gradient(to right, teal, seagreen);
+    border: none;
     border-radius: 15px;
     color: #f4eee2;
     width: 100px;
@@ -264,9 +267,11 @@ q {
 .note {
     font-size: smaller;
 }
-li[img] {line-height:1.25em !important; }
+li[img] {
+    line-height: 1.25em !important;
+}
 img.icon {
-    vertical-align:bottom;
+    vertical-align: bottom;
     height: 1.25em;
     position: relative;
     top: 2px; /*right: -2px;*/
@@ -281,4 +286,6 @@ span.buttons {
     display: inline-block;
     white-space: nowrap;
 }
-section[title="mainPage"] > p {text-align:center !important;}
+section[title = "mainPage"] > p {
+    text-align: center !important;
+}
