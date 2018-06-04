@@ -90,7 +90,7 @@
                             <li><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a> (How
                                 is this different from <code>upper-case(translate('Hi,
                                     Mom!','AEIOU','xxxxx'))</code>?)</li>
-                            <li><code>format-dateTime(current-dateTime(),'[h].[m01][Pn] on [FNn],
+                            <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn] on [FNn],
                                     [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
                         </ol></li>
                     <li>Nested functions are hard to read. Use the <em>arrow
@@ -598,8 +598,7 @@
                                     leading forward slashes (<code>//</code>) to indicate we are
                                     looking <q>down</q> the tree from the document node.</span>
                             </li>
-                            <li><code>&lt;xsl:template match="div[count(descendant::p) gt
-                                    1]&gt;"</code>
+                            <li><code>&lt;xsl:template match="div[count(descendant::p) gt 1]&gt;"</code>
                                  <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;div&gt;</code> element that contains
                                     multiple (more than one) <code>&lt;p&gt;</code> descendants. In
                                     the XPath toolbar, we must add <code>//</code> to the
