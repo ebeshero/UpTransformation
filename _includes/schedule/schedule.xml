@@ -720,8 +720,7 @@
                                     leading forward slashes (<code>//</code>) to indicate we are
                                     looking <q>down</q> the tree from the document node.</answer>
                             </example>
-                            <example><code>&lt;xsl:template match="div[count(descendant::p) gt
-                                    1]&gt;"</code>
+                            <example><code>&lt;xsl:template match="div[count(descendant::p) gt 1]&gt;"</code>
                                 <answer>Matches any <code>&lt;div&gt;</code> element that contains
                                     multiple (more than one) <code>&lt;p&gt;</code> descendants. In
                                     the XPath toolbar, we must add <code>//</code> to the
