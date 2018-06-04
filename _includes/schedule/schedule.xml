@@ -668,7 +668,8 @@
                     <item>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</item>
-                    <item>Adding <code>where</code> in a <code>for-loop</code> to limit the returns</item>
+                    <item>Adding <code>where</code> in a <code>for-loop</code> to limit the
+                        returns</item>
                     <item>Which is more efficient in XQuery: a predicate or <code>where</code>?
                     </item>
                 </details>
@@ -683,7 +684,8 @@
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></item>
 
-                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an HTML file.</item>
+                    <item>HTML returns: how to use curly braces to layer and activate XQuery in an
+                        HTML file.</item>
                 </details>
             </act>
 
@@ -866,7 +868,13 @@
                                             must have content&lt;/sch:assert&gt;</code></example>
                                 </examples></example>
                         </examples></item>
-                    <item>Uses of XPath in XSLT</item>
+                    <item>Uses of XPath in XSLT<examples>
+                            <example>Customize <code>format-time()</code>
+                                <answer type="block">&lt;xsl:function name="djb:format-time" as="xs:string"&gt;
+    &lt;xsl:param name="input" as="xs:time" required="yes"/&gt;
+    &lt;xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/&gt;
+&lt;/xsl:function&gt;</answer></example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT1H">

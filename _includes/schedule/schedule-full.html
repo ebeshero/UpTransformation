@@ -549,14 +549,16 @@
                     <li>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</li>
-                    <li>Adding <code>where</code> in a <code>for-loop</code> to limit the returns</li>
+                    <li>Adding <code>where</code> in a <code>for-loop</code> to limit the
+                        returns</li>
                     <li>Which is more efficient in XQuery: a predicate or <code>where</code>?
                     </li>
                 </ol></li><li><img src="images/flower.jpg" alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" title="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" class="icon"/>Putting it all together: FLWORs for pulling data (35 minutes; 3:15 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></li>
 
-                    <li>HTML returns: how to use curly braces to layer and activate XQuery in an HTML file.</li>
+                    <li>HTML returns: how to use curly braces to layer and activate XQuery in an
+                        HTML file.</li>
                 </ol></li></ul></section>
     </section>
     <section>
@@ -686,7 +688,13 @@
                                             must have content&lt;/sch:assert&gt;</code></li>
                                 </ol></li>
                         </ol></li>
-                    <li>Uses of XPath in XSLT</li>
+                    <li>Uses of XPath in XSLT<ol>
+                            <li>Customize <code>format-time()</code>
+                                 <button class="answer">Answer</button> <div class="answer">&lt;xsl:function name="djb:format-time" as="xs:string"&gt;
+    &lt;xsl:param name="input" as="xs:time" required="yes"/&gt;
+    &lt;xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/&gt;
+&lt;/xsl:function&gt;</div></li>
+                        </ol></li>
                 </ol></li><li>What next? (60 minutes; 11:00 a.m.–12:00 p.m.) </li></ul></section>
     </section>
 </section>

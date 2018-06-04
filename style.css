@@ -284,6 +284,9 @@ span.answer {
 }
 div.answer {
     display: none;
+    font-family: "Andale Mono", "Courier New", monospace;
+    color: #D7301F;
+    font-weight: bold;
 }
 span.buttons {
     display: inline-block;
