@@ -316,7 +316,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT20M">
                 <desc>XPath functions for numbers</desc>
                 <details>
                     <item><code>max()</code>, <code>min()</code>, <code>sum()</code>,
@@ -378,7 +378,10 @@
                             of different types together: acts, scenes, cast list.</answer></item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
                     <item>The <emph>function signature</emph> is the number and type of arguments it
