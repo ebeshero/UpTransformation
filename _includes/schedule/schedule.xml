@@ -646,7 +646,7 @@
                 </details>
             </act>
             <act time="PT40M">
-                <desc> Scavenger Hunt Exercise. Hint: Don’t confuse XPath predicates with path steps.</desc>
+                <desc> Scavenger Hunt 1</desc>
                 <details>
                     <item>Exercise: Work with the Digital Mitford Site Index posted in eXist at
                             <link>/db/mitford/si.xml</link> or the official version at its external
@@ -686,8 +686,8 @@
             <act time="PT30M">
                 <desc>Defining variables: XPath expressions with functions and predicates</desc>
                 <details>
-                    <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
-                        mimicking/extending the previous Scavenger Hunt.</item>
+                    <item><code>FLWOR</code> Scavenger hunt 2: [Write FLWOR statements
+                        mimicking/extending the previous Scavenger Hunt.]</item>
                 </details>
             </act>
             <act time="PT30M">
@@ -747,8 +747,7 @@
             <act time="PT40M">
                 <desc>XSLT overview</desc>
                 <details>
-                    <item>XSLT (eXtensible Stylesheet Language Transformations) is an XML document
-                        with special namespaced elements designed to process XML documents</item>
+                    <item>XSLT (eXtensible Stylesheet Language Transformations) is an XML document with special namespaced elements designed to process XML documents</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</item>
                     <item>A <emph>declarative programming language</emph>. Not written to be
@@ -807,8 +806,14 @@
             <act time="PT45M">
                 <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
+                    <item>Namespaces and where they matter: <q>It’s always a namespace issue.</q>
+                        <examples>
+                            <example><code>xsl:</code>: distinguishes the XSLT elements</example>
+                            <example>Namespaced input: set <code>xpath-default-namespace</code> on the xsl:stylesheet: <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code> </example>
+                            <example>Namespaced output: set  <code>xmlns="http://www.w3.org/1999/xhtml"</code> </example>
+                        </examples>
                     </item>
+                    <item>If processing namespaced XML (like TEI): <code>xpath-default-namespace</code></item>
                 </details>
             </act>
             <act time="PT10M">
