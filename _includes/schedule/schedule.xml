@@ -618,7 +618,7 @@
                 <desc>Break</desc>
             </act>
             <act time="PT35M">
-                <desc>String Functions Intensive Unit: Regex in XPath</desc>
+                <desc>Regex in XPath</desc>
                 <details>
                     <item><code>contains()</code> vs. <code>matches()</code></item>
                     <item><code>translate()</code> vs. <code>replace()</code></item>
@@ -627,7 +627,7 @@
                 </details>
             </act>
             <act time="PT35M">
-                <desc>XPath in XQuery: Introducing Variables</desc>
+                <desc>Introducing variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
                     <item><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
@@ -648,7 +648,6 @@
                 <details>
                     <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
                         mimicking/extending the previous Scavenger Hunt.</item>
-
                 </details>
             </act>
             <act time="PT35M">
@@ -668,7 +667,7 @@
                 <desc>Break</desc>
             </act>
             <act time="PT35M">
-                <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>for</code>
+                <desc><code>FLWOR</code> statements: how <code>for</code>
                     works</desc>
                 <details>
                     <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
@@ -688,7 +687,7 @@
                 <image size="icon"
                     alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                     >flower.jpg</image>
-                <desc>Putting it all together: FLWORs for pulling data</desc>
+                <desc>Putting it all together: FLWOR for pulling data</desc>
                 <details>
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></item>
