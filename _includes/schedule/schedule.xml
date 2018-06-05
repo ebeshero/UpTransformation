@@ -810,27 +810,40 @@
                             </example>
                         </examples>
                     </item>
-                    <item>If processing namespaced XML (like TEI):
-                            <code>xpath-default-namespace</code></item>
+                    <item><code>xsl:output</code> attributes: <code>@method</code>, <code>@indent</code>, <code>@omit-xml-declaration</code>, <code>@doctype-system</code> <examples><example><code>&lt;xsl:output method="xml" indent="no" omit-xml-declaration="yes"/&gt;</code></example>
+                        <example><code>&lt;xsl:output method="xhtml" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/&gt;</code></example>
+                    </examples>
+                    
+                    </item>
                 </details>
             </act>
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT45M">
-                <desc>XSLT template matching and context nodes</desc>
-            </act>
             <act time="PT40M">
-                <desc>Identity transformation</desc>
+                <desc>Identity transformation: making a change to an XML file</desc>
+                <details>
+                    <item>Repair our Pacific Voyage file: <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
+                </details>
             </act>
+            <act time="PT45M">
+                <desc>Preparing to output HTML from XML</desc>
+                <details>
+                    <item>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and <code>&lt;xsl:output&gt;</code></item>
+                    <item>Template matching on the document node to output HTML</item>  
+                    <item>
+                        Structure of an HTML document: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></item>
+                </details>
+            </act>
+           
         </slot>
         <slot time="13:30:00">
-            <title>Pushing and pulling</title>
-            <act time="PT35M">
+            <title>XSLT: XML to HTML transformation</title>
+            <act time="PT45M">
                 <desc><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute</desc>
             </act>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>XSLT push and pull processing</desc>
             </act>
             <act time="PT10M">
