@@ -365,7 +365,7 @@
                         </ol></li>
                     <li>Predicates with operators and functions<ol>
                             <li><code>//sp[speaker eq 'Ophelia']</code></li>
-                            <li>//sp[conatins(speaker, 'Rosencrantz')]</li>
+                            <li><code>//sp[contains(speaker, 'Rosencrantz')]</code></li>
                             <li><code>//lg[@type eq 'couplet']</code></li>
                         </ol></li>
                 </ol></li><li>Odds and ends (15 minutes; 3:10 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
@@ -377,25 +377,17 @@
                             <li>Implicit <code>for</code><ol>
                                     <li><code>/TEI//speaker/contains(., 'ph')</code></li>
                                 </ol></li>
-                            <li>Simple map (<code>!</code>)<ol>
+                            <li>Simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)<ol>
                                     <li><code>/TEI//speaker ! contains(.,
                                         'ph')</code></li>
                                 </ol></li>
                         </ol></li>
-                    <li>Difference between simple map (<code>!</code>) and arrow (<code>=&gt;</code>) <ol>
+                    <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
+                        arrow (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) <ol>
                             <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
                             <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
                         </ol></li>
-                    <li>Concatenating nodes<ol>
-                            <li><code>string-join()</code><ol>
-                                    <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
-                                            ')</code></li>
-                                    <li><code>concat(/TEI//speaker, ', ')</code> Why doesn’t
-                                        this work?</li>
-                                    <li><code>string-join(/TEI//speaker, ', ')</code> Use this
-                                        instead</li>
-                                </ol></li>
-                        </ol></li>
+                    
                 </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
                                  <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
@@ -407,12 +399,15 @@
                             (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
                         function.)
                          <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
-                    <li>Are there speeches that don’t any contain any metrical lines
-                            (<code>&lt;l&gt;</code>)?
-                         <button class="answer">Answer</button> <span class="answer"><code>//sp[not(l)]</code></span></li>
-                    <li>Building on your answer to the last question, what kinds of elements they
-                        contain instead?
-                             <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
+                    <li>How many speeches don’t contain any metrical lines
+                        (<code>&lt;l&gt;</code>)?
+                         <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
+                    <li>Building on your answer to the last question, who are the speakers of
+                        those speeches?
+                             <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
+                    <li>Building on your answer to the last two questions, what kinds of elements
+                        they contain instead?
+                                 <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
                     <li>What is Hamlet’s first speech?  <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
                                 'Hamlet']/l)[1]</code></span></li>
                     <li>What is the last stage direction in the entire document?
@@ -423,9 +418,9 @@
                         does each of those speeches have?  <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt
                                 8]/count(l)</code></span></li>
                     <li>Building on your answers to the preceding two questions, who are the
-                        speakers of speeches that have more than 8 line children (with no repetition
-                        of speaker names!)?  <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
-                                8]/speaker)</code></span></li>
+                        speakers of speeches that have more than 8 line children?
+                                 <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
+                            8]/speaker)</code></span></li>
                     <li>How long is the longest speech?
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//sp/string-length())</code> (or, better:
                                 <code>max(//sp/string-length(normalize-space()))</code>)</span></li>
@@ -480,14 +475,15 @@
                                 eXist</li>
                         </ol>
                     </li>
-                    <li><code>text()</code> (This is not a function, but an actual node. <ol>
-                            <li>In eXist, switch to a new play document (Mary Russell Mitford’s
-                                    <em>Charles the First</em> tragedy) and take a look at its
+                    <li><code>text()</code> (This is not a function, but an actual node.) <ol>
+                            <li>In eXist, switch to a new play document, Mary Russell Mitford’s
+                                    <em>Charles the First</em> tragedy, and take a look at its
                                 stage directions with
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>.
                                 Now, test each of the following expressions and notice the
                                 difference in your results:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>,
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>
+                                vs.
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>.
                                 What is the difference?  <button class="answer">Answer</button> <span class="answer">In <em>mixed content</em> like
                                     this, accessing the <code>text()</code> only retrieves the
@@ -523,21 +519,21 @@
                                     <code>&lt;teiHeader&gt;</code>.</li>
                         </ol>
                     </li>
-                </ol></li><li> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to
-                    review XPath syntax we have learned so far. (35 minutes; 10:05 a.m.–10:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li> Scavenger Hunt Exercise. Hint: Don’t confuse XPath predicates with path
+                    steps. (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Exercise: Work with the Digital Mitford Site Index posted in eXist at
                             <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external
                         location: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a> Can you find the
                         following [5 or 6 things to review what we have been teaching]. </li>
-                </ol></li><li>Break (10 minutes; 10:40 a.m.–10:50 a.m.) </li><li>Regex in XPath (35 minutes; 10:50 a.m.–11:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 10:45 a.m.–10:55 a.m.) </li><li>Regex in XPath (35 minutes; 10:55 a.m.–11:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>contains()</code> vs. <code>matches()</code></li>
                     <li><code>translate()</code> vs. <code>replace()</code></li>
                     <li><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code></li>
-                </ol></li><li>Introducing variables (35 minutes; 11:25 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Introducing variables (30 minutes; 11:30 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
-                    <li><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
-                            <code>Where</code>, <code>Order by</code>, <code>Return</code></li>
+                    <li><code>FLWOR</code> variables: <code>for</code>, <code>let</code>,
+                            <code>where</code>, <code>order by</code>, <code>return</code></li>
                     <li>The simplest <code>FLWOR</code>: <code>let</code> and <code>return</code>
                         <ol>
                             <li>Retrieve whole elements</li>
@@ -545,19 +541,19 @@
                         </ol>
                     </li>
                 </ol></li></ul></section>
-        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (35 minutes; 1:30 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
                         mimicking/extending the previous Scavenger Hunt.</li>
                 </ol></li><li>XPath <code>for</code> loops; sequence and range variables
-                    (&lt;oXygen/&gt;) (35 minutes; 2:05 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    (&lt;oXygen/&gt;) (30 minutes; 2:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in (sequence) return ...</code></li>
                     <li>Practice examples in &lt;oXygen/&gt; <ol>
-                            <li>Use XPath builder window: for each of a set of keyed
-                                attributes, return something associated with each one.</li>
+                            <li>Use XPath builder window: for each of a set of attributes,
+                                return something associated with each one.</li>
                         </ol>
                     </li>
 
-                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (35 minutes; 2:50 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 2:30 p.m.–2:40 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (40 minutes; 2:40 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
                     <li>The <code>$pos</code> variable: <code>for $i at $pos in
                             $YourSequenceVariable</code></li>
@@ -568,7 +564,7 @@
                         returns</li>
                     <li>Which is more efficient in XQuery: a predicate or <code>where</code>?
                     </li>
-                </ol></li><li><html:span xmlns:html="http://www.w3.org/1999/xhtml" class="image">[image]</html:span>Putting it all together: FLWOR for pulling data (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li><html:span xmlns:html="http://www.w3.org/1999/xhtml" class="image">[image]</html:span>Putting it all together: FLWOR for pulling data (40 minutes; 3:20 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></li>
 
