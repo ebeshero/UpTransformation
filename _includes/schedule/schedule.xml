@@ -581,7 +581,7 @@
                         (includes things like schema associations).</item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code> and <code>following::</code><examples>
@@ -614,6 +614,9 @@
                         following [5 or 6 things to review what we have been teaching]. </item>
                 </details>
             </act>
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
             <act time="PT35M">
                 <desc>String Functions Intensive Unit: Regex in XPath</desc>
                 <details>
@@ -640,7 +643,7 @@
         </slot>
         <slot time="13:30:00">
             <title>XQuery flow control</title>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc>Defining variables: XPath expressions with functions and predicates</desc>
                 <details>
                     <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
@@ -661,7 +664,10 @@
 
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT35M">
                 <desc><code>FLWOR</code> statements (XQuery in eXist-db): How <code>for</code>
                     works</desc>
                 <details>
@@ -758,14 +764,17 @@
                         the <code>@match</code> on <code>xsl:template</code>. </item>
                 </details>
             </act>
-            <act time="PT50M">
+            <act time="PT45M">
                 <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
                     </item>
                 </details>
             </act>
-            <act time="PT50M">
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT45M">
                 <desc>XSLT template matching and context nodes</desc>
             </act>
             <act time="PT40M">
@@ -774,12 +783,15 @@
         </slot>
         <slot time="13:30:00">
             <title>Pushing and pulling</title>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute</desc>
             </act>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc>XSLT push and pull processing</desc>
+            </act>
+            <act time="PT10M">
+                <desc>Break</desc>
             </act>
             <act time="PT35M">
                 <desc>When to use <code>&lt;xsl:value-of&gt;</code></desc>
@@ -796,8 +808,14 @@
             <act time="PT1H">
                 <desc>Schematron overview</desc>
             </act>
-            <act time="PT1H">
-                <desc>XPath functions practice</desc>
+            <act time="PT25M">
+                <desc>XPath functions practice, part 1</desc>
+            </act>
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT25M">
+                <desc>XPath functions practice, part 2</desc>
             </act>
             <act time="PT1H">
                 <desc>Grouping; looping over distinct values, mapping back to the tree</desc>
@@ -805,8 +823,16 @@
         </slot>
         <slot time="13:30:00">
             <title>Writing Schematron with XPath function</title>
-            <act time="PT2H30M">
-                <desc>Lab session (sample materials provided, or work with your own data)</desc>
+            <act time="PT1H10M">
+                <desc>Lab session (sample materials provided, or work with your own data), part
+                    1</desc>
+            </act>
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT1H10M">
+                <desc>Lab session (sample materials provided, or work with your own data), part
+                    2</desc>
             </act>
         </slot>
     </day>
@@ -814,7 +840,7 @@
         <title>Taking stock</title>
         <slot time="09:00:00">
             <title>Review of XPath applications</title>
-            <act time="PT1H30M">
+            <act time="PT1H25M">
                 <desc>Building our syllabus</desc>
                 <details>
                     <item>Our schedule in XML:
@@ -880,7 +906,10 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT1H30M">
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT1H25M">
                 <desc>What next?</desc>
             </act>
         </slot>
