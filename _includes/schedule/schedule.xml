@@ -596,14 +596,14 @@
                                 eXist</example>
                         </examples>
                     </item>
-                    <item><code>text()</code> (This is not a function, but an actual node. <examples>
-                            <example>In eXist, switch to a new play document (Mary Russell Mitford’s
-                                    <emph>Charles the First</emph> tragedy) and take a look at its
+                    <item><code>text()</code> (This is not a function, but an actual node.) <examples>
+                            <example>In eXist, switch to a new play document, Mary Russell Mitford’s
+                                    <emph>Charles the First</emph> tragedy, and take a look at its
                                 stage directions with
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>.
                                 Now, test each of the following expressions and notice the
                                 difference in your results:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>,
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code> vs.
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>.
                                 What is the difference? <answer>In <emph>mixed content</emph> like
                                     this, accessing the <code>text()</code> only retrieves the
@@ -645,9 +645,8 @@
                     </item>
                 </details>
             </act>
-            <act time="PT35M">
-                <desc> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to
-                    review XPath syntax we have learned so far.</desc>
+            <act time="PT40M">
+                <desc> Scavenger Hunt Exercise. Hint: Don’t confuse XPath predicates with path steps.</desc>
                 <details>
                     <item>Exercise: Work with the Digital Mitford Site Index posted in eXist at
                             <link>/db/mitford/si.xml</link> or the official version at its external
@@ -667,12 +666,12 @@
                             <code>tokenize()</code></item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT30M">
                 <desc>Introducing variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
-                    <item><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
-                            <code>Where</code>, <code>Order by</code>, <code>Return</code></item>
+                    <item><code>FLWOR</code> variables: <code>for</code>, <code>let</code>,
+                            <code>where</code>, <code>order by</code>, <code>return</code></item>
                     <item>The simplest <code>FLWOR</code>: <code>let</code> and <code>return</code>
                         <examples>
                             <example>Retrieve whole elements</example>
@@ -684,21 +683,20 @@
         </slot>
         <slot time="13:30:00">
             <title>XQuery flow control</title>
-            <act time="PT35M">
+            <act time="PT30M">
                 <desc>Defining variables: XPath expressions with functions and predicates</desc>
                 <details>
                     <item><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
                         mimicking/extending the previous Scavenger Hunt.</item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT30M">
                 <desc>XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
                     <item><code>for $i in (sequence) return ...</code></item>
                     <item>Practice examples in &lt;oXygen/&gt; <examples>
-                            <example>Use XPath builder window: for each of a set of keyed
-                                attributes, return something associated with each one.</example>
+                            <example>Use XPath builder window: for each of a set of attributes, return something associated with each one.</example>
                         </examples>
                     </item>
 
@@ -707,8 +705,11 @@
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT35M">
-                <desc><code>FLWOR</code> statements: how <code>for</code> works</desc>
+
+            <act time="PT40M">
+                <desc><code>FLWOR</code> statements: how <code>for</code>
+                    works</desc>
+
                 <details>
                     <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
                     <item>The <code>$pos</code> variable: <code>for $i at $pos in
@@ -723,7 +724,7 @@
                 </details>
 
             </act>
-            <act time="PT35M">
+            <act time="PT40M">
                 <image size="icon"
                     alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                     >flower.jpg</image>
