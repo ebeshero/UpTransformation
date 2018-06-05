@@ -342,10 +342,7 @@
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq 3]</code></li>
                             <li>Numerical predicates count away from the context node<ol>
-                                    <li><code>//sp/preceding-sibling::stage[1]</code> matches
-                                        the first <code>&lt;stage&gt;</code> element before (but on
-                                        the same hierarchical level as) each
-                                        <code>&lt;sp&gt;</code></li>
+                                    
                                     <li><code>//sp/ancestor[1]</code> is equivalent to
                                             <code>//sp/..</code></li>
                                 </ol></li>
@@ -354,8 +351,10 @@
                             <li><code>//stage[parent::div]</code> is equivalent to
                                     <code>//div/stage</code></li>
                         </ol></li>
-                    <li>Predicates with functions<ol>
+                    <li>Predicates with operators and functions<ol>
                             <li><code>//sp[speaker eq 'Ophelia']</code></li>
+                            <li>//sp[conatins(speaker, 'Rosencrantz')]</li>
+                            <li><code>//lg[@type eq 'couplet']</code></li>
                         </ol></li>
                 </ol></li><li>Odds and ends (15 minutes; 3:10 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Three ways to apply a function to a sequence<ol>

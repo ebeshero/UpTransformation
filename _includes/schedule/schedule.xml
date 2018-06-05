@@ -448,10 +448,10 @@
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
                                 element (same as <code>//body/div[position() eq 3]</code></example>
                             <example>Numerical predicates count away from the context node<examples>
-                                    <example><code>//sp/preceding-sibling::stage[1]</code> matches
+                                    <!--<example><code>//sp/preceding-sibling::stage[1]</code> matches
                                         the first <code>&lt;stage&gt;</code> element before (but on
                                         the same hierarchical level as) each
-                                        <code>&lt;sp&gt;</code></example>
+                                        <code>&lt;sp&gt;</code></example>-->
                                     <example><code>//sp/ancestor[1]</code> is equivalent to
                                             <code>//sp/..</code></example>
                                 </examples></example>
@@ -460,8 +460,10 @@
                             <example><code>//stage[parent::div]</code> is equivalent to
                                     <code>//div/stage</code></example>
                         </examples></item>
-                    <item>Predicates with functions<examples>
+                    <item>Predicates with operators and functions<examples>
                             <example><code>//sp[speaker eq 'Ophelia']</code></example>
+                            <example>//sp[conatins(speaker, 'Rosencrantz')]</example>
+                            <example><code>//lg[@type eq 'couplet']</code></example>
                         </examples></item>
                 </details>
             </act>
