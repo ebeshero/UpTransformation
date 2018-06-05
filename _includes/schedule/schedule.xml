@@ -4,9 +4,9 @@
 <schedule>
     <day d="Monday, June 11">
         <title>XPath</title>
-        <slot time="10:00:00">
+        <slot time="10:15:00">
             <title>Introduction to XPath in eXist-db and &lt;oXygen/&gt;</title>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>Getting started with XPath and eXide</desc>
                 <details>
                     <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> (or
@@ -54,7 +54,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>Simple XPath expressions</desc>
                 <details>
                     <item>Review: strings and numbers (atomic values) are XPath expressions <examples>
@@ -260,7 +260,7 @@
                 </details>
             </act>
         </slot>
-        <slot time="13:15:00">
+        <slot time="13:30:00">
             <title>Exploring document structures and data with XPath</title>
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
@@ -393,7 +393,7 @@
                             <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT20M">
                 <desc>XPath predicates</desc>
                 <details>
                     <item><emph>Predicates</emph>, in square brackets after a path step,
@@ -502,7 +502,7 @@
     </day>
     <day d="Tuesday, June 12">
         <title>XPath and XQuery</title>
-        <slot time="09:30:00">
+        <slot time="09:00:00">
             <title>XPath and XQuery in eXist-db</title>
             <act time="PT10M">
                 <desc>Housekeeping: documents, collections, and namespaces</desc>
@@ -578,7 +578,7 @@
                         (includes things like schema associations).</item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT35M">
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code> and <code>following::</code><examples>
@@ -601,7 +601,7 @@
                     </item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT35M">
                 <desc> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to
                     review XPath syntax we have learned so far.</desc>
                 <details>
@@ -611,7 +611,7 @@
                         following [5 or 6 things to review what we have been teaching]. </item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT35M">
                 <desc>String Functions Intensive Unit: Regex in XPath</desc>
                 <details>
                     <item><code>contains()</code> vs. <code>matches()</code></item>
@@ -620,7 +620,7 @@
                             <code>tokenize()</code></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT35M">
                 <desc>XPath in XQuery: Introducing Variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
@@ -635,7 +635,7 @@
                 </details>
             </act>
         </slot>
-        <slot time="13:15:00">
+        <slot time="13:30:00">
             <title>XQuery flow control</title>
             <act time="PT40M">
                 <desc>Defining variables: XPath expressions with functions and predicates</desc>
@@ -645,7 +645,7 @@
 
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc>XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
@@ -693,7 +693,7 @@
     </day>
     <day d="Wednesday, June 13">
         <title>XPath and XSLT</title>
-        <slot time="09:30:00">
+        <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
             <act time="PT40M">
                 <desc>XSLT overview</desc>
@@ -755,21 +755,21 @@
                         the <code>@match</code> on <code>xsl:template</code>. </item>
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT50M">
                 <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
                     </item>
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT50M">
                 <desc>XSLT template matching and context nodes</desc>
             </act>
-            <act time="PT30M">
+            <act time="PT40M">
                 <desc>Identity transformation</desc>
             </act>
         </slot>
-        <slot time="13:15:00">
+        <slot time="13:30:00">
             <title>Pushing and pulling</title>
             <act time="PT40M">
                 <desc><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
@@ -778,7 +778,7 @@
             <act time="PT40M">
                 <desc>XSLT push and pull processing</desc>
             </act>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc>When to use <code>&lt;xsl:value-of&gt;</code></desc>
             </act>
             <act time="PT35M">
@@ -788,28 +788,28 @@
     </day>
     <day d="Thursday, June 14">
         <title>XPath and Schematron</title>
-        <slot time="09:30:00">
+        <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
             <act time="PT1H">
                 <desc>Schematron overview</desc>
             </act>
-            <act time="PT30M">
+            <act time="PT1H">
                 <desc>XPath functions practice</desc>
             </act>
             <act time="PT1H">
                 <desc>Grouping; looping over distinct values, mapping back to the tree</desc>
             </act>
         </slot>
-        <slot time="13:15:00">
+        <slot time="13:30:00">
             <title>Writing Schematron with XPath function</title>
-            <act time="PT2H35M">
+            <act time="PT2H30M">
                 <desc>Lab session (sample materials provided, or work with your own data)</desc>
             </act>
         </slot>
     </day>
     <day d="Friday, June 15">
         <title>Taking stock</title>
-        <slot time="09:30:00">
+        <slot time="09:00:00">
             <title>Review of XPath applications</title>
             <act time="PT1H30M">
                 <desc>Building our syllabus</desc>
@@ -877,7 +877,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT1H">
+            <act time="PT1H30M">
                 <desc>What next?</desc>
             </act>
         </slot>
