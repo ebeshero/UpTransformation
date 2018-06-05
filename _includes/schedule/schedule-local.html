@@ -223,20 +223,20 @@
                         </span></li>
                 </ol></li></ul></section>
         <section><h3>Exploring document structures and data with XPath (1:30 p.m.–4:00 p.m.)</h3><ul><li>XPath functions for strings (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>concat()</code>
+                    <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
                         <ol>
                             <li>
                                 <code>concat('Curly','Larry','Moe')</code></li>
                             <li><code>concat('Curly is #', 1)</code></li>
-                            <li>Or use the <em>concatenation operator</em>: <code>'Curly is
-                                    #' || 1</code></li>
+                            <li>Or use the <em>concatenation operator</em><a href="https://www.w3.org/TR/xpath-31/#id-string-concat-expr"><sup>⬀</sup></a>: <code>'Curly is #' ||
+                                1</code></li>
                             <li>What’s wrong with <code>concat(//speaker)</code>?  <button class="answer">Answer</button> <span class="answer">The
                                     arguments to <code>concat()</code> must be two or more
                                     individual atomic (or atomizable) items, and
                                         <code>//speaker</code> is a sequence.</span></li>
                         </ol>
                     </li>
-                    <li><code>string-join()</code><ol>
+                    <li><code>string-join()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-join"><sup>⬀</sup></a><ol>
                             <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                 ')</code></li>
                             <li><code>string-join(//speaker, ', ')</code></li>
@@ -246,47 +246,52 @@
                                     arguments to <code>concat()</code> must be atomic or
                                     atomizable.</span></li>
                         </ol></li>
-                    <li><code>string-length()</code><ol>
+                    <li><code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a><ol>
                             <li><code>string-length('Curly, Larry, and Moe')</code></li>
                         </ol></li>
-                    <li><code>lower-case()</code>, <code>upper-case()</code>
+                    <li><code>lower-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-lower-case"><sup>⬀</sup></a>, <code>upper-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a>
                         <ol>
                             <li><code>lower-case('Curly, Larry, and Moe')</code></li>
                         </ol></li>
-                    <li><code>normalize-space()</code><ol>
+                    <li><code>normalize-space()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-normalize-space"><sup>⬀</sup></a><ol>
                             <li><code>normalize-space(' Curly, Larry, Moe ')</code></li>
                         </ol></li>
-                    <li><code>substring-before()</code>, <code>substring-after()</code><ol>
+                    <li><code>substring-before()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-before"><sup>⬀</sup></a>, <code>substring-after()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-after"><sup>⬀</sup></a><ol>
                             <li><code>substring-before('Larry', 'r')</code> What if there’s
                                 more than one?</li>
                             <li><code>substring-after('Larry', 'r')</code> What if there’s more
                                 than one?</li>
                         </ol></li>
-                    <li><code>substring()</code><ol>
+                    <li><code>substring()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring"><sup>⬀</sup></a><ol>
                             <li><code>substring('Curly', 1, 2)</code> XPath starts counting
                                 with 1 (not 0).</li>
                         </ol></li>
-                    <li><code>contains()</code> Foreshadowing: This returns a Boolean
+                    <li><code>contains()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains"><sup>⬀</sup></a> Foreshadowing: This returns a Boolean
                             (<code>True</code> or <code>False</code>) value. How might this be useful?<ol>
                             <li><code>contains('Ophelia', 'ph')</code></li>
                             <li><code>//speaker/contains(., 'ph')</code> (the dot refers to the
                                 current context item)</li>
                         </ol></li>
+                    <li><code>starts-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"><sup>⬀</sup></a>, <code>ends-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"><sup>⬀</sup></a><ol>
+                            <li><code>starts-with('Ophelia', 'Op')</code></li>
+                        </ol></li>
                 </ol></li><li>XPath functions for numbers (20 minutes; 1:55 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>max()</code>, <code>min()</code>, <code>sum()</code>,
-                            <code>avg()</code><ol>
+                    <li><code>max()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>, <code>min()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-min"><sup>⬀</sup></a>,
+                            <code>sum()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sum"><sup>⬀</sup></a>, <code>avg()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-avg"><sup>⬀</sup></a><ol>
                             <li><code>max((1, 2, 3))</code>, etc.</li>
                             <li>What happens when these are applied to strings? To a sequence
                                 that mixes strings and numbers?</li>
                         </ol></li>
-                    <li><code>ceiling()</code>, <code>floor()</code>
+                    <li><code>ceiling()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"><sup>⬀</sup></a>, <code>floor()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-floor"><sup>⬀</sup></a>
                         <ol>
                             <li><code>ceiling(3.141592653)</code></li>
                         </ol></li>
-                    <li><code>round()</code><ol>
+                    <li><code>round()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-round"><sup>⬀</sup></a><ol>
                             <li><code>round(3.141592653, 4)</code></li>
                         </ol></li>
-                    <li><code>format-number()</code><ol>
+                    <li><code>format-integer()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-integer"><sup>⬀</sup></a>, <code>format-number()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-number"><sup>⬀</sup></a><ol>
+                            <li><code>format-integer(154,'w')</code></li>
+                            <li><code>format-integer(154,'I')</code></li>
                             <li><code>format-number(1, '#.000')</code></li>
                             <li><code>format-number(1, '#.###')</code></li>
                         </ol></li>
@@ -296,11 +301,11 @@
                     <li>Find the length of longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
                 </ol></li><li>XPath functions for sequences (15 minutes; 2:15 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>distinct-values()</code>
+                    <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
                         </ol></li>
-                    <li><code>count()</code><ol>
+                    <li><code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a><ol>
                             <li><code>count(('Curly', 'Larry', 'Moe',
                                 'Curly'))</code></li>
                             <li><code>count(distinct-values(('Curly', 'Larry', 'Moe',
@@ -308,7 +313,7 @@
                             <li><code>distinct-values(count(('Curly', 'Larry', 'Moe',
                                     'Curly')))</code></li>
                         </ol></li>
-                    <li><code>sort()</code><ol>
+                    <li><code>sort()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sort"><sup>⬀</sup></a><ol>
                             <li><code>sort(//speaker)</code></li>
                             <li><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></li>
@@ -326,7 +331,7 @@
                     <li>What does <code>count(//div)</code> tell you about <em>Hamlet</em>,
                         and why is it unhelpful?  <button class="answer">Answer</button> <span class="answer">It counts <code>&lt;div&gt;</code> elements
                             of different types together: acts, scenes, cast list.</span></li>
-                </ol></li><li>Break (10 minutes; 2:30 p.m.–2:40 p.m.) </li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 2:40 p.m.–2:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 2:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The <em>function signature</em> is the number and type of arguments it
                         accepts or requires</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
@@ -335,9 +340,10 @@
                     <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</li>
                     <li>The error message is your friend. Read it.</li>
-                    <li>Mozilla Development Network (MDN):
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a></li>
-                </ol></li><li>XPath predicates (20 minutes; 2:50 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Resources and references:
+                            <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
+                    
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>XPath predicates (20 minutes; 2:50 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>
@@ -552,8 +558,7 @@
                         </ol>
                     </li>
 
-                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code>
-                    works (35 minutes; 2:50 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (35 minutes; 2:50 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
                     <li>The <code>$pos</code> variable: <code>for $i at $pos in
                             $YourSequenceVariable</code></li>
