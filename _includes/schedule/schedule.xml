@@ -462,7 +462,7 @@
                         </examples></item>
                     <item>Predicates with operators and functions<examples>
                             <example><code>//sp[speaker eq 'Ophelia']</code></example>
-                            <example>//sp[conatins(speaker, 'Rosencrantz')]</example>
+                            <example><code>//sp[contains(speaker, 'Rosencrantz')]</code></example>
                             <example><code>//lg[@type eq 'couplet']</code></example>
                         </examples></item>
                 </details>
@@ -478,16 +478,20 @@
                             <example>Implicit <code>for</code><examples>
                                     <example><code>/TEI//speaker/contains(., 'ph')</code></example>
                                 </examples></example>
-                            <example>Simple map (<code>!</code>)<!-- add URL --><examples>
+                            <example>Simple map (<code
+                                    url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>)<examples>
                                     <example><code>/TEI//speaker ! contains(.,
                                         'ph')</code></example>
                                 </examples></example>
                         </examples></item>
-                    <item>Difference between simple map (<code>!</code>) and arrow (<code>=></code>) <examples>
+                    <item>Difference between simple map (<code
+                            url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>) and
+                        arrow (<code url="https://www.w3.org/TR/xpath-31/#id-arrow-operator"
+                            >=></code>) <examples>
                             <example><code>('Curly', 'Larry', 'Moe') => count()</code></example>
                             <example><code>('Curly', 'Larry', 'Moe') ! count(.)</code></example>
                         </examples></item>
-                    <item>Concatenating nodes<examples>
+                    <!--<item>Concatenating nodes<examples>
                             <example><code>string-join()</code><examples>
                                     <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                             ')</code></example>
@@ -496,7 +500,7 @@
                                     <example><code>string-join(/TEI//speaker, ', ')</code> Use this
                                         instead</example>
                                 </examples></example>
-                        </examples></item>
+                        </examples></item>-->
                 </details>
             </act>
             <act time="PT35M">
@@ -513,12 +517,15 @@
                             url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
                         function.)
                         <answer><code>distinct-values(//stage/../name())</code></answer></item>
-                    <item>Are there speeches that don’t any contain any metrical lines
-                            (<code>&lt;l&gt;</code>)?
-                        <answer><code>//sp[not(l)]</code></answer></item>
-                    <item>Building on your answer to the last question, what kinds of elements they
-                        contain instead?
-                            <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
+                    <item>How many speeches don’t contain any metrical lines
+                        (<code>&lt;l&gt;</code>)?
+                        <answer><code>count(//sp[not(l)])</code></answer></item>
+                    <item>Building on your answer to the last question, who are the speakers of
+                        those speeches?
+                            <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
+                    <item>Building on your answer to the last two questions, what kinds of elements
+                        they contain instead?
+                                <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
                     <item>What is Hamlet’s first speech? <answer><code>(//sp[speaker eq
                                 'Hamlet']/l)[1]</code></answer></item>
                     <item>What is the last stage direction in the entire document?
@@ -529,9 +536,9 @@
                         does each of those speeches have? <answer><code>//sp[count(l) gt
                                 8]/count(l)</code></answer></item>
                     <item>Building on your answers to the preceding two questions, who are the
-                        speakers of speeches that have more than 8 line children (with no repetition
-                        of speaker names!)? <answer><code>distinct-values(//sp[count(l) gt
-                                8]/speaker)</code></answer></item>
+                        speakers of speeches that have more than 8 line children?
+                                <answer><code>distinct-values(//sp[count(l) gt
+                            8]/speaker)</code></answer></item>
                     <item>How long is the longest speech?
                                 <answer><code>max(//sp/string-length())</code> (or, better:
                                 <code>max(//sp/string-length(normalize-space()))</code>)</answer></item>
@@ -603,7 +610,8 @@
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>.
                                 Now, test each of the following expressions and notice the
                                 difference in your results:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code> vs.
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>
+                                vs.
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>.
                                 What is the difference? <answer>In <emph>mixed content</emph> like
                                     this, accessing the <code>text()</code> only retrieves the
@@ -696,7 +704,8 @@
                 <details>
                     <item><code>for $i in (sequence) return ...</code></item>
                     <item>Practice examples in &lt;oXygen/&gt; <examples>
-                            <example>Use XPath builder window: for each of a set of attributes, return something associated with each one.</example>
+                            <example>Use XPath builder window: for each of a set of attributes,
+                                return something associated with each one.</example>
                         </examples>
                     </item>
 
@@ -707,8 +716,7 @@
             </act>
 
             <act time="PT40M">
-                <desc><code>FLWOR</code> statements: how <code>for</code>
-                    works</desc>
+                <desc><code>FLWOR</code> statements: how <code>for</code> works</desc>
 
                 <details>
                     <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
