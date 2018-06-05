@@ -14,7 +14,7 @@
                 all</button></p>
     <section>
         <h2>Monday, June 11: XPath</h2>
-        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:00 a.m.–12:00 p.m.)</h3><ul><li>Getting started with XPath and eXide (20 minutes; 10:00 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:15 a.m.–12:00 p.m.)</h3><ul><li>Getting started with XPath and eXide (15 minutes; 10:15 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a> (or
                         eXide within eXist-db on your own laptop, if you’ve installed it), click
                         “New XQuery”, and erase all content in the editing window. You’ll type your
@@ -52,7 +52,7 @@
                                     4))</code>, and hit Eval. What result do you expect? What do you
                                 get?</li>
                         </ol></li>
-                </ol></li><li>Simple XPath expressions (35 minutes; 10:20 a.m.–10:55 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Simple XPath expressions (25 minutes; 10:30 a.m.–10:55 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Review: strings and numbers (atomic values) are XPath expressions <ol>
                             <li><code>"Hi, Mom!"</code> (Strings are enclosed in single or
                                 double quotation marks—straight, not curly)</li>
@@ -222,7 +222,7 @@
                             <code>//stage/parent::div</code>
                         </span></li>
                 </ol></li></ul></section>
-        <section><h3>Exploring document structures and data with XPath (1:15 p.m.–3:50 p.m.)</h3><ul><li>XPath functions for strings (25 minutes; 1:15 p.m.–1:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Exploring document structures and data with XPath (1:30 p.m.–4:00 p.m.)</h3><ul><li>XPath functions for strings (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>concat()</code>
                         <ol>
                             <li>
@@ -272,7 +272,7 @@
                             <li><code>//speaker/contains(., 'ph')</code> (the dot refers to the
                                 current context item)</li>
                         </ol></li>
-                </ol></li><li>XPath functions for numbers (25 minutes; 1:40 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for numbers (25 minutes; 1:55 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>max()</code>, <code>min()</code>, <code>sum()</code>,
                             <code>avg()</code><ol>
                             <li><code>max((1, 2, 3))</code>, etc.</li>
@@ -295,7 +295,7 @@
                                 <code>string-length(//speaker)</code> work?)</span></li>
                     <li>Find the length of longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
-                </ol></li><li>XPath functions for sequences (15 minutes; 2:05 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for sequences (15 minutes; 2:20 p.m.–2:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>distinct-values()</code>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
@@ -326,7 +326,7 @@
                     <li>What does <code>count(//div)</code> tell you about <em>Hamlet</em>,
                         and why is it unhelpful?  <button class="answer">Answer</button> <span class="answer">It counts <code>&lt;div&gt;</code> elements
                             of different types together: acts, scenes, cast list.</span></li>
-                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (15 minutes; 2:20 p.m.–2:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (15 minutes; 2:35 p.m.–2:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The <em>function signature</em> is the number and type of arguments it
                         accepts or requires</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
@@ -337,7 +337,7 @@
                     <li>The error message is your friend. Read it.</li>
                     <li>Mozilla Development Network (MDN):
                             <a href="https://developer.mozilla.org/en-US/docs/Web/XPath">https://developer.mozilla.org/en-US/docs/Web/XPath</a></li>
-                </ol></li><li>XPath predicates (25 minutes; 2:35 p.m.–3:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath predicates (20 minutes; 2:50 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>
@@ -363,7 +363,7 @@
                     <li>Predicates with functions<ol>
                             <li><code>//sp[speaker eq 'Ophelia']</code></li>
                         </ol></li>
-                </ol></li><li>Odds and ends (15 minutes; 3:00 p.m.–3:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Odds and ends (15 minutes; 3:10 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Three ways to apply a function to a sequence<ol>
                             <li>Explicit <code>for</code><ol>
                                     <li><code>for $speaker in /TEI//speaker return
@@ -391,7 +391,7 @@
                                         instead</li>
                                 </ol></li>
                         </ol></li>
-                </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:15 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
                                  <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
                         'Ophelia'])</code></span></li>
@@ -433,7 +433,7 @@
     </section>
     <section>
         <h2>Tuesday, June 12: XPath and XQuery</h2>
-        <section><h3>XPath and XQuery in eXist-db (9:30 a.m.–12:00 p.m.)</h3><ul><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:30 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ul><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</li>
                     <li>Access a document with the XPath <code>doc()</code> function, with its
@@ -463,7 +463,7 @@
                             </li>
                         </ol></li>
                 </ol></li><li>The seven types of nodes (and the most important ones for us to access with
-                    XPath) (30 minutes; 9:40 a.m.–10:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    XPath) (30 minutes; 9:10 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>document()</code> (This node contains the root element, but sits
                         above it).</li>
 
@@ -499,7 +499,7 @@
                             --&gt;</code>); 6) <code>namespace()</code> (to access multiple
                         namespaces in an XML document); 7) <code>processing-instruction()</code>
                         (includes things like schema associations).</li>
-                </ol></li><li>Neglected XPath axes (20 minutes; 10:10 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Neglected XPath axes (35 minutes; 9:40 a.m.–10:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>preceding::</code> and <code>following::</code><ol>
                             <li>Find all the stage directions (marked in
                                     <code>&lt;stage&gt;</code> elements) that immediately precede
@@ -519,17 +519,17 @@
                         </ol>
                     </li>
                 </ol></li><li> Don’t confuse XPath predicates with path steps. Scavenger Hunt Exercise to
-                    review XPath syntax we have learned so far. (30 minutes; 10:30 a.m.–11:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    review XPath syntax we have learned so far. (35 minutes; 10:15 a.m.–10:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Exercise: Work with the Digital Mitford Site Index posted in eXist at
                             <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external
                         location: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a> Can you find the
                         following [5 or 6 things to review what we have been teaching]. </li>
-                </ol></li><li>String Functions Intensive Unit: Regex in XPath (30 minutes; 11:00 a.m.–11:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>String Functions Intensive Unit: Regex in XPath (35 minutes; 10:50 a.m.–11:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>contains()</code> vs. <code>matches()</code></li>
                     <li><code>translate()</code> vs. <code>replace()</code></li>
                     <li><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code></li>
-                </ol></li><li>XPath in XQuery: Introducing Variables (30 minutes; 11:30 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath in XQuery: Introducing Variables (35 minutes; 11:25 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
                     <li><code>FLWOR</code> variables: <code>For</code>, <code>Let</code>,
                             <code>Where</code>, <code>Order by</code>, <code>Return</code></li>
@@ -540,12 +540,12 @@
                         </ol>
                     </li>
                 </ol></li></ul></section>
-        <section><h3>XQuery flow control (1:15 p.m.–3:50 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (40 minutes; 1:15 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (40 minutes; 1:30 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
                         mimicking/extending the previous Scavenger Hunt.</li>
 
                 </ol></li><li>XPath <code>for</code> loops; sequence and range variables
-                    (&lt;oXygen/&gt;) (40 minutes; 1:55 p.m.–2:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    (&lt;oXygen/&gt;) (35 minutes; 2:10 p.m.–2:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in (sequence) return ...</code></li>
                     <li>Practice examples in &lt;oXygen/&gt; <ol>
                             <li>Use XPath builder window: for each of a set of keyed
@@ -554,7 +554,7 @@
                     </li>
 
                 </ol></li><li><code>FLWOR</code> statements (XQuery in eXist-db): How <code>for</code>
-                    works (40 minutes; 2:35 p.m.–3:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    works (40 minutes; 2:45 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
                     <li>The <code>$pos</code> variable: <code>for $i at $pos in
                             $YourSequenceVariable</code></li>
@@ -565,7 +565,7 @@
                         returns</li>
                     <li>Which is more efficient in XQuery: a predicate or <code>where</code>?
                     </li>
-                </ol></li><li><html:span xmlns:html="http://www.w3.org/1999/xhtml" class="image">[image]</html:span>Putting it all together: FLWORs for pulling data (35 minutes; 3:15 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li><html:span xmlns:html="http://www.w3.org/1999/xhtml" class="image">[image]</html:span>Putting it all together: FLWORs for pulling data (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code></li>
 
@@ -575,7 +575,7 @@
     </section>
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
-        <section><h3>Introduction to XPath in XSLT (9:30 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview (40 minutes; 9:30 a.m.–10:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview (40 minutes; 9:00 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>XSLT (eXtensible Stylesheet Language Transformations) is an XML document
                         with special namespaced elements designed to process XML documents</li>
                     <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
@@ -631,21 +631,21 @@
                     <li>The XPath expression in <code>@select</code> is <em>literal</em> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </li>
-                </ol></li><li>Preparing to write XSLT in &lt;oXygen/&gt; (40 minutes; 10:10 a.m.–10:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Preparing to write XSLT in &lt;oXygen/&gt; (50 minutes; 9:40 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
                     </li>
-                </ol></li><li>XSLT template matching and context nodes (40 minutes; 10:50 a.m.–11:30 a.m.) </li><li>Identity transformation (30 minutes; 11:30 a.m.–12:00 p.m.) </li></ul></section>
-        <section><h3>Pushing and pulling (1:15 p.m.–3:50 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
-                    attribute (40 minutes; 1:15 p.m.–1:55 p.m.) </li><li>XSLT push and pull processing (40 minutes; 1:55 p.m.–2:35 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (40 minutes; 2:35 p.m.–3:15 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:15 p.m.–3:50 p.m.) </li></ul></section>
+                </ol></li><li>XSLT template matching and context nodes (50 minutes; 10:30 a.m.–11:20 a.m.) </li><li>Identity transformation (40 minutes; 11:20 a.m.–12:00 p.m.) </li></ul></section>
+        <section><h3>Pushing and pulling (1:30 p.m.–4:00 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
+                    attribute (40 minutes; 1:30 p.m.–2:10 p.m.) </li><li>XSLT push and pull processing (40 minutes; 2:10 p.m.–2:50 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (35 minutes; 2:50 p.m.–3:25 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:25 p.m.–4:00 p.m.) </li></ul></section>
     </section>
     <section>
         <h2>Thursday, June 14: XPath and Schematron</h2>
-        <section><h3>Using Schematron to constrain your markup (9:30 a.m.–12:00 p.m.)</h3><ul><li>Schematron overview (60 minutes; 9:30 a.m.–10:30 a.m.) </li><li>XPath functions practice (30 minutes; 10:30 a.m.–11:00 a.m.) </li><li>Grouping; looping over distinct values, mapping back to the tree (60 minutes; 11:00 a.m.–12:00 p.m.) </li></ul></section>
-        <section><h3>Writing Schematron with XPath function (1:15 p.m.–3:50 p.m.)</h3><ul><li>Lab session (sample materials provided, or work with your own data) (155 minutes; 1:15 p.m.–3:50 p.m.) </li></ul></section>
+        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ul><li>Schematron overview (60 minutes; 9:00 a.m.–10:00 a.m.) </li><li>XPath functions practice (60 minutes; 10:00 a.m.–11:00 a.m.) </li><li>Grouping; looping over distinct values, mapping back to the tree (60 minutes; 11:00 a.m.–12:00 p.m.) </li></ul></section>
+        <section><h3>Writing Schematron with XPath function (1:30 p.m.–4:00 p.m.)</h3><ul><li>Lab session (sample materials provided, or work with your own data) (150 minutes; 1:30 p.m.–4:00 p.m.) </li></ul></section>
     </section>
     <section>
         <h2>Friday, June 15: Taking stock</h2>
-        <section><h3>Review of XPath applications (9:30 a.m.–12:00 p.m.)</h3><ul><li>Building our syllabus (90 minutes; 9:30 a.m.–11:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Review of XPath applications (9:00 a.m.–12:00 p.m.)</h3><ul><li>Building our syllabus (90 minutes; 9:00 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Our schedule in XML:
                             <a href="https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.xml">https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.xml</a><ol>
                             <li>Divided into 5 days: <code>&lt;day d="Monday, June
@@ -707,7 +707,7 @@
     &lt;xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/&gt;
 &lt;/xsl:function&gt;</div></li>
                         </ol></li>
-                </ol></li><li>What next? (60 minutes; 11:00 a.m.–12:00 p.m.) </li></ul></section>
+                </ol></li><li>What next? (90 minutes; 10:30 a.m.–12:00 p.m.) </li></ul></section>
     </section>
 </section>
     </body>
