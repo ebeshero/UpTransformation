@@ -476,18 +476,19 @@
                             </li>
                         </ol></li>
                     <li><code>self::</code><ol>
-                            <li>Second following sibling of the <code>&lt;head&gt;</code> of
-                                each scene:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></li>
-                            <li>Second following sibling of the <code>&lt;head&gt;</code> of
-                                each scene only if it’s a <code>&lt;stage&gt;</code> element:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
-                            <li>Second following sibling of the <code>&lt;head&gt;</code> of
-                                each scene only if it isn’t a <code>&lt;stage&gt;</code> element:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
+                                    eq 'Queen.']</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
+                                    eq 'Queen.']</code></li>
                         </ol></li>
                     <li><code>ancestor::</code>, <code>ancestor-or-self::</code>,
-                            <code>descendant-or-self::</code>, <code>namespace::</code></li>
+                            <code>descendant-or-self::</code>, <code>namespace::</code><ol>
+                            <li><code>//speaker[. eq 'Queen.']/ancestor::div[@type eq
+                                    'act']/@n</code></li>
+                        </ol></li>
                 </ol></li><li> Scavenger hunt 1 (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
                             <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external
@@ -611,18 +612,26 @@
                             </li>
                         </ol>
                     </li>
-                    <li><code>xsl:output</code> attributes: <code>@method</code>, <code>@indent</code>, <code>@omit-xml-declaration</code>, <code>@doctype-system</code> <ol><li><code>&lt;xsl:output method="xml" indent="no" omit-xml-declaration="yes"/&gt;</code></li>
-                        <li><code>&lt;xsl:output method="xhtml" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/&gt;</code></li>
-                    </ol>
-                    
+                    <li><code>xsl:output</code> attributes: <code>@method</code>,
+                            <code>@indent</code>, <code>@omit-xml-declaration</code>,
+                            <code>@doctype-system</code>
+                        <ol>
+                            <li><code>&lt;xsl:output method="xml" indent="no"
+                                    omit-xml-declaration="yes"/&gt;</code></li>
+                            <li><code>&lt;xsl:output method="xhtml" encoding="utf-8"
+                                    indent="yes" doctype-system="about:legacy-compat"
+                                    omit-xml-declaration="yes"/&gt;</code></li>
+                        </ol>
                     </li>
                 </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>Identity transformation: making a change to an XML file (40 minutes; 10:35 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Repair our Pacific Voyage file: <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
+                    <li>Repair our Pacific Voyage file:
+                            <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
                 </ol></li><li>Preparing to output HTML from XML (45 minutes; 11:15 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and <code>&lt;xsl:output&gt;</code></li>
-                    <li>Template matching on the document node to output HTML</li>  
-                    <li>
-                        Structure of an HTML document: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></li>
+                    <li>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and
+                            <code>&lt;xsl:output&gt;</code></li>
+                    <li>Template matching on the document node to output HTML</li>
+                    <li> Structure of an HTML document: <code>&lt;head&gt;</code> and
+                            <code>&lt;body&gt;</code></li>
                 </ol></li></ul></section>
         <section><h3>XSLT: XML to HTML transformation (1:30 p.m.–4:00 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute (45 minutes; 1:30 p.m.–2:15 p.m.) </li><li>XSLT push and pull processing (25 minutes; 2:15 p.m.–2:40 p.m.) </li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (35 minutes; 2:50 p.m.–3:25 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:25 p.m.–4:00 p.m.) </li></ul></section>

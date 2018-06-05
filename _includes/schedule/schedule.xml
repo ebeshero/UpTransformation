@@ -622,18 +622,19 @@
                             </example>
                         </examples></item>
                     <item><code>self::</code><examples>
-                            <example>Second following sibling of the <code>&lt;head&gt;</code> of
-                                each scene:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></example>
-                            <example>Second following sibling of the <code>&lt;head&gt;</code> of
-                                each scene only if it’s a <code>&lt;stage&gt;</code> element:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></example>
-                            <example>Second following sibling of the <code>&lt;head&gt;</code> of
-                                each scene only if it isn’t a <code>&lt;stage&gt;</code> element:
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
+                                    eq 'Queen.']</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
+                                    eq 'Queen.']</code></example>
                         </examples></item>
                     <item><code>ancestor::</code>, <code>ancestor-or-self::</code>,
-                            <code>descendant-or-self::</code>, <code>namespace::</code></item>
+                            <code>descendant-or-self::</code>, <code>namespace::</code><examples>
+                            <example><code>//speaker[. eq 'Queen.']/ancestor::div[@type eq
+                                    'act']/@n</code></example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT40M">
@@ -810,10 +811,16 @@
                             </example>
                         </examples>
                     </item>
-                    <item><code>xsl:output</code> attributes: <code>@method</code>, <code>@indent</code>, <code>@omit-xml-declaration</code>, <code>@doctype-system</code> <examples><example><code>&lt;xsl:output method="xml" indent="no" omit-xml-declaration="yes"/&gt;</code></example>
-                        <example><code>&lt;xsl:output method="xhtml" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/&gt;</code></example>
-                    </examples>
-                    
+                    <item><code>xsl:output</code> attributes: <code>@method</code>,
+                            <code>@indent</code>, <code>@omit-xml-declaration</code>,
+                            <code>@doctype-system</code>
+                        <examples>
+                            <example><code>&lt;xsl:output method="xml" indent="no"
+                                    omit-xml-declaration="yes"/&gt;</code></example>
+                            <example><code>&lt;xsl:output method="xhtml" encoding="utf-8"
+                                    indent="yes" doctype-system="about:legacy-compat"
+                                    omit-xml-declaration="yes"/&gt;</code></example>
+                        </examples>
                     </item>
                 </details>
             </act>
@@ -823,19 +830,21 @@
             <act time="PT40M">
                 <desc>Identity transformation: making a change to an XML file</desc>
                 <details>
-                    <item>Repair our Pacific Voyage file: <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
+                    <item>Repair our Pacific Voyage file:
+                            <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
                 </details>
             </act>
             <act time="PT45M">
                 <desc>Preparing to output HTML from XML</desc>
                 <details>
-                    <item>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and <code>&lt;xsl:output&gt;</code></item>
-                    <item>Template matching on the document node to output HTML</item>  
-                    <item>
-                        Structure of an HTML document: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></item>
+                    <item>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and
+                            <code>&lt;xsl:output&gt;</code></item>
+                    <item>Template matching on the document node to output HTML</item>
+                    <item> Structure of an HTML document: <code>&lt;head&gt;</code> and
+                            <code>&lt;body&gt;</code></item>
                 </details>
             </act>
-           
+
         </slot>
         <slot time="13:30:00">
             <title>XSLT: XML to HTML transformation</title>
