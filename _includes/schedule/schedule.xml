@@ -652,7 +652,12 @@
             <act time="PT35M">
                 <desc>Regex in XPath</desc>
                 <details>
-                    <item><code>contains()</code> vs. <code>matches()</code></item>
+                    <item><code>contains()</code> vs. <code>matches()</code><examples>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                                    'unrighteousness')]</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
+                                    '[a-z]{15,}','i')]</code></example>
+                        </examples></item>
                     <item><code>translate()</code> vs. <code>replace()</code></item>
                     <item><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code></item>

@@ -507,7 +507,12 @@
                         location: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a> Can you find the
                         following [5 or 6 things to review what we have been teaching]. </li>
                 </ol></li><li>Break (10 minutes; 10:45 a.m.–10:55 a.m.) </li><li>Regex in XPath (35 minutes; 10:55 a.m.–11:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>contains()</code> vs. <code>matches()</code></li>
+                    <li><code>contains()</code> vs. <code>matches()</code><ol>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                                    'unrighteousness')]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
+                                    '[a-z]{15,}','i')]</code></li>
+                        </ol></li>
                     <li><code>translate()</code> vs. <code>replace()</code></li>
                     <li><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code></li>
