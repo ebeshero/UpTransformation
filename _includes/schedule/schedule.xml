@@ -416,9 +416,6 @@
                 </details>
             </act>
             <act time="PT10M">
-                <desc>Break</desc>
-            </act>
-            <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
                     <item>The <emph>function signature</emph> is the number and type of arguments it
@@ -434,6 +431,9 @@
                     <!--<item>Mozilla Development Network (MDN):
                             <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
+            </act>
+            <act time="PT10M">
+                <desc>Break</desc>
             </act>
             <act time="PT20M">
                 <desc>XPath predicates</desc>
