@@ -265,20 +265,24 @@
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
                 <details>
-                    <item><code>concat()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-concat"
+                            >concat()</code>
                         <examples>
                             <example>
                                 <code>concat('Curly','Larry','Moe')</code></example>
                             <example><code>concat('Curly is #', 1)</code></example>
-                            <example>Or use the <emph>concatenation operator</emph>: <code>'Curly is
-                                    #' || 1</code></example>
+                            <example>Or use the <emph
+                                    url="https://www.w3.org/TR/xpath-31/#id-string-concat-expr"
+                                    >concatenation operator</emph>: <code>'Curly is #' ||
+                                1</code></example>
                             <example>What’s wrong with <code>concat(//speaker)</code>? <answer>The
                                     arguments to <code>concat()</code> must be two or more
                                     individual atomic (or atomizable) items, and
                                         <code>//speaker</code> is a sequence.</answer></example>
                         </examples>
                     </item>
-                    <item><code>string-join()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-string-join"
+                            >string-join()</code><examples>
                             <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                 ')</code></example>
                             <example><code>string-join(//speaker, ', ')</code></example>
@@ -288,51 +292,81 @@
                                     arguments to <code>concat()</code> must be atomic or
                                     atomizable.</answer></example>
                         </examples></item>
-                    <item><code>string-length()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-string-length"
+                            >string-length()</code><examples>
                             <example><code>string-length('Curly, Larry, and Moe')</code></example>
                         </examples></item>
-                    <item><code>lower-case()</code>, <code>upper-case()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-lower-case"
+                            >lower-case()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"
+                            >upper-case()</code>
                         <examples>
                             <example><code>lower-case('Curly, Larry, and Moe')</code></example>
                         </examples></item>
-                    <item><code>normalize-space()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-normalize-space"
+                            >normalize-space()</code><examples>
                             <example><code>normalize-space(' Curly, Larry, Moe ')</code></example>
                         </examples></item>
-                    <item><code>substring-before()</code>, <code>substring-after()</code><examples>
+                    <item><code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-substring-before"
+                            >substring-before()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-substring-after"
+                            >substring-after()</code><examples>
                             <example><code>substring-before('Larry', 'r')</code> What if there’s
                                 more than one?</example>
                             <example><code>substring-after('Larry', 'r')</code> What if there’s more
                                 than one?</example>
                         </examples></item>
-                    <item><code>substring()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-substring"
+                            >substring()</code><examples>
                             <example><code>substring('Curly', 1, 2)</code> XPath starts counting
                                 with 1 (not 0).</example>
                         </examples></item>
-                    <item><code>contains()</code> Foreshadowing: This returns a Boolean
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-contains"
+                            >contains()</code> Foreshadowing: This returns a Boolean
                             (<code>True</code> or <code>False</code>) value. How might this be useful?<examples>
                             <example><code>contains('Ophelia', 'ph')</code></example>
                             <example><code>//speaker/contains(., 'ph')</code> (the dot refers to the
                                 current context item)</example>
+                        </examples></item>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"
+                            >starts-with()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"
+                            >ends-with()</code><examples>
+                            <example><code>starts-with('Ophelia', 'Op')</code></example>
                         </examples></item>
                 </details>
             </act>
             <act time="PT20M">
                 <desc>XPath functions for numbers</desc>
                 <details>
-                    <item><code>max()</code>, <code>min()</code>, <code>sum()</code>,
-                            <code>avg()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
+                            >max()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-min">min()</code>,
+                            <code url="https://www.w3.org/TR/xpath-functions-31/#func-sum"
+                            >sum()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-avg">avg()</code><examples>
                             <example><code>max((1, 2, 3))</code>, etc.</example>
                             <example>What happens when these are applied to strings? To a sequence
                                 that mixes strings and numbers?</example>
                         </examples></item>
-                    <item><code>ceiling()</code>, <code>floor()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"
+                            >ceiling()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-floor"
+                            >floor()</code>
                         <examples>
                             <example><code>ceiling(3.141592653)</code></example>
                         </examples></item>
-                    <item><code>round()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-round"
+                            >round()</code><examples>
                             <example><code>round(3.141592653, 4)</code></example>
                         </examples></item>
-                    <item><code>format-number()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-format-integer"
+                            >format-integer()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-format-number"
+                            >format-number()</code><examples>
+                            <example><code>format-integer(154,'w')</code></example>
+                            <example><code>format-integer(154,'I')</code></example>
                             <example><code>format-number(1, '#.000')</code></example>
                             <example><code>format-number(1, '#.###')</code></example>
                         </examples></item>
@@ -667,8 +701,7 @@
                 <desc>Break</desc>
             </act>
             <act time="PT35M">
-                <desc><code>FLWOR</code> statements: how <code>for</code>
-                    works</desc>
+                <desc><code>FLWOR</code> statements: how <code>for</code> works</desc>
                 <details>
                     <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
                     <item>The <code>$pos</code> variable: <code>for $i at $pos in
