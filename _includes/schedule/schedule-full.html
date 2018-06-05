@@ -448,8 +448,8 @@
                     <li><code>document()</code></li>
                     <li><code>element()</code></li>
                     <li><code>attribute()</code><ol>
-                            <li><code>doc('/db/apps/shakesspeare/data/')//tei:sp/@who</code></li>
-                            <li><code>doc('/db/apps/shakesspeare/data/')//tei:sp/@who/string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string"><sup>⬀</sup></a></li>
+                            <li><code>doc('/db/apps/shakespeare/data/')//tei:sp/@who</code></li>
+                            <li><code>doc('/db/apps/shakespeare/data/')//tei:sp/@who/string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string"><sup>⬀</sup></a></li>
                         </ol>
                     </li>
                     <li><code>text()</code> (not a function; not to be confused with
@@ -611,11 +611,21 @@
                             </li>
                         </ol>
                     </li>
-                    <li>If processing namespaced XML (like TEI):
-                            <code>xpath-default-namespace</code></li>
-                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XSLT template matching and context nodes (45 minutes; 10:35 a.m.–11:20 a.m.) </li><li>Identity transformation (40 minutes; 11:20 a.m.–12:00 p.m.) </li></ul></section>
-        <section><h3>Pushing and pulling (1:30 p.m.–4:00 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
-                    attribute (35 minutes; 1:30 p.m.–2:05 p.m.) </li><li>XSLT push and pull processing (35 minutes; 2:05 p.m.–2:40 p.m.) </li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (35 minutes; 2:50 p.m.–3:25 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:25 p.m.–4:00 p.m.) </li></ul></section>
+                    <li><code>xsl:output</code> attributes: <code>@method</code>, <code>@indent</code>, <code>@omit-xml-declaration</code>, <code>@doctype-system</code> <ol><li><code>&lt;xsl:output method="xml" indent="no" omit-xml-declaration="yes"/&gt;</code></li>
+                        <li><code>&lt;xsl:output method="xhtml" encoding="utf-8" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/&gt;</code></li>
+                    </ol>
+                    
+                    </li>
+                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>Identity transformation: making a change to an XML file (40 minutes; 10:35 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Repair our Pacific Voyage file: <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
+                </ol></li><li>Preparing to output HTML from XML (45 minutes; 11:15 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and <code>&lt;xsl:output&gt;</code></li>
+                    <li>Template matching on the document node to output HTML</li>  
+                    <li>
+                        Structure of an HTML document: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></li>
+                </ol></li></ul></section>
+        <section><h3>XSLT: XML to HTML transformation (1:30 p.m.–4:00 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
+                    attribute (45 minutes; 1:30 p.m.–2:15 p.m.) </li><li>XSLT push and pull processing (25 minutes; 2:15 p.m.–2:40 p.m.) </li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (35 minutes; 2:50 p.m.–3:25 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:25 p.m.–4:00 p.m.) </li></ul></section>
     </section>
     <section>
         <h2>Thursday, June 14: XPath and Schematron</h2>

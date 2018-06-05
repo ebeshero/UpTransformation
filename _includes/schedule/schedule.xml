@@ -588,10 +588,10 @@
                     <item><code>document()</code></item>
                     <item><code>element()</code></item>
                     <item><code>attribute()</code><examples>
-                            <example><code>doc('/db/apps/shakesspeare/data/')//tei:sp/@who</code></example>
+                            <example><code>doc('/db/apps/shakespeare/data/')//tei:sp/@who</code></example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-string"
-                                    >doc('/db/apps/shakesspeare/data/')//tei:sp/@who/string()</code></example>
+                                    >doc('/db/apps/shakespeare/data/')//tei:sp/@who/string()</code></example>
                         </examples>
                     </item>
                     <item><code>text()</code> (not a function; not to be confused with
