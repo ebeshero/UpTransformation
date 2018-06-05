@@ -615,24 +615,25 @@
             <act time="PT25M">
                 <desc>Neglected XPath axes</desc>
                 <details>
-                    <item><code>preceding::</code> and <code>following::</code><examples>
-                            <example>Find all the stage directions (marked in
-                                    <code>&lt;stage&gt;</code> elements) that immediately precede
-                                spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in
-                                    <emph>Charles the First</emph>. <answer>There are 34:
-                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage[preceding-sibling::tei:l]</code></answer>
+                    <item><code>preceding::</code>, <code>following::</code><examples>
+                            <example>Find all the stage directions (<code>&lt;stage&gt;</code>) that
+                                precede Act 2, Scene 2 in <emph>Charles the First</emph>
+                                <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></answer>
                             </example>
                         </examples></item>
-                    <item><code>self:: (.)</code> Often used in predicates. <examples>
-                            <example>String functions: <code>matches(., '^[A-Z]')</code></example>
+                    <item><code>self::</code><examples>
+                            <example>Second following sibling of the <code>&lt;head&gt;</code> of
+                                each scene:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></example>
+                            <example>Second following sibling of the <code>&lt;head&gt;</code> of
+                                each scene only if it’s a <code>&lt;stage&gt;</code> element:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></example>
+                            <example>Second following sibling of the <code>&lt;head&gt;</code> of
+                                each scene only if it isn’t a <code>&lt;stage&gt;</code> element:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></example>
                         </examples></item>
-                    <item><code>ancestor::</code>
-                        <examples>
-                            <example>Navigate a TEI document from a node in the
-                                    <code>&lt;text&gt;</code> element to a corresponding node in the
-                                    <code>&lt;teiHeader&gt;</code>.</example>
-                        </examples>
-                    </item>
+                    <item><code>ancestor::</code>, <code>ancestor-or-self::</code>,
+                            <code>descendant-or-self::</code>, <code>namespace::</code></item>
                 </details>
             </act>
             <act time="PT40M">

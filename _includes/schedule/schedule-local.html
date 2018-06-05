@@ -481,24 +481,25 @@
                     <li>Rarely used: <code>comment()</code>, <code>namespace()</code>,
                             <code>processing-instruction()</code></li>
                 </ol></li><li>Neglected XPath axes (25 minutes; 9:40 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>preceding::</code> and <code>following::</code><ol>
-                            <li>Find all the stage directions (marked in
-                                    <code>&lt;stage&gt;</code> elements) that immediately precede
-                                spoken verse lines (marked in <code>&lt;l&gt;</code> elements) in
-                                    <em>Charles the First</em>.  <button class="answer">Answer</button> <span class="answer">There are 34:
-                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage[preceding-sibling::tei:l]</code></span>
+                    <li><code>preceding::</code>, <code>following::</code><ol>
+                            <li>Find all the stage directions (<code>&lt;stage&gt;</code>) that
+                                precede Act 2, Scene 2 in <em>Charles the First</em>
+                                 <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></span>
                             </li>
                         </ol></li>
-                    <li><code>self:: (.)</code> Often used in predicates. <ol>
-                            <li>String functions: <code>matches(., '^[A-Z]')</code></li>
+                    <li><code>self::</code><ol>
+                            <li>Second following sibling of the <code>&lt;head&gt;</code> of
+                                each scene:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></li>
+                            <li>Second following sibling of the <code>&lt;head&gt;</code> of
+                                each scene only if it’s a <code>&lt;stage&gt;</code> element:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
+                            <li>Second following sibling of the <code>&lt;head&gt;</code> of
+                                each scene only if it isn’t a <code>&lt;stage&gt;</code> element:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
                         </ol></li>
-                    <li><code>ancestor::</code>
-                        <ol>
-                            <li>Navigate a TEI document from a node in the
-                                    <code>&lt;text&gt;</code> element to a corresponding node in the
-                                    <code>&lt;teiHeader&gt;</code>.</li>
-                        </ol>
-                    </li>
+                    <li><code>ancestor::</code>, <code>ancestor-or-self::</code>,
+                            <code>descendant-or-self::</code>, <code>namespace::</code></li>
                 </ol></li><li> Scavenger hunt 1 (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
                             <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external
