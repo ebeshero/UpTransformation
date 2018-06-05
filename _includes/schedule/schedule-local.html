@@ -436,70 +436,50 @@
         <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ul><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</li>
-                    <li>Access a document with the XPath <code>doc()</code> function, with its
-                        filepath address in eXist-db as the argument: <ol>
-                            <li>To access <em>Hamlet</em>:
-                                    <code>doc('/db/apps/shakespeare/data/ham.xml')</code></li>
+                    <li>Access a document with the XPath <code>doc()</code> function<ol>
+                            <li><code>doc('/db/apps/shakespeare/data/ham.xml')</code></li>
                         </ol>
                     </li>
-                    <li>Access a collection (a directory containing XML files) with the XPath
-                            <code>collection()</code> function, with its file directory address in
-                        eXist-db as the argument: <ol>
-                            <li>To access the Shakespeare collection:
-                                    <code>collection('/db/apps/shakespeare/data/')</code></li>
+                    <li>Access a collection of documents with the XPath <code>collection()</code> function<ol>
+                            <li><code>collection('/db/apps/shakespeare/data/')</code></li>
                         </ol>
                     </li>
-                    <li>When working with XML in a namespace (like the TEI), declare that
-                        namespace and apply its namespace prefix to any elements you are searching
-                        for in the document. Note: attributes do not take the document namespace. <ol>
+                    <li>When working with XML in a namespace (like the TEI), declare the
+                        namespace, bind it to a prefix, and use the prefix<ol>
                             <li><code>declare namespace
-                                    tei="http://www.tei-c.org/ns/1.0";</code></li>
-                            <li>This retrieves all the TEI <code>&lt;stage&gt;</code> elements
-                                in <em>Hamlet</em>:
-                                    <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code>.</li>
-                            <li>How would you retrieve all of the stage directions in the
-                                entire Shakespeare collection?
+                                    tei="http://www.tei-c.org/ns/1.0";</code> (<code>declare</code>
+                                statements require a final semicolon)</li>
+                            <li><code>&lt;stage&gt;</code> elements in <em>Hamlet</em>:
+                                    <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code></li>
+                            <li>Find all the stage directions in the entire Shakespeare
+                                collection?
                                          <button class="answer">Answer</button> <span class="answer"><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></span>
                             </li>
                         </ol></li>
-                </ol></li><li>The seven types of nodes (and the most important ones for us to access with
-                    XPath) (30 minutes; 9:10 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>document()</code> (This node contains the root element, but sits
-                        above it).</li>
-
-                    <li><code>element()</code> (Review the anatomy of an element.) </li>
-                    <li><code>attribute()</code> (The attribute node has a special relationship to
-                        its element on the <code>parent::</code> axis, but otherwise has no
-                        relationship to other elements on the tree.) <ol>
-                            <li><code>string()</code> function to retrieve the value in
-                                eXist</li>
+                </ol></li><li>The seven types of nodes (30 minutes; 9:10 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>document()</code></li>
+                    <li><code>element()</code></li>
+                    <li><code>attribute()</code><ol>
+                            <li><code>doc('/db/apps/shakesspeare/data/')//tei:sp/@who</code></li>
+                            <li><code>doc('/db/apps/shakesspeare/data/')//tei:sp/@who/string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string"><sup>⬀</sup></a></li>
                         </ol>
                     </li>
-                    <li><code>text()</code> (This is not a function, but an actual node.) <ol>
-                            <li>In eXist, switch to a new play document, Mary Russell Mitford’s
-                                    <em>Charles the First</em> tragedy, and take a look at its
-                                stage directions with
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>.
-                                Now, test each of the following expressions and notice the
-                                difference in your results:
+                    <li><code>text()</code> (not a function; not to be confused with
+                            <code>string()</code>)<ol>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>
+                                (Mary Russell Mitford’s <em>Charles the First</em> tragedy) </li>
+                            <li>What does
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>
+                                return?  <button class="answer">Answer</button> <span class="answer">The string values of the stage directions, that is,
+                                    the stage directions with all markup stripped</span></li>
+                            <li>What does
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>
-                                vs.
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>.
-                                What is the difference?  <button class="answer">Answer</button> <span class="answer">In <em>mixed content</em> like
-                                    this, accessing the <code>text()</code> only retrieves the
-                                    immediate <code>text()</code> node children of the
-                                        <code>&lt;stage&gt;</code> element. But the
-                                        <code>string()</code> function pulls all the
-                                        <code>text()</code> nodes down the <code>descendant::</code>
-                                    axis from <code>&lt;stage&gt;</code>.</span></li>
+                                return?  <button class="answer">Answer</button> <span class="answer">The <code>text()</code> nodes in each stage
+                                    direction</span></li>
                         </ol>
                     </li>
-
-                    <li>Very rarely do we need to access the last three kinds of nodes with XPath:
-                        5) <code>comment()</code> (to access XML comments <code>&lt;!--
-                            --&gt;</code>); 6) <code>namespace()</code> (to access multiple
-                        namespaces in an XML document); 7) <code>processing-instruction()</code>
-                        (includes things like schema associations).</li>
+                    <li>Rarely used: <code>comment()</code>, <code>namespace()</code>,
+                            <code>processing-instruction()</code></li>
                 </ol></li><li>Neglected XPath axes (25 minutes; 9:40 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>preceding::</code> and <code>following::</code><ol>
                             <li>Find all the stage directions (marked in
@@ -519,9 +499,8 @@
                                     <code>&lt;teiHeader&gt;</code>.</li>
                         </ol>
                     </li>
-                </ol></li><li> Scavenger Hunt Exercise. Hint: Don’t confuse XPath predicates with path
-                    steps. (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Exercise: Work with the Digital Mitford Site Index posted in eXist at
+                </ol></li><li> Scavenger hunt 1 (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Work with the Digital Mitford Site Index posted in eXist at
                             <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external
                         location: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a> Can you find the
                         following [5 or 6 things to review what we have been teaching]. </li>
@@ -542,8 +521,8 @@
                     </li>
                 </ol></li></ul></section>
         <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>FLWOR</code> Scavenger Hunt Exercise: Write FLWOR statements
-                        mimicking/extending the previous Scavenger Hunt.</li>
+                    <li><code>FLWOR</code> Scavenger hunt 2: [Write FLWOR statements
+                        mimicking/extending the previous Scavenger Hunt.]</li>
                 </ol></li><li>XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;) (30 minutes; 2:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in (sequence) return ...</code></li>
@@ -631,8 +610,20 @@
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </li>
                 </ol></li><li>Preparing to write XSLT in &lt;oXygen/&gt; (45 minutes; 9:40 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Namespaces and why they matter: <q>It’s always a namespace issue.</q>
+                    <li>Namespaces and where they matter: <q>It’s always a namespace issue.</q>
+                        <ol>
+                            <li><code>xsl:</code>: distinguishes the XSLT elements</li>
+                            <li>Namespaced input: set <code>xpath-default-namespace</code> on
+                                the xsl:stylesheet:
+                                    <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
+                            </li>
+                            <li>Namespaced output: set
+                                    <code>xmlns="http://www.w3.org/1999/xhtml"</code>
+                            </li>
+                        </ol>
                     </li>
+                    <li>If processing namespaced XML (like TEI):
+                            <code>xpath-default-namespace</code></li>
                 </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XSLT template matching and context nodes (45 minutes; 10:35 a.m.–11:20 a.m.) </li><li>Identity transformation (40 minutes; 11:20 a.m.–12:00 p.m.) </li></ul></section>
         <section><h3>Pushing and pulling (1:30 p.m.–4:00 p.m.)</h3><ul><li><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
                     attribute (35 minutes; 1:30 p.m.–2:05 p.m.) </li><li>XSLT push and pull processing (35 minutes; 2:05 p.m.–2:40 p.m.) </li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>When to use <code>&lt;xsl:value-of&gt;</code> (35 minutes; 2:50 p.m.–3:25 p.m.) </li><li>Comparing XSLT and XQuery (35 minutes; 3:25 p.m.–4:00 p.m.) </li></ul></section>
