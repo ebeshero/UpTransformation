@@ -289,11 +289,11 @@
                     <li>Find the length of longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
                 </ol></li><li>XPath functions for sequences (15 minutes; 2:15 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>distinct-values()</code>
+                    <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
                         </ol></li>
-                    <li><code>count()</code><ol>
+                    <li><code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a><ol>
                             <li><code>count(('Curly', 'Larry', 'Moe',
                                 'Curly'))</code></li>
                             <li><code>count(distinct-values(('Curly', 'Larry', 'Moe',
@@ -301,7 +301,7 @@
                             <li><code>distinct-values(count(('Curly', 'Larry', 'Moe',
                                     'Curly')))</code></li>
                         </ol></li>
-                    <li><code>sort()</code><ol>
+                    <li><code>sort()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sort"><sup>⬀</sup></a><ol>
                             <li><code>sort(//speaker)</code></li>
                             <li><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></li>

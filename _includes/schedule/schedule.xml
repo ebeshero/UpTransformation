@@ -380,11 +380,13 @@
             <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
-                    <item><code>distinct-values()</code>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"
+                            >distinct-values()</code>
                         <examples>
                             <example><code>distinct-values(/TEI//speaker)</code></example>
                         </examples></item>
-                    <item><code>count()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-count"
+                            >count()</code><examples>
                             <example><code>count(('Curly', 'Larry', 'Moe',
                                 'Curly'))</code></example>
                             <example><code>count(distinct-values(('Curly', 'Larry', 'Moe',
@@ -392,7 +394,8 @@
                             <example><code>distinct-values(count(('Curly', 'Larry', 'Moe',
                                     'Curly')))</code></example>
                         </examples></item>
-                    <item><code>sort()</code><examples>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-sort"
+                            >sort()</code><examples>
                             <example><code>sort(//speaker)</code></example>
                             <example><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></example>
@@ -426,8 +429,8 @@
                     <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</item>
                     <item>The error message is your friend. Read it.</item>
-                    <item>Mozilla Development Network (MDN):
-                            <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>
+                    <!--<item>Mozilla Development Network (MDN):
+                            <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
             </act>
             <act time="PT20M">
