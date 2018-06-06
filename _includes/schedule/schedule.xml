@@ -946,8 +946,10 @@
                 <details>
                     <item>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
                         (Windows) or Cmd+u (MacOS)<examples>
-                            <example>Document analysis of our XML:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</example>
+                            <example>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
+                                    <example>page range, issue number, middle initial, apostrophes
+                                        and quotation marks</example>
+                                </examples></example>
                             <example>What Relax NG can constrain:
                                 https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</example>
                             <example>Schematron to the rescue:
@@ -961,8 +963,12 @@
                 <desc>Schematron error reporting</desc>
                 <details>
                     <item>Schematron has the best error messages</item>
-                    <item>Enhancing Schematron reporting with <code>&lt;sch:value-of&gt;</code>
-                        (https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch)</item>
+                    <item>Enhance Schematron reporting with <code>&lt;sch:value-of&gt;</code>:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</item>
+                    <item>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</item>
+                    <item>Generate warnings as well as errors:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</item>
                 </details>
             </act>
             <act time="PT25M">
