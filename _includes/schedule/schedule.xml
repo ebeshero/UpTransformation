@@ -653,23 +653,37 @@
                 <desc>Regex in XPath</desc>
                 <details>
                     <item><code>contains()</code> vs. <code>matches()</code><examples>
-                            <example>
-                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
-                                    'prison')]</code>
-                            </example>
-                            <example>
-                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
-                                    '\w*prison\w*')]</code>
-                            </example>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
-                                    'unrighteousness')]</code></example>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
-                                    '[a-z]{15,}','i')]</code></example>
-
+                        <example>
+                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                                'murder')]</code>
+                        </example>
+                        <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                            'unrighteousness')]</code></example>
+                        <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
+                            '[a-z]{15,}','i')]</code></example>
+                        <example>
+                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]</code>
+                        </example>
+                        <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}(^|\D)')]</code> Why is the number of results smaller than for the previous expression?</example>
                         </examples></item>
-                    <item><code>translate()</code> vs. <code>replace()</code></item>
+                    <item><code>translate()</code> vs. <code>replace()</code>
+                        <examples>
+                            <example>Try this expression, doc('/db/mitford/literary/Charles1.xml')//tei:castList, and notice the pseudomarkup in the cast list. <code>translate()</code> to the rescue! <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(., '()', '')</code></example>
+                            
+                            <example>The next examples work with the <code>@xml:id</code>s on the <code>tei:l</code> elements. How can you get a look at the <code>@xml:id</code>s first?  <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></answer></example> 
+                            <example>Change the format of the line <code>@xml:id</code>s with <code>replace()</code>: <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id, 'Chas(_\w+_)', 'C1$1')</code></example>
+                        </examples>
+                    </item>
                     <item><code>substring-before()</code> and <code>substring-after()</code> vs.
-                            <code>tokenize()</code></item>
+                            <code>tokenize()</code>
+                    <examples>
+                        <example>Return only location (e.g. ded, pro, act) and line number information in the <code>@xml:id</code>s:
+                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id, 'Chas_')</code>
+                        </example>
+                        <example>Working with the expression we just wrote, how would you apply <code>substring-before()</code> to return only the location (ded, pro, act), and trim off the line number information? <answer>Two ways: old-fashioned: <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id, 'Chas_'), '_')</code> and more legible with simple map operator: <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id, 'Chas_') ! substring-before(.,'_')</code> Why can’t we use the arrow operator (<code>=></code>) here?</answer>
+                            
+                        </example>
+                    </examples></item>
                 </details>
             </act>
             <act time="PT30M">
