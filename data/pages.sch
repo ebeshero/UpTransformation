@@ -6,5 +6,9 @@
             <sch:report test=". lt preceding-sibling::start">The end page cannot be less than the
                 start page</sch:report>
         </sch:rule>
+        <sch:rule context="text()">
+            <sch:report test="matches(., '[&quot;'']')" role="warning">Text contains straight
+                apostrophe or quotation mark</sch:report>
+        </sch:rule>
     </sch:pattern>
 </sch:schema>
