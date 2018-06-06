@@ -7,5 +7,9 @@
                 />) cannot be less than the start page (<sch:value-of
                     select="preceding-sibling::start"/>)</sch:report>
         </sch:rule>
+        <sch:rule context="text()">
+            <sch:report test="matches(., '[&quot;'']')" role="warning">Text contains straight
+                apostrophe or quotation mark</sch:report>
+        </sch:rule>
     </sch:pattern>
 </sch:schema>

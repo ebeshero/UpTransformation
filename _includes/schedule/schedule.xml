@@ -947,13 +947,27 @@
                     <item>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
                         (Windows) or Cmd+u (MacOS)<examples>
                             <example>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
-                                    <example>page range, issue number, middle initial, apostrophes
-                                        and quotation marks</example>
+                                    <example><code>&lt;start&gt;</code> shouldn’t be greater than
+                                            <code>&lt;end&gt;</code></example>
+                                    <example><code>&lt;issue&gt; is optional</code></example>
+                                    <example><code>&lt;initial&gt;</code> should be one
+                                        letter</example>
+                                    <example>apostrophes and quotation marks should be curly (“, ”,
+                                        ‘, ’), not straight (', ")</example>
                                 </examples></example>
-                            <example>What Relax NG can constrain:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</example>
-                            <example>Schematron to the rescue:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</example>
+                            <example>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<examples>
+                                    <example><code>&lt;volume&gt;</code>,
+                                        <code>&lt;issue&gt;</code>, <code>&lt;year&gt;</code>,
+                                            <code>&lt;start&gt;</code>, and <code>&lt;end&gt;</code>
+                                        must be positive integers</example>
+                                    <example><code>&lt;year&gt;</code> must be exactly four
+                                        digits</example>
+                                </examples></example>
+                            <example>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<examples>
+                                    <example>anatomy of a schematron rule</example>
+                                    <example>validating start and end pages</example>
+                                    <example>validating apostrophes and quotation marks</example>
+                                </examples></example>
                         </examples></item>
                     <item/>
                     <item>Associating Schematron with XML</item>
