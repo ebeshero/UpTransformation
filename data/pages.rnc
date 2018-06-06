@@ -1,0 +1,26 @@
+start = bibliography
+bibliography = element bibliography { bibItem+ }
+bibItem = element bibItem { author, articleTitle, journalTitle, volume, issue?, year, pages }
+author = element author { surname, forename, initial? }
+surname = element surname { text }
+forename = element forename { text }
+initial = element initial { text }
+articleTitle =
+    element title {
+        attribute type { "article" },
+        text
+    }
+journalTitle =
+    element title {
+        attribute type { "journal" },
+        text
+    }
+volume = element volume { xsd:positiveInteger }
+issue = element issue { xsd:positiveInteger }
+year =
+    element year {
+        xsd:positiveInteger { pattern = "\d{4}" }
+    }
+pages = element pages { startPage, endPage }
+startPage = element start { xsd:positiveInteger }
+endPage = element end { xsd:positiveInteger }

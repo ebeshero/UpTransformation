@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pages.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="pages.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="pages.css"?>
+<bibliography>
+    <!-- examples (simplified) from http://web.uvic.ca/%7Esiemens/#publications (2001) -->
+    <bibItem>
+        <author>
+            <surname>Siemens</surname>
+            <forename>Raymond</forename>
+            <initial>G</initial>
+        </author>
+        <title type="article">‘I haue often such a sickly inclination’: Biography and the Critical
+            Interpretation of Donne's Suicide Tract, Biathanatos.</title>
+        <title type="journal">EMLS</title>
+        <volume>10</volume>
+        <year>2001</year>
+        <pages>
+            <start>1</start>
+            <end>26</end>
+        </pages>
+    </bibItem>
+    <bibItem>
+        <author>
+            <surname>Siemens</surname>
+            <forename>Raymond</forename>
+            <initial>G</initial>
+        </author>
+        <title type="article">Unediting and Non-Editions.</title>
+        <title type="journal">Anglia</title>
+        <volume>119</volume>
+        <issue>3</issue>
+        <year>2001</year>
+        <pages>
+            <start>423</start>
+            <end>455</end>
+        </pages>
+    </bibItem>
+</bibliography>
