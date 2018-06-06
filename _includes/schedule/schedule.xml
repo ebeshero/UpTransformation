@@ -941,7 +941,7 @@
                             <code>&lt;report&gt;</code></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT30M">
                 <desc>Looking at Schematron</desc>
                 <details>
                     <item>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
@@ -949,7 +949,7 @@
                             <example>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
                                     <example><code>&lt;start&gt;</code> shouldn’t be greater than
                                             <code>&lt;end&gt;</code></example>
-                                    <example><code>&lt;issue&gt; is optional</code></example>
+                                    <example><code>&lt;issue&gt;</code> is optional</example>
                                     <example><code>&lt;initial&gt;</code> should be one
                                         letter</example>
                                     <example>apostrophes and quotation marks should be curly (“, ”,
@@ -969,7 +969,6 @@
                                     <example>validating apostrophes and quotation marks</example>
                                 </examples></example>
                         </examples></item>
-                    <item/>
                     <item>Associating Schematron with XML</item>
                 </details>
             </act>
@@ -985,8 +984,15 @@
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</item>
                 </details>
             </act>
-            <act time="PT25M">
-                <desc>XPath functions practice, part 1</desc>
+            <act time="PT20M">
+                <desc>XPath functions practice: Leipzig glossing rules</desc>
+                <details>
+                    <item>Target output: <link>http://htmlpreview.github.io/?</link></item>
+                    <item>Document analysis of our XML:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</item>
+                    <item>For more information see
+                            <link>http://www.eva.mpg.de/lingua/resources/glossing-rules.php</link></item>
+                </details>
             </act>
             <act time="PT10M">
                 <desc>Break</desc>
