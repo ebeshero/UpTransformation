@@ -498,21 +498,59 @@
                     <li><code>contains()</code> vs. <code>matches()</code><ol>
                             <li>
                                 <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
-                                    'prison')]</code>
-                            </li>
-                            <li>
-                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
-                                    '\w*prison\w*')]</code>
+                                    'murder')]</code>
                             </li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
                                     'unrighteousness')]</code></li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
                                     '[a-z]{15,}','i')]</code></li>
-
+                            <li>
+                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
+                                    '\d{4}')]</code>
+                            </li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
+                                    '(^|\D)\d{4}(^|\D)')]</code> Why is the number of results
+                                smaller than for the previous expression?</li>
                         </ol></li>
-                    <li><code>translate()</code> vs. <code>replace()</code></li>
+                    <li><code>translate()</code> vs. <code>replace()</code>
+                        <ol>
+                            <li>Try this expression,
+                                doc('/db/mitford/literary/Charles1.xml')//tei:castList, and notice
+                                the pseudomarkup in the cast list. <code>translate()</code> to the
+                                rescue!
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
+                                    '()', '')</code></li>
+
+                            <li>The next examples work with the <code>@xml:id</code>s on the
+                                    <code>tei:l</code> elements. How can you get a look at the
+                                    <code>@xml:id</code>s first?
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></span></li>
+                            <li>Change the format of the line <code>@xml:id</code>s with
+                                    <code>replace()</code>:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id,
+                                    'Chas(_\w+_)', 'C1$1')</code></li>
+                        </ol>
+                    </li>
                     <li><code>substring-before()</code> and <code>substring-after()</code> vs.
-                            <code>tokenize()</code></li>
+                            <code>tokenize()</code>
+                        <ol>
+                            <li>Return only location (e.g. ded, pro, act) and line number
+                                information in the <code>@xml:id</code>s:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
+                                    'Chas_')</code>
+                            </li>
+                            <li>Working with the expression we just wrote, how would you apply
+                                    <code>substring-before()</code> to return only the location
+                                (ded, pro, act), and trim off the line number information?
+                                     <button class="answer">Answer</button> <span class="answer">Two ways: old-fashioned:
+                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
+                                        'Chas_'), '_')</code> and more legible with simple map
+                                    operator:
+                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
+                                        'Chas_') ! substring-before(.,'_')</code> Why can’t we use
+                                    the arrow operator (<code>=&gt;</code>) here?</span>
+                            </li>
+                        </ol></li>
                 </ol></li><li>Introducing variables (30 minutes; 11:30 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
                     <li><code>FLWOR</code> variables: <code>for</code>, <code>let</code>,
@@ -652,28 +690,32 @@
     </section>
     <section>
         <h2>Thursday, June 14: XPath and Schematron</h2>
-        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ul><li>Schematron overview (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Schematron is <em>constraint-based</em>; Relax NG, XMLSchema, DTD are
+        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ul><li>Schematron overview (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Schematron is <em>constraint-based</em>; Relax NG, XML Schema, DTD are
                             <em>grammar based</em></li>
                     <li>Sample constraint-based tasks involve multiple elements<ol>
-                            <li>Are start pages no larger than end pages?</li>
+                            <li>Are start pages (<code>&lt;start&gt;</code>) no larger than end
+                                pages (<code>&lt;end&gt;</code>)?</li>
                             <li>Are birth dates no later than death dates?</li>
-                            <li>Does a list contain duplicates?</li>
-                            <li>Do pointers to persons really point to persons?</li>
+                            <li>Does a list (e.g., of students in a course) contain
+                                duplicates?</li>
+                            <li>Do pointers to persons really point to persons (and not
+                                places)?</li>
                         </ol></li>
                     <li>Schematron structure: <code>&lt;pattern&gt;</code> →
                             <code>&lt;rule&gt;</code> → <code>&lt;assert&gt;</code> or
                             <code>&lt;report&gt;</code></li>
-                </ol></li><li>Looking at Schematron (30 minutes; 9:10 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Looking at Schematron (25 minutes; 9:15 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
                         (Windows) or Cmd+u (MacOS)<ol>
-                            <li>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</li>
-                            <li>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</li>
-                            <li>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</li>
+                            <li>Document analysis of our XML:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</li>
+                            <li>What Relax NG can constrain:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</li>
+                            <li>Schematron to the rescue:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</li>
                         </ol></li>
-                    <li>Document analysis of `pages.xml`</li>
-                    <li>What Relax NG can constrain: `pages.rnc`</li>
-                    <li>Schematron to the rescue: `pages.sch`</li>
+                    <li/>
                     <li>Associating Schematron with XML</li>
                 </ol></li><li>Schematron error reporting (20 minutes; 9:40 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Schematron has the best error messages</li>
