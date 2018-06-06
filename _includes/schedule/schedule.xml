@@ -884,7 +884,7 @@
         <title>XPath and Schematron</title>
         <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
-            <act time="PT10M">
+            <act time="PT15M">
                 <desc>Schematron overview</desc>
                 <details>
                     <item>Schematron is <emph>constraint-based</emph>; Relax NG, XMLSchema, DTD are
@@ -900,7 +900,7 @@
                             <code>&lt;report&gt;</code></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT25M">
                 <desc>Looking at Schematron</desc>
                 <details>
                     <item>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
