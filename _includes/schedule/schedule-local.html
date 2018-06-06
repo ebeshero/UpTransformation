@@ -522,8 +522,8 @@
                             <li>Without knowing the names of the elements that are members of
                                 lists, you can tell that all follow the same XPath pattern. What is
                                 it?
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/* or </code>
-                                    or
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                                        or </code> or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></span></li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the
                                     First</em> in the site index is "CharlesI_MRMplay". References
@@ -532,7 +532,11 @@
                                 "#CharlesI_MRMplay". Knowing this, can you locate all the individual
                                 entries in the site index lists that contain references of any kind
                                 to the play?
-                                 <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code> How can you find out how many these are using a function?  <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"] =&gt; count()</code> </span>
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>
+                                    How can you find out how many these are using a function?
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
+                                        =&gt; count()</code>
+                                </span>
                             </li>
                         </ol>
                     </li>
@@ -753,11 +757,12 @@
                             <li>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<ol>
                                     <li><code>&lt;start&gt;</code> shouldn’t be greater than
                                             <code>&lt;end&gt;</code></li>
-                                    <li><code>&lt;issue&gt;</code> is optional</li>
-                                    <li><code>&lt;initial&gt;</code> should be one
+                                    <li><code>&lt;issue&gt;</code> is optional, but we could
+                                        omit it by mistake</li>
+                                    <li><code>&lt;initial&gt;</code> should usually be one
                                         letter</li>
-                                    <li>apostrophes and quotation marks should be curly (“, ”,
-                                        ‘, ’), not straight (', ")</li>
+                                    <li>apostrophes and quotation marks should usually be curly
+                                        (“, ”, ‘, ’), not straight (', ")</li>
                                 </ol></li>
                             <li>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<ol>
                                     <li><code>&lt;volume&gt;</code>,
@@ -766,6 +771,7 @@
                                         must be positive integers</li>
                                     <li><code>&lt;year&gt;</code> must be exactly four
                                         digits</li>
+                                    <li><code>&lt;issue&gt;</code> is optional</li>
                                 </ol></li>
                             <li>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<ol>
                                     <li>anatomy of a schematron rule</li>
@@ -782,14 +788,29 @@
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</li>
                     <li>Generate warnings as well as errors:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</li>
-                </ol></li><li>XPath functions practice: Leipzig glossing rules (20 minutes; 10:05 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions practice: Leipzig glossing rules, part 1 (20 minutes; 10:05 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Target output:
                             <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</a></li>
                     <li>Document analysis of our XML:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</li>
+                    <li>Schematron validation<ol>
+                            <li>Housekeeping: reate the Schematron skeleton in &lt;oXygen/&gt;,
+                                save it, link it to XML</li>
+                            <li>Three ways of counting spaces and hyphens<ol>
+                                    <li><code>translate()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a></li>
+                                    <li><code>tokenize()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"><sup>⬀</sup></a></li>
+                                    <li><code>string-to-codepoints()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"><sup>⬀</sup></a>, <code>index-of()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-index-of"><sup>⬀</sup></a>, <code>codepoints-to-string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"><sup>⬀</sup></a></li>
+                                </ol></li>
+                        </ol></li>
                     <li>For more information see
                             <a href="http://www.eva.mpg.de/lingua/resources/glossing-rules.php">http://www.eva.mpg.de/lingua/resources/glossing-rules.php</a></li>
-                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XPath functions practice, part 2 (25 minutes; 10:35 a.m.–11:00 a.m.) </li><li>Grouping; looping over distinct values, mapping back to the tree (60 minutes; 11:00 a.m.–12:00 p.m.) </li></ul></section>
+                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XPath functions practice: Leipzig glossing rules, part 2 (25 minutes; 10:35 a.m.–11:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Comparing three things</li>
+                    <li>Best practice<ol>
+                            <li>Incremental development and testing</li>
+                            <li>Testing separately</li>
+                        </ol></li>
+                </ol></li><li>Grouping; looping over distinct values, mapping back to the tree (60 minutes; 11:00 a.m.–12:00 p.m.) </li></ul></section>
         <section><h3>Writing Schematron with XPath function (1:30 p.m.–4:00 p.m.)</h3><ul><li>Lab session (sample materials provided, or work with your own data), part
                     1 (70 minutes; 1:30 p.m.–2:40 p.m.) </li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Lab session (sample materials provided, or work with your own data), part
                     2 (70 minutes; 2:50 p.m.–4:00 p.m.) </li></ul></section>

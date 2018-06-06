@@ -660,8 +660,8 @@
                             <example>Without knowing the names of the elements that are members of
                                 lists, you can tell that all follow the same XPath pattern. What is
                                 it?
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/* or </code>
-                                    or
+                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                                        or </code> or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the
                                     First</emph> in the site index is "CharlesI_MRMplay". References
@@ -670,7 +670,11 @@
                                 "#CharlesI_MRMplay". Knowing this, can you locate all the individual
                                 entries in the site index lists that contain references of any kind
                                 to the play?
-                                <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code> How can you find out how many these are using a function?  <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"] => count()</code> </answer>
+                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>
+                                    How can you find out how many these are using a function?
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
+                                        => count()</code>
+                                </answer>
                             </example>
                         </examples>
                     </item>
@@ -979,11 +983,12 @@
                             <example>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
                                     <example><code>&lt;start&gt;</code> shouldn’t be greater than
                                             <code>&lt;end&gt;</code></example>
-                                    <example><code>&lt;issue&gt;</code> is optional</example>
-                                    <example><code>&lt;initial&gt;</code> should be one
+                                    <example><code>&lt;issue&gt;</code> is optional, but we could
+                                        omit it by mistake</example>
+                                    <example><code>&lt;initial&gt;</code> should usually be one
                                         letter</example>
-                                    <example>apostrophes and quotation marks should be curly (“, ”,
-                                        ‘, ’), not straight (', ")</example>
+                                    <example>apostrophes and quotation marks should usually be curly
+                                        (“, ”, ‘, ’), not straight (', ")</example>
                                 </examples></example>
                             <example>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<examples>
                                     <example><code>&lt;volume&gt;</code>,
@@ -992,6 +997,7 @@
                                         must be positive integers</example>
                                     <example><code>&lt;year&gt;</code> must be exactly four
                                         digits</example>
+                                    <example><code>&lt;issue&gt;</code> is optional</example>
                                 </examples></example>
                             <example>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<examples>
                                     <example>anatomy of a schematron rule</example>
@@ -1015,12 +1021,31 @@
                 </details>
             </act>
             <act time="PT20M">
-                <desc>XPath functions practice: Leipzig glossing rules</desc>
+                <desc>XPath functions practice: Leipzig glossing rules, part 1</desc>
                 <details>
                     <item>Target output:
                             <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</link></item>
                     <item>Document analysis of our XML:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</item>
+                    <item>Schematron validation<examples>
+                            <example>Housekeeping: reate the Schematron skeleton in &lt;oXygen/&gt;,
+                                save it, link it to XML</example>
+                            <example>Three ways of counting spaces and hyphens<examples>
+                                    <example><code
+                                            url="https://www.w3.org/TR/xpath-functions-31/#func-translate"
+                                            >translate()</code></example>
+                                    <example><code
+                                            url="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"
+                                            >tokenize()</code></example>
+                                    <example><code
+                                            url="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"
+                                            >string-to-codepoints()</code>, <code
+                                            url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
+                                            >index-of()</code>, <code
+                                            url="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"
+                                            >codepoints-to-string()</code></example>
+                                </examples></example>
+                        </examples></item>
                     <item>For more information see
                             <link>http://www.eva.mpg.de/lingua/resources/glossing-rules.php</link></item>
                 </details>
@@ -1029,7 +1054,14 @@
                 <desc>Break</desc>
             </act>
             <act time="PT25M">
-                <desc>XPath functions practice, part 2</desc>
+                <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
+                <details>
+                    <item>Comparing three things</item>
+                    <item>Best practice<examples>
+                            <example>Incremental development and testing</example>
+                            <example>Testing separately</example>
+                        </examples></item>
+                </details>
             </act>
             <act time="PT1H">
                 <desc>Grouping; looping over distinct values, mapping back to the tree</desc>
