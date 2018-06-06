@@ -1,0 +1,7 @@
+start = corpus
+corpus = element corpus { sentence+ }
+sentence = element sentence { orth, translit, ilg, free }
+orth = element orth { text }
+translit = element translit { text }
+ilg = element ilg { text }
+free = element free { text }
