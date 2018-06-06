@@ -642,16 +642,37 @@
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <link>/db/mitford/si.xml</link> or the official version at its external
-                        location: <link>http://digitalmitford.org/si.xml</link> Can you find out the following? 
-                       <examples> <example> Look at the <code>div</code> elements in the site index. What attribute on this element can tell you how the document is organized? Write an XPath that isolates these attribute values. 
-                           <answer>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</answer></example>
-                           <example>Look element children of the div elements (you can do this without seeing what all the elements are). What attribute on these elements can be used to differentiate the various lists in the document? Complete this XPath by isolating these attribute values.  <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code> or <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer> </example>  
-                           <example>Without knowing the names of the elements that are members of lists, you can tell that all follow the same XPath pattern. What is it? <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*</code> or <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
-                           <example>The <code>@xml:id</code> for the play <emph>Charles the First</emph> in the site index is "CharlesI_MRMplay". References to the play throughout the site index will be made with various attributes that begin with a hashtag, formatted like this: "#CharlesI_MRMplay". Knowing this, can you locate all the individual entries in the site index lists that contain references of any kind to the play? 
-                               <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code> How many is that? (How can you quickly find out with an XPath function?)</answer>
-                           </example>    
-                       </examples>
-                    
+                        location: <link>http://digitalmitford.org/si.xml</link> Can you find out the
+                        following? <examples>
+                            <example> Look at the <code>div</code> elements in the site index. What
+                                attribute on this element can tell you how the document is
+                                organized? Write an XPath that isolates these attribute values.
+                                    <answer>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</answer></example>
+                            <example>Look element children of the <code>&lt;div&gt;</code> elements
+                                (you can do this without seeing what all the elements are). What
+                                attribute on these elements can be used to differentiate the various
+                                lists in the document? Complete this XPath by isolating these
+                                attribute values.
+                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
+                                    or
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer>
+                            </example>
+                            <example>Without knowing the names of the elements that are members of
+                                lists, you can tell that all follow the same XPath pattern. What is
+                                it?
+                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/* or </code>
+                                    or
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
+                            <example>The <code>@xml:id</code> for the play <emph>Charles the
+                                    First</emph> in the site index is "CharlesI_MRMplay". References
+                                to the play throughout the site index will be made with various
+                                attributes that begin with a hashtag, formatted like this:
+                                "#CharlesI_MRMplay". Knowing this, can you locate all the individual
+                                entries in the site index lists that contain references of any kind
+                                to the play?
+                                <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code> How can you find out how many these are using a function?  <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"] => count()</code> </answer>
+                            </example>
+                        </examples>
                     </item>
                 </details>
             </act>
