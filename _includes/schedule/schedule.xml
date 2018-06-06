@@ -642,8 +642,14 @@
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <link>/db/mitford/si.xml</link> or the official version at its external
-                        location: <link>http://digitalmitford.org/si.xml</link> Can you find the
-                        following [5 or 6 things to review what we have been teaching]. </item>
+                        location: <link>http://digitalmitford.org/si.xml</link> Can you find out the following? 
+                       <examples> <example> Look at the <code>div</code> elements in the site index. What attribute on this element can tell you how the document is organized? Write an XPath that isolates these attribute values. 
+                           <answer>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</answer></example>
+            <example>Look element children of the div elements. What attribute on these elements can be used to differentiate the various lists in the document? </example>           
+                       
+                       </examples>
+                    
+                    </item>
                 </details>
             </act>
             <act time="PT10M">
