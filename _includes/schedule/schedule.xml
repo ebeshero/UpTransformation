@@ -653,19 +653,19 @@
                 <desc>Regex in XPath</desc>
                 <details>
                     <item><code>contains()</code> vs. <code>matches()</code><examples>
-                        <example>
-                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
-                                'prison')]</code>
-                        </example>
-                        <example>
-                            <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
-                                '\w*prison\w*')]</code>
-                        </example>
+                            <example>
+                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                                    'prison')]</code>
+                            </example>
+                            <example>
+                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
+                                    '\w*prison\w*')]</code>
+                            </example>
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
                                     'unrighteousness')]</code></example>
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
                                     '[a-z]{15,}','i')]</code></example>
-                      
+
                         </examples></item>
                     <item><code>translate()</code> vs. <code>replace()</code></item>
                     <item><code>substring-before()</code> and <code>substring-after()</code> vs.
@@ -884,8 +884,44 @@
         <title>XPath and Schematron</title>
         <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
-            <act time="PT1H">
+            <act time="PT10M">
                 <desc>Schematron overview</desc>
+                <details>
+                    <item>Schematron is <emph>constraint-based</emph>; Relax NG, XMLSchema, DTD are
+                            <emph>grammar based</emph></item>
+                    <item>Sample constraint-based tasks involve multiple elements<examples>
+                            <example>Are start pages no larger than end pages?</example>
+                            <example>Are birth dates no later than death dates?</example>
+                            <example>Does a list contain duplicates?</example>
+                            <example>Do pointers to persons really point to persons?</example>
+                        </examples></item>
+                    <item>Schematron structure: <code>&lt;pattern&gt;</code> →
+                            <code>&lt;rule&gt;</code> → <code>&lt;assert&gt;</code> or
+                            <code>&lt;report&gt;</code></item>
+                </details>
+            </act>
+            <act time="PT30M">
+                <desc>Looking at Schematron</desc>
+                <details>
+                    <item>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
+                        (Windows) or Cmd+u (MacOS)<examples>
+                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</example>
+                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</example>
+                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</example>
+                        </examples></item>
+                    <item>Document analysis of `pages.xml`</item>
+                    <item>What Relax NG can constrain: `pages.rnc`</item>
+                    <item>Schematron to the rescue: `pages.sch`</item>
+                    <item>Associating Schematron with XML</item>
+                </details>
+            </act>
+            <act time="PT20M">
+                <desc>Schematron error reporting</desc>
+                <details>
+                    <item>Schematron has the best error messages</item>
+                    <item>Enhancing Schematron reporting with <code>&lt;sch:value-of&gt;</code>
+                        (https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch)</item>
+                </details>
             </act>
             <act time="PT25M">
                 <desc>XPath functions practice, part 1</desc>

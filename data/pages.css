@@ -1,0 +1,41 @@
+bibliography,
+bibItem {
+    display: block;
+    margin-bottom: 1em;
+}
+* {
+    display: inline;
+}
+surname:after {
+    content: ', ';
+}
+forename:after {
+    content: ' ';
+}
+initial:after {
+    content: '. ';
+}
+title[type = 'article']:before {
+    content: '“';
+}
+title[type = 'article']:after {
+    content: '” ';
+}
+title[type = 'journal'] {
+    font-style: italic;
+}
+title[type = 'journal']:after {
+    content: ' ';
+}
+issue:before {
+    content: ':';
+}
+year:before {
+    content: ' (';
+}
+year:after {
+    content: ') ';
+}
+start:after {
+    content: '–';
+}

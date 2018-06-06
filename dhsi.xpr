@@ -6,6 +6,10 @@
             <serialized version="20.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
+                        <String>author.show.comments</String>
+                        <Boolean>false</Boolean>
+                    </entry>
+                    <entry>
                         <String>editor.format.preserve.spaces.elements.v11</String>
                         <String-array>
                             <String>xsl:text</String>
@@ -32,8 +36,16 @@
                         </String-array>
                     </entry>
                     <entry>
+                        <String>key.author.editor.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.editor.format.xml.option.pane</String>
                         <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>tagless.editor.tags.display.mode</String>
+                        <Integer>1</Integer>
                     </entry>
                 </serializableOrderedMap>
             </serialized>
