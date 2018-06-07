@@ -1023,13 +1023,17 @@
             <act time="PT20M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 1</desc>
                 <details>
-                    <item>Target output:
-                            <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</link></item>
-                    <item>Document analysis of our XML:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</item>
-                    <item>Best practice<examples>
-                            <example>Incremental development and testing</example>
-                            <example>Testing separately</example>
+                    <item><examples>
+                            <example>Document analysis:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</example>
+                            <example>Target output:
+                                    <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</link></example>
+                            <example>Validation challenge: the spaces and hyphens need to be
+                                aligned</example>
+                            <example>Best practice<examples>
+                                    <example>Incremental development and testing</example>
+                                    <example>Testing separately</example>
+                                </examples></example>
                         </examples></item>
                     <item>Schematron validation<examples>
                             <example>Housekeeping: create the Schematron skeleton in
@@ -1087,6 +1091,7 @@
                             <example>Schematron</example>
                         </examples>
                     </item>
+                    <item>Finding which word has a hyphen misalignment: <link></link></item>
                 </details>
             </act>
             <act time="PT1H">
