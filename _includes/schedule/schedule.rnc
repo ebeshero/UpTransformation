@@ -64,6 +64,6 @@ emph = element emph { url?, text }
 answer =
     element answer {
         type?,
-        mixed { (code | emph | q)* }
+        mixed { (code | emph | link | q)* }
     }
 type = attribute type { "inline" | "block" }
