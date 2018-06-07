@@ -1065,34 +1065,7 @@
                                         <answer><code>count(tokenize('one two three', '
                                             '))</code></answer></example>
                                 </examples></example>
-                            <example>One more way of counting spaces and hyphens<examples>
-                                    <example>1) Explode the string, 2) find the index values of the
-                                        space characters, and 3) count them</example>
-                                    <example>Explode the string: <code
-                                            url="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"
-                                            >string-to-codepoints()</code>, <code
-                                            url="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"
-                                            >codepoints-to-string()</code><examples>
-                                            <example><code>for $c in string-to-codepoints('one two
-                                                  three') return
-                                                codepoints-to-string($c)</code></example>
-                                        </examples></example>
-                                    <example>Find the index values of the spaces: <code
-                                            url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
-                                            >index-of()</code><examples>
-                                            <example><code>index-of(('a', 'b', 'c', 'b', 'a'),
-                                                  'a')</code></example>
-                                        </examples></example>
-                                    <example>Count them: <code>count(index-of(for $c in
-                                            string-to-codepoints('one two three') return
-                                            codepoints-to-string($c), ' '))</code></example>
-                                    <example>Make it legible: <code>string-to-codepoints('one two
-                                            three') ! codepoints-to-string(.) =&gt; index-of(' ')
-                                            =&gt; count()</code></example>
-                                </examples></example>
                         </examples></item>
-                    <item>For more information see
-                            <link>http://www.eva.mpg.de/lingua/resources/glossing-rules.php</link></item>
                 </details>
             </act>
             <act time="PT10M">
@@ -1101,6 +1074,31 @@
             <act time="PT25M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
                 <details>
+                    <item>One more way of counting spaces and hyphens<examples>
+                            <example>1) Explode the string, 2) find the index values of the space
+                                characters, and 3) count them</example>
+                            <example>Explode the string: <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"
+                                    >string-to-codepoints()</code>, <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"
+                                    >codepoints-to-string()</code><examples>
+                                    <example><code>for $c in string-to-codepoints('one two three')
+                                            return codepoints-to-string($c)</code></example>
+                                </examples></example>
+                            <example>Find the index values of the spaces: <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
+                                    >index-of()</code><examples>
+                                    <example><code>index-of(('a', 'b', 'c', 'b', 'a'),
+                                        'a')</code></example>
+                                </examples></example>
+                            <example>Count them: <code>count(index-of(for $c in
+                                    string-to-codepoints('one two three') return
+                                    codepoints-to-string($c), ' '))</code></example>
+                            <example>Make it legible: <code>string-to-codepoints('one two three') !
+                                    codepoints-to-string(.) =&gt; index-of(' ') =&gt;
+                                count()</code></example>
+                        </examples>
+                    </item>
                     <item>Comparing three things</item>
                     <item>Whitespace normalization<examples>
                             <example>Require it in the XML? (Relax NG, Schematron)</example>
