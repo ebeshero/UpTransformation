@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Leipzig glossing rules</title>
+        <link rel="stylesheet" type="text/css" href="http://www.obdurodon.org/css/style.css" />
+    </head>
+    <body>
+        <h3>The assignment</h3>
+        <p>Write a Schematron schema that will take input like:</p>
+        <pre>&lt;sentence&gt;
+    &lt;orth&gt;Мы с Марко поеха-л-и автобус-ом в Переделкино&lt;/orth&gt;
+    &lt;translit&gt;My s Marko poexa-l-i avtobus-om v Peredelkino.&lt;/translit&gt;
+    &lt;ilg&gt;we with Marko go-PST-P bus-by to Peredelkino.&lt;/ilg&gt;
+    &lt;free&gt;Marko and I went to Peredelkino by bus.&lt;/free&gt;
+&lt;/sentence&gt;
+</pre>
+        <p>and verify that the first three tiers (<code>&lt;orth&gt;</code>,
+                <code>&lt;translit&gt;</code>, and <code>&lt;ilg&gt;</code>) all have the same
+            number of spaces and the same number of hyphens.</p>
+        <h3>An enlarged example</h3>
+        <p>In order to verify that we could test our Schematron against a document that contained
+            more than one sentence, we created a slightly enlarged example:</p>
+        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;stuff&gt;
+    &lt;sentence&gt;
+        &lt;orth&gt;Мы с Марко поеха-л-и автобус-ом в Переделкино&lt;/orth&gt;
+        &lt;translit&gt;My s Marko poexa-l-i avtobus-om v Peredelkino.&lt;/translit&gt;
+        &lt;ilg&gt;we with Marko go-PST-P bus-by to Peredelkino.&lt;/ilg&gt;
+        &lt;free&gt;Marko and I went to Peredelkino by bus.&lt;/free&gt;
+    &lt;/sentence&gt;
+    &lt;sentence&gt;
+        &lt;orth&gt;Мы с Марин-ой поеха-л-и поезд-ом в Казань&lt;/orth&gt;
+        &lt;translit&gt;My s Marin-oj poexa-l-i poezd-om v Kazan′.&lt;/translit&gt;
+        &lt;ilg&gt;we with Marina-INS go-PST-P train-by to Kazan.&lt;/ilg&gt;
+        &lt;free&gt;Marina and I went to Kazan by train.&lt;/free&gt;
+    &lt;/sentence&gt;
+&lt;/stuff&gt;</pre>
+        <p>If there’s a discrepancy between two tiers, it seemed most natural to report that as an
+            error at the level of the sentence, rather than of one or another of the tiers, since
+            although Schematron can easily recognize when the tiers don’t agree, there’s no way for
+            it to tell which of the discrepant tiers contains an error.</p>
+        <h3>A basic solution</h3>
+        <p>Here is our simple solution:</p>
+        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"&gt;
+    &lt;pattern&gt;
+        &lt;rule context="sentence"&gt;
+            &lt;let name="orthSpaces"
+                value="string-length(orth) - string-length(translate(orth,' ',''))"/&gt;
+            &lt;let name="translitSpaces"
+                value="string-length(translit) - string-length(translate(translit,' ',''))"/&gt;
+            &lt;let name="ilgSpaces" value="string-length(ilg) - string-length(translate(ilg,' ',''))"/&gt;
+            &lt;let name="orthHyphens"
+                value="string-length(orth) - string-length(translate(orth,'-',''))"/&gt;
+            &lt;let name="translitHyphens"
+                value="string-length(translit) - string-length(translate(translit,'-',''))"/&gt;
+            &lt;let name="ilgHyphens" value="string-length(ilg) - string-length(translate(ilg,'-',''))"/&gt;
+            &lt;report
+                test="($orthSpaces, $translitSpaces, $ilgSpaces) != avg(($orthSpaces, $translitSpaces, $ilgSpaces))"
+                &gt;The spaces don’t match: orth (&lt;value-of select="$orthSpaces"/&gt;) ~ translit
+                    (&lt;value-of select="$translitSpaces"/&gt;) ~ ilg (&lt;value-of select="$ilgSpaces"
+                /&gt;)&lt;/report&gt;
+            &lt;report
+                test="($orthHyphens, $translitHyphens, $ilgHyphens) != avg(($orthHyphens, $translitHyphens, $ilgHyphens))"
+                &gt;The hyphens don’t match: orth (&lt;value-of select="$orthHyphens"/&gt;) ~ translit
+                    (&lt;value-of select="$translitHyphens"/&gt;) ~ ilg (&lt;value-of select="$ilgHyphens"
+                /&gt;)&lt;/report&gt;
+        &lt;/rule&gt;
+    &lt;/pattern&gt;
+&lt;/schema&gt;</pre>
+        <h4>General approach</h4>
+        <p>XPath does not have a function that counts the number of characters of a particular type
+            inside a string. That is, there is no core function that takes two arguments, a string
+            and a character, and returns the number of times the character appears in the string.
+            There are at least three ways to approach the task:</p>
+        <ul>
+            <li><p>The number of space characters in a sentence is equal to the length of the original sentence
+                    minus the length of the original sentence after you’ve stripped out the space
+                    characters. In other words, <code>string-length($tier) -
+                        string-length(translate($tier, ' ',''))</code> is an indirect way of
+                    counting the number of space characters in a string represented by the variable
+                        <code>$tier</code>. The same is true of hyphens. This is the approach we use
+                    in our basic solution, above.</p></li>
+            <li><p>We aren’t interested in spaces per se as much as we want to make sure that the
+                number of whitespace-delimited words in the tiers is the same. We can count
+                whitespace delimited words with <code>count(tokenize($tier, '\s+'))</code>. Note
+                that this approach and the preceding one return different results when there are
+                multiple spaces between words. Whether you want to require exactly one space
+                character between words is up to you, and you can choose your Schematron rule to
+                enforce your preference in either case.</p></li>
+            <li><p>This is the most complicated approach, but it’s also the one that is closest to
+                    the human description of the problem because it’s the only one that is based on
+                    finding the character of interest in the string and counting how many times it
+                    appears. In Real Life, we would use one of the two preceding approaches, but
+                    it’s worth reading through this third alternative to learn about some new XPath
+                    functions.</p>
+                <p>You can break a string into a sequence of individual characters (represented by
+                    one-character strings) with <code>for $char in string-to-codepoints($tier)
+                        return codepoints-to-string($char)</code>. For example if you run this
+                    against the input string <code>"obdurodon"</code>, you’ll get back <code>"o",
+                        "b", "d", "u", "r", "o", "d", "o", "n"</code>. You can find the offset of a
+                    particular string in a sequence of strings with <code>index-of()</code>, which
+                    takes two arguments: the first is the <dfn>haystack</dfn> (the sequence of
+                    strings that you’re searching) and the second is the <dfn>needle</dfn> (the
+                    single string you want to find in the sequence). For example, <code>index-of(for
+                        $char in string-to-codepoints('obdurodon') return
+                        codepoints-to-string($char), 'o')</code> returns a sequence of three
+                    integers, 1, 6, and 8, because the letter “o” is the first, sixth, and eighth
+                    letter of “obdurodon”. For our purposes we don’t care about the specific
+                    positions, but we do care how many such positions there are, so if we wrap
+                        <code>count()</code> around that long expression, it will return the single
+                    integer value of 3. You can use this approach to count the number of space
+                    characters or hyphens in a tier.</p></li>
+        </ul>
+        <h4>The <code>@context</code> attribute of the Schematron <code>&lt;rule&gt;</code>
+            element</h4>
+        <p>Because we want to report the error at the level of the <code>&lt;sentence&gt;</code>
+            element (see above), we set the value of the <code>@context</code> attribute on our
+            Schematron <code>&lt;rule&gt;</code> element to <q>sentence</q>.</p>
+        <h4>Variables</h4>
+        <p>We use the first of the three strategies described above, the one that relies on the
+                <code>translate()</code> function, to set up six variables, recording the number of
+            spaces and hyphens in our <code>&lt;orth&gt;</code>, <code>&lt;translit&gt;</code>, and
+                <code>&lt;ilg&gt;</code> tiers. We use the variables both because they make our
+            actual tests easier to understand and because they save us from performing the same
+            calculation more than once..</p>
+        <h4>Testing</h4>
+        <p>We need to run a three-way test, that is, we need to compare the count of spaces or
+            hyphens in three strings to determine whether they all have the same count. Some
+            programming languages permit transitive comparisons, and in those languages you could
+            write something like <code>a = b = c</code> to test whether <code>a</code>,
+                <code>b</code>, and <code>c</code> are all equal. XPath is not that kind of
+            language, though, so we need an alternative strategy. One straightforward approach would
+            combine two tests in one:</p>
+        <pre>$orthSpaces eq $translitSpaces and $orthSpaces eq $ilgSpaces</pre>
+        <p>In a combined test with the <code>and</code> operator, the result of the test is true
+            only if both parts succeed. We don’t need to run a third test, comparing transliteration
+            to interlinear glossing directly, because arithmetic equality transitivity ensures that
+            if a = b and b = c, it is also true that a = c.</p>
+        <p>We opted, though, for a more elegant approach. We created a sequence of the three values
+            and compared that, using the general comparison operator <code>!=</code>, to the average
+            of the three values. If any of the three values is not equal to the average (that is, if
+            the test for general nonequality succeeds), they are not all the same.</p>
+        <h4>Reporting</h4>
+        <p>To make it easier for the human to find the error, we used the Schematron
+                <code>&lt;value-of&gt;</code> element to report the space or hyphen counts for each
+            tier. It isn’t possible using this strategy to find the word where a mismatch in hyphens
+            occurs because we’re doing our counting on the level of the entire line, and not on a
+            word-by-word basis. We tackle that harder problem below.</p>
+        <h3>A more graceful solution</h3>
+        <p>Comparing the sequence of all values to the average of all values, which we do above,
+            works because only if all values are the same will every individual value be equal to
+            the average of all of the values. A more elegant approach, though, might just count the
+            number of distinct values:</p>
+        <pre>&lt;report test="count(distinct-values(($orthSpaces, $translitSpaces, $ilgSpaces))) eq 1"&gt;</pre>
+        <p>If the values are all the same, there will be only one distinct value.</p>
+        <h3>An enhanced solution: finding which individual word has mismatched hyphens</h3>
+        <p>Getting a word-level report is tricky because, since the individual words are not
+            independent nodes in the XML tree, it isn’t possible to set the value of the
+                <code>@context</code> element to point to them. We need, then, to continue to run
+            our tests on the level of entire sentences, and find some other way to do a word-by-word
+            test.</p>
+        <p>Happily, it is possible to declare the XSLT namespace in Schematron and use XSLT
+            features, including <code>&lt;xsl:function&gt;</code>, which lets us declare our own
+            function. We use that strategy to let our user-defined function
+                <code>djb:hyphenation()</code> generate a word-by-word result, which Schematron can
+            then use to output a more specific error report. Here is the code:</p>
+        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;schema xmlns="http://purl.oclc.org/dsdl/schematron"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" queryBinding="xslt2"&gt;
+    &lt;ns prefix="djb" uri="http://www.obdurodon.org"/&gt;
+    &lt;xsl:function name="djb:hyphenation" as="xs:boolean+"&gt;
+        &lt;xsl:param name="orthWords" as="xs:string+"/&gt;
+        &lt;xsl:param name="transWords" as="xs:string+"/&gt;
+        &lt;xsl:param name="ilgWords" as="xs:string+"/&gt;
+        &lt;xsl:for-each select="1 to count($orthWords)"&gt;
+            &lt;xsl:variable name="orthHyphens" as="xs:integer"
+                select="string-length($orthWords[current()]) - 
+                string-length(translate($orthWords[current()],'-',''))"/&gt;
+            &lt;xsl:variable name="transHyphens" as="xs:integer"
+                select="string-length($transWords[current()]) - 
+                string-length(translate($transWords[current()],'-',''))"/&gt;
+            &lt;xsl:variable name="ilgHyphens" as="xs:integer"
+                select="string-length($ilgWords[current()]) - 
+                string-length(translate($ilgWords[current()],'-',''))"/&gt;
+            &lt;xsl:sequence select="$orthHyphens eq $transHyphens and $orthHyphens eq $ilgHyphens"/&gt;
+        &lt;/xsl:for-each&gt;
+    &lt;/xsl:function&gt;
+    &lt;pattern&gt;
+        &lt;rule context="sentence"&gt;
+            &lt;let name="orthSpaces"
+                value="string-length(orth) - string-length(translate(orth,' ',''))"/&gt;
+            &lt;let name="translitSpaces"
+                value="string-length(translit) - string-length(translate(translit,' ',''))"/&gt;
+            &lt;let name="ilgSpaces" value="string-length(ilg) - string-length(translate(ilg,' ',''))"/&gt;
+            &lt;let name="orthWords" value="tokenize(orth,'\s+')"/&gt;
+            &lt;let name="transWords" value="tokenize(translit,'\s+')"/&gt;
+            &lt;let name="ilgWords" value="tokenize(ilg,'\s+')"/&gt;
+            &lt;let name="results" value="djb:hyphenation($orthWords,$transWords,$ilgWords)"/&gt;
+            &lt;report
+                test="($orthSpaces, $translitSpaces, $ilgSpaces) != 
+                    avg(($orthSpaces, $translitSpaces, $ilgSpaces))"
+                &gt;The spaces don’t match: orth (&lt;value-of select="$orthSpaces"/&gt;) ~ translit
+                    (&lt;value-of select="$translitSpaces"/&gt;) ~ ilg (&lt;value-of select="$ilgSpaces"
+                /&gt;)&lt;/report&gt;
+            &lt;report test="$results != true()"&gt;Word # &lt;value-of
+                    select="index-of($results,false())[1]"/&gt; doesn't match: "&lt;value-of
+                    select="$orthWords[index-of($results,false())[1]]"/&gt;" (orthographic, &lt;value-of
+                    select="string-length($orthWords[index-of($results,false())[1]]) - 
+                    string-length(translate($orthWords[index-of($results,false())[1]],'-',''))"
+                /&gt;) ~ "&lt;value-of select="$transWords[index-of($results,false())[1]]"/&gt;"
+                (transliterated, &lt;value-of
+                    select="string-length($transWords[index-of($results,false())[1]]) - 
+                    string-length(translate($transWords[index-of($results,false())[1]],'-',''))"
+                /&gt;) ~ "&lt;value-of select="$ilgWords[index-of($results,false())[1]]"/&gt;" (interlinear
+                gloss, &lt;value-of
+                    select="string-length($ilgWords[index-of($results,false())[1]]) - 
+                    string-length(translate($ilgWords[index-of($results,false())[1]],'-',''))"
+                /&gt;)&lt;/report&gt;
+        &lt;/rule&gt;
+    &lt;/pattern&gt;
+&lt;/schema&gt;</pre>
+        <h4>Checking spaces</h4>
+        <p>We use exactly the same strategy for checking spaces as we did in the simple solution,
+            above.</p>
+        <h4>Namespaces and using XSLT within Schematron</h4>
+        <p>User-defined functions have to be in a user-defined namespace, and we’ve used the URI
+                <q>http://www.obdurodon.org</q> as the namespace for our function and bound it to
+            the prefix <q>djb:</q>. Schematron does not support the general XML namespace
+            declaration syntax, so we have to use the Schematron-specific namespace declaration
+            syntax instead:</p>
+        <pre>&lt;ns prefix="djb" uri="http://www.obdurodon.org"/&gt;</pre>
+        <p>We also have to declare the XSLT namespace, which we do using the standard XML namespace
+            declaration syntax, writing:</p>
+        <pre>xmlns:xsl="http://www.w3.org/1999/XSL/Transform"</pre>
+        <p>inside the <code>&lt;schema&gt;</code> start tag. The reason we use the standard XML
+            namespace declaration syntax here is that this namespace declaration applies at a higher
+            level, at the stage where the processor has to sort out which parts of the page are in
+            the Schematron namespace and which are in the XSLT namespace, that is, while looking at
+            children of the root <code>&lt;schema&gt;</code> element. It deals with the
+                <code>djb</code> namespace at a deeper level, where the Schematron processor is able
+            to manage the namespace resolution.</p>
+        <h4>The <code>djb:hyphenation()</code> function</h4>
+        <p>This isn’t a general tutorial on writing your own XSLT functions (see the clear and
+            comprehensive write-up in the Michael Kay book for that), but the general way the
+            function works is that we break the three strings into words using the
+                <code>tokenize()</code> function and pass those three sequences of words into the
+            function, saving the output of the function in a variable we call
+            <code>$results</code></p>
+        <pre>&lt;let name="results" value="djb:hyphenation($orthWords,$transWords,$ilgWords)"/&gt;</pre>
+        <p>When the function returns, the <code>$results</code> variable will contain information
+            that we can use to determine the position in the sequence of words in which a discrepany
+            in hyphen count appears (see below).</p>
+        <p>The function iterates over the words in an <code>&lt;xsl:for-each&gt;</code> element,
+            calculates the number of hyphens in each word in corresponding positions in the three
+            tiers, and compares those three numbers (we used the two-part test with <code>and</code>
+            this time because it was more legible). The comparison returns (as the value of the
+                <code>&lt;xsl:sequence&gt;</code> element) a Boolean (<q>true</q> or <q>false</q>)
+            value depending on whether the counts of hyphens <em>in the same word position</em> in
+            the three tiers are all equal to one another. The function generates one Boolean value
+            for each word position in the sentence, and after it has examined all of the sets of
+            words, it returns a sequence of Boolean values to the Schematron rule, where, as we
+            noted above, it becomes the value of the <code>$results</code> variable.</p>
+        <p>If any value in the returned sequence is not equal to Boolean <code>true()</code>, the
+            Schematron report finds the position of the first <code>false()</code> value (using the
+            XPath <code>index-of()</code> function) and uses that position to find the specific
+            words, count the hyphens in those words on all three tiers, and output a report that
+            gives, for each tier, the tier identifier, the word, and the number of hyphens. The
+                <code>&lt;report&gt;</code> element is difficult to read because although Schematron
+            allows the use of the <code>&lt;let&gt;</code> element to create variables, it doesn’t
+            permit the creation of variables inside a <code>&lt;report&gt;</code> element. This
+            means that we can’t create convenience variables to hold our counts of string lengths
+            and hyphens, which would make our code easier to read, and we have to do all of the
+            measurement and arithmetic at once instead.</p>
+        <h4>Tightening our code</h4>
+        <p>After we wrote the Schematron above, which meets all of our requirements, we noticed that
+            inside the <code>djb:hyphenation()</code> function we perform the same computation three
+            times, with different input, to count the hyphens in each word. Furthermore, the
+            calculation itself is pretty verbose, and therefore hard to read. To make things more
+            legible, we refactored (revised) that part of our code, breaking the calculation out
+            into a separate <code>djb:countHyphens()</code> function that we could call three times.
+            And just to keep in practice we tried a different strategy for testing whether all three
+            counts were the same. Here’s the revised code, with the revisions highlighted:</p>
+        <pre>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;schema xmlns="http://purl.oclc.org/dsdl/schematron"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" queryBinding="xslt2"&gt;
+    &lt;ns prefix="djb" uri="http://www.obdurodon.org"/&gt;
+    &lt;xsl:function name="djb:hyphenation" as="xs:boolean+"&gt;
+        &lt;xsl:param name="orthWords" as="xs:string+"/&gt;
+        &lt;xsl:param name="transWords" as="xs:string+"/&gt;
+        &lt;xsl:param name="ilgWords" as="xs:string+"/&gt;
+        &lt;xsl:for-each select="1 to count($orthWords)"&gt;
+            <span class="pre-highlight">&lt;xsl:variable name="orthHyphens" as="xs:integer"
+                select="djb:countHyphens($orthWords[current()])"/&gt;
+            &lt;xsl:variable name="transHyphens" as="xs:integer"
+                select="djb:countHyphens($transWords[current()])"/&gt;
+            &lt;xsl:variable name="ilgHyphens" as="xs:integer"
+                select="djb:countHyphens($ilgWords[current()])"/&gt;
+            &lt;xsl:sequence
+                select="count(distinct-values(($orthHyphens, $transHyphens, $orthHyphens))) eq 1"/&gt;</span>
+        &lt;/xsl:for-each&gt;
+    &lt;/xsl:function&gt;
+    <span class="pre-highlight">&lt;xsl:function name="djb:countHyphens" as="xs:integer"&gt;
+        &lt;xsl:param name="word"/&gt;
+        &lt;xsl:variable name="length" as="xs:integer" select="string-length($word)"/&gt;
+        &lt;xsl:variable name="dehyphenatedLength" as="xs:integer"
+            select="string-length(translate($word,'-',''))"/&gt;
+        &lt;xsl:sequence select="$length - $dehyphenatedLength"/&gt;
+    &lt;/xsl:function&gt;</span>
+    &lt;pattern&gt;
+        &lt;rule context="sentence"&gt;
+            &lt;let name="orthSpaces"
+                value="string-length(orth) - string-length(translate(orth,' ',''))"/&gt;
+            &lt;let name="translitSpaces"
+                value="string-length(translit) - string-length(translate(translit,' ',''))"/&gt;
+            &lt;let name="ilgSpaces" value="string-length(ilg) - string-length(translate(ilg,' ',''))"/&gt;
+            &lt;let name="orthWords" value="tokenize(orth,'\s+')"/&gt;
+            &lt;let name="transWords" value="tokenize(translit,'\s+')"/&gt;
+            &lt;let name="ilgWords" value="tokenize(ilg,'\s+')"/&gt;
+            &lt;let name="results" value="djb:hyphenation($orthWords,$transWords,$ilgWords)"/&gt;
+            &lt;report
+                test="($orthSpaces, $translitSpaces, $ilgSpaces) != 
+                    avg(($orthSpaces, $translitSpaces, $ilgSpaces))"
+                &gt;The spaces don’t match: orth (&lt;value-of select="$orthSpaces"/&gt;) ~ translit
+                    (&lt;value-of select="$translitSpaces"/&gt;) ~ ilg (&lt;value-of select="$ilgSpaces"
+                /&gt;)&lt;/report&gt;
+            &lt;report test="$results != true()"&gt;Word # &lt;value-of
+                    select="index-of($results,false())[1]"/&gt; doesn't match: "&lt;value-of
+                    select="$orthWords[index-of($results,false())[1]]"/&gt;" (orthographic, &lt;value-of
+                    select="string-length($orthWords[index-of($results,false())[1]]) - 
+                    string-length(translate($orthWords[index-of($results,false())[1]],'-',''))"
+                /&gt;) ~ "&lt;value-of select="$transWords[index-of($results,false())[1]]"/&gt;"
+                (transliterated, &lt;value-of
+                    select="string-length($transWords[index-of($results,false())[1]]) - 
+                    string-length(translate($transWords[index-of($results,false())[1]],'-',''))"
+                /&gt;) ~ "&lt;value-of select="$ilgWords[index-of($results,false())[1]]"/&gt;" (interlinear
+                gloss, &lt;value-of
+                    select="string-length($ilgWords[index-of($results,false())[1]]) - 
+                    string-length(translate($ilgWords[index-of($results,false())[1]],'-',''))"
+                /&gt;)&lt;/report&gt;
+        &lt;/rule&gt;
+    &lt;/pattern&gt;
+&lt;/schema&gt;</pre>
+    </body>
+</html>
