@@ -9,7 +9,7 @@
         <xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/>
     </xsl:function>
     <xsl:template match="/">
-        <section title="schedule">
+        <section>
             <h1>Schedule</h1>
             <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                 all</button></p>
