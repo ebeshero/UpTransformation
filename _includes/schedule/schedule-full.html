@@ -585,15 +585,30 @@
                                     the arrow operator (<code>=&gt;</code>) here?</span>
                             </li>
                         </ol></li>
-                </ol></li><li>Introducing variables (30 minutes; 11:30 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Introducing variables (10 minutes; 11:30 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
-                    <li><code>FLWOR</code> variables: <code>for</code>, <code>let</code>,
-                            <code>where</code>, <code>order by</code>, <code>return</code></li>
-                    <li>The simplest <code>FLWOR</code>: <code>let</code> and <code>return</code>
-                        <ol>
-                            <li>Retrieve whole elements</li>
-                            <li>Retrieve only their text</li>
-                        </ol>
+                    <li>In eXist-db, keep the TEI namespace declaration line, and copy the following global variables:
+                    <ol>
+                        <li> <code>declare variable $Chas as document-node() := doc('/db/mitford/literary/Charles1.xml');</code>  
+                        </li>
+                        <li><code>declare variable $ChasPlay as element() := $Chas/*;</code></li>
+                        <li>Return the value of the variables by typing their names on the next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the difference in the data type declaration and in the results. The value after <code>as</code> could also be <code>xs:string</code> or <code>xs:integer()</code>.</li>
+                    </ol>
+                    </li>
+                </ol></li><li>Introducing FLWOR (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
+                        <code>where</code>, <code>order by</code>, <code>return</code></li>
+                    <li>The simplest <code>FLWOR</code>: <code>let</code> and <code>return</code></li>
+                    <li>Retrieve a sequence of whole elements:
+                    <ol>
+                        <li>
+                            <code>let $places := $Chas//tei:placeName</code>
+                        </li>
+                        <li>
+                            <code>return $places</code>
+                        </li>
+                        <li>How would you return only their text contents?  <button class="answer">Answer</button> <span class="answer"><code>$places/string()</code>, but notice the white space issues. Repair these with <code>return $places/normalize-space(string())</code></span></li>
+                    </ol>
                     </li>
                 </ol></li></ul></section>
         <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
