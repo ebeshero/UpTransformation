@@ -1126,6 +1126,8 @@
                                         <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</link></answer></example>
                             <example>Enhanced solution
                                         <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</link></answer></example>
+                            <example>Finding which word has a hyphen misalignment
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-enhanced.html</link></answer></example>
                         </examples></item>
                     <item>Whitespace normalization<examples>
                             <example>Require it in the XML? (Relax NG, Schematron)</example>
@@ -1133,8 +1135,7 @@
                             <example>Schematron</example>
                         </examples>
                     </item>
-                    <item>Finding which word has a hyphen misalignment:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-enhanced.html</link></item>
+
                 </details>
             </act>
             <act time="PT40M">
