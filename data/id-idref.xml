@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="id-idref.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <header>
+        <provenance>Sample created for DHSI 2018</provenance>
+        <persons>
+            <person xml:id="djb">
+                <name>David J. Birnbaum</name>
+                <affiliation>University of Pittsburgh</affiliation>
+                <animal>obdurodon</animal>
+            </person>
+            <person xml:id="ebb">
+                <name>Elisa Beshero Bondar</name>
+                <affiliation>University of Pittsburgh, Greensburg</affiliation>
+                <animal>newt</animal>
+            </person>
+        </persons>
+        <events>
+            <event xml:id="dhsi">
+                <title>Digital Humanities Summer Institute</title>
+                <location>University of Victoria, Victoria, BC</location>
+            </event>
+        </events>
+    </header>
+    <text>
+        <date>2018-06-14</date>
+        <salutation>Dear <persName ref="ebb">Elisa</persName>,</salutation>
+        <body>
+            <p>Welcome to <eventName ref="dhsi">DHSI</eventName>!</p>
+        </body>
+        <closing>
+            <valediction>Sincerely,</valediction>
+            <signature>
+                <persName ref="djb">David</persName>
+            </signature>
+        </closing>
+    </text>
+</letter>
