@@ -905,8 +905,38 @@
                     <li>Solution (no peeking!)
                                  <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
                 </ol></li></ul></section>
-        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>Lab session (sample materials provided, or work with your own data), part
-                    1 (70 minutes; 1:30 p.m.–2:40 p.m.) </li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Lab session (sample materials provided, or work with your own data), part
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>Validating with ID/IDREF (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Files<ol>
+                            <li>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.xml</li>
+                            <li>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.rnc</li>
+                        </ol></li>
+                    <li>Details<ol>
+                            <li>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
+                                    <code>xsd:IDREFS</code></li>
+                            <li>Lexical space: NCName (begin with letter or underscore, may
+                                contain letters, digits, underscores, hyphens, periods)
+                                (simplified)</li>
+                            <li><code>xsd:ID</code> must be unique in the document</li>
+                            <li>Validates by exact string matching</li>
+                            <li>Validates only within the same file</li>
+                            <li>No subcategory support (e.g., person can only match a
+                                person)</li>
+                        </ol></li>
+                    <li>Desiderata<ol>
+                            <li>Validation against external (remote) files</li>
+                            <li>Subcategory support</li>
+                        </ol></li>
+                </ol></li><li>Exploring the Digital Mitford site index (40 minutes; 2:00 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Project site: <a href="http://digitalmitford.org">http://digitalmitford.org</a></li>
+                    <li>Site index<ol>
+                            <li>Local:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</li>
+                            <li>Remote: http://digitalmitford.org/si.xml</li>
+                        </ol></li>
+                    <li>Validating references and pointers <ol>
+                            <li>ID/IDREF example:</li>
+                        </ol></li>
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Lab session (sample materials provided, or work with your own data), part
                     2 (70 minutes; 2:50 p.m.–4:00 p.m.) </li></ul></section>
     </section>
     <section>

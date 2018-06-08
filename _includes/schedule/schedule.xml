@@ -1168,9 +1168,44 @@
         </slot>
         <slot time="13:30:00">
             <title>Schematron and external files</title>
-            <act time="PT1H10M">
-                <desc>Lab session (sample materials provided, or work with your own data), part
-                    1</desc>
+            <act time="PT30M">
+                <desc>Validating with ID/IDREF</desc>
+                <details>
+                    <item>Files<examples>
+                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.xml</example>
+                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.rnc</example>
+                        </examples></item>
+                    <item>Details<examples>
+                            <example>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
+                                    <code>xsd:IDREFS</code></example>
+                            <example>Lexical space: NCName (begin with letter or underscore, may
+                                contain letters, digits, underscores, hyphens, periods)
+                                (simplified)</example>
+                            <example><code>xsd:ID</code> must be unique in the document</example>
+                            <example>Validates by exact string matching</example>
+                            <example>Validates only within the same file</example>
+                            <example>No subcategory support (e.g., person can only match a
+                                person)</example>
+                        </examples></item>
+                    <item>Desiderata<examples>
+                            <example>Validation against external (remote) files</example>
+                            <example>Subcategory support</example>
+                        </examples></item>
+                </details>
+            </act>
+            <act time="PT40M">
+                <desc>Exploring the Digital Mitford site index</desc>
+                <details>
+                    <item>Project site: <link>http://digitalmitford.org</link></item>
+                    <item>Site index<examples>
+                            <example>Local:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</example>
+                            <example>Remote: http://digitalmitford.org/si.xml</example>
+                        </examples></item>
+                    <item>Validating references and pointers <examples>
+                            <example>ID/IDREF example:</example>
+                        </examples></item>
+                </details>
             </act>
             <act time="PT10M">
                 <desc>Break</desc>
