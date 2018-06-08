@@ -1083,7 +1083,7 @@
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT45M">
+            <act time="PT1H">
                 <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
                 <details>
                     <item>One more way of counting spaces and hyphens<examples>
@@ -1122,28 +1122,34 @@
                                     $c))</code></example>
                             <example>Count distinct values: <code>count(distinct-values($a, $b, $c))
                                     eq 1</code></example>
-                            <example>Simple solution
-                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</link></answer></example>
-                            <example>Enhanced solution
-                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</link></answer></example>
-                            <example>Finding which word has a hyphen misalignment
-                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-enhanced.html</link></answer></example>
                         </examples></item>
                     <item>Whitespace normalization<examples>
-                            <example>Require it in the XML? (Relax NG, Schematron)</example>
-                            <example>Manage it inside tier-comparison</example>
-                            <example>Schematron</example>
+                            <example>Require it in the XML? (Relax NG, Schematron) <answer><code>.
+                                        eq normalize-space(.)</code></answer></example>
+                            <example>Manage it inside tier-comparison
+                                        <answer><code>normalize-space(.)</code>;
+                                        <code>tokenize(.,'\s+')</code></answer></example>
                         </examples>
                     </item>
-
+                    <item>Solutions<examples>
+                            <example>Simple
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</link></answer></example>
+                            <example>Enhanced
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</link></answer></example>
+                            <example>Finding which word has a hyphen misalignment
+                                        <answer><link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</link></answer></example>
+                        </examples></item>
                 </details>
             </act>
-            <act time="PT40M">
-                <desc>Grouping; looping over distinct values, mapping back to the tree</desc>
+            <act time="PT25M">
+                <desc>The Three Stooges go to Schematron Summer Camp</desc>
+                <details>
+                    <item/>
+                </details>
             </act>
         </slot>
         <slot time="13:30:00">
-            <title>Writing Schematron with XPath function</title>
+            <title>Schematron and external files</title>
             <act time="PT1H10M">
                 <desc>Lab session (sample materials provided, or work with your own data), part
                     1</desc>
