@@ -1144,18 +1144,21 @@
             <act time="PT25M">
                 <desc>The Three Stooges go to Schematron Summer Camp</desc>
                 <details>
-                    <item>The Edge Case Saloon: “QA Engineer walks into a bar. Orders a beer. Orders
-                        0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a
-                        sfdeljknesv.” More at
-                        <link>https://www.sempf.net/post/On-Testing1</link></item>
+                    <item>The Edge Case Saloon<examples>
+                            <example>“QA Engineer walks into a bar. Orders a beer. Orders 0 beers.
+                                Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a
+                                sfdeljknesv.”</example>
+                            <example><link>https://www.sempf.net/post/On-Testing1</link></example>
+                        </examples></item>
                     <item>Best Stooge Ever contest results:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.xml</link></item>
                     <item>Hands on validation tasks<examples>
-                            <example>All stooges must have vote percentages</example>
+                            <example>All stooges must have percentages (no empty
+                                    <code>&lt;stooge&gt;</code> elements)</example>
                             <example>Percentages total 100</example>
-                            <example>Votes range from 0 through 100</example>
-                            <example>Exactly three stooges</example>
-                            <example>Stooge names are unique</example>
+                            <example>Individual votes range from 0 through 100, inclusive</example>
+                            <example>There are exactly three stooges!</example>
+                            <example>No duplicate stooges!</example>
                         </examples></item>
                     <item>Solution (no peeking!)
                                 <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
