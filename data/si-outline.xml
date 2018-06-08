@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body>
+    <div type="Mitford_Team">
+        <listPerson sortKey="Mitford_Team"/> 
+        <listOrg sortKey="archives"/> 
+    </div>
+    <div type="Past_Editors">
+        <listPerson sortKey="Past_Assistants"/> 
+        <listPerson sortKey="Past_Editors"/> 
+    </div>
+    <div type="historical_people">
+        <listOrg sortKey="histOrgs"/> 
+        <listPerson sortKey="histPersons"/> 
+    </div>
+    <div type="fictional_and_archetypal">
+        <listOrg sortKey="fictOrgs"/> 
+        <listPerson sortKey="archPersons"/> 
+        <listPerson sortKey="fictPersons"/> 
+        <listOrg sortKey="archOrgs"/> 
+    </div>
+    <div type="places">
+        <listPlace sortKey="histPlaces"/> 
+        <listPlace sortKey="fictPlaces"/> 
+    </div>
+    <div type="nature">
+        <list sortKey="animals"/> 
+        <list sortKey="plants"/> 
+    </div>
+    <div type="events">
+        <listEvent sortKey="histEvents"/> 
+    </div>
+    <div type="art">
+        <list sortKey="art"/> 
+    </div>
+    <div type="publications">
+        <listBibl sortKey="ref_19thc"/> 
+        <listBibl sortKey="per_19thc"/> 
+        <listBibl sortKey="literary/"> </listBibl>
+        <listBibl sortKey="MRM_Schol"/> 
+        <listBibl sortKey="other_current_Schol"/> 
+    </div>
+</body>
