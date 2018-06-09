@@ -870,10 +870,16 @@
                 <desc>Break</desc>
             </act>
             <act time="PT50M">
-                <desc><code>FLWOR</code> statements: how <code>for</code> works</desc>
+                <desc><code>FLWOR</code>statements in XQuery: how <code>for</code> works</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
-                    <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
+                    <item>Next, we try  in XQuery <code>for $i in $YourSequenceVariable</code> and iterative returns. Go back to eXist-db to continue writing our FLWOR on <emph>Charles the First</emph> and the Digital Mitford site index. We will find each distinct place reference in <emph>Charles the First</emph>  and look up its counterpart in the <code>&lt;place&gt;</code> entries in the site index. 
+                    <examples>
+                        <example>First, we want a list of distinct values of the <code>@ref</code> attributes on <code>placeName</code> elements. Define and test the variable. <answer><code>let $distChPRs := distinct-values($ChasPlaceRefs)</code></answer></example>
+                        <example>Now, we want to <emph>loop through</emph> each of these distinct values, to help us look at each one and evaluate it to find matching site index entries. In XQuery we first set up the loop in its own <code>for</code> statement. Later on, we will write a <code>return</code> line afterwards, after doing some work with the range variable (<code>$i</code>). <answer><code>for $i in $distChPRs</code></answer> </example>
+                        <example>How will we find where each member of our loop matches a corresponding entry with its <code>@xml:id</code> in the site index? Note that <code>@ref</code> attributes begin with a leading <code>#</code> that is missing in the site index <code>@xml:id</code> values. <answer><code>let $siCPrs := $si//tei:place[@xml:id = substring-after($i, '#')]</code></answer></example>
+                    </examples>
+                    </item>       
                     <item>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</item>
