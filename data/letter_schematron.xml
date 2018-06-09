@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="letter_schematron.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="letter_schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<letter>
+    <header>
+        <title>Sample file for ID/IDREF validation</title>
+        <provenance>Sample created for DHSI 2018</provenance>
+    </header>
+    <text>
+        <date>2018-06-14</date>
+        <salutation>Dear <persName ref="#ebb">Elisa</persName>,</salutation>
+        <body>
+            <p>Welcome to <eventName ref="#dhsi">DHSI</eventName>!</p>
+        </body>
+        <closing>
+            <valediction>Sincerely,</valediction>
+            <signature>
+                <persName ref="#djb">David</persName>
+            </signature>
+        </closing>
+    </text>
+</letter>

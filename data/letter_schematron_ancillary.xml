@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="letter_schematron_ancillary.rnc" type="application/relax-ng-compact-syntax"?>
+<references>
+    <persons>
+        <person xml:id="djb">
+            <name>David J. Birnbaum</name>
+            <affiliation>University of Pittsburgh</affiliation>
+            <animal>obdurodon</animal>
+        </person>
+        <person xml:id="ebb">
+            <name>Elisa Beshero Bondar</name>
+            <affiliation>University of Pittsburgh, Greensburg</affiliation>
+            <animal>newt</animal>
+        </person>
+    </persons>
+    <events>
+        <event xml:id="dhsi">
+            <title>Digital Humanities Summer Institute</title>
+            <location>University of Victoria, Victoria, BC</location>
+        </event>
+    </events>
+</references>
