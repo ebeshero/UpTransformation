@@ -622,34 +622,80 @@
                     </li>
                 </ol></li></ul></section>
         <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li> Work in eXist-db in the same file we started before the break and delete only the <code>return</code> line. let’s keep adding to it. Use variables and <code>FLWOR</code> statements to define and retrieve the following: 
-                    <ol>
-                        <li>
-                            Define a global variable pointing to the Digital Mitford site index document, posted in eXist at <code>/db/mitford/si.xml</code> or the official version at its external location:<code>http://digitalmitford.org/si.xml</code>. Hint: Global variables need to be defined before <code>FLWOR</code> statements.  <button class="answer">Answer</button> <span class="answer"><code>declare variable $si as document-node() := doc('/db/mitford/si.xml');</code> or <code>declare variable $si as document-node() := doc('http://digitalmitford.org/si.xml');</code> The new global variable must be added before the first <code>let</code> statement.</span>  
-                        </li>
-                        <li>Write a variable (either global or in <code>let</code> form) that locates all of the <code>place</code> elements in the site index document. Use the variable you just defined for the si.xml document in your expression.  <button class="answer">Answer</button> <span class="answer"><code>let $siPlaces := $si//tei:place</code> or as a global variable above the first let statement and after the variable defining the si.xml document: <code>declare variable $siPlaces := $si//tei:place;</code>. </span></li> 
-                        <li>For housekeeping purposes, rename the variable <code>$places</code> (that we defined earlier to retrieve <code>$Chas//tei:placeName</code>): Call it <code>$Chasplaces</code>.</li>  
-                        <li>Define a new variable to retrieve the values of the <code>@ref</code> on those <code>$Chasplaces</code> <button class="answer">Answer</button> <span class="answer">Don’t forget the <code>string()</code> to return the attribute value: <code>let $ChasPlaceRefs := $Chasplaces/@ref/string()</code></span></li>
-                        <li>How would you rewrite the last XPath Scavenger Hunt solution as a  <code>let</code> statement in this XQuery? (find references to "CharlesI_MRMplay" in the site index):  <button class="answer">Answer</button> <span class="answer">let $siChasRefs := $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</span> </li>
-                        
-                    </ol>
-                    </li>
-                </ol></li><li>XPath <code>for</code> loops; sequence and range variables
-                    (&lt;oXygen/&gt;) (30 minutes; 2:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>for $i in (sequence) return ...</code></li>
-                    <li>Practice examples in &lt;oXygen/&gt; <ol>
-                            <li>Use XPath builder window: for each of a set of attributes,
-                                return something associated with each one.</li>
+                    <li> Work in eXist-db in the same file we started before the break and delete
+                        only the <code>return</code> line. let’s keep adding to it. Use variables
+                        and <code>FLWOR</code> statements to define and retrieve the following: <ol>
+                            <li> Define a global variable pointing to the Digital Mitford site
+                                index document, posted in eXist at <code>/db/mitford/si.xml</code>
+                                or the official version at its external
+                                    location:<code>http://digitalmitford.org/si.xml</code>. Hint:
+                                Global variables need to be defined before <code>FLWOR</code>
+                                statements.  <button class="answer">Answer</button> <span class="answer"><code>declare variable $si as document-node() :=
+                                        doc('/db/mitford/si.xml');</code> or <code>declare variable
+                                        $si as document-node() :=
+                                        doc('http://digitalmitford.org/si.xml');</code> The new
+                                    global variable must be added before the first <code>let</code>
+                                    statement.</span>
+                            </li>
+                            <li>Write a variable (either global or in <code>let</code> form)
+                                that locates all of the <code>place</code> elements in the site
+                                index document. Use the variable you just defined for the si.xml
+                                document in your expression.  <button class="answer">Answer</button> <span class="answer"><code>let $siPlaces :=
+                                        $si//tei:place</code> or as a global variable above the
+                                    first let statement and after the variable defining the si.xml
+                                    document: <code>declare variable $siPlaces :=
+                                        $si//tei:place;</code>. </span></li>
+                            <li>For housekeeping purposes, rename the variable
+                                    <code>$places</code> (that we defined earlier to retrieve
+                                    <code>$Chas//tei:placeName</code>): Call it
+                                    <code>$Chasplaces</code>.</li>
+                            <li>Define a new variable to retrieve the values of the
+                                    <code>@ref</code> on those <code>$Chasplaces</code> <button class="answer">Answer</button> <span class="answer">Don’t
+                                    forget the <code>string()</code> to return the attribute value:
+                                        <code>let $ChasPlaceRefs :=
+                                    $Chasplaces/@ref/string()</code></span></li>
+                            <li>How would you rewrite the last XPath Scavenger Hunt solution as
+                                a <code>let</code> statement in this XQuery? (find references to
+                                "CharlesI_MRMplay" in the site index):  <button class="answer">Answer</button> <span class="answer">let $siChasRefs :=
+                                    $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</span>
+                            </li>
+                            
                         </ol>
                     </li>
-
-                </ol></li><li>Break (10 minutes; 2:30 p.m.–2:40 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (40 minutes; 2:40 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Review XPath <code>for</code> loops; sequence and range variables
+                    (&lt;oXygen/&gt;) (20 minutes; 2:00 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
+                            ("Curly", "Larry", "Moe") return concat($i, " is a
+                        Stooge!")</code></li>
+                    <li>Can we write it as a simple map (with !)?  <button class="answer">Answer</button> <span class="answer"><code>("Curly", "Larry",
+                                "Moe") ! concat(., " is a Stooge!")</code></span>
+                    </li>
+                    <li>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
+                            <code>http://digitalmitford.org/si.xml</code> . Try finding out the
+                        following in the &lt;oXygen/&gt; XPath Builder: <ol>
+                            <li>Find each person we have listed as born in Scotland in the site
+                                index. Notice that sometimes place names are stored inside the
+                                    <code>&lt;birth&gt;</code> elements.  <button class="answer">Answer</button> <span class="answer"><code>for $i in
+                                        //person[contains(birth, "Scotland")] return $i</code>. You
+                                    should return 28 <code>&lt;person&gt;</code>
+                                entries.</span></li>
+                            <li>Now, modify that example to return the <code>@xml:id</code>,
+                                (or anything else you want to find out about the person elements):
+                                     <button class="answer">Answer</button> <span class="answer">For the <code>@xml:id</code>: <code>for $i in
+                                        //person[contains(birth, "Scotland")] return
+                                        $i/@xml:id</code>. Notice, we don’t need the
+                                        <code>string()</code> function after the @xml:id in the
+                                    &lt;oXygen/&gt; XPath builder vew, though it isn’t wrong to use
+                                    it.</span></li>
+                        </ol>
+                    </li>
+                </ol></li><li>Break (10 minutes; 2:20 p.m.–2:30 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (50 minutes; 2:30 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
-                    <li>The <code>$pos</code> variable: <code>for $i at $pos in
-                            $YourSequenceVariable</code></li>
                     <li>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</li>
+                    <li>The <code>$pos</code> variable: <code>for $i at $pos in
+                            $YourSequenceVariable</code></li>
                     <li>Adding <code>where</code> in a <code>for-loop</code> to limit the
                         returns</li>
                     <li>Which is more efficient in XQuery: a predicate or <code>where</code>?
@@ -775,33 +821,28 @@
                             <code>&lt;rule&gt;</code> → <code>&lt;assert&gt;</code> or
                             <code>&lt;report&gt;</code></li>
                 </ol></li><li>Looking at Schematron (30 minutes; 9:15 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Open each of the following URLs in &lt;oXygen/&gt; (select, copy, Ctrl+u
-                        (Windows) or Cmd+u (MacOS)<ol>
-                            <li>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<ol>
-                                    <li><code>&lt;start&gt;</code> shouldn’t be greater than
-                                            <code>&lt;end&gt;</code></li>
-                                    <li><code>&lt;issue&gt;</code> is optional, but we could
-                                        omit it by mistake</li>
-                                    <li><code>&lt;initial&gt;</code> should usually be one
-                                        letter</li>
-                                    <li>Apostrophes and quotation marks should usually be curly
-                                        (“, ”, ‘, ’), not straight (', ")</li>
-                                </ol></li>
-                            <li>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<ol>
-                                    <li><code>&lt;volume&gt;</code>,
-                                        <code>&lt;issue&gt;</code>, <code>&lt;year&gt;</code>,
-                                            <code>&lt;start&gt;</code>, and <code>&lt;end&gt;</code>
-                                        must be positive integers</li>
-                                    <li><code>&lt;year&gt;</code> must be exactly four
-                                        digits</li>
-                                    <li><code>&lt;issue&gt;</code> is optional</li>
-                                </ol></li>
-                            <li>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<ol>
-                                    <li>Anatomy of a schematron rule</li>
-                                    <li>Validating start and end pages</li>
-                                    <li>Validating apostrophes and quotation marks (text, not
-                                        markup)</li>
-                                </ol></li>
+                    <li>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<ol>
+                            <li><code>&lt;start&gt;</code> shouldn’t be greater than
+                                    <code>&lt;end&gt;</code></li>
+                            <li><code>&lt;issue&gt;</code> is optional, but we could omit it by
+                                mistake</li>
+                            <li><code>&lt;initial&gt;</code> should usually be one
+                                letter</li>
+                            <li>Apostrophes and quotation marks should usually be curly (“, ”,
+                                ‘, ’), not straight (', ")</li>
+                        </ol></li>
+                    <li>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<ol>
+                            <li><code>&lt;volume&gt;</code>, <code>&lt;issue&gt;</code>,
+                                    <code>&lt;year&gt;</code>, <code>&lt;start&gt;</code>, and
+                                    <code>&lt;end&gt;</code> must be positive integers</li>
+                            <li><code>&lt;year&gt;</code> must be exactly four digits</li>
+                            <li><code>&lt;issue&gt;</code> is optional</li>
+                        </ol></li>
+                    <li>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<ol>
+                            <li>Anatomy of a schematron rule</li>
+                            <li>Validating start and end pages</li>
+                            <li>Validating apostrophes and quotation marks (text, not
+                                markup)</li>
                         </ol></li>
                     <li>Associating Schematron with XML</li>
                 </ol></li><li>Schematron error reporting (20 minutes; 9:45 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
@@ -810,7 +851,7 @@
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</li>
                     <li>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</li>
-                    <li>Generate warnings as well as errors:
+                    <li>Generate warnings as well as errors with <code>@role</code>:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</li>
                 </ol></li><li>XPath functions practice: Leipzig glossing rules, part 1 (20 minutes; 10:05 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Document analysis:
@@ -830,59 +871,46 @@
                                                 three') - string-length(translate('one two three', '
                                                 ', ''))</code></span></li>
                                     <li><code>tokenize()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"><sup>⬀</sup></a>
-                                         <button class="answer">Answer</button> <span class="answer"><code>count(tokenize('one two three', '
-                                            '))</code></span></li>
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(tokenize('one two three', ' '))</code>
+                                            or <code>tokenize( ('Curly Larry Moe') ,'\s+') =&gt;
+                                                count()</code></span></li>
                                 </ol></li>
                         </ol></li>
-                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XPath functions practice: Leipzig glossing rules, part 2 (60 minutes; 10:35 a.m.–11:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>One more way of counting spaces and hyphens<ol>
-                            <li>1) Explode the string, 2) find the index values of the space
-                                characters, and 3) count them</li>
-                            <li>Explode the string: <code>string-to-codepoints()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"><sup>⬀</sup></a>, <code>codepoints-to-string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"><sup>⬀</sup></a><ol>
-                                    <li><code>for $c in string-to-codepoints('one two three')
-                                            return codepoints-to-string($c)</code></li>
-                                </ol></li>
-                            <li>Find the index values of the spaces: <code>index-of()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-index-of"><sup>⬀</sup></a><ol>
-                                    <li><code>index-of(('a', 'b', 'c', 'b', 'a'),
-                                        'a')</code></li>
-                                </ol></li>
-                            <li>Count them: <code>count(index-of(for $c in
-                                    string-to-codepoints('one two three') return
-                                    codepoints-to-string($c), ' '))</code></li>
-                            <li>Make it legible: <code>string-to-codepoints('one two three') !
-                                    codepoints-to-string(.) =&gt; index-of(' ') =&gt;
-                                count()</code></li>
-                        </ol>
-                    </li>
+                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XPath functions practice: Leipzig glossing rules, part 2 (40 minutes; 10:35 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Comparing three things <ol>
                             <li>Three-way test not available in XPath<ol>
                                     <li><code>$a eq $b eq $c</code></li>
                                     <li><code>$a lt $b lt $c</code></li>
                                 </ol></li>
-                            <li>Composite expression: <code>$a eq $b and $b eq
-                                $c</code></li>
-                            <li>Compare to average value: <code>($a, $b, $c) != avg(($a, $b,
-                                    $c))</code></li>
-                            <li>Count distinct values: <code>count(distinct-values($a, $b, $c))
-                                    eq 1</code></li>
+                            <li>What is available <ol>
+                                    <li>Composite expression: <code>$a eq $b and $b eq
+                                            $c</code></li>
+                                    <li>Compare to average value: <code>($a, $b, $c) !=
+                                            avg(($a, $b, $c))</code></li>
+                                    <li>Count distinct values<ol>
+                                            <li><code>count(distinct-values(($a, $b, $c))) eq
+                                                  1</code></li>
+                                            <li><code>distinct-values(($a, $b, $c)) =&gt; count()
+                                                  eq 1</code></li>
+                                        </ol></li>
+                                </ol></li>
                         </ol></li>
                     <li>Whitespace normalization<ol>
                             <li>Require it in the XML? (Relax NG, Schematron)  <button class="answer">Answer</button> <span class="answer"><code>.
                                         eq normalize-space(.)</code></span></li>
                             <li>Manage it inside tier-comparison
-                                         <button class="answer">Answer</button> <span class="answer"><code>normalize-space(.)</code>;
-                                        <code>tokenize(.,'\s+')</code></span></li>
+                                         <button class="answer">Answer</button> <span class="answer"><code>normalize-space(.)</code></span></li>
                         </ol>
                     </li>
                     <li>Solutions<ol>
                             <li>Simple
-                                         <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</a></span></li>
+                                     <button class="answer">Answer</button> <span class="answer">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</span></li>
                             <li>Enhanced
-                                         <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</a></span></li>
+                                     <button class="answer">Answer</button> <span class="answer">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</span></li>
                             <li>Finding which word has a hyphen misalignment
                                          <button class="answer">Answer</button> <span class="answer"><a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</a></span></li>
                         </ol></li>
-                </ol></li><li>The Three Stooges go to Schematron Summer Camp (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>The Three Stooges go to Schematron Summer Camp (25 minutes; 11:15 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The Edge Case Saloon<ol>
                             <li>“QA Engineer walks into a bar. Orders a beer. Orders 0 beers.
                                 Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a
@@ -902,13 +930,35 @@
                         </ol></li>
                     <li>Solution (no peeking!)
                                  <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
+                </ol></li><li>One more way of counting spaces and hyphens (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+
+                    <li>Explode the string<ol>
+                            <li><code>string-to-codepoints()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"><sup>⬀</sup></a>, <code>codepoints-to-string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"><sup>⬀</sup></a></li>
+                            <li><code>for $c in string-to-codepoints('one two three') return
+                                    codepoints-to-string($c)</code></li>
+                        </ol>
+                    </li>
+                    <li>Find the index values of the spaces<ol>
+                            <li><code>index-of()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-index-of"><sup>⬀</sup></a></li>
+                            <li><code>index-of(('a', 'b', 'c', 'b', 'a'), 'a')</code></li>
+                        </ol></li>
+                    <li>Count them<ol>
+                            <li><code>count(index-of(for $c in string-to-codepoints('one two
+                                    three') return codepoints-to-string($c), ' '))</code></li>
+                        </ol></li>
+                    <li>Make it legible<ol>
+                            <li><code>string-to-codepoints('one two three') !
+                                    codepoints-to-string(.) =&gt; index-of(' ') =&gt;
+                                count()</code></li>
+                        </ol></li>
                 </ol></li></ul></section>
-        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (40 minutes; 1:30 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (35 minutes; 1:30 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
                                 https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</li>
                             <li>Schema:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_ id-idref.rnc</li>
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_
+                                id-idref.rnc</li>
                             <li>Transformed:
                                     <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</a></li>
                         </ol></li>
@@ -934,17 +984,16 @@
                             <li>Validation against external (remote) files</li>
                             <li>Subcategory support</li>
                         </ol></li>
-                    <li/>
-                </ol></li><li>Schematron validation (20 minutes; 2:10 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Files<ol>
-                            <li>Instance:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</li>
-                            <li>Relax NG:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</li>
-                            <li>Schematron:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch</li>
-                        </ol></li>
-                </ol></li><li>Exploring the Digital Mitford site index (10 minutes; 2:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Schematron validation (35 minutes; 2:05 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Instance:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</li>
+                    <li>Relax NG:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</li>
+                    <li>Ancillary:
+                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</li>
+                    <li>Schematron
+                             <button class="answer">Answer</button> <span class="answer">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch</span></li>
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Exploring the Digital Mitford site index (70 minutes; 2:50 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Project site: <a href="http://digitalmitford.org">http://digitalmitford.org</a></li>
                     <li>Site index<ol>
                             <li>Local:
@@ -954,8 +1003,7 @@
                     <li>Validating references and pointers <ol>
                             <li>ID/IDREF example:</li>
                         </ol></li>
-                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Lab session (sample materials provided, or work with your own data), part
-                    2 (70 minutes; 2:50 p.m.–4:00 p.m.) </li></ul></section>
+                </ol></li></ul></section>
     </section>
     <section>
         <h2>Friday, June 15: Taking stock</h2>
