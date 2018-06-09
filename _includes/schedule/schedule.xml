@@ -1060,33 +1060,28 @@
             <act time="PT30M">
                 <desc>Looking at Schematron</desc>
                 <details>
-                    <item>Open each of the following URLs in &lt;oXygen/&gt; (select, copy,
-                        Ctrl+u/Cmd+u, paste)<examples>
-                            <example>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
-                                    <example><code>&lt;start&gt;</code> shouldn’t be greater than
-                                            <code>&lt;end&gt;</code></example>
-                                    <example><code>&lt;issue&gt;</code> is optional, but we could
-                                        omit it by mistake</example>
-                                    <example><code>&lt;initial&gt;</code> should usually be one
-                                        letter</example>
-                                    <example>Apostrophes and quotation marks should usually be curly
-                                        (“, ”, ‘, ’), not straight (', ")</example>
-                                </examples></example>
-                            <example>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<examples>
-                                    <example><code>&lt;volume&gt;</code>,
-                                        <code>&lt;issue&gt;</code>, <code>&lt;year&gt;</code>,
-                                            <code>&lt;start&gt;</code>, and <code>&lt;end&gt;</code>
-                                        must be positive integers</example>
-                                    <example><code>&lt;year&gt;</code> must be exactly four
-                                        digits</example>
-                                    <example><code>&lt;issue&gt;</code> is optional</example>
-                                </examples></example>
-                            <example>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<examples>
-                                    <example>Anatomy of a schematron rule</example>
-                                    <example>Validating start and end pages</example>
-                                    <example>Validating apostrophes and quotation marks (text, not
-                                        markup)</example>
-                                </examples></example>
+                    <item>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
+                            <example><code>&lt;start&gt;</code> shouldn’t be greater than
+                                    <code>&lt;end&gt;</code></example>
+                            <example><code>&lt;issue&gt;</code> is optional, but we could omit it by
+                                mistake</example>
+                            <example><code>&lt;initial&gt;</code> should usually be one
+                                letter</example>
+                            <example>Apostrophes and quotation marks should usually be curly (“, ”,
+                                ‘, ’), not straight (', ")</example>
+                        </examples></item>
+                    <item>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<examples>
+                            <example><code>&lt;volume&gt;</code>, <code>&lt;issue&gt;</code>,
+                                    <code>&lt;year&gt;</code>, <code>&lt;start&gt;</code>, and
+                                    <code>&lt;end&gt;</code> must be positive integers</example>
+                            <example><code>&lt;year&gt;</code> must be exactly four digits</example>
+                            <example><code>&lt;issue&gt;</code> is optional</example>
+                        </examples></item>
+                    <item>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<examples>
+                            <example>Anatomy of a schematron rule</example>
+                            <example>Validating start and end pages</example>
+                            <example>Validating apostrophes and quotation marks (text, not
+                                markup)</example>
                         </examples></item>
                     <item>Associating Schematron with XML</item>
                 </details>
@@ -1099,7 +1094,7 @@
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</item>
                     <item>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</item>
-                    <item>Generate warnings as well as errors:
+                    <item>Generate warnings as well as errors with <code>@role</code>:
                         https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</item>
                 </details>
             </act>
@@ -1137,7 +1132,7 @@
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT1H">
+            <act time="PT40M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
                 <details>
                     <item>Comparing three things <examples>
@@ -1162,8 +1157,7 @@
                             <example>Require it in the XML? (Relax NG, Schematron) <answer><code>.
                                         eq normalize-space(.)</code></answer></example>
                             <example>Manage it inside tier-comparison
-                                        <answer><code>normalize-space(.)</code> or
-                                        <code>tokenize(.,'\s+')</code></answer></example>
+                                        <answer><code>normalize-space(.)</code></answer></example>
                         </examples>
                     </item>
                     <item>Solutions<examples>
@@ -1174,32 +1168,6 @@
                             <example>Finding which word has a hyphen misalignment
                                         <answer><link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</link></answer></example>
                         </examples></item>
-                    <item>One more way of counting spaces and hyphens<examples>
-                            <example>1) Explode the string, 2) find the index values of the space
-                                characters, and 3) count them</example>
-                            <example>Explode the string: <code
-                                    url="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"
-                                    >string-to-codepoints()</code>, <code
-                                    url="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"
-                                    >codepoints-to-string()</code><examples>
-                                    <example><code>for $c in string-to-codepoints('one two three')
-                                            return codepoints-to-string($c)</code></example>
-                                </examples></example>
-                            <example>Find the index values of the spaces: <code
-                                    url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
-                                    >index-of()</code><examples>
-                                    <example><code>index-of(('a', 'b', 'c', 'b', 'a'),
-                                        'a')</code></example>
-                                </examples></example>
-                            <example>Count them: <code>count(index-of(for $c in
-                                    string-to-codepoints('one two three') return
-                                    codepoints-to-string($c), ' '))</code></example>
-                            <example>Make it legible: <code>string-to-codepoints('one two three') !
-                                    codepoints-to-string(.) =&gt; index-of(' ') =&gt;
-                                count()</code></example>
-                        </examples>
-                    </item>
-
                 </details>
             </act>
             <act time="PT25M">
@@ -1224,6 +1192,37 @@
                         </examples></item>
                     <item>Solution (no peeking!)
                                 <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
+                </details>
+            </act>
+            <act time="PT20M">
+                <desc>One more way of counting spaces and hyphens</desc>
+                <details>
+
+                    <item>Explode the string<examples>
+                            <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"
+                                    >string-to-codepoints()</code>, <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"
+                                    >codepoints-to-string()</code></example>
+                            <example><code>for $c in string-to-codepoints('one two three') return
+                                    codepoints-to-string($c)</code></example>
+                        </examples>
+                    </item>
+                    <item>Find the index values of the spaces<examples>
+                            <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
+                                    >index-of()</code></example>
+                            <example><code>index-of(('a', 'b', 'c', 'b', 'a'), 'a')</code></example>
+                        </examples></item>
+                    <item>Count them<examples>
+                            <example><code>count(index-of(for $c in string-to-codepoints('one two
+                                    three') return codepoints-to-string($c), ' '))</code></example>
+                        </examples></item>
+                    <item>Make it legible<examples>
+                            <example><code>string-to-codepoints('one two three') !
+                                    codepoints-to-string(.) =&gt; index-of(' ') =&gt;
+                                count()</code></example>
+                        </examples></item>
                 </details>
             </act>
         </slot>

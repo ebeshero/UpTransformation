@@ -3,9 +3,10 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:pattern>
         <sch:rule context="sentence">
-            <sch:let name="orth_spaces" value="count(tokenize(orth, '\s+'))"/>
-            <sch:let name="translit_spaces" value="count(tokenize(translit, '\s+'))"/>
-            <sch:let name="ilg_spaces" value="count(tokenize(ilg, '\s+'))"/>
+            <sch:let name="orth_spaces" value="count(tokenize(normalize-space(orth), '\s+'))"/>
+            <sch:let name="translit_spaces"
+                value="count(tokenize(normalize-space(translit), '\s+'))"/>
+            <sch:let name="ilg_spaces" value="count(tokenize(normalize-space(ilg), '\s+'))"/>
             <sch:let name="orth_hyphens" value="count(tokenize(orth, '-'))"/>
             <sch:let name="translit_hyphens" value="count(tokenize(translit, '-'))"/>
             <sch:let name="ilg_hyphens" value="count(tokenize(ilg, '-'))"/>
