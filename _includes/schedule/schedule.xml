@@ -1122,18 +1122,18 @@
                 <details>
                     <item>Schematron has the best error messages</item>
                     <item>Enhance Schematron reporting with <code>&lt;sch:value-of&gt;</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</link></item>
                     <item>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</link></item>
                     <item>Generate warnings as well as errors with <code>@role</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</link></item>
                 </details>
             </act>
             <act time="PT20M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 1</desc>
                 <details>
                     <item>Document analysis:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</link></item>
                     <item>Target output:
                             <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</link></item>
                     <item>Validation challenge: the spaces and hyphens need to be aligned</item>
@@ -1185,17 +1185,20 @@
                                 </examples></example>
                         </examples></item>
                     <item>Whitespace normalization<examples>
-                            <example>Require it in the XML? (Relax NG, Schematron) <answer><code>.
-                                        eq normalize-space(.)</code></answer></example>
-                            <example>Manage it inside tier-comparison
-                                        <answer><code>normalize-space(.)</code></answer></example>
+                            <example>Require it in the XML with Relax NG <answer><code>xsd:string {
+                                        pattern = "(\S+ )*\S+" }</code></answer></example>
+                            <example>Require it in the XML with Schematron <answer><code>test='. eq
+                                        normalize-space(.)'</code></answer></example>
+                            <example>Manage it with Schematron inside tier-comparison <answer>test
+                                        <code>normalize-space(.)</code> instead of just
+                                        <code>.</code></answer></example>
                         </examples>
                     </item>
                     <item>Solutions<examples>
                             <example>Simple
-                                    <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</answer></example>
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</link></answer></example>
                             <example>Enhanced
-                                    <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</answer></example>
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</link></answer></example>
                             <example>Finding which word has a hyphen misalignment
                                         <answer><link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</link></answer></example>
                         </examples></item>

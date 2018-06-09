@@ -891,14 +891,14 @@
                 </ol></li><li>Schematron error reporting (20 minutes; 9:45 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Schematron has the best error messages</li>
                     <li>Enhance Schematron reporting with <code>&lt;sch:value-of&gt;</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</li>
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</a></li>
                     <li>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</li>
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</a></li>
                     <li>Generate warnings as well as errors with <code>@role</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</li>
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</a></li>
                 </ol></li><li>XPath functions practice: Leipzig glossing rules, part 1 (20 minutes; 10:05 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Document analysis:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</li>
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</a></li>
                     <li>Target output:
                             <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</a></li>
                     <li>Validation challenge: the spaces and hyphens need to be aligned</li>
@@ -939,17 +939,20 @@
                                 </ol></li>
                         </ol></li>
                     <li>Whitespace normalization<ol>
-                            <li>Require it in the XML? (Relax NG, Schematron)  <button class="answer">Answer</button> <span class="answer"><code>.
-                                        eq normalize-space(.)</code></span></li>
-                            <li>Manage it inside tier-comparison
-                                         <button class="answer">Answer</button> <span class="answer"><code>normalize-space(.)</code></span></li>
+                            <li>Require it in the XML with Relax NG  <button class="answer">Answer</button> <span class="answer"><code>xsd:string {
+                                        pattern = "(\S+ )*\S+" }</code></span></li>
+                            <li>Require it in the XML with Schematron  <button class="answer">Answer</button> <span class="answer"><code>test='. eq
+                                        normalize-space(.)'</code></span></li>
+                            <li>Manage it with Schematron inside tier-comparison  <button class="answer">Answer</button> <span class="answer">test
+                                        <code>normalize-space(.)</code> instead of just
+                                        <code>.</code></span></li>
                         </ol>
                     </li>
                     <li>Solutions<ol>
                             <li>Simple
-                                     <button class="answer">Answer</button> <span class="answer">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</span></li>
+                                         <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</a></span></li>
                             <li>Enhanced
-                                     <button class="answer">Answer</button> <span class="answer">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</span></li>
+                                         <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</a></span></li>
                             <li>Finding which word has a hyphen misalignment
                                          <button class="answer">Answer</button> <span class="answer"><a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</a></span></li>
                         </ol></li>
