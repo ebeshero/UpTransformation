@@ -1168,29 +1168,31 @@
         </slot>
         <slot time="13:30:00">
             <title>Schematron and external files</title>
-            <act time="PT30M">
+            <act time="PT40M">
                 <desc>ID/IDREF validation</desc>
                 <details>
                     <item>Files<examples>
                             <example>Instance:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.xml</example>
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</example>
                             <example>Schema:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.rnc</example>
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_ id-idref.rnc</example>
                             <example>Transformed:
-                                    <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/id-idref.html</link></example>
+                                    <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</link></example>
                         </examples></item>
                     <item>Details<examples>
                             <example>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
                                     <code>xsd:IDREFS</code></example>
-                            <example>Lexical space: NCName (begin with letter or underscore, may
-                                contain letters, digits, underscores, hyphens, periods)
-                                (simplified)</example>
+                            <example>Lexical space: <emph>NCName</emph> (begin with letter or
+                                underscore, may contain letters, digits, underscores, hyphens,
+                                periods) (simplified)</example>
                             <example>Must be unique in the document</example>
                             <example>You don’t have to call it <code>@xml:id</code>, but you
                                 should</example>
                             <example><code>@xml:id</code> is not of type <code>xsd:ID</code> unless
                                 your schema says it is</example>
                             <example>Validates by exact string matching</example>
+                        </examples></item>
+                    <item>Limitations<examples>
                             <example>Validates only within the same file</example>
                             <example>No subcategory support (e.g., you can’t require person IDREF to
                                 match only person ID)</example>
@@ -1202,7 +1204,20 @@
                     <item/>
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT20M">
+                <desc>Schematron validation</desc>
+                <details>
+                    <item>Files<examples>
+                            <example>Instance:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</example>
+                            <example>Relax NG:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</example>
+                            <example>Schematron:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch</example>
+                        </examples></item>
+                </details>
+            </act>
+            <act time="PT10M">
                 <desc>Exploring the Digital Mitford site index</desc>
                 <details>
                     <item>Project site: <link>http://digitalmitford.org</link></item>
