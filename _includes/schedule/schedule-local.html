@@ -503,8 +503,8 @@
                         </ol></li>
                 </ol></li><li> Scavenger hunt 1 (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
-                            <a href="/db/mitford/si.xml">/db/mitford/si.xml</a> or the official version at its external
-                        location: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a> Can you find out the
+                            <code>/db/mitford/si.xml</code> or the official version at its external
+                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
                         following? <ol>
                             <li> Look at the <code>div</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
@@ -633,9 +633,19 @@
                         </ol>
                     </li>
                 </ol></li></ul></section>
-        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Defining variables: XPath expressions with functions and predicates (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>FLWOR</code> Scavenger hunt 2: [Write FLWOR statements
-                        mimicking/extending the previous Scavenger Hunt.]</li>
+        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li> Work in eXist-db in the same file we started before the break and delete only the <code>return</code> line. let’s keep adding to it. Use variables and <code>FLWOR</code> statements to define and retrieve the following: 
+                    <ol>
+                        <li>
+                            Define a global variable pointing to the Digital Mitford site index document, posted in eXist at <code>/db/mitford/si.xml</code> or the official version at its external location:<code>http://digitalmitford.org/si.xml</code>. Hint: Global variables need to be defined before <code>FLWOR</code> statements.  <button class="answer">Answer</button> <span class="answer"><code>declare variable $si as document-node() := doc('/db/mitford/si.xml');</code> or <code>declare variable $si as document-node() := doc('http://digitalmitford.org/si.xml');</code> The new global variable must be added before the first <code>let</code> statement.</span>  
+                        </li>
+                        <li>Write a variable (either global or in <code>let</code> form) that locates all of the <code>place</code> elements in the site index document. Use the variable you just defined for the si.xml document in your expression.  <button class="answer">Answer</button> <span class="answer"><code>let $siPlaces := $si//tei:place</code> or as a global variable above the first let statement and after the variable defining the si.xml document: <code>declare variable $siPlaces := $si//tei:place;</code>. </span></li> 
+                        <li>For housekeeping purposes, rename the variable <code>$places</code> (that we defined earlier to retrieve <code>$Chas//tei:placeName</code>): Call it <code>$Chasplaces</code>.</li>  
+                        <li>Define a new variable to retrieve the values of the <code>@ref</code> on those <code>$Chasplaces</code> <button class="answer">Answer</button> <span class="answer">Don’t forget the <code>string()</code> to return the attribute value: <code>let $ChasPlaceRefs := $Chasplaces/@ref/string()</code></span></li>
+                        <li>How would you rewrite the last XPath Scavenger Hunt solution as a  <code>let</code> statement in this XQuery? (find references to "CharlesI_MRMplay" in the site index):  <button class="answer">Answer</button> <span class="answer">let $siChasRefs := $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</span> </li>
+                        
+                    </ol>
+                    </li>
                 </ol></li><li>XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;) (30 minutes; 2:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in (sequence) return ...</code></li>
@@ -905,27 +915,29 @@
                     <li>Solution (no peeking!)
                                  <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
                 </ol></li></ul></section>
-        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (40 minutes; 1:30 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.xml</li>
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</li>
                             <li>Schema:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.rnc</li>
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_ id-idref.rnc</li>
                             <li>Transformed:
-                                    <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/id-idref.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/id-idref.html</a></li>
+                                    <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</a></li>
                         </ol></li>
                     <li>Details<ol>
                             <li>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
                                     <code>xsd:IDREFS</code></li>
-                            <li>Lexical space: NCName (begin with letter or underscore, may
-                                contain letters, digits, underscores, hyphens, periods)
-                                (simplified)</li>
+                            <li>Lexical space: <em>NCName</em> (begin with letter or
+                                underscore, may contain letters, digits, underscores, hyphens,
+                                periods) (simplified)</li>
                             <li>Must be unique in the document</li>
                             <li>You don’t have to call it <code>@xml:id</code>, but you
                                 should</li>
                             <li><code>@xml:id</code> is not of type <code>xsd:ID</code> unless
                                 your schema says it is</li>
                             <li>Validates by exact string matching</li>
+                        </ol></li>
+                    <li>Limitations<ol>
                             <li>Validates only within the same file</li>
                             <li>No subcategory support (e.g., you can’t require person IDREF to
                                 match only person ID)</li>
@@ -935,7 +947,16 @@
                             <li>Subcategory support</li>
                         </ol></li>
                     <li/>
-                </ol></li><li>Exploring the Digital Mitford site index (40 minutes; 2:00 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Schematron validation (20 minutes; 2:10 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Files<ol>
+                            <li>Instance:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</li>
+                            <li>Relax NG:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</li>
+                            <li>Schematron:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch</li>
+                        </ol></li>
+                </ol></li><li>Exploring the Digital Mitford site index (10 minutes; 2:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Project site: <a href="http://digitalmitford.org">http://digitalmitford.org</a></li>
                     <li>Site index<ol>
                             <li>Local:
