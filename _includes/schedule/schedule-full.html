@@ -662,22 +662,40 @@
                             
                         </ol>
                     </li>
-                </ol></li><li>XPath <code>for</code> loops; sequence and range variables
-                    (&lt;oXygen/&gt;) (30 minutes; 2:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>for $i in (sequence) return ...</code></li>
-                    <li>Practice examples in &lt;oXygen/&gt; <ol>
-                            <li>Use XPath builder window: for each of a set of attributes,
-                                return something associated with each one.</li>
+                </ol></li><li>Review XPath <code>for</code> loops; sequence and range variables
+                    (&lt;oXygen/&gt;) (20 minutes; 2:00 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
+                            ("Curly", "Larry", "Moe") return concat($i, " is a
+                        Stooge!")</code></li>
+                    <li>Can we write it as a simple map (with !)?  <button class="answer">Answer</button> <span class="answer"><code>("Curly", "Larry",
+                                "Moe") ! concat(., " is a Stooge!")</code></span>
+                    </li>
+                    <li>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
+                            <code>http://digitalmitford.org/si.xml</code> . Try finding out the
+                        following in the &lt;oXygen/&gt; XPath Builder: <ol>
+                            <li>Find each person we have listed as born in Scotland in the site
+                                index. Notice that sometimes place names are stored inside the
+                                    <code>&lt;birth&gt;</code> elements.  <button class="answer">Answer</button> <span class="answer"><code>for $i in
+                                        //person[contains(birth, "Scotland")] return $i</code>. You
+                                    should return 28 <code>&lt;person&gt;</code>
+                                entries.</span></li>
+                            <li>Now, modify that example to return the <code>@xml:id</code>,
+                                (or anything else you want to find out about the person elements):
+                                     <button class="answer">Answer</button> <span class="answer">For the <code>@xml:id</code>: <code>for $i in
+                                        //person[contains(birth, "Scotland")] return
+                                        $i/@xml:id</code>. Notice, we don’t need the
+                                        <code>string()</code> function after the @xml:id in the
+                                    &lt;oXygen/&gt; XPath builder vew, though it isn’t wrong to use
+                                    it.</span></li>
                         </ol>
                     </li>
-
-                </ol></li><li>Break (10 minutes; 2:30 p.m.–2:40 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (40 minutes; 2:40 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 2:20 p.m.–2:30 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (50 minutes; 2:30 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
-                    <li>The <code>$pos</code> variable: <code>for $i at $pos in
-                            $YourSequenceVariable</code></li>
                     <li>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</li>
+                    <li>The <code>$pos</code> variable: <code>for $i at $pos in
+                            $YourSequenceVariable</code></li>
                     <li>Adding <code>where</code> in a <code>for-loop</code> to limit the
                         returns</li>
                     <li>Which is more efficient in XQuery: a predicate or <code>where</code>?
