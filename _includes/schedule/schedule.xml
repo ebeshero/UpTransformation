@@ -1169,11 +1169,15 @@
         <slot time="13:30:00">
             <title>Schematron and external files</title>
             <act time="PT30M">
-                <desc>Validating with ID/IDREF</desc>
+                <desc>ID/IDREF validation</desc>
                 <details>
                     <item>Files<examples>
-                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.xml</example>
-                            <example>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.rnc</example>
+                            <example>Instance:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.xml</example>
+                            <example>Schema:
+                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/id-idref.rnc</example>
+                            <example>Transformed:
+                                    <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/id-idref.html</link></example>
                         </examples></item>
                     <item>Details<examples>
                             <example>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
@@ -1181,16 +1185,21 @@
                             <example>Lexical space: NCName (begin with letter or underscore, may
                                 contain letters, digits, underscores, hyphens, periods)
                                 (simplified)</example>
-                            <example><code>xsd:ID</code> must be unique in the document</example>
+                            <example>Must be unique in the document</example>
+                            <example>You don’t have to call it <code>@xml:id</code>, but you
+                                should</example>
+                            <example><code>@xml:id</code> is not of type <code>xsd:ID</code> unless
+                                your schema says it is</example>
                             <example>Validates by exact string matching</example>
                             <example>Validates only within the same file</example>
-                            <example>No subcategory support (e.g., person can only match a
-                                person)</example>
+                            <example>No subcategory support (e.g., you can’t require person IDREF to
+                                match only person ID)</example>
                         </examples></item>
                     <item>Desiderata<examples>
                             <example>Validation against external (remote) files</example>
                             <example>Subcategory support</example>
                         </examples></item>
+                    <item/>
                 </details>
             </act>
             <act time="PT40M">
