@@ -827,8 +827,8 @@
                                     $Chasplaces/@ref/string()</code></answer></example>
                             <example>How would you rewrite the last XPath Scavenger Hunt solution as
                                 a <code>let</code> statement in this XQuery? (find references to
-                                "CharlesI_MRMplay" in the site index): <answer>let $siChasRefs :=
-                                    $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</answer>
+                                "CharlesI_MRMplay" in the site index): <answer><code>let $siChasRefs :=
+                                    $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
                             </example>
                             <!--<example>Challenge: Let’s see if we can write a variables to match all the site index <code>&lt;place&gt;</code> elements whose <code>@xml:id</code> matches the @ref attributes   </example> -->
                         </examples>
