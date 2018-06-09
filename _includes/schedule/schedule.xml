@@ -870,7 +870,7 @@
                 <desc>Break</desc>
             </act>
             <act time="PT50M">
-                <desc><code>FLWOR</code>statements in XQuery: how <code>for</code> works</desc>
+                <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
                     <item>Next, we try in XQuery <code>for $i in $YourSequenceVariable</code> and
@@ -883,7 +883,7 @@
                                     <code>@ref</code> attributes on <code>placeName</code> elements.
                                 Define and test the variable. <answer><code>let $distChPRs :=
                                         distinct-values($ChasPlaceRefs)</code></answer></example>
-                            <example>Now, we want to <emph>loop through</emph> each of these
+                            <example>Next we loop through each of these
                                 distinct values, to help us look at each one and evaluate it to find
                                 matching site index entries. In XQuery we first set up the loop in
                                 its own <code>for</code> statement. Later on, we will write a
