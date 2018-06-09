@@ -807,15 +807,16 @@
                     </item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT20M">
                 
-                <desc>XPath <code>for</code> loops; sequence and range variables
+                <desc>Review XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
-                    <item><code>for $i in (sequence) return ...</code></item>
-                    <item>Practice examples in &lt;oXygen/&gt; <examples>
-                            <example>Use XPath builder window: for each of a set of attributes,
-                                return something associated with each one.</example>
+                    <item>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in ("Curly", "Larry", "Moe") return concat($i, " is a Stooge!")</code></item>
+                    <item>Can we write it as a simple map (with !)? <answer><code>("Curly", "Larry", "Moe")  !  concat(., " is a Stooge!")</code></answer> </item>
+                    <item>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using <code>http://digitalmitford.org/si.xml</code> . Try finding out the following in the &lt;oXygen/&gt; XPath Builder: <examples>
+                        <example>Find each person we have listed as born in Scotland in the site index. Notice that sometimes place names are stored inside the <code>&lt;birth&gt;</code> elements. <answer><code>for $i in //person[contains(birth, "Scotland")] return $i</code>. You should return 28 <code>&lt;person&gt;</code> entries.</answer></example>
+                        <example>Now, modify that example to return the <code>@xml:id</code>, (or anything else you want to find out about the person elements): <answer>For the <code>@xml:id</code>: <code>for $i in //person[contains(birth, "Scotland")] return $i/@xml:id</code>. Notice, we don’t need the <code>string()</code> function after the @xml:id in the &lt;oXygen/&gt; XPath builder vew, though it isn’t wrong to use it.</answer></example>
                         </examples>
                     </item>
 
@@ -825,16 +826,16 @@
                 <desc>Break</desc>
             </act>
 
-            <act time="PT40M">
+            <act time="PT50M">
                 <desc><code>FLWOR</code> statements: how <code>for</code> works</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
-                    <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>
-                    <item>The <code>$pos</code> variable: <code>for $i at $pos in
-                            $YourSequenceVariable</code></item>
+                    <item><code>for $i in $YourSequenceVariable</code> and iterative returns</item>       
                     <item>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</item>
+                    <item>The <code>$pos</code> variable: <code>for $i at $pos in
+                        $YourSequenceVariable</code></item>
                     <item>Adding <code>where</code> in a <code>for-loop</code> to limit the
                         returns</item>
                     <item>Which is more efficient in XQuery: a predicate or <code>where</code>?
