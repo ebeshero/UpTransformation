@@ -701,8 +701,14 @@
                                     it.</span></li>
                         </ol>
                     </li>
-                </ol></li><li>Break (10 minutes; 2:20 p.m.–2:30 p.m.) </li><li><code>FLWOR</code> statements: how <code>for</code> works (50 minutes; 2:30 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>for $i in $YourSequenceVariable</code> and iterative returns</li>
+                </ol></li><li>Break (10 minutes; 2:20 p.m.–2:30 p.m.) </li><li><code>FLWOR</code>statements in XQuery: how <code>for</code> works (50 minutes; 2:30 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Next, we try  in XQuery <code>for $i in $YourSequenceVariable</code> and iterative returns. Go back to eXist-db to continue writing our FLWOR on <em>Charles the First</em> and the Digital Mitford site index. We will find each distinct place reference in <em>Charles the First</em>  and look up its counterpart in the <code>&lt;place&gt;</code> entries in the site index. 
+                    <ol>
+                        <li>First, we want a list of distinct values of the <code>@ref</code> attributes on <code>placeName</code> elements. Define and test the variable.  <button class="answer">Answer</button> <span class="answer"><code>let $distChPRs := distinct-values($ChasPlaceRefs)</code></span></li>
+                        <li>Now, we want to <em>loop through</em> each of these distinct values, to help us look at each one and evaluate it to find matching site index entries. In XQuery we first set up the loop in its own <code>for</code> statement. Later on, we will write a <code>return</code> line afterwards, after doing some work with the range variable (<code>$i</code>).  <button class="answer">Answer</button> <span class="answer"><code>for $i in $distChPRs</code></span> </li>
+                        <li>How will we find where each member of our loop matches a corresponding entry with its <code>@xml:id</code> in the site index? Note that <code>@ref</code> attributes begin with a leading <code>#</code> that is missing in the site index <code>@xml:id</code> values.  <button class="answer">Answer</button> <span class="answer"><code>let $siCPrs := $si//tei:place[@xml:id = substring-after($i, '#')]</code></span></li>
+                    </ol>
+                    </li>       
                     <li>Sorting and ordering: XPath <code>sort()</code> function: using this above
                         a for-loop, vs. the XQuery <code>order by</code> statement inside a for-loop
                         to control the order of processing and returns.</li>
@@ -941,7 +947,7 @@
                             <li>No duplicate stooges!</li>
                         </ol></li>
                     <li>Solution (no peeking!)
-                                 <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
+                             <button class="answer">Answer</button> <span class="answer">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</span></li>
                 </ol></li><li>One more way of counting spaces and hyphens (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
 
                     <li>Explode the string<ol>
@@ -980,7 +986,7 @@
                             <li>Lexical space: <em>NCName</em> (begin with letter or
                                 underscore, may contain letters, digits, underscores, hyphens,
                                 periods) (simplified)</li>
-                            <li>Must be unique in the document</li>
+                            <li>Must point within the same document (or use XInclude)</li>
                             <li>You don’t have to call it <code>@xml:id</code>, but you
                                 should</li>
                             <li><code>@xml:id</code> is not of type <code>xsd:ID</code> unless

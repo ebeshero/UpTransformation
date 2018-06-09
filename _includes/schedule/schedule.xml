@@ -1197,7 +1197,7 @@
                             <example>No duplicate stooges!</example>
                         </examples></item>
                     <item>Solution (no peeking!)
-                                <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
+                            <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</answer></item>
                 </details>
             </act>
             <act time="PT20M">
@@ -1252,7 +1252,7 @@
                             <example>Lexical space: <emph>NCName</emph> (begin with letter or
                                 underscore, may contain letters, digits, underscores, hyphens,
                                 periods) (simplified)</example>
-                            <example>Must be unique in the document</example>
+                            <example>Must point within the same document (or use XInclude)</example>
                             <example>You don’t have to call it <code>@xml:id</code>, but you
                                 should</example>
                             <example><code>@xml:id</code> is not of type <code>xsd:ID</code> unless
