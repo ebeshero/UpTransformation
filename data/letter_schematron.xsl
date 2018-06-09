@@ -4,6 +4,8 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="xs math"
     version="3.0">
     <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
+    <xsl:variable name="ancillary" as="document-node()"
+        select="doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml')"/>
     <xsl:key name="refByPointer" match="person | event" use="@xml:id"/>
     <xsl:template match="/">
         <html>
@@ -54,14 +56,14 @@
     <xsl:template match="persName">
         <span>
             <xsl:attribute name="title"
-                select="string-join((key('refByPointer', @ref)/name, key('refByPointer', @ref)/affiliation), '&#x0a;')"/>
+                select="string-join((key('refByPointer', substring(@ref, 2), $ancillary)/name, key('refByPointer', substring(@ref, 2), $ancillary)/affiliation), '&#x0a;')"/>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     <xsl:template match="eventName">
         <span>
             <xsl:attribute name="title"
-                select="string-join((key('refByPointer', @ref)/title, key('refByPointer', @ref)/location), '&#x0a;')"/>
+                select="string-join((key('refByPointer', substring(@ref, 2), $ancillary)/title, key('refByPointer', substring(@ref, 2), $ancillary)/location), '&#x0a;')"/>
             <xsl:apply-templates/>
         </span>
     </xsl:template>
