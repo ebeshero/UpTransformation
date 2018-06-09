@@ -827,8 +827,9 @@
                                     $Chasplaces/@ref/string()</code></answer></example>
                             <example>How would you rewrite the last XPath Scavenger Hunt solution as
                                 a <code>let</code> statement in this XQuery? (find references to
-                                "CharlesI_MRMplay" in the site index): <answer><code>let $siChasRefs :=
-                                    $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
+                                "CharlesI_MRMplay" in the site index): <answer><code>let $siChasRefs
+                                        :=
+                                        $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
                             </example>
                             <!--<example>Challenge: Let’s see if we can write a variables to match all the site index <code>&lt;place&gt;</code> elements whose <code>@xml:id</code> matches the @ref attributes   </example> -->
                         </examples>
@@ -883,10 +884,10 @@
                                     <code>@ref</code> attributes on <code>placeName</code> elements.
                                 Define and test the variable. <answer><code>let $distChPRs :=
                                         distinct-values($ChasPlaceRefs)</code></answer></example>
-                            <example>Next we loop through each of these
-                                distinct values, to help us look at each one and evaluate it to find
-                                matching site index entries. In XQuery we first set up the loop in
-                                its own <code>for</code> statement. Later on, we will write a
+                            <example>Next we loop through each of these distinct values, to help us
+                                look at each one and evaluate it to find matching site index
+                                entries. In XQuery we first set up the loop in its own
+                                    <code>for</code> statement. Later on, we will write a
                                     <code>return</code> line afterwards, after doing some work with
                                 the range variable (<code>$i</code>). <answer><code>for $i in
                                         $distChPRs</code></answer>
@@ -1086,7 +1087,8 @@
             <act time="PT30M">
                 <desc>Looking at Schematron</desc>
                 <details>
-                    <item>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<examples>
+                    <item>Document analysis of our XML:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</link><examples>
                             <example><code>&lt;start&gt;</code> shouldn’t be greater than
                                     <code>&lt;end&gt;</code></example>
                             <example><code>&lt;issue&gt;</code> is optional, but we could omit it by
@@ -1096,14 +1098,17 @@
                             <example>Apostrophes and quotation marks should usually be curly (“, ”,
                                 ‘, ’), not straight (', ")</example>
                         </examples></item>
-                    <item>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<examples>
+                    <item>What Relax NG can constrain:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</link><examples>
                             <example><code>&lt;volume&gt;</code>, <code>&lt;issue&gt;</code>,
                                     <code>&lt;year&gt;</code>, <code>&lt;start&gt;</code>, and
                                     <code>&lt;end&gt;</code> must be positive integers</example>
                             <example><code>&lt;year&gt;</code> must be exactly four digits</example>
                             <example><code>&lt;issue&gt;</code> is optional</example>
+                            <example>No empty elements</example>
                         </examples></item>
-                    <item>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<examples>
+                    <item>Schematron to the rescue:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</link><examples>
                             <example>Anatomy of a schematron rule</example>
                             <example>Validating start and end pages</example>
                             <example>Validating apostrophes and quotation marks (text, not

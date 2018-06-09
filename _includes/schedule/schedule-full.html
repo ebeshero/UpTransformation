@@ -656,8 +656,9 @@
                                     $Chasplaces/@ref/string()</code></span></li>
                             <li>How would you rewrite the last XPath Scavenger Hunt solution as
                                 a <code>let</code> statement in this XQuery? (find references to
-                                "CharlesI_MRMplay" in the site index):  <button class="answer">Answer</button> <span class="answer"><code>let $siChasRefs :=
-                                    $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></span>
+                                "CharlesI_MRMplay" in the site index):  <button class="answer">Answer</button> <span class="answer"><code>let $siChasRefs
+                                        :=
+                                        $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></span>
                             </li>
                             
                         </ol>
@@ -700,10 +701,10 @@
                                     <code>@ref</code> attributes on <code>placeName</code> elements.
                                 Define and test the variable.  <button class="answer">Answer</button> <span class="answer"><code>let $distChPRs :=
                                         distinct-values($ChasPlaceRefs)</code></span></li>
-                            <li>Next we loop through each of these
-                                distinct values, to help us look at each one and evaluate it to find
-                                matching site index entries. In XQuery we first set up the loop in
-                                its own <code>for</code> statement. Later on, we will write a
+                            <li>Next we loop through each of these distinct values, to help us
+                                look at each one and evaluate it to find matching site index
+                                entries. In XQuery we first set up the loop in its own
+                                    <code>for</code> statement. Later on, we will write a
                                     <code>return</code> line afterwards, after doing some work with
                                 the range variable (<code>$i</code>).  <button class="answer">Answer</button> <span class="answer"><code>for $i in
                                         $distChPRs</code></span>
@@ -847,7 +848,8 @@
                             <code>&lt;rule&gt;</code> → <code>&lt;assert&gt;</code> or
                             <code>&lt;report&gt;</code></li>
                 </ol></li><li>Looking at Schematron (30 minutes; 9:15 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Document analysis of our XML: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml<ol>
+                    <li>Document analysis of our XML:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</a><ol>
                             <li><code>&lt;start&gt;</code> shouldn’t be greater than
                                     <code>&lt;end&gt;</code></li>
                             <li><code>&lt;issue&gt;</code> is optional, but we could omit it by
@@ -857,14 +859,17 @@
                             <li>Apostrophes and quotation marks should usually be curly (“, ”,
                                 ‘, ’), not straight (', ")</li>
                         </ol></li>
-                    <li>What Relax NG can constrain: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc<ol>
+                    <li>What Relax NG can constrain:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</a><ol>
                             <li><code>&lt;volume&gt;</code>, <code>&lt;issue&gt;</code>,
                                     <code>&lt;year&gt;</code>, <code>&lt;start&gt;</code>, and
                                     <code>&lt;end&gt;</code> must be positive integers</li>
                             <li><code>&lt;year&gt;</code> must be exactly four digits</li>
                             <li><code>&lt;issue&gt;</code> is optional</li>
+                            <li>No empty elements</li>
                         </ol></li>
-                    <li>Schematron to the rescue: https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch<ol>
+                    <li>Schematron to the rescue:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</a><ol>
                             <li>Anatomy of a schematron rule</li>
                             <li>Validating start and end pages</li>
                             <li>Validating apostrophes and quotation marks (text, not

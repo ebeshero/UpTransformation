@@ -1,19 +1,20 @@
+nonEmpty = xsd:string { minLength = "1" }
 start = bibliography
 bibliography = element bibliography { bibItem+ }
 bibItem = element bibItem { author, articleTitle, journalTitle, volume, issue?, year, pages }
 author = element author { surname, forename, initial? }
-surname = element surname { text }
-forename = element forename { text }
-initial = element initial { text }
+surname = element surname { nonEmpty }
+forename = element forename { nonEmpty }
+initial = element initial { nonEmpty }
 articleTitle =
     element title {
         attribute type { "article" },
-        text
+        nonEmpty
     }
 journalTitle =
     element title {
         attribute type { "journal" },
-        text
+        nonEmpty
     }
 volume = element volume { xsd:positiveInteger }
 issue = element issue { xsd:positiveInteger }
