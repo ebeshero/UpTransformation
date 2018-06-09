@@ -38,7 +38,7 @@ function showAnswer() {
     if (target.tagName == 'DIV') {
         target.style.display = 'block';
         target.style.whiteSpace = 'pre';
-        target.style.backgroundColor = 'lightcyan';
+        target.style.backgroundColor = 'rgba(0,0,0,0.1)';
     } else {
         target.style.display = 'inline';
     }

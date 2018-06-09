@@ -1126,18 +1126,18 @@
                 <details>
                     <item>Schematron has the best error messages</item>
                     <item>Enhance Schematron reporting with <code>&lt;sch:value-of&gt;</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</link></item>
                     <item>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</link></item>
                     <item>Generate warnings as well as errors with <code>@role</code>:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</link></item>
                 </details>
             </act>
             <act time="PT20M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 1</desc>
                 <details>
                     <item>Document analysis:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</link></item>
                     <item>Target output:
                             <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</link></item>
                     <item>Validation challenge: the spaces and hyphens need to be aligned</item>
@@ -1189,17 +1189,20 @@
                                 </examples></example>
                         </examples></item>
                     <item>Whitespace normalization<examples>
-                            <example>Require it in the XML? (Relax NG, Schematron) <answer><code>.
-                                        eq normalize-space(.)</code></answer></example>
-                            <example>Manage it inside tier-comparison
-                                        <answer><code>normalize-space(.)</code></answer></example>
+                            <example>Require it in the XML with Relax NG <answer><code>xsd:string {
+                                        pattern = "(\S+ )*\S+" }</code></answer></example>
+                            <example>Require it in the XML with Schematron <answer><code>test='. eq
+                                        normalize-space(.)'</code></answer></example>
+                            <example>Manage it with Schematron inside tier-comparison <answer>test
+                                        <code>normalize-space(.)</code> instead of just
+                                        <code>.</code></answer></example>
                         </examples>
                     </item>
                     <item>Solutions<examples>
                             <example>Simple
-                                    <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</answer></example>
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</link></answer></example>
                             <example>Enhanced
-                                    <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</answer></example>
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</link></answer></example>
                             <example>Finding which word has a hyphen misalignment
                                         <answer><link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</link></answer></example>
                         </examples></item>
@@ -1226,7 +1229,7 @@
                             <example>No duplicate stooges!</example>
                         </examples></item>
                     <item>Solution (no peeking!)
-                            <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</answer></item>
+                                <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
                 </details>
             </act>
             <act time="PT20M">
@@ -1268,10 +1271,9 @@
                 <details>
                     <item>Files<examples>
                             <example>Instance:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</link></example>
                             <example>Schema:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_
-                                id-idref.rnc</example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.rnc</link></example>
                             <example>Transformed:
                                     <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</link></example>
                         </examples></item>
@@ -1304,13 +1306,13 @@
                 <desc>Schematron validation</desc>
                 <details>
                     <item>Instance:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</link></item>
                     <item>Relax NG:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</link></item>
                     <item>Ancillary:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</link></item>
                     <item>Schematron
-                            <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch</answer></item>
+                                <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch</link></answer></item>
                 </details>
             </act>
             <act time="PT10M">
@@ -1322,11 +1324,10 @@
                     <item>Project site: <link>http://digitalmitford.org</link></item>
                     <item>Site index<examples>
                             <example>Local:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</example>
-                            <example>Remote: http://digitalmitford.org/si.xml</example>
-                        </examples></item>
-                    <item>Validating references and pointers <examples>
-                            <example>ID/IDREF example:</example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</link></example>
+                            <example>Remote: <link>http://digitalmitford.org/si.xml</link></example>
+                            <example>Outline:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
                 </details>
             </act>
