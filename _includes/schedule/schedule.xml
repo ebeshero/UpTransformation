@@ -560,23 +560,23 @@
                 <details>
                     <item>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</item>
-                    <item>Access a document with the XPath <code>doc()</code> function<examples>
+                    <item>Access a document with <code>doc()</code>
+                        <examples>
                             <example><code>doc('/db/apps/shakespeare/data/ham.xml')</code></example>
                         </examples>
                     </item>
-                    <item>Access a collection of documents with the XPath <code>collection()</code> function<examples>
+                    <item>Access a collection of documents with <code>collection()</code>
+                        <examples>
                             <example><code>collection('/db/apps/shakespeare/data/')</code></example>
                         </examples>
                     </item>
-                    <item>When working with XML in a namespace (like the TEI), declare the
-                        namespace, bind it to a prefix, and use the prefix<examples>
+                    <item>Namespace declaration <examples>
                             <example><code>declare namespace
-                                    tei="http://www.tei-c.org/ns/1.0";</code> (<code>declare</code>
-                                statements require a final semicolon)</example>
+                                    tei="http://www.tei-c.org/ns/1.0";</code></example>
                             <example><code>&lt;stage&gt;</code> elements in <emph>Hamlet</emph>:
                                     <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code></example>
                             <example>Find all the stage directions in the entire Shakespeare
-                                collection?
+                                collection
                                         <answer><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></answer>
                             </example>
                         </examples></item>
@@ -597,7 +597,7 @@
                     <item><code>text()</code> (not a function; not to be confused with
                             <code>string()</code>)<examples>
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>
-                                (Mary Russell Mitford’s <emph>Charles the First</emph> tragedy) </example>
+                                (Mary Russell Mitford’s <emph>Charles the First</emph>) </example>
                             <example>What does
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>
                                 return? <answer>The string values of the stage directions, that is,
@@ -830,7 +830,7 @@
                                 "CharlesI_MRMplay" in the site index): <answer><code>let $siChasRefs
                                         :=
                                         $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
-                            </example> 
+                            </example>
                         </examples>
                     </item>
                 </details>
@@ -873,42 +873,74 @@
                 <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
-                    <item><code>for</code> in XQuery and iterative returns: <code>for $i in $YourSequenceVariable</code>. Look up the places coded in 
-                            <emph>Charles the First</emph> for their entries in the Digital Mitford site index. <examples>
-                            <example>Get the distinct (unique) values of <code>@ref</code> attributes on <code>placeName</code> elements. <answer><code>let $distChPRs :=
-                                        distinct-values($ChasPlaceRefs)</code></answer></example>
-                            <example>Next, loop through each of these distinct values: <answer><code>for $i in
-                                        $distChPRs</code></answer>
+                    <item><code>for</code> in XQuery and iterative returns: <code>for $i in
+                            $YourSequenceVariable</code>. Look up the places coded in <emph>Charles
+                            the First</emph> for their entries in the Digital Mitford site index. <examples>
+                            <example>Get the distinct (unique) values of <code>@ref</code>
+                                attributes on <code>placeName</code> elements. <answer><code>let
+                                        $distChPRs :=
+                                    distinct-values($ChasPlaceRefs)</code></answer></example>
+                            <example>Next, loop through each of these distinct values:
+                                        <answer><code>for $i in $distChPRs</code></answer>
                             </example>
-                            <example>How will we find the site index entry that matches up with each member of our sequence of place references in <emph>Charles the First</emph>? <answer>Each site index entry holds an <code>@xml:id</code>, and each <code>placeName</code> element has a <code>@ref</code> attribute whose value is formatted with a leading <code>#</code> followed by the <code>@xml:id</code> value.</answer></example><example>Write the variable that finds the site index entry whose <code>@xml:id</code> matches the value of the range variable in our <code>for</code> loop. <answer><code>let $siCPrs :=
-                                     $si//tei:place[@xml:id = substring-after($i,
+                            <example>How will we find the site index entry that matches up with each
+                                member of our sequence of place references in <emph>Charles the
+                                    First</emph>? <answer>Each site index entry holds an
+                                        <code>@xml:id</code>, and each <code>placeName</code>
+                                    element has a <code>@ref</code> attribute whose value is
+                                    formatted with a leading <code>#</code> followed by the
+                                        <code>@xml:id</code> value.</answer></example>
+                            <example>Write the variable that finds the site index entry whose
+                                    <code>@xml:id</code> matches the value of the range variable in
+                                our <code>for</code> loop. <answer><code>let $siCPrs :=
+                                        $si//tei:place[@xml:id = substring-after($i,
                                     '#')]</code></answer></example>
                         </examples>
                     </item>
-                    <item>Sorting and ordering your sequence: two ways: 
-       <examples>
-           <example>Apply the XPath <code>sort()</code> function the variable defining the sequence (above the <code>for</code> loop): <answer><code>let $distChPRs := distinct-values($ChasPlaceRefs)</code></answer></example>
-           <example>Or, inside the <code>for</code> loop with the XQuery <code>order by</code> statement: <code>order by [X-value-connected to your sequence]</code> followed by nothing (default: ascending alphabetical order), or a keyword: <code>ascending</code> or <code>descending</code>. To order in reverse alphabetical order by the <code>@xml:id</code> in the site index entry? <answer><code>order by $siCPrs/@xml:id descending</code></answer> </example>  
-       </examples>                 
-</item>
-                    <item>Numbering the results with <code>$pos</code><examples><example>Set the <code>$pos</code> variable in the <code>for</code> statement: <code>for $i at $pos in
-                        $YourSequenceVariable</code>, but caution: <code>order by</code> happens <emph>after</emph> <code>$pos</code> is set. So if we want sorted, numbered output? <answer>Use the <code>sort()</code> function before the <code>for</code> loop begins. Try a return like <code>return concat($pos, '. ', $siCPrs/@xml:id/string())</code></answer></example></examples></item>
-                    <item>Adding <code>where</code> in a <code>for-loop</code> to limit the
-                        returns
-                        <examples><example>Notice the blank results: A number of entries are not yet in the site index. So we can limit by selecting only those where the variable <code>$siCPrs</code> exists: <code>where $siCPRs</code> </example>
-                            <example>Or use where to return only results in the site index whose <code>string()</code> contains "France": <code>where $siCPrs[contains(string(.), 'France')]</code></example>
-                        </examples></item>
-                    <item>Which is more efficient in XQuery: a predicate or <code>where</code>?
+                    <item>Sorting and ordering your sequence: two ways: <examples>
+                            <example>Apply the XPath <code>sort()</code> function the variable
+                                defining the sequence (above the <code>for</code> loop):
+                                        <answer><code>let $distChPRs :=
+                                        distinct-values($ChasPlaceRefs)</code></answer></example>
+                            <example>Or, inside the <code>for</code> loop with the XQuery
+                                    <code>order by</code> statement: <code>order by
+                                    [X-value-connected to your sequence]</code> followed by nothing
+                                (default: ascending alphabetical order), or a keyword:
+                                    <code>ascending</code> or <code>descending</code>. To order in
+                                reverse alphabetical order by the <code>@xml:id</code> in the site
+                                index entry? <answer><code>order by $siCPrs/@xml:id
+                                        descending</code></answer>
+                            </example>
+                        </examples>
                     </item>
+                    <item>Numbering the results with <code>$pos</code><examples>
+                            <example>Set the <code>$pos</code> variable in the <code>for</code>
+                                statement: <code>for $i at $pos in $YourSequenceVariable</code>, but
+                                caution: <code>order by</code> happens <emph>after</emph>
+                                <code>$pos</code> is set. So if we want sorted, numbered output?
+                                    <answer>Use the <code>sort()</code> function before the
+                                        <code>for</code> loop begins. Try a return like <code>return
+                                        concat($pos, '. ',
+                                $siCPrs/@xml:id/string())</code></answer></example>
+                        </examples></item>
+                    <item>Adding <code>where</code> in a <code>for-loop</code> to limit the returns <examples>
+                            <example>Notice the blank results: A number of entries are not yet in
+                                the site index. So we can limit by selecting only those where the
+                                variable <code>$siCPrs</code> exists: <code>where $siCPRs</code>
+                            </example>
+                            <example>Or use where to return only results in the site index whose
+                                    <code>string()</code> contains "France": <code>where
+                                    $siCPrs[contains(string(.), 'France')]</code></example>
+                        </examples></item>
+                    <item>Which is more efficient in XQuery: a predicate or <code>where</code>? </item>
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
-                        <code>string-join()</code>
-                    <examples>
-                        <example>
-                            Retrieving a full canonical place name: <answer><code>let $name := $siCPrs/tei:placeName[1]</code></answer>
-                            
-                        </example>
-                        
-                    </examples>
+                            <code>string-join()</code>
+                        <examples>
+                            <example> Retrieving a full canonical place name: <answer><code>let
+                                        $name := $siCPrs/tei:placeName[1]</code></answer>
+                            </example>
+
+                        </examples>
                     </item>
                 </details>
             </act>
@@ -918,15 +950,17 @@
                     >flower.jpg</image>
                 <desc>Putting it all together: writing FLWORs to make new files</desc>
                 <details>
-                    
+
 
                     <item>HTML returns: how to use curly braces to layer and activate XQuery in an
-                        HTML file.
-                    
+                        HTML file. <examples>
+                            <example>We are building a version of the XQuery file stored in the
+                                newtfire.org:8338 eXist database in the
+                                    <code>/db/DHSI-Queries/</code> directory. The XQuery file is
+                                also available here on our GitHub.</example>
+                        </examples>
                     </item>
-                    <item>SVG returns: making a simple graph (if time).
-                        
-                    </item>
+                    <item>SVG returns: making a simple graph (if time). </item>
                 </details>
             </act>
         </slot>
