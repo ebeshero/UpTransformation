@@ -4,6 +4,10 @@
     <sch:let name="ancillary"
         value="doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml')"/>
     <sch:pattern>
+        <sch:rule context="salutation | p | valediction | signature">
+            <sch:report test="empty(node()) and string-length(normalize-space(.)) eq 0">Element of
+                type "<sch:value-of select="name()"/>" cannot be empty</sch:report>
+        </sch:rule>
         <sch:rule context="persName/@ref">
             <sch:let name="ref" value="substring(., 2)"/>
             <sch:assert test="$ref = $ancillary//person/@xml:id">Person reference <sch:value-of

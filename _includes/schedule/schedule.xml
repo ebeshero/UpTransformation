@@ -1302,13 +1302,13 @@
                 <desc>Schematron validation</desc>
                 <details>
                     <item>Instance:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</link></item>
                     <item>Relax NG:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</link></item>
                     <item>Ancillary:
-                        https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</link></item>
                     <item>Schematron
-                            <answer>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch</answer></item>
+                                <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch</link></answer></item>
                 </details>
             </act>
             <act time="PT10M">
@@ -1320,11 +1320,10 @@
                     <item>Project site: <link>http://digitalmitford.org</link></item>
                     <item>Site index<examples>
                             <example>Local:
-                                https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</example>
-                            <example>Remote: http://digitalmitford.org/si.xml</example>
-                        </examples></item>
-                    <item>Validating references and pointers <examples>
-                            <example>ID/IDREF example:</example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</link></example>
+                            <example>Remote: <link>http://digitalmitford.org/si.xml</link></example>
+                            <example>Outline:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
                 </details>
             </act>
