@@ -1,0 +1,20 @@
+content = mixed { (persName | eventName)* }
+persName = element persName { ref, text }
+ref =
+    attribute ref {
+        xsd:string { pattern = "#\S+" }
+    }
+eventName = element eventName { ref, text }
+start = letter
+letter = element letter { header, \text }
+header = element header { title, provenance }
+provenance = element provenance { text }
+title = element title { text }
+\text = element text { date, salutation, body, closing }
+date = element date { xsd:date }
+salutation = element salutation { content }
+body = element body { p+ }
+p = element p { content }
+closing = element closing { valediction?, signature }
+valediction = element valediction { content }
+signature = element signature { content }

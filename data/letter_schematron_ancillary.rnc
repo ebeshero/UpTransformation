@@ -1,0 +1,12 @@
+start = references
+references = element references { persons, events }
+persons = element persons { person+ }
+person = element person { xmlid, name, affiliation, animal? }
+xmlid = attribute xml:id { xsd:ID }
+name = element name { text }
+affiliation = element affiliation { text }
+animal = element animal { text }
+events = element events { event+ }
+event = element event { xmlid, title, location }
+title = element title { text }
+location = element location { text }

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="id-idref.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="letter_id-idref.rnc" type="application/relax-ng-compact-syntax"?>
 <letter>
     <header>
+        <title>Sample file for ID/IDREF validation</title>
         <provenance>Sample created for DHSI 2018</provenance>
         <persons>
             <person xml:id="djb">
