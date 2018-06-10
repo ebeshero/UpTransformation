@@ -1353,7 +1353,7 @@
                 <desc>Break</desc>
             </act>
             <act time="PT1H10M">
-                <desc>Exploring the Digital Mitford site index</desc>
+                <desc>Exploring Digital Mitford</desc>
                 <details>
                     <item>Project site: <link>http://digitalmitford.org</link></item>
                     <item>Site index<examples>
@@ -1363,8 +1363,40 @@
                             <example>Outline:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
-                    <item>Sample letter:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></item>
+                    <item>Hamilton 1834-04-09 letter (site index up to date) <examples>
+                            <example>Letter
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></example>
+                            <example>Schematron:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</link></example>
+                            <example>Tasks <examples>
+                                    <example>Save local copy of Schematron</example>
+                                    <example>Associate letter with local copy</example>
+                                    <example>Test validation of <code>&lt;editor&gt;</code>
+                                        element</example>
+                                    <example>Add and test rules for other element types</example>
+                                </examples></example>
+                        </examples>
+                    </item>
+                    <item>BLAH (new site index entries in <code>&lt;back&gt;</code>) <examples>
+                            <example>Letter:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/BLAH.xml</link></example>
+                            <example>Schematron:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></example>
+                            <example>Tasks <examples>
+                                    <example>As above, and then …</example>
+                                    <example>Write rules for <code>&lt;rs&gt;</code> (referring
+                                        string) examples according to value of
+                                        <code>@type</code></example>
+                                </examples></example>
+                            <example>New items for the site index are in the
+                                    <code>&lt;back&gt;</code>
+                                <examples>
+                                    <example>Some of those have been added to the site index; report
+                                        them as errors</example>
+                                    <example>Some stil have to be added to the site index; report
+                                        them as <q>info</q></example>
+                                </examples></example>
+                        </examples></item>
                 </details>
             </act>
         </slot>
