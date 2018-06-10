@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- <?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> --><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt> 
+            <title xml:id="MRM1791">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, <date when="1822-03-02">1822 March 2</date></title> 
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#err">Elizabeth Raisanen</editor> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor><!--2017-11-06 err: Do the Mary Russell Mitford Society and the Mitford Project itself have XML ids yet? -->
+              <sponsor>University of Pittsburgh at Greensburg</sponsor><!--2017-11-06 err: Does Pitt-Greensburg have an XML id yet? -->
+            <sponsor>Pittsburgh Supercomputing Center</sponsor><!-- 2017-11-06 err: Two questions: 1) Does the Pittsburgh Supercomputing Center have an XML id yet? 2) Should the Pittsburgh Supercomputing Center even be named here anymore? Are they still our sponsoring organization? -->
+            <principal ref="#ebb">Elisa Beshero-Bondar</principal> 
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName ref="#jcm">Joshua Mostales</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2018-02-18">2018-02-018</date>
+               Proofing and corrections by</resp>
+               <persName ref="#err">Elizabeth Raisanen</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2017-08-08">August 8, 2017</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp> <orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName> <resp>photo files:<idno>2March1822SirWilliamElford1a.JPG, 2March1822SirWilliamElford1b.JPG, 2March1822SirWilliamElford2a.JPG, 2March1822SirWilliamElford2b.JPG, 2March1822SirWilliamElford3a.JPG, 2March1822SirWilliamElford3b.JPG, 2March1822SirWilliamElford4a.JPG, 2March1822SirWilliamElford4b.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date><!-- 2017-11-06 err: Is this supposed to be the date of the Mary Russell Mitford Project's inception, or should this be the year that the letter was edited and published (in this case, 2018)? -->
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         <sourceDesc>
+            <msDesc> 
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 448</idno>
+               </msIdentifier>
+               <head>Letter from <persName ref="#MRM">Mary Russell Mitford</persName> to <persName ref="#Elford_SirWm">Sir William Elford</persName><date when="1822-03-02">1822 March 02</date></head> 
+              <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support><p>Folio sheet of <material>paper</material> folded in half to form four quarto pages, with correspondence on pages 1-3 and address leaf on page 4, then folded in thirds twice more and sealed for posting</p> 
+                        <p>Address leaf bearing black postmark, mostly illegible, reading <stamp>RE<lb/>9<lb/>42</stamp></p>
+                     </support>
+                     <condition>
+                        <p>A portion of page 3 has been torn away under the seal.</p>
+                        <p>The address leaf (page 4) is degraded at the folded corners, possibly due to bleaching.</p>
+                     </condition>
+                 </supportDesc>
+               </objectDesc>
+               <sealDesc>
+                  <p>Red wax seal, complete, and adhered to page four.</p><!--2017-11-06 err: With a higher-resolution photo, and/or a peek at the wax seal in person, we might be able to figure out which seal this is (assuming that we eventually intend to assign xml ids to the different designs of wax seals that Mitford used). -->
+               </sealDesc> 
+              </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#pencil" medium="pencil">Someone, apparently other than Mitford, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, made notes in the manuscripts held at Reading Central Library. This may be William Harness or A. G. L'Estrange. This annotator inserts a footnote on the bottom of the first page indicating that a certain half sheet is found at the end of the letter.</handNote>
+           <handNote corresp="#pencil" medium="pencil">Someone, apparently other than Mitford (perhaps cataloging letters and describing them, or marking the up while creating an earlier edition of Mitford's letters), left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "40" in the top left of the first leaf, above which is noted the addressee of the letter, "To Sir W. Elford."</handNote><!-- 2018-01-02 err: We created two different handNote entries for the various kind of pencil marks in the margins of this letter (one for the note in the bottom margin, and another for the letter number and addressee noted at the top lefthand corner of the letter). Should we retain this separation, or would it be better to combine all of these notes into one "pencil" handNote? Maybe we should check on what others are doing.  LMW: probably two handnotes are unnecessary. Both are likely the same hand.--> 
+           <handNote corresp="#rc" medium="red_crayon">Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of each of the first three leaves of this letter. There is no red crayon across the address leaf on the fourth page.</handNote>
+        </handNotes>
+     </profileDesc>
+     
+     <encodingDesc>
+        <editorialDecl>
+              <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+        </editorialDecl>
+     </encodingDesc>
+   </teiHeader>
+ 
+   <text>
+      <body>
+         <div type="letter">
+            <opener> 
+               <add hand="pencil">To Sir W. Elford</add>
+               <add hand="#pencil">40</add>
+               <dateline>
+                  <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> 
+                  <date when="1822-03-02">March 2<hi rend="superscript">nd</hi>1822</date>.
+               </dateline>
+            </opener>
+            <p>In all the variety of letters &amp; modes of letters which, we have at different times sent to one another, pray did we ever <del rend="squiggles"><gap quantity="1" unit="word"/><unclear/></del><add place="above">try</add> that fine classical thing a fragment? If not I have the pleasure of beginning the practice with the enclosed half <del rend="squiggles"><gap quantity="1" unit="word"/>page</del><add place="above">sheet</add><note resp="#err">After the inserted word "sheet," there is an X (as described in one of the handNotes in the TEI header) that has been inserted by a later annotator that points to a footnote at the bottom of the first page of the letter. This inserted footnote reads as follows: "This half sheet <del rend="strikethrough"><gap quantity="1" unit="word"/></del><add place="above">is <unclear><supplied resp="#err">printed</supplied></unclear></add> at the end of the letter."</note>--without an end--&amp; beginning most Pindarically in the middle of a subject--<q>"Ruin seize thee ruthless King"</q><note resp="#jcm">Mitford quotes from <title ref="#Bard_ode">The Bard. A Pindaric Ode</title> by <persName ref="#Gray_Thos">Thomas Gray</persName> (I.1.1-4. Bard: "'Ruin seize thee, ruthless king!/Confusion on thy banners wait,/Though fanned by Conquest's crimson wing/They mock the air with idle state.'")</note> is not a finer instance of abruptness.--The truth is, my dear friend, that about a week ago, I began a letter to ask you a question respecting a person whom I thought it possible you might know--but getting the information I wished from another quarter, the first page &amp; a half of my letter became useless--&amp; being as you know a great economist of time &amp; paper I tore off the un-business part of the epistle &amp; shall enclose what remains. I was talking I believe of <persName ref="#Milman_HH">Mr. Milman</persName>'s new Poem <title ref="#Martyr_Antioch">The Martyr of Antioch</title>--I know that you don't read much of things printed in uneven lines--&amp; I fancy that nine tenths of <persName ref="#Milman_HH">Mr. Milman</persName>'s readers care as little for poetry as you do--only that very few have the honesty to say so--They read him for fashion--for the honour &amp; glory of reading a poem--&amp; the soberer credit of reading a good book--<choice><sic>Its</sic><reg resp="#jcm">It's</reg></choice> a sort of union of Sermon &amp; romance--a Sunday evening amusement, which Mamas tolerate &amp; Papas smile upon--so the book sells--And it ought to sell for it is full of splendid passages--with only one faux pas--all the Heathen persons odes &amp; descriptions are worth a million of the Christian hymns &amp; people--indeed <persName ref="#Milman_HH">Mr. Milman</persName> has a fine sense of classical  <pb n="2"/> beauty--he would make a glorious thing of some old Grecian story--but then that would never make him a Dean or a Bishop--Now you will not be very violently at a loss for a <choice><sic>connexion</sic><reg resp="#jcm">connection</reg></choice> with the fragment--which I have made still more of a subject for the <orgName ref="#Antiquarian_Soc">Antiquarian Society</orgName> (do you belong to that learned body?) by tearing off with my usual <choice><sic>mal-adresse</sic><reg resp="#jcm">maladresse</reg></choice> the beginnings &amp; endings of some of the lines--Never mind you like riddles.</p><metamark rend="jerk"/><p> By the bye coming back to our eternal theme the <persName ref="#Scott_Wal">Author of <title ref="#Waverley">Waverley</title></persName>--I heard a day or two back from the young American Traveller of whom I have I think elsewhere made honorable mention <note resp="#jcm">Mitford appears to have met an American with whom she corresponded, possibly <persName ref="#Willis_NP">Nathaniel Parker Willis</persName>.</note> that <persName ref="#Scott_Tom">Captain Scott</persName> is much respected by those much with him in <placeName ref="#Canada">Canada</placeName> (our Traveller aforesaid had the honour to be introduced to him) of having at least some share in the novels<note resp="#jcm"><persName ref="#Scott_Tom">Thomas Scott</persName> was rumored to have been the author of <title ref="#Waverley">Waverley</title>, or at least a major contributor to the Waverley Novels. Many of <persName ref="#Scott_Wal">Scott</persName>'s novels subsequent to <title ref="#Waverley">Waverley</title> were simply ascribed to "the Author of Waverley".</note>--he is certainly eternally writing--&amp; if that be not the subject no one can guess what is.</p><metamark rend="jerk"/><p>To come back to a less distant Traveller (really I have done injustice to my own excellence in the art of transition--the <persName ref="#Scott_Wal">Scott</persName> question being in itself a sort of conundrum would have hitched into the <persName ref="#Milman_HH">Milman</persName> &amp; <orgName ref="#Antiquarian_Soc">Antiquarian</orgName> subject with no bigger a link than the little word Enigma--&amp; Traveller would have served equally for Him of <placeName ref="#USA">America</placeName> &amp; Her of <placeName ref="#Exmouth_village">Exmouth</placeName><note resp="#jcm">Here, Mitford refers to the "American Traveller" (possibly <persName ref="#Willis_NP">Nathaniel Parker Willis</persName>) and the "less distant Traveller" (<persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName>), respectively. She compares their geographical distance to the disparity of her topics mentioned above.</note>--there was not the slightest occasion for a mark of jerkification inasmuch as there was no jerk) <persName ref="#Dickinson_Mrs">Mrs. <choice><sic>Dickenson</sic><reg resp="#jcm #err">Dickinson</reg></choice></persName> is come back from the West--quite delighted with <placeName ref="#Devonshire">Devonshire</placeName> scenery <placeName ref="#Devonshire">Devonshire</placeName> manners, &amp; <placeName ref="#Devonshire">Devonshire</placeName> people. We shall never get her to like <placeName ref="#Berkshire">Berkshire</placeName> again. She spent her time very gaily &amp; very happily at <placeName ref="#Exmouth_village">Exmouth</placeName> &amp; they have laid in a stock of health, she &amp; her little <rs type="person" ref="#Dickinson_Daughter">girl</rs>, which will last them a twelvemonth--<persName ref="#Dickinson_Charles">Mr. D.</persName> is still indifferent--they are
+               <pb n="3"/>talking of going to <placeName ref="#London_city">London</placeName> for advice (N.B. when it is got he won't take it--I am sure of that)--Perhaps they are already gone--for they set off with a whole family with little more preparation than a bird makes when it takes flight from a tree--The Albatross <!-- 2018-01-21 err: Are we creating xml:ids for species names like Albatross? LMW: yes. --> whose wing has five joints to put in motion before it can get under way (vide <title ref="#LondonMag">the London Magazine</title> for this month)<note resp="#err">An article titled "Narrative of a Voyage to New South Wales" in the March 1822 issue of <title ref="#LondonMag">The London Magazine</title> recounts a sea voyage to Australia that the author of the piece (B.F.) undertook between August 1816 and February 1817. What was particularly notable about the voyage was the large number of albatrosses observed by the author, including one in particular that followed the ship from Rio de Janeiro onward. The author of the piece notes that the albatross "had possessed a great interest in my mind, from the conspicious part it plays in Mr. Coleridge's wonderful ballad of the 'Ancient Marinere' (223). The full text of the article can be found here: https://babel.hathitrust.org/cgi/pt?id=mdp.39015019351223;view=1up;seq=277.</note> is much longer in taking flight than <gap reason="torn" quantity="1" unit="chars"/><persName ref="#Dickinson_Mrs"><unclear><supplied resp="#jcm">M</supplied></unclear>rs. Dickinson</persName>. Pray <gap reason="torn" quantity="1" unit="word"/><unclear><supplied resp="#jcm">are</supplied></unclear> you going to <placeName ref="#London">Town</placeName> this season? If you think of such a thing don't forget that we are only three miles from <placeName ref="#Reading_city">Reading</placeName> &amp; that we shall be delighted to see you in our hut. There is some chance that I might be able to <choice><sic>shew</sic><reg resp="#err">show</reg></choice> you <persName ref="#James_Miss">Miss James</persName>--for I think she will come to <persName ref="#Valpy_Richard">Dr. Valpy</persName>'s at Easter--&amp; when she comes for the form of the thing to <persName ref="#Valpy_Richard">D. Valpy</persName>'s she spends most of her time here. I think I love her better than I used to do when you used to laugh at me about her--we have ha<gap reason="torn" quantity="1" unit="chars"/><unclear><supplied resp="#jcm">d</supplied></unclear> a quarrel--in which I scolded &amp; she sulked--&amp; as <gap reason="torn" quantity="1" unit="word"/><unclear><supplied resp="#jcm">her</supplied></unclear> only fault before was being faultless the discovery of this little imperfection has only made her the more charming--besides we are more upon an equality--she knew plenty of my little imperfections before--for my faults I thank them poor things lie visibly enough upon the surface--you may <unclear><supplied resp="#jcm #err">run &amp; read</supplied></unclear>--whilst her one sin lay buried like a tulip root at Christmas. I should like you to know her.</p><metamark rend="jerk"/><p> Was not I very poorly when I wrote to you last? Yes. I am quite well again--&amp; quite ready for a letter from you as soon as ever you may condescend to write one--This is my second remember. Pray write soon &amp; long. God bless you my dear friend--Kindest regards from <persName ref="#Mitford_Geo">Papa</persName> &amp; <persName ref="#Russell_M">Mama</persName>--.</p>     
+            <closer>
+              <lb/>Ever most faithfully <choice><sic>your's</sic><reg resp="#jcm">yours</reg></choice>
+              <lb/><persName ref="#MRM">M.R. Mitford</persName>. 
+            </closer> 
+            <closer>
+               <address> 
+                  <addrLine><lb/><placeName ref="#Reading_city">Reading</placeName> <date when="1822-03-04">March Four--<emph rend="underline">1822</emph></date></addrLine>
+                  <addrLine><lb/><persName ref="#Elford_SirWm">Sir W. Elford--Bart</persName></addrLine>
+                  <addrLine><lb/><placeName ref="#Bickham_village">Bickham</placeName></addrLine>
+                  <addrLine><lb/><unclear><supplied resp="#jcm"><persName ref="#Palmer_CF">C F <emph rend="underline">Palmer</emph></persName></supplied></unclear></addrLine><!--2018-02-18 err: It looks like this letter was franked by C.F. Palmer rather than J.B. Monck. Does this sound correct? Most other letters from 1822 are franked by Monck. LMW: Yes, Charles Fysshe Palmer was also M.P.-->
+                  <addrLine><lb/><placeName ref="#Plymouth_city">Plymouth</placeName></addrLine>
+            </address>
+            </closer> 
+         </div>
+      </body>
+     
+     <back>
+        <div>
+           <listBibl>
+              <bibl xml:id="Bard_ode">
+                 <title>The Bard. A Pindaric Ode</title>
+                 <author ref="#Gray_Thos">Thomas Gray</author>
+                 <pubPlace>London</pubPlace>
+                 <publisher>Strawberry Hill</publisher>
+                 <date when="1757">1757</date>
+                 <note resp="#err">Gray's poem, published by Horace Walpole's Strawberry Hill press, gives voice to a Welsh bard who, upon the conquest of Wales by Edward I, commits suicide by leaping from the top of Mount Snowdon rather than allowing himself to be murdered along with his fellow Welsh poets.</note>
+              </bibl>
+           </listBibl>
+           
+           <listBibl>
+              <bibl xml:id="Martyr_Antioch">
+                 <title>The Martyr of Antioch: A Dramatic Poem.</title>
+                 <author ref="#Milman_HH">Henry Hart Milman</author>
+                 <pubPlace>London</pubPlace>
+                 <publisher>John Murray</publisher>
+                 <date when="1822">1822</date>
+                 <note resp="#err">Milman's poem, written as a blank-verse drama, is a fictionalized account of the life and death of Saint Margaret of Antioch. Milman's <title ref="#Martyr_Antioch">The Martyr of Antioch</title> served as the source material for W.S. Gilbert and Arthur Sullivan's 1880 oratorio of the same name.</note>
+              </bibl>
+           </listBibl>
+           
+           <listOrg>
+              <org xml:id="Antiquarian_Soc">
+                 <orgName>Society of Antiquaries of London</orgName>
+                 <note resp="#jcm #err">Founded in <date when="1707">1707</date> and receiving a royal charter in <date when="1751">1751</date>, the <orgName ref="#Antiquarian_Soc">Society of Antiquaries of London</orgName> is a learned body of scholars whose aim is to advance the study of antiquities and history. The Society held meetings at <placeName ref="#Somerset_House">Somerset House</placeName> from <date when="1780">1780</date> to <date when="1874">1874</date>.</note>
+              </org>
+           </listOrg>
+           
+           <listPerson>
+             <person xml:id="Scott_Tom">
+             <persName>
+                <surname>Scott</surname>
+                <forename>Thomas</forename>
+             </persName>
+             <persName>Thomas Scott</persName>
+             <persName>Captain Scott</persName>
+             <birth when="1773"><placeName ref="#England">England</placeName></birth>
+             <death when="1823"><placeName ref="#Canada">Canada</placeName></death>
+                <note resp="#jcm">Brother of <persName ref="#Scott_Wal">Sir Walter Scott</persName>. He was rumored to have been the author of <title ref="#Waverley">Waverley</title> and other later novels until his <persName ref="#Scott_Wal">brother</persName>'s admission in 1827.
+                   <ref target="https://gutenberg.ca/ebooks/buchanj-sirwalterscott/buchanj-sirwalterscott-00-h-dir/buchanj-sirwalterscott-00-h.html"/></note>
+             </person>
+              
+           </listPerson>  
+           
+           <listPlace>
+              <place xml:id="Canada">
+                 <placeName>Canada</placeName>
+                 <location><geo>56.130366 -106.346771</geo>
+                 </location>
+                 <note resp="#jcm #lmw">Country in North America north of the <placeName ref="#USA">United States</placeName>, and second largest country in the world. In Mitford's time, a British colony that became increasingly independent after the institution of responsible government in the 1830s.</note>
+              </place>              
+           </listPlace>  
+           
+           <listPlace>
+              <place xml:id="Exmouth_village">
+                 <placeName>Exmouth, Devon, England</placeName>
+                 <settlement>Exmouth</settlement>
+                 <region>Devon</region>
+                 <country>England</country>
+                 <location><geo>50.619957 -3.413702</geo>
+                 </location>
+                 <note resp="#jcm">Port town in the county of Devon on the south coast of England.</note>
+              </place>              
+           </listPlace>  
+     </div>
+     </back>
+  </text>
+</TEI>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor ref="#scw">Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName ref="#scw">Samantha Webb</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title ref="#Talking_Lady_OV">THE TALKING LADY.</title></head>
+                <p><persName ref="Jonson_B">Ben Jonson</persName> has a play called <title ref="#Silent_Woman_play">The Silent Woman</title>, who turns out, as might be expected, to be no woman at all—nothing, as <persName ref="#Master_Slender">Master Slender</persName> said, but <quote>“a great lubberly boy;”</quote><note resp="#scw">Spoken by Master Slender about Anne Page in Shakespeare's The Merry Wives of Windsor, V, v, 162-166.</note> thereby, as <persName ref="OVNarrator">I</persName> apprehend, discourteously presuming that a silent woman is a non-entity. If the <rs type="#Jonson_B">learned dramatist</rs>, thus happily prepared and predisposed, had happened to fall in with such a specimen of female loquacity as I have just parted with, he might perhaps have given us a pendant to his picture in the <persName ref="#talking_Lady_fict_OV">Talking Lady</persName>. Pity but he had! He would have done her justice, which I could not at any time, least of all now: I am too much stunned; too much like one escaped from a belfry on a coronation day. I am just resting from the fatigue of four days’ hard listening;—four snowy, sleety, rainy days—days of every variety of falling weather, all of them too bad to admit the possibility that any petticoated thing, were she as hardy as a Scotch fir, should stir out,—four days chained by <quote>“sad civility”</quote><note resp="#scw">From <persName ref="#Pope_Alex">Alexander Pope</persName>'s <title ref="#PopetoArbuthnot">Epistle to Dr. Arbuthnot</title>, line 37. The full passage reads: <quote>"I sit with sad civility, I read / With honest anguish, and an aching head;"</quote></note> to that fire-side, <pb n="108"/>once so quiet, and again—cheering thought!—again I trust to be so, when the echo of that visitor’s incessant tongue shall have died away.</p>
+                <p>The visitor in question is a very <rs type="person" ref="#talking_lady_fict_OV">excellent and respectable elderly lady</rs>, upright in mind and body, with a figure that does honour to her dancing-master, a face exceedingly well preserved, wrinkled and freckled, but still fair, and an air of gentility over her whole person, which is not the least affected by her out-of-fashion garb. She could never be taken for any thing but a woman of family, and perhaps she could as little pass for any other than an old maid. She took us in her way from <placeName ref="#London_city">London</placeName> to the west of England; and being, as she wrote, <quote>“not quite well, not equal to much company, prayed that no other guest might be admitted, so that she might have the pleasure of our conversation all to herself,”</quote>—(<emph>Ours!</emph> as if it were possible for any of us to slide in a word edgewise!)—<quote>”and especially enjoy the gratification of talking over old times with <persName ref="OVNarratorsFather">the master of the house</persName>, her countryman.”</quote> Such was the promise of her letter, and to the letter it has been kept. All the news and scandal of a large county<note resp="#scw">Possibly <placeName ref="#Northumberland">Northumberland</placeName>.</note> forty years ago, and a hundred years before,<!--scw: I cannot locate the tags for timeframes in the TEI--> and ever since, all the marriages, deaths, births, elopements, lawsuits, and casualties of her own times, <orgName ref="#talking_ladys_extfamily_OV">her father’s, grandfather’s, great-grandfather's, nephew’s, and grand-nephew’s</orgName>, has she detailed with a minute-<pb n="109"/>ness, an accuracy, a prodigality of learning, a profuseness of proper names, a pedantry of locality, which would excite the envy of a county historian, a king at arms, or even a Scotch novelist. Her knowledge is astonishing; but the most astonishing part of all is how she came by that knowledge. It should seem, to listen to her, as if, at some time of her life, she must have listened herself; and yet <rs type="person" ref="#OVNarratorsFather">her countryman</rs> declares, that in the forty years he has known her, no such event has occurred; and she knows new news too! It must be intuition.</p>
+                <p>The manner of her speech has little remarkable. It is rather old-fashioned and provincial, but perfectly lady-like, low and gentle, and not seeming so fast as it is; like the great pedestrians she clears her ground easily, and never seems to use any exertion; yet <quote>“I would my horse had the speed of her tongue, and so good a continuer.”</quote><note resp="#scw">A slight redirection of lines from <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Much_Ado_play">Much Ado About Nothing</title>, Act I, scene 1, line 112. The line is spoken by Benedick to Beatrice.</note> She will talk you sixteen hours a day for twenty days together, and not deduct one poor five minutes for halts and baiting time. Talking, sheer talking, is meat and drink and sleep to her. She likes nothing else. Eating is a sad interruption. For the tea-table she has some toleration; but dinner, with its clatter of plates and jingle of knives and forks, dinner is her abhorrence. Nor are the other common pursuits of life more in her favour. Walking exhausts the breath that might be better employed.<pb n="110"/> Dancing is a noisy diversion, and singing is worse; she cannot endure any music, except the long, grand, dull concerto, which nobody thinks of listening to. Reading and chess she classes together as silent barbarisms, unworthy of a social and civilized people. Cards, too, have their faults; there is a rivalry, a mute eloquence in those four aces, that leads away the attention; besides, partners will sometimes scold; so she never plays at cards; and upon the strength of this abstinence had very nearly passed for <emph>serious</emph>, till it was discovered that she could not abide a long sermon. She always looks out for the shortest preacher, and never went to above one Bible Meeting in her life.—<said who="#talking_lady_fict_OV">“Such speeches!”</said> quoth she: <said who="#talking_lady_fict_OV">“I thought the men never meant to have done. People have great need of patience.”</said> Plays, of course, she abhors, and operas, and mobs, and all things that will be heard, especially children; though for babies, particularly when asleep, for dogs and pictures, and such silent intelligences as serve to talk of and talk to, she has a considerable partiality; and an agreeable and gracious flattery to the mammas and other owners of these pretty dumb things is a very usual introduction to her miscellaneous harangues. The matter of these orations is inconceivably various. Perhaps the local and genealogical anecdotes, the sort of supplement to the history of *****shire,<note resp="#scw">Unidentified</note> may be her strongest point;<pb n="111"/> but she shines almost as much in medicine and housewifery. Her medical dissertations savour a little of that particular branch of the science called quackery. She has a specific against almost every disease to which the human frame is liable; and is terribly prosy and unmerciful in her symptoms. Her cures kill. In housekeeping, her notions resemble those of other verbal managers; full of economy and retrenchment, with a leaning towards reform, though she loves so well to declaim on the abuses in the cook’s department, that I am not sure that she would very heartily thank any radical who should sweep them quite away. For the rest, her system sounds very finely in theory, but rather fails in practice. Her recipes would be capital, only that some way or other they do not eat well; her preserves seldom keep; and her sweet wines are sure to turn sour. These are certainly her favourite topics; but any one will do. Allude to some anecdote of the neighbourhood, and she forthwith treats you with as many parallel passages as are to be found in an air with variations. Take up a new publication, and she is equally at home there; for though she knows little of books, she has, in the course of an up-and-down life, met with a good many authors, and teazes and provokes you by telling of them precisely what you do not care to hear, the maiden names of their wives, and the christian names of their daugh-<pb n="112"/>ters, and into what families their sisters and cousins married, and in what towns they have lived, what streets, and what numbers. <persName ref="#Boswell">Boswell</persName> himself never drew up the table of <persName ref="#Johnson">Dr. Johnson</persName>’s Fleet-street courts with greater care, than she made out to me the successive residences of <persName ref="#PP_Esq_OV"><abbr>P.P.</abbr> Esq.</persName>, author of a tract on the French Revolution, and a pamphlet on the Poor Laws. The very weather is not a safe subject. Her memory is a perpetual register of hard frosts, and long droughts and high winds, and terrible storms, with all the evils that followed in their train, and all the personal events connected with them; so that if you happen to remark that clouds are come up, and you fear it may rain, she replies, <said who="#talking_lady_fict_OV">“Aye, it is just such a morning as three-and-thirty years ago, when my poor cousin was married—you remember my cousin <persName ref="#Talk_Lady_Barbara_OV">Barbara</persName>—she married so and so, the son of so and so;”</said> and then comes the whole pedigree of the bridegroom; the amount of the settlements, and the reading and signing them over night; a description of the wedding-dresses, in the style of <title ref="#Chas_Grandison_novel">Sir Charles Grandison</title>,<!--scw note to self: verify that this isn't the character or the novel title--> and how much the bride’s gown cost per yard; the names, residences, and a short subsequent history of the bridemaids and men, the gentleman who gave the bride away, and the clergyman who performed the ceremony, with a learned antiquarian digression relative to the church; then the setting out in procession;<pb n="113"/> the marriage; the kissing; the crying; the breakfasting; the drawing the cake through the ring; and, finally, the bridal excursion, which brings us back again at an hour’s end to the starting-post, the weather, and the whole story of the sopping, the drying, the clothes-spoiling, the cold-catching, and all the small evils of a summer shower. By this time it rains, and she sits down to a pathetic see-saw of conjectures on the chance of <persName ref="Talk_Lady_MrsSmith_OV">Mrs. Smith</persName>’s having set out for her daily walk, or the possibility that <persName ref="Talk_Lady_DrBrown_OV">Dr. Brown</persName> may have ventured to visit his patients in his gig, and the certainty that <persName ref="#Talk_Lady_LadyGreen_housemaid_OV">Lady Green’s new housemaid</persName> would come from <placeName ref="#London_city">London</placeName> on the outside of the coach.</p>
+                <p>With all this intolerable prosing, she is actually reckoned a pleasant woman! Her acquaintance in the <rs type="place" ref="Talk_Lady_manufac_town">great manufacturing town where she usually resides</rs> is very large, which may partly account for the misnomer. Her conversation is of a sort to bear dividing. Besides, there is, in all large societies, an instinctive sympathy which directs each individual to the companion most congenial to his humour. Doubtless, her associates deserve the old French compliment, <quote>“<emph><foreign>Ils ont tous un grand talent pour le silence</foreign></emph>.”</quote><note resp="#scw">"They all have a great talent for silence." (Webb's translation)</note> Parcelled out amongst some seventy or eighty, there may even be some savour in her talk. It is the  <emph><foreign>tête-à-tête</foreign></emph> that kills, or the small fire-side circle of three or four, where only one can speak, and all the rest must seem to listen—<emph>seem!</emph> did<pb n="114"/> I say?—must listen in good earnest. <persName ref="Percy_Henry">Hotspur</persName>’s expedient in a similar situation of crying <quote>“Hem! Go to,”</quote><!--scw: From 1Henry IV??--> and marking not a word, will not do here; compared to her, <persName ref="#Glendower_Owen">Owen Glendower</persName> was no conjuror. She has the eye of a hawk, and detects a wandering glance, an incipient yawn, the slightest movement of impatience. The very needle must be quiet. If a pair of scissors do but wag, she is affronted, draws herself up, breaks off in the middle of a story, of a sentence, of a word, and the unlucky culprit must, for civility’s sake, summon a more than Spartan fortitude, and beg the torturer to resume her torments—<quote>“That, that is the unkindest cut of all!”</quote><note resp="#scw">Probably a deliberate misquote from Shakespeare's Julius Caesar, spoken by Mark Antony about Brutus, Act III, scene ii, 177-8: <quote>"Judge, O you gods, how dearly Caesar loved him! / This was the most unkindest cut of all."</quote></note><!--scw: MRM may be referring to a different script of Shakespeare, but this is all I could find, so I call it a misquote, something MRM often does.-->I wonder, if she had happened to have married, how many husbands she would have talked to death. It is certain that none of her relations are long-lived after she comes to reside with them. <orgName ref="#talking_ladys_family">Father, mother, uncle, sister, brother, two nephews, and one niece</orgName>, all these have successively passed away, though a healthy race, and with no visible disorder—except—but we must not be uncharitable. They might have died, though she had been born dumb:—<quote>"It is an accident that happens every day."</quote><!--scw: quote unidentified at present--> Since the decease of her last <rs type="person" ref="talking_lady_nephew_OV">nephew</rs>, she attempted to form an establishment with a <rs type="person" ref="Talk_Lady_widow_OV">widow lady</rs>, for the sake, as they both said, of the comfort of society. But—strange miscalculation!-she was a talker too! They parted in a week.<pb n="115"/></p>
+                <p>And we have also parted. I am just returned from escorting her to the coach, which is to convey her two hundred miles westward; and I have still the murmur of her <emph><foreign>adieux</foreign></emph> resounding in my ears, like the indistinct hum of the air on a frosty night. It was curious to see how, almost simultaneously, her mournful <emph><foreign>adieux</foreign></emph> shaded into cheerful salutations of her new comrades, the <orgName ref="#Talk_Lady_mail_passengers_OV">passengers in the mail</orgName>. Poor souls! Little does the <persName ref="#Talk_Lady_civil_lad_OV">civil young lad</persName> who made way for her, or the <persName ref="#Talk_Lady_civil_lad_mama_OV">fat lady, his mamma</persName>, who with pains and inconvenience made room for her, or the <persName ref="#Talk_Lady_grumpy_gent_OV">grumpy gentleman</persName> in the opposite corner, who, after some dispute, was at length won to admit her dressing box,—little do they suspect what is to befall them. Two hundred miles! and she never sleeps in a carriage! Well, patience be with them, and comfort and peace! A pleasant journey to them! And to her all happiness! She is a most kind and excellent person, one for whom I would do any thing in my poor power—ay, even were it to listen to her another four days.<pb n="116"/></p>
+            </div>      
+        </body>
+        <back>
+            <listPerson type="fict">
+                
+                <person xml:id="Glendower_Owen" sex="m"><!--scw: This ID could go into "hist" or "fict" but the reference from which this is taken, "The Talking Lady," clearly refers to the context of 1HenryIV.-->
+                    <persName ref="#Glendower_Owen">Owen Glendower
+                        <surname>Glendower</surname><!--scw: these are the English names.-->
+                        <forename>Owen</forename>
+                    </persName>
+                    <occupation>military</occupation>
+                    <occupation>legal</occupation>
+                    <birth notAfter="1359">1359</birth>
+                    <death notAfter="1417-04-17">April 17, 1417</death>
+                    <note resp="#scw">Welsh rebel hero of legend and history, widely popularized in <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#HenryVIpt1_play">Henry IV, Part 1</title>. Born to a noble Welsh family, he was trained at the Inns of Court in London. The rebellion he led against the English began as a land dispute... <!--scw: Not finished with the bio part--> In the play, he is depicted as a wild man, who claims to be able to call up spirits, and it is in this sense that Mitford generally refers to him. Source: ODNB.</note>
+                </person>
+                
+                <person xml:id="Master_Slender" sex="m">
+                    <persName ref="#Master_Slender">
+                        <surname>Slender</surname>
+                        <forename>Abraham</forename>
+                    </persName>
+                    <note resp="#scw">In Shakespeare's play, <title ref="#Merry_Wives_play">The Merry Wives of Windsor</title>, Slender is a foolish character whom Anne Page tricks as part of the larger trick on <persName ref="#Falstaff_WS">Falstaff</persName>.</note> 
+                </person>
+                
+                <person xml:id="Percy_Henry" sex="m">
+                    <persName ref="#Percy_Henry">
+                        <surname>Percy</surname>
+                        <forename>Henry</forename>
+                        <forename type="nick">Hotspur</forename>
+                        <roleName>Earl of Northumberland</roleName>
+                    </persName>
+                    <birth/>
+                    <death when="1408">1408</death>
+                </person>
+                
+                <person xml:id="PP_Esq_OV" sex="m">
+                    <persName ref="#PP_Esq_OV">
+                        <surname><abbr>P.</abbr></surname>
+                        <forename><abbr>P.</abbr></forename>
+                    </persName>
+                    <occupation>literary</occupation>
+                    <note resp="#scw">Obscure author of tracts on the poor laws and on the French Revolution who is discussed by the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title> as someone on whose life she can give minute details. Mentioned with irritation by the <persName ref="#OVNarrator">narrator</persName>.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_Barbara_OV" sex="f">
+                    <persName ref="#Talk_Lady_Barbara_OV">
+                        <surname>not given</surname>
+                        <forename>Barbara</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">Cousin of the title character of the sketch, <title ref="#Talking Lady"/>. She is mentioned in passing.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_civil_lad_OV" sex="m">
+                    <persName ref="#Talk_Lady_civil_lad_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>   
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_civil_lad_mama_OV" sex="f">
+                    <persName ref="#Talk_Lady_civil_lad_mama_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_grumpy_gent_OV" sex="m">
+                    <persName ref="#Talk_Lady_grumpy_gent_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">One of the passengers on the mail coach with whom the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title> shares her journey west.</note>
+                </person>
+                
+                <person xml:id="talking_lady_fict_OV" sex="f">
+                    <persName ref="#talking_lady_fict_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">Unnamed title character of the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title>. She is an old acquaintance of <persName ref="#OVNarratorsFather">the narrator's father</persName>, possibly based on someone <persName ref="#MRM">Mitford</persName> knew.</note><!--scw: More research needed-->
+                </person>
+                
+                <person xml:id="Talk_Lady_DrBrown_OV" sex="m">
+                    <persName ref="#Talk_Lady_DrBrown_OV">
+                        <surname>Brown</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>medicine</occupation>
+                    <note resp="#scw">A person who is the subject of the <persName ref="#talking_lady_fict_OV">the talking lady</persName>'s endless talk.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_LadyGreen_housemaid_OV" sex="f">
+                    <persName ref="#Talk_Lady_LadyGreen_housemaid_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>housemaid</occupation>
+                    <note resp="#scw">A person who is the subject of the <persName ref="#talking_lady_fict_OV">the talking lady</persName>'s endless talk.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_MrsSmith_OV" sex="f">
+                    <persName ref="#Talk_Lady_MrsSmith_OV">
+                        <surname type="married">Smith</surname>
+                        <surname type="paternal">not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">A person who is the subject of the <persName ref="#talking_lady_fict_OV">the talking lady</persName>'s endless talk.</note>
+                </person>
+                
+                <person xml:id="Talk_Lady_widow_OV" sex="f">
+                    <persName ref="#Talk_Lady_widow_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">A woman who is mentioned as having unsuccessfully set up house with the title character of <title ref="#Talking_Lady_OV">The Talking Lady</title>.</note>
+                </person>
+               
+                <person xml:id="talking_ladys_nephew_OV" sex="m">
+                    <persName ref="#talking_ladys_nephew_OV">
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>not given</occupation>
+                    <note resp="#scw">The last nephew of the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title> whose death leads her to move in with <persName ref="#Talk_Lady_widow_OV">the widow</persName>, and subsequently, to take the trip that brings her to visit the <orgName ref="#OVNarratorsFamily">the narrator's family</orgName>.</note>
+                </person>
+            </listPerson>
+            
+            <listOrg>
+                <org xml:id="Talk_Lady_mail_passengers_OV">
+                    <orgName ref="#Talk_Lady_mail_passengers_OV"/>
+                    <note resp="#scw">The mail passengers who will share the coach with the title character of <title ref="#Talking_Lady_OV">The Talking Lady</title>.</note>
+                </org>
+                
+                <org xml:id="talking_ladys_family">
+                    <orgName ref="#talking_ladys_family"/>
+                    <note resp="#scw">The large array of relations enumerated by <persName ref="#OVNarrator">the narrator</persName> who have pre-deceased the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title>.</note>   
+                </org>
+                
+                <org xml:id="talking_ladys_extfamily">
+                    <orgName ref="#talking_ladys_extfamily">
+                        <note resp="#scw">The extended family of the title character of the sketch, <title ref="#Talking_Lady">The Talking Lady</title>, whose life stories she recounts in great detail, to <persName ref="#OVNarrator">the narrator</persName>'s chagrin.</note>
+                    </orgName>
+                </org>
+                
+            </listOrg>
+            
+            <listPlace>
+                <place xml:id="Talk_Lady_manufact_town_OV">
+                    <placeName ref="#Talk_Lady_manufact_town_OV">manufacturing town</placeName>
+                    <note resp="#scw">The town mentioned as the usual residence of the title character of the sketch, <title ref="#Talking_Lady_OV">The Talking Lady</title>. Since this character is an old acquaintance of the <persName ref="#OVNarratorsFather">narrator's father</persName>, who is based on <persName ref="#Mitford_Geo">George Mitford</persName>, the town may be Newcastle.</note>
+                </place>
+                
+            </listPlace>
+            
+            <listBibl>
+                <bibl xml:id="Silent_Woman_play">
+                    <title ref="#Silent_Woman_play">The Silent Woman</title>
+                    <title type="alt">Epicene</title>
+                    <author>Ben Jonson</author>
+                    <note resp="#scw">Comic play by Ben Jonson that premiered at the Whitefriars Theater in either <date when="1609-12">December 1609</date> or <date when="1610-01">January 1610</date>, and was the first play performed at the Restoration after the reopening of the theaters in <date when="1660">1660</date>. The play features a noise-despising man named Morose who tries to disherit his nephew, Dauphine, by marrying. The nephew subsequently tricks Morose into marrying a mysteriously quiet woman, who turns out to be not only talkative, but also a boy.</note>
+                    <note>
+                        <ref target="#http://universitypublishingonline.org/cambridge/benjonson/k/essays/stage_history_Epicine/"/>
+                    </note>
+                </bibl>
+                
+              
+            </listBibl>
+            
+        </back>
+    </text>
+</TEI>

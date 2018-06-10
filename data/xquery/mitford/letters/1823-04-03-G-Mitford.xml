@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1805">Letter to <persName ref="#Mitford_Geo">George Mitford</persName>, 1823 April
+               3</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <author ref="#Russell_M"> Mary Mitford</author>
+            <editor ref="#tnh">Toni Hays</editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#tnh">Toni Hays</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2016-12-31">2016-12-31</date>. Proofing and corrections by: <persName ref="#bas">Brooke A. Stewart</persName></resp> <!-- 2016-09-19 bas: Updated header to include the correct letter xml:id. Corrected minor formatting error in the respStmt.--> <!-- 2016-10-04 bas: Added idno information and fixed photo file permission statement. 2016-10-09 bas: added collection information. 2016-10-17: Proofed and corrected transcription errors. Added note about year of the stamps. 2016-10-18 bas: minor transcription fixes, persNames still need to be identified. 2016-10-22 bas: Added missing id's to persNames, added penAnnot_RCL handNote, added address lines. General transcription fixes. 2016-10-29 Fixed/added editorial notes, general transcription fixes.--><!-- 2016-12-31 bas: checked for completion. Stamps should be proofed/fixed, there are unidentified people. -->
+               <resp>Date checked: <date when="2015-02-23">23 February 2015</date><date/>. Proofing and corrections by </resp>
+               <persName ref="#rct">Rebecca Tang</persName><persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2014-08-11">11 August 2014</date>. P5.</edition>
+            <respStmt><orgName>The Digital Mitford</orgName><resp>Photo files: <idno>3April1823GeorgeMitford1a.JPG, 3April1823GeorgeMitford2.JPG, 3April1823GeorgeMitford3.JPG, 3April1823GeorgeMitford4.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2014</date>
+            <availability>
+               <p>Reproduced by courtesy of the <placeName>The Reading Central
+                  Library</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#ReadingCL">The Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4, Horizon No.: 1361550 ff. 467</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to George Mitford, <date when="1823-04-03">1823
+                  April 3</date>.</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>One quarto sheet of <material>paper</material> folded in half to form two octavo pages, which
+                              comprise pages 1-4 of the letter. The fourth page exposes the address with some of Mitford's
+                              mother's writing at the top of the page. The third page has a slight rip where the wax seal was
+                              attached. Also, beneath the address to George Mitford is another address to a Miss Foote, an
+                              actress in Mitford's play <title ref="#Julian_MRMplay">Julian</title>.</p>
+                           <p>Address leaf bearing the following postmarks:
+                              1) black circular Mileage stamp<stamp><unclear unit="word" quantity="1" reason="illegible"><supplied resp="#tnh">Reading</supplied></unclear><lb/><unclear unit="word" quantity="2" reason="illegible"/><supplied>AP 23</supplied><lb/><unclear unit="word" quantity="1" reason="illegible"/><supplied>1823</supplied><lb/><unclear unit="word" quantity="1" reason="illegible"/><lb/>
+                                 <unclear><gap quantity="1" unit="chars" reason="illegible"/></unclear>2</stamp> 
+                              2) Red double-circle duty stamp <stamp><unclear unit="word" quantity="1" reason="illegible"><supplied resp="#bas">R</supplied></unclear><lb/><unclear unit="word" quantity="3" reason="illegible"><supplied resp="#tnh">23 APR 
+                                    23</supplied></unclear><lb/><unclear unit="word" quantity="1" reason="illegible"><supplied>1823</supplied></unclear></stamp></p>
+                           <note resp="#bas">Having consulted advertisements in the <title level="j">Morning Post</title>, <persName ref="#Foote_Maria">Miss Foote</persName> acted in <title ref="#Julian_MRMplay">Julian</title> beginning <date when="1823-03-15">March 15, 1823</date>, through at least <date when="1832-04-11">April 11, 1823.</date> Therefore, the year on the stamp is most likely 1823.</note>
+                              <p>A large 7 denoting a fee for a single-sheet letter has been written in black ink by the postal service across the address leaf.</p>
+                           <p>The word "single" denotes the number of sheets enclosed in the letter.</p>
+                        </support>
+                        <condition> </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal.</p>
+                  </sealDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="Russell_M"> Mary Russell begins her own quick note to George Mitford following the content of her  
+               daughter's letter. The note is a quick one and extends to  page 4 of the letter--on the same side as the same 
+               page used to address the letter. Mary Russell's note is particularly concerned about George Mitford's health and 
+               his recovery from a cold.</handNote>
+            <handNote xml:id="rc" medium="red_crayon">Red crayon or thick red pencil. Probably a
+               different hand from Mitford's that marks many of her letters, sometimes drawing
+               diagonal lines across pages, and sometimes writing words overtop and perpendicularly
+               across Mitford's writing. On this letter, two red diagonal lines are drawn one at the top
+               left and the other at middle-right of the page. On page 3, there is a red crayon mark across the page from the top left corner to the bottom right. Also on page three, lines 9 through 14 are underlined. 
+               of the letter, there is a faint red line that is somewhat closer to vertical than diagonal drawn from the middle-right of the page down and to the left to the bottom of the page.</handNote>
+            <handNote corresp="#penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName> This person left a note on top of the first leaf indicating G. Mitford as the recipient at Three Mile Cross, April 3, 1823. This annotator also left notes in the first leaf of the letter, indicating the title of the play that Mitford references as "The Two Foscari".</handNote>
+         </handNotes>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2017-01-19" who="#bas">Fixed whitespaces.</change>
+         <change when="2016-12-31" who="#bas">Checked for completion. Stamps should be proofed/fixed, there are unidentified people.</change>
+         <change when="2016-10-29" who="#bas">Fixed/added editorial notes, general transcription fixes.</change>
+         <change when="2016-10-22" who="#bas">Added missing id's to persNames, added penAnnot_RCL handNote, added address lines. General transcription fixes.</change>
+         <change when="2016-10-18" who="#bas">Minor transcription fixes, persNames still need to be identified.</change>
+         <change when="2016-10-17" who="#bas">Proofed and corrected transcription errors. Added note about year of the stamps.</change>
+         <change when="2016-10-09" who="#bas">Added collection information.</change>
+         <change when="2016-10-04" who="#bas">Added idno information and fixed photo file permission statement.</change>
+         <change when="2016-09-19" who="#bas">Updated header to include the correct letter xml:id. Corrected minor formatting error in the respStmt.</change>
+         <change when="2015-02-23" who="#rct">Proofed and corrected.</change>
+      </revisionDesc>
+      
+   </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="3April1823GeorgeMitford1a.JPG"/>
+            <opener>
+               <dateline>
+                  <add hand="#penAnnot_RCL">To <persName ref="#Mitford_Geo">G. Mitford.</persName> <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> <date when="1823-04-03">April 3, 1823</date></add><lb/>
+               <add hand="pencil"><date when="1823-04-03">April 3 1823</date></add>
+               </dateline>
+               <salute>At last my dearest <rs type="person" ref="#Mitford_Geo">Father</rs></salute>
+            </opener>
+            <p><persName ref="#Talfourd_Thos">Mr. Talfourd's</persName> answer is come--He says that we are <del rend="strikethrough">he thinks</del><add place="above"><metamark place="above" function="insertion" rend="caret"/>in his opinion</add> bound in honor <del rend="squiggles">to</del> not to take the Play <handShift resp="#penAnnot_RCL"/><metamark rend="x"/><note resp="#penAnnot_RCL">"The <unclear><supplied resp="#bas">Two</supplied></unclear> Foscari"</note><handShift resp="#MRM"/> away from one house &amp; give it to another--that we could not answer it to ourselves or the <choice><sic>Publick</sic><reg resp="#bas">Public</reg></choice>--unless some very outrageous conduct on the part of the Committee or <persName ref="#Kemble_C">Mr. Kemble</persName><metamark rend="x"/> <note resp="#bas">There is an "x" here, probably left by the pen annotator, indicating a note left somewhere in the letter with more information. However, no such note can be found that corresponds to this mark.</note>(which certainly in spite of our vexations has not occurred &amp; I hope will not occur) should afford a sufficient &amp; valid season. This is final--I only wish it had arrived two days ago--I have also a letter from <persName ref="#Hamilton_S">Mr. Hamilton</persName>, <note resp="#bas">Mitford writes a letter to <persName ref="#Hamilton_S">Samuel Hamilton</persName>, editor and publisher of the <title ref="#Ladys_Mag" level="j">Lady's Magazine</title>, on <date when="1823-04-09">April 9, 1823</date> about her decision not to withdraw her play, <title ref="#Foscari_MRMplay">Foscari</title>, from <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. She also mentions that she will have a submission ready soon for the magazine, and also inquires about a harsh review of her play, <title ref="#Julian_MRMplay">Julian</title>, that had appeared in the <title ref="#LondonMag" level="j">London Magazine</title>.</note> backing out of the message which he certainly delivered to me <del rend="strikethrough">and talking of </del><add place="above">of removing the Play to Drury Lane &amp; talking not of the present but</add> the next season--I have no doubt in spite of this letter, from the few words that passed between <persName ref="#Elliston_Robt">Mr. Elliston</persName> &amp; <persName ref="#Macready_Wm">Mr. Macready</persName>, that the Play would still be brought out at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> if we liked,--<del rend="squiggles"><gap quantity="1" unit="word"/></del> but after what <persName ref="#Talfourd_Thos">Mr. Talfourd</persName> has said it would be much better not to think of it--Indeed it is impossible to think of it, for I am sure he would feel himself offended &amp; implicated if we did--<del rend="crossout"><gap quantity="1" unit="word"/></del>For my own part, I am heartily glad not to have again to encounter this terrible enmity &amp; malignity of Magazines &amp; newspapers--My next play--if ever I have courage &amp; spirits to write another, shall have no name, no woman to attack. <note resp="#bas">The next play that Mitford writes, <title ref="#Rienzi">Rienzi</title>, is written not anonymously, but under her name in <date when="1828">1828</date>.</note> I am sure that <title ref="#LondonMag" level="j">The London</title> <handShift resp="#penAnnot_RCL"/><metamark rend="x"/><note resp="#penAnnot_RCL">Magazine</note><handShift resp="#MRM"/> must be very bad indeed, for <persName>Miss Andrews</persName> to whom I wrote requesting her to send it to me by the Postman this morning, has not sent it. <note resp="#tnh">Here Mitford's premonitions are correct. In the particular edition of The London Magazine she speaks of, the critic eviscerates the performance of Mr. Macready, while admiring the work of Mitford's writing in it of itself.</note> Can you at all guess who wrote it?--<unclear unit="word" quantity="1"> <supplied resp="#tnh"><persName ref="#Procter_BW">Mr. Procter</persName></supplied></unclear> used to 
+               <pb n="2" facs="3April1823GeorgeMitford2.JPG"/> write the dramatic article in that Magazine--but we must not suspect him--even though I know how <persName>Mr. Kemble</persName>'s conversation suspecting him &amp; <persName ref="#Macready_Wm">Mr. Macready</persName> that he has joined managerial faction.--Well we must endure it as we may. What you say of <persName ref="#Macready_Wm">Mr. Macready</persName>'s indisposition grieves me very much--I hope if he be not quite recovered that he will not think of going through the terrible fatigue of acting <title ref="#Julian_MRMplay">Julian</title> to night. Have you given him my letter? I hope not--if you had any previous conversation with <persName>Mr. Hamilton</persName> you would not--if you have not bring it back to me--if you have I shall write a note tomorrow--when I shall probably hear whether you have met.--<persName ref="#Talfourd_Thos">Mr. Talfourd</persName> advises that <del rend="squiggles"/> <title ref="#Foscari_MRMplay">Foscari</title> be left for the present at <placeName ref="#Covent_Garden_Theatre">Convent Garden</placeName>--&amp; I agree that it shall--but not to be acted with <persName ref="#Macready_Wm">Mr. Macready</persName> for the Doge--never that--he will rely on my assurances on that point I know.--Pray ascertain whether the dedication copy has been sent to him &amp; one equally good to <persName ref="#Talfourd_Thos">Mr. Talfourd</persName>'s--&amp; whether the copies have been sent to the Theatre, for all the Performers, the lady &amp; gentleman who spoke the Prologue &amp; Epilogue--the Committee &amp; <persName ref="#Fawcett_John">Mr. Fawcett</persName>--all with the Author's compliments &amp; thanks.--I beg you will also send one, through Longman's to <persName>Miss Howell</persName> at <persName>J. Shepperd</persName>'s <note resp="#bas">This is possibly a untraced inn where Miss Howell may have been staying.</note> Esq<hi rend="superscript">re</hi> <placeName ref="#Hampstead">Hampstead Heath</placeName>--one to <persName ref="#Burgess">Mr. Burgess</persName>--&amp; one to <persName>Miss Booth</persName> &amp; another to <persName ref="#Rowden_Fr">Mrs. Rowden</persName> through <persName ref="#Jones_Thomas">Mr. Jones</persName> if he will take charge of them to <placeName>Paris</placeName>.--And pray try to find out who wrote the Article in the <title ref="#LondonMag" level="j">London</title>--<persName>Mr. <unclear unit="word" quantity="1"><supplied resp="#tnh">Southern</supplied></unclear></persName>, at the <rs type="place"><persName ref="#Hofland_B">Hofland</persName></rs>'s, is likely to know--you will make my kindest
+               <pb n="3" facs="3April1823GeorgeMitford3.JPG"/>regards there of course just if you are in that neighborhood call &amp; ask after dear <persName ref="#Franklin_Eleanor">Miss Porden</persName>--I hope your cold is better--my cough is going fast &amp; dear <rs type="person" ref="#Russell_M">mama</rs> is better too--&amp; every thing else is well. I have just found out what killed my geraniums they had not been watered I am sure since I sent them away till they come back again &amp; then the water ran through the cracked earth, as hard as a rock, &amp; did no good--I have been working at them all morning poor things.--We have not been the <rs type="place"><persName ref="#Crowther_Mr">Crowthers</persName></rs> or any one but <persName ref="#Brooke_Miss">Miss Brooke</persName> who is gone to <placeName>Odiham</placeName> this morning. Pray do not forget to bring a pot of the white paint without smell <add place="above"><metamark place="below" function="insertion" rend="caret"/>&amp; another of black</add>--I would really write another play to get this room made decent without offense to <rs type="person" ref="#Russell_M">Mama</rs>.--God bless you my own dearest <rs type="person" ref="#Mitford_Geo">Father</rs>--<lb/></p>
+            
+            <closer>
+               <lb/>Ever most fondly <choice><sic>your's</sic><reg resp="#bas">yours</reg></choice><lb/>
+               <signed> M.R. M<gap reason="torn" unit="chars" quantity="6"/><unclear><supplied resp="#bas">itford</supplied></unclear></signed><lb/>
+               <address>
+                  <addrLine>To <persName ref="#Mitford_Geo">George Mitford Esq<hi rend="superscript">re</hi></persName></addrLine>
+                  <addrLine>Old Betty's Chop House</addrLine><note resp="#tnh">According to <title>Imperial London</title> by <persName>Arthur Henry Beavan</persName>, <placeName>Old Betty's Chop House</placeName> was a tavern along the <placeName>Strand</placeName>. This tavern was close to the theatres at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> and <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>.</note>
+                  <addrLine>No. 415 Strand</addrLine>
+                  <addrLine><placeName ref="#London_city">London</placeName></addrLine><lb/></address>
+                  <add><handShift resp="#Russell_M"/>
+                     <address><addrLine><persName ref="#Foote_Maria">Miss Foote</persName><note resp="#tnh">Miss Foote was an actress who originated in the breeches role of Alfonso in Mitford's play, <title ref="#Julian_MRMplay">Julian</title></note></addrLine>
+                  <addrLine>34 Keppell St</addrLine>
+                  <addrLine>Russell</addrLine>
+                  <addrLine>Sqr</addrLine></address></add>
+                  <handShift resp="#MRM"/>
+               
+            </closer>
+            <postscript><p>--<persName>Miss Barnes</persName> says she wrote to me by return of post--so that the note must have been lost--or perhaps misoriented--for she is very absent. She talks of being back in a fortnight but not this way--&amp; wants me to secure her a box for <emph rend="underline">then</emph>.--As if I ever dared look forward in that way!--God bless you!</p></postscript></div>             <postscript resp="#Russell_M"><p><handShift resp="#Russell_M"/>The following enlightened Epistle came from <placeName ref="#Winchester_city">Winchester</placeName> (by way of <placeName ref="#Coley_Berks">Coley</placeName>) this morning. "My dear friend on the receipt of your newspaper I immediately wrote to you <unclear><supplied resp="#bas">expressive</supplied></unclear> of our delight at the successful result of <title ref="#Julian_MRMplay">Julian</title>, which letter I trust reached its destination. This I mention because our servant Boy might as we suppose have neglected to put the letter in the Post. I have only to repeat out congratulations of many thanks for the Publication.</p> 
+             <p>Is there a prospect of seeing you. Our best love to all</p> 
+               <p>Ever yours in Haste <persName>John Woodburn</persName> <placeName ref="#Winchester_city">Winchester</placeName> <date when="1823-03-29">March 29</date>th. I am rejoiced my dear <rs type="person" ref="#Mitford_Geo">Husband</rs> to find your cold was better you had a beautiful day for your Journey I can <pb n="4" facs="3April1823GeorgeMitford4.JPG"/>We shall send in <persName>Henry</persName> in the morning for the Parcel by the Regulator. As you may be certain we shall be very anxious to get it. God Bless you ever &amp; ever<lb/>I cannot see most truly yours<lb/><persName ref="#Russell_M">Mary Mitford</persName></p></postscript>
+          
+      
+   </body>
+  </text>
+</TEI>

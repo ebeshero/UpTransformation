@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM11">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, <date when="1823-08-21">1823 August 21</date></title>
+         <author ref="#MRM">Mary Russell Mitford</author>
+         <editor ref="#err">Elizabeth Raisanen</editor> 
+         <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+         <sponsor>University of Pittsburgh at Greensburg</sponsor> 
+         <principal>Elisa Beshero-Bondar</principal>
+         
+         <respStmt>
+            <resp>Transcription and coding by</resp>
+            <persName ref="#ejb">Ella Beckman</persName>
+            <persName ref="#lmw">Lisa M. Wilson</persName>
+            
+         </respStmt>
+         <respStmt>
+            <resp>Date last checked: <date when="2017-09-24">2017-09-24</date>.
+               Proofing and corrections by: <persName ref="#bas">Brooke A. Stewart</persName></resp>
+            <!-- 2017-01-02 bas: checked for completion, comments checked and deleted where unnecessary. Support section needs to be reviewed. -->
+            <!-- 2017-09-24  bas: page numbers corrected, facs attributes added -->
+            <resp>Proofing and corrections by</resp>
+            <persName ref="#lmw">Lisa M. Wilson</persName><!-- Completed letter tagging, pulled backlist, updated beginning of header. Needs proofing against ms. and Proofing Header. -->
+         </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2015-04-26">26 April 2015</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>21August1823SirWilliamElford6a#.JPG, 21August1823SirWilliamElford6b#.JPG, 21August1823SirWilliamElford5b#.JPG, 21August1823SirWilliamElford5a#.JPG, 21August1823SirWilliamElford4b#.JPG, 21August1823SirWilliamElford4a#.JPG, 21August1823SirWilliamElford4a#.JPG, 21August1823SirWilliamElford3b#.JPG, 21August1823SirWilliamElford2b#.JPG, 21August1823SirWilliamElford3a#.JPG, 21August1823SirWilliamElford2a#.JPG, 21August1823SirWilliamElford1b#.JPG, 21August1823SirWilliamElford1b#.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.</p> 
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         
+         <sourceDesc>
+            <msDesc> 
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection> 
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 474</idno> 
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1823-08-21">August 21, 1823</date>.</head> 
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc> <!-- Physical description of the letter goes here: paper size and condition, seal, postmarks, etc. NEEDS TO BE UPDATED, LMW -->
+                        <support>  <p>One quarto sheet of <material>paper</material> folded in half to form four octavo pages, which comprise pages 1-4 of the letter and placed inside of a second quarto sheet folded in half to form pages 5 and 6 on one side of the sheet.  The address was written on page 6 and then this entire set of sheets was folded by nines. <!--ejb: this should be verified by someone who can see the letter in person if possible.  This is how I think letter was put together based on the folds of the photos-thanks!-->  </p>
+                           <p>Address leaf bearing black postmark, partially illegible, reading <stamp><lb/><placeName>READING</placeName><lb/></stamp>.</p> 
+                           <p>A large 3 denoting the posting fee has been written in black ink by the postal service across the address leaf.</p>
+                           <p>Address leaf bearing the following postmarks:
+                           1)black circular mileage stamp
+                           <stamp>READING<lb/>
+                              <unclear><gap quantity="1" unit="lines" reason="illegible"/></unclear></stamp>
+                           </p>
+                        </support>
+                        <condition>
+                           <p>Sheet slightly torn on right edge of page one and bears a large tear on the address leaf above the address line.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal, complete, adhered to page four.</p>
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#rc" medium="red_crayon">Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of pages 2, 3, 4, and 5.</handNote>
+           <handNote corresp="#pencil" medium="pencil">Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. &gt;This letter is dated "Aug 21 1823." in the top right of the first leaf. "1823" appears again a few lines below the address line. This letter is numbered "13" on the left side of the first leaf.
+           </handNote>
+           <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, the top of the first leaf reads "to Sir W Elford"</handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+        <change when="2018-01-19" who="#bas">Fixed transcription/whitespace errors.</change>
+        <change when="2017-09-24" who="#bas">Page numbers corrected, facs attributes added</change>
+        <change when="2017-01-02" who="#bas">Checked for completion, comments checked and deleted where unnecessary. Support section needs to be reviewed.</change>
+        <change who="#lmw">Completed letter tagging, pulled backlist, updated beginning of header. Needs proofing against ms. and Proofing Header.</change>
+     </revisionDesc>
+  </teiHeader>
+   <text>
+      <body>   
+         <div type="letter">
+            <pb n="1" facs="21August1823SirWilliamElford1b#.JPG"/>
+            <opener>
+               <add hand="#penAnnot_RCL">To <persName ref="#Elford_SirWm">Sir W. Elford</persName></add>
+               <dateline>
+                  <name type="place"><placeName ref="#ThreeMileCross">Three Mile Cross</placeName></name>
+                  <date when="1823-08-21">August 21<hi rend="superscript">st</hi> 1823.</date>
+               </dateline>
+            </opener>
+         <p>I hasten my dear &amp; kind friend to reply to your very kind &amp; welcome letter--I ought to have written sooner but I have been waiting to hear; &amp; an aversion to the pen, equal I suppose to that which a <choice><sic>sempstress</sic><reg>seamstress</reg></choice> may feel to the needle, makes me now a dilatory correspondent. I think however the more of those few dear old friends on whose goodness &amp; sympathy I know I can rely--It is a possession--a certain good--a piece of the exquisite blue sky in a dark &amp; stormy season<!-- 2017-09-25 bas; Heaven? -->--&amp; of those few none are so very kind, so fine, so <choice><sic>sympathising</sic><reg>sympathizing</reg></choice> as my <del rend="squiggles"><gap quantity="1" unit="chars"/></del> excellent friends at <placeName ref="#Bickham_village">Bickham</placeName>.  Your letter really did my heart good. I have the pleasure to tell you, that the quiet &amp; repose of the Country &amp; the entire absence of all theatrical cabal<!-- 2017-09-25 bas: capital or lowercase? --> have had the happiest effect on my health &amp; mind.  I am quite well <del rend="squiggles">again</del> <add place="above">now</add>, &amp; if not as hopeful as I used to be yet less anxious &amp; far less depressed than I ever expected to feel again.  This is merely the influence of the scenery, the flowers the cool yet pleasant season, &amp; the absence of all literary society--for our prospects are not other ways changed--my dear <rs type="person" ref="#Mitford_Geo">Father</rs>, relying with a blessed sanguineness on my poor endeavors has not I believe even <choice><sic>enquired</sic><reg>inquired</reg></choice> for a situation, &amp; I do not press the matter though I anxiously wish it, being willing to give one more trial to the Theatre--If I could but get the assurance of earning for my dear dear <rs type="person" ref="#Mitford_Geo">Father</rs> &amp; <rs type="person" ref="#Russell_M">Mother</rs> a humble<pb n="2" facs="21August1823SirWilliamElford2a#.JPG"/> competence I should be the happiest creature in the world--but for these dear ties I should never write another line but go out in some situation as other destitute women do--It seems to me however my duty to try a little longer, the more especially as I am sure <choice resp="#bas"><sic>seperation</sic><reg>separation</reg></choice> would be felt by all of us to be the greatest of all evils. My present occupation is a great secret--I will tell it to you <emph rend="underline">in strict confidence</emph>--It is the boldest attempt ever made by woman, which I have undertaken at the vehement desire of <persName ref="#Macready_Wm">Mr. Macready</persName>, who confesses that he has proposed the subject to every dramatic Poet of his acquaintance that it has been the wish of his life &amp; that he never met with any one courageous enough to attempt it before--In short I am engaged in a grand historical Tragedy on the greatest subject in English story <persName ref="#ChasI">Charles</persName> &amp; <persName ref="#Cromwell">Cromwell</persName>--should you ever have suspected your poor little friend of so adventurous a spirit? <persName ref="#Macready_Wm">Mr. Macready</persName> does not mean the Author to be known--&amp; I do not think it will be found out--which is the reason of my requesting so earnestly your silence on the subject. <persName ref="#Macready_Wm">Macready</persName> thinks that my set was in great part the occasion of the intolerable malignity with which <title ref="#Julian_MRMplay">Julian</title> was attacked. They at least cannot call this a melodrama<!-- 2017-09-25 bas: melodrame? -->. My wish is to do strict poetical justice, in the best sense of the word, to both the men &amp; both their causes--but I am afraid I shall not be able to do so, because <persName ref="#ChasI">Charles</persName> is that desperate common place of the drama a King in distress, &amp; <persName ref="#Cromwell">Cromwell</persName> with his enthusiasm his subtlety his wonderful power over the minds of all who approach<pb n="3" facs="21August1823SirWilliamElford3c#.JPG"/> him is the very thing for the drama--I have nearly written the whole of that part, &amp; the one dear friend who alone knows the plan, <persName ref="#Talfourd_Thos">Mr. Talfourd</persName>, who has been &amp; who is as a brother to me, says that in what he has seen I have far outrun his hopes--You will see at once the tremendous difficulty of the undertaking, &amp; even how I sometimes despair of finishing the Play &amp; am quite in doubt, whether even if I write the other characters up to <persName ref="#Cromwell_MRM">Cromwell</persName> (which I shall not be able to do) it will ever be represented.  I have been obliged of course to have a good deal of republicanism &amp; far more cant than I could wish--&amp; the Trial scene, which I have not done yet, frightens me whenever I think of it. There is a great deal of laborious reading, too, necessary to the undertaking--What is your opinion of <persName ref="#Cromwell">Cromwell</persName>?  Mine is that he was a man acting under an intense conviction of the justice of his cause &amp; little scrupulous as to the means employed in its furtherance--In his domestic character he appears in the old Memorials &amp; letters &amp; state papers which I have been consulting to have been delightful &amp; amiable past expression. I shall give only the short time of <persName ref="#ChasI">Charles</persName>'s being in Town before his execution--not at all varying from history except by bringing in the <persName ref="#Queen_Ch1">Queen</persName>, &amp; giving <persName ref="#Cromwell_MRM">Cromwell</persName> a <del rend="squiggles"><gap quantity="1" unit="word"/></del>loyalist <rs type="person" ref="#PrincessE_Ch1">daughter</rs>--Do you think I shall succeed? <persName ref="#Macready_Wm">Macready</persName> says he is sure of it--but I fear, I greatly fear--He himself will probably have no power at all next season since I find they have engaged <persName ref="#Young_CM">Mr. Young</persName>. But then there is <title ref="#Foscari_MRMplay">Foscari</title> which provided they do not make <persName ref="#Macready_Wm">Mr. Macready</persName><pb n="4" facs="21August1823SirWilliamElford4a#.JPG"/> play the <persName ref="#Doge_F">Doge</persName> they are heartily welcome to perform &amp; from <persName ref="#Kemble_C">Charles Kemble</persName>'s passion for that play, or rather from his passionate desire to act the hero in that play I think it not unlikely if <persName ref="#Young_CM">Mr. Young</persName> will <del rend="squiggles">play</del> <add place="above">perform</add> the <persName ref="#Doge_F">Doge</persName> that they may. The <title ref="#Foscari_MRMplay">Foscari</title> is a pretty, interesting, graceful Tragedy--evidently written by a woman entirely free from the faults of <title ref="#Julian_MRMplay">Julian</title>, yet in my opinion of <choice><sic>inferiour</sic><reg>inferior</reg></choice> merit--not so vivid or so vigorous as, false modesty apart, I cannot but feel that Play to be--Your approbation has given me the truest delight, I am aware of your kind partiality, yet I am sure that you would not tell me what you do not think--&amp; indeed I hear from many &amp; most gratifying quarters the same opinion of <title ref="#Julian_MRMplay">Julian</title>--I mean of its power--especially its dramatic power. Its faults of plot I am most ready to admit, &amp; hope to avoid in future. It must have had great power to survive the acting--except <persName ref="#Macready_Wm">Mr. Macready</persName> &amp; <persName ref="#Foote_Maria">Miss Foote</persName> the performers were more fit for a barn than a Theatre Royal--&amp; we had not one new scene--&amp; only one new dress! <note resp="#lmw"><persName ref="#MRM">Mitford means that no new scenery or costumes were made for the production.</persName></note> If <title ref="#Foscari_MRMplay">The Foscari</title> had been brought out it was to have had entire new scenery &amp; the most splendid decorations--&amp; that together with the <del rend="squiggles"><gap quantity="1" unit="word"/></del> great superiority of the general cast of characters <!-- 2017-10-01 bas: "cast" and "characters" capitalized? --> induces me to hope that they will play it next season--It will not fail I think the first night, it is too good for that-- &amp; if it survive that ordeal <persName ref="#Kemble_C">Charles Kemble</persName>'s jealousy of <persName ref="#Macready_Wm">Mr. Macready</persName> would carry it on to beat <title ref="#Julian_MRMplay">Julian</title>--so that between the chance of that play &amp; of <q><title ref="#CharlesI_MRMplay">Charles the First</title></q> I begin to<pb n="5" facs="21August1823SirWilliamElford5b#.JPG"/> have a little more hope than I had--only a little. Once again do not mention <q><title ref="#CharlesI_MRMplay">Charles the First</title></q> not to any one, especially if it should happen to come out anonymously--&amp; pray my dear friend if you should hear of any situation that would suit my dear <rs type="person" ref="#Mitford_Geo">father</rs> do not fail to let me know for that work would be the real comfort to be rid of the Theatre &amp; all its troubles. Any thing in the medical line provided the income however small were certain he would be well qualified to undertake. I hope there is no want of duty in my wishing him to contribute his efforts with mine to our support--God knows if I could--if there were any certainty how willingly how joyfully I would do all--but that there is not. Pray forgive this long detail, &amp; the apparent vanity with which I have spoken of my Tragedies--casting off all the usual circumlocutions &amp; writing my very thoughts--but I have learnt to know my <gap reason="torn" unit="word" quantity="1"/><unclear><supplied resp="#ejb">self</supplied></unclear> too well for vanity--my weakness, my impatience, my many faults. If I were better, more industrious, more patient more consistent, I do think I should succeed &amp; I will try to be so I promise you I will &amp; to make the best use of my poor talents. Pray forgive this egotism it is a relief &amp; a comfort to me to pour forth my feelings to so dear &amp; so respected a friend, &amp; they are not now so desolate, not quite so desolate as they have been. God grant me to deserve success <add><metamark rend="jerk"/></add> What you say of your own dear family interests &amp; affects &amp; delights me.  In spite of the terrible bereavement <note resp="#ejb">The "bereavement" is almost certainly the death of <persName ref="#Elford_SirWm">Elford's</persName> son Jonathan on <date when="1823-03-11">March 11, 1823</date>, five months before this letter was written.</note> you have suffered how much happiness there is remaining in an union of so many excellent &amp; accomplished persons endeared to each other by such remarkable family affection <pb n="6" facs="21August1823SirWilliamElford6a#.JPG"/>God bless you all together for many many happy years! I rejoice to hear that <persName ref="#Elford_J_bro">Mr. Elford</persName> has derived benefit from the <placeName ref="#Reading_city">Reading</placeName> remedy. Has he tried the rust of iron? Make my most respectful &amp; grateful compliments to him &amp; your dear <rs type="person" ref="#Elford_Grace #Elford_Elizabeth">daughters</rs> <add><metamark rend="jerk"/></add> Were you not very sorry to hear of <persName ref="#Haydon">Mr. Haydon</persName>'s misfortunes?  He writes to me very often &amp; I am happy to tell you that he keeps up his fine spirits &amp; is still sanguine &amp; hopeful &amp; full of prudent resolutions.  He &amp; his sweet <rs type="person" ref="#Haydon_Mrs">wife</rs> are gone into humble lodgings, &amp; he has rolled up the Crucifixion <note resp="#ejb">A planned painting of <persName ref="#Haydon">Mr. Haydon's</persName>.  The sketch of it was confiscated in 1821 when <persName ref="#Haydon">Haydon</persName> was arrested and sent to the King's Bench Prison. The sketch was sold at an auction. <persName ref="#Haydon">Haydon</persName>, upon his release in July 1823, apparently intended to start this painting again, but this did not happen. According to Haydon, he abandoned this painting because of his wife's objections.</note> which promised from the sketch to be the finest of his pictures &amp; intends painting two or three of a moderate size to lay in food for the Garrison before returning to that great undertaking. You may imagine how deeply I felt their misfortunes after the affectionate sympathy I received from them in the Spring--your favorite <persName ref="#Palmer_Mad">Lady Madelina</persName> is in this neighborhood--well &amp; agreeable I understand as ever--I have not seen her myself. I rarely ever go out except for exercise. My dear <rs type="person" ref="#Mitford_Geo">father</rs> &amp; <rs type="person" ref="#Russell_M">mother</rs> are well &amp; join in Kindest Compliments</p>
+            
+            <closer>
+               <lb/>--Ever my dearest &amp; kindest friend most gratefully &amp; affectionately <choice><sic>your's</sic><reg resp="#lmw">yours</reg></choice> <signed><persName ref="#MRM"/>M. R. Mitford.</signed> <lb/>
+               <address>
+                  <addrLine><placeName ref="#Reading_city">Reading</placeName> August twenty three</addrLine>
+                  <addrLine>1823</addrLine>
+                  <addrLine><persName ref="#Elford_SirWm">W Elford Bart</persName></addrLine><!-- 2017-10-01 bas: I'm unsure how to code the first word in this line. -->
+                  <addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine>
+                  <addrLine><persName ref="#Monck_JB">J.B. Monck</persName> <placeName ref="#Plymouth_city">Plymouth</placeName></addrLine>
+               </address>
+            </closer>
+            
+            <pb n="6" facs="21August1823SirWilliamElford1b#.JPG"/><postscript><p>Pray forgive the sad stupidity of this letter--Every body says that since I have become a professed Authoress (woe is me!) I am a shabby Correspondent. Pray forgive it, &amp; forgive me--&amp; continue to think of me with your old &amp; invaluable kindness &amp; write to me when you have time pray do--It is much a comfort &amp; pleasure to me. God bless you!</p></postscript>
+         </div>
+      </body>
+     <back>        
+          <div>
+              <!-- lmw backlist compiled to si-add-LMW 2015 10 08 -->
+              
+        </div>
+        
+     </back>
+  </text>
+</TEI><?oxy_options track_changes="on"?>

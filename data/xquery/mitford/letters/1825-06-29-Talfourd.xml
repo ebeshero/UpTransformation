@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title xml:id="MRM0547">Letter to <persName ref="#Talfourd_Thos">T.N. Talfourd</persName>, June 29, 1825.</title><author ref="#MRM">Mary Russell Mitford</author><editor ref="#kdc">Kellie Donovan-Condron</editor><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><sponsor>Pittsburgh Supercomputing Center</sponsor><principal>Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName ref="#kdc">Kellie Donovan-Condron</persName></respStmt><respStmt><resp>Date last checked: <date when="2015-10-16">2015-10-16</date>
+                  Proofing and corrections by</resp><resp>Proofing and corrections by</resp><persName ref="#ebb">Elisa Beshero-Bondar</persName><persName ref="#kdc">Kellie Donovan-Condron</persName><!-- Updated <titleStmt> and <head> in <msDesc> Oct 16, 2015. --></respStmt></titleStmt><editionStmt><edition>First digital edition in TEI, date: 1 June 2014. P5.</edition></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2014</date><availability><p>Reproduced by courtesy of the University Librarian and Director, <placeName>The
+                     John Rylands Library</placeName>, The University of Manchester.</p><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence></availability></publicationStmt><seriesStmt><title>Digital Mitford Letters: The Mary Russell Mitford Archive</title></seriesStmt><sourceDesc><msDesc><msIdentifier><repository ref="#Rylands">The John Rylands University Library</repository><collection>Mitford-Talfourd Correspondence: Letters from Mary Russell Mitford to
+                     Thomas Noon Talfourd: vol. 665</collection><idno>JRL English MS 665 no. 19 Coles no. 90</idno></msIdentifier><head>Letter from Mary Russell Mitford to Thomas Noon Talfourd, <date when="1825-06-29">1825 June 29</date>.</head><physDesc><objectDesc><supportDesc><support><p>Quarto sheet of <material>paper</material> folded in half to form
+                              octavo pages. This is the first four pages of the letter. The rest is
+                              missing.</p></support><condition><p>Rylands Library is missing the address leaf (see note below).</p></condition></supportDesc></objectDesc></physDesc></msDesc></sourceDesc></fileDesc><profileDesc><handNotes><handNote corresp="#pencilRy" medium="pencil">Someone cataloging the letters, apparently
+               other than Mitford, numbered each on page 1.</handNote></handNotes></profileDesc><encodingDesc><editorialDecl><p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p></editorialDecl></encodingDesc></teiHeader><text><body><div type="letter"><opener><dateline><date when="1825-06-29">June 29<hi rend="superscript">th</hi> 1825.</date><name type="place">Three Mile Cross</name></dateline></opener><p>I know not, my dear friend, how to thank you sufficiently for your last &amp; kindest
+               letter——which yet gave us great pain in the indifferent account which it
+               contained of your health——I trust that the <placeName ref="#Oxford_Circuit">Circuit</placeName> will set you quite up again——It always
+               does——Do you come by <placeName ref="#Reading_city">Reading </placeName>?
+               And if you do can you give us a day? I want you to see my garden in its flush of
+               roses and lilies....&amp; I hope we need not say that we always want to see you. Just
+               give me one line to say yes or no——&amp; to tell me that you are
+               better——it will not be welcome without that——only one line
+               mind——I will not have a long letter till you are at leisure, although
+               what can have put it into your head that you are a bad letter writer I cannot
+               imagine——the only possible fault of your letters would be their being too
+               well written—--&amp; really that is so rare a fault that one puts up with it.
+               But you have the habit of making mistakes about yourself &amp; being astonished when
+               people find them out, <pb n="2"/>which being a still rarer fault one puts up with
+               that also.——I rejoice at <persName ref="#Macready_Wm">Mr.
+                  Macready's</persName> "wise
+               determination"<!-- resp="#kdc": are we going to try to cross-ref this? -->—although
+               there is something almost touching in the conscious infirmity of temper from whence
+               it proceeds. I remember that <persName ref="#Cobbett_Wm">Mr. Cobbett</persName> once
+               made a similar resolution &amp; from the same cause—he had too much curiosity.
+               By the way there are many points of resemblance between those two <rs type="person" ana="#Macready #Cobbett_Wm">Worthies</rs>——both men of great power in
+               their several ways (<persName ref="#Cobbett_Wm">Mr. Cobbett</persName> much the
+               greater of course)----both men of headstrong passion——zealous partisans,
+               vindictive enemies, fascinating companions——both great
+               bullies—--&amp; as I suspect both great cowards. What do you think of this
+               parallel in the manner of <persName ref="#Plutarch">Plutarch</persName>? It certainly
+               is true.——</p><p>I send you some more scraps of <title ref="#CharlesI_MRMplay">"Charles"</title>. You
+               <!-- resp="#kdc": small inkblot here. -->are to know that there
+               will be an entirely new <emph rend="underline">first</emph> act (one scene of which
+               you saw when last at <placeName ref="#Reading_city">Reading </placeName>) but that
+               the rest of the piece will be merely a rifacimento of my old play, entirely altering
+               the <emph rend="underline">tone</emph> of <persName ref="#Cromwell_MRM">Cromwell</persName> &amp; leaving out <persName ref="#Alice">Alice</persName><pb n="3"/> The only parts quite finished are the third &amp; fifth
+               acts——most of the new bits of which I send you——The <emph rend="underline">last</emph> scene might perhaps be rendered more vivid, by giving
+               even at that moment a hope for <persName ref="#Chas1_MRM">Charles</persName>
+               ----bringing in <persName ref="#Fairfax">Fairfax</persName> sooner, &amp; sending a
+               messenger to save him——but whether after the scene of the scaffold, &amp;
+               with the known fate of the man before one's eyes, &amp; no <emph rend="underline">great</emph> Actor to bear one out it might not pass for a mere trick, or what
+               would be worse an imitation of <persName ref="#Knowles_Sheridan">Mr.
+                  Knowles</persName>, I do not know. You will see I hope a sustaining of <persName ref="#Cromwell_MRM">Cromwell</persName>, &amp; 
+               a little improvement in <persName ref="#Chas1_MRM">Charles</persName>.----But it wants story
+               terribly——It should introduce a plot to save him——but then I
+               am afraid of a number more of people &amp; bad actors—--&amp; I could not bring
+               it to any very great head, because there is no historical ground for the
+               thing,----&amp; having in the <del rend="squiggles" unit="word" quantity="1"/><add place="above">old</add> three acts plenty of materials
+               for the two news ones—--(always altering <persName ref="#Cromwell_MRM">Cromwell</persName> 
+               as well as I can &amp; writing up <persName ref="#Chas1_MRM">Charles</persName>) why I hardly think the <del rend="squiggles" unit="word" quantity="1"/>introduction
+               of a plot worth the trial. Do you? My firm belief is that the play <add place="above"><metamark rend="caret" place="below"/>written</add> as it will be, would succeed if acted, but <pb n="4"/> that it will not be acted——Either <persName ref="#Kemble_C">Charles Kemble</persName>'s own cowardice, or <rs type="person" ref="#Colman_the_Younger">the licenser's</rs> qualms, will prevent the representation. I mean on account of the cast of course for as to
+               politics, it will be a high <orgName ref="#Tory">Tory</orgName> play. Is <add place="above"><metamark rend="caret" place="below"/>my</add><persName ref="#Cromwell_MRM">Cromwell</persName> worse than <persName ref="#Cantwell">Cantwell</persName> in <title ref="#Hypocrite">The
+                  Hypocrite</title>? It will be singularly unlucky, if with three plays either of which would succeed if fairly acted, neither
+               should come out—--&amp; yet such I fully expect to be the case.----Perhaps
+                  <title ref="#Foscari_MRMplay">Foscari</title> stands the best chance. <title ref="#Stage">The letter on the Stage</title> has been copied from <title ref="#Blackwoods">Blackwood</title> into the <title ref="#Observer">Observer</title>, probably sent thither officially from 
+               <placeName ref="#Covent_Garden_Theatre">C.G.T.</placeName><note resp="#kdc">Covent Garden
+                  Theater</note> &amp; is followed by an historical extract <note resp="#kdc">The
+                  extract, titled, <title><placeName>Venice</placeName> in the Middle Ages</title>,
+                  describes the trials and exile of <persName ref="#Foscari_son_hist">Jacopo Foscari</persName>, son of <persName ref="#Doge_F_hist">Francesco Foscari</persName>, the Doge of <placeName>Venice</placeName>.</note>
+               containing the story of the <persName ana="#Doge_F_hist #Foscari_son_hist">Two
+                  Foscari</persName>----with no reference to <title ref="#Foscari_MRMplay">my
+                  play</title> ----&amp; perhaps accidental, but still the coincidence struck me,
+               &amp; I should not wonder if <persName ref="#Kemble_C">C. Kemble</persName> reckoned
+               on <persName ref="#Fitzharris">Mr. Fitzharris</persName> for <persName ref="#Cosmo">Cosmo</persName>, which indeed he would both look &amp; play very beautifully——I know that <persName ref="#Kemble_C">Mr. Kemble</persName>
+               has in no way lost his fancy for that piece, &amp; if <persName ref="#Young_CM">Mr. Young</persName> would play the 
+               <persName ref="#Doge_F">Doge</persName> I think it would do very well.<note resp="#ebb">Manuscript at the Rylands Library is missing a closer. Ends at the bottom of the sheet.</note></p></div></body><back>
+       <!--ebb: June 2 edit to bibl prosop entry, added to site index.--></back></text></TEI>

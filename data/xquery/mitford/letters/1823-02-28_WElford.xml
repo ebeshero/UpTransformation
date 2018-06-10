@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1803">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, February 28, 1823</title> 
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#bas">Brooke A. Stewart</editor> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+              <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <sponsor>Pittsburgh Supercomputing Center</sponsor>
+            <principal>Elisa Beshero-Bondar</principal> 
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName ref="#bas">Brooke A. Stewart</persName>
+               
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2017-09-11">2017-09-11</date><!--bas: The seal on the adress leaf is difficult to read. Otherwise, ready for proofing. -->
+               Proofing and corrections by</resp>
+               <!-- List all proofreaders here, <persName> by <persName>.--> 
+               <persName ref="#ebb">Elisa Beshero-Bondar</persName><!--ebb 2017-09-12: partially proofread. -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2017-04-15">April 15, 2017</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>28Feb1823SirWilliamElford1#.JPG, 28Feb1823SirWilliamElford2#.JPG, 28Feb1823SirWilliamElford3#.JPG, 28Feb1823SirWilliamElford4#.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         
+         <sourceDesc>
+            <msDesc> 
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 465</idno> 
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1823-02-28">1823 February 28</date>.
+               </head> 
+              
+               <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support><p>One quarto sheet of <material>paper</material> folded in half to form two octavo pages, which
+                        comprise pages 1-4 of the letter. The fourth page exposes the address. The third page has a slight rip where the wax seal was
+                        attached.</p> 
+                        <p>Address leaf bears a black postmark, mostly illegible, reading <stamp><lb/><placeName>READING</placeName><lb/></stamp>.</p> 
+                        <p>A large 11 denoting the posting fee has been written in black ink by the postal service across the address leaf.</p>
+                     </support>
+                     <condition>
+                        <p>Sheet (pages three and four) torn on right edge of page three where wax seal was removed.</p>
+                     </condition>
+               </supportDesc>
+               </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal, complete, adhered to page four.</p> 
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of each of the first two leaves. On leaf three, a red line is drawn from the top left to the middle of the leaf and there is a red semi-circle slightly below and to the left of the line. At the bottom of leafe three, a red line starts from the center of the page and continues diagonally to the right onto the lined paper note underneath the letter, going almost completely through the note. On leaf four, there is a red line through the block of writing only. There is no red crayon across the address text block.</handNote>
+           <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "2" in the top left of the first leaf, and "3" in the top left of the note placed underneath the letter. On address leaf, the date "Feb 28 1823" appears sideways on the left side, and "23" appears sideways on the right side.
+           </handNote>
+           <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, "To Sir W. Elford" is written on the top left of the first page.
+           </handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl>
+              <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+           </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+           <change when="2018-01-22" who="#bas">Fixed line breaks in address.</change>
+           <change when="2017-09-12" who="#ebb">partially proofread.</change>
+           <change when="2017-09-11" who="#bas">The seal on the address leaf is difficult to read. Otherwise, ready for proofing.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <opener> 
+               <add hand="#penAnnot_RCL">To Sir W. Elford</add>
+               <note resp="#penAnnot_RCL" facs="1823-02-28_WElford_penAnnot.jpg">On the last Saturday of <date when="1823-02">February 1823</date> <title ref="#Julian_MRMplay">Julian</title> was performed with <persName ref="#Macready_Wm">Mr. Macready</persName> as the Principal Character. Miss Mitford went to Town for a few days on a visit to Miss Hofland on Newman st. to <del rend="strikethrough" unit="lines" quantity="1"/><unclear><supplied resp="#Lestrange">witness its first representation</supplied></unclear> and to enjoy her triumph.</note>
+               <note resp="#bas">This note is written on a small lined piece of paper, a couple inches wider than the octavo sheet. It is placed underneath the entire letter. There is a "3" written in pencil in the top left corner. Red crayon strikes through the note, continuing from a mark at the bottom of the third page of the letter.</note>
+               <pb n="1" facs="28Feb1823SirWilliamElford1#.JPG"/>
+               <dateline>
+                  <name type="place" ref="#ThreeMileCross">Three Mile Cross</name> 
+                  <date when="1823-02-28">Feb<hi rend="superscript">y</hi> 28<hi rend="superscript">th</hi> 1823</date>. 
+               </dateline>
+               <salute>My dear friend</salute>
+            </opener>
+            <p>I have no frank--but I have at least the pleasure of being able to give you good news, &amp; I think you had rather pay postage than not hear it. After a degree of contention &amp; torment &amp; suspense such as I cannot describe--one of my plays, my last &amp; favourite play is I do really believe on the point of representation with my favourite Actor for the <supplied resp="#Lestrange">hero</supplied>. He (<persName ref="#Macready_Wm">Mr. Macready</persName>) read it in the green room on Wednesday, &amp; I suppose it will be out in ten days or a fortnight--<persName ref="#Kemble_C">Charles Kemble</persName> does not play in it--in revenge <del rend="squiggles"><gap quantity="1" unit="word"/></del>perhaps for <persName ref="#Macready_Wm">Macready</persName>'s refusing to play the <persName ref="#Doge_F">Doge</persName> in <title ref="#Foscari_MRMplay">Foscari</title> (for you know I suppose that that Play
+               <pb n="2" facs="28Feb1823SirWilliamElford2#.JPG"/> has been actually in rehearsal &amp; <del rend="squiggles"><gap quantity="2" unit="word"/><supplied resp="#ebb">was obliged</supplied></del><!-- 2017-09-12 bas ebb: STOPPED PROOFING HERE --> is for the present withdrawn)--but <persName ref="#Kemble_C">Mr. Kemble</persName> has behaved very fairly &amp; honourably in other ways--has given <persName ref="#Macready_Wm">Macready</persName> full power in getting up the Play &amp; <del rend="squiggles"><gap quantity="1" unit="word"/></del> with that admirable Actor (certainly the best since <persName ref="#Garrick_David">Garrick</persName>) &amp; this Play (certainly worth a thousand of <title ref="#Foscari_MRMplay">Foscari</title>) we can do very well without him. "<title ref="#Julian_MRMplay">Julian</title>" or "<title ref="#Julian_MRMplay">The Melfi</title>" (for I really don't know which they call it) is a Tragedy on a <del rend="squiggles"><gap quantity="1" unit="word"/></del> fictitious story--I am afraid to tell you what the Critics say of it--but not afraid to stake on it my dramatic hopes. <persName ref="#Macready_Wm">Macready</persName> will be supported by <persName ref="#Bennett_GJ">Mr. Bennett</persName> (the new Actor)--<persName ref="#Abbott_Wm">Mr. Abbott</persName> <!-- 2017-04-17 bas: This id is in the drama file. -->--<persName ref="#Lacy_Miss">Miss Lacy</persName><!-- 2017-09-11 bas: Id is in drama file, but the entry doesn't mention her playing in Julian. She is however mentioned in the entry for Annabel_J, the character she plays. -->--&amp; <persName ref="#Foote_Maria">Miss Foote</persName>.--So you must write to your play going friends--for I am sure that ardent spirit <persName ref="#Macready_Wm">Macready</persName> will drive the matter on--It is
+               <pb n="3" facs="28Feb1823SirWilliamElford3#.JPG"/> odd enough that I &amp; this zealous friend of mine have never met. He is just such another soul of fire as <persName ref="#Haydon">Haydon</persName>--highly educated &amp; a man of great literary acquirement, consorting entirely with poets &amp; young men of talent--indeed it is to his knowledge of my friend <persName ref="#Talfourd_Thos">Mr. Talfourd</persName> that I owe the first introduction of my plays to his notice.--I hope your brother still continues comfortable--Tell him that <persName ref="#Crowther_Mr">Mr. Crowther</persName>'s Aunt has found immense benefit from the use of <persName ref="#Hutchinson_Ben">Mr. Hutchinson</persName>'s prescription (the <unclear><supplied resp="#bas #ebb">rust</supplied></unclear> of iron) &amp; that that, as a strengthener &amp; preventative, joined to the Reading remedy <note resp="#bas">The letter is torn from the last four letters of the word "remedy," which are visible on the small piece of paper that is adhered to the seal that is apparently attached to the top of the letter surface.</note> in case of an attack is said to be most efficacious--is very impertinent in me to say this--but I do take so real an interest in him that I am sure you will forgive me--Pray make my best Compts to him &amp; to dear <persName ref="#Elford_Grace">Miss Elford</persName>.<note resp="#bas #ebb">Mitford mentions Hutchinson's <q>rust of iron</q> again in her <rs type="letter" ref="#MRM11">letter to Sir William Elford of 21 August 1823</rs> in connection with his brother to inquire if he has tried it or the Reading remedy for his ailment. Hutchinson's rust (or carbonate) of iron was used to treat tic douloureux (trigeminal neuralgia), a chronic pain disorder that affects the nerves in the face. Hutchinson reported "occasionally the happiest results" with his treatment, which he advised to be taken in doses of two scruples repeated two to three times a day, in an <bibl>article in <title level="j">The Lancet London</title> of <date when="1837-09-30">30 September 1837</date></bibl>. We have located a reference to a <q>celebrated Reading Remedy</q> in an <bibl>advertisement in the <title level="j">Brighton Gazette</title> of <date when="1864-07-07">7 July 1864</date></bibl>, where it is referred to as <q>BOULTE'S EMBROCATION (the celebrated Reading Remedy), and only certain cure for Rheumatism, Neuralgia, Face-ache, Loss of Power in the Limbs, Weak and Contracted Muscles, Stiff Joints, Feeble Circulation, Lumbago, Sore Throats, Hooping Cough, Chilblains, &amp;c.</q> Boulte's remedy, according to the advertisement, was sealed by a <persName>Sarah Boulte</persName>, Reading, and indicates that <q>40,000 persons have received benefit</q>, suggesting that this has been in use for a long time.</note>--Forgive
+               <pb n="4" facs="28Feb1823SirWilliamElford4#.JPG"/> this short note--I have many letters to write--&amp; have been for the last fortnight exceedingly unwell--but this news would Cure me if I were dying. <emph rend="underline">I know</emph> that I shall be quite well tomorrow.--Kindest regards from all--
+               </p>     
+            
+            
+               
+            <closer>
+            Ever my dear friend<lb/>
+            Most affectionately <choice><sic>your's</sic><reg resp="#bas">yours</reg></choice><lb/>
+            <signed><persName ref="#MRM">M. R. Mitford</persName></signed>.
+            </closer>
+            
+             <closer>
+                <address>
+                   <addrLine>To</addrLine>
+                   <addrLine>Sir William Elford Bar<hi rend="superscript">t</hi></addrLine>
+                   <addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine>
+                   <addrLine><emph rend="underline"><placeName ref="#Plymouth_city">Plymouth</placeName></emph></addrLine>
+            </address>
+            </closer> 
+         </div>
+      </body>
+     
+     <back>
+        <div>
+          <person xml:id="Hutchinson_Ben">
+             <persName>
+                <surname>Hutchinson</surname>
+                <forename>Benjamin</forename>
+             </persName>
+             <occupation>surgeon</occupation>
+             <occupation>scientist</occupation>
+             <note resp="#bas">A founding member of the Royal College of Surgeons in London. He attended Lord Byron beginning in 1804 or 1805 for a weight loss regimen, which is suspected to have been for relief on Byron's deformed foot. During Mitford's time, Hutchinson also published cases in which he conducted medical trials with large doses of carbonate of iron to treat ailments, especially tic douloureux (trigeminal neuralgia). He practiced and was well-known in Southwell, Nottinghamshire, England.</note>
+             <!--https://books.google.com/books?id=Z6AEAAAAQAAJ&pg=PA502&lpg=PA502&dq=hutchinson+iron+remedy&source=bl&ots=qcMMjPtWK_&sig=KhCxNJAUvn6ifiEYM7jFo6SVnLc&hl=en&sa=X&ved=0ahUKEwj2-M-t_YvWAhVk6IMKHZ5tABUQ6AEILjAB#v=onepage&q=hutchinson%20iron%20remedy&f=false-->
+             <!--https://books.google.com/books?id=ykubOZRW9tcC&pg=PA120&lpg=PA120&dq=benjamin+hutchinson+southwell&source=bl&ots=t35_DtyEyy&sig=pwfs60u8mApqfME5c2eW1oLdync&hl=en&sa=X&ved=0ahUKEwjQ0LvrhIzWAhVL7oMKHZeSA8g4ChDoAQgsMAI#v=onepage&q=benjamin%20hutchinson%20southwell&f=false -->
+          </person>
+          <person xml:id="Elford_J_bro">
+              <persName>
+                 <surname>Elford</surname>
+                 <forename>Jonathan</forename>
+              </persName>
+              <birth notBefore="1752"/>
+              <death when="1832-03-27"><placeName>Wiveliscombe</placeName></death>
+              <occupation>lawyer</occupation>
+              <occupation>military</occupation>
+              <note resp="#bas">Younger brother of <persName ref="#Elford_SirWm">Sir William Elford</persName>, exact date of birth unknown. He was married to <persName>Mary</persName>, the daughter of <persName>Henry Luxmoore</persName>, in <date when="1778">1778</date>. He worked as a solicitor from <date from="1782" to="1786">1782 to 1786</date> and served as Lieut.-Colonel of the First Devon Local Militia at Plymouth Dock from <date from="1787" to="1812">1787 to 1812</date>. He died March 27th, 1832 at his estate, "Okehampton House" at Wivescombe at the age of 80.</note>
+           </person>
+     </div>
+     </back>
+  </text>
+</TEI>

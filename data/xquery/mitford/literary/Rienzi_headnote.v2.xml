@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><?xml-model href='http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng' type='application/xml'
+	schematypens='http://purl.oclc.org/dsdl/schematron'?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Headnote to <title ref="#Rienzi">The Tragedy of Rienzi</title></title>
+            <author ref="#esh">Eric Hood</author>
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor> 
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Corrections and proofing by</resp>
+               <persName ref="#esh">Eric Hood</persName>
+               <persName ref="#ds">Daniel Schierenbeck</persName>
+               <persName ref="#lmw">Lisa M. Wilson</persName> <!-- Checked white spaces and updated context tags 2017-06-24 -->
+               <!--LMW: added new xml:ids and Si entries 2017-07-07-->
+               <!--LMW: proofing and editing SI entries. 2018-01-02-->
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>First digital edition in TEI, date: 14 June 2015. P5.</edition>
+           </editionStmt>   
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a <orgName>Creative Commons</orgName> Attribution-ShareAlike 3.0
+                  Unported License</licence>
+            </availability>
+            
+         </publicationStmt>
+         
+         
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         <notesStmt>
+            <note><!--[VERSION 2.O - INCORPORATING FEEDBACK BY DAN SCHIERENBECK
+               ALSO anything we need to say about the preparation of this headnote beyond what we're covering in the rest of this header?]--></note>
+            
+         </notesStmt>
+         
+         <sourceDesc>
+          <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      
+   </teiHeader>
+  <text>
+      <body><!--LMW: do we needed code for apostrophes, or no? We haven't used them elsewhere.-->
+        
+         <p><title ref="#Rienzi">Rienzi</title> was the most successful of <persName ref="#MRM">Mary Russell Mitford</persName>'s plays. If <title ref="#OV">Our Village</title> is <persName ref="#MRM">Mitford</persName>'s lasting contribution to the journalistic sensibilities of the Victorians, perhaps it is <title ref="#Rienzi">Rienzi</title> that most dramatically showcases her clear ties to the fading world of the Romantics. We should recall that <persName ref="#MRM">Mitford</persName> was <persName ref="#Byron">Byron's</persName> senior by little more than a month, and she was forty by the time <title ref="#Rienzi">Rienzi</title> appeared on the stage. <title ref="#Rienzi">Rienzi</title> draws from several of the major currents of Romanticism. It could be read in the context of the Romantic revival of <persName ref="#Shakespeare">Shakespeare</persName>, as it was refracted into its many hues from the performances under the scholarly direction of <persName ref="#Kemble_JP">John Kemble</persName>, to the passionate portrayals of <persName ref="#Siddons_Sarah">Sarah Siddons</persName>, to the commentaries by <persName ref="#Coleridge_ST">Coleridge</persName>, <persName ref="#Hazlitt_Wm">Hazlitt</persName>, <persName ref="#DeQuincey_Thos">De Quincy</persName>, and <persName ref="#Lamb_Chas #Lamb_Mary">the Lambs</persName>, to the visionary art of <persName ref="#Fuseli_H">Fuseli</persName>. All of these Romantic returns to <persName ref="#Shakespeare">the Bard</persName> were drawn together by a growing attention to language and the psychological aspects of <persName ref="#Shakespeare">Shakespeare</persName>'s plays. Not only does <title ref="#Rienzi">Rienzi</title> echo moments from <title ref="#Macbeth_play">Macbeth</title> and <title ref="#Romeo_Juliet">Romeo and Juliet</title> it is guided by the Romantic reinterpretation of the Elizabethan giant: to be as dazzling in the theater of the mind as on the stage. Similarly, <title ref="#Rienzi">Rienzi</title> could be read as belonging to the Romantic fascination with <placeName ref="#Rome">Rome</placeName> and <placeName ref="#Italy">Italy</placeName>, with clear links to the worlds of <persName ref="#Shelley_PB">Percy Shelley</persName>'s <title ref="#Cenci_play">Cenci</title>, <persName ref="#Keats">Keats</persName>'s <title ref="#Isabella_poem">Isabella</title>, or <persName ref="#Gibbon_Edward">Gibbon</persName>'s <title ref="#Decline_Fall">history</title>, from which <persName ref="#MRM">Mitford</persName> directly takes her tale. Indeed, <persName ref="#MRM">Mitford</persName>'s first three plays--of which <title ref="#Rienzi">Rienzi</title> is the third--were Italian dramas. <placeName ref="#Italy">Italy</placeName>, particularly medieval <placeName ref="#Italy">Italy</placeName>, provided the Romantics some affordable distance when discussing dangerous political issues, and it was not until <persName ref="#MRM">Mitford</persName> turned to English history, in <title ref="#CharlesI_MRMplay">Charles the First</title>, that she ran afoul of the licenser. And, of course, <persName ref="#MRM">Mitford</persName>'s <title ref="#Rienzi">Rienzi</title> might also be located in the Age of Revolutions, when the moral ambiguities inherent in any social struggle so often took center stage, as it does in <persName ref="#Southey_R">Southey</persName> and <persName ref="#Coleridge_ST">Coleridge</persName>'s early drama <title ref="#FallofRobespierre">The Fall of Robespierre</title>, or <persName ref="#Wordsworth_Wm">Wordsworth</persName>'s <title ref="#Prelude_WW">Prelude</title>, <persName ref="#Shelley_PB">Percy Shelley</persName>'s <title ref="#RevoltofIslam">Revolt of Islam</title>. The eighteenth century invented the modern revolution, but it was the early nineteenth that developed the common vocabulary through which revolutions were understood. Therefore, <title ref="#Rienzi">Rienzi</title> comes to us not only a historical tragedy but a drama mediated by multiple historical traditions; yet, even if we take the time to discover <title ref="#Rienzi">Rienzi</title> possessed by the spirits of its own age, its familiar conflicts and insistent humanism make it among the most accessible dramas of the Romantic period for twenty-first-century readers and audiences.</p>
+        
+         <p>In the play, <persName ref="#Rienzi_Cola">Rienzi</persName>, a bureaucratic functionary of low birth, leads a popular revolution that unseats the noble families of <placeName ref="#Rome">Rome</placeName>. It is a revolutionary drama, but the insurrectionary moment is of little interest to <persName ref="#MRM">Mitford</persName>; the coup is bloodless and occurs off stage between the first and second acts. <persName ref="#MRM">Mitford</persName>'s <title ref="#Rienzi">Rienzi</title> is about the days following the revolution: the political struggle to secure the revolution by either folding the families of the old regime into the new State or cleansing the State through Terror. After confronting the impossibility of the former task, <persName ref="#Rienzi_Cola">Cola di Rienzi</persName> is compelled to the latter, but the play's moral intelligence emerges from its refusal to indulge in an obtuse ethics that removes Terror from the context of Virtue. Even as a Terrorist, <persName ref="#Rienzi_Cola">Rienzi</persName> remains the play's tragic hero. Yet, <persName ref="#MRM">Mitford</persName> invites her audience to challenge their heroes, and <persName ref="#Rienzi_Cola">Rienzi</persName>'s greatness is continually crosscut by nagging questions about his ambition, pride, demagoguery, desire for revenge, perhaps even his sanity. Like is so often in the case in the study of history, <persName ref="#Rienzi_Cola">Rienzi</persName> encourages us to analyze the failure of revolutions by examining the tragic faults of those who led them.</p>   
+        
+         <p>As I have already mentioned, <persName ref="#MRM">Mitford</persName>'s telling was inspired by <persName ref="#Gibbon_Edward">Gibbon's</persName> <title ref="#Decline_Fall">The History of the Decline and Fall of the Roman Empire </title>(1776-89). At times she stays remarkably close to <persName ref="#Gibbon_Edward">Gibbon</persName>'s text. For example, <persName ref="#Rienzi_Cola">Rienzi</persName>'s homely origins and the haughty oath he forces the Roman nobles to take are little more than <persName ref="#Gibbon_Edward">Gibbon</persName>'s account recast into blank verse. At many other points, however, <persName ref="#MRM">Mitford</persName> has radically filtered <persName ref="#Gibbon_Edward">Gibbon</persName>'s history for the stage. The historical <persName ref="#Rienzo_hist">Rienzi</persName> actually led two revolutions which <persName ref="#MRM">Mitford</persName> distills into a single revolt, leaving aside the political complexities attending each. Similarly, <persName ref="#MRM">Mitford</persName> removes the ambiguities surrounding the actual <persName ref="#Rienzo_hist">Rienzi</persName>'s religious positioning, which alternated between defender of the Papacy and patriotic paganism. Her <persName ref="#Rienzi_Cola">Rienzi</persName> unambiguously harkens to old pagan <placeName ref="#Rome">Rome</placeName> from the first. Often, though, <persName ref="#MRM">Mitford</persName> invents. The two female characters (<persName ref="#Claudia_R">Claudia</persName> and <persName ref="#Colonna_Lady">Lady Colonna</persName>), and the subplots they advance, are completely <persName ref="#MRM">Mitford</persName>'s. So too is the wedding scene that drives the third act, and the play's ending, which turns its back on both the events and the tone of <persName ref="#Gibbon_Edward">Gibbon</persName>'s account. <persName ref="#Claudia_R">Claudia</persName> and <persName ref="#Colonna_Lady">Lady Colonna</persName> are, in fact, central to the narrative that <persName ref="#MRM">Mitford</persName> turns, a history that is more familial than political, more personal than institutional.</p>   
+        
+         <p>The whims of the licenser and the caprices of actor-managers made getting a drama to one of the respected stages in <placeName ref="#London_city">London</placeName> a routine challenge, but <title ref="#Rienzi">Rienzi</title>'s journey was particularly arduous. During the autumn of <date when="1822">1822</date>, having recently completed <title ref="#Foscari_MRMplay">Foscari</title> and while finishing revisions for <title ref="#Julian_MRMplay">Julian</title>, <persName ref="#MRM">Mitford</persName> first conceived of a drama based on the career of <persName ref="#Rienzo_hist">Cola di Rienzi</persName>. The following spring, in the midst of writing sketches for the magazines, she confided her interest in composing a historical tragedy about <persName ref="#Rienzo_hist">Rienzi</persName> to <persName ref="#Macready_Wm">William Macready</persName>, who was at that moment playing the lead in <title ref="#Julian_MRMplay">Julian</title>. Noting <persName ref="#Rienzo_hist">Rienzi</persName>'s potential as a character and his resemblance to <persName ref="#Napoleon">Napoleon</persName> in the trajectory of his rise and fall, <persName ref="#MRM">Mitford</persName> felt there was dramatic potential in <persName ref="#Gibbon_Edward">Gibbon</persName>'s account. Despite her hopes, theatrical infighting between <persName ref="#Macready_Wm">Macready</persName> and <persName ref="#Kemble_C">Charles Kemble</persName> dimmed the play's prospects by the summer of <date when="1823">1823</date>, and she felt compelled to put the project aside for several months. By the summer of <date when="1824">1824</date>, however, <persName ref="#MRM">Mitford</persName> was back in discussions with <persName ref="#Macready_Wm">Macready</persName> over <title ref="#Rienzi">Rienzi</title>, and, in November, she brought a manuscript to <placeName ref="#London_city">London</placeName> for his approval. <persName ref="#Macready_Wm">Macready</persName> wanted <persName ref="#MRM">Mitford</persName> to make significant alterations. Moreover, he indicated that if the play was to be staged as soon as he wanted, she had only two weeks to complete the revisions. <persName ref="#MRM">Mitford</persName> hurried to meet <persName ref="#Macready_Wm">Macready</persName>'s demands (composing a new first act, combining the second and third, and rewriting the fifth act completely) but was disappointed when <persName ref="#Macready_Wm">Macready</persName> seemed to reverse himself and informed her that not only would <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> not produce <title ref="#Rienzi">Rienzi</title> that season, but that it was likely that it never would. <persName ref="#MRM">Mitford</persName> offered <title ref="#Rienzi">Rienzi</title> to <persName ref="#Kemble_C">Kemble</persName> at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, who initially accepted it but then advised her to withdraw the piece, all without explanation. It was then, in <date when="1825-06">June of 1825</date>, that an anonymous letter in <title ref="#Blackwoods">Blackwood's Magazine</title> attacked <persName ref="#Macready_Wm">Macready</persName> for his mistreatment of <persName ref="#MRM">Mitford</persName> and her play. <persName ref="#Macready_Wm">Macready</persName> was furious and held the letter against <persName ref="#MRM">Mitford</persName>.</p>
+        
+         <p><title ref="#Rienzi">Rienzi</title>, thus, languished on the shelf for several years. <persName ref="#Trollope_Fr">Frances Trollope</persName> thought highly of the manuscript and unsuccessfully attempted to persuade <persName ref="#Kean_Edmund">Edmund Kean</persName> and <persName ref="#Macready_Wm">Macready</persName> to stage it. Meanwhile, <persName ref="#MRM">Mitford</persName> advanced her career as an author: <title ref="#Foscari_MRMplay">Foscari</title> at last found a receptive audience at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>, <title ref="#DramaticScenes">Dramatic Scenes, Sonnets, and Other Poems</title> was published, and three volumes of <title ref="#OV">Our Village</title> brought <persName ref="#MRM">Mitford</persName> to the public's attention. By the time <title ref="#Rienzi">Rienzi</title> appeared, <persName ref="#MRM">Mitford</persName> had already established herself as a professional author.</p> 
+        
+         <p><title ref="#Rienzi">Rienzi</title> finally debuted at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName> on <date when="1828-10-04">October 4, 1828</date>, with <persName ref="#Young_CM">Charles Young</persName>, the esteemed tragedian, in the title role. The play was an unqualified success, running for thirty-four nights (more than doubling the run of <title ref="#Foscari_MRMplay">Foscari</title>), and selling more than eight thousand copies before the year ended. It also earned <persName ref="#MRM">Mitford</persName> more than £400. More importantly, the triumph of <title ref="#Rienzi">Rienzi</title> raised <persName ref="#MRM">Mitford</persName>'s reputation among the literary elite. The critics were in agreement that <title ref="#Rienzi">Rienzi</title> was not only <persName ref="#MRM">Mitford</persName>'s best work to date but that it was a work of some poetic genius; even <persName ref="#Macready_Wm">Macready</persName> offered his praises. By <date when="1882-12">December</date>, <persName ref="#MRM">Mitford</persName> had won over <placeName ref="#London_city">London</placeName>'s fickle literati.</p>
+        
+         <p><title ref="#Rienzi">Rienzi</title> continued to be influential throughout the nineteenth century. After its initial run, it continued in the repertory of <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>. It was known in continental Europe, and a German imprint, which, with some restored lines from the manuscript, was available by <date when="1837">1837</date>. It was also successful in <placeName ref="#USA">America</placeName>, with performances in <placeName ref="#New_York_city">New York</placeName> theaters well into the <date from="1880" to="1889">1880s</date>. Many of <persName ref="#MRM">Mitford</persName>'s inventions, including the star-crossed lovers and the centrality of the <orgName ref="#ColonnaFamily">Colonna family</orgName>, were retained by <persName ref="#Bulwer_Lytton">Bulwer-Lytton</persName> in his novel, <title ref="#Rienzi_EBL">Rienzi, the Last of the Roman Tribunes</title> <date when="1835">(1835)</date>, and were then carried over into <title ref="#Rienzi_Wagner">Wagner's opera</title> of the same name <date when="1842">(1842)</date>.</p>
+        
+         <p>Comparison of the three editions presented here provide some indication of the play's complicated development. The manuscript, submitted to the <orgName ref="#LdChamberlainsOfc">Office of the Lord Chamberlain</orgName> in <date when="1828-09">September 1828</date>, and in <persName ref="#MRM">Mitford</persName>'s own hand, is the earliest text of the play that we have, and it provides some interesting insights into how the play evolved. A few long passages from the character of <persName ref="#Rienzi_Cola">Rienzi</persName>, some even explaining his motivations, already have been cancelled within the manuscript and replaced. This Digital Mitford edition has made the manuscript widely available for the first time, and it will no doubt be welcomed by scholars. However, the manuscript, even when the cancelled text is restored, should not be taken as representing <persName ref="#MRM">Mitford</persName>'s true or original concept of the play, as this version had already been extensively revised from the play she first brought to <persName ref="#Macready_Wm">Macready</persName> in <date when="1824-11">November 1824</date>. The <date when="1828">1828</date> edition comes from the first print edition of the play. It contains more detailed stage directions than the other editions and indicates the passages that were cut from performances but were retained in print. For scholars of theatrical history and twenty-first-century companies returning <title ref="#Rienzi">Rienzi</title> to the stage, the <date when="1824">1824</date> edition is invaluable. It should also be noted, however, that this edition is probably the least true to <persName ref="#MRM">Mitford</persName>'s intentions, as comparisons to both the manuscript from her hand and to the <date when="1854">1854</date> edition show quite a few errors and changes from <persName ref="#MRM">Mitford</persName>'s syntax. The <date when="1854">1854</date> edition was edited by <persName ref="#MRM">Mitford</persName> for the first volume of her <title ref="#Dramatic_Works_of_MRM">Dramatic Works</title>, and is our best indication of how <persName ref="#MRM">Mitford</persName> wanted the play to be remembered. In the opinion of this editor, the <date when="1854">1854</date> edition should be considered the authoritative edition of the play and for that reason additional contextual notes have been included in this edition to assist students and the general public. Each edition, however, has its own import and Digital Mitford has made each of these editions available so that scholars and the public might decide for themselves.</p>
+       </body>
+     <back>
+        <!--LMW:  new xml:ids for Site Index -->
+        <div type="historical_people">
+           <listOrg sortKey="histOrgs">
+              <org xml:id="ColonnaFamily">
+                 <orgName>Colonna family</orgName>
+                 <orgName>
+                    <surname>Colonna</surname>
+                    <surname>Sciarillo</surname>
+                    <surname>Sciarra</surname>
+                 </orgName>
+                 <placeName>Rome</placeName>
+                 <note resp="#rnes">Powerful aristocratic family in medieval and early modern Rome. Originating in the eleventh century, the Colonnas built a fortified palace (starting in the thirteenth century) at the site of the modern Piazza SS. Apostoli. Percy Shelley claimed to have visited the Colonna palace, and the family features in a minor way in Percy Bysshe Shelley's play The Cenci (1819).
+                 </note>
+              </org>
+              
+              <org xml:id="LdChamberlainsOfc">
+                 <orgName>Office of the Lord Chamberlain</orgName>
+                 <placeName>London, England</placeName>
+                 <note resp="#rnes">From 737-1968, the official theater censor's office, overseen by the Lord Chamberlain. This function was abolished in 1968, and the office continues in service of different purposes, primarily event-planning (royal appearances, events, and parties.) Mitford's plays were reviewed by this office.</note>
+              </org>
+           </listOrg>
+        </div>
+        
+        <div type="publications">
+           <listBibl sortKey="literary">
+              <bibl xml:id="Romeo_Juliet">
+                 <title>Romeo and Juliet</title>
+                 <author>William Shakespeare</author>
+                 <pubPlace>London</pubPlace>
+                 <date when="1599">1599</date>
+                 <note resp="#rnes">Shakespeare's tragedy, first published in 1597 in a quarto edition that is missing some of the play's most iconic speeches, and subsequently in the second quarto (1599).</note>
+              </bibl>
+              
+              <bibl xml:id="Cenci_play">
+                 <title type="m">The Cenci: A Tragedy, in Five Acts</title>
+                 <author ref="#Shelley_PB">Percy Bysshe Shelley</author>
+                 <pubPlace>London</pubPlace>
+                 <publisher>C. and J. Ollier</publisher>
+                 <date when="1819">1819</date>
+                 <note resp="#rnes">Percy Bysshe Shelley's only completed stage play was written in <date when="1819">1819</date>, informed by the legend of Beatrice Cenci, a historical Roman noblewoman who, in 1599, was executed along with her stepmother and brother for the murder of her reportedly abusive father, Count Francesco Cenci. Inspired by a manuscript translated from the Italian by Mary Shelley (who also claimed to have "discussed" with her husband the play's scene breakdown), The Cenci tells a powerful story of political tyranny, incestuous rape, and violent, quickly-suppressed revolt. The play's depiction of rape, incest, and parricide was the apparent cause of its rejection by the Theatre at Covent Garden. It was not produced until 1886, when it premiered in an unlicensed London performance organized by the actress Alma Murray, who played Beatrice.</note>
+              </bibl>
+              
+              <bibl xml:id="Isabella_poem">
+                 <title level="a">Isabella, or the Pot of Basil</title>
+                 <title level="m" ref="#LIEO_Poems">Lamia, Isabella, The Eve of St. Agnes, and Other Poems</title>
+                 <author ref="#Keats">John Keats</author>
+                 <pubPlace ref="#London_city">London</pubPlace>
+                 <publisher>Taylor and Hessey</publisher>
+                 <date when="1820">1820</date>
+                 <note resp="#rnes">Keats's narrative poem is adapted from the tale of Isabella and Lorenzo from Giovanni Boccaccio's Decameron (IV, 5). The poem was first collected in <title ref="#LIEO_Poems">Lamia, Isabella, The Eve of St. Agnes, and Other Poems</title>.</note>
+              </bibl>
+              
+              <bibl xml:id="FallofRobespierre">
+                 <title>The Fall of Robespierre: An Historic Drama</title>
+                 <author>Robert Southey</author>
+                 <author>Samuel Taylor Coleridge</author>
+                 <pubPlace>London</pubPlace>
+                 <publisher>Benjamin Flower</publisher>
+                 <date when="1794">1794</date>
+                 <note resp="#rnes #lmw">Three-act historical drama collaboratively written by Samuel Taylor Coleridge and Robert Southey. At the time of the play's writing, it was printed by radical Benjamin Flower but never performed. The play, drafted soon after Robespierre's death, presents a complex portrait of Maximilien Robespierre, political architect (and eventual victim) of the Reign of Terror that followed the French Revolution. This play proved an embarrassment to Southey after his repudiation of his youthful radicalism.</note>
+                 <note><ref target="http://www.rc.umd.edu/editions/robespierre/play-toc.html/"/></note>
+              </bibl>
+              
+              <bibl xml:id="Prelude_WW">
+                 <title type="m">The Prelude, or, Growth of a Poet's Mind: An Autobiographical Poem</title>
+                 <author>William Wordsworth</author>
+                 <pubPlace>London</pubPlace>
+                 <publisher>Edward Moxon</publisher>
+                 <date when="1850">1850</date><note resp="#lmw">Autobiographical narrative poem, originally intended to introduce a poetic work that he never completed, first drafted in 1798-1799. The first printed version was an expanded, fourteen-part text published after Wordsworth's death in 1850. A thirteen-book version of 1805 was discovered and printed in 1926.</note>
+              </bibl>
+              
+              <bibl xml:id="RevoltofIslam">
+                 <title>The Revolt of Islam: A Poem, in Twelve Cantos</title>
+                 <author ref="#Shelley_PB">Percy Bysshe Shelley</author>
+                 <pubPlace ref="#London_city">London</pubPlace>
+                 <publisher>C. and J. Ollier</publisher>
+                 <date when="1816">1816</date>
+                 <note resp="#rnes">The second published version of a poem that Percy Bysshe Shelley originally titled Laon and Cythna, or, the Revolution of the Golden City. A prophetic vision of a fictional revolution postdating the French Revolution and taking place in the Ottoman Empire, The Revolt of Islam is distinguished by Shelley's self-censorship of his own most controversial material.</note>
+              </bibl>
+              
+              <bibl xml:id="Rienzi_EBL">
+                 <title>Rienzi, The Last of the Roman Tribunes</title>
+                 <author>Edward Bulwer-Lytton</author>
+                 <pubPlace ref="#London_city">London</pubPlace>
+                 <publisher>Saunders and Otley</publisher>
+                 <date when="1835">1835</date>
+                 <note resp="#rnes #lmw">Edward Bulwer-Lytton's novel; a 1835 treatment of the rebellion of <persName ref="#Rienzi_Cola">Cola di Rienzi</persName>, the subject of <title ref="#Rienzi">Mitford's play Rienzi</title>. The novel incorporates some of <persName ref="#MRM">Mitford</persName>'s innovations, such as the invention of several female characters.</note>
+              </bibl>
+              
+              <bibl xml:id="Rienzi_Wagner">
+                 <title>Rienzi, der Letzte der Tribunen</title>
+                 <title>Rienzi, the Last of the Tribunes</title>
+                 <author>Richard Wagner</author>
+                 <date when="1842">1842</date>
+                 <note resp="#rnes">Richard Wagner's opera; an 1842 treatment of the rebellion of <persName ref="#Rienzi_Cola">Cola di Rienzi</persName>, the subject of <title ref="#Rienzi">Mitford's play Rienzi</title>.</note>
+              </bibl>
+           </listBibl>
+        </div> 
+     </back>
+  </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Publication History for <title ref="#CharlesI_MRMplay">Charles the First, An Historical Tragedy</title></title>
+            <author ref="#lmw">Lisa M. Wilson</author>
+           
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor> 
+            <principal>Elisa Beshero-Bondar</principal>
+           
+            <respStmt>
+               <resp>Corrections and proofing by</resp>
+               <persName ref="#rnes">Rebecca Nesvet</persName><!-- August 11, 2017 -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>First digital edition in TEI, date: <date when="2017-08-10">August 10, 2017</date>. P5.</edition>
+            <respStmt><resp><!--We can include a respStmt here.--></resp><persName><!--Who?--></persName></respStmt>
+            
+         </editionStmt>   
+         
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2017</date>
+            <availability>
+               <licence>Distributed under a <orgName>Creative Commons</orgName> Attribution-ShareAlike 3.0
+                  Unported License</licence>
+            </availability>
+            
+         </publicationStmt>
+         
+         
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+        <sourceDesc>
+          <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc> 
+      
+   </teiHeader>
+  <text>
+      <body>
+         <p><persName ref="#MRM">Mary Russell Mitford</persName> submitted <title ref="#CharlesI_MRMplay">Charles the First, An Historial Tragedy, in Five Acts</title> to the Examiner of Plays, <persName ref="#Colman_the_Younger">George Colman the Younger</persName>, for review in <date when="1825">1825</date>. The play was refused a license at that time, and so did not reach the stage until its production at the <placeName ref="#Vict_Theatre">Victoria Theatre</placeName> in <date when="1834">1834</date>. <placeName ref="#London_city">London</placeName> publisher <orgName ref="#JDuncombe_pub">John Duncombe and Co.</orgName> produced the first printed edition in <date when="1834">1834</date>. <placeName ref="#Philadelphia">Philadelphia</placeName> publishers <orgName>Carey &amp; Hart</orgName>, <orgName>Hogan &amp; Thompson</orgName>, and <orgName>W. Marshall and Co.</orgName>, published an American edition the following year, in <date when="1835">1835</date>, as part of the series <title level="s">Alexander's Modern Acting Drama: Consisting of the Most Popular Plays Produced at the Philadelphia Theatres and Elsewhere</title>. The play was also published <date from="1880" to="1889">in the 1880s</date> by <orgName ref="#JDicks_pub">J. Dicks</orgName> in the cheap reprint series <title level="s">Dicks' Standard Plays</title>. The play was collected in 1841 by <placeName ref="#Philadelphia">Philadelphia</placeName> publisher <orgName ref="#Crissy_pub">James Crissy</orgName> in <title ref="#Works_of_MRM">The Works of Mary Russell Mitford: Prose and Verse</title>. In 1854, the play was also included an authorized collection, <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> by <placeName ref="#London_city">London</placeName> publisher <orgName ref="#Hurst_Blackett_pub">Hurst and Blackett</orgName>.</p>
+         <p>In the <date from="1830" to="1839">1830s</date>, before publishing the full-length play, <persName ref="#MRM">Mitford</persName>published several selections from her tragedy in literary annuals, including the <title ref="#ForgetMeNot">Forget Me Not</title> (1830 and 1831), the <title ref="#Royal_LadysMag">Royal Lady's Magazine</title> (1832) and the <title ref="#Metropolitan">Metropolitan Magazine</title> (1832). An excerpt from the play was also included in the 1889 <title>McGuffey's High School and Literary Reader</title> as "The Trial of Charles the First": <bibl><biblScope unit="page" from="230" to="237"/>230-237</bibl>.</p>
+      </body>
+     
+         <back>
+            <div type="publications">
+         
+            <listBibl sortKey="per_19thc">
+            <bibl xml:id="Metropolitan">
+               <title level="j">The Metropolitan
+               </title>
+               <pubPlace>
+                  <placeName ref="#London_city">London</placeName>
+               </pubPlace>
+               <editor>Thomas Campbell</editor>
+               <editor>Cyrus Redding</editor>
+               <editor>Frederick Marryatt</editor>
+               <publisher>Cochrane and Pickersgill</publisher>
+               <publisher>James Cochrane</publisher>
+               <publisher>Saunders and Otley</publisher>
+               <date from="1831" to="1850"/>
+               <note resp="#lmw">A London monthly originally titled The Metropolitan: A Monthly Journal of Literature, Science, and the Fine Arts. After 1833 it was retitled The Metropolitan Magazine. The periodical was founded by Thomas Campbell and edited by Campbell, Cyrus Redding, and Frederick Marryat (after 1832). <persName ref="#MRM">Mitford</persName> published in this monthly in <date when="1832">1832</date>.</note>
+            </bibl>
+           
+            
+           </listBibl>
+            </div>
+         </back>
+  </text>
+</TEI>

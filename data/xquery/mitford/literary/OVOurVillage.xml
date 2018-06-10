@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../../../Downloads/SI_Ref_and_Resp.rnc" type="application/relax-ng-compact-syntax"?>--><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
+            <!-- MAH: June 15, so footnotes. Not sure what we've decided to do with this, so I'm just leaving them in the text. -->
+            <!--EBB: For Mitford's footnotes, use the <note> element inline with the text (as we've done with notes in the past). The note goes right a the point marked for insertion in the copy-text, and looks like this: <note type="author" anchored="true"> text of note </note>.--><titleStmt><title>Our Village: Sketches of Rural Character and Scenery: Preface</title><author>Mary Russell Mitford</author><editor ref="ad">Alexandra Drayton</editor><editor ref="scw">Samantha Webb</editor><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal ref="ebb">Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName ref="ad">Alexandra Drayton</persName><persName ref="scw">Samantha Webb</persName></respStmt><respStmt><resp>Proofing and corrections by</resp><persName ref="ebb">Elisa Beshero-Bondar</persName></respStmt></titleStmt><editionStmt><edition>This is optional, used to describe this edition, and "should contain
+                    phrases describing the edition or version": First digital edition in TEI, date:
+                    2 June 2013. P5.</edition><respStmt><resp>We can include a respStmt here.</resp><persName>Who?</persName></respStmt></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2013</date><availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence></availability></publicationStmt><seriesStmt><title>Digital Mitford: The Mary Russell Mitford Archive</title></seriesStmt><sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.--><p>Our text is based on public domain, Google-digitized text<bibl><title>Our Village: Sketches of Rural Character and
+                            Scenery</title><edition>Third Edition</edition> by <author>Mary Russell
+                            Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B.
+                            Whittaker</publisher><placeName>Ave Maria
+                            Lane</placeName><date>1825</date>. </bibl> This text appears to be
+                    identical in pagination and content to the first edition published in 1824. </p></sourceDesc></fileDesc><encodingDesc><editorialDecl><p>Describes our editorial practice.</p></editorialDecl></encodingDesc></teiHeader><text><front><titlePage><pb n="ii"/><docTitle><titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart></docTitle><byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A
+                        Tragedy</title><lb/></byline><docEdition>Third Edition.</docEdition><docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B.
+                        Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                        <docDate>1825</docDate>.</docImprint></titlePage><pb n="iii"/></front><body><div type="sketch"><head>OUR VILLAGE.</head><p> Of all situations for a constant residence, that which appears to me most
+                    delightful is a little <placeName ref="#ThreeMileCross">village</placeName> far
+                    in the country; a small neighbourhood, not of fine <placeName type="arch">mansions</placeName> finely peopled, but
+                    of <placeName type="arch">cottages</placeName> and <placeName type="arch">cottage-like houses</placeName>, <quote>"messuages or tenements</quote>," as
+                    a <rs type="person">friend of mine</rs> calls such ignoble and non-descript
+                    dwellings, with inhabitants whose faces are as familiar to us as the <rs type="plant">flowers</rs> in
+                    our <placeName type="land">garden</placeName>; a little world of our own, close-packed
+                    and insulated like <orgName>ants</orgName> in an ant-hill, or <orgName>bees</orgName> in a hive, or
+                    <orgName>sheep</orgName> in a fold, or <orgName type="person">nuns</orgName> in a convent, or <orgName type="person">sailors</orgName> in a ship; where we know every one, are known to
+                    every one, interested in every one, and authorised to hope that every one feels
+                    an interest in us. How pleasant it is to slide into these true-hearted feelings
+                    from the kindly and unconscious influence of habit, and to learn to know and to
+                    love the people about us, with all their peculiarities, just as we learn to know
+                    and to love the nooks and turns of the shady <placeName type="geog">lanes</placeName> and
+                    sunny <placeName type="land">commons</placeName> that we pass every day. Even in books <persName type="fict" subtype="int" ref="#OVNarrator">I</persName> like
+                    a con<pb n="1"/>fined locality, and so do the <rs type="person">critics</rs> when
+                    they talk of the unities. Nothing is so tiresome as to be
+                    whirled half over <placeName ref="#Europe">Europe</placeName> at the chariot-wheels of a <rs type="person">hero</rs>, to go to sleep at <placeName ref="#Vienna">Vienna</placeName>,
+                    and awaken at <placeName ref="#Madrid">Madrid</placeName>; it produces a real fatigue, a
+                    weariness of spirit. On the other hand, nothing is so delightful as to sit down
+                    in a <placeName type="geog">country village</placeName> in one of <persName type="hist" subtype="ext" ref="#Austen_Jane">Miss Austen</persName>'s delicious novels, quite sure before
+                    we leave it to become intimate with every spot and every person it contains; or
+                    to ramble with <persName type="hist" subtype="ext" ref="#WhiteGilbert">Mr. White</persName> *<note type="author" anchored="true">* <persName ref="#WhiteGilbert">White</persName>'s
+                        <bibl>Natural History and Antiquities of
+                            <placeName ref="#Selborne">Selborne</placeName></bibl>; one of the most fascinating
+                        books ever written. I wonder that no naturalist has adopted the same
+                        plan</note>..--&gt; over his own parish of <placeName type="geog" ref="#Selborne">Selborne</placeName>, and
+                    form a friendship with the <placeName type="land">fields</placeName> and
+                    <placeName type="land">coppices</placeName>,as well as with the birds, squirrels, who
+                    inhabit them; or to sail with <persName type="fict" subtype="ext" ref="#RobinsonCrusoe">Robinson
+                        Crusoe</persName> to <placeName type="fict" subtype="ext" ref="#RobinsonCrusoesIsland">his
+                            island</placeName>, and live there with him and his goats and his man
+                    <persName type="fict" subtype="ext" ref="#Friday">Friday</persName>;—how much we dread any
+                    new comers, any fresh importation of savage or
+                        sailor! we never sympathise for a moment in <rs type="person" ref="#RobinsonCrusoe">our hero</rs>'s want of company, and are quite grieved when he
+                    gets away;—or to be shipwrecked with <persName type="fict" subtype="ext">Ferdinand</persName> on that other <placeName type="fict" subtype="ext" ref="#ProsperosIsland">lovelier island</placeName>—the island of <persName type="fict" subtype="ext" ref="#Prospero">Prospero</persName>, and <persName type="fict" subtype="ext" ref="#Miranda">Miranda</persName>, and <persName type="fict" subtype="ext" ref="#Caliban">Caliban</persName>, and <persName type="fict" subtype="ext" ref="#Ariel">Ariel</persName>, and nobody else, none of <persName type="hist" ref="#Dryden">Dryden</persName>'s exotic inventions;— that is best of all. And a small
+                    neighbourhood is as good in sober waking reality as in poetry or prose; a
+                        village neighbourhood, such as this <pb n="2"/><placeName type="geog" ref="#Berkshire">Berkshire</placeName><placeName ref="#ThreeMileCross">hamlet</placeName> in which I write, a long, straggling, winding
+                    street at the bottom of a fine <placeName type="land">eminence,</placeName> with a road
+                    through it, always abounding in carts, <orgName type="person">horsemen,</orgName> and
+                    carriages, and lately enlivened by a stage-coach from
+                        <!--scw: identify B and S.--><placeName>B——</placeName> to
+                        <placeName>S——</placeName>, which passed through about ten days ago, and
+                    will I suppose return some time or other. There are coaches of all varieties
+                    now-a-days; perhaps this may be intended for a monthly diligence, or a fortnight
+                    fly. Will you walk with me through <placeName ref="#ThreeMileCross">our
+                        village</placeName>, courteous reader? The journey is not long. We will
+                    begin at the lower end, and proceed up the <placeName type="land">hill</placeName>.</p><p> The tidy, square, red cottage on the right hand, with the long well-stocked
+                    garden by the side of the road, belongs to a <persName type="fict" subtype="int" ref="#RetiredPublican">retired publican</persName> from a <rs type="place">neighbouring town</rs>; a substantial person with a <persName type="fict" subtype="int" ref="#RetiredPublicansWife">comely wife</persName>; one who piques
+                    himself on independence and idleness, talks politics, reads
+                    newspapers, hates <rs type="person" subtype="hist">the minister</rs>, and cries out for
+                            reform. He
+                    introduced into our peaceful vicinage the rebellious innovation of an
+                    illumination on <rs type="event" ref="#Qu_Caroline_Affair">the <persName ref="#Queen_Caroline">queen's</persName> acquittal</rs>. Remonstrance and persuasion were in
+                    vain; he talked of liberty and broken windows—so we all lighted up. Oh! how he
+                    shone that night with candles and laurel, and white bows, and gold paper, and a
+                    transparency (originally designed for a pockethandkerchief) with
+                    a flaming portrait of <rs type="person" ref="#Queen_Caroline">her Majesty,</rs>
+                    hatted and feathered, in red ochre. He had no rival in <pb n="3"/><placeName ref="#ThreeMileCross">the village</placeName>, that we all acknowledged; the
+                    very bonfire was less splendid; the <orgName type="person">little boys</orgName> reserved
+                    their best crackers to be expended in his honour, and he gave them full sixpence
+                    more than any one else. He would like an illumination once a month; for it must
+                    not be concealed that, in spite of gardening, of newspaper reading, of jaunting
+                    about in his little cart, and frequenting both church and
+                    meeting,
+                    <rs type="person" ref="#RetiredPublican">our worthy neighbour</rs> begins to feel the weariness of
+                    idleness. He hangs over his gate, and tries to entice passengers to stop and
+                    chat; he volunteers little jobs all round, smokes cherrytrees to cure the
+                    blight, and traces and blows up all the wasp-nests in the <orgName type="place" subtype="parish" ref="#Shinfield">parish</orgName>. I have seen a great many wasps in <placeName type="land">our
+                            garden</placeName> to-day, and shall enchant him with the intelligence. He even assists
+                        <persName type="fict" subtype="int" ref="#RetiredPublicansWife">his
+                        wife</persName> in her sweepings and dustings. Poor man! he is a very
+                    respectable person, and would be a very happy one, if he would add a little
+                    employment to his dignity. It would be the salt of life to him.</p><p>Next to his house, though parted from it by another <placeName type="land">long garden</placeName> with a
+                            <placeName type="land"><rs type="plant" ref="#yew_tree">yew</rs> arbour</placeName> at
+                    the end, is the pretty dwelling of the <persName type="fict" subtype="int" ref="#Shoemaker">shoemaker</persName>, a pale, sickly-looking, black-haired
+                    man, the very model of sober industry. There he sits in his <orgName ref="#shoemakers_shop">little
+                        shop</orgName> from early morning till late at night. An earthquake would
+                    hardly stir him: the illumination did not. He stuck immoveably to his last, from
+                    the first lighting up, through the long<pb n="4"/> blaze and the slow decay,
+                    till his large solitary candle was the only light in the place. One cannot
+                    conceive any thing more perfect than the contempt which the <rs type="person" ref="#RetiredPublican">man of
+                        transparencies</rs> and the <rs type="person" ref="#Shoemaker">man of shoes</rs> must have felt for each other on
+                    that evening. There was at least as much vanity in the sturdy industry as in the
+                    strenuous idleness, for our <persName ref="#Shoemaker">shoemaker</persName> is a man of substance, he employs <orgName type="person" ref="#journeymen_shoemakers">three
+                    journeymen</orgName>,
+                    <rs type="person">two lame</rs>, and one a <rs type="person" subtype="fict">dwarf</rs>, so that his <orgName ref="shoemakers_shop">shop</orgName> looks like an hospital; he
+                    has purchased the lease of his commodious dwelling, some even say that he has
+                    bought it out and out; and he has only one pretty <persName type="fict" subtype="int" ref="#ShoemakersDaughter">daughter</persName>, a light,
+                    delicate, fair-haired girl of fourteen, the champion, protectress, and
+                    playfellow of every brat under three years old, whom she jumps, dances, dandles,
+                    and feeds all day long. A very attractive person is that <persName ref="#ShoemakersDaughter">child-loving
+                        girl</persName>. I have never seen any one in her station who possessed so
+                    thoroughly that undefinable charm, the lady-look. See her on a
+                    Sunday in her simplicity and her white frock, and she might pass for an earl's
+                    daughter. She likes <rs type="plant">flowers</rs> too, and has a
+                    profusion of white <rs type="plant" ref="#stock">stocks</rs> under her
+                    window, as pure and delicate as herself.</p><p> The first house on the opposite side of the way is the <persName type="fict" subtype="int" ref="#Blacksmith">blacksmith</persName>'s; a gloomy dwelling,
+                    where the sun never seems to shine; dark and smoky within and without, like a
+                    forge. The <persName ref="#Blacksmith">blacksmith</persName> is a high officer
+                    in <placeName ref="#ThreeMileCross">our <pb n="5"/>little state</placeName>, nothing less than a constable;
+                    but, alas! alas! when tumults arise, and the <rs type="person" ref="#Blacksmith">constable</rs> is called for, he will commonly be found in the
+                    thickest of the fray. Lucky would it be for his <persName type="fict" subtype="int" ref="#BlacksmithsWife">wife</persName> and <orgName type="person" ref="#lacksmithsChildren">her eight children</orgName> if there were no <orgName ref="#public_house">public-house</orgName> in
+                    the land: an inveterate inclination to enter those bewitching doors is <rs type="person" ref="#Blacksmith">Mr. Constable's</rs> only fault.</p><p>Next to this official dwelling is a spruce brick tenement, red, high, and narrow,
+                    boasting, one above another, three-sash windows, the only sash-windows in the
+                    village, with a <rs type="plant" ref="#clematis">clematis</rs> on one side and a
+                        <rs type="plant" ref="#rose">rose</rs> on the other, tall and narrow
+                    like itself. That slender mansion has a fine genteel look. The little parlour
+                    seems made for <!--scw: I believe this might be a reference to Hogarth's "Morning" from the series "Four Times of the Day" (1736), but not entirely sure.--><persName type="hist" subtype="ext" ref="#Hogarth">Hogarth's</persName><persName type="fict" subtype="ext">old maid</persName> and her <persName type="fict" subtype="ext">stunted footboy</persName>; for tea and
+                    card-parties,—it would just hold one table; for the
+                    rustle of faded silks, and the splendour of <placeName ref="#China">old China</placeName>; for the delight of four
+                    by honours, and a little snug quiet scandal between the deals; for affected
+                    gentility and real starvation. This should have been its destiny; but fate has
+                    been unpropitious: it belongs to a <persName type="fict" subtype="int" ref="#BustlingDame">plump, merry, bustling dame</persName>, with <orgName type="person" ref="#BustlingDamesChildren">four fat, rosy, noisy
+                            children</orgName>, the very essence of vulgarity and plenty. </p><p>Then comes the <orgName ref="#village_shop">village shop</orgName>, like other village shops,
+                    multifarious as a bazaar; a repository for bread, shoes, tea,
+                    cheese, tape, ribands, and bacon; for
+                    every thing, in short, except the one particular thing which you happen to want
+                    at the moment, and will be sure not to<pb n="6"/>find. The <persName type="fict" subtype="int" ref="#Shopkeeper"/><persName type="fict" subtype="int" ref="#ShopkeepersWife">people</persName> are civil and
+                    thriving, and frugal withal; they have let the upper part of their house to
+                        <persName type="fict" subtype="int" ref="#ShopkeepersLodger1"/><persName type="fict" subtype="int" ref="#ShopkeepersLodger2">two young women</persName> (one of them is a
+                        <persName ref="#ShopkeepersLodger1">pretty blue-eyed girl</persName>) who
+                    teach little children their ABC, and make caps and gowns
+                    for their mammas,—parcel
+                    schoolmistress, parcel
+                    mantua-maker. I believe they find adorning the body a
+                    more profitable vocation than adorning the mind.</p>
+                    <!--the previous paragraph is full of general passing references to multiple people, not sure how or whether give xml:ids to each--><p>Divided from the shop by a narrow yard, and opposite the
+                        <orgName ref="shoemakers_shop"><persName ref="#Shoemaker">shoemaker</persName>'s</orgName>, is a habitation of whose
+                    inmates I shall say nothing. A cottage—no—a miniature house, with many
+                    additions, little odds and ends of places, pantries, and what not; all angles,
+                    and of a charming in-and-outness; a little bricked court before one half, and a
+                    little flower-yard before the other; the walls, old and weather-stained, covered
+                    with <rs type="plant" ref="#hollyhock">hollyhocks</rs>,
+                    <rs type="plant" ref="#rose">roses</rs>,
+                    <rs type="plant" ref="honeysuckle">honeysuckles</rs>, and a great <rs type="plant" ref="#apricot_tree">apricot-tree</rs>; the casements full of <rs type="plant" ref="#geranium">geraniums</rs>; (ah, there is our superb white cat peeping
+                    out from amongst them!) the closets (our <persName type="fict" subtype="int" ref="#landlord">landlord</persName> has the assurance to call them rooms)
+                    full of contrivances and corner-cupboards; and the little garden behind full of
+                    <rs type="plant">common flowers</rs>,
+                    <rs type="plant" ref="#tulip">tulips</rs>,
+                    <rs type="plant" ref="#pink">pinks</rs>,
+                    <rs type="plant" ref="#larkspur">larkspurs</rs>,
+                    <rs type="plant" ref="#peony"><sic>pionies</sic></rs>,
+                    <rs type="plant" ref="#stock">stocks</rs>, and <rs type="plant" ref="#carnation">carnations</rs>, with an <placeName type="land">arbour</placeName> of <rs type="plant" ref="#privet">privet</rs>, not unlike a sentry-box, where one
+                    lives in a delicious green light, and looks out on the gayest of all gay <rs type="plant">flower-beds</rs>. That house was built on
+                    purpose to show in what an exceedingly small compass<pb n="7"/>comfort may be
+                    packed. Well, I will loiter there no longer. </p><p>The next tenement is a place of importance, the
+                    <orgName ref="#Rose_inn">Rose inn</orgName>; a white-washed
+                        building, retired from the road behind its fine swinging sign, with a
+                    little bow-window room coming out on one side, and forming, with our
+                        stable on the other, a sort of open square, which is
+                    the constant resort of carts,
+                    waggons, and return chaises. There
+                    are two carts there now, and mine
+                        <persName type="fict" subtype="int" ref="#RoseInnLandlord">host</persName> is serving them with beer in his eternal red
+                    waistcoat. He is a thriving man, and a portly, as his waistcoat attests, which
+                    has been twice let our within this twelvemonth. Our
+                    <persName ref="#RoseInnLandlord">landlord</persName> has a <persName type="fict" subtype="int" ref="#RoseInnLandlordsWife">stirring wife</persName>, a
+                    hopeful <persName type="fict" subtype="int" ref="#RoseInnLandlordsSon">son</persName>, and a <persName type="fict" subtype="int" ref="#Phoebe">daughter</persName>, the
+                        <rs type="person" ref="#Phoebe">belle of the village</rs>; not so pretty as the
+                        <rs type="person" ref="#ShoemakersDaughter">fair nymph of the shoe-shop</rs>, and far less elegant, but
+                    ten times as fine; all curl-papers in the morning, like a porcupine, all curls in the afternoon, like a
+                         poodle, with more flounces than curl-papers, and more lovers than
+                    curls. <persName ref="#Phoebe">Miss Phoebe</persName> is fitter for
+                        town than country; and, to do
+                    her justice, she has a consciousness of that fitness, and turns her steps
+                        town-ward as often as she can. She is gone to
+                        <placeName>B——</placeName>to-day with her last and principal lover, a
+                        <persName type="fict" subtype="int" ref="#RecruitingSerjeant">recruiting serjeant</persName>—a man as tall as <bibl corresp="The_Recruiting_Serjeant"><persName type="fict" subtype="ext" ref="#Serjeant_Kite">Serjeant
+                            Kite</persName></bibl>, and as impudent. Some day of other he will carry off
+                        <persName ref="#Phoebe">Miss Phoebe</persName>.</p><p>In a line with the bow-window room is a low garden-wall, belonging to a house
+                    under repair:—the white<pb n="8"/> house opposite the
+                    <orgName ref="#collar_makers_shop">collar-maker's shop</orgName>, with four
+                        <rs type="plant" ref="#lime_tree">lime-trees</rs> before it, and a
+                        waggon-load of bricks at the door. That house is the plaything of a
+                    <persName type="fict" subtype="int" ref="#WhimsicalPerson">wealthy, wellmeaning, whimsical person</persName>, who lives about
+                    a mile off. He has a passion for brick and mortar, and, being too wise to meddle
+                    with his own residence, diverts himself with altering and re-altering, improving
+                    and re-improving, doing and undoing here. It is a perfect
+                    <bibl corresp="#Odyssey"><persName type="myth" ref="#Penelope">Penelope</persName>'s web</bibl>.<!--scw: FOR EDITOR'S NOTE: In Homer's The Odyssey, Penelope, Odysseus' wife, weaves a tapestry every day, and undoes it every night, in order to delay giving her answer to any one of the suitors requesting her hand in marriage.--><orgName type="person" ref="#OVCarpenters">Carpenters</orgName> and
+                    <orgName type="person" ref="#OVBricklayers">bricklayers</orgName> have been at work
+                    for these eighteen months, and yet I sometimes stand and wonder whether any
+                    thing has really been done. One exploit in last <!--a single month?--><date>June</date> was, however, by no means
+                    equivocal. Our <rs type="person" ref="#WhimsicalPerson">good neighbour</rs> fancied that the <rs type="plant" ref="#lime_tree">limes</rs> shaded the rooms, and made them dark, (there was not
+                    a creature in the house but the <orgName type="person" ref="#OVWorkmen">workmen</orgName>,) so he had all the
+                    leaves stripped from every <rs type="plant">tree</rs>. There they stood, poor
+                    miserable skeletons, as bare as <date when="--12-25">Christmas</date> under the glowing midsummer sun.
+                    Nature revenged herself, in her own sweet and gracious manner; fresh leaves
+                    sprang out, and at nearly Christmas the foliage was as brilliant as when the
+                    outrage was committed.</p><p>Next door lives a <persName type="fict" subtype="int" ref="#LizzysFather">carpenter</persName>,
+                    <quote>"famed ten miles round, and worthy all his fame,"</quote>—few
+                        <orgName type="person" ref="#OVCabinet_makers">cabinet-makers</orgName> surpass him, with his
+                    <persName type="fict" subtype="int" ref="#LizzysMother">excellent wife</persName>, and their little daughter
+                    <persName type="fict" subtype="fict" ref="#Lizzy">Lizzy</persName>, the <rs type="person" ref="#Lizzy">plaything</rs> and <rs type="person" ref="#Lizzy">queen of the village</rs>, a child
+                    three years old according to the register, but six in size and strength and
+                    intellect, in power and in self<pb n="9"/>will. She manages every body in the
+                    place, her <rs type="person" subtype="fict" ref="#SchoolMistress">school-mistress</rs> included; turns the
+                        <orgName type="person">wheeler's children</orgName>out of their own little cart, and
+                    makes them draw her; seduces cakes and lollypops from the very
+                    <orgName ref="#village_shop">shop</orgName> window; makes the lazy carry her, the silent talk to
+                    her, the grave romp with her; does any thing she pleases; is absolutely
+                    irresistible. Her chief attraction lies in her exceeding power of loving, and
+                    her firm reliance on the love and indulgence of others. How impossible it would
+                    be to disappoint the <rs type="person" ref="#Lizzy">dear little girl</rs> when she runs to meet you, slides her
+                    pretty hand into yours, looks up gladly in your face, and says, <said who="#Lizzy">"Come!"</said> You must
+                    go: you cannot help it. Another part of her charm is her singular beauty.
+                    Together with a good deal of the character of <persName type="hist" subtype="ext" ref="#Napoleon">Napoleon</persName>, she has something of his square, sturdy, upright form,
+                    with the finest limbs in the world, a complexion purely English, a round
+                    laughing face, sunburnt and rosy, large merry blue eyes, curling brown hair, and
+                    wonderful play of countenance. She has the imperial attitudes too, and loves to
+                    stand with her hands behind her, or folded over her bosom; and sometimes, when
+                    she has a little touch of shyness, she clasps them together on the top of her
+                    head, pressing down her shining curls, and looking so exquisitely pretty! Yes,
+                    <persName ref="#Lizzy">Lizzy</persName> is <rs type="person" ref="#Lizzy">queen of the village</rs>! She has but one rival in
+                    her dominions, a certain white greyhound called <persName type="fict" subtype="int" ref="#May-flower">May-flower</persName>,
+                    much her friend, who re<pb n="10"/>sembles her in beauty and strength, in
+                    playfulness, and almost in sagacity, and reigns over the animal world as she
+                    over the human. They are both coming with me, <persName ref="#Lizzy">Lizzy</persName> and
+                    Lizzy's <said who="Lizzy">"pretty <persName ref="#May-flower">May</persName>."</said> We are now at the end
+                    of <placeName type="geog">the street</placeName>; a <placeName type="geog">cross lane</placeName>, a
+                    <placeName type="geog">rope-walk</placeName>, shaded with <rs type="plant" ref="#lime_tree">limes</rs> and
+                    <rs type="plant" ref="#oak_tree">oaks</rs>, and a cool clear <placeName type="land">pond</placeName>
+                    overhung with <rs type="plant" ref="#elm_tree">elms</rs>, lead us to the bottom of the
+                    <placeName type="land">hill</placeName>. There is still one house
+                        round the corner, ending in a picturesque
+                    <orgName ref="#wheelers_shop">wheeler's shop</orgName>. The
+                        dwelling house is more ambitious. Look at the fine
+                    flowered window-blinds, the green door with the brass knocker, and the somewhat
+                    prim but very civil <persName type="fict" subtype="int" ref="#WheelersWife">person</persName>, who is sending off the
+                        <persName type="fict" subtype="int" ref="#Wheeler">labouring man</persName> with sirs and curtsies enough for a
+                    prince of the blood. Those are the
+                    <persName type="fict" subtype="int" ref="#Curate">curate</persName>'s lodgings—apartments
+                    his <rs type="person" ref="#WheelersWife">landlady</rs> would call them: he lives with <orgName type="person">his
+                        own family</orgName> four miles off, but once or twice a week he comes to
+                    his neat little parlour to write sermons,
+                    to marry, or to bury, as the case may
+                    require. Never were better or kinder people than his <rs type="person" ref="#Wheeler">host</rs>
+                    and <rs type="person" ref="#WheelersWife">hostess</rs>: and there is a reflection of clerical
+                    importance about them, since their connection with the
+                    <orgName ref="#church">Church</orgName>, which is quite edifying—a decorum, a gravity, a
+                    solemn politeness. Oh, to see the worthy <persName ref="#Wheeler">wheeler</persName> carry the
+                    gown after his <rs type="person" ref="#Curate">lodger</rs> on a Sunday, nicely pinned up in his
+                        <rs type="person" ref="#WheelersWife">wife's</rs> best handkerchief!—or to hear him rebuke a
+                    squalling <rs type="person" subtype="fict">child</rs> or a squabbling <rs type="person" subtype="fict">woman</rs>!
+                    The <persName ref="#Curate">curate</persName> is nothing to him. He is fit to be perpetual
+                    churchwarden.</p><pb n="11"/><p>We must now cross the <placeName type="geog">lane</placeName> into the shady <placeName type="geog">rope-walk</placeName>. That
+                        pretty white cottage opposite, which stands
+                    straggling at the end of the <placeName ref="#ThreeMileCross">village</placeName> in a
+                    <placeName type="land">garden</placeName> full of <rs type="plant">flowers</rs>, belongs
+                    to our <persName type="fict" subtype="int" ref="#Mason">mason</persName>, the <rs type="person" ref="#Mason">shortest of men</rs>, and his
+                    handsome, tall <persName type="fict" subtype="int" ref="#MasonsWife">wife</persName>: he, a <rs type="person" ref="#Mason">dwarf, with the voice of a giant</rs>; one
+                    starts when he begins to talk as if he were shouting through a speaking trumpet;
+                    she, the <rs type="person" ref="MasonsWife">sister,
+                    daughter, and grand-daughter, of a
+                    long line of <orgName type="person" ref="OVGardeners">gardeners</orgName>, and no contemptible one herself</rs>. It
+                    is very magnanimous in me not to hate her; for she beats me in my own way, in
+                    <rs type="plant" ref="#chrysanthemum">chrysanthemums,</rs> and <rs type="plant" ref="#dahlia">dahlias</rs>, and
+                    the like gauds. Her <rs type="plant">plants</rs> are sure to live; mine have a
+                    sad trick of dying, perhaps because I love them, <quote>"not wisely, but too
+                        well,"</quote><!--scw: FOR EDITOR'S NOTE: These lines are spoken by Othello in Shakespeare's Othello, Act V, scene 2: "...When you shall these unlucky deeds relate, speak of me as I am; nothing extenuate, / Nor set down aught in malice: then you must speak of one that loved not wisely but too well;"--> and kill them with over-kindness. Half-way up the
+                    <placeName type="land">hill</placeName> is another <placeName type="arch">detached cottage</placeName>, the residence of an
+                    <persName type="fict" subtype="int" ref="#Officer">officer</persName>, and his beautiful <orgName type="person">family</orgName>.
+                    That <persName type="fict" subtype="int" ref="#OfficersEldestSon">eldest boy</persName>, who is hanging over the gate, and looking
+                    with such intense childish admiration at my <persName ref="#Lizzy">Lizzy</persName>, might be
+                    a model for a <persName type="myth" subtype="ext" ref="#Cupid">Cupid</persName>.</p><p>How pleasantly the road winds up the <placeName type="land">hill,</placeName> with its broad
+                        green borders and <rs type="plant" ref="#hedge_row">hedge-rows</rs> so
+                    thickly timbered! How finely the evening sun falls on that sandy
+                        excavated <placeName type="land">bank</placeName>, and touches the 
+                            farm-house on the top of the <placeName type="land">eminence</placeName>! and how
+                    clearly defined and relieved is the figure of the <persName type="fict" subtype="int" ref="#JohnEvans">man</persName> who
+                    is just coming down! It is poor <persName ref="#JohnEvans">John Evans</persName>, the
+                        gardener—an excellent gardener till about ten years
+                    ago, when he lost his <persName type="fict" subtype="int" ref="#JohnEvansWife">wife</persName>, and became<pb n="12"/> insane.
+                    He was sent to <orgName ref="#St_Lukes_Hospital">St. Luke's</orgName>, and dismissed as cured; but his
+                    power was gone and his strength; he could no longer manage a garden, nor submit
+                    to the restraint, nor encounter the fatigue of regular employment; so he
+                    retreated to the <orgName ref="#workhouse">workhouse</orgName>, the pensioner and factotum of the
+                    village, amongst whom he divides his services. His mind often wanders, intent on
+                    some fantastic and impracticable plan, and lost to present objects; but he is
+                    perfectly harmless, and full of a child-like simplicity, a smiling
+                    contentedness, a most touching gratitude. Every one is kind to <persName ref="#JohnEvans">John
+                        Evans</persName>, for there is that about him which must be loved; and his
+                    unprotectedness, his utter defencelessness, have an irresistible claim on every
+                    better feeling. I know nobody who inspires so deep and tender a pity; he
+                    improves all aroud him. He is useful, too, to the extent of his little power;
+                    will do any thing, but loves gardening best, and still
+                    piques himself on his old arts of pruning
+                    fruit-trees, and raising <rs type="plant" ref="#cucumber">cucumbers</rs>.
+                    He is the happiest of men just now, for he has the management of a
+                      melon bed—a melon bed!—fie! What a
+                    grand pompous name was that for three <rs type="plant">melon plants</rs> under a
+                    hand-light! <persName ref="#JohnEvans">John Evans</persName> is sure that they will succeed. We
+                    shall see: as the <persName>chancellor</persName> said, <quote>"I
+                        doubt."</quote><!--scw: Have not been able to identify this quote.--></p><p> We are now on the very brow of the <placeName type="land">eminence</placeName>, close to the
+                            <placeName type="arch">Hill-house</placeName> and <placeName type="land">its
+                                beautiful garden</placeName>. On the outer edge of the
+                    paling, hanging over the <placeName type="land">bank</placeName>
+                    that<pb n="13"/> skirts the <placeName type="geog">road</placeName>, is an old <rs type="plant" ref="#thorn">thorn</rs>—such
+                    a <rs type="plant" ref="#thorn">thorn</rs>! The long sprays covered with snowy
+                    blossoms, so graceful, so elegant, so lightsome, and
+                    yet so rich! There only wants a pool under the <rs type="plant" ref="#thorn">thorn</rs> to give a still lovelier reflection, quivering and
+                    trembling, like a tuft of feathers, whiter and greener than the life, and more
+                    prettily mixed with the bright blue sky. There should indeed be a
+                    pool; but on the dark <placeName type="land">grass-plat</placeName>,
+                    under the high <placeName type="land">bank</placeName>, which is crowned by that
+                        magnificent plume, there is something that does almost as
+                        well,—<persName ref="#Lizzy">Lizzy</persName> and <persName ref="#May-flower">May-flower</persName> in the
+                    midst of a game at romps, <quote>"making a sun-shine in the shady
+                        place,"</quote><persName ref="Lizzy">Lizzy</persName> rolling, laughing, clapping her hands, and glowing
+                    like a <rs type="plant" ref="#rose">rose</rs>;
+                    <persName ref="#May-flower">May-flower</persName> playing about her like summer lightning,
+                    dazzling the eyes with her sudden turns, her leaps, her bounds, her attacks and
+                    her escapes. She darts round the lovely little <rs type="person" ref="#Lizzy">girl</rs>, with
+                    the same momentary touch that the swallow skims over the
+                    water, and has exactly the same power of flight, the same matchless ease and
+                    strength and grace. What a pretty picture they would make; what a pretty
+                    foreground they do make to the real landscape! The road winding down the
+                        <placeName type="land">hill</placeName> with a slight bend, like that in the
+                    <placeName type="geog" ref="#Oxford_High-street">High-street at <placeName type="geog" ref="#Oxford">Oxford</placeName></placeName>; a
+                     waggon slowly ascending, and a
+                        <rs type="person">horseman</rs> passing it at a full trot—(ah!
+                    <persName ref="#Lizzy">Lizzy</persName>,
+                    <persName ref="#May-flower">May-flower</persName> will certainly desert you to have a gambol with
+                    that blood-horse!) half-way down, just at the turn, the
+                        red cottage of the <pb n="14"/><persName type="fict" subtype="int" ref="#Lieutenant">lieutenant</persName>, covered with <rs type="plant" ref="#vine">vines</rs>,
+                    the very image of comfort and content; farther down, on the opposite side, the
+                        small white dwelling of the little
+                    <persName ref="#Mason">mason</persName>; then the <rs type="plant" ref="#lime_tree">limes</rs> and the
+                    <placeName type="geog">rope-walk</placeName>; then the <placeName type="geog">village
+                        street</placeName>, peeping through the <rs type="plant">trees</rs>, whose
+                    clustering tops hide all but the chimneys, and various roofs of the houses, and
+                    here and there some angle of a wall: farther on, the elegant town of
+                    <placeName>B——</placeName>, with its fine old
+                    church-towers and spires; the whole view shut in by a range of
+                    <placeName type="land">chalky hills</placeName>; and over every part of the picture, <rs type="plant">trees</rs> so profusely scattered, that it appears like a
+                    woodland scene, with <placeName type="land">glades</placeName> and
+                        <rs type="place">villages</rs> intermixed. The <rs type="plant">trees</rs>
+                    are of all kinds and all hues, chiefly the finely-shaped <rs type="plant" ref="#elm_tree">elm</rs>, of so deep and bright a green, the tips of whose high outer
+                    branches drop down with such a crisp and garland-like richness, and the <rs type="plant" ref="#oak_tree">oak</rs>, whose stately form is just now so splendidly adorned
+                    by the sunny colouring of the young leaves. Turning again up the
+                    <placeName type="land">hill</placeName>, we find ourselves on that peculiar charm of
+                    English scenery, a green <placeName type="land">common</placeName>, divided by the road; the
+                    right side fringed by <rs type="plant" ref="#hedge_row">hedge-rows</rs> and <rs type="plant">trees</rs>, with cottages and 
+                        farm-houses irregularly placed, and terminated by a <placeName type="land">double avenue of
+                            noble <rs type="plant" ref="#oak_tree">oaks</rs></placeName>; the left, prettier still, dappled by bright
+                    <placeName type="land">pools of water</placeName>, and islands of 
+                    <placeName type="arch">cottages</placeName> and <placeName type="land">cottage-gardens</placeName>, and sinking
+                    gradually down to <placeName type="land">corn-fields</placeName> and
+                    <placeName type="land">meadows</placeName>, and an old
+                        farm-house, with pointed roofs and clustered chimneys, looking out<pb n="15"/>from its blooming orchard, and backed by
+                    <placeName type="land">woody hills</placeName>. The <placeName type="land">common</placeName> is itself
+                    the prettiest part of the prospect; half covered with low <rs type="plant" ref="#furze">furze</rs>, whose golden blossoms reflect so intensely the last beams of
+                    the setting sun, and alive with cows and 
+                        sheep, and two sets of <orgName type="person" ref="#OVCricketers">cricketers</orgName>: one
+                    of young men, surrounded with
+                    <orgName type="person">spectators</orgName>, some standing, some sitting, some stretched
+                    on the grass, all taking a delighted interest in the game;
+                    the other, a <orgName type="person" ref="#OVCountryBoys">merry groupe of little boys</orgName>, at a humble
+                    distance, for whom even cricket is scarcely lively enough, shouting,
+                    leaping, and enjoying themselves to their hearts' content. But
+                        <orgName type="person" ref="#OVCricketers">cricketers</orgName> and <orgName type="person" ref="#OVCountryBoys">country boys</orgName> are too
+                    important persons in our <placeName ref="#ThreeMileCross">village</placeName> to be talked of merely
+                    as figures in the landscape. They deserve an individual introduction—an essay to
+                    themselves—and they shall have it. No fear of forgetting the good-humoured faces
+                    that meet us in our walks every day.</p></div></body><back><div><listPerson type="hist"><!--ebb: 30 May 2014: added versions of these from the OVSI.xml file--><person xml:id="Queen_Caroline"/><person xml:id="Austen_Jane"/><person xml:id="White_Gilbert"/><person xml:id="Napoleon"/><person xml:id="Hogarth_William"/> <!--scw: 16 August 2014: Not found in main SI--><person xml:id="Dryden"/></listPerson><listPerson type="fict" subtype="int"><!--ebb: added as stubs to main site index.--><person xml:id="RetiredPublican"/><person xml:id="RetiredPublicansWife"/><person xml:id="Blacksmith"/><!--scw:The blacksmith is also the Constable, so should he be listed as such in a note or listRelation?--><person xml:id="BlacksmithsWife"/><person xml:id="Shoemaker"/><person xml:id="ShoemakersWife"/><person xml:id="ShoemakersDaughter"/><person xml:id="BustlingDame"/><person xml:id="Shopkeeper"/><person xml:id="ShopkeepersWife"/><person xml:id="ShopkeepersLodger1"/><person xml:id="ShopkeepersLodger2"/><person xml:id="RoseInnLandlord"/><person xml:id="RoseInnLandlordsWife"/><person xml:id="RoseInnLandlordsSon"/><person xml:id="Phoebe"/><!--She is the RoseInnLandlords daughter, named--><person xml:id="WhimsicalPerson"/><!--I am not sure this is the best descriptor, I am using MRM's term--><person xml:id="RecruitingSerjeant"/><!--We may also find that some of these people are named later or described more fully as with the RetiredPublican who is MrH--><person xml:id="LizzysFather"/><person xml:id="LizzysMother"/><person xml:id="Lizzy"/><person xml:id="Mayflower"/><person xml:id="Officer"/><person xml:id="OfficersEldestSon"/><person xml:id="Mason"/><person xml:id="MasonsWife"/><person xml:id="Wheeler"/><person xml:id="WheelersWife"/><person xml:id="Curate"/><person xml:id="Lieutenant"/><person xml:id="JohnEvans"/><person xml:id="JohnEvansWife"/><person xml:id="OVNarrator"/></listPerson><listPerson type="fict" subtype="ext"><!--ebb: added as stubs to the site index.--><person xml:id="Robinson_Crusoe"/><person xml:id="Friday"/><person xml:id="Ferdinand"/><person xml:id="Miranda"/><person xml:id="Ariel"/><person xml:id="Prospero"/><person xml:id="Caliban"/><person xml:id="Serjeant_Kite"/> <!--scw: Aug 16, 2014: added today. Character from George Farquhar's The Recruiting Officer of 1703.-->
+               
+
+               <!--MANY OF THESE MAY HAVE XML:ID'S ALREADY. I NEED TO CHECK MORE CAREFULLY AGAINST SI FILE.--></listPerson><listPerson type="myth" subtype="ext"><!--ebb: added as stubs to the site index.--><person xml:id="Penelope"/><person xml:id="Cupid"/></listPerson><listPlace><!--ebb: added as stubs to the site index.--><place xml:id="ThreeMileCross"/><place xml:id="Vienna"/><place xml:id="Madrid"/><place xml:id="Berkshire"/><place xml:id="Europe"/><place xml:id="China"/><place xml:id="Selborne"/><place xml:id="Oxford"/><place xml:id="B--"/><place xml:id="S--"/>
+          <!--scw: place tags added to this file July 16, 2014: China and Oxford added.--><!-- scw: xml's added for B and S. These could be a couple of places.--></listPlace><listPlace type="fict" subtype="ext"><!--ebb: added as stubs to the site index.--><place xml:id="RobinsonCrusoesIsland"/><place xml:id="ProsperosIsland"/></listPlace><listPlace type="land">  <!--scw: I'm not sure if these need xml:id's and whether they need to be spatialized more within the ID.--><place xml:id="garden"/><place xml:id="common"/><place xml:id="fields"/><!--scw: problem of distinguising between plural and singular, general and specific--><place xml:id="coppices"/><place xml:id="eminence"/><place xml:id="hill"/><place xml:id="double_avenue_of_oaks"/><place xml:id="yew_arbour"/><place xml:id="pond"/><place xml:id="bank"/><place xml:id="grass-plat"/><place xml:id="chalky_hills"/><place xml:id="glades"/><place xml:id="pools_of_water"/><place xml:id="meadows"/><place xml:id="corn_fields"/><place xml:id="woody_hills"/></listPlace><listPlace type="arch"> <!--scw: some of these are specific houses, while others are general. Consider only tagging specifics?--><place xml:id="cottages"/><place xml:id="mansions"/><place xml:id="cottage_like_houses"/><place xml:id="officers_cottage"/><place xml:id="Hill_house"/><place xml:id="detached_cottage"/>
+                  <!--scw: note that not all houses are tagged in this text. They can be tagged or untagged later if necessary.--><listPlace type="geog"><place xml:id="lanes"/><place xml:id="street"/><place xml:id="cross_lane"/><place xml:id="rope_walk"/><place xml:id="road"/> <!--scw: the road that skirts the bank.--><place xml:id="village_street"/></listPlace></listPlace><listOrg><listOrg type="person"><org xml:id="OVBricklayers"/><org xml:id="OVCabinet_makers"/><org xml:id="OVCountryBoys"/><org xml:id="OVCricketers"/><org xml:id="journeymen_shoemakers"/><org xml:id="BlacksmithsChildren"/><org xml:id="OVCarpenters"/><org xml:id="BustlingDamesChildren"/><org xml:id="CuratesFamily"/><org xml:id="OVWorkmen"/><org xml:id="WheelersChildren"/><org xml:id="OVGardeners"/><org xml:id="OfficersFamily"/></listOrg><listOrg><org xml:id="shoemakers_shop"/><org xml:id="public_house"/><org xml:id="Rose_inn"/><org xml:id="village_shop"/><org xml:id="collar_makers_shop"/><org xml:id="wheelers_shop"/><org xml:id="church"/><org xml:id="St_Lukes_hospital"/><!--scw: for site Index: St.Luke's Hospital for Lunatics in London.--><org xml:id="workhouse"/><org xml:id="Shinfield"/></listOrg></listOrg><list type="plant"><item xml:id="stocks"/><item xml:id="clematis"/><item xml:id="rose"/><item xml:id="geranium"/><item xml:id="yew_tree"/><item xml:id="hollyhock"/><item xml:id="honeysuckle"/><item xml:id="apricot_tree"/><item xml:id="tulip"/><item xml:id="pink"/><item xml:id="larkspur"/><item xml:id="peony"/><item xml:id="carnation"/><item xml:id="privet"/><item xml:id="lime_tree"/><item xml:id="oak_tree"/><item xml:id="elm_tree"/><item xml:id="chrysanthemum"/><item xml:id="dahlia"/><item xml:id="hedge_row"/><item xml:id="cucumber"/><item xml:id="melon_plant"/><item xml:id="thorn"/><item xml:id="vine"/><item xml:id="furze"/></list><listBibl><bibl xml:id="Nat_Hist_Selborne"/><bibl xml:id="The_Recruiting_Serjeant"/><bibl xml:id="Odyssey"/></listBibl></div></back></text></TEI>

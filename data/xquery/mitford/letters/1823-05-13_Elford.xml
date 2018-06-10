@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="MRM1809">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, May 13, 1823</title> 
+                <author ref="#MRM">Mary Russell Mitford</author>
+                <editor ref="#bas">Brooke A. Stewart</editor> 
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <sponsor>Pittsburgh Supercomputing Center</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Date last checked: <date when="2016-12-31">2016-12-31</date><!--2016-12-31 bas: checked for completion, ready to be proofed.-->
+                        Proofing and corrections by</resp> 
+                    <persName ref="#Id_who"/>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2016-10-30">October 30, 2016</date>. P5.</edition> 
+                <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+                <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>13May1823SirWilliamElford4b#.JPG, 13May1823SirWilliamElford4a#.JPG, 13May1823SirWilliamElford3a#.JPG, 13May1823SirWilliamElford3b#.JPG, 13May1823SirWilliamElford2b#.JPG, 13May1823SirWilliamElford2a#.JPG, 13May1823SirWilliamElford1b#.JPG, 13May1823SirWilliamElford1a#.JPG</idno></resp></respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.</p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier> 
+                        <repository ref="#ReadingCL">Reading Central Library</repository>
+                        <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                        <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 472</idno>
+                    </msIdentifier>
+                    <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1823-05-13">1823 May 13</date>.   
+                    </head> 
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> <p>One quarto sheet of <material>paper</material> folded in half to form two octavo pages, which comprise pages 1-4 of the letter. The fourth page exposes the address with the end of the letter written along three sides and has been folded in sixths. The third page has a slight rip where the wax seal was attached. </p> 
+                                    <p>Address leaf bearing the following postmarks: 
+                                        1) Red double-circle duty stamp reading 
+                                        <date when="1823-05-15"><stamp>
+                                            B<lb/>
+                                            <date>15 MY 15</date>
+                                            <date>1823</date>
+                                        </stamp></date>
+                                        
+                                    </p> 
+                                    <p>A large 7 denoting the posting fee has been written in black ink by the postal service across the address leaf.</p>
+                                </support>
+                                <condition>
+                                    <p>Sheet torn on right edge of page three where wax seal was removed.</p> 
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <p>Red wax seal, complete, adhered to page four.</p> 
+                        </sealDesc> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of the second and third leaves. On leaf four, a red line is drawn from top left to bottom right across each of the three text blocks. There is no red crayon across the address text block.</handNote>
+                <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "10" in the top left of the first leaf.
+                </handNote>
+                <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, the annotator written and underlined "To Sir William Elford" on the top of the first leaf.</handNote>
+            </handNotes>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+                <change when="2018-01-22" who="#bas">Removed line break elements from the address.</change>
+                <change when="2016-12-31" who="#bas">Checked for completion, ready to be proofed.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="13May1823SirWilliamElford1a#.JPG"/>
+                <opener> 
+                    <add hand="#penAnnot_RCL"><emph rend="underline">To Sir William Elford</emph></add> 
+                    <dateline>
+                        <name type="place" ref="#ThreeMileCross">Three Mile Cross</name> 
+                        <date when="1823-05-13">May 13<hi rend="superscript">th</hi> 1823</date>. 
+                    </dateline>
+                </opener>
+                
+                <p>The kind interest which you are so good as to take in me, my dear &amp; true friend, is a great consolation and solace--your letter of today was especially delightful to me--&amp; a conversation with you would be more gratifying still--but I am not going to Town--not likely to be there for many months--I have suffered so much in my journeys--or rather my visits there this spring as almost to wish that I <damage agent="smudge" unit="word" quantity="1"/><unclear><supplied resp="#bas">may</supplied></unclear> never be called thither again. Unless by a narration of some hours I could hardly make you comprehend that <persName ref="#Kemble_C">Charles Kemble</persName> though so violently the enemy of <persName ref="#Macready_Wm">Mr. Macready</persName> (&amp; of <title ref="#Julian_MRMplay">Julian</title> from that enmity) is yet on the whole not intentionally mine--He even wishes very well to the <rs type="person" ref="#MRM">Authoress</rs> of his darling play <title ref="#Foscari_MRMplay">The Foscari</title>--In short it is a complete war of the two parties--<del rend="squiggles"><gap quantity="1" unit="word"/></del>the two plays have been taken up each from motives of selfishness &amp; vanity, &amp; I am the sacrifice. That <persName ref="#Macready_Wm">Macready</persName> likes me I know--so does his sister-- but I have perhaps suffered even more from their injustice &amp; prejudice &amp; jealousy than from the coarser attacks of the <persName ref="#Kemble_family #Kemble_C">Kembles</persName>. In short it is my devoutest wish to be able to do without them &amp; I would labour night &amp; day at any vocation that should free me from the Theatre--from being alternately the idol &amp; the slave of that most fascinating &amp; accom     
+                    <pb n="2" facs="13May1823SirWilliamElford2b#.JPG"/>plished but most tormenting of men <persName ref="#Macready_Wm">William Macready</persName>--who had power over me because I have a real regard for his splendid qualities &amp; a sincere gratitude for his unbounded zeal, but whose temper makes that power a perpetual source of misery to himself &amp; to me. Do not misunderstand me--our <choice><sic>connexion</sic><reg resp="#bas">connection</reg></choice> is merely that of Actor &amp; Author--but this literacy jealousy, his suspicion, &amp; mistrust, have really the character of passion. And yet he is a most ardent &amp;<del rend="squiggles"><gap quantity="1" unit="word"/></del> devoted friend &amp; it seems ungrateful in me to say so much even to you--with whom of course it will remain sacred. Do not show this letter to <choice><sic>any one</sic><reg resp="#bas">anyone</reg></choice>. I have still <title ref="#Foscari_MRMplay">The Foscari</title> in <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName>, &amp; if <persName ref="#Young_CM">Mr. Young</persName> be engaged there next year it will be brought out--but if <persName ref="#Kemble_C">Charles Kemble</persName> calls<del rend="squiggles"><gap quantity="1" unit="word"/></del> on <persName ref="#Macready_Wm">Macready</persName> to play The <persName ref="#Doge_F">Doge</persName> I have pledged myself to M. <note resp="#bas #ebb">Here, Mitford is likely referring to <persName ref="#Macready_Wm">Macready</persName> as "M." and she has promised him to withdraw the play if <persName ref="#Kemble_C">Charles Kemble</persName> insists that he (Macready) play the old Doge instead of Foscari. The two actors had been at odds for some time over which would play the role of Foscari. The feud is mentioned in Mitford's <rs type="letter" ref="#MRM0264">letter to Talfourd</rs> on <date when="1822-11-20">November 20, 1822</date>. It is later noted in Mitford's journal on <date when="1823-02-11">February 11, 1823</date> that she had heard from <persName ref="#Talfourd_Thos">Talfourd</persName> that <persName ref="#Macready_Wm">Macready</persName> would indeed refuse to play the Doge.</note><!-- bas: Foscari vs. Doge? -->to withdraw it--that is if I can, for <persName ref="#Kemble_C">Charles Kemble</persName> is indignant <unclear reason="inkblot"><supplied resp="#bas">at</supplied></unclear> my thinking of such a thing.--I intend if <persName ref="#Macready_Wm">Macready</persName> remains in <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> (remember that this is most strictly confidential) to write a tragedy on a very grand historical subject (<persName ref="#Rienzo_hist">Rienzi</persName>. vide Gibbon Vol <add place="above"><metamark place="below" function="insertion" rend="caret"/>11 or</add> 12.) &amp; send it to him to bring out without a name--this will avoid the <title ref="#John_Bull" level="j">John Bull</title> attacking &amp; those which have been <unclear><supplied resp="#ebb">launched</supplied></unclear> against me merely as a woman--But this is a profound secret. I do this because all the higher Critics say that <title ref="#Julian_MRMplay">Julian</title> though murdered in the acting is full of dramatic power of vigour <del rend="squiggles">&amp;</del> vividness &amp; rapidity--&amp; if I can display these qualities in a great historical play &amp; it be only fairly<del rend="squiggles"><gap quantity="1" unit="word"/></del> performed it cannot fail. I think this well worthy of another trial--besides there is <persName ref="#Elliston_Robt">Elliston</persName> wanting <add place="above"><metamark place="below" function="insertion" rend="caret"/>my</add> plays--At
+                    <pb n="3" facs="13May1823SirWilliamElford3a#.JPG"/> the same time I go to <del rend="squiggles"><gap quantity="1" unit="word"/></del><add place="above">the work</add> as a victim to the Altar, so much do I dread the scenes which I know <add place="above"><metamark place="below" function="insertion" rend="caret"/>first or last</add> I must encounter--but it is my duty &amp; that settles all. You have yourself no notion how unfit I am for the terrible struggles amongst which I have been placed--<persName ref="#Macready_Wm">Macready</persName> says that my character is a complete counteraction to my genius--&amp; perhaps he is right--I literally <emph rend="underline">cannot</emph> scold &amp; squabble &amp; bargain &amp; hold out &amp; threaten as he would have m<gap reason="torn" unit="chars" quantity="1"/><unclear><supplied resp="#bas">e</supplied></unclear>--I can neither resist kindness--nor bear up under hard usage--&amp; this feebleness--this want of moral courage will not do for a Theatre. But I must try once again--It is my duty--There is no other way in which I have fair prospect of making so much money.--<persName>Mr. Davison</persName><note resp="#bas">This is possibly <persName>Thomas Davison</persName>, ultra-radical Regency London printer, publisher, and journalist. Mitford mentions him in her letter to <persName ref="#Talfourd_Thos">Talfourd</persName> on <date when="1823-04-24">April 24, 1823</date> regarding a possible strike until they received payment for their published works in the Lady's Magazine.</note> has taken to the <title ref="#Ladys_Mag" level="j">Lady's Magazine</title> &amp; promises if not<del rend="squiggles"><gap quantity="1" unit="word"/></del> <said who="#Davison_T">"indemnity for the past security for the future."</said> I told you I believe that the late <rs type="person" ref="#Hamilton_S">Editor</rs> had run away upwards of forty pounds in my debt--after having, chiefly by my Articles, <choice><sic>encreased</sic><reg resp="#bas">increased</reg></choice> the sale of the Magazine from 250 to 2,000.<note resp="#bas">This is probably referring to the number of subscribers or copies sold.</note> However I hope <persName>Mr. Davison</persName> will go on--for he is sure pay &amp; that sort of drudgery is Heaven when compared to <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>.--In the mean time there is one thing which to so old &amp; kind a friend I venture to mention--My <rs type="person" ref="#Mitford_Geo">Father</rs> has at last resolved, partly I believe instigated by the effect which the terrible feeling of responsibility, &amp; want of power <add place="above"><metamark place="below" function="insertion" rend="caret"/>has</add> had on my health &amp; spirits, to try if he can himself to obtain any employment which may lighten the burthen. He is, as you know, Active healthy &amp; intelligent, &amp; with a strong sense of duty &amp; of right--I am sure that he would fulfill to the utmost any change that might be confided to him--&amp; if it were one in which my mother or I could assist you may be assured that he
+                    <pb n="4" facs="13May1823SirWilliamElford4a#.JPG"/> would have zealous &amp; faithful coadjutor. For the Management of estates or any country affairs he is particularly well qualified--or any work of <choice><sic>superintendance</sic><reg resp="#bas">superintendence</reg></choice> which requires integrity &amp; attention--If you should hear of any such either in <placeName ref="#Devonshire">Devonshire</placeName> or elsewhere would you mention him? or at least let me know? The addition of 2 or even one hundred a year to our little income joined to what I am in a manner sure of gaining by mere industry would take a load from my heart of which I can scarcely give you an idea--It would be everything to me, for it would give me what for many months I have not had the full command of my own powers--Even <title ref="#Julian_MRMplay">Julian</title> was written under a pressure of anxiety which left me not a moments rest.--I am however at present quite recovered from the physical effects of this tormenting affair--&amp; have regained my flesh &amp; colour--&amp; almost my power of writing prose articles--&amp; if I could but recover my old hopefulness &amp; elasticity should be again such as I used to be in happier days--If I could but see my dear <rs type="person" ref="#Mitford_Geo">Father</rs> set<gap reason="covered" unit="chars" quantity="3"/><unclear><supplied resp="#bas">tle</supplied></unclear>d in my employment I know I should.--
+                </p>
+                <closer>
+            Very gratefully yours<lb/>
+            <persName ref="#MRM">M.R.<gap reason="torn" quantity="1" unit="chars"/><unclear><supplied resp="#bas">M.</supplied></unclear></persName> 
+                </closer> 
+                
+                <postscript><p>P.S. The Duke of Glo'ster <note resp="#bas">Contraction of <placeName>Gloucester</placeName>. The Duke of Gloucester and Edinburgh was a British royal title. The Duke during this time would have been <persName>Prince William Frederick</persName> (<date from="1776" to="1834">1776-1834</date>).</note> went once if not twice to see <title ref="#Julian_MRMplay">Julian</title> you know him I believe</p></postscript>
+                
+                <closer>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>Sir William Elford Bar<hi rend="superscript">t</hi></addrLine>
+                        <addrLine>32 Bury Street</addrLine>
+                        <addrLine>S<hi rend="superscript">t</hi> James's</addrLine>
+                        <addrLine><emph rend="underline">London</emph></addrLine>
+                    </address>
+                </closer> 
+            </div>
+        </body>
+        
+        <back>
+            <div>
+                <listPerson>
+                    <person xml:id="Davison_T">
+                        <persName>
+                            <surname>Davison</surname>
+                            <forename>Thomas</forename>
+                        </persName>
+                        <persName>Thomas Davidson</persName>
+                        <birth when="1794"/>
+                        <death when="1826"/>
+                        <note resp="#bas">Ultra-radical printer, publisher, and journalist in Regency London.</note>
+                        <!--"Davison, Thomas (1794 - 1826)" (2009). In Laurel Brake and Marysa Demoor (Editors), Dictionary of Nineteenth-Century Journalism in Great Britain and Ireland (p. 163). Gent and London: Academia Press and the British Library. ISBN 978-90-382-1340-8.-->
+                    </person>
+                </listPerson>
+            </div>
+        </back>
+    </text>
+</TEI>

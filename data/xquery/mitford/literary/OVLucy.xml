@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    
+    <teiHeader>
+        <fileDesc>
+            
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor>Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName>Samantha Webb</persName>
+                    <persName>Annie Gill</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title ref="#Lucy_OV">LUCY</title>.</head> 
+                <p>About a twelvemonth ago <orgName ref="#OVNarratorsFamily">we</orgName> had the misfortune to lose a very faithful and <rs type="person" ref="#Lucy_fict_OV">favourite female servant</rs>; one who has spoiled us for all others. Nobody can expect to meet with two <persName ref="#Lucy_OV_fict">Lucies</persName>. We all loved <persName ref="#Lucy_OV_fict">Lucy</persName>—poor <persName ref="#Lucy_OV_fict">Lucy</persName>! She did not die—she only married; but we were so sorry to part with her, that her wedding, which was kept at our house, was almost as tragical as a funeral; and from pure regret and affection we sum up her merits, and bemoan our loss, just as if she had really departed this life.<note resp="scw"><persName ref="#Hill_Lucy">Lucy Sweetser</persName>, on whom this character is based, married <persName ref="#Hill_Charles">Charles Hill</persName> on <date when="1820-08-07">August 7, 1820</date>.</note></p>
+                <p><persName ref="#Lucy_OV_fict">Lucy</persName>’s praise is a most fertile theme; she united the pleasant and amusing qualities of a French soubrette with the solid excellence of an Englishwoman of the old school, and was good by contraries. In the first place, she was exceedingly agreeable to look at; remarkably pretty. She lived in our family eleven years; but, having come to us very young, was still under thirty, just in full bloom, and a very brilliant bloom it was. Her figure was rather tall, and rather large,<pb n="59"/> with delicate hands and feet, and a remarkable ease and vigour in her motions: I never saw any woman walk so fast or so well. Her face was round and dimpled, with sparkling grey eyes, black eye-brows and eye-lashes, a profusion of dark hair, very red lips, very white teeth, and a complexion that entirely took away the look of vulgarity which the breadth and flatness of her face might otherwise have given. Such a complexion, so pure, so finely grained, so healthily fair, with such a sweet rosiness, brightening and varying like her dancing eyes whenever she spoke or smiled! When silent, she was almost pale; but, to confess the truth, she was not often silent. <persName ref="#Lucy_OV_fict">Lucy</persName> liked talking, and every body liked to hear her talk. There is always great freshness and originality in an uneducated and quick-witted person, who surprises one continually by unsuspected knowledge or amusing ignorance; and <persName ref="#Lucy_OV_fict">Lucy</persName> had a real talent for conversation. Her light and pleasant temper, her cleverness, her universal kindness, and the admirable address, or rather the excellent feeling, with which she contrived to unite the most perfect respect with the most cordial and affectionate interest, gave a singular charm to her prattle. No confidence or indulgence—and she was well tried with both—ever made her forget herself for a moment. All our friends used to loiter at the door or in the hall to speak to <persName ref="#Lucy_OV_fict">Lucy</persName>, and they miss her, and ask for her, as if she were really one<pb n="60"/> of the family. She was not less liked by her equals. Her constant simplicity and right-mindedness kept her always in her place with them as with us; and her gaiety and good-humour made her a most welcome visitor in every shop and cottage round. She had another qualification for village society—she was an incomparable gossip, had a rare genius for picking up news, and great liberality in its diffusion. Births, deaths, marriages, casualties, quarrels, battles, scandal—nothing came amiss to her. She could have furnished a weekly paper from her own stores of facts, without once resorting for assistance to the courts of law or the two houses of parliament. She was a very charitable reporter too; threw her own sunshine into the shady places, and would hope and doubt as long as either was possible. Her fertility of intelligence was wonderful; and so early! Her news had always the bloom on it: there was no being beforehand with <persName ref="#Lucy_OV_fict">Lucy</persName>. It was a little mortifying when one came prepared with something very recent and surprising, something that should have made her start with astonishment, to find her fully acquainted with the story, and able to furnish you with twenty particulars that you had never heard of. But this evil had its peculiar compensation. By <persName ref="#Lucy_OV_fict">Lucy</persName>’s aid I passed with every body, but <persName ref="#Lucy_OV_fict">Lucy</persName> herself, for a woman of great information, an excellent authority, an undoubted reference in all matters of gossipry. Now I<pb n="61"/> lag miserably behind the time; I never hear of a death till after the funeral, nor of a wedding till I read it in the papers; and, when people talk of reports and rumours, they undo me. I should be obliged to run away from the tea-tables, if I had not taken the resolution to look wise and say nothing, and live on my old reputation. Indeed, even now, <persName ref="#Lucy_OV_fict">Lucy</persName>’s fund is not entirely exhausted; things have not quite done happening. I know nothing new; but my knowledge of by-gone passages is absolute; I can prophesy past events like a gipsy.</p>
+                <p>Scattered amongst her great merits <persName ref="#Lucy_OV_fict">Lucy</persName> had a few small faults, as all persons should have. She had occasionally an aptness to take offence where none was intended, and then the whole house bore audible testimony to her displeasure: she used to scour through half-a-dozen doors in a minute for the mere purpose of banging them after her. She had rather more fears than were quite convenient of ghosts and witches, and thunder, and earwigs, and various other real and unreal sights and sounds, and thought nothing of rousing half <orgName ref="#OVNarratorsFamily">the family</orgName> in the middle of the night at the first symptom of a thunder-storm or an apparition. She had a terrible genius for music, and a tremendously powerful shrill high voice. Oh! her door-clapping was nothing to her singing! it rang through one’s head like the screams of a <rs type="animal" ref="#peacock">peacock</rs>. Lastly, she was a sad<pb n="62"/> flirt; she had about twenty lovers whilst she lived with us, probably more, but upwards of twenty she acknowledged. <rs type="person" ref="#OVNarratorsFather">Her master</rs>, who watched with great amusement this uninterrupted and intricate succession of favourites, had the habit of calling her by the name of the reigning beau—<soCalled><rs type="person" ref="#Lucy_OV_fict">Mrs. Charles</rs></soCalled>, <soCalled><rs type="person" ref="#Lucy_OV_fict">Mrs. John</rs></soCalled>, <soCalled><rs type="person" ref="#Lucy_OV_fict">Mrs. Robert</rs></soCalled>; so that she has answered in her time to as many masculine appellations as would serve to supply a large family with a <quote corresp="#HenryIVpt1_play">“commodity of good names.”</quote><note resp="#avg">This is from a line spoken by <persName ref="#Falstaff_WS">Falstaff</persName> in <title ref="#HenryIVpt1_play">Henry IV part 1</title>. In the context of the play, a "good names" means good reputations.</note> Once he departed from this custom, and called her “<persName ref="#Denison_Jenny_WS">Jenny Denison</persName>.” On her inquiring the reason, we showed her <quote>“<title ref="#Old_Mortality">Old Mortality</title>,”</quote> and asked if she could not guess. <said who="#Lucy_OV_fict">“Dear me,”</said> said she, <said who="#Lucy_OV_fict">“why <persName ref="#Denison_Jenny_WS">Jenny Denison</persName> had only two!”</said> Amongst <persName ref="#Lucy_OV_fict">Lucy</persName>’s twenty were <orgName ref="#Lucy_three_suitors_OV">three one-eyed lovers</orgName>, like the <orgName ref="#one_eyed_calendars">three one-eyed calendars</orgName><note resp="#avg">This is a reference the story "<title ref="#Porter_and_Three_Ladies">The Porter and the Three Ladies</title>." In this context, "calendar" is the term for "dervish," which is a Muslim friar that has taken a vow of poverty.</note> in the <quote>“<title ref="#Arabian_Tales">Arabian Nights</title>.”</quote> They were much about the same period, nearly contemporaries, and <rs type="person" ref="#Lucy_suitor_OV">one of them</rs> had almost carried off the fair <persName ref="#Helen_Troy">Helen</persName>. If he had had two eyes, his success would have been certain. She said yes and no, and yes again; he was <persName ref="#Lucy_suitor_OV">a very nice young man</persName>—but that one eye—that unlucky one eye!—and the being rallied on her <soCalled><orgName>three calendars</orgName></soCalled>. There was no getting over that one eye: she said no, once more, and stood firm. And yet the pendulum might have continued to vibrate many times longer, had it not been fixed by the athletic charms of a gigantic <persName ref="#LondonTailor_OV">London tailor</persName>, a superb man, really; black-haired,<pb n="63"/> black-eyed, six feet high, and large in proportion. He came to improve the country fashions, and fixed his shop-board in a cottage so near us that his garden was only divided from our lawn by a plantation full of <rs type="plant" ref="#acacia">acacias</rs> and <name type="plant" ref="#honeysuckle">honeysuckles</name>, where <quote>“the air smelt wooingly.”</quote><note resp="#scw">A slight misquotation, perhaps deliberate, from Shakespeare's <title ref="#Macbeth_play">Macbeth</title>, Act I, scene 6, line 6. The phrase is spoken by Banquo as he, King Duncan, and their men arrive at Macbeth's castle, expecting to be welcomed.</note> It followed of course that he should make love to <persName ref="#Lucy_OV_fict">Lucy</persName>, and that <persName ref="#Lucy_OV_fict">Lucy</persName> should listen. All was speedily settled; as soon as he should be established in a good business, which, from his incomparable talent at cutting out, nobody could doubt, they were to be married. But they had not calculated on the perversity of country taste; he was too good a workman; his suits fitted over well; his employers missed certain accustomed awkwardnesses and redundancies which passed for beauties; besides, the stiffness and tightness which distinguished the new coat of the <emph><foreign>ancien regime</foreign></emph>, were wanting in the make of the new. The shears of our <rs type="person" ref="#LondonTailor_OV"><placeName ref="#Bond_street">Bond-street</placeName></rs> cutter were as powerful as the wooden sword of Harlequin; he turned his clowns into gentlemen, and their brother clodhoppers laughed at them, and they were ashamed. So <persName ref="#LondonTailor_OV">the poor tailor</persName> lost his customers and his credit; and, just as he had obtained <persName ref="#Lucy_OV_fict">Lucy</persName>’s consent to the marriage, he walked off one fair morning, and was never heard of more. <persName ref="#Lucy_OV_fict">Lucy</persName>’s absorbing feeling on this catastrophe was astonishment, pure unmixed astonishment! One would have thought that she considered fickleness as a female privilege, and had<pb n="64"/> never heard of a man deserting a woman in her life. For three days she could only wonder; then came great indignation, and a little, a very little grief, which showed itself not so much in her words, which were chiefly such disclaimers as <said who="#Lucy_OV_fict">“I don’t care! very lucky! happy escape!”</said> and so on, as in her goings and doings, her aversion to the poor <rs type="plant" ref="#acacia">acacia</rs>grove, and even to the sight and smell of <rs type="plant" ref="#honeysuckle">honeysuckles</rs>, her total loss of memory, and, above all, in the distaste she showed to new conquests. She paid her <rs type="person" ref="#LondonTailor_OV">faithless suitor</rs> the compliment of remaining loverless for three weary months; and even when she relented a little, she admitted no fresh adorer, nothing but an <rs type="person" ref="#Lucy_suitor_OV">old hanger-on</rs>; one not quite discarded during the <persName ref="#LondonTailor_OV"><sic>taylor</sic></persName>’s reign; one who had dangled after her during the long courtship of the <soCalled><rs type="person" ref="#Lucy_three_suitors_OV">three calendars</rs></soCalled>; one who was the handiest and most complaisant of wooers, always ready to fill up an interval, like a book, which can be laid aside when company comes in, and resumed a month afterwards at the very page and line where the reader left off. I think it was an affair of convenience and amusement on both sides. <persName ref="#Lucy_OV_fict">Lucy</persName> never intended to marry this commodious <rs type="person" ref="#Lucy_suitor_OV">stopper of love-gaps</rs>; and he, though he courted her for ten mortal years, never made a direct offer, till after the banns were published between her and <rs type="person" ref="#Brown_Mr_OV">her present husband</rs>: then, indeed, he said he was sorry—he had hoped—was it too late? and so forth. Ah! his sorrow<pb n="65"/> was nothing to ours, and, when it came to the point, nothing to <persName ref="#Lucy_OV_fict">Lucy</persName>’s. She cried every day for a fortnight, and had not her successor in office, the <rs type="person" ref="#Harriet_ShopLodger_OV">new housemaid</rs>, arrived, I do really believe that <rs type="person" ref="#Brown_Mr_OV">this lover</rs><!--AVG: I'm not entirely sure if "this lover" refers to Mr. Brown or the one-eyed lover--><!--scw: As I read it, this refers to Mr. Brown--> would have shared the fate of the many successors to <persName ref="#LondonTailor_OV">the unfortunate tailor</persName>.</p>
+                <p>I hope that her choice has been fortunate; it is certainly very different from what we all expected. <rs type="person" ref="#Brown_Mr_OV">The happy man</rs> had been a neighbour, (not on the side of the <rs type="plant" ref="#acacia">acacia-trees</rs>,) and on his removal to a greater distance the marriage took place. Poor dear <persName ref="#Lucy_OV_fict">Lucy</persName>! her spouse is the greatest possible contrast to herself; ten years younger at the very least; well-looking, but with no expression good or bad—I don’t think he could smile, if he would—assuredly he never tries; well made, but as stiff as a poker; I dare say he never ran three yards in his life; perfectly steady, sober, honest, and industrious; but so young, so grave, so dull! one of your <quote>“demure boys,”</quote> as <persName ref="#Falstaff_WS">Falstaff</persName> calls them, <quote>“that never come to proof.”</quote><note resp="#avg">This is a quote from <persName ref="#Falstaff_WS">Falstaff</persName> in <title ref="#HenryIVpt2_play">Henry IV part 2</title>. The "demure boys that never come to proof" are proper young men who never amount to anything.</note> You might guess a mile off that he was a schoolmaster, from the swelling pomposity of gait, the solemn decorum of manner, the affectation of age and wisdom, which contrast so oddly with his young unmeaning face. The moment he speaks you are certain. Nobody but a village pedagogue ever did or ever could talk like <persName ref="#Brown_Mr_OV">Mr. Brown</persName>; ever displayed such elaborate politeness, such a study of<pb n="66"/> phrases, such choice words and long words, and fine words and hard words! He speaks by the book,—the spelling book, and is civil after the fashion of <title ref="#Polite_Letter_Writer">the Polite Letter-Writer</title>. He is so entirely without tact, that he does not in the least understand the impression produced by <rs type="person" ref="#Lucy_fict_OV">his wife</rs>’s delightful manners, and interrupts her perpetually to speechify and apologise, and explain and amend. He is fond of her, nevertheless, in his own cold, slow way, and proud of her, and grateful to her friends, and a very good kind of young man altogether; only that I cannot quite forgive him for taking <persName ref="#Lucy_OV_fict">Lucy</persName> away, in the first place, and making her a school-mistress in the second. She a school-mistress, a keeper of silence, a maintainer of discipline, a scolder, a punisher! Ah! she would rather be scolded herself; it would be a far lighter punishment. <persName ref="#Lucy_OV_fict">Lucy</persName> likes her vocation as little as I do. She has not the natural love of children, which would reconcile her to the evils they cause; and she has a real passion for cleanliness, a fiery spirit of despatch, which cannot endure the dust and litter created by the little troop on the one hand, or their tormenting slowness and stupidity on the other. She was the quickest and neatest of work-women, piqued herself on completing a shirt or a gown sooner and better than seemed possible, and was scandalized at finding such talents degraded to the ignoble occupations of tacking<pb n="67"/> a quarter of a yard of hemming for one, pinning half a seam for another, picking out the crooked stitching of a third, and working over the weak irregular burstout button-hole of a forth. When she first went to <placeName ref="#S_vil_OV">S——</placeName>,<!--scw: I'm not convinced an xml:id should go here, since MRM may use the same letter elsewhere to conceal a refer to a different location, and things may get confusing. Would like to discussion options. Silchester appears also in Bramley Maying, along with suggesions that Charles Hill?Mr Brown does as well. Would like to discuss how to indicate these connections w/o disrupting SI indexing.--> she was strongly tempted to do all the work herself. <said who="#Lucy_OV_fict">“The children would have liked it,”</said> said she, <said who="#Lucy_OV_fict">“and really I don’t think the mothers would have objected; they care for nothing but marking. There are seven girls now in the school working samplers to be framed. Such a waste of silk, and time, and trouble! I said to <persName ref="#Wilson_Hannah_OV">Mrs. Smith</persName>, and <persName ref="#Wilson_Hannah_OV">Mrs. Smith</persName><!--AVG: not sure if this is the right Mrs. Smith. This is the only Mrs. Smith that I am aware of in OV, but I'm not sure--><!--SCW, 5/4/17: It's a really good guess, and I'm inclined to think it's right. Hannah Wilson Smith is sort of "in the network." Let's leave as is till I can discuss with other editors.--> said to me.”</said>—Then she recounted the whole battle of the samplers, and her defeat; and then she sent for one which, in spite of her declaration that her girls never finished any thing, was quite completed (probably with a good deal of her assistance), and of which, notwithstanding her rational objection to its uselessness, <persName ref="#Lucy_OV_fict">Lucy</persName> was not little proud. She held it up with great delight, pointed out all the beauties, selected her own favourite parts, especially a certain square rose-bud, and the landscape at the bottom; and finally pinned it against the wall, to show the effect that it would have when framed. Really, that sampler was a superb thing in its way. First came a plain pink border; then a green border, zig-zag; then a crimson, wavy; then a brown, of a different and more complicated zig-zag; then the alphabet, great<pb n="68"/> and small, in every colour of the rainbow, followed by a row of figures, flanked on one side by a flower, name unknown, <rs type="plant" ref="#tulip">tulip</rs>, <rs type="plant" ref="#poppy">poppy</rs>, <rs type="plant" ref="#lily">lily</rs>,—something orange or scarlet, or orange-scarlet; on the other by the famous rose-bud; then diverse sentences, religious and moral:—<persName ref="#Lucy_OV_fict">Lucy</persName> was quite provoked with me for not being able to read them: I dare say she thought in her heart that I was as stupid as any of her scholars; but never was <abbr>MS.</abbr> so illegible, not even my own, as the print-work of that sampler—then, last and finest, the landscape, in all its glory. It occupied the whole narrow line at the bottom of the sampler, and was composed with great regularity. In the centre was a house of a bright scarlet, with yellow windows, a green door, and a blue roof; on one side, a man with a <rs type="animal" ref="#dog">dog</rs>; on the other, a woman with a <rs type="animal" ref="#cat">cat</rs>—this is <persName ref="#Lucy_OV_fict">Lucy</persName>’s information; I should never have guessed that there was any difference, except in colour, between the man and the woman, the <rs type="animal" ref="#dog">dog</rs> and the <rs type="animal" ref="#cat">cat</rs>; they were in form, height, and size, alike to a thread; the man grey, the woman pink, his attendant white, and her’s black. Next to these figures, on either side, rose two <rs type="plant" ref="#fir">fir trees</rs> from two red flower-pots, nice little round bushes of a bright green intermixed with brown stitches, which <persName ref="#Lucy_OV_fict">Lucy</persName> explained, not to me.—<said who="#OVNarrator">“Don’t you see the fir-cones, Sir? Don’t you remember how fond she used to be of picking them up in her<pb n="69"/> little basket at the dear old place? Poor thing, I thought of her all the time that I was working them! Don’t you like the fir-cones?”</said><!--AVG: I'm assuming this is the narrator. It could be Lucy--><!--scw: I think this is Lucy speaking to someone else-->—After this, I looked at the landscape almost as lovingly as <persName ref="#Lucy_OV_fict">Lucy</persName> herself.</p>
+                <p>With all her dislike to keeping school, the dear <persName ref="#Lucy_OV_fict">Lucy</persName> seems happy. In addition to the merciful spirit of
+                    conformity, which shapes the mind to the situation, whatever that may be, she
+                    has many sources of vanity and comfort—her house above all. It is a very
+                    respectable dwelling, finely placed on the edge of a large common, close to a
+                    high road, with a pretty flower-court before it, shaded by four <rs type="plant" ref="#chestnut">horse-chesnuts</rs> cut into arches, a sashed window on
+                    either side of the door, and on the door a brass knocker, which, being securely
+                    nailed down, serves as a quiet peaceable handle for all goers, instead of the
+                    importunate and noisy use for which it was designed. Jutting out at one end of
+                    the court is a small stable; retiring back at the other, a large school-room,
+                    and behind a yard for children, <rs type="animal" ref="#pig">pigs</rs>, and
+                    poultry, a garden, and an arbour. The inside is full of comfort; miraculously
+                    clean and orderly for a village school, and with a little touch of very
+                    allowable finery in the gay window-curtains, the cupboard full of pretty china,
+                    the handsome chairs, the bright mahogany table, the shining tea-urn, and
+                    brilliant tea-tray that decorate the parlour.<pb n="70"/> What a pleasure it is
+                    to see <persName ref="#Lucy_OV_fict">Lucy</persName> presiding in that parlour,
+                    in all the glory of her honest affection and her warm hospitality, making tea
+                    for the three guests whom she loves best in the world, vaunting with courteous
+                    pride her home-made bread and her fresh butter, yet thinking nothing good enough
+                    for the occasion; smiling and glowing, and looking the very image of beautiful
+                    happiness.—Such a moment almost consoles us for losing her.</p>
+                <p><persName ref="#Lucy_OV_fict">Lucy</persName>’s pleasure is in her house; mine is in its situation. The common on which it stands is one of a series of heathy hills, or rather a high table land, pierced in one part by a ravine of marshy ground, filled with <rs type="plant" ref="#alder">alder bushes</rs>, growing larger and larger as the valley widens, and at last mixing with the fine old <rs type="plant" ref="#oak">oaks</rs> of the <placeName>forest of P——</placeName><!--SCW: Probably Pamber. Maybe Penge. Leave for now-->. Nothing can be more delightful than to sit on the steep brow of the hill, amongst the fragrant heath flowers, the <rs type="plant" ref="#blue_bell">blue-bells</rs>, and the wild <rs type="plant" ref="#thyme">thyme</rs>, and look upon the sea of trees spreading out beneath us; the sluggish water just peeping from amid the <rs type="plant" ref="#alder">alders</rs>, giving brightly back the bright blue sky; and, farther down, herds of rough <rs type="plant" ref="#peony">ponies</rs>, and of small stunted <rs type="animal" ref="#cow">cows</rs>, the wealth of the poor, coming up from the forest. I have sometimes seen two hundred of these <rs type="animal" ref="#cow">cows</rs> together, each belonging to a different person, and distinguishing and obeying the call of its milker. All the boundaries of this heath<pb n="71"/> are beautiful. On one side is the hanging coppice, where the <rs type="plant" ref="#lily_valley">lily of the valley</rs> grows so plentifully amongst broken ridges and fox-earths, and the roots of <rs type="plant" ref="#pollard">pollard-trees</rs>. On another are the immense <rs type="plant" ref="#fir">fir</rs> plantations of <persName ref="#Brown_Mr_OV">Mr. B.</persName>, whose balmy odour hangs heavily in the air, or comes sailing on the breeze like smoke across the landscape. Farther on, beyond the pretty parsonage-house, with its short avenue, its fish-ponds, and the magnificent <rs type="plant" ref="#poplar">poplars</rs> which form a landmark for many miles round, rise the rock-like walls of the old <placeName>city of S——</placeName><!--SCW: This is Silchester, but hold off with an xml:id for now.-->, one of the most perfect Roman remains now existing in <placeName ref="#England">England</placeName>. The wall can be traced all round, rising sometimes to a height of twenty feet, over a deep narrow slip of meadow land, once the ditch, and still full of aquatic flowers. The ground within rises level with the top of the wall, which is of grey stone, crowned with the finest forest trees, whose roots seem interlaced with the old masonry, and covered with wreaths of <rs type="plant" ref="#ivy">ivy</rs>, <rs type="plant" ref="#brambles">brambles</rs>, and a hundred other trailing plants. Close by one of the openings, which mark the site of the gates, is a graduated terrace, called by antiquaries the <placeName ref="#Amphitheatre_Sil">Amphitheatre</placeName>, which commands a rich and extensive view, and is backed by the village church, and an old farm-house,—the sole buildings in that once populous city, whose streets are now traced only by the blighted and withered appearance of the ripening <name type="plant" ref="#corn">corn</name>. Roman coins and urns are<pb n="72"/> often ploughed up there, and it is a favourite haunt of the lovers of <quote>“hoar antiquity.”</quote><note resp="#scw">A phrase from <persName>Thomas Warton</persName>'s poem, <title>"Written on a Blank Leaf of Dugdale's Monasticon."</title></note> But the beauty of the place is independent even of its noble associations. The very heart expands in the deep verdure and perfect loneliness of that narrow winding valley, fenced on one side by steep coppices or its own tall irregular hedge, on the other by the venerable crag-like wall, whose proud coronet of trees, its jutting <rs type="plant" ref="#ivy">ivy</rs>, its huge twisted thorns, its briery festoons, and the deep caves where the <rs type="animal" ref="#rabbit">rabbits</rs> burrow, make the old bulwark seem no work of man, but a majestic piece of nature. As a picture it is exquisite. Nothing can be finer than the mixture of those varied greens so crisp and life-like, with the crumbling grey stone; nothing more perfectly in harmony with the solemn beauty of the place than the deep cooings of the <rs type="animal" ref="wood_pigeon">wood-pigeons</rs>, who abound in the walls. I know no pleasure so intense, so soothing, so apt to bring sweet tears into the eyes, or to awaken thoughts that <quote>“lie too deep for tears,”</quote><note resp="#avg">This quote is from <persName ref="#Wordsworth_Wm">Wordsworth</persName>'s <title ref="#Ode_Intimations">Ode: Intimations of Immortality from Recollections of Early Childhood</title>.</note> as a walk round the old city on a fine summer evening. A ride to <placeName ref="#S_vil_OV">S——</placeName> was always delightful to me, even before it became the residence of <persName ref="#Lucy_OV_fict">Lucy</persName>; it is now my prime festival.
+                <pb n="73"/></p>
+            </div>
+        </body>
+        <back>
+            <div> 
+                <list type="animals">
+                    <item xml:id="cat">
+                        <name ref="#cat">cat</name>
+                    </item>
+                    
+                    <item xml:id="rabbit">
+                        <name ref="#rabbit">rabbit</name>
+                    </item>
+                    
+                    <item xml:id="wood_pigeon">
+                        <name ref="#wood_pigeon">wood pigeon</name>
+                    </item>
+                </list>
+                
+                <list type="plant">
+                    <item xml:id="acacia">
+                        <name ref="#acacia">acacia</name>
+                    </item>
+                    
+                    <item xml:id="honeysuckle">
+                        <name ref="#honeysuckle">honeysuckle</name>
+                    </item>
+                    
+                    <item xml:id="poppy">
+                        <name ref="#poppy">poppy</name>
+                    </item>
+                    
+                    <item xml:id="lily">
+                        <name ref="#lily">lily</name>
+                    </item>
+                    
+                    <item xml:id="fir">
+                        <name ref="#fir">fir tree</name>
+                    </item>
+                    
+                    <item xml:id="alder">
+                        <name ref="#alder">alder</name>
+                    </item>
+                    
+                    <item xml:id="oak">
+                        <name ref="#oak">oak</name>
+                    </item>
+                    
+                    <item xml:id="blue_bell">
+                        <name ref="#blue_bell">blue bell</name>
+                    </item>
+                    
+                    <item xml:id="thyme">
+                        <name ref="#thyme">thyme</name>
+                    </item>
+                    
+                    <item xml:id="lily_valley">
+                        <name ref="#lily_valley">lily of the valley</name>
+                    </item>
+                    
+                    <item xml:id="pollard">
+                        <name ref="#pollard">pollard</name>
+                    </item>
+                    
+                    <item xml:id="poplar">
+                        <name ref="#poplar"/>
+                    </item>
+                    
+                    <item xml:id="ivy">
+                        <name ref="#ivy">ivy</name>
+                    </item>
+                    
+                    <item xml:id="bramble">
+                        <name ref="#bramble"/>
+                    </item>
+                </list>
+                
+                <listPerson>
+                    <person xml:id="Brown_Mr_OV" sex="1">
+                        <persName>
+                            <surname>Brown</surname>
+                            <forename>unidentified</forename>
+                        </persName>
+                        <note resp="#avg">Suitor and later husband of <persName ref="#Lucy_OV_fict">Lucy</persName>. The real life counterpart of this character is <persName ref="#Hill_Charles">Charles Hill</persName>, who married the real life <persName ref="#Hill_Lucy">Lucy Sweetser</persName>.</note>
+                    </person>
+                    
+                    <person xml:id="Helen_Troy" sex="2">
+                        <persName>Helen</persName>
+                        <persName>Helen of Troy</persName>
+                        <persName>Helen of Sparta</persName>
+                        <note resp="#avg">The Greek mythological queen whose abduction sparked the Trojan War. She is depicted in many literary works such as <title ref="#Iliad">The Iliad</title> and <title ref="#Odyssey">The Odyssey</title>. She is also the titular character in <bibl><author ref="#Euripides">Euripides</author>' play <title ref="#Helen_play">Helen</title></bibl>.</note>
+                    </person>
+                    
+                    <person xml:id="Lucy_fict_OV" sex="2">
+                        <persName ref="#Lucy_fict_OV">Lucy
+                            <surname>not given</surname>
+                            <forename>Lucy</forename><!--scw: I think we'd established a way of indicating this, but I forget what it is. Will check back through notes.-->
+                            <note resp="#scw">Title character of the <title ref="#Our_Village1st_ed">Our Village</title> story. Lucy is a beloved servant in the <persName ref="#OVNarrator">narrator</persName>'s household who leaves to get married. She appears in several stories, notably <title ref="#Hannah_OV">Hannah</title> and <title ref="#Visit_to_Lucy_OV">A Visit to Lucy</title>. She is based on <persName ref="#Hill_Lucy">Lucy Sweetser Hill</persName>, whose marriage to <persName ref="#Hill_Charles">Charles Hill</persName> in 1820 led to her move to <placeName ref="#Silchester">Silchester</placeName> to teach school.</note>
+                        </persName>
+                        
+                    </person>
+                    <person xml:id="LondonTailor_OV" sex="1">
+                        <persName>London tailor</persName>
+                        <note resp="#avg">One of <persName ref="#Lucy_OV_fict">Lucy</persName>'s more noteworthy lovers who appears in the <title ref="#OV">Our Village</title> story, <title ref="#Lucy_OV">Lucy</title>. He was not a part of the group of  <orgName ref="#Lucy_three_suitors_OV">three lovers</orgName>. A talented tailor, he left Lucy after she consented to marry him.</note>
+                    </person>
+                    
+                    <person xml:id="Lucy_suitor_OV" sex="1">
+                        <persName>not given</persName>
+                        <note resp="#avg">One of <persName ref="#Lucy_fict_OV">Lucy</persName>'s <orgName ref="#Lucy_three_suitors_OV">three "one-eyed" lovers</orgName>, the most prominent of the group, who courted her for ten years.</note>
+                    </person>
+                    
+                    <person xml:id="Warton_Thos">
+                        <persName ref="#Warton_Thos">Thomas Warton</persName>
+                    </person>
+                    
+                </listPerson>
+                
+                <listOrg>
+                    <org xml:id="Lucy_three_suitors_OV">
+                        <orgName>three one-eyed lovers</orgName>
+                        <orgName><soCalled>three calendars</soCalled></orgName>
+                        <note resp="#avg">Three "one-eyed" suitors of <persName ref="#Lucy_OV_fict">Lucy</persName>.</note>
+                    </org>
+                    
+                    <org xml:id="one_eyed_calendars">
+                        <orgName>three one-eyed calendars</orgName>
+                        <note resp="#avg">Characters from the <title ref="#Arabian_Tales">Arabian Nights</title> tale of <title ref="#Porter_and_Three_Ladies">The Porter and the Three Ladies</title>.</note>
+                    </org>
+                </listOrg>
+                
+             
+                <listPlace>
+                    <place xml:id="Bond_Street">
+                        <placeName>Bond Street</placeName>
+                        <location><geo/></location>
+                        <note resp="#scw">A fashionable shopping street in London.</note>
+                    </place>
+                    
+                    <place xml:id="Amphitheatre_Sil">
+                        <placeName ref="#Amphitheatre_Sil">Amphitheatre</placeName>
+                        <location><geo/></location>
+                        <note resp="#scw">Part of the Roman ruins in the town of Silchester.</note>
+                    </place>
+                    
+                    <place xml:id="S_vil_OV">
+                        <placeName ref="#S_vil_OV"/>
+                        <location><geo/></location>
+                        <note resp="#scw">Probably <placeName ref="#Silchester">Silchester</placeName>. Described in the <title ref="#OV">Our Village</title> story, <title ref="#Lucy_OV">Lucy</title> as a beautiful, Roman-walled town, and mentioned as the eventual residence of <persName ref="#Lucy_fict_OV">Lucy</persName> after her marriage. </note>
+                    </place>
+                    
+                    <place xml:id="Silchester">
+                        <placeName ref="#Silchester">Silchester</placeName>
+                        <location><geo/></location>
+                        <note resp="#scw">Village in <placeName ref="Hampshire_county">Hampshire</placeName>, nine miles from <placeName ref="#Reading_city">Reading</placeName>, known for its Roman ruins. It is featured in several stories in <title ref="#OV">Our Village</title>, sometimes by name, sometimes through the abbreviation <placeName ref="#S_vil_OV">S.</placeName></note>
+                    </place>
+                    
+                    <place xml:id="proposed_new_ID3">
+                        <placeName><!--best-known name of the place--></placeName>
+                        <placeName><!--alternate place name--></placeName>
+                        <location><geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo></location>
+                    </place>
+                </listPlace>
+                
+                <listBibl>
+                    <bibl xml:id="Porter_and_Three_Ladies">
+                        <title>The Porter and the Three Ladies</title>
+                        <date when="1706">1706</date>
+                        <note resp="#avg">A story from the first volume of <title ref="#Arabian_Tales">Arabian Nights</title>.</note>
+                    </bibl>
+                    
+                    <bibl xml:id="Polite_Letter_Writer">
+                        <title>The Polite Letter Writer</title>
+                        <note resp="#avg">A book published in the 1800s that detailed rules of composition and provided examples of different types of letters. More research needed.</note>
+                    </bibl>
+                    
+                    <bibl xml:id="Ode_Intimations">
+                        <title>Ode: Intimations of Immortality from Recollections of Early Childhood</title>
+                        <author ref="#Wordsworth_Wm">William Wordsworth</author>
+                        <date when="1807">1807</date>
+                        <note resp="#avg #scw">Originally published in <title>Poems, in Two Volumes</title>, Wordsworth's eleven-stanza irregular Pindaric ode explores questions of the soul, and the wisdom of childhood.</note>
+                    </bibl>
+                    
+                    <bibl xml:id="Poems_TwoVols">
+                        <title ref="#Poems_TwoVols">Poems in Two Volumes</title>
+                        <author>William Wordsworth</author>
+                    </bibl>
+                </listBibl>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1804">Letter to <persName ref="#Haydon">B.R. Haydon</persName>, <date when="1823-03-25" cert="high">1823 March 25</date></title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#err">Elizabeth Raisanen</editor>
+            <editor ref="#bas">Brooke A. Stewart</editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#xjw">Robin Xiong</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2017-01-02">2017-01-02</date>. Proofing and corrections by: <persName ref="#bas">Brooke A. Stewart</persName></resp><!-- 2017-01-02 bas: checked for completion -->
+               <resp>Date checked: <date when="2015-09-27">2015-09-27</date>. Proofing and corrections by: <persName ref="#lmw">Lisa M. Wilson</persName></resp> <!--LMW Proofed against ms. on 09-27-2015. Header information needs to be revised/added. -->
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>20March1823BRHaydon4b.JPG, 20March1823BRHaydon4a.JPG, 20March1823BRHaydon3b.JPG, 20March1823BRHaydon3a.JPG, 20March1823BRHaydon2b.JPG, 20March1823BRHaydon1b.JPG, 20March1823BRHaydon2a.JPG, 20March1823BRHaydon1a.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2014</date>
+            <availability>
+               <p>Reproduced by courtesy of the <placeName>The Reading Central
+                  Library</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#ReadingCL">The Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 466</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to B.R. Haydon, <date when="1823-03-25" cert="high">1823
+                  March 25</date>.</head>
+               
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>One quarto sheet of <material>paper</material> folded in half to form
+                              two octavo pages, which comprise three pages of the letter. The address 
+                              appears on the other side.</p>
+                           <p>There are two holes on page two, and 
+                           one of them obscures the word; there are one hole on page three that obscures the word
+                           On the up-right corner of the third page of the letter, the red wax obscures the word.</p>
+                           <p>Address leaf bearing the following postmarks:
+                              1)Sepia-inked oval Delivery stamp reading <stamp><time>EVEN</time><lb/>
+                              <date>26*MR</date><lb/>
+                              <date>1823</date></stamp>
+                           </p>
+                           <p>A large 3 has been written in black ink on the address leaf, denoting a charge of 3d.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal,complete, adhered to address leaf.</p>
+                  </sealDesc>
+               </physDesc>
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="pencil" medium="pencil">Someone, apparently other than Mitford
+               (perhaps cataloging the letters and describing them, or marking them up while
+               creating an earlier edition of Mitford's letters), left grey pencil marks and
+               numbered her letters now in the Reading Central Library's collection. This letter is
+               numbered "4" in the top left of the first leaf, underneath the opening line, "B.
+               R. Haydon E" The same pencil marks "<date when="1823-03-20">20 March 1823</date>" near "4".</handNote>
+            <handNote xml:id="rc" medium="red_crayon">Red crayon or thick red pencil. Probably a
+               different hand from Mitford's that marks many of her letters, sometimes drawing
+               diagonal lines across pages, and sometimes writing words overtop and perpendicularly
+               across Mitford's writing. On this letter, a red diagonal line is drawn from the top
+               left to the bottom right of pages 1, 2 and 3 of the manuscript.</handNote>
+            <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, the name "B. R. Haydon E" is written on the top left of the first page.
+            </handNote>
+         </handNotes>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2017-01-02" who="#bas">Checked for completion.</change>
+         <change when="2015-09-27" who="#lmw">Proofed against ms. Header information needs to be revised/added.</change>
+      </revisionDesc>
+      
+   </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="20March1823BRHaydon1a.JPG"/>
+            <opener>
+               <add hand="#pennAnnot"><persName ref="#Haydon">B.R. Haydon E</persName></add>
+               <dateline> <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> <date>Tuesday</date><add><handShift resp="pencil"/><note resp="#pencil">4<lb/><date when="1823-03-20">20 March 1823</date></note></add><note resp="#bas #ebb">Having checked a perpetual calendar, we found that the date recorded by the cataloguer of <date when="1823-03-20">20 March 1823</date> was a Thursday. The postmark clearly reads 26 MR, a Wednesday. By consulting the theatre reviews referenced in this letter, <title level="j">The John Bull</title> and <title level="j">The Examiner</title>, we have concluded that this letter was written on <date when="1823-03-25">25 March 1823</date>. The first <title level="j">John Bull</title> article to mention <title level="m">Julian</title> was published on <date when="1823-03-24">24 March 1823</date>, and <title level="j">The Examiner</title> on <date when="1823-03-23">23 March 1823</date>, making it impossible for the letter to be written on 20 March 1823.</note><handShift resp="#MRM"/>
+               </dateline>
+               <salute>My dear Sir</salute>
+            </opener>
+            
+         <p>I am sending a frank to <persName ref="#Hofland_B">Mrs. Hofland</persName> &amp; I cannot help enclosing a note to you to ask if the report in the papers be true that <title corresp="#Lazarus_Haydon">Lazarus</title> is sold? I hope it is so--I hope so so earnestly that I can hardly believe it.</p>
+            <p>Did I tell you that I had had an application from <persName ref="#Elliston_Robt">Mr. Elliston</persName> for <title ref="#Foscari_MRMplay">Foscari</title>? which under <persName ref="#Macready_Wm">Mr. Macready</persName>'s advice I declined. But the application was flattering--&amp; I trust that under all the disadvantage of the execrable acting a great impression has been made by <title ref="#Julian_MRMplay">Julian</title>--to have withstood such acting for four nights is something--Is it not?--&amp; if we go on in the Easter week I shall <pb n="2" facs="20March1823BRHaydon2b.JPG"/> have hopes--&amp; if we do not I shall not despond--for much <emph rend="underline">has</emph> been done of that I am confident. The article in the <title ref="#John_Bull">John Bull</title> was what I expected--but that in <title ref="#Examiner">The Examiner</title> was worse in my mind--Could not you do any thing to procure a short &amp; more favorable notice against next Sunday? I ask you just as I would ask a brother--I wish with all my heart that any one would write an exposure of that slang of criticism <q>"Melodramatic"</q>--I am sure, as <persName ref="#Macready_Wm">Mr. Macready</persName> says, that if any one of the Greek Dramas or <add place="above"> <metamark place="below" function="insertion" rend="caret"/>even</add> <persName ref="#Shakespeare">Shakespeare</persName>'s stronger plays, or any thing that is effective were to be produced now, it would be assailed by that word.--By the way <persName ref="#Macready_Wm">Mr. Macready</persName> and his <persName>Sister</persName> have <pb n="3" facs="20March1823BRHaydon3b.JPG"/> been kind to me beyond all k<gap reason="torn" quantity="3" unit="chars"/><unclear><supplied resp="#lmw">ind</supplied></unclear>ness. They are delightful people.</p>
+         <p>Will you say every thing for me to your lovely wife--&amp; my kind friends <persName ref="#Bewick_Wm">Mr. Bewick</persName> &amp; <persName ref="#Chatfield_Mr">Mr. Chatfield</persName>? Shall I send you some orders for the Fifth night?<note resp="#bas">Mitford is probably referring to the fifth night of production of her play, <title level="m">Julian</title>, at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>. An article in the <title level="j">Morning Post</title> lists the fifth night of production as <date when="1823-04-02">02 April 1823</date>.</note>--And pray try what you can do with <title ref="#Examiner">The Examiner</title>.--Ever my dear Sir </p>
+            
+            <closer>
+               <lb/>Most gratefully <choice><sic>your's</sic><reg resp="#lmw">yours</reg></choice><lb/>
+              <signed><persName ref="#MRM"/>M. R. Mitford.</signed> <lb/>
+               <address>
+               <addrLine>To <persName ref="#Haydon">B. R. Haydon. Esq<hi rend="superscript">re</hi></persName></addrLine>
+                  <addrLine><placeName ref="#StJohns_Place">S<hi rend="superscript">t</hi> John's Place </placeName></addrLine>
+                  <addrLine><placeName ref="#Lisson_Grove">Lisson Grove </placeName>North</addrLine>
+                  <addrLine><placeName ref="#Regents_Park">Regent's Park</placeName></addrLine>
+               </address>
+             </closer>
+          
+            <postscript><p>Kind regards from <persName ref="#Mitford_Geo">Papa</persName> &amp; <persName ref="#Russell_M">Mama</persName>.</p></postscript>
+       
+         </div>
+      </body>
+     <back>
+        <div type="historical_people">
+           <listPerson type="hist">
+              <person xml:id="Bewick_Wm" sex="1">
+                 <persName>William Bewick</persName>
+                 <persName>
+                    <forename>William</forename>
+                    <surname>Bewick</surname>
+                 </persName>
+                 <birth when="1795-10-20">
+                    <placeName>Danlington, county Durham</placeName>
+                 </birth>
+                 <death when="1866-06-08">
+                    <placeName>Haughton-le-Skerne, county Durham</placeName>
+                 </death>
+                 <occupation>portrait and history painter</occupation>
+                 <note type="bio" resp="#xjw">He was the pupil of <persName ref="#Haydon">Benjamin Robert Haydon</persName> with whom he remained for about three years. At Haydon's studio he met many famous men of the day, including <persName ref="#Wordsworth_Wm">Wordsworth</persName>, <persName ref="#Hazlitt_Wm">Hazlitt</persName>, and <persName ref="#Keats">Keats</persName>. He worked hard under <persName ref="#Haydon">Haydon</persName>'s influence, and besides working in his master's studio attended the <orgName>Royal Academy</orgName> Schools, and the dissecting teams of the physiologist and surgeon <persName>Sir Charles Bell</persName>. When he died, he was a substantial property owner in the village. His portrait work is extensively represented in the National Portrait Gallery and the British Museum, London, and the Scottish National Portrait Gallery, <placeName ref="#Edinburgh">Edinburgh</placeName>. Bewick was not a member of the family of <persName>Thomas Bewich</persName>, the engraver, as is sometimes believed.</note>
+              </person>
+              <person xml:id="Chatfield_Mr" sex="1">
+                 <persName>Edward Chatfield</persName>
+                 <persName>
+                    <forename>Edward</forename>
+                    <surname>Chatfield</surname>
+                 </persName>
+                 <birth when="1800"/>
+                 <death when="1839-01-22">
+                    <placeName ref="#London_city">66 Judd Street Brunswick Square, London</placeName>
+                 </death>
+                 <occupation>painter and author</occupation>
+                 <note type="bio" resp="#xjw">Chatfield was a pupil at an early age, by 1816, along with <persName>William Bewick</persName>, of <persName ref="#Haydon">Benjamin Robert Haydon</persName> who was to have an overmastering influence on his life. Under <persName ref="#Haydon">Haydon</persName>'s teaching he went through a full course of practical anatomy. He began his artistic career with some portrait studies. In 1821 he started upon his first ambitious picture, The Death of Moses in Sight of the Promised Land. This was exhibited in January 1823 at the British Institution and was well received by the public, and gained warm commendation by <persName ref="#Haydon">Haydon</persName>. In June 1823 <persName ref="#Haydon">Haydon</persName> was arrested for debt, and his effects sold. Some of his pupils had put their names to bills at his request, and suffered considerable pecuniary loss. Chatfield was among the number, but was fortunately able to provide the amount due (£210), and, though impoverished, did not begrudge <persName ref="#Haydon">Haydon</persName> the loss and remained loyal to his master, whose instruction had always been given gratis. Thrown on his own resources, Chatfield was compelled to supplement his slender income by portrait painting. Among his sitters were several members of the Russell family (the duke of Bedford's family).</note>
+              </person>
+              
+              <person xml:id="Macready_Laetitia" sex="2"> 
+                 <persName>Laetitia Macready</persName>
+                 <persName>
+                    <surname>Macready</surname>
+                    <forename>Laetitia</forename>
+                 </persName>
+                 <note type="bio" resp="#xjw"><persName ref="#Macready_Wm">William Charles Macready</persName>'s sister who live with him and his wife throughout their married life. </note>
+              </person>
+           </listPerson>
+        </div>
+     </back>
+  </text>
+</TEI>

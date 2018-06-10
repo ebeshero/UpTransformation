@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>  --> 
+    <teiHeader>
+        <fileDesc>
+            
+            <!--MAH: June 20th::seems to be part of the earlier piece “Walks in the Country” with “Frost” and “Thaw,” though there are pieces between them. So not sure how we want to show that, as noted before in other pieces.-->
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor>Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName ref="#scw">Samantha Webb</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title level="s" ref="#Walks_Country_OV"><title level="m" ref="#Walks_First_Primrose_OV">WALKS IN THE COUNTRY.<lb/> THE FIRST PRIMROSE</title></title>.</head>
+                <p><date when="--03-06">March 6th</date>.—Fine March weather: boisterous, blustering, much wind and squalls of rain; and yet the sky where the clouds are swept away deliciously blue, with snatches of sunshine, bright, and clear, and healthful, and the roads, in spite of the slight glittering showers, crisply dry. Altogether, the day is tempting, very tempting. It will not do for the dear common, that windmill of a walk; but the close sheltered lines at the bottom of the hill, which keep out just enough of the stormy air, and let in all the sun, will be delightful. Past our old house,<note resp="#scw">The Mitfords moved out of Bertram House to a small cottage in early <date when="1820">1820</date></note> and round by the winding lanes, and the <placeName ref="#parish_workhouse_OV">workhouse</placeName>, and across <placeName ref="#lea_OV">the lea</placeName>,<!--scw 5/17/18: xml:id's for the workhouse and the lea are included at the end of "Violeting"--> and so into the turnpike-road again,—that is our route for to-day. Forth we set, <persName ref="#May-flower_OV"/>Mayflower and <persName ref="#OVNarrator">I,</persName> rejoicing in the sunshine, and still more in the wind, which gives such an intense feeling of existence, and, co-operating with brisk motion, sets our blood and our spirits in a glow.<pb n="74"/> For mere physical pleasure, there is nothing perhaps equal to the enjoyment of being drawn, in a light carriage, against such a wind as this, by a <rs type="animal" ref="#blood_horse">blood horse</rs> at his height of speed. Walking comes next to it; but walking is not quite so luxurious or so spiritual, not quite so much what one fancies of flying, or being carried above the clouds in a balloon.</p>
+                <p>Nevertheless, a walk is a good thing; especially under this southern <rs type="plant" ref="#hedgerow">hedgerow</rs>, where nature is just beginning to live again: the <rs type="plant" ref="#periwinkle">periwinkles</rs>, with their starry blue flowers, and their shining myrtle-like leaves, garlanding the bushes; <rs type="plant" ref="#woodbine">woodbines</rs> and <rs type="plant" ref="#elder_tree">elder-trees</rs> pushing out their small swelling buds; and grasses and mosses springing forth in every variety of brown and green. Here we are at the corner where four lanes meet, or rather where a passable road of stones and gravel crosses an impassable one of beautiful but treacherous turf, and where the small white farm-house, scarcely larger than a cottage, and the well-stocked rick-yard behind, tell of comfort and order, but leave all unguessed the great riches of <rs type="person" ref="#Barnard_farmer_OV">the master</rs>. How he became so rich is almost a puzzle; for, though the farm be his own, it is not large; and, though prudent and frugal on ordinary occasions, <persName ref="#Barnard_farmer_OV">farmer Barnard</persName> is no miser. His <rs type="animal" ref="#horse #dog #pig">horses, dogs, and pigs</rs>, are the best kept in the parish,—<persName ref="#May-flower_OV">May</persName> herself, although her beauty be injured by her fatness, half envies the plight of his bitch <rs type="animal" ref="Fly_pet_OV">Fly</rs>: <rs type="person" ref="#Barnard_Mrs_OV">his wife</rs>’s gowns and<pb n="75"/> shawls cost as much again as any shawls or gowns in the village: his dinner parties (to be sure they are not frequent) display twice the ordinary quantity of good things—two couples of ducks, two dishes of green peas, two turkey poults, two gammons of bacon, two plum-puddings; moreover, he keeps a single-horse chaise, and has built and endowed a Methodist chapel. Yet is he the richest man in these parts. Every thing prospers with him. Money drifts about him like snow. He looks like a rich man. There is a sturdy squareness of face and figure; a good-humoured obstinacy; a civil importance. He never boasts of his wealth, or gives himself undue airs; but nobody can meet him at market or vestry without finding out immediately that he is the richest man there. They have no child to all this money; but there is an <rs type="person" ref="#Barnard_adopted_neph_OV">adopted nephew</rs>, a fine spirited lad, who may, perhaps, some day or other, play the part of a fountain to the reservoir.</p>
+                <p>Now turn up the wide road till we come to the open common, with its park-like <rs type="plant" ref="#tree">trees</rs>, its beautiful stream, wandering and twisting along, and its rural bridge. Here we turn again, past that other white farm-house, half hidden by the magnificent elms which stand before it. Ah! riches dwell not there; but there is found the next best thing—an industrious and light-hearted poverty. Twenty years ago <persName ref="#White_Rachel_OV">Rachel Hilton</persName><!--scw: Need to check if there's another Mrs White or Rachel White somewhere else in OV. I'm wondering if this is "bustling dame" of the intro.--> was the prettiest and merriest lass in the country. <rs type="person" ref="White_Rachel_father_OV">Her father</rs>, an<pb n="76"/> old game-keeper, had retired to a village ale-house, where his good beer, his social humour, and his <rs type="person" ref="#White_Rachel_OV">black-eyed daughter</rs>, brought much custom. She had lovers by the score; but <persName ref="#White_Joseph_OV">Joseph White</persName>, the dashing and lively son of an opulent farmer, carried off the <rs type="person" ref="#White_Rachel">fair Rachel</rs>. They married and settled here, and here they live still, as merrily as ever, with <orgName ref="#White_children_OV">fourteen children of all ages and sizes</orgName>, from nineteen years to nineteen months, working harder than any people in the parish, and enjoying themselves more. I would match them for labour and laughter against any family in <placeName ref="#England">England</placeName>. She is a blithe, jolly dame, whose beauty has amplified into comeliness: he is tall, and thin, and bony, with sinews like whipcord, a strong lively voice, a sharp weather-beaten face, and eyes and lips that smile and brighten when he speaks into a most contagious hilarity. They are very poor, and I often wish them richer; but I don’t know—perhaps it might put them out.</p>
+                <p>Quite close to <persName ref="White_Joseph_OV">farmer White</persName>’s is a little ruinous cottage, white-washed once, and now in a sad state of betweenity, where dangling stockings and shirts swelled by the wind, drying in a neglected garden, give signal of a washerwoman. There dwells, at present in single blessedness, <persName ref="#Adams_Betty_OV">Betty Adams</persName>, the wife of <rs type="person" ref="#Adams_gardener_OV">our sometimes gardener</rs>. I never saw any one who so much reminded me in person of that lady whom every body knows, <persName ref="#Meg_Merrilies">Mistress Meg Merrilies</persName>;—as tall, as grizzled, as stately, as dark, as<pb n="77"/> gipsy-looking, bonneted and gowned like her prototype, and almost as oracular. Here the resemblance ceases. <persName ref="#Adams_Betty_OV">Mrs. Adams</persName> is a perfectly honest, industrious, pains-taking person, who earns a good deal of money by washing and charing, and spends it in other luxuries than tidiness,—in green tea, and gin, and snuff. <rs type="#person" ref="#Adams_gardener_OV">Her husband</rs> lives in a great family ten miles off. He is a capital gardener—or rather he would be so, if he were not too ambitious. He undertakes all things, and finishes none. But a smooth tongue, a knowing look, and a great capacity of labour, carry him through. Let him but like his ale and his master, and he will do work enough for four. Give him his own way, and his full quantum, and nothing comes amiss to him.</p>
+                <p>Ah, <persName ref="#May-flower_OV">May</persName> is bounding forward! Her silly heart leaps at the sight of the old place—and so, in good truth, does mine. What a pretty place it was,—or rather, how pretty I thought it! I suppose I should have thought any place so where I had spent eighteen happy years. But it was really pretty. A large, heavy, white house, in the simplest style, surrounded by fine <rs type="plant" ref="#oak">oaks</rs> and <rs type="plant" ref="elm">elms</rs> and tall massy plantations shaded down into a beautiful lawn, by wild overgrown shrubs, bowery <rs type="plant" ref="acacia">acacias</rs>, ragged <rs type="plant" ref="#sweet_briar">sweet-briars</rs>, promontories of <rs type="plant" ref="#dogwood">dogwood</rs>, and <rs type="plant" ref="#Portugal_laurel">Portugal laurel</rs>, and <rs type="plant" ref="#bay">bays overhung by <rs type="plant" ref="#laburnum"/>laburnum and <rs type="plant" ref="#bird_cherry">bird-cherry</rs></rs>: a long piece of water letting light into the picture, and looking just like a natural<pb n="78"/> stream, the banks as rude and wild as the shrubbery, interspersed with <rs type="plant" ref="#broom">broom</rs>, and <rs type="plant" ref="#furze">furze</rs>, and <rs type="plant" ref="#bramble">bramble</rs>, and <rs type="plant" ref="#pollard">pollard oaks</rs> covered with <rs type="plant" ref="#ivy">ivy</rs> and <rs type="plant" ref="#honeysuckle">honeysuckle</rs>; the whole enclosed by an old mossy park paling, and terminating in a series of rich meadows, richly planted. This is an exact description of the home which, three years ago, it nearly broke my heart to leave. What a tearing up by the root it was! I have pitied <rs type="plant" ref="#cabbage">cabbage plants</rs> and <rs type="plant" ref="#celery">celery</rs>, and all transplantable things ever since; though, in common with them and with other vegetables, the first agony of the transportation being over, I have taken such firm and tenacious hold of my new soil, that I would not for the world be pulled up again, even to be restored to the old beloved ground;—not even if its beauty were undiminished, which is by no means the case; for in those three years it has thrice changed masters, and every successive possessor has brought the curse of improvement upon the place: so that between filling up the water to cure dampness, cutting down trees to let in prospects, planting to keep them out, shutting up windows to darken the inside of the house, (by which means one end looks precisely as an eight of spades would do that should have the misfortune to lose one of his corner pips,) and building colonnades to lighten the out, added to a general clearance of <rs type="plant" ref="#pollard">pollards</rs>, and <rs type="plant" ref="#bramble">brambles</rs>, and <rs type="plant" ref="#ivy">ivy</rs>, and <rs type="plant" ref="#honeysuckle">honeysuckles</rs>, and park palings, and irregular shrubs, the<pb n="79"/> poor place is so transmogrified, that if it had its old looking-glass, the water, back again, it would not know its own face. And yet I love to haunt round about it: so does <persName ref="#May-flower_OV">May</persName>. Her particular attraction is a certain broken bank full of <rs type="animal" ref="#rabbit">rabbit</rs> burrows, into which she insinuates her long pliant head and neck, and tears her pretty feet by vain scratchings: mine is a warm sunny <rs type="plant" ref="#hedgerow">hedgerow</rs>, in the same remote field, famous for early flowers. Never was a spot more variously flowery: <rs type="plant" ref="#primrose">primroses</rs> yellow, <rs type="plant" ref="#lilac">lilac</rs>, white, <rs type="plant" ref="#violet">violets</rs> of either hue, <rs type="plant" ref="#cowslip">cowslips</rs>, <rs type="plant" ref="#oxlips">oxlips</rs>, <rs type="plant" ref="#arum">arums</rs>, <rs type="plant" ref="#orchid"/>orchises,<note resp="#scw">Mitford uses the genera term for orchid here.</note> <rs type="plant" ref="#hyacinth">wild hyacinths</rs>, <rs type="plant" ref="#ivy">ground ivy</rs>, <rs type="plant" ref="#pansy">pansies</rs>, <rs type="plant" ref="#strawberry">strawberries</rs>, <rs type="plant" ref="#hearts_ease">heart’s-ease</rs>, formed a small part of the Flora of that wild <rs type="plant" ref="#hedgerow">hedgerow</rs>. How profusely they covered the sunny open slope under the weeping <rs type="plant" ref="#birch">birch</rs>, “the lady of the woods”<note resp="#scw">The birch tree was commonly known in folklore as "the lady of the woods."</note>—and how often have I started to see the early innocent <rs type="animal" ref="#snake">brown snake</rs>, who loved the spot as well as I did, winding along the young blossoms, or rustling amongst the fallen leaves! There are primrose leaves already, and short green buds, but no flowers; not even in that furze cradle so full of roots, where they used to blow as in a basket. No, my <persName ref="#May-flower_OV">May</persName>, no <rs type="animal" ref="#rabbit">rabbits</rs>! no <rs type="plant" ref="#primrose">primroses</rs>! We may as well get over the gate into the woody winding lane, which will bring us home again.</p>
+                <p>Here we are making the best of our way between the old <rs type="plant" ref="#elm">elms</rs> that arch so solemnly over head, dark and sheltered even now. They say that a spirit haunts this<pb n="80"/> deep pool—<rs type="person" ref="#headless_lady_OV">a white lady without a head</rs>. I cannot say that I have seen her, often as I have paced this lane at deep midnight, to hear the <rs type="animal" ref="#nightingale">nightingales</rs>, and look at the <rs type="animal" ref="#glow_worm">glow-worms</rs>;—but there, better and rarer than a thousand ghosts, dearer even than <rs type="animal" ref="#nightingale">nightingales</rs> or <rs type="animal" ref="#glow_worm">glowworms</rs>, there is a <rs type="plant" ref="#primrose">primrose</rs>, the first of the year; <rs type="plant" ref="#primrose">a tuft of primroses</rs>, springing in yonder sheltered nook, from the mossy roots of an old <rs type="plant" ref="#willow">willow</rs>, and living again in the clear bright pool. Oh, how beautiful they are—three fully blown and two bursting buds! how glad I am I came this way! They are not to be reached. Even <persName ref="#Rapley_Jack_OV">Jack Rapley</persName>’s love of the difficult and the unattainable would fail him here: <persName ref="#May-flower_OV">May</persName> herself could not stand on that steep bank. So much the better. Who would wish to disturb them? There they live in their innocent and fragrant beauty, sheltered from the storms, and rejoicing in the sunshine, and looking as if they could feel their happiness. Who would disturb them? Oh, how glad I am I came this way home!<pb n="81"/></p>
+            </div>
+            
+        </body>
+        <back>
+            <div> 
+                <list type="animals">
+                    <item xml:id="blood_horse"/>
+                    
+                    <item xml:id="Fly_pet_OV"><!--scw: In Journal, 2/22/1819, MRM mentions receiving a dog named Fly from "young farmer Webb". Could be original of farmer Barnard and/or Fly, distinct from Mayfly-->
+                        <name ref="#Fly_pet_OV">Fly</name>
+                        <note resp="#scw">In the <title ref="Our_Village1st_ed">Our Village</title> story, <title ref="#Walks_First_Primrose">The First Primrose</title>, Fly is the dog owned by <persName ref="#Barnard_farmer_OV">farmer Barnard</persName>.</note>
+                    </item>
+                    
+                    <item xml:id="rabbit"/>
+                    
+                    <item xml:id="nightingale"/>
+                    
+                    <item xml:id="glow_worm"/>
+                </list>
+                
+                <list type="plant">
+                    <item xml:id="periwinkle"/>
+                    
+                    <item xml:id="woodbine"/>
+                    
+                    <item xml:id="elder_tree"/>
+                    
+                    <item xml:id="tree"/>
+                    
+                    <item xml:id="oak"/>
+                    
+                    <item xml:id="elm"/>
+                    
+                    <item xml:id="sweet_briar"/>
+                    
+                    <item xml:id="dogwood"/>
+                    
+                    <item xml:id="Portugal_laurel"/>
+                    
+                    <item xml:id="bay"/>
+                    
+                    <item xml:id="laburnum"/>
+                    
+                    <item xml:id="bird_cherry"/>
+                    
+                    <item xml:id="broom"/>
+                    
+                    <item xml:id="furze"/>
+                    
+                    <item xml:id="bramble"/>
+                    
+                    <item xml:id="pollard"/>
+                    
+                    <item xml:id="ivy"/><!--scw: ivy mentioned several times, ground ivy mentioned once. Both tagged as "ivy." They may need different IDs.-->
+                    
+                    <item xml:id="cabbage"/>
+                    
+                    <item xml:id="celery"/>
+                    
+                    <item xml:id="hedgerow"/>
+                    
+                    <item xml:id="primrose"/><!--scw: yellow mentioned in text; may need different tags? maybe not.-->
+                    
+                    <item xml:id="violet"/><!--scw: either hue mentioned in text-->
+                    
+                    <item xml:id="cowslip"/>
+                    
+                    <item xml:id="oxslip"/>
+                    
+                    <item xml:id="arum"/>
+                    
+                    <item xml:id="orchid"/>
+                    
+                    <item xml:id="hyacinth"/><!--scw: wild hyacinth in text-->   
+                    <item xml:id="pansy"/>
+                    
+                    <item xml:id="strawberry"/>
+                    
+                    <item xml:id="hearts_ease"/>
+                    
+                    <item xml:id="birch"/>
+                    
+                    <item xml:id="willow"/>
+                </list>
+                
+                <listPerson>
+                    <person xml:id="Adams_Betty_OV" sex="2">
+                        <persName ref="#Adams_Betty_OV">Betty Adams
+                            <surname>Adams</surname>
+                            <forename>Betty</forename>
+                        </persName>
+                        <note resp="#scw">Character introduced in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Walks_First_Primrose">The First Primrose</title>. She is the wife of <rs type="person" ref="#Adams_gardener_OV">a gardener who sometimes worked for the <orgName ref="#OVNarratorsFamily">narrator's family</orgName></rs>, and who lives separately from her.</note>
+                    </person>
+                    
+                    <person xml:id="Adams_gardener_OV" sex="1">
+                        <persName ref="#Adams_gardener_OV">
+                            <surname>Adams</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <occupation>gardening</occupation>
+                        <note resp="#scw">Character introduced in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Walks_First_Primrose">the First Primrose</title>. He is a gardener who worked for the <orgName ref="#OVNarratorsFamily">narrator's family</orgName>,the husband of <persName ref="#Adams_Betty">Betty Adams</persName>, but he lives in a different town.</note>
+                    </person>
+                    
+                    <person xml:id="Barnard_adopted_neph_OV" sex="1">
+                        <persName ref="#Barnard_adopted_neph_OV">
+                            <surname>not given</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <note resp="#scw">Character mentioned in the <title ref="#Our_village1st_ed">Our Village</title> story, <title ref="#Walks_First_Primrose">The First Primrose</title>. He is the adopted nephew of of <persName ref="#Barnard_farmer_OV">farmer Barnard</persName> and <rs type="person" ref="#Barnard_Mrs_OV">his wife</rs>, who have no children of their own.</note>
+                    </person>
+                    
+                    <person xml:id="Barnard_farmer_OV" sex="1"><!--scw: In the journal, 2/22/1819, MRM describes receiving a dog named Fly from "young farmer Webb". Perhaps real counterpart of Barnard? Dog is different from May fly.-->
+                        <persName ref="#Barnard_farmer_OV">farmer Barnard
+                            <surname>Barnard</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <occupation>farming</occupation>
+                        <note resp="#scw">Character introduced in the <title ref="#OV">Our
+                                Village</title> story, <title ref="#Walks_First_Primrose">The First
+                                Primsrose</title>. He is a wealthy farmer who lives near the
+                                <persName ref="#OVNarrator">narrator</persName>.</note>
+                    </person>
+                    
+                    <person xml:id="Barnard_Mrs_OV" sex="2">
+                        <persName ref="#Barnard_Mrs_OV">
+                            <surname>Barnard</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <occupation>farming</occupation>
+                        <note resp="#scw">Character introduced in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Walks_First_Primrose">The First Primrose</title>. She is the wife of <persName ref="#Barnard_farmer_OV">Mr. Barnard</persName>, a wealthy farmer.</note>
+                    </person>
+                    
+                    <person xml:id="headless_lady_OV" sex="2">
+                        <note resp="#scw">A ghostly white lady, described in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Walks_First Primrose">The First Primrose</title>, who is said to haunt a small pool near <persName ref="#OVNarrator">the narrator</persName>'s old house.</note>
+                    </person>
+                    
+                    <person xml:id="White_Rachel_father" sex="m">
+                        <persName ref="#White_Rachel_father">
+                            <surname>Hilton</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <occupation>gamekeeper</occupation>
+                        <occupation>alehouse keeper</occupation>
+                        <note resp="#scw">Character mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Walks_First_Primrose_OV">The First Primrose</title>. He is the father <persName ref="#White_Rachel">Rachel Hilton White</persName>.</note>
+                    </person>
+                    
+                    <person xml:id="White_Joseph_OV" sex="1">
+                        <persName ref="#White_Joseph">Joseph White
+                            <surname>White</surname>
+                            <forename>Joseph</forename>
+                        </persName>
+                        <note resp="#scw">Character mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Walks_First_Primrose">The
+                                First Primrose</title>. The son of a farmer, he is the cheery
+                            husband of <persName ref="#White_Rachel_OV">Rachel White</persName>.
+                            They are noted to be a cheerful, industrious, poor family of fourteen
+                            children.</note>
+                        
+                    </person>
+                    
+                    <person xml:id="White_Rachel_OV" sex="f">
+                        <persName ref="#White_Rachel_OV">
+                            <surname type="paternal">Hilton</surname>
+                            <surname type="married">White</surname>
+                            <forename>Rachel</forename>
+                        </persName>
+                        <note resp="#scw">Character introduced in the <title ref="#OV">Our Village</title> story, <title ref="#Walks_First_Primrose_OV">The First Primrose</title>, described as a jovial woman, married to <persName ref="#White_Joseph_OV">Joseph White</persName>, daughter of Mr. Hilton, a former gamekeeper. She and her husband have fourteen children.</note>
+                    </person>
+                    
+                    <person xml:id="Rapley_Jack_OV" sex="1"><!--scw: This is a revised version for this entry, already in the SI, fictPerson, changed from JackRapley. ID incorporated into another file, but I'm putting it here.-->
+                        <persName>Jack Rapley
+                            <surname>Rapley</surname>
+                            <forename>Jack</forename>
+                        </persName>
+                            <note resp="#scw">One of the <orgName ref="#CountryBoys_OV">country boys</orgName> whom the <persName ref="#OVNarrator">narrator</persName> of <title ref="#OV">Our Village</title> encounters or mentions in a number of sketches, notably <title ref="#Walks_Frost_Thaw_OV">Frost and Thaw</title> and <title ref="#Country_Cricket_Match_OV">A Country Cricket Match</title>. In his <bibl corresp="#Needham_PapersRCL">Mitford papers</bibl>, <persName ref="#Needham_Francis">Francis Needham</persName> identifies <rs type="person" ref="#Rapley_John1 #Rapley_John2">two local boys by this name</rs> on whom this character was likely based.</note>
+                        </person>
+                </listPerson>
+                
+                <listOrg>
+                    <org xml:id="White_children_OV">
+                        <orgName ref="#White_children_OV"/>
+                        <note resp="#scw">Characters mentioned in the <title ref="#OV">Our Village</title> story, <title ref="#Walks_First_Primrose_OV">The First Primrose</title>. They are the fourteen children of the amiable <persName ref="#Hilton_Rachel_OV">Rachel</persName> and <persName ref="#White_Joseph_OV">Joseph White</persName>.</note>
+                    </org>
+                </listOrg>
+                
+                
+                <listPlace>
+                    <place xml:id="proposed_new_ID3">
+                        <placeName><!--best-known name of the place--></placeName>
+                        <placeName><!--alternate place name--></placeName>
+                        <location><geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo></location>
+                    </place>
+                </listPlace>
+                <listBibl>
+                    <bibl xml:id="proposed_new_ID4">
+                        <title><!--Title--></title>
+                        <author><!--Author--></author>
+                        <editor><!--if indicated--></editor>
+                        <pubPlace><!--where published--></pubPlace>
+                        <publisher><!--publisher--></publisher>
+                        <!--<date when="yyyy"><!-\-Date. The @when attribute can be yyyy, yyyy-mm, or yyyy-mm-dd.-\-></date>-->
+                    </bibl>
+                </listBibl>
+                <!--A few other kinds of lists apply. See Codebook and Site Index at http://digitalmitford.org/si.xml for guides.-->
+            </div>
+        </back>
+    </text>
+</TEI>

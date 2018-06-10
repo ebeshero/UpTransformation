@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><!-- addSpan not working on #p3 --><titleStmt><title xml:id="MRM1766"> Digital Mitford Project, Letter to B.R. Haydon, 14 September 1820. </title><author>Mary Russell Mitford</author><editor>M. Stephanie Murray</editor><sponsor><orgName> Mary Russell Mitford Society: Digital Mitford Project </orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal>Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName>Elisa Beshero-Bondar</persName></respStmt><respStmt><resp>Proofing and corrections by</resp><persName>Elisa Beshero-Bondar</persName></respStmt></titleStmt><editionStmt><edition> First digital edition in TEI, date: 4 June 2013. P5. </edition><respStmt><resp>We can include a respStmt here.</resp><persName>Who?</persName></respStmt></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2013</date><availability><licence> Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License </licence></availability></publicationStmt><seriesStmt><title> Digital Mitford Letters: The Mary Russell Mitford Archive </title></seriesStmt><notesStmt><note>Any special notes on this text? (optional)</note><note>You can have multiple notes here.</note></notesStmt><sourceDesc><msDesc><msIdentifier><repository ref="#ReadingCL">Reading Central Library</repository><collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection><idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 415</idno></msIdentifier><head>Letter from Mary Russell Mitford to B. R. Haydon, <date>September 14, 
+                     1820</date>. </head></msDesc></sourceDesc></fileDesc><profileDesc><handNotes><handNote xml:id="rc" medium="red_crayon"> Red crayon or thick red pencil. A different
+               from Mitford's, that marks many of her letters, sometimes drawing diagonal lines
+               across pages, and sometimes writing words overtop and perpendicularly across
+               Mitford's writing. </handNote><handNote xml:id="black_ink" medium="black_ink"> Someone, apparently other than Mitford,
+               perhaps cataloging letters and describing them. </handNote><handNote xml:id="pencil" medium="pencil"> Pencil used to make non-text marks.
+            </handNote></handNotes></profileDesc><encodingDesc><editorialDecl><p>Describes our editorial practice.</p></editorialDecl></encodingDesc></teiHeader><text><body><div type="letter"><opener><add><handShift resp="#black_ink"/> B. R. Haydon Esq <emph>fragment</emph></add><add hand="#pencil"><!-- Two vertical pencil lines --></add><add><handShift resp="#rc"/>
+                  <!-- Red editing marks across page --></add><dateline><date when="1820-09-14">Sept. 14<hi rend="superscript">th</hi> 1820.</date><name type="place">Three Mile Cross</name></dateline><salute>My dear Sir</salute></opener><p>My Father has begun a negotiation respecting the greyhounds the issue of which I
+               shall know before I finish this letter &amp; will then tell you the particulars -- I
+               am so sorry that they should inconvenience you -- So sorry that we should not
+               ourselves have room for them -- So sorry that just now when you have so well earned
+               every sort of pleasure, one so simple &amp; so
+                  <unclear><supplied>fine</supplied></unclear> should be taken from you. These
+               regrets are very useless -- but one cannot help feeling them. ---- Do not commit such
+               a mistake <!-- "mis=take" --> &amp; so fancy your hand writing illegible
+               <!-- "illegi=ble" --> -- I can read it as well as print -- The characters are
+               peculiar but the moment one knows them by heart one reads them as easily as a scholar
+               reads Greek. Oh my dear Mr. <persName>Haydon</persName> if only you were but to see
+               some of the young-lady correspondences which <pb n="2"/><add hand="#rc">
+                  <!-- Red crayon line diagonally from upper left corner to lower right corner --></add>
+               befall one sometimes - a full sheet of foolscap twice crossed in a hand all Ms &amp;
+               Ns -- a series of ups &amp; downs which defy guessing -- I was
+                     <unclear><supplied>forced to turn off</supplied></unclear> a cousin of my own a
+               delightful woman whose letters had but one fault that of being wholly unintelligible
+               from beginning to end -- nothing could be prettier looking than her hand only it was
+               utterly unreadable. Never think of calling that writing of yours which <del rend="squiggles"><gap quantity="1" unit="word"/></del><add>shews</add> so plainly
+               the <unclear><supplied>repricocity</supplied></unclear> &amp; energy of your spirit,
+               a scrawl -- with what a delightful hieroglyphic you eked it out in your stage <persName type="fict">Iago</persName>! I have seen <persName type="hist">Kean</persName> both in <persName type="fict">Othello</persName> &amp; <persName type="fict">Iago</persName>, &amp; I felt
+               like you his terrible power in the former. To see <persName type="hist">Kean</persName> in <persName type="fict">Othello</persName> is a very painful pleasure. If I may say it without
+               danger of being suspected of affectation I must confess that I do not much like acted
+               plays. <persName type="hist">Kean</persName> is disappointing &amp; unequal -- &amp; <persName type="hist">Kemble</persName> was cold -- &amp; one
+               loses all the sweetness &amp; poetry of those delicious plays in these great theatres
+               where nothing but the coarser strokes fell -- In short it is altogether owing to my
+               intense love &amp; admiration <del rend="squiggles">of</del> for <persName type="hist">Shakespeare</persName> &amp;
+               the old Dramatists that <pb n="3"/><add hand="#rc">
+                  <!-- Red crayon line diagonally from upper left corner to lower right corner --><!-- Red crayon "All in a little O / Sir William Elford" written perpendicular to Mitford's text --></add>
+               I never desire to see a favorite play acted. Did you ever read two plays by
+                  <persName type="hist">Thomas May</persName> the Historian of the Long Parliament which I
+               wonder <persName>Mr. <unclear><supplied>Harbilt</supplied></unclear></persName> did
+               not mention -- <bibl>The Heir</bibl> &amp; <bibl>The Old Couple</bibl>? They are
+               as sweet &amp; beautiful as a May morning. <add hand="#rc"><!-- half-circle opening left or closing paren --></add> ---- 
+               <addSpan spanTo="#p4"/><add hand="#rc"><!--Written vertically from bottom to top, parallel with fold. Describe this in zones?-->All in a little O<lb/>Sir William Elford</add> Do you read the Scotch novels Have you read <bibl>the Abbot</bibl>? Do you like
+               it? I was disappointed beccause every alternate work has been excellent
+               <!-- "excell=ent" --> &amp; as <bibl>the Monastery</bibl> was bad I expected this
+               to be very good -- <del rend="hatch"><gap quantity="1" unit="letter"/></del> after
+               all it is ungrateful <!-- "un=grateful" --> to impute as a fault the failure of one's
+               own too high expectation -- It is very pleasant reading through not a work that would
+               have made a reputation like <bibl>Waverly</bibl> or <bibl>Old Mortality</bibl>.
+               The real fault lies in the subject. <persName type="hist">Mary Queen of Scots</persName> is a
+               person of whom in spite of her sins we have dreamt all our life long. There is not a
+               man of any imagination who has not made her romance in his own mind long before now
+               -- The Bodleian Mary full of beauty &amp; grace - the love of men the
+               envy of women - She who makes possible all that has been feigned of nymph of Goddess
+               then <pb n="4"/>is no writing up to what one fancies of her.
+                  --<persName type="hist">Schiller</persName> has tried &amp; <persName type="hist">Alfieri</persName> &amp;
+               both have failed -- but though <persName type="hist">Sir Walter Scott's</persName> failure the
+               most egregious of any - He takes the <persName type="myth">Venus</persName> down from her pedenstal
+               &amp; makes her <unclear><supplied>scold</supplied></unclear> -- he disenchants the
+                  <persName type="fict">Lady Dulcinea</persName> -- he lets the glaring daylight into the
+               magic lantern &amp; puts out the dreamy
+               pictures -- now this is not a friend's office - nor a poet's - This is another fault
+               too -- All the plot that is not of <persName>Queen Mary</persName> is filled by a
+               twin brother &amp; sister confusion, like that of <persName type="fict">Viola</persName>
+               &amp; <persName type="fict">Sebastian</persName> in <bibl>Twelfth Night</bibl> -- &amp;
+               let the <placeName>Edinburgh</placeName> reviewers say what they will
+                  <persName type="hist">Walter Scott</persName> at the side of <persName type="hist">Shakespeare</persName>
+               cuts no better a figure than <persName type="hist">Reynolds</persName> by the side of
+                  <persName type="hist">Vandyke</persName>. Nevertheless the book is pleasant and free from his
+               peculiar faults and from his stinking beauties -- only one <unclear><supplied>old
+                     hag</supplied></unclear> -- no fortune scene - no prophecy &amp; no ghost. How
+               sorry I am to hear so bad an account of Mr. <persName>Keats</persName> --When I write
+               to <persName type="hist">Miss James</persName> I will mention your kind permission to send me his
+               book. I am delighted that you were <anchor xml:id="p4"/> pleased with her letter <add hand="#rc"><!-- half-circle opening left or closing paren --></add> -- she is a
+               sweet &amp; 
+         </p></div></body><back><div type="editorial">
+            <!-- L'Estrange includes some of p3 in a letter dated 9 September 1820 --></div></back></text></TEI>

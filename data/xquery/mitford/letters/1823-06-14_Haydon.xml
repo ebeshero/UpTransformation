@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1810">Letter to <persName ref="#Haydon">B.R. Haydon</persName>, 1823 June
+               14</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#err">Elizabeth Raisanen</editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#mq">Mehaque Kohli</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2016-10-04">2016-10-04</date>. Proofing and corrections by: <persName ref="#bas">Brooke A. Stewart</persName></resp> <!-- 2016-09-19 bas: Updated header to include the correct letter xml:id.--> <!-- 2016-10-04 bas: Added photo file information. --><!-- 2016-10-09 bas: Minor corrections made to stamp information. Added pennAnnot handNote.--> <!-- 2017-01-02 bas: checked for completion, spelling errors corrected. -->
+               <resp>Date checked: <date when="2015-09-27"/>. Proofing and corrections by: <persName ref="#lmw">Lisa M. Wilson</persName></resp><!--lmw: Needs correct header information added. Proofing text from ms. on 2015-09-27-->
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2014-12-01">1 December 2014</date>. P5.</edition>
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>14June1823BRHaydon4b.JPG, 14June1823BRHaydon4a.JPG, 14June1823BRHaydon3b.JPG, 14June1823BRHaydon3a.JPG, 14June1823BRHaydon2a.JPG, 14June1823BRHaydon2b.JPG, 14June1823BRHaydon1b.JPG, 14June1823BRHaydon1a.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2014</date>
+            <availability>
+               <p>Reproduced by courtesy of the <placeName>The Reading Central
+                  Library</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#ReadingCL">The Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 473</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to B.R. Haydon, <date when="1823-06-14">1823
+                  June 14</date>.</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>One quarto sheet of <material>paper</material> folded in half to form
+                              two octavo pages, which comprise pages 1-3 of the letter. The fourth page
+                              page bears the address of the recipient in the middle and is folded is 
+                              folded into 3 parts for posting.</p>
+                           <p>Address leaf bearing the following
+                              postmarks:<!-- mq: These descriptions should be checked carefully for clarity/accuracy by whomever proofreads this letter. Thanks! -->
+                              1) blue elliptical Receiving House stamp
+                              <!-- mq: cant figure out the stamp -->
+                              <stamp><unclear unit="word" quantity="1" reason="illegible"><supplied resp="#err">Reading</supplied></unclear><lb/><unclear unit="word" quantity="3" reason="illegible"/><lb/><unclear unit="word" quantity="3" reason="illegible"/><lb/></stamp>
+                              
+                              2) Sepia-colored indented stamp
+                              stamp in on bottom part of the address page folds.
+                              
+                              reading 
+                              <stamp><time>MORN</time><lb/> 
+                                 <time>8</time><lb/>
+                                 <date>17*JU</date><lb/>
+                                 <date>1823</date>
+                              </stamp>
+                             A large 2 denoting the fee for a single-sheet letter has
+                            been written in black ink by the postal service above the address,
+                            partially over the last name of the addressee 
+                              </p>
+                        </support>
+                        <condition> The red seal from 1823 is unrecognizable as most of it (from the upper middle region onwards is missing. The seal has left an imprint on the top right corner of page 3. The upper right 
+                         corner of page is also torn out, perhaps from when the letter was opened as the seal stuck to it.
+                         The address page also carries a water mark. In the addressee's address, the first word of the second 
+                         line is unrecognizable due as parts of it are faint from a brown mark. The word London in the last line 
+                         of the addressee’s address is striked through.
+                           
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal.
+                     Partial Red wax seal on top right corner of page 4 when opened. </p>
+                  </sealDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote corresp="#penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. This annotator left a note at the top of the first leaf that documents the recipient of the letter as B.R. Haydon Esqr.</handNote>
+            <handNote xml:id="pencil" medium="pencil">Someone, apparently other than Mitford
+               (perhaps cataloging the letters and describing them, or marking them up while
+               creating an earlier edition of Mitford's letters), left grey pencil marks and
+               numbered her letters now in the Reading Central Library's collection. This letter is
+               numbered "12" in the top left of the first leaf, underneath the pen annotated opening line, "B.R. Haydon Esqr." In what appears to be the same hand and the same pencil, the year
+               "1823" appears faintly on the same page just under the number "12"</handNote>
+            <handNote xml:id="rc" medium="red_crayon">Red crayon or thick red pencil. Probably a
+               different hand from Mitford's that marks many of her letters, sometimes drawing
+               diagonal lines across pages, and sometimes writing words overtop and perpendicularly
+               across Mitford's writing. On this letter, a red diagonal line is drawn from the top
+               left to the bottom right of pages 1, 2 and 3 of the manuscript.</handNote>
+         </handNotes>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p>
+         </editorialDecl>
+      </encodingDesc>
+      
+      
+      <revisionDesc>
+         <change when="2018-01-19" who="#bas">Added penAnnot hand.</change>
+         <change when="2017-11-01" who="#bas">Proofing complete. Stamp needs to be looked at.</change>
+         <change when="2017-10-28" who="#bas">Proofing started, research question developed.</change>
+         <change when="2017-01-02" who="#bas">Checked for completion, spelling errors corrected</change>
+         <change when="2016-10-09" who="#bas">Minor corrections made to stamp information. Added pennAnnot handNote.</change>
+         <change when="2016-10-04" who="#bas">Added photo file information.</change>
+         <change when="2016-09-19" who="#bas">Updated header to include the correct letter xml:id.</change>
+         <change when="2015-09-27" who="#lmw">Needs correct header information added. Proofing text from ms.</change>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+        <body>
+           <div type="letter">
+              <pb n="1" facs="14June1823BRHaydon1b.JPG"/>
+              <opener> <add hand="#penAnnot_RCL">To <persName ref="#Haydon">B.R. Haydon Esq<hi rend="superscript">r</hi></persName></add>
+                 <add hand="#pencil">12</add>
+                 <add hand="#pencil">1823</add>
+                 <dateline>
+                    <name type="place">Three Mile Cross</name>
+                    <date when="1823-06-14">June 14<hi rend="superscript">th</hi> 1823</date>. </dateline>
+              </opener>
+              <p>You must not imagine, my dear friend, because I answer your long and most interesting communications, by notes as inferior in quantity as in quality, that I am insensible to the distinction &amp; the pleasure of being thought of by you, even in such moments as these. I am--we are all--so deeply interested for you--&amp; so ashamed that such a country as this, such an Artist, such a man should he suffered to undergo the deprivations &amp; losses which you have experienced--I could not help crying when I read the account of your desolated home--It had seemed so serene in its beautiful privacy--&amp; even in its smallness--&amp; snugness &amp; comfort--there was a feeling of serenity &amp; shelter <add place="above"> <metamark place="below" function="insertion" rend="caret"/>in</add> it <pb n="2" facs="14June1823BRHaydon2a.JPG"/>like the covered nest of the <rs type="animal" ref="#Long_tailed_wren">long tailed wren</rs>--but you have still your <rs type="person" ref="#Haydon_Mrs">lovely mate</rs> &amp; the dear little ones--&amp; your own buoyancy--which is really that of a winged creature--&amp; I doubt not to see <add place="above"> <metamark place="below" function="insertion" rend="caret"/>you</add> again in as <del rend="squiggles"><gap quantity="1" unit="word"/></del><add place="above"> <metamark place="below" function="insertion" rend="caret"/>soft &amp; happy</add> a nest. Government, or <orgName ref="#Parliament_UK">Parliament</orgName>, or the Public must do something great &amp; permanent for you--they must for shame.</p><!-- bas: Maybe look this up? It sounds like his house was destroyed by some means. -->
+              <p>What you say respecting one of your pupils grieves me very much--I hope you are mistaken--It would be an added grief to lose a friend--to be conscious that a friend had been unworthy--&amp; all your pupils had been your friends. I cannot imagine that<choice><sic>any one</sic><reg>anyone</reg></choice> who had lived with you could be guilty of such a small &amp; paltry vanity--And yet it is I really believe that evil quality which exists in the greatest abundance in the world, &amp; <pb n="3" facs="14June1823BRHaydon3a.JPG"/>which produces most ill co<gap reason="torn" unit="chars" quantity="3"/><unclear><supplied resp="#lmw">nse</supplied></unclear>quences, to every one--especially to its possessors. I never knew or guessed at the universality of its diffusion till my visits to <rs type="place" ref="#London_city">Town</rs> this spring--&amp; really, except <del rend="squiggles"><gap quantity="1" unit="word"/></del><add place="above">at</add> your house, the clinging nauseous intolerable weed appeared to me to grow every where. But I still hope that you are mistaken--I will hope so.--</p>
+         <p>We were exceedingly interested &amp; affected by your account of the pathetic incident of <persName ref="#Haydon_Mrs">Mrs. Haydon</persName> &amp; the Infant--It is indeed a true "bit of nature"--But you are a happy man still! And she is a happy woman!</p>
+         <p>God bless you, my dear Friend!--Give me good news I beseech you as soon as any happen--at all events let me hear that you are well--for that is good news too--the best. Kindest regards from all.</p>
+              
+              
+              <closer>
+                 <lb/> Ever most affectionately <choice><sic>your's</sic><reg>yours</reg></choice><lb/>
+                 <signed><persName ref="#MRM">M. R. Mitford.</persName></signed>
+                 <lb/>
+                 <pb n="4" facs="14June1823BRHaydon4a.JPG"/>
+                 <address>
+                  <addrLine><persName ref="#Haydon">B. R. Haydon Esq<hi rend="superscript">re</hi></persName></addrLine>
+                     <addrLine>Historical Painter</addrLine> 
+                  <addrLine><placeName ref="#Kings_Bench_Prison">King's Bench Prison</placeName>
+                  </addrLine>  
+                  <addrLine> <placeName ref="#London_city"><del rend="strikethrough" hand="#MRM" unit="word" quantity="1">London</del></placeName></addrLine>
+               </address>
+              </closer>
+           </div>
+        </body>
+     <back>
+        <div type="place">
+        <listPlace>
+           <place xml:id="Kings_Bench_Prison">
+              <placeName>Kings Bench Prison</placeName>
+              <note resp="#mq">The King's Bench Prison was a prison in Southwark, south London, England, from medieval times until it closed in 1880. It took its name from the King's Bench court of law in which cases of defamation, bankruptcy and other misdemeanours were heard; as such, the prison was often used as a debtor's prison until the practice was abolished in the 1860s. In 1842, it was renamed the Queen's Prison, and later became the Southwark Convict Prison.</note>
+           </place>
+        </listPlace>
+        </div>
+        <div>
+           <listPerson type="hist" subtype="animal">
+              <person xml:id="Long_tailed_wren">
+                 <persName>Long Tailed Wren</persName>
+                 <note resp="#mq">The Naga wren-babbler or long-tailed wren-babbler (Spelaeornis chocolatinus) is a bird species
+                   in the family Timaliidae. </note>
+              </person>
+           </listPerson>
+        </div>
+        
+        
+       
+       
+     </back>
+  </text>
+</TEI>

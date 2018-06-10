@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1812">Letter to <persName ref="#Haydon">B.R. Haydon</persName>, 1823 August 24</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#err">Elizabeth Raisanen</editor>
+            <sponsor>
+               <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+            </sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#rct">Rebecca Tang</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2017-01-02">2017-01-02</date>. Proofing and corrections by: <persName ref="#bas">Brooke A. Stewart</persName></resp> <!-- 2016-09-19 bas: Updated header to include the correct letter xml:id.--><!-- 2016-10-04 bas: Added indo information, photo file idnos.--><!-- 2016-10-09 bas: Added collection information, correccted stamp and handNote info. --> <!-- 2017-01-02 bas: checked for completion, fixed spelling errors. Support section needs to be reviewed. -->
+               <resp>Date checked: <date when="2016-04-26">26 April 2016</date>. Proofing and corrections by:<persName ref="#lmw">Lisa M. Wilson</persName> <!--LMW Checked against ms. and pulled SI entries, 2016-04-26.  --></resp>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2014-11-18">18 November 2014</date>. P5.</edition>
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>24August1823BRHaydon4b#.JPG, 24August1823BRHaydon4a#.JPG, 24August1823BRHaydon3b#.JPG, 24August1823BRHaydon3a#.JPG, 24August1823BRHaydon2b#.JPG, 24August1823BRHaydon2a#.JPG, 24August1823BRHaydon1a#.JPG, 24August1823BRHaydon1b#.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2014</date>
+            <availability>
+               <p>Reproduced by courtesy of the <placeName>The Reading Central Library</placeName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="#ReadingCL">The Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4, Horizon No.: 1361550 ff. 476</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to B.R. Haydon, <date when="1823-08-24">24 August 1823</date>.</head>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><p>One quarto sheet of <material>paper</material> folded in half to form two octavo pages, which comprise pages 1-4 of the letter.</p>
+                           <p>Address leaf bearing the following postmarks:<!-- rct: These descriptions should be checked carefully for clarity/accuracy by whomever proofreads this letter. Thanks! -->
+                              1) brown elliptical, single rim Receiving House stamp, reading: 
+                              <stamp>
+                                 <time>7 Night 7</time><lb/>
+                                 <date>AU*28</date><lb/>
+                                 <date>1823</date>
+                              </stamp> 
+                              2) Sepia-colored T stamp, reading:
+                              <stamp>T.P<lb/> New<unclear unit="word" quantity="1" reason="unclear"/><lb/></stamp> 
+                              3)Large black 3 denoting price of posting.</p>
+                        </support>
+                        <condition> </condition>
+                     </supportDesc>
+                  </objectDesc>
+                 <sealDesc>
+                     <p>Red wax seal.</p>
+                 </sealDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   <profileDesc>
+      <handNotes>
+         <handNote xml:id="pencil" medium="pencil">Someone, apparently other than Mitford (perhaps cataloging the letters and describing them, or marking them up while creating an earlier edition of Mitford’s letters), left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "14" in the top left of the first leaf, underneath the pen annotated opening line, "B.R. Haydon Esqr." In the top right corner of the same page, the number "678" is written in pencil.</handNote> 
+         <handNote xml:id="rc" medium="red_crayon">Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. On this letter, a red diagonal line is drawn from the top left to the bottom right of pages 2 and 3 of the manuscript. On the last page of the letter, there are three red lines drawn from top left to bottom right in each section of the text.</handNote>
+         <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, the name "B.R. Haydon Esqr" is identified as the recipient on the first page.</handNote>
+      </handNotes>
+   </profileDesc>
+   <encodingDesc>
+      <editorialDecl>
+         <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p>
+      </editorialDecl>
+   </encodingDesc>
+     <revisionDesc>
+        <change when="2018-01-19" who="#bas">Added hand for penAnnot. Fixed whitespace and format errors.</change>
+        <change when="2017-01-02" who="#bas">Checked for completion, fixed spelling errors. Support section needs to be reviewed.</change>
+        <change when="2016-10-09" who="#bas">Added collection information, corrected stamp and handNote info.</change>
+        <change when="2016-10-04" who="#bas">Added indo information, photo file idnos.</change>
+        <change when="2016-09-19" who="#bas">Updated header to include the correct letter xml:id.</change>
+        <change when="2016-04-26" who="#lmw">Checked against ms. and pulled SI entries.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="24August1823BRHaydon1a#.JPG"/>
+            <opener> <add hand="#penAnnot_RCL">To <persName ref="#Haydon">B.R. Haydon Esq<hi rend="superscript">r</hi></persName></add>
+               <add hand="#pencil">14</add>
+               <dateline>
+                  <name type="place" ref="#ThreeMileCross">Three Mile Cross</name>
+                  <date when="1823-08-24">August 24<hi rend="superscript">th</hi>1823</date>. </dateline>
+            </opener>
+            <p>Yes, my dear Sir, I plead guilty--since I have been a professed Authoress (woe is me! a washerwoman in good practice hath the better trade) since that misfortune has befallen me I have become a very shabby Correspondent &amp; run the risk of appearing ungrateful to those whose favours I value most--but I will amend &amp; pay you in quantity for the time to come--to pay you in quality I do not promise--who can?--I am not however quite to bad as I must have appeared, for I did write a note of most sincere &amp; heartfelt congratulation to you &amp; <persName ref="#Haydon_Mrs">Mrs. Haydon</persName> on <rs type="event">your release</rs>--Did you receive it? Owing to my having unluckily mislaid your penultimate letter--(Oh pedantry of pedantries! word bluer than indigo! I hope it is wrong) that beautiful letter which I would not lose for an Ingot--added to my faculty of forgetting every thing in the shape of a figure (the multiplication table &amp; <add place="above"><metamark function="insertion" rend="caret" place="below"/>the English</add> Chronology were the torments of my Schooldays--I never got beyond the Twices in one &amp; the Williams <note resp="#rct">Up until Mitford's time, there had been a total of three King Williams in England: William the Conqueror (c. 1028-1087), William II, aka William Rufus (c. 1056-1100), and William III, aka William of Orange (1650-1702). Mitford jokes that she could remember no dates in English history past 1650.</note> in the other)--from these two causes I misdirected my note putting as I believe 18 for 6 (I only wonder I came so near) &amp; you being a new Inhabitant would most likely not receive it--Did you?--There was nothing in the blotted paper except our most sincere felicitations--&amp; that assurance of success which burns within me whenever I think of you--especially since your <pb n="2" facs="24August1823BRHaydon2a#.JPG"/>last equally noble &amp; prudent resolutions--which are really &amp; truly in the <persName ref="#Napoleon">Napoleon</persName> spirit--his best spirit. I am so glad that we think alike of that great man--What you say of your old servant is <del rend="squiggles"><gap quantity="1" unit="word"/>hardly</del> <add place="above">very</add> distressing--such ingratitude destroys the blessed faith in human nature which is necessary to our happiness &amp; almost to our virtue.--With respect to <del rend="crossout"><gap quantity="1" unit="word"/><persName ref="#Bewick_Wm">Mr. Bewick</persName></del> I cannot but hope &amp; believe that you will find some extenuating circumstances--something to soften &amp; palliate--some mistake or mis-statement--I cannot will not imagine other of one who seemed so interesting &amp; amiable--so connected with the finest parts of your finest pictures--so much a part of you! Oh you will find it as I say I am sure--A man's countenance cannot tell just sad fibs as his would do otherwise.--I am heartily glad to hear of <persName ref="#Chatfield_Mr">Mr. Chatfield</persName>'s constancy--but what fools they must be that act <del rend="squiggles"><gap quantity="1" unit="word"/><supplied resp="#lmw">excessive</supplied></del> unkindly--their heads must be as much at fault as their hearts not to see that <add place="above"><metamark place="above" function="insertion" rend="caret"/>to have been</add> your pupils is &amp; will be their best title let them paint as well as they may. I am as sure of your carrying your point, as I am of finishing this letter both events being, humanly speaking, certain--We may each of us die first to be sure--but the chances are undoubtedly <del rend="squiggles"><gap quantity="3" unit="word"/></del><add place="above">a million to one</add>in favour of our accomplishing our objects. Let me know what subject you think of taking for your next picture--Is there nothing in which <persName ref="#Haydon_Mrs">Mrs. Haydon</persName> &amp; <persName ref="#Haydon_FS">the Little one</persName> could be introduced? Two such models!</p>
+            <pb n="3" facs="24August1823BRHaydon3b#.JPG"/><p>Pray are you a Cricketer?--We are very great Ones--I mean our Parish--of which we <add place="above"><metamark place="below" function="insertion" rend="caret"/>the</add> feminine members act audience, &amp; "though we do not play o'erlook the" balls. When I wrote to you last I was just going to see a grand match in a fine old Park near us--<placeName ref="#Bramshill_house">Bramshill</placeName>--between <placeName ref="#Hampshire_county">Hampshire</placeName>, with <persName ref="#Budd_EH">Mr. Budd</persName>, &amp; All <placeName ref="#England">England</placeName>--anticipating great pleasure from so grand an exhibition &amp; thinking like a simpleton the better the Play the more the enjoyment. Oh what a mistake! there they were a set of ugly men white headed &amp; bald headed (for half of <orgName ref="#Marylebone_Cricket_Club">Lord's</orgName> was engaged in the combat, players &amp; gentlemen <persName ref="#Ward_William">Mr. Ward</persName> &amp; <persName ref="#Beauclerk_Frederick">Lord Frederick</persName>, the Veterans of the green)--dressed in tight white jackets (the <rs type="art" ref="#Apollo_Belvedere">Apollo Belvedere</rs> could not bear the hideous disguise of a cricketing jacket) with neckcloths <gap reason="torn" quantity="2" unit="chars"/><unclear><supplied resp="rct">pr</supplied></unclear>imly tied round their throats fine japa<gap reason="torn" quantity="4" unit="chars"/><unclear><supplied resp="rct">nned</supplied></unclear>shoes silk <gap reason="torn" quantity="2" unit="chars"/><unclear><supplied resp="rct">st</supplied></unclear>ockings &amp; gloves--instead of our fine village lads with their unbuttoned collars their loose waistcoats &amp; the large shirtsleeves which give an air of picturesque &amp; Italian <del rend="squiggles"><gap quantity="1" unit="word"/></del>to their glowing bounding youthfulness--there they stood railed in by themselves, silent, solemn, slow, playing for money, making a business of the thing--grave as judges--taciturn as chess players--<add place="above"><metamark place="below" function="insertion" rend="caret"/>a sort of</add> dancers without music--instead of the glee, the fun, the shouts, the laughter the glorious confusion of the country game--And there were we the lookers on in tents and Marquees, fine &amp; freezing, dull as the players, cold as this <del rend="squiggles"><gap quantity="1" unit="word"/></del>hard summer weather, shivering &amp; yawning &amp; trying to seem pleased. <pb n="4" facs="24August1823BRHaydon4a#.JPG"/>The curse of gentility on all our doings, as stupid as we could have been in a ball room. I never was so much disappointed in my life. But every thing is spoilt when Money puts its ugly nose in. To think of playing Cricket for hard cash!--Money &amp; gentility would <del rend="squiggles"><gap quantity="1" unit="word"/>spoil</del> <add place="above">ruin</add> any pastime under the sun. Much to my comfort (for the degrading my favourite sport in a "science" as they were pleased to call it had made me quite spiteful) the game ended unsatisfactorily to all parties--winners &amp; losers. <persName ref="#Beauclerk_Frederick">Old Lord Frederick</persName> on some real or imaginary affront took himself off in the middle of the second Innings--so that the two last <gap reason="smudged" quantity="1" unit="word"/><unclear><supplied>were</supplied></unclear> played without him, by which means his <del rend="squiggles"><gap quantity="1" unit="word"/></del>side lost &amp; the other could hardly be said to win. So be it always when men make an affair of bettings &amp; hedging &amp; cheating may be of the noble game of cricket.</p>
+         <closer>
+            <lb/>--And now God bless you--Kindest regards &amp; best wishes from all--Ever your's <signed><persName ref="#MRM">MR Mitford</persName></signed><lb/>
+            <address>
+            <addrLine>To</addrLine>
+            <addrLine><persName ref="#Haydon">B.R. Haydon Esqre</persName></addrLine>
+            <addrLine>8 Paddington Green</addrLine> 
+            <addrLine>near the Church</addrLine>
+            <addrLine>Paddington</addrLine>
+         </address></closer>
+         </div>
+      </body>
+     <back>
+        
+     </back>
+  </text>
+</TEI>

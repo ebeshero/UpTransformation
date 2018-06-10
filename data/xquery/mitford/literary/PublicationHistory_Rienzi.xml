@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Publication History for <title ref="#Rienzi">CRienzi: A Tragedy, in Five Acts</title></title>
+            <author ref="#lmw">Lisa M. Wilson</author>
+           
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor> 
+            <principal>Elisa Beshero-Bondar</principal>
+           
+            <respStmt>
+               <resp>Corrections and proofing by</resp>
+               <persName>[Name of Editor working on this]</persName>
+               <!-- LMW Proofing and corrections 2018-01-02 -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>First digital edition in TEI, date: 2017-08-09. P5.</edition><respStmt><resp>We can include a respStmt here.</resp><persName>Who?</persName></respStmt>
+            
+         </editionStmt>   
+         
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2017</date>
+            <availability>
+               <licence>Distributed under a <orgName>Creative Commons</orgName> Attribution-ShareAlike 3.0
+                  Unported License</licence>
+            </availability>
+            
+         </publicationStmt>
+         
+         
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         <sourceDesc>
+          <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc> 
+      
+   </teiHeader>
+  <text>
+      <body>
+         <p><persName ref="#MRM">Mary Russell Mitford</persName>'s  <title ref="#Rienzi">Rienzi, A Tragedy, in Five Acts</title> was first produced at the <placeName ref="#Drury_Lane_Theatre">Theatre Royal, Drury Lane</placeName>, on <date when="1828-10-09">October 9, 1828</date> and was printed in <placeName ref="#London_city">London</placeName> the same year. The first printed edition of the play appears in the <orgName ref="#John_Cumberland_pub">John Cumberland</orgName> series <title level="s">Cumberland's British Theatre</title>. The London edition by Cumberland went through at least three printings, and <persName ref="#MRM">Mitford</persName> wrote in her Preface to the second: <quote>In offering to the world a second edition of [my] Tragedy (the first impression of which was sold in three days), the Authoress has only to repeat her thanks to the excellent performers to whom she was originally indebted for success; and to acknowledge, with sincere gratitude, the almost unanimous kindness with which Rienzi, whether as an acted drama, or a published poem, has been received by the press.</quote> Three separate American editions all appeared in 1829: a <placeName ref="#Baltimore">Baltimore</placeName> edition published by <persName ref="#JRobinson_pub">J. Robinson</persName>; a <placeName ref="#Boston">Boston</placeName> edition published by the Press of the Boston Daily Advertiser; and a <placeName ref="#New_York_city">New York</placeName> edition published by <orgName ref="#Elton_Perkins_pub">Elton and Perkins</orgName>. The play was collected in 1841 by <placeName ref="#Philadelphia">Philadelphia</placeName> publisher <orgName ref="#Crissy_pub">James Crissy</orgName> in <title ref="#Works_of_MRM">The Works of Mary Russell Mitford: Prose and Verse</title>. The play was also included an authorized collection, <title ref="#Dramatic_Works_of_MRM">The Dramatic Works of Mary Russell Mitford</title> in <date when="1854">1854</date> by <placeName ref="#London_city">London</placeName> publisher <orgName ref="#Hurst_Blackett_pub">Hurst and Blackett</orgName>.</p>
+         <p><title ref="#Rienzi">Rienzi</title> also appeared in drama reprint series' throughout the nineteenth century. In <date when="1837">1837</date>, <orgName ref="#Behr_pub">Behr</orgName> produced an edition in <placeName ref="#Berlin">Berlin</placeName>. The New York theatrical publisher <orgName ref="#SFrench_pub">Samuel French</orgName> and its London affiliate <orgName ref="#THLacy_pub">T. H. Lacy</orgName> published editions <date from="1850" to="1879">between the 1850s and the 1870s</date>. Wheat and Cornett of New York published an edition in <date when="1879">1879</date>. An excerpt from the play (often titled "Rienzi's Address to the Romans") was also included in several McGuffey's Readers and other school readers, particularly as a text used to teach rhetoric and elocution. The earliest of these is a Boston rhetoric textbook by William Bentley Fowle entitled <title>The New Speaker, Or Exercises in Rhetoric: Being a Selection of Speeches, Dialogues, and Poetry, from the Most Approved American and British Authors, Suitable for Declamation</title>; one of the latest, McGuffey's Sixth Eclectic Reader of 1921; the piece came to be a standard of school-boy recitation.</p>
+      </body>
+     
+
+  </text>
+</TEI>

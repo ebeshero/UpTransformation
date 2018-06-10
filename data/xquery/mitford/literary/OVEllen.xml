@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor ref="#scw">Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName ref="#scw">Samantha Webb</persName>
+                    <persName ref="#SMP">Sara Perry</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. StewartY</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title ref="#Ellen_OV">ELLEN</title>.</head>
+                <p>A very small gift may sometimes cause great pleasure. <persName ref="#OVNarrator">I</persName> have just received a present which has delighted me more than any thing ever bestowed on me by friends or fortune. It is—But my <persName ref="#Readers_OV">readers</persName> shall guess what it is; and, that they may be enabled to do so, I must tell them a story.</p>
+                <p><persName ref="#Page_Charlotte_OV">Charlotte</persName> and <persName ref="#Page_Ellen_OV">Ellen Page</persName> were the twin daughters of the <persName ref="#Rector_OV">rector</persName> of <placeName ref="#N_town"><abbr>N.</abbr></placeName>, a small town in <placeName ref="#Dorset_county">Dorsetshire</placeName>. They were his only children, having lost their <rs type="person" ref="#Page_Mother_OV">mother</rs> shortly after their birth; and, as their father was highly connected, and still more highly accomplished, and possessed good <orgName ref="#Church_of_E">church</orgName> preferment with a considerable private fortune, they were reared and educated in the most liberal and expensive style. Whilst mere infants, they had been uncommonly beautiful, and as remarkably alike as occasionally happens with twin sisters, distinguished only by some ornament of dress. Their very <persName ref="#Ellen_Nurse_OV">nurse</persName>, as she used to boast, could hardly tell her pretty <said who="#Ellen_Nurse_OV"><rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">couplets</rs></said> apart, so exactly alike were the<pb n="117"/> soft blue eyes, the rosy cheeks, the cherry lips, and the curly light hair. Change the turquoise necklace for the coral, and <persName ref="#Ellen_Nurse_OV">nurse</persName> herself would not know <persName ref="#Page_Charlotte_OV">Charlotte</persName> from <persName ref="#Page_Ellen_OV">Ellen</persName>. This pretty puzzle, this inconvenience, of which mammas and aunts and grandmammas love to complain, did not last long. Either from a concealed fall, or from original delicacy of habit, the little Ellen faded and drooped almost into deformity. There was no visible defect in her shape, except a slight and almost imperceptible lameness when in quick motion; but there was the marked and peculiar look in the features, the languor and debility, and above all the distressing consciousness attendant upon imperfect formation; and, at the age of twenty years, the contrast between the sisters<rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">sisters</rs> was even more striking than the likeness had been at two.</p>
+                <p><persName ref="#Page_Charlotte_OV">Charlotte</persName> was a fine, robust, noble-looking girl, rather above the middle height; her eyes and complexion sparkled and glowed with life and health, her rosy lips seemed to be made for smiles, and her glossy brown hair played in natural ringlets round her dimpled face. Her manner was a happy mixture of the playful and the gentle; frank, innocent, and fearless, she relied with a sweet confidence on every body’s kindness, was ready to be pleased, and secure of pleasing. Her artlessness and <emph><foreign>naïveté</foreign></emph> had great success in society, especially as they were united with the most perfect good-breeding, <pb n="118"/>and considerable quickness and talent. Her musical powers were of the most delightful kind; she sang exquisitely, joining, to great taste and science, a life, and freedom, and buoyancy, quite unusual in that artificial personage, a young lady. Her clear and ringing notes had the effect of a milk-maid’s song, as if a mere ebullition of animal spirits; there was no resisting the contagion of <persName ref="#Page_Charlotte_OV">Charlotte</persName>’s glee. She was a general favourite, and above all a favourite at home,—the apple of her <rs type="person" ref="#Rector_Page_OV">father</rs>’s eye, the pride and ornament of his <rs type="place" ref="#Page_Estate1">house</rs>, and the delight and comfort of his life. The two <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">children</rs> had been so much alike, and born so nearly together, that the precedence in age had never been definitively settled; but that point seemed very early to decide itself. Unintentionally, as it were, Charlotte took the lead, gave invitations, received visitors, sate at the head of the table, became in fact and in name <rs type="person" ref="#Page_Charlotte_OV">Miss Page</rs>, while her <rs type="person" ref="#Page_Ellen_OV">sister</rs> continued <rs type="person" ref="#Page_Ellen_OV">Miss Ellen</rs>.</p>
+                <p>Poor <persName ref="#Page_Ellen_OV">Ellen</persName>! she was short, and thin, and sickly, and pale, with no personal charm but the tender expression of her blue eyes and the timid sweetness of her countenance. The resemblance to her <rs type="person" ref="#Page_Charlotte_OV">sister</rs> had vanished altogether, except when very rarely some strong emotion of pleasure, a word of praise, or a look of kindness from her <rs type="person" ref="#Rector_Page_OV">father</rs>, would bring a smile and a blush at once into her face, and lighten it up like a sunbeam. Then, for a passing moment, she was like <persName ref="#Page_Charlotte_OV">Charlotte</persName>,<pb n="119"/> and even prettier,—there was so much of mind, of soul, in the transitory beauty. In manner she was unchangeably gentle and distressingly shy, shy even to awkwardness. Shame and fear clung to her like her shadow. In company she could neither sing, nor play, nor speak, without trembling, especially when her <rs type="person" ref="#Rector_Page_OV">father</rs> was present. Her awe of him was inexpressible. <persName ref="#Rector_Page_OV">Mr. Page</persName> was a man of considerable talent and acquirement, of polished and elegant manners, and great conversational power,—quick, ready, and sarcastic. He never condescended to scold; but there was something very formidable in the keen glance, and the cutting jest, to which poor <persName ref="#Page_Ellen_OV">Ellen</persName>’s want of presence of mind frequently exposed her,—something from which she shrank into the very earth. He was a good man too, and a kind father—at least he meant to be so,—attentive to her health and comfort, strictly impartial in favours and presents, in pocket-money and amusements, making no difference between the <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">twins</rs>, except that which he could not help, the difference in his love. But, to an apprehensive temper and an affectionate heart, that was every thing; and, whilst <persName ref="#Page_Charlotte_OV">Charlotte</persName> flourished and blossomed like a rose<rs type="plant" ref="#rose">rose</rs> in the sunshine, <persName ref="#Page_Ellen_OV">Ellen</persName> sickened and withered like the same plant in the shade.</p>
+                <p><persName ref="#Rector_Page_OV">Mr. Page</persName> lost much enjoyment by this unfortunate partiality; for he had taste enough to have particularly<pb n="120"/> valued the high endowments which formed the delight of the few friends to whom his <rs type="person" ref="#Page_Ellen_OV">daughter</rs> was intimately known. To them not only her varied and accurate acquirements, but her singular richness of mind, her grace and propriety of expression and fertility of idea, joined to the most perfect ignorance of her own superiority, rendered her an object of as much admiration as interest. In poetry, especially, her justness of taste and quickness of feeling were almost unrivalled. She was no poetess herself, never, I believe, even ventured to compose a sonnet; and her enjoyment of high literature was certainly the keener for that wise abstinence from a vain competition. Her admiration was really worth having. The tears would come into her eyes, the book would fall from her hand, and she would sit lost in ecstasy over some noble passage, till praise, worthy of the theme, would burst in unconscious eloquence from her lips.</p>
+                <p>But the real charm of <persName ref="#Page_Ellen_OV">Ellen Page</persName> lay in the softness of her heart and the generosity of her character: no human being was ever so free from selfishness, in all its varied and clinging forms. She literally forgot herself in her pure and ardent sympathy with all whom she loved, or all to whom she could be useful. There were no limits to her indulgence, no bounds to her candour. Shy and timid as she was, she forgot her fears to plead for the innocent, or the penitent, or even the guilty.<pb n="121"/> She was the excuser-general of the <rs type="place" ref="#N_town">neighbourhood</rs>, turned every speech and action the sunny side without, and often in her good-natured acuteness hit on the real principle of action, when the cunning and the worldly-wise and the cynical, and such as look only for bad motives, had failed. She had, too, that rare quality, a genuine sympathy not only with the sorrowful, (there is a pride in that feeling, a superiority,—we have all plenty of that,) but with the happy. She could smile with those who smiled as well as weep with those who wept, and rejoice in a success to which she had not contributed, protected from every touch of envy, no less by her noble spirit than by her pure humility: she never thought of herself.</p>
+                <p>So constituted, it may be imagined that she was, to all who really knew her, an object of intense admiration and love. Servants, children, poor people, all adored <persName ref="#Page_Ellen_OV">Miss Ellen</persName>. She had other friends in her own rank of life, who had found her out—many; but her chief friend, her principal admirer, she who loved her with the most entire affection, and looked up to her with the most devoted respect, was her <rs type="person" ref="#Page_Charlotte_OV">sister</rs>. Never was the strong and lovely tie of twin-sisterhood more closely knit than in these two charming <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">young women</rs>. <persName ref="#Page_Ellen_OV">Ellen</persName> looked on her favoured <rs type="person" ref="#Page_Charlotte_OV">sister</rs> with a pure and unjealous delight that made its own happiness, a spirit of candour and of justice that never permitted her to cast a shade <pb n="122"/>of blame on the sweet object of her <rs type="person" ref="#Rector_Page_OV">father</rs>'s partiality: she never indeed blamed him, it seemed to her so natural that every one should prefer <rs type="person" ref="#Page_Charlotte_OV">her sister</rs>. <persName ref="#Page_Charlotte_OV">Charlotte</persName>, on the other hand, used all her influence for <persName ref="#Page_Ellen_OV">Ellen</persName>, protected and defended her, and was half-tempted to murmur at an affection which she would have valued more, if shared equally with her dear friend. Thus they lived in peace and harmony, <persName ref="#Page_Charlotte_OV">Charlotte</persName>’s bolder temper and higher spirits leading and guiding in all common points, whilst on the more important she implicitly yielded to <persName ref="#Page_Ellen_OV">Ellen</persName>’s judgment. But, when they had reached their twenty-first year, a great evil threatened one of the <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">sisters</rs>, arising (strange to say) from the other’s happiness. Charlotte, the reigning <emph><foreign>belle</foreign></emph> of an extensive and affluent <placeName ref="#N_town">neighbourhood</placeName>, had had almost as many suitors as <persName ref="#Penelope">Penelope</persName>; but, light-hearted, happy at <rs type="place" ref="#Page_Estate">home</rs>, constantly busy and gay, she had taken no thought of love, and always struck me as a very likely subject for an old maid: yet her time came at last. A <rs type="person" ref="#Page_Charlotte_Husband_OV">young man</rs>, the very reverse of herself, pale, thoughtful, gentlemanlike, and melancholy, wooed and won our fair <persName ref="#Euphrosyne">Euphrosyne</persName>. <rs type="person" ref="#Page_Charlotte_Husband_OV">He</rs> was the second son of a noble house, and bred to the <orgName ref="#Church_of_E">church</orgName>; and it was agreed between the fathers, that, as soon as he should be ordained, (for he still wanted some months of the necessary age,) and settled in a family living held for him by a friend, the young <rs type="person" ref="#Page_Charlotte_OV #Page_Charlotte_Husband_OV">couple</rs> should be married.<pb n="123"/></p>
+                <p>In the mean while<persName ref="#Rector_Page_OV">Mr. Page</persName>, who had recently succeeded to some property in <placeName ref="#Ireland">Ireland</placeName>, found it necessary to go thither for a short time; and, unwilling to take his <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">daughters</rs> with him, as his estate<rs type="place" ref="#Page_Estate2">estate</rs> lay in the disturbed districts,<!--scw: Need to find out what the "disturbed districts are--> he indulged us<orgName ref="#OVNarratorsFamily">us</orgName> with their company during his absense. They came to us in the bursting spring-time, on the very same day with the <rs type="animal" ref="#nightingale">nightingale</rs>; the country was new to them, and they were delighted with the scenery and with our cottage life. We, on our part, were enchanted with our young <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">guests</rs>. Charlotte was certainly the most amiable of enamoured damsels, for love with her was but a more sparkling and smiling form of happiness;—all that there was of care and fear in this attachment fell to <persName ref="#Page_Ellen_OV">Ellen</persName>’s lot; but even she, though sighing at the thought of parting, could not be very miserable whilst her <rs type="person" ref="#Page_Charlotte_OV">sister</rs> was so happy.</p>
+                <p>A few days after their arrival, we happened to dine with our accomplished neighbours, <persName ref="#Falkner_William_OV">Colonel Falkner</persName> and his <rs type="person" ref="#Falkner_Miss_OV">sister</rs>. Our young <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">friends</rs> of course accompanied us; and a similarity of age, of liveliness, and of musical talent, speedily recommended <persName ref="#Page_Charlotte_OV">Charlotte</persName> and <persName ref="#Falkner_Miss_OV">Miss Falkner</persName> to each other. They became immediately intimate, and were soon almost inseparable. <persName ref="#Page_Ellen_OV">Ellen</persName> at first hung back. <said who="#Page_Ellen_OV" direct="false">“The house was too gay, too full of shifting company, of titles, and strange faces. <persName ref="#Falkner_Miss_OV">Miss Falkner</persName> was very kind; but she took too much notice of her, introduced her to lords and ladies, talked of her <pb n="124"/>drawings, and pressed her to sing:—she would rather, if I pleased, stay with <persName ref="#OVNarrator">me</persName>, and walk in the coppice, or sit in the arbour, and one might read <persName ref="#Spenser_Edmund">Spenser</persName> whilst the other worked—that would be best of all. Might she stay?”</said>—<said who="#OVNarrator" direct="true">“Oh surely! But <persName ref="#Falkner_William_OV">Colonel Falkner</persName>, <persName ref="#Page_Ellen_OV">Ellen</persName>, I thought you would have liked him?”</said>—<said who="#Page_Ellen_OV" direct="true">“Yes!”</said>—<said who="#OVNarrator" direct="true">"That <emph>yes</emph>sounds exceedingly like <emph>no</emph>.”</said>—<said who="#Page_Ellen_OV" direct="true">“Why, is he not almost too clever, too elegant, too grand a man? Too mannered, as it were? Too much like what one fancies of a prince—of <persName ref="#GeoIV">George the Fourth</persName>, for instance—too high and too condescending? These are strange faults,”</said> continued she, laughing—<said who="#Page_Ellen_OV">”and it is a curious injustice that I should dislike a man merely because he is so graceful, that he makes me feel doubly awkward—so tall, that I am in his presence a conscious dwarf—so alive and eloquent in conversation, that I feel more than ever puzzled and unready. But so it is. To say the truth, I am more afraid of him than of any human being in the world, except one. I may stay with you—may I not; and read of  <persName ref="#Una">Una</persName> and of <persName ref="#Britomart">Britomart</persName>—that prettiest scene where her <rs type="person" ref="#Glauce">old nurse</rs> soothes her to sleep? I may stay?”</said> And for two or three mornings she did stay with me; but <persName ref="#Page_Charlotte_OV">Charlotte</persName>’s influence and <persName ref="#Falkner_Miss_OV">Miss Falkner</persName>’s kindness speedily drew her to <placeName ref="#Holly_Grove_OV">Holly-grove</placeName>, at first <sic>shily</sic> and reluctantly, yet soon with an evident though quiet enjoyment; and we, sure that our young <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">visitors</rs> could gain nothing but good in such so-<pb n="125"/>ciety, were pleased that they should so vary the humble home-scene.</p> 
+                <p><persName ref="#Falkner_William_OV">Colonel Falkner</persName> was a man in the very prime of life, of that happy age which unites the grace and spirit of youth with the firmness and vigour of manhood. The heir of a large fortune, he had served in the peninsular war<!--scw: annotate-->, fought in <placeName ref="#Spain">Spain</placeName> and <placeName ref="#France">France</placeName> and at <placeName ref="#Waterloo_Belgium">Waterloo</placeName>, and, quitting the <orgName ref="#British_Army">army</orgName> at the peace, had loitered about <placeName ref="#Germany">Germany</placeName> and <placeName ref="#Italy">Italy</placeName> and <placeName ref="#Greece">Greece</placeName>, and only returned on the death of his <rs type="person" ref="#Falkner_Father_OV">father</rs>, two or three years back, to reside on the family <rs type="place" ref="#Falkner_Estate_OV">estate</rs>, where he had won <quote>“golden opinions from all sorts of people.”</quote><note resp="#scw">From <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#Macbeth_play">Macbeth</title>, Act I, scene vii, line 33. Spoken by Macbeth to Lady Macbeth, explaining the honors that King Duncan has bestowed upon him.</note> He was, as <persName ref="#Page_Ellen_OV">Ellen</persName> truly described him, tall and graceful, and well-bred almost to a fault; reminding her of that <emph><foreign>&gt;beau-ideal</foreign></emph> of courtly elegance <persName ref="#GeoIV">Geroge the Fourth</persName>, and me, (pray, reader, do not tell!) me, a little, a very little, the least in the world, of <persName ref="#Chas_Grandison_fict">Sir Charles Grandison</persName>. He certainly did excel rather too much in the mere forms of politeness, in clokings and bowings, and handings down stairs; but then he was, like both his <rs type="person" ref="#GeoIV #Chas_Grandison_fict">prototypes</rs>, thoroughly imbued with its finer essence—considerate, attentive, kind, in the most comprehensive sense of that comprehensive word. I have certainly known men of deeper learning and more original genius, but never any one whose powers were better adapted to conversation, who could blend more happily the most varied and extensive knowledge with the most playful wit and<pb n="126"/> the most interesting and amiable character. <emph>Fascinating</emph> was the word that seemed made for him. His conversation was entirely free from trickery and display—the charm was (or seemed to be) perfectly natural: he was an excellent listener; and when he was speaking to any eminent person—orator, artist, or poet,—I have sometimes seen a slight hesitation, a momentary diffidence, as attractive as it was unexpected. It was this astonishing evidence of fellow-feeling, joined to the gentleness of his tone, the sweetness of his smile, and his studied avoidance of all particular notice or attention, that first reconciled <persName ref="#Page_Ellen_OV">Ellen</persName> to <persName ref="#Falkner_William_OV">Colonel Falkner</persName>. <rs type="person" ref="#Falkner_Miss_OV">His sister</rs> too, a charming young woman, as like him as Viola<persName ref="#Viola_TN">Viola</persName> to <persName ref="#Sebastian_TN">Sebastian</persName>, began to understand the sensitive properties of this shrinking and delicate flower, which, left to itself, repaid their kind neglect by unfolding in a manner that surprised and delighted us all. Before the spring had glided into summer, <persName ref="#Page_Ellen_OV">Ellen</persName> was as much at home at <placeName ref="#Holly_Grove_OV">Holly-grove</placeName> as with us; talked and laughed and played and sang as freely as <persName ref="#Page_Charlotte_OV">Charlotte</persName>. She would indeed break off if visibly listened to, either when speaking or singing; but still the ice was broken; that rich, low, mellow voice, unrivalled in pathos and sweetness, might be heard every evening, even by the <rs type="person" ref="#Falkner_William_OV">Colonel</rs>, with little more precaution, not to disturb her by praise or notice, than would be used with her fellow-warbler the <rs type="animal" ref="#nightingale">nightingale</rs>.<pb n="127"/></p>
+                <p>She was happy at <placeName ref="#Holly_Grove_OV">Holly-grove</placeName>, and we were delighted; but so shifting and various are human feelings and wishes, that, as the summer wore on, before the hay-making was over in its beautiful park, whilst the <rs type="animal" ref="#bee">bees</rs> were still in its <rs type="plant" ref="#lime_tree">lime-trees</rs>, and the <rs type="animal" ref="#golden_Beetle">golden beetle</rs> lurked in its <rs type="plant" ref="#Rose">white rose</rs>, I began to lament that she had ever seen <placeName ref="#Holly_Grove_OV">Holly-grove</placeName> or known <rs type="person" ref="#Falkner_William_OV">its master</rs>. It was clear to me, that unintentionally on his part, unwittingly on hers, her heart was gone,—and, considering the merit of the unconscious possessor, probably gone for ever. She had all the pretty marks of love at that happy moment when the name and nature of the passion are alike unsuspected by the victim. To her there was but one object in the whole world, and that one was <persName ref="#Falkner_William_OV">Colonel Falkner</persName>: she lived only in his presence; hung on his words; was restless she knew not why in his absence; adopted his tastes and opinions, which differed from hers as those of clever men so frequently do from those of clever women; read the books he praised, and praised them too, deserting our old idols, <persName ref="#Spenser_Edmund">Spenser</persName> and <persName ref="#Fletcher_John">Fletcher</persName>, for his favourites, <persName ref="#Dryden">Dryden</persName> and <persName ref="#Pope_Alex">Pope</persName>; sang the songs he loved as she walked about the house; drew his features instead of <persName ref="#Milton">Milton</persName>’s in a portrait which she was copying for me of our great poet,—and finally wrote his name on the margin. She moved as in a dream—a dream as innocent as it was delicious!—but oh the sad, sad waking! It made my heart ache to<pb n="128"/> think of the misery to which that fine and sensitive mind seemed to be reserved. <persName ref="#Page_Ellen_OV">Ellen</persName> was formed for constancy and suffering—it was her first love, and it would be her last. I had no hope that her affection was returned. Young men, talk as they may of mental attractions, are commonly the slaves of personal charms. <persName ref="#Falkner_William_OV">Colonel Falkner</persName>, especially, was a professed admirer of beauty. I had even sometimes fancied that he was caught by <persName ref="#Page_Charlotte_OV">Charlotte</persName>’s, and had therefore taken an opportunity to communicate her engagement to <rs type="person" ref="#Falkner_Miss_OV">his sister</rs>. Certainly he paid our fair and blooming <rs type="person" ref="#Page_Charlotte_OV">guest</rs> extraordinary attention: any thing of gallantry or compliment was always addressed to her, and so for the most part was his gay and captivating conversation; whilst his manner to <persName ref="#Page_Ellen_OV">Ellen</persName>, though exquisitely soft and kind, seemed rather that of an affectionate brother. I had no hopes.</p>
+                <p>Affairs were in this posture when I was at once grieved and relieved by the unexpected recall of our young <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">visitors</rs>. Their <rs type="person" ref="#Rector_Page_OV">father</rs> had completed his business in <placeName ref="#Ireland">Ireland</placeName>, and was eager to return to his dear <rs type="place" ref="#Page_Estate">home</rs>, and his dear <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">children</rs>; Charlotte’s <rs type="person" ref="#Page_Charlotte_Husband_OV">lover</rs>, too, was ordained, and was impatient to possess his promised <rs type="person" ref="#Page_Charlotte_OV">treasure</rs>. The intended <rs type="person" ref="#Page_Charlotte_Husband_OV">bridegroom</rs> was to arrive the same evening to escort the fair <rs type="person" ref="#Page_Charlotte_OV #Page_Ellen_OV">sisters</rs>, and the journey was to take place the next day. Imagine the revulsion of feeling produced by a short note, a<pb n="129"/> bit of folded paper—the natural and redoubled ecstacy of <persName ref="#Page_Charlotte_OV">Charlotte</persName>, and the mingled emotions of <persName ref="#Page_Ellen_OV">Ellen</persName>. She wept bitterly: at first she called it joy—joy that she should again see her dear <rs type="person" ref="#Rector_Page_OV">father</rs>; then it was grief to lose her <persName ref="#Page_Charlotte_OV">Charlotte</persName>; grief to part from me; but, when she threw herself in a farewell embrace on the neck of <persName ref="#Falkner_Miss_OV">Miss Falkner</persName>, whose <rs type="person" ref="#Falkner_William_OV">brother</rs> happened to be absent for a few days on business, the truth appeared to burst upon her at once, in a gush of agony that seemed likely to break her heart. <persName ref="#Falkner_Miss_OV">Miss Falkner</persName> was deeply affected; begged her to write to her often, very often; loaded her with the gifts of little price, the valueless tokens which affection holds so dear, and stole one of her fair ringlets in return. <said who="#Falkner_Miss_OV" direct="true">“This is the curl which <persName ref="#Falkner_William_OV">William</persName> used to admire,”</said> said she: <said who="#Falkner_Miss_OV" direct="true">“have you no message for <persName ref="#Falkner_William_OV">poor William</persName>?”</said>—Poor <persName ref="#Page_Ellen_OV">Ellen</persName>! her blushes spoke, and the tears which dropped from her downcast eyes; but she had no utterance. <persName ref="#Page_Charlotte_OV">Charlotte</persName>, however, came to her relief with a profusion of thanks and compliments; and <persName ref="#Page_Ellen_OV">Ellen</persName>, weeping with a voilence that would not be controlled, at last left Holly-grove.</p>
+                <p>The next day we too lost <rs type="person" ref="#Page_Ellen_OV #Page_Charlotte_OV">our dear young friends</rs>. Oh what a sad day it was! how much we missed <persName ref="#Page_Charlotte_OV">Charlotte</persName>’s bright smile and <persName ref="#Page_Ellen_OV">Ellen</persName>’s sweet complacency! We walked about desolate and forlorn, with the painful sense of want and insufficiency, and of that vacancy in our home, and at our board, which the departure of a <pb n="130"/>cherished guest is sure to occasion. To lament the absence of <persName ref="#Page_Charlotte_OV">Charlotte</persName>, the dear <persName ref="#Page_Charlotte_OV">Charlotte</persName>, the happiest of the happy, was pure selfishness; but of the aching heart of <persName ref="#Page_Ellen_OV">Ellen</persName>, my dear <persName ref="#Page_Ellen_OV">Ellen</persName>, I could not bear to think—and yet I could think of nothing else, could call up no other image than her pale and trembling form, weeping and sobbing as I had seen her at <placeName ref="#Holly_Grove_OV">Holly-grove</placeName>; she haunted even my dreams.</p>
+                <p>Early the ensuing morning I was called down to the <rs type="person" ref="#Falkner_William_OV">colonel</rs>, and found him in the garden. He apologised for his unseasonable intrusion; talked of the weather, then of the loss which our society had sustained; blushed and hesitated; had again recourse to the weather; and at last by a mighty effort, after two or three sentences begun and unfinished, contrived, with an embarassment more graceful and becoming than all his polished readiness, to ask me to furnish him with a letter to <persName ref="#Rector_Page_OV">Mr. Page</persName>. <said who="#Falkner_William_OV" direct="true">“You must have seen,”</said> said he, colouring and smiling, <said who="#Falkner_William_OV" direct="true">“that I was captivated by <rs type="person" ref="#Page_Ellen_OV">your beautiful friend</rs>; and I hope—I could have wished to have spoken first to herself, to have made an interest—but still if her affections are disengaged—tell me, you who must know, you who are always my friend, have I any chance? Is she disengaged?”</said>—<said who="#OVNarrator" direct="true">“Alas! I have sometimes feared this; but I thought you had heard—<rs type="person" ref="#Falkner_Miss_OV">your sister</rs> at least was aware”</said>—<said who="#Falkner_William_OV" direct="true">“Of what? It was but this very morn-<pb n="131"/>ing—aware of what?”</said>—<said who="#OVNarrator" direct="true">“Of <persName ref="#Page_Charlotte_OV">Charlotte</persName>’s engagement.”</said>—<said who="#Falkner_William_OV" direct="true">“<persName ref="#Page_Charlotte_OV">Charlotte</persName>! It is of <persName ref="#Page_Ellen_OV">Ellen</persName>, not <rs type="person" ref="#Page_Charlotte_OV">her sister</rs>, that I speak and think! Of <persName ref="#Page_Ellen_OV">Ellen</persName>, the pure, the delicate, the divine! That whitest and sweetest of flowers; the <rs type="plant" ref="#jasmine">jasmine</rs>, the <rs type="plant" ref="#myrtle">myrtle</rs>, the <rs type="plant" ref="#tuberose">tuberose</rs> among women,”</said> continued he, elucidating his similes by gathering a sprig of each plant, as he paced quickly up and down the garden walk—<said who="#Falkner_William_OV" direct="true">“Ellen, the fairest and the best; your darling, and mine! Will you give me a letter to <rs type="person" ref="#Rector_Page_OV">her father</rs>? And will you wish me success?”</said>—<said who="#OVNarrator" direct="true">“Will I! Oh! how sincerely! My dear <persName ref="#Falkner_William_OV">colonel</persName>, I beg a thousand pardons for undervaluing your taste—for suspecting you of preferring a <rs type="plant" ref="#damask_Rose">damask rose</rs> to a blossomed <rs type="plant" ref="#myrtle">myrtle</rs>; I should have known you better.”</said>—And then we talked of <persName ref="#Page_Ellen_OV">Ellen</persName>, dear <persName ref="#Page_Ellen_OV">Ellen</persName>, talked and praised till even the lover’s heart was satisfied. I am convinced that he went away that morning, persuaded that I was one of the cleverest women, and the best judges of character that ever lived.</p>
+                <p>And now my story is over. What need to say, that the letter was written with the warmest zeal, and received with the most cordial graciousness—or that <persName ref="#Page_Ellen_OV">Ellen</persName>, though shedding sweet tears, bore the shock of joy better than the shock of grief,—or that the <rs type="person" ref="#Page_Ellen_OV #Page_Charlotte_OV">twin sisters</rs> were married on the same day, at the same altar, each to the man of her heart, and each with every prospect of more than common felicity? What <pb n="132"/>need to say this? Or, having said this, why should I tell what was the gift that so enchanted me? I will not tell:—my readers shall decide according to their several fancies between silver favours, or bridal gloves, or the magical wedding-cake, drawn nine times though the ring.<!--scw: further research needed on drawing the cake through the ring. It comes up in a number of sketches.--><pb n="133"/></p>
+            </div>
+            
+        </body>
+        <back>
+            <div type="fictional_and_archetypal">
+                <listPerson sortKey="fictPersons">
+                
+                <person xml:id="Page_Charlotte_OV" sex="f">
+                    <persName>Charlotte Page</persName>
+                    <persName>
+                        <surname>Page</surname>
+                        <forename>Charlotte</forename>
+                    </persName>
+                    <note resp="#smp">Character of Charlotte Page from the <title ref="#OurVillage_1st">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. <persName ref="#Page_Charlotte_OV">Charlotte</persName> is the twin sister of <persName ref="#Page_Ellen_OV">Ellen</persName>, daughter of the <persName ref="#Rector_Page_OV">rector</persName> of <placeName ref="#N_town">N.</placeName>, and fiance of a soon-to-be ordained man.</note>
+                </person>
+                
+                    <person xml:id="Rector_Page_OV" sex="m">
+                        <persName>Mr. Page</persName>
+                        <persName>
+                            <surname>Page</surname>
+                        </persName>
+                        <note resp="#smp">Character of the rector from the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. He is the father of <persName ref="#Page_Charlotte_OV">Charlotte</persName> and <persName ref="#Page_Ellen_OV">Ellen</persName> Page, a rector of <placeName ref="#N_town">N.</placeName>, and a widower. Forename not given.</note>
+                    </person>
+                
+                    <person xml:id="Readers_OV">
+                        <persName>reader</persName>
+                        <persName>readers</persName>
+                        <note resp="#smp"><title ref="#Our_Village1st_ed">Our Village</title>'s audience that the <persName ref="#OVNarrator">narrator</persName> is speaking to.</note>
+                    </person>
+                
+                    <person xml:id="Una" sex="f">
+                        <persName>Una</persName>
+                        <note resp="#smp">A character in <title ref="#FaerieQu_ES">The Faerie Queene</title> by <persName ref="#Spenser_Edmund">Edmund Spenser.</persName></note>
+                    </person>
+                
+                    <person xml:id="Glauce" sex="f">
+                        <persName>Glauce</persName>
+                        <note resp="#smp">A character in <title ref="#FaerieQu_ES">The Faerie Queene</title> by <persName ref="#Spenser_Edmund">Edmund Spenser.</persName></note>
+                    </person>
+                
+                    <person xml:id="Britomart" sex="f">
+                        <persName>Britomart</persName>
+                        <note resp="#smp">A character in <title ref="#FaerieQu_ES">The Faerie Queene</title> by <persName ref="#Spenser_Edmund">Edmund Spenser.</persName></note>
+                    </person>
+                
+                    <person xml:id="Page_Ellen_OV" sex="f">
+                        <persName>Ellen Page</persName>
+                        <persName>
+                            <surname>Page</surname>
+                            <forename>Ellen</forename>
+                        </persName>
+                        <note resp="#smp">Title character from the <title ref="#Our_Village1st ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. She is the daughter of a <rs type="person" ref="#Rector_Page_OV">rector</rs>, twin sister of <persName ref="#Page_Charlotte_OV">Charlotte Page</persName>, and wife of <persName ref="#Falkner_William_OV">Colonel Falkner</persName>.</note>
+                    </person>
+             
+                    <person xml:id="Page_Mother_OV" sex="f">
+                        <persName>mother</persName>
+                        <persName>
+                            <surname>Page</surname>
+                        </persName>
+                        <note resp="#smp">Appears in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. The mother of <persName ref="#Page_Charlotte_OV">Charlotte Page</persName> and <persName ref="#Page_Ellen_OV">Ellen Page</persName>.</note>
+                    </person>
+               
+                    <person xml:id="Falkner_Father_OV" sex="m">
+                        <persName>father</persName>
+                        <persName>
+                            <surname>Falkner</surname>
+                        </persName>
+                        <note resp="#smp">Appears in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. The father of <persName ref="#Falkner_Miss_OV">Miss Falkner</persName> and <persName ref="#Falkner_William_OV">William Falkner</persName>.</note>
+                    </person>
+               
+                    <person xml:id="Falkner_William_OV" sex="m">
+                        <persName>William Falkner</persName>
+                        <persName>Colonel Falkner</persName>
+                        <persName>
+                            <surname>Falkner</surname>
+                            <forename>William</forename>
+                        </persName>
+                        <occupation>Colonel</occupation>
+                        <note resp="#smp">Character from the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. He is the brother of <persName ref="#Falkner_Miss_OV">Miss Falkner</persName> and husband of <persName ref="#Page_Ellen_OV">Ellen Page</persName>.</note>
+                    </person>
+              
+                    <person xml:id="Falkner_Miss_OV" sex="f">
+                        <persName>Miss Falkner</persName>
+                        <persName>
+                            <surname>Falkner</surname>
+                        </persName>
+                        <note resp="#smp">Character from the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. She is the sister of <persName ref="#Falkner_William_OV">Colonel Falkner</persName> and the sister-in-law of <persName ref="#Page_Ellen_OV">Ellen Page</persName>. No forename given.</note>
+                    </person>
+               
+                    <person xml:id="Ellen_Nurse_OV" sex="f">
+                        <persName>nurse</persName>
+                        <occupation>nurse</occupation>
+                        <note resp="#smp">Character from the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. She is the nurse of <persName ref="#Page_Charlotte_OV">Charlotte Page</persName> and <persName ref="#Page_Ellen_OV">Ellen Page</persName>. No formal name given.</note>
+                    </person>
+                
+                    <person xml:id="Page_Charlotte_Husband_OV" sex="m">
+                        <note resp="#smp">Appears in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. The husband of <persName ref="#Page_Charlotte_OV">Charlotte Page</persName>.</note>
+                    </person>
+                </listPerson>
+                
+                <listPerson sortKey="archPersons"> 
+                    
+                    <person xml:id="Euphrosyne" sex="f">
+                        <persName>Euphrosyne</persName>
+                        <note resp="#smp">One of the three Charites in ancient Greek religion. A daughter of Zeus, a Goddess of Joy or Mirth, and the incarnation of grace and beauty.</note>
+                    </person>
+                </listPerson>
+                
+                <listOrg sortKey="histOrgs">
+                    <org xml:id="British_Army">
+                        <name>British Army</name>
+                        <name>Army</name>
+                        <note resp="#smp">The principal land warfare force of the United Kingdom.</note>
+                    </org>
+                </listOrg>
+            </div>
+            
+            <div type="places">
+                <listPlace sortKey="histPlaces">
+                
+               
+                    <place xml:id="Dorset_county">
+                        <placeName>Dorsetshire</placeName>
+                        <placeName>Dorset</placeName>
+                    <location><geo>50.7488 2.3445</geo></location>
+                    <note resp="#smp">A county in South West England on the English Channel coast. While known as Dorset today, it was archaically known as Dorsetshire.</note>
+                    </place>
+                    
+                   
+                        <place xml:id="Greece">
+                            <placeName>Greece</placeName>
+                        </place>
+                    
+                </listPlace>
+                
+                <listPlace sortKey="fictPlaces">
+                
+                    <place xml:id="N_town">
+                        <placeName>town of N.</placeName>
+                        <placeName>N.</placeName>
+                    <note resp="#smp">A small town in Dorsetshire where <persName ref="#Page_Charlotte_OV">Charlotte Page</persName>, <persName ref="#Page_Ellen_OV">Ellen Page</persName>, and their <rs type="person" ref="#Rector_Page_OV">father</rs> resided in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>.</note>
+                    </place>
+                
+                    <place xml:id="Holly_Grove_OV">
+                        <placeName>Holly-grove</placeName>
+                        <note resp="#smp">Mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>. The home of <persName ref="#Falkner_Miss_OV">Miss Falkner</persName> and <persName ref="#Falkner_William_OV">Colonel Falkner</persName>.</note>
+                    </place>
+               
+                    <place xml:id="Page_Estate1">
+                        <placeName>Page Estate</placeName>
+                        <note resp="#smp">The house belonging to <persName ref="#Rector_Page_OV">Rector Page</persName>. Mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>.</note>
+                    </place>
+               
+                    <place xml:id="Page_Estate2">
+                        <placeName>Page Estate</placeName>
+                        <note resp="#smp">Property belonging to <persName ref="#Rector_Page_OV">Rector Page</persName> that is located in <placeName ref="#Ireland">Ireland</placeName>. Mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>.</note>
+                    </place>
+                </listPlace>
+                
+                <listPlace>
+                    <place xml:id="Falkner_Estate">
+                        <placeName>Falkner Estate</placeName>
+                        <note resp="#smp">The house belonging to <persName ref="#Falkner_William_OV">William Falkner</persName> and <persName ref="#Falkner_Miss_OV">Miss Falkner</persName>. Mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Ellen_OV">Ellen</title>.</note>
+                    </place>
+                </listPlace>
+            </div>
+                
+                <div type="nature">
+                    <list sortKey="plants">
+               
+                        <item xml:id="Rose">
+                    <name>Rose</name>
+                    <name>
+                        <rs type="genus">Rose</rs>
+                        <rs type="family">Rosaceae</rs>
+                    </name>
+                    <note resp="#smp">A rose is a woody perennial flowering plant. Most species are native to Asia, with some being native to North America, Europe, and northwester Africa.</note>
+                    </item>
+            
+                        <item xml:id="lime_tree"><!--scw: Tillia-->
+                    <name>linden</name>
+                    <name>basswood</name>
+                    <name>tilia</name>
+                    <name>
+                        <rs type="genus">Tilia</rs>
+                        <rs type="family">Malvaceae</rs>
+                        <rs type="order">Malvales</rs>
+                    </name>
+                    <note resp="#smp">A genus of trees commonly referred to as lime trees in England, although they are not related to the lime fruit.</note>
+                </item>
+            
+                    <item xml:id="jasmine">
+                        <name>jasmine</name>
+                        <name> 
+                        <rs type="genus">Jasminum</rs>
+                            <rs type="family">Oleaceae</rs>
+                            <rs type="order">Lamiales</rs>
+                        </name>
+                        <note resp="#smp">A genus of shrubs in vines in the olive family that are cultivated for the fragrance of their flowers.</note>
+                    </item>
+                
+                    <item xml:id="myrtle">
+                        <name>myrtle</name>
+                        <name>
+                            <rs type="genus">Myrtus</rs>
+                            <rs type="family">Myrtaceae</rs>
+                            <rs type="order">Myrtales</rs>
+                        </name>
+                        <note resp="#smp">A genus of flowering plants found in Europe and North Africa.</note>
+                    </item>
+                
+                    <item xml:id="tuberose">
+                        <name>tuberose</name>
+                        <name>
+                            <rs type="genus">Polianthes</rs>
+                            <rs type="family">Asparagaceae</rs>
+                            <rs type="order">Asparagales</rs>
+                        </name>
+                        <note resp="#smp">A perennial plant that is frequently used in perfumes.</note>
+                    </item>
+                
+                    
+        <item xml:id="damask_Rose">
+                <name>damask rose</name> 
+                    <name>Rose of Castile</name>
+                    <name>
+                        <rs type="genus">Rosa</rs>
+                        <rs type="family">Rosaceae</rs>
+                        <rs type="order">Rosales</rs>
+                    </name>
+                    <note resp="#smp">A rose hybrid that is renowned for its fine fragrance.</note>
+                </item>
+                    </list>
+                
+                
+                    <list sortKey="animals">
+               
+                    <item xml:id="nightingale">
+                        <name>Nightingale</name>
+                        <name>
+                            <rs type="genus">Luscinia</rs>
+                            <rs type="species">L. megarhynchos</rs>
+                            <rs type="family">Muscicapidae</rs>
+                        </name>
+                        <note resp="#smp">A small bird best known for its beautiful and powerful song.</note>
+                    </item>
+                
+                    <item xml:id="golden_Beetle">
+                        <name>golden beetle</name>
+                        <name>golden tortoise beetle</name>
+                        <name>
+                            <rs type="genus">Charidotella</rs>
+                            <rs type="species">C. sexpunctata</rs>
+                            <rs type="family">Chrysomelidae</rs>
+                        </name>
+                        <note resp="#smp">A species of leaf beetle that is native to the Americas.</note>
+                    </item>
+                    </list>
+                    
+                    <list sortKey="rocks"> <!-- LMW: we need to make a new sort key classification for these. Will this or something similar work? -->
+                    <item xml:id="turquoise"> 
+                        <name>turquoise</name>
+                        <note resp="#smp">An opaque, blue-green stone that can be marketed as a gem for jewelry and is found in dry and barren places on Earth.</note>
+                    </item>
+                 
+                <item xml:id="coral">
+                        <name>coral</name>
+                        <name>precious coral</name>
+                        <name>red coral</name>
+                        <note resp="#smp">A durable, intensely pink or red coral that is used for making jewelry.</note>
+                    </item>
+                </list>
+                </div>
+        </back>
+    </text>
+</TEI>

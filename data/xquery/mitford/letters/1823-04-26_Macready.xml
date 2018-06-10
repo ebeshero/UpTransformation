@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Id_what">Letter to <persName ref="#Macready_Wm">William Macready</persName>, April 24, 1823</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#Id_who"/> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+              <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <sponsor>Pittsburgh Supercomputing Center</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+        
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName ref="#bas">Brooke A. Stewart</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2018-02-02">2018-02-02</date>
+               Proofing and corrections by</resp>
+               <!-- List all proofreaders here, <persName> by <persName>.--> 
+               <persName ref="#Id_who">Lisa M. Wilson</persName><!-- In a comment tag after YOUR <persName> entry, indicate what you proofed and when. For example: LMW 2015-10-03:  Proofed body text against ms.  Needs revised header, did not proof. -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2017-11-17">November 17, 2017</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>April1823WilliamMacready1a#.JPG, April1823WilliamMacready1b#.JPG, April1823WilliamMacready1c#.JPG, April1823WilliamMacready2a#.JPG, April1823WilliamMacready2b#.JPG, April1823WilliamMacready2c#.JPG, April1823WilliamMacready3a#.JPG, April1823WilliamMacready3b#.JPG, April1823WilliamMacready3c#.JPG, April1823WilliamMacready4a#.JPG, April1823WilliamMacready4b#.JPG, April1823WilliamMacready4c#.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 471</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to Sir William Macready, <date when="1823-04-26">1823 April 26</date>.
+               </head> 
+               <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support> <p>One quarto sheet of <material>paper</material> folded in half to form two octavo pages, which comprise pages 1-4 of the letter. The letter has been folded in thirds.</p> 
+                        <p>There is no address leaf.</p>
+                     </support>
+                     <condition>
+                        <p>There are no tears or holes in the paper.</p>
+                     </condition>
+               </supportDesc>
+               </objectDesc>
+                  <sealDesc>
+                     <p>No seal is present.</p> 
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of leaves two, three, and four.</handNote>
+           <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "8" in the top left of the first leaf.</handNote>
+              <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, "Copy of a letter to William Macready Esq." is written on the top left of the first page.
+              </handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl>
+              <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+           </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+        <change when="2018-02-03" who="#bas">Completed header.</change>
+        <change when="2018-01-22" who="#bas">Added indo information. Fixed some transcription and tagging errors.</change>
+        <change when="2017-11-19" who="#bas">Transcription completed. Needs to be proofread.</change>
+        <change when="2017-11-17" who="#bas">Transcription started.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="April1823WilliamMacready1c#.JPG"/>
+            <opener> 
+               <add hand="#penAnnot_RCL">Copy of a letter to William Macready Esq.</add> 
+               <add hand="#pencil">8</add>
+               <dateline>
+                  <name type="place" ref="#ThreeMileCross">Three Mile Cross<!--Mitford's record of the place. The @ref attribute records the id on the Site Index entry for this place.--></name> 
+                  <date when="yyyy-mm-dd">April</date>. <!-- 2017-11-17 bas: How are we sure of the year? Context clues? -->
+               </dateline>
+               <salute>My dear Sir,</salute>
+            </opener>
+            <p>Do not fancy yourself engaged in another "Mirandola" <!-- 2017-11-17 bas: I keep forgetting how we agreed to handle these types of quotes. The handbook says to represent them how Mitford does, but I thought we were using the <q> element? --> office, when I take the great liberty--too great perhaps!<!-- 2017-11-17 bas: Is this actually an exclamation point?-->--of requesting you to send over the enclosed scheme of a Play on the story of <add place="above"><persName ref="#Medici_Garzia">Garzia</persName></add><!-- 2017-11-17 bas: Is this the same name in a different hand perhaps? --> <persName ref="#Medici_Garzia">Garzia</persName> de' Medici &amp; to tell me if you think it be worth attempting in one word yes or no. The subject first struck me in the <title level="m">Life of Benvenuto Cellini</title>, &amp; on reperusing whilst in <rs type="place" ref="#London_city">Town</rs> the intense but terrible Tragedy of Alfieri, I was still more caught by the contrast of character which it offers &amp; the dreadful truth of the catastrophe--I have somewhat injured the collision of various characters in one family, which is so striking in his play, by the omission of one of the brothers, which seemed necessary to disencumber the plot--but he could be restored if necessary. Altogether I do not like the subject so well as not to be very ready to abandon it if I could find a better. Procida <emph rend="underline">is</emph> a better--but then--would that be quite right?--Well you tell me what their Procida is--&amp; perhaps we may find out the real Author<!-- 2017-11-17 bas: L'estrange provides: "Mrs. Hemans. It was produced under the name of 'The Sicilian Vespers.'" I'll look into this more. -->--if it be by a woman--really a woman, &amp; writing for money--Heaven forbid that I should jostle with <del rend="squiggles"><gap quantity="1" unit="word"/></del>her!--If it be <persName ref="#Milman_HH">Mr. Milman</persName> I should not mind taking the field.--<persName ref="#Rimini_Fran">Francesca da Rimini</persName> beginning with the scene of Phadre from <persName ref="#Euripides">Euripides</persName>, &amp; making the brother--I forget his name--Paolo quite unconscious of his love till it bursts on him suddenly in reading with her the old romance--that would be very fine if we had a great <pb n="2" facs="April1823WilliamMacready2b#.JPG"/>Actress--but <persName ref="#Lacy_Miss">Miss Lacy</persName>--Oh!--<title ref="#Rienzi">Rienzi</title>--I don't think you like <title ref="#Rienzi">Rienzi</title>, &amp; perhaps <persName ref="#Gibbon_Edward">Gibbon</persName><!-- 2017-11-18 bas: Is this the correct person? --> has done too much for the story, &amp; it would transgress<!-- ? --> too violently against the rule of time, &amp; be too political--the temptation is, that there exists, or that I have fancied, some slight resemblance of character &amp; history between him &amp; <persName ref="#Napoleon">Napoleon</persName>; both of obscure birth, both governing by force of mind, both driven headlong to ruin by an indomitable self will, rising by liberty &amp; falling by ambition--surely there is enough resemblance to justify an attempt to portray the man who, with all his faults has possessed my imagination all my life long. But I am afraid of the attempt--It would be<add place="above"> <metamark place="below" function="insertion" rend="caret"/>an</add> over excitement--I should get nervous &amp; fail.--<persName ref="">Masaniello</persName> the Fisherman of Naples--is he promising?--Am I likely to find any thing to the purpose in Froissart?--I have not seen that delightful book for many years--but I remember a romantic story of the Count of Orthes &amp; his son--I don't however think it would do for Tragedy--though the old Chronicler is full of high &amp; chivalrous incident--I must read him for that. I am half afraid of attacking Greek or Roman story, because women from mere want of learning, from the absence of real depth are always pedantic &amp; spread their thin gold leaf over an immense quantity of surface--And yet History is best for a thousand reasons. Well, if I were wise I should form a strong resolution to conquer my besetting sin of idleness, to renounce "le delicieux far' niente" as <persName ref="#Rousseau">Rousseau</persName> calls it, &amp; work hard this summer so as to produce two or three Tragedies from which you might choose, if any were worthy of your choice, &amp; throw the others into the fire--in that case, the immediate selection of a subject would be<pb n="3" facs="April1823WilliamMacready3c#.JPG"/> of less consequence &amp; I might leave to Chance--who has a great deal to do on these occasions--the suggestion of a good Tragedy--I mean <!-- 2017-11-18 bas: unsure of the couple words after the dash. --> a good subject whilst I was writing on a bad one.--But I don't know that I could write two or three Plays in 7 or 8 months--besides being incorrigibly idle I am really lamentably &amp; inconquerably slow--I have an almost insurmountable difficulty in procuring a fixity of attention--I never could learn chess.--Tell me shall I try <persName ref="#Medici_Garzia">Garzia</persName>?</p>     
+            <p>My <rs type="person" ref="#Mitford_Geo">Father</rs>, who <emph rend="underline">would</emph> go to <rs type="place" ref="#London_city">Town</rs>, tells me as your dear sister does, that <title ref="#Julian_MRMplay">Julian</title> went splendidly on Wednesday and not amiss considering the wet night on Friday &amp; that you think it rising--but you must not perform that fatiguing part again when you are not well--no--not for all the <title ref="#Julian_MRMplay">Julian</title>s in the world--I have implored your sister not to let you. Are you amenable to this sort of management? By the way if the Play do not reach the ninth night, it will be a very complete refutation of <persName ref="#Kemble_C">Mr. Kemble</persName>'s axiom that no single performer can fill the Theatre--for <del rend="squiggles"><supplied resp="#bas">who</supplied></del>, except our pretty <persName ref="#Alfonso_J">Alphonso</persName>,<handShift resp="#penAnnot_RCL"/><metamark rend="ex" place="above" function="note_insertion"/><note resp="#penAnnot_RCL"><persName ref="#Foote_Maria">Miss Foote</persName></note><handShift resp="#MRM"/><del rend="squiggles"><gap quantity="1" unit="word"/></del><!-- 2017-11-18 bas: The codebook only has dotted_Ex for a metamark, but this x is not dotted in the letter; how should this be represented? --> there is in <title ref="#Julian_MRMplay">Julian</title> one &amp; only one--let him imagine how deeply we feel his exertions &amp; his kindness.--Have you seen the attack upon <emph rend="underline">us</emph> in the <title ref="#LondonMag" level="j">London</title>? Can you guess the Author? It is evidently one who does not understand <del rend="squiggles"><gap quantity="1" unit="word"/></del> who has never felt the pleasure of gratitude, the delight of being thankful--but I hope that it is not, that it cannot be--no, though I know from a part of <persName>Mrs. Kemble</persName>'s tirade that he has joined the opposite party, I will not suspect that a man of genius could write that sneering and hateful article. I had hoped that <persName ref="#Talfourd_Thos">Mr. Talfourd</persName> would through <persName ref="#Lamb_Chas">Mr. Charles Lamb</persName> have guarded against any thing so unfavorable as that--but this Circuit <handShift resp="#penAnnot_RCL"/><metamark rend="dotted_Ex" place="above" function="note_insertion"/><note resp="#penAnnot_RCL">which <!-- ? --> <persName ref="#Talfourd_Thos">Talfourd</persName> <!-- ? -->from <rs type="place" ref="#London_city">Town</rs>.</note><handShift resp="#MRM"/> has been as <pb n="4" facs="April1823WilliamMacready4c#.JPG"/>far as the Press is concerned a great loss to both of us--There is nothing that can vex me so much as to be made the instrument, the plea for attacking such a friend--&amp; our discourteous critics, in whose eyes to be a woman is a <!-- 2017-11-18 bas: crime? -->, seem to have found that out. To make amends <persName ref="#Haydon">Mr. Haydon</persName> writes the word, that <persName ref="#Hazlitt_Wm">Mr. Hazlitt</persName> has applied to <persName ref="">Mr. Jeffrey</persName> for his sanction to review <title ref="#Julian_MRMplay">Julian</title> in the <title ref="#EdinburghRev_per" level="j">Edinburgh</title>--This is a great Compliment, &amp; will be, if the request be granted, a great advantage--he will do it so well. Of course this is quite in confidence.--Did my <rs type="person" ref="#Mitford_Geo">Father</rs> tell you that <persName ref="">Mrs. Randolph</persName> heard from some one (probably <persName ref="">Mrs. Horace Twiss</persName>) that the <persName ref="#Kemble_C #Kemble_MrsC">Kembles</persName> are exceedingly angry (I don't very well know at what) &amp; that the <rs type="person" ref="#Kemble_MrsC">Mrs. K</rs>, believed they had sent back <title ref="#Foscari_MRMplay">Foscari</title>? <emph rend="underline">That</emph> has not happened--&amp; the information was I think before <persName ref="#Kemble_C">Mr. Kemble</persName>'s return.--It is right that I should tell you that <persName ref="#Hamilton_S">Mr. Hamilton</persName> says I mistook <persName ref="#Elliston_Robt">Mr. Elliston</persName>'s message--It was only that he had no objection to read <del rend="squiggles"><gap quantity="1" unit="word"/></del><add place="above"><title ref="#Foscari_MRMplay">Foscari</title></add> against the next season, &amp; was not a direct message, only a passage in conversation. You will not I am sure suspect me of <emph rend="underline">intentional</emph> mistake in this affair--<persName ref="#Talfourd_Thos">Mr. Talfourd</persName> says that I cannot possibly without honour take <del rend="squiggles"><gap quantity="1" unit="word"/></del><add place="above"> <metamark place="below" function="insertion" rend="caret"/>the Play</add> from one house to give it to the other--&amp; advises me not to be in a hurry to withdraw it--so I shall not. You will rely on my assurance that it shall never be acted there to your Annoyance--You believe me--do you not?--&amp; for the rest I rejoice to be spared the prospect of immediate contention &amp; quarrel--Now that I am here in the quiet Country I would fain have none but calm &amp; peaceful feeling <!-- 2017-11-19 bas: not sure of feeling. -->&amp; would be thankful even to the Managers for the use of their Theatre--will be thankful if they will let me--How thankful I am to <!-- 2017-11-19 bas: unsure of word. one? --> a very different one, I can never say--never! I am frightened to look at the length of this letter--I may say with <persName ref="#Anacreon">Anacreon</persName>'s dove, "I have chattered like a jay"--Pray forgive it, &amp; believe me always, my dear Sir
+            </p>
+               
+            <closer>
+            Most sincerely &amp; gratefully yours
+            <persName ref="#MRM">M. R. Mitford</persName>. 
+            </closer> 
+            
+            <postscript><p><!--A postscript goes here, outside the <closer>. --></p></postscript><!--You can include a <pb/> here, or inside the postScript.--><!-- Format for postscripts.  Postscripts do NOT go insider closer tags. Adjust to take into account the order in your letter. Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            
+             <closer><!--Use the <closer> element again to hold Address Leaf information, indicating where Mitford directed her letter.-->
+               <address> <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. Closer tags must also enclose the address section. NOTE AGAIN: If Mitford has a postscript, that postcript must *not* be enclosed in the closer tags, even when they are written after the signature and before the address. It's a TEI rule (sigh). -->
+            <addrLine><lb/><!--Text of a line on the address leaf, with context coding and superscripts indicated.--></addrLine>
+                  <addrLine><lb/><!--Text of a line on the address leaf, with context coding and superscripts indicated.--></addrLine>
+                  <addrLine><lb/><!--Text of a line on the address leaf, with context coding and superscripts indicated.--></addrLine>
+            </address>
+            </closer> 
+         </div>
+      </body>
+     
+     <back>
+        <div> <!-- In this section, place any NEW xml:id's generated by this letter (ie, id's not already included in our SI), then research and write entries for each. Under resp="", use your xml:id. NOTE: The <div> element must be present, nested inside <back>. -->
+       <listPerson>
+          <person xml:id="Rimini_Fran">
+             <persName>
+                <surname type="married">da Rimini</surname>
+                <surname type="paternal">da Polenta</surname>
+                <forename>Francesca</forename>
+             </persName>
+             <birth when="1255"/>
+             <death notBefore="1283"><placeName>Rimini</placeName></death>
+             <note resp="#bas">The daughter of Guido da Polenta, lord of Ravenna. She was married to the crippled Giovanni Malatesta around <date when="1275">1275</date> for political reasons, and fell in love with his younger brother, Paolo. The affair continued as long as ten years until Giovanni killed them both sometime between <date notBefore="1283" notAfter="1286">1283 and 1286</date>. <persName ref="#Dante">Dante Alighieri</persName> portrays her as a character in his <title level="m">Divine Comedy</title>.</note>
+          </person>
+          <person xml:id="Medici_Garzia">
+             <persName>
+                <surname>de' Medici</surname>
+                <forename>Garzia</forename>
+             </persName>
+             <birth when="1547-07-05"><placeName>Florence, Italy</placeName></birth>
+             <death when="1562-12-06"/>
+             <note resp="#bas">The son of Cosimo I de' Medici, Grand Duke of Tuscany, and Eleanor of Toledo. He died at the age of 15 of malaria after his brother, Cardinal Giovanni, died of the disease only a few days before. As an infant, he was the subject of a famous portrait by Bronzino. A myth surfaced centuries after his death that he murdered his brother in 1562, and was in turn killed by his own father. Modern exhumations found that he and his brother both did indeed die of malaria in 1562 and no signs of violence were present.</note>
+          </person>
+       </listPerson>
+        
+        <listPlace>
+           <place xml:id="proposed_new_ID3">
+              <placeName><!--best-known name of the place--></placeName>
+              <placeName><!--alternate place name--></placeName>
+              <location><geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo></location>
+           </place>
+        </listPlace>
+          <listBibl>
+             <bibl xml:id="proposed_new_ID4">
+                <title><!--Title--></title>
+                <author><!--Author--></author>
+                <editor><!--if indicated--></editor>
+                <pubPlace><!--where published--></pubPlace>
+                <publisher><!--publisher--></publisher>
+                <date when="yyyy"><!--Date. The @when attribute can be yyyy, yyyy-mm, or yyyy-mm-dd.--></date>
+             </bibl>
+          </listBibl>
+           <!--A few other kinds of lists apply. See Codebook and Site Index at http://digitalmitford.org/si.xml for guides.-->
+     </div>
+     </back>
+  </text>
+</TEI>

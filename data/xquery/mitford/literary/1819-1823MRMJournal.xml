@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!--ebb:Note to Digital Mitford Editors: In this typescript, we've noticed the frequent use of the characters XX or X, and my working hypothesis is that these characters indicate points in Mitford's diary that were illegible to the transcriber. However, they also seem to be used in conjunction with titles of books Mitford mentions reading. There is probably some system to this that isn't apparent in the typescript itself. To verify this, we need to consult the original manuscript notebook.--><teiHeader><fileDesc><titleStmt><title>Mary Russell Mitford's Notebook of 1819 to 1823</title><author ref="#MRM">Mary Russell Mitford</author><editor ref="#rjp">Rebecca J. Parker</editor><editor ref="#ebb">Elisa Beshero-Bondar</editor>
+            <!--ebb: Add more editor elements as other editors become involved. --><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal>Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName ref="#rjp">Rebecca J. Parker</persName><persName ref="#ebb">Elisa Beshero-Bondar</persName></respStmt><respStmt><resp>Proofing and corrections by</resp><persName ref="#ebb">Elisa Beshero-Bondar</persName>
+               <!--ebb: others?--></respStmt></titleStmt><editionStmt><edition><!--ebb: change date as we complete this.-->First digital edition in TEI, date:
+               begun 19 May 2014. P5.</edition></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2014</date><availability><p>Reproduced by courtesy of the <placeName>Reading Central
+                  Library</placeName>.<!--ebb:Double-check permissions bc the original manuscript is at the British Library. Any issues for us since we're reproducing the typed transcript from Reading Central Library?--></p><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><repository ref="#ReadingCL">Reading Central Library</repository><collection>Accession Number: L 7088</collection><idno>qB/TU/MIT #1361549 REF. STRONGROOM. Barcode number:
+                     34126003337949<!--ebb:is the last digit a g? I think it's a 9, but check at Reading Central Library.--></idno></msIdentifier><p>Our source text is marked as an "original carbon copy" of a typed transcript of
+                  Mary Russell Mitford's notebook. From the title page of the source text, "The
+                  transcript of which this is a copy is in the possession of the Public Library,
+                  Reading, Berks, England. A photostat copy of the MS is also available at that
+                  library. Copyright presumably rests with the British Museum. <date when="1955-07">July 1955</date>."
+                  <!--ebb:Check with British Library (now housing the British Museum manuscripts) re copyright permissions before posting an html view of this file.--></p></msDesc></sourceDesc><sourceDesc><msDesc><msIdentifier><repository ref="#BL">British Library</repository><collection><!--ebb:Check current collection info for BL Literary Pocket Book ms of Mitford's notebook.</collection>--></collection><idno><!--ebb:This is the shelfmark from the British Library Catalog-->DPB
+                     c.60.b.7.<!--ebb:What follows is the shelfmark for the BL as indicated on the July 1955 typescript. Doublecheck in BL catalog.-->P
+                     24834 : C.60.b.7.</idno></msIdentifier><p>This is the location information for the autograph manuscript in Mary Russell
+                  Mitford's hand, at the British Library.</p></msDesc></sourceDesc></fileDesc><profileDesc><handNotes><handNote xml:id="red_crayon_RCLnb" medium="red_crayon"> Red crayon or thick red pencil.
+               Annotation by an archivist on an opening page of the carbon copy of the typed
+               transcript of Mitford's journal at Reading Central Library</handNote><handNote xml:id="black_pencil_RCLnb" medium="black_pencil">Black pencil or crayon.
+               Crosses out lines in the red crayon indicated above.</handNote><handNote xml:id="black_pen_RCLnb" medium="pen">Annotation by an archivist, presumably
+               at Reading Central Library, recording the shelfmark.</handNote><handNote xml:id="lt_pencil_RCLnb" medium="pencil">Annotation by an archivist at Reading
+               Central Library, recording the shelfmark on the title page in light grey
+               pencil.</handNote><handNote xml:id="blue_pen_RCLnb" medium="pen">Annotation by an archivist at Reading
+               Central Library, recording the accession number.</handNote></handNotes></profileDesc><encodingDesc><editorialDecl><p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p></editorialDecl></encodingDesc></teiHeader><text><front><div type="meta"><p><add><handShift resp="#red_crayon_RCLnb"/><!--ebb: written diagonally at bottom right of an opening blank sheet-->original
+                  carbon copy of Mitford diary. <handShift resp="#black_pencil_RCLnb"/><del rend="strikethrough"><handShift resp="#red_crayon_RCLnb"/>pages 1-49. i.e. end
+                     of 1819</del></add></p><pb n="ii"/><p><label><!--ebb: sticker with bar code affixed at bottom left of page-->Reading
+                  Borough Council<lb/>
+                  <!--barcode--><lb/>34126003337949</label></p><p>
+               <!--ebb: To the right of the barcode sticker--><add><handShift resp="#black_pen_RCLnb"/>q B/TU/MIT REF. STRONGROOM.<lb/>#
+                  1361549</add></p><pb n="iii"/><p><label>
+                  <!--ebb: in upper right corner of the title page. CHECK UPPER RIGHT CORNER, our photo cuts off part of the top line--><add><handShift resp="#lt_pencil_RCLnb"/><unclear><supplied>B</supplied></unclear><lb/>TU<lb/>MIT</add></label></p><div type="title"><head>MARY RUSSELL MITFORD<lb/> Transcript of notebook of Mary Russell Mitford<lb/>
+                  contained in the British Museum (P 24834 : C.60.b.7.)</head><p>The note-book has a printed title page "The Literary Pocket-Book; or, Companion
+                  for the lover of Nature &amp; Art, 1819". The size of the notebook is 13 x 8
+                  cm.</p><p>Miss Mitford's notes begin on 1 January 1819 and end 11 March 1823.</p><p>The transcript of which this is a copy is in the possession of the Public Library,
+                  Reading, Berks, England. A photostat copy of the MS is also available at that
+                  library. Copyright presumably rests with the British Museum.</p><p><emph rend="underline">July 1955</emph>.</p><pb n="iv"/><p><label>
+                     <!--ebb: black ink stamp in the form of an outer box containing three lines to form four labelled rows, filled in with handwriting in black and then blue ink.-->
+                     RPL Local<lb/>Collection<lb/><milestone unit="line"/> Class <add><handShift resp="#black_pen_RCLnb"/>B/TU/MIT</add><lb/><milestone unit="line"/> Acc. No. <add><handShift resp="#blue_pen_RCLnb"/>L
+                        7088</add><lb/><milestone unit="line"/> Acc. Date <add><handShift resp="#blue_pen_RCLnb"/>-</add><milestone unit="box"/><!--ebb: indicating surrounding box in this library ink stamp--></label></p></div></div></front><body><div type="year"><head><date when="1819">1819</date></head><div type="entry"><head><date when="1819-01-01">Jany. the 1st</date> we were living at <placeName ref="#Bertram_house">Bertram House</placeName>--dear
+                     <persName>Granny</persName>, dear <persName ref="#Mitford_Geo">Drum</persName>
+                  &amp; <persName ref="#MRM">I</persName>--Our servants poor
+                     <persName>Lucy</persName>, <persName>Jane</persName> (who is going away) &amp;
+                     <persName>George</persName>--our pets--Dear <persName>Mossy</persName>--his
+                  sister <persName>May
+                     Fly</persName>--<persName>Nelly</persName>--<persName>Moses</persName>--(greyhounds)
+                     <persName>Mob</persName> a borrowed greyhound--<persName>Whim</persName> our
+                  squinting spaniel who came from
+                     <placeName>Lockinge</placeName>--<persName>Miranda</persName> our dear
+                  beautiful greyhound puppy--<persName>Selim</persName> our Persian Cat,
+                     <persName>Poll</persName> a tabby do--&amp; 22 Bantams--the old ones given me
+                  by poor <persName>Jesse Clift</persName>.</head></div><div type="entry"><head><date when="1818-12-31"><add><!--ebb: flush with left margin--><unclear><supplied>[</supplied></unclear>1818]</add>
+                     Thurs. 31 Dec.</date></head><p>Went with <persName ref="#Mitford_Geo">Papa</persName> &amp; <persName ref="#Webb_Eliza">Eliza Webb</persName> to <rs type="event">a dance</rs> at
+                     <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName>'s--very splendid--very
+                  delightful--much laughing--<persName>Mr. Crowther</persName> not to be
+                  forgotten.</p></div><div type="entry"><head><date when="1819-01-01"/></head><p>At <placeName>Farley Hill</placeName>--Happy day--<persName ref="#Dickinson_Mrs">Mrs. D</persName>'s singing--<title>Where'er you walk</title>--<persName ref="#Dickinson_Charles">Mr. D</persName>'s reading--<title>Count
+                     Ugolino</title>.</p></div><div type="entry"><head><date when="1819-01-02">Sat. 2 Jan.</date></head><p>Another happy day--at <placeName>Farley Hill</placeName>--<placeName ref="#Reading_city">Reading</placeName> &amp; <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-03">Sun. 3 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>--told dear <persName ref="#Russell_M">Mama</persName> all about <rs type="event">the Ball</rs>--read
+                        <bibl><author>Burke</author></bibl> &amp; <bibl>the Reviews <title>the
+                        B.C.</title> &amp; <title>the E.R.</title></bibl></p></div><div type="entry"><head><date when="1819-01-04">Mon. 4 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>--<rs type="letter">wrote to
+                        <persName ref="#James_Miss">Miss James</persName>--letter not to go this
+                     week</rs>--<rs type="letter">And to <persName>Miss Brooke</persName></rs>. Read
+                     <title ref="#Antiquary">the Antiquary</title> XX.</p></div>
+            <!--ebb:ADD MORE ENTRIES FROM PAGE 1 here--><div type="entry"><head><date when="1819-01-05">Tues. 5 Jan.</date></head><p>Read some of <bibl><author ref="#Edgeworth_Maria">Miss Edgeworth</author>'s
+                        <title>Popular tales</title></bibl> XX some of
+                     <bibl><author>Burke</author></bibl>. Still at <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-06">Wed. 6 Jan.</date></head><p>Read <title>Do. Do.</title> Still at <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-07">Thurs. 7 Jan.</date></head><p>Read <bibl><author>Fearon</author>'s <title>America</title></bibl> X -- Still at
+                     <placeName ref="#Bertram_house">home</placeName>-- Got &amp; read <bibl>this
+                     pretty book X</bibl></p></div><div type="entry"><head><date when="1819-01-08">Fri. 8 Jan.</date></head><p><rs type="letter">Wrote to <persName ref="#Elford_SirWm">Sir William
+                        Elford</persName> not to go till next week</rs>-- Read
+                        <bibl><author>Burke</author></bibl>. still at <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-09">Sat. 9 Jan.</date></head><p>Read <title>Nightmare Abbey</title> XX Still at <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-10">Sun. 10 Jan.</date></head><p><rs type="letter">Wrote to <persName ref="#Webb_Eliza">Miss
+                     Webb</persName><!--rjp: it seems to me that Mitford wrote Eliza Webb more frequently than Mary Webb therefore I have referenced the Miss Webb persNames to Eliza Webb but we need to find a way to verify this-->--
+                     not to go till Tuesday</rs>. read more of
+                  <bibl><author>Burke</author></bibl>.</p></div><div type="entry"><head><date when="1819-01-11">Mon. 11 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- worked some gown trimming
+                  -- &amp; <rs type="letter">wrote a letter to <persName ref="#Haydon"> Mr.
+                        Haydon</persName></rs>.</p></div><div type="entry"><head><date when="1819-01-12">Tues. 12 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. <rs type="letter" subtype="received">heard from dear <persName ref="#Dickinson_Mrs">Mrs.Dickinson</persName></rs> -- sent off <rs type="letter">letters to
+                        <persName ref="#Elford_SirWm">Sir W. Elford</persName></rs><rs type="letter"><persName ref="#Haydon">Mr. Haydon</persName></rs>, <rs type="letter"><persName ref="#James_Miss">Miss James</persName></rs> &amp; <rs type="letter"><persName ref="#Webb_Eliza">Miss Webb</persName></rs>.</p></div><pb n="2"/>
+            <!--ebb: CONTINUE ONE WITH ENTRIES ON PAGE 2, AND RECORD THE PAGINATION IN <pb n=" "/> ELEMENTS AS MARKED ON THE TYPESCRIPT.--><div type="entry"><head><date when="1819-01-13">Wed. 13 Jan.</date></head><p><rs type="letter" subtype="received">Heard from dear <persName ref="#James_Miss">Miss James</persName></rs>-- went Fir topping -- <bibl><rs type="letter">Wrote <title>a sonnet</title> &amp; letter to <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName></rs></bibl> -- at
+                     <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-14">Thurs. 14 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. <rs type="letter"> Wrote to
+                     dear <persName ref="#James_Miss">Miss James</persName></rs> Read
+                        <bibl><author>Bisset</author>'s <title>Life of Burke</title></bibl>-- very
+                  bad weather, could not stir.</p></div><div type="entry"><head><date when="1819-01-15">Fri. 15 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day doing nothing but <rs type="letter">finish my letter to dear <persName ref="#James_Miss">Miss
+                        James</persName></rs> &amp; read <bibl><author>Burke</author></bibl> --
+                     <persName>Burke</persName> a sad turncoat.</p></div><div type="entry"><head><date when="1819-01-16">Sat. 16 Jan.</date></head><p><rs type="event">Went to <placeName ref="#Reading_city">Reading</placeName></rs>
+                  -- had a most delightful chat with <persName>Miss Brooke</persName> -- bought
+                  things at <placeName>Marshes</placeName> -- saw a number of people -- came
+                     <placeName ref="#Bertram_house">home</placeName> to dinner quite well &amp; was
+                  exceedingly ill (sick &amp; purged) all night.</p></div><div type="entry"><head><date when="1819-01-17">Sun. 17 Jan.</date></head><p>Rather better -- <persName>Lucy</persName> a famous nurse -- in bed almost all day
+                  -- <rs type="letter" subtype="received">had a charming letter from <persName ref="#Haydon">Mr. Haydon</persName></rs> &amp; read
+                        <bibl><author>Malcolm</author>'s <title>Anecdotes of the 17th
+                        Century</title></bibl>.</p></div><div type="entry"><head><date when="1819-01-18">Mon. 18 Jan.</date></head><p>A great deal better. Amused myself with doing up some gowns against the end of the
+                  mourning -- read <bibl><author>Burke</author>'s works</bibl>. All day at
+                     <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-19">Tues. 19 Jan.</date></head><p>Quite well. <rs type="letter">Wrote a long note to <persName>Miss
+                        Brooke</persName></rs> -- read <bibl><author>Scott</author>'s <title>Visit
+                        to Paris</title></bibl> &amp; played with my beautiful puppy
+                     <persName>Miranda</persName> born at <placeName>Stratford on
+                  Avon</placeName>.</p></div><div type="entry"><head><date when="1819-01-20">Wed. 20 Jan.</date></head><p><rs type="letter" subtype="received">Recieved a long letter from <persName ref="#Rowden_Fr">Mrs. Rowden</persName></rs> &amp; <rs type="letter">began
+                     an answer</rs> all day at <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-21">Thurs. 21 Jan.</date></head><p><persName>Mr. White</persName> &amp; <persName>Mrs. Tuppen</persName> called did
+                  not see them -- was Fir-topping with <persName>Luce</persName> &amp; the pets. At
+                     <placeName ref="#Bertram_house">home</placeName>.</p></div><div type="entry"><head><date when="1819-01-22">Fri. 22 Jan.</date></head><p>All day at <placeName ref="#Bertram_house">home</placeName><rs type="letter">finished my packet for <persName ref="#Rowden_Fr">Mrs. Rowden</persName></rs>
+                  &amp; read <bibl><author>Burke</author>'s works</bibl>.</p></div><div type="entry"><head><date when="1819-01-23">Sat. 23 Jan.</date></head><p>All day at <placeName ref="#Bertram_house">home</placeName> Firtopping -- began
+                     <title>Florence
+                  Macarthy</title><!--rjp: For Site Index: This is Sydney Owenson's seventh novel, Florence Macarthy: An Irish Tale, published in 1818.-->
+                  --very much amused by it.</p></div><div type="entry"><head><date when="1819-01-24">Sun. 24 Jan.</date></head><p><rs type="letter" subtype="received">Got a letter from dear <persName ref="#James_Miss">Miss James</persName></rs><rs type="letter">answered it </rs>-- went with dear <persName ref="#Mitford_Geo">Drum</persName> to look for <rs type="plant">primroses</rs><!--rjp:is this the right tag?--> -- did not find any -- Finished
+                     <title>Florence Macarthy</title>.</p></div><div type="entry"><head><date when="1819-01-25">Mon. 25 Jan.</date></head><p><rs type="event"><persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName> came to
+                     see us all in the rain</rs> -- She was quite delighted with
+                     <persName>Selim</persName> &amp; <persName>Miranda</persName>'s play.</p></div><div type="entry"><head><date when="1819-01-26">Tues. 26 Jan.</date></head><p><rs type="event">Went to <placeName ref="#Reading_city">Reading</placeName></rs>
+                  -- saw a great many people -- <rs type="event">bought my new crimson
+                     bombazine</rs> -- came <placeName ref="#Bertram_house">home</placeName> to
+                  dinner <rs type="event">Poor <persName>Whim</persName> lost</rs>.</p></div><pb n="3"/><div type="entry"><head><date when="1819-01-27">Wed. 27 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. Dear <persName ref="#Mitford_Geo">Drum</persName> went to <placeName ref="#London_city">London</placeName> &amp;
+                  took my <rs type="letter">letters to <persName ref="#Rowden_Fr">Mrs.
+                        Rowden</persName></rs> &amp; <rs type="letter"><persName ref="#James_Miss">Miss
+                     James</persName><!--rjp:Miss James lives in or around LONDON!!!--></rs>. Read
+                  the <bibl><author>Duchesse d'Angoulime</author>'s <title>journal</title> while in
+                     the
+                  Temple</bibl><!--rjp ebb 21 May 2014: For the Site Index: Could be one of several publications, likely of 1817, in either French or English translation. See WorldCat, for example Private memoirs, which, with the work of M. Hue, and the Journal of Clery, complete the history of the captivity of the royal family of France in the Temple. Tr. from the French, with notes by the translator. by Marie-Thérèse Charlotte Angoulême, duchesse d'; L -E Audot. London. J. Murray, 1817. FIX THE SPECIAL CHARACTERS!
+This must NOT be the translation by John Wilson Croker of 1823. It's NOT PRIVATE MEMOIRS OF WHAT PASSED IN THE TEMPLE, FROM THE IMPRISONMENT OF THE ROYAL FAMILY TO THE DEATH OF THE DAUPHIN  BY MADAME ROYALE, DUCHESS OF ANGOULÊME.--></p></div><div type="entry"><head><date when="1819-01-28">Thurs. 28 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. Poor <persName>Jeremy
+                     Chamberlaine</persName> the shoemaker brought me some <rs type="plant">primroses</rs> &amp; <rs type="plant">violets</rs> in pots -- which he found
+                  in <placeName type="field">the fields</placeName>.</p></div><div type="entry"><head><date when="1819-01-29">Fri. 29 Jan.</date></head><p><rs type="event"><persName>Whim</persName> found again.</rs><rs type="event"><persName>Selim</persName> nearly killed a white kitten we have
+                     got for <persName ref="#Elford_SirWm">Sir W. Elford</persName>.</rs><rs type="event">I found today the first <rs type="plant">primrose</rs> this year
+                     in the hedge at the bottom of the <placeName type="plant">park
+                        meadow</placeName></rs></p></div><div type="entry"><head><date when="1819-01-30">Sat. 30 Jan.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day. Read
+                     <title>Junius</title> -- famous peppering -- nothing so good now.
+                     <persName>Mossy</persName> very amiable.</p></div><div type="entry"><head><date when="1819-01-31">Sun. 31 Jan.</date></head><p><rs type="event">Dear <persName ref="#Mitford_Geo">Drum</persName> came back
+                     again.</rs> Heard from <persName ref="#Webb_Eliza">Eliza Webb</persName> -- <rs type="letter">wrote to her in answer</rs>. At <placeName ref="#Bertram_house">home</placeName> all day.</p></div><div type="entry"><head><date when="1819-02-01">Mon. 1 Feb.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. Went out Firtopping with
+                     <persName>Mossy</persName> -- <persName>Mossy</persName> was very amiable -- so
+                  was <persName>Miranda</persName> in the Evening -- read <title>Junius</title>
+                  &amp; <title>the British Critic Review</title>.</p></div><div type="entry"><head><date when="1819-02-02">Tues. 2 Feb.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day: Helped trim my new
+                  gown and read the <title>Eclectic Review</title> &amp; played with
+                     <persName>Miranda</persName>.</p></div><div type="entry"><head><date when="1819-02-11">Thurs. 11 Feb.</date></head><p><rs type="event">Walked about <placeName>Farley Hill</placeName> -- <persName ref="#Dickinson_Mrs">Mrs. Dick.</persName> brought me &amp; <persName ref="#Hofland_B">Mrs. Hofland</persName><placeName ref="#Bertram_house">home</placeName> &amp; dined with us --
+                        <persName ref="#Hofland_B">Mrs. H.</persName> went away at night.</rs><rs type="letter" subtype="received">Heard from <persName ref="#Elford_SirWm">Sir
+                        W. Elford</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#James_Miss">Miss James</persName></rs>.</p></div><div type="entry"><head><date when="1819-02-12">Fri. 12 Feb.</date></head><p>Read <bibl><author>Burke</author></bibl> &amp; <rs type="letter">wrote to
+                        <persName>Mr. Williams</persName></rs> &amp; <rs type="letter"><persName ref="#Webb_Eliza">Miss Eliza Webb</persName></rs> -- at <placeName ref="#Bertram_house">home</placeName> all day.</p></div><div type="entry"><head><date when="1819-02-13">Sat. 13 Feb.</date></head><p><rs type="event">Went to <placeName ref="#Reading_city">Reading</placeName></rs>
+                  -- called on <persName>Mrs.
+                  Tuppin</persName><!--rjp:I wonder if this is transcription error and supposed to be Tuppen-->--
+                     <orgName>the Brookes </orgName>-- <persName>Mrs. Boyd </persName>--
+                     <persName>Mrs. Newberry</persName> &amp; <orgName>the Valpy's </orgName>-- saw
+                  a great many people &amp; <rs type="event">hired a Cook</rs>.</p></div><div type="entry"><head><date when="1819-02-14">Sun. 14 Feb.</date></head><p><rs type="letter">Wrote to <persName>Mrs. Clarke</persName></rs> -- &amp; <rs type="letter"><persName>Miss Ogbourn</persName></rs> &amp; <rs type="letter"><persName ref="#James_Miss">Miss James</persName></rs>. At <placeName ref="#Bertram_house">home</placeName> all day -- had the pets.</p></div><div type="entry"><head><date when="1819-02-15">Mon. 15 Feb.</date></head><p><rs type="event"><persName>Mr. Williams</persName> called on me</rs> -- went
+                  primrosing got the little basket full -- <rs type="letter">wrote to <persName ref="#Elford_SirWm">Sir William Elford</persName></rs> --
+                        <bibl><author>Forsyth</author>'s <title>Italy </title></bibl>-- charmed with
+                  it.</p><p><rs type="event">On this day (<date when="1819-02-15">Monday the 15th</date>)
+                        <persName ref="#Mitford_Geo">Papa</persName> saw a pheasant's nest with 4
+                     eggs, which was found by one of <persName>Lord Braybrooke</persName>'s people
+                     at <placeName>Billingbear</placeName> whilst a party were coursing in the
+                        <placeName>park</placeName> -- very early indeed.</rs></p></div><pb n="4"/><div type="entry"><head><date when="1819-02-16">Tues. 16 Feb.</date></head><p>All day at <placeName ref="#Bertram_house">home</placeName> -- read
+                        <bibl><author>Forsyth</author>'s <title>Italy </title></bibl>-- trimmed my
+                  black bonnet helped to contrive dear <persName>Granny</persName>'s spencer --
+                  played with the Pets.</p></div><div type="entry"><head><date when="1819-02-17">Wed. 17 Feb.</date></head><p>All day at <placeName ref="#Bertram_house">home</placeName>. Read
+                        <bibl><author>Dr. Aikin</author>'s <title>Translation of the Memoirs of
+                        Huet</title></bibl> -- very entertaining -- played with the Pets. Helped to
+                  trim dear <persName>Granny</persName>'s spencer.</p></div><div type="entry"><head><date when="1819-02-18">Thurs. 18 Feb.</date></head><p><rs type="event">Called on <persName ref="#Dickinson_Mrs">Mrs.
+                        Dickinson</persName></rs> -- Cut <persName ref="#Mitford_Geo">Drum</persName>'s hair -- finished reading <title>Huet's Memoirs</title> &amp;
+                  began <title>"Emma"</title>. <rs type="letter" subtype="received">Had a note from
+                        <persName>Miss Valpy</persName>.</rs></p></div><div type="entry"><head><date when="1819-02-19">Fri. 19 Feb.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day. <rs type="letter" subtype="received">Recieved a letter from <persName ref="#Hofland_B">Mrs.
+                        Hofland</persName></rs> -- finished <title>Emma</title>-- the puppy a great
+                  pet.</p></div><div type="entry"><head><date when="1819-02-20">Sat. 20 Feb.</date></head><p>Went primrosing -- <bibl><rs type="letter" subtype="received">Got <title>the
+                           Sheffield
+                        Iris</title><!--rjp:Tag this ?? ebb: Yes! At first I thought this was a special plant (which we'd tag as <rs type="plant"> but it turns out that the Sheffield Iris is a newspaper title: See http://www.sheffieldhistory.co.uk/forums/index.php/topic/9215-james-montgomery-the-sheffield-iris-1792-1825/-->
+                        from <persName ref="#Hofland_B">Mrs. Hofland</persName> with <title>some
+                           verses from her to me</title> -- very pretty.</rs></bibl> Read
+                        <bibl><author>Sir Robert Wlson</author>'s <title>Egypt</title></bibl>.</p></div><div type="entry"><head><date when="1819-02-21">Sun. 21 Feb.</date></head><p><rs type="event">Dear <persName ref="#Mitford_Geo">Drum</persName> went into
+                        <placeName>Hampshire</placeName>.</rs><persName>Jeremy</persName> brought me <rs type="plant">violets</rs> &amp; <rs type="plant">primroses</rs> -- <rs type="letter">Wrote to <persName ref="#Webb_Eliza">Eliza Webb</persName></rs> &amp; <rs type="letter"><persName ref="#Hofland_B">Mrs. Hofland</persName></rs> -- at <placeName ref="#Bertram_house">home</placeName> all day -- fed the pets.</p></div><div type="entry"><head><date when="1819-02-22">Mon. 22 Feb.</date></head><p>Went Firtopping -- fed the Pets -- <persName>Mayfly</persName>,
+                     <persName>Miranda</persName> &amp; <rs type="event">a new little bitch called
+                        <persName>Fly</persName> given us by young farmer
+                     <persName>Webb</persName></rs>.</p></div><div type="entry"><head><date when="1819-02-23">Tues. 23 Feb.</date></head><p>Went Firtopping in the <placeName>Plantations</placeName> -- fed the Pets -- at
+                     <placeName ref="#Bertram_house">home</placeName> all day. <rs type="plant">Primroses</rs> very plentiful in the <placeName>Plantations</placeName>.</p></div><div type="entry"><head><date when="1819-02-24">Wed. 24 Feb.</date></head><p>Heard from <persName>Miss Booth</persName> -- went to look for <rs type="plant">violets</rs> -- could not find any -- <rs type="event">then went Firtopping
+                     till I was driven in by the
+                  snow</rs><!--rjp:tagged this because reveals the weather firtopping is and is not appropriate to do in-->.
+                  Read <bibl><author>Sir R. Wilson</author>'s <title>Egypt</title></bibl>.</p></div><div type="entry"><head><date when="1819-02-25">Thurs. 25 Feb.</date></head><p><rs type="letter" subtype="received">Heard from <persName ref="#Webb_Eliza">Eliza
+                        Webb</persName></rs>. Staid<!--rjp:weird spelling should we tag this--> at
+                     <placeName ref="#Bertram_house">home</placeName> all day -- read the
+                     <title>Collectanea Curiosa</title> -- very amusing -- <rs type="event">dear
+                        <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets came back from
+                        <placeName>Overton</placeName></rs>.</p></div><div type="entry"><head><date when="1819-02-26">Fri. 26 Feb.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day -- read <title>the
+                     Collectanea Curiosa</title> -- <rs type="letter">wrote to <persName>Miss
+                        Booth</persName></rs>. <rs type="event"><persName>Nell</persName> went to
+                        <persName>Mr. Piles</persName> -- poor love I hope she will be
+                     comfortable</rs>.</p></div><div type="entry"><head><date when="1819-02-27">Sat. 27 Feb.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day -- <rs type="letter" subtype="received">Had a delightful letter from <persName ref="#Elford_SirWm">Sir William Elford</persName> enclosing some lozenges of his own
+                     making.</rs><rs type="letter">Wrote to <persName ref="#Elford_SirWm">Sir W.E.</persName></rs>
+                  &amp; <rs type="letter"><persName ref="#James_Miss">Miss James</persName></rs>.</p></div><div type="entry"><head><date when="1819-02-28">Sun. 28 Feb.</date></head><p><rs type="letter" subtype="received">Heard from <persName ref="#Haydon">Mr.
+                        Haydon</persName></rs> -- <rs type="letter">wrote to <persName>Pen
+                        Valpy</persName></rs> &amp; <rs type="letter"><persName ref="#Webb_Eliza">Eliza Webb </persName></rs>-- <rs type="letter" subtype="received">heard
+                     from <persName>Mary Webb</persName></rs> -- went primrosing with dear <persName ref="#Mitford_Geo">Drum </persName>-- read the <title>Eclectic Review</title>
+                  &amp; the <title>British Critic</title>. Both stupid.</p></div><pb n="5"/><div type="entry"><head><date when="1819-03-01">Mon. 1 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day. <rs type="letter" subtype="received">Heard from <persName>Pen Valpy</persName></rs> -- read the
+                     <title>Monthly Magazine</title> -- Had the pets.</p></div><div type="entry"><head><date when="1819-03-02">Tues. 2 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. <rs type="letter" subtype="received">Heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs> -- <rs type="letter">wrote to <persName>Mary
+                        Webb</persName></rs> &amp; <rs type="letter"><persName>Pen
+                     Valpy</persName></rs>. Sent off my <rs type="letter">letter to <persName ref="#Elford_SirWm">Sir W.E.</persName></rs> &amp; <rs type="letter">finished a letter to <persName ref="#James_Miss">Miss
+                  James</persName></rs>.</p></div><div type="entry"><head><date when="1819-03-03">Wed. 3 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. <rs type="letter">Sent off my
+                     letter to <persName ref="#James_Miss">Miss James</persName></rs> -- went
+                  Firtopping -- read the <title>Monthly Magazine</title>, &amp; <title>Anecdotes of
+                     distinguished persons</title>.</p></div><div type="entry"><head><date when="1819-03-04">Thurs. 4 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went Firtopping -- read
+                     <title>"Anecdotes of distinguished persons" 4 Vols</title> -- very amusing.</p></div><div type="entry"><head><date when="1819-03-05">Fri. 5 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- read <title>Anecdotes of
+                     distinguished persons</title>. Went violetting -- found none -- then went Fir
+                  topping with the pretty pet <persName>Miranda</persName>.</p></div><div type="entry"><head><date when="1819-03-06">Sat. 6 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Webb_Eliza">Eliza
+                     Webb</persName></rs> -- went firtopping with the pets.</p></div><div type="entry"><head><date when="1819-03-07">Sun. 7 Mar.</date></head><p><rs type="event">Went to <placeName>Farley Hill</placeName></rs> -- heard
+                        <bibl><persName ref="#Dickinson_Charles">Mr. Dickinson</persName>'s
+                        <title>Italian Translations</title></bibl> -- read
+                        <bibl><author>Burdon</author>'s <title>Materials for thinking</title></bibl>
+                  -- a very pleasant day.</p></div><div type="entry"><head><date when="1819-03-08">Mon. 8 Mar.</date></head><p>At <placeName>Farley Hill</placeName> -- <persName>Mr. Johnson</persName> &amp;
+                     <persName>Mr. Northmore</persName> came to dinner -- a delightful day --
+                     <persName>Mr. Johnson</persName> talked to me very much indeed.</p></div><div type="entry"><head><date when="1819-03-09">Tues. 9 Mar.</date></head><p>At <placeName>Farley Hill</placeName> -- <rs type="event">the <persName>Miss
+                        Broughtons</persName> called</rs> -- nobody dined but ourselves -- in the
+                  Evening we had <title>the 4th book of Virgil</title> translated by <persName ref="#Dickinson_Charles">Mr. D.</persName></p></div><div type="entry"><head><date when="1819-03-10">Wed. 10 Mar.</date></head><p>At <placeName>Farley Hill</placeName> -- dear <persName ref="#Mitford_Geo">Drum</persName> came for me &amp; dined as did <persName>Dr.
+                     Bailley</persName> -- <rs type="event">we came back in the Evening</rs> -- a
+                  most delightfully pleasant day.</p></div><div type="entry"><head><date when="1819-03-11">Thurs. 11 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went primrosing -- saw
+                     <persName>Mr. Dearesley</persName> -- read <title>Guy
+                  Mannering</title><!--rjp: For the Site Index: a novel by Sir Walter Scott, published anonymously in 1815.-->
+                  -- played with the Pets -- <rs type="letter">wrote to <persName ref="#Hofland_B">Mrs. Hofland</persName></rs>.</p></div><div type="entry"><head><date when="1819-03-12">Fri. 12 Mar.</date></head><p><rs type="event">Went to <placeName>Wokingham</placeName></rs> -- met the
+                     <orgName>Whites</orgName> &amp; <orgName>Tuppens</orgName> &amp; a large party
+                  -- <persName ref="#Mitford_Geo">Drum</persName> went out coursing with them -- I
+                  staid with <persName>Mary</persName> -- <rs type="letter">wrote a note to
+                        <persName>Mrs. Hayward</persName></rs> &amp; <rs type="letter"><persName>Miss Wheeler</persName></rs> -- came <placeName ref="#Bertram_house">home</placeName> at night. Stupid day.</p></div><div type="entry"><head><date when="1819-03-13">Sat. 13 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">received a very kind letter from <persName>Miss
+                        Booth</persName></rs> -- <rs type="letter">wrote to her</rs> -- read
+                     <title>Marriage</title> -- liked it very much -- made me laugh.</p></div><div type="entry"><head><date when="1819-03-14">Sun. 14 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting -- found
+                  none -- <rs type="event"><persName>Dr. Dearesley</persName> called</rs> -- read
+                     <title>Marriage</title> -- &amp; <bibl><author>George Mathew</author>'s
+                        <title>Narrative</title></bibl> -- <rs type="letter">wrote to <persName ref="#James_Miss">Miss James</persName></rs>.</p></div><pb n="6"/><div type="entry"><head><date when="1819-03-15">Mon. 15 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went Firtopping. <rs type="event"><persName ref="#Mitford_Geo">Drum</persName> bought me two new
+                     baskets for flowering</rs> -- read <bibl><author>Wanley</author>'s
+                        <title>Wonders</title></bibl>.</p></div><div type="entry"><head><date when="1819-03-16">Tues. 16 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting to
+                     <placeName type="meadow"><persName>Mr. Davies</persName>'s meadow</placeName>
+                  -- found a nice parcel -- <rs type="letter">Wrote to <persName ref="#Elford_SirWm">Sir William</persName></rs>.</p></div><div type="entry"><head><date when="1819-03-17">Wed. 17 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Hofland_B">Mrs.
+                        Hofland</persName></rs> -- <rs type="event"><persName ref="#Webb_Eliza">Miss
+                        Webb</persName> &amp; <persName>Miss Wheeler</persName> came to spend the
+                     day -- went primrosing with them</rs> -- very pleasant day indeed.</p></div><div type="entry"><head><date when="1819-03-18">Thurs. 18 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting in
+                     <placeName type="field"><persName>Mr. Pithers</persName>'s fields</placeName>
+                  -- found none except in the corner by the field we sold to <persName>Mr
+                     Dearesley</persName>. <rs type="letter">Wrote to <persName ref="#Hofland_B">Mrs. Hofland</persName></rs>.</p></div><div type="entry"><head><date when="1819-03-19">Fri. 19 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received"><persName ref="#Haydon">Mr. Haydon</persName> sent me the
+                        <title>Examiner</title></rs><!--rjp: should this be tagged as a letter received even though Mitford doesn't say a letter was sent with the Examiner-->
+                  -- went violetting -- did not find many -- read <title>Waverley</title> -- <rs type="letter">wrote to <persName ref="#Haydon">Mr. Haydon</persName></rs>.</p></div><div type="entry"><head><date when="1819-03-20">Sat. 20 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs> &amp; <rs type="letter" subtype="received"><persName>Mary
+                        Webb</persName></rs> -- <rs type="letter">finished my letter to <persName ref="#James_Miss">MIss James</persName></rs> -- read
+                  <title>Waverley</title>.</p></div><div type="entry"><head><date when="1819-03-21">Sun. 21 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Went primrosing in
+                     <placeName type="plant"><persName>Mr. Dearesley</persName>'s Copse</placeName>
+                  &amp; violetting in <placeName type="field">our own
+                  fields</placeName><!--rjp: do we tag Mitford's fields and is this done right??-->.
+                  Read a pretty Tale called <title>Altham &amp; his Wife</title>.</p></div><div type="entry"><head><date when="1819-03-22">Mon. 22 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName>. Went violetting in <placeName type="field"><persName>Mr. Body</persName>'s Fields</placeName> &amp; <rs type="place">our own</rs> with dear <persName>Granny</persName> &amp; the Pets
+                  -- did not find many. Read the <title>Tale of my Landlord</title></p></div><div type="entry"><head><date when="1819-03-23">Tues. 23 Mar.</date></head><p><rs type="letter">Wrote to <persName ref="#Webb_Eliza">Miss Webb</persName></rs>
+                  -- read <bibl><author>Miss Jane Taylor</author>'s <title>Display</title></bibl> --
+                  &amp; began <bibl><author>Mr. Maturin</author>'s <title>Woman</title></bibl> --
+                  Dear <persName ref="#Mitford_Geo">Drum</persName> went to
+                     <placeName>Town</placeName> -- At <placeName ref="#Bertram_house">home</placeName> all day.</p></div><div type="entry"><head><date when="1819-03-24">Wed. 24 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting with
+                     <persName>Luce</persName> -- found a great <rs type="plant">many white &amp;
+                     some beautiful blue violets</rs> in a field near <placeName>Penge
+                     wood</placeName>. The <rs type="plant">Wood sorrel</rs> not out yet.</p></div><div type="entry"><head><date when="1819-03-25">Thurs. 25 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- Got caught in a shower -- read
+                        <bibl><author>Wanley</author>'s<title>Wonders</title></bibl>.</p></div><div type="entry"><head><date when="1819-03-26">Fri. 26 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting about
+                     <placeName type="field">our own
+                  fields</placeName><!--rjp: do we tag Mitford's fields??--> &amp; <placeName type="field"><persName>Mr. Body</persName>'s</placeName>
+                  <!--rjp: so they are discussing a place as in Mr. Body's fields...but do we need to place tag this-->--
+                     <rs type="event">Dear <persName ref="#Mitford_Geo">Drum</persName> came
+                        <placeName ref="#Bertram_house">home</placeName> &amp; brought me my superb
+                     red shawl for a present</rs> -- God<!--rjp:do we tag God as a person--> bless
+                  him.</p></div><div type="entry"><head><date when="1819-03-27">Sat. 27 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Webb_Eliza">Eliza
+                     Webb</persName></rs> -- read <bibl><author>Mr. Maturin</author>'s
+                        <title>Woman</title></bibl> -- don't like it much -- too dismal.</p></div><div type="entry"><head><date when="1819-03-28">Sun. 28 Mar</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting with dear
+                     <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets in <rs type="place">our own fields</rs><!--rjp: do we tag Mitford's fields??--> &amp; <placeName type="field"><persName>Mr.
+                  Body</persName>'s</placeName>.<!--rjp: so they are discussing a place as in Mr. Body's fields...but do we need to persName tag this--></p></div><pb n="7"/><div type="entry"><head><date when="1819-03-29">Mon. 29 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Went to
+                        <placeName>Penge Wood</placeName></rs> with dear <persName ref="#Mitford_Geo">Drum</persName>, <persName>Luce</persName> &amp; the pets --
+                  got a few wood anemones &amp; quantities of violets blue &amp; white -- <rs type="letter">Wrote to <persName>Miss Brooke</persName></rs>.</p></div><div type="entry"><head><date when="1819-03-30">Tues. 30 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Went Firtopping with dear
+                     <persName>Mossy</persName> -- <persName>Mossy</persName> very amiable indeed
+                  poor lamb.</p></div><div type="entry"><head><date when="1819-03-31">Wed. 31 Mar.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went Firtopping &amp;
+                  walking about the place -- <rs type="event">never saw so many flowers in my
+                     life</rs> -- <persName>Miranda</persName> a great pet.</p></div><div type="entry"><head><date when="1819-04-01">Thurs. 1 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event"><persName>Frederick Slade</persName> called</rs> -- <rs type="event">went
+                     to <placeName ref="#Reading_city">Reading</placeName></rs> -- saw a great many
+                  people -- called at the <orgName>Brookes</orgName><orgName>Tuppens</orgName> &amp; <orgName>Newberrys</orgName>. Read
+                     <title>Unline</title> &amp; <bibl><author>Dr. King</author>'s <title>Anecdotes
+                        of his own Times</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-02">Fri. 2 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs>. Went violetting with the Pets, got quantities -- <rs type="letter">wrote to <persName>Mrs. Newbery</persName></rs> -- Read the
+                     <title>Eclectic</title> &amp; <title>British Critic Reviews</title> &amp;
+                        <bibl><author>Horace Walpole</author>'s <title>letters</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-03">Sat. 3 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- walked with
+                     <persName>Granny</persName> and the Pets -- <rs type="letter" subtype="received">heard from <persName>Mrs. Newberry</persName></rs> -- read
+                        <bibl><author>Horace Walpole</author>'s delightful <title>Letters to
+                           <persName>Mr. Cole</persName></title></bibl> &amp; <bibl><author>Tom
+                        Crib</author>'s <title>Memorial to Congress</title></bibl> -- Dear <persName ref="#Mitford_Geo">Drum</persName> came <placeName ref="#Bertram_house">home</placeName> sick from <placeName ref="#Reading_city">Reading</placeName>.</p></div><div type="entry"><head><date when="1819-04-04">Sun. 4 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Dear <persName ref="#Mitford_Geo">Drum</persName> quite well again -- <rs type="letter" subtype="received">Heard from <persName ref="#Elford_SirWm">Sir W.
+                        Elford</persName></rs>. <orgName>Mr.<!--rjp:"#Newberry_J"--> &amp; Mrs.
+                     Newberry</orgName> called -- <rs type="letter">wrote to <persName>Mrs.
+                        Newberry</persName></rs> &amp; <rs type="letter"><persName ref="#Webb_Eliza">Miss Eliza Webb</persName></rs>.</p></div><div type="entry"><head><date when="1819-04-05">Mon. 5 Apr.</date></head><p><rs type="event">Went to <placeName>Penge Wood</placeName> with
+                        <persName>Lucy</persName> &amp; the Pets</rs> -- Read <bibl><author>Horace
+                        Walpole</author>'s <title>letters to <persName>Mr. Cole</persName></title></bibl>-- Delightful -- &amp; <bibl><author>Dr. Clarke</author>'s <title>admirable
+                        Travels</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-06">Tues. 6 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Rowden_Fr">Mrs.
+                     Rowden</persName></rs> -- Read <title>Beppo</title> &amp; <bibl><author>Mr.
+                        Roger</author>'s <title>Human Life</title></bibl> -- &amp; <bibl><author>Dr.
+                        Clarke</author>'s <title>Travels in Sweden &amp; Norway</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-07">Wed. 7 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went to
+                        <placeName ref="#Reading_city">Reading</placeName> -- saw <persName>Miss
+                        Brooke</persName> &amp; many people</rs> -- <rs type="letter" subtype="received">had a note from <persName>Mrs. Tuppen</persName></rs> --
+                  read <bibl><author>Dr. Clarke</author>'s <title>Travels</title></bibl> &amp;
+                        <bibl><author>Holcroft</author>'s <title>Memoirs</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-08">Thurs. 8 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">wrote to
+                        <persName ref="#Elford_SirWm">Sir William Elford</persName></rs> -- walked
+                  with dear <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets -- read
+                        <bibl><author>Holcroft</author>'s <title>Memoirs</title></bibl> which are
+                  very entertaining.</p></div><div type="entry"><head><date when="1819-04-09">Fri. 9 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Went to
+                        <placeName>Wokingham</placeName> with dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- dined at the <orgName>Webbs</orgName> &amp; called
+                  on the <orgName>Wheelers</orgName> -- came <placeName ref="#Bertram_house">home</placeName> at night. A pleasant day.</p></div><pb n="8"/><div type="entry"><head><date when="1819-04-10">Sat. 10 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went violetting with
+                     <persName>Lucy</persName> about <placeName ref="#Bertram_house">our own
+                     place</placeName> &amp; <placeName type="field"><persName>Mr.
+                     Body</persName>'s</placeName> -- <persName>Betty Rapley</persName> sent me some
+                     <rs type="plant">Honeysuckle</rs> in full bloom.</p></div><div type="entry"><head><date when="1819-04-11">Sun. 11 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from <persName>Miss Booth</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#James_Miss">Miss
+                        James</persName></rs> -- <rs type="letter">wrote to <persName>Miss
+                        Booth</persName></rs>, <rs type="letter"><persName ref="#James_Miss">Miss
+                        James</persName></rs>, <rs type="letter"><persName ref="#Hofland_B">Mrs.
+                        Hofland</persName></rs>, <rs type="letter"><persName>Mrs.
+                     Tuppen</persName></rs> &amp; <rs type="letter"><persName>Mr.
+                        Maitland</persName></rs> -- read <bibl><author ref="#Edgeworth_Maria">Miss
+                        Edgeworth</author>'s <title>Comic Dramas</title></bibl> -- not good. </p></div><div type="entry"><head><date when="1819-04-12">Mon. 12 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day -- read the
+                     <title>Lives of Haydon &amp; Mozart</title> &amp; <title>the Memoirs of the
+                     great
+                  Conde</title><!--rjp:the e is supposed to have an accent how do we do this?--> --
+                  not very good.</p></div>
+            <!--rjp:can we look over this entry... I am not sure if this is tagged right or if Haydon and Mozart are separate titles or if we should bibl the memoirs of the great Conde and author tag and title tag separate--><div type="entry"><head><date when="1819-04-13">Tues. 13 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day -- <rs type="event"><persName ref="#Mitford_Geo">Drum</persName> went to
+                        <placeName>Wokingham</placeName> &amp; <rs type="event">attended <persName ref="#Palmer_CF">Mr. Palmer</persName>'s grand procession to <placeName ref="#Reading_city">Reading</placeName></rs></rs> -- sopping wet all the
+                  morning -- read <title>Memoirs of
+                  Conde</title><!--rjp:the e is supposed to have an accent how do we do this? and do we separate this author and title inside of a bibl tag-->
+                  -- stupid enough.</p></div><div type="entry"><head><date when="1819-04-14">Wed. 14 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <persName ref="#Mitford_Geo">Papa</persName> not well enough to take me to <placeName ref="#Reading_city">Reading</placeName> -- <rs type="event">went to
+                        <placeName>Penge wood</placeName> with <persName>Lucy</persName></rs>. Got a
+                  great quantity of flowers. <rs type="plant">Violets</rs> almost over.</p></div><div type="entry"><head><date when="1819-04-15">Thurs. 15 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event"><persName ref="#Mitford_Geo">Drum</persName> &amp; <persName>Granny</persName> went to
+                        <placeName ref="#Reading_city">Reading</placeName> to call on <persName ref="#Palmer_Mad">Lady M. Palmer</persName></rs> -- read
+                        <bibl><author>Whistlecraft</author>'s <title>National Poem</title></bibl>
+                  &amp; <bibl><author>Cary</author>'s <title>Dante</title></bibl>.
+                        <bibl><author>Whistlecraft</author></bibl> very good.</p></div><div type="entry"><head><date when="1819-04-16">Fri. 16 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- sate<!--rjp:should we choice reg resp this?--><rs type="event">waiting for <persName ref="#Palmer_Mad">Lady M. Palmer</persName>
+                     dressed quite fine -- <persName ref="#Palmer_Mad">tiresome woman</persName> did
+                     not come</rs> -- <rs type="letter">wrote to <persName ref="#Rowden_Fr">Mrs.
+                        Rowden</persName></rs> &amp; read <bibl><author>Cary</author>'s
+                        <title>Dante</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-17">Sat. 17 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">waited
+                     again for that <persName ref="#Palmer_Mad">tiresome woman</persName> who never
+                     came</rs> -- <rs type="letter" subtype="received">heard from <persName ref="#Hofland_B">Mrs. Hofland</persName></rs> &amp; <rs type="letter" subtype="received"><persName>Mary Webb</persName></rs> -- <rs type="letter">wrote to <persName ref="#Hofland_B">Mrs. Hofland</persName></rs> &amp; <rs type="letter">finished my letter to <persName ref="#Rowden_Fr">Mrs.
+                        Rowden</persName></rs> -- read <bibl><author>Hazlitt</author>'s
+                        <title>lectures on the Comic Writers</title></bibl> -- famous.</p></div><div type="entry"><head><date when="1819-04-18">Sun. 18 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">waited
+                     again in vain for <persName ref="#Palmer_Mad">Lady M.P.</persName></rs> -- <rs type="letter" subtype="received">Heard from <persName ref="#James_Miss">Miss
+                        James</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#Rowden_Fr">Mrs. Rowden</persName></rs> -- ready
+                        <bibl><author>Cary</author>'s <title>Dante</title></bibl> &amp;
+                        <bibl><author>Haslitt</author>'s <title>Lectures on the Comic
+                        Writers</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-19">Mon. 19 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> all day -- <rs type="letter">wrote to <persName ref="#James_Miss">Miss James</persName></rs> &amp; <rs type="letter">to <persName ref="#Webb_Eliza">Miss Webb</persName></rs>.</p></div><div type="entry"><head><date when="1819-04-20">Tues. 20 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went to
+                        <placeName>Penge Wood</placeName></rs> -- Poor dear
+                     <persName>Mossy</persName> got a sad fall &amp; was very ill -- <rs type="letter">wrote to <persName ref="#James_Miss">Miss James</persName></rs>
+                  -- <rs type="event">still expected that <persName ref="#Palmer_Mad">tiresome
+                        woman</persName></rs>.</p></div><div type="entry"><head><date when="1819-04-21">Wed. 21 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- poor dear
+                     <persName>Mossy</persName> very ill in the Morning but better in the Afternoon
+                  -- <rs type="event">Still expected that tiresome <persName ref="#Palmer_Mad">Lady
+                        Mad.</persName> who did not come</rs>.</p></div><div type="entry"><head><date when="1819-04-22">Thurs. 22 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">waited
+                     again for that shocking plague <persName ref="#Palmer_Mad">Lady M.P.</persName>
+                     who never came</rs> -- Dear <persName>Mossy</persName> much better almost well.
+                  Read <bibl><author>Horrace Walpole</author>'s <title>Letters to Mr.
+                        Montague</title></bibl>.</p></div><pb n="9"/><div type="entry"><head><date when="1819-04-23">Fri. 23 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">waited
+                     again for <persName ref="#Palmer_Mad">my Lady</persName>, Deuce take her</rs>
+                  -- read <bibl><author>Horace Walpole</author>'s delightful letters</bibl> &amp;
+                        <bibl><author>Rose</author>'s <title>Letters from the North of
+                     Italy</title></bibl> -- very good though vulgar.</p></div><div type="entry"><head><date when="1819-04-24">Sat. 24 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">waited
+                     again for that shocking torment <persName ref="#Palmer_Mad">Lady
+                        M.P.</persName> -- never came</rs> -- read <bibl><author>Rose</author>'s
+                        <title>letters from the North of Italy</title></bibl> -- &amp; <rs type="letter">finished my letters to <persName ref="#James_Miss">Miss
+                        James</persName></rs> &amp; <rs type="letter"><persName ref="#Rowden_Fr">Mrs. Rowden</persName></rs>.</p></div><div type="entry"><head><date when="1819-04-25">Sun. 25 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">waited
+                     again</rs><!--rjp:she is waiting for Lady M.P.--> -- dined early -- dear
+                     <persName ref="#Mitford_Geo">Drum</persName> went to the <placeName>fields by
+                        <placeName>Burghfield Bridge</placeName></placeName> to get me <rs type="plant">Field Tulips</rs> -- God bless him, dear lamb. <rs type="letter">Wrote to <persName>Miss Booth</persName></rs> -- Had
+                     <persName>Miranda</persName> to tea. Great lamb.</p></div><div type="entry"><head><date when="1819-04-26">Mon. 26 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Dear
+                        <persName ref="#Mitford_Geo">Drum</persName> went to <placeName ref="#London_city">London</placeName></rs> -- I had &amp; had
+                  had<!--rjp:this is what the manuscript says but it may have been an error ... just doesn't make sense-->
+                  for two days a very bad cough -- read <title>The Quakers</title> &amp;
+                        <bibl><author>Campbell</author>'s <title>English Poets</title></bibl>.</p></div><div type="entry"><head><date when="1819-04-27">Tues. 27 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- rather better -- dear
+                     <persName>Granny</persName> very good to me -- <rs type="letter" subtype="received">heard from <persName ref="#Elford_SirWm">Sir
+                        William</persName></rs> -- <rs type="letter">wrote to
+                  him</rs><!--rjp:she wrote to Sir William Elford--> &amp; <rs type="letter">dear
+                        <persName ref="#Mitford_Geo">Drum</persName></rs> -- read <bibl><author>Mr.
+                        Campbell</author>'s <title>Specimens of the English Poets</title></bibl>.
+                  Like it very much.</p></div><div type="entry"><head><date when="1819-04-28">Wed. 28 Apr.</date></head><p>At <placeName>home</placeName> -- rather better. <rs type="letter" subtype="received">Heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- <rs type="letter">wrote to <persName ref="#Mitford_Geo">him</persName></rs><!--rjp:would this be an appropriate way to tag this?--> --
+                     <rs type="event">poor <persName>Mrs. Budd</persName> of
+                        <placeName>Bedford</placeName> now dead in
+                  childbirth</rs><!--rjp:would this be an appropriate way to tag this?--> -- <rs type="event">Went <rs type="plant">cowslip</rs>ping</rs><!--rjp: i wanted to capture the plant type and the event since it seems she doesn't do it often... but I doubt I tagged this right-->
+                  in <placeName>the meadows</placeName> with dear <persName>Granny</persName>,
+                     <persName>Lucy</persName> &amp; the pets -- all very amiable.</p></div><div type="entry"><head><date when="1819-04-29">Thurs. 29 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- much the same -- <rs type="letter">Heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs>
+                  -- <rs type="event">Went to <placeName>Penge Wood</placeName> with dear
+                        <persName>Granny</persName>, <persName>Lucy</persName> &amp; the Pets</rs>.
+                  Dear <persName ref="#Mitford_Geo">Drum</persName> came <placeName ref="#Bertram_house">home</placeName> at night.</p></div><div type="entry"><head><date when="1819-04-30">Fri. 30 Apr.</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- better -- <rs type="letter" subtype="received">heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs> -- walked round the place with dear <persName ref="#Mitford_Geo">Drum</persName> -- read <title>a Walk through
+                     Switzerland</title> -- liked it pretty well.</p></div><div type="entry"><head><date when="1819-05-01">Sat. 1 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- better -- <rs type="event">went <rs type="plant">cowslip</rs>ping</rs><!--rjp: i wanted to capture the plant type and the event since it seems she doesn't do it often... but I doubt I tagged this right-->
+                  with dear <persName>Granny</persName> &amp; the pets -- read
+                        <bibl><author>Campbell</author>'s <title>Specimens of the British
+                        Poets</title></bibl> -- very good.</p></div><div type="entry"><head><date when="1819-05-02">Sun. 2 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- much the same -- <rs type="letter" subtype="received">heard from <persName>Aunt Mary</persName></rs>
+                  -- walked about the Place with dear <persName>Granny</persName> -- read <title>the
+                     Eclectic</title> &amp; <title>British Critic Reviews</title>.</p></div><div type="entry"><head><date when="1819-05-03">Mon. 3 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- better -- walked about the
+                  place with dear <persName ref="#Mitford_Geo">Drum</persName>, dear
+                     <persName>Granny</persName> &amp; the pets -- all very amiable -- <rs type="letter">wrote to <persName ref="#James_Miss">Miss
+                  James</persName></rs>.</p></div><div type="entry"><head><date when="1819-05-04">Tues. 4 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- much better -- <rs type="letter" subtype="received">heard from <persName ref="#Webb_Eliza">Eliza
+                        Webb</persName></rs> -- walked about the Place with dear
+                     <persName>Granny</persName> -- read <bibl><author>Lebaume</author>'s
+                        <title>Campaign in Russia</title></bibl>.</p></div><pb n="10"/><div type="entry"><head><date when="1819-05-05">Wed. 5 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- much better -- <rs type="letter" subtype="received">heard from <persName>Miss
+                     Booth</persName></rs> -- went round the place flowering with dear <persName ref="#Mitford_Geo">Drum</persName> -- <rs type="letter">wrote to <persName>Aunt
+                        Mary</persName></rs>.</p></div><div type="entry"><head><date when="1819-05-06">Thurs. 6 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- almost well --
+                     <persName>Mr. Morfitt</persName> &amp; <persName>Mr. Armstrong</persName> dined
+                  here -- <rs type="letter">wrote to <persName ref="#Webb_Eliza">Eliza
+                        Webb</persName></rs>.</p></div><div type="entry"><head><date when="1819-05-07">Fri. 7 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- still better -- <rs type="letter" subtype="received">heard from <persName>Aunt Mary</persName></rs>
+                  -- read <bibl><title>les Parvenus</title> by <author>Madame de
+                     Genlis</author></bibl>.</p></div><div type="entry"><head><date when="1819-05-08">Sat. 8 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- quite well -- <rs type="event"><persName>Mr. Voules</persName> &amp; <persName>Mr.
+                        Walker</persName> called &amp; <persName ref="#Dickinson_Charles">Mr.
+                        Dickinson</persName></rs> -- corrected some proofs for <persName ref="#Dickinson_Charles">Mr.
+                  D.</persName><!-- rjp:I find this interesting because it points to the work she does...do we have a tag for that?-->
+                  &amp; <rs type="letter">wrote a note to <persName ref="#Dickinson_Mrs">Mrs.
+                        Dickinson</persName></rs>.</p></div><div type="entry"><head><date when="1819-05-09"/>Sun. 9 May</head><p> At <placeName ref="#Bertram_house">home</placeName> -- quite well -- <rs type="letter">wrote a note to <persName>Mr. St. Quentin</persName></rs> --
+                  walked with dear <persName ref="#Mitford_Geo">Drum</persName> &amp; the Pets.
+                  Looked over <persName ref="#Dickinson_Charles">Mr. Dickinson</persName>'s
+                     <title>Translations</title>.</p></div><div type="entry"><head><date when="1819-05-10"/>Mon. 10 May</head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Dear
+                        <persName ref="#Mitford_Geo">Drum</persName> went to <placeName ref="#London_city">London</placeName></rs> -- walked with dear
+                     <persName>Granny</persName> &amp; the pets -- read
+                        <bibl><author>Campbell</author>'s <title>Specimens of English
+                     Poets</title></bibl>. <rs type="event">The <orgName>Dearesleys</orgName>
+                     called</rs>.</p></div><div type="entry"><head><date when="1819-05-11">Tues. 11 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- the <orgName>Dearesleys</orgName> called while we were
+                  at dinner &amp; we did not see them. <rs type="event"><persName>Mr.
+                        Green</persName> called in the morning &amp; was very pleasant</rs> -- read
+                     <title>a ten years [sic] in Tripoly</title>.</p>
+               <!--rjp:according to the next entry I would make the assumption that the word the original transcriber couldnt read and replaced with sic was residence--></div><div type="entry"><head><date when="1819-05-12">Wed. 12 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- <rs type="event"><persName>Capt.</persName> &amp;
+                        <persName>Mrs. Tuppen</persName> called</rs> -- <rs type="letter" subtype="received">heard again at night from <persName ref="#Mitford_Geo">Drum</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#James_Miss">Miss James</persName></rs> -- Dear <persName ref="#Mitford_Geo">Drum</persName> sent some lovely <rs type="plant">lillies of
+                     the valley</rs> -- Read <title>a ten years residence in Tripoly</title> very
+                  entertaining indeed.</p></div><div type="entry"><head><date when="1819-05-13">Thurs. 13 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Dear
+                        <persName ref="#Mitford_Geo">Drum</persName> came <placeName ref="#Bertram_house">home</placeName></rs> -- Poor
+                     <persName>Mossy</persName> was sick -- dressed the flowers -- read
+                        <bibl><author>Coleridge</author>'s <title>Zapolya</title></bibl>, very good
+                  -- &amp; <bibl><author>Miss Benger</author>'s <title>Life of Mrs.
+                     Hamilton</title></bibl> -- very bad.</p></div><div type="entry"><head><date when="1819-05-14">Fri. 14 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">wrote to
+                        <persName ref="#James_Miss">Miss James</persName></rs> &amp; <rs type="letter"><persName ref="#Elford_SirWm">Sir W. Elford</persName></rs> --
+                     <orgName>Mr. &amp; Mrs. Dickinson</orgName> drank tea with us -- Dear <persName ref="#Dickinson_Mrs">Mrs. D.</persName> brought me some <rs type="plant">wild
+                     lilies</rs> of <placeName>the valley</placeName>.</p></div><div type="entry"><head><date when="1819-05-15">Sat. 15 May</date></head><p> At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went to
+                        <placeName ref="#Reading_city">Reading</placeName></rs> -- called on
+                     <persName>Mrs.Tuppen</persName>, <persName>Mrs. Newberry</persName>,
+                     <persName>Miss Brooke</persName>, <persName>Miss Anstruther</persName> &amp;
+                     <orgName>the Valpy's</orgName> -- bought some things for
+                     <persName>Granny</persName> &amp; myself -- read <title>The Rivals</title> --
+                  famous</p></div><div type="entry"><head><date when="1819-05-16">Sun. 16 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went to
+                        <placeName>Wokingham</placeName></rs> -- dined there -- <persName ref="#Palmer_CF">Mr. Palmer</persName> was there -- came <placeName ref="#Bertram_house">home</placeName> in the evening &amp; read <title>the
+                     Wheel of Fortune</title> -- middling. Dear <persName>May Fly</persName> married
+                  at <placeName>Wokingham</placeName> to <persName>Warrener</persName> &amp;
+                     <persName>Whistle</persName>.</p></div><pb n="11"/><div type="entry"><head><date when="1819-05-17">Mon. 17 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dressed my flowers --
+                  walked about <placeName>the Place</placeName> -- read <bibl><author>Florence
+                        Macarthy</author></bibl> -- liked it better than the first.</p></div><div type="entry"><head><date when="1819-05-18">Tues. 18 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dear
+                     <persName>Mossy</persName> married to pretty little <persName>Fly</persName> --
+                     <rs type="letter" subtype="received">Heard from <persName ref="#Hofland_B">Mrs.
+                        Hofland</persName></rs> -- <rs type="event"><persName ref="#Mitford_Geo">Drum</persName> went to <placeName ref="#London_city">London</placeName></rs>. <rs type="event"><persName ref="#Dickinson_Charles">Mr. Dickinson</persName> called</rs>.</p></div><div type="entry"><head><date when="1819-05-19">Wed. 19 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- read a <title>Picturesque Tour through France &amp;
+                     Switzerland</title> (stupid) &amp; <bibl><author>Mr. ORegan</author>'s
+                        <title>Memoirs of [?] Do</title></bibl>. Dear <persName>Granny</persName>'s
+                  new bonnet came
+                  home.<!--rjp: transcription issue... need to double check code for this--></p></div><div type="entry"><head><date when="1819-05-20">Thurs. 20 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dressed the flowers -- <rs type="event">dear <persName ref="#Mitford_Geo">Drum</persName> came <placeName ref="#Bertram_house">home</placeName> &amp; brought me a pretty blue
+                     handkerchief</rs> &amp; some lovely <rs type="plant">lilies</rs> of
+                     <placeName>the valley</placeName>.</p></div><div type="entry"><head><date when="1819-05-21">Fri, 21 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- walked with dear <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets -- the <date when="1819-05">may</date> finer <date when="1819">this year</date> than I ever saw it,
+                  particularly in <placeName>my lane</placeName> -- read from
+                        <bibl><author>Charlotte Smith</author>'s <title>Young
+                     Philosopher</title></bibl> -- pretty but too dismal.</p></div><div type="entry"><head><date when="1819-05-22">Sat. 22 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Elford_SirWm">Sir William
+                        Elford</persName></rs> &amp; <rs type="letter" subtype="received"><persName>Miss Ogbourn</persName></rs> -- read <bibl><author ref="#Byron">Lord Byron</author>'s <title>6th Vol. of Poems (Manfred, the Prisoner of
+                        Chillon &amp; the Lament of Tasso)</title></bibl> &amp; <bibl>the last vol
+                     of <author>Miss Benger</author>'s <title>Life of Mrs. Hamilton</title></bibl>
+                  -- <persName ref="#Elford_SirWm">Sir William</persName> came in the evening.</p><p><persName ref="#Elford_SirWm">Sir William Elford</persName> came on the <date when="1819-05-22">Saturday</date> Evening to tea having left his friend
+                     <persName>Mr. Champernoune</persName> who was to have accompanied him ill at
+                     <placeName>the Bear</placeName> -- he expected him <date when="1819-05-23">next
+                     day</date> -- but instead of him came a note from <persName>Mr.
+                     Bulley</persName> to <persName ref="#Mitford_Geo">Drum</persName> to say that
+                     <persName>Mr. Cham</persName>: had taken an opening medicine &amp; could not
+                  move: so <persName ref="#Elford_SirWm">Sir William</persName> went to him after
+                  tea. [added later:<!--rjp: added later is underlined and this is a transcription note most likely--><rs type="event">poor <persName>Mr. C.</persName> died after a very few
+                  weeks</rs>]<!--rjp:square brackets--> -- Dear <persName ref="#Dickinson_Mrs">Mrs.
+                     Dickinson</persName> dined &amp; slept here.</p></div><div type="entry"><head><date when="1819-05-23">Sun. 23 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <persName ref="#Elford_SirWm">Sir William Elford</persName> with us -- expected his
+                  friend <persName>Mr. Champernoune</persName> who did not come -- <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName> called &amp; dined &amp; slept
+                  with us -- <persName ref="#Elford_SirWm">Sir W.</persName> went in the morning to
+                  see <placeName>Stratfield Saye</placeName> went away in the evening</p></div><div type="entry"><head><date when="1819-05-24">Mon. 24 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event"><persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName> still here on account of the
+                     loss of her carriage horses</rs> -- <rs type="event"><persName ref="#Mitford_Geo">Drum</persName> &amp; I dined at
+                        <placeName>Wokingham</placeName> to keep <date when="1819-05-24"><persName>Mr. Webb</persName>'s birthday</date></rs> -- met <orgName>Mr.
+                     &amp; Mrs. Holton</orgName>, <orgName>two Mr. Wheelers</orgName>, &amp;
+                     <orgName>Mr. &amp; Mrs. W. Hayward</orgName> -- pleasant day. Came <placeName ref="#Bertram_house">home</placeName> at night.</p>
+               <!--rjp: it is likely the Webbs live in Wokingham--></div><div type="entry"><head><date when="1819-05-25">Tues. 25 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName> left at about 1 o'clock -- <rs type="letter" subtype="received">heard from <persName ref="#Elford_SirWm">Sir
+                        William Elford</persName></rs> -- Read <bibl><author>Fellowes</author>'s
+                        <title>Journey to La Trappe &amp; La Vendee</title></bibl> -- liked it very
+                  well -- <rs type="event">poor <persName>Mossy</persName> lame</rs>.</p></div><pb n="12"/><div type="entry"><head><date when="1819-05-26">Wed. 26 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs> -- read <bibl><author>Hackett</author>'s <title>Narrative
+                        of an expedition to South America</title></bibl>. <rs type="letter">Wrote to
+                        <persName ref="#Hofland_B">Mrs. Hofland</persName></rs>. Walked with
+                     <persName>Granny</persName> &amp; the pets -- very amiable.</p></div><div type="entry"><head><date when="1819-05-27">Thurs. 27 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from <persName ref="#Dickinson_Mrs">Mrs.
+                        Dickinson</persName></rs> -- cut dear <persName ref="#Mitford_Geo">Drum</persName>'s hair -- <rs type="letter">wrote to <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName></rs> -- dressed the flowers
+                  -- walked with dear <persName ref="#Mitford_Geo">Drum</persName> &amp; the
+                  pets.</p></div><div type="entry"><head><date when="1819-05-28">Fri. 28 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- walked about <placeName>the
+                     place</placeName> -- saw some fine <rs type="plant">foxglove</rs>
+                  [sic]<!--rjp:square bracket check code--> out in <placeName>the lane</placeName>,
+                  very early -- &amp; a fine <rs type="plant">pansy</rs>, very late -- the <rs type="plant">syringa</rs><!--rjp:what?--> coming out beautifully.</p></div><div type="entry"><head><date when="1819-05-29">Sat. 29 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs> &amp; <rs type="letter" subtype="received"><persName>Miss
+                        Ogbourn</persName></rs> -- lay on a Haycock in the <placeName type="plant">West Orchard</placeName>, &amp; read <title>Repton of Landscape
+                     Gardening</title> &amp; <bibl><author>Miss Jame</author>'s <title>little Tale
+                        of Jenny the spinner</title></bibl>.</p></div><div type="entry"><head><date when="1819-05-30">Sun. 30 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- walked about the place with
+                  dear <persName ref="#Mitford_Geo">Drum</persName>, dear
+                     <persName>Granny</persName> &amp; the pets -- <rs type="letter">wrote to
+                        <persName ref="#Elford_SirWm">Sir William</persName></rs> -- read
+                        <bibl><author ref="#Edgeworth_Maria">Miss Edgeworth</author>'s <title>Moral
+                        Tales</title></bibl> -- very pretty.</p></div><div type="entry"><head><date when="1819-05-31">Mon. 31 May</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- went about <placeName type="garden">the garden</placeName> with dear <persName ref="#Mitford_Geo">Drum</persName>, dear <persName>Granny</persName>, &amp; the pets -- read
+                     <title>the Eclectic</title> &amp; <title>British Critic Reviews</title> -- <rs type="letter">wrote to <persName ref="#James_Miss">Miss
+                  James</persName></rs>.</p></div><div type="entry"><head><date when="1819-06-01">Tues. 1 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dressed my flowers --
+                  walked in <placeName type="garden">the garden</placeName> with
+                     <persName>Granny</persName> &amp; <persName>Mossy</persName> -- read
+                        <bibl><author>Barrow</author>'s <title>Account of Voyages to the North
+                        Pole</title></bibl> -- <rs type="letter">wrote to <persName>Miss
+                        Booth</persName></rs> -- <rs type="plant">syringa</rs> very beautiful.</p></div><div type="entry"><head><date when="1819-06-02">Wed. 2 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event"><persName ref="#Mitford_Geo">Papa</persName> went to <placeName>Watlington</placeName>
+                     to stand to <persName>Mrs. Hayward</persName>'s <rs type="person">little
+                        girl</rs></rs> -- <rs type="letter">I wrote to <persName>Mrs.
+                        Hayward</persName></rs> &amp; <rs type="letter"><persName ref="#James_Miss">Miss James</persName></rs>.</p></div><div type="entry"><head><date when="1819-06-03">Thurs. 3 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the Hay (my own
+                  little Haycock) in the <placeName type="plant">West Orchard</placeName>. Walked in
+                     <placeName type="garden">the garden</placeName> with
+                     <persName>Granny</persName> &amp; the dear Pets.</p></div><div type="entry"><head><date when="1819-06-04">Fri. 4 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the Hay -- went
+                  Firtopping -- <rs type="event"><persName ref="#Mitford_Geo">Drum</persName> came
+                     back from <placeName>Watlington</placeName></rs> -- read <bibl><author>Mr.
+                        D'Israeli</author>'s <title>Calamities of Authors</title></bibl>.</p></div><div type="entry"><head><date when="1819-06-05">Sat. 5 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Dressed the flowers -- lay
+                  in the Hay -- walked about <placeName>the Place</placeName> with dear <persName ref="#Mitford_Geo">Drum</persName>, dear <persName>Granny</persName> &amp; the
+                  Pets -- read <bibl><author>Blackwood</author>'s <title>Edinburgh
+                     Magas</title></bibl>.</p></div><div type="entry"><head><date when="1819-06-06">Sun. 6 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the Hay -- walked
+                  down <placeName>the lane</placeName> with dear <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets, very amiable -- the <rs type="plant">wild
+                     roses</rs> cut -- read <title>Edinburgh Review</title> &amp; <title>a Year
+                     &amp; Day</title> -- pretty enough but too dismal.</p></div><pb n="13"/><div type="entry"><head><date when="1819-06-07">Mon. 7 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">dear
+                        <persName ref="#Mitford_Geo">Drum</persName> went to
+                        <placeName>Town</placeName></rs> -- walked with dear
+                     <persName>Granny</persName> &amp; the pets -- read <title>the Quarterly
+                     Review</title> (No.38-39 &amp; 40 are to be indexes) &amp; <title>The White
+                     Cottage</title> -- which is too dismal.</p></div><div type="entry"><head><date when="1819-06-08">Tues. 8 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs>, &amp; <rs type="event"><persName>Granny</persName> heard
+                     from <persName ref="#Elford_SirWm">Sir William</persName> &amp; dear <persName ref="#Mitford_Geo">Drum</persName></rs>. Walked with dear
+                     <persName>Granny</persName> &amp; the Pets.</p></div><div type="entry"><head><date when="1819-06-09">Wed. 9 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs>, <rs type="letter" subtype="received"><persName ref="#Haydon">Mr. Haydon</persName></rs> &amp; <rs type="letter" subtype="received"><persName>Mary Webb</persName></rs>. Lay in the hay --
+                  walked with <persName>Granny</persName>
+                  [sic]<!--rjp:square bracket check for coding--> -- <rs type="letter">wrote to
+                        <persName>Mary Webb</persName></rs>.</p></div><div type="entry"><head><date when="1819-06-10">Thurs. 10 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">Heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- walked with the pets -- Dear <persName ref="#Mitford_Geo">Drum</persName> did not come <placeName ref="#Bertram_house">home</placeName> at night but sent a note &amp; some most beautiful flowers --
+                     <rs type="plant">red lilies</rs> -- <rs type="plant">ranunculuses</rs> -- <rs type="plant">pinks</rs> -- <rs type="plant">moss roses</rs> -- sweet peas &amp;
+                  double anemones -- God<!--rjp:do we tag this as a real person or fictional-->
+                  bless him, dear love.</p></div><div type="entry"><head><date when="1819-06-11">Fri. 11 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- dressed the flowers -- <rs type="event">dear <persName ref="#Mitford_Geo">Drum</persName> came from <placeName>Town</placeName>
+                     &amp; brought me a present of the two Peter Bells from <persName>Mr.
+                        Taylor</persName><!--rjp:check to be sure Mr. Taylor isn't the author of  two Peter Bells and shouldn't be included in the bibl as author also we can't have a bibl tag within the rs type=event tag sooooo how do we fix this?-->
+                     -- both which I read &amp; liked very much</rs>.</p></div><div type="entry"><head><date when="1819-06-12">Sat. 12 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#James_Miss">Miss
+                     James</persName></rs> -- walked with dear <persName>Granny</persName> &amp; the
+                  Pets about the Place -- read <bibl><author>Captain Ross</author>'s <title>account
+                        of the Polar Expedition</title></bibl>.</p></div><div type="entry"><head><date when="1819-06-13">Sun. 13 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the hay -- walked
+                  with <persName ref="#Mitford_Geo">Drum</persName> &amp; <persName>Mossy</persName>
+                  -- Read <bibl><author>Capt. Ross</author>'s <title>Polar Expedition</title></bibl>
+                  -- stupid -- the Captain very timid -- did nothing but christen every rock &amp;
+                  hillock he saw after some great person or other -- <persName>Lord
+                     Melvill</persName>, <persName>Mr. Croker</persName> &amp; so forth.</p></div><div type="entry"><head><date when="1819-06-14">Mon. 14 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went to
+                        <placeName ref="#Reading_city">Reading</placeName></rs> -- called on
+                     <persName>Miss Brooke</persName>, <persName>Mrs. Tuppen</persName>,
+                     <persName>Mrs. Newberry</persName> -- &amp; <rs type="event">bought
+                        <persName>Granny</persName> a new gown &amp; some other things at
+                        <placeName>Marsh's</placeName></rs> --</p></div><div type="entry"><head><date when="1819-06-15">Tues. 15 June</date></head><p><rs type="event">Dear <persName>Granny</persName>'s Birthday</rs> -- at <placeName ref="#Bertram_house">home</placeName> -- Dressed my flowers -- lay in the hay
+                  -- <rs type="letter">wrote to <persName>Mr. Bacon</persName></rs> &amp; <rs type="letter"><persName>Miss Brooke</persName></rs>.</p></div><div type="entry"><head><date when="1819-06-16">Wed. 16 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Went to
+                        <placeName ref="#Reading_city">Reading</placeName></rs> -- <rs type="event">bought the materials for a new bonnet at <placeName>Marsh's</placeName></rs>
+                  -- saw <orgName>the Brookes</orgName>
+                  &amp;c<!--rjp:is this transcription error.. unclear--> -- a very pleasant morning
+                  indeed.</p></div><div type="entry">
+               <!--RJP:COME BACK AND FIX THIS ENTRY!--><head><date when="1819-06-17">Thurs. 17 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard <date when="1819-06-16">yesterday</date> from
+                        <persName ref="#James_Miss">Miss James</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#Hofland_B">Mrs.
+                        Hofland</persName></rs> -- lay today in the hay -- walked with <persName ref="#Mitford_Geo">Drum</persName>, <persName>Granny</persName> &amp; the pets
+                  -- read the
+                  Hear<!--rjp:there is another letter at the end of this word that is very unclear but I am positive it is a t because the title is clear in the next entry-->
+                  of Midlothian &amp; the Criminal Trials to illustrate it of Porteous -- Wilson --
+                  Nichel -- [?]
+                  &amp;c<!--rjp:I think this was a portion of the text unclear to the transcriber...check how to code-->
+                  -- very curious.</p></div><pb n="14"/><div type="entry"><head><date when="1819-06-18">Fri. 18 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">wrote to
+                        <persName ref="#Dickinson_Charles">Mr. Dickinson</persName></rs> &amp; <rs type="letter"><persName>Miss Allin</persName></rs> -- read <title>the Heart of
+                     Midlothian</title> -- walked in <placeName type="garden">the garden</placeName>
+                  with dear <persName ref="#Mitford_Geo">Drum</persName>, dear
+                     <persName>Granny</persName> &amp; the Pets. <rs type="letter">Wrote to
+                        <persName>Mary Webb</persName> too</rs>!</p></div><div type="entry"><head><date when="1819-06-19">Sat. 19 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the Hay &amp; helped
+                  haymake -- walked in <placeName type="garden">the garden</placeName> with dear
+                     <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets -- read <title>Tour
+                     to Alet</title> -- liked it pretty well.</p></div><div type="entry"><head><date when="1819-06-20">Sun. 20 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">dear
+                        <persName ref="#Mitford_Geo">Drum</persName> &amp;
+                        <persName>Granny</persName> went into <placeName>Hampshire</placeName></rs>
+                  -- walked about the place -- lay in the Hay -- read <bibl><author>Shaw</author>'s
+                        <title>Travels</title></bibl> very learned &amp; curious.</p></div><div type="entry"><head><date when="1819-06-21">Mon. 21 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dear <persName ref="#Mitford_Geo">Drum</persName> &amp; <persName>Granny</persName> in
+                     <placeName>Hampshire</placeName> -- lay in the hay -- saw to the haymaking --
+                     <rs type="letter">wrote to dear <persName>Granny</persName></rs><rs type="letter"><persName ref="#Hofland_B">Mrs. Hofland</persName></rs> &amp;
+                     <rs type="letter"><persName ref="#James_Miss">Miss James</persName></rs> --
+                  read <title>the Beggar Girl</title> famous.</p></div><div type="entry"><head><date when="1819-06-22">Tues. 22 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dear <persName ref="#Mitford_Geo">Drum</persName> &amp; dear <persName>Granny</persName> still
+                  out -- <rs type="event">expected the <orgName>Miss Webbs</orgName> who did not
+                     come</rs> -- <rs type="letter">finished my letter to <persName ref="#James_Miss">Miss James</persName></rs> &amp; <rs type="letter">wrote a
+                     note to <persName ref="#Palmer_CF">Mr. Palmer</persName></rs>. Got the hay in
+                  good order -- lay in the hay.</p></div><div type="entry"><head><date when="1819-06-23">Wed. 23 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dear <persName ref="#Mitford_Geo">Drum</persName> &amp; dear <persName>Granny</persName> still
+                  out -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#Webb_Eliza">Eliza Webb</persName></rs> --
+                     <rs type="letter">wrote to dear <persName ref="#Mitford_Geo">Drum</persName></rs>. Lay in the Hay -- <persName>Luce</persName> &amp; I
+                  drank tea together very comfortably.</p></div><div type="entry"><head><date when="1819-06-24">Thurs. 24 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <persName ref="#Mitford_Geo">Drum</persName> &amp; <persName>Granny</persName> still out
+                  -- <rs type="letter" subtype="received">heard from dear
+                        <persName>Granny</persName></rs> -- <rs type="event"><persName>Luce</persName> made my white bonnet</rs> -- read <title>the
+                     Beggar Girl</title> -- had <persName>Mossy</persName> all day -- he was very
+                  amiable poor lamb indeed.</p></div><div type="entry"><head><date when="1819-06-25">Fri. 25 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> &amp; <rs type="letter" subtype="received"><persName ref="#Elford_SirWm">Sir William</persName></rs> -- dear <persName ref="#Mitford_Geo">Drum</persName> &amp; <persName>Granny</persName> came home
+                  -- dear <persName>Granny</persName> not quite well --
+                  <persName>God</persName><!--rjp:again how are we tagging God--> bless her.</p></div><div type="entry"><head><date when="1819-06-26">Sat. 26 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Dickinson_Mrs">Mrs.
+                        Dickinson</persName></rs> -- <rs type="letter">wrote to <persName ref="#Webb_Eliza">Eliza Webb</persName></rs> &amp; <rs type="letter"><persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName></rs>. Read the New
+                     <title>Tales of my Landlord</title>.</p></div><div type="entry"><head><date when="1819-06-27">Sun. 27 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Webb_Eliza">Eliza
+                     Webb</persName></rs> -- read the new <title>Tales of my Landlord</title> --
+                  dear <persName>Granny</persName> better.</p></div><div type="entry"><head><date when="1819-06-28">Mon. 28 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- was so showery &amp; could
+                  not go to <placeName>Wokingham</placeName> -- Did some of my flowers -- had my
+                  pets -- <persName>Mossy</persName> very amiable -- dear
+                     <persName>Granny</persName> better.</p></div><div type="entry"><head><date when="1819-06-29">Tues. 29 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> --got flowers -- lay in the
+                  hay -- read <bibl><author>Fusell</author>'s <title>lectures on
+                     Painting</title></bibl> -- <rs type="letter">wrote to <persName ref="#Elford_SirWm">Sir William Elford</persName></rs> -- dear
+                     <persName>Granny</persName> quite well.</p></div><pb n="15"/><div type="entry"><head><date when="1819-06-30">Wed. 30 June</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- walked with <persName ref="#Mitford_Geo">Drum</persName> &amp; the Pets -- <rs type="letter">sent off
+                     my letters to <persName ref="#Dickinson_Mrs"> Mrs. Dickinson</persName></rs>
+                  &amp; <rs type="letter"><persName ref="#Elford_SirWm">Sir William
+                        Elford</persName></rs> with <rs type="letter">note to <persName ref="#Dickinson_Charles">Mr. D.</persName></rs> &amp; <rs type="letter"><persName>Mr.
+                  Palner</persName></rs><!--rjp:I wonder if this is a transcription error and should be Palmer??-->.</p></div><div type="entry"><head><date when="1819-07-01">Thurs. 1 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName>Miss Booth</persName></rs> -- <rs type="event">went to <placeName ref="#Reading_city">Reading</placeName> &amp;
+                        <placeName>Wokingham</placeName> -- called on <persName>Miss
+                        Brooke</persName> &amp; <persName>Mrs. Newell</persName> -- dined with
+                        <orgName>the Webbs</orgName> -- met <persName>Mr. Carter</persName> there --
+                     very pleasant day</rs> -- came <placeName ref="#Bertram_house">home</placeName>
+                  at night.</p></div><div type="entry"><head><date when="1819-07-02">Fri. 2 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- read the <title>British
+                     Critic</title> &amp; <title>Eclectic Reviews</title> -- so cold &amp; wet that
+                  we had a fire -- cleared up rather in the Evening &amp; walked with dear <persName ref="#Mitford_Geo">Drum</persName>. <rs type="event">Sent some of my Poems to
+                        <placeName>Hampshire</placeName> friends <orgName>Woodburns</orgName><orgName>Holdens</orgName>
+                  &amp;c</rs><!--rjp:this keeps coming up... is this transcription unclear or what?-->.</p></div><div type="entry"><head><date when="1819-07-03">Sat. 3 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dressed my flowers -- <rs type="letter" subtype="received">heard from <persName ref="#James_Miss">Miss
+                        James</persName></rs> -- read <title>Camilla</title> -- Walked with
+                     <persName>Granny</persName><persName>Lucy</persName> &amp; <persName>Mossy</persName> about <placeName>our
+                     own place</placeName>.</p></div><div type="entry"><head><date when="1819-07-04">Sun. 4 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the Hay -- read
+                        <bibl><title>Zeneide</title> by <author>Madame de Genlis</author></bibl> --
+                  stupid -- <rs type="event"><persName>Mr. John Deverell</persName> came to dine
+                     &amp; sleep -- he stupid too! Walked in the evening with him &amp; <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets</rs> -- the pets very
+                  amiable.</p></div><div type="entry"><head><date when="1819-07-05">Mon. 5 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in Hay with
+                     <persName>Mossy</persName><persName>Marmy</persName> &amp; <persName>Moses</persName> -- read <title>an
+                     Autumn near the Rhine</title> -- <rs type="letter">wrote to <persName>Mary
+                        Webb</persName></rs> -- <persName>Mr. Deverell</persName> went away.</p></div><div type="entry"><head><date when="1819-07-06">Tues. 6 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">began a
+                     letter to <persName ref="#James_Miss">Miss James</persName></rs> -- had
+                     <persName>Mossy</persName> -- read <bibl><author>Lord Mclesworth</author>'s
+                        <title>account of Denmark in 1693</title></bibl> &amp; <bibl><author>Miss
+                        Aikin</author>'s <title>Memoirs of Queen Elizabeth</title></bibl> --
+                     <persName>Mossy</persName> very amiable.</p></div><div type="entry"><head><date when="1819-07-07">Wed. 7 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- read <bibl><author>Miss
+                        Aikin</author>'s <title>Memoirs of Queen Elizabeth</title></bibl> -- walked
+                  with <persName ref="#Mitford_Geo">Drum</persName> &amp; the pets --
+                     <persName>Mossy</persName> very amiable.</p></div><div type="entry"><head><date when="1819-07-08">Thurs. 8 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- read <bibl><author>Miss
+                        Aikin</author>'s <title>Memoirs of Queen Elizabeth</title></bibl> -- dressed
+                  my flowers -- walked about <placeName>the place</placeName> with the pets.</p></div><div type="entry"><head><date when="1819-07-09">Fri. 9 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event"><persName>Mr. Elliott</persName> &amp; <persName>Mr. Spurling</persName>
+                     came here &amp; settled to take to the place at
+                        <placeName>Michaelmas</placeName> -- they both behaved very well --
+                        <persName>Harry Marsh</persName> came to meet them &amp; dined here</rs> --
+                     <rs type="letter" subtype="received">heard from <persName ref="#James_Miss">Miss James</persName></rs>.</p></div><div type="entry"><head><date when="1819-07-10">Sat. 10 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the hay -- walked
+                  about <placeName>the place</placeName> with <persName ref="#Mitford_Geo">Drum</persName><persName>Granny</persName> &amp; the pets -- read <bibl><author>Lord
+                        Byron</author>'s <title>Mazeppa</title></bibl> liked it very much.</p></div><pb n="16"/><div type="entry"><head><date when="1819-07-11">Sun. 11 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went with
+                     dear <persName>Granny</persName> to <placeName>Wokingham</placeName> -- found
+                     them all dismal on account of <persName>Mr. Webb</persName>'s operation which
+                     is to be performed <date when="1819-07-13">Tuesday</date></rs> -- came
+                     <placeName ref="#Bertram_house">home</placeName> to dinner -- lay in the
+                  hay.</p></div><div type="entry"><head><date when="1819-07-12">Mon. 12 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">went to
+                        <placeName ref="#Reading_city">Reading</placeName> with dear <persName ref="#Mitford_Geo">Drum</persName> -- made a great many calls changed my
+                     books -- a pleasant morning</rs> -- Came <placeName ref="#Bertram_house">home</placeName> to dinner -- lay in my hay -- <rs type="letter">finished my
+                     letter to <persName ref="#James_Miss">Miss James</persName></rs>.</p></div><div type="entry"><head><date when="1819-07-13">Tues. 13 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="event">Dear
+                        <persName ref="#Mitford_Geo">Drum</persName> &amp;
+                        <persName>Granny</persName> went to <placeName>Lockinge</placeName></rs> --
+                  dressed my flowers -- lay in the hay -- walked down <placeName>the
+                     lane</placeName> with <persName>Luce</persName> &amp; <rs type="event">saw a
+                     beautiful glowworm on a weed in the ditch</rs>.</p></div><div type="entry"><head><date when="1819-07-14">Wed. 14 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dear <persName ref="#Mitford_Geo">Drum</persName> and <persName>Granny</persName> at
+                     <placeName>Lockinge</placeName> -- lay in the hay -- walked in <placeName type="field">the hayfield</placeName> -- <rs type="event">a <persName>little
+                        bird</persName> by my hay has been very tame for the two last days</rs> --
+                  read <bibl><author>Colonel FitzClarence</author>'s <title>Indian
+                     Journal</title></bibl>.</p></div><div type="entry"><head><date when="1819-07-15">Thurs. 15 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <persName ref="#Mitford_Geo">Drum</persName> &amp; <persName>Granny</persName> still out
+                  -- laid in the hay -- <persName>my little robin</persName> kept eating close to me
+                  -- walked in <placeName type="field">the hayfield</placeName>. <rs type="event"><persName>Betty Rapley</persName> dined here</rs> -- <rs type="letter" subtype="received">heard from <persName ref="#Webb_Eliza">Miss Eliza
+                        Webb</persName></rs> -- read <title>the Magazines</title>.</p></div><div type="entry"><head><date when="1819-07-16">Fri. 16 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from dear <persName ref="#Mitford_Geo">Drum</persName></rs> -- <persName ref="#Mitford_Geo">Drum</persName> &amp;
+                     <persName>Granny</persName> came home -- very glad to get them --lay in the hay
+                  -- walked down <placeName>the lane</placeName> -- read <title>the Monthly</title>
+                  &amp; <title>European Magazines</title> -- pretty good.</p></div><div type="entry"><head><date when="1819-07-17">Sat. 17 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dressed my flowers -- lay
+                  in the hay -- read <bibl><author>Sir Joshua Reynold</author>'s works</bibl> -- fed
+                     <persName>my tame robin</persName> -- <rs type="letter">began a letter to
+                        <persName>Miss Booth</persName></rs>. Twice caught in the rain &amp; obliged
+                  to change my things.</p></div><div type="entry"><head><date when="1819-07-18">Sun. 18 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the hay -- read
+                        <bibl><author>Crabbe</author>'s <title>Tales of the Hall</title></bibl>
+                  liked them -- <rs type="letter">wrote to <persName>Miss Brooke</persName></rs>
+                  &amp; <rs type="letter"><persName ref="#Rowden_Fr">Mrs. Rowden</persName></rs> --
+                  walked down <placeName>the lane</placeName> with dear <persName ref="#Mitford_Geo">Drum</persName> &amp; pets. <persName>Mossy</persName> very amiable.</p></div><div type="entry"><head><date when="1819-07-19">Mon. 19 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the Hay -- read
+                        <bibl><author>Crabbe</author>'s <title>Tales of the Hall</title></bibl> --
+                  walked with <persName ref="#Mitford_Geo">Drum</persName> &amp;
+                     <persName>Granny</persName> &amp; the Pets backward &amp; forward to
+                     <placeName>the white gate</placeName>.</p></div><div type="entry"><head><date when="1819-07-20">Tues. 20 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the hay -- dear
+                     <persName>Mossy</persName> not well -- <persName>Bobby</persName> brought a
+                  relation to eat bread crums<!--rjp:spelling different than expected crumbs--> both
+                  of them very
+                  amiable<!--this must be the same robin addressed earlier that she refers to as timid robin in the hay-->
+                  -- dear <persName>Mossy</persName> better in the Evening -- read
+                        <bibl><author>Reynold</author>'s works</bibl>.</p></div><pb n="17"/><div type="entry"><head><date when="1819-07-21">Wed. 21 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Poor dear <persName ref="#Mitford_Geo">Drum</persName> taken very ill -- giddy &amp; sick -- sent
+                  for <persName>Mr. Sherwood</persName> who bled &amp; physicked him. Dear <persName ref="#Mitford_Geo">Drum</persName> better in the Evening --
+                     <persName>Mossy</persName> quite well to day -- read.</p></div><div type="entry"><head><date when="1819-07-22">Thurs. 22 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- dear <persName ref="#Mitford_Geo">Drum</persName> much better -- <persName>God</persName>
+                  bless him -- dressed my flowers -- lay in the hay -- walked in <placeName type="plant">the wood</placeName> -- <rs type="event">dear <persName ref="#Mitford_Geo">Drum</persName> brought me some fine <rs type="plant">Jasmine</rs> from <placeName>Mr. Davies</placeName></rs>.</p></div><div type="entry"><head><date when="1819-07-23">Fri. 23 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Dear <persName ref="#Mitford_Geo">Drum</persName>'s throat very bad -- sent for <persName>Mr.
+                     Harris</persName> who came to see him -- dear <persName ref="#Mitford_Geo">Drum</persName> better in the Evening -- lay in the Hay -- read <title>Traits
+                     of Nature</title>. Walked with the Pets.</p></div><div type="entry"><head><date when="1819-07-24">Sat. 24 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- Dear <persName ref="#Mitford_Geo">Drum</persName> much better. <rs type="letter" subtype="received">Heard from <persName ref="#Dickinson_Mrs">Mrs.
+                        Dickinson</persName></rs><rs type="letter" subtype="received"><persName ref="#Rowden_Fr">Mrs.
+                        Rowden</persName></rs> &amp; <rs type="letter" subtype="received"><persName>Miss Harley</persName></rs> -- lay in the hay --
+                     <persName>Marmy</persName> very ill -- <rs type="letter">wrote to <persName ref="#Rowden_Fr">Mrs. Rowden</persName></rs> -- <rs type="letter">finished
+                     my letter to <persName>Miss Booth</persName></rs> -- <rs type="letter">began
+                     one to <persName ref="#Elford_SirWm">Sir William</persName></rs>.</p></div><div type="entry"><head><date when="1819-07-25">Sun. 25 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">finished
+                     my letter to <persName ref="#Elford_SirWm">Sir William</persName></rs> &amp;
+                     <rs type="letter">sent off that of <persName ref="#Rowden_Fr">Mrs.
+                        Rowden</persName>'s</rs> -- dined at <placeName>Wokingham</placeName> -- <rs type="event">dear <persName>Mr. Webb</persName> much better</rs> -- a very
+                  pleasant day -- <rs type="event"><!--rjp: since MRM is discussing letters recieved as well as the event of retrieving the letters and parcel I am not sure if to tag this as rs type=event or rs type=letter subtype=received-->came
+                        <placeName ref="#Bertram_house">home</placeName> by <placeName ref="#Reading_city">Reading</placeName> to get a parcel for <persName ref="#James_Miss">Miss James</persName> containing two long letters from
+                        <persName ref="#James_Miss">her</persName> &amp; <persName ref="#Hofland_B">Mrs. Hofland</persName> a pretty handkerchief bordered with roses &amp;
+                     <!--<bibl><author>Professor Brown</author>'s book on cause & effect</bibl>--><!--rjp: i commented this out because oxygen is not happy with a bibl inside of a rs--></rs>
+                  -- <persName>Marmy</persName> quite well.</p></div><div type="entry"><head><date when="1819-07-26">Mon. 26 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">wrote to
+                     the <orgName>Miss
+                     Webbs</orgName><!--rjp:referring to both of the Miss Webbs... Mary and Eliza-->
+                     &amp; sent them some apples &amp; French beans</rs> -- lay in the hay -- read
+                     <title>De Rance</title> &amp; <title>Madame de Genlis
+                  Zuma</title><!--rjp:in the transcription this last word...Zuma...looks added or diffrent and then there is a long space and a new line starts below with a dash I think this may be the same bibl from above but was unclear to the person transcribing... <bibl><title>Zeneide</title> by <author>Madame de Genlis</author></bibl>--></p><p>-- the first very bad the other pretty -- <rs type="letter">wrote to <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName></rs>.</p></div><div type="entry"><head><date when="1819-07-27">Tues. 27 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- called on <persName>Mrs.
+                     Vowles</persName> with dear <persName ref="#Mitford_Geo">Drum</persName> -- lay
+                  in the hay -- read <bibl><author>Professor Brown</author> on <title>Cause &amp;
+                        Effect</title></bibl> -- <rs type="letter">wrote to <persName ref="#James_Miss">Miss James</persName></rs>.</p></div><div type="entry"><head><date when="1819-07-28">Wed. 28 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter" subtype="received">heard from <persName ref="#Elford_SirWm">Sir
+                        William</persName></rs> -- <rs type="letter">wrote to <persName ref="#Elford_SirWm">Sir William</persName></rs> &amp; <rs type="letter"><persName ref="#James_Miss">Miss James</persName></rs> -- dressed my
+                  flowers -- walked with dear <persName ref="#Mitford_Geo">Drum</persName> and the
+                  pets.</p></div><div type="entry"><head><date when="1819-07-29">Thurs. 29 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- <rs type="letter">wrote to
+                        <persName ref="#Haydon">Mr. Haydon</persName></rs>. Called at
+                     <placeName>Farley Hill</placeName> -- <persName ref="#Dickinson_Charles">Mr.
+                     D.</persName> just gone out -- <rs type="event">dined at
+                        <placeName>Wokingham</placeName> -- very pleasant day -- had a wandering
+                     band to play to us -- we drank tea in the shrubbery</rs> -- Came <placeName ref="#Bertram_house">home</placeName> at night.</p></div><div type="entry"><head><date when="1819-07-30">Fri. 30 July</date></head><p>At <placeName ref="#Bertram_house">home</placeName> -- lay in the hay with
+                     <persName>Mossy</persName> &amp; talked to my <persName>Bobby</persName> --
+                     <persName>Bobby</persName> very amiable -- I think he'll soon talk too! Read
+                        <bibl><author>Miss Plumtre</author>'s <title>Tales</title></bibl> -- very
+                  amusing.</p></div><pb n="18"/><div type="entry"><head><date when="1819-07-31">Sat. 31 July</date></head><p>At home -- lay in the hay till it thundered -- heard from Mr. Dickinson (with a proof of Cyllenius) &amp; from Mrs. Rowden -- corrected the proof &amp; wrote to Mr. Dickinson -- read Lord Byron's Don Juan good but wicked.</p></div><div type="entry"><head><date when="1819-08-01">Sun. 1 Aug.</date></head><p>At home -- lay in the hay -- read the Sicilian -- wrote to Mrs. Havell &amp; Pen Valpy -- walked in the evening with dear Drum &amp; the pets -- all the pets very amiable especially Mossy &amp; Marmy.</p></div><div type="entry"><head><date when="1819-08-02">Mon. 2 Aug.</date></head><p>At home -- was engaged to have gone to Wokingham to see some strolling players but not quite well so staid at home -- wrote to Mary Webb -- heard from Mary Webb -- lay in the hay -- Bobby very amiable -- walked with dear Drum Moll &amp; Mossy, dear Mossy.</p></div><div type="entry"><head><date when="1819-08-03">Tues. 3 Aug.</date></head><p>At home -- wrote to Mary Webb -- dressed my flowers -- lay in my hay -- bobby very amiable -- read Headlong Hall famous -- Journal of a soldier of the 71st stupid enough &amp; the Eclectic Review not much better.</p></div><div type="entry"><head><date when="1819-08-04">Wed. 4 Aug.</date></head><p>At home -- lay in the hay with my pets, all of them -- very amiable particularly Mossy Marmy &amp; Bobby -- read the British Critic pretty good -- walked with dear Drum Mossy &amp; Molly.</p></div><div type="entry"><head><date when="1819-08-05">Thurs. 5 Aug.</date></head><p>At home -- Went to Wokingham -- saw Miss H. Knyvett there from the Isle of Wight -- dined &amp; drank tea there &amp; came back in the evening -- a very pleasant day indeed.</p></div><div type="entry"><head><date when="1819-08-06">Fri. 6 Aug.</date></head><p>At home -- <!--rjp unclear text-->Ducked the Pets  combed them -- went Firtopping -- in the evening walked with Drum &amp; was hailed to my great joy by Jack the drole boy who lived at Mr. Body's 2 years ago &amp; then went to London.</p></div><div type="entry"><head><date when="1819-08-07">Sat. 7 Aug.</date></head><p>At home -- wrote to Mrs. Rowden &amp; Mrs. Hofland &amp; began a letter to Miss James -- lay in my hay -- Bobby very amiable -- read Evelina -- walked with dear Granny.</p></div><div type="entry"><head><date when="19819-08-08">Sun. 8 Aug.</date></head><p>At home -- heard from Mr. Haydon -- lay in the Hay -- read Salame's <!--rjp: take not of the large space between words-->account of the expedition to Algiers good -- walked with dear Drum -- wrote to Mr. Haydon &amp; Miss James -- Mossy &amp; Bobby very amiable.</p></div><div type="entry"><head><date when="1819-08-09">Mon. 9 Aug.</date></head><p>At home -- dear Drum not well -- pared Apricots for jam -- lay in the hay -- read Madame de Stael's<!--rjp: the e has two dots above it in the transcript--> private life of M. Necker &amp; his Miscellanies<!--rjp: odd spelling?--> tiresome enough -- &amp; Evelyn's Memoirs very entertaining.</p></div><div type="entry"><head><date when="1819-08-10">Tues. 10 Aug.</date></head><p>At home -- dear Drum much better -- lay in the hay -- read Evelyn's Memoirs &amp; Independence -- Mr. Dickinson drank tea with us &amp; was very pleasant.</p></div><pb n="19"/><div type="entry"><head><date when="1819-08-11">Wed. 11 Aug.</date></head><p>At home -- heard from Mr. &amp; Mrs. Dickinson &amp; Miss Ogbourn. Drum &amp; Granny out all the morning at Wokingham &amp; Reading -- lay in my hay &amp; read Independence. &amp; Dressed my flowers.</p></div><div type="entry"><head><date when="1819-08-12">Thurs. 12 Aug.</date></head><p>At home -- lay in my hay -- Bobby very amiable -- poor dear Mossy not well -- read Leighton Priory -- walked with dear Drum &amp; the pets.</p></div><div type="entry"><head><date when="1819-08-13">Fri. 13 Aug.</date></head><p>At home -- lay in the hay -- Bobby very amiable -- Mossy dear lamb rather better today -- dear Granny sat out of doors with me -- read Leighton Priory.</p></div><div type="entry"><head><date when="1819-08-14">Sat. 14 Aug.</date></head><p>At home -- lay in the hay -- Bobby very amiable -- Mossy better -- sent off my letters to Mrs. Rowden Miss James &amp; Mr. Haydon which I had written a week ago -- read the Mysterious Wife.</p></div><div type="entry"><head><date when="1819-08-15">Sun. 15 Aug.</date></head><p>At home -- lay in the hay -- all my pets well &amp; amiable -- read Mrs. Brunton's Emmeline &amp; her life -- &amp; the life of James Hardy <!--rjp:there is a large space and in the space there is a question mark inside of square brackets-->written by himself -- walked with dear Drum down the lane.</p></div><div type="entry"><head><date when="1819-08-16">Mon. 16 Aug.</date></head><p>At home -- lay in the hay Bobby &amp; Mossy very amiable -- finished reading Evelyn's Memoirs -- very entertaining -- Jacon Newberry called -- walked between the house &amp; the white gate.</p></div><div type="entry"><head><date when="1819-08-17">Tues. 17 Aug.</date></head><p>At home -- lay in the hay -- read Schlegel on Literature good -- walked with dear Drum &amp; Mossy -- wrote to Mrs. Dickinson.</p></div><div type="entry"><head><date when="1819-08-18">Wed. 18 Aug.</date></head><p>At home -- dressed my flowers -- dear Drum brought me some beauties as he often does, God bless him -- lay in the hay Bobby very amiable -- a blackbird came to eat at Bobby's board.</p></div><div type="entry"><head><date when="1819-08-19">Thurs. 19 Aug.</date></head><p>At home -- rode to Reading -- dear Drum gave me my grey  cloth gown  shifts &amp; petticoats God bless him -- made calls -- Dr. Valpy gave me Opie's Lectures -- very pleasant morning.</p></div><div type="entry"><head><date when="1819-08-20">Fri. 20 Aug.</date></head><p>At home -- heard from Mrs. Hofland -- lay in the hay -- Mossy very amiable -- the blackbird came again -- read Opie's Lectures &amp; the Mysterious Wife.</p></div><div type="entry"><head><date when="1819-08-21">Sat. 21 Aug.</date></head><p>At home -- went to Reading -- dined at Dr. Valpy's -- poor dear darling Mossy was found dead about eleven o'clock after eating an excellent breakfast. God in Heaven bless him dear love.</p></div><pb n="20"/><div type="entry"><head><date when="1819-08-22">Sun. 22 Aug.</date></head><p>At home -- buried my own dear darling beloved pet Mossy -- God bless him -- I shall never have such another darling again. God bless him sweet dear darling -- I am sure he is happy beloved lamb.</p></div><div type="entry"><head><date when="1819-08-23">Mon. 23 Aug.</date></head><p>At home -- wrote an account of my own dear lamented Mossy &amp; some verses on his death to put up with his hair dear angelic Saint -- I shall never forget him &amp; never love anything like him -- as long as I love -- God bless him sweet Angel.</p></div>
+            Tues. 24 Aug.
+            At home -- Mr. White &amp; Captain Tuppen called -- Mrs. T. sent me a card on the death of my angel Mossy -- we had today some of the same pudding boiled which I had given to the dear saint on Friday -- I miss him more &amp; more sweet Angel.
+            Wed. 25 Aug.
+            At home -- wrote to Mary Webb &amp; Mr. Dickinson -- lay in my hay -- worked trimming -- read Lord John Russell's life of Lord Russell pretty good -- Miss my poor dear darling Mossy more &amp; more.
+            Thurs. 26 Aug.
+            At home -- heard from Mary Webb -- Mr. Rainy came to see the place -- lay in the hay -- had my Bobby -- Dear Drum went to Alresford -- poor Solomon buried -- Miss my own dear sainted Mossy more &amp; more.
+            Fri. 27 Aug.
+            At home -- heard from Miss James -- lay in my hay had all my birds -- dressed my flowers -- Drum still in Hampshire -- Miss my own Mossy more &amp; more.
+            Sat. 28 Aug.
+            At home -- heard from dear Drum -- began my worked shirt -- lay in the hay -- had my great [sic] Bobby -- read Napoleon peint par luimeme -- missed my own dear darling Mossy more than ever.
+            Sun. 29 Aug.
+            At home -- heard from Mary Webb -- dear Drum came home -- lay in my hay -- read Thaddeus of Warsaw -- Missed my own dearest darling pet Mossy more &amp; more.
+            Mon. 30 Aug.
+            At home -- worked my shirt -- read Burnet's History of his own Times --walked with Drum &amp; Molly -- missed my own dear Darling Mossy more &amp; more.
+            Tues. 31 Aug.
+            At home -- went to Wokingham with dear Drum -- dined there -- a very pleasant day indeed -- saw the Wheelers, Mrs. Jenkins, Mrs. Bullard &amp; Mrs. Falmore [?] -- Came home at night.
+            Wed. 1 Sept.
+            At home -- went filberding with dear Drum, Granny &amp; Luce -- got a good many -- read the Eclectic Review -- missed dear Mossy very much indeed, sweet saint!
+            <pb n="21"/>
+            Thurs. 2 Sept.
+            At home -- lay in the Hay -- went Filberding with dear Drum, Granny &amp; Luce -- read the British Critic &amp; Burnet;s History of his own Times -- missed my own dear Mossy more &amp; more.
+            Fri. 3 Sept.
+            At home -- worked my shirt -- dressed my flowers (only my little basket) -- read Burnet's History &amp; Peter's letters to his Kinsfolk. Missed my own darling very much indeed.
+            Sat. 4 Sept.
+            At home -- Heard from Mr. Haydon &amp; Eliza Webb -- finished my shirt -- read Peter's letters to his Kinsfolk very good -- Missed my own sainted Mossy very much indeed.
+            Sun. 5 Sept.
+            At home -- finished Peter's Letters -- wrote to Mrs. Hofland &amp; Miss James -- walked with Drum &amp; the pets -- missed my own dear Mossy more than ever, sweet saint.
+            Mon. 6 Sept.
+            At home -- lay in the hay -- fed my bobbies -- read Peter's letters -- walked with Granny &amp; Drum &amp; the Pets. Missed my poor dear darling Mossy all day long -- sweet saint.
+            Tues. 7 Sept.
+            At home -- went filberding -- lay in the hay -- worked some of Lucy's shirts -- read Raymond -- walked with Drum &amp; Moll -- &amp; missed my own dear Mossy all the whole day. 
+            Wed. 8 Sept.
+            At home -- lay in my hay -- walked with poor Luce -- read Raymond &amp; the Soldier Boy -- Missed my own dear dear Mossy more than ever.
+            Thurs. 9 Sept.
+            At home -- dined at Farley Hill -- came home soon in the evening -- a very pleasant day -- read a Number of the New Monthly Magazine.
+            Fri. 10 Sept. 
+            At home -- sat in my hay -- worked at Lucy's shirt -- copied some of Wordsworth's Poetry from Peter's Letters &amp;c -- &amp; read Pereival -- a  stupid old Novel. Missed my own dear Mossy very much indeed all day.
+            Sat. 11 Sept.
+            At home -- sat in my hay -- worked at Lucy's shirt -- had my Bobbys -- &amp; all my pets (only missed so much my own dear Mossy) -- finished Burnet's History &amp; read a little <!-- RJP: transcription unclear --> tol lol tale called [?]
+            Sun. 12 Sept. 
+            At home -- sat in my hay -- read the Edinburgh Review &amp; Mons Egede [?] Journal in Greenland -- Mrs. Dickinson called -- walked with dear Drum &amp; the pets -- wrote to Sir William Elford -- missed my own dear sainted Mossy more &amp; more every day.
+            <pb n="22"/>
+            Mon. 13 Sept.
+            At home -- sate in my hay -- worked Lucy's shirt -- had my Bobbies -- read Miss Edgeworth's Hanington.
+            Tues. 14 Sept.
+            At home -- went to Reading saw a great many people &amp; made some calls -- came home to dinner -- lay in my hay &amp; read Rennell on scepticism -- Missed my own Mossy more &amp; more.
+            Wed. 15 Sept.
+            At home -- finished Lucy's shirt -- read Nicholls's Illustrations of the Literary History of the last Century -- very amusing -- Missed my own beloved Mossy very much indeed.
+            Thurs. 16 Sept.
+            At home -- dressed my flowers -- finished my letter to Sir William Elford -- walked with dear Drum -- read Mr. Nicholls's Literary History Vol 3rd. Missed my own dear Mossy more than ever.
+            Fri. 17 Sept.
+            At home -- went to the Music Meeting very tired indeed though the music was said to be good -- came home to dinner -- read the Quarterly Review &amp; wrote another half sheet to Sir William Elford.
+            Sat. 18 Sept.
+            At home -- Heard from Sir William Elford -- lay in my hay -- worked at my leno shirt -- had my bobbies -- read the Quarterly Review -- missed my own beloved Mossy very much indeed.
+            Sun. 19 Sept. 
+            At home -- went filberding &amp; cobnutting with Drum -- Mr. Green called &amp; was very pleasant -- walked down the lane with Drum &amp; the pets -- Molly put up a partridge &amp; Marmy caught it. Saw a most beautiful butterfly in the grounds -- missed my own dear Mossy very much indeed.
+            Mon. 20 Sept.
+            At home -- went apple gathering -- got a great many -- almost cleared both the garden and Orchard -- Luce &amp; George &amp; Granny hard at work all day -- read Mr. Hende's [?] Journey overland from India.
+            Tues. 21 Sept. 
+            At home -- expected Mrs. Raggett all day who never came though I gave up Reading Fair &amp; an engagement at Dr. Valpy's to see her -- walked with dear Granny.
+            Wed. 22 Sept.
+            At home -- wrote to Mary Webb -- went apple gathering -- visited dear Mossy's grave dear Angel -- a doves pretty feather lay just over his dear head -- read Ormsby's Letters from the Continent.
+            Thurs. 23 Sept.
+            At home -- Heard from Miss James -- read the shipwreck of a French ship the Medusa -- horrible. Mrs. Raggett &amp; Mrs. Greenwell dined &amp; slept with us -- a pleasant day.
+            <pb n="23"/>
+            Fri. 24 Sept. 
+            At home -- heard from Miss Webb -- went into Reading with Mama Mrs. Raggett &amp; Mrs. Greenwell -- made calls &amp; shopped. Mrs. R. gave me a very pretty gown -- came home to dinner -- they slept here -- another pleasant day.
+            Sat. 25 Sept.
+            At home -- Mrs. Raggett &amp; Mrs. Greenwell went home -- Mrs. Greenwell a very pleasant woman &amp; very like Sir William Elford <!-- RJP: comparison to Elford suggests possible relation -->-- walked in the garden wuth Granny &amp; Slops.
+            Sun. 26 Sept. 
+            At home -- rode over to Wokingham to see Mr. Webb found him just after he had undergone another operation but tolerable considering -- dear Mrs. Dickinson drank tea with us -- very pleasant day -- missed my own poor dear Mossy very much always -- Molly is a nice bitch but not like poor dear Mossy.
+            Mon. 27 Sept.
+            At home -- wrote to Miss James to send with a hare tomorrow &amp; began a letter to Sir William Elford -- read the Quarterly Review.
+            Tues. 28 Sept. 
+            At home all day -- could not go to Reading for the rain -- played with Slops -- read the Pilgrim of the Cross -- missed my own dear saint Mossy very much indeed sweet Angel.
+            Wed. 29 Sept.
+            At home -- went to Reading with Drum to be measured for my new gown -- heard from Mary Webb -- read Branford pretty good -- &amp; the Edinburgh Review famous.
+            Thurs. 30 Sept. 
+            At home -- wrote to Mr. Johnson -- heard from Mrs. Raggett &amp; Mrs, Greenwell -- walked with dear Granny &amp; Slops -- read the Miser Married -- a clever thing.
+            Fri. 1 Oct. 
+            At home -- heard from Mary Webb -- wrote to Mary Webb -- began my shirt (having given the one I worked for myself to Mrs. Raggett) -- walked in the garden -- read the Miser Married.
+            Sat. 2 Oct. 
+            At home -- heard from Mrs. Hofland &amp; Miss James -- worked at my shirt -- walked with Molly -- dressed my flowers -- finished my letter to Sir William Elford -- read Ellesmere.
+            Sun. 3 Oct. 
+            At home -- went to Farley Hill where I saw the Profetts &amp; the Rigby's -- read Mr. Northmore's Poem of Washington  &amp; the Eclectic &amp; British Critic Reviews -- Missed my own dear saint Mossy more than ever sweet Angel! God bless him!
+            Mon. 4 Oct. 
+            At home -- wrote to Mrs. Hofland &amp; began a letter to Miss James --  read Ellesmere -- &amp; played with little Molly Slops. <!-- RJP: note to self Slops = Molly --><pb n="24"/>
+            Tues. 5 Oct. 
+            At home -- finished &amp; sent off my letter to Miss James &amp; Mrs. Hofland. Worked at my shirt -- walked in the garden with Slops &amp; Granny -- read the new letters of Lady Russell -- interesting. 
+            Wed. 6 Oct. 
+            At home -- Heard from Mr. Johnson -- went to Reading -- called at Mr. Brookes -- Newberry's -- Garrards -- Valpys -- Institution &amp; Miss Warwicks -- Came home to dinner -- saw many people -- a very pleasant day. 
+            Thurs. 7 Oct. 
+            At home -- rode to Farley Hill -- dined there &amp; came home at night -- a very pleasant day indeed -- Drum was with me &amp; dear Granny at home.
+            Fri. 8 Oct. 
+            At home -- dressed my flowers -- walked in the garden -- sent a pattern to Mrs. Newberry -- wrote to Miss Webb &amp; Mrs. Dickinson -- read Nicholls's Illustrations of Literature -- amusing enough.
+            Sat. 9 Oct.
+            At home -- heard from Eliza Webb -- got my new gown home -- packed up my things to go to Marlow -- read Nicholls's Illustrations of Literature.
+            Sun. 10 Oct.
+            Went to Mr. Johnson's at Seymour Court Marlow -- called in our way at Mr. Wakefield's -- got to Seymour Court to dinner with the family (Mr. &amp; Miss Johnson &amp; Miss Biggs) -- spent a delightful day -- the country &amp; the Place most beautiful &amp; our friends most kind &amp; hospitable.
+            Mon. 11 Oct.
+            At Seymour Court -- Walked out with Miss Johnson &amp; Miss Biggs -- wrote to Mrs. Payn &amp; dear Granny -- a great deal of conversation -- a very pleasant day indeed.
+            Tues. 12 Oct. 
+            At Seymour Court -- saw many curious books on the laws &amp; Constitution -- the laws of Alfred -- votes of Parliament &amp;c &amp;c. Walked to the Thames -- saw the paper Mill very curios indeed -- very pleasant day -- read the Way to Keep him going to bed.
+            Wed. 13 Oct. 
+            At Seymour Court -- Came home to dinner -- called in the way at Mr. Payns &amp; Mr. Wakefields -- very pleasant ride -- found dear Granny quite well &amp; a letter from Aunt Mary -- read Dr. Leyden's Poet. remains.
+            Thurs. 14 Oct.
+            At home -- heard from Sir William Elford -- went to Wokingham -- dined there &amp; met Miss Jeremy &amp; James Wheeler -- came home at night -- a pleasant day -- read Dr. Leyden's Poetical Remains -- very good.
+            Fri. 15 Oct. 
+            At home -- walked to the Cross with dear Granny &amp; Slops -- eat some bad mushrooms &amp; was very sick indeed all the afternoon. Got better in the evening &amp; wrote to Mr. Johnson &amp; Miss Valpy.
+            <pb n="25"/>
+            Sat. 16 Oct. 
+            At home -- pretty well again -- heard from Miss Ogbourn &amp; Mrs. Newberry -- wrote to Sir William Elford &amp; Mrs. Raggett -- read Sir Robert Howard's life of Richard 2nd -- a most curios book.
+            Sun. 17 Oct. 
+            At home -- walked with Drum &amp; the pets -- read Morland -- wrote to Aunt Mary &amp; Mrs. Rowden -- Dear Drum's &amp; Granny's Wedding day.
+            Mon. 18 Oct.
+            At home -- Drum went to London -- walked out with Granny &amp; Slops -- met Mr. Talfourd who was coming to call here -- walked back with us but did not come in as Mr. Champion was waiting to take him home -- he was exceedingly pleasant -- Read Lord Bolingbroke's political Tracts -- famous.
+            Tues. 19 Oct. 
+            At home -- heard from dear Drum &amp; Aunt Mary -- Mrs. Dickinson called to tea &amp; took me with her to a dance at the Valpys -- very delightful evening with Talfourd &amp; Miss Brook -- only unluckily missed dear Drum who had been there in his way from Town &amp; went away just before I got there.
+            Wed. 20 Oct.
+            At home -- Dear Drum gave me a beautiful new lcoak whcih he brought from Town -- read Lord Bolingbroke's Remarks on English History published under the name of Humphrey Oldcastle -- famous.
+            Thurs. 21 Oct. 
+            At home -- It rained in the morning -- could not go to Wokingham with dear Drum -- read Jones's Peninsular War a sad uncandid military book -- &amp; old Richardson's delightful Essay on Painting.
+            Fri. 22 Oct. 
+            At home -- went to Reading with dear Drum -- called on the Brookes Newberrys &amp; Valpys -- a very pleasant morning indeed -- heard from Eliza Webb -- wrote to Eliza Webb -- read Mr. Lawrence's suppressed lectures lent to me by James Wheeler -- When at Reading called likewise on Mrs. [?]
+            Sat. 23 Oct. 
+            At home -- Heard from Miss James -- walked int he garden with Granny &amp; Molly -- dressed my flowers -- read Lawrence's Lectures -- famous.
+            Sun. 24 Oct. 
+            At home -- dear Drum's cold was so bad that we could not go to Wokingham so staid at home -- Mr. Green &amp; Harry Marsh called &amp; staid two hours  &amp; were both of them exceedingly agreeable.
+            Mon. 25 Oct. 
+            At home --  walked with Granny &amp; Slops to the Cross -- read the Edinburgh Magazine &amp; Age &amp; Youth by La Fontaine -- a pretty thing.
+            <pb n="26"/>
+            Tues. 26 Oct. 
+            At home -- Went to Reading to White Knights to the Duke's sale &amp; then with the Webbs home to dinner to meet James Wheeler &amp; Miss Jeremy -- came home at night -- met a great many people at the sale -- a pleasant day.
+            Wed. 27 Oct. 
+            At home -- had a very bad cold indeed -- did not stir out -- read Black woods Edinburgh Magazine -- famous -- &amp; Mrs. Radcliffe's old novel the Italian.
+            Thurs. 28 Oct. 
+            At home -- Called at the Liebenroods &amp; wnet round by Reading -- saw a great many people -- a very pleasant day -- my cold better.
+            Fri. 29 Oct.
+            At home -- wrote to Miss James &amp; Mary Webb. Read The Insane World stupid and frantical -- &amp; Sir R.C. Hoare's Continuation of Eustace's Tour -- Humdrum -- Drum killed 5 hares at Tilehurst.
+            Sat. 30 0ct. 
+            At home -- Heard from Eliza Webb -- read some of the Pamphleteer &amp; the 3rd Series of Tales of my Landlord.
+            Sun. 31 Oct. 
+            At home -- Mrs. Dickinson called &amp; brought me some flowers -- read Manners -- a pretty thing.
+            Mon. 1 Nov. 
+            At home -- wrote to Eliza Webb -- began to cut out my gray cloth gown -- read Manners -- a pretty thing.
+            Tues. 2 Nov.
+            At home -- went firtopping got a great many -- read the Pamphleteer &amp; the Eclectic &amp; British Critic Reviews.
+            Wed. 3 Nov. 
+            At home -- Mr. Greene called &amp; was very pleasant -- read an Etymology of old Sayings proverbs &amp;c - &amp; some of the Monthly Magazine. 
+            Thurs. 4 Nov.
+            At home -- went with dear Drum to Reading &amp; Wokingham -- dined there &amp; came back at night -- a very pleasant day.
+            Fri. 5 Nov.
+            At home -- Mr. Merry sent me Mr. Talfourd's M.S. Petition - very fine. Walked with Granny &amp; Moll -- read the Monthly &amp; European Magazines.
+            Sat. 6 Nov. 
+            At home -- heard from Eliza Webb -- wrote to Mr. Haydon -- went firtopping -- got a great many -- read Harold the Exile, very stupid &amp; dismal.
+            Sun. 7 Nov. 
+            At home -- Dear Granny had not been well this week -- was better today dear love -- walked down the lane, with Luce &amp; Molly. Wrote to Mary Webb. Missed my poor Mossy very much.
+            <pb n="27"/>
+            Mon. 8 Nov. 
+            At home -- Dear Drum went to London -- went firtopping got a good many -- Lucy finished my pretty gray cloth gown -- read Harcourt.
+            Tues. 9 Nov. 
+            At home -- Heard from dear Drum -- wrote to dear Drum -- went firtopping -- got a great many. Wrote to Sir William Elford.
+            Wed. 10 Nov. 
+            At home -- heard from Drum -- Mrs. Dickinson came &amp; took me to Reading &amp; then back with her to Farley Hill where I dined &amp; slept -- Mr. D. came home in the Evening -- a very pleasant day.
+            Thurs. 11 Nov.
+            At Farley Hill -- came home in the morning. Ludlow drove me in the Gig. He had dear Drum back in the Evening -- read Legh's Travels in Egypt &amp; wrote to Mrs. Dickinson.
+            Fri. 12 Nov. 
+            At home -- read Walpole's Letters to Mr. Montagu -- charming -- wrote some more of my letter to Sir William Elford. Had the Piles a little [sic!]
+            Sat. 13 Nov. 
+            At home -- went firtopping did not get so many as usual -- read Legh's Travels in Egypt &amp; Haslitt's Lectures on Poetry -- heard from Aunt Mary.
+            Sun. 14 Nov. 
+            At home -- heard from Mrs. Dickinson -- called with dear Drum at Farley Hill -- a very pleasant morning -- came home to dinner 00 wrote to Mrs. Rowden &amp; finished my letter to Sir. W. Elford.
+            Mon. 15 Nov.
+            Dear Drum's birthday -- he went to our County Meeting about the Manchester business &amp; seconded the resolutions -- I went firtopping -- did not get many -- Heard from Miss James. Read Corinne. 
+            Tues. 16 Nov. 
+            At home -- heard from Haydon &amp; Mrs. Rowden -- wrote to Miss James &amp; Col. Anstruther -- Mr. Johnson dined and slept here &amp; was very agreeable indeed -- a very pleasant day.
+            Wed. 17 Nov.
+            At home -- Mr. Johnson went home after breakfast -- worked a little of my shirt yesterday -- read Purity of heart or the Ancient Costume.
+            Thurs. 18 Nov. 
+            At home -- heard from Colonel Anstruther -- called with dear Drum at Farley Hill &amp; Wokingham. Came home to dinner -- a pleasant day.
+            Fri. 19 Nov. 
+            At home -- went firtopping found a good many in a rabbit hole -- somebody meant to steal them -- read Marriage -- famous.
+            <pb n="28"/>
+            Sat. 20 Nov.
+            At home -- went firtopping -- one of my Bobby's came to me to be fed &amp; eat so pretty! in the plantation by the white gate -- did a great deal of talking -- heard from Mary Webb.
+            Sun. 21 Nov. 
+            At home -- was white haired -- cut Drum's hair -- read Women or Minor Maxims -- a pretty thing. Missed my own dear Mossy very much indeed -- Though Molly is a trim little bitch.
+            Mon. 22 Nov. 
+            At home -- Mary Webb &amp; Miss Jeremy &amp; Mr. Joliffe dined with us &amp; the ladies slept here -- Drum bought dear Granny's new Puce cloth gown -- dear lamb -- a very pleasant day.
+            Tues. 23 Nov. 
+            At home -- Mary Webb &amp; Miss Jeremy went away this morning -- a very agreeable visit -- Read Letters from the Cage in answer to Warden -- famous praise of my beloved Emperor.
+            Wed. 24 Nov.
+            At home -- altered a gown for dear Granny -- the cloth gown finished -- went firtopping -- fed my Bobby's -- read an attempt to prove a Dr. Wilmot wrote Junius.
+            Thurs. 25 Nov. 
+            At home -- Granny &amp; Drum went to Winchester -- Mr. John Elliott came to look about the house &amp; the timber -- Bobbies came [to] be fed -- Luce &amp;I very comfortable together.
+            Fri. 26 Nov. 
+            At home -- Dear Drum came home having left dear Granny at Winchester -- he brought our pretty little bitch Miranda to see us for a week -- &amp; she knew is all just as well as ever.
+            Sat. 27 Nov.
+            At home -- wrote to dear Granny -- went to Reading with dear Drum -- called at the Whites -- Brookes -- Newberrys &amp; Bulleys -- dined at the Valpys -- no company but Miss Ross -- a very pleasant day -- came home at night &amp; found a beautiful purse a present from Miss Harley.
+            Sun. 28 Nov.
+            At home -- wrote to Miss Harley -- Miss Webb -- Mrs. Dickinson -- Mr. Palmer &amp; dear Granny -- could not go with Drum to Wokingham on account of the frost. Read Sense &amp; Sensibility -- very good.
+            Mon. 29 Nov.
+            At home -- dear Drum went to Ilsley -- dear Granny still at Winchester -- did some tatting -- read Sense &amp; Sensibility -- wrote to the [?] -- had a great many bobbies eating at my board.
+            Tues. 30 Nov. 
+            At home -- heard from dear Granny -- wrote to dear Granny -- did some tatting -- read Symmon's Life of Milton -- very good -- Luce &amp; Molly very amiable -- want Granny.
+            Wed. 1 Dec. 
+            At home -- heard from Mrs. Hofland -- Mr. &amp; Mrs. Dickinson came &amp; dined here -- dear Drum came home in the evening -- a very pleasant day -- wrote in the morning to Drum at night to Granny.
+            Thurs. 2 Dec. 
+            At home -- Heard from dear Granny Mr. Johnson, &amp; Sir William Elford with an excellent letter enclosed from Lord Ashburton to Mr. Waristoun which I transcribed. Wrote to dear Granny -- read the Eclectic &amp; British Critic Reviews. 
+            Fri. 3 Dec.
+            At home -- Captain Tuppen came to course with Drum -- wrote to Mrs. Dickinson, Mr. Johnson, Mrs. Hofland, &amp; dear Granny --read Memoirs of the Rev. H. Martyn. Methodistical.
+            Sat. 4 Dec.
+            At home -- Sent a hare &amp; some beetroot with my note to Mrs. Dickinson -- Heard from dear Granny &amp; Mary Webb -- wrote to Sir William Elford -- read memoirs of H. Martyn.
+            Sun. 5 Dec. 
+            At home -- walked with dear Drum &amp; the pets -- Luce washed Molly who looked like a little snowball sweet love -- wrote to Granny -- read Decision -- rather methodistical but clever &amp; interesting.
+            Mon. 6 Dec.
+            At home -- wrote to Mr. Palmer -- heard from dear Granny -- went firtopping -- got a great many -- a sweet dear little Bobby came to me to be fed &amp; ate as I threw it to him sweet lamb.
+            Tues. 7 Dec.
+            At home -- Heard from Mrs. Dickinson -- went Fir topping -- begin to get scarce -- fed my Bobbies under the trees -- read Florence Macarthy.
+            Wed. 8 Dec. 
+            At home -- Heard from Miss James -- went firtopping -- fed my bobbies -- wrote to Mr. Haydon &amp; Granny -- read Life of Princess Charlotte by Booth -- a catch penny thing.
+            Thurs. 9 Dec. 
+            At home -- Heard from Granny -- wrote to Mary Webb &amp; the Butcher -- went firtopping -- fed a great many Bobbies dear lambs.
+            Fri. 10 Dec.
+            At home --  heard from Mr. Fyshe Palmer -- fed my Bobbies a great many poor dears came to the board at the Window to eat it being a snow -- Wrote to dear Granny &amp; Miss James.
+            <pb n="30"/>
+            Sat. 11 Dec.
+            At home -- sent dear Miss Morse to Mr. Haydon -- heard from Mary Webb &amp; Granny -- fed a great many Bobbies &amp; other birds off my board.
+            Sun. 12 Dec.
+            At home -- walked with dear Drum &amp; the pets -- fed a great many bobbies &amp; other birds -- read Blackwood's Magazine -- famous -- &amp; the Life of Sand -- pretty well.
+            Mon. 13 Dec. 
+            At home -- heard from dear Granny &amp; Mr. Johnson -- went with dear Drum to Reading -- called at the Brookes -- Whites -- Newberrys &amp; Valpys -- came home to dinner -- a pleasant day -- fed my bobbies.
+            Tues. 14 Dec.
+            At home -- heard from Mr. Haydon -- called at the Dickinsons -- came home to dinner -- read Clan Albyn -- a pretty thing only too Highlandish -- fed my dear bobbies &amp; a great many other [birds] -- poor lambs.
+            Wed. 15 Dec. 
+            At home -- dear Granny came back in great trim from Winchester -- God bless her! -- fed my poor Bobbies &amp; other birds.
+            Thurs. 16 Dec. 
+            At home -- my Birthday -- went Firtopping with Drum &amp; the Pets -- fed my Bobbies both at the window &amp; in the Plantations -- the dear Bobbies very tame sweet loves eat as I threw bread to them.
+            Fri. 17 Dec.
+            At home -- received the Statesman from Mr. Johnson with a peppering of Frank Cowslade -- curled Granny's Wigs -- fed my Bobby's -- poor Jessy Clift brought us a present of a very fine pig -- wrote to Mary Webb.
+            Sat. 18 Dec.
+            At home -- went firtopping -- fed my Bobbies -- read The Carib Chief by Horace Twiss -- a tolerable Tragedy -- &amp; Dr. Franklin's Correspondence -- famous.
+            Sun. 19 Dec. 
+            At home -- fed my Bobbies -- read Dr. Franklin's Correspondence which is excellent -- &amp; Bubb Doddington's Diary which is Corruption itself.
+            Mon. 20 Dec. 
+            At home -- went firtopping with Molly &amp; the other Pets -- read Mr. Quillinan's Sacrifice of Isabel -- an elegant Poem -- very short.
+            Tues. 21 Dec. 
+            At home -- heard from Mr. Haydon -- worked at my shirt -- fed my Bobbies at the Window -- read Mordaunt -- an excellent old Novel.
+            Wed. 22 Dec. 
+            At home. Heard from Miss James -- went firtopping -- fed a charming Bobby in the plantation -- read Memoirs of the Marquis of Montrose a very great man &amp; great poet! -- did some tatting.
+            <pb n="31"/>
+            Thurs. 23 Dec. 
+            At home -- Heard from Mary Webb &amp; Miss Booth -- went firtopping -- Mr. Dickinson called -- wrote to Mary Webb &amp; lent Charles Knyvett six of Dr. Russell's sermons.
+            Fri. 24 Dec.
+            At home -- went firtopping -- fed my bobbies -- wrote to Miss James -- read Clarkson's History of the Abolition of the slave trade. Good.
+            Sat. 25 Dec.
+            At home -- received a proof sheet from Mr. Dickinson, corrected it &amp; wrote a note to him.  Walked with dear Drum -- fed my bobbies -- read the Munster College boy Middling.
+            Sun. 26 Dec. 
+            At home -- heard from Sir William Elford -- went Firtopping -- fed my bobbies -- wrote to Mr. Johnson -- read the Munster Cottage Boy.
+            Mon. 27 Dec. 
+            At home -- walked out with Drum &amp; my  pets -- fed my Bobbies -- read Rhoda -- pretty good but too dismal -- Molly a sweet lamb.
+            Tues. 28 Dec. 
+            At home -- heard from Mrs. Dickinson -- fed my bobbies -- wrote to Sir William Elford &amp; Miss Booth -- read Queen hoo Hill -- good.
+            Wed. 29 Dec. 
+            At home -- walked with dear Drum in the Snow -- fed my bobbies -- worked at my shirt -- read M. Visconti's Catalogue of pictures &amp;c in the Louvre.
+            Thurs. 30 Dec. 
+            At home -- heard from Mrs. Barningham [?] -- went to Reading with Drum -- called at Mr. Harris's, the Sowdens, Brookes, Marshes, Whites, Newberry's &amp; Jolyffe's -- came home to dinner -- a very pleasant morning.
+            Fri. 31 Dec.
+            At home -- Heard from Miss Webb -- wrote to Mrs. Rowden &amp; Miss Booth -- fed my Bobbies -- tried a pattern upon some net -- wrote to Mr. Haydon.
+            <pb n="32"/><div type="year"><head><date when="1820">1820</date></head></div>
+            Sat. 1 Jan.
+            At home -- fed my Bobbies -- read Ivanhoe -- very fine.
+            Sun. 2 Jan. 
+            At home -- fed [m]y Bobbies -- read Wright's &amp; Cobbett's trial with Mr. Wright's excellent preface -- Molly married to Whim.
+            Mon. 3 Jan.
+            At home -- heard from Miss Brooke -- fed my bobbies -- wrote to Mrs. Dickinson.
+            Tues 4 Jan. 
+            At home -- went firtopping -- fed my Bobbies -- read the Ec: &amp; B.C. reviews &amp; Hallam's View of Europe in the Middle Ages -- good.
+            Wed. 5 Jan.
+            At home -- wrote to Miss Brooke &amp; finished my letter to Miss Booth -- Col. Boscawen called -- walked with Drum -- fed my bobbies.
+            Thurs. 6 Jan.
+            At home -- Heard from Eliza Webb with H. Hayward's bridecake -- went to Reading with Drum -- called on the Newberry's &amp; Joliffes -- home to dinner -- pleasant morning -- read the Edinburgh Review.
+            Fri. 7 Jan.
+            At home -- heard from Mr. Haydon &amp; Mrs. Dickinson -- wrote to Mr. Haydon, Mrs. Dickinson &amp; Miss Eliza Webb -- read the Miniature -- fed my Bobbies -- worked my shirt.
+            Sat. 8 Jan.
+            At home -- heard from Mrs. Rowden &amp; Miss Webb -- read Clarissa.
+            Sun. 9 Jan.
+            Heard from Mr. Haydon -- wrote to Miss James, Mrs. Rowden &amp; Miss Webb -- poor Lucy had a bad fall on the ice in the yard -- poor dear.
+            Mon. 10 Jan. 
+            At home -- Lucy better -- finished my shirt.
+            Tues. 11 Jan.
+            At home -- wrote to Leigh Hunt &amp; Drum who was at Reading for the Sessions -- Lucy better -- fed my Bobbies -- read The Dead Letter Office.
+            Wed. 12 Jan.
+            At home -- read Clarissa.
+            Thurs. 13 Jan.
+            At home -- walked with Drum.
+            Fri. 14 Jan. 
+            At home -- fed my Bobbies -- heard from Miss James -- finished Clarissa -- very fine.
+            Sat. 15 Jan.
+            Heard from Miss Webb -- wrote to Mrs. Dickinson -- Drum ill -- at home.
+            <pb n="33"/>
+            Sun. 16 Jan. 
+            Mrs. Dickinson sent for me to Farley Hill -- I went -- a very pleasant day.
+            Mon. 17 Jan. 
+            At Farley Hill -- heard from Drum &amp; Granny -- Mr. Bocket [?] &amp; Mr. Stephenson called -- looked over Mr. Dickinson's fine prints -- pleasant day.
+            Tues. 18 Jan.
+            Mr. &amp; Mrs. Dickinson brought me home -- read Knox's Captivity in Ceylon -- Drum better.
+            Wed. 19 Jan.
+            At home -- wrote to Mr. Haydon &amp; Mrs. Hofland -- Drum went to London.
+            Thurs. 20 Jan.
+            At home -- heard from Mrs. Dickinson about taking Hannah Ropley -- wrote to Mrs. Dickinson.
+            Fri. 21 Jan.
+            At home -- heard from Drum -- Mr. Harley came to see the house -- very pleasant -- heard from Mrs. Rowden.
+            Sat. 22 Jan.
+            At home -- dear Drum came home -- heard from Mary Webb -- went firtopping -- fed my bobbies -- wrote to Miss Hawkes &amp; Mrs. Rousden.
+            Sun. 23 Jan.
+            At home -- heard from Mrs. Hofland &amp; Miss Hawkes -- wrote to Miss Webb, Mrs. Dickinson, Mrs. Waterton, Mrs. Hofland &amp; Miss James.
+            Mon. 24 Jan.
+            At home -- fed my bobbies -- wrote to Sir William Elford -- Hannah Ropley went at my recommendation to live with Mrs. Dickinson.
+            Tues. 25 Jan.
+            At home -- Heard from Miss James -- fed my Bobbies -- read Petrarque et Laura by Madame de Genlis -- pretty good.
+            Wed. 26 Jan. 
+            At home -- wrote to Miss James -- fed my Bobbies -- got my mourning ready for the Duke of Kent -- read the Hermit in London -- very good.
+            Thurs. 27 Jan.
+            At home -- went to Wokingham -- found Mr. Webb better -- Eliza not well -- Mrs. Hayward's little girl very pretty. Came home to dinner -- read Country Neighbours -- famous.
+            Fri. 28 Jan. 
+            At home -- fed my bobbies -- wrote to Miss Webb -- read a sketch of my Friend's Family -- sad Methodistical stuff -- Miss Burney's Country Neighbours -- very good. 
+            Sat.29 Jan.
+            At home -- fed my bobbies -- went firtopping -- knocked my eye -- Marmion very amiable poor dear love pittied me &amp; loved me very much. The King died this evening.
+            <pb n="34"/>
+            Sun. 30 Jan. 
+            At home -- fed my bobbies -- heard from Sir William Elford -- wrote to Sir William Elford -- read Country Neighbours -- very good indeed -- Heard of the King's Death.
+            Mon. 31 Jan.
+            At home -- went firtopping -- picked up a great many &amp; got a great deal of furse stumps -- heard from Mrs. Dickinson -- wrote to Sir William Elford.
+            Tues. 1 Feb. 
+            At home -- Heard from Miss Webb -- went with dear Drum into Reading to buy a new bombazine gown -- bought a very nice one for 2s 9d a yard -- called on the Brookes -- Newberrys --Joliffes -- the Institution &amp; Mrs. Havell's -- came home to dinner -- a very pleasant morning.
+            Wed. 2 Feb.
+            At home -- went Firtopping -- got a great many -- fed my Bobbies -- read Spence's Anecdotes -- very good indeed -- &amp; wrote another Postscript to Sir William Elford -- read likewise the Eclectic &amp; British Reviews.
+            Thurs. 3 Feb.
+            At home -- went firtopping -- got a great many -- fed my bobbies in the Plantations -- read The Man in the Moon famous &amp; the Memoirs of the Margravin of Bareith
+            Fri. 4 Feb.
+            At home -- went firtopping -- got a great many indeed -- fed my bobbies in the Plantations -- wrote to Miss Webb -- poor Molly grows big.
+            Sat. 5 Feb.
+            At home -- new trimmed my old bombazine -- heard from Eliza Webb -- read Anastasius.
+            Sun. 6 Feb.
+            At home -- wrote to Mr. Palmer enclosing my letter to Sir William Elford -- rode with Drum to Farley Hill -- saw Mrs. Dickinson -- Mrs. Allingham -- Mr. Rigby &amp; the Miss Parfetts -- came home to dinner -- a pleasant morning -- read Anastasius -- very good.
+            Mon. 7 Feb. 
+            At home -- wrote to Mrs. Hofland -- Lucy finished my new black bombazine gown -- Drum went coursing, killed 4 hares &amp; a rabbit -- read Anastasius -- very fine indeed.
+            Tues. 8 Feb.
+            Sent a hare to Mrs. Hofland -- gave one to Mrs. Havell -- went firtopping -- got a great many -- read Anastasius.
+            Wed. 9 Feb. 
+            Went firtopping &amp; wooding with Granny &amp; Lucy in the plantation by poor Mossy's grave -- got a great quantity of wood &amp; firtops -- read Windham's speeches.
+            Thurs. 10 Feb.
+            Went to Reading with Drum -- called on the Brookes, Newberrys, Tuppins [sic] &amp; Valpys -- dined at the Jolliffes -- Mrs. Maddison, Harry Marsh &amp; Mr. Sherwood came in the evening -- excellent dinner -- very pleasant day -- corrected some proofs of Mrs. Jolliffe's little Tales -- came home at night.
+            <pb n="35"/>
+            Fri. 11 Feb. 
+            Read a tolerable Poem called H [?] the spell of St. W [?] -- went firtopping -- wrote to Miss Webb -- Poor dear Mossy's grave planted with flowers by Drum &amp; George -- God bless him poor dear!
+            Sat. 12 Feb. 
+            Went firtopping -- snowdrops out.
+            Sun. 13 Feb.
+            Walked with Drum &amp; found some primroses in the lower plantation on poor Felix's grave -- read Delphine -- not good.
+            Mon. 14 Feb. 
+            Went wooding &amp; firtopping in the lower plantation -- got a great deal -- Moses killed 3 hares &amp; teo rabbits dear love! Moll a great pet.
+            Tues. 15 Feb.
+            Wrote to Miss James -- sent her a hare -- went wooding with Drum &amp; the pets -- read Delphine -- much too dismal -- planted some sweet Williams on dear Mossy's grave.
+            Wed. 16 Feb.
+            Heard from Miss Eliza Webb, Miss James &amp; Mrs. Hofland -- wrote to Sir William Elford -- read the First Volume of the Tales of Fancy containing the Shipwreck by Miss Burney -- good -- &amp; Windham's Speeches good.
+            Thurs. 17 Feb.
+            Wrote to Eliza Webb -- went into Reading with Drum -- called at the Jolliffes -- Newberrys -- Sherwoods -- Whites -- Valpys (witnessed the dear Drs. Will) -- saw Mr. Dundas who sent off my letter to Sir William , &amp; a great many people. Came home to dinner &amp; read Mme. Necker de Saussure's Notice sur la caractere et les ecrits de Madame de Stael <!-- RJP: special character e with double dot above it -->-- which is good enough.
+            Fri. 18 Feb. 
+            At home -- went wooding with dear Granny in the lower Plantation -- got a great deal -- read the Eskdale Herdboy (good) &amp; wrote to Mrs. Hofland.
+            Sat. 19 Feb.
+            At home -- went wooding with dear Granny in the lower Plantation -- wrote to Miss James &amp; Mrs. Dickinson -- read Windham's Speeches -- very good.
+            Sun. 20 Feb.
+            At home -- Dear Drum went to Towm in the snow -- heard from Mrs. Dickinson -- wrote to Mrs. Dickinson -- read Dudley -- very good.
+            Mon. 21 Feb. 
+            At home -- Dear Drum in London -- went firtopping -- fed my Bobbies -- read Dudley.
+            Tues. 22 Feb.
+            At home -- heard from dear Drum &amp; Miss James -- fed my Bobbies -- wrote to dear Drum &amp; Miss Rogers for Miss James  -- read Dudley.         
+            <pb n="36"/>
+            Wed. 23 Feb.
+            At home -- heard from dear Drum -- went firtopping with Molly in the plantations -- fed my Bobbies - read Nourjahad old but pretty.
+            Thurs. 24 Feb.
+            At home -- heard from dear Drum &amp; Miss Rogers -- wrote to Mrs. Dickinson (to tell her of the birth of Mrs. Woodburn's boy) &amp; to Miss James -- read Riley's narrative of the Loss of the Brig Commerce -- intersting but Munchausenish.
+            Fri. 25 Feb. 
+            At home -- heard from dear Drum -- went firtopping with Molly -- read Coelebs Deceived poor methodistical stuff -- Dear Drum came home in the Evening.
+            Sat. 26 Feb. 
+            At home -- went wooding &amp; firtopping -- heard from Eliza Webb.
+            Sun. 27 Feb. 
+            At home -- went primrosing in the park &amp; fields with dear Drum -- got a good many -- read Glenfergus -- famous.
+            Mon. 28 Feb. 
+            At home -- Dear Drum went into Reading for the Grand Jury -- went wooding in the lower plantation with dear Granny -- fed my Bobbies -- read Authentic Account of the French Revolution -- interesting. 
+            Tues. 29 Feb. 
+            At home -- heard from Drum -- dear Granny went into Reading -- wrote to Drum &amp; to Dr. Harness -- fed my Bobbies -- Mrs. Valpy &amp; the Miss Valpys called -- went firtopping in the plantation -- got a great many -- fed my bobbies there -- read No Fiction -- sad methodistical stuff -- Heard from Drum again -- who went to London from the Grand Jury.
+            Wed. 1 Mar. 
+            At home -- fed my bobbies both at the window &amp; in the plantations -- went firtopping -- got a great many -- read Vicissitudes -- delightful old thing.
+            Thurs. 2 Mar. 
+            At home -- heard from dear Drum -- helped Granny pack the China -- fed my Bobbies -- got a note from Miss James -- went firtopping -- dear Drum came home.
+            Fri. 3 Mar. 
+            At home -- went firtopping, got a great many -- wrote a handbill for Mr. Monck -- Drum heard from Mr. Johnson.
+            Sat. 4 Mar. 
+            At home -- went firtopping -- got a great many -- two Bobbies I think man &amp; wife followed me all over the plantation &amp; behind the house &amp; ate bread that I threw them in half a dozen different places -- heard from Sir William Elford -- Molly brought to bed of two live puppies &amp; two dead ones -- Molly as well as can be expected poor dear.
+            <pb n="37"/>
+            Sun. 5 Mar. 
+            At home -- heard from Miss James -- went to Farley Hill -- came home to dinner -- wrote to Dr. Harness &amp; Miss James -- nursed Molly.
+            Mon. 6 Mar. 
+            At home -- went firtopping -- got a great many -- fed my Bobbies -- nursed Molly -- read the Eclectic &amp; British Critic Reviews.
+            Tues. 7 Mar. 
+            At home -- Dear Mrs. Dickinson brought to bed of a girl -- went firtopping, got a great many -- read the Life pf Wesley (Charles &amp; John) stupid enough.
+            Wed. 8 Mar. 
+            At home -- went firtopping, got a good many -- read Leyden's Africa very good -- nursed dear Molly.
+            Thurs. 9 Mar. 
+            At home -- went into Reading to the Election -- called on Mrs. Joliffe -- the Brookes -- the Tuppens -- the Valpys -- dined with Mrs. Marsh -- came home at night -- a very pleasant day. 
+            Fri. 10 Mar. 
+            At home -- wrote to Miss James -- went firtopping -- got a great many -- fed my bobbies. 
+            Sat. 11 Mar. 
+            At home -- went to Reading to the Election with dear Drum -- called at the Marsh's - Tuppens - &amp;c. Dined at the Valpys -- came home at night -- pleasant day.
+            Sun. 12 Mar. 
+            At home -- went with dear Drum to Farley Hill -- saw Mrs. Dickinson, Mrs. Allingham &amp; the sweet little baby -- dined at the Webbs when I met John Wheeler -- came home at night -- pleasant day.
+            Mon. 13 Mar. 
+            At home -- went to the Reading election -- called at Mrs. Bath's -- sat at Lane's -- went to the Hall -- dined with the Valpy's -- very pleasant day indeed.
+            Tues. 14 Mar. 
+            At home -- went to the Election -- called on Mrs. Marsh, Mrs. Tuppen &amp; Miss Brooke -- got a cook -- sat at Lane's -- went to the Hall -- dined at the Valpy's -- very pleasant day.
+            Wed. 15 Mar. 
+            At home -- went to the Election with Drum -- heard from Miss James -- called at the Anstruthers &amp; Valpy's -- saw the Members (Monck &amp; Palmer) chaired from Mr. Cowpers at the Crown -- heard the speeches at Mrs. Letchworth's -- saw Mr. Weylands shabby procession from Mrs. Joliffe's -- dined with Mrs. Marsh -- a delightful day -- gloriously bright &amp; sunshiny -- the Chairing the finest sight I ever beheld -- upwards of ten thousand people -- all quiet &amp; rejoicing.
+            Thurs. 16 Mar. 
+            At home -- went firtopping, got a few -- went primrosing, got a good many -- read Memoires de Napoleon
+            <pb n="38"/>
+            en 1815 par M. Fleury de Cha [?] - a good fellow, but the book rather dull.
+            Fri. 17 Mar. 
+            Mr. Elliot &amp; his son came to take possession -- Tom White &amp; Captain Tuppen called -- read Memoires de Napoleon -- a most interesting book. At home all day with a bad cold. 
+            Sat. 18 Mar.
+            At home -- went Firtopping in the middle Plantation -- got a great many -- heard from Mary Webb -- read Vicissitudes -- my cold a good deal better -- nursed Molly.
+            Sun. 19 Mar. 
+            At home -- cold better -- went firtopping -- read Shakespeare &amp; his Times, good materials badly used -- nursed Moll &amp; the Pups.
+            Mon. 20 Mar. 
+            At home -- wrote to Mrs. Rowden, Mrs. Dickinson &amp; Sir William Elford -- walked to the Cross with dear Granny to look at Mr. Bodys house -- read Shakespeare &amp; his Times.
+            Tues. 21 Mar. 
+            At home -- Drum went to London -- Mrs. Rowden came to see us, dined &amp; slept here -- a very pleasant day indeed -- I was delighted to see her.
+            Wed. 22 Mar. 
+            At home -- took Mrs. Rowden back to Reading -- called on the Valpy's, Hawkes's, Brookes, Bulleys &amp;c. -- hired a Cook -- came back to dinner -- pleasant morning.
+            Thurs. 23 Mar. 
+            At home -- heard from dear Drum -- went flowering in Mr. Body's Fields &amp; my own -- got a great many violets in Mr. Bodys fields (the first this year) &amp; primroses yellow, white &amp; coloured in our own -- Dear Drum came home in the evening -- read Shakespeare &amp; his Times.
+            Fri. 24 Mar. 
+            At home -- went firtopping -- did not get many -- Heard from Mrs. Hudswell about out [?] old Cook's misconduct -- &amp; from Mary Webb -- Had a quarrel with Mrs. Howell about my Carnations which she stole -- made Drum's old Cocked Hat into a bonnet -- read Combers Parisian Massacre -- bad -- &amp; Wentworth's Account of New South Wales -- not good.
+            
+            
+            
+            
+            
+            
+       
+            
+            
+       </div></body><back><listPerson><person xml:id="Palmer_Mad">
+               <!--rjp:I am adding these alternate names to the entry... she already exists in the SI--><persName>Lady M.P.</persName><persName>Lady Mad.</persName><persName>Lady Madalina Palmer</persName><persName>Lady M. Palmer</persName><persName>tiresome woman</persName><persName>my Lady</persName>
+               <!--LMW: Mr. Palmer's wife? First name "Madalina"? See 1820-09-09 Elford letter, referenced "Lady Madalina"--></person></listPerson></back></text></TEI>
