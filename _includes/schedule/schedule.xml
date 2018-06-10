@@ -1409,16 +1409,17 @@
                 <desc>Building our syllabus</desc>
                 <details>
                     <item>Our schedule in XML:
-                            <link>https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.xml</link><examples>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</link><examples>
                             <example>Divided into 5 days: <code>&lt;day d="Monday, June
-                                    11"&gt;</code></example>
-                            <example>Each day has two slots: <code>&lt;slot
+                                    11"&gt;</code>, etc.</example>
+                            <example>Each day has two slots, e.g., <code>&lt;slot
                                     time="10:00:00"&gt;</code></example>
-                            <example>Slots have activities: <code>&lt;act time="PT20M"&gt;</code>,
-                                    <code>&lt;act time="PT1H30M"&gt;</code></example>
+                            <example>Slots have activities, e.g., <code>&lt;act
+                                    time="PT20M"&gt;</code>, <code>&lt;act
+                                time="PT1H30M"&gt;</code></example>
                         </examples></item>
                     <item>How we use XPath in Schematron
-                            <link>https://github.com/ebeshero/UpTransformation/blob/master/_includes/schedule/schedule.sch</link><examples>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link><examples>
                             <example><code>&lt;sch:rule context="slot[1]/@time"&gt;</code><examples>
                                     <example><code>&lt;sch:assert test="if (ancestor::day/@d eq
                                             'Monday, June 11') then . eq '10:00:00' else . eq
