@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
-    <!-- 
-        editor points to person (done)
-        orgName points to org
-        persName points to person
-        placeName points to place
-        repository points to org
-        title points to bibl
+    <!--
+        Elements with @ref attributes should point to an appropriate section in the  site index
+        Some point instead to entries in <back>; report those as "info"
+        Some point to both the site index and <back>; report those as errors
     -->
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     <sch:let name="si"
