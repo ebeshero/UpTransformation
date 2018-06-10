@@ -1,0 +1,13 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/mitford" version="1" owner="admin" group="dh-group" mode="755" created="2018-02-10T00:30:00.903-05:00">
+    <acl entries="1" version="1">
+        <ace index="0" target="GROUP" who="dba" access_type="ALLOWED" mode="7"/>
+    </acl>
+    <resource type="BinaryResource" name="MitfordSI.tsv" skip="no" owner="admin" group="dba" mode="644" created="2018-05-23T17:21:59.389-04:00" modified="2018-05-23T17:34:44.928-04:00" filename="MitfordSI.tsv" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="si.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-05-23T07:59:47.635-04:00" modified="2018-05-23T08:00:05.731-04:00" filename="si.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="literary" filename="literary"/>
+    <subcollection name="letters" filename="letters"/>
+</collection>

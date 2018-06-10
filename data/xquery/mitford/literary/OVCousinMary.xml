@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor ref="#scw">Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName ref="#scw">Samantha Webb</persName>
+                    <persName ref="#alw">Aymee Woody</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title ref="#Cousin_Mary_OV">COUSIN MARY</title>.</head>
+                <p>About four years ago, passing a few days with the <orgName type="person" ref="#CousMary_NarFriendsDaught">highly educated daughters of <orgName type="person" ref="#CousMary_NarFriends_OV">some friends</orgName> in this neighbourhood</orgName>, I found domesticated in the family a young lady, whom I shall call as they called her, <persName ref="#Mary_C_OV">Cousin Mary</persName>. She was about eighteen, not beautiful perhaps, but lovely certainly to the fullest extent of that loveliest word—as fresh as a <rs type="plant" ref="#rose">rose</rs>; as fair as a <rs type="plant" ref="#lily">lily</rs>; with lips like <rs type="plant" ref="#winter_berry">winter berries</rs>, dimpled, smiling lips; and eyes of which nobody could tell the colour, they danced so incessantly in their own gay light. Her figure was tall, round, and slender; exquisitely well proportioned it must have been, for in all attitudes, (and in her innocent gaiety, she was scarcely ever two minutes in the same) she was grace itself. She was, in short, the very picture of youth, health, and happiness. No one could see her without being prepossessed in her favour. <persName ref="#OVNarrator">I</persName> took a fancy to her the moment she entered the room; and it increased every hour in spite of, or rather perhaps for, certain de-<pb n="92"/>ficiencies, which caused poor <persName ref="#Mary_C_OV">Cousin Mary</persName> to be held exceedingly cheap by <rs type="person" ref="#CousMary_NarFriends_OV">her accomplished relatives</rs>.</p>
+                <p>She was the youngest daughter of an <rs type="person" ref="MaryC_father_OV">officer of rank</rs>, dead long ago; and <rs type="person" ref="#MaryC_mother_OV">his sickly widow</rs> having lost by death, or that other death, marriage, all her children but this, could not, from very fondness, resolve to part with her darling for the purpose of acquiring the commonest instruction. She talked of it, indeed, now and then, but she only talked; so that, in this age of universal education, <persName ref="#Mary_C_OV">Mary C.</persName> at eighteen exhibited the extraordinary phenomenon of a young woman of high family, whose acquirements were limited to reading, writing, needle-work, and the first rules of arithmetic. The effect of this let-alone system, combined with a careful seclusion from all improper society, and a perfect liberty in her country rambles, acting upon a mind of great power and activity, was the very reverse of what might have been predicted. It had produced not merely a delightful freshness and originality of manner and character, a piquant ignorance of those things of which one is tired to death, but knowledge, positive, accurate, and various knowledge. She was, to be sure, wholly unaccomplished; knew nothing of quadrilles<note resp="alw">The Quadrille is a dance that was fashionable in late 18th- and 19th-century Europe, performed by four couples in a rectangular formation.<ref target="#https://www.bl.uk/collection-items/the-art-of-dancing-quadrilles"/></note>, though her every motion was dancing; nor a note of music, though she used to warble like a bird sweet snatches of old songs, as she skipped up and down the house;<pb n="93"/> nor of painting, except as her taste had been formed by a minute acquaintance with nature into an intense feeling of art. She had that real extra sense, an eye for colour, too, as well as an ear for music. Not one in twenty—not one in a hundred of our sketching and copying ladies could love and appreciate a picture where there was colour and mind, a picture by <persName ref="#Lorrain_Cl">Claude</persName>, or by our English Claudes <persName ref="#Wilson_Richard">Wilson</persName> and <persName ref="#Hofland_T.H.">Hofland</persName>, as she could—for she loved landscape best, because she understood it best—it was a portrait of which she knew the original. Then her needle was in her hands almost a pencil. I never knew such an embroidress—she would sit “printing her thoughts on lawn,”<!--SCW: Quotation unidentified--> till the delicate creation vied with the snowy tracery, the fantastic carving of hoar frost, the richness of Gothic architecture, or of that which so much resembles it, the luxuriant fancy of old point lace<note resp="alw">Lace worked with a needle in a buttonhole stitch on a paper pattern.</note> That was her only accomplishment, and a rare artist she was—muslin and net were her canvas. She had no French either, not a word; no Italian; but then her English was racy, unhackneyed, proper to the thought to a degree that only original thinking could give. She had not much reading, except of the Bible and <persName ref="#Shakespeare"><sic>Shakspeare</sic></persName>, and <persName ref="#Richardson_Sam">Richardson</persName>'s novels, in which she was learned; but then her powers of observation were sharpened and quickened, in a very unusual degree, by the leisure and opportunity afforded for their de-<pb n="94"/>velopement, at a time of life when they are most acute. She had nothing to distract her mind. Her attention was always awake and alive. She was an excellent and curious naturalist, merely because she had gone into the fields with her eyes open; and knew all the details of rural management, domestic or agricultural, as well as the peculiar habits and modes of thinking of the peasantry, simply because she had lived in the country, and made use of her ears. Then she was fanciful, recollective, new; drew her images from the real objects, not from their shadows in books. In short, to listen to her, and the <rs type="person" ref="#CousMary_NarFriendsDaught">young ladies</rs> her companions, who, accomplished to the height, had trodden the education-mill till they all moved in one step, had lost sense in sound, and ideas in words, was enough to make us turn masters and governesses out of doors, and leave our daughters and grand-daughters to <persName ref="#MaryC_mother_OV">Mrs. C.</persName>’s system of non-instruction. I should have liked to meet with another specimen, just to ascertain whether the peculiar charm and advantage arose from the quick and active mind of this <rs type="person" ref="#Mary_C_OV">fair Ignorant</rs>, or was really the natural and inevitable result of the training; but, alas! to find more than one unaccomplished young lady, in this accomplished age, is not to be hoped for. So I admired and envied; and her <rs type="person" ref="#CousMary_NarFriendsDaught_OV">fair kinswomen</rs> pitied and scorned, and tried to teach; and <persName ref="#Mary_C_OV">Mary</persName>, never made for a learner, and as full of animal<pb n="95"/> spirits as a school-boy in the holidays, sang, and laughed, and skipped about from morning to night.</p>
+                <p>It must be confessed, as a counter-balance to her other perfections, that the dear <persName ref="#Mary_C_OV">Cousin Mary</persName> was, as far as great natural modesty and an occasional touch of shyness would let her, the least in the world of a romp! She loved to toss about children, to jump over stiles, to scramble through hedges, to climb trees; and some of her knowledge of plants and birds may certainly have arisen from her delight in these boyish amusements. And which of us has not found that the strongest, the healthiest, and most flourishing acquirement has arisen from pleasure or accident, has been in a manner self-sown, like an <rs type="plant" ref="#oak">oak</rs> of the forest?—Oh she was a sad romp; as skittish as a wild <rs type="animal" ref="#colt">colt</rs>, as uncertain as a <rs type="animal" ref="#butterfly">butterfly</rs>, as uncatchable as a <rs type="animal" ref="#swallow">swallow</rs>! But her great personal beauty, the charm, grace, and lightness of her movements, and above all, her evident innocence of heart, were bribes of indulgence which no one could withstand. I never heard her blamed by any human being. The perfect unrestraint of her attitudes, and the exquisite symmetry of her form, would have rendered her an invaluable study for a painter. Her daily doings would have formed a series of pictures. I have seen her scudding through a shallow rivulet, with her petticoats caught up just a little above the <sic>ancle</sic>, like a young <persName ref="#Diana">Diana</persName>, and a bounding, skimming, enjoying<pb n="96"/> motion, as if native to the element, which might have become a <rs>Naiad</rs>. I have seen her on the topmost round of a ladder, with one foot on the roof of a house, flinging down the <rs type="plant" ref="#grape">grapes</rs> that no one else had nerve enough to reach, laughing, and garlanded, and crowned with vine-leaves, like a <orgName ref="#Bacchante">Bacchante</orgName>. But the prettiest combination of circumstances under which I ever saw her, was driving a <rs type="animal" ref="#donkey">donkey</rs> cart up a hill one sunny windy day, in <date when="--09">September</date>. It was a gay <orgName ref="#CousMary_climbing_party_OV">party of young women</orgName>, some walking, some in open carriages of different descriptions, bent to see a celebrated prospect from a hill called <placeName ref="#Ridges">the Ridges</placeName>. The ascent was by a steep narrow lane, cut deeply between sand-banks, crowned with high, feathery hedges. The road and its picturesque banks lay bathed in the golden sunshine, whilst the autumnal sky, intensely blue, appeared at the top as through an arch. The hill was so steep that we had all dismounted, and left our different vehicles in charge of the servants below; but <persName ref="#Mary_C_OV">Mary</persName>, to whom, as incomparably the best charioteer, the conduct of a certain non-descript machine, a sort of <rs type="animal" ref="#donkey">donkey</rs> curricle, had fallen, determined to drive a delicate <persName ref="#CousMary_girl_OV">little girl</persName>, who was afraid of the walk, to the top of the eminence. She jumped out for the purpose, and we followed, watching and admiring her as she won her way up the hill: now tugging at the <rs type="animal" ref="#donkey">donkeys</rs> in front with her bright face towards them and us, and springing along back-<pb n="97"/>wards—now pushing the chaise from behind—now running by the side of her <rs type="animal" ref="#donkey"><soCalled>steeds</soCalled></rs>, patting and caressing them—now soothing the <rs type="person" ref="#CousMary_girl_OV">half frightened child</rs>—now laughing, nodding, and shaking her little whip at us—darting about like some winged creature—till at last she stopped at the top of the ascent, and stood for a moment on the summit, her straw bonnet blown back, and held on only by the strings; her brown hair playing on the wind in long natural ringlets; her complexion becoming every moment more splendid from exertion, redder and whiter; her eyes and her smile brightening and dimpling; her figure in its simple white gown, strongly relieved by the deep blue sky, and her whole form seeming to dilate before our eyes. There she stood under the arch formed by two meeting <rs type="plant" ref="#elm">elms</rs>, a <persName ref="#Hebe">Hebe</persName>, a <persName ref="#Psyche">Psyche</persName>, a perfect goddess of youth and joy. The <placeName ref="#Ridges">Ridges</placeName> are very fine things altogether, especially the part to which we were bound, a turfy breezy spot, sinking down abruptly like a rock into a wild foreground of heath and forest, with a magnificent command of distant objects;—but we saw nothing that day like the <rs type="person" ref="#Mary_C_OV">figure on the top of <placeName ref="#Ridges">the hill</placeName></rs>.</p>
+                <p>After this I lost sight of her for a long time. She was called suddenly home by the dangerous illness of <rs type="person" ref="#MaryC_mother_OV">her mother</rs>, who, after languishing for some months, died; and <persName ref="#Mary_C_OV">Mary</persName> went to live with a <rs type="person" ref="#MaryC_sister_OV">sister</rs> much older than herself, and richly married in a <rs type="place" ref="#CousMary_manufac_town_OV">manufacturing <pb n="98"/>town</rs>, where she languished in smoke, confinement, dependence, and display, (for <rs type="person" ref="#MaryC_sister_OV">her sister</rs> was a matchmaking lady, a manoeuvrer,) for about a twelvemonth. She then left her house and went into <placeName ref="#Wales">Wales</placeName>—as a governess<!-- "The governess was one of the most familiar figures in mid-Victorian life and literature. The 1851 Census revealed that 25,000 women earned their living teaching and caring for other women’s children. Most governesses lived with their employers and were paid a small salary on top of their board and lodging." - See more at: https://www.bl.uk/romantics-and-victorians/articles/the-figure-of-the-governess -->! <!--scw 5/15/18: I don't think we need this annotation, and if we keep, it needs to be rendered in our editorial voice, rather than quotation, with citation.-->Imagine the astonishment caused by this intelligence amongst us all; for I myself, though admiring the <rs type="person" ref="#Mary_C_OV">untaught damsel</rs> almost as much as I loved her, should certainly never have dreamed of her as a teacher. However, she remained in the rich <orgName ref="#Sir_WS_family_OV">baronet’s family</orgName> where she had commenced her vocation. They liked her apparently,—there she was; and again nothing was heard of her for many months, until, happening to call on the <orgName type="person" ref="#CousMary_NarFriends_OV">friends at whose house I had originally met her</orgName>, I espied her fair blooming face, <rs type="person" ref="#Mary_C_OV">a <rs type="plant" ref="#rose">rose</rs> amongst <rs type="plant" ref="#rose">roses</rs></rs>, at the drawing-room window,—and instantly with the speed of light was met and embraced by her at the hall-door.<!--scw: these plant references are figurative, so I'd like to decide whether they should be tagged at all.--></p>
+                <p>There was not the slightest perceptible difference in her deportment. She still bounded like a <rs type="animal" ref="#fawn">fawn</rs>, and laughed and clapped her hands like an infant. She was not a day older, or graver, or wiser, since we parted. Her post of tutoress had at least done <emph>her</emph> no harm, whatever might have been the case with <rs type="#person" ref="#CousMary_SirWS_daught_OV #CousMary_SirWS_son_OV">her pupils</rs>. The more I looked at her the more I wondered; and after our mutual expressions of pleasure had a little subsided, I could not resist the temptation of saying,—<said who="#OVNarrator">”So you are really a governess?”</said>—<said who="#Mary_C_OV">“Yes.”</said>— <said who="#OVNarrator">“And<pb n="99"/> you continue in the same family?</said>”—<said who="#Mary_C_OV">“Yes.”</said>— <said who="#OVNarrator">“And you like your post?—</said><said who="#Mary_C_OV">—”O yes! yes!”</said>—<said who="#OVNarrator">But, my dear <persName ref="#Mary_C_OV">Mary</persName>, what could induce you to go?”</said>—<said who="#Mary_C_OV"/>“Why, they wanted a governess, so I went.”—<said who="#OVNarrator">“But what could induce them to keep you?”</said> The perfect gravity and earnestness with which this question was put set her laughing, and the laugh was echoed back from a group at the end of the room, which I had not before noticed—an <rs type="person" ref="#SirWS_OV">elegant man</rs> in the prime of life showing a portfolio of rare prints to a fine <rs type="person" ref="#CousMary_SirWS_daught_OV">girl of twelve</rs>, and a rosy <rs type="person" ref="#CousMary_SirWS_son_OV">boy of seven</rs>, evidently his children. <said who="#Mary_C_OV">“Why did they keep me? Ask them,”</said> replied <persName ref="#Mary_C_OV">Mary</persName>, turning towards them with an arch smile. “We kept her to teach her ourselves,” said the <rs type="person" ref="#CousMary_SirWS_daught_OV">young lady</rs>. “We kept her to play cricket with us,” said her <rs type="person" ref="#CousMary_SirWS_son_OV">brother</rs>. “We kept her to marry,” said the <rs type="person" ref="#SirWS_OV">gentleman</rs>, advancing gaily to shake hands with me. “She was a bad governess, perhaps; but she is an excellent wife—that is her true vocation.” And so it is. She is, indeed, an excellent wife; and assuredly a most fortunate one. I never saw happiness so sparkling or so glowing; never saw such devotion to a bride, or such fondness for a step-mother, as <persName ref="#SirWS_OV">Sir W.S.</persName> and <orgName type="person" ref="#Sir_WS_family_OV">his lovely children</orgName> show to the sweet <persName ref="#Mary_C_OV">Cousin Mary</persName>.
+                <pb n="100"/></p>
+            </div>      
+        </body>
+        <back>
+            <div> 
+              
+                <listPerson type="fict"><!--scw: I'm trying to track down originals of the characters in this story if possible, so list not complete.-->
+                    
+                    <person xml:id="CousMary_SirWS_daught_OV" sex="f">
+                        <persName>
+                            <surname>S.</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <note resp="#scw">The twelve-year old daughter of <persName ref="#SirWS_OV">Sir W.S.</persName> in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>.</note>
+                    </person>
+                    
+                    <person xml:id="CousMary_SirWS_son_OV" sex="m">
+                        <persName>
+                            <surname><abbr>S.</abbr></surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <note resp="#scw">The seven-year old son of <persName ref="#SirWS_OV">Sir W.S.</persName> in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>.</note>
+                    </person>
+                    
+                    <person xml:id="Sir_WS_OV" sex="m">
+                        <persName>Sir W.S.</persName>
+                        <note resp="#alw #scw">Wealthy young baronet widow who appears in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>.</note>
+                    </person>
+                    
+                    <person xml:id="CousMary_girl_OV" sex="f">
+                        <persName>little girl
+                            <surname>not given</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <note resp="#scw">Character appearing in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>, whom the title character helps climb the hill.</note>
+                    </person>
+                   
+                        <person xml:id="Diana" sex="f">
+                            <persName>Diana</persName>
+                            <note resp="#alw">Roman goddess of wild animals and the hunt. </note>
+                            <note>
+                                <ref target="#https://www.britannica.com/topic/Diana-Roman-religion"/> </note>
+                        </person>
+                        
+                        <person xml:id="Hebe" sex="f">
+                            <persName>Hebe</persName>
+                            <note resp="#alw"> "goddess of youth; daughter of Zeus and Hera and wife of Hercules. She appears only occasionally in legend as a cupbearer and attendant of the gods. The Romans identified her as Juventas." "Hebe." The Columbia Electronic Encyclopedia®. 2013. Columbia University Press 12 Apr. 2017 http://encyclopedia2.thefreedictionary.com/Hebe</note><!--scw 5/15/18: This needs to be rewritten-->
+                        </person>
+                        
+                        <person xml:id="Psyche" sex="f">
+                            <persName>Psyche</persName>
+                            <note resp="#alw"> "In Roman mythology, Psyche represented the human spirit and was portrayed as a beautiful girl with butterfly wings. Psyche was a beautiful mortal desired by Cupid, to the dismay of Cupid's mother Venus. Venus demanded that her son order Psyche to fall in love with the ugliest man in the world. Cupid refused and loved Psyche himself, visiting her only by night and commanding that she not look at him. Eventually, Psyche broke Cupid's rule and lit a lamp to look upon his face. For this disloyalty, Cupid abandoned her and Psyche wandered through the world in search of her lover. Eventually she was reunited with Cupid and made immortal by Jupiter." http://www.encyclopedia.com/literature-and-arts/classical-literature-mythology-and-folklore/folklore-and-mythology/psyche</note><!--scw 5/15/18: This needs to be rewritten-->
+                        </person>
+                    
+                    <person xml:id="Mary_C_OV" sex="f">
+                        <persName>Mary C.
+                            <surname type="paternal"><abbr/>C.</surname>
+                            <surname type="married"><abbr>S.</abbr></surname>
+                            <forename>Mary</forename>
+                        </persName>
+                        <occupation>governess</occupation>
+                        <note resp="#alw">Title Character from the <title ref="#Our_Village1st_ed">Our Village</title> sketch <title ref="#Cousin_Mary_OV">Cousin Mary</title>. </note>
+                    </person>
+                    
+                    <person xml:id="MaryC_mother_OV" sex="f">
+                        <persName ref="#MaryC_mother_OV">Mrs. C.
+                            <surname><abbr>C.</abbr></surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <note resp="#scw">Mother of the title character in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>, who is admired for giving her daughter a natural education with no accomplishments.</note>
+                    </person>
+                    
+                    <person xml:id="MaryC_sister_OV" sex="f">
+                        <persName>
+                            <surname>not given</surname>
+                            <forename>not given</forename>
+                        </persName>
+                        <note resp="#scw">Sister of the title character of the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary">Cousin Mary, with whom Mary lives before becoming a governess, and who is a notorious matchmaker</title>.</note>
+                    </person>
+                
+                </listPerson>
+               
+                <listPerson type="hist">
+                    <person xml:id="Wilson_Richard" sex="m">
+                        <persName>
+                            <forename>Richard</forename>
+                            <surname>Wilson</surname>
+                        </persName>
+                        <persName>Richard Wilson</persName>
+                        <birth when="1713-08-01">
+                            <placeName>Machynlleth, Montgomeryshire</placeName>
+                        </birth>
+                        <death when="1782-05-11">
+                            <placeName>Colomendy Hall, nr. Llanberis, Denbighshire</placeName>
+                        </death>
+                        <occupation>artist</occupation>
+                        <note resp="#alw">  <ref target="https://artuk.org/discover/artists/wilson-richard-171317141782"/>
+                        </note>
+                    </person>
+           
+                <person xml:id="Hofland_TH" sex="m">
+                        <persName>
+                            <surname>Hofland</surname>
+                            <forename>Thomas</forename>
+                            <forename>Christopher</forename>
+                            <forename/>
+                        </persName>
+                        <birth when="1777-01-03"><placeName>Worksop, Nottinghamshire, England</placeName></birth>
+                        <death when="1843-12-25"><placeName>Leamington Spa, Warwickshire, England</placeName></death>
+                        <occupation>artist</occupation>
+                        <note resp="#alw"><!--SCW: Add a little biographical note as relevant to this sketch--><!--scw 5/15/18: needs update-->
+                        <ref target="https://artuk.org/discover/artists/hofland-thomas-christopher-17771843"/>
+                            <ref target="https://rkd.nl/en/explore/artists/38983"/></note>
+                    </person>
+                </listPerson>
+                
+                <listOrg type="person">
+                    
+                    <org xml:id="CousMary_climbing_party_OV">
+                        <note resp="#scw">The group of young women who climb <placeName ref="#Ridges">The Ridges</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title>, <title ref="#Cousin_Mary_OV">Our Village</title>.</note>
+                    </org>
+                    
+                    <org xml:id="CousMary_NarFriends_OV">
+                        <persName>not given</persName>
+                        <note resp="#scw">The friends whom the <persName ref="#OVNarrator">Our Village narrator</persName> is visiting when she meets <persName ref="#Mary_C_OV">Mary C.</persName>, the title character of <title ref="#Cousin_Mary_OV"/>.</note>
+                    </org>
+                    
+                    <org xml:id="CousMary_NarFriendsDaught_OV">
+                        <persName>not given</persName>
+                        <note resp="#scw">The accomplished and educated daughters of the friends whom the <persName ref="#OVNarrator">Our Village narrator</persName> is visiting in the sketch, <title ref="#Cousin_Mary_OV"/>.</note>
+                    </org>
+                    
+                    <org xml:id="Sir_WS_family_OV">
+                        <note resp="#scw">The two children of the wealthy widowed baronet, <persName ref="#Sir_WS_OV">Sir W.S.</persName>, for whom the title character of the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>, goes to work as a governess. </note>
+                    </org>
+              
+                </listOrg>
+            
+                    <listPlace>
+                    <place xml:id="Ridges">
+                        <placeName>Ridges</placeName>
+                        <placeName><!--alternate place name--></placeName>
+                        <location><geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo></location>
+                        <!--scw: Perhaps the Finchamstead Ridges. Researching further-->
+                    </place>
+                        
+                    <place xml:id="CousMary_manufac_town_OV">
+                        <placeName/>
+                        <note resp="#scw">The manufacturing town that, in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Cousin_Mary_OV">Cousin Mary</title>, the title character moves to for some months before taking a position as a governess.</note><!--scw: I'm trying to establish from bio sources what this town might be-->
+                    </place>  
+                        
+                </listPlace>
+                <listBibl>
+                    <bibl xml:id="proposed_new_ID4">
+                        <title><!--Title--></title>
+                        <author><!--Author--></author>
+                        <editor><!--if indicated--></editor>
+                        <pubPlace><!--where published--></pubPlace>
+                        <publisher><!--publisher--></publisher>
+                        
+                    </bibl>
+                </listBibl>
+                
+                <list type="plants">            
+                    <item xml:id="rose">
+                        <name>rose</name>
+                        <name>
+                            <rs type="genus">Rose</rs>
+                            <rs type="family">Rosaceae</rs>
+                        </name>
+                        <note resp="#alw">A rose is a prickly bush or shrub that typically bears red, pink, yellow, or white fragrant flowers, native to north temperate regions. Numerous hybrids and cultivars have been developed and are widely grown as ornamentals.</note>
+                    </item>
+                    
+                        <item xml:id="winter_berry">
+                            <name>winter berry</name>
+                            <note resp="#alw">Since winterberry is a generalized term, it is possible that Mitford is referring to hawthorn berries or blackthorn berrries, but Ilex verticillata, commonly called holly, is the most common European winterberry.</note>
+                        </item>  
+                    
+                       <item xml:id="lily">
+                           <name>lily</name>
+                              <name>
+                                    <rs type="genus">lilium</rs>
+                                    <rs type="family">liliaceae</rs>
+                              </name>
+                              <note resp="#alw">The lily, or Lilium (members of which are true lilies), is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. Most species are native to the temperate northern hemisphere, though their range extends into the northern subtropics.</note>
+                            </item> 
+                    
+                                <item xml:id="oak">
+                                    <name>oak</name>
+                                    <name>
+                                        <rs type="genus">Quercus</rs>
+                                        <rs type="family">Fagaceae</rs>
+                                    </name>
+                                    <note resp="#alw">An oak is a tree belonging to the genus Quercus, of the beech family, bearing the acorn as fruit.</note></item>
+                                    
+                     <item xml:id="grape">
+                        <name>grape</name>
+                        <name>
+                            <rs type="genus">Vitis</rs>
+                            <rs type="family">Vitaceae</rs>
+                         </name>
+                         <note resp="#alw">A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis.</note></item>
+                </list>
+                    
+                    <list type="animal">
+                             <item xml:id="colt">
+                                 <name>colt</name>
+                                 <name>
+                                     <rs type="genus">Equus</rs>
+                                     <rs type="species">E. ferus</rs>
+                                     <rs type="family">Equidae</rs>
+                                 </name>
+                                 <note resp="#alw">A colt is a young, male horse, usually younger than fours years old.</note>
+                             </item>
+                         
+                             <item xml:id="butterfly">
+                                 <name>butterfly</name>
+                                 <name>
+                                     <rs type="phylum">Arthropoda</rs>
+                                     <rs type="class">Insecta</rs>
+                                     <rs type="order">Lepidoptera</rs>
+                                 </name>
+                                 <note resp="#alw">A butterfly is an insect with two pairs of large wings that are covered with tiny scales, usually brightly colored, and typically held erect when at rest.</note>
+                             </item>
+                         
+                             <item xml:id="swallow">
+                                 <name>swallow</name>
+                                 <name>
+                                     <rs type="phylum">Chordata</rs>
+                                     <rs type="class">Aves</rs>
+                                     <rs type="order">Passeriformes</rs>
+                                     <rs type="suborder">Passeri</rs>
+                                     <rs type="family">Hirundinidae</rs>
+                                 </name>
+                                 <note resp="#alw">The swallow is from a family of passerine birds found around the world on all continents except Antarctica. Highly adapted to aerial feeding, they have a distinctive appearance. The term 'swallow' is used colloquially in Europe as a synonym for the barn swallow. </note>
+                             </item>
+               
+                             <item xml:id="donkey">
+                                 <name>donkey</name>
+                                 <name>
+                                     <rs type="genus">Equus</rs>
+                                     <rs type="species">E. africanus</rs>
+                                     <rs type="subspecies">E. a. asinus</rs>
+                                     <rs type="family">Equidae</rs>
+                                 </name>
+                                 <note resp="#alw">Donkeys, also called burros and asses, are found throughout the world. They are members of the Equidae family, which also includes horses and zebras. They look a lot like their cousins, but have long, floppy ears and tend to be stockier than horses or zebras.</note>
+                             </item>
+                        
+                             <item xml:id="fawn">
+                                 <name>fawn</name>
+                                 <name>
+                                     <rs type="phylum">Chordata</rs>
+                                     <rs type="order">Artiodactyla</rs>
+                                     <rs type="family">Cervidae</rs>
+                                 </name>
+                                 <note resp="#alw">A fawn is a young deer, under one year old.</note>
+                             </item>
+                             
+                    </list>
+            
+            </div>
+            
+        </back>           
+        
+        
+    </text>
+</TEI>

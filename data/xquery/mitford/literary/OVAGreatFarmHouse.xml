@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor>Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName>Samantha Webb</persName>
+                    <persName ref="#tfb">Temani Beck</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title ref="#Great_Farmhouse_OV">A GREAT FARM-HOUSE</title>.</head>
+                <p>These are bad times for farmers.<note resp="#scw">Mitford composed this sketch in
+                            <date when="1822-04">April 1822</date>.</note> I am sorry for it.
+                    Independently of all questions of policy, as a mere matter of taste and of old
+                    association, it was a fine thing to witness the hearty hospitality, and to think
+                    of the social happiness of a great farm-house. No situation in life seemed so
+                    richly privileged; none had so much power for good and so little for evil; it
+                    seemed a place where pride could not live, and poverty could not enter. These
+                    thoughts pressed on my mind the other day, in passing the green sheltered lane,
+                    overhung with trees like an avenue, that leads to <placeName>the great farm at
+                            <placeName ref="#M_farmhouse_OV">M.</placeName></placeName>,<note resp="#scw">In a letter to <persName ref="#Elford_SirWm">Sir William
+                            Elford</persName> of <date when="1816">1816</date>, Mitford mentions the
+                        death of her friend <persName ref="#Newell_Mr">Mr. Newell</persName> of
+                            <placeName ref="#Whitby_Park">Whitby Park</placeName>. While L'Estrange
+                        dates this letter as <date when="1816-11-24">November 24, 1816</date>, it
+                        was in fact written on <date when="1816-10-20">October 20, 1816</date>.
+                        Several things argue for Mr. Newell as the original of the farmer in this
+                        sketch, notably verbatim passages in this sketch from the Elford letter, as
+                        well as strong echoes of situations connected to this man. In addition, the
+                        election that Mitford mentions in A Great Farmhouse is reminiscent of the
+                        contested 1816 Parliamentary elections. She also refers to Mr. Newell in an
+                        unpublished letter to <persName ref="#Webb_Mary_younger">Mary
+                            Webb</persName> of <date when="1816-10-28">October 28, 1816</date>, in
+                        which she tells of receiving one of his greyhounds upon his death, and to
+                        Elford of <date when="1816-12-23">December 23, 1816</date>, in which she
+                        shares an epitaph she wrote for
+                        him.<!--scw update, 6/18/17: Our ms files contain the letters to Elford and Mary Webb. See photos 988 and 989 for Elford.--></note>
+                    where ten or twelve years ago,<note resp="#scw">Given the composition date, this
+                        places these general recollections around the years <date when="1810">1810</date> to <date when="1812">1812</date>.</note> I used to spend so
+                    many pleasant days. I could not help advancing a few paces up the lane, and then
+                    turning to lean over the gate, seemingly gazing on the rich undulating valley,
+                    crowned with woody hills, which, as I stood under the dark and shady arch, lay
+                    bathed in the sunshine before me, but really absorbed in thoughts of other
+                    times, in recollections of the old delights of that<pb n="49"/> delightful
+                    place, and of the admirable qualities of its owners. How often I had opened that
+                    gate, and how gaily—certain of meeting a smiling welcome—and what a picture of
+                    comfort it was!</p>
+                <p>Passing up the lane, we used first to encounter a thick solid suburb of ricks, of all sorts, shapes, and dimensions. Then came the farm, like a town; a magnificent series of buildings, stables, cart-houses, cow-houses, granaries, and barns, that might hold half the corn of the parish, placed at all angles towards each other, and mixed with smaller habitations for <rs type="animal" ref="#pig">pigs</rs>, <rs type="animal" ref="#dog">dogs</rs>, and poultry. They formed, together with the old substantial farm-house, a sort of amphitheatre, looking over a beautiful meadow, which swept greenly and abruptly down into fertile inclosures, richly set with hedge-row timber, <rs type="plant" ref="#oak">oak</rs>, and <rs type="plant" ref="#ash">ash</rs>, and <rs type="plant" ref="#elm">elm</rs>. Both the meadow and the farm-yard swarmed with inhabitants of the earth and of the air; <rs type="animal" ref="#horse">horses</rs>, <rs type="animal" ref="#ox">oxen</rs>, <rs type="animal" ref="#cow">cows</rs>, calves, heifers, <rs type="animal" ref="#sheep">sheep</rs>, and <rs type="animal" ref="#pig">pigs</rs>; beautiful <rs type="animal" ref="#greyhound">greyhounds</rs>, all manner of poultry, a tame <rs type="animal" ref="#goat">goat</rs>, and a pet <rs type="animal" ref="#donkey">donkey</rs>.</p>
+                <p>The <rs type="person" ref="#Great_Farmhouse_farmer_OV">master of this land of
+                        plenty</rs> was well fitted to preside over it; a thick, stout man, of
+                    middle height, and middle age, with a healthy, ruddy, square face, all alive
+                    with intelligence and good-humour. There was a lurking jest in his eye, and a
+                    smile about the corners of his firmly-closed lips, that gave assurance of good
+                    fellowship. His voice was loud enough to<pb n="50"/> have hailed a ship at sea,
+                    without the assistance of a speaking-trumpet,<note resp="#scw">The foregoing
+                        sentence is found verbatim in Mitford's <date when="1816-10-20">October 20,
+                            1816</date> letter to <persName ref="#Elford_SirWm">Sir William
+                            Elford</persName>, in which she informs him of <persName ref="#Newell_Mr">Mr. Newell</persName>'s death.</note> wonderfully rich
+                    and round in its tones, and harmonizing admirably with his bluff, jovial visage.
+                    He wore his dark shining hair combed straight over his forehead, and had a
+                    trick, when particularly merry, of stroking it down with his hand. The moment
+                    his right hand approached his head, out flew a jest.</p>
+                <p>Besides his own great farm, the business of which seemed to go on like machinery,
+                    always regular, prosperous, and unfailing,—besides this and two or three
+                    constant stewardships, and a perpetual succession of arbitrations, in which,
+                    such was the influence of his acuteness, his temper, and his sturdy justice,
+                    that he was often named by both parties, and left to decide alone,—in addition
+                    to these occupations, he was a sort of standing overseer and
+                    church-warden; he ruled his own hamlet like a despotic monarch, and took a prime minister’s
+                    share in the government of the large parish to which it was attached; and one of
+                    the <rs type="person" ref="#Great_Farmhouse_MP_OV">gentlemen</rs>, whose estates
+                    he managed, being the independent member of an independent borough, he had every
+                    now and then a contested election on his
+                    shoulders.
+                    Even that did not discompose him. He had always leisure to receive his friends
+                    at home, or to visit them abroad; to take journeys to <placeName ref="#London_city">London</placeName>, or make excursions to the sea-side;
+                    was as punctual in pleasure as in<pb n="51"/> business, and thought being happy
+                    and making happy as much the purpose of his life as getting rich. His great
+                    amusement was coursing. He kept several brace of capital <rs type="animal" ref="#greyhound">greyhounds</rs>, so high-blooded, that I remember when five
+                    of them were confined in five different kennels on account of their ferocity.
+                    The greatest of living painters once called a <rs type="animal" ref="#greyhound">greyhound</rs>, <quote>“the line of beauty in perpetual motion.”</quote><!--SCW: Quote as yet unidentified, but I wonder if she means Haydon? He is said to have frequently coursed greyhounds, and speaks to MRM about them in letters, though I didn't find any such quotes in his published works.-->
+                    <rs type="animal" ref="#greyhound"><rs type="person" ref="#Great_Farmhouse_farmer_OV">Our friend</rs>’s large dogs</rs> were
+                    a fine illustration of this remark. His old <rs type="animal" ref="#dog">dog</rs>, <rs type="animal" ref="#Hector_pet_OV">Hector</rs>, for instance,
+                    for whom he refused a hundred guineas,—what a superb dog was &lt;rs
+                    type="animal" ref="#Hector_pet_OV"&gt;Hector&lt;/rs&gt;!—a model of grace and
+                    symmetry, necked and crested like an &lt;rs type="animal"
+                    ref="Arabian_horse"&gt;Arabian&lt;/rs&gt;, and bearing himself with a stateliness and
+                    gallantry that showed some <quote>“conscience of his
+                    worth.”</quote><!--SCW: This may be a mis-quote from The Tragedies of Sophocles, tr. R. Potter, Oxford, Bliss and Baxter, 1813, referring to Philoctetes, p.297. Actual quote is "conscious of his worth." It also sounds familiar to me, but perhaps from MRM herself elsewhere, so fie on all!-->
+                    He was the largest <rs type="animal" ref="#Hector_pet_OV">dog</rs> I ever saw;
+                    but so finely proportioned, that the most determined fault-finder could call him
+                    neither too long nor too heavy. There was not an inch too much of him. His
+                    colour was the purest white, entirely unspotted, except that his head was very
+                    regularly and richly marked with black. <rs type="animal" ref="#Hector_pet_OV">Hector</rs> was certainly a perfect beauty. But the little <rs type="animal" ref="#dog">bitches</rs>, on which <rs type="person" ref="#Great_Farmhouse_farmer_OV">his master</rs> piqued himself still more,
+                    were not in my poor judgment so admirable. They were pretty little round,
+                    graceful things, sleek and glossy, and for the most part milk-white, with the
+                    smallest heads, and the most dove-like eyes that were ever seen. There was a<pb n="52"/> peculiar sort of innocent beauty about them, like that of a
+                    roly-poly child. They were as gentle as lambs too: all the evil spirit of the
+                    family evaporated in the gentlemen. But, to my thinking, these pretty creatures
+                    were fitter for the parlour than the field. They were strong, certainly,
+                    excellently loined, cat-footed, and chested like a war-horse; but there was a
+                    want of length about them—a want of room, as the coursers say; something a
+                    little, a very little inclining to the clumsy; a dumpiness, a pointer-look. They
+                    went off like an arrow from a bow; for the first hundred yards nothing could
+                    stand against them; then they began to flag, to find their weight too much for
+                    their speed, and to lose ground from the shortness of the stroke. Up-hill,
+                    however, they were capital. They turned with the <rs type="animal" ref="#hare">hare</rs>, and lost neither wind nor way in the sharpest ascent. I shall
+                    never forget one single-handed course of <rs type="person" ref="#Great_Farmhouse_farmer)OV">our good friend</rs>’s favourite little
+                    bitch <rs type="animal" ref="#Helen_pet_OV">Helen</rs>, on <placeName ref="#W_Hill">W. Hill</placeName>. All the <rs type="animal" ref="#greyhounds">coursers</rs> were in the valley below, looking up to
+                    the hill side as on a moving picture. I suppose she turned the <rs type="animal" ref="#hare">hare</rs> twenty times on a piece of greensward not much bigger than an acre, and as steep
+                    as the roof of a house. It was an old <rs type="animal" ref="#hare">hare</rs>, a
+                    famous <rs type="animal" ref="#hare">hare</rs>, one that had baffled half the
+                        <rs type="animal" ref="#dog">dogs</rs> in the county; but she killed him; and
+                    then, though almost as large as herself, took it up in her mouth, brought it to
+                        her<pb n="53"/> master, and laid it down at his feet. Oh how pleased he was!
+                    and what a pleasure it was to see his triumph! He did not always find <placeName ref="#W_Hill">W. Hill</placeName> so fortunate. It is a high steep hill, of
+                    a conical shape, encircled by a mountain road winding up to the summit like a
+                    cork-screw,—a deep road dug out of the chalk, and fenced by high mounds on
+                    either side. The <rs type="animal" ref="#hare">hares</rs> always make for this
+                    hollow way, as it is called, because it is too wide for a leap, and the <rs type="animal" ref="#dog">dogs</rs> lose much time in mounting and descending
+                    the sharp acclivities. Very eager <rs type="animal" ref="#dog">dogs</rs> will
+                    sometimes dare the leap, and two of <rs type="person" ref="#Great_Farmhouse_farmer_OV">our good friend</rs>’s favourite <rs type="animal" ref="#greyhound">greyhounds</rs> perished in the attempt in
+                    two following years. They were found dead in the hollow way. After this he took
+                    a dislike to distant coursing meetings, and sported chiefly on his own beautiful
+                    farm.</p>
+                <p><rs type="person" ref="#Great_Farmhouse_wife_OV">His wife</rs> was like <rs type="person" ref="#Great_Farmhouse_farmer_OV">her husband</rs>, with a difference, as they say in heraldry. Like him in looks, only thinner and paler; like him in voice and phrase, only not so loud; like him in merriment and good-humour; like him in her talent of welcoming and making happy, and being kind; like him in cherishing an abundance of pets, and in getting through with marvellous facility an astounding quantity of business and pleasure. Perhaps the quality in which they resembled each other most completely, was the happy ease and serenity of behaviour, so seldom found amongst people of the mid<pb n="54"/>dle rank, who have usually a best manner and a worst, and whose best (that is the studied, the company manner) is so very much the worst. She was frankness itself; entirely free from prickly defiance, or bristling self-love. She never took offence or gave it; never thought of herself or of what others would think of her; had never been afflicted with the besetting sins of her station, a dread of the vulgar, or an aspiration after the genteel. Those <quote>“words of fear”</quote><!--SCW: Still unidentified--> had never disturbed her delightful heartiness.</p>
+                <p>Her pets were her <rs type="animal" ref="#cow">cows</rs>, her poultry, her <rs type="animal" ref="#bee">bees</rs>, and her flowers; chiefly her poultry, almost as numerous as the <rs type="animal" ref="#bee">bees</rs>, and as various as the flowers. The farmyard swarmed with <rs type="animal" ref="#peacock">peacocks</rs>, <rs type="animal" ref="#turkey">turkeys</rs>, <rs type="animal" ref="#geese">geese</rs>, <rs type="animal" ref="#duck">tame and wild-ducks</rs>, <rs type="animal" ref="#fowl">fowls</rs>, <rs type="animal" ref="#guinea_hen">guinea-hens</rs>, and <rs type="animal" ref="#pigeon">pigeons</rs>; besides a brood or two of favourite <rs type="animal" ref="#bantam">bantams</rs> in the green court before the door, with a little ridiculous strutter of a <rs type="animal" ref="#rooster">cock</rs> at their head, who imitated the magnificent demeanour of the great <rs type="animal" ref="#turkey">Tom</rs> of the barn-yard, just as <rs type="animal" ref="#turkey">Tom</rs> in his turn copied the fierce bearing of that warlike and terrible biped the <rs type="animal" ref="#turkey">he-turkey</rs>. I am the least in the world afraid of a <rs type="animal" ref="#turkey">turkey-cock</rs>, and used to steer clear of the turkery as often as I could. Commend me to the peaceable vanity of that jewel of a bird the <rs type="animal" ref="#peacock">peacock</rs>, sweeping his gorgeous tail along the grass, or dropping it gracefully from some low-boughed tree, whilst he turns round his crested head with the air of a birth-day<pb n="55"/> belle, to see who admires him. What a glorious creature it is! How thoroughly content with himself and with all the world!</p>
+                <p>Next to her <rs type="animal" ref="#chicken">poultry</rs> our good <rs type="person" ref="#Great_Farmhouse_wife_OV">farmer’s wife</rs> loved her flower-garden; and indeed it was of the very first water, the only thing about the place that was fine. She was a real genuine florist; valued <rs type="plant" ref="#pink">pinks</rs>, <rs type="plant" ref="#tulip">tulips</rs>, and <rs type="plant" ref="#auricula">auriculas</rs>, for certain qualities of shape and colour, with which beauty has nothing to do; preferred black <rs type="plant" ref="#ranunculuses">ranunculuses</rs>, and gave into all those obliquities of a triple-refined taste by which the professed florist contrives to keep pace with the vagaries of the Bibliomaniac. Of all odd fashions, that of dark, gloomy, dingy flowers, appears to me the oddest. Your true <emph>connoisseur</emph> now, shall prefer a deep puce <rs type="plant" ref="#hollyhock">hollyhock</rs>, to the gay pink blossoms which cluster round that splendid plant like a pyramid of <rs type="plant" ref="#rose">roses</rs>. So did she. The nomenclature of her garden was more distressing still. One is never thoroughly sociable with flowers till they are naturalized as it were, christened, provided with decent, homely, well-wearing English names. Now her plants had all sorts of heathenish appellations, which,—no offence to her learning,—always sounded wrong. I liked the <rs type="animal" ref="#bee">bees</rs>’ garden best; the plot of ground immediately round their hives, filled with common flowers for their use, and literally <quote>“redolent of sweets.”</quote><!--SCW: Many quotes like this, arrrgh.--> <rs type="animal" ref="#bee">Bees</rs> are insects of great taste in every way, and seem often to se-<pb n="56"/>lect for beauty as much as for flavour. They have a better eye for colour than the florist. The <rs type="animal" ref="#butterfly">butterfly</rs> is also <emph>dilettante</emph>. Rover though he be, he generally perfers the blossoms that become him best. What a pretty picture it is, in a sunshiny autumn day, to see a bright spotted <rs type="animal" ref="#butterfly">butterfly</rs>, made up of gold and purple and splendid brown, swinging on the rich flower of the <rs type="flower" ref="#China_Aster">china aster</rs>!</p>
+                <p>To come back to our farm. Within doors every thing went as well as without. There were no fine misses sitting before the piano, and mixing the alloy of their new-fangled tinsel with the old sterling metal; nothing but an <rs type="person" ref="#Great_Farmhouse_son_OV">only son</rs> excellently brought up, a fair slim youth, whose extraordinary and somewhat pensive elegance of mind and manner was thrown into fine relief by <rs type="person" ref="#Great_Farmhouse_farmer_OV">his father</rs>’s loud hilarity, and harmonised delightfully with the smiling kindness of <rs type="person" ref="#Great_Farmhouse_wife_OV">his mother</rs>. His <persName ref="#Spenser_Edmund">Spensers</persName> and <persName ref="#Thomson_James">Thomsons</persName>, too, looked well amongst the <rs type="plant" ref="#hyacinth">hyacinths</rs> and <rs type="plant" ref="#geranium">geraniums</rs> that filled the windows of the little snug room in which they usually sate; a sort of after-thought, built at an angle from the house, and looking into the farm-yard. It was closely packed with favourite arm-chairs, favourite sofas, favourite tables, and a sideboard decorated with the prize-cups and collars of the greyhounds, and generally loaded with substantial work-baskets, jars of flowers, great pyramids of home-made cakes, and sparkling bottles of goose-<pb n="57"/>berry-wine, famous all over the country. The walls were covered with portraits of half a dozen <rs type="animal" ref="#greyhound">greyhounds</rs>, a brace of <rs type="animal" ref="#spaniel">spaniels</rs>, as large as life, an old <rs type="animal" ref="#horse">pony</rs>, and the <rs type="person" ref="#Great_Farmhouse_farmer_OV #Great_Farmhouse_wife_OV">master and mistress of the house</rs> in half-length. She as unlike as possible, prim, mincing, delicate, in lace and satin; he so staringly and ridiculously like, that when the picture fixed its good-humoured eyes upon you as you entered the room, you were almost tempted to say—How d’ye do?—Alas! the portraits are now gone, and the originals. Death and distance have despoiled that pleasant home. The garden has lost its <rs type="person" ref="#Great_Farmhouse_wife_OV">smiling mistress</rs>; the <rs type="animal" ref="#greyhound">greyhounds</rs> their <rs type="person" ref="#Great_Farmhouse_farmer_OV">kind master</rs>; and new people, new manners, and new cares, have taken possession of the old abode of peace and plenty—the great farm-house.<pb n="58"/></p>
+        </div>
+        </body>
+        <back>
+            <div> 
+                <list type="plants">
+                    <item xml:id="geranium"><!--scw: check this-->
+                        <name>geranium</name>
+                        <rs type="genus">geranium</rs>
+                        <rs type="species">perennial herb</rs>
+                        <rs type="family">geraniaceae</rs>
+                        <note resp="#tfb"> This flower is from the geranium genus and the perrenial herb species. It is also called cranesbill because the genus word is greek for crane. Native mostly to subtropical Africa. It grows most commonly in the Mediterranean.</note></item>
+                        
+                        <item xml:id="auricula">
+                            <name>auricula</name>
+                            <rs type="genus">primula</rs>
+                            <rs type="species">p. auricula</rs>
+                            <rs type="family">primulaceae</rs>
+                            <note resp="#tfb"> This flower is commonly called primula auricula, but is often known also as mountain cowslip, auricula, or bear's ear. It grows on rocks in mountain rages particularly in central Europe.</note></item>
+                            
+                            <item xml:id="hollyhock">
+                                <name>hollyhock</name>
+                                <rs type="genus">alcea</rs>
+                                <rs type="species">malvaceae</rs>
+                                <rs type="family">malvaceae</rs>
+                                <note resp="#tfb"> This flower is commonly called alcea, but is often known as hollyhock. It is native to Asia and Europe.</note></item>
+                       
+                                <item xml:id="ranunculus">
+                                    <name>ranunculus</name>
+                                    <rs type="genus">ranunculu</rs>
+                                    <rs type="species">ranunculaceae</rs>
+                                    <rs type="family">Ranunculaceae</rs>
+                                    <note resp="#tfb"> This flower is commonly a genus of about 600 plants includings buttercups, spearworts, and water crowfoots.</note></item>
+                            
+                            <item xml:id="tulip">
+                                <name>tulip</name>
+                                <rs type="genus">tulipa</rs>
+                                <rs type="species">perennial</rs>
+                                <rs type="family">liliaceae</rs>
+                                <note resp="#tfb"> This flower is from the tulipa genus and the perrenial species. It grows most commonly in the Mediterranean, but grows in gardens and in potted plants.</note></item>
+                            
+                            <item xml:id="elm">
+                                <name ref="#elm">elm</name>
+                                <rs type="genus">Ulmus</rs>
+                                <rs type="species"/>
+                                <rs type="family">Ulmaceae</rs>
+                                <note resp="#tfb">The elm is appears frequently in literature, with its first presence taking place in the Iliad. It is also in the Aeneid, as the Stygian Elm. Virgil refers to a Roman superstition that elms were trees of ill-omen because their fruit seemed to have no value. Two elm-motifs have risen from classical literature: the 'Paradisal elm' motif, representing pastoral idylls, and the 'Elm and Death' motif. Many references to elm from the Renaissance onwards fit one of these two categories.</note></item>
+                    <item xml:id="pink"/>
+                    
+                    
+                    <item xml:id="rose"/>
+                    
+                    <item xml:id="hyacinth"/>
+                
+                </list>
+                        <list type="animals"><!--SCW: We'll need to decide which of these is relevant-->
+                            <item xml:id="horse">
+                                <name ref="#horse">horse</name>
+                            </item>
+                            
+                            <item xml:id="Arabian_horse">
+                                <name>Arabian horse</name>
+                            </item>
+                            
+                            <item xml:id="sheep">
+                                <name ref="#sheep">sheep</name></item>
+                            
+                            <item xml:id="cow">
+                                <name ref="#cow">cow</name></item>
+                            
+                            <item xml:id="butterfly">
+                                <name ref="#butterfly">butterfly</name>
+                            </item>
+                            <item xml:id="bee">
+                                <name ref="#bee">bee</name></item>
+                            
+                            <item xml:id="pig">
+                                <name ref="#pig">pig</name>
+                            </item>
+                            
+                            <item xml:id="dog">
+                                <name ref="#dog">dog</name>
+                            </item>
+                            
+                            <item xml:id="ox">
+                                <name ref="#ox">oxen</name>
+                            </item>
+                            
+                            <item xml:id="greyhound">
+                                <name ref="#greyhound">greyhound</name>
+                            </item>
+                            
+                            <item xml:id="goat">
+                                <name ref="#goat">goat</name>
+                            </item>
+                            
+                            <item xml:id="guinea_hen">
+                                <name ref="#guinea_hen">guinea hen</name>
+                            </item>
+                            
+                            <item xml:id="pony">
+                                <name ref="#pony">pony</name></item>
+                            <item xml:id="peacock">
+                                <name ref="#peacock">peacock</name>
+                            </item>
+                            
+                            <item xml:id="turkey">
+                                <name ref="#turkey">turkey</name>
+                            </item>
+                            
+                            <item xml:id="geese">
+                                <name ref="#geese">geese</name>
+                            </item>
+                            
+                            <item xml:id="duck">
+                                <name ref="#duck">duck</name>
+                            </item>
+                            
+                            <item xml:id="fowl">
+                                <name ref="#fowl">fowl</name>
+                            </item>
+                            
+                            
+                            <item xml:id="pigeon">
+                                <name ref="#pigeon">pigeon</name>
+                            </item>
+                            
+                            <item xml:id="bantam">
+                                <name ref="#bantam">bantam</name>
+                            </item>
+                            
+                            <item xml:id="donkey">
+                                <name ref="#donkey">donkey</name>
+                            </item>
+                            
+                            <item xml:id="Hector_pet_OV">
+                                <name ref="#Hector_pet_OV">Hector</name>
+                                <note resp="#scw">An exquisite greyhound belonging to the farmer in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                            </item>
+                            <item xml:id="hare">
+                                <name ref="#hare">hare</name>
+                            </item>
+                            <item xml:id="Helen_pet_OV">
+                                <name ref="#Helen_pet_OV">Helen</name>
+                                <note resp="#scw">A greyhound featured in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                            </item>
+                           
+                            <item xml:id="rooster"><!--scw: check this-->
+                                <name ref="#rooster">cock</name>
+                            </item>
+                            
+                            <item xml:id="spaniel">
+                                <name ref="#spaniel">spaniel</name>
+                            </item>
+                                                          
+                        </list>  
+                    
+                    <listPerson>
+                    
+                    <person xml:id="Great_Farmhouse_farmer_OV">
+                        <persName>no name given</persName>
+                        <note resp="#scw">The farmer of this sketch is never named. However, letter
+                            evidence suggests that Mitford is recalling her friend Mr. Newell of
+                                <placeName ref="#Whitby_Hill">Whitby Hill farm</placeName>, who died
+                            in <date when="1816-10">October 1816</date>. After his death, Mitford
+                            was given one his greyhounds, Nell. (See Letter to Mary Webb, October
+                            28, 1816.)</note>
+                    </person>
+                        
+                        <person xml:id="Great_Farmhouse_wife_OV">
+                        <persName>no name given</persName>
+                        <note resp="#scw">This character is not named in the sketch. However, letter
+                            evidence suggests that Mitford is recalling her friends, the Newells of
+                                <placeName ref="#Whitby_Park">Whitby Park</placeName>. Mr. Newell
+                            died in <date when="1816-10">October 1816</date>, and the Mitfords
+                            remained in contact with his widow for some years afterwards, according
+                            to Mitford's Journal.</note>
+                    </person>
+                        
+                        <person xml:id="Newell_Mr">
+                            <persName>Mr. Newell
+                                <surname>Newell</surname>
+                                <forename>unidentified</forename>
+                            </persName>
+                            <note resp="#scw">Farmer friend of the Mitfords, likely the basis of the farmer recollected in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                        </person>
+                        
+                        <person xml:id="Newell_Mrs">
+                            <persName>Mrs. Newell
+                                <surname>Newell</surname>
+                                <forename>unidentified</forename>
+                            </persName>
+                            <note resp="#scw">Friend of the Mitfords who is, letter evidence suggests, likely the basis for the farmer's wife featured in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                        </person>
+                        
+                        <person xml:id="Great_Farmhouse_MP_OV">
+                        <!--scw: this person may not need an xml:id, and could just be identified in a note-->
+                        <persName>no name given</persName>
+                        <note resp="#scw">Member of Parliament mentioned in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>, whose estates
+                            are managed by <persName ref="#Great_Farmhouse_farmer_OV">the
+                                farmer</persName>. Given the timing of the narrator's recollections,
+                            and the fact that this sketch has origins in an <date when="1816">1816</date> letter, it is possible that the Member of Parliament
+                            referred to is Charles Shaw-Lefevre, who at that time was representing
+                            Reading.</note>
+                    </person>
+                        
+                        <person xml:id="Shaw_Lefevre_Charles"><!--scw: not finished-->
+                            <persName>
+                                <surname>Shaw</surname>
+                                <surname>Lefevre</surname>
+                                <forename>Charles</forename>
+                            </persName>
+                            <birth when="1750-09-20">September 20, 1750
+                                <placeName>Womerley, Yorkshire</placeName></birth>
+                            <death when="1823-04-27">April 27, 1823
+                            <placeName/></death>
+                            <note resp="#scw">Whig Member of Parliament who represented the borough
+                            of Reading for several years, fighting a number of contested elections.
+                            He was acquainted with the Mitford family, and they socialized in the
+                            early part of the nineteenth century. Mitford's nickname for him was
+                            Gog. He may be the <rs type="person" ref="#Great_Farmhouse_MP_OV">local
+                                Member of Parliament</rs> mentioned in <title ref="#Great_Farmhouse_OV">A Great Farmhouse,</title> whose estates
+                            are managed by <persName ref="#Great_Farmhouse_farmer_OV">the
+                                farmer</persName> .</note>
+                        </person>
+                        
+                        <person xml:id="Great_Farmhouse_son_OV">
+                        <persName>no name given</persName>
+                        <note resp="#scw">Son of the farming couple whom Mitford recollects with
+                            fondness in <title ref="#Great_Farmhouse_OV">A Great
+                            Farmhouse</title>.</note>
+                    </person>
+                </listPerson>
+                        
+                <listPlace>
+                    <place xml:id="proposed_new_ID3">
+                        <placeName><!--best-known name of the place--></placeName>
+                        <placeName><!--alternate place name--></placeName>
+                        <location><geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo></location>
+                    </place>
+                    
+                    <place xml:id="Whitby_Park"><!--scw: check if a place or a farm name. See notes on insolvency court claim, the Jurist, 1837-->
+                        <placeName>Whitby Park</placeName>
+                    <note resp="#scw">Location of Mr. and Mrs. Newell's farm in St. Giles parish, Berkshire, likely the model for the great farmhouse at M. in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>.</note>
+                    </place>
+              
+                    <place xml:id="M_farmhouse_OV">
+                        <placeName ref="#M_farmhouse">M. farmhouse</placeName>
+                        <note resp="#scw">The farmhouse whose inhabitants Mitford recalls in <title ref="#Great_Farmhouse">A Great Farmhouse</title>.</note>
+                    </place>
+                    
+                    <place xml:id="W_Hill_OV">
+                        <placeName ref="#W_Hill">W. Hill</placeName>
+                        <note resp="#scw">A steep, corkscrew-like hill described in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title> on which <persName ref="#Great_Farmhouse_farmer_OV">the farmer</persName>'s greyhound, <rs type="animal" ref="#Helen_pet_OV">Helen</rs> proudly kills an old hare.</note><!--scw: This place might be locatable-->
+                    </place>
+                    
+                    <place xml:id="M_OV">
+                        <placeName ref="#M_OV">M.</placeName>
+                        <note resp="#scw">Abbreviation used for the area in which <placeName ref="#M_farmhouse_OV">the great farmhouse</placeName> is located, from the sketch of the <title ref="#OV">Our Village</title> sketch of the same name. <!--scw: Since Mitford's friends, <persName ref="#Newell_Mr #Newell_Mrs">Mr. and Mrs. Newell</persName>, were likely the original inspirations for the farming couple in <title ref="#Great_Farmhouse_OV">A Great Farmhouse</title>, M. is located in St. Giles parish--></note><!--scw: I need to check this out more-->
+                    </place>
+                </listPlace>
+                
+       
+            </div>
+        </back>
+    </text>
+</TEI>

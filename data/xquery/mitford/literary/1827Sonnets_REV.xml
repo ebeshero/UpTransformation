@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>[Sonnets from Dramatic Scenes, Sketches, and Other Poems (1827)]</title>
+				<author>Mary Russell Mitford</author>
+				<editor>Lisa M. Wilson</editor>
+				<sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+					Project</orgName></sponsor>
+				<sponsor>University of Pittsburgh at Greensburg</sponsor>
+				<principal>Elisa Beshero-Bondar</principal>
+				<respStmt>
+					
+					<resp>Transcription, recording of variants, and TEI coding by </resp> <persName>Lisa M. Wilson and Sara Cantwell</persName>
+				</respStmt>
+				<respStmt>
+					<resp>Proofing and corrections by</resp>
+					<persName>????</persName>
+					<!--Proofreaders: add name and description of your proofing here.-->            
+					<!--LMW: last worked on in Sept. 2016. Need to check this version against most immediate previous version and version EBB worked on?? where?.-->
+					<!--LMW: beginning work again  2017-07 SLC, HSar, and SSC-->
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>First digital edition in TEI, date: 14 February 2016.</edition>
+			</editionStmt>
+			<publicationStmt>
+				<authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+				<pubPlace>Greensburg, PA, USA</pubPlace>
+				<date>2015</date>
+				<availability>
+					<licence>Distributed under a Creative Commons
+						Attribution-ShareAlike 3.0 Unported License</licence>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Digital Mitford: The Mary Russell Mitford Archive</title>
+			</seriesStmt>
+			<sourceDesc>
+				
+				<bibl>1827 versions of sonnets.</bibl>
+				<listWit>
+				
+					<witness xml:id="Sonnets1827">Sonnets in 1827 Dramatic Scenes, Sonnets, and Other Poems </witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>TEI P5 conformant: We are coding this to compare the 1827 edition of the sonnets in Dramatic Scenes, Sonnets, and Other Poems to other versions, using the witness encoding apparatus provided by the TEI. Page breaks recorded here are shown in each version. <!-- fix. Explain which version--></p>
+		</encodingDesc>
+	</teiHeader>
+<text>
+<front>
+		<titlePage>
+			<docTitle>
+				<titlePart type="main"><lb/>Dramatic Scenes,<lb/>SONNETS,<lb/>AND OTHER POEMS.</titlePart> 
+				
+			</docTitle>
+			<byline>by MARY RUSSELL MITFORD,
+				<lb/>AUTHOR OF FOSCARI, JULIAN, AND OUR VILLAGE.</byline>
+			
+			<docImprint>
+				<pubPlace>LONDON:</pubPlace>, <publisher>GEO. B. WHITTAKER</publisher>,
+				<placeName>AVE-MARIA LANE.</placeName>
+				<docDate>1827</docDate>
+			</docImprint>
+		</titlePage>
+	<div type="dedication">
+		<salute><app>
+			<rdg wit="#Sonnets1827">
+				<lb/>
+				<emph rend="smallcaps">TO</emph><lb/>
+				<emph rend="smallcaps">HER KIND AND EARLY FRIEND</emph><lb/>
+				<persName ref="#Chamberlayne_Wm">WILLIAM CHAMBERLAYNE</persName>, ESQ. M.P.,<lb/>
+					<emph rend="changefont">This Volume,</emph><lb/>
+			
+				<emph rend="smallcaps">IS RESPECTFULLY ENSCRIBED</emph><lb/>
+				<emph rend="smallcaps">BY</emph><lb/>
+				<emph rend="smallcaps">THE AUTHOR.</emph><lb/>	
+			</rdg>
+		</app></salute>
+	</div>
+</front>	
+		
+		<body>
+			
+				<!-- LMW: Need to research the original publication dates and locations (annuals? journals?) -->
+				
+							<div type="section" n="1">
+								<p><app>
+									<rdg wit="#Sonnets1827">
+										<pb xml:id="p293"/></rdg>
+								</app></p>
+								<p><lb/>I.
+									<lb/>WRITTEN IN A BLANK-PAPER BOOK GIVEN TO THE AUTHOR BY A FRIEND.</p> 
+							
+							<l><app><rdg wit="#Sonnets1827">My little book, as o'er thy page so white.</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">With half-closed eyes in idlest mood I lean,</rdg></app></l> 
+							<l><app><rdg wit="#Sonnets1827">Whose is the form that rises still between</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Thy page and me,--a vision of delight?</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Look on those eyes by the bright soul made bright;</rdg></app></l> 
+							<l><app><rdg wit="#Sonnets1827">Those curls, which who <persName ref="#Antinous">Antinous</persName>' bust hath seen</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Hath loved; that shape which might beseem a queen;</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">That blush of purity; that smile of light.</rdg></app></l> 
+							<l><app><rdg wit="#Sonnets1827">'Tis she! my little book dost thou not own</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Thy mistress? She it is, the only she!</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Dost thou not listen for the one sweet tone</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Of her unrivalled voice? Dost thou not see</rdg></app></l> 
+							<l><app><rdg wit="#Sonnets1827"><emph rend="italic">Her</emph>look of love, for whose dear sake alone,</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">My little book, thou art so dear to me?</rdg></app></l>
+							</div>
+				
+			<div type="section" n="2">
+				<p><app>
+					<rdg wit="#Sonnets1827">
+						<pb xml:id="p294"/></rdg>
+				</app></p>
+					
+				<p><lb/>II. 
+					<lb/>ON <persName ref="#Hofland_TC">MRS. HOFLAND</persName>'S<note resp="#slc">This appears to be a typographical error that should read "MR. HOFLAND's." The title refers to Thomas Hofland's painting. His spouse, Barbara Hofland, was a novelist who was a close friend of Mitford's.</note> <title ref="#Jerusalem_Crucifixion_TCH">PICTURE OF <placeName ref="#Jerusalem">JERUSALEM</placeName></title> AT THE CRUCIFIXION.<note resp="#lmw">This poem first appears in print in The Literary Gazette and Journal of Belles Lettres, Arts, Sciences, Part 1, 59 (7 March 1818): 155 in the column "Original Poetry." There, the poem is dated <date when="1818-02-24">24 February 1818</date>. This periodical also contains a review of Hofland's painting as exhibited at the British Institution on page 104. In La Belle Assemblee's review of the 1827 Dramatic Scences volumes, this poem was chosen for reprinting (5 (Jan. to June 1827): 246) in the review.</note>
+					<lb/>THE TIME OF THE CRUCIFIXION.</p>
+				
+				<l><app><rdg wit="#Sonnets1827"><placeName ref="#Jerusalem">Jerusalem</placeName>! and at the fatal hour!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">No need of dull and frivolous question here!</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">No need of human agents to make clear</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The most tremendous act of human power!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The distant cross; the rent and falling tower;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The opening graves, from which the dead uprear</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Their buried forms; the elemental fear</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Where horrid light and horrid darkness lower;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">All tell the holy tale: the mystery</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">And solace of our souls. Awe-struck we gaze</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">On that so mute yet eloquent history!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Awe-struck and sad at length our eyes we raise</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">To go;--yet oft return that scene to see</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Too full of the great theme to think of praise.</rdg></app></l>
+				<!-- SLC: Thanks LMW. Still can't seem to find this speciic painting, only vauge refrences to it being in an archive somewhere. LMW:  If you can locate it, write down which archive.-->
+			</div>
+			
+				<div type="section" n="3">
+					<p><app>
+						<rdg wit="#Sonnets1827">
+							<pb xml:id="p295"/></rdg>
+					</app></p>
+					<p><lb/>III.
+						<lb/>THE <name ref="#ForgetMeNot">FORGET-ME-NOT</name>.</p> 
+					
+				<l><app><rdg wit="#Sonnets1827">Blossom that lov'st on shadowy banks to lie,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Gemming the deep rank grass with flowers so blue,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">That the pure turquoise matched with their rich hue</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Pales, fades, and dims; so exquisite a dye,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">That scarce the brightness of the Autumn sky,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Which sleeps upon the bosom of the stream,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">On whose fringed margent thy star-flowerets gleam</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">In its clear azure with thy tints may vie;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Shade-loving flower, I love thee! not alone</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">That thou dost haunt the greenest coolest spot,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">For ever, by the tufted <name ref="#alder">alder</name> thrown,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Or arching <name ref="#hazel">hazel</name>, or vine mantled cot,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">But that thy very name hath a sweet tone</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of parting tenderness--Forget me not!</rdg></app></l>
+			</div>
+			
+			<div type="section" n="4">
+				<p><app>
+					<rdg wit="#Sonnets1827">
+						<pb xml:id="p296"/></rdg>
+				</app></p>
+				
+				<p><lb/>IV. TO <persName ref="#Richardson_H">MR. HENRY RICHARDSON</persName>,
+					<lb/>ON HIS PERFORMANCE OF <persName ref="#Admetus_char">ADMETUS</persName> IN THE <title ref="#Alcestis_play">ALCESTIS</title> OF <persName ref="#Euripides">EURIPIDES</persName>, 
+					<lb/>AS REPRESENTED IN THE ORIGINAL GREEK AT <placeName ref="#Reading_School">READING SCHOOL</placeName>.
+					<lb/><date when="1824-10"><emph rend="italics">October</emph>, 1824</date>.</p>
+			
+				<l><app><rdg wit="#Sonnets1827">For us, on whose sealed ear the classic strain</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of <placeName ref="#Athens">Athens</placeName>' tenderest <rs type="person" ref="#Euripides">bard</rs>would idly fall</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">As instrumental music, or the call</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of wordless nightingales, for us again</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">I thank thee, wondrous <rs type="person" ref="#Richardson_H">boy</rs>! that not in vain</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The scene hath overpast which held in thrall</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827"><persName ref="#Milton">Milton</persName> * and <persName ref="#Wordsworth_Wm">Wordsworth</persName>, mightiest names of all</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Living or dead that haunt the <persName ref="#Muses">Muses</persName>' fane!</rdg></app></l>
+				<p><note resp="#MRM">*Milton's allusion to the <title ref="#Alcestis_play">ALCESTIS</title> in the <title>sonnet</title> on his wife is well known. <persName ref="#Wordsworth_Wm">Mr. Wordsworth</persName> in his <title ref="#Laodamia_WW">Laodamia</title> has the following exquisite lines on the same subject.
+					<lb/><q>--"Did not Hercules by force
+					<lb/>Wrest from the guardian monster of the tomb
+					<lb/><persName ref="#Alcestis">Alcestis</persName> a reanimated corse,
+						<lb/>Given back to dwell on earth in beauty's bloom?"</q></note><note resp="#lmw">Lines 79 to 82.</note></p>
+				
+				<p><app>
+					<rdg wit="#Sonnets1827">
+						<pb xml:id="p297"/></rdg>
+				</app></p>
+				<l><app><rdg wit="#Sonnets1827">Thy genius was a language; voice and look,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Gesture and stillness the deep mystery</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of a strong grief unveiled. As lightnings dart</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Their quivering brightness o’er the world, each nook</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Illumining and thrilling, so from thee</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Burst the storm-cloud of passion on the heart.</rdg></app></l>
+			</div>
+				
+			
+			<div type="section" n="5">
+				<p><app>
+					<rdg wit="#Sonnets1827">
+						<pb xml:id="p298"/></rdg>
+				</app></p>
+			
+				<p><lb/>V. 
+					<lb/>WRITTEN <date when="1824-07">JULY, 1824</date>. </p>
+			
+				<l><app><rdg wit="#Sonnets1827">How oft amid the heaped and bedded hay,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Under the <name ref="#oak">oak</name>'s broad shadow deep and strong,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Have we sate listening to the noonday song</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">(If song it were monotonously gay)</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Which crept along the field, the summer lay</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of the grasshopper. Summer is come in pride</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of fruit and flower, garlanded as a bride,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">And crowned with corn, and graced with length of day</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">But cold is come with her. We sit not now</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Listening that merry music of the earth</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Like <persName ref="#Ariel">Ariel</persName> "beneath the blossomed bough;"<note resp="#slc">See <title ref="#Tempest_play">The Tempest</title>: "Merrily, merrily shall I live now/ Under the blossom that hangs on the bough" (act five, scene one).</note></rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">But all for chillness round the social hearth</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">We cluster.--Hark!--a note of kindred mirth</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Echoes!--Oh, wintery cricket, welcome thou!</rdg></app></l> 
+			</div>
+			
+			<div><!-- SIX -->
+				<p><lb/>VI. TO MY <persName ref="#Russell_M">MOTHER</persName> SLEEPING.<!-- SLC: page 299--></p>
+				
+				<l><app><rdg wit="#Sonnets1827">Sleep on, my <persName ref="#Russell_M">mother</persName>! sweet and innocent dreams</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Attend thee, best and dearest! Dreams that gild</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Life's clouds like setting suns, with pleasure filled</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">And saintly joy, such as thy mind beseems,--</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Thy mind where never stormy passion gleams,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Where their soft nest the dove-like virtues build</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">And calmest thoughts, like <name ref="#violet">violet</name>s distilled,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Their fragrance mingle with bright wisdom's beams.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Sleep on, <persName ref="#Russell_M">my mother</persName>! not the <name>lily</name>'s bell</rdg></app></l> <!-- LMW:  Check date on P. Shelley's Ode to the WEst Wind to compare? --><!-- SLC:https://www.poets.org/poetsorg/poem/ode-west-wind_1792 - 1822--> 
+				<l><app><rdg wit="#Sonnets1827">That shake the dew-drop from her snowy cell</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">So gentle; not that dew-drop ere it flies</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">So pure. E'en slumber loves with thee to dwell</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Oh model most beloved of good and wise!</rdg></app></l> 
+			</div>
+			
+			<div><!-- SEVEN -->
+				<p><lb/>VII. ON A BEAUTIFUL WOMAN.<!-- SLC: page 300--></p>
+				
+				<l><app><rdg wit="#Sonnets1827">Look where she sits in languid loveliness,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Her feet upgathered, and her turban'd brow</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Bent o'er her hand, her robe in ample flow</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Disparted! Look in attitude and dress</rdg></app></l><!-- LMW:  Check text. Disparted or Disported? SLC: Disported-->
+				<l><app><rdg wit="#Sonnets1827">She sits and seems an Eastern Sultaness!</rdg></app></l><!--LMW May need a note. Inspired by an engraving of exotisized eastern women in the giftbook annual? -->
+				<l><app><rdg wit="#Sonnets1827">And music is about her, and the glow</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of young fair faces, and sweet voices go</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Forth at her call, and all about her press.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">But no Sultana she! As in a book</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">In that fine form and lovely brow we trace</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Divinest purity, and the bright look</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of genius. Much is she in mind and face</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Like the fair blossom of some woodland nook</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The <name ref="#anemone">wind-flower</name>*,--delicate and full of grace.</rdg></app></l>
+				
+				<p><lb/><note resp="#MRM">*The <placeName ref="#Hampshire_county">Hampshire</placeName> name of the <name ref="#anemone">wood-anemone</name>.</note></p>
+				
+			</div>
+					
+				<div>
+					<p> <!-- EIGHT --><!-- SLC: page 301-->
+					<lb/>VIII.
+						<lb/>TO <persName ref="#Franklin_Eleanor">MISS PORDEN</persName>*,
+						<lb/>ON HER POEM OF <title ref="#Coeur_de_Lion_poem">COEUR DE LION</title>.</p>
+					<l><app><rdg wit="#Sonnets1827">Proudly thy sex may claim thee, young and fair</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">And lofty poetess! proudly may tell</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">How thou hast sung the arms invincible</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Of him <rs type="person" ref="#RichardI">the lion-hearted</rs>, in the snare</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Of <placeName>Austria</placeName>, as amid the sultry glare</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Of <placeName>Palestine</placeName>, triumphant; or the spell</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Of poor <persName>Maimonne</persName>; or the thoughts that swell</rdg></app></l><!--tlh: THIS DOES NOT FIT TIME FRAME: STILL LOOKING FOR REFRENcE INFO: * Maimonne: Faery Daughter of  Damriat (king of the legion of genii) “when the princess Badoura, in her sleep, was carried to the bed of prince Camaral “Maimoune” turned into  a flea and bit the prince’s neck to wake him./ “Arabian Nights”  found in “The Readers Handbook of Famous Names in Fiction, Allusions, References…(1910). By Ebenezer Cobham Brewer. LMW: We know MRM read Arabian Nights.  Check SI for which version. SLC: Arabian Nights does not appear to be in the SI -->
+					<l><app><rdg wit="#Sonnets1827">When suddenly the old remembered air</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Rings from the harp of <persName>Blondel</persName>; or the bright</rdg></app></l><!--TLH: The harp of Bondel: could refer to: Richard the Lion Heart’s quest, also, Blondel : “the welsh harper” a classic song about Richard II. English version of song by John Oxenford “David of the White Rock”-->
+					<l><app><rdg wit="#Sonnets1827">And gorgeous train of <placeName ref="#England">England</placeName>'s chivalry;</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Or, worthy of his kingly foe, the might</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Of paynim <persName>Saladin</persName>. Oh, proud of thee</rdg></app></l><!--TLH: *paynim - non-Christian, especially a muslim; *Saladin: reference to passages found in “The Works of English Poets From Chaucer to Cowper”…. By Samuel Johnson- Saladin was a Turkish warrior/king. * Saladin (1137 or 1138 – March 1193), known as Ṣalāḥ ad-Dīn Yūsuf ibn Ayyūb (صلاح الدين يوسف بن أيوب) in Arabicand Selahedînê Eyûbî (سەلاحەدینی ئەییووبی) in Kurdish, Sultan to Egypt and Syria. Born: 1138- Tikirt, Iraq- Died: 4,March, 1193 (55yo), Damascus, Syria-->
+					<l><app><rdg wit="#Sonnets1827">Is woman! proud of thy bold muse's flight!</rdg></app></l>
+					<l><app><rdg wit="#Sonnets1827">Proud of thy gentle spirit's purity.</rdg></app></l>
+					
+					<p><lb/>*<note resp="#MRM">My late dear and lamented friend <persName ref="#Franklin_Eleanor">Mrs. <choice><sic>Francklin</sic><reg>Franklin</reg></choice></persName>.</note></p>
+				</div>
+			
+			<div><!-- NINE -->
+				<p><lb/>IX. TO <persName ref="#Haydon">MR. HAYDON</persName>, ON A STUDY FROM NATURE.<!-- SLC: page 302--></p>
+				
+				<!--SLC:  This seems to be based on Mr. Haydon's painting, "Judgement of Solomon," and the review can be read @ https://books.google.com/books?id=KTMCAAAAQAAJ&--> <!--LMW:  Sara, "A study from nature" suggests that, if the poem is based somewhat on Haydon's Jerusalem, then perhaps it refers to a preliminary sketch ("from nature") done beforehand, and maybe based on a real person?  What evidence do we have? -->
+				
+				<l><app><rdg wit="#Sonnets1827">"Tears in the eyes and on the lips a sigh!"</rdg></app></l> <!-- LMW:  Identify this quotation. SLC: Went digging but no such luck finging this one yet. Recomend a database? SLC: UPDATE 2018: I think I found it but the line is backwards, "She look’d down to blush, and she look’d up to sigh,/ With a smile on her lips and a tear in her eye." From "Lochinvar" BY SIR WALTER SCOTT <persName ref="#Scott_Wal"> <title ref="#Marmion_WS">Marmion</title> 1771–1832-->
+				<l><app><rdg wit="#Sonnets1827"><persName ref="#Haydon">Haydon</persName>! the great, the beautiful, the bold,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Thy wisdom's king, thy mercy's God unfold,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">There art and genius blend in union high.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">But this is of the soul. The majesty</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of grief is here, grief cast in such a mould</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">As <persName>Niobe</persName> of yore. The tale is told</rdg></app></l> <!--SLC:  Greek mythological figure. Niobe boasted of her fourteen children, seven male and seven female (the Niobids), to Leto who only had two children, the twins Apollo and Artemis. This angered the goddess Artemis who killed all but one of Niobe's children. There are many artistic reditions of Niobe's greif over the loss of her children. (Wiki) --> <!-- LMW:  Sara, turn this into a persName xml:id for Niobe -->
+				<l><app><rdg wit="#Sonnets1827">All at a glance--A childless mother I!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The tale is told:--but who can e'er forget</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">That e'er hath seen that visage of despair!</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">With unaccustom'd tears our cheeks are wet;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Heavy our hearts with unaccounted care;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Upon our thoughts it presses like a debt;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">We close our eyes in vain--that face is there!</rdg></app></l>
+			
+		</div>
+			
+			<div><!-- TEN -->
+				<p><lb/>X. <placeName>ENGLEFIELD HOUSE</placeName>: THE SEAT OF <persName>R. BENYON DE BEAUVOIR, ESQ.</persName> NEAR <placeName ref="#Reading_city">READING</placeName>.<!-- SLC: page 303-->
+				<!-- AUSTIN:  R. Benyon Beauvoir esq. near Reading (1769-1854)  Landowner, philanthropist, high sheriff of Berkshire. Born as Westminster, changed name to Beauvoir. Owned many estates: Englefield, Mortimer, Ufton--><!-- LMW:  Make into an xml:id. -->
+				
+				<!-- AUSTIN: Englefield House: Beauvoir’s estate in Englefield, Berkshire.-->
+				<!-- LMW:  Make into an xml:id. --></p>
+			
+				<l><app><rdg wit="#Sonnets1827">There is a pride, as of an elder day</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">About thee, <placeName>Englefield</placeName>! Midway thy steep</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">And wood-crowned eminence, where round thee sweep</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Green flowery lawns, trees in the fresh array</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of summer, meadows with the close-piled hay</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Studded, blue waters that do seem to creep</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">All listlessly for heat, and cots that sleep</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">I' the sunshine. How thou tower'st above the gay</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">And lovely landscape, in the majesty</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of thy old beauty! Even those mansions bright,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">That pretty town, that gothic chapelry*</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">With front and pinnacle so rich and light,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Seem all as toys and costly pageantry</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Made but for thy proud halls and their delight.</rdg></app></l> 
+				
+				<p><lb/><note resp="#MRM">The <rs type="place">new Church at <placeName>Theale</placeName></rs>, a beautiful specimen of modern Gothic.</note></p>
+				<!-- AUSTIN: The Church at Theale: Consecrated in 1832; Modeled on Salisbury Cathedral; once sketched by John Constable-->
+				<!-- LMW: is this date correct? Poem published before that. Create xml:id for Church and town.-->
+			</div>
+						
+					<div>
+						<p> <!-- ELEVEN -->
+						<lb/>XI.
+							<lb/><date when="1819-01-01">NEW YEAR'S DAY. 1819.</date><!-- SLC: page 304-->
+							<lb/>TO <persName ref="#Dickinson_Mrs">MRS. DICKINSON</persName>.<!--this is Catherine Dickinson-not Emily. Use xml:id and probably does not need separate note.--></p>
+						<l><app><rdg wit="#Sonnets1827">Banquet and song, and dance and revelry!--</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Auspicious year born in so fair a light</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Of gaiety and beauty! happy night</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Sacred to social pleasure, and to thee</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Its dear dispenser, of festivity</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">The festive queen, the moving spirit bright</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Of music and the dance, of all delight</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">The gentle mistress, bountiful and free.</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Oh happy night! and oh succeeding day</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Far happier! when 'mid converse and repose</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827"><persName ref="#Handel">Handel</persName>'s sweet strains came sweetened, and the lay</rdg></app></l><!--tlh: Handel: George Frideric Handel: composer * Where e'er I walk* LMW:  See SI for identification of this song by Handel; there a reference in one of the letters to Mrs. D. singing Handel. -->
+						<l><app><rdg wit="#Sonnets1827">Divine of that <rs type="person" ref="#Dante">old Florentine</rs> arose,</rdg></app></l><!--tlh: “old Florentine”  pastry// Dante and Genius/ Ugolino All present in “The Devine Comedy”  LMW:  not the pastry. Probably a reference to Dante himself (ie, dante was born in Florence and is the old Florentine. Check SI for Ugolino.-->
+						<l><app><rdg wit="#Sonnets1827"><persName ref="#Dante">Dante</persName>, and <persName>Genius</persName> flung his torch-like ray</rdg></app></l><!--LMW I think we may want to tag Genius here. We have a category for mythological "people." -->
+						<l><app><rdg wit="#Sonnets1827">O'er the dark tale of <persName>Ugolino</persName>'s woes.</rdg></app></l>
+					</div>
+		
+			
+			<div><!-- TWELVE -->
+				<p><lb/>XII. ON TWO OF <persName ref="#Hofland_TC">MR. HOFLAND</persName>'S LANDSCAPES.<!-- SLC: page 305--><!-- SLC: No titles availible for these two artworks.--> <!-- LMW: Sara, write a note that says as yet unidentified; more research needed. Tag Hofland with existing xml:id.--></p>
+				
+				<l><app><rdg wit="#Sonnets1827">A mighty power is in that roaring main</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Broken into huge and foamy waves, which knock</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Against yon mass of battlemented rock</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Dark with storm-laden cloud, and wind-tost rain.</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">A lovely power is in that sunny plain</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Where in their beauty the clear waters sleep,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Fringed in by tender grass, or idly creep</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Where the close tufted banks their course restrain.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Oh Painter of the elements! to thee</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Alike the gentle or tempestuous hour:</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The throes and heavings of the wintery sea,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Whilst earth, and sky, and storm, and darkness, lour;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Or the sweet sunshine brooding peacefully</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">O'er wandering rivulet and summer bower.</rdg></app></l>
+				
+			</div>
+						
+			<div>			
+			<p> <!-- THIRTEEN -->
+					<lb/>XIII.
+				<lb/>ON HEARING <persName ref="#Talfourd_Thos">MR. TALFOURD</persName> PLEAD IN THE <placeName>ASSIZE-
+					<lb/>HALL</placeName> AT <placeName>READING</placeName>, ON HIS FIRST CIRCUIT,
+				<lb/><date when="1821-03">March 1821</date>.<!-- SLC: page 306--></p>
+					
+				<l><app><rdg wit="#Sonnets1827">Wherefore this stir? 'Tis but a common cause</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of Cottage plunder: yet in every eye</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Sits expectation;—murmuring whispers fly</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Along the crowded court;—and then a pause;--</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">And then a clear crisp voice invokes the laws,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">With such a full and rapid mastery</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of sound and sense, such nice propriety,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Such pure and perfect taste, that scarce the applause</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Can be to low triumphant words chained down</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Or more triumphant smiles.  Yes, this is he,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The young and eloquent spirit whose renown</rdg></app></l>							                      			
+				<l><app><rdg wit="#Sonnets1827">Makes proud <rs type="place" ref="#Reading_city">his birth-place</rs>! a high destiny</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Is his;  to climb to honour's palmy crown</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">By the strait path of truth and honesty.</rdg></app></l>
+<!--TLH: *Find: who the “Honours””judge” was in Reading/England 1821/ Talford: Thomas Noon Talford: Friend of  Mitford. LMW:  Tracy, I don't know whether you have other notes, but the notes for this poem appeared to be unfinished. These are just the notes on what to research that I gave you in class. -->
+					</div>
+			
+			<div><!-- FOURTEEN -->
+				<p><lb/>XIV.  THE FISHING-SEAT, WHITEKNIGHTS.<!-- SLC: page 307--></p><!--AUSTIN:  WhiteKnights: Medieval Manor of Early St. Nicholas. Purchased by the Englefields in the 1600’s. Home of the University of Reading. The Lake and Grotto still exist--><!-- LMW: use existing xml:id, add to? Research date of this poem. Does it coincide with the Hofland's book on Whiteknights? Is there an engraving of the Fishing Seat? I think there might be.--><p/>
+				
+				<l><app><rdg wit="#Sonnets1827">There is a sweet according harmony</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">In this fair scene: this quaintly fluted bower,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">These sloping banks with tree and shrub and flower</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Bedecked, and these pure waters, where the sky</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">In its deep blueness shines so peacefully;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Shines all unbroken, save with sudden light</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">When some proud swan majestically bright</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Flashes her snowy beauty on the eye;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Shines all unbroken, save with sudden shade</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">When from the delicate birch a dewy tear</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The west-wind brushes. Even the bee's blithe trade,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The lark's clear carols, sound too loudly here;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">A spot it is for far-off music made,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Stillness and rest--a smaller Windermere.</rdg></app></l><!-- AUSTIN: Windermere:  Largest natural lake in England--><!-- LMW: create xml:id. In the Lake district; Wordsworth wrote about it, as did other Lake poets. --><!-- SLC: there apears to be another line in the Hathi Trust PDF I am working with that simply says "x 2"--><!-- LMW:  Sara, this might be a printer's mark, or it might be a hathitrust transcription error.  ALWAYS heck against the scan of the original printed text. --></div>
+					
+					<div>
+						<p> <!-- FIFTEEN -->
+						<lb/>XV.
+							<lb/>TO A FRIEND ON HER BIRTH-DAY.<!-- SLC: page 308-->
+								<!-- LMW:  This should be Jane Eleanor Webb, James Webb's daughter. This Jane Webb is too young. She has an SI entry now. IT IS NOT the science fiction author. TLH:  Jane Webb: Jane Wells Webb Loudon: (19 August 1807 – 13 July 1858) was an English author and early pioneer of science fiction. She wrote before the term was invented, and was discussed for a century as if she wrote Gothic fiction, or fantasy or horror. She also created the first popular gardening manuals, as opposed to specialist horticultural works, and contributed to the work of her husband, John Claudius Loudon * Jane is author of “ My Own Garden (1855)- wiki-->
+						</p>
+						
+						<l><app><rdg wit="#Sonnets1827">This is the day sacred to love and mirth</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">And tender wishes; this the favoured day</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">(Sweet superstition!) when the artless lay</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Is welcomed, and the token little worth,</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">And the fond vows, which live and have their birth</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">In the affectionate heart; a holiday</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">It is, for good and gentle, fair and gay,</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">My lovely <persName ref="#Webb_Jane">Jane</persName>, it gave thee to the earth.</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">And thou hast trodden life's path with a wise glee,</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Maid of the laughing eye! Were I the Queen</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Of that so famous land of Faëry</rdg></app></l><!--tlh: Queen of the Fairy: Titania William Shakespeare. LMW:  Do you think this is a specific reference or a general one? It's debatable.-->
+						<l><app><rdg wit="#Sonnets1827">Where quaintest spirits weave their spells unseen,</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">No better benison I'd pour on thee</rdg></app></l><!-- LMW:  I would suggest defining "benison." -->
+						<l><app><rdg wit="#Sonnets1827">Than to be happy still as thou hast been.</rdg></app></l>	
+					</div>
+			
+			<div><!-- SIXTEEN -->
+				<p><lb/>XVI. ON LEAVING A FAVOURITE PICTURE.<!-- SLC: page 309--><!--SLC: This is an actual painting left behind at Bertram House when Mary Russell Mitford was forced to leave her childhood home after her father spent through their considerable family fortune. LMW:  What is your specific evidence/source for this claim? you need to cite (and check whether it is reliable. Some of the biographers aren't.--></p>
+				
+				<l><app><rdg wit="#Sonnets1827">Young world of peace and loveliness farewell!</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Farewell to the clear lake; the mountains blue;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The grove, whose tufted paths our eyes pursue</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Delighted; the white cottage in the dell</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">By yon old church; the smoke from that small cell</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Amid the hills slow rising; and the hue</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of summer air, fresh, delicate, and true,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Breathing of light and life, the master spell!</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Work of the Poet's eye, the Painter's hand,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">How close to nature art thou, yet how free</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">From earthly stain! the beautiful, the bland,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The rose, the nightingale resemble thee;--</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Thou art most like the blissful Fairy-land</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of <persName ref="#Spenser_Edmund">Spenser</persName>, or Mozart's fine melody.</rdg></app></l> <!-- SLC: Edmund Spenser (1552/1553 – 13 January 1599) was an English poet best known for The Faerie Queene, an epic poem and fantastical allegory celebrating the Tudor dynasty and Elizabeth I. He is recognized as one of the premier craftsmen of nascent Modern English verse, and is often considered one of the greatest poets in the English language. (Wiki)--> <!-- LMW:  Spenser has an existing xml:id. Tag him. -->
+					<!-- SLC: Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791), baptised as Johannes Chrysostomus Wolfgangus Theophilus Mozart, was a prolific and influential composer of the Classical era --><!-- LMW:  Sara, check to see if Mozart has an existing xml:id.  If not, then write one. SLC: There is an entry but it only has his name. I'm also not sure how to tag the id if there are multiple "forenames" in the si xml id... -->
+				
+		</div>
+			
+			<div>
+					<p> <!-- SEVENTEEN -->
+					<lb/>XVII. WRITTEN IN A FRIEND'S ALBUM.<!-- SLC: page 310--><!-- LMW:  Did we identify which friend?  Needs a note to explain "album." --></p>
+			
+				<l><app><rdg wit="#Sonnets1827">Book of memorials fair! I cannot trace</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">On thy white page the quaintly pencilled bower;</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">I have no skill to bid the vivid flower</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Bloom 'mid thy leaves; nor with the immortal grace</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of proud Apollo, or the goddess face</rdg></app></l> <!--LMW:  Apollo needs xml:id-->
+				<l><app><rdg wit="#Sonnets1827">Of Hebe deck them. 'Las! my ruder power</rdg></app></l> <!--LMW:  Hebe needs xml:id-->
+				<l><app><rdg wit="#Sonnets1827">Can but bear record faint of many an hour</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Passed thou mute witness in thy dwelling-place.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Oh happiest hours, that ever me befall,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Rich in commingling mind, in fancy's play!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Oh happiest hours, whether in music's thrall,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Or converse sweet as music pass the day!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Oh happiest hours! and most beloved of all</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The cherished friend that speeds them on their way!</rdg></app></l>
+<!--COREY. (these need to be ids, not footnotes). Apollo: God of music and poetry, truth and prophecy, healing and plague, the sun and light. The son of Zeus and Leto, twin brother of Artemis, and one of the 12 Olympians. Hebe: Goddess of eternal youth and cupbearer to the gods. She is the daughter of Zeus and Hera and she was married off to Heracles when he became a god; her job of cupbearer was then given to Zeus’ lover Ganymede.-->
+					</div>
+					
+			<div><!-- EIGHTEEN -->
+				<p><lb/>XVIII.  ON VISITING <placeName>DONNINGTON CASTLE</placeName>,<!-- SLC: page 311-->
+					<lb/>Said to have been the latest residence of <persName ref="#Chaucer">Chaucer</persName>, and celebrated for its resistance to the <orgName>army of Parliament</orgName> during the civil wars.</p><!-- Create xml:id for D. Castle. Add tags for Chaucer, English civil wars. Here and below in poem. -->
+				
+				<p/>
+				<l><app><rdg wit="#Sonnets1827">Oh, for some gentle spirit to surround</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">With clinging <name>ivy</name>thy high-seated towers,</rdg></app></l> <!-- LMW:  create xml:id for ivy? SLC: Yes. -->
+				<l><app><rdg wit="#Sonnets1827">Fair <placeName>Donnington,</placeName> and wipe from <persName ref="#Chaucer">Chaucer</persName>'s bowers</rdg></app></l><!-- SLC: have an xml id for Chaucer but none for Donnington-->
+				<l><app><rdg wit="#Sonnets1827">The last rude touch of war! All sight, all sound</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of the old strife boon nature from the ground</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Hath banished. Here the trench no longer lours.</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">But, like a bosky dell, begirt with flowers</rdg></app></l> <!-- AUSTIN: What is a bosky dell? Bosky meaning adorned with trees or shrubs. Dell meaning a small hollow or valley-->
+				<l><app><rdg wit="#Sonnets1827">And garlanded with May, sinks dimpling round</rdg></app></l><!--AUSTIN: What does she mean when she uses "May"? It is the fifth month of the year when capitalized. In context it seems to mean branches or flowers relating to “May Day” which is the first day of the month of May and celebrated as a spring time festival, and a day honoring workers. --> <!-- LMW:  Mitford may also refer to Mayflowers. "Garlanded with May" suggests a flower. -->
+				<l><app><rdg wit="#Sonnets1827">A very spot for youthful lover's dreams</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">In the prime hour. Grisildis’ mournful lay,</rdg></app></l><!--AUSTIN:  Grisildis (Griselda). Name of a character from Chaucer’s “The Clerk’s Tale” She is the daughter of the poorest man in the village who is married to Walter, a Marquis from western Italy. She bares children and then is told by Walter to leave, which she does.--> <!-- LMW:  Griselda is also proverbial for a long-suffering, patient wife:  "patient Grizzle" or Griselda. -->
+				<l><app><rdg wit="#Sonnets1827">The "half-told tale*" would sound still sweeter here.</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Oh for some hand to hide with ivy spray</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">War's ravages, and chase the jarring themes</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Of King and State, Roundhead and Cavalier!</rdg></app></l>
+				
+				<p><lb/><note resp="#MRM">* "Or call up him who left half told/ The story of Cambuscan bold." --<persName ref="#Milton">Milton</persName> on <persName ref="#Chaucer">Chaucer</persName>.--<title>Il Pensoroso</title>.</note><!--AUSTIN:  Il Pensoroso poem by John Milton--><!-- LMW: create xml:id for poem. Milton already has one. CORRECT THE LINE BREAKS IF NEEDED.--></p>
+</div>
+					
+					<div>
+						<p><!-- NINETEEN -->
+						<lb/>XIX. WRITTEN AFTER A VISIT FROM SOME FRIENDS.<!-- SLC: page 313--></p>
+						
+						<l><app><rdg wit="#Sonnets1827">I could have lengthened out one fleeting hour</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Into an age; sitting at set of sun</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Under the long, low, open shed where won</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">The mellow evening light through leaf and flower;</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Playing the hostess in that summer bower</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">To such dear guests, whilst rose the antique song</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">By those young sister voices poured along</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">So wild, so pure, so clear, full of sweet power</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Ringing and vibrating. It was a lay</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">That sent a smile into the very heart;</rdg></app>That sent a smile into the very heart;</l>
+						<l><app><rdg wit="#Sonnets1827">As when the early lark shoots up in May</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">With his blithe matins, rarer than all art</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Save this. Oh happiest and most fleeting day.</rdg></app></l>
+						<l><app><rdg wit="#Sonnets1827">Why art thou gone so soon! Why must we part!</rdg></app></l>
+						</div>
+			
+			<div><!-- TWENTY -->
+				<p><lb/>XX.  ON AN INTENDED REMOVAL FROM A FAVOURITE RESIDENCE. <date when="1820-11">November, 1820.</date><!-- SLC: page 314--></p>
+				<!--AUSTIN: Which home is this? Mitford born in 1787 so she would have been thirty-three years old at the time. Would have been her birth home in Reading. Compelled to leave the home in 1820 due to the extravagance of her father, George. Subsequently moved to Three-Mile Cross--> <!-- LMW: Check the dates. -->
+			
+				<l><app><rdg wit="#Sonnets1827">Adieu beloved and lovely home! Adieu,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Thou pleasant mansion, and ye waters bright,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Ye lawns, ye aged <name>elms</name>s, ye shrubberies light</rdg></app></l> <!-- LMW:  tag elms. SLC: got it ;) -->
+				<l><app><rdg wit="#Sonnets1827">(My own cotemporary trees, that grew</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Even with my growth;) ye flowers of orient hue,</rdg></app></l><!--AUSTIN: "flowers of orient hue" is she referring to the color of the flower? Or its place of origin? The word orient is not typically used to describe hue. Possible she used it poetically to describe where the flowers came from. Hue is also an old town in Vietnam--> <!-- LMW:  In the Romantic period, this is a common descriptor. It means "dark." "Oriental hue" means dark-colored. Oriental here does not mean Asian but Moorish or Middle-Eastern. -->
+				<l><app><rdg wit="#Sonnets1827">A long farewell to all! Ere fair to sight</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">In summer-shine ye bloom with beauty dight,</rdg></app></l><!-- AUSTIN: dight” possible changing of the word delight for poetic reasons--><!-- LMW:  Check the OED. It's an archaic use, but it means something like bedecked, adorned.  Ie, adorned with beauty -->
+				<l><app><rdg wit="#Sonnets1827">Your halls we leave for scenes untried and new.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Oh shades endeared by memory's magic power</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">With strange reluctance from your paths I roam!</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">But home lives not in lawn, or tree, or flower,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Nor dwells tenacious in one only dome.</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Where smiling friends adorn the social hour,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Where they, the dearest are, there will be home.</rdg></app></l>
+	</div>
+						
+						<div>
+							<p><!-- TWENTY-ONE -->
+								<lb/>XXI. ON THE DEPARTURE OF A FRIEND TO LISBON FOR
+								<lb/>THE RECOVERY OF HER HEALTH. Nov. 1813.<!-- SLC: page 315--><!--LMW: FIND. mentioned in one of the 1819 letters: person who went to Lisbon with whoever this is, has died. --></p>
+							<l><app><rdg wit="#Sonnets1827">Thou freshest spirit, that on Lisbon's shore</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Didst shake health-breathing airs so cheerily</rdg></app></l> 
+							<l><app><rdg wit="#Sonnets1827">From thy soft wing, as oft the murmuring bee</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Scatters the full-blown rose--the cannon's roar</rdg></app></l><!--COREY: Peninsular War 1807-1814 was a military conflict between Napoleon and the allied powers of Spain, Britain, and Portugal for control of the Iberian Peninsula during the time of the Napoleonic Wars.--><!--LMW:  This note needs to be more specific. -->
+							<l><app><rdg wit="#Sonnets1827">Scared thee, mild spirit! and the flood of gore,</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Tinging the bosom of thy heaving sea,</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Defiled thy snowy feet, and thou didst flee</rdg></app></l>
+							<l>From ills thou could'st not cure and must deplore.</l>
+							<l><app><rdg wit="#Sonnets1827">War's demons are gone by. Thy lovely strand</rdg></app></l>
+							<!-- LMW:  May need note; strand here means beach, shore. -->
+							<l><app><rdg wit="#Sonnets1827">Is purified. Oh spirit thither bend</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Thine airy flight, and wave thy healing wand</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">O'er yon fair form where grace and virtue blend!</rdg></app></l>
+							<l><app><rdg wit="#Sonnets1827">Then proudly waft her to her native land--</rdg></app></l> 
+							<l><app><rdg wit="#Sonnets1827">Her, loved and blest, the mother, wife and friend.</rdg></app></l> 		
+						</div>
+			
+			<div> <!-- TWENTY TWO -->
+				<p><lb/>XXII. WRITTEN <date when="1825-10">OCTOBER, 1825</date>.<!-- SLC: page 316--></p>
+			
+				<l><app><rdg wit="#Sonnets1827">Within my little garden is a flower,</rdg></app></l> <!-- LMW:  refers to Michaelmas daisy. Tag. -->
+				<l><app><rdg wit="#Sonnets1827">A tuft of flowers, most like a sheaf of corn,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">The lilac blossomed daisy that is born</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">At Michaelmas, wrought by the gentle power</rdg></app></l><!-- KRISTEN:  Michaelmas: The feast of St Michael (St Michael and all Angels), one of the quarter days in England, Ireland, and Wales; the date of this, 29 September. (Oxford English Dictionary) "Michaelmas, n.1." OED Online. Oxford University Press 2015. Web. 1 November 2015. -->
+				<l><app><rdg wit="#Sonnets1827">Of this sweet Autumn into one bright shower</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Of bloomy beauty; Spring hath nought more fair,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Four sister butterflies inhabit there,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Gay gentle creatures! Round that odorous bower</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">They weave their dance of joy the livelong day,</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">Seeming to bless the sunshine; and at night</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Fold their enamelled wings as if to pray.</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">Home-loving pretty ones! would that I might</rdg></app></l>
+				<l><app><rdg wit="#Sonnets1827">For richer gifts as cheerful tribute pay,</rdg></app></l> 
+				<l><app><rdg wit="#Sonnets1827">So meet the rising dawn, so hail the parting ray!</rdg></app></l>
+				</div>
+					
+		</body>
+	<back>
+		<!--SLC: Mitford To Do List:
+		Problems by sonnet
+		1. N/A, example of code
+		2. fix the format of, and code the typo in, the title,xml id: Antinous, crucifixion
+		3. xml id: Margent- "An outline, edge, or border of something" (Oxford English Dictionary). "margent, n.2." OED Online. Oxford University Press 2015. Web. 1 November 2015.
+		4. Not sure how to code that large note at the bottom...
+		
+		1. Fix the header
+		2. Clean up the formatting alignment LMW:  we will need to code line indents.
+		3. Code typos [2]
+		4. XML id:
+			a. X Antinous [1], COREY: Antinous: Bithynian Greek youth who was a favorite or lover of the Roman emperor Hadrian. Hadrian deified him after his death as well as founding a cult that worshiped Antinous as a god or as a deified mortal. Antinous has since become associated with homosexuality in Western culture.
+			b. X alder [3], SLC: "common name of a genus of flowering plants (Alnus) belonging to the birch family Betulaceae. The genus comprises about 35[2] species of monoecious trees and shrubs, a few reaching a large size, distributed throughout the north temperate zone with a few species extending into Central America, as well as the northern and southern Andes." (Wikipedia)
+			c. X hazel [3], SLC: a genus of deciduous trees and large shrubs native to the temperate Northern Hemisphere. The genus is usually placed in the birch family Betulaceae,[2][3][4][5] though some botanists split the hazels (with the hornbeams and allied genera) into a separate family Corylaceae.[6][7] The fruit of the hazel is the hazelnut.
+		 ***Margent- Kirsten: "An outline, edge, or border of something" (Oxford English Dictionary). "margent, n.2." OED Online. Oxford University Press 2015. Web. 1 November 2015. [3]
+			d. Henry Richardson (actor) [4] SLC: have, but I'm not sure this is the right Richardson
+			e. X Admetus (character) [4]
+			f. Alcestis (play)*have (X character?) [4] 
+			g. X Niobe [9] *make as mythical person, "Greek mythological figure. Niobe boasted of her fourteen children, seven male and seven female (the Niobids), to Leto who only had two children, the twins Apollo and Artemis. This angered the goddess Artemis who killed all but one of Niobe's children. There are many artistic reditions of Niobe's greif over the loss of her children." (Wiki)
+			h. X ENGLEFIELD HOUSE [10]
+			i. X R. Benyon Beauvoir esq. [10]
+			j. X The Church at Theale [10]
+			k. X crucifixion [1]
+			X Michaelmas daisy [22]
+		5. Check for XML id: [LMW:  It probably took you longer to make this separate list than it would have to just look them up in the body of the text.]
+			a. X WILLIAM CHAMBERLAYNE
+			b. JERUSALEM AT THE TIME OF THE CRUCIFIXION (Hofland painting) [2] *have SLC: having trouble finding this one in the si.
+			d. Gemming [3] [note, not id]
+			e. X Hercules [4]
+			f. X oak [5]
+			g. Ariel [5] *have, but it's a stub?
+			h. PROSPERO [5] *have
+			i. X Maimonne [8]
+			j. Eleanor Anne Porden [8] *have
+			k. John Franklin [8] *have
+			l. X Austria [8]
+			m. X Palestine [8]
+			n. Mrs. Francklin [8] *have, same as miss porden
+			o. George Frideric Handel [11] *have
+		6. Research:
+			a. Find original publication dates and locations [all]
+			b. Art:
+				i. Hofland paintings
+			-->	
+		
+		<div type="places">
+			<listPlace sortKey="histPlaces">
+				<place xml:id="Athens">
+					<placeName>Athens</placeName>
+				</place>
+				<place xml:id="Englefield_House">
+					<placeName>Englefield House</placeName>
+					<note><!-- SLC: Englefield is named after the battle there between the Saxons and the Danes in AD 871. It is thought to mean "Englishman's battle field" or "Field of angels" becoming Englefield in time. The family who lived there were thought to have taken the name of the village and the Englefields were Sheriffs and Knights of the Shire throughout the Middle ages. (http://www.englefieldestate.co.uk/History.html)  --></note>
+				</place>
+				<place xml:id="Holy_Trinity_Church_Theale">
+					<placeName>The Holly Trinity Church at Theale</placeName>
+					<note><!-- SLC: The parish church is Anglican, and is dedicated to the Holy Trinity.[31] Designed by Edward Garbet, the church was consecrated on 21 August 1832 by the Bishop of Salisbury; it had taken about 15 years to build.[32] The benefactor was Dr Sheppard's wife Sophia, who donated £39,000 for the building of a church, rectory and school,[33] though other sources state that the donation was closer to £50,000.[34] Dr Sheppard had died in 1814 and wished a new church to be built to replace the earlier building. Sophia was supported in the founding of the church by her brother, Martin Routh. (Wiki) --></note>
+				</place>
+				<place xml:id="Theale_Town">
+					<placeName>Theale</placeName>
+					<note><!-- SLC: Theale is a large village in West Berkshire, England which forms a civil parish. (Wiki)--></note>
+				</place>
+				<place xml:id="Austria">
+					<placeName>Austria</placeName>
+					<note><!-- SLC: Austria is a German-speaking country in Central Europe, characterized by mountain villages, baroque architecture, Imperial history and rugged Alpine terrain. Vienna, its Danube River capital, is home to the Schönbrunn and Hofburg palaces. (Wiki)--></note>
+				</place>
+				<place xml:id="Palestine">
+					<placeName>Palestine</placeName>
+					<note><!-- SLC: The State of Palestine (Arabic: دولة فلسطين‎‎ Dawlat Filasṭīn), also known simply as Palestine, is a de jure sovereign state in the Middle East that is recognized by 136 UN members and since 2012 has a status of a non-member observer state in the United Nations – which amounts to a de facto, or implicit, recognition of statehood. The State of Palestine claims the West Bank (bordering Israel and Jordan) and Gaza Strip (bordering Israel and Egypt) with East Jerusalem as the designated capital. Most of the areas claimed by the State of Palestine have been occupied by Israel since 1967 in the aftermath of the Six-Day War. Its independence was declared on 15 November 1988 by the Palestine Liberation Organization (PLO) in Algiers as a government-in-exile. (Wiki)--></note>
+				</place>	
+			</listPlace>
+		</div>
+		
+		<div type="fictional_and_archetypal">
+			<listPerson sortKey="archPersons">
+				<person xml:id="Muses" sex="2">
+					<persName>The Muses</persName>
+					<note resp="#lmw">In Greek (and later Roman) mythology, the nine goddesses who live on Mount Helicon and inspire mortals to create. Although in some traditions there were only three Muses, by the Hellenistic period, the accepted number was nine and they were believed to be led by Apollo. By the neoclassical period, emblem books, sculpture, and painting had standardized the depictions of the goddesses: Calliope (epic poetry) carries a writing tablet and stylus or a lyre; Clio (history) carries a scroll or books; Euterpe (lyric poetry and song) carries a flute (the aulos); Erato (erotic/love poetry) carries a lyre or cithera or a crown of roses; Melpomene (tragedy) is seen with a tragic mask; Polyhymnia (sacred poetry) is depicted veiled or with a pensive expression; Terpsichore (choral song and dance) is depicted dancing or with a lyre; Thalia (comedy) is seen with a comic mask or shepherd's crook; and Urania (astronomy) carries compasses and a celestial globe.</note>
+				</person>
+				<person xml:id="Genius" sex="9">
+					<persName>Genius</persName>
+					<note><!-- SLC: In Roman religion, the genius (Latin: [ˈɡɛ.nɪ.ʊs]; plural geniī) is the individual instance of a general divine nature that is present in every individual person, place, or thing. Much like a guardian angel, the genius would follow each man from the hour of his birth until the day he died. For women it was the Juno spirit that would accompany each of them. The Greeks called their genii daemons, and believed in them long before the Romans. (Wiki)--></note>
+				</person>
+				<person xml:id="Alcestis" sex="2">
+					<persName>Alcestis</persName>
+					<note resp="#lmw">Alcestis is a princess in Greek mythology known for her loyalty to her husband and for returning from the dead. She married King Admetus after he achieves the feat of yoking a lion and a boar (or bear, in some versions) to a chariot. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of snakes. He escapes death when Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living. She is the titular character of a play by Euripides and was the subject of a painting by Angelica Kauffman.</note>
+				</person>
+				
+				<person xml:id="Admetus" sex="1">
+					<persName>Alcestis</persName>
+					<note resp="#lmw">Admetus is a king in Greek mythology. He wins the princess Alcestis by achieving the feat of yoking a lion and a boar (or bear, in some versions) to a chariot with the help of Apollo. After the wedding, Admetus forgets to make a sacrifice to Artemis and finds his bed full of snakes. He escapes death when his wife Alcestis volunteers to die in his place; Alcestis is then rescued from Hades with the help of Heracles and returns to the land of the living.</note>
+				</person>
+			</listPerson>
+			
+				<listPerson sortKey="fictPersons">
+					<person xml:id="Admetus_char">
+						<persName>Admetus</persName>
+						<note resp="#lmw">Character in <title ref="#Alcestis_play">Alcestis</title> by <persName ref="#Euripides">Euripides</persName>
+						</note>
+					</person>
+					<person xml:id="Niobe" sex="2">
+						<persName>Niobe</persName>
+						<note resp="#lmw"><!-- SLC: "Greek mythological figure. Niobe boasted of her fourteen children, seven male and seven female (the Niobids), to Leto who only had two children, the twins Apollo and Artemis. This angered the goddess Artemis who killed all but one of Niobe's children. There are many artistic reditions of Niobe's greif over the loss of her children." (Wiki) --></note>
+					</person>
+					<person xml:id="Hercules_Hero" sex="1">
+						<persName>Hercules</persName>
+						<note resp="#lmw"><!-- SLC: Hercules is the Roman name for the Greek divine hero Heracles, who was the son of Zeus (Roman equivalent Jupiter) and the mortal Alcmene. In classical mythology, Hercules is famous for his strength and for his numerous far-ranging adventures--></note>
+					</person>	
+					<person xml:id="Maimonne" sex="2">
+						<persName>Maimonne</persName>
+						<note resp="#lmw"><!--tlh: THIS DOES NOT FIT TIME FRAME: STILL LOOKING FOR REFRENcE INFO: * Maimonne: Faery Daughter of  Damriat (king of the legion of genii) “when the princess Badoura, in her sleep, was carried to the bed of prince Camaral-“Maimoune” turned into  a flea and bit the prince’s neck to wake him./ “Arabian Knights”  found in “The Readers Handbook of Famous Names in Fiction, Allusions, References…(1910). By Ebenezer Cobham Brewer. LMW: We know MRM read Arabian Nights.  Check SI for which version. --></note>
+					</person>
+				</listPerson>
+					</div>
+		
+			
+		<div type="publications">
+				<listBibl sortKey="literary">
+						<bibl xml:id="Prayer_Souls_Desire">
+							<title>Prayer is the Soul's Sincere Desire</title>
+								<author>
+									<persName ref="#Montgomery_J">James Montgomery</persName>
+								</author>
+								<pubPlace/>
+								<publisher/>
+								<date/>
+						</bibl>							
+					<bibl xml:id="Laodamis">
+						<title>Laodamia</title>
+						<author>
+							<persName ref="#Wordsworth_Wm">William Wordsworth</persName>
+						</author>
+						<pubPlace ref="#London_city">London</pubPlace>
+						<publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+						<date when="1815">1815</date>
+						<bibl corresp="#Poems_2vols_WW"/>
+					</bibl>
+								<bibl xml:id="Poems_2vols_WW">
+									<title>Poems by William Wordsworth: Including Lyrical Ballads, and the Miscellaneous Pieces of the Author. With Additional Poems, a New Preface, and a Supplementary Essay. in Two Volumes.</title>
+									<author>
+										<persName ref="#Wordsworth_Wm">William Wordsworth</persName>
+									</author>
+									<pubPlace ref="#London_city">London</pubPlace>
+									<publisher>Longman, Hurst, Rees, Orme, and Brown</publisher>
+									<date when="1815">1815</date>
+								</bibl>
+						</listBibl>
+					</div>
+				
+		
+		<div type="historical_people">
+		<listPerson sortKey="histPersons">
+			<person xml:id="Chamberlayne_Wm" sex="1">
+				<persName>
+					<surname>Chamberlayne</surname>
+					<forename>William</forename>
+					<roleName>Esq.</roleName>
+					<roleName>Member of Parliament</roleName>
+				</persName>
+				<birth notAfter="1760-12-04"/>
+				<death when="1829-10-10"/>
+				<note resp="#lmw">Heir to his father's property at Coley Park, Berkshire and at Weston Grove, Hampshire. He served as Member of Parliament for Christchurch from 31 May 1800 to 1802 and for Southampton from 7 March 1818 until his death on 10 October 1829; he campaigned on a radical reform platform.</note>
+				<note><ref target="http://www.historyofparliamentonline.org/volume/1790-1820/member/chamberlayne-william-1760-1829"/></note>
+			</person> 
+		
+			<person xml:id="Beauvoir_Richard" sex="1">
+				<persName>
+					<surname>Beauvoir</surname>
+					<forename>Richard</forename>
+					<forename>Benyon</forename>
+					<roleName>Esq.</roleName>
+					<note><!--AUSTIN:  R. Benyon Beauvoir esq. near Reading (1769-1854)  Landowner, philanthropist, high sheriff of Berkshire. Born as Westminster, changed name to Beauvoir. Owned many estates: Englefield, Mortimer, Ufton--></note>
+				</persName>
+			</person>
+			
+			<person xml:id="Antinous" sex="1">
+				<persName>
+					<surname>Antinous</surname>
+				</persName>
+					<birth when="0111-11-27">
+						<placeName>Claudiopolis, Bithynia, Roman Empire</placeName>
+					</birth>
+					<death notAfter="0130-10-30">
+						<placeName>Nile River, Egypt, Roman Empire</placeName>
+					</death>
+				<occupation>courtier</occupation>
+				<note resp="#lmw">Beautiful young man who was a court favorite of the Roman emperor Hadrian. Hadrian deified him after death and he was worshipped as a god (theos)as a hero (heros) in different sections of the Roman Empire. By the eighteenth century, his name had become proverbial for a beautiful young man, often with a connotation of a youth who was an object of male homosexual desire. </note>
+			</person>
+			<person xml:id="Montgomery_J" sex="1">
+				<persName>
+					<surname>Montgomery</surname>
+					<forename>James</forename>
+					<roleName/>
+					<roleName>Poet</roleName>
+				</persName>
+				<birth notAfter="1771-11-04"/>
+				<death when="1854-04-30"/>
+				<note resp="#lmw"/>
+				<note/>
+			</person>
+		</listPerson>
+		</div>
+		
+		<div type="plant">
+			<list sortKey="plants">
+				<item xml:id="ForgetMeNot">
+					<name>Forget-Me-Not</name>
+					<note resp="#lmw"><!-- SLC: Myosotis is a genus of flowering plants in the family Boraginaceae. In the northern hemisphere they are commonly called forget-me-nots or scorpion grasses. (Wikipedia) --></note>
+				</item>
+				<item xml:id="Michaelmas_Daisy">
+					<name>Michaelmas daisy</name>
+					<note><!-- SLC: Aster amellus, the European Michaelmas-daisy, is a perennial herbaceous plant of the genus Aster, belonging to the Asteraceae family. In the language of flowers, the Michaelmas-daisy symbolizes a farewell or a departure. (Wikipedia)--> </note>
+				</item>	
+				<item xml:id="alder">
+					<name>Alder</name>
+					<note resp="#lmw"><!-- SLC: "common name of a genus of flowering plants (Alnus) belonging to the birch family Betulaceae. The genus comprises about 35[2] species of monoecious trees and shrubs, a few reaching a large size, distributed throughout the north temperate zone with a few species extending into Central America, as well as the northern and southern Andes." (Wikipedia) --></note>
+				</item>
+				
+				<item xml:id="hazel">
+					<name>Hazel</name>
+					<note resp="#lmw"><!-- SLC: a genus of deciduous trees and large shrubs native to the temperate Northern Hemisphere. The genus is usually placed in the birch family Betulaceae,[2][3][4][5] though some botanists split the hazels (with the hornbeams and allied genera) into a separate family Corylaceae.(Wiki) --></note>
+				</item>
+				
+				<item xml:id="oak">
+					<name>oak</name>
+					<note resp="#lmw"><!-- SLC: An oak is a tree or shrub in the genus Quercus of the beech family, Fagaceae. There are approximately 600 extant species of oaks. The common name "oak" may also appear in the names of species in related genera, notably Lithocarpus. (Wikipedia) --></note>
+				</item>
+				<item xml:id="ivy">
+					<name>ivy</name>
+					<note resp="#lmw"><!-- SLC: Hedera, commonly called ivy (plural ivies), is a genus of 12–15 species of evergreen climbing or ground-creeping woody plants in the family Araliaceae, native to western, central and southern Europe, Macaronesia, northwestern Africa and across central-southern Asia east to Japan and Taiwan. (Wiki) --></note>
+				</item>
+			</list>
+		</div>
+		
+		<div type="art">
+			<list sortKey="art">
+				<item/>
+		<figure xml:id="Jerusalem_Crucifixion_TCH" type="painting" rend="oil">
+                  <bibl>
+                     <title>Jerusalem at the Time of the Crucifixion</title>
+                     <author>
+                        <persName ref="#Hofland_TC">Hofland</persName>
+                     </author>
+                     <date>Unknown, circa 1818</date>
+                  </bibl>
+                  <note resp="#lmw">A <persName ref="#Hofland_TC">Hofland</persName> painting exhibited at the British Institution in <date when="1819">1818</date>. Further exhibited in 1827 at the  British Society of Fine Artists. Unidentified.</note>
+               </figure>
+			</list>
+		</div>
+		<div type="events">
+			<listEvent sortKey="histEvents">
+				<event xml:id="Crucifixion" notAfter="0033">
+					<label>The Crucifixion</label>
+					<note><!-- SLC: The crucifixion of Jesus occurred in 1st century Judea, most probably between the years 30 and 33 AD. Jesus' crucifixion is described in the four canonical gospels, referred to in the New Testament epistles, attested to by other ancient sources, and is established as a historical event confirmed by non-Christian sources, although, among historians, there is no consensus on the precise details of what exactly occurred. According to the canonical gospels, Jesus, the Christ, was arrested, tried, and sentenced by Pontius Pilate to be scourged, and finally crucified by the Romans. (Wiki)--></note>
+				</event>
+			</listEvent>
+		</div>		
+		
+	</back>
+	</text>
+</TEI>

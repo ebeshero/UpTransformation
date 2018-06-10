@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Letter to <persName ref="#Haydon">B.R. Haydon</persName>, 1820 September
+               1</title><author ref="#MRM">Mary Russell Mitford</author><editor ref="#err">Elizabeth Raisanen</editor><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal>Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName ref="#err">Elizabeth Raisanen</persName></respStmt><respStmt><resp>Date last checked: <date/>. Proofing and corrections by: </resp><persName/></respStmt></titleStmt><editionStmt><edition>First digital edition in TEI, date: 12 October 2015. P5.</edition><respStmt><orgName>The Digital Mitford</orgName><resp>Photo files:<idno>1Sept1820BRHaydon1#.JPG, 1Sept1820BRHaydon2#.JPG, 1Sept1820BRHaydon3#.JPG, 1Sept1820BRHaydon4#.JPG, 1Sept1820BRHaydon5#.JPG, 1Sept1820BRHaydon6#.JPG</idno></resp></respStmt></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2015</date><availability><p>Reproduced by courtesy of the <placeName>The Reading Central
+                  Library</placeName>.</p><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence></availability></publicationStmt><seriesStmt><title>Digital Mitford Letters: The Mary Russell Mitford Archive</title></seriesStmt><sourceDesc><msDesc><msIdentifier><repository ref="#ReadingCL">The Reading Central Library</repository><collection><!-- err: Need to find which collection these letters are from! --></collection><idno>qB/TU/MIT</idno></msIdentifier><head>Letter from Mary Russell Mitford to B.R. Haydon, <date when="1820-09-01">1820
+                     September 1</date>.</head><physDesc><objectDesc><supportDesc><support><p>One quarto sheet of <material>paper</material> folded in half to form
+                              two octavo pages, which comprise pages 1-4 of the letter. The fifth
+                              page bears the end of the letter one side, and (after being folded
+                              into four panels) exposes the address on the other side.</p><p>Address leaf bearing the following
+                              postmarks:<!-- err: These descriptions should be checked carefully for clarity/accuracy by whomever proofreads this letter. Thanks! -->
+                              1) black elliptical Receiving House stamp<stamp><unclear unit="word" quantity="1" reason="illegible"><supplied resp="#err">Reading</supplied></unclear><lb/><unclear unit="word" quantity="1" reason="illegible"/><lb/><unclear unit="word" quantity="2" reason="illegible"/><lb/><unclear unit="word" quantity="1" reason="illegible"/></stamp> 2) Sepia-colored oval
+                              stamp that is split in two, appearing at opposite ends of the address
+                              leaf page (the seal was divided after the letter was opened). The top
+                              half of the stamp reads as follows: <stamp>10 o' Cl</stamp> The bottom
+                              half of the stamp is nearly illegible: <stamp><unclear unit="word" quantity="1" reason="illegible"/><lb/><unclear unit="word" quantity="2" reason="illegible"/></stamp></p></support><condition> </condition></supportDesc></objectDesc><sealDesc><p>Red wax seal.</p></sealDesc></physDesc></msDesc></sourceDesc></fileDesc><profileDesc><handNotes><handNote xml:id="pencil" medium="pencil">Someone, apparently other than Mitford
+               (perhaps cataloging the letters and describing them, or marking them up while
+               creating an earlier edition of Mtiford's letters), left grey pencil marks and
+               numbered her letters now in the Reading Central Library's collection. This letter is
+               numbered "15" in the top left of the first leaf, underneath the opening line, "To B.
+               R. Haydon Esqr." In what appears to be the same hand and the same pencil, the year
+               "1820" appears faintly at the bottom of the fifth page of the letter. The same color
+               pencil also appears as a vertical line in the lower-right margin of page 3 of the
+               letter, and continues as a vertical line in the left margin of page 4 that runs from
+               the top to the bottom of the page.</handNote><handNote xml:id="rc" medium="red_crayon">Red crayon or thick red pencil. Probably a
+               different hand from Mitford's that marks many of her letters, sometimes drawing
+               diagonal lines across pages, and sometimes writing wo rds overtop and perpendicularly
+               across Mitford's writing. On this letter, a red diagonal line is drawn from the top
+               left to the bottom right of pages 2, 3, 4, and 5 of the manuscript. On the first page
+               of the letter, there is a faint red line that is somewhat closer to vertical than
+               diagonal drawn from the middle-right of the page down and to the left to the bottom
+               of the page.</handNote></handNotes></profileDesc><encodingDesc><editorialDecl><p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p></editorialDecl></encodingDesc></teiHeader><text><body><div type="letter"><opener> To <persName ref="#Haydon">B.R. Haydon Esq<hi rend="superscript">r</hi></persName><add hand="#pencil">15</add><dateline><name type="place">Three Mile Cross</name><date when="1820-09-01">Sept<hi rend="superscript">r</hi> 1<hi rend="superscript">st</hi> 1820</date>. </dateline><salute>My dear Sir</salute></opener><p>You are a thousand times too kind in sending <persName ref="#Webb_Eliza">Ms.
+                  Webb</persName><!-- err: Is this Ms. (or Mrs.) Webb or Mr. Webb? My first instinct was that it was Mr. Webb, because she mentions "Miss Webb" later in the same letter, and it is most definitely "Miss." If it is "Mr. Webb" (or "Mrs. Webb"), we will need a new XML ID for this person, who is probably Miss Webb's parent. -->
+               another puppy--I had not heard of it till I got your letter, not having been at
+                  <placeName ref="#Wokingham_city">Wokingham</placeName> myself since I met my
+                  <persName ref="#Mitford_Geo">Father</persName> there on his return from <placeName ref="#London_city">London</placeName>, &amp; having unluckily been out when
+                  <persName>Miss Webb</persName> called on me last week. But I am sure our good
+               friend <!-- err: to whom is "my good friend" referring? Her father?  --> will feel
+               your kindness as gratefully as we do. The poor little puppy
+               <!-- err: Do we need to tag this dead puppy or give it an xml id? I don't know that it ever has a name. -->
+               was certainly dead--<persName ref="#Mitford_Geo">Papa</persName> saw it
+                  <unclear>quite</unclear> stiff in the bottom of the basket having waited himself
+               the coming in of the coach. It often happens--they are very delicate &amp; bear
+               travelling worse than any thing. I had half a mind not to tell you, for I was sure
+               you would be sorry--&amp; I am afraid I wrote with great <unclear><supplied resp="#err">impatience</supplied></unclear> for I wrote in such a hurry &amp;
+               the friend who was to take the <unclear><supplied resp="#err">hose</supplied></unclear> standing by me <unclear><supplied resp="#err">hat</supplied></unclear> in hand &amp; looking <pb n="2"/> as if he thought
+               every instant an hour. Pray forgive me if I seemed abrupt or ungrateful--you must
+               know I could not mean it. Our little lady
+               <!-- err: Is this another dog? Do we have enough info about her to give her an xml id? -->
+               is a perfect beauty--she is gone out to keep at a farmhouse--Do not forget to pick
+               out a pretty name for her--She must be of your naming--&amp; shall always be yours
+               whenever you want her I have no doubt of her being capital.--My dear <persName ref="#Haydon">Mr. Haydon</persName> your letter went to my very heart--It does one
+               harm to think of those cold proud selfish Patrons--as they call themselves--It
+               lessens one's faith in human nature. But the Picture
+               <!-- err: Do we know what work of art by Haydon that Mitford is referring to here? -->
+               will tell--it must--The same heartless vanity which prevents their co-operating in
+               your liberal <del type="strikethrough">&amp;</del>delicate &amp; unostentatious plan,
+               will induce one of them to possess himself of their glorious work of art--I am
+               persuaded of this. But it is heart-breaking to think that you in the meantime should
+               be exposed to these petty cares, &amp; harassed by doubt &amp; vexation--you who
+               ought to be lifted above all wordly care &amp; to live amongst the delightful <pb n="3"/> creations of your own genious. The only consolation is your elastic &amp;
+               buoyant spirit, which will bear you through all these trials to the prosperity you so
+               well deserve. Fame you have already--a better &amp; a purer fame than any living
+               man--&amp; competence will follow--I am sure of it--Riches you do not want--with such
+               reputation they are not wanted. In the meantime, my dear <rs type="person" ref="#Haydon">Sir</rs>, be careful of your invaluable health--&amp; your eyes,
+               your <said who="#Haydon">poor eyes</said> as you call them--to what complaint are
+               they liable? Who that looked at them could fancy them subject to any!--Never <choice><sic>apologise</sic><reg>apologize</reg></choice> to me for talking of yourself. It is a compliment of the highest kind--It
+               tells me that you confide in my sympathy. Be assured you may--except my own dear
+               family &amp; Dear <persName ref="#James_Miss">Miss James</persName> there is no one
+               whom I regard with such admiring &amp; respectful interest or of whose kindness I am
+               half so proud. </p><p>So you are not a <persName ref="#Queen_Caroline">Queen's</persName> Man! How glad I
+               am to hear it! You have no notion of the height to which this Queen fever <pb n="4"/>
+               has risen here. I am shocked &amp; disquieted at its terrible effect on conversation.
+               Why should people talk of such a subject? Why should they contaminate their minds by
+               looking for an instant at such trash to settle whether a woman, whom all the world
+               allows to be immodest, be more or less bad? There are no degrees of
+                     <unclear><supplied resp="#err">comparison in her</supplied></unclear> chastity
+               in my opinion--but all the ladies here (always excepting my own dear <persName ref="#Russell_M">Mother</persName>) call me prudish old maidish I
+                     <unclear><supplied resp="#err">much
+               amiable</supplied></unclear><!-- err: This is clearly not what it says here, but I just can't make heads or tails of it! -->
+               &amp; read &amp; talk on. Besides being jealous of the hitherto unstained purity of
+               the English female character, I have another cause of grievance in the abominable
+                     <unclear><supplied resp="#err">role</supplied></unclear> which my friends the
+               Reformers<!-- err: I think we need to identify these "Reformers" as a group, but I'm not certain who she is including in this group, or if we have an xml id for them. Since she mentions Sir Francis Burdett and Mr. Hobhouse in the next sentence, so these seem to be the Reformers that she is thinking of here. -->
+               have made of this bad woman. To rally the good cause by such an Ally! As to the
+                  <placeName ref="#Reading_city">Reading</placeName> address, am not at all
+                  astonished--<placeName ref="#Reading_city">Reading</placeName> is in a perpetual
+               state of effervescence--a bottle of ginger beer in hot weather--bouncing &amp; frothy
+               &amp; flying in every body's face--but that <persName ref="#Burdett_F">Sir Francis
+                  Burdett</persName> &amp; <persName ref="#Hobhouse_JC">Mr. Hobhouse</persName> should
+               lend themselves to such mischievous wickedness is really astounding.--Yes <pb n="5"/><persName ref="#Shakespeare">Shakespeare</persName> knew the Mob most thoroughly--Is
+               it not the most astonishing of all his astonishing qualities that with so deep an
+               insight into the weakness &amp; the wickedness of human nature he should yet have
+               regarded it with so intense &amp; indulgent a love? <quote corresp="#HenryV_play">There is some soul of goodness in things
+                  evil</quote><!-- err: Do I need to actually need to type quotation marks around the quoted passage as well (Mitford puts quotation marks in her letter), or is just having the quote tags enough? --><note resp="#err">Here, Mitford quotes a line from King Henry's opening monologue in Act
+                  IV, scene i of Shakespeare's Henry V.</note>might be his motto. </p><p>I am engaged in a job just now compared to which the water-pitcherings of the
+               <persName ref="#Danaides">Danaides</persName>
+               were hopeful. I am persuading <persName ref="#Mitford_Geo">Papa</persName> to be good
+               &amp; take care of himself &amp; keep quiet &amp; go to the sea &amp; get well. I
+               might as well talk to the wind. He has an unpleasant infection on his legs--I think
+               erysipelas <note resp="#err">Erysipelas is a bacterial infection. Symptoms include fever and raised red patches on the skin.</note>though he will not
+               allow it--for which all our medical friends advise the warm sea bath--&amp; he could
+               go to <placeName ref="#Southhampton_city">Southhampton</placeName> in a day--leave
+                  <persName ref="#Russell_M">Mama</persName> at <placeName ref="#Winchester_city">Winchester</placeName> where she has an engagement, &amp; I would stay &amp; keep
+               house here &amp; he might come back to me in a fortnight fresh &amp; well--&amp; he
+               will not go. Is not this very naughty? How he stays--walking ten miles a day &amp;
+                     <unclear><supplied resp="#err">getting to every house</supplied></unclear>. I
+               wonder what he would say if I were to behave so!---He desires his best &amp; kindest
+               remembrances to you nevertheless--&amp; so does <persName ref="#Russell_M">Mama</persName>--I am so glad that the <unclear><supplied resp="#err">coursing</supplied></unclear> season approaches--so are they. </p><p>God bless you, my dear <persName ref="#Haydon">Mr. Haydon</persName>-- </p><closer><lb/> Ever most sincerely your's <lb/><signed>M. R. Mitford.</signed><lb/><address><addrLine><persName ref="#Haydon">B. R. Haydon Esqre</persName></addrLine><addrLine>22<placeName ref="#Lisson_Grove">Lisson Grove</placeName></addrLine><addrLine><placeName ref="#Regents_Park">Regents Park</placeName></addrLine><addrLine><persName ref="#Monck_JB">J. B. Monck</persName><placeName ref="#London_city">London</placeName></addrLine></address></closer><postscript><p>How is <persName ref="#Keats">Mr. Keats</persName>? Is he gone to <placeName ref="#Lisbon_city">Lisbon</placeName> yet? I have not been able to procure <bibl><author><rs type="person" ref="#Keats">his</rs></author><rs type="title" ref="#LIEO_Poems">Poems</rs></bibl>. Perhaps when you come you will have the goodness to bring your copy with you.--Goodbye once more.</p></postscript></div></body><back><div type="places"><listPlace><place xml:id="Southhampton_city"><placeName>Southhampton</placeName><note resp="#err"><!-- err: info about Southhampton goes here! --></note></place></listPlace><listPlace><place xml:id="Wokingham_city"><placeName>Wokingham</placeName><note resp="#err">A town in southeastern England that is approximately 7 miles
+                     southeast of Reading. According to Vera Watson, Mitford drove Miss James into
+                     Wokingham sometime between 1812 and 1819 (119), and on 27 June 1820, Mitford
+                     and her father traveled to London by way of Wokingham (136).</note></place></listPlace><listPlace><place xml:id="Lisbon_city"><placeName>Lisbon</placeName><note resp="#err">The capital city of <placeName>Portugal</placeName>.</note></place></listPlace></div><div type="historical_people"><listPerson type="hist"><person xml:id="Hobhouse_JC" sex="1"><persName>John Cam Hobhouse</persName><persName><forename>John</forename><forename>Cam</forename><surname>Hobhouse</surname></persName><birth when="1786-06-27"><placeName>Redland</placeName></birth><death when="1869-06-03"><placeName ref="#London_city">Berkeley Square, London</placeName></death><occupation>politician</occupation><note type="bio" resp="#err">A friend and traveling companion of Lord Byron who contributed notes to the fourth canto of Childe Harold's Pilgrimage, John Cam Hobhouse was elected to the House of Commons in 1820 as a member of the Whig party. In 1851, he became the First Baron Broughton.</note></person></listPerson></div><div type="publications"><listBibl><bibl xml:id="LIEO_Poems"><title>Lamia, Isabella, The Eve of St. Agnes, and Other Poems</title><author><persName ref="#Keats"/></author><note resp="#err"><title>Lamia, Isabella, The Eve of St. Agnes, and Other Poems</title>, published in July 1820, was the last volume of Keats' poems to appear in print during his lifetime. Keats died from tuberculosis a little over half a year later, in February 1821.</note></bibl></listBibl></div><div type="mythical_people"><listPerson type="arch"><person xml:id="Danaides" sex="2"><persName>Danaides</persName><note resp="#err">According to Greek mythology, the Danaides were the daughters of Danaus who killed their husbands. As punishment, they were tasked with filling a tub with water using ewers with holes in them.</note></person></listPerson></div></back></text></TEI>

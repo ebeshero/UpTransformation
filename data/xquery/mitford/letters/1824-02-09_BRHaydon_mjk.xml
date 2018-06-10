@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  
+  <teiHeader>
+      <fileDesc>
+         <titleStmt><title xml:id="MRM1817"><!-- When I looked up the xmlid of the letter, the "notes" column lists the words "Monday night". On the letter, this is "Wednesday night". Is this an error in the spreadsheet, or does this record other information?-->
+               <!--LMW: we can double check with Greg!-->
+               Letter to <persName ref="#Haydon">B.R. Haydon, Esq.</persName>, date<date when="1824-02-09">February 9th, 1824</date></title> 
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#mjk">Melissa J. Klamer </editor> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+              <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <sponsor>Pittsburgh Supercomputing Center</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName ref="#mjk">Melissa J. Klamer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2018-01-15">2018-01-15</date>
+               Proofing and corrections by</resp>
+               <persName ref="#lmw">Lisa M. Wilson</persName><!-- In a comment tag after YOUR <persName> entry, indicate what you proofed and when. For example: LMW 2018-01-16:  Proofed body text against ms., correcting code.-->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2017-10-26">October 26, 2017</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: DSCN2551.jpg, DSCN2550.jpg, DSCN2549.jpg, DSCN2548.jpg, DSCN2547.jpg <idno/></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.</p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         
+         <sourceDesc>
+            <msDesc> 
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361549 ff. 481</idno> 
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to B. R. Haydon Esq., <date when="1824-02-09">February 9th, 1824</date>. 
+               </head> 
+              
+               <physDesc>
+               <objectDesc>
+                  <supportDesc>                   
+                     <support><p>Folio sheet of <material>paper</material>, with four surfaces photographed. Four pages (1 leaf), folded in half, folded again in thirds. The first three surfaces are written as pages of the letter; the fourth contains the address leaf.</p> 
+                        <p>Address leaf bearing the folowing postmarks: 
+                           1) A black mileage stamp, partially legible <stamp>Ct Surrey <unclear><gap reason="illegible" n="2" unit="chars"/></unclear></stamp>.<!--lmw: I think it might be something like Gt Surry St?--></p>
+                         <p>  2) A sepia-inked oval Delivery stamp, double lined rim reading <stamp><time>8*MORN*8</time><lb/><date>* FE * 8 *</date><lb/><date>1824</date> </stamp>  </p>
+                          <p> 3) A sepia-inked oval Delivery stamp, reading <stamp><time>10*F*Noon*10</time><lb/><date>* FE * 9 *</date><lb/><date>1824</date></stamp> </p>
+                           <p> A large 3 denoting the posting fee has been written in black ink by the postal service across the address leaf.</p>
+                     </support>
+                     <condition>
+                        <p>Sheet (pages three and four) torn on right edge of page three where wax seal was removed.</p> 
+                     </condition>
+               </supportDesc>
+               </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal, partial, adhered to the corner of pages three and four.</p> 
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of each of the first three leaves. There is no red crayon across the address text block.</handNote>
+           <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. The pencil has inscribed the date "Feby 9<hi rend="superscript">th</hi> 1824" at the top left of the first leaf. This letter is also numbered "18" in the top center of the first leaf to the right of the opener.
+           </handNote>
+           <handNote corresp="#penAnnot_RCL" medium="pen">Someone, apparently other than Mitford, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at Reading Central Library. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. This letter labeled "To B R Haydon Esq."
+              <!--LMW: newest letter template gives samples of all these handNotes.-->
+           </handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl>
+              <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+           </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <opener> <!-- #mjk 2018-01-03: There is a line at the top left on the first leaf, writing "To B R Haydon Esq." This appears similar to Mitford's hand, but is clearly lighter and smaller. Is this another additional hand, or is this coded as part of Mitford's text?--><!--LMW:  see above and below for add Hand language to use.-->
+               <add hand="#penAnnot_RCL">To B R Haydon Esq.</add>
+               <add hand="#pencil">Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. The pencil has inscribed the date "Feby 9<hi rend="superscript">th</hi> 1824" at the top left of the first leaf. This letter is also numbered "18" in the top center of the first leaf to the right of the opener.</add> 
+               <dateline>
+                  <name type="place" ref="#ThreeMileCross">Three Mile Cross</name><date when="1824-02-09">Wednesday Night</date>
+                  </dateline>
+               <salute>My dear <rs type="person" ref="#Haydon">Sir</rs>,</salute>
+            </opener>
+            <p>I have to thank you for two very charming letters--to congratulate you most heartily on your escape from two such disagreeable oddities as your late landlord &amp; landlady, &amp; to wish you all prosperity in your new abode--I do not wish you happiness--for you have it--With such a wife &amp; such a boy, &amp; such a consciousness of <gap reason="torn" n="2" unit="chars"/><supplied resp="#mjk">th</supplied>ose <!--LMW: use n or quan for quantity; unit="chars" or "word" Schema won't let you write out characters, quantity, etc. Also, it looks like reason needs to come always before unit or quantity.-->blessings I do really think you the happiest man in the world. Does <persName ref="#Haydon_Mrs">Mrs. Haydon</persName> ever see your letters to me? If not I will <hi rend="underline">lend</hi> them to her sometime or other just that she may see how a married lover can write of his "mistress"--that being our country phrase for wife--&amp; I think a very pretty one.--<!--unsure of next word: "Silenns" Prety sure this is a capital S, and the last three letters look like "n n s", but I'm not sure that makes sense, unless it is a name.--><!--LMW: Silenus?-->must take--&amp; who even in this age of can't<!-- or "land"?--><!--LMW: I think "cant."--><del rend="squiggles" n="1" unit="chars">&amp;</del> can object to the moral? Was not it the finest comic moral in the world?--The moral of the <gap quantity="1" unit="word" reason="unclear"><!-- #mjk - This looks like possibly "Tartuffe"? LMW: I agree: Tartuffe?--></gap><pb n="2"/>Depend upon it the picture will take--It must &amp; it shall. I quite long to see it. I had prepared all my discretion to keep the secret when I <!-- popped ?-->on the intelligence in print in the last No.<!--LMW: I think No., abbreviation for number.--> but one of the <title ref="#New_Monthly_Mag">New Monthly</title>, &amp; then I treated my dear father &amp; mother with reading them your letter. I found there too in one of <persName ref="#Hazlitt_Wm">M. Hazlitt</persName>'s delightful Table Talks the terrible story of <persName ref="#Wordsworth_Wm">Mr. Wordsworth</persName>'s letter to you--which spoils his poetry to me--for there was about his poetry something personal--we cling to him and to <persName ref="#Cowper">Cowper</persName>--&amp; now--It will not bear talking of--<!-- do we add titles for individual articles in periodicals? lmw:  We can when we can identify them. They can have their own xml:id. At least the #/issue should be identifiable.-->"Jeremy Bentham"<!--small tear in paper here. I've coded it on the previous side because there it interrupts text, but here it is in blank space. Do we still code it here?  LMW:  no need.--> is also I think by <persName ref="#Hazlitt_Wm">Mr. Hazlitt</persName>--I wonder if he ever heard a story told to me by your Countryman <persName ref="#Northmore_Thos">Mr. Northmore</persName>--a great Devonshire Reformer--one of the bad epic poets, &amp; very pleasant men in which that country abounds. He said that <persName ref="#Bentham_J"><!--New XML-ID added below-->Jeremy Bentham</persName> being on a visit at a <choice resp="#mjk"><sic>Shew</sic><reg>Show</reg></choice> house in those parts at a time when he was little known except as a Jurist through the translations of <persName ref="#Dumont"><!--new xml-id added below-->M. Dumont</persName>--certainly before the publication of the <title ref="#Church_of_Englandism"><!--new xml-id added below--><!--LMW: insert it here, using hastag in front. It will fire an error in the schema, simply because it's new.-->Church of Englandism</title> or any such enormities--<persName ref="#More_Hannah">Mrs. Hannah More</persName>, being at a Watering<pb n="3"/> place in the neighborhood was m<gap reason="seal" n="5" unit="chars"/><supplied resp="#Lestrange">inded</supplied> <!-- Is "seal" correct? The letters are covered by what appears to have been the seal. L'Estrange provides: "minded?", which may be accurate, as it makes sense in context and the bottom curve of some letters is showing. He must have been working from a guess, though, because the seal completely obliterates the word and it doesn't show through on the back side either. LMW: we can code as resp="#Lestrange" instead of one of us.--> to see him, &amp; availed herself of the house being one which was <choice resp="#mjk"><sic>shewn</sic><reg>shown</reg></choice>shewn on stated days to pay a visit to the Philosopher. He was in the library when the news arrived--&amp; the lady being already in the ante chamber &amp; no possible mode of escape presenting itself, he sent one servant to detain her a few minutes, &amp; employed another to build him up with books in a corner of the room--when the folios &amp; quartos rose above his head the curious lady was admitted. Must not it have been a droll scene?--The philosopher playing at bopeep in his <gap reason="torn" n="1" unit="chars"/><supplied resp="#mjk">e</supplied>ntrenchment, &amp; the pious maiden, who had previously ascertained that he was in the <del rend="squiggles"><gap quantity="3" unit="characters"/><unclear/></del>room, peering after him in all the agony of baffled curiosity.-- Your Frank must be a charming little fellow--Give my love to him &amp; his dear Mother--How well I can fancy you darting about in your half furnished house, doing half every body's work with your own rapid hands. No wonder that when the babble was over you should feel a little languid like a young lady after a ball.--God bless you my dear friend--All happiness be with you &amp; <choice><sic>your's</sic><reg>yours</reg></choice>--.</p><lb/>           
+           <closer>
+               Ever very sincerely.<lb/>
+              <persName ref="#MRM">M. R. Mitford</persName>.<lb/>
+            </closer>
+       
+           
+             <closer>
+               <address>
+                  <addrLine>To</addrLine><lb/>
+            <addrLine><lb/><persName ref="#Haydon">B. R. Haydon Esq<hi rend="superscript">re</hi></persName></addrLine>
+                  <addrLine><lb/>57 Sovereign Terrace</addrLine>
+                  <addrLine><lb/>Connaught Place</addrLine>
+                  <addrLine><lb/>Edgeware Road</addrLine>
+            </address>
+            </closer>  
+                         
+         </div>
+      </body>
+     
+     <back>
+        <div> <!-- In this section, place any NEW xml:id's generated by this letter (ie, id's not already included in our SI), then research and write entries for each. Under resp="", use your xml:id. NOTE: The <div> element must be present, nested inside <back>. -->
+       <listPerson><!--LMW: text between the tags doesn't need to be enclosed in additiona < >-->
+          <person xml:id="Bentham_J">
+             <persName>Jeremy Bentham</persName>
+             <persName>
+                <surname>Bentham</surname>
+                <forename>Jeremy</forename>
+                     </persName>
+             <birth when="1848-02-15"><placeName>London, England</placeName></birth>
+             <death when="1832-06-06"><placeName>London, England</placeName></death>
+             <!--Other tags can go here: See Codebook for more details.-->
+             <note resp="#mjk"><!--Biographical notes of interest. You don't need to tell the person's life story if they're already well-known, like Napoleon. But do indicate the person's significance in Mitford's world. More on this in the Site Index.--></note>
+          </person>
+          <person xml:id="Dumont">
+             <persName><!--LMW: this entire set of tags always needs to be enclosed in a <persName> set.-->
+             <surname>Dumont</surname>
+             <forename>Pierre</forename>
+             <forename>Etienne</forename>
+             <forename>Louis</forename>
+             </persName>
+             <birth when="1759-07-18">
+                <placeName>Geneva, Switzerland</placeName></birth>
+             <death when="1829-09-29"/>
+             <note resp="#mjk">Pierre Etienne Louis Dumont, or Etienne Dumont, was in large part responsible for Bentham's popularity. Dumont was a minister in the Genevan Reformed Church, but he abandoned Geneva a year later due to political unrest and moved to Russia. In 1786 he relocated to England, where he met several prominent men through whom he met Bentham. In 1802, he published a three-volume edition of Bentham's works in Bruzelles, which created interest in the philosopher's work. Some scholars have called him a disciple of Bentham.</note>
+          </person>
+       </listPerson>
+        
+             <listBibl>
+             <bibl xml:id="Church_of_Englandism">
+                <title>Church-Of-Englandism and its Catechism Explained</title>
+                <author>Jeremy Bentham</author>
+                <editor><!--if indicated--></editor>
+                <pubPlace><!--where published--></pubPlace>
+                <publisher><!--publisher--></publisher>
+                <date when="1818">1818<!--First printing 1817. Which date do we go with?--><!--LMW: if first edition was printed in 1817 but the title page says 1818, use 1818.--></date>
+             </bibl>
+          </listBibl>
+           <!--A few other kinds of lists apply. See Codebook and Site Index at http://digitalmitford.org/si.xml for guides.-->
+     </div>
+     </back>
+  </text>
+</TEI>

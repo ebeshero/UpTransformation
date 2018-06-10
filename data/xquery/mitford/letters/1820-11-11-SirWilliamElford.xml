@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1771">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, <date when="1820-11-11">November 11, 1820</date></title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#scw">Samantha Webb<!--Editor on the Mitford project, referenced by id from Site Index. Editors, change to your name and id; students, leave as name of your instructor. --> </editor> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+              <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <sponsor>Pittsburgh Supercomputing Center</sponsor>
+            <principal>Elisa Beshero-Bondar</principal> 
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName>John Bawden</persName> <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.--><!--SCW: I see oxygen is firing an error here, which you can tell by the red underlining. It looks like you've got your own name surrounded by angle brackets. To correct, just remove the angle brackets, all this text should un-underline.--><!--SCW: John, send me a 3-letter xml:id for yourself, and a short bio to be included in the site index so that you can be immortalized on the site.-->
+               <persName ref="#lmw">Lisa M. Wilson</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2018-01-01">January 1, 2018</date>
+               Proofing and corrections by</resp>
+               <!-- List all proofreaders here, <persName> by <persName>.--> 
+               <persName ref="#scw">Samantha Webb</persName><!-- SCW: First proof pass, February 20, 2017. -->
+               <persName ref="#lmw">Lisa M. Wilson</persName>
+               <!--LMW: Proofing and updating header and tags 2018-01-01-->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2017-02-01">February 8, 2017</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno><!-- For the text inside this element, idno, make a comma-separated list of each .jpg photo file name in your Box folder associated with your letter. It might look like this:
+               DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg, DSCF9479.jpg, DSCF9480.jpg, DSCF9481.jpg, DSCF9482.jpg, DSCF9483.jpg, DSCF9484.jpg, DSCF9485.jpg
+Change to reflect photo file names for your letter (as you see here, including .jpg extension).--></idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.
+                  
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 422</idno><!--SCW: I checked the spreadsheet 4/6/17-->
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1820-11-11">1820 November 11</date>.
+                 
+               </head> 
+              
+               <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support><p>Four pages of <material>paper</material>, eight page surfaces photographed. 7 inches wide, and 9 inches length height. The pages are folded in half lengthwise and again in thirds for posting. No address leaf.</p> 
+                     </support>
+                     <condition>
+                        <p/> 
+                     </condition>
+               </supportDesc>
+               </objectDesc>
+                  <sealDesc>
+                     <p>No seal is present</p> 
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of each of the first three leaves. On leaf four, a red line is drawn from top left to bottom right across each of the two text blocks. There is no red crayon across the address text block.</handNote>
+           <handNote corresp="#pencil" medium="pencil">Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "21" in the top left of the first leaf.<!--SCW: I'm not sure if that's an "11" or a "21". LMW: I think it's a 21. or a 71. More likely 21.-->
+           </handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl><p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+           </editorialDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <opener> 
+               <add hand="#pencil">21</add> 
+               <add hand="#penAnnot_RCL">To <persName ref="#Elford_SirWm">Sir W. Elford</persName></add>
+               <dateline><placeName ref="#ThreeMileCross">Three Mile Cross</placeName> 
+                  <date when="1820-11-11">Nov<hi rend="superscript">r</hi> 11<hi rend="superscript">th</hi> 1820</date>. 
+               </dateline>
+            </opener>
+            <p>Your kind &amp; charming letter, my dear <persName ref="#Elford_SirWm">Sir William Elford</persName> was exceedingly welcome to me. I shall obey <del rend="squiggles"><gap quantity="1" unit="word"/>of</del><add place="above">you</add> in all my best--but you &amp; <persName ref="#Elford_MrsM">Mrs Elford</persName> will spoil not only me but my letters by your exquisite kindness--If once you make me think for a moment of what I am going to say--I am undone &amp; you will get a petrifaction--a fine specimen of the Lithographic art instead of the nonsense you are so good as to like.--We agree completely respecting <persName ref="#Queen_Caroline">the Queen</persName>--her defence seems to me to strengthen the evidence--&amp; I am convinced that 10 years hence every body will be of our opinion. It will never be a disputed point in history like the guilt of <persName ref="#MaryQoS">Queen Mary of Scotland</persName>--Indeed I rather think that except <persName ref="#Dickinson_Mrs">Mrs. Dickinson</persName> &amp; that part of the <q>"reading public"</q> called the mob every body is of the same opinion now. I have not the least notion that the <orgName ref="#Whigs">Whigs</orgName> think her innocent or the reformers either--they treat it as a mere party question--an engine for dislodging &amp; heaving out the Ministry--&amp; they ought to be ashamed of themselves for confounding the great moral distinctions of right &amp; wrong to attain their own ambitious ends. I have done with them. And I beg you of all love, my dear <persName ref="#Elford_SirWm">Sir William</persName>, never to call me <quote><soCalled>"Miss Whig"</soCalled></quote> again. In the mean time I am heartily glad that the cause is over. It is no great triumph God knows to the Guilty--&amp; the cessation &amp; laying to rest of the subject will be the greatest possible comfort &amp; relief to all sane persons. Of late one really could not stir without being haunted with it--People breathed an Atmosphere of<pb n="2"/> impurity, &amp; some persons <del rend="squiggles" unit="word" n="1">really</del> became so hardened to the improprieties of the topic as to say with perfect unconsciousness things exceedingly distressing to hear. Our dear friend <persName ref="#Valpy_Richard">Dr. Valpy</persName> for instance got so used to talk in the style of the <rs type="event" ref="#Qu_Caroline_Affair">Queen's Trial</rs>, that his daughters have been several times obliged to leave the breakfast table &amp; <del rend="squiggles">really</del> regarded the unfolding of a newspaper as a signal for quitting the room. To be sure the dear &amp; excellent <persName ref="#Valpy_Richard">Doctor</persName> is not very particular. He brought a fair neighbour of <choice><sic>your's</sic><reg>yours</reg></choice> into a curious scrape the other day--If you will promise to be very discreet &amp; not repeat it to any one who will tell the R<del rend="strikethrough" quantity="4" unit="chars">owes</del> I will tell it you. You promise? Well <persName ref="#Rowe_Hannah">Miss R<unclear><gap reason="smudged" quantity="3" unit="chars"/><supplied resp="#scw">owe</supplied></unclear>--Hannah--<persName ref="#Glumdalclitch">Glumdalclitch</persName></persName> as <persName ref="#James_Miss">Miss James</persName> used to call her, is staying in the <placeName ref="#Forbury_hotel">Forbury</placeName><!--SCW: I think the <placeName> is "Forbury". I did a quick check and found an extant Forbury Hotel in Reading, built in the old County Council Chambers. Though it claims to have been established in 1913, it's a fair guess that it's named after another earlier Forbury. Until research can go deeper, I tagged it with the foregoing string (I wanted to make sure it worked) and we'll work to verify the name later.--> &amp; they have had in <placeName ref="#Reading_city">Reading</placeName> an Itinerant Lecturer--a showman of the sciences--whose lectures were attended by all the <orgName ref="#Valpys">house of Valpy</orgName> &amp; half of the school. Well the last lecture was on Electricity–-one of the boys was electrified–-&amp; the good <persName ref="#Valpy_Richard">Doctor</persName> before a hundred people very gravely led poor <rs type="person" ref="#Rowe_Hannah"><persName ref="#Glumdalclitch">Glumdalclitch</persName></rs><!--SCW: This reference to Glumdalclitch creates an odd string: MRM means to designate this Hannah Rowe woman, whom she is derogatorily referring to as Glumdalclitch, who is a character from Gulliver's Travels. So, to verify whether the code would work as <rs> wrapped within a <persName>, I tried the foregoing string, which seems to have been acceptable in XML code. The errors are firing because the names aren't in the site index.--> up to the youth, &amp; desired him to kiss her by way of communicating the shock &amp; completing the experiment. Luckily the boy was a lad of grace &amp; had too much modesty to comply–-&amp; as to poor <persName ref="#Rowe_Hannah">Hannah</persName> she was quite enough electrified by the proposal. They say it was a curious scene. I did not see it myself–-for I have a horror of those sort of things &amp; hate an electrical apparatus as bad as a gun–-I don’t know why I hate either for I have never been <del rend="squiggles" quantity="1" unit="word">either</del>shot or electrified–-but I have run away pretty often from both machines–-I remember when we had <persName ref="#Walker_Mr">Mr. Walker</persName><!-- James Walker the civil engineer/lighthouse designer? Charles Vincent Walker associated with London Electrical society, seems too young (born 1812). --> to give us a course of Lectures at school I absconded from the Electricity-–I scudded away like a hare and I skulked under the bed till the Lecturer &amp; his apparatus were safe out of the house-–&amp; I verily believe I should do the same <pb n="3"/>tomorrow rather than stay–-only that I have now sufficient moral courage to own my fear.-–To return to our friend <persName ref="#Queen_Caroline">the Queen</persName>. I heard the other day a curious story of the way in which the <q>“ladies address processions”</q> are got up. <persName ref="#Bartleby_Mrs">Mrs. Bartley</persName> the actress was at her Mantua Makers giving some orders &amp; observed an unusual hurry scurry about the house–-at last a coach &amp; four stopped at the door &amp; four gaily dressed women got into it-–one of whom was very handsome. <del rend="squiggles"><gap quantity="1" unit="word"/><supplied resp="#lmw">at last</supplied></del><add place="above">When</add> the Mantua Maker came to her she apologised for detaining her &amp; explained the bustle by saying, that some customers of hers had requested she would lend some finery to the persons whom they should send <metamark rend="caret" function="insertion" place="below"/><add place="above">&amp;</add> who were to fill a carriage in one of the <placeName ref="#Brandenburgh_House">Brandenburgh House</placeName> <!-- http://www.panoramaofthethames.com/1829/guide/the-site-of-brandenburg-house --> processions that accordingly she had decked out these females <del rend="strikethrough"><gap quantity="3" unit="words"/><add place="above"/></del><!--SCW: this string renders the above-the-line strikethrough, which I can't read, so left blank--> <del rend="strikethrough"><gap quantity="8" unit="words"/>who were to be returned safely to her</del><add place="below">who on their return were</add><!--SCW: I wanted to see if the foregoing string was acceptable to XML, so I did it here--> to be stripped of their borrowed plumage &amp; that the woman whom <persName ref="#Bartleby_Mrs">Mrs Bartley</persName> admired so much was a person, &amp; to whom she had trusted the most valuable of the dresses, (a French silk richly flowered with lace) knowing her to be exceedingly honest &amp; careful-–she (the Mantua Maker) had known her for many years-–she kept an apple stall at the corner of the street!--pretty Addressers are they not?--When I said that <persName ref="#Dickinson_Mrs">Mrs Dickinson</persName> was the only living woman who believed the <persName ref="#Queen_Caroline">Queen</persName> innocent I did not mean to accuse Lady <del rend="squiggles" unit="word" n="1"><unclear/></del> <persName ref="#Palmer_Mad">Madelina Palmer</persName> of saying the thing that is not<note resp="scw">"The thing that is not" is an allusion to Gulliver's Travels</note> But her Ladyship is I doubt not a little led away by party spirit and by the sort of indulgence which women of fashion extend to those cases-–&amp; when she says she thinks the <persName ref="#Queen_Caroline">Queen</persName> innocent she means a very different sort of innocence from <persName ref="#Dickinson_Mrs">Mrs Dickinson</persName>, who really believes her to be as pure as the unsunned snow. <abbr><persName ref="#Palmer_Mad">Lady M. P</persName></abbr>’s<!--SCW: Just checking to see if the <abbr> string would work with the <persName>--> notion of an innocent <persName ref="#Queen_Caroline">Queen</persName> is probably, not very guilty-–Now <persName ref="#Dickinson_Mrs">Mrs Dickinson</persName> would <pb n="3"/>I am convinced stake her own existence or her baby’s uponm the perfect purity of the <persName ref="#Queen_Caroline">Queen</persName>’s every thought &amp; word &amp; action. I should think this a false perception &amp; be afraid that my dear Friend was upon this subject a little diseased, if I did not know that she has an instinct of credulity a power of believing such as no mortal ever possessed. She does not know what doubt means. Every word that is said she believes <lang xml:lang="fr">au pied de la lettre</lang>. The common forms of politeness, the dearest Madam-–&amp; your faithful humble servant find in her the most absolute faith-–This is a very amiable mistake-–resulting from her own singular truth &amp; frankness-–but it’s a very troublesome one to some of her stiff proud neighbuors, whose drawings-balk, &amp; civil subterfuges she oversets at a blow by not understanding them-–lugs gouty people out of their carriages who only meant to leave a card &amp; <q>“were sorry they had no time to alight?”</q>-–&amp; furnishes with requests to fix his own day, an excuse-making Grandee who had called to express his regret that he could not attend her dinner party--<q>“Well then why won’t you stay to day"</q>--was her last answer to his last apology--&amp; the luckless Illustrissimo ran away-–as I did from the electrification. <q>“How sorry he was not to be able to stay-–how extremely unlucky that he is so engaged-–he’s a very polite man, and would be very glad to be a good neighbour”</q> was all her remark. Her faith in human truth is incorrigible, and as she reads an opposition paper, no wonder she believes in the <persName ref="#Queen_Caroline">Queen</persName>-–the only chance was that the <rs type="person" ref="#Brougham_H">Attorney General</rs> might have gained her by having the first word-–but <persName ref="#Wood_Matthew">Alderman Wood</persName> had <del rend="squiggles"><unclear/></del><add place="above" unit="word" n="1"><unclear/></add> <!--SCW/LMW:  served? seized?-->her before.-–By the way have you read a clever little joke upon the aforesaid Alderman called <title ref="#Tentamen">Tentamen</title>?<!-- by Theodore Hook:  Tentamen; or An Essay Towards the History of Whittington, Sometime Mayor of London (1820)  --> Very <pb n="4"/>well done indeed! The story of <persName ref="#Whittington_Dick">Whittington</persName> and his cat--applied--as you may guess-–a very clever little book! (By the bye they are illuminating tonight in <placeName>Reading</placeName>-–making a terrible <lang xml:lang="fr">tintamarre</lang>-–bells ringing-–and a prodigious quantity of popping noises, produced as I conjecture by some little brass things kept by a war-fancying Gentleman who calls them cannon-–and pistols and blunderbusses and what not-–Thank Heaven I am not in that region of squibs and crackers. We don’t illuminate in <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>-–that enlightened village is wiser.-–Besides <title ref="#Tentamen">Tentamen</title> I have been reading a clever little Poem called <title ref="#Advice_Julia">Advice to Julia</title>, which but for the abominable bad taste of addressing very graceful pleasant and <persName ref="#Horace">Horatian</persName> verses to a lady of no equivocal character would be a most recommendable book-–and a cleverish work called <title ref="#Essays_Lodgings">Essays by a Gentleman who has left his lodgings</title>; <del rend="squiggles"><unclear/></del> (skipping the Political Economy which I can’t understand and the English Constitution two words I am tired of)-–and <persName ref="Opie_A">Mrs. Opie</persName>'s <title ref="#Tales_Heart">last tales</title>-–of which the most certain thing that can be said is that they are exceedingly like her others--just the same things. She has no nice discrimination of character like our two favorites-–&amp; incidents cannot be varied ad infinitum-–so that I should really think she must begin to find herself at a loss how to shew off her good heroines in small acts of generosity, &amp; her bad heroes in killing their fathers and mothers.--Oh how different from <persName ref="#Austen_Jane">Miss Austen</persName> &amp; <persName ref="#Edgeworth_Maria">Miss Edgeworth</persName>-–Have you read the Critique on <title ref="#Mems_RLEdgeworth">Mr. Edgeworth’s life</title> <!--LMW: Memoirs of Richard Lovell Edgeworth, Esq. Begun by himself and concluded by his Daughter, Maria Edgeworth. 2 vols. 8vo. London. 1820. Qr, PG. 510: https://books.google.com/books?id=-rRZAAAAcAAJ--> in the last <title ref="#QuarterlyRev_per">Quarterly</title>? There is some truth in what they say of him-–but surely <persName ref="#Edgeworth_Maria">Miss Edgeworth</persName> deserved more respect.-–I don’t think my dear Friend that I quite agree<pb n="5"/> with you as to the facility of imitating <persName ref="#Scott_Wal">Scott</persName>’s novels--We have had nothing like them yet--&amp; I do not think we soon shall. Consider, with all <del rend="squiggles" unit="word" n="1"><unclear/></del> his faults the great &amp; rare qualities that must be united in such a novelist &amp;-–the minute &amp; curious learning which seizes with the <del rend="squiggles" unit="word" n="2"><unclear/></del> certainty &amp; ease of accurate knowledge on all the antiquarian detail that suits his purpose. The almost magical power of placing scenes and forms before you as in a picture--&amp; leading you through a changing country which you trace as in a map. (This power of external representation is only equaled by <persName ref="#Chaucer">Chaucer</persName>, <persName ref="#Boccacio"><choice><sic>Bocacio</sic><reg>Boccacio</reg></choice></persName> &amp; as far as scenery goes by <persName ref="#Spenser_Edmund">Spenser</persName>)--&amp; lastly his various &amp; extraordinary delineations of character. It is quite nonsense to compare him as the <title ref="#EdinburghRev_per">Edinburgh Review</title>ers do to <persName ref="#Shakespeare">Shakespeare</persName> in this respect and gives one the tendency to underrate him that such extravagant praises by a natural re-action always do-–his Characters have not the exquisite freedom of <persName ref="#Shakespeare">Shakespeare</persName>’s-–there is too much identity. He is afraid to trust them out of their prescribed bounds. Afraid to let them make any speech which cannot instantly be assigned to the right person. The keeping is too exact to be true to our mixed &amp; varying nature-–but still the characters are finely <del rend="squiggles" unit="chars" n="3">del</del> conceived &amp; finely drawn, &amp; there is a noble spirit of humanity an indulgence to human frailty which sets a grand lesson to the world. He makes good <persName ref="#Shakespeare">Shakespeare</persName>’s most beautiful saying <quote>“There is some soul of goodness in things evil.”</quote><note resp="#lmw"><title ref="#HenryV_play">Henry V</title>, act four, scene one.</note> &amp; is as far as I know the only writer who has ever had candour &amp; fairness enough to tolerate opposite bigotries. No, my dear Friend. It is not the mere fixing on some peculiar piece of history to illustrate that will produce even in powerful hands<pb n="6"/> such novels as <persName ref="#Scott_Wal">Walter Scott</persName>’s. As to <persName ref="#Holford_Marg_younger">Miss Holford</persName> I don’t think she has the slightest intention to imitate him-–<title ref="#Warbeck_Wolfstein_MH">Warbeck of Wolfstein</title> seems to me an attempt to portray in very black &amp; exaggerated colours the character of <persName ref="#Byron">Lord Byron</persName>-–does it not strike you so? Some of the anecdotes-–that of the role with the <metamark place="below" function="insertion" rend="caret"/><add place="above">orange</add> flowers for instance-–are stories which have been currently told of <rs type="person" ref="#Byron">his Lordship</rs>, &amp; altogether I am afraid there can be no doubt but it was intended as a portrait. I say afraid-–because <persName ref="#Baillie_Joanna">Mrs. Joanna Baillie</persName> the friend <del rend="strikethrough"><gap quantity="2" unit="words"/>&amp; protectress</del> of <persName ref="#Byron_Annab">Lady Byron</persName> ought not to have given the sanction of her name to such a libel-–He is quite bad enough, Heaven knows, without being loaded with crimes that do not belong to him. I wonder I did not mention the work to you, which I thought as you do very powerful-–you will have found out by this time that the Zingari was not an old woman, &amp; that the conclusion though rather too combustible to suit my fancy can hardly be called unhappy. (I really think they must be springing a mine in <placeName ref="#Reading_city">Reading</placeName>-–there is such a grand crash every now &amp; then rising out of the hubbub-–<quote>“God help them silly one’s”</quote>-–as <persName ref="#Canning_George">Mr. Canning</persName> says in his clever parody of <persName ref="#Southey_R">Mr. Southey</persName>'s ode.<!--LMW: identify.--> Don’t you delight in the “Poetry of the <title ref="#Anti-Jacobin">Antijacobin</title>?)-–<persName ref="#Holford_Marg_younger">Miss Holford</persName> wrote you know a very fine &amp; powerful Poem <title ref="#Wallace_MH">Wallace or the Fight of Falkirk</title> which came out the same year with my <title ref="#Christina">Christina</title> &amp; was worth a thousand of it. (Don’t contradict this-–if you do I shall think that you think I am begging for a compliment instead of telling a truth) &amp; rather think that <persName ref="#Holford_Marg_younger">Miss Holford</persName>’s present work is more like <persName ref="#Porter_Jane">Miss Porter</persName> than <persName ref="#Scott_Wal">Walter Scott</persName>. Did you ever read <title ref="#Thaddeus_Warsaw">Thaddeus of Warsaw</title>? Or the "<title ref="#Pastors_Fireside">Pastor's Fireside</title>"? They are much in the same style only less powerful-–less manly.<pb n="7"/>
+               I am very glad to hear that <persName ref="#Palmer_Mad">Lady Madelina</persName> does not write to you-–it is exceedingly kind &amp; civil in her indeed. If she did woe be to me! My nose would certainly be out of joint. I dare say her silence is purely in condescension of my feelings for I told her she had superseded me &amp; that I took it very hard. She is amazingly kind not to write-–And yet she ought to write too, that I might enjoy my right of reprisal by reading her letter. Would you show them to me? You are not the only traitor among my correspondents-–if that be any consolation-–I happened to say to a friend in <placeName ref="#London_city">Town</placeName> that <persName ref="#Hazlitt_Wm">Mr. Hazlitt</persName> was <q>“the most delightful &amp; most impudent of writers”</q> or words to that effect &amp; what did my correspondent do but read him this curious panegyric the first time they met. Luckily <persName ref="#Hazlitt_Wm">Mr. Hazlitt</persName> is good humoured and took it without being astounded at my impudence.-–<persName ref="#Elford_MrsC">Mrs. Jonathan Elford</persName> is only too kind in condescending to be amused with such chit chat-–flattery of that sort is very dangerous to me-–one’s heart warms so at kindness-–does it not? I will certainly write again as you did me-–but what shall I do for a subject? How is <persName ref="#Palmer_Mad">Lady Madelina</persName> altered? Was not she a <persName ref="#Queen_Caroline">Queen</persName>’s woman at <placeName ref="#Bickham_village">Bickham</placeName>? She was a very determined one at <placeName ref="#Reading_city">Reading</placeName> I know-–Yes-–she is a most delightful woman though she is my rival-–I wish she and her excellent and most gentlemanly <del rend="squiggles"><unclear/></del> husband would come to live at <placeName ref="#Luckley_House">Luckley</placeName><!--Luckley House in Wokingham.-->-–It is quite tantalizing to know a little of her and wish to know a great deal.</p><metamark rend="jerks"/>
+           <closer>Adieu, my dear <rs type="person" ref="#Elford_SirWm">Friend</rs>--Forgive this long stupid letter, and believe me ever &amp; most affectionately yours<lb/>
+            <persName ref="#MRM">M. R. Mitford</persName><lb/>
+           </closer> 
+            
+            <postscript><p>Kindest <abbr>Comp<hi rend="superscript">t</hi></abbr>s. from <persName ref="#Mitford_Geo">Papa</persName> and <persName ref="#Russell_M">Mama</persName>. Pray don’t mention the story of <persName ref="#Rowe_Hannah">Hannah Rowe</persName> and the <persName ref="#Valpy_Richard">Doctor</persName>.</p>
+               <pb n="8"/>
+            </postscript>
+            <!--LMW: no address leaf.-->
+         </div>
+      </body>
+     
+     <back>
+        <div> <!-- In this section, place any NEW xml:id's generated by this letter (ie, id's not already included in our SI), then research and write entries for each. Under resp="", use your xml:id. NOTE: The <div> element must be present, nested inside <back>. -->
+       <listPerson>
+          <!-- 
+          <persName ref="#Glumdalclitch">Glumdalclitch</persName> fictional
+          
+          <persName ref="#Rowe_Hannah">
+          <persName ref="#Walker_Mr">Mr. Walker</persName> James Walker the civil engineer/lighthouse designer? Charles Vincent Walker associated with London Electrical society, seems too young (born 1812). 
+           <persName ref="#Bartleby_Mrs">Mrs. Bartley</persName> the actress
+           <persName ref="#Wood_Matthew">Alderman Wood
+           <persName ref="#Boccacio">
+           <persName ref="#Porter_Jane"> Jane Porter
+            -->
+
+          <person xml:id="proposed_new_ID">
+             <persName>
+                <surname><!--last name--></surname>
+                <forename><!--first name --></forename>
+                <forename><!--middle name --></forename>
+                <forename><!--if necessary, more middle names--></forename>
+             </persName>
+             <persName><!--alternate persName, such as a nickname?--></persName>
+             <persName><!--Use as many of these as necessary to catch alternate names of this person.--></persName>
+             <birth><placeName><!--place of birth--></placeName></birth>
+             <death><placeName><!--place of death--></placeName></death>
+             <!--Other tags can go here: See Codebook for more details.-->
+             <note resp="#Your_Editor_ID"><!--Biographical notes of interest. You don't need to tell the person's life story if they're already well-known, like Napoleon. But do indicate the person's significance in Mitford's world. More on this in the Site Index.--></note>
+          </person>
+          <person xml:id="proposed_new_ID2"><!--Here's a minimal entry-->
+             <persName>...</persName>
+             <note resp="#Your_Editor_ID"><!--Some information here.--></note>
+          </person>
+       </listPerson>
+        
+        <listPlace>
+           <!-- 
+           <placeName ref="#Forbury_hotel">Forbury</placeName>
+           <placeName ref="#Brandenburgh_House">Brandenburgh House</placeName>  http://www.panoramaofthethames.com/1829/guide/the-site-of-brandenburg-house
+           <placeName ref="#Luckley_House">Luckley</placeName> Luckley House in Wokingham, Berkshire, England. Palmers
+           -->
+           <place xml:id="proposed_new_ID3">
+              <placeName><!--best-known name of the place--></placeName>
+              <placeName><!--alternate place name--></placeName>
+              <location><geo><!--Latitude followed by longitude, separated by a white space like this:
+              53.226658 -0.541254
+              --></geo></location>
+           </place>
+        </listPlace>
+          <listBibl>
+             <!-- 
+             <title ref="#Tentamen">Tentamen</title> by Theodore Hook:  Tentamen; or An Essay Towards the History of Whittington, Sometime Mayor of London (1820)
+             <title ref="#Advice_Julia">Advice to Julia by Henry Luttrell, 1820
+             <title ref="#Essays_Lodgings">Essays by a Gentleman who has left his lodgings by Lord John Russell, 1820
+             <title ref="#Tales_Heart"> Tales of the Heart. 4 vols. Amelia Opie. 1820
+             <title ref="#Mems_RLEdgeworth">Mr. Edgeworth’s life</title>  Memoirs of Richard Lovell Edgeworth, Esq. Begun by himself and concluded by his Daughter, Maria Edgeworth. 2 vols. 8vo. London. 1820. 
+             Review of above in QR, vol. 23, 1820, PG. 510, Art. 11: https://books.google.com/books?id=-rRZAAAAcAAJ
+             
+             <title ref="#Wallace_MH">Wallace or the Fight of Falkirk</title> by Margaret Holford
+             <title ref="#Thaddeus_Warsaw">Thaddeus of Warsaw</title> Jane Porter 
+             <title ref="#Pastors_Fireside">Pastor's Fireside</title> Jane Porter
+             -->
+             <bibl xml:id="proposed_new_ID4">
+                <title><!--Title--></title>
+                <author><!--Author--></author>
+                <editor><!--if indicated--></editor>
+                <pubPlace><!--where published--></pubPlace>
+                <publisher><!--publisher--></publisher>
+                <date><!--Date. The @when attribute can be yyyy, yyyy-mm, or yyyy-mm-dd.--></date>
+             </bibl>
+          </listBibl>
+           <!--A few other kinds of lists apply. See Codebook and Site Index at http://digitalmitford.org/si.xml for guides.-->
+     </div>
+     </back>
+  </text>
+</TEI>

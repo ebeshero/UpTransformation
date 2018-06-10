@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <!-- Don't change or remove anything above this line! This makes the file Digital Mitford TEI. --><teiHeader><fileDesc><titleStmt>
+            <!-- The next 6 lines are the title statement.--><title xml:id="MRM1742">Letter to <persName ref="#Elford_SirWm">Sir William
+               Elford</persName>, <date when="1819-06-08">June 8, 1819</date></title>
+            <!--Change these to reflect your letter. Look up the xml:id in the MitfordMS Excel spreadsheet, and look for other identifying info on the repository, etc, there. Insert full name of letter addressee. Use assigned xml:id for ref="# ". Insert date using this format:  Year (1820) Month (June) Day (08). Use correct format for when="four digit year-two digit month-two digit day" --><author ref="#MRM">Mary Russell Mitford</author><editor ref="#lmw">Daniel Schierenbeck</editor>
+            <!-- editors, change to your name & id; students, leave as name of your instructor --><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+               Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal>Elisa Beshero-Bondar</principal>
+            <!-- the lines above are standard. don't change --><respStmt><resp>Transcription and coding by</resp><persName>Daniel Schierenbeck</persName>
+               <!-- list all transcribers or coders here. In this sample, Lisa and her student. --></respStmt><respStmt><resp>Proofing and corrections by</resp><persName ref="#lmw">Lisa M. Wilson</persName><!-- updates to header only. LMW 2015-10-08 -->
+               <!-- list all proofreaders here. --></respStmt></titleStmt><editionStmt><edition>First digital edition in TEI, date: <date when="2015-04-26">26 April
+                  2015</date>. P5.</edition>
+            <!-- Change this date to the date you BEGIN the xml file. --><respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt><respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg, DSCF9479.jpg,
+                     DSCF9480.jpg, DSCF9481.jpg, DSCF9482.jpg. DSCF9483.jpg. DSCF9484.jpg.
+                     DSCF9485.jpg</idno></resp></respStmt>
+            <!-- Change to reflect photo file names for your letter (as you see here, including .jpg extension).  --></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2013</date><availability><p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central
+                     Library</orgName>.</p>
+               <!-- Check to be sure your letter is from Reading Central! If not, change text here and below to give information for Rylands or other archives. --><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence></availability></publicationStmt><seriesStmt><title>Digital Mitford Letters: The Mary Russell Mitford Archive</title></seriesStmt><sourceDesc><msDesc>
+               <!-- This section of the header identifies the original manuscript source. --><msIdentifier><repository ref="#ReadingCL">Reading Central Library</repository><collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection><idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 377</idno></msIdentifier><head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1819-06-08">1819 June 8</date>.</head><physDesc><objectDesc><supportDesc>
+                        <!-- Physical description of the letter goes here: paper size and condition, seal, postmarks, etc. --><support><p>One sheet of folio <material>paper</material>, four surfaces
+                              photographed.</p>
+                           <!-- Consult photos to describe your letter, number of sheets and separate surfaces. There may be more than one photo of the same surface. --><p>Address leaf bearing black postmark, partially illegible, reading
+                                    <stamp><lb/><placeName>READING</placeName><lb/></stamp>.</p><p>A large 3 denoting the posting fee has been written in black ink by
+                              the postal service across the address
+                           leaf.</p><!-- Describe any postmarks here. --></support><condition><p>Sheet (pages three and four) torn on right edge of page three where
+                              wax seal was removed.</p></condition></supportDesc></objectDesc><sealDesc><p>Red wax seal, complete, adhered to page four.</p></sealDesc></physDesc></msDesc></sourceDesc></fileDesc><profileDesc><handNotes><handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a
+               different hand from Mitford's that marks many of her letters, sometimes drawing
+               diagonal lines across pages, and sometimes writing words overtop and perpendicularly
+               across Mitford's writing.
+               <!-- Don't change the preceding two sentences if this letter has red crayon. In the following sentence, describe red crayoning on this letter. -->A
+               red line is drawn from top left to bottom right of each of the first three leaves. On
+               leaf four, a red line is drawn from top left to bottom right across each of the two
+               text blocks. There is no red crayon across the address text block.</handNote><handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford,
+               perhaps cataloging letters and describing them, who left grey pencil marks and
+               numbered her letters now in the Reading Central Library's collection.
+               <!-- Don't change the preceding sentence if this letter has grey pencil. In the following sentence, describe penciled numbers or change/add whatever text you see written in pencil. -->This
+               letter is numbered "11" in the top left of the first leaf. </handNote></handNotes></profileDesc><encodingDesc><editorialDecl><p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+               end of a line and the beginning of the next in the manuscript. Where Mitford’s
+               spelling and hyphenation of words deviates from the standard, in order to facilitate
+               searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+               Mitford’s spelling and the regular international standard of Oxford English spelling,
+               following the first listed spelling in the Oxford English Dictionary. The long s and
+               ligatured forms are not encoded.</p>
+            <!-- Do not change any of this text. It's standard.--></editorialDecl></encodingDesc></teiHeader><text><body><div type="letter"><opener><add hand="#pencil">11</add><dateline><name type="place">Bertram House</name><date when="1819-06-08">June 8<hi rend="superscript">th</hi> 1819</date>.
+               </dateline></opener><p>It is not from laziness belive me, my dear Freind, that I have sent you four lives
+               unaltered. I have been altering them all the morning-turning &amp; twisting them
+               twenty different ways-&amp; on an impractial survey of the several readings am
+               convinced that your version is much the best. Mine all <emph rend="underline">patched</emph>. Indeed I write verses so seldom now that I have lost the little
+               power I once possessed. The reason of my not sending you any of my attempts is, is that I
+               fear your modesty or your politeness might tempt you to prefer my bad lines to your
+               good lines &amp; I would not put such a risk in your way. Surely the last line is
+               very <del rend="squiggles" n="1" unit="word"/> good--the repetition
+               strengthens it. In addition to the greater cleanness of these last verses which we
+               both prefer, they remind me much less of those in Manfred for which you know I took
+               <!-- ds: ? --> the first you sent me, &amp; as your Picture though strikingly
+               <!--- ds: ? --> coinciding in subject with this fine conception of Lord Byron's is
+               not taken from it--&amp; as I suppose neither the cascade-rainbow nor the Alpine
+               scenery of his Drama you would of course not which your nymph to be cofounded with
+               the "Witch of the Alps."</p>
+            <!-- ds: jerk look up code --><p>Now that one something like business is dispatched, let me thank you a thousand times
+               for your charming letter &amp; all its kindness. You have before now received my
+               doleful epistle, &amp; know that we cannot come to <placeName ref="#Bickham_village">Bickham</placeName>. I
+               wish I was setting out for it this very moment. I did not want that dear letter to
+               remind me of all that I love. And yet it has very much encreased my regret. I shall
+               do nothing for a whole week but pity myself &amp; hate Mr. Eilliot. What pleasure I
+               should have had in seeing with you such scenery as you describe-in meeting Miss
+               Welsford who is so good to me &amp; whom I look upon as a ready made friend--in making
+               acquaintance with your daughters who are I hope equally well disposed towards me--&amp;
+               even in hearing the Balcombe family &amp; talk of my <pb n="1"/></p> <!--DS: [TRANSCRIPTION ENDS HERE. May 2015--><closer><address>
+                  <!-- In this section, change to include any text written on the address leaf; use a separate "addrLine" for each line. --><addrLine>To <persName ref="#Elford_SirWm">Sir William Elford Bar<hi rend="superscript">t</hi></persName></addrLine><addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine><addrLine><placeName ref="#Plymouth_city">Plymouth</placeName></addrLine></address></closer></div></body><back>
+         <!-- In this section, place any NEW xml:id's generated by this letter (ie, id's not already included in our SI), then research and write entries for each. Under resp="", use your xml:id. --><listPerson type="hist">
+            <!--lmw: Use for historical (ie, "real") people.)-->
+            <!--ebb: Note the structure of the entries here: The <person> element wraps a complete entry. One or more persName elements always sits inside it, and one is typically broken out into forename and surname elements inside. Notice how these are nested.--><person xml:id="Nicholls_John"><persName><forename>John</forename><surname>Nicholls</surname></persName><note resp="#lmw">Author</note></person></listPerson><listPerson type="fict">
+            <!-- Use for fictional characters. --><person xml:id="Catherine_Ab"><persName><forename>Catherine</forename></persName><note resp="#lmw">Character in <persName ref="#Scott_Wal">Walter Scott</persName>'s
+                  novel <title ref="#Abbot_WS">The Abbott.</title></note></person></listPerson><listPlace>
+            <!-- Use for lists of new PLACES. --><place xml:id="Chippenham"><placeName>Chippenham</placeName></place><place xml:id="Bickham_village"><placeName>Bickham</placeName></place></listPlace></back></text></TEI>

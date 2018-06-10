@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1806">Letter to <persName ref="#Hamilton_S">S Hamilton</persName>, April 9, 1823</title>
+            <editor ref="#bas">Brooke A. Stewart</editor> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <sponsor>Pittsburgh Supercomputing Center</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="#ga">Gracia Amos</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2016-12-31">2016-12-31</date>
+                  Proofing and corrections by</resp>
+               <persName ref="#bas">Brooke A. Stewart</persName><!-- 2016-10-04 bas: Updated header to include the correct letter xml:id and idno, fixed minor transcription errors. Added header information.--><!-- 2016-10-09 bas: Further proofing and transcription errors, especially with gaps and handNotes. Added si for Samuel Hamilton, and a note on the Julian review. 2016-10-15 bas: Fixed a few transcription errors, updated and added links for S. Hamilton.--><!-- 2016-12-31 bas: Checked for completion, corrected spelling errors. -->
+               <persName ref="#lmw">Lisa M. Wilson</persName><!--LMW 2016-10-12. Made a few transcribing suggestions and put in viaf link for S. Hamilton.-->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2015-05-06">May 6, 2015</date><!-- bas 2016-10-01: No date was recorded, so I used the date that the file was originally uploaded to box. -->. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>9April1823Hamilton4f.JPG, 9April1823Hamilton4e.JPG, 9April1823Hamilton4d.JPG, 9April1823Hamilton4c.JPG, 9April1823Hamilton4b.JPG, 9April1823Hamilton4a.JPG, 9April1823Hamilton3d.JPG, 9April1823Hamilton3c.JPG, 9April1823Hamilton3b.JPG, 9April1823Hamilton2c.JPG, 9April1823Hamilton3a.JPG, 9April1823Hamilton2b.JPG, 9April1823Hamilton2a.JPG, 9April1823Hamilton1b.JPG, 9April1823Hamilton1c.JPG, 9April1823Hamilton1a.JPG</idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 468</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to S. Hamilton, <date when="1823-04-09">1823 April 9</date>. 
+               </head> 
+               
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support> 
+                           <p>Single full sheet of <material>paper</material>, two surfaces photographed, folded in sixths. The single page bears the end of the letter one side, and (after being folded into six panels) exposes the address on the other side.</p> 
+                           <p>Address leaf lacks postmarks, bears only the address in Mitford's hand.
+                           </p> 
+                        </support>
+                        <condition>
+                           <p>Sheet torn on left edge of page, there is a coin-sized hole in the middle of the page toward the left edge from where the seal was adhered.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <p>No seal is present.</p> 
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote corresp="#penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. This annotator left a note at the top of the first leaf that documents the recipient of the letter as S. Hamilton, followed by a single "dotted x" that refers the reader to the bottom of the page where there is another single "x" followed by "Editor of the Lady's Magazine". There is a second note at the bottom of the page reading "The Lady's Magazine"  marked with a "dotted x".</handNote>
+            <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to middle of the page on the address leaf.</handNote>
+            <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "7" in the top left of the first leaf.
+            </handNote>
+         </handNotes>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-02-09" who="#bas">Proofed letter. Question about metamarks.</change>
+         <change when="2017-10-17" who="#ebb">Moved Reading Pen Annotator's top note into place in the add element in our encoding of the top of the first leaf.</change>
+         <change when="2016-12-31" who="#bas">Checked for completion and corrected spelling errors. Can be proofed.</change>
+         <change when="2016-10-15" who="#bas">Fixed a few transcription errors and updated and added links for S. Hamilton.</change>
+         <change when="2016-10-12" who="#lmw">Made a few transcribing suggestions and put in viaf link for S. Hamilton.</change>
+         <change when="2016-10-09" who="#bas">Further proofing and transcription errors, especially with gaps and handNotes. Added si for Samuel Hamilton, and a note on the Julian review.</change>
+         <change when="2016-10-04" who="#bas">Updated header to include the correct letter xml:id and idno, fixed minor transcription errors. Added header information.</change>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+          <div type="letter">
+             <pb n="1" facs="9April1823Hamilton1b.JPG 9April1823Hamilton3b.JPG"/>
+            <opener>
+               <add hand="#penAnnot_RCL">To <persName ref="#Hamilton_S">S. Hamilton</persName> Esq<hi rend="superscript">r</hi><metamark rend="X" place="above" function="note_insertion"/><note resp="#penAnnot_RCL">Editor of the Lady's Magazine</note></add>
+               <dateline>
+                  <placeName ref="#ThreeMileCross">Three Mile Cross</placeName>
+                  <date when="1823-04-09">April 9<hi rend="superscript">th</hi> 1823.</date>
+               </dateline>
+               <salute>My dear Sir</salute>
+            </opener>
+             <p>I avail myself of the return of our friend <persName ref="#Talfourd_Thos">Mr. Talfourd</persName> to send you another Article for the Magazine<handShift resp="#penAnnot_RCL"/><metamark rend="dotted_Ex" place="above" function="note_insertion"/><note resp="#penAnnot_RCL">The Lady's Magazine</note><handShift resp="#MRM"/>--I have one <add place="above"><metamark place="below" function="insertion" rend="caret"/>half written</add>,<!-- 2018-02-09 bas: On the website, the caret is appearing above the text when it really should appear below. Is it possible to have the "add" element start after the metamark? The code is fine with it, I just wonder how it will look on the site. --> which you shall have by the middle of next week at latest--much sooner if I can find an opportunity--<gap reason="torn" unit="chars" quantity="1"/><unclear><supplied resp="#ga">o</supplied></unclear>n the subject of the "Mayings" which the Country people hold in the North of <placeName ref="#Hampshire_county">Hampshire</placeName>--I mention this to you because perhaps on account of the subject you might like to keep room for it this Month--It will be rather longer than the enclosed but not much.</p> 
+             <p>I find that my <rs type="person" ref="#Mitford_Geo">Father</rs> explained to you the mistake respecting <title level="m" ref="#Foscari_MRMplay">Foscari</title>--Be assured that it was not intentional--I don't at all know what will be the event of that play--but as you say <gap reason="torn" unit="word" quantity="1"/><unclear><supplied resp="#bas">there</supplied></unclear> is no hurry. I should at all events wish <gap reason="torn" unit="word" quantity="1"/><unclear><supplied resp="#ga">to</supplied></unclear> keep open <gap reason="torn" unit="chars" quantity="3"/><unclear><supplied resp="#ga">com</supplied></unclear>munication with <persName ref="#Elliston_Robt">Mr. Elliston</persName>, if not for <gap reason="torn" unit="word" quantity="1"/><note resp="#ga #bas">Here a tear in the paper obliterates the rest of the line. There is no evidence of what is missing from the end of the line. Here, "for" appears twice; this is how it appears in the letter, and is not a typo. This may be due to the gap at the end of the line where a word may be missing. The missing words could possibly be "that, then" or "it, then", given the context.</note> for other tragedies--if ever I get courage enough to write more for really I have been so attacked as a woman (I do not mind fair criticism--or any criticism on the work) the <rs type="person" ref="#MRM">Author</rs> has been so mixed up with her production, that it is like going into a field of battle to produce a successful play. This must account for &amp; excuse to you the feelings of very unusual irritation under which you saw me--Do not judge of me by the temper I <choice><sic>shewed</sic><reg resp="#bas">showed</reg></choice> then--for really I am a very peaceful quiet person except when so terribly excited--&amp; at present the nervousness having subsided I feel nothing but thankfulness--a deep &amp; abiding thankfulness to all concerned in <title level="m" ref="#Julian_MRMplay">Julian</title>--&amp; am very far indeed from entering into any Cabal against the Manager--As far as <persName ref="#Macready_Wm">Mr. Macready</persName> would be from wishing to engaging me in one.--At present The <title ref="#Foscari_MRMplay">Foscari</title> will remain in the Theatre--perhaps they may return it--but if not it does not seem right to <persName ref="#Talfourd_Thos">Mr. Talfourd</persName> or to me to withdraw it at present.<pb n="2" facs="9April1823Hamilton2b.JPG 9April1823Hamilton4a.JPG"/> The last No. of the Magazine is very good indeed--I have <choice><sic>shewn</sic><reg resp="#bas">shown</reg></choice> it to several persons in this neighborhood as well as distributed the extra copies &amp; have great hopes that it will be taken in by several families--I mean of course <emph rend="underline">our</emph> Magazine.--Can you at all tell who wrote the Article on <title level="m" ref="#Julian_MRMplay">Julian</title> in the <title ref="#LondonMag">London</title>? <note resp="#bas">Mitford is probably referring to the review of <title ref="#Julian_MRMplay">Julian</title> in <title ref="#LondonMag" level="j">The London Magazine</title> published in <date when="1823-04">April 1823</date>. The review praised the clarity of the characters and dialogue, but condemned the plot and acting. Overall, the review held more respect for Mitford's written publication than the stage performance of the play.</note>I exceedingly wish to know--you know I suppose that my reason for wishing <title level="m" ref="#Foscari_MRMplay">Foscari</title> out of <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName> is that <persName ref="#Macready_Wm">Mr. Macready</persName> (to whom I am under so great obligations) may not be called upon to play the <persName ref="#Doge_F">Doge</persName>--<persName ref="#Kemble_C">Mr. Kemble</persName> I know wishes it performed &amp; if they had <persName ref="#Young_CM">Mr. Young</persName> next season I should not object--only I do not wish to be so ungrateful as to impose a part he dislikes on <persName ref="#Macready_Wm">Mr. Macready</persName>--Of course this is between ourselves.--My <rs type="person" ref="#Mitford_Geo">Father</rs> begs his Compliments <gap reason="torn" unit="word" quantity="1"/> dear sir</p>
+             <closer>
+                <lb/>Very truly <choice><sic>your's</sic><reg resp="#bas">yours</reg></choice><lb/>
+                <signed><persName ref="#MRM">MR Mitford</persName></signed><lb/>
+                <address>
+                   <addrLine><persName ref="#Hamilton_S">S. Hamilton</persName> Esq<hi rend="superscript">re</hi></addrLine>
+                   <addrLine>30 Judd Street</addrLine>
+                   <addrLine>Brunswick Square</addrLine>
+                </address>
+             </closer>
+          </div>
+      </body>
+     <back>
+   
+     </back>
+    </text>
+</TEI>

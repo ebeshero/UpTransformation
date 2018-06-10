@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title xml:id="MRM1762">Letter to Sir William Elford, 24 August 1820</title><author>Mary Russell Mitford</author><editor>Rebecca Nesvet</editor><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+               Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal>Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName ref="#rnes">Rebecca Nesvet</persName><persName ref="#lmw">Lisa M. Wilson</persName>
+               <!-- LMW:  proofed against ms. and completed transcription 2015 10-04. Needs revised header. --></respStmt><respStmt><resp>Proofing and corrections by</resp><persName ref="#ebb">Elisa Beshero-Bondar</persName><persName ref="#lmw">Lisa M. Wilson</persName>
+               <!--ebb8: 29 May 2014: Transcription and header needs to be checked. Prosop is good. --></respStmt></titleStmt><editionStmt><edition>This is optional, used to describe this edition, and "should contain phrases
+               describing the edition or version: First digital edition in TEI, date: 2 June 2013.
+               P5.</edition><respStmt><resp>We can include a respStmt here.</resp><persName>Who?</persName></respStmt></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2013</date><availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence></availability></publicationStmt><seriesStmt><title>Digital Mitford Letters: The Mary Russell Mitford Archive</title></seriesStmt><notesStmt><note>Any special notes on this text? (optional)</note><note>You can have multiple notes here.</note></notesStmt><sourceDesc><msDesc><msIdentifier><repository ref="#ReadingCL">Reading Central Library</repository><collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <!-- Change to reflect correct ms. collection. --><idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 411</idno></msIdentifier><head>Letter from Mary Russell Mitford to Sir William Elford <date when="1820-08-24">24 August 1820</date>.</head></msDesc></sourceDesc></fileDesc><encodingDesc><editorialDecl><p>Describes our editorial practice.</p></editorialDecl></encodingDesc></teiHeader><text><body><div type="letter"><opener><dateline><name type="place" ref="#ThreeMileCross">Three Mile Cross</name><date when="1820-08-24">August 24<hi rend="superscript">th</hi>, 1820.</date></dateline><salute>To <persName ref="#Elford_SirWm">Sir William Elford</persName></salute></opener><p>As <persName ref="#Mitford_Geo">Papa</persName> is going to this Club dinner which
+               you my dear Friend wish so devoutly at the ---<note resp="#rnes #lmw">Mitford
+                  anonymizes the place. She likely means "the devil."</note> I take the opportunity
+               of getting a frank to reply to your kind &amp; delightful &amp; most welcome
+               letter.--What you say of <persName ref="#Palmer_Mad">Lady Madelina</persName> is
+               charming--she must be a most fascinating woman--&amp; something better than a
+               fascinating woman to have excited such admiration in you. I hope I shall see her. I
+               went into <placeName ref="#Reading_city">Reading</placeName> yesterday to call on her
+               if she were arrived--but she was not. I saw <persName ref="#Palmer_CF">Mr.
+                  Palmer</persName> &amp; pleased him very much (for he is exceedingly fond &amp;
+               proud of her) by telling him something of what you said. She came however at night, I
+               understand from some friends who have been here today--but today I myself was out
+               coursing according to an engagement of a fortnight's standing. Very likely she will
+               call tomorrow, if not I will wait on her <date>Saturday</date>. You will comprehend,
+               my dear Friend, that your opinion has excited this desire of an honour which to
+               confess the truth I have hitherto rather shunned--I don't know why--but in spite of
+               my age &amp; my rotundity &amp; rubincundity which seem to <del rend="squiggles" unit="word" n="3"/><add place="above">take away my</add>right to such feelings, I
+               am by fits &amp; starts desperately shy--I have a particular aversion to seeing
+               people who desire to see one as they would desire to see <persName ref="#Punch">Punch</persName>, which I rather understood to be the case with the party in
+               question. Another thing was, that her particular friend &amp; favourite in this
+               neighborhood is a person whom I do not like. A single woman of eight &amp; thirty
+               with manners too light, too bold too young for eighteen--rouge on her cheeks and a
+               leer in her eyes--a rattle without an idea--full of the outward and visible signs of
+               cheerfulness, but with none of the inward and spiritual grace<pb n="2"/>--a person
+               whose hoity-toityness is depressing beyond beyond conception--this was the favorite
+               of the chosen, of one whose station &amp; talents gave her the power to <choice><sic>chuse</sic><reg>choose</reg></choice>--And this it was that gave me the impression which you must have seen &amp;
+               which you have so completely counteracted. But I have not you yourself something
+               judged of people by their associates? Don't you like to meet with good company in the
+               hearts of your friends, as well as at their tables? Now that we shall have you to
+               talk about we shall get on excellently--&amp; except that she will be furiously
+               disappointed, &amp; that I shall be shy &amp; ashamed when ever I think of my
+               letters--those letters which are first like so many bottles of ginger beer, bouncing
+               &amp; frothy &amp; flying in every body's face--with these trifling drawbacks we
+               shall admire one another as much as is proper &amp; possible. N. B. I hope &amp;
+               trust my dear friend that friend that you will have the discretion to keep this
+               paragraph to yourself--at least not to let any one see it <del rend="squiggles" unit="word" n="1">by</del>through whom it can by any chance work round to her
+               Ladyship's ears.<metamark rend="#jerk"/></p><p><placeName ref="#Reading_city">Reading</placeName>--&amp; which is worse <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> is <persName ref="#Queen_Caroline">Queen</persName>-mad.--Our opinions I believe are exactly
+               alike--The letter was a firebrand tossed by a hand as reckless as it is mischievous.
+               I have no patience with the meetings, &amp; Addresses &amp; the intolerable quantity
+               of nonsense that is talked on the occasion. She may or she may not be guilty to the
+               extent imputed--she may or she may not be able to prove the crime--but no one can
+               think her innocent--It is impossible. No modest woman could endure to hear that which
+               she hears day by day--The courage she displays is the hard impudence of guilt--not
+               the firmness of virtue.--Besides, my dear <persName ref="#Elford_SirWm">Sir
+                  William</persName>, women do not give up reputation except for the gratification
+               of passion.--She cannot be innocent. I say this without having read a syllable of the
+               trial--for having perfectly <del rend="squiggles" unit="word" n="3"/><add place="above">made up my mind</add><pb n="3"/>I do not wish to litter my brains
+               with a quantity of trash just to settle whether an immodest woman be a little more or
+               less bad than I had imagined. You will laugh at my earnestness, but really I am
+               provoked at the quantity of <emph rend="underline"><persName ref="#Queen_Caroline">Queen</persName>ery</emph><note resp="lmw">Here, in a construction akin to
+                  "Whiggery," "Queenery" is used to denote followers of the Queen's party.</note>
+               that is going on here <add place="above">not in this house for <persName ref="#Mitford_Geo">Papa</persName> and <persName ref="#Russell_M">Mama</persName> are very moderate but everywhere else</add>is going on
+               here--There has been a meeting at <placeName ref="#Reading_city">Reading</placeName>,
+               &amp; the address was signed by a thousand of the Inhabitants men and boys--&amp; I
+               am sorry to say by some soldiers quartered there. Is this wise?--The hold she has on
+               the soldier's affections is really alarming--we hear of it on all sides. God grant
+               the trial were safely over! If it do pass by tranquilly, it will do some good by
+               showing ministers that a standing army is a two edged sword.--You see I have not lost
+               all my <orgName ref="#Whigs">Whig</orgName>Whiggery--though I am no <persName ref="#Queen_Caroline">Queen</persName>'s woman, I am indeed not a little disgusted
+               at the part the opposition have taken in the question. Tell me what you think on the
+               subject. For though I have said that our opinions were alike, I spoke only from my
+                  <del rend="squiggles" unit="word" n="1"/><add place="above">my</add>preconceived
+               ideas of your mode of thinking.--I can generally guess what you will say on most
+               points. On <rs type="title" corresp="#ChrstEJrslm_Haydon"><persName ref="#Haydon">Haydon</persName>'s Picture</rs> for instance I foresaw that you did not like
+               the disjointed Head. After all, I myself only like it conditionally--think it answers
+               to the Artist's own design of perfect abstraction--thoughts turned inward &amp;
+               upward--a mind absorbed in the contemplation of its own divine task of immeasurable
+               love--loving the present in the glorious future--This was his intention &amp; this he
+               has accomplished. But I do not think that this was the best expression he would have
+               given--&amp; the disproportion was visible even to my unlearned eyes, though I could
+               not have imagined it to be so monstrous. Moreover no authority can reconcile me to
+               the glory--I do not believe that our Saviour was surrounded by any other light than
+               the <del rend="squiggles" unit="chars" n="2"/>moral effulgence<pb n="4"/> of his
+               divine virtues, &amp; why should that which did not exist in nature be represented in
+               an imitation of nature? Your praise of the rest of the <title corresp="#ChrstEJrslm_Haydon">Picture</title> is a most valuable sanction to my ardent
+               admiration. I am afraid he will not dispose of it as he had hoped--the subscription
+               with the limitation to 10 guineas has entirely failed &amp; he now means to throw it
+               open without limitation--but as those who would have given their 50d. have already
+               given their 10£. I do not foresee much of an advantage from this change. His best
+               chance is in its being purchased by some rich patron of Art--though the largeness of
+               the price &amp; of the picture are both against him. Nevertheless he is going on ding
+               dong with a picture quite as large--&amp; this intensity of purpose &amp; and of
+               will--this absolute devotion to one great end is what I admire in him.--I like his
+               simplicity too, his kindheartedness, his perfect singleness of mind. He is something
+               of a <q>"Gunpowder Percy"</q><note resp="#lmw">A reference to Shakespeare's <title ref="#HenryIVpt1_play">Henry IV part I, act five, scene four</title>. <persName ref="#Falstaff_WS">Falstaff</persName>: "Zounds, I am afraid of this gunpowder
+                  Percy, though he be dead."</note>to be sure, &amp; there is a stern brightness in
+               his insufferable eyes which is exceedingly startling &amp; disagreeable--nevertheless
+               little as I have seen of him--I do like him very much. Next to <persName ref="#Napoleon">Napoleon</persName> &amp; <persName ref="#Chantrey_F">Chantrey</persName>&amp; <persName ref="#Wordsworth_Wm">Wordsworth</persName>. I
+               think him the greatest man of the Age--but <persName ref="#Napoleon">Napoleon</persName> is <emph rend="underline">the</emph> man--there is no putting
+               any body within a million of miles of the Exile of St. Helena. <persName ref="#James_Miss">Miss James</persName> brought me a little Cast of him from
+                  <placeName ref="#Birmingham_city">Birmingham</placeName> which cost sixpence &amp;
+               which is really the most beautiful thing ever seen. He is looking down upon me at
+               this moment with the most gracious benignity. My <persName>little dog</persName> is,
+               as dogs &amp; children always are, a great physiognomist--moreover she is a very
+               fastidious lady--won't go bear one person in a hundred--&amp; has generally speaking
+               a singular aversion to busts &amp; pictures. <persName ref="#Russell_M">Mama</persName> put <persName ref="#Napoleon">Napoleon</persName> down to her
+               expecting that she would as usual growl &amp; bark--when to our great astonishment
+               she ran up to the last<pb n="5"/> put her paws on the shoulders &amp; kissed the
+               beautiful <del rend="squiggles" unit="word" n="1">lips</del><add place="above">mouth</add> three times--She who never in her life kissed any but smiling lips
+               &amp; lips that she loved--<persName ref="#Hill_Lucy">Lucy</persName>'s or mine.--We
+               have lost poor dear <persName ref="#Hill_Lucy">Lucy</persName>--our faithful &amp;
+               excellent servant. It is like losing a limb--I never saw or knew such perfect
+               devotedness as she displayed--she was really absorbed in me--loved all whom I
+               loved--was glad when I was glad &amp; sorry when I was sorry. Poor dear <persName ref="#Hill_Lucy">Lucy</persName>! She is married &amp; I have not even the
+               consolation of liking the <rs type="person" ref="#Hill_Charles">bridegroom</rs>--He
+               is a demure boy--too young--too grave--too fine--too <unclear/>. I know no harm of
+               him &amp; the society of such an excellent &amp; affectionate creature must improve
+               him--but still I cannot like him--&amp; I cannot like a woman of 30 marrying a lad of
+               20. The poor dear face cried for a fortnight before the wedding, night &amp; day.
+               &amp; I really believe if her successor had not arrived that she would even at the
+               last have left her lover in the lurch. I have been to see her according to promise,
+               &amp; she went out coursing with me. She lives in a very beautiful country Mortimer
+               West End--&amp; <placeName ref="#Silchester">Silchester</placeName>--fine
+               localities!--the next time you come &amp; see as you must go to see the old walls at
+                  <placeName ref="#Silchester">Silchester</placeName> &amp; we will call upon
+                  <persName ref="#Hill_Lucy">Lucy</persName>--&amp; is coursing be not quite out of
+               season have a course. I should like you to see what a fine animation a brace of
+               greyhouds after a hare gives to a Landscape.--Did you ever see one?--So you have
+               actually altered that pretty landscape? Really I had not a notion of making a
+               criticism when I remarked to you the effect of those sunny fields. I meant merely to
+               admire the manner in which you had succeeded in the difficult attempt of painting a
+               view from a hill--I have no doubt however but that a Common is equally beautiful--I
+               have a passion for Commons--those pretty <del rend="squiggles" unit="word" n="1"/>
+               irregular green patches with cottages round them &amp; dipping fronds glancing so
+               brightly &amp; crossing foot <pb n="6"/> paths among the scattered trees seem to me
+               the characteristics of English scenery--Ah! they are passing away! We shall soon see
+               nothing but straight hedgerows &amp; gravelled lanes. I sigh over every inclosure
+               bill--&amp; am always delighted when some glorious obstinate bumpkin of the true John
+               Bull breed takes it into his head to quarrel with the Lord of the Manor &amp; oppose
+               one--as is luckily the case in this Parish of <placeName ref="#Shinfield">Shinfield</placeName>.<metamark rend="jerk"/></p><p>I suppose we must talk about books a little must not we! Pray my dear friend have you
+               heard of a novel called <title ref="#Warbeck_Wolfstein_MH">Warbeck of
+                  Wolfstein</title>? It is written by <persName ref="#Holford_Marg_younger">Miss
+                  Holford</persName> who seems to me a bolder woman than the <persName ref="#Queen_Caroline">Queen</persName>. The <persName ref="#Holford_Marg_younger">Miss Holford</persName> who wrote a very fine Poem called <title ref="#Wallace_MHpoem">Wallace</title>. Well this novel is a portrait or rather a
+               hideous caricature of <persName ref="#Byron">Lord Byron</persName>, nobody can
+               mistake it--&amp; yet God forbid it should be at all true. It is dedicated in terms
+               of great affection &amp; familiarity to <persName ref="#Baillie_Joanna">Miss Joanna
+                  Baillie</persName>--for which I am very sorry, since such a <del rend="squiggles" unit="word" n="1"/> sanction <del rend="squiggles" unit="word" n="1"/> will make
+               every body suppose it a retaliation on <persName ref="#Byron_Annab">Lady
+                  Byron</persName>'s part which should of all things have been avoided. But what can
+                  <persName ref="#Holford_Marg_younger">Miss Holford</persName> expect but to be
+                  <del rend="squiggles" unit="word" n="1"/> empaled in <persName ref="#Byron">Lord
+                  B</persName>'s next Poem? By the bye I heard a curious anecdote of him yesterday
+               from a very truth-telling person. A gentleman was with him on a visit to an old house
+               in the country which had the reputation of being haunted--They had been telling ghost
+               stories all the evening &amp; in the middle of the night he was awakened by <persName ref="#Byron">Lord B.</persName> with his hair on end &amp; his teeth
+               chattering--who declared that his room was full of strange shapes &amp; sounds that
+               he could not return to it, &amp; begged his man to allow him to sit by the side of
+               his bed till day light. <add place="above">which he did</add> I have always thought
+               he would end by being a Methodist.--Did I mention to you the second Volume of the
+               American book which <pb n="7"/>is so incredibly good--the <title ref="#SketchBook_WI">Sketch Book</title>? It is a little sentimental--too sentimental certainly-=but
+               the comic part is excellent--particularly the account of Little Britain. I should
+               think the Americans must crow over <persName ref="#Irving_Wash">Mr. Washington <choice><sic>Irvine</sic><reg>Irving</reg></choice></persName> like a hen with one chick. (Do Hens crow? I suspect here is a
+               little confusion of metaphor.)--<title ref="#WinterNts_ND">Winter
+               nights</title>Winter nights by <persName ref="#Drake_Nathan">Dr.
+                  Drake</persName> ought to be such a book as the <title ref="#SketchBook_WI">Sketch
+                  Book</title>--is that when I read it--but it is altogether another thing being
+               indeed the most daring and barefaced specimen of book making which I have met with
+               even in this book making age. Only think of the mean impudence in transcribing pretty
+               nearly all <persName ref="#Goldsmith">Goldsmith</persName>--half <persName ref="#Young_Ed">Young</persName>--three parts of <persName ref="#Collins_Wm">Collins</persName> &amp; a good <unclear>lump</unclear> of the <del rend="squiggles" unit="word" n="1"/><title ref="#Odyssey">Odyssey</title> under the pretence of pointing out three or
+               four unknown, unheard of, authors who have no beauties to detect--&amp; so he
+               compounds his book. Fine thievery--is it not? One forgave him &amp; indeed thanked
+               him for making a book of scraps of <title ref="#Shakespeare_Times_nonfict">Shakespeare
+                  &amp; his Times</title> because the books he stole from were both good &amp;
+               scarce--but to filch from <persName ref="#Cowper">Cowper</persName> &amp; <persName ref="#Goldsmith">Goldsmith</persName> &amp; <persName ref="#Pope_Alex">Pope</persName> is past bearing.--I am now stuck fast in the heaviest book I ever
+               plunged into. <persName ref="#Coxe_Wm">Coxe</persName>'s <title ref="#Life_DukeofMarl_WC">Life of the Duke of Marlborough</title>. Don't read it. It is molten lead. Six
+               dreary endless volumes of military detail &amp; political intrigue--most prosingly
+               written--I shall certainly give it up. <metamark rend="jerk"/></p><p>What an extraordinary thing it is that so many grown persons have had the whooping
+               Cough this summer! <persName ref="#Russell_M">Mama </persName>feels much sympathy for
+                  <persName ref="#Elford_J">Mr. Elford</persName> having been a sufferer <add place="above">years ago</add>in a similar way herself. <del rend="crossout" unit="word" n="10">who with the additional circumstance of being big with
+                  child</del><del rend="squiggles" unit="word" n="2"/> --I should think it very easy to make a
+               good <pb n="8"/>likeness of you--I hope it will be in the <placeName ref="#London_city">London </placeName>Exhibition next year. I shall like to see
+               it.--Adieu my very dear Friend. Excuse this stupid letter--I have been walking all
+               day &amp; my brains seem blown away by the fine keen <placeName ref="#Silchester">Silchester</placeName> air--notwithstanding which I <del rend="squiggles" unit="word" n="1"/><add place="above">may</add> say with <persName ref="#Anacreon">Anacreon</persName>'s Dove <q>"I have chattered like a Pie."</q> You will take
+               this for two letters at least. Pray write soon.</p><closer>Kindest comp<choice><sic><hi rend="superscript">ts</hi></sic><reg>compliments</reg></choice> from all here--Ever my dear <persName ref="#Elford_SirWm">Sir
+                  William</persName> most affectionately <choice><sic>your's</sic><reg resp="#lmw">yours</reg></choice><lb/><persName ref="#MRM">M.R.M.</persName></closer><postscript><p>I hope the parrot was found--or rather that he was enticed back--what a
+                  tantalizing thing to have a <del rend="squiggles" unit="word" n="1"/><add place="above">pet</add>that hears &amp; answers &amp; will not come to the
+                  voice of the charmer.--My dear Friend Adieu. Pray write soon.--<persName ref="#Palmer_Mad">Lady M.P.</persName> has not made her appearance.</p></postscript><closer><address><addrLine><lb/><placeName ref="#Reading_city">Reading</placeName><date when="1820-08-25">August twenty five 1820</date></addrLine><addrLine><lb/><persName ref="#Elford_SirWm">S<hi rend="supserscript">r</hi> W<hi rend="supserscript">m</hi> Elford Bar<hi rend="supserscript">t</hi></persName></addrLine><addrLine><lb/><placeName ref="#Bickham_village">Bickham</placeName></addrLine><addrLine><lb/><persName ref="#Monck_JB">J.B. Monck </persName><placeName ref="#Plymouth_city">Plymouth</placeName></addrLine></address></closer></div></body><back>
+         <!-- added all new backlist to my compilation LMW 2015 10 04 -->
+         <!--ebb8: Prosopography all up to date with site index. --></back></text></TEI>

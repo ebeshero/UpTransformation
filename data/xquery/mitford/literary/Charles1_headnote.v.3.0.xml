@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><?xml-model href='http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng' type='application/xml'
+	schematypens='http://purl.oclc.org/dsdl/schematron'?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Headnote to <title ref="#CharlesI_MRMplay">The Tragedy of Charles the First</title></title><!--Include an xml:id for your text if we have it-->
+            <author ref="#rnes">Rebecca Nesvet</author>
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+            <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <principal>Elisa Beshero-Bondar</principal>
+            <respStmt>
+               <resp>Corrections and proofing by</resp>
+               <persName ref="#ds">Daniel Schierenbeck</persName>
+               <persName ref="#rnes">Rebecca Nesvet</persName>
+               <persName ref="#lmw">Lisa Wilson</persName><!-- 2017-06-23. Corrected spacing, added context tags. Needs some additional SI entries. -->
+               <!--LMW:  Added new backlist of SI entries, compiled from jgf, slc, rnes, lmw. adding new context tags and backlist for citations. 2017-08-05-->
+               <!--LMW: proofing and editing SI entries. 2018-01-02-->
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>First digital edition in TEI, date: 14 June 2015. P5.</edition><respStmt><resp><!--We can include a respStmt here.--></resp><persName><!--Who?--></persName></respStmt>
+           </editionStmt>   
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+               <licence>Distributed under a <orgName>Creative Commons</orgName> Attribution-ShareAlike 3.0
+                  Unported License</licence>
+            </availability>
+            
+         </publicationStmt>
+         
+         
+         <seriesStmt>
+            <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         <notesStmt>
+            <note>
+               <!--ALSO anything we need to say about the preparation of this headnote beyond what we're covering in the rest of this header?]--></note>
+            
+         </notesStmt>
+         
+         <sourceDesc>
+          <p>born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      
+   </teiHeader>
+  <text>
+      <body>
+        
+        <p n="1"><quote>In spite of the unfortunate event of my late effort <title ref="#CharlesI_MRMplay">Charles the First</title>, I still wish to make another
+               attempt at Historical Tragedy,</quote> wrote <persName ref="#MRM">Mary Russell
+               Mitford</persName> on <date when="1825-12-18">18 December 1825</date>. She addressed
+            this missive to <persName ref="#Colman_the_Younger">George Colman</persName>, the London
+            theatre playwright, manager, and advisor to the Licenser of Plays. <persName ref="#MRM">Mitford</persName> planned to dramatize the conflict between the medieval Archbishop
+           <persName ref="#Becket_Thos">Thomas of Becket</persName> and <persName ref="#HenryII">King Henry II</persName>, who
+            apparently arranged <persName ref="#Becket_Thos">Becket</persName>'s assassination. Before writing this
+            work, <persName ref="#MRM">Mitford</persName> wished to know if <persName ref="#Colman_the_Younger">Colman</persName> would approve of its presentation.
+               <quote>Your opinion, or rather your advice, whether for or against the play is all I
+               ask,</quote> she assured him. She would be equally grateful for his approval of the
+            idea or his <quote>kind warning</quote> to desist.
+           <bibl corresp="#MRMtoGC1825">Mitford <biblScope unit="page">413</biblScope></bibl>
+            </p>
+         
+         <p n="2"><persName ref="#MRM">Mitford</persName> had reason to worry that <persName ref="#Colman_the_Younger">Colman</persName> might find her <quote>attempt at Historical Tragedy</quote> objectionable, and even unproduceable. A few weeks earlier, he had advised the Licenser, <persName ref="#Duke_Montrose">Lord Montrose</persName>, to reject <persName ref="#MRM">Mitford</persName>’s completed <title ref="#CharlesI_MRMplay">Tragedy of Charles the First</title>. On <date when="1825-09-29">29 September 1825</date>, <persName ref="#Colman_the_Younger">Colman</persName> informed <persName ref="#Duke_Montrose">Montrose</persName> that <persName ref="#MRM">Mitford</persName>'s title <quote>brings, instantly, to mind the violent commotions</quote> of the Caroline era, and, more dangerously <quote>exhibits the fanatical manners</quote> (mores) and <quote>puritanical cant</quote> of <persName ref="#Cromwell">Oliver Cromwell</persName> and his associates. Also, she <quote>blasphemously</quote> employs <quote>Scriptural allusions, &amp; quotations,</quote> and characters take the name of the Lord in vain <bibl corresp="#GCtoJG1825">Colman <biblScope unit="page">408</biblScope></bibl>. <persName ref="#Duke_Montrose">Montrose</persName> concluded that the play is <quote>certainly not proper for representation</quote><bibl corresp="#JGtoGC1825">Graham <biblScope unit="page">410</biblScope></bibl> in a theatre. On <date when="1825-10-10">10 October</date>, <persName ref="#Colman_the_Younger">Colman</persName> duly <quote>suspended</quote> the play's license on account of its <quote>peculiar title &amp; incidents</quote> <bibl corresp="#GCtoMRM1825">Colman to Mitford, <biblScope unit="page">409</biblScope></bibl>. In these two men's shared view, <persName ref="#MRM">Mitford</persName>’s depiction of the events leading up to <rs type="event" ref="#regicide">the Regicide</rs> could not be produced for public audiences.</p>
+         
+         <p n="3">That <persName ref="#MRM">Mitford</persName> did not check with <persName ref="#Colman_the_Younger">Colman</persName> before writing this play reinforces the impression that <persName ref="#Duke_Montrose">Montrose</persName>’s decision blindsided her. Perhaps it should not have. On Saturday, <date when="1649-01-26">26 January 1649</date>, <persName ref="#ChasI">Charles Stuart</persName>, formerly known as King <persName ref="#ChasI">Charles I</persName>, was tried for High Treason, convicted, and sentenced to death. The sentence was carried out four days later, on a scaffold erected in front of the ornate <placeName ref="#Banqueting_House">Banqueting-House</placeName> that had been designed for his father by <persName ref="#Jones_Inigo">Inigo Jones</persName>. <persName ref="#Jones_Inigo">Jones</persName> had also been a designer of stage sets, so the execution of the once-royal prisoner, who approached wearing densely bejewelled gloves, might have seemed particularly theatrical. But a generation later, in <date when="1660">1660</date>, the English monarchy was restored, under <persName ref="#ChasI">Charles</persName>'s son <persName ref="#ChasII">Charles II</persName>. In that year, the Act of Indemnity and Oblivion criminalized any discussion of <rs type="event" ref="#regicide">the Regicide</rs> that might serve to <quote>revive the memory of the late differences,</quote> or to investigate any surviving Briton’s involvement in <persName ref="#ChasI">Charles</persName>’s deposition and death <bibl corresp="#Writing_Eng_Rep">Norbrook <biblScope unit="page">1</biblScope></bibl>.</p>
+         
+         <p n="4">This Act suppressed Commonwealth history well into the eighteenth century. For instance, the late-eighteenth-century descendants of one Regicide, <persName ref="#Hutchinson_John">Colonel John Hutchinson</persName>, embargoed his wife <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson"><persName ref="#Hutchinson_Lucy">Lucy Hutchinson</persName>’s manuscript account</title> of her husband’s exploits, her own political activity, and her hopes for a future in which their religious and political ideals would not be condemned. When the historian and <q>Republican Virago</q> <persName ref="#Macauley_C">Catharine Macaulay</persName> <date from="1731" to="1791">(1731-1791)</date> implored the Hutchinson descendant <persName ref="#Hutchinson_Thos">Sir Thomas Hutchinson</persName> to publish the memoir, he refused <bibl corresp="#Memoirs_of_the_life_of_Colonel_Hutchinson">See Hutchinson, J., ed., 'Preface'</bibl>. It first appeared, with a profusion of Whiggish apology from <persName ref="#Hutchinson_Thos">Sir Thomas</persName>'s nephew <persName ref="#Hutchinson_Julius">Julius Hutchinson</persName>, in <date when="1806">1806</date>.</p>
+                            
+         <p n="5">Despite the horror that <rs type="event" ref="#regicide">the Regicide</rs> evoked during the <rs type="event" ref="#Restoration">Restoration</rs>, early in the eighteenth century it was the subject of a stage tragedy in which it carried a politically mainstream meaning. As <persName ref="#Colman_the_Younger">Colman</persName> and <persName ref="#Duke_Montrose">Montrose</persName> knew, in <date when="1737">1737</date>, the playwright <persName ref="#Havard_Wm">William Havard</persName> had seen his <title ref="#HavardChasI_play">King Charles the First, An Historical Tragedy</title> produced at <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>. In <date when="1737">1737</date>, <persName ref="#ChasI">Charles I</persName> was generally associated not with tyrannical monarchy, but with treason against the new Hanoverian dynasty, because his brother's descendants and self-proclaimed heirs, the <q>Old Pretender</q> <persName ref="#James_oldPretender">James Francis Stuart</persName> and <q>Young Pretender,</q> <persName ref="#Stuart_ChasEd">Charles Edward Stuart</persName> (also known as "<q>Bonnie Prince Charlie</q>") threatened Britain with invasion. This threat the Stuart faction carried out twice, in <date when="1715">1715</date> and <date when="1719">1719</date>, and would attempt for a final time in  <date when="1745">1745</date>. In this context, <q>Stuart</q> typically meant <q>traitor.</q> The late eighteenth-century evaporation of the <orgName ref="#Jacobite">Jacobite</orgName> threat, observes critic <persName ref="#McCoy_Rich">Richard McCoy</persName>, made <persName ref="#Havard_Wm">Havard</persName>'s <persName ref="#ChasI">Charles</persName> a figure of pathos and pity <bibl corresp="#AlterationsOfState">McCoy <biblScope unit="page">135</biblScope></bibl>. Thus abjectly humanized, the doomed king did not invite parallel with <persName ref="#GeoII">George II</persName>.</p>
+         
+         <p n="6">By the <rs type="event" ref="#Regency">Regency</rs>, the meaning of the <rs type="event" ref="#regicide">Regicide</rs> had again changed. The massive unpopularity of the <q>mad</q> king <persName ref="#GeoIII">George III</persName> (d. <date when="1820-01-29">1820</date>) and his successor <persName ref="#GeoIV">George IV</persName> invalidated <persName ref="#Havard_Wm">Havard</persName>'s safeguards. One copy of the <date when="1806">1806</date> edition of <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Lucy Hutchinson's memoir</title>, now in the collection of <orgName ref="#UCLA">the University of California at Los Angeles</orgName>, testifies to this change. In this copy, anonymous manuscript annotations likely written between <date when="1806">1806</date> and <date when="1811">1811</date><note resp="#rnes">Date of annotations estimated based on textual references to the future <persName ref="#GeoIV">George IV</persName>, Prince Regent from <date when="1811">1811</date> to <date when="1820">1820</date>, as the <persName ref="#GeoIV">Prince of Wales</persName>.</note> communicate horrified premonitions. The annotator sees <quote>horrid omens</quote> in the play's dedication to the <persName ref="#GeoIV">Prince of Wales</persName>: omens, perhaps, that he would die by legislative fiat, as did <persName ref="#LouisXVI">Louis XVI of France</persName> in <date when="1793">1793</date>. And then: <quote>The fanaticism of the writer [<persName ref="#Hutchinson_Lucy">Lucy Hutchinson</persName>], &amp; the Jacobinism of the Editor [<persName ref="#Hutchinson_Julius">Julius Hutchinson</persName>], render a steady perusal impossible. Yet it is dedicated with permission to the <persName ref="#GeoIV">Prince of Wales</persName>! O horrible most horrible!</quote> <note resp="#lmw #rnes">See <cit><bibl>UCLA copy containing the notes of the anonymous annotator, which may be accessed at Internet Archive: <ref target="https://archive.org/details/lifeofcolonelhut00hutc"/></bibl></cit></note><!--RN to self: add citation for forthcoming "Hutchinson and Hayes" article when page numbers are available. 6/20/2017--> Later in the <rs type="event" ref="#Regency">Regency</rs>, <persName ref="#Scott_Wal">Sir Walter Scott</persName> created a new narrative of the defunct <orgName ref="#Jacobite">Jacobite</orgName> struggle. In this narrative, <persName ref="#GeoIV">George IV</persName> inherited the Stuart claim to the British throne and even earned a dubious Scottish cultural identity by dint of his distant Scottish ancestry and the apparent will of the people of <placeName ref="#Edinburgh">Edinburgh</placeName>, through a royal visit that had been carefully stage-managed by <persName ref="#Scott_Wal">Scott</persName> <bibl corresp="#PossibleScotlands">McCracken-Flesher <biblScope unit="page">109</biblScope>.</bibl></p>
+            
+         <p n="7">Meanwhile, voices of reform began to put the suppressed memory of the Regicides to new and radical use. In <date when="1819">1819</date>, <persName ref="#Shelley_PB">Percy Bysshe Shelley</persName> began writing another <title ref="#CharlesI_PBS">tragedy based on <persName ref="#ChasI">Charles the First</persName></title>. As <persName ref="#Crook_N">Nora Crook</persName> demonstrates, this radical political drama deprecates both <persName ref="#ChasI">Charles</persName> and <persName ref="#Cromwell">Cromwell</persName>, and explores the utopian potential of the Commonwealth envisioned by the complicated rebel and republican martyr Sir <persName ref="#Vane_hist">Henry Vane</persName>. Why <persName ref="#Shelley_PB">Shelley</persName> abandoned this play is unclear, but he wrote in frustration of his sympathy for <persName ref="#ChasI">Charles</persName>, suggesting that his envisioned Regicidal drama was self-censored <bibl corresp="#Calumniated_Rep">Crook, "Calumniated Republicans" <biblScope unit="page" from="163" to="165">163-165</biblScope></bibl>; see also <bibl corresp="#ShelleysLate">Crook, "Shelley's Late" <biblScope unit="page" from="300-301">300-301</biblScope></bibl>.</p>
+         
+         <p n="8">While <persName ref="#Shelley_PB">Shelley</persName>’s <title ref="#ChasI_PBS">Charles the First</title> fulfilled a political exigency, <persName ref="#MRM">Mitford</persName> was drawn by the subject’s potential as a vehicle for the actor-manager <persName ref="#Macready_Wm">William Macready</persName>. To <persName ref="#MRM">Mitford</persName>, <persName ref="#Cromwell">Cromwell</persName> was <quote>one of the most remarkable creatures that ever figured in the great Theatre of Life</quote><note resp="rnes">See Mitford's 1834 Preface to <title ref="CharlesI_MRMplay">Charles I</title></note>. Modern historians agree: as <persName ref="#Marshall_Alan">Alan Marshall</persName> contends, <quote>few men in the past have attracted more enthusiasts and detractors</quote><bibl corresp="#Cromwell_Soldier">Marshall <biblScope unit="page">7</biblScope></bibl>. <persName ref="#Macready_Wm">Macready</persName> tended to play rebels and despots, including <persName ref="#RichardIII_WS">Richard III</persName>; the pseudohistorical Swiss revolutionary <persName ref="#Tell_William_SK">William Tell</persName>; <persName ref="#Byron">Lord Byron</persName>'s doomed Oriental tyrant <persName ref="#Sardanapalus_By">Sardanapalus</persName>; and the <persName ref="#Richelieu_EBL">Cardinal Richelieu</persName>, the posthumously infamous architect of <persName ref="#LouisXVI">Louis XIV</persName>'s France, who is now perhaps best known as the villain in <title ref="#ThreeMusketeers">The Three Musketeers</title>.</p>
+         
+        <p n="9">At the same time, <persName ref="#MRM">Mitford</persName>'s <title ref="#CharlesI_MRMplay">Charles the First</title> is not apolitical. <persName ref="#dsa">Diego Saglia</persName> has demonstrated that many plays produced in the <placeName ref="#London_city">London</placeName> patent theatres during the 1820s opening of the Age of Reform investigate the concept of liberty, and <persName ref="#MRM">Mitford</persName>’s are no exception. As <persName ref="#dsa">Saglia</persName> points out, her <title ref="#Rienzi">Rienzi</title>, inspired by the medieval Italian rebel (or demagogue) <persName ref="#Rienzo_hist">Cola di Rienzo</persName>, fits this description. So does <title ref="#CharlesI_MRMplay">Charles the First</title>, whose characters attempt to balance different sorts of liberties—domestic as well as political and spiritual <bibl corresp="#Talking Demon"> , 'The Talking Demon' <biblScope unit="page">363</biblScope></bibl>. In this play, <persName ref="#Cromwell">Cromwell</persName> claims to represent the people of <placeName ref="#England">England</placeName>, but privately nurses tyrannic ambition. <persName ref="#MRM">Mitford</persName> indicates this hypocrisy early in the drama, by giving <persName ref="#Cromwell">Cromwell</persName> conspiratorial asides reminiscent of those of <persName ref="#Shakespeare">Shakespeare</persName>'s (and <persName ref="#Macready_Wm">Macready</persName>'s) <persName ref="#RichardIII">Richard III</persName>. For example, while <persName ref="#Cromwell">Cromwell</persName> allows his <orgName ref="#New_Model_Army">New Model Army</orgName> comrades to brainstorm ways to deal with the deposed king, and one, <persName ref="#Harrison_hist">Major-General Sir Thomas Harrison</persName> suggests exiling him like the Biblical king <persName ref="#Amaziah">Amaziah</persName>, <persName ref="#Cromwell">Cromwell</persName> remarks <quote><stage>(Aside)</stage> Ha! And they slew him [Amaziah]!</quote> Thus <persName ref="#Cromwell">Cromwell</persName> diabolically deciphers <persName ref="#Harrison_hist">Harrison</persName>'s unspoken wish, then engineers its dread fulfillment as a communal act. And yet, he also persuasively champions political liberty. He warns the would-be Regicides that should <persName ref="#ChasI">Charles</persName> survive, he will avenge himself. Then:</p>
+            <quote><l>[...] with us will die</l>
+            <l>The liberty for which the blood of saints</l>
+            <l>And martyrs hath been spilt, freedom of act,</l>
+            <l>Of speech, of will, of faith!</l></quote>
+         <p>Surely this is a paean to liberty, no matter its motivation.</p>
+         <p><persName ref="#MRM">Mitford</persName>'s representation of <persName ref="#ChasI">Charles</persName> seems equally diplomatic. <persName ref="#ChasI">Charles</persName>’s complicating humanity apparently catalyzed <persName ref="#Shelley_PB">Shelley</persName>’s internal censor, but <persName ref="#MRM">Mitford</persName> embraces psychological and moral complexity, making <persName ref="#ChasI">Charles</persName> at once a loving father, an impassioned husband, and a disastrous king. <persName ref="#Queen_Ch1">Henrietta Maria</persName>, <persName ref="#ChasI">Charles</persName>'s French queen, displays similar depth--and frequently steals the scene. Anachronistically styling herself a Gothic heroine, <persName ref="#Queen_Ch1">Henrietta Maria</persName> stalks castle corridors in search of her imprisoned love, rails at his enemies, and, when she finds him, offers to trade her life for his via a ruse that strongly anticipates <persName ref="#Carton_Sidney">Sydney Carton</persName>’s redemptive self-sacrifice in <title ref="#TaleOf2Cities">A Tale of Two Cities</title>, which <persName ref="#Dickens_Chas">Charles Dickens</persName> would not write until four years after <persName ref="#MRM">Mitford</persName>’s death.</p>
+         
+         <p n="10">When Mitford's rich dramatic tapestry failed to impress <persName ref="#Colman_the_Younger">Colman</persName> and <persName ref="#Duke_Montrose">Montrose</persName>, <persName ref="#MRM">Mitford</persName> revised it, and it was finally staged and published in <date when="1834">1834</date>. By then, the climate had become more favorable. In a new preface, <persName ref="#MRM">Mitford</persName> claims that although her work was never <quote>revolutionary, [...] against such a king as <persName ref="#WilliamIV">William IV</persName>,</quote> rebellion's <quote>shafts would fall harmless.</quote><!--LMW:  Do we need a reference to our own edition here? --> (How they might have struck <persName ref="#GeoIV">George IV</persName> in <date when="1825">1825</date>, she does not speculate.)</p>              
+         
+         <p n="11">Still, the <q>unfortunate event</q> that linked <title ref="#CharlesI_MRMplay"><persName ref="#MRM">Mitford</persName>'s play</title> with English Republican transgression may have kept haunting her. In <date when="1840">1840</date>, the struggle for various kinds of reform, including working-class male suffrage, had culminated with the composition of the <title ref="#Peoples_Charter">People’s Charter</title> and its presentation to <orgName ref="#Parliament_UK">Parliament</orgName>. Its suspected primary author, <persName ref="#Lovett_Wm">William Lovett</persName>, was serving a three-year sentence at <placeName ref="#Warwick_Gaol">Warwick Gaol</placeName> for having allegedly incited <orgName ref="#Chartist_demonstrators">Chartist demonstrators</orgName> at <placeName ref="#Birmingham_city">Birmingham</placeName>’s <placeName ref="#Bull_Ring">Bull Ring</placeName> to violence. <persName ref="#MRM">Mitford</persName> was writing on commission again, this time for the ornate illustrated compendium <title ref="#Findens_Tableaux_annual">Finden’s Tableaux</title>. <title ref="#RoundheadsDa_FT">The Roundhead’s Daughter</title> makes it clear where her sympathies lie with regards to the <rs type="event" ref="#EngCivilWar">English Civil War</rs>, the Commonwealth, and the <rs type="event" ref="#regicide">Regicide</rs>. In this story, <persName ref="#MRM">Mitford</persName>’s <orgName ref="#Parliamentarians">Parliamentarians</orgName> are <quote>Puritans</quote>, and are stereotypically Puritanical. The heroine, <persName ref="#Goodwin_Mabel">Mabel Goodwin</persName>, wears <quote>the pinched coif and demure kerchief of the Puritans,</quote> squandering her beauty <bibl corresp="#RoundheadsDa_FT"><biblScope unit="page">36</biblScope></bibl>. Also squandered by the Commonwealth-men are <placeName ref="#England">England</placeName>’s land and cultural heritage. In <date when="1658">1658</date>, the English countryside is characterized by <quote>neglected desolation,</quote> and the heroine’s suitor’s father, the disenfranchised Cavalier <persName ref="#Montresor_Phil">Lord Philip Montresor</persName>, has seen his <quote>magnificent mansion,</quote> where <quote>the <persName ref="#ElizI">Virgin Queen</persName></quote> once danced with his ancestor, stolen by the Committee of Sequestration and bestowed upon <persName ref="#Goodwin_Mabel">Mabel</persName>’s father, <persName ref="#Goodwin_Col">Colonel Goodwin</persName>, <quote>a plain soldier and zealous Roundhead</quote><bibl corresp="#RoundheadsDa_FT"><biblScope unit="page">36</biblScope></bibl>. Luckily, <persName ref="#Goodwin_Mabel">Mabel</persName> defies her father and <persName ref="#Cromwell">Cromwell</persName>’s regime to marry her nobleman, and, after the <rs type="event" ref="#Restoration">Restoration</rs>, <persName ref="#Montresor_Phil">Lord Philip</persName> magnanimously saves the <persName ref="#Goodwin_Col">Colonel</persName> and facilitates the <quote>reconciliation</quote> in <quote>tranquillity</quote> of the formerly warring factions. Like the ending of <title ref="#Waverley">Waverley</title>, that of <title ref="#RoundheadsDa_FT">The Roundhead’s Daughter</title> preaches reconciliation in a context favorable to the Hanoverian victors. Also uniting morality (<q>Good win[s]</q>) with wealth (Montresor means <q>my treasure</q>), <persName ref="#MRM">Mitford</persName> lets her audience know that in the Victorian era, the dissensions of the <rs type="event" ref="#EngCivilWar">Civil War</rs> have been completely healed.</p>
+         
+         <p n="12">Only that was perhaps an optimistic view. Even in the twentieth century, physically simulating the corporeal reality of the <rs type="event" ref="#regicide">Regicide</rs> on the mainstream <placeName ref="#London_city">London</placeName> stage remains taboo. In the <date when="2012">2012</date> <placeName ref="#HampstTh">Hampstead Theatre</placeName>, <placeName ref="#London_city">London</placeName> premiere of <persName ref="#HowardBrenton">Howard Brenton</persName>’s play <title ref="#_55Days_play">55 Days</title>, the executioner lifts his axe above the deposed king, but before the blade can fall, the curtain does. The continuing controversiality of this execution as stage drama compels us to reread <persName ref="#MRM">Mitford</persName>'s take—and perhaps to revive it.</p>
+       </body>
+
+     <back>
+        
+       <div type="historical_people">
+          <listOrg sortKey="histOrgs">
+             <org xml:id="UCLA">
+                <orgName>University of California, Los Angeles</orgName>
+                <orgName><addName>UCLA</addName></orgName>
+            </org>
+             
+             <org xml:id="Chartist_demonstrators">
+                <orgName>Chartists</orgName>
+                <orgName><addName>Chartist demonstrators</addName></orgName>
+                <note resp="#lmw">Members of the Chartist movement working for political reform in Great Britain <date from="1838" to="1857">between 1838 and 1857</date>. The movement and its supporters took their name from the People's Charter (1838), a statement of their political aims. The movement aimed to achieve six reforms, largely through constitutional methods, including the presentation of petitions to the House of Commons signed by millions of citizens. The reforms included: 1)universal manhood suffrage for those age 21 and above, eliminating the property ownership requirement for male voters, 2)vote by secret ballot, eliminating the publication of votes 3)elimination of the property requirement for Members of Parliament, 4)payment for service as a Member of Parliament, making office-holding financially feasible for those without independent incomes, 5)redrawing constituency boundaries to ensure that each M.P. represented the same number of voters, equalizing constituencies and eliminating so-called rotten boroughs, and 5)annual parliamentary elections, aimed at decreasing the practice of bribing or intimidating voters.</note>
+             </org>
+             
+             <org xml:id="Parliamentarians">
+                <orgName>Parlimentarians</orgName>
+                <note resp="#lmw">Supporters of <persName ref="#Cromwell">Cromwell</persName> and the parliamentary cause in the <rs type="event" ref="#EngCivilWar">English Civil War</rs>. Also called English Republicans or Roundheads.</note>
+             </org>
+             
+             <!--LMW to RN: also add entry for Royalists/Cavaliers? -->
+             
+             <org xml:id="Puritans">
+                <orgName>Puritans</orgName>
+                <note resp="#rnes #lmw">Began in the 16th century as an anti-Catholic reform movement within the Church of England, some of whose members emigrated to the Netherlands, Ireland, and Scotland, and later to America. Puritans were not a single religious sect with a unified theological or political viewpoint. In the early 17th century, they allied themselves with Scottish Presbyterians and with English parliament members who opposed the royal perogative. They came to power after the first English Civil War and the majority of Puritan clergy left the Church of England after the Restoration to practice as nonconformists/dissenters.</note>
+             </org>
+             
+             <org xml:id="Jacobites">
+                <orgName>Jacobites</orgName>
+                <note resp="#rnes">Supporters of the Stuart cause. Named after the <q>line of <persName ref="#JamesI">Jacob</persName>,</q> that is, the descendants of <persName ref="#JamesI">James I</persName>.</note>
+             </org>
+         </listOrg>
+      
+          <listPerson sortKey="histPersons">
+             <person xml:id="Becket_Thos" sex="m">
+                <persName>Thomas Becket</persName>
+                <persName>
+                   <surname>Becket</surname>
+                   <forename>Thomas</forename>
+                   <roleName>Archdeacon of Canterbury</roleName>
+                   <roleName>Lord Chancellor</roleName>
+                </persName>
+                <persName><addName>Thomas of London</addName></persName>
+                <persName><addName>Saint Thomas of Canterbury</addName></persName>
+                <persName><addName>Thomas à Becket</addName></persName>
+                <birth when="1118-12-21">
+                   <placeName>London, England</placeName></birth>
+                <death when="1170-01-29">
+                   <placeName>Canterbury, Kent, England</placeName></death>
+                <occupation>clergy</occupation>
+                <occupation>politician</occupation>
+                <occupation>priest</occupation>
+                <occupation>archdeacon</occupation>
+                <occupation>bishop</occupation>
+                <occupation>martyr</occupation>
+                <note resp="#jgf #lmw #rnes">As Archbishop of Canterbury, Becket quarreled with King Henry II over the balance of power between the church and crown. Becket was murdered by four knights while at prayer in Canterbury Cathedral. The king had reportedly been heard to ask the four knights "Will no one rid me of this meddlestome priest?," thereby calling for Becket's assassination without literally ordering it. Becket was canonized by the Roman Catholic Church as a saint in 1173.</note>
+                <note><ref target="http://viaf.org/viaf/100187947"/></note>
+             </person>
+             
+             <person xml:id="HenryII" sex="m">
+                <persName>Henry II</persName>
+                <persName>
+                   <surname>Plantagenet</surname>
+                   <forename>Henry</forename></persName>
+                <persName>Henry of Anjou</persName>
+                <persName>
+                <roleName>Duke of Normandy</roleName>
+                <roleName>Duke of Anjou</roleName>
+                <roleName>Duke of Maine</roleName>
+                <roleName>Duke of Touraine</roleName>
+                   <roleName>King of England</roleName></persName>
+                <birth when="1133"><placeName>Le Mans, France</placeName></birth>
+                <death when="1189-07-06"><placeName>Chinon Castle, near Tours, France</placeName></death>
+                <occupation>royalty</occupation>
+                <occupation>military</occupation>
+                <note resp="#jgf #slc #rnes">Henry II, the son of Geoffrey Plantagenet and the Empress Matilda, was denominated the heir of Matilda's cousin King Stephen at the conclusion of the Wars of Stephen and Matilda. Ruler of an empire that stretched from France to Scotland, Henry is known for his marriage to Eleanor of Aquitaine, his quarrel with and apparent involvement in the assassination of Thomas of Becket, Archbishop of Canterbury (later St. Thomas of Canterbury), and the wars between his sons, which contributed to his death at the age of fifty-six. Source: Britannica.</note>
+                <note><ref target="https://viaf.org/viaf/90145970073532250834"/></note>
+             </person>
+             
+             <person xml:id="Jones_Inigo" sex="m">
+                <persName>Inigo Jones</persName>
+                <persName>
+                   <surname>Jones</surname>
+                   <forename>Inigo</forename>
+                </persName>
+                <birth when="1573-07-15"><placeName>Smithfield, London, England</placeName></birth>
+                <death when="1652-06-21"><placeName>Somerset House, the Strand, London, England</placeName></death>
+                <occupation>theater</occupation>
+                <occupation>set designer</occupation>
+                <occupation>architect</occupation>
+                <occupation>artist</occupation>
+                <note resp="#rnes">Educated in Italy, Inigo Jones attracted the patronage of the English and Scandinavian courts and developed the English Neoclassical style of architecture. His buildings include James I's Banqueting Hall at Whitehall Palace, London which, within Jones's lifetime, later served as the backdrop for the execution of Charles I.</note>
+                <note><ref target="https://viaf.org/viaf/66475425"/></note>
+             </person>
+             
+             <person xml:id="Hutchinson_John" sex="m">
+                <persName>John Hutchinson
+                   <surname>Hutchinson</surname>
+                   <forename>John</forename>
+                   <roleName>Colonel</roleName>
+                   <roleName>Sir</roleName>
+                   <roleName>Governor of Nottingham Castle</roleName>
+                   <roleName>Commissioner, High Court of Justice</roleName>
+                   <roleName>Member, Council of State</roleName>
+                   <roleName>Member of Parliament for Nottingham</roleName>
+                </persName>
+                <birth from="1615-01" to="1616-12"><placeName>Nottinghamshire</placeName></birth>
+                <death when="1664-09-11"><placeName>Sandown Castle, Kent, England</placeName></death>
+                <occupation>politician</occupation>
+                <occupation>military</occupation>
+                <occupation>soldier</occupation>
+                <occupation>legal</occupation>
+                <occupation>judge</occupation>
+                <occupation>regicide</occupation>
+                <note resp="#rnes">A Cambridge-educated Parliamentarian leader of Puritan convictions during the English Civil Wars, Hutchinson subsequently participated in the trial of Charles I and signed his death warrant, thereby becoming a regicide. The husband and biographical subject of the writer Lady Lucy Hutchinson, Hutchinson escaped execution for regicide under suspicious circumstances apparently engineered by his wife. However, he was arrested in 1663 for allegedly plotting against King Charles II and died in prison. The extremely belated publication of Lucy Hutchinson's Memoirs of the Life of Colonel Hutchinson (1806) made him posthumously famous.</note>
+                <note><ref target="https://viaf.org/viaf/10793919"/></note>
+             </person>
+             
+             <person xml:id="Hutchinson_Lucy" sex="f">
+                <persName>Lucy Hutchinson</persName>
+               <persName>
+                <surname type="paternal">Apsley</surname>
+                <surname type="married">Hutchinson</surname>
+                <forename>Lucy</forename>
+                <roleName>Lady</roleName>
+               </persName>
+                  <birth when="1620">
+                     <placeName>England</placeName>
+                  </birth>
+                  <death when="1681"><placeName>Owthorpe, Nottinghamshire, England</placeName></death>
+             <occupation>literary</occupation>
+                <occupation>biographer</occupation>
+                <occupation>poet</occupation>
+                <occupation>translator</occupation>
+                <occupation>theologian</occupation>
+                <note resp="#rnes"><p>An exceptionally well-educated and self-assured early modern woman whose literary achievements are extremely significant. Her works include the first complete English translation of Lucretius's controversial Epicurean poem De Rerum Natura (in ms. only until 2012), the epic poem Order and Disorder, which has been read as a proto-feminist take on Genesis that invites comparison with her contemporary John Milton's Paradise Lost, and her Memoir of the Life of Colonel John Hutchinson, a biography of her husband that brings to life the drama of the Civil Wars and the idealism of the Puritans, particularly for religious liberty and republican government. This work, published in 1806, is the only Lucy Hutchinson composition that was known as such during <persName ref="#MRM">Mitford</persName>'s lifetime.</p>
+                   <p>Born Lucy Apsley, the daughter of Sir Allen Apsley, Lieutenant of the Tower of London. In 1638 she fell mutually in love with and married Sir John Hutchinson. While he fought on the Parliamentarian side in the English Civil Wars, she provided material assistance, at one point contriving for her brother-in-law (Hutchinson's brother) to pose as him while the real Colonel Hutchinson escaped arrest by the Royalists. At the <rs type="event" ref="#Restoration">Restoration</rs>, she may have saved his life by forging an apologetic letter that he might have been more reticent to write.</p>
+                   <p>As the critic Devoney Looser has shown, Lucy Hutchinson became an extremely well-known figure during the nineteenth century, featuring as a heroine in many works of fiction and drama.</p></note>
+                <note><ref target="http://viaf.org/viaf/88059790"/></note>
+             </person>
+             
+             <person xml:id="Macauley_C" sex="f">
+                <persName>Catharine Macauley</persName>
+                <persName>
+                <surname type="paternal">Sawbridge</surname>
+                <surname type="married">Macauley</surname>
+                <surname type="married">Graham</surname>
+                <forename>Catharine</forename>
+                </persName>
+                <birth when="1731-03-21">
+                   <placeName>Olantigh, Wye, Kent, England</placeName></birth>
+                <death when="1791-06-22">
+                   <placeName>Binfield, Berkshire, England</placeName></death>
+                <occupation>literary</occupation>
+                <occupation>essayist</occupation>
+                <occupation>historian</occupation>
+                <occupation>reformer</occupation>
+                <note resp="#jgf #lmw">Important English historian during the eighteenth century, celebrated and vilified during her lifetime as a female intellectual, "Bluestocking," and the "Republican Virago." Her politics were Whig, reformist, and anti-Catholic, and they became increasingly radical in her later years, when she attacked the writings of Edmund Burke. Whigs embraced the early volumes of her <title>History of England</title> as supporting their views of political history. Her interpretation of the English Civil War was influential; she wrote admiringly of the Parliamentarians and condemned both Oliver Cromwell and the execution of Charles I.</note>
+                <note><ref target="http://viaf.org/viaf/51936664"/></note>
+             </person>
+             
+             <person xml:id="Hutchinson_Thos" sex="m">
+                <persName>Thomas Hutchinson</persName>
+                <persName>
+                   <surname>Hutchinson</surname>
+                   <forename>Thomas</forename>
+                <roleName>Sir</roleName>
+                </persName>
+                <birth when="1704">
+                   <placeName>Owthorpe Hall, Owthorpe, Nottinghamshire, England</placeName>
+                </birth>
+                <death when="1744-05-07">
+                   <placeName>Owthorpe Hall, Owthorpe, Nottinghamshire, Englan</placeName>
+                </death>
+                <note resp="#rnes #lmw">A lateral descendant of Sir John Hutchinson through his brother Charles (1637-1695), Sir Thomas Hutchinson had posession of the manuscript of <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Lucy Hutchinson's Memoirs of the Life of Sir John Hutchinson</title> at Owthorpe in the eighteenth century, where historian Catherine Macaulay consulted it. During his lifetime, he refused to published the manuscript, which was later published by his newphew Julius.</note>
+                <!--lmw: NO viaf #.-->
+             </person>
+             
+             <person xml:id="Hutchinson_Julius" sex="m">
+                <persName>Julius Hutchinson</persName>
+                <persName>
+                   <surname>Hutchinson</surname>
+                   <forename>Julius</forename>
+                   <roleName>Reverend</roleName>
+                </persName>
+                <birth notAfter="1750">
+                   <placeName>England</placeName>
+                </birth>
+                <death when="1811">
+                   <placeName>Layer Breton, Essex, England</placeName>
+                </death>
+                <occupation>clergy</occupation>
+                <occupation>literary</occupation>
+                <occupation>editor</occupation>
+                <note resp="#rnes #lmw">A lateral descendant of Sir John Hutchinson through his brother Charles (1637-1695), Julius Hutchinson edited <title ref="#Memoirs_of_the_life_of_Colonel_Hutchinson">Lucy Hutchinson's Memoirs of the Life of Sir John Hutchinson</title> from the manuscript at Owthorpe (the Hutchinson estate) and allowed it to be published in 1806.</note>
+                <note><ref target="https://viaf.org/viaf/45499749"/></note>
+             </person>
+             
+             <person xml:id="Stuart_ChasEd" sex="m">
+                <persName>Charles Edward Stuart</persName>
+                <persName>
+                <surname>Stuart</surname>
+                <forename>Charles</forename>
+                <forename>Edward</forename>
+                <forename>Maria</forename>
+                <forename>Severino</forename>
+                <forename>Sylvester</forename>
+                <forename>Casimir</forename>
+                <forename>John</forename>
+                <forename>Louis</forename>  
+                </persName>
+                <persName><addName>Bonnie Prince</addName></persName>
+                <persName><addName>Bonnie Prince Charlie</addName></persName>
+                <persName><addName>The Young Pretender</addName></persName>
+                <persName><addName>The Young Chevalier</addName></persName>
+                <birth when="1720-12-31">
+                   <placeName>Palazzo Muti, Rome, States of the Church</placeName></birth>
+                <death when="1788-01-31">
+                   <placeName>Palazzo Muti, Rome, States of the Church</placeName></death>
+                <occupation>military</occupation>
+                <occupation>politician</occupation>
+                <occupation>royalty</occupation>
+                <note resp="#rnes #jgf #lmw">The famously beautiful son of the <persName ref="#James_oldPretender">"Old Pretender" (James, son of the deposed King James II)</persName>, Charles Edward Stuart (also known as "the Young Pretender" and "Bonnie Prince Charlie" staged an invasion of Scotland in 1745. The resulting Jacobite Wars resulted in Stuart's decisive defeat at the Battle of Culloden (1746) and his evacuation, in female disguise, to the Isle of Skye, and eventual Continental exile. His death ended the Jacobite attempts to recover the British crown.</note>
+                <note><ref target="https://viaf.org/viaf/45499749"/></note>
+             </person>
+             
+             <person xml:id="McCoy_Rich" sex="m">
+                <persName>Richard C. McCoy</persName>
+                <persName>
+                <surname>McCoy</surname>
+                <forename>Richard</forename>
+                   <forename>C.</forename>
+                <roleName>Professor</roleName>
+                </persName>
+                <birth when="1946-10-09"/>
+                <occupation>writer</occupation>
+                <occupation>educator</occupation>
+                <note resp="#jgf #lmw">Distinguished Professor of English at Queens College and the Graduate Center, CUNY.</note>
+                <note><ref target="http://english.qc.cuny.edu/quick-links/richard-mccoy/"/></note>
+                <note><ref target="http://viaf.org/viaf/57311"/></note>
+             </person>
+             
+             <person xml:id="McCracken_Flesher" sex="f">
+                <persName>Caroline McCracken-Flesher</persName>
+                <persName>
+                   <surname>McCracken-Flesher</surname>
+                   <forename>Caroline</forename>
+                   <roleName>Professor</roleName>
+                </persName>
+                <birth when="1958"/>
+                <occupation>writer</occupation>
+                <occupation>educator</occupation>
+                <note resp="#jgf #lmw">UW George Duke Humphrey Distinguished Professor in the Department of English at the University of Wyoming.</note>
+                <note><ref target="http://viaf.org/viaf/310589154"/></note>
+             </person>
+             
+             <person xml:id="GeoII" sex="m">
+                <persName>George II</persName>
+                <persName>
+                   <forename>George</forename>
+                   <forename>Augustus</forename>
+                   <roleName>George the Second, by the Grace of God, King of Great Britain, France and Ireland, Defender of the Faith, Duke of Brunswick-Lüneburg, Archtreasurer and Prince-Elector of the Holy Roman Empire</roleName>
+                   <roleName>King of Great Britain and Ireland</roleName>
+                   <roleName>Elector of Hanover</roleName>
+                   <roleName>Knight of the Garter</roleName>
+                  <roleName>Duke and Marquess of Cambridge</roleName>
+                   <roleName>Earl of Milford Haven</roleName>
+                      <roleName>Viscount Northallerto</roleName>
+                   <roleName>Baron Tewkesbury</roleName>
+                </persName>
+                <birth when="1683-10-30"><placeName>Hanover, Lower Saxony</placeName></birth>
+                <death when="1760-10-25"><placeName>Kensington Palace, London, England</placeName></death>
+                <occupation>royalty</occupation>
+                <note resp="#jgf #lmw">King of Great Britain and Ireland and Elector of Hanover from <date when="1727">1727</date>, the  eldest son of Hanoverian George I and second cousin once removed to Queen Anne. He was also a Knight of the Garter and was created Duke and Marquess of Cambridge, Earl of Milford Haven, Viscount Northallerton, and Baron Tewkesbury. Prior to becoming King, while Prince of Wales, he opposed his father's policies in concert with Whig politicians Robert Walpole and Charles Townshend. The War of the Austrian Succession, the Jacobite Rebellion, and the Seven Years' War took place during his reign. He is the most recent British monarch to be buried in Westminter Abbey.</note>
+                <note><ref target="http://viaf.org/viaf/46902352"/></note>
+             </person>
+             
+             <person xml:id="Marshall_Alan" sex="m">
+                <persName>Alan Marshall</persName>
+                <persName>
+                   <surname>Marshall</surname>
+                   <forename>Alan</forename>
+                   <roleName>Professor</roleName>
+                   <roleName>Fellow of the Royal Historical Society</roleName>
+                </persName>
+                <occupation>literary</occupation>
+                <occupation>historian</occupation>
+                <occupation>educator</occupation>
+                <note resp="#jgf #lmw">Fellow of the Royal Historical Society, Head of Humanities, and a faculty member in the Department of History at Bath Spa University.</note>
+                <note><ref target="http://viaf.org/viaf/14864873"/></note>
+                <note><ref target="https://www.bathspa.ac.uk/our-people/alan-marshall/"/></note>
+                <note><ref target="http://bathspa.academia.edu/AlanMarshall/"/></note>
+             </person>
+             
+             <person xml:id="Richelieu" sex="m">
+                <persName>Armand Jean du Plessis</persName>
+                <persName>
+                <surname><nameLink>du</nameLink> Plessis</surname>
+                <forename>Armand</forename>
+                <forename>Jean</forename><roleName>Cardinal</roleName>
+                <roleName>Duke of Richelieu and Fronsac</roleName>
+                <roleName>Chief Minister</roleName>
+                <roleName>First Minister</roleName>
+                </persName>
+                <birth when="1585-09-09">
+                   <placeName>Paris, Île-de-France, France</placeName></birth>
+                <death when="1642-12-04">
+                   <placeName>Paris, Île-de-France, France</placeName></death>
+                <occupation>clergy</occupation>
+                <occupation>aristocracy</occupation>
+                <occupation>politician</occupation>
+                <occupation>educator</occupation>
+                <note resp="#jgf #lmw">Became a cardinal of the Catholic Church in 1622 and served as Louis XIII's chief minister from 1624 until his death. He helped transform France into a centralized state under strong royal governance. He also guided French government during the Thirty Years' War and during the consolidation of France's role in the Americas. He has been depicted as a scheming, villainous character in popular fiction frequently, including an appearance in Alexandre Dumas's The Three Musketeers.</note>
+                <note><ref target="http://viaf.org/viaf/12314392"/></note>
+             </person>
+             
+             <person xml:id="LouisXVI" sex="m">
+                <persName>Louis XVI</persName>
+                <persName><forename>Louis</forename>
+                <forename>Auguste</forename>
+                <roleName>Duc de Berry</roleName>
+                <roleName>Dauphin of France</roleName>
+                <roleName>His Most Christian Majesty The King of France</roleName>
+                <roleName>Citizen Louis Capet</roleName>
+                </persName>
+                <birth when="1754-08-23">
+                   <placeName>Palace of Versailles, Versailles, France</placeName></birth>
+                <death when="1793-01-21"><placeName>
+                </placeName>Place de la Révolution, Paris, France</death>
+              <occupation>royalty</occupation>
+                <note resp="#jgf #lmw">Last King of France during the Ancien Régime, he ruled as absolute monarch until 1789 and after the French Revolution as a constitutional monarch until 1792. He was imprisoned, tried, and guillotined in 1792-1793.</note>
+                <note><ref target="http://viaf.org/viaf/12314392"/></note>
+             </person>
+             
+             <person xml:id="Dickens_Chas" sex="m">
+                   <persName>Charles Dickens</persName>
+                   <persName>
+                      <surname>Dickens</surname>
+                      <forename>Charles</forename>
+                      <forename>John</forename>
+                      <forename>Huffam</forename>
+                      </persName>
+                   <persName type="pseudo">Boz</persName>
+                   <birth when="1812-02-07"><placeName>Landport, Portsmouth, Hampshire, England</placeName></birth>
+                   <death when="1870-06-09"><placeName>Higham, Kent, England</placeName></death>
+                   <occupation>literary</occupation>
+                   <occupation>journalist</occupation>
+                   <occupation>novelist</occupation>
+                   <occupation>editor</occupation>
+                   <occupation>essayist</occupation>
+                   <occupation>orator</occupation>
+                   <note resp="#lmw">English journalist and editor, novelist, and lecturer. Considered one of the most important novelists of the Victorian era.</note>
+                   <note><ref target="http://viaf.org/viaf/88666393"/></note>
+                </person>
+                
+             <person xml:id="Lovett_Wm" sex="m">
+                <persName>William Lovett</persName>
+                <persName>
+                   <surname>Lovett</surname>
+                   <forename>William</forename>
+                   </persName>
+                <birth when="1800-05-08"><placeName>Newlyn, Cornwall, England</placeName></birth>
+                <death when="1877-08-08"><placeName>London, England</placeName></death>
+                <occupation>literary</occupation>
+                <occupation>politician</occupation>
+                <occupation>artisan</occupation>
+                <occupation>cabinetmaker</occupation>
+                <occupation>ropemaker</occupation>
+                <note resp="#rnes">After working as a ropemaker in Cornwall, Lovett sought better work in London. He joined various working-class political societies and became the leader of the London Working-Man's Association (LMDA), which played a major role in the Chartist movement. Lovett wrote the People's Charter, which was thrice unsuccessfully presented to Parliament, and also a memoir, The Life and Struggles of William Lovett in his Pursuit of Bread, Knowledge, and Freedom (1876).</note>
+                <note><ref target="http://viaf.org/viaf/37714479"/></note>
+             </person>
+             
+             <person xml:id="HowardBrenton" sex="m"><!--REVISED ENTRY, existing id-->
+                <persName>Howard Brenton</persName>
+                <persName>
+                   <surname>Brenton</surname>
+                   <forename>Howard</forename>
+                   <roleName>Fellow of the Royal Literary Society (FRLS)</roleName>
+                </persName>
+                <birth when="1942-12-13"><placeName>Portsmouth, Hampshire, England</placeName></birth>
+                <occupation>literary</occupation>
+                <occupation>playwright</occupation>
+                <note resp="#rnes">Contemporary British playwright, most famous for the deeply controversial drama The Romans in Britain (1980), a historical allegory that critiqued the British occupation of Northern Ireland by paralleling it with the Roman Invasion and depicted rape in the context of war. He also wrote 55 Days (2012), a dramatization of the events between the New Model Army's conquest of London and the execution of Charles I. The original production, at London's Hampstead Theatre, starred the writer Mark Gatiss as Charles and Douglas Henshall as Oliver Cromwell. Modern costumes (in the original production) and language support this play's promotion of contemporary British consideration of a republican political reformation, a possibility later explored far more directly in Mike Bartlett's play King Charles III, which premiered at the Almeida Theatre in 2017.</note>
+                <note><ref target="https://viaf.org/viaf/66476558"/></note>
+             </person>
+             
+             <person xml:id="Norbrook" sex="m">
+                <persName>David Norbrook</persName>
+                <persName>
+                   <surname>Norbrook</surname>
+                   <forename>David</forename>
+                   <roleName>Professor</roleName>
+                </persName>
+                <birth when="1950-06-01"/>
+                <note resp="#lmw">Emeritus Merton Professor of Renaissance English literature at Oxford University.</note>
+                <note><ref target="http://www.english.ox.ac.uk/people/professor-david-norbrook"/></note>
+                <note><ref target="http://viaf.org/viaf/109072501"/></note>
+             </person>
+             
+             <person xml:id="Crook_N" sex="f">
+                <persName>Nora Crook</persName>
+                <persName><surname>Crook</surname>
+                   <forename>Nora</forename>
+                   <roleName>Professor</roleName>
+                </persName>
+                <birth when="1940">
+                   <placeName>Jamaica</placeName>
+                </birth>
+                <note resp="#lmw">Emeritus Professor of English Literature at Anglia Ruskin University in Cambridge and Chelmsford, formerly CCAT.</note>
+                <note><ref target="http://www.anglia.ac.uk/arts-law-and-social-sciences/department-of-english-and-media/our-staff/nora_crook"/></note>
+                <note><ref target="http://viaf.org/viaf/41868313"/></note>
+             </person>
+          </listPerson>
+       </div>
+         
+         <div type="fictional_and_archetypal">
+            <listPerson sortKey="archPersons">
+               <person/>
+           </listPerson>
+               
+            
+           <listPerson sortKey="fictPersons">
+              
+              <person xml:id="RichardIII_WS" sex="m">
+                 <persName>Richard III
+                 </persName>
+                 <note resp="#lmw">Title character from <persName ref="#Shakespeare">Shakespeare</persName>'s
+                     <title ref="#RichardIII_play">The Life and Death of Richard III</title>, loosely based on the historical <persName ref="#RichardIII">King Richard III</persName>. One of <persName ref="#Macready_Wm">William Macready</persName>'s most prominent roles.</note>
+              </person>
+              
+              <person xml:id="WmTell_SK" sex="m">
+                 <persName>William Tell</persName>
+                 <persNme>
+                    <surname>Tell</surname>
+                    <forename>William</forename>
+                 </persNme>
+             <note resp="#lmw">Title character from <persName ref="#Knowles_Sheridan">Knowles</persName>'s play
+                 <title ref="#WmTell_play">William Tell</title>, loosely based on the pseudohistorical Swiss revolutionary; role created by and for <persName ref="#Macready_Wm">William Macready</persName>.</note>
+                 </person>
+              
+              <person xml:id="Sardanapalus_By" sex="m">
+                 <persName>Sardanapalus
+                 </persName>
+                 <note resp="#lmw">Title character from <persName ref="#Byron">Byron</persName>'s tragedy
+                    <title ref="#Sardanapalus_play">Sardanapalus</title>, about a doomed Assyrian tyrant. Role <persName ref="#Macready_Wm">William Macready</persName> originated the role in <date when="1834">1834</date>, after Byron's death.</note>
+              </person>
+              
+              <person xml:id="Richelieu_EBL" sex="m">
+                 <persName>Richelieu
+                 </persName>
+                 <note resp="#lmw">Title character from <persName ref="#Bulwer_Lytton">Edward Bulwer-Lytton</persName>
+                    <title ref="#Richelieu_play">Richelieu</title>, loosely based on the historical <persName ref="#Richelieu">Cardinal Richelieu</persName>; role created by and for <persName ref="#Macready_Wm">William Macready</persName>.</note>
+              </person>
+              
+               <person xml:id="Carton_Sidney" sex="m">
+                  <persName>Sidney Carton
+                  </persName>
+                  <persName>
+                     <surname>Carton</surname>
+                     <forename>Sydney</forename>
+                  </persName>
+                  <occupation>legal</occupation>
+                  <note resp="#rnes">Protagonist in <title ref="#TaleOf2Cities">A Tale of Two Cities</title>; he is a young, alcoholic London lawyer upon whose self-reformation and self-sacrifice during the Reign of Terror forms a hinge upon which the plot turns.</note>
+               </person>
+              
+               <person xml:id="Goodwin_Mabel" sex="f">
+                  <persName>Mabel Goodwin</persName>
+                  <persName>
+                     <surname>Goodwin</surname>
+                     <forename>Mabel</forename>
+                  </persName>
+                  <note resp="#lmw">Title character in <title ref="#RoundheadsDa_FT">The Roundhead's Daughter</title>.</note>
+               </person>
+              
+               <person xml:id="Montresor_Phil" sex="m">
+                  <persName>Sir Philip Montresor</persName>
+                  <persName>
+                     <surname type="married">Montresor</surname>
+                     <forename>Philip</forename>
+                     <roleName>Sir</roleName>
+                  </persName>
+                  <note resp="#lmw">Cavalier character in <title ref="#RoundheadsDa_FT">The Roundhead's Daughter</title>.</note>
+               </person>
+              
+               <person xml:id="Goodwin_Col" sex="m">
+                  <persName>Colonel Goodwin</persName>
+                  <persName>
+                     <surname>Goodwin</surname>
+                     <roleName>Colonel</roleName>
+                  </persName>
+                  <occupation>military</occupation>
+                  <note resp="#lmw">Roundhead character in <title ref="#RoundheadsDa_FT">The Roundhead's Daughter</title>; father of the title character.</note>
+               </person>
+
+            </listPerson>
+            
+         </div>
+        <div type="places">
+            <listPlace sortKey="histPlaces">
+               <place xml:id="Warwick_Gaol">
+                  <placeName>Warwick Gaol, Warwick, Warwickshire, England</placeName>
+                  <settlement>Warwick</settlement>
+                  <region>Warwickshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>52.2829 -1.5891</geo>
+                  </location>
+                  <note resp="#slc #lmw">Warwick Gaol was a functioning county jail located next to a town building that would later grow to be Shire Hall. The jail remained open until the late eighteenth century, when it was condemned by reformer John Howard.</note> 
+                  <note><ref target="http://www.ourwarwickshire.org.uk/content/article/dungeon-county-gaol-warwick)"/></note>
+               </place>
+               
+               <place xml:id="Bull_Ring">
+                  <placeName>Bull Ring, Birmingham, Warwickshire, England</placeName>
+                  <settlement>Birmingham</settlement>
+                  <region>Warwickshire</region>
+                  <country>England</country>
+                  <location>
+                     <geo>52.4777 -1.894178</geo>
+                  </location>
+                  <note resp="#slc #lmw">Began in the twelfth century as a central market district for Birmingham. From the 1830s to the 1860s, also a popular location for public preaching and political protests. Location of the 1839 Chartist demonstration for voting reform in England, known as the Bull Ring Riots.</note>
+               </place>
+            </listPlace>
+         </div>
+            
+            
+         <div type="publications">
+            
+            <listBibl sortKey="literary">
+          <bibl xml:id="JGtoGC1825">
+                  <title>James Graham letter to George Colman</title>
+                  <author ref="#Duke_Montrose">James Graham, Duke of Montrose</author>
+                  <date when="1825-09-25"/>
+                  <note resp="#lmw">Letter from James Graham, Duke of Montrose to George Colman, regarding the decision to refuse the license for <title ref="#CharlesI_MRMplay">Charles I</title>. Add MS 42873, Art. 12, p. 410, British Library, London.</note>
+               </bibl>
+               
+               <bibl xml:id="GCtoJG1825">
+                  <title>George Colman letter to James Graham</title>
+                  <author ref="#Colman_the_Younger">George Colman</author>
+                  <date when="1825-09-29"/>
+                  <note resp="#lmw">Letter from George Colman to James Graham, Duke of Montrose, regarding the decision to refuse the license for <title ref="#CharlesI_MRMplay">Charles I</title>, responding to Graham's letter of <date when="1825-09-25">September 25, 1825</date>. BL Add MS 42873, folio p. 408, British Library, London.</note>
+               </bibl> 
+     
+               <bibl xml:id="GCtoMRM1825">
+                  <title>George Colman letter to Mary Russell Mitford</title>
+                  <author ref="#Colman_the_Younger">George Colman</author>
+                  <date when="1825-10-10"/>
+                  <note resp="#lmw">Letter from George Colman to Mary Russell Mitford, notifying her of the decision to refuse the license for <title ref="#CharlesI_MRMplay">Charles I</title>. Add MS 42273, folio p. 409, British Library, London.</note>
+               </bibl>
+               
+               <bibl xml:id="MRMtoGC1825">
+                  <title>Mary Russell Mitford letter to George Colman</title>
+                  <author ref="#MRM">Mary Russell Mitford </author>
+                  <date when="1825-12-18"/>
+                  <note resp="#lmw">Letter from George Colman to Mary Russell Mitford, regarding the decision to refuse the license for <title ref="#CharlesI_MRMplay">Charles I</title>. Add MS 42873, Art. 12, pp. 413-414, British Library, London.</note>
+               </bibl>
+        
+            <bibl xml:id="The_Two_Foscari"> <!--LMW: REVISED entry, existing id-->
+                  <title>The Two Foscari: A Tragedy</title>
+                  <author ref="#Byron">Lord Byron</author>
+                  <pubPlace ref="#London_city"/>
+                  <publisher>J. Murray</publisher>
+                  <date when="1821"/>
+                  <note resp="#lmw">Published together with <title ref="#Sardanapalus_play">Sardanapalus</title> and <title ref="#Cain_play">Cain</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Sardanapalus_play">
+                  <title>Sardanapalus: A Tragedy</title>
+                  <author ref="#Byron">Lord Byron</author>
+                  <pubPlace ref="#London_city"/>
+                  <publisher>J. Murray</publisher>
+                  <date when="1821"/>
+                  <note resp="#lmw">Published together with <title ref="#The_Two_Foscari">The Two Foscari</title> and <title ref="#Cain_play">Cain</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Cain_play">
+                  <title>Cain: A Mystery</title>
+                  <author ref="#Byron">Lord Byron</author>
+                  <pubPlace ref="#London_city">London, England</pubPlace>
+                  <publisher>J. Murray</publisher>
+                  <date when="1821"/>
+                  <note resp="#lmw">Published together with <title ref="#The_Two_Foscari">The Two Foscari</title> and <title ref="#Sardanapalus_play">Sardanapalus</title>.</note>
+               </bibl>
+               
+               <bibl xml:id="Richelieu_play">
+                  <title>Richelieu; or, The Conspiracy. A Play in Five Acts</title>
+                  <author ref="#Bulwer_Lytton">Edward Bulwer-Lytton</author>
+                  <pubPlace ref="#London_city">London, England</pubPlace>
+                  <publisher>Saunders and Otley</publisher>
+                  <date when="1839"/>
+                  <note resp="#lmw">Loosely based on the historical <persName ref="#Richelieu">Cardinal Richelieu</persName>; title role originated by <persName ref="#Macready_Wm">William Macready</persName>.</note>
+               </bibl>
+               
+            <bibl xml:id="TaleOf2Cities">
+                  <title>A Tale of Two Cities</title>
+                  <author>
+                     <persName ref="#Dickens_Chas">Charles Dickens</persName>
+                  </author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Chapman and Hall</publisher>
+                  <date when="1859">1859</date>
+               </bibl>
+               
+               <bibl xml:id="ThreeMusketeers">
+                  <title>The Three Musketeers</title>
+                  <title>Les Trois Mousquetaires</title>
+                  <author>Alexandre Dumas</author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>G. Vickers</publisher>
+                  <publisher>Bruce and Wyld</publisher>
+                  <date when="1846">1846</date>
+                  <note resp="#lmw">First published in serial form in the French newspaper Le Siècle between March and July 1844; by 1846, it had been adapted and translated into English by more than one publisher.</note>
+               </bibl>
+               
+               <bibl xml:id="Memoirs_of_the_life_of_Colonel_Hutchinson">
+                  <title>Memoirs of the Life of Colonel Hutchinson</title>
+                  <author>
+                     <persName ref="#Hutchinson_Lucy">Lucy Hutchinson</persName>
+                  </author>
+                  <editor><persName ref="#Hutchinson_Julius">Julius Hutchinson</persName></editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Longman, Hurst, Rees, and Orme</publisher>
+                  <date when="1806">1806</date>
+                  <note resp="#rnes #lmw">Lady Lucy Hutchinson composed the Memoirs sometime between the date of her husband's death in 1664 and the year 1675, when she presented the manuscript to Arthur, Earl of Anglesey. It was published in 1806 under the direction of <persName ref="#Hutchinson_Julius">Rev. Julius Hutchinson</persName>, a Hutchinson descendant. Before then, the manuscript had been consulted at the Hutchinson family library at Owthorpe by the historian Catherine Macaulay and possibly by others.</note>
+                  <note resp="#lmw #rnes">UCLA copy contains the notes of an anonymous annotator and a digital copy may be accessed at Internet Archive: <ref target="https://archive.org/details/lifeofcolonelhut00hutc"/></note>
+                  </bibl>
+               
+               <bibl xml:id="Peoples_Charter">
+                  <title>People's Charter</title>
+                  <author>
+                     <persName ref="#Lovett_Wm">William Lovett</persName>
+                  </author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>London Working Men's Association</publisher>
+                  <date when="1838">1838</date>
+                  <note resp="#rnes">The formal declaration of the Chartist movement, which the Chartists strove to have adopted by Parliament as British law. Three successful petitions pursuing this end failed to persuade Parliament.</note>
+               </bibl>
+               
+               <bibl xml:id="RoundheadsDa_FT">
+                  <title type="a">The Roundhead's Daughter</title>
+                  <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]</title>
+                <author ref="#MRM">Mary Russell Mitford</author>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <biblScope unit="page" from="32" to="39">32-39</biblScope>
+                  <note resp="#rnes">A short story by Mary Russell Mitford set during the English Republican Era and the <rs type="event" ref="#Restoration">Restoration</rs>, in which the title character, Puritan Mabel Goodwin, falls in love with the Royalist Arthur Montresor, son of Sir Philip Montresor. Also collected in  <bibl><biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">2 </biblScope>: <biblScope unit="page" from="160" to="165">160-165</biblScope>.</bibl></note>
+               </bibl>
+               
+               <bibl xml:id="FindensT_1840">
+                  <title>Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]
+                  </title>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <bibl corresp="#KingsPg_FT"/>
+                  <bibl corresp="#ProudL_FT"/>
+                  <bibl corresp="#RoundheadsDa_FT"/>
+                  <bibl corresp="#Beacon_FT"/>
+                  <bibl corresp="#Bride_FT"/>
+                  <bibl corresp="#Woodcutter_FT"/>
+                  <note resp="#lmw">1840 annual edited by <persName ref="#MRM">Mitford</persName>, to which she contributed six selections.</note>
+               </bibl>
+              
+               <bibl xml:id="FindensT_1843">
+                     <title>Finden's Tableaux of National Character, Beauty, and Costume
+                     </title>
+                     <editor>William Finden</editor>
+                     <pubPlace><placeName ref="#London_city">London</placeName></pubPlace>
+                     <publisher>William Finden</publisher>
+                     <publisher>T. G. March</publisher>
+                     <date when="1842"/>
+                     <bibl corresp="#RoundheadsDa_FT"/>
+                     <bibl corresp="#Cast_Signal_FT"/>
+                     <bibl corresp="#Eng_KingsWd_FT"/>
+                     <bibl corresp="#Buccaneer_FT"/>
+                     <bibl corresp="#LostPearl_FT"/>
+                     <bibl corresp="#Cartel_FT"/>
+                     <bibl corresp="#Sc_SirAllan_FT"/>
+                     <bibl corresp="#Wager_FT"/>
+                     <bibl corresp="#ProudL_FT"/>
+                     <bibl corresp="#Beacon_FT"/>
+                     <bibl corresp="#Bride_FT"/>
+                     <bibl corresp="#KingsPg_FT"/>
+                     <bibl corresp="#StoryWoods_FT"/>
+                     <bibl corresp="#BaronsDa_FT"/>
+                     <bibl corresp="#Woodcutter_FT"/>
+                     <bibl corresp="#ReturnFair_FT"/>
+                     <bibl corresp="#RusticT_FT"/>
+                     <bibl corresp="#VillageA_FT"/>
+                     <bibl corresp="#Gleaner_FT"/>
+                     <bibl corresp="#StolenL_FT"/>
+                     <bibl corresp="#HopG_FT"/>
+                     <note resp="#lmw">A two-volume anthology of previously-published stories and poems from Finden's Tableaux. Mitford's contributions to these volumes consist of twenty short stories and one long poem. <persName ref="#Barrett_E">Elizabeth Barrett</persName> was also one of the contributors. The issue is made up of two volumes, numbered consecutively. A plate accompanies each selection; however, plates are not numbered.</note>
+                  </bibl>
+               
+               <bibl xml:id="ProudL_FT">
+                 <title type="a">The Proud Ladye. A Chapter from the Chronicles of Adlersberg.</title>
+                  <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]</title>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <biblScope unit="page" from="22" to="27">22-27</biblScope>
+                  <note resp="#lmw">A short story by Mary Russell Mitford. Also collected in  <bibl><biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">2 </biblScope>: <biblScope unit="page" from="104" to="108">104-108</biblScope>.</bibl></note>
+               </bibl>
+
+               <bibl xml:id="Beacon_FT">
+                  <title type="a">The Beacon</title>
+                  <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]</title>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <biblScope unit="page" from="44" to="48">44-48</biblScope>
+                  <note resp="#lmw">A short story by Mary Russell Mitford. Also collected in  <bibl><biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">2 </biblScope>: 
+                     <biblScope unit="page" from="109" to="112">109-112</biblScope>.
+               </bibl>
+                  </note>
+               </bibl>
+               
+               <bibl xml:id="Bride_FT">
+                  <title type="a">The Bride</title>
+                 <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]</title>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <biblScope unit="page" from="51" to="54">51-54</biblScope>
+                 <note resp="#lmw">A short story by Mary Russell Mitford. Also collected in  <bibl><biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">2 </biblScope>: <biblScope unit="page" from="113" to="115">113-115</biblScope>.
+               </bibl>
+                 </note>
+               </bibl>
+               
+               <bibl xml:id="KingsPg_FT">
+                  <title type="a">The King's Page</title>
+                  <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]</title>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <biblScope unit="page" from="9" to="14">9-14</biblScope>
+                  <note resp="#lmw">A short story by Mary Russell Mitford. Also collected in  <bibl><biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">2 </biblScope>: <biblScope unit="page" from="123" to="126">123-126</biblScope>.</bibl></note>
+               </bibl>
+              
+               <bibl xml:id="Woodcutter_FT">
+                  <title type="a">The Woodcutter</title>
+                  <title type="j">Findens' Tableaux: The Iris of Prose, Poetry, and Art for MDCCXL [1840]</title>
+                  <author ref="#MRM">Mary Russell Mitford</author>
+                  <editor>Mary Russell Mitford</editor>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Charles Tilt</publisher>
+                  <date when="1839">1839</date>
+                  <biblScope unit="page" from="61" to="66">61-66</biblScope>
+                  <note resp="#lmw">A short story by Mary Russell Mitford. Also collected in  <bibl><biblScope corresp="#FindensT_1843">Finden's Tableaux of National Character, Beauty, and Costume</biblScope>, <biblScope unit="volume">2 </biblScope>: 
+                     <biblScope unit="page" from="149" to="154">149-154</biblScope>.</bibl></note>
+               </bibl>
+               
+               
+               <bibl xml:id="CharlesI_PBS">
+                  <title>The Charles the First Draft Notebook: A Facsimile of Bodleian MS. Shelley adds. e. 17</title>
+                  <author ref="#Shelley_PB">Percy Bysshe Shelley</author>
+                  <editor ref="#Crook_N">Nora Crook</editor>
+                  <publisher>Garland</publisher>
+                  <pubPlace>New York</pubPlace>
+                  <date when="1991"/>
+                  <note resp="#lmw">Fragment of a play based on the historical <persName ref="#ChasI">King Charles I</persName>, begun around 1819, and unpublished during the author's lifetime. See <bibl corresp="#CharlesI_PBS">The Charles the First Draft Notebook, A Facsimile of Bodleian MS. Shelley adds. e. 17</bibl> for a recently-edited facsimile of the manuscript from Shelley's notebooks.</note>
+               </bibl>
+            </listBibl>
+            
+            
+            <listBibl sortKey="other_current_Schol">
+                
+               <bibl xml:id="ShelleyPB_ReimanEd">
+                  <title>Shelley's Poetry and Prose</title>
+                  <edition>Second Edition</edition>
+                  <author>
+                     <persName ref="#Shelley_PB">Percy Bysshe Shelle1y</persName>
+                  </author>
+                  <editor>Donald H. Reiman</editor>
+                  <editor>Sharon B. Powers</editor>
+                  <editor>Neil Fraistat</editor>
+                  <pubPlace>New York</pubPlace>
+                  <pubPlace>London</pubPlace>
+                  <publisher>W. W. Norton</publisher>
+                  <date when="2002">2002</date>
+                  <note resp="#slc #rnes">Scholarly edition of Shelley's major works.</note>
+               </bibl>
+               
+               <bibl xml:id="Writing_Eng_Rep">
+                  <title>Writing the English Republic: Poetry, Rhetoric, and Politics, 1627-60</title>
+                  <author>
+                     <persName ref="#Norbrook">David Norbrook</persName>
+                  </author>
+                  <pubPlace>Cambridge, Cambridgeshire, England</pubPlace>
+                  <publisher>Cambridge University Press</publisher>
+                  <date when="1999">1999</date>
+               </bibl>
+               
+               <bibl xml:id="AlterationsOfState">
+                  <title>Alterations of State: Sacred Kingship in the English Reformation</title>
+                  <author>
+                     <persName ref="#McCoy_Rich">Richard McCoy</persName>
+                  </author>
+                  <pubPlace>New York, New York, USA</pubPlace>
+                  <publisher>Columbia University Press</publisher>
+                  <date when="2002">2002</date>
+               </bibl>
+               
+               <bibl xml:id="PossibleScotlands">
+                  <title>Possible Scotlands: Walter Scott and the Story of Tomorrow</title>
+                  <author>
+                     <persName ref="#McCracken_Flesher">Caroline McCracken-Flesher</persName>
+                  </author>
+                  <pubPlace>Oxford, Oxfordshire, England</pubPlace>
+                  <publisher>Oxford University Press</publisher>
+                  <date when="2005">2005</date>
+               </bibl>
+               
+               <bibl xml:id="Cromwell_Soldier">
+                  <title>Cromwell: Soldier</title>
+                  <author>
+                     <persName ref="#Marshall_Alan">Alan Marshall</persName>
+                  </author>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Brassey</publisher>
+                  <date when="2004">2004</date>
+               </bibl>
+               
+               <bibl xml:id="Calumniated_Rep">
+                  <title level="a">Calumniated Republicans and the Hero of Shelley's "Charles the First"</title>
+                  <title level="j">Keats-Shelley Journal</title>
+                  <author ref="#Crook_N">Nora Crook</author>
+                  <date when="2007"/>
+                  <biblScope unit="volume">56</biblScope>
+                  <biblScope unit="page" from="155" to="172">155-172</biblScope>
+               </bibl>
+               
+               <bibl xml:id="ShelleysLate">
+                  <title level="a">Shelley's Late Fragmentary Plays: 'Charles the First' and the 'Unfinished Drama'</title>
+                  <title level="m">Unfamiliar Shelley</title>
+                  <author ref="#Crook_N">Nora Crook</author>
+                  <editor>Alan M. Weinberg</editor>
+                  <editor>Timothy Webb</editor>
+                  <date when="2009"/>
+                  <publisher>Ashgate</publisher>
+                  <pubPlace>Farnham</pubPlace>
+                  <biblScope unit="page" from="297" to="313">297-313</biblScope>
+               </bibl>
+               
+               <bibl xml:id="Talking_Demon">
+                  <title level="a">'The Talking Demon': Liberty and Liberal Ideologies in the 1820s British Stage</title>
+                  <title level="j">Nineteenth-Century Contexts</title>
+                  <author ref="#dsa">Diego Saglia</author>
+                  <date when="2006"/>
+                  <biblScope unit="volume">28.4</biblScope>
+                  <biblScope unit="page" from="347" to="377">347-377</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+        
+        <div type="events">
+           <listEvent sortKey="histEvents">
+             
+              <event xml:id="Regency" from="1811" to="1820">
+                 <label>the Regency 
+                 </label>
+                 <note resp="#lmw">The period <date from="1811-02-05" to="1820-01-29">between 1811 and 1820</date> when <persName ref="#GeoIV">George, Prince of Wales, governed the kingdom of Great Britain and Ireland as Prince Regent</persName> during the illness and incapacity of his father, <persName ref="#GeoIII">King George III</persName>. <orgName ref="#Parliament_UK">Parliament</orgName> passed the Regency Act of 1811 on <date when="1811-02-05">February 5, 1811</date> and the Regency ended with the death of <persName ref="#GeoIII">King George III</persName> on <date when="1820-01-29">January 29, 1820</date>.</note>
+              </event>
+              
+              <event xml:id="Restoration" when="1660">
+                 <label>the Restoration
+                 </label>
+                 <note resp="#lmw">The period following the restoration of Stuart King <persName ref="#ChasII">Charles II</persName> to the English throne in <date when="1660">1660</date>. On <date when="1660-05-08">May 8, 1660</date>, the Convention Parliament decreed that <persName ref="#ChasII">King Charles II</persName> had been the lawful monarch since <date when="1649-01-30">January 30, 1649</date>, the date his father, <persName ref="#ChasI">King Charles I</persName> had been executed. In legal and political terms, the Act invalidated all previous actions of the <rs type="event" ref="#Commwealth">Commonwealth</rs> and the <rs type="event" ref="#Protectorate">Protectorate</rs>. The term is sometimes also used to refer to the entire period between the restoration <persName ref="#ChasII">Charles II</persName> and the death of <persName ref="#Queen_Anne">Queen Anne</persName> in 1714.</note>
+              </event>
+           </listEvent>
+        </div>
+     </back>
+  </text>
+   
+</TEI>

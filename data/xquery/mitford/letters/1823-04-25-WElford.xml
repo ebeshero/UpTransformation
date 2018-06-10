@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title xml:id="MRM1807">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, April 25, 1823.</title>
+           <author ref="#MRM">Mary Russell Mitford</author>
+           <editor ref="#err">Elizabeth Raisanen</editor>
+           <editor ref="#mjk">Melissa Klamer</editor>
+           <sponsor>
+              <orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName>
+           </sponsor>
+           <sponsor>University of Pittsburgh at Greensburg</sponsor>
+           <principal>Elisa Beshero-Bondar</principal>
+           <respStmt>
+              <resp>Transcription and coding by</resp>
+              <persName ref="#err">Elizabeth Raisanen</persName>
+           </respStmt>
+           <respStmt>
+              <resp>Date last checked: <date when="2017-01-02">2017-01-02</date>.
+                 Proofing and corrections by: <persName ref="#bas">Brooke A. Stewart</persName></resp>
+              <!--2016-09-09 bas: Updated header to include the letter xml:id. --> <!-- 2016-10-04 bas: Added idno and photo file idnos.--><!-- 2016-10-09 bas: Added collection information and minor addition to handNotes. --> <!-- 2017-01-02 bas: checked for completion, corrected spelling errors. Comments left in for reviewing. -->
+              <resp>Date checked: <date when="2016-07-04">2016-07-04</date>.
+                 Proofing and corrections by: <persName resp="#ebb">Elisa Beshero-Bondar</persName></resp>
+              <!--2016-07-04 ebb: TRANSCRIPTION INCOMPLETE. I have updated the header so it doesn't erroneously point to another letter, and I documented the address leaf.-->
+              <persName/>
+           </respStmt>
+        </titleStmt>
+        <editionStmt>
+           <edition>First digital edition in TEI, date: <date when="2014-08-11">11 August 2014</date>. P5.</edition>
+           <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno>IMG_0196.JPG,  IMG_0195.JPG, IMG_0194.JPG, IMG_0199.JPG, IMG_0198.JPG, IMG_0197.JPG, IMG_0193.JPG, IMG_0192.JPG, IMG_0191.JPG, IMG_0190.JPG, IMG_0189.JPG, IMG_0188.JPG, IMG_0187.JPG, IMG_0186.JPG, 25April1823SirWilliamElford7c#.JPG, 25April1823SirWilliamElford7b#.JPG, 25April1823SirWilliamElford6c#.JPG, 25April1823SirWilliamElford7a#.JPG, 25April1823SirWilliamElford6a#.JPG, 25April1823SirWilliamElford6b#.JPG, 25April1823SirWilliamElford4c#.JPG, 25April1823SirWilliamElford4b#.JPG, 25April1823SirWilliamElford4a#.JPG, 25April1823SirWilliamElford3a#.JPG, 25April1823SirWilliamElford2b#.JPG, 25April1823SirWilliamElford2a#.JPG, 25April1823SirWilliamElford1a#.JPG</idno></resp></respStmt>
+        </editionStmt>
+        <publicationStmt>
+           <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+           <pubPlace>Greensburg, PA, USA</pubPlace>
+           <date>2014</date>
+           <availability>
+              <p>Reproduced by courtesy of the <placeName>The Reading Central
+                 Library</placeName>.</p>
+              <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                 License</licence>
+           </availability>
+        </publicationStmt>
+        <seriesStmt>
+           <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+        </seriesStmt>
+        <sourceDesc>
+           <msDesc>
+              <msIdentifier>
+                 <repository ref="#ReadingCL">The Reading Central Library</repository>
+                 <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                 <idno>qB/TU/MIT Vol. 4, Horizon No.: 1361550 ff. 469</idno>
+              </msIdentifier>
+              <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1823-04-25">April 25, 1823</date>.</head>
+              <physDesc>
+                 <objectDesc>
+                    <supportDesc>
+                       <support>
+                          <p>One quarto sheet of <material>paper</material> folded in half to form
+                             two octavo pages, which comprise pages 1-4 of the letter. The fifth
+                             page bears the end of the letter on one side, and (after being folded
+                             into four panels) exposes the address portion of the leaf on the other side. The address side of the leaf seems to have been matted, though the reverse side is fully visible in the Reading Central Library bound portolio.</p>
+                          <p>Address leaf lacking postmarks, bears the date "April twenty six 1823" in Mitford's hand, with "J. B. Monck Plymouth" at the bottom indicating that Monck franked this letter on Mitford's behalf.
+                             </p>
+                       </support>
+                       <condition> </condition>
+                    </supportDesc>
+                 </objectDesc>
+                 <sealDesc>
+                    <p>The last sheet of the letter is torn suggesting a missing round seal.</p>
+                 </sealDesc>
+              </physDesc>
+           </msDesc>
+        </sourceDesc>
+     </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote xml:id="pencil" medium="pencil">Someone, apparently other than Mitford
+              (perhaps cataloging the letters and describing them, or marking them up while
+              creating an earlier edition of Mitford’s letters), left grey pencil marks and
+              numbered her letters now in the Reading Central Library's collection. The date
+              "April 26th 1823" is written in this hand on the top left of the last leaf of the letter.</handNote>
+           <handNote xml:id="rc" medium="red_crayon">Red crayon or thick red pencil. Probably a
+              different hand from Mitford's that marks many of her letters, sometimes drawing
+              diagonal lines across pages, and sometimes writing words overtop and perpendicularly
+              across Mitford's writing. On this letter, a red diagonal line is drawn from the top
+              left to the bottom right of pages 2, 3, and 4 of the manuscript. The red crayon also strikes out a single word on page 4 of this letter, 9 lines from the bottom on the left margin.</handNote>
+           <handNote xml:id="penAnnot_RCL"><!--2016-09-11 ebb: Here is a new handNote to document the annotator of page 3. Let's also indicate what the annotator wrote in place in the file, since this is a more informative and helpful annotation than we see from the red crayon. This seems like an editor's hand, so we'll enclose it in a <note> element inserted via <handShift> into the text of Mitford's letter.-->Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. This annotator indicates the recipient as "Sir W. Elford" on the first page and has left a note at the bottom of page 3 that continues up the right margin. The note documents information about the proceeds Mitford received from <placeName ref="#Covent_Garden_Theatre">Covent Garden Theatre</placeName> for her play, <title level="m" ref="#Julian_MRMplay">Julian</title>.</handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl>
+           <p>Mitford’s spelling and punctuation are retained, except where a word is split at the
+              end of a line and the beginning of the next in the manuscript. Where Mitford’s
+              spelling and hyphenation of words deviates from the standard, in order to facilitate
+              searching we are using the TEI elements “choice," “sic," and “reg" to encode both
+              Mitford’s spelling and the regular international standard of Oxford English spelling,
+              following the first listed spelling in the Oxford English Dictionary. The long s and
+              ligatured forms are not encoded.</p>
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+        <change when="2018-01-19" who="#bas">Fixed formatting errors.</change>
+        <change when="2017-10-27" who="#bas">Added address information.</change>
+        <change when="2017-10-20" who="#bas">Fixed handShift; now is signalled within text.</change>
+        <change when="2017-10-17" who="#bas">Proofread this file.</change>
+        <change when="2017-01-02" who="#bas">Checked for completion, corrected spelling errors. Comments left in for reviewing.</change>
+        <change when="2016-10-09" who="#bas">Added collection information and minor addition to handNotes.</change>
+        <change when="2016-10-04" who="#bas">Added idno and photo file idnos.</change>
+        <change when="2016-09-09" who="#bas">Updated header to include the letter xml:id.</change>
+        <change when="2016-07-04" who="#ebb">TRANSCRIPTION INCOMPLETE. I have updated the header so it doesn't erroneously point to another letter, and I documented the address leaf.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="IMG_0187.JPG"/>
+            <opener><add hand="#penAnnot_RCL">To Sir W. Elford</add>
+               <dateline><date when="1823-04-25">April 25<hi rend="superscript">th</hi> 1823.</date></dateline>
+               <salute>My dear Friend</salute>
+            </opener>
+            <p>I am but just returned from <rs type="place" ref="#London_city">Town</rs>, whither I have been led by one of the evil consequences of dramatic Authorship--that is to say a false report--&amp; lose not a moment in writing to you to thank you for your Zealous kindness, &amp; to say how heartily we <choice><sic>sympathise</sic><reg resp="#mjk">sympathize</reg></choice> in all your feelings.--I have no time to tell you the story of the strange mistake which led me to <placeName ref="#London_city">London</placeName>--no heart to talk to you of plays &amp; theatres--for my very soul is sick of them all--they mean to be kind I believe all of them--but between the lies &amp; the quarrels &amp; the<pb n="2" facs="IMG_0188.JPG"/> envy that attends <unclear><supplied resp="#ebb mjk">suc<gap reason="inkblot" quantity="1" unit="chars"/>cess</supplied></unclear> I have fairly wished a thousand times that the Play had failed. Do not tell this--But really my soul sickens within me when I think of the turmoil &amp; tumult which I have undergone--&amp; am to undergo--for <persName ref="#Kemble_C">Charles Kemble</persName> will not suffer me to withdraw my <title ref="#Foscari_MRMplay" level="m">Tragedy of the Foscari</title>, &amp; threatens me with a lawsuit if I do. In the meantime I am tossed about between him &amp; <persName ref="#Macready_Wm">Macready</persName> like a cricket ball--affronting both parties, &amp; suspected by both because I will not come to a deadly rupture with either. Only imagine what a state this is for one who values peace &amp; quietness beyond every other blessing of life!--In the meantime they have <choice><sic>stopt</sic><reg resp="mjk">stopped</reg></choice> <add place="above"><title ref="#Julian_MRMplay" level="m">Julian</title></add><del rend="strikeout">the Play</del> at the end of the eighth night though it was <pb n="3" facs="IMG_0188.JPG IMG_0189.JPG"/>going brilliantly to brilliant houses--&amp; <handShift resp="#penAnnot_RCL"/><metamark rend="dotted_Ex"/><note resp="#penAnnot_RCL">Miss Mitford received £ 200 for Julian from Covent Garden £ 100 cash on the 9 of May &amp; £ 100 by  bill payable on the 12 of October</note><handShift resp="#MRM"/> (but this is quite between ourselves) not paid me for the third &amp; sixth nights--To be sure I have <persName ref="#Kemble_C">Charles Kemble</persName>'s personal word--&amp; I believe him to be an honest man--but to undergo all this misery &amp; not get my money would be terrible indeed! To crown all, <persName ref="#Hamilton_S">Mr. Hamilton</persName> of our Magazine has absconded above forty pounds in my debt--Oh who<del rend="squiggles"><gap quantity="1" unit="word"/></del> would be an Authoress!--The only comfort is that the Magazine can't go on without me, &amp; that the very fuss they make <add place="above"><metamark place="below" function="insertion" rend="caret"/>in quarrelling over</add><del rend="squiggles"><gap quantity="1" unit="word"/></del> me at the Theatre proves my importance there--&amp; so that if I survive these vexations, I may in time make something of my poor poor brains.--but I would rather serve in a shop--rather <add rend="above"><unclear><supplied resp="#bas #ebb">scrub</supplied></unclear></add> <del rend="strikethrough"><unclear><supplied resp="#ebb">scrub</supplied></unclear></del> floors--rather nurse<pb n="4" facs="IMG_0192.JPG"/> children than undergo these tremendous &amp; interminable disputes &amp; this unwomanly publicity.--</p>
+            <p>Well I will talk of this no more &amp; I have nothing else to talk of--for though I have been in <rs type="place" ref="#London_city">Town</rs> I have been so engrossed &amp; absorbed by these distracting concerns that I have lost all consciousness of any thing <del rend="squiggles"><gap quantity="1" unit="word"/></del>better--I shall have something to send you in a month or two for I have been sitting for my portrait to be engraved at the desire of my Bookseller<!-- mjk: Is it possible to identify who her bookseller was at this time, or the specific portrait?--><!--2016-09-11 ebb: That's a great research trail! I'd start by looking through the published editions of the letters to see if L'Estrange or Coles comments on it, or check one of the Mitford biographies (by Vera Watson or W. J. Roberts).-->--I hope &amp; <unclear reason="smudged"><gap quantity="1" unit="word"/><supplied resp="#ebb">trust</supplied></unclear><note resp="#mjk #ebb">This word is smudged, and also struck through by a later annotator in red crayon, the same hand that drew diagonal lines across many of Mitford's manuscript pages in the <orgName ref="#ReadingCL">Reading Central Library</orgName> collection.</note> that you are all as well as you can be--say every thing to yourself &amp; your <rs ref="#Elford_J_bro">brother</rs> &amp; <persName ref="#Elford_Grace">Miss Elford</persName> &amp; all who are so good as to know me <add place="above"><metamark place="below" function="insertion" rend="caret"/>of your family</add> that may convey <unclear><supplied resp="mjk">most</supplied></unclear> of gratitude sympathy<note resp="#bas #ebb">It is possible that the sympathy is in reference to the recent passing of his son Jonathan. However, this is difficult to definitively prove.</note> &amp; true good wishes--I hope <persName ref="#Elford_J_bro">Mr. Elford</persName> continues &amp; will continue better--Adieu my dear friend--</p> 
+            <closer>Ever most faithfully <choice><sic>your's</sic><reg resp="#bas">yours</reg></choice>,<lb/><signed>M.R. Mitford</signed>
+               <address>
+                  <addrLine><placeName ref="#Reading_city">Reading</placeName> <date when="1823-04-26">April twenty six 1823</date></addrLine>
+                  <addrLine><persName ref="#Elford_SirWm">S<hi rend="superscript">ir</hi> W. Elford</persName></addrLine>
+                  <addrLine><placeName ref="#Bickham_village">Bickham</placeName></addrLine>
+                  <addrLine><persName ref="#Monck_JB">J.B. Monck</persName> <placeName ref="#Plymouth_city">Plymouth</placeName></addrLine>
+               </address>
+            </closer><pb n="5" facs="IMG_0194.JPG"/>
+            <postscript><p>It is very strange that I was about to request you to enclose your letter to <persName ref="#Monck_JB">Mr. Monck</persName> who is so Kind as to give me a general permission his address is--<persName ref="#Monck_JB">J. B. Monck</persName> Esq<hi rend="superscript">re</hi> M. P. <lb/>Coley Park <lb/>Reading.</p>
+               <p>Pray forgive this sad no letter! Alas the free &amp; happy hours when I could <del rend="squiggles"><gap quantity="1" unit="word"/></del>read &amp; think &amp; prattle for you are past away!--Oh will they ever return! I am now chained to a desk 8, 10, 12, hours a day--at mere drudgery--all my thoughts of writing for hard money--all my correspondence on hard business--Oh pity me! Pity me! My very mind is sinking under the fatigue &amp; the anxiety--God bless you my dear friend!--Forgive this sad letter.</p></postscript>
+           
+</div>
+      </body>
+  </text>
+</TEI>

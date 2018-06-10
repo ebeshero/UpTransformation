@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="<!--http://purl.oclc.org/dsdl/schematron"?><!--<?xml-model href="<!-\-MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-\\->-\->--><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>Our Village: Sketches of Rural Character and Scenery: Preface</title><author>Mary Russell Mitford</author><editor>Alexandra Drayton</editor><editor>Samantha Webb</editor><sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor><sponsor>University of Pittsburgh at Greensburg</sponsor><principal>Elisa Beshero-Bondar</principal><respStmt><resp>Transcription and coding by</resp><persName>Alexandra Drayton</persName><persName>Samantha Webb</persName></respStmt><respStmt><resp>Proofing and corrections by</resp><persName>Elisa Beshero-Bondar</persName></respStmt></titleStmt><editionStmt><edition>This is optional, used to describe this edition, and "should contain
+                    phrases describing the edition or version": First digital edition in TEI, date:
+                    2 June 2013. P5.</edition><respStmt><resp>We can include a respStmt here.</resp><persName>Who?</persName></respStmt></editionStmt><publicationStmt><authority>Digital Mitford: The Mary Russell Mitford Archive</authority><pubPlace>Greensburg, PA, USA</pubPlace><date>2013</date><availability><licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence></availability></publicationStmt><seriesStmt><title>Digital Mitford: The Mary Russell Mitford Archive</title></seriesStmt><notesStmt><note>Any special notes on this text? (optional)</note><note>You can have multiple notes here.</note></notesStmt><sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.--><p>Our text is based on public domain, Google-digitized text<bibl><title>Our Village: Sketches of Rural Character and
+                            Scenery</title><edition>Third Edition</edition> by <author>Mary Russell
+                            Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B.
+                            Whittaker</publisher><placeName>Ave Maria
+                            Lane</placeName><date>1825</date>. </bibl> This text appears to be
+                    identical in pagination and content to the first edition published in 1824. </p></sourceDesc></fileDesc><encodingDesc><editorialDecl><p>Describes our editorial practice.</p></editorialDecl></encodingDesc></teiHeader><text><front><titlePage><pb n="ii"/><docTitle><titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart></docTitle><byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A
+                        Tragedy</title><lb/></byline><docEdition>Third Edition.</docEdition><docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B.
+                        Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                        <docDate>1825</docDate>.</docImprint></titlePage><pb n="iii"/></front><body><div type="sketch"><head>MODERN ANTIQUES.</head><p><date from="1800-01-01" to="1823-01-02">Early in the <date from="1801" to="1900">present century</date></date><!--scw: The dates wrapped in dates here is to capture the last possible date these women could be living, based on first pub of this sketch in Lady's Mag in March 1823.-->  there lived in the ancient town of <placeName type="geog">B.</placeName> <!-- identify the ancient town of B. Is it the same as the one mentioned in previous sketches?-->two complete
+                    and remarkable specimens of the ladies of <time dur="P80Y">eighty years</time> ago—ladies cased inwardly
+                    and outwardly in <persName type="hist" subtype="ext" ref="#Addison_J">Addison</persName> and whalebone. How they had been preserved in this
+                    entireness, amidst the collision and ridicule of a <rs type="place" subtype="geog">country town</rs>, seemed as
+                    puzzling a question as the preservation of bees in amber, or mummies in
+                    pyramids, or any other riddle that serves to amuse the naturalist of the
+                    antiquarian. But so it was. They were <rs type="person" subtype="fict" ref="#MrsFrances #MrsTheodosia">old maids and sisters</rs>, and so alike in
+                    their difference from all other women, that they may be best described together;
+                    any little non-resemblance may be noted afterwards; it was no more than nature,
+                    prodigal of variety, would make in two leaves from the same oak-tree.</p><p>Both, then, were as short as women well could be without being entitled to the
+                    name of dwarf, or carried about to fairs for a show;—both were made considerably
+                    shorter by the highest of all high heels, and the<pb n="36"/> tallest of all
+                    tall caps, each of which artificial elevations was as ostentatiously conspicuous
+                    as the legs and cover of a pipkin, and served equally to add to the squatness of
+                    the real machine; both were lean, wrinkled, withered, and old; both enveloped
+                    their aged persons in the richest silks, displayed over large hoops, and stays
+                    the tightest and stiffest that ever pinched in a beauty of <persName type="hist" subtype="ext" ref="#GeoII">George the Second</persName>'s
+                    reign. The gown was of that make formerly, I believe, called a sacque, and of a
+                    pattern so enormous, that one flower, with its stalk and leaves, would nearly
+                    cover the three quarters of a yard in length, of which the tail might, at a
+                    moderate computation, consist. Over this they wore a gorgeously figured apron,
+                    whose flourishing white embroidery vied in size with the plants on the robe; a
+                    snowy muslin neckerchief, rigidly pinned down; and over that a black lace tippet
+                    of the same shape, parting at the middle, to display a gay breast-knot. The
+                    riband of which this last decoration was composed was generally of the same hue
+                    with that which adorned the towering lappeted cap, a sort of poppy colour, which
+                    they called Pompadour. The sleeves were cut of below the elbows with triple
+                    ruffles of portentous length. Brown leather mittens, with peaks turned back, and
+                    lined with blue satin, and a variety of tall rings in an odd, out-of-fashion
+                    variety of enamelling, and figures of hair,<pb n="37"/> completed the decoration
+                    of their hands and arms. The carriage of these useful members was at least
+                    equally singular; they had adapted themselves in a remarkable manner to the
+                    little taper wasp-like point in which the waist ended, to which the elbows,
+                    ruffles and all, adhered as closely as if they had been glued, whilst the ringed
+                    and mittened hands, when not employed in knitting, were crossed saltier-wise, in
+                    front of the apron. The other termination of their figure was adorned with black
+                    stuff shoes, very peaked, with points upwards, and massive silver buckles. Their
+                    walking costume was, in winter, a black silk cloak, lined with rabbit-skins,
+                    with holes for the arms; in summer, another tippet and a calash,—no bonnet could
+                    hold the turreted cap. Their motion out of doors was indescribable; it most
+                    nearly resembled sailing. They seemed influenced by the wind in a way incidental
+                    to no moving thing, except a ship or a shuttlecock; and, indeed, one boisterous
+                    blowing night, about the equinox, when standing on some high stone steps,
+                    waiting for a carriage to take her home from a party, the wind did catch one of
+                    them, and, but for the intervention of a tall footman, who seized her as one
+                    would seize a flyaway umbrella, and held her down by main force, the poor little
+                    lady would have been carried up like an <sic>airdalloon</sic>.<!--scw: The OED does not list the word "airdalloon."--> Her feelings must have been
+                    pretty much si<pb n="38"/>milar to those of <bibl corresp="#Gull"><persName type="fict" subtype="ext" ref="#Gulliver">Gulliver</persName> in <placeName type="fict" subtype="ext" ref="#Brobdignag">Brobdignag</placeName>, when flown
+                        away with by the eagle</bibl>.<!--scw: FOR EDITOR'S NOTE: something about this passage in Gulliver.--> Half a minute later, and she was gone.</p><p>So far they were exact counterparts. The chief variation lay in the face. Amidst
+                    the general hue of age and wrinkles, you could just distinguish that <persName type="fict" subtype="int" ref="#MrsTheodosia"><abbr>Mrs.</abbr>
+                        Theodosia</persName> had been brown, and <persName type="fict" subtype="int" ref="#MrsFrances"><abbr>Mrs.</abbr>Frances</persName> fair. There was a yellow shine here
+                    and there amongst the white hairs, curiously rolled over a cushion high above
+                    the forehead, that told of <persName ref="#MrsFrances">Fanny's</persName> golden locks; whilst the purely grey rouleau
+                    of <persName ref="#MrsTheodosia"><abbr>Mrs.</abbr> Theodosia</persName> showed its mixture of black and white still plainer. <persName ref="#MrsFrances"><abbr>Mrs.</abbr>
+                        Frances</persName>, too, had the blue eye, with a laughing light, which so often retains
+                    its flash to extreme age; whilst <persName ref="#MrsTheodosia"><abbr>Mrs.</abbr> Theodosia's</persName> orbs, bright no longer, had
+                    once been hazel. <persName ref="#MrsTheodosia"><abbr>Mrs.</abbr> Theodosia's</persName> aquiline nose, and long sociable chin, evinced
+                    that disposition to meet which is commonly known by the name of a pair of
+                    nut-crackers; <persName ref="#MrsFrances"><abbr>Mrs.</abbr> Frances'</persName> features, on the other hand, were rather tense and
+                    sharp. Still there was, in spite of these material differences, that look of
+                    kindred, that inexplicable and indefinable family likeness, which is so
+                    frequently found in sisters; greatly increased in the present case by a
+                    similarity in the voice that was quite startling. Both tongues were quick and
+                    clear, and high and rattling, to a degree that seemed rather to belong to
+                    machinery than to human articulation; and<pb n="39"/> when welcomes and
+                    how-d'ye-dos were pouring both at once on either side, a stranger was apt to
+                    gaze in ludicrous perplexity, as if beset by a ventriloquist, or haunted by
+                    strange echoes. When the immediate cackle subsided, they were easily
+                    distinguished. <persName ref="#MrsTheodosia"><abbr>Mrs.</abbr> Theodosia</persName> was good, and kind, and hospitable, and social;
+                    <persName ref="#MrsFrances"><abbr>Mrs.</abbr> Frances</persName> was all that, and was besides shrewd, and clever, and literary, to
+                    a degree not very common in her day, though not approaching to the pitch of a
+                    blue-stocking lady of the present.<!--scw: One wonders whether she is referring to one in particular?--> Accident was partly the cause of this unusual
+                    love of letters. They had known <persName type="hist" subtype="ext" ref="#Richardson_Samuel">Richardson</persName>; had been admitted amongst his
+                    <placeName type="land">flower-garden of young ladies</placeName>; and still talked familiarly of <persName type="hist" subtype="ext" ref="Highmore_Susanna">Miss Highmore</persName>,
+                    <persName type="hist" subtype="ext" ref="Fielding_Sarah">Miss Fielding</persName>, <persName type="hist" subtype="ext" ref="#Collier_Margaret">Miss Collier</persName>, and <persName type="hist" subtype="ext" ref="#Chapone_Hester">Miss Mulso</persName>,—they had never learned to call her
+                    <persName type="hist" subtype="ext" ref="#Chapone_Hester"><!--pseudonym--><abbr>Mrs.</abbr> Chapone</persName>. Latterly the taste had been renewed and quickened, by their having
+                    the honour of a distant relationship to one of the most amiable and unfortunate
+                    of modern poets.<!--scw: find out who this modern poet might be--> <!--scw: FOR EDITOR'S NOTE: Samuel Richardson was a supporter and correspondent of the original women's literary group known as the Bluestockings, many of whom are mentioned by Mitford here as acquaintances of the youthful Mrs. Frances and Mrs. Theodosia.--><persName type="fict" subtype="int" ref="#MrsFrances"><abbr>Mrs.</abbr> Frances</persName> studied novels and poetry, in addition to <rs type="person" ref="#MrsTheodosia">her
+                        sister</rs>'s sermons and cookery books; though (as she used to boast) without doing
+                    a stitch the less of knitting, or playing a pool the fewer in the course of the
+                    year. Their usual occupations were those of other useful old ladies;
+                    superintending the <orgName>endowed girls' school</orgName> of the town with a vigilance and a
+                    jealousy of abuses that might have done the honour to <persName type="hist" subtype="ext" ref="#Hume_D">Mr. Hume</persName>;<!--scw: The context of this statement makes David Hume questionable as the identification here. Can someone else check me?-->--&gt; taking an active
+                    part in the<pb n="40"/> more private charities, donations of flannel petticoats,
+                    or the loan of baby-things; visiting in a quiet way; and going to <orgName>church</orgName>
+                    whenever the church door was open.</p><p>Their abode was a <placeName type="arch">dwelling ancient and respectable</placeName>, like themselves, that looked
+                    as if it had never undergone the slightest variation, inside or out, since they
+                    had been born in it. The rooms were many, low and small; full of little windows
+                    with little panes, and chimneys stuck perversely in the corners. The furniture
+                    was exactly to correspond; little patches of carpets in the middle of the
+                    slippery, dry-rubbed floors; tables and chairs of mahogany, black with age, but
+                    exceedingly neat and bright; and Japan cabinets and old China, which <persName type="hist" subtype="ext" ref="Beckford_William">Mr.
+                        Beckford</persName> might have envied—treasures which had either never gone out of fashion,
+                    or had come in again. The garden was beautiful, and beautifully placed; a series
+                    of terraces descending to rich and finely timbered meadows, through which the
+                    slow magnificent <placeName type="geog" ref="#Thames">Thames</placeName> rolled under the <placeName type="land">chalky hills</placeName> of the <placeName type="geog">pretty village of
+                        C.</placeName><!--scw: identify village of C.--> It was bounded on one side by the remains of an <placeName type="arch">old friary</placeName>, the end wall of a
+                    chapel with a Gothic window of open tracery in high preservation, as rich as
+                    point lace. It was full too of old-fashioned durable flowers, <rs type="plant" nymRef="floral">jessamine</rs>,
+                    <rs type="plant" nymRef="floral">honey-suckle</rs>, and the high-scented <rs type="plant" nymRef="floral">fraxinella</rs>; I never saw that delicious plant
+                    in such profusion. The <placeName type="land">garden-walks</placeName> were<pb n="41"/> almost as smooth as the
+                    floors, thanks to the two assiduous serving maidens (nothing like a man-servant
+                    ever entered this maidenly abode) who attended it. One, the under damsel, was a
+                    stout strapping country wench, changed from time to time as it happened; <persName type="fict" subtype="int" ref="#OVModAntiqueServingMaid">the
+                        other</persName><!--scw: previous tag of servant, not sure whether or how she needs to be tagged. She is a minor character.--> was as much a fixture as <rs type="fict" subtype="int" ref="#MrsFrances #MrsTheodosia">her mistresses</rs>. She had lived with them for forty
+                    years, and, except being twice as big and twice as tall, might have passed for
+                    another sister. She wore their gowns, (the two just made her one,) caps,
+                    ruffles, and aprons; talked with their voices and their phrases; followed them
+                    to church, and school, and market; scolded the school-mistress; heard the
+                    children their catechism; cut out flannel petticoats, and knit stockings to give
+                    away. Never was so complete an instance of assimilation! She had even become
+                    like them in face.</p><p>Having <persName type="fict" subtype="int" ref="#ModAntiqueBrother">a brother</persName> who resided at a beautiful seat in the neighbourhood, and being
+                    to all intents and purposes of the patrician order, their visitors were very
+                    select, and rather more from the country than the town. Six formed the general
+                    number,—one table—a rubber or a pool—seldom more. As the only child of a very
+                    favourite friend, I used, during the holidays, to be admitted as a
+                    supernumerary; at first out of compliment to <persName type="fict" subtype="int" ref="#OVNarratorsMother">mamma</persName>; latterly I stood on my own
+                    merits. I was found to be a <rs type="person" ref="#OVNarrator">quiet little girl</rs>; an excellent hander of muffins
+                    and cake; a connoisseur in green tea; an ama<pb n="42"/>teur of quadrille—the
+                    most entertaining of all games to a looker-on; and, lastly and chiefly, a great
+                    lover and admirer of certain books, which filled two little shelves at
+                    cross-corners with the chimney—namely, that volume of <bibl><author ref="#Cowper_W">Cowper</author>'s <title ref="#Poems_by_Cowper">Poems</title> which
+                        contained <title ref="#John_Gilpin">John Gilpin</title></bibl>, and the whole seven volumes of <bibl><title ref="#Sir_Charles_Grand">Sir Charles Grandison</title></bibl>.
+                    With what delight I used to take down those dear books! It was an old
+                    edition;—perhaps that very first edition which, as <persName type="hist" subtype="ext" ref="#Barbauld_AL"><abbr>Mrs.</abbr> Barbauld</persName> says, the fine
+                    ladies used to hold up to one another at <placeName type="geog" ref="#Ranelagh">Ranelagh</placeName>,—and adorned with prints, not
+                    certainly of the highest merit as works of art, but which served exceedingly to
+                    realise the story, and to make us, as it were, personally acquainted with the
+                    characters. The costume was pretty much that of <rs type="person" ref="#MrsTheodosia MrsFrances">my worthy hostesses</rs>, especially
+                    that of the <bibl><title ref="Sir_Charles_Grand"><persName type="fict" subtype="ext" ref="#Lucy_Selby #Nancy_Selby">two Miss Selbys</persName>; there was even in <persName type="fict" subtype="ext" ref="#Nancy_Selby">Miss Nancy</persName>'s face a certain
+                        likeness to <persName type="fict" subtype="int" ref="#MrsFrances"><abbr>Mrs.</abbr> Frances</persName>. I remember I used to wonder whether she carried her
+                    elbows in the same way. How I read and believed, and believed and read; and
+                    liked <persName type="fict" subtype="ext" ref="#Lady_G">lady G.</persName> though I thought her naughty; and gave all my wishes to <persName type="fict" subtype="ext" ref="#Harriet_Byron">Harriet</persName>,
+                    though I thought her silly; and loved <persName type="fict" subtype="ext" ref="#Emily_Jervois">Emily</persName> with my whole heart! <persName type="fict" subtype="ext" ref="#Clementina">Clementina</persName> I
+                    did not quite understand; nor (I am half afraid to say so) do I now; and <persName type="fict" subtype="ext" ref="#Charles_Grandison">Sir
+                    Charles</persName> I positively disliked. He was the only thing in the book that I
+                        disbelieved</title></bibl>. Those bowing seemed incredible. At last, however, I extended my
+                    faith even to him;<pb n="43"/> partly influenced by the irresistibility of <rs type="person" subtype="hist" ref="#Richardson_Samuel">the
+                        author</rs>, partly by the appearance of a real living beau, who in the matter of
+                    bowing might almost have competed with <bibl><title ref="#Sir_Charles_Grand"><persName ref="#Charles_Grandison">Sir Charles</persName></title></bibl> himself. This beau was no
+                    other than the town member, who, with his brother, was, when in the country, the
+                    constant attendant at these chosen parties.</p><p><persName type="fict" subtype="int" ref="#ModAntiqueBeau">Our member</persName> was a man of seventy, or thereabout, but wonderfully young-looking,
+                    and well-preserved. It was said, indeed, that no fading belle was better versed
+                    in cosmetic secrets, or more devoted to the duties of the toilet. Fresh,
+                    upright, unwrinkled, pearly-teethed, and point device in his accoutrements, he
+                    might have passed for fifty; and doubtless often did pass for such when apart
+                    from his old-looking younger brother; who, tall, lanky, shambling, long-visaged,
+                    and loosely dressed, gave a very vivid idea of <bibl><title ref="#Don_Quixote"><persName type="fict" subtype="ext" ref="#Don_Quixote">Don Quixote</persName></title></bibl>, when stripped of his
+                    armour. Never was so consummate a courtier as our <persName type="fict" subtype="int" ref="ModAntiqueBeau">member</persName>! Of good family and
+                    small fortune, he had early in life been seized with the desire of representing
+                    <rs type="place">the town in which he resided</rs>; and canvassing, sheer canvassing, without
+                    eloquence, without talent, without bribery, had brought him in and kept him in.
+                    There his ambition stopped. To be a member of <orgName>parliament</orgName> was with him not the
+                    means but the end of advancement. For <time dur="P40Y">forty years</time> he represented <!--find out which independent borough this might have been-->an
+                    independent<pb n="44"/><orgName>borough</orgName>, and, though regularly voting with every
+                    successive ministry, was, at the end of his career, as poor as when he began. He
+                    never sold himself, or stood suspected of selling himself—perhaps he might
+                    sometimes give himself away. But that he could not help. It was almost
+                    impossible for him to say No to anybody,—quite so to a minister, or a
+                    constituent, or a constituent's wife or daughter. So he passed bowing and
+                    smiling through the world, the most disinterested of courtiers, the most
+                    subservient of upright men, with little other annoyance than a septennial
+                    alarm,—for sometimes an opposition was threatened, and sometimes it came; but
+                    then he went through a double course of smirks and hand-shakings, and all was
+                    well again. The great grievance of his life must have been the limitation in the
+                    number of franks<!--scw:need to look up unit of money-->. His apologies, when he happened to be full, were such as a man
+                    would make for a great fault; his lamentations, such as might become a great
+                    misfortune. Of course there was something ludicrous in his courtliness, but it
+                    was not contemptible; it only wanted to be obviously disinterested to become
+                    respectable. The expression might be exaggerated; but the feeling was real. He
+                    was always ready to shew kindness to the utmost of his power to any human being.
+                    He would have been just as civil and supple if he had not<pb n="45"/> been <abbr>M.P.</abbr><!--scw: tag for official position?-->
+                    It was his vocation. He could not help it.</p><p>This excellent person was an old bachelor; and there was a rumour, some forty or
+                    fifty years old, that in the days of their bloom, there had been a little love
+                    affair, an attachment, some even said an engagement, how broken none could tell,
+                    between him and <persName ref="#MrsFrances"><abbr>Mrs.</abbr> Frances</persName>. Certain it is, that there were symptoms of
+                    flirtation still. His courtesy, always gallant to every female, had something
+                    more real and more tender towards <quote>"<persName type="fict" subtype="int" ref="#MrsFrances">Fanny</persName>,"</quote> as he was wont to call her; and
+                    <persName ref="#MrsFrances">Fanny</persName>, on her side, was as conscious as heart could desire. She blushed and
+                    bridled; fidgeted with her mittens or her apron; flirted a fan nearly as tall as
+                    herself, and held her head on one side with that peculiar air which I have noted
+                    in the shyer birds, and ladies in love. She manoeuvred to get him next her at
+                    the tea-table; liked to be his partner at whist; loved to talk of him in his
+                    absence; knew to an hour the time of his return; and did not dislike a little
+                    gentle raillery on the subject—even <persName ref="#OVNarrator">I</persName>—But, traitress to my sex, how can I jest
+                    with such feelings? Rather let me sigh over the world of woe, that in fifty
+                    years of hopeless constancy must have passed through that maiden heart! The
+                    timid hope; the sickening suspense; the slow, slow fear; the bitter
+                        disappointment;<pb n="46"/> the powerless anger; the relenting; the
+                    forgiveness; and then again, that interest, kinder, truer, more unchanging than
+                    friendship, that lingering woman's love—Oh how can I jest over such feelings?
+                    They are passed away—for she is gone, and he—but they clung by her to the last,
+                    and ceased only in death.<pb n="47"/></p></div></body><back><div/></back></text></TEI>

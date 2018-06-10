@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Our Village: Sketches of Rural Character and Scenery: Preface</title>
+                <author>Mary Russell Mitford</author>
+                
+                <editor>Alexandra Drayton</editor>
+                <editor>Samantha Webb</editor>
+                
+                
+                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford
+                    Project</orgName></sponsor>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <principal>Elisa Beshero-Bondar</principal>
+                
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra Drayton</persName>
+                    <persName ref="#scw">Samantha Webb</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofing and corrections by</resp>
+                    <persName>Elisa Beshero-Bondar</persName>
+                    <persName ref="#bas">Brooke A. Stewart</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>This is optional, used to describe this edition, and “should contain phrases
+                    describing the edition or version”: First digital edition in TEI, date: 2 June 2013.
+                    P5.</edition>
+                <respStmt>
+                    <resp>We can include a respStmt here.</resp>
+                    <persName>Who?</persName>
+                </respStmt>
+                
+            </editionStmt>
+            
+            
+            
+            <publicationStmt>
+                <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Mitford: The Mary Russell Mitford Archive</title>
+            </seriesStmt>
+            
+            <notesStmt>
+                <note>Any special notes on this text? (optional)</note>
+                <note>You can have multiple notes here.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <!--Notice, this is simpler than the sourceDesc we used in our Letters file.-->
+                <p>Our text is based on  public domain, Google-digitized text<bibl>
+                    <title>Our Village: Sketches of Rural Character and Scenery</title><edition>Third Edition</edition> by <author>Mary Russell Mitford</author><pubPlace>London</pubPlace><publisher>Geo. B. Whittaker</publisher><placeName>Ave Maria Lane</placeName><date>1825</date>.
+                </bibl> This text appears to be identical in pagination and content to the first edition published in 1824.  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <editorialDecl>
+                <p>Describes our editorial practice.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        
+        <front>
+            <titlePage>
+                <pb n="ii"/>
+                <docTitle>
+                    <titlePart type="main">Our Village:</titlePart><titlePart type="subtitle">Sketches of Rural Character and Scenery.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Mary Russell Mitford</docAuthor>, Author of <title>Julian, A Tragedy</title><lb/></byline>
+                <docEdition>Third Edition.</docEdition>
+                <docImprint><pubPlace>London</pubPlace><lb/><publisher>Geo. B. Whittaker</publisher>,<lb/><placeName>Ave-Maria-Lane</placeName>.
+                    <docDate>1825</docDate>.</docImprint>
+            </titlePage>
+            <pb n="iii"/>
+        </front><body>
+            <div type="sketch">
+                <head><title level="a" ref="#Bramley_Maying_OV"/>BRAMLEY MAYING.</head>
+                <p><abbr type="title">Mr.</abbr> <persName ref="#Irving_Washington">Geoffrey Crayon</persName> has, in his delightful but somewhat fanciful writings, brought into general view many old sports and customs, some of which, indeed, still linger about the remote counties, familiar as local peculiarities to their inhabitants, whilst the greater part lie buried in books of the Elizabethan age, known only to the curious in English literature. One rural custom, which would have enchanted him, and which prevails in the north of <placeName ref="#Hampshire_county">Hampshire</placeName>, he has not noticed, and probably does not know. Did any of my readers ever hear of a Maying? Let not any notions of chimney-sweepers soil the imagination of the gay Londoner! A country Maying is altogether a different affair from the street exhibitions which mix so much pity with our mirth, and do the heart good, perhaps, but not by gladdening it. A country Maying is a meeting of the lads and lasses of two or three parishes, who assemble in certain erections of green boughs called May-houses,<pb n="82"/> to dance and—but I am going to tell all about it in due order, and must not forestall my description.</p>
+                <p>Last year we went to <placeName ref="#Bramley_vil">Bramley</placeName> Maying. There had been two or three such merry-makings before in that inaccessible neighbourhood, where the distance from large towns, the absence of great houses, and the consequent want of all decent roads, together with a country of peculiar wildness and beauty, combine to produce a sort of modern <placeName ref="#Arcadia">Arcadia</placeName>. We had intended to assist at a Maying in the <placeName ref="#Pamber_forest">forest of Pamber</placeName>, thinking that the deep glades of that fine woodland scenery would be more congenial to the spirit of old English merriment, as it breathed more of <persName ref="#Robin_Hood">Robin Hood</persName> and <persName ref="#Maid_Marian">Maid Marian</persName> than a mere village green—to say nothing of its being of the two more accessible by four-footed and two-wheeled conveyances. But the <placeName ref="#Pamber_forest">Pamber</placeName> day had been suffered to pass, and Bramley was the last Maying of the season. So to <placeName ref="#Bramley_vil">Bramley</placeName> we went.</p>
+                <p>As we had a considerable distance to go, we set out <time when="12:00:00"><offset>about</offset> noon</time>, intending to return to dinner at <time when="18:00:00">six</time>.<note resp="#scw">Mitford writes of attending the Bramley Maying in her Journal on <date when="1822-05-23">May 23, 1822.</date></note> Never was a day more congenial to a happy purpose! It was a day made for country weddings and dances on the green—a day of dazzling light, of ardent sunshine falling on <rs type="#plant" ref="#hedgerow">hedgerows</rs> and meadows fresh with spring showers. You might almost see the grass grow and the leaves expand under the influence of that vivifying<pb n="83"/> warmth; and we passed through the well-known and beautiful scenery of <placeName ref="#W_Park_OV"><abbr>W.</abbr> Park</placeName>, and the pretty village of <placeName ref="#M_village_OV"><abbr>M.</abbr></placeName>, with a feeling of new admiration, as if we had never before felt their charms; so gloriously did the trees in their young leaves, the grass springing beneath them, the patches of golden <rs type="plant" ref="#broom">broom</rs> and deeper <rs type="plant" ref="#furze">furze</rs>, the cottages covered with <rs type="plant" ref="#rose">roses</rs>, the blooming orchards, and the light snowy sprays of the <rs type="plant" ref="#cherry_tree">cherry-trees</rs> tossing their fair blossoms across the deep blue sky, pour upon the eye the full magic of colour. On we passed gaily and happily as far as we knew our way—perhaps a little farther, for the place of our destination was new to both of us, when we had the luck, good or bad, to meet with a director in the person of <rs type="person" ref="M_butcher_OV">the butcher of <placeName ref="#M_village_OV"><abbr>M.</abbr></placeName></rs> <rs type="person" ref="#Bramley_companion_OV">My companion</rs> is known to most people within a circuit of ten miles; so we had ready attention and most civil guidance from the <rs type="person" ref="#M_butcher_OV">man of beef and mutton</rs>—a prodigious person, almost as big as a prize ox, as rosy and jovial-looking as <persName ref="#Falstaff_WS">Falstaff</persName> himself, who was standing in the road with a <rs type="person" ref="M_butchers_boy_OV">slender shrewd-looking boy</rs>, apt and ready enough to have passed for the <rs type="person" ref="#Falstaffs_page">page</rs>. He soon gave us the proper, customary, and unintelligible directions as to lanes and turnings—first to the right, then to the left, then round Farmer Jennings’s close, then across the <placeName ref="#Holy_Brook">Holy Brook</placeName>, then to the right again—till at last, seeing us completely bewildered, he offered to send <rs type="#person" ref="#M_butchers_boy_OV">the page</rs>, who was going our way for half a mile<!--scw: element for distance?--><pb n="84"/> to carry out a shoulder of veal, to attend us to that distance as a guide; an offer gratefully accepted by all parties, especially <rs type="person" ref="#M_butchers_boy_OV">the boy</rs>, whom we relieved of his burthen and took up behind, where he swang in an odd but apparently satisfactory posture, between running and riding. Whilst he continued with us, we fell into no mistakes; but at last he and the shoulder of veal reached their place of destination; and, after listening to a repetition, or perhaps a variation, of the turns right and left which were to conduct us to <placeName ref="#Bramley_green_OV">Bramley-green</placeName>, we and <rs type="person" ref="#M_butchers_boy_OV">our little guide</rs> parted.</p>
+                <p>On we went, twisting and turning through a labyrinth of lanes, getting deeper and deeper every moment, till at last, after many doubtings, we became fairly convinced that we had lost our way. Not a soul was in the fields; not a passenger in the road; not a cottage by the roadside: so on we went—I am afraid to say how far (for when people have lost their way, they are not the most accurate measurers of distance)—till we came suddenly on a small farm-house, and saw at once that the road we had trodden led to that farm, and thither only. The solitary farm-house had one solitary inmate, a <rs type="person" ref="#Sil_farmwoman_OV">smiling middle-aged woman</rs>, who came to us and offered her services with the most alert civility:—<quote>“All her boys and girls were gone to the Maying,”</quote> she said, <quote>“and she remained to keep house.”</quote>—<quote>“The Maying! We were near <placeName ref="#Bramley_vil">Bramley</placeName> then?"</quote>—<quote>“Only two miles the<pb n="85"/> nearest way across the fields—were we going?—she would see to the <rs type="animal" ref="#horse">horse</rs>—we should soon be there, only over that style and then across that field, and then turn to the right, and then take the next turning—no! the next but one to the left.”</quote>—Right and left again for two miles over those deserted fields!—Right and left! we shuddered at the words. <quote>“Is there no carriage-road?—Where are we?”</quote>—<said who="#Bramley_farmwoman_OV">“At Silchester, close to the walls, only half a mile from the church.”</said>—“At <placeName ref="#Silchester">Silchester</placeName>!” and in ten minutes we had said a thankful farewell to <rs type="person" ref="#Sil_farmwoman_OV">our kind informant</rs>, had retraced our steps a little, had turned up another lane, and found ourselves at the foot of that commanding spot which antiquaries call the <placeName ref="#Amphitheatre_Sil">amphitheatre</placeName>, close under the walls of the <rs type="place" ref="#Silchester">Roman city</rs>, and in full view of an old acquaintance, the schoolmaster of Silchester<note resp="#scw">The schoolmaster of Silchester is likely <persName ref="Brown_Mr_OV">Mr. Brown</persName>, husband of  <persName ref="#Lucy_fict_OV">Lucy</persName>. He is described in tepid terms in the sketch <title ref="#Lucy_OV">Lucy</title>.</note>, who happened to be there in his full glory, playing the part of Cicerone to a party of ladies, and explaining far more than he knows, or than any one knows, of streets, and gates, and sites of temples, which, by the bye, the worthy pedagogue usually calls parish-churches. I never was so glad to see him in my life, never thought he could have spoken with so much sense and eloquence as were comprised in the two words <said who="#Brown_Mr_OV">“straight forward,”</said> by which he answered our inquiry as to the road to <placeName ref="#Bramley_vil">Bramley</placeName>.</p>
+                <p>And forward we went by a way beautiful beyond de-<pb n="86"/>scription: a road bounded on one side by every variety of meadow, and corn-field, and rich woodland; on the other by the rock-like walls of the <rs type="place" ref="#Silchester">old city</rs>, crowning an abrupt magnificent bank of turf, broken by fragments, crags as it were, detached from the ruin, and young trees, principally <rs type="plant" ref="#ash">ash</rs>, with silver stems standing out in picturesque relief from the green slope, and itself crowned with every sort of vegetation, from the rich festoons of <rs type="plant" ref="#briar">briar</rs> and <rs type="plant" ref="#ivy">ivy</rs>, which garlanded its side, to the venerable <rs type="plant" ref="#oak">oaks</rs> and <rs type="plant" ref="#beech">beeches</rs> which nodded on its summit. I never saw any thing so fine in my life. To be sure, we nearly broke our necks. Even I, who, having been overset astonishingly often, without any harm happening, have acquired, from frequency of escape, the confidence of escaping, and the habit of not caring for that particular danger, which is, I suppose, what in a man and in battle would be called courage; even I was glad enough to get out, and do all I could towards wriggling the gig round the rock-like stones, or sometimes helping to lift a wheel over the smaller impediments. We escaped that danger, and left the venerable walls behind us.—But I am losing my way here, too; I must loiter on the road no longer. Our other delays of a broken bridge—a bog—another wrong turning—and a meeting with a loaded waggon, in a lane too narrow to pass—all this must remain untold.</p>
+                <p>At last we reached a large farm-house at <placeName ref="#Bramley_vil">Bramley</placeName>;<pb n="87"/> another mile remained to <rs type="place" ref="#Bramley_green_OV"> the Green</rs>, but that was impassable. Nobody thinks of riding at <placeName ref="#Bramley_vil">Bramley</placeName>. The <rs type="person" ref="#Lady_BRManor_OV">late lady of the manor</rs>, when at rare and uncertain intervals she resided for a few weeks at her house of <abbr>B.R.</abbr>, used, in visiting her only neighbour, to drive her coach and four through her farmers’ ploughed fields. We must walk: but the appearance of <orgName ref="#BramMay_crowds_OV">gay crowds of rustics</orgName>, all passing along one path, gave assurance that this time we should not lose our way. Oh, what a pretty path it was! along one sunny sloping field, up and down, dotted with trees like a park; then across a deep shady lane, with <rs type="animal" ref="#cow">cows</rs> loitering and cropping grass from the banks; then up a long narrow meadow, in the very pride and vigour of its greenness, richly bordered by hedgerow timber, and terminating in the church-yard, and a little country church.</p>
+                <p><placeName ref="#St_James_Church_Bram"><placeName ref="#Bramley_vil">Bramley</placeName></placeName> church is well worth seeing. It
+                    contains that rare thing, a monument fine in itself, and finer in its
+                        situation.<note resp="#scw">Mitford writes in her Journal about visiting
+                        this monument in her Journal on <date when="1822-05-23">May 23, 1822</date>.</note> We had
+                    heard of it, and in spite of the many delays we had experienced, could not
+                    resist the temptation of sending <rs type="person" ref="#BramMay_loiterer_OV">one of the loiterers</rs>, who seemed to stand in the church yard as a sort
+                    of out-guard to the Maying, to the vicar’s house for the key. Prepared as we had
+                    been to see something unusual, we were very much struck. The <placeName ref="#St_James_Church_Bram">church</placeName> is small, simple, decaying,
+                    almost ruinous; but, as you turn from the<pb n="88"/> entrance into the centre
+                    aisle, and advance up to the altar, your eye falls on a lofty recess, branching
+                    out like a chapel on one side, and seen through a Gothic arch. It is almost
+                    paved with monumental brasses of the proud <orgName ref="#Brocas_family">family
+                        of <abbr>B.</abbr></orgName>, who have possessed the surrounding property
+                    from the time of <rs type="person" ref="#Wm_Conq">the Conqueror</rs>; and in the
+                    centre of the large open space stands a large monument, surrounded by steps, on
+                    which reclines a figure of a <rs type="person" ref="#Brocas_Bernard">dying
+                        man</rs>, with a beautiful woman leaning over him, full of a lovely look of
+                    anxiety and tenderness. The figures are very fine; but that which makes the
+                    grace and glory of this remarkable piece of sculpture is its being backed by an
+                    immense Gothic window, nearly the whole size of the recess, entirely composed of
+                    old stained glass. I do not know the story which the artist, in the series of
+                    pictures, intended to represent; but there they are, the gorgeous, glorious
+                    colours—reds, and purples, and greens, glowing like an anemone bed in the
+                    sunshine, or like one of the windows made of amethysts and rubies in the <title ref="#Arabian_Nights">Arabian Tales</title>, and throwing out the monumental
+                    figures with an effect almost magical. The <rs type="person" ref="#Bram_parish_clerk_OV">parish clerk</rs> was at the Maying, and we had
+                    only an <rs type="person" ref="#BramMay_conductor_OV">unlettered rustic</rs> to
+                    conduct us, so that I do not even know the name of the sculptor—he must have a
+                    strange mingled feeling if ever he saw his work in its present home—delight that
+                    it looks so well, and re-<pb n="89"/>gret that there is no one to look at it.
+                    That monument alone was worth losing our way for.</p>
+                <p>But cross two fields more, and up a quiet lane, and we are at the Maying, announced afar off by the merry sound of music, and the merrier clatter of childish voices. Here we are at <rs type="place" ref="#Bramley_green_OV">the Green</rs>; a little turfy spot, where three roads meet, close shut in by <rs type="plant" ref="#hedgerow">hedgerows</rs>, with a pretty white cottage, and its long slip of a garden at one angle. I had no expectation of scenery so compact, so like a glade in a forest; it is quite a cabinet picture, with green trees for the frame. In the midst grows a superb <rs type="plant" ref="#horse_chestnut">horse-chesnut</rs>, in the full glory of its flowery pyramids, and from the trunk of the <rs type="plant" ref="#horse_chestnut">chestnut</rs> the May-houses commence. They are covered alleys built of green boughs, decorated with garlands and great bunches of flowers, the gayest that blow—<rs type="plant" ref="#lilac #Guelder_rose #peony #tulip #stock">lilacs, Guelder-roses, pionies, tulips, stocks</rs>—hanging down like chandeliers among the <orgName ref="#BramMay_dancers_OV">dancers</orgName>; for of dancers, <orgName ref="#BramMay_dancers_girls_OV">gay dark-eyed young girls in straw bonnets and white gowns</orgName>, and <orgName ref="#BramMay_dancers_boys_OV">their lovers in their Sunday attire</orgName>, the May-houses were full. <orgName ref="#BramMay_dancers_girls_OV">The girls</orgName> had mostly the look of extreme youth, and danced well and quietly like ladies—too much so: I should have been glad to see less elegance and more enjoyment; and <orgName ref="#BramMay_dancers_boys_OV">their partners</orgName>, though not altogether so graceful, were as decorous and as indifferent as real gentlemen. It was quite like a ball-room, as pretty and almost as<pb n="90"/> dull. Outside was the fun. It is the outside, the upper gallery of the world, that has that good thing. There were <orgName ref="#BramMay_children_OV">children</orgName> laughing, eating, trying to cheat, and being cheated, round an ancient and practised <rs type="person" ref="#BramMay_vender_OV">vender of oranges and gingerbread</rs>; and on the other side of the tree lay a merry <orgName ref="#BramMay_old_men_OV"><sic>groupe</sic> of old men</orgName>, in coats almost as old as themselves, and <orgName ref="#BramMay_young_men_OV">young ones</orgName> in no coats at all, excluded from the dance by the disgrace of a smock-frock. Who would have thought of etiquette finding its way into the May-houses! <orgName ref="#BramMay_old_men_OV">That <sic>groupe</sic></orgName> would have suited <persName ref="#Teniers_David">Teniers</persName>; it smoked and drank a little, but it laughed a great deal more. There were a few <orgName ref="#BramMay_matrons_OV">decent matronly looking women</orgName>, too, sitting in a cluster; and <orgName ref="#BramMay_young_mothers_OV">young mothers</orgName> strolling about with infants in their arms; and <orgName ref="#BramMay_ragged_boys_OV">ragged boys</orgName> peeping through the boughs at <orgName ref="#BramMay_dancers_OV">the dancers</orgName>; and the bright sun shining gloriously on all this innocent happiness. Oh what a pretty sight it was!—worth losing our way for—worth losing our dinner—both which events happened; whilst a <orgName ref="#OVNarrators_BramMay_friends_OV">party of friends</orgName>, who were to have joined us, were far more unlucky; for they not only lost their way and their dinner, but rambled all day about the country, and never reached <placeName ref="#Bramley_vil">Bramley</placeName> Maying.<pb n="91"/></p>
+            </div>      
+        </body>
+        <back>
+            <list type="animals">
+                <item/>
+            </list>
+            <list type="plant">
+                
+                <item xml:id="ash"/>
+                
+                <item xml:id="beech"/>
+                
+                <item xml:id="briar"/>
+               
+                <item xml:id="broom"/>
+                
+                <item xml:id="furze"/>
+                
+                <item xml:id="Guelder_rose"/>
+                
+                <item xml:id="lilac"/>
+                
+                <item xml:id="peony"/>
+                
+                <item xml:id="stock"/>
+               
+            </list>
+            
+            <listPerson type="fict">
+                <person xml:id="BramMay_companion_OV"><!--scw: gender is not identified. What's the code for this?-->
+                    <persName>not given</persName>
+                    <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, the unidentified character who accompanies the <persName ref="#OVNarrator">narrator</persName> to the Maying. From the character's description in the text as someone widely known for ten miles, the person may be the narrator's father, based on <persName ref="#Mitford_Geo">George Mitford</persName>. </note>
+                </person>
+                
+                <person xml:id="BramMay_loiterer_OV" sex="m">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, he is the character who provides the narrator and her companion with the key to the church when they arrive in Bramley.</note>
+                </person>
+                
+                <person xml:id="BramMay_conductor_OV" sex="m">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, he is the character who guides the narrator and her companion on a tour of the Bramley church.</note>
+                </person>
+                
+                <person xml:id="Bram_parish_clerk_OV" sex="m">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <note resp="#scw">In the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>, this character attends the Maying rather than attending to visitors of the church.</note>
+                </person>
+                
+                <person xml:id="BramMay_vender_OV" sex="m">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <note resp="#scw">One of the characters whom the <persName ref="#OVNarrator">narrator</persName> encounters in the <title ref="#Our_Village1st_ed">Our Village</title> sketch, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </person>
+                
+                
+                <person xml:id="Falstaffs_page" sex="m">
+                    <persName ref="#Falstaffs_page">Falstaff's page</persName>
+                    <note resp="#scw">Character from <persName ref="#Shakespeare">Shakespeare</persName>'s <title ref="#HenryIVpt1_play">Henry IV part 1</title> who serves as page to  <persName ref="#Falstaff">Falstaff</persName>. His later life unfolds in <title ref="#HenryV_play">Henry V</title>.</note>
+                </person>
+                
+                
+                <person xml:id="Lady_BRManor_OV" sex="f">
+                    <persName ref="#Lady_BRManor_OV">Lady of B.R. Manor
+                        <forename>not given</forename>
+                        <surname>not given</surname>
+                    </persName>
+                    <note resp="#scw">The lady is mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, and is likely a reference to <persName ref="#Brocas_H">Harriot Brocas</persName>, wife of <persName ref="#Brocas_Bernard">Bernard Brocas</persName>, who was known to spend little time at their newly renovated estate, <placeName ref="#Beaurepaire">Beaurepaire House</placeName>, after her husband's death, prefering to stay at <placeName ref="#Wokefield_Park">Wokefield Park</placeName>. </note>
+                </person>
+                
+                <person xml:id="M_butcher_OV" sex="m">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <occupation>butcher</occupation>
+                    <note resp="#scw">Character who appears in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>. He is the butcher of the <placeName ref="M_village_OV">village of <abbr>M.</abbr></placeName> who gives the <persName ref="#OVNarrator">narrator</persName> and her <persName ref="#BramMay_companion_OV">companion</persName> complicated directions to the Maying after they have lost their way.</note>   
+                </person>
+                
+                <person xml:id="M_butchers_boy_OV" sex="m">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <note resp="#scw">Character who appears in <title ref="#Bramley_Maying">Bramley Maying</title>. He gives the narrator and her companion directions to the Maying, and later accompanies them on part of their journey.</note>  
+                </person>
+               
+                <person xml:id="Maid_Marian" sex="f">
+                    <persName ref="#Maid_Marian">Maid Marian</persName>
+                    <note resp="#scw">In the <persName ref="#Robin_Hood">Robin Hood legends</persName>, Maid Marian is the hero's paramour.</note>
+                    <note><ref target="#http://d.lib.rochester.edu/teams/text/robin-hood-and-other-outlaw-tales-general-introduction"/></note>
+                </person>
+                
+                <person xml:id="Robin_Hood" sex="m">
+                    <persName ref="#Robin_Hood">Robin Hood
+                    </persName>
+                    <note resp="#scw">Outlaw hero of medieval legend who, together with his merry men, figures in ballads, broadsides, plays, games, proverbs, film, and television from the <date notBefore="1300">fourteenth century</date> till our own time, but whose historal existence remains a matter of debate. He is a complex figure in the long tradition that he occupies, but is best known as a benevolent outlaw, who battles the Sheriff of Nottingham for the good of the poor. In <persName ref="#MRM">Mitford</persName>'s time, the most influential scholars on Robin Hood were <persName ref="#Percy_Thos">Thomas Percy</persName> and <persName ref="#Ritson_Joseph">Joseph Ritson</persName>. Their antiquarian research helped shape a national English hero, and influenced <persName ref="#Scott_Wal">Walter Scott</persName>'s depiction of the character in <title ref="#Ivanhoe">Ivanhoe</title>, as well as the representations found in John Keats<persName ref="#Keats">' short poem</persName>, and <persName ref="#PeacockTL">Thomas Love Peacock</persName>'s novel, Maid Marian. <!--scw: Gotta check the following, lost my source: During the Early Modern period, Robin Hood became associated with Maying celebrations.--></note>
+                    <note><ref target="#http://d.lib.rochester.edu/teams/text/robin-hood-and-other-outlaw-tales-general-introduction"/></note>
+                </person>
+                
+                <person xml:id="Sil_farmwoman_OV" sex="f">
+                    <persName>
+                        <surname>not given</surname>
+                        <forename>not given</forename>
+                    </persName>
+                    <note resp="#scw"> Character who appears in <title ref="#Bramley_Maying">Bramley Maying</title> who reveals that the narrator and her companion have reached <placeName ref="#Silchester">Silchester</placeName>. She gives the narrator and her companion directions to the Maying as they make their way to the festival.</note>
+                </person>
+               
+            </listPerson>
+            
+            <listPerson type="hist">
+                <person xml:id="Brocas_Bernard" sex="m">
+                    <persName ref="#Brocas_Bernard">
+                        <forename>Bernard</forename>
+                        <surname>Brocas</surname>
+                    </persName>
+                    <occupation>military</occupation>
+                    <birth when="1730">1730</birth>        
+                    <death when="1777-11-08">November 8, 1777</death>
+                    <note type="bio" resp="#scw">Member of the <orgName ref="#Brocas_family">Brocas family</orgName>, owner of <placeName ref="#Beaurepaire">Beaurepaire House</placeName> and <placeName ref="#Wokefield_Park">Wokefield Park</placeName>, whose death is memorialized by the <title ref="#Brocas_monument_Bramley">Brocas monument</title>.</note>
+                </person>
+                
+                <person xml:id="Brocas_H" sex="f"><!--scw: This isn't finished. Need birth/death dates/locations.-->
+                    <persName ref="#Brocas_H">
+                        <surname type="married">Brocas</surname>
+                        <surname type="paternal">Hunter</surname>
+                        <forename>Harriot</forename>
+                        <forename type="alt">Harriet</forename>
+                    </persName>
+                    <death when="1819">1819</death>
+                    <note type="bio" resp="#scw">She married <persName ref="#Brocas_Bernard">Bernard Brocas</persName> in <date when="1769">1769</date>, and renovated <placeName ref="#Wokefield_Park">Wokefield Park</placeName> after her husband purchased it.</note>
+                </person>
+                <person xml:id="Tenniers_David" sex="m"/>
+                
+                <person xml:id="Wm_Conq" sex="m"/>
+                
+            
+            </listPerson>
+            
+            <listOrg type="fict">
+                
+                <org xml:id="BramMay_children_OV">
+                    <note resp="#scw">Part of the crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_crowds_OV">
+                    <note resp="#scw">The crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_dancers_OV">
+                    <note resp="#scw">Youthful couples whom the <persName ref="#OVNarrator">narrator</persName> observes dancing in the May-house at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_dancers_girls_OV">
+                    <note resp="#scw">Young girls whom the <persName ref="#OVNarrator">narrator</persName> observes dancing in the May-house at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_dancers_boys_OV">
+                    <note resp="#scw">Young boys whom the <persName ref="#OVNarrator">narrator</persName> observes dancing in the May-house at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                                
+                <org xml:id="BramMay_matrons_OV">
+                    <note resp="#scw">Segment of the crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_old_men_OV">
+                    <note resp="#scw">Segment of the crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_ragged_boys_OV">
+                    <note resp="#scw">Segment of the crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_young_men_OV">
+                    <note resp="#scw">Segment of the crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                <org xml:id="BramMay_young_mothers_OV">
+                    <note resp="#scw">Segment of the crowd gathered at the Maying at <placeName ref="#Bramley_vil">Bramley</placeName> in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying_OV">Bramley Maying</title>.</note>
+                </org>
+                
+                
+                <org xml:id="OVNarrators_BramMay_friends_OV">
+                    <note resp="#scw">Friends of the <title ref="#OV">Our Village</title> narrator, unidentified in the text, who lose their way, and fail to arrive at the Bramley Maying.</note>
+                </org>
+                
+            </listOrg>
+        
+            <listOrg type="hist">
+                <org xml:id="Brocas_family">
+                    <note resp="#scw">Prominent, ancient English family whose chief estate, Beaurepaire Hall, was located near <placeName ref="#Bramley_vil">Bramley</placeName>. The family traces its lineage back to the age of <persName ref="#Wm_Conq">William the Conqueror</persName>, and was in possession of many acres of land and cottages in the environs of <placeName ref="#Bramley_vil">Bramley</placeName> since the <date notBefore="1500">the sixteenth century</date>, including <placeName ref="#Beaurepaire">Beaurepaire House</placeName>, <placeName ref="#Wokefield_Park">Wokefield Park</placeName>.</note>
+                </org>
+            </listOrg>
+            
+            <listPlace type="fict">
+                
+                <place xml:id="Arcadia">
+                    <placeName ref="#Arcadia">Arcadia</placeName>
+                    <note resp="#scw">In Greek mytholody, Arcadia was the home to the god <persName ref="#Pan">Pan</persName>, and in classical literature, indicated an unspoilt wilderness of innocence and pleasure.</note>
+                </place>
+            </listPlace>
+            
+            <listPlace type="hist"><!--scw: OV places are listed under "hist" places as MRM refers to them by their initials. Not sure if that's the way to go, but we can discuss. They are cross-referenced to their originals as I've traced them.-->
+                <place xml:id="Beaurepaire">
+                    <placeName ref="Beaurepaire">
+                        <location><geo/></location>
+                    </placeName>
+                    <note resp="#scw">Beaurepaire House was the seat and estate of the <orgName ref="#Brocas_family">Brocas family</orgName>, located in <placeName ref="#Bramley_vil">Bramley</placeName>, and including substantial lands. The house was demolished and replaced with a gothic-style manor around <date notBefore="1738">1738</date>, and was home to <persName ref="Brocas_Bernard">Bernard Brocas</persName> until his death, though it remained in the family and sometimes visited <persName ref="#Brocas_H">Harriot Brocas</persName>. The estate remained in the family until it was sold in <date when="1870">1870</date>.</note>
+                </place>
+                
+                <place xml:id="Bramley_vil">
+                    <placeName ref="#Bramley_vil">Bramley</placeName>
+                    <location><geo/></location>
+                    <note resp="#scw">Village in <placeName ref="#Hampshire_county">Hampshire</placeName>, located ten miles south of <placeName ref="#Reading_city">Reading</placeName>, near <placeName ref="#Silchester">Silchester</placeName>.</note>
+                </place>
+                
+                <place xml:id="Bramley_green_OV">
+                    <placeName ref="#Bramley_green_OV"/>
+                    <note resp="#scw">Site of the Maying that the <persName ref="#OVNarrator">narrator</persName> of <title ref="#OV">Our Village</title> attends in <title ref="#Bramley_Maying">Bramley Maying</title>. While there is a village by that name four miles from <placeName ref="#Bramley">Bramley</placeName>, it seems unlikely from the story that this is location of the Maying.</note>
+                </place>
+           
+                <place xml:id="Holy_Brook">
+                    <placeName ref="#Holy_Brook">Holy Brook</placeName>
+                    <note resp="#scw">A channel that runs through <placeName ref="#Reading_city">Reading</placeName> off the Kennet River.</note>
+                </place>
+                
+                <place xml:id="M_village_OV">
+                    <placeName ref="#M_village_OV"/>
+                    <location><geo/></location>
+                    <note resp="#scw">Small village that the <persName ref="#OVNarrator">narrator</persName> tours in the story, <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>. <persName ref="#MRM">Mitford</persName> is probably referring to <placeName ref="#Mortimer_village">Mortimer village</placeName>.</note>
+                </place>
+                
+                <place xml:id="Mortimer_village">
+                    <placeName ref="#Mortimer_village">Mortimer</placeName>
+                    <location><geo/></location>
+                    <note resp="#scw">Village in <placeName ref="#Berkshire_county">Berkshire</placeName> located seven miles south-west of <placeName ref="#Reading_city">Reading</placeName>. </note>
+                </place>
+                
+                <place xml:id="Pamber_forest">
+                    <placeName ref="#Pamber_forest"/>
+                    <location><geo/></location>
+                    <note resp="#scw">Forest in north <placeName ref="#Hampshire_county">Hampshire</placeName>, near <placeName ref="#Silchester">Silchester</placeName>.</note>
+                </place>
+                
+                <place xml:id="St_James_Church_Bram">
+                    <placeName ref="#St_James_Church_Bram">Church of St. James</placeName>
+                    <location><geo/></location>
+                    <note resp="#scw">Church located in <placeName ref="#Bramley">Bramley</placeName>, <placeName ref="#Hampshire_county">Hampshire</placeName> that dates from <date notBefore="1100">the tweflth century</date>, undergoing many renovations since that time. The church is notable for its beautiful stained glass and its elaborate marble tomb sculpture of <persName ref="#Brocas_Bernard">Bernard Brocas</persName>. It is featured in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, when the <persName ref="#OVNarrator">narrator</persName> and <persName ref="#BramMay_companion_OV">her companion</persName> take a tour.</note>
+                </place>
+                
+                <place xml:id="W_Park_OV">
+                    <placeName ref="#W_Park_OV">W. Park</placeName>
+                    <note resp="#scw">Mentioned in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, and probably refers to <placeName ref="#Wokefield_Park">Wokefield Park</placeName>.</note>
+                </place>
+                
+                <place xml:id="Wokefield_Park">
+                    <placeName ref="#Wokefield_Park">Wokefield Park</placeName>
+                    <location><geo/></location>
+                    <note resp="#scw">Estate purchased by the <persName ref="#Brocas_Bernard">Bernard Brocas</persName> shortly before his death in <date when="1777">1777</date>, and extensively renovated by his wife, <persName ref="#Brocas_Harriet">Harriet</persName>. In the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>, <persName ref="#MRM">Mitford</persName> mentions <placeName ref="#W_Park_OV"><abbr>W.</abbr> Park</placeName>, which may refer to Wokefield.</note>
+                </place>
+                    
+            </listPlace>
+            
+            <list type="art">
+                <item xml:id="Brocas_monument_Bramley">
+                    <bibl>
+                    <title ref="#Brocas_monument_Bramley">Brocas tomb</title>
+                    </bibl>
+                    <graphic url="http://www.geograph.org.uk/photo/2607035"/><!--scw: photographer says licensed under Creative Commons, so I think link is ok.-->
+                    <date when="1800">1800</date>
+                    <note resp="#scw">White marble tomb sculpted by Thomas Banks, dedicated to <persName ref="#Brocas_Bernard">Bernard Brocas</persName>. The tomb's effigy represents a dying Brocas in the arms of his wife. It was installed in <placeName ref="#St_James_Church_Bram">the church of St. James</placeName> in <placeName ref="#Bramley_vil">Bramley</placeName> around <date when="1800">1800</date>. <persName ref="#MRM">Mitford</persName> saw the monument on <date when="1822-05-23">May 23, 1822</date>, piece is described in the <title ref="#Our_Village1st_ed">Our Village</title> story, <title ref="#Bramley_Maying">Bramley Maying</title>.</note>
+                    
+                </item>
+            </list>
+            
+            
+            
+        </back>
+    </text>
+</TEI>

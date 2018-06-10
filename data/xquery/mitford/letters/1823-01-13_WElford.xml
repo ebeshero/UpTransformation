@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="MRM1802">Letter to <persName ref="#Elford_SirWm">Sir William Elford</persName>, January 13, 1823</title>
+            <author ref="#MRM">Mary Russell Mitford</author>
+            <editor ref="#mjk">Melissa Klamer</editor> 
+            <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
+              <sponsor>University of Pittsburgh at Greensburg</sponsor>
+            <sponsor>Pittsburgh Supercomputing Center</sponsor>
+            <principal>Elisa Beshero-Bondar</principal> 
+        
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+                  <persName ref="#mjk">Melissa Klamer</persName> 
+            </respStmt>
+            <respStmt>
+               <resp>Date last checked: <date when="2018-02-02">2018-02-02</date>
+               Proofing and corrections by</resp>
+               <persName ref="#mjk">Melissa J Klamer</persName><!-- Just started this letter. Have tried to fill in much of the header, including idnos for photo files. -->
+               <persName ref="#bas">Brooke A. Stewart</persName><!-- Fixed a few errors. Header and transcription need to be completed. -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2017-02-21">February 21, 2017</date>. P5.</edition> 
+            <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
+            <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno> 13Jan1823Sir WilliamElford1a.JPG, 13Jan1823Sir WilliamElford1b.JPG, 13Jan1823Sir WilliamElford1c.JPG, 13Jan1823Sir WilliamElford2a.JPG, 13Jan1823Sir WilliamElford2b.JPG, 13Jan1823Sir WilliamElford2c.JPG, 13Jan1823Sir WilliamElford3a.JPG, 13Jan1823Sir WilliamElford3b.JPG, 13Jan1823Sir WilliamElford3c.JPG, 13Jan1823Sir WilliamElford4a.JPG, 13Jan1823Sir WilliamElford4b.JPG, 13Jan1823Sir WilliamElford4c.JPG, 13Jan1823Sir WilliamElford5a.JPG, 13Jan1823Sir WilliamElford5b.JPG, 13Jan1823Sir WilliamElford5c.JPG, 13Jan1823Sir WilliamElford6.JPG </idno></resp></respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Digital Mitford: The Mary Russell Mitford Archive</authority>
+            <pubPlace>Greensburg, PA, USA</pubPlace>
+            <date>2013</date>
+            <availability>
+
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.
+                </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
+         </seriesStmt>
+         
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier> 
+                  <repository ref="#ReadingCL">Reading Central Library</repository>
+                  <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
+                  <idno>qB/TU/MIT Vol. 4 Horizon No.: 1361550 ff. 463</idno>
+               </msIdentifier>
+               <head>Letter from Mary Russell Mitford to Sir William Elford, <date when="1823-01-13">1823 January 13</date>.
+               </head> 
+               <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support><p>This letter is comprised of two large leaves of paper. The first leaf is folded in half to make four writing surfaces that constitute the first four pages of the letter. Mitford did not treat the second leaf the same way, so that pages 5 and 6 are simply the front and back of the paper, making for two large writing surfaces. Page 6 contains the address, and on this address leaf, the writing is organized vertically and horizontally to surround the address.</p> 
+                        <p>What appears to be a large 8 denoting the posting fee has been written in black ink by the postal service across the address leaf.</p>
+                     </support>
+                     <condition>
+                        <p>Sheet (pages five and six) torn on right edge of page five where wax seal was removed.</p>
+                     </condition>
+               </supportDesc>
+               </objectDesc>
+                  <sealDesc>
+                     <p>Red wax seal, adhered to page six in two places.</p>
+                  </sealDesc> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <handNotes>
+           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. A red line is drawn from top left to bottom right of pages 2, 3, 4, and 5. On leaf six, a red line is drawn from top left to bottom right across only one text block to the left of the address pane. There is no red crayon across the address text block.</handNote>
+           <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. This letter is numbered "1" in the top left of the first leaf. There is a date on the top of the fifth leaf, marked "14 Jany 1823."
+           </handNote>
+           <handNote xml:id="penAnnot_RCL">Someone, apparently other than <persName ref="#MRM">Mitford</persName>, who occasionally left notes in a spidery thin hand to explain or document details in Mitford's letters in the margins of her pages, noted in the manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This may be <persName ref="#Harness_Wm">William Harness</persName> or <persName ref="#Lestrange">A. G. L'Estrange</persName>. On this letter, "Sir W. Elford" is written on the top left of the first page.
+           </handNote>
+        </handNotes>
+     </profileDesc>
+     <encodingDesc>
+        <editorialDecl>
+              <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
+           </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+        <change when="2018-02-02" who="#bas">Added/corrected header info. Added xml:id stub for Miss Rowe. Added editorial notes. There are transcription questions that need to be looked at.</change>
+        <change when="2018-01-22" who="#bas">Corrected whitespace errors.</change>
+        <change when="2017-11-21" who="#bas">Proofed blurry section of paper.</change>
+        <change when="2017-11-05" who="#bas">Updated header info, specifically handNotes and condition.</change>
+        <change when="2017-11-04" who="#bas">Added editorial note about "Mr." on pages 4 and 5 and another about the tear under the seal. Added note and bibl about Cellini; check formatting.</change>
+           <change when="2017-10-31" who="#ebb #bas">Continued proofing and revision.</change>
+           <change when=" 2017-10-28" who="#lmw">Added suggestions for coding and research. Continued coding page 6.</change>
+           <change when="2017-09-04" who="#bas">Fixed a few errors. Header and transcription need to be completed.</change>
+           <change when="2017-02-01" who="#mjk">Just started this letter. Have tried to fill in much of the header, including idnos for photo files.</change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="13Jan1823Sir WilliamElford1b.JPG"/>
+            <opener>
+               <add hand="#penAnnot"><persName ref="#Elford_SirWm">Sir W. Elford</persName></add> <add hand="#pencil">1</add>
+                  <dateline>
+                  <placeName ref="#ThreeMileCross">Three Mile Cross</placeName> 
+                  <date when="1823-01-13">Jan<hi rend="superscript">y</hi> 13<hi rend="superscript">th</hi> 1823</date>. 
+               </dateline> <!-- No salute in this letter. -mjk -->
+              </opener>
+            <p>Have you forgiven me, my dear friend, for not writing to you at the time you fixed? And will you forgive me now for writing only to say that I will write again when I have more time, better spirits, &amp; better news--if ever the two latter may come to me. I am worn out with mental <choice><sic>labour</sic><reg resp="#mjk">labor</reg></choice> &amp; hope deferred--&amp; begin for the first time in my life to know what the <del rend="squiggles"><gap quantity="1" unit="word"/>ladys<!-- I don't see an apostrophe here, so I've coded it without. Do I need to include a "choice" element here to indicate the expected apostrophe? -mjk 
+           2017-09-19 ebb bas; It's fine; we read it as you do, there's no need to include a choice element.--></del> ladies' complaint called <emph rend="underline">nervous</emph> means.--You must not for a moment blame <persName ref="#Kemble_C">Charles Kemble</persName>--He is true &amp; kind &amp; good as ever man that lived--blame nobody--blame only the anomalous &amp; extraordinary state of the theatre in which the two great Actors do not even speak to each other. <persName ref="#Kemble_C">Charles Kemble</persName> means to bring out <title ref="#Foscari_MRMplay">Foscari</title> in about six <pb n="2" facs="13Jan1823Sir WilliamElford2b.JPG"/>weeks--&amp; has no doubt of doing so--he looks upon it as the main prop of his theatre for the season--This I know--but I dread the time--for I know--at least I deeply fear that <persName ref="#Macready_Wm">Macready</persName> will not play the <persName ref="#Doge_F">Doge</persName> &amp; that it will occasion another tremendous feud &amp; end probably in the abandonment of the Tragedy. This proceeds from no ill will for me <del rend="strikethrough">(remember that this is in strict confidence &amp; must not be <choice resp="#mjk"><sic>shewn</sic><reg>shown</reg></choice> to any human being.)</del>--for <persName ref="#Macready_Wm">Macready</persName> has actually this last week looked over a new play of mine which is in the hands of a friend in <rs type="place" ref="#London_city">Town</rs> &amp; which I never dreamt of his seeing--&amp; admires &amp; praises it to the skies &amp; would give the world to substitute it for <title ref="#Foscari_MRMplay">Foscari</title>--Now this play has no character for <persName ref="#Kemble_C">Charles Kemble</persName>--so that between the two great Actors each my warm friend--each the ardent admirer of the two plays it seems likely that neither will come out--of <pb n="3" facs="13Jan1823Sir WilliamElford3c.JPG"/>course I have my resource in <placeName ref="#Drury_Lane_Theatre">Drury Lane</placeName>, <del rend="squiggles">but</del> where unless they be deeply pre-engaged &amp; even if they be there is small doubt but <q><title ref="#Julian_MRMplay">Julian</title></q> will be gladly accepted--but I dread the previous struggle at <placeName ref="#Covent_Garden_Theatre">Covent Garden</placeName>--the being involved in these terrible quarrels--the being forced to abandon <persName ref="#Kemble_C">Charles Kemble</persName> who has been so very kind to me--This may be averted by <persName ref="#Macready_Wm">Mr. Macready</persName>'s relenting--I hope to God it will--I believe he would do <choice><sic>any thing</sic><reg resp="#bas">anything</reg></choice> to serve the Author of <title ref="#Julian_MRMplay">Julian</title> except play the <persName ref="#Doge_F">Doge</persName> to <persName ref="#Kemble_C">C. Kemble</persName>'s <title ref="#Foscari_MRMplay">Foscari</title>--&amp; yet the <persName ref="#Doge_F">Doge</persName> is really the better part of the two--but <title ref="#Foscari_MRMplay">Foscari</title> would <choice><sic>shew</sic><reg resp="#bas">show</reg></choice> off <persName ref="#Kemble_C">Charles</persName>.--Now is not this enough to put me past all hope &amp; comfort? I have only been one morning into <placeName ref="#Reading_city">Reading</placeName> for these three months--&amp; except on that one morning, have never been within the walls of any house but this--never seen a human being except <persName ref="#Crowther_Mr">Mr. Crowther</persName>--&amp; have so entirely lost my spirits that <pb n="4" facs="13Jan1823Sir WilliamElford4b.JPG"/>except for the fulfilment of my Magazine &amp; Newspaper engagements I really <del rend="squiggles">cannot</del> can do nothing but sit &amp; sigh over my needle work. I am not ill--&amp; I take great care of myself &amp; walk five miles every day--it is over--exertion in finishing <title ref="#Julian_MRMplay">Julian</title>--anxiety &amp; that most dreadful of feelings fear--pecuniary fear for those I love. But yet I will not fear--I thank God that my efforts are crowned if not with success with that which is the pledge of success improvement--my prose articles are read &amp; praised by those whose praise is an honour--&amp; in the drama I feel my progress--I feel that if God grant me health &amp; life &amp; intellect I shall one day write a great Tragedy. Forgive this long detail--I owed it to you to tell you why I no longer sent you the letters you were so good as to like. I cannot--<del rend="strikethrough">&amp; once more let me caution you that this in strict confidence.</del> Above all do not mention <del rend="strikethrough">it to</del> <add place="above">what I wrote to</add> <choice><sic>any one</sic><reg resp="#bas">anyone</reg></choice> with a view of making interest with Mr. <pb n="5" facs="13Jan1823Sir WilliamElford5b.JPG"/><add hand="#pencil">14 Jany 1823.</add> <persName ref="#Macready_Wm">Mr. Macready</persName>. <note resp="#bas">"Mr." appears as the last word on page four and also the first word on page five.</note> His temper is such that if he thought I complained of him he would throw me off instantly--whilst on the other hand, he is of a noble &amp; generous nature, &amp; may perhaps <add place="above"> <metamark place="below" function="insertion" rend="caret"/>of his own accord</add> give up his <del rend="strikethrough">own</del> prejudices to forward the views of a young woman in whose character &amp; works he takes an interest. Pray do not mention <del rend="strikethrough">the affair</del> <add place="above">my theatrical affairs</add> to any human being--No one can help me but <persName ref="#Macready_Wm">Macready</persName>, &amp; with him I have the best possible interest both in his own feelings &amp; in his bosom friend (<persName ref="#Talfourd_Thos">Mr. Talfourd</persName>) who is also mine &amp; who knows exactly my situation &amp; feelings. Do not mention it to a living being--I would not have <persName ref="#Macready_Wm">Macready</persName> think I complained of him for the world. <metamark rend="jerk"/> <persName ref="#Dickinson_Charles #Dickinson_Mrs">Mr. and Mrs. Dickinson</persName> &amp; the <rs type="person" ref="#Dickinson_Daughter">little heiress</rs> are spending their xmas in <placeName ref="#Somersetshire">Somersetshire</placeName> at a fine old house <note resp="#bas #lmw">This is likely the family manor house at Queen Charlton.</note> of his--which she has only visited once or twice since her marriage--they are all well--I had a delightful letter from her a day or two ago--so I had from <persName ref="#Haydon">Mr. Haydon</persName> <gap reason="torn" unit="word" quantity="1"/><note resp="#bas #ebb">There is a possibilty that a word or two are missing, as the paper has been torn under the seal. We speculate that the missing words could be "a letter" or "a note" that Mitford may have received from Mr. Haydon.</note> on the birth of his son &amp; heir. <metamark rend="jerk"/>Have you read <del rend="squiggles"><gap quantity="1" unit="word"/></del> <note resp="#bas">This is likely <bibl><title level="m">The Autobiography of Benvenuto Cellini</title>, written between <date from="1558" to="1562">1558 and 1562</date></bibl>. This lively account of Cellini's life has been famed as one of the most colorful and delightful autobiographies ever written. Mitford may have read the <bibl corresp="#Cellini_Bio">version published in <date when="1823">1823</date> under the title of <title level="m">Memoirs of Benvenuto Cellini : a Florentine artist ; written by himself</title></bibl>.</note> of <persName ref="#Cellini_Ben">Benvenuto Cellini</persName>--If not, Do! It is a most delightful piece of hair brained auto-biography--I quite agree with you &amp; the <title level="j">Edinburgh Review</title> as to <persName ref="#Irving_Wash">Washington <choice><sic>Irvine</sic><reg resp="#bas">Irving</reg></choice></persName>'s <note resp="#bas #lmw">Mitford probably means Washington Irving, whose episodic novel <title level="m">Bracebridge Hall</title> was published in 1822 in two volumes.</note> book--there are pretty things in it--but the sentiment is cloying--&amp; altogether after having read one Vol. one has no great desire to take up the second. <persName ref="#Galt_John">Mr. Galt</persName>'s new novel <title level="m">The Entail</title> has great power but is very disagreeable--&amp; yet there is an idiot--&amp; and old Scotchwoman both of which are as finely drawn as Scott could do them--these are nearly the only books I have read lately)<!-- 2017-09-17 bas: The beginning parenthesis may be where the tear is. -->--How is <persName ref="#Elford_J_bro">Mr. Elford</persName> I noted down the other day from a Review the title of a book which I transcribe--perhaps he would like to see it--It was very highly spoken of--on second thoughts I enclose it in a separate slip of paper.--(Farewell my dear &amp; kind<pb n="6" facs="13Jan1823Sir WilliamElford6.JPG"/><!-- 2017-09-24 bas: This is the only non-edited version of this image --> Friend--forgive the sadness &amp; the egotism of this letter--it has been a relief to me--I am 
+               <!-- 2017-09-18 bas: TRANSCRIPTION INCOMPLETE. STOPPED HERE -->
+               <!--LMW: 2017-10-28 transcription continued by Lisa-->
+               sure of your sympathy &amp; will write to you as soon as I know any thing certain &amp; when I consider that <persName ref="#Macready_Wm">Macready</persName> is really a noble creature, that he thinks very highly of both plays &amp; that he knows as exactly as you now do my situation &amp; my feelings I have really <unclear><supplied resp="#lmw">hopes</supplied></unclear>.--Write to me if you can--Present my best wishes to your dear daughter &amp; to <persName>Mr. Elford</persName> <note resp="#bas #ebb">This could refer to either the brother or the son of William Elford, both named Jonathan. Since she is also mentioning the daughter here, this is likely the son.</note> &amp; to <persName ref="#Elford_MrsE">Lady Elford</persName> if she will accept of them &amp; believe me always most faithfully &amp; affectionately your's. Kindest regards from <orgName ref="#Mitfords_Ma_Pa">Papa &amp; Mama</orgName>.</p>
+
+               
+            <closer>
+            <persName ref="#MRM">M.R. Mitford</persName>
+            </closer>
+
+             
+            
+            <postscript><p>
+               <persName>Miss Rowe</persName> is a very fine young woman--I am more acquainted with <persName ref="#Valpys">Mrs. <unclear><supplied resp="#ebb">Valpy</supplied></unclear></persName>--but <persName ref="#Rowe_Hannah">Hannah Rowe</persName> is highly spoken of by all the family &amp; especially by her who though her sister is a woman of great sense &amp; admirable qualities to be believed on all subjects--</p></postscript>
+            
+            <!-- bas: the address leaf is very blurry and hard to read. -->
+            
+             <closer><!--Use the <closer> element again to hold Address Leaf information, indicating where Mitford directed her letter.-->
+               <address> <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. Closer tags must also enclose the address section. NOTE AGAIN: If Mitford has a postscript, that postcript must *not* be enclosed in the closer tags, even when they are written after the signature and before the address. It's a TEI rule (sigh). -->
+            <addrLine><!--Text of a line on the address leaf, with context coding and superscripts indicated.--></addrLine>
+
+            </address>
+            </closer> 
+         </div>
+      </body>
+     
+     <back>
+        <div>
+       <listPerson>
+          <person xml:id="Cellini_Ben">
+             <persName>
+                <surname>Cellini</surname>
+                <forename>Benvenuto</forename>
+             </persName>
+             <birth when="1500-11-01"><placeName>Florence, Italy</placeName></birth>
+             <death when="1571-02-13"><placeName>Florence, Italy</placeName></death>
+             <occupation>goldsmith</occupation>
+             <occupation>sculptor</occupation>
+             <occupation>writer</occupation>
+             <note resp="#bas">An Italian writer, artist, and goldsmith. Well known for his autobiography, <bibl><title level="m">The Autobiography of Benvenuto Cellini</title> written between <date from="1558" to="1562">1558 and 1562</date></bibl>. He also wrote poetry, treatises on art and design, and works of fisction. He was one of the most significant artists of the Mannerism art movement. His most well-known sculptures are <title>Perseus</title> and the <title>Cellini Salt Cellar</title>.</note>
+          </person>    
+          
+          <person xml:id="Galt_John">
+             <persName>
+                <surname>Galt</surname>
+                <forename>John</forename>
+             </persName>
+             <birth when="1779-05-02"><placeName>Irvine, Ayrshire, Scotland</placeName></birth>
+             <death when="1839-04-11"><placeName>Greenock, Renfrewshire, Scotland</placeName></death>
+             <occupation>novelist</occupation>
+             <occupation>administrator</occupation>
+             <note resp="#bas">A Scottish novelist and admisitrator. On his travels to secure trade deals, he met <persName ref="#Byron">Lord Byron</persName> in the Mediterranean and later published <title level="m">The Life of Lord Byron</title>. He is known for his novels depitcting Scottish country life. One of his notable works, <title level="m">The Entail</title>, features a Scottish family as they negotiate the inheritance of an estate.</note>
+          </person>
+          
+          <person xml:id="Rowe_Hannah">
+             <persName>
+                <surname>Rowe</surname>
+                <forename>Hannah</forename>
+             </persName>
+          </person>
+       </listPerson>
+           
+
+          <listBibl>
+             <bibl xml:id="Cellini_Bio">
+                <title>Memoirs of Benvenuto Cellini : a Florentine artist ; written by himself. Containing a variety of information respecting the arts, and the history of the sixteenth century.</title>
+                <author>Benvenuto Cellini</author>
+                <editor role="translator">Thomas Roscoe</editor>
+                <editor role="annotator">G.P. Carpani</editor>
+                <pubPlace>London</pubPlace>
+                <publisher>H. Colburn</publisher>
+                <date when="1823">1823</date>
+             </bibl>
+          </listBibl>
+     </div>
+     </back>
+  </text>
+</TEI>
