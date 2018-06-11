@@ -946,16 +946,28 @@
                     >flower.jpg</image>
                 <desc>Putting it all together: writing FLWORs to make new files</desc>
                 <details>
-
-
                     <item>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <examples>
-                            <example>See the XQuery file stored in the newtfire.org:8338 eXist
-                                database in the <code>/db/DHSI-Queries/</code> directory, also
-                                posted on GitHub: <link/></example>
+                            <example>HTML table output:
+                                    <link>https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</link></example>
+                            <example>XQuery to make the HTML, in the newtfire eXist-db:
+                                    <code>/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
+                                GitHub:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</link>
+                            </example>
                         </examples>
                     </item>
-                    <item>SVG returns: making a simple graph (if time). </item>
+                    <item>SVG returns: a bar graph from XQuery <examples>
+                            <example>SVG bar graph output:
+                                    <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
+                                or
+                                    <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
+                            <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
+                                    /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
+                                GitHub:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link></example>
+                        </examples>
+                    </item>
                 </details>
             </act>
         </slot>
