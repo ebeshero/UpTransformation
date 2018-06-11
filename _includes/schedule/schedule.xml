@@ -1408,7 +1408,19 @@
     <day d="Friday, June 15">
         <title>Taking stock</title>
         <slot time="09:00:00">
-            <title>Review of XPath applications</title>
+            <title>Putting it all to work</title>
+            <act time="PT1H25M">
+                <desc>XPath in up-conversion</desc>
+                <details>
+                    <item>Autotagging plain text with regex</item>
+                    <item>Planning the up-conversion: pipelining</item>
+                    <item>Moving plain text in XSLT</item>
+                    <item>Autotagging and &lt;xsl:analyze-string&gt;</item>
+                </details>
+            </act>
+            <act time="PT10M">
+                <desc>Break</desc>
+            </act>
             <act time="PT1H25M">
                 <desc>Building our syllabus</desc>
                 <details>
@@ -1439,12 +1451,6 @@
                                 </examples></example>
                         </examples></item>
                 </details>
-            </act>
-            <act time="PT10M">
-                <desc>Break</desc>
-            </act>
-            <act time="PT1H25M">
-                <desc>What next?</desc>
             </act>
         </slot>
     </day>
