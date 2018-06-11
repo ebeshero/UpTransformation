@@ -95,7 +95,7 @@
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-count"
                                     >count(('Curly', 'Larry', 'Moe'))</code> (Why two sets of
                                 parentheses? Hint: How many arguments, and of what type?)</example>
-                            <example>Function <emph>signatures</emph> and <emph>cardinality</emph>:
+                            <example>Function <emph>signature</emph> and <emph>cardinality</emph>:
                                     <code>count($items as item()*) as xs:integer</code></example>
                         </examples>
                     </item>
@@ -131,9 +131,9 @@
                 <details>
                     <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
-                            <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>, and
-                        hit <q>OK</q>. (Backup copy at
-                            <q>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</q>.)
+                            <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
+                        and hit <q>OK</q>. (Backup copy at
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)
                         This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
                     <item>Set the dropdown in the upper left to <q>XPath 3.0</q>. (This widget is
                         called the <emph
@@ -184,8 +184,7 @@
                         </examples></item>
                     <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
-                        behind the scenes. eXide does not; you have to specify namespaces in
-                        eXide.</item>
+                        behind the scenes (eXide does not).</item>
                 </details>
             </act>
             <act time="PT25M">
@@ -233,30 +232,32 @@
                             <example><code>//stage/..</code> matches the parent nodes of all
                                     <code>&lt;stage&gt;</code> elements</example>
                         </examples></item>
-                    <item>Find the acts (<code>&lt;div&gt;</code> children of
-                            <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
-                        <answer>
-                            <code>//body/div</code>
-                        </answer></item>
-                    <item>Find the stage directions (<code>&lt;stage&gt;</code>) in
-                            <emph>Hamlet</emph>
-                        <answer>
-                            <code>//stage</code>
-                        </answer></item>
-                    <item>Find the <code>&lt;stage&gt;</code> children of <code>&lt;div&gt;</code>
-                        elements (but not other <code>&lt;stage&gt;</code> elements) in
-                            <emph>Hamlet</emph>
-                        <answer>
-                            <code>//div/stage</code>
-                        </answer></item>
-                    <item>Find the parents of the stage directions in <emph>Hamlet</emph>
-                        <answer>
-                            <code>//stage/..</code> or <code>//stage/parent::*</code>
-                        </answer></item>
-                    <item>Find the <code>&lt;div&gt;</code> parents of the stage directions in
-                            <emph>Hamlet</emph>, but not other parents <answer>
-                            <code>//stage/parent::div</code>
-                        </answer></item>
+                    <item>Your turn: <examples>
+                            <example>Find the acts (<code>&lt;div&gt;</code> children of
+                                    <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//body/div</code>
+                                </answer></example>
+                            <example>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                                    <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//stage</code>
+                                </answer></example>
+                            <example>Find the <code>&lt;stage&gt;</code> children of
+                                    <code>&lt;div&gt;</code> elements (but not other
+                                    <code>&lt;stage&gt;</code> elements) in <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//div/stage</code>
+                                </answer></example>
+                            <example>Find the parents of the stage directions in <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//stage/..</code> or <code>//stage/parent::*</code>
+                                </answer></example>
+                            <example>Find the <code>&lt;div&gt;</code> parents of the stage
+                                directions in <emph>Hamlet</emph>, but not other parents <answer>
+                                    <code>//stage/parent::div</code>
+                                </answer></example>
+                        </examples></item>
                 </details>
             </act>
         </slot>
@@ -278,7 +279,7 @@
                             <example>What’s wrong with <code>concat(//speaker)</code>? <answer>The
                                     arguments to <code>concat()</code> must be two or more
                                     individual atomic (or atomizable) items, and
-                                        <code>//speaker</code> is a sequence.</answer></example>
+                                        <code>//speaker</code> is a sequence</answer></example>
                         </examples>
                     </item>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-string-join"
@@ -368,7 +369,6 @@
                             <example><code>format-integer(154,'w')</code></example>
                             <example><code>format-integer(154,'I')</code></example>
                             <example><code>format-number(1, '#.000')</code></example>
-                            <example><code>format-number(1, '#.###')</code></example>
                         </examples></item>
                     <item>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <answer><code>//speaker/string-length()</code> (why doesn’t
