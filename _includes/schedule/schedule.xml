@@ -1376,24 +1376,21 @@
                                 </examples></example>
                         </examples>
                     </item>
-                    <item>BLAH (new site index entries in <code>&lt;back&gt;</code>) <examples>
+                    <item>Web 1819-05-16 letter (new site index entries in
+                        <code>&lt;back&gt;</code>) <examples>
                             <example>Letter:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/BLAH.xml</link></example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
                             <example>Schematron:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></example>
-                            <example>Tasks <examples>
-                                    <example>As above, and then …</example>
-                                    <example>Write rules for <code>&lt;rs&gt;</code> (referring
-                                        string) examples according to value of
-                                        <code>@type</code></example>
-                                </examples></example>
                             <example>New items for the site index are in the
                                     <code>&lt;back&gt;</code>
                                 <examples>
-                                    <example>Some of those have been added to the site index; report
-                                        them as errors</example>
-                                    <example>Some stil have to be added to the site index; report
+                                    <example>Some <code>@ref</code> values have been added to the
+                                        site index; report them as errors</example>
+                                    <example>Some still have to be added to the site index; report
                                         them as <q>info</q></example>
+                                    <example>If the element types lack a <code>@ref</code>, report
+                                        an error</example>
                                 </examples></example>
                         </examples></item>
                 </details>

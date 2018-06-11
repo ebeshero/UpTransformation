@@ -10,4 +10,4 @@ XPath is the center of the course, but we will explore how it applies in multipl
 
 *This is a hands-on course. Consider this offering in complement with, and / or to be built on by: Text Encoding Fundamentals and their Application, Out-of-the-Box Text Analysis for the Digital Humanities, Text Processing - Techniques & Traditions, XML Applications for Historical and Literary Research. No advanced knowledge of XML processing is necessary but those with interests in document processing who have taken Digital Documentation and Imaging for Humanists; Advanced TEI Concepts / TEI Customization; A Collaborative Approach to XSLT; or Geographical Information Systems in the Digital Humanities will certainly benefit.*
 
-#### [Link to Register for DHSI Courses](https://www.regonline.ca/registration/Checkin.aspx?EventID=2039249)
+#### [Link to register for DHSI courses](https://www.regonline.ca/registration/Checkin.aspx?EventID=2039249)
