@@ -1416,12 +1416,14 @@
                     <item>Planning the up-conversion: pipelining</item>
                     <item>Document analysis:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/poe.txt</link><examples>
-                            <example>We have removed non-poem content: notes, plays, front and back
-                                matter</example>
-                            <example>Document structure: section delimiter (1), use of
-                                whitespace</example>
+                            <example>We have removed non-poem content: introductions, notes, plays,
+                                front and back matter, footnotes (but not inline footnote
+                                numbers)</example>
+                            <example>Document structure: section delimiter (1), use of whitespace
+                                (10)</example>
                             <example>Poem structure: title (7), stanzas (10), lines (10), year
-                                (142), section numbers (157), notes (592)</example>
+                                (142), section numbers (157, 3240), editor’s notes (592), inline
+                                note numbers (1770)</example>
                             <example>Typography: line indentation (10)?, em-dash (11), quotation
                                 marks (14), apostrophes (14)</example>
                         </examples></item>
