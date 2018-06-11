@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="500" viewBox="0,0,1300,700">
+    <g transform="translate(100, 500)"><!--ebb: We've set transform="translate()" on the svg element above so you can plot the graph from 0,0. That makes it a lot easier to plot the SVG shapes, but it means that values above the X axis have to climb UP the screen from zero to negative numbers. The line below is the X axis, and we're setting it to start at 0,0 -->
+        <line x1="0" y1="0" x2="975" y2="0" stroke="maroon" stroke-width="2"/><!--The line below is the Y axis, and it, too, starts at 0,0 -->
+        <line x1="0" y1="0" x2="0" y2="-300" stroke="maroon" stroke-width="2"/>
+        <text x="200" y="-300" style="font-size:25;">Who is talked about the most in Mitford’s Charles the First?</text>
+        <g id="#Chas1_MRM">
+            <rect x="37.5" y="-204.25531914893617" width="50" height="204.25531914893617" fill="hsl(358, 306.382978723404255%, 30%)"/>
+            <text x="62.5" y="-102.127659574468085" fill="white" style="text-anchor: middle; font-size:smaller;">20.4%</text>
+            <text x="62.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 62.5 15)">Charles the First</text>
+        </g>
+        <g id="#Cromwell_MRM">
+            <rect x="112.5" y="-104.25531914893617" width="50" height="104.25531914893617" fill="hsl(358, 156.382978723404255%, 30%)"/>
+            <text x="137.5" y="-52.127659574468085" fill="white" style="text-anchor: middle; font-size:smaller;">10.4%</text>
+            <text x="137.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 137.5 15)">Oliver Cromwell</text>
+        </g>
+        <g id="#Fairfax">
+            <rect x="187.5" y="-74.468085106382979" width="50" height="74.468085106382979" fill="hsl(358, 111.7021276595744685%, 30%)"/>
+            <text x="212.5" y="-37.2340425531914895" fill="white" style="text-anchor: middle; font-size:smaller;">7.4%</text>
+            <text x="212.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 212.5 15)">Lord Fairfax</text>
+        </g>
+        <g id="#Harrison">
+            <rect x="262.5" y="-74.468085106382979" width="50" height="74.468085106382979" fill="hsl(358, 111.7021276595744685%, 30%)"/>
+            <text x="287.5" y="-37.2340425531914895" fill="white" style="text-anchor: middle; font-size:smaller;">7.4%</text>
+            <text x="287.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 287.5 15)">Harrison</text>
+        </g>
+        <g id="#Herbert_Ch1">
+            <rect x="337.5" y="-72.340425531914894" width="50" height="72.340425531914894" fill="hsl(358, 108.510638297872341%, 30%)"/>
+            <text x="362.5" y="-36.170212765957447" fill="white" style="text-anchor: middle; font-size:smaller;">7.2%</text>
+            <text x="362.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 362.5 15)">Sir Thomas Herbert</text>
+        </g>
+        <g id="#Queen_Ch1">
+            <rect x="412.5" y="-63.829787234042553" width="50" height="63.829787234042553" fill="hsl(358, 95.7446808510638295%, 30%)"/>
+            <text x="437.5" y="-31.9148936170212765" fill="white" style="text-anchor: middle; font-size:smaller;">6.4%</text>
+            <text x="437.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 437.5 15)">Queen Henrietta Maria</text>
+        </g>
+        <g id="#Marten">
+            <rect x="487.5" y="-48.936170212765957" width="50" height="48.936170212765957" fill="hsl(358, 73.4042553191489355%, 30%)"/>
+            <text x="512.5" y="-24.4680851063829785" fill="white" style="text-anchor: middle; font-size:smaller;">4.9%</text>
+            <text x="512.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 512.5 15)">Marten</text>
+        </g>
+        <g id="#Bradshaw">
+            <rect x="562.5" y="-44.680851063829787" width="50" height="44.680851063829787" fill="hsl(358, 67.0212765957446805%, 30%)"/>
+            <text x="587.5" y="-22.3404255319148935" fill="white" style="text-anchor: middle; font-size:smaller;">4.5%</text>
+            <text x="587.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 587.5 15)">Lord President Bradshaw</text>
+        </g>
+        <g id="#Downes">
+            <rect x="637.5" y="-44.680851063829787" width="50" height="44.680851063829787" fill="hsl(358, 67.0212765957446805%, 30%)"/>
+            <text x="662.5" y="-22.3404255319148935" fill="white" style="text-anchor: middle; font-size:smaller;">4.5%</text>
+            <text x="662.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 662.5 15)">Downes</text>
+        </g>
+        <g id="#Ireton">
+            <rect x="712.5" y="-40.425531914893617" width="50" height="40.425531914893617" fill="hsl(358, 60.6382978723404255%, 30%)"/>
+            <text x="737.5" y="-20.2127659574468085" fill="white" style="text-anchor: middle; font-size:smaller;">4.0%</text>
+            <text x="737.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 737.5 15)">Ireton</text>
+        </g>
+        <g id="#Hacker_Ch1">
+            <rect x="787.5" y="-23.404255319148936" width="50" height="23.404255319148936" fill="hsl(358, 35.106382978723404%, 30%)"/>
+            <text x="812.5" y="-11.702127659574468" fill="white" style="text-anchor: middle; font-size:smaller;">2.3%</text>
+            <text x="812.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 812.5 15)">Hacker</text>
+        </g>
+        <g id="#Pride_Ch1">
+            <rect x="862.5" y="-21.276595744680851" width="50" height="21.276595744680851" fill="hsl(358, 31.9148936170212765%, 30%)"/>
+            <text x="887.5" y="-10.6382978723404255" fill="white" style="text-anchor: middle; font-size:smaller;">2.1%</text>
+            <text x="887.5" y="15" color="black" style="text-anchor: start" transform="rotate(45 887.5 15)">Pride</text>
+        </g>
+    </g>
+</svg>
