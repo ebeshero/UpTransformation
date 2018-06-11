@@ -79,7 +79,7 @@
                                 of what type?)</li>
                             <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
                                 parentheses? Hint: How many arguments, and of what type?)</li>
-                            <li>Function <em>signatures</em> and <em>cardinality</em>:
+                            <li>Function <em>signature</em> and <em>cardinality</em>:
                                     <code>count($items as item()*) as xs:integer</code></li>
                         </ol>
                     </li>
@@ -105,9 +105,9 @@
                 </ol></li><li>XPath in &lt;oXygen/&gt; (20 minutes; 10:55 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
-                            <q>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</q>, and
-                        hit <q>OK</q>. (Backup copy at
-                            <q>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</q>.)
+                            <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
+                        and hit <q>OK</q>. (Backup copy at
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</a>.)
                         This is a copy of <em>Hamlet</em> with TEI markup.</li>
                     <li>Set the dropdown in the upper left to <q>XPath 3.0</q>. (This widget is
                         called the <em>XPath Toolbar</em><a href="https://www.oxygenxml.com/doc/versions/20.0/ug-editor/topics/xpath-console.html"><sup>⬀</sup></a>.) Enter some XPath expressions (from above, such
@@ -152,8 +152,7 @@
                         </ol></li>
                     <li>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
-                        behind the scenes. eXide does not; you have to specify namespaces in
-                        eXide.</li>
+                        behind the scenes (eXide does not).</li>
                 </ol></li><li>XPath path steps (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
                             <code>descendant::</code>, <code>ancestor::</code>,
@@ -197,30 +196,32 @@
                             <li><code>//stage/..</code> matches the parent nodes of all
                                     <code>&lt;stage&gt;</code> elements</li>
                         </ol></li>
-                    <li>Find the acts (<code>&lt;div&gt;</code> children of
-                            <code>&lt;body&gt;</code>) in <em>Hamlet</em>
-                         <button class="answer">Answer</button> <span class="answer">
-                            <code>//body/div</code>
-                        </span></li>
-                    <li>Find the stage directions (<code>&lt;stage&gt;</code>) in
-                            <em>Hamlet</em>
-                         <button class="answer">Answer</button> <span class="answer">
-                            <code>//stage</code>
-                        </span></li>
-                    <li>Find the <code>&lt;stage&gt;</code> children of <code>&lt;div&gt;</code>
-                        elements (but not other <code>&lt;stage&gt;</code> elements) in
-                            <em>Hamlet</em>
-                         <button class="answer">Answer</button> <span class="answer">
-                            <code>//div/stage</code>
-                        </span></li>
-                    <li>Find the parents of the stage directions in <em>Hamlet</em>
-                         <button class="answer">Answer</button> <span class="answer">
-                            <code>//stage/..</code> or <code>//stage/parent::*</code>
-                        </span></li>
-                    <li>Find the <code>&lt;div&gt;</code> parents of the stage directions in
-                            <em>Hamlet</em>, but not other parents  <button class="answer">Answer</button> <span class="answer">
-                            <code>//stage/parent::div</code>
-                        </span></li>
+                    <li>Your turn: <ol>
+                            <li>Find the acts (<code>&lt;div&gt;</code> children of
+                                    <code>&lt;body&gt;</code>) in <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//body/div</code>
+                                </span></li>
+                            <li>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                                    <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//stage</code>
+                                </span></li>
+                            <li>Find the <code>&lt;stage&gt;</code> children of
+                                    <code>&lt;div&gt;</code> elements (but not other
+                                    <code>&lt;stage&gt;</code> elements) in <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//div/stage</code>
+                                </span></li>
+                            <li>Find the parents of the stage directions in <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//stage/..</code> or <code>//stage/parent::*</code>
+                                </span></li>
+                            <li>Find the <code>&lt;div&gt;</code> parents of the stage
+                                directions in <em>Hamlet</em>, but not other parents  <button class="answer">Answer</button> <span class="answer">
+                                    <code>//stage/parent::div</code>
+                                </span></li>
+                        </ol></li>
                 </ol></li></ul></section>
         <section><h3>Exploring document structures and data with XPath (1:30 p.m.–4:00 p.m.)</h3><ul><li>XPath functions for strings (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
@@ -233,7 +234,7 @@
                             <li>What’s wrong with <code>concat(//speaker)</code>?  <button class="answer">Answer</button> <span class="answer">The
                                     arguments to <code>concat()</code> must be two or more
                                     individual atomic (or atomizable) items, and
-                                        <code>//speaker</code> is a sequence.</span></li>
+                                        <code>//speaker</code> is a sequence</span></li>
                         </ol>
                     </li>
                     <li><code>string-join()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-join"><sup>⬀</sup></a><ol>
@@ -293,7 +294,6 @@
                             <li><code>format-integer(154,'w')</code></li>
                             <li><code>format-integer(154,'I')</code></li>
                             <li><code>format-number(1, '#.000')</code></li>
-                            <li><code>format-number(1, '#.###')</code></li>
                         </ol></li>
                     <li>Find the length in character count of each <code>&lt;speaker&gt;</code>
                          <button class="answer">Answer</button> <span class="answer"><code>//speaker/string-length()</code> (why doesn’t
