@@ -643,7 +643,7 @@
                             <example> Look at the <code>div</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
                                 organized? Write an XPath that isolates these attribute values.
-                                    <answer>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</answer></example>
+                                    <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
                             <example>Look element children of the <code>&lt;div&gt;</code> elements
                                 (you can do this without seeing what all the elements are). What
                                 attribute on these elements can be used to differentiate the various
@@ -702,7 +702,7 @@
                     <item><code>translate()</code> vs. <code>replace()</code>
                         <examples>
                             <example>Try this expression,
-                                doc('/db/mitford/literary/Charles1.xml')//tei:castList, and notice
+                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>, and notice
                                 the pseudomarkup in the cast list. <code>translate()</code> to the
                                 rescue!
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
