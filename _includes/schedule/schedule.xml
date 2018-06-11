@@ -1412,68 +1412,32 @@
             <act time="PT1H25M">
                 <desc>Building our syllabus</desc>
                 <details>
+                    <item>Workflow <examples>
+                            <example>Author in XML, validating with Relax NG and Schematron<examples>
+                                    <example>RelaxNG:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc</link></example>
+                                    <example>Schematron:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link></example>
+                                </examples></example>
+                            <example>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT
+                                for inclusion in GitHub pages<examples>
+                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></example>
+                                </examples></example>
+                            <example>XInclude fragment in wrapper.xml and transform to full local
+                                schedule with XSLT<examples>
+                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</link></example>
+                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</link></example>
+                                </examples></example>
+                            <example>Use XProc to manage pipeline<examples>
+                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</link></example>
+                                </examples></example>
+                        </examples></item>
                     <item>Our schedule in XML:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</link><examples>
-                            <example>Divided into 5 days: <code>&lt;day d="Monday, June
-                                    11"&gt;</code>, etc.</example>
-                            <example>Each day has two slots, e.g., <code>&lt;slot
-                                    time="10:00:00"&gt;</code></example>
-                            <example>Slots have activities, e.g., <code>&lt;act
-                                    time="PT20M"&gt;</code>, <code>&lt;act
-                                time="PT1H30M"&gt;</code></example>
-                        </examples></item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</link></item>
                     <item>How we use XPath in Schematron
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link><examples>
-                            <example><code>&lt;sch:rule context="slot[1]/@time"&gt;</code><examples>
-                                    <example><code>&lt;sch:assert test="if (ancestor::day/@d eq
-                                            'Monday, June 11') then . eq '10:00:00' else . eq
-                                            '09:30:00'"&gt;Monday starts at 10:00 a.m., other days
-                                            at 9:30&lt;/sch:assert&gt;</code></example>
-                                </examples></example>
-                            <example><code>&lt;sch:rule context="slot[2]/@time"&gt;</code><examples>
-                                    <example><code>&lt;sch:assert test=" if (ancestor::day/@d ne
-                                            'Friday, June 15') then . eq '13:15:00' else
-                                            1"&gt;Afternoon sessions Monday through Thursday start
-                                            at 1:15 p.m.&lt;/sch:assert&gt;</code></example>
-                                    <example><code>&lt;sch:assert test="ancestor::day/@d ne 'Friday,
-                                            June 15'"&gt;There is no afternoon session on
-                                            Friday&lt;/sch:assert&gt;</code></example>
-                                </examples></example>
-                            <example><code>&lt;sch:rule context="slot[1]"&gt;</code><examples>
-                                    <example><code>&lt;sch:assert test=" if (../@d eq 'Monday, June
-                                            11') then sum(act/@time/xs:dayTimeDuration(.)) eq
-                                            xs:dayTimeDuration('PT2H') else
-                                            sum(act/@time/xs:dayTimeDuration(.)) eq
-                                            xs:dayTimeDuration('PT2H30M')"&gt;Duration of
-                                            &lt;sch:value-of
-                                            select="sum(act/@time/xs:dayTimeDuration(.))"/&gt; is
-                                            incorrect; Monday should be PT2H and other days should
-                                            be PT2H30M&lt;/sch:assert&gt;</code></example>
-                                </examples></example>
-                            <example>
-                                <code>&lt;sch:rule context="slot[2]"&gt;</code><examples>
-                                    <example><code>&lt;sch:assert test="
-                                            sum(act/@time/xs:dayTimeDuration(.)) eq
-                                            xs:dayTimeDuration('PT2H35M')"&gt;Duration of
-                                            &lt;sch:value-of
-                                            select="sum(act/@time/xs:dayTimeDuration(.))"/&gt; is
-                                            incorrect; duration of all afternoon sessions should be
-                                            PT2H35M&lt;/sch:assert&gt;</code></example>
-                                </examples>
-                            </example>
-                            <example><code>&lt;sch:rule context="title"&gt;</code><examples>
-                                    <example><code>&lt;sch:assert
-                                            test="string-length(normalize-space(.)) gt 0"&gt;title
-                                            must have content&lt;/sch:assert&gt;</code></example>
-                                </examples></example>
-                        </examples></item>
-                    <item>Uses of XPath in XSLT<examples>
-                            <example>Customize <code>format-time()</code>
-                                <answer type="block">&lt;xsl:function name="djb:format-time" as="xs:string"&gt;
-    &lt;xsl:param name="input" as="xs:time" required="yes"/&gt;
-    &lt;xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/&gt;
-&lt;/xsl:function&gt;</answer></example>
-                        </examples></item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link></item>
+                    <item>How we use XPath in XSLT:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></item>
                 </details>
             </act>
             <act time="PT10M">

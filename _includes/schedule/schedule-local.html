@@ -1132,68 +1132,32 @@
     <section>
         <h2>Friday, June 15: Taking stock</h2>
         <section><h3>Review of XPath applications (9:00 a.m.–12:00 p.m.)</h3><ul><li>Building our syllabus (85 minutes; 9:00 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Workflow <ol>
+                            <li>Author in XML, validating with Relax NG and Schematron<ol>
+                                    <li>RelaxNG:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc</a></li>
+                                    <li>Schematron:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</a></li>
+                                </ol></li>
+                            <li>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT
+                                for inclusion in GitHub pages<ol>
+                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</a></li>
+                                </ol></li>
+                            <li>XInclude fragment in wrapper.xml and transform to full local
+                                schedule with XSLT<ol>
+                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</a></li>
+                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</a></li>
+                                </ol></li>
+                            <li>Use XProc to manage pipeline<ol>
+                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</a></li>
+                                </ol></li>
+                        </ol></li>
                     <li>Our schedule in XML:
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</a><ol>
-                            <li>Divided into 5 days: <code>&lt;day d="Monday, June
-                                    11"&gt;</code>, etc.</li>
-                            <li>Each day has two slots, e.g., <code>&lt;slot
-                                    time="10:00:00"&gt;</code></li>
-                            <li>Slots have activities, e.g., <code>&lt;act
-                                    time="PT20M"&gt;</code>, <code>&lt;act
-                                time="PT1H30M"&gt;</code></li>
-                        </ol></li>
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</a></li>
                     <li>How we use XPath in Schematron
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</a><ol>
-                            <li><code>&lt;sch:rule context="slot[1]/@time"&gt;</code><ol>
-                                    <li><code>&lt;sch:assert test="if (ancestor::day/@d eq
-                                            'Monday, June 11') then . eq '10:00:00' else . eq
-                                            '09:30:00'"&gt;Monday starts at 10:00 a.m., other days
-                                            at 9:30&lt;/sch:assert&gt;</code></li>
-                                </ol></li>
-                            <li><code>&lt;sch:rule context="slot[2]/@time"&gt;</code><ol>
-                                    <li><code>&lt;sch:assert test=" if (ancestor::day/@d ne
-                                            'Friday, June 15') then . eq '13:15:00' else
-                                            1"&gt;Afternoon sessions Monday through Thursday start
-                                            at 1:15 p.m.&lt;/sch:assert&gt;</code></li>
-                                    <li><code>&lt;sch:assert test="ancestor::day/@d ne 'Friday,
-                                            June 15'"&gt;There is no afternoon session on
-                                            Friday&lt;/sch:assert&gt;</code></li>
-                                </ol></li>
-                            <li><code>&lt;sch:rule context="slot[1]"&gt;</code><ol>
-                                    <li><code>&lt;sch:assert test=" if (../@d eq 'Monday, June
-                                            11') then sum(act/@time/xs:dayTimeDuration(.)) eq
-                                            xs:dayTimeDuration('PT2H') else
-                                            sum(act/@time/xs:dayTimeDuration(.)) eq
-                                            xs:dayTimeDuration('PT2H30M')"&gt;Duration of
-                                            &lt;sch:value-of
-                                            select="sum(act/@time/xs:dayTimeDuration(.))"/&gt; is
-                                            incorrect; Monday should be PT2H and other days should
-                                            be PT2H30M&lt;/sch:assert&gt;</code></li>
-                                </ol></li>
-                            <li>
-                                <code>&lt;sch:rule context="slot[2]"&gt;</code><ol>
-                                    <li><code>&lt;sch:assert test="
-                                            sum(act/@time/xs:dayTimeDuration(.)) eq
-                                            xs:dayTimeDuration('PT2H35M')"&gt;Duration of
-                                            &lt;sch:value-of
-                                            select="sum(act/@time/xs:dayTimeDuration(.))"/&gt; is
-                                            incorrect; duration of all afternoon sessions should be
-                                            PT2H35M&lt;/sch:assert&gt;</code></li>
-                                </ol>
-                            </li>
-                            <li><code>&lt;sch:rule context="title"&gt;</code><ol>
-                                    <li><code>&lt;sch:assert
-                                            test="string-length(normalize-space(.)) gt 0"&gt;title
-                                            must have content&lt;/sch:assert&gt;</code></li>
-                                </ol></li>
-                        </ol></li>
-                    <li>Uses of XPath in XSLT<ol>
-                            <li>Customize <code>format-time()</code>
-                                 <button class="answer">Answer</button> <div class="answer">&lt;xsl:function name="djb:format-time" as="xs:string"&gt;
-    &lt;xsl:param name="input" as="xs:time" required="yes"/&gt;
-    &lt;xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/&gt;
-&lt;/xsl:function&gt;</div></li>
-                        </ol></li>
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</a></li>
+                    <li>How we use XPath in XSLT:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</a></li>
                 </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>What next? (85 minutes; 10:35 a.m.–12:00 p.m.) </li></ul></section>
     </section>
 </section>
