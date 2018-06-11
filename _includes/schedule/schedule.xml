@@ -643,7 +643,7 @@
                             <example> Look at the <code>div</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
                                 organized? Write an XPath that isolates these attribute values.
-                                    <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
+                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
                             <example>Look element children of the <code>&lt;div&gt;</code> elements
                                 (you can do this without seeing what all the elements are). What
                                 attribute on these elements can be used to differentiate the various
@@ -702,9 +702,9 @@
                     <item><code>translate()</code> vs. <code>replace()</code>
                         <examples>
                             <example>Try this expression,
-                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>, and notice
-                                the pseudomarkup in the cast list. <code>translate()</code> to the
-                                rescue!
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>,
+                                and notice the pseudomarkup in the cast list.
+                                    <code>translate()</code> to the rescue!
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
                                     '()', '')</code></example>
 
@@ -1421,23 +1421,21 @@
                                 </examples></example>
                             <example>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT
                                 for inclusion in GitHub pages<examples>
-                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></example>
+                                    <example>XSLT:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></example>
                                 </examples></example>
-                            <example>XInclude fragment in wrapper.xml and transform to full local
+                            <example>XInclude fragment in wrapper and transform to full local
                                 schedule with XSLT<examples>
-                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</link></example>
-                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</link></example>
+                                    <example>XML wrapper:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</link></example>
+                                    <example>XSLT:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</link></example>
                                 </examples></example>
                             <example>Use XProc to manage pipeline<examples>
-                                    <example><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</link></example>
+                                    <example>XProc:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</link></example>
                                 </examples></example>
                         </examples></item>
-                    <item>Our schedule in XML:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</link></item>
-                    <item>How we use XPath in Schematron
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link></item>
-                    <item>How we use XPath in XSLT:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></item>
                 </details>
             </act>
             <act time="PT10M">

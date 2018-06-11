@@ -508,7 +508,7 @@
                             <li> Look at the <code>div</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
                                 organized? Write an XPath that isolates these attribute values.
-                                     <button class="answer">Answer</button> <span class="answer">doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</span></li>
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></span></li>
                             <li>Look element children of the <code>&lt;div&gt;</code> elements
                                 (you can do this without seeing what all the elements are). What
                                 attribute on these elements can be used to differentiate the various
@@ -560,9 +560,9 @@
                     <li><code>translate()</code> vs. <code>replace()</code>
                         <ol>
                             <li>Try this expression,
-                                doc('/db/mitford/literary/Charles1.xml')//tei:castList, and notice
-                                the pseudomarkup in the cast list. <code>translate()</code> to the
-                                rescue!
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>,
+                                and notice the pseudomarkup in the cast list.
+                                    <code>translate()</code> to the rescue!
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
                                     '()', '')</code></li>
 
@@ -1141,23 +1141,21 @@
                                 </ol></li>
                             <li>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT
                                 for inclusion in GitHub pages<ol>
-                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</a></li>
+                                    <li>XSLT:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</a></li>
                                 </ol></li>
-                            <li>XInclude fragment in wrapper.xml and transform to full local
+                            <li>XInclude fragment in wrapper and transform to full local
                                 schedule with XSLT<ol>
-                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</a></li>
-                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</a></li>
+                                    <li>XML wrapper:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</a></li>
+                                    <li>XSLT:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</a></li>
                                 </ol></li>
                             <li>Use XProc to manage pipeline<ol>
-                                    <li><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</a></li>
+                                    <li>XProc:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</a></li>
                                 </ol></li>
                         </ol></li>
-                    <li>Our schedule in XML:
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</a></li>
-                    <li>How we use XPath in Schematron
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</a></li>
-                    <li>How we use XPath in XSLT:
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</a></li>
                 </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>What next? (85 minutes; 10:35 a.m.–12:00 p.m.) </li></ul></section>
     </section>
 </section>
