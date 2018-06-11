@@ -37,7 +37,7 @@ let $height := $percent * $yStretchFactor
 let $width := 50
 let $TextXPos := $XPos + $width div 2
 return
-    <g id="{$i}">
+    <g id="{substring-after($i, '#')}">
       <rect x="{$XPos}" y="{$YPos}" width="{$width}" height="{$height}" fill="hsl(358, {$percent * 15}%, 30%)"/> 
       <text x="{$TextXPos}" y="{$YPos div 2}" fill="white" style="text-anchor: middle; font-size:smaller;">{$percentFormatted}%</text>
     <text x="{$TextXPos}" y="15" color="black" style="text-anchor: start" transform="rotate(45 {$TextXPos} 15)">{$name}</text>
