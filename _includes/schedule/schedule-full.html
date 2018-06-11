@@ -286,7 +286,7 @@
                     <li>Find the length in character count of each <code>&lt;speaker&gt;</code>
                          <button class="answer">Answer</button> <span class="answer"><code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</span></li>
-                    <li>Find the length of longest speaker name
+                    <li>Find the length of the longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
                 </ol></li><li>XPath functions for sequences (15 minutes; 2:15 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
@@ -306,22 +306,26 @@
                             <li><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></li>
                         </ol></li>
-                    <li>How many <code>&lt;speaker&gt;</code> elements are there in
-                            <em>Hamlet</em>?
-                         <button class="answer">Answer</button> <span class="answer"><code>count(//speaker)</code></span></li>
-                    <li>How many <em>distinct</em>
-                        <code>&lt;speaker&gt;</code> elements are there in <em>Hamlet</em>?
-                                 <button class="answer">Answer</button> <span class="answer"><code>count(distinct-values(//speaker))</code></span></li>
-                    <li>How many acts are there in <em>Hamlet</em>?
-                                 <button class="answer">Answer</button> <span class="answer"><code>count(//body/div)</code></span></li>
-                    <li>How many scenes are there in <em>Hamlet</em>?
-                                 <button class="answer">Answer</button> <span class="answer"><code>count(//div/div)</code></span></li>
-                    <li>What does <code>count(//div)</code> tell you about <em>Hamlet</em>,
-                        and why is it unhelpful?  <button class="answer">Answer</button> <span class="answer">It counts <code>&lt;div&gt;</code> elements
-                            of different types together: acts, scenes, cast list.</span></li>
+                    <li>Your turn: <ol>
+                            <li>How many <code>&lt;speaker&gt;</code> elements are there in
+                                    <em>Hamlet</em>?
+                                     <button class="answer">Answer</button> <span class="answer"><code>count(//speaker)</code></span></li>
+                            <li>How many <em>distinct</em>
+                                <code>&lt;speaker&gt;</code> elements are there in
+                                    <em>Hamlet</em>?
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(distinct-values(//speaker))</code></span></li>
+                            <li>How many acts are there in <em>Hamlet</em>?
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(//body/div)</code></span></li>
+                            <li>How many scenes are there in <em>Hamlet</em>?
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(//div/div)</code></span></li>
+                            <li>What does <code>count(//div)</code> tell you about
+                                    <em>Hamlet</em>, and why is it unhelpful?  <button class="answer">Answer</button> <span class="answer">It counts
+                                        <code>&lt;div&gt;</code> elements of different types
+                                    together: acts, scenes, cast list.</span></li>
+                        </ol></li>
                 </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 2:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The <em>function signature</em> is the number and type of arguments it
-                        accepts or requires</li>
+                        accepts or requires, and the number and type of items it returns</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
                     <li><em>Cardinality error</em>:
                         <code>string-length(/TEI/speaker)</code></li>
@@ -340,12 +344,7 @@
                                 element (same as <code>//body/div[position() eq 3]</code></li>
                             <li><code>//body/div[last()]</code> matches the last
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
-                                element (same as <code>//body/div[position() eq 3]</code></li>
-                            <li>Numerical predicates count away from the context node<ol>
-                                    
-                                    <li><code>//sp/ancestor[1]</code> is equivalent to
-                                            <code>//sp/..</code></li>
-                                </ol></li>
+                                element</li>
                         </ol></li>
                     <li>Predicates with node tests<ol>
                             <li><code>//stage[parent::div]</code> is equivalent to
@@ -360,14 +359,13 @@
                     <li>Three ways to apply a function to a sequence<ol>
                             <li>Explicit <code>for</code><ol>
                                     <li><code>for $speaker in /TEI//speaker return
-                                            contains($speaker, 'ph')</code></li>
+                                            string-length($speaker)</code></li>
                                 </ol></li>
                             <li>Implicit <code>for</code><ol>
-                                    <li><code>/TEI//speaker/contains(., 'ph')</code></li>
+                                    <li><code>/TEI//speaker/string-length()</code></li>
                                 </ol></li>
                             <li>Simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)<ol>
-                                    <li><code>/TEI//speaker ! contains(.,
-                                        'ph')</code></li>
+                                    <li><code>/TEI//speaker ! string-length(.)</code></li>
                                 </ol></li>
                         </ol></li>
                     <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
@@ -387,17 +385,18 @@
                             (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
                         function.)
                          <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
-                    <li>How many speeches don’t contain any metrical lines
-                        (<code>&lt;l&gt;</code>)?
-                         <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
+                    <li>How many speeches don’t contain any metrical line child elements
+                            (<code>&lt;l&gt;</code>)?
+                             <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
                     <li>Building on your answer to the last question, who are the speakers of
                         those speeches?
                              <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
                     <li>Building on your answer to the last two questions, what kinds of elements
                         they contain instead?
                                  <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
-                    <li>What is Hamlet’s first speech?  <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
-                                'Hamlet']/l)[1]</code></span></li>
+                    <li>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
+                                 <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
+                        'Hamlet']/l)[1]</code></span></li>
                     <li>What is the last stage direction in the entire document?
                                  <button class="answer">Answer</button> <span class="answer"><code>(//stage)[last()]</code></span></li>
                     <li>How many speeches have more than 8 line children?
@@ -764,10 +763,9 @@
 
                     <li>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <ol>
-                            <li>We are building a version of the XQuery file stored in the
-                                newtfire.org:8338 eXist database in the
-                                    <code>/db/DHSI-Queries/</code> directory. The XQuery file is
-                                also available here on our GitHub.</li>
+                            <li>See the XQuery file stored in the newtfire.org:8338 eXist
+                                database in the <code>/db/DHSI-Queries/</code> directory, also
+                                posted on GitHub: <a href=""/></li>
                         </ol>
                     </li>
                     <li>SVG returns: making a simple graph (if time). </li>

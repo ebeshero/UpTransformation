@@ -373,7 +373,7 @@
                     <item>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <answer><code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</answer></item>
-                    <item>Find the length of longest speaker name
+                    <item>Find the length of the longest speaker name
                                 <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
@@ -400,26 +400,30 @@
                             <example><code>sort(//speaker,(), function($item)
                                     {string-length($item)})</code></example>
                         </examples></item>
-                    <item>How many <code>&lt;speaker&gt;</code> elements are there in
-                            <emph>Hamlet</emph>?
-                        <answer><code>count(//speaker)</code></answer></item>
-                    <item>How many <emph>distinct</emph>
-                        <code>&lt;speaker&gt;</code> elements are there in <emph>Hamlet</emph>?
-                                <answer><code>count(distinct-values(//speaker))</code></answer></item>
-                    <item>How many acts are there in <emph>Hamlet</emph>?
-                                <answer><code>count(//body/div)</code></answer></item>
-                    <item>How many scenes are there in <emph>Hamlet</emph>?
-                                <answer><code>count(//div/div)</code></answer></item>
-                    <item>What does <code>count(//div)</code> tell you about <emph>Hamlet</emph>,
-                        and why is it unhelpful? <answer>It counts <code>&lt;div&gt;</code> elements
-                            of different types together: acts, scenes, cast list.</answer></item>
+                    <item>Your turn: <examples>
+                            <example>How many <code>&lt;speaker&gt;</code> elements are there in
+                                    <emph>Hamlet</emph>?
+                                    <answer><code>count(//speaker)</code></answer></example>
+                            <example>How many <emph>distinct</emph>
+                                <code>&lt;speaker&gt;</code> elements are there in
+                                    <emph>Hamlet</emph>?
+                                        <answer><code>count(distinct-values(//speaker))</code></answer></example>
+                            <example>How many acts are there in <emph>Hamlet</emph>?
+                                        <answer><code>count(//body/div)</code></answer></example>
+                            <example>How many scenes are there in <emph>Hamlet</emph>?
+                                        <answer><code>count(//div/div)</code></answer></example>
+                            <example>What does <code>count(//div)</code> tell you about
+                                    <emph>Hamlet</emph>, and why is it unhelpful? <answer>It counts
+                                        <code>&lt;div&gt;</code> elements of different types
+                                    together: acts, scenes, cast list.</answer></example>
+                        </examples></item>
                 </details>
             </act>
             <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
                     <item>The <emph>function signature</emph> is the number and type of arguments it
-                        accepts or requires</item>
+                        accepts or requires, and the number and type of items it returns</item>
                     <item><emph>Type error</emph>: <code>string-length(1.2345)</code></item>
                     <item><emph>Cardinality error</emph>:
                         <code>string-length(/TEI/speaker)</code></item>
@@ -446,15 +450,7 @@
                                 element (same as <code>//body/div[position() eq 3]</code></example>
                             <example><code>//body/div[last()]</code> matches the last
                                     <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
-                                element (same as <code>//body/div[position() eq 3]</code></example>
-                            <example>Numerical predicates count away from the context node<examples>
-                                    <!--<example><code>//sp/preceding-sibling::stage[1]</code> matches
-                                        the first <code>&lt;stage&gt;</code> element before (but on
-                                        the same hierarchical level as) each
-                                        <code>&lt;sp&gt;</code></example>-->
-                                    <example><code>//sp/ancestor[1]</code> is equivalent to
-                                            <code>//sp/..</code></example>
-                                </examples></example>
+                                element</example>
                         </examples></item>
                     <item>Predicates with node tests<examples>
                             <example><code>//stage[parent::div]</code> is equivalent to
@@ -473,15 +469,14 @@
                     <item>Three ways to apply a function to a sequence<examples>
                             <example>Explicit <code>for</code><examples>
                                     <example><code>for $speaker in /TEI//speaker return
-                                            contains($speaker, 'ph')</code></example>
+                                            string-length($speaker)</code></example>
                                 </examples></example>
                             <example>Implicit <code>for</code><examples>
-                                    <example><code>/TEI//speaker/contains(., 'ph')</code></example>
+                                    <example><code>/TEI//speaker/string-length()</code></example>
                                 </examples></example>
                             <example>Simple map (<code
                                     url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>)<examples>
-                                    <example><code>/TEI//speaker ! contains(.,
-                                        'ph')</code></example>
+                                    <example><code>/TEI//speaker ! string-length(.)</code></example>
                                 </examples></example>
                         </examples></item>
                     <item>Difference between simple map (<code
@@ -517,17 +512,18 @@
                             url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
                         function.)
                         <answer><code>distinct-values(//stage/../name())</code></answer></item>
-                    <item>How many speeches don’t contain any metrical lines
-                        (<code>&lt;l&gt;</code>)?
-                        <answer><code>count(//sp[not(l)])</code></answer></item>
+                    <item>How many speeches don’t contain any metrical line child elements
+                            (<code>&lt;l&gt;</code>)?
+                            <answer><code>count(//sp[not(l)])</code></answer></item>
                     <item>Building on your answer to the last question, who are the speakers of
                         those speeches?
                             <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
                     <item>Building on your answer to the last two questions, what kinds of elements
                         they contain instead?
                                 <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
-                    <item>What is Hamlet’s first speech? <answer><code>(//sp[speaker eq
-                                'Hamlet']/l)[1]</code></answer></item>
+                    <item>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
+                                <answer><code>(//sp[speaker eq
+                        'Hamlet']/l)[1]</code></answer></item>
                     <item>What is the last stage direction in the entire document?
                                 <answer><code>(//stage)[last()]</code></answer></item>
                     <item>How many speeches have more than 8 line children?
@@ -954,9 +950,9 @@
 
                     <item>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <examples>
-                            <example>See the XQuery file stored in the
-                                newtfire.org:8338 eXist database in the
-                                    <code>/db/DHSI-Queries/</code> directory, also posted on GitHub: <link></link></example>
+                            <example>See the XQuery file stored in the newtfire.org:8338 eXist
+                                database in the <code>/db/DHSI-Queries/</code> directory, also
+                                posted on GitHub: <link/></example>
                         </examples>
                     </item>
                     <item>SVG returns: making a simple graph (if time). </item>
