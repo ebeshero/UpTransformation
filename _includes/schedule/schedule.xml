@@ -513,8 +513,9 @@
                         function.)
                         <answer><code>distinct-values(//stage/../name())</code></answer></item>
                     <item>How many speeches don’t contain any metrical line child elements
-                            (<code>&lt;l&gt;</code>)?
-                            <answer><code>count(//sp[not(l)])</code></answer></item>
+                            (<code>&lt;l&gt;</code>)? (Hint: use the <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-not">not()</code>
+                        function.) <answer><code>count(//sp[not(l)])</code></answer></item>
                     <item>Building on your answer to the last question, who are the speakers of
                         those speeches?
                             <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>

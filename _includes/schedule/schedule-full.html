@@ -386,8 +386,8 @@
                         function.)
                          <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
                     <li>How many speeches don’t contain any metrical line child elements
-                            (<code>&lt;l&gt;</code>)?
-                             <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
+                            (<code>&lt;l&gt;</code>)? (Hint: use the <code>not()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-not"><sup>⬀</sup></a>
+                        function.)  <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
                     <li>Building on your answer to the last question, who are the speakers of
                         those speeches?
                              <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
