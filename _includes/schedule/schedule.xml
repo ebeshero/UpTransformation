@@ -1081,16 +1081,17 @@
             <act time="PT40M">
                 <desc>Identity transformation: making a change to an XML file</desc>
                 <details>
-                    <item></item>
+                    <item>Open this file URL in &lt;oXygen/&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></item>
                     <item>Repair our Pacific Voyage file:
                             <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
+                    <item>Attribute value templates</item>
                 </details>
             </act>
             <act time="PT45M">
                 <desc>XSLT to output HTML from XML</desc>
                 <details>
-                    <item>Open this file URL in &lt;oXygen&gt;: <code></code> </item>
-                    <item>What to do with <code>&lt;xsl:stylesheet&gt;</code> and
+                    <item>Open this file URL in &lt;oXygen&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code> </item>
+                    <item> <code>&lt;xsl:stylesheet&gt;</code> and
                             <code>&lt;xsl:output&gt;</code></item>
                     <item>Template matching on the document node to output HTML</item>
                     <item> Structure of an HTML document: <code>&lt;head&gt;</code> and
@@ -1100,23 +1101,36 @@
 
         </slot>
         <slot time="13:30:00">
-            <title>XSLT: XML to HTML transformation</title>
-            <act time="PT45M">
-                <desc><code>&lt;xsl:apply-templates&gt;</code> and the <code>@select</code>
-                    attribute</desc>
+            <title>XSLT Activity</title>
+            <act time="PT60M">
+                <desc>XML to HTML transformation</desc>
+   <details><item>Push processing:          <code>&lt;xsl:apply-templates&gt;</code></item>
+       <item>Pruning the tree: the <code>@select</code> attribute</item>
+       <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
+   </details>
             </act>
-            <act time="PT25M">
-                <desc>XSLT push and pull processing</desc>
+            <act time="PT20M">
+                <desc>Comparing XSLT and XQuery</desc>
+                <details>
+                    <item>Invoking namespaces</item>
+                    <item>Sequential processing</item>
+                    <item>Pull vs. push processing</item>
+                </details>
             </act>
+           
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT35M">
-                <desc>When to use <code>&lt;xsl:value-of&gt;</code></desc>
-            </act>
-            <act time="PT35M">
-                <desc>Comparing XSLT and XQuery</desc>
-            </act>
+          <act time="PT60M">
+            <desc>XSLT activity: Making a linked table of contents</desc> 
+              <details>
+                  <item>Modal XSLT: Processing the same nodes in multipe ways</item> 
+                  <item>How internal links work</item>
+
+              </details>
+              
+          </act>
+          
         </slot>
     </day>
     <day d="Thursday, June 14">
