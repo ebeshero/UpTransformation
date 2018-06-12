@@ -987,7 +987,7 @@
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Open &lt;oXygen/&gt; and open the following url: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></item>
-                    <item>Open this starter XSLT file, too: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/b3aa0d76922fe9f69585fe5ad815cc6295a97607/data/xslt/xsltStarter1.xsl</code> </item>
+                    <item>Open this starter XSLT file, too: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code> </item>
                     
                     <item>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</item>
@@ -1081,14 +1081,16 @@
             <act time="PT40M">
                 <desc>Identity transformation: making a change to an XML file</desc>
                 <details>
+                    <item></item>
                     <item>Repair our Pacific Voyage file:
                             <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
                 </details>
             </act>
             <act time="PT45M">
-                <desc>Preparing to output HTML from XML</desc>
+                <desc>XSLT to output HTML from XML</desc>
                 <details>
-                    <item>Housekeeping: <code>&lt;xsl:stylesheet&gt;</code> and
+                    <item>Open this file URL in &lt;oXygen&gt;: <code></code> </item>
+                    <item>What to do with <code>&lt;xsl:stylesheet&gt;</code> and
                             <code>&lt;xsl:output&gt;</code></item>
                     <item>Template matching on the document node to output HTML</item>
                     <item> Structure of an HTML document: <code>&lt;head&gt;</code> and
