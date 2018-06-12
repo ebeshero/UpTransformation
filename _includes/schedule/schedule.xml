@@ -862,44 +862,46 @@
                     </item>
                 </details>
             </act>
-                <act time="PT20M">
-                    <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part 1</desc>
-                    <details>
-                        <item><code>for</code> in XQuery and iterative returns: <code>for $i in
+            <act time="PT20M">
+                <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
+                    1</desc>
+                <details>
+                    <item><code>for</code> in XQuery and iterative returns: <code>for $i in
                             $YourSequenceVariable</code>. Look up the places coded in <emph>Charles
-                                the First</emph> for their entries in the Digital Mitford site index. <examples>
-                                    <example>Get the distinct (unique) values of <code>@ref</code>
-                                        attributes on <code>placeName</code> elements. <answer><code>let
-                                            $distChPRs :=
-                                            distinct-values($ChasPlaceRefs)</code></answer></example>
-                                    <example>Next, loop through each of these distinct values:
+                            the First</emph> for their entries in the Digital Mitford site index. <examples>
+                            <example>Get the distinct (unique) values of <code>@ref</code>
+                                attributes on <code>placeName</code> elements. <answer><code>let
+                                        $distChPRs :=
+                                    distinct-values($ChasPlaceRefs)</code></answer></example>
+                            <example>Next, loop through each of these distinct values:
                                         <answer><code>for $i in $distChPRs</code></answer>
-                                    </example>
-                                    <example>How will we find the site index entry that matches up with each
-                                        member of our sequence of place references in <emph>Charles the
-                                            First</emph>? <answer>Each site index entry holds an
-                                                <code>@xml:id</code>, and each <code>placeName</code>
-                                                element has a <code>@ref</code> attribute whose value is
-                                                formatted with a leading <code>#</code> followed by the
-                                                <code>@xml:id</code> value.</answer></example>
-                                    <example>Write the variable that finds the site index entry whose
-                                        <code>@xml:id</code> matches the value of the range variable in
-                                        our <code>for</code> loop. <answer><code>let $siCPrs :=
-                                            $si//tei:place[@xml:id = substring-after($i,
-                                            '#')]</code></answer></example>
-                                </examples>
-                        </item>
-                    </details>
+                            </example>
+                            <example>How will we find the site index entry that matches up with each
+                                member of our sequence of place references in <emph>Charles the
+                                    First</emph>? <answer>Each site index entry holds an
+                                        <code>@xml:id</code>, and each <code>placeName</code>
+                                    element has a <code>@ref</code> attribute whose value is
+                                    formatted with a leading <code>#</code> followed by the
+                                        <code>@xml:id</code> value.</answer></example>
+                            <example>Write the variable that finds the site index entry whose
+                                    <code>@xml:id</code> matches the value of the range variable in
+                                our <code>for</code> loop. <answer><code>let $siCPrs :=
+                                        $si//tei:place[@xml:id = substring-after($i,
+                                    '#')]</code></answer></example>
+                        </examples>
+                    </item>
+                </details>
             </act>
             <act time="PT10M">
                 <desc>Break</desc>
-     
+
             </act>
             <act time="PT30M">
-                <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part 2</desc>
+                <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
+                    2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
-                    
+
                     <item>Sorting and ordering your sequence: two ways: <examples>
                             <example>Apply the XPath <code>sort()</code> function the variable
                                 defining the sequence (above the <code>for</code> loop):
@@ -986,40 +988,43 @@
             <act time="PT60M">
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Open &lt;oXygen/&gt; and open the following url: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></item>
-                    <item>Open this starter XSLT file, too: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code> </item>
-                    
+                    <item>Open &lt;oXygen/&gt; and open the following url:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></item>
+                    <item>Open this starter XSLT file, too:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>
+                    </item>
+
                     <item>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</item>
-                    <item>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace issue.</q>)
-                        <examples>
+                    <item>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace
+                            issue.</q>) <examples>
                             <example><code>xsl:</code>: distinguishes the XSLT elements</example>
                             <example>Namespaced input: set <code>xpath-default-namespace</code> on
                                 the xsl:stylesheet:
-                                <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
+                                    <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
                             </example>
                             <example>Namespaced output: set
-                                <code>xmlns="http://www.w3.org/1999/xhtml"</code>
+                                    <code>xmlns="http://www.w3.org/1999/xhtml"</code>
                             </example>
                         </examples>
                     </item>
-                    <item>More housekeeping: <code>xsl:output</code> attributes: <code>@method</code>,
-                        <code>@indent</code>, <code>@omit-xml-declaration</code>,
-                        <code>@doctype-system</code>
+                    <item>More housekeeping: <code>xsl:output</code> attributes:
+                            <code>@method</code>, <code>@indent</code>,
+                            <code>@omit-xml-declaration</code>, <code>@doctype-system</code>
                         <examples>
                             <example><code>&lt;xsl:output method="xml" indent="no"
-                                omit-xml-declaration="yes"/&gt;</code></example>
+                                    omit-xml-declaration="yes"/&gt;</code></example>
                             <example><code>&lt;xsl:output method="xhtml" encoding="utf-8"
-                                indent="yes" doctype-system="about:legacy-compat"
-                                omit-xml-declaration="yes"/&gt;</code></example>
+                                    indent="yes" doctype-system="about:legacy-compat"
+                                    omit-xml-declaration="yes"/&gt;</code></example>
                         </examples>
                     </item>
                     <item>A <emph>declarative programming language</emph>. Not written to be
                         executed in a line-by-line order. Template elements (or <emph>template
                             rules</emph>) do the work, but can be written in any order. </item>
-                    
+
                     <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
                         The <code>@match</code> here is a special kind of XPath called an
                             <emph>XPath pattern</emph>, which could be found anywhere in the
@@ -1068,7 +1073,7 @@
                     <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </item>
-                    
+
                 </details>
             </act>
             <act time="PT20M">
@@ -1083,8 +1088,10 @@
             </act>
             <act time="PT45M">
                 <desc>Identity transformation: making a change to an XML file</desc>
-                <details><!--ebb: Maybe switch to a simple poem, and then move to collection of poems in the afternoon for TOC exercise. -->
-                    <item>Open this file URL in &lt;oXygen/&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></item>
+                <details>
+                    <!--ebb: Maybe switch to a simple poem, and then move to collection of poems in the afternoon for TOC exercise. -->
+                    <item>Open this file URL in &lt;oXygen/&gt;:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></item>
                     <item>Repair our Pacific Voyage file:
                             <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
                     <item>Attribute value templates</item>
@@ -1093,9 +1100,12 @@
             <act time="PT45M">
                 <desc>XSLT to output HTML from XML</desc>
                 <details>
-                    <item>Open this file URL in &lt;oXygen&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code> </item>
-                    <item> <code>&lt;xsl:stylesheet&gt;</code> and
-                            <code>&lt;xsl:output&gt;</code></item>
+                    <item>Open this file URL in &lt;oXygen&gt;:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
+                    </item>
+                    <item>
+                        <code>&lt;xsl:stylesheet&gt;</code> and
+                        <code>&lt;xsl:output&gt;</code></item>
                     <item>Template matching on the document node to output HTML</item>
                     <item> Structure of an HTML document: <code>&lt;head&gt;</code> and
                             <code>&lt;body&gt;</code></item>
@@ -1107,10 +1117,11 @@
             <title>XSLT Activity</title>
             <act time="PT60M">
                 <desc>XML to HTML transformation</desc>
-   <details><item>Push processing:          <code>&lt;xsl:apply-templates&gt;</code></item>
-       <item>Pruning the tree: the <code>@select</code> attribute</item>
-       <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
-   </details>
+                <details>
+                    <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
+                    <item>Pruning the tree: the <code>@select</code> attribute</item>
+                    <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
+                </details>
             </act>
             <act time="PT20M">
                 <desc>Comparing XSLT and XQuery</desc>
@@ -1120,20 +1131,20 @@
                     <item>Pull vs. push processing</item>
                 </details>
             </act>
-           
+
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-          <act time="PT60M">
-            <desc>XSLT activity: Making a linked table of contents</desc> 
-              <details>
-                  <item>Modal XSLT: Processing the same nodes in multipe ways</item> 
-                  <item>How internal links work</item>
+            <act time="PT60M">
+                <desc>XSLT activity: Making a linked table of contents</desc>
+                <details>
+                    <item>Modal XSLT: Processing the same nodes in multipe ways</item>
+                    <item>How internal links work</item>
 
-              </details>
-              
-          </act>
-          
+                </details>
+
+            </act>
+
         </slot>
     </day>
     <day d="Thursday, June 14">
