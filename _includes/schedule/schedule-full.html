@@ -1,8 +1,1191 @@
-<!DOCTYPE html
-  SYSTEM "about:legacy-compat">
-<html xmlns="http://www.w3.org/1999/xhtml">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   </head>
-   <body></body>
-</html>
+<section xmlns="http://www.w3.org/1999/xhtml"><h1>Schedule</h1><p><button id="expand">Expand all</button> | <button id="collapse">Collapse
+                all</button></p>
+    <section>
+        <h2>Monday, June 11: XPath</h2>
+        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:15 a.m.–12:00 p.m.)</h3><ul><li>Getting started with XPath and eXide (15 minutes; 10:15 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a> (or
+                        eXide within eXist-db on your own laptop, if you’ve installed it), click
+                        “New XQuery”, and erase all content in the editing window. You’ll type your
+                        XPath in the editing window and run it with the “Eval” button.</li>
+                    <li>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
+                        means learning the …<ol>
+                            <li>Vocabulary (e.g., the division operator in XPath is <code>div</code><a href="https://www.w3.org/TR/xpath-31/#id-arithmetic"><sup>⬀</sup></a>,
+                                not <code>/</code>)</li>
+                            <li>Syntax (e.g., in XPath <em>conditional expressions</em>,
+                                the <code>if</code><a href="https://www.w3.org/TR/xpath-31/#doc-xpath31-IfExpr"><sup>⬀</sup></a> test must be parenthesized and an <code>else</code>
+                                is required: <code>if (condition) then 1 else ()</code>)</li>
+                            <li>Function library (e.g., <code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a> and <code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> are functions, but there is no
+                                    <code>length()</code> or <code>len()</code> or
+                                    <code>size()</code>)</li>
+                        </ol></li>
+                    <li>All XPath expressions return a <em>sequence</em>. Sequences may
+                        contain <em>nodes</em> (elements, attributes, etc.), <em>atomic
+                        </em>values (strings, numbers, etc.), or both. A sequence of one item is
+                        nonetheless a sequence, as is an <em>empty sequence</em>. Nested
+                        sequences are automatically flattened.<ol>
+                            <li>Type a number and hit Eval. This is a one-item sequence that
+                                consists of a single atomic value. Try integers and decimal numbers.
+                                Try wrapping the number in parentheses.</li>
+                            <li>Type a string (inside single or double quotes) and hit Eval.
+                                This is a one-item sequence that consists of a single atomic value.
+                                Try omitting the quotation marks. Try using curly quotation marks.
+                                Try wrapping the string in parentheses.</li>
+                            <li>Type empty parentheses and hit Eval. This is an empty
+                                sequence.</li>
+                            <li>Type multiple items of different types (numbers, strings),
+                                separated by commas. Try wrapping them in parentheses. Try wrapping
+                                them in multiple parentheses. Try removing the commas. This is a
+                                multi-item sequence.</li>
+                            <li>Try to type a nested sequence, e.g., <code>(1, 2, (3,
+                                    4))</code>, and hit Eval. What result do you expect? What do you
+                                get?</li>
+                        </ol></li>
+                </ol></li><li>Simple XPath expressions (25 minutes; 10:30 a.m.–10:55 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Review: strings and numbers (atomic values) are XPath expressions <ol>
+                            <li><code>"Hi, Mom!"</code> (Strings are enclosed in single or
+                                double quotation marks—straight, not curly)</li>
+                            <li><code>1</code> (Numbers are not enclosed in quotation
+                                marks)</li>
+                            <li><code>1.0</code> (What should this return? <em>lexical
+                                    space</em> and <em>value space</em>)</li>
+                        </ol></li>
+                    <li>Arithmetic expressions are XPath expressions<ol>
+                            <li><code>1 + 1</code></li>
+                            <li>Practice: <code>+</code>, <code>-</code>, <code>*</code>,
+                                    <code>div</code>, <code>idiv</code>, <code>mod</code>
+                                    (<code>/</code> is not division)</li>
+                        </ol></li>
+                    <li>XPath library functions (with no arguments) are XPath expressions<ol>
+                            <li><code>current-date()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-current-date"><sup>⬀</sup></a></li>
+                            <li><code>current-time()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-current-time"><sup>⬀</sup></a></li>
+                            <li><code>current-dateTime()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-current-dateTime"><sup>⬀</sup></a></li>
+                        </ol></li>
+                    <li>XPath library functions (with arguments) are XPath expressions<ol>
+                            <li><code>upper-case('dhsi')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a> (How many arguments, and of what
+                                type?)</li>
+                            <li><code>concat('Curly', 'Larry', 'Moe')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a> (How many arguments, and
+                                of what type?)</li>
+                            <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
+                                parentheses? Hint: How many arguments, and of what type?)</li>
+                            <li>Function <em>signature</em> and <em>cardinality</em>:
+                                    <code>count($items as item()*) as xs:integer</code></li>
+                        </ol>
+                    </li>
+                    <li>Nested XPath library functions and operations are XPath expressions. Read
+                        them from the inside out<ol>
+                            <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a> (Remember those two sets
+                                of parentheses?)</li>
+                            <li><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a> (How
+                                is this different from <code>upper-case(translate('Hi,
+                                    Mom!','AEIOU','xxxxx'))</code>?)</li>
+                            <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn] on [FNn],
+                                    [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
+                        </ol></li>
+                    <li>Nested functions are hard to read. Use the <em>arrow
+                            operator</em><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a> (<code>=&gt;</code>) instead<ol>
+                            <li><code>upper-case('Hi, Mom!') =&gt;
+                                    translate('AEIOU','xxxxx')</code></li>
+                            <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn] on
+                                    [FNn], [D1o] [MNn]')</code></li>
+                        </ol></li>
+                    <li>Path expressions may span multiple lines (try it with the examples above),
+                        that is, new-line and space have the same meaning</li>
+                </ol></li><li>XPath in &lt;oXygen/&gt; (20 minutes; 10:55 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
+                        (MacOS), copy and paste the string
+                            <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
+                        and hit <q>OK</q>. (Backup copy at
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</a>.)
+                        This is a copy of <em>Hamlet</em> with TEI markup.</li>
+                    <li>Set the dropdown in the upper left to <q>XPath 3.0</q>. (This widget is
+                        called the <em>XPath Toolbar</em><a href="https://www.oxygenxml.com/doc/versions/20.0/ug-editor/topics/xpath-console.html"><sup>⬀</sup></a>.) Enter some XPath expressions (from above, such
+                        as <code>1 + 1</code>). Limited to one line; hit <q>Enter</q> to run the
+                        expression. The XPath Toolbar works only if you have an XML document open in
+                        &lt;oXygen/&gt;, even if you aren’t using the document in your XPath
+                        expression.</li>
+                    <li>Go to Window → Show View → XPath/XQuery Builder. Set the dropdown in the
+                        upper left to <q>XPath 3.0</q>. Enter some XPath expressions. May span
+                        multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
+                        (Windows) or <q>Cmd+Enter</q> (MacOS), or click the red right-pointed
+                        triangle.</li>
+                </ol></li><li>XPath path expressions (20 minutes; 11:15 a.m.–11:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>An XPath <em>path expression</em> is a sequence of steps, each of
+                        which proceeds from one node (called the <em>context node</em>) to a
+                        sequence of zero (!) or more others. It returns the results in document
+                        order (order of start tags). (Details at Kay 1227)</li>
+                    <li>Sample XPath path expression: <code>/TEI/text/body/div</code>: start at
+                        the document node, then navigate to a sequence of all its
+                            <code>&lt;TEI&gt;</code> children. For each of those, navigate to all of
+                        their <code>&lt;text&gt;</code> children, then to their
+                            <code>&lt;body&gt;</code> children, and then to their
+                            <code>&lt;div&gt;</code> children.</li>
+                    <li>XPath steps are separated by single slashes (<code>/</code>).</li>
+                    <li>An XPath expression that begins with a slash (<code>/</code>) starts at
+                        the <em>document node</em>; this is an <em>absolute path</em>. Any
+                        other XPath expression starts at the current context; this is a
+                            <em>relative path</em>.</li>
+                    <li>It is not an error to ask for something that doesn’t exist; it just
+                        returns an empty sequence.</li>
+                    <li>With <em>Hamlet</em> open and selected, go to the XPath Toolbar or
+                        XPath Builder and try the following examples. Click on some of the results
+                        in the lower panel:<ol>
+                            <li><code>/TEI/teiHeader/fileDesc/titleStmt/title</code> (returns 1
+                                    <code>&lt;title&gt;</code> element)</li>
+                            <li><code>/TEI/text/body/div</code> (returns 5
+                                    <code>&lt;div&gt;</code> elements)</li>
+                            <li><code>/TEI/teiHeader/fileDesc/titleStmt/info</code> (returns no
+                                results; this is not an error)</li>
+                            <li><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (raises
+                                an error; spaces are not allowed in path expressions)</li>
+                        </ol></li>
+                    <li>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
+                        &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
+                        behind the scenes (eXide does not).</li>
+                </ol></li><li>XPath path steps (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
+                            <code>descendant::</code>, <code>ancestor::</code>,
+                            <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
+                        See:
+                            <a href="http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes">http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</a>.</li>
+                    <li>Axes are specified with a double colon, e.g., <code>descendant::div</code>
+                        matches all <code>&lt;div&gt;</code> descendants of the current context
+                        node. There are two common shortcut notations<ol>
+                            <li>The default is the <em>child</em> axis, so
+                                    <code>/TEI/teiHeader</code> is synonymous with
+                                    <code>/child::TEI/child::teiHeader</code>. Use the
+                                shorthand.</li>
+                            <li><code>//</code> is shorthand for
+                                    <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
+                                finds all of the <code>&lt;div&gt;</code> elements that are
+                                descendants of the <code>&lt;TEI&gt;</code> root element, that is,
+                                anywhere in the document. The document node has a descendant axis,
+                                too: <code>//div</code>. Be careful with this one!</li>
+                        </ol>
+                    </li>
+                    <li>Each path step returns a sequence of zero or more context nodes for the
+                        next path step. Only the final path step is permitted to return something
+                        other than a node. Why?</li>
+                    <li>The end of a path expression may return nodes or atomic values<ol>
+                            <li><code>//body/div/count(descendant::sp)</code> navigates from
+                                the document node to all of the acts in the play and then returns a
+                                count of the speeches in each act</li>
+                            <li>What’s wrong with <code>//body/div/count(//sp)</code>?
+                                     <button class="answer">Answer</button> <span class="answer">The leading double slash resets the current context to
+                                    the document node, and selects all <code>&lt;sp&gt;</code>
+                                    elements in the entire document, instead of just the individual
+                                    act.</span></li>
+                        </ol></li>
+                    <li><code>*</code> matches any element<ol>
+                            <li><code>/TEI/teiHeader/*</code> matches all child elements of the
+                                    <code>&lt;teiHeader&gt;</code></li>
+                        </ol></li>
+                    <li><code>..</code> matches the parent node of the current context node. That
+                        is, it’s shorthand for <code>parent::*</code><ol>
+                            <li><code>//stage/..</code> matches the parent nodes of all
+                                    <code>&lt;stage&gt;</code> elements</li>
+                        </ol></li>
+                    <li>Your turn: <ol>
+                            <li>Find the acts (<code>&lt;div&gt;</code> children of
+                                    <code>&lt;body&gt;</code>) in <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//body/div</code>
+                                </span></li>
+                            <li>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                                    <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//stage</code>
+                                </span></li>
+                            <li>Find the <code>&lt;stage&gt;</code> children of
+                                    <code>&lt;div&gt;</code> elements (but not other
+                                    <code>&lt;stage&gt;</code> elements) in <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//div/stage</code>
+                                </span></li>
+                            <li>Find the parents of the stage directions in <em>Hamlet</em>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>//stage/..</code> or <code>//stage/parent::*</code>
+                                </span></li>
+                            <li>Find the <code>&lt;div&gt;</code> parents of the stage
+                                directions in <em>Hamlet</em>, but not other parents  <button class="answer">Answer</button> <span class="answer">
+                                    <code>//stage/parent::div</code>
+                                </span></li>
+                        </ol></li>
+                </ol></li></ul></section>
+        <section><h3>Exploring document structures and data with XPath (1:30 p.m.–4:00 p.m.)</h3><ul><li>XPath functions for strings (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
+                        <ol>
+                            <li>
+                                <code>concat('Curly','Larry','Moe')</code></li>
+                            <li><code>concat('Curly is #', 1)</code></li>
+                            <li>Or use the <em>concatenation operator</em><a href="https://www.w3.org/TR/xpath-31/#id-string-concat-expr"><sup>⬀</sup></a>: <code>'Curly is #' ||
+                                1</code></li>
+                            <li>What’s wrong with <code>concat(//speaker)</code>?  <button class="answer">Answer</button> <span class="answer">The
+                                    arguments to <code>concat()</code> must be two or more
+                                    individual atomic (or atomizable) items, and
+                                        <code>//speaker</code> is a sequence</span></li>
+                        </ol>
+                    </li>
+                    <li><code>string-join()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-join"><sup>⬀</sup></a><ol>
+                            <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
+                                ')</code></li>
+                            <li><code>string-join(//speaker, ', ')</code></li>
+                            <li><code>string-join(//speaker)</code> Why does this work when
+                                    <code>concat(//speaker)</code> didn’t?  <button class="answer">Answer</button> <span class="answer">The first
+                                    argument to <code>string-join()</code> is a sequence. All
+                                    arguments to <code>concat()</code> must be atomic or
+                                    atomizable.</span></li>
+                        </ol></li>
+                    <li><code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a><ol>
+                            <li><code>string-length('Curly, Larry, and Moe')</code></li>
+                        </ol></li>
+                    <li><code>lower-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-lower-case"><sup>⬀</sup></a>, <code>upper-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a>
+                        <ol>
+                            <li><code>lower-case('Curly, Larry, and Moe')</code></li>
+                        </ol></li>
+                    <li><code>normalize-space()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-normalize-space"><sup>⬀</sup></a><ol>
+                            <li><code>normalize-space(' Curly, Larry, Moe ')</code></li>
+                        </ol></li>
+                    <li><code>substring-before()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-before"><sup>⬀</sup></a>, <code>substring-after()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-after"><sup>⬀</sup></a><ol>
+                            <li><code>substring-before('Larry', 'r')</code> What if there’s
+                                more than one?</li>
+                            <li><code>substring-after('Larry', 'r')</code> What if there’s more
+                                than one?</li>
+                        </ol></li>
+                    <li><code>substring()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring"><sup>⬀</sup></a><ol>
+                            <li><code>substring('Curly', 1, 2)</code> XPath starts counting
+                                with 1 (not 0).</li>
+                        </ol></li>
+                    <li><code>contains()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains"><sup>⬀</sup></a> Foreshadowing: This returns a Boolean
+                            (<code>True</code> or <code>False</code>) value. How might this be useful?<ol>
+                            <li><code>contains('Ophelia', 'ph')</code></li>
+                            <li><code>//speaker/contains(., 'ph')</code> (the dot refers to the
+                                current context item)</li>
+                        </ol></li>
+                    <li><code>starts-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"><sup>⬀</sup></a>, <code>ends-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"><sup>⬀</sup></a><ol>
+                            <li><code>starts-with('Ophelia', 'Op')</code></li>
+                        </ol></li>
+                </ol></li><li>XPath functions for numbers (20 minutes; 1:55 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>max()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>, <code>min()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-min"><sup>⬀</sup></a>,
+                            <code>sum()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sum"><sup>⬀</sup></a>, <code>avg()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-avg"><sup>⬀</sup></a><ol>
+                            <li><code>max((1, 2, 3))</code>, etc.</li>
+                            <li>What happens when these are applied to strings? To a sequence
+                                that mixes strings and numbers?</li>
+                        </ol></li>
+                    <li><code>ceiling()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"><sup>⬀</sup></a>, <code>floor()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-floor"><sup>⬀</sup></a>
+                        <ol>
+                            <li><code>ceiling(3.141592653)</code></li>
+                        </ol></li>
+                    <li><code>round()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-round"><sup>⬀</sup></a><ol>
+                            <li><code>round(3.141592653, 4)</code></li>
+                        </ol></li>
+                    <li><code>format-integer()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-integer"><sup>⬀</sup></a>, <code>format-number()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-number"><sup>⬀</sup></a><ol>
+                            <li><code>format-integer(154,'w')</code></li>
+                            <li><code>format-integer(154,'I')</code></li>
+                            <li><code>format-number(1, '#.000')</code></li>
+                        </ol></li>
+                    <li>Find the length in character count of each <code>&lt;speaker&gt;</code>
+                         <button class="answer">Answer</button> <span class="answer"><code>//speaker/string-length()</code> (why doesn’t
+                                <code>string-length(//speaker)</code> work?)</span></li>
+                    <li>Find the length of the longest speaker name
+                                 <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
+                </ol></li><li>XPath functions for sequences (15 minutes; 2:15 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
+                        <ol>
+                            <li><code>distinct-values(/TEI//speaker)</code></li>
+                        </ol></li>
+                    <li><code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a><ol>
+                            <li><code>count(('Curly', 'Larry', 'Moe',
+                                'Curly'))</code></li>
+                            <li><code>count(distinct-values(('Curly', 'Larry', 'Moe',
+                                    'Curly')))</code></li>
+                            <li><code>distinct-values(count(('Curly', 'Larry', 'Moe',
+                                    'Curly')))</code></li>
+                        </ol></li>
+                    <li><code>sort()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sort"><sup>⬀</sup></a><ol>
+                            <li><code>sort(//speaker)</code></li>
+                            <li><code>sort(//speaker,(), function($item)
+                                    {string-length($item)})</code></li>
+                        </ol></li>
+                    <li>Your turn: <ol>
+                            <li>How many <code>&lt;speaker&gt;</code> elements are there in
+                                    <em>Hamlet</em>?
+                                     <button class="answer">Answer</button> <span class="answer"><code>count(//speaker)</code></span></li>
+                            <li>How many <em>distinct</em>
+                                <code>&lt;speaker&gt;</code> elements are there in
+                                    <em>Hamlet</em>?
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(distinct-values(//speaker))</code></span></li>
+                            <li>How many acts are there in <em>Hamlet</em>?
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(//body/div)</code></span></li>
+                            <li>How many scenes are there in <em>Hamlet</em>?
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(//div/div)</code></span></li>
+                            <li>What does <code>count(//div)</code> tell you about
+                                    <em>Hamlet</em>, and why is it unhelpful?  <button class="answer">Answer</button> <span class="answer">It counts
+                                        <code>&lt;div&gt;</code> elements of different types
+                                    together: acts, scenes, cast list.</span></li>
+                        </ol></li>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 2:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>The <em>function signature</em> is the number and type of arguments it
+                        accepts or requires, and the number and type of items it returns</li>
+                    <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
+                    <li><em>Cardinality error</em>:
+                        <code>string-length(/TEI/speaker)</code></li>
+                    <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
+                            'Larry', 'Moe')</code> is broken?</li>
+                    <li>The error message is your friend. Read it.</li>
+                    <li>Resources and references:
+                            <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
+                    
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>XPath predicates (20 minutes; 2:50 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><em>Predicates</em>, in square brackets after a path step,
+                            <em>filter</em> the results</li>
+                    <li>Numerical predicates<ol>
+                            <li><code>//body/div[3]</code> matches the third
+                                    <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
+                                element (same as <code>//body/div[position() eq 3]</code></li>
+                            <li><code>//body/div[last()]</code> matches the last
+                                    <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
+                                element</li>
+                        </ol></li>
+                    <li>Predicates with node tests<ol>
+                            <li><code>//stage[parent::div]</code> is equivalent to
+                                    <code>//div/stage</code></li>
+                        </ol></li>
+                    <li>Predicates with operators and functions<ol>
+                            <li><code>//sp[speaker eq 'Ophelia']</code></li>
+                            <li><code>//sp[contains(speaker, 'Rosencrantz')]</code></li>
+                            <li><code>//lg[@type eq 'couplet']</code></li>
+                        </ol></li>
+                </ol></li><li>Odds and ends (15 minutes; 3:10 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Three ways to apply a function to a sequence<ol>
+                            <li>Explicit <code>for</code><ol>
+                                    <li><code>for $speaker in /TEI//speaker return
+                                            string-length($speaker)</code></li>
+                                </ol></li>
+                            <li>Implicit <code>for</code><ol>
+                                    <li><code>/TEI//speaker/string-length()</code></li>
+                                </ol></li>
+                            <li>Simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)<ol>
+                                    <li><code>/TEI//speaker ! string-length(.)</code></li>
+                                </ol></li>
+                        </ol></li>
+                    <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
+                        arrow (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) <ol>
+                            <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
+                            <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
+                        </ol></li>
+                    
+                </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
+                                 <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
+                        'Ophelia'])</code></span></li>
+                    <li>How many speeches does Ophelia have in Act 2?
+                                 <button class="answer">Answer</button> <span class="answer"><code>count(//body/div[2]//sp[speaker eq
+                            'Ophelia'])</code></span></li>
+                    <li>What types of elements can have stage directions
+                            (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
+                        function.)
+                         <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
+                    <li>How many speeches don’t contain any metrical line child elements
+                            (<code>&lt;l&gt;</code>)?
+                             <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
+                    <li>Building on your answer to the last question, who are the speakers of
+                        those speeches?
+                             <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
+                    <li>Building on your answer to the last two questions, what kinds of elements
+                        they contain instead?
+                                 <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
+                    <li>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
+                                 <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
+                        'Hamlet']/l)[1]</code></span></li>
+                    <li>What is the last stage direction in the entire document?
+                                 <button class="answer">Answer</button> <span class="answer"><code>(//stage)[last()]</code></span></li>
+                    <li>How many speeches have more than 8 line children?
+                                 <button class="answer">Answer</button> <span class="answer"><code>count(//sp[count(l) gt 8])</code></span></li>
+                    <li>Building on your answer to the preceding question, how many line children
+                        does each of those speeches have?  <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt
+                                8]/count(l)</code></span></li>
+                    <li>Building on your answers to the preceding two questions, who are the
+                        speakers of speeches that have more than 8 line children?
+                                 <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
+                            8]/speaker)</code></span></li>
+                    <li>How long is the longest speech?
+                                 <button class="answer">Answer</button> <span class="answer"><code>max(//sp/string-length())</code> (or, better:
+                                <code>max(//sp/string-length(normalize-space()))</code>)</span></li>
+                    <li>Building on your answer to the last question, who is the speaker of the
+                        longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length() eq
+                                max(//sp/string-length())]/speaker</code> (or, better:
+                                <code>//sp[string-length(normalize-space()) eq
+                                max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
+                </ol></li></ul></section>
+    </section>
+    <section>
+        <h2>Tuesday, June 12: XPath and XQuery</h2>
+        <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ul><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                        window with <code>xquery version "3.1";</code> at the top.</li>
+                    <li>Access a document with <code>doc()</code>
+                        <ol>
+                            <li><code>doc('/db/apps/shakespeare/data/ham.xml')</code></li>
+                        </ol>
+                    </li>
+                    <li>Access a collection of documents with <code>collection()</code>
+                        <ol>
+                            <li><code>collection('/db/apps/shakespeare/data/')</code></li>
+                        </ol>
+                    </li>
+                    <li>Namespace declaration <ol>
+                            <li><code>declare namespace
+                                    tei="http://www.tei-c.org/ns/1.0";</code></li>
+                            <li><code>&lt;stage&gt;</code> elements in <em>Hamlet</em>:
+                                    <code>doc('/db/apps/shakespeare/data/ham.xml')//tei:stage</code></li>
+                            <li>Find all the stage directions in the entire Shakespeare
+                                collection
+                                         <button class="answer">Answer</button> <span class="answer"><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></span>
+                            </li>
+                        </ol></li>
+                </ol></li><li>The seven types of nodes (30 minutes; 9:10 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>document()</code></li>
+                    <li><code>element()</code></li>
+                    <li><code>attribute()</code><ol>
+                            <li><code>doc('/db/apps/shakespeare/data/')//tei:sp/@who</code></li>
+                            <li><code>doc('/db/apps/shakespeare/data/')//tei:sp/@who/string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string"><sup>⬀</sup></a></li>
+                        </ol>
+                    </li>
+                    <li><code>text()</code> (not a function; not to be confused with
+                            <code>string()</code>)<ol>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>
+                                (Mary Russell Mitford’s <em>Charles the First</em>) </li>
+                            <li>What does
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/string()</code>
+                                return?  <button class="answer">Answer</button> <span class="answer">The string values of the stage directions, that is,
+                                    the stage directions with all markup stripped</span></li>
+                            <li>What does
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>
+                                return?  <button class="answer">Answer</button> <span class="answer">The <code>text()</code> nodes in each stage
+                                    direction</span></li>
+                        </ol>
+                    </li>
+                    <li>Rarely used: <code>comment()</code>, <code>namespace()</code>,
+                            <code>processing-instruction()</code></li>
+                </ol></li><li>Neglected XPath axes (25 minutes; 9:40 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>preceding::</code>, <code>following::</code><ol>
+                            <li>Find all the stage directions (<code>&lt;stage&gt;</code>) that
+                                precede Act 2, Scene 2 in <em>Charles the First</em>
+                                 <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></span>
+                            </li>
+                        </ol></li>
+                    <li><code>self::</code><ol>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
+                                    eq 'Queen.']</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
+                                    eq 'Queen.']</code></li>
+                        </ol></li>
+                    <li><code>ancestor::</code>, <code>ancestor-or-self::</code>,
+                            <code>descendant-or-self::</code>, <code>namespace::</code><ol>
+                            <li><code>//speaker[. eq 'Queen.']/ancestor::div[@type eq
+                                    'act']/@n</code></li>
+                        </ol></li>
+                </ol></li><li> Scavenger hunt 1 (40 minutes; 10:05 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Work with the Digital Mitford Site Index posted in eXist at
+                            <code>/db/mitford/si.xml</code> or the official version at its external
+                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
+                        following? <ol>
+                            <li> Look at the <code>div</code> elements in the site index. What
+                                attribute on this element can tell you how the document is
+                                organized? Write an XPath that isolates these attribute values.
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></span></li>
+                            <li>Look element children of the <code>&lt;div&gt;</code> elements
+                                (you can do this without seeing what all the elements are). What
+                                attribute on these elements can be used to differentiate the various
+                                lists in the document? Complete this XPath by isolating these
+                                attribute values.
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
+                                    or
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></span>
+                            </li>
+                            <li>Without knowing the names of the elements that are members of
+                                lists, you can tell that all follow the same XPath pattern. What is
+                                it?
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                                        or </code> or
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></span></li>
+                            <li>The <code>@xml:id</code> for the play <em>Charles the
+                                    First</em> in the site index is "CharlesI_MRMplay". References
+                                to the play throughout the site index will be made with various
+                                attributes that begin with a hashtag, formatted like this:
+                                "#CharlesI_MRMplay". Knowing this, can you locate all the individual
+                                entries in the site index lists that contain references of any kind
+                                to the play?
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>
+                                    How can you find out how many these are using a function?
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
+                                        =&gt; count()</code>
+                                </span>
+                            </li>
+                        </ol>
+                    </li>
+                </ol></li><li>Break (10 minutes; 10:45 a.m.–10:55 a.m.) </li><li>Regex in XPath (35 minutes; 10:55 a.m.–11:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>contains()</code> vs. <code>matches()</code><ol>
+                            <li>
+                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                                    'murder')]</code>
+                            </li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
+                                    'unrighteousness')]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
+                                    '[a-z]{15,}','i')]</code></li>
+                            <li>
+                                <code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
+                                    '\d{4}')]</code>
+                            </li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
+                                    '(^|\D)\d{4}(^|\D)')]</code> Why is the number of results
+                                smaller than for the previous expression?</li>
+                        </ol></li>
+                    <li><code>translate()</code> vs. <code>replace()</code>
+                        <ol>
+                            <li>Try this expression,
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>,
+                                and notice the pseudomarkup in the cast list.
+                                    <code>translate()</code> to the rescue!
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
+                                    '()', '')</code></li>
+
+                            <li>The next examples work with the <code>@xml:id</code>s on the
+                                    <code>tei:l</code> elements. How can you get a look at the
+                                    <code>@xml:id</code>s first?
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></span></li>
+                            <li>Change the format of the line <code>@xml:id</code>s with
+                                    <code>replace()</code>:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id,
+                                    'Chas(_\w+_)', 'C1$1')</code></li>
+                        </ol>
+                    </li>
+                    <li><code>substring-before()</code> and <code>substring-after()</code> vs.
+                            <code>tokenize()</code>
+                        <ol>
+                            <li>Return only location (e.g. ded, pro, act) and line number
+                                information in the <code>@xml:id</code>s:
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
+                                    'Chas_')</code>
+                            </li>
+                            <li>Working with the expression we just wrote, how would you apply
+                                    <code>substring-before()</code> to return only the location
+                                (ded, pro, act), and trim off the line number information?
+                                     <button class="answer">Answer</button> <span class="answer">Two ways: old-fashioned:
+                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
+                                        'Chas_'), '_')</code> and more legible with simple map
+                                    operator:
+                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
+                                        'Chas_') ! substring-before(.,'_')</code> Why can’t we use
+                                    the arrow operator (<code>=&gt;</code>) here?</span>
+                            </li>
+                        </ol></li>
+                </ol></li><li>Introducing variables (10 minutes; 11:30 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Global variables and syntax, how to return their values in eXist-db</li>
+                    <li>In eXist-db, keep the TEI namespace declaration line, and copy the
+                        following global variables: <ol>
+                            <li>
+                                <code>declare variable $Chas as document-node() :=
+                                    doc('/db/mitford/literary/Charles1.xml');</code>
+                            </li>
+                            <li><code>declare variable $ChasPlay as element() :=
+                                    $Chas/*;</code></li>
+                            <li>Return the value of the variables by typing their names on the
+                                next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the
+                                difference in the data type declaration and in the results. The
+                                value after <code>as</code> could also be <code>xs:string</code> or
+                                    <code>xs:integer()</code>.</li>
+                        </ol>
+                    </li>
+                </ol></li><li>Introducing FLWOR (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
+                            <code>where</code>, <code>order by</code>, <code>return</code></li>
+                    <li>The simplest <code>FLWOR</code>: <code>let</code> and
+                        <code>return</code></li>
+                    <li>Retrieve a sequence of whole elements: <ol>
+                            <li>
+                                <code>let $places := $Chas//tei:placeName</code>
+                            </li>
+                            <li>
+                                <code>return $places</code>
+                            </li>
+                            <li>How would you return only their text contents?
+                                         <button class="answer">Answer</button> <span class="answer"><code>$places/string()</code>, but notice the white
+                                    space issues. Repair these with <code>return
+                                        $places/normalize-space(string())</code></span></li>
+                        </ol>
+                    </li>
+                </ol></li></ul></section>
+        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ul><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li> Work in eXist-db in the same file we started before the break and delete
+                        only the <code>return</code> line. let’s keep adding to it. Use variables
+                        and <code>FLWOR</code> statements to define and retrieve the following: <ol>
+                            <li> Define a global variable pointing to the Digital Mitford site
+                                index document, posted in eXist at <code>/db/mitford/si.xml</code>
+                                or the official version at its external
+                                    location:<code>http://digitalmitford.org/si.xml</code>. Hint:
+                                Global variables need to be defined before <code>FLWOR</code>
+                                statements.  <button class="answer">Answer</button> <span class="answer"><code>declare variable $si as document-node() :=
+                                        doc('/db/mitford/si.xml');</code> or <code>declare variable
+                                        $si as document-node() :=
+                                        doc('http://digitalmitford.org/si.xml');</code> The new
+                                    global variable must be added before the first <code>let</code>
+                                    statement.</span>
+                            </li>
+                            <li>Write a variable (either global or in <code>let</code> form)
+                                that locates all of the <code>place</code> elements in the site
+                                index document. Use the variable you just defined for the si.xml
+                                document in your expression.  <button class="answer">Answer</button> <span class="answer"><code>let $siPlaces :=
+                                        $si//tei:place</code> or as a global variable above the
+                                    first let statement and after the variable defining the si.xml
+                                    document: <code>declare variable $siPlaces :=
+                                        $si//tei:place;</code>. </span></li>
+                            <li>For housekeeping purposes, rename the variable
+                                    <code>$places</code> (that we defined earlier to retrieve
+                                    <code>$Chas//tei:placeName</code>): Call it
+                                    <code>$Chasplaces</code>.</li>
+                            <li>Define a new variable to retrieve the values of the
+                                    <code>@ref</code> on those <code>$Chasplaces</code> <button class="answer">Answer</button> <span class="answer">Don’t
+                                    forget the <code>string()</code> to return the attribute value:
+                                        <code>let $ChasPlaceRefs :=
+                                    $Chasplaces/@ref/string()</code></span></li>
+                            <li>How would you rewrite the last XPath Scavenger Hunt solution as
+                                a <code>let</code> statement in this XQuery? (find references to
+                                "CharlesI_MRMplay" in the site index):  <button class="answer">Answer</button> <span class="answer"><code>let $siChasRefs
+                                        :=
+                                        $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></span>
+                            </li>
+                        </ol>
+                    </li>
+                </ol></li><li>Review XPath <code>for</code> loops; sequence and range variables
+                    (&lt;oXygen/&gt;) (20 minutes; 2:00 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
+                            ("Curly", "Larry", "Moe") return concat($i, " is a
+                        Stooge!")</code></li>
+                    <li>Can we write it as a simple map (with !)?  <button class="answer">Answer</button> <span class="answer"><code>("Curly", "Larry",
+                                "Moe") ! concat(., " is a Stooge!")</code></span>
+                    </li>
+                    <li>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
+                            <code>http://digitalmitford.org/si.xml</code> . Try finding out the
+                        following in the &lt;oXygen/&gt; XPath Builder: <ol>
+                            <li>Find each person we have listed as born in Scotland in the site
+                                index. Notice that sometimes place names are stored inside the
+                                    <code>&lt;birth&gt;</code> elements.  <button class="answer">Answer</button> <span class="answer"><code>for $i in
+                                        //person[contains(birth, "Scotland")] return $i</code>. You
+                                    should return 28 <code>&lt;person&gt;</code>
+                                entries.</span></li>
+                            <li>Now, modify that example to return the <code>@xml:id</code>,
+                                (or anything else you want to find out about the person elements):
+                                     <button class="answer">Answer</button> <span class="answer">For the <code>@xml:id</code>: <code>for $i in
+                                        //person[contains(birth, "Scotland")] return
+                                        $i/@xml:id</code>. Notice, we don’t need the
+                                        <code>string()</code> function after the @xml:id in the
+                                    &lt;oXygen/&gt; XPath builder vew, though it isn’t wrong to use
+                                    it.</span></li>
+                        </ol>
+                    </li>
+                </ol></li><li><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part 1 (20 minutes; 2:20 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                        <li><code>for</code> in XQuery and iterative returns: <code>for $i in
+                            $YourSequenceVariable</code>. Look up the places coded in <em>Charles
+                                the First</em> for their entries in the Digital Mitford site index. <ol>
+                                    <li>Get the distinct (unique) values of <code>@ref</code>
+                                        attributes on <code>placeName</code> elements.  <button class="answer">Answer</button> <span class="answer"><code>let
+                                            $distChPRs :=
+                                            distinct-values($ChasPlaceRefs)</code></span></li>
+                                    <li>Next, loop through each of these distinct values:
+                                         <button class="answer">Answer</button> <span class="answer"><code>for $i in $distChPRs</code></span>
+                                    </li>
+                                    <li>How will we find the site index entry that matches up with each
+                                        member of our sequence of place references in <em>Charles the
+                                            First</em>?  <button class="answer">Answer</button> <span class="answer">Each site index entry holds an
+                                                <code>@xml:id</code>, and each <code>placeName</code>
+                                                element has a <code>@ref</code> attribute whose value is
+                                                formatted with a leading <code>#</code> followed by the
+                                                <code>@xml:id</code> value.</span></li>
+                                    <li>Write the variable that finds the site index entry whose
+                                        <code>@xml:id</code> matches the value of the range variable in
+                                        our <code>for</code> loop.  <button class="answer">Answer</button> <span class="answer"><code>let $siCPrs :=
+                                            $si//tei:place[@xml:id = substring-after($i,
+                                            '#')]</code></span></li>
+                                </ol>
+                        </li>
+                    </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part 2 (30 minutes; 2:50 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    
+                    <li>Sorting and ordering your sequence: two ways: <ol>
+                            <li>Apply the XPath <code>sort()</code> function the variable
+                                defining the sequence (above the <code>for</code> loop):
+                                         <button class="answer">Answer</button> <span class="answer"><code>let $distChPRs :=
+                                        distinct-values($ChasPlaceRefs)</code></span></li>
+                            <li>Or, inside the <code>for</code> loop with the XQuery
+                                    <code>order by</code> statement: <code>order by
+                                    [X-value-connected to your sequence]</code> followed by nothing
+                                (default: ascending alphabetical order), or a keyword:
+                                    <code>ascending</code> or <code>descending</code>. To order in
+                                reverse alphabetical order by the <code>@xml:id</code> in the site
+                                index entry?  <button class="answer">Answer</button> <span class="answer"><code>order by $siCPrs/@xml:id
+                                        descending</code></span>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Numbering the results with <code>$pos</code><ol>
+                            <li>Set the <code>$pos</code> variable in the <code>for</code>
+                                statement: <code>for $i at $pos in $YourSequenceVariable</code>, but
+                                caution: <code>order by</code> happens <em>after</em>
+                                <code>$pos</code> is set. So if we want sorted, numbered output?
+                                     <button class="answer">Answer</button> <span class="answer">Use the <code>sort()</code> function before the
+                                        <code>for</code> loop begins. Try a return like <code>return
+                                        concat($pos, '. ',
+                                $siCPrs/@xml:id/string())</code></span></li>
+                        </ol></li>
+                    <li>Adding <code>where</code> in a <code>for-loop</code> to limit the returns <ol>
+                            <li>Notice the blank results: A number of entries are not yet in
+                                the site index. So we can limit by selecting only those where the
+                                variable <code>$siCPrs</code> exists: <code>where $siCPRs</code>
+                            </li>
+                            <li>Or use where to return only results in the site index whose
+                                    <code>string()</code> contains "France": <code>where
+                                    $siCPrs[contains(string(.), 'France')]</code></li>
+                        </ol></li>
+                    <li>Which is more efficient in XQuery: a predicate or <code>where</code>? </li>
+                    <li>Text returns: combining strings into one result: <code>concat()</code> and
+                            <code>string-join()</code>
+                        <ol>
+                            <li> Retrieving a full canonical place name:  <button class="answer">Answer</button> <span class="answer"><code>let
+                                        $name := $siCPrs/tei:placeName[1]</code></span>
+                            </li>
+
+                        </ol>
+                    </li>
+                </ol></li><li><img src="images/flower.jpg" alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" title="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" class="icon"/>Putting it all together: writing FLWORs to make new files (40 minutes; 3:20 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>HTML returns: how to use curly braces to layer and activate XQuery in an
+                        HTML file. <ol>
+                            <li>HTML table output:
+                                    <a href="https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html">https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</a></li>
+                            <li>XQuery to make the HTML, in the newtfire eXist-db:
+                                    <code>/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
+                                GitHub:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>SVG returns: a bar graph from XQuery <ol>
+                            <li>SVG bar graph output:
+                                    <a href="http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql">http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</a>
+                                or
+                                    <a href="https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg">https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</a></li>
+                            <li>XQuery to make the SVG, in the newtfire eXist-db: <code>
+                                    /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
+                                GitHub:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</a></li>
+                        </ol>
+                    </li>
+                </ol></li></ul></section>
+    </section>
+    <section>
+        <h2>Wednesday, June 13: XPath and XSLT</h2>
+        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview in &lt;oXygen/&gt; (60 minutes; 9:00 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Open &lt;oXygen/&gt; and open the following url: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></li>
+                    <li>Open this starter XSLT file, too: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code> </li>
+                    
+                    <li>XSLT (eXtensible Stylesheet Language Transformations): an XML document
+                        with special namespaced elements designed to process XML documents</li>
+                    <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
+                        with <code>&lt;xsl:template&gt;</code> children.</li>
+                    <li>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace issue.</q>)
+                        <ol>
+                            <li><code>xsl:</code>: distinguishes the XSLT elements</li>
+                            <li>Namespaced input: set <code>xpath-default-namespace</code> on
+                                the xsl:stylesheet:
+                                <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
+                            </li>
+                            <li>Namespaced output: set
+                                <code>xmlns="http://www.w3.org/1999/xhtml"</code>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>More housekeeping: <code>xsl:output</code> attributes: <code>@method</code>,
+                        <code>@indent</code>, <code>@omit-xml-declaration</code>,
+                        <code>@doctype-system</code>
+                        <ol>
+                            <li><code>&lt;xsl:output method="xml" indent="no"
+                                omit-xml-declaration="yes"/&gt;</code></li>
+                            <li><code>&lt;xsl:output method="xhtml" encoding="utf-8"
+                                indent="yes" doctype-system="about:legacy-compat"
+                                omit-xml-declaration="yes"/&gt;</code></li>
+                        </ol>
+                    </li>
+                    <li>A <em>declarative programming language</em>. Not written to be
+                        executed in a line-by-line order. Template elements (or <em>template
+                            rules</em>) do the work, but can be written in any order. </li>
+                    
+                    <li>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
+                        The <code>@match</code> here is a special kind of XPath called an
+                            <em>XPath pattern</em>, which could be found anywhere in the
+                        document hierarchy. Note: It is inefficient for processing to write these
+                        pattern expressions as we would an XPath search in the XPath Toolbar.</li>
+                    <li>In each example below, look at the <code>@match</code> value: What should
+                        the XPath pattern be matching in the source XML document? And how is this
+                        XPath different from the way we write XPath in the XPath Toolbar? <ol>
+                            <li><code>&lt;xsl:template match="div/head&gt;"</code>
+                                 <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;head&gt;</code> child of a
+                                        <code>&lt;div&gt;</code> at any level of the XML hierarchy.
+                                    In the XPath Toolbar, we have to start the expression with two
+                                    leading forward slashes (<code>//</code>) to indicate we are
+                                    looking <q>down</q> the tree from the document node.</span>
+                            </li>
+                            <li><code>&lt;xsl:template match="div[count(descendant::p) gt
+                                    1]&gt;"</code>
+                                 <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;div&gt;</code> element that contains
+                                    multiple (more than one) <code>&lt;p&gt;</code> descendants. In
+                                    the XPath toolbar, we must add <code>//</code> to the
+                                    beginning.</span>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
+                        selection of the next template rules to fire.
+                            <code>&lt;xsl:apply-templates&gt;</code>
+                        <em>consumes</em> the XML node matched in the template rule, and
+                        determines that its children or other nodes in a set XPath relationship to
+                        the template match will be processed. </li>
+                    <li><code>xsl:apply-templates</code> with or without an <code>@select</code>:
+                            <code>@select</code>
+                        <q>prunes the tree</q> with a specific XPath expression that specifically
+                        identifies which XML elements in the source document will be processed next.
+                        Without <code>@select</code>, all element contents are consumed and
+                        processed by default.</li>
+                    <li>The XPath expression in <code>@select</code> is <em>literal</em> and
+                        defined by its relation to the node being matched by the template rule (in
+                        the <code>@match</code> on <code>xsl:template</code>. </li>
+                    <li><code>xsl:apply-templates</code> with or without <code>@select</code>:
+                            <code>@select</code>
+                        <q>prunes the tree</q> with an XPath expression that specifically identifies
+                        which XML elements in the source document will be processed next. Without
+                            <code>@select</code>, all element contents are consumed and processed by
+                        default.</li>
+                    <li>The XPath expression in <code>@select</code> is <em>literal</em> and
+                        defined by its relation to the node being matched by the template rule (in
+                        the <code>@match</code> on <code>xsl:template</code>. </li>
+                    
+                </ol></li><li>Writing XSLT in &lt;oXygen&gt; (20 minutes; 10:00 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Settings in oXygen: XSLT debugger and Saxon parser</li>
+                    <li>How to run a transformation and save the output</li>
+                </ol></li><li>Break (10 minutes; 10:20 a.m.–10:30 a.m.) </li><li>Identity transformation: making a change to an XML file (45 minutes; 10:30 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Open this file URL in &lt;oXygen/&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></li>
+                    <li>Repair our Pacific Voyage file:
+                            <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
+                    <li>Attribute value templates</li>
+                </ol></li><li>XSLT to output HTML from XML (45 minutes; 11:15 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Open this file URL in &lt;oXygen&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code> </li>
+                    <li> <code>&lt;xsl:stylesheet&gt;</code> and
+                            <code>&lt;xsl:output&gt;</code></li>
+                    <li>Template matching on the document node to output HTML</li>
+                    <li> Structure of an HTML document: <code>&lt;head&gt;</code> and
+                            <code>&lt;body&gt;</code></li>
+                </ol></li></ul></section>
+        <section><h3>XSLT Activity (1:30 p.m.–4:00 p.m.)</h3><ul><li>XML to HTML transformation (60 minutes; 1:30 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol><li>Push processing:          <code>&lt;xsl:apply-templates&gt;</code></li>
+       <li>Pruning the tree: the <code>@select</code> attribute</li>
+       <li>When to use <code>&lt;xsl:value-of&gt;</code></li>
+   </ol></li><li>Comparing XSLT and XQuery (20 minutes; 2:30 p.m.–2:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Invoking namespaces</li>
+                    <li>Sequential processing</li>
+                    <li>Pull vs. push processing</li>
+                </ol></li><li>Break (10 minutes; 2:50 p.m.–3:00 p.m.) </li><li>XSLT activity: Making a linked table of contents (60 minutes; 3:00 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                  <li>Modal XSLT: Processing the same nodes in multipe ways</li> 
+                  <li>How internal links work</li>
+
+              </ol></li></ul></section>
+    </section>
+    <section>
+        <h2>Thursday, June 14: XPath and Schematron</h2>
+        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ul><li>Schematron overview (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Schematron is <em>constraint based</em>; Relax NG, XML Schema, DTD are
+                            <em>grammar based</em></li>
+                    <li>Sample constraint-based tasks involve multiple elements<ol>
+                            <li>Are start pages (<code>&lt;start&gt;</code>) no larger than end
+                                pages (<code>&lt;end&gt;</code>)?</li>
+                            <li>Are birth dates no later than death dates?</li>
+                            <li>Does a list (e.g., of students in a course) contain
+                                duplicates?</li>
+                            <li>Do pointers to persons really point to persons (and not
+                                places)?</li>
+                        </ol></li>
+                    <li>Schematron structure: <code>&lt;pattern&gt;</code> →
+                            <code>&lt;rule&gt;</code> → <code>&lt;assert&gt;</code> or
+                            <code>&lt;report&gt;</code></li>
+                </ol></li><li>Looking at Schematron (30 minutes; 9:15 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Document analysis of our XML:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</a><ol>
+                            <li><code>&lt;start&gt;</code> shouldn’t be greater than
+                                    <code>&lt;end&gt;</code></li>
+                            <li><code>&lt;issue&gt;</code> is optional, but we could omit it by
+                                mistake</li>
+                            <li><code>&lt;initial&gt;</code> should usually be one
+                                letter</li>
+                            <li>Apostrophes and quotation marks should usually be curly (“, ”,
+                                ‘, ’), not straight (', ")</li>
+                        </ol></li>
+                    <li>What Relax NG can constrain:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.rnc</a><ol>
+                            <li><code>&lt;volume&gt;</code>, <code>&lt;issue&gt;</code>,
+                                    <code>&lt;year&gt;</code>, <code>&lt;start&gt;</code>, and
+                                    <code>&lt;end&gt;</code> must be positive integers</li>
+                            <li><code>&lt;year&gt;</code> must be exactly four digits</li>
+                            <li><code>&lt;issue&gt;</code> is optional</li>
+                            <li>No empty elements</li>
+                        </ol></li>
+                    <li>Schematron to the rescue:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.sch</a><ol>
+                            <li>Anatomy of a schematron rule</li>
+                            <li>Validating start and end pages</li>
+                            <li>Validating apostrophes and quotation marks (text, not
+                                markup)</li>
+                        </ol></li>
+                    <li>Associating Schematron with XML</li>
+                </ol></li><li>Schematron error reporting (20 minutes; 9:45 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Schematron has the best error messages</li>
+                    <li>Enhance Schematron reporting with <code>&lt;sch:value-of&gt;</code>:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</a></li>
+                    <li>Enhance Schematron maintenance with <code>&lt;sch:let&gt;</code>:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</a></li>
+                    <li>Generate warnings as well as errors with <code>@role</code>:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</a></li>
+                </ol></li><li>XPath functions practice: Leipzig glossing rules, part 1 (20 minutes; 10:05 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Document analysis:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</a></li>
+                    <li>Target output:
+                            <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig.html</a></li>
+                    <li>Validation challenge: the spaces and hyphens need to be aligned</li>
+                    <li>Best practice<ol>
+                            <li>Test the XPath separately first</li>
+                            <li>Develop and test incrementally</li>
+                        </ol></li>
+                    <li>Schematron validation<ol>
+                            <li>Housekeeping: create the Schematron skeleton in
+                                &lt;oXygen/&gt;, save it, link it to XML</li>
+                            <li>Two ways of counting spaces and hyphens<ol>
+                                    <li><code>translate()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a> <button class="answer">Answer</button> <span class="answer"><code>string-length('one two
+                                                three') - string-length(translate('one two three', '
+                                                ', ''))</code></span></li>
+                                    <li><code>tokenize()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"><sup>⬀</sup></a>
+                                         <button class="answer">Answer</button> <span class="answer"><code>count(tokenize('one two three', ' '))</code>
+                                            or <code>tokenize( ('Curly Larry Moe') ,'\s+') =&gt;
+                                                count()</code></span></li>
+                                </ol></li>
+                        </ol></li>
+                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XPath functions practice: Leipzig glossing rules, part 2 (40 minutes; 10:35 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Comparing three things <ol>
+                            <li>Three-way test not available in XPath<ol>
+                                    <li><code>$a eq $b eq $c</code></li>
+                                    <li><code>$a lt $b lt $c</code></li>
+                                </ol></li>
+                            <li>What is available <ol>
+                                    <li>Composite expression: <code>$a eq $b and $b eq
+                                            $c</code></li>
+                                    <li>Compare to average value: <code>($a, $b, $c) !=
+                                            avg(($a, $b, $c))</code></li>
+                                    <li>Count distinct values<ol>
+                                            <li><code>count(distinct-values(($a, $b, $c))) eq
+                                                  1</code></li>
+                                            <li><code>distinct-values(($a, $b, $c)) =&gt; count()
+                                                  eq 1</code></li>
+                                        </ol></li>
+                                </ol></li>
+                        </ol></li>
+                    <li>Whitespace normalization<ol>
+                            <li>Require it in the XML with Relax NG  <button class="answer">Answer</button> <span class="answer"><code>xsd:string {
+                                        pattern = "(\S+ )*\S+" }</code></span></li>
+                            <li>Require it in the XML with Schematron  <button class="answer">Answer</button> <span class="answer"><code>test='. eq
+                                        normalize-space(.)'</code></span></li>
+                            <li>Manage it with Schematron inside tier-comparison  <button class="answer">Answer</button> <span class="answer">test
+                                        <code>normalize-space(.)</code> instead of just
+                                        <code>.</code></span></li>
+                        </ol>
+                    </li>
+                    <li>Solutions<ol>
+                            <li>Simple
+                                         <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</a></span></li>
+                            <li>Enhanced
+                                         <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</a></span></li>
+                            <li>Finding which word has a hyphen misalignment
+                                         <button class="answer">Answer</button> <span class="answer"><a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</a></span></li>
+                        </ol></li>
+                </ol></li><li>The Three Stooges go to Schematron Summer Camp (25 minutes; 11:15 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>The Edge Case Saloon<ol>
+                            <li>“QA Engineer walks into a bar. Orders a beer. Orders 0 beers.
+                                Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a
+                                sfdeljknesv.”</li>
+                            <li>More edge cases at
+                                    <a href="https://www.sempf.net/post/On-Testing1">https://www.sempf.net/post/On-Testing1</a></li>
+                        </ol></li>
+                    <li>Best Stooge Ever contest results:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.xml</a></li>
+                    <li>Hands on validation tasks<ol>
+                            <li>All stooges must have percentages (no empty
+                                    <code>&lt;stooge&gt;</code> elements)</li>
+                            <li>Percentages total 100</li>
+                            <li>Individual votes range from 0 through 100, inclusive</li>
+                            <li>There are exactly three stooges!</li>
+                            <li>No duplicate stooges!</li>
+                        </ol></li>
+                    <li>Solution (no peeking!)
+                                 <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
+                </ol></li><li>One more way of counting spaces and hyphens (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+
+                    <li>Explode the string<ol>
+                            <li><code>string-to-codepoints()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"><sup>⬀</sup></a>, <code>codepoints-to-string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"><sup>⬀</sup></a></li>
+                            <li><code>for $c in string-to-codepoints('one two three') return
+                                    codepoints-to-string($c)</code></li>
+                        </ol>
+                    </li>
+                    <li>Find the index values of the spaces<ol>
+                            <li><code>index-of()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-index-of"><sup>⬀</sup></a></li>
+                            <li><code>index-of(('a', 'b', 'c', 'b', 'a'), 'a')</code></li>
+                        </ol></li>
+                    <li>Count them<ol>
+                            <li><code>count(index-of(for $c in string-to-codepoints('one two
+                                    three') return codepoints-to-string($c), ' '))</code></li>
+                        </ol></li>
+                    <li>Make it legible<ol>
+                            <li><code>string-to-codepoints('one two three') !
+                                    codepoints-to-string(.) =&gt; index-of(' ') =&gt;
+                                count()</code></li>
+                        </ol></li>
+                </ol></li></ul></section>
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (35 minutes; 1:30 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Files<ol>
+                            <li>Instance:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</a></li>
+                            <li>Schema:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.rnc</a></li>
+                            <li>Transformed:
+                                    <a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</a></li>
+                        </ol></li>
+                    <li>Details<ol>
+                            <li>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
+                                    <code>xsd:IDREFS</code></li>
+                            <li>Value must be unique within the document</li>
+                            <li>Lexical space: <em>NCName</em> (begin with letter or
+                                underscore, may contain letters, digits, underscores, hyphens,
+                                periods) (simplified)</li>
+                            <li><code>@xml:id</code> is not of type <code>xsd:ID</code> unless
+                                your schema says it is</li>
+                            <li>You don’t have to call it <code>@xml:id</code>, but you
+                                should</li>
+                            <li>Validates by exact string matching</li>
+                        </ol></li>
+                    <li>Limitations<ol>
+                            <li>Validates only within the same file (but XInclude can
+                                help)</li>
+                            <li>No subcategory support (e.g., you can’t require person IDREF to
+                                match only person ID)</li>
+                        </ol></li>
+                    <li>Desiderata<ol>
+                            <li>Validation against external (remote) files</li>
+                            <li>Subcategory support</li>
+                        </ol></li>
+                </ol></li><li>Schematron validation (35 minutes; 2:05 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Instance:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</a></li>
+                    <li>Relax NG:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</a></li>
+                    <li>Ancillary:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.rnc</a></li>
+                    <li>Schematron
+                                 <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.sch</a></span></li>
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Exploring Digital Mitford (70 minutes; 2:50 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Project site: <a href="http://digitalmitford.org">http://digitalmitford.org</a></li>
+                    <li>Site index<ol>
+                            <li>Local:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</a></li>
+                            <li>Remote: <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a></li>
+                            <li>Outline:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</a></li>
+                        </ol></li>
+                    <li>Hamilton 1834-04-09 letter (site index up to date) <ol>
+                            <li>Letter
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</a></li>
+                            <li>Schematron:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</a></li>
+                            <li>Tasks <ol>
+                                    <li>Save local copy of Schematron</li>
+                                    <li>Associate letter with local copy</li>
+                                    <li>Test validation of <code>&lt;editor&gt;</code>
+                                        element</li>
+                                    <li>Add and test rules for other element types</li>
+                                </ol></li>
+                        </ol>
+                    </li>
+                    <li>Web 1819-05-16 letter (new site index entries in
+                        <code>&lt;back&gt;</code>) <ol>
+                            <li>Letter:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</a></li>
+                            <li>Schematron:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</a></li>
+                            <li>New items for the site index are in the
+                                    <code>&lt;back&gt;</code>
+                                <ol>
+                                    <li>Some <code>@ref</code> values have been added to the
+                                        site index; report them as errors</li>
+                                    <li>Some still have to be added to the site index; report
+                                        them as <q>info</q></li>
+                                    <li>If the element types lack a <code>@ref</code>, report
+                                        an error</li>
+                                </ol></li>
+                        </ol></li>
+                </ol></li></ul></section>
+    </section>
+    <section>
+        <h2>Friday, June 15: Taking stock</h2>
+        <section><h3>Putting it all to work (9:00 a.m.–12:00 p.m.)</h3><ul><li>XPath in up-conversion (85 minutes; 9:00 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Autotagging plain text with XPath</li>
+                    <li>Planning the up-conversion: pipelining</li>
+                    <li>Document analysis:
+                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/poe.txt">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/poe.txt</a><ol>
+                            <li>We have removed non-poem content: introductions, notes, plays,
+                                front and back matter, footnotes (but not inline footnote
+                                numbers)</li>
+                            <li>Document structure: section delimiter (1), use of whitespace
+                                (10)</li>
+                            <li>Poem structure: title (7), stanzas (10), lines (10), year
+                                (142), section numbers (157, 3240), editor’s notes (592), inline
+                                note numbers (1770)</li>
+                            <li>Typography: line indentation (10)?, em-dash (11), quotation
+                                marks (14), apostrophes (14)</li>
+                        </ol></li>
+                    <li>Moving plain text in XSLT</li>
+                    <li>Autotagging and &lt;xsl:analyze-string&gt;</li>
+                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>Building our syllabus (85 minutes; 10:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Workflow <ol>
+                            <li>Author in XML, validating with Relax NG and Schematron<ol>
+                                    <li>XML:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</a></li>
+                                    <li>RelaxNG:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc</a></li>
+                                    <li>Schematron:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</a></li>
+                                </ol></li>
+                            <li>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT
+                                for inclusion in GitHub pages<ol>
+                                    <li>XSLT:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</a></li>
+                                </ol></li>
+                            <li>XInclude fragment in wrapper and transform to full local
+                                schedule with XSLT<ol>
+                                    <li>XML wrapper:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</a></li>
+                                    <li>XSLT:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</a></li>
+                                </ol></li>
+                            <li>Use XProc to manage pipeline<ol>
+                                    <li>XProc:
+                                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</a></li>
+                                </ol></li>
+                        </ol></li>
+                </ol></li></ul></section>
+    </section>
+</section>

@@ -799,7 +799,7 @@
     </section>
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
-        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview in &lt;oXygen/&gt; (40 minutes; 9:00 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview in &lt;oXygen/&gt; (60 minutes; 9:00 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open &lt;oXygen/&gt; and open the following url: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></li>
                     <li>Open this starter XSLT file, too: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code> </li>
                     
@@ -807,9 +807,33 @@
                         with special namespaced elements designed to process XML documents</li>
                     <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</li>
+                    <li>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace issue.</q>)
+                        <ol>
+                            <li><code>xsl:</code>: distinguishes the XSLT elements</li>
+                            <li>Namespaced input: set <code>xpath-default-namespace</code> on
+                                the xsl:stylesheet:
+                                <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
+                            </li>
+                            <li>Namespaced output: set
+                                <code>xmlns="http://www.w3.org/1999/xhtml"</code>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>More housekeeping: <code>xsl:output</code> attributes: <code>@method</code>,
+                        <code>@indent</code>, <code>@omit-xml-declaration</code>,
+                        <code>@doctype-system</code>
+                        <ol>
+                            <li><code>&lt;xsl:output method="xml" indent="no"
+                                omit-xml-declaration="yes"/&gt;</code></li>
+                            <li><code>&lt;xsl:output method="xhtml" encoding="utf-8"
+                                indent="yes" doctype-system="about:legacy-compat"
+                                omit-xml-declaration="yes"/&gt;</code></li>
+                        </ol>
+                    </li>
                     <li>A <em>declarative programming language</em>. Not written to be
                         executed in a line-by-line order. Template elements (or <em>template
                             rules</em>) do the work, but can be written in any order. </li>
+                    
                     <li>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
                         The <code>@match</code> here is a special kind of XPath called an
                             <em>XPath pattern</em>, which could be found anywhere in the
@@ -858,32 +882,11 @@
                     <li>The XPath expression in <code>@select</code> is <em>literal</em> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </li>
-                </ol></li><li>Writing XSLT in &lt;oXygen/&gt; (45 minutes; 9:40 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                   
-                    <li>Namespaces and where they matter: <q>It’s always a namespace issue.</q>
-                        <ol>
-                            <li><code>xsl:</code>: distinguishes the XSLT elements</li>
-                            <li>Namespaced input: set <code>xpath-default-namespace</code> on
-                                the xsl:stylesheet:
-                                    <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
-                            </li>
-                            <li>Namespaced output: set
-                                    <code>xmlns="http://www.w3.org/1999/xhtml"</code>
-                            </li>
-                        </ol>
-                    </li>
-                    <li><code>xsl:output</code> attributes: <code>@method</code>,
-                            <code>@indent</code>, <code>@omit-xml-declaration</code>,
-                            <code>@doctype-system</code>
-                        <ol>
-                            <li><code>&lt;xsl:output method="xml" indent="no"
-                                    omit-xml-declaration="yes"/&gt;</code></li>
-                            <li><code>&lt;xsl:output method="xhtml" encoding="utf-8"
-                                    indent="yes" doctype-system="about:legacy-compat"
-                                    omit-xml-declaration="yes"/&gt;</code></li>
-                        </ol>
-                    </li>
-                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>Identity transformation: making a change to an XML file (40 minutes; 10:35 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    
+                </ol></li><li>Writing XSLT in &lt;oXygen&gt; (20 minutes; 10:00 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Settings in oXygen: XSLT debugger and Saxon parser</li>
+                    <li>How to run a transformation and save the output</li>
+                </ol></li><li>Break (10 minutes; 10:20 a.m.–10:30 a.m.) </li><li>Identity transformation: making a change to an XML file (45 minutes; 10:30 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open this file URL in &lt;oXygen/&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></li>
                     <li>Repair our Pacific Voyage file:
                             <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
