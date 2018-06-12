@@ -697,8 +697,13 @@
                                     '\d{4}')]</code>
                             </example>
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
-                                    '(^|\D)\d{4}(^|\D)')]</code> Why is the number of results
-                                smaller than for the previous expression?</example>
+                                    '(^|\D)\d{4}($|\D)')]</code> Why is the number of results
+                                smaller than for the previous expression?
+                                <answer type="block">xquery version "3.1";
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}($|\D)')]
+let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]
+return $b except $a (: returns items in $b that are not in $a:)</answer></example>
                         </examples></item>
                     <item><code>translate()</code> vs. <code>replace()</code>
                         <examples>
