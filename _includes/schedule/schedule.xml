@@ -984,9 +984,12 @@
         <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
             <act time="PT40M">
-                <desc>XSLT overview</desc>
+                <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>XSLT (eXtensible Stylesheet Language Transformations) is an XML document
+                    <item>Open &lt;oXygen/&gt; and open the following url: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></item>
+                    <item>Open this starter XSLT file, too: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/b3aa0d76922fe9f69585fe5ad815cc6295a97607/data/xslt/xsltStarter1.xsl</code> </item>
+                    
+                    <item>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</item>
@@ -1044,8 +1047,9 @@
                 </details>
             </act>
             <act time="PT45M">
-                <desc>Preparing to write XSLT in &lt;oXygen/&gt;</desc>
+                <desc>Writing XSLT in &lt;oXygen/&gt;</desc>
                 <details>
+                   
                     <item>Namespaces and where they matter: <q>It’s always a namespace issue.</q>
                         <examples>
                             <example><code>xsl:</code>: distinguishes the XSLT elements</example>
