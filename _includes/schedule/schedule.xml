@@ -983,7 +983,7 @@
         <title>XPath and XSLT</title>
         <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
-            <act time="PT40M">
+            <act time="PT60M">
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Open &lt;oXygen/&gt; and open the following url: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></item>
@@ -993,9 +993,33 @@
                         with special namespaced elements designed to process XML documents</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</item>
+                    <item>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace issue.</q>)
+                        <examples>
+                            <example><code>xsl:</code>: distinguishes the XSLT elements</example>
+                            <example>Namespaced input: set <code>xpath-default-namespace</code> on
+                                the xsl:stylesheet:
+                                <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
+                            </example>
+                            <example>Namespaced output: set
+                                <code>xmlns="http://www.w3.org/1999/xhtml"</code>
+                            </example>
+                        </examples>
+                    </item>
+                    <item>More housekeeping: <code>xsl:output</code> attributes: <code>@method</code>,
+                        <code>@indent</code>, <code>@omit-xml-declaration</code>,
+                        <code>@doctype-system</code>
+                        <examples>
+                            <example><code>&lt;xsl:output method="xml" indent="no"
+                                omit-xml-declaration="yes"/&gt;</code></example>
+                            <example><code>&lt;xsl:output method="xhtml" encoding="utf-8"
+                                indent="yes" doctype-system="about:legacy-compat"
+                                omit-xml-declaration="yes"/&gt;</code></example>
+                        </examples>
+                    </item>
                     <item>A <emph>declarative programming language</emph>. Not written to be
                         executed in a line-by-line order. Template elements (or <emph>template
                             rules</emph>) do the work, but can be written in any order. </item>
+                    
                     <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
                         The <code>@match</code> here is a special kind of XPath called an
                             <emph>XPath pattern</emph>, which could be found anywhere in the
@@ -1044,43 +1068,22 @@
                     <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </item>
+                    
                 </details>
             </act>
-            <act time="PT45M">
-                <desc>Writing XSLT in &lt;oXygen/&gt;</desc>
+            <act time="PT20M">
+                <desc>Writing XSLT in &lt;oXygen&gt;</desc>
                 <details>
-                   
-                    <item>Namespaces and where they matter: <q>It’s always a namespace issue.</q>
-                        <examples>
-                            <example><code>xsl:</code>: distinguishes the XSLT elements</example>
-                            <example>Namespaced input: set <code>xpath-default-namespace</code> on
-                                the xsl:stylesheet:
-                                    <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
-                            </example>
-                            <example>Namespaced output: set
-                                    <code>xmlns="http://www.w3.org/1999/xhtml"</code>
-                            </example>
-                        </examples>
-                    </item>
-                    <item><code>xsl:output</code> attributes: <code>@method</code>,
-                            <code>@indent</code>, <code>@omit-xml-declaration</code>,
-                            <code>@doctype-system</code>
-                        <examples>
-                            <example><code>&lt;xsl:output method="xml" indent="no"
-                                    omit-xml-declaration="yes"/&gt;</code></example>
-                            <example><code>&lt;xsl:output method="xhtml" encoding="utf-8"
-                                    indent="yes" doctype-system="about:legacy-compat"
-                                    omit-xml-declaration="yes"/&gt;</code></example>
-                        </examples>
-                    </item>
+                    <item>Settings in oXygen: XSLT debugger and Saxon parser</item>
+                    <item>How to run a transformation and save the output</item>
                 </details>
             </act>
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT40M">
+            <act time="PT45M">
                 <desc>Identity transformation: making a change to an XML file</desc>
-                <details>
+                <details><!--ebb: Maybe switch to a simple poem, and then move to collection of poems in the afternoon for TOC exercise. -->
                     <item>Open this file URL in &lt;oXygen/&gt;: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></item>
                     <item>Repair our Pacific Voyage file:
                             <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
