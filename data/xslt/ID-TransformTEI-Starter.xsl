@@ -3,6 +3,8 @@
     xmlns="http://www.tei-c.org/ns/1.0"
     version="3.0">
     <!--2018-05-25 ebb: XSLT-Identity Transformation Starter (TEI to TEI)--> 
+  
+  <xsl:output method="xml" indent="yes"/>
 
     <xsl:mode on-no-match="shallow-copy"/>
     
