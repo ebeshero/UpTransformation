@@ -772,8 +772,8 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <details>
                     <item><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
                             <code>where</code>, <code>order by</code>, <code>return</code></item>
-                    <item>The simplest <code>FLWOR</code>: <code>let</code> and
-                        <code>return</code></item>
+                    <item>The simplest <code>FLWOR</code>: <code>let</code> (or <code>for</code>)
+                        followed by <code>return</code></item>
                     <item>Retrieve a sequence of whole elements: <examples>
                             <example>
                                 <code>let $places := $Chas//tei:placeName</code>
