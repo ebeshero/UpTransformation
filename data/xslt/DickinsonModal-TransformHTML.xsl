@@ -35,8 +35,12 @@
    </div> 
 </xsl:template>
 <xsl:template match="text" mode="toc">
-    <li><a href="#p{ancestor::TEI//idno}"><xsl:apply-templates select="descendant::title"></xsl:apply-templates></a></li>     
+    <li><a href="#p{ancestor::TEI//idno}"><xsl:apply-templates select="descendant::title" mode="toc"></xsl:apply-templates></a></li>     
 </xsl:template>        
+            <xsl:template match="title" mode="toc">
+                <xsl:apply-templates/>
+                
+            </xsl:template>
             
 <xsl:template match="text//title">
             <h3><xsl:apply-templates/></h3>           
