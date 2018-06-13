@@ -4,6 +4,7 @@
         
         <xsl:output method="xhtml" indent="yes" doctype-system="about:legacy-compat"
             omit-xml-declaration="yes"/>
+        
 <xsl:template match="/">
   <html>
       <head><title><xsl:apply-templates select="(descendant::titleStmt/title)[1]"/></title>

@@ -998,9 +998,9 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>Selecting files to run and save
                     <examples>
                         <example>Open &lt;oXygen/&gt; and open the following url:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</code></example>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link></example>
                         <example>Open this starter XSLT file, too:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>. Save this file locally on your computer.</example>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</link>. Save this file locally on your computer.</example>
                     </examples>
                     </item>
                 </details>
@@ -1115,14 +1115,14 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
           </item>
                     <item>Combining a collection of files into a single XML file
                     <examples>
-                        <example>See <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</code>.</example>
+                        <example>See <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</link>.</example>
                     </examples>
                     </item>
           
                     <item>Optional exercise: Repair our Pacific Voyage file:
                         <examples>
                             <example>Open this file URL in &lt;oXygen/&gt;:
-                                <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></example>
+                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</link></example>
                             <example>Develop this XSLT file following this exercise:  <link>http://dh.newtfire.org/XSLTExercise1.html</link></example>
                         </examples>
                             </item>
@@ -1159,8 +1159,8 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             <act time="PT70M">
                 <desc>TEI XML to HTML transformation</desc>
                 <details>
-                    <item>Open the url of the Emily Dickinson Fascicle 16 file: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>, and study the document.</item>
-                    <item>Open this starter XSLT file url in &lt;oXygen/&gt;: <code>https://github.com/ebeshero/UpTransformation/blob/master/data/xslt/TEI-HTML-Starter.xsl</code></item>
+                    <item>Open the url of the Emily Dickinson Fascicle 16 file: <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</link>, and study the document.</item>
+                    <item>Open this starter XSLT file url in &lt;oXygen/&gt;: <link>https://github.com/ebeshero/UpTransformation/blob/master/data/xslt/TEI-HTML-Starter.xsl</link></item>
                     <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
                     <item>Pruning the tree: when to use the <code>@select</code> attribute</item>
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
