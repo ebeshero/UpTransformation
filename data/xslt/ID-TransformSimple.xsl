@@ -11,8 +11,5 @@
     <xsl:apply-templates/><lb n="{count(preceding::line) + 1}"/>
   
   </xsl:template>
-  <!--ebb: Write template rules here. -->  
-  
-    
- 
+
 </xsl:stylesheet>
