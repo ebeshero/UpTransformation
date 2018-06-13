@@ -6,6 +6,6 @@
             omit-xml-declaration="yes"/>
    
  
- <!--2018-06-12 ebb: Starter file for an XSLT to HTML transformation.  -->
+ <!--2018-06-12 ebb: Starter file for a a TEI to HTML transformation.  -->
    
     </xsl:stylesheet>

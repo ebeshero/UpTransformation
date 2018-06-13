@@ -991,15 +991,24 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
         <title>XPath and XSLT</title>
         <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
+            <act time="PT20M">
+                <desc>Preparation for writing XSLT in &lt;oXygen&gt;</desc>
+                <details>
+                    <item>Settings: XSLT debugger and Saxon parser</item>
+                    <item>Selecting files to run and save
+                    <examples>
+                        <example>Open &lt;oXygen/&gt; and open the following url:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</code></example>
+                        <example>Open this starter XSLT file, too:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>. Save this file locally on your computer.</example>
+                    </examples>
+                    </item>
+                </details>
+            </act>
             <act time="PT60M">
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Open &lt;oXygen/&gt; and open the following url:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></item>
-                    <item>Open this starter XSLT file, too:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>
-                    </item>
-
+       
                     <item>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
@@ -1079,33 +1088,59 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </item>
+                    <item>Complete <q>Ozymandias</q> transformation:
+                        <examples>
+                            <example>XSLT: <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example>
+                            <example>Output HTML: <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
+                        </examples>
+                    
+                    </item>
 
                 </details>
             </act>
-            <act time="PT20M">
-                <desc>Writing XSLT in &lt;oXygen&gt;</desc>
-                <details>
-                    <item>Settings in oXygen: XSLT debugger and Saxon parser</item>
-                    <item>How to run a transformation and save the output</item>
-                </details>
-            </act>
+            
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT45M">
-                <desc>Identity transformation: making a change to an XML file</desc>
+            <act time="PT50M">
+                <desc>Identity transformation for making changes to an XML file</desc>
                 <details>
-                    <!--ebb: Maybe switch to a simple poem, and then move to collection of poems in the afternoon for TOC exercise. -->
-                    <item>Open this file URL in &lt;oXygen/&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></item>
-                    <item>Repair our Pacific Voyage file:
-                            <link>http://dh.newtfire.org/XSLTExercise1.html</link></item>
-                    <item>Attribute value templates</item>
+          
+          <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML file
+          <examples>
+              <example>Open the url of our simple identity transformation starter: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
+              <example>Change the <code>&lt;line&gt;</code> elements to self-closing <code>&lt;lb&gt;</code> elements.</example>
+              <example>Work with <emph>attribute value templates</emph> to add numbers to the new &lt;lb&gt; elements.</example>
+          </examples>
+          </item>
+                    <item>Combining a collection of files into a single XML file
+                    <examples>
+                        <example>See <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</code>.</example>
+                    </examples>
+                    </item>
+          
+                    <item>Optional exercise: Repair our Pacific Voyage file:
+                        <examples>
+                            <example>Open this file URL in &lt;oXygen/&gt;:
+                                <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></example>
+                            <example>Develop this XSLT file following this exercise:  <link>http://dh.newtfire.org/XSLTExercise1.html</link></example>
+                        </examples>
+                            </item>
+                    
                 </details>
             </act>
-            <act time="PT45M">
-                <desc>XSLT to output HTML from XML</desc>
+            <act time="PT15M">
+                <desc>Comparing XSLT and XQuery</desc>
                 <details>
+                    <item>Invoking namespaces</item>
+                    <item>Sequential processing</item>
+                    <item>Pull vs. push processing</item>
+                </details>
+            </act>
+            <act time="PT25M">
+                <desc>Preparing XSLT to output HTML from TEI XML</desc>
+                <details>
+                    <item>The output we want: <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
                     <item>Open this file URL in &lt;oXygen&gt;:
                             <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
                     </item>
@@ -1121,29 +1156,25 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
         </slot>
         <slot time="13:30:00">
             <title>XSLT Activity</title>
-            <act time="PT60M">
-                <desc>XML to HTML transformation</desc>
+            <act time="PT70M">
+                <desc>TEI XML to HTML transformation</desc>
                 <details>
+                    <item>Open the url of the Emily Dickinson Fascicle 16 file: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>, and study the document.</item>
+                    <item>Open this starter XSLT file url in &lt;oXygen/&gt;: <code>https://github.com/ebeshero/UpTransformation/blob/master/data/xslt/TEI-HTML-Starter.xsl</code></item>
                     <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
-                    <item>Pruning the tree: the <code>@select</code> attribute</item>
+                    <item>Pruning the tree: when to use the <code>@select</code> attribute</item>
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
                 </details>
             </act>
-            <act time="PT20M">
-                <desc>Comparing XSLT and XQuery</desc>
-                <details>
-                    <item>Invoking namespaces</item>
-                    <item>Sequential processing</item>
-                    <item>Pull vs. push processing</item>
-                </details>
-            </act>
+            
 
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT60M">
+            <act time="PT70M">
                 <desc>XSLT activity: Making a linked table of contents</desc>
                 <details>
+                    <item>Continue working with the XSLT we are writing on the Emily Dickinson file.</item>
                     <item>Modal XSLT: Processing the same nodes in multipe ways</item>
                     <item>How internal links work</item>
 

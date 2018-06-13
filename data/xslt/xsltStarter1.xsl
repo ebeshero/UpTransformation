@@ -8,15 +8,6 @@
     <xsl:output method="xhtml" indent="yes" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
 
 <!--ebb: We will write templates rules here. -->
-<xsl:template match="/">
-    <html>
-        <head>
-        </head>
-        <body>
-            
-        </body>
-        
-    </html>
+
     
-</xsl:template>
 </xsl:stylesheet>
