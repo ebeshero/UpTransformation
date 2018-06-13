@@ -723,10 +723,10 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                     2 (30 minutes; 2:50 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
 
                     <li>Sorting and ordering your sequence: two ways: <ol>
-                            <li>Apply the XPath <code>sort()</code> function the variable
+                            <li>Apply the XPath <code>sort()</code> function to the variable
                                 defining the sequence (above the <code>for</code> loop):
                                          <button class="answer">Answer</button> <span class="answer"><code>let $distChPRs :=
-                                        distinct-values($ChasPlaceRefs)</code></span></li>
+                                        sort(distinct-values($ChasPlaceRefs))</code></span></li>
                             <li>Or, inside the <code>for</code> loop with the XQuery
                                     <code>order by</code> statement: <code>order by
                                     [X-value-connected to your sequence]</code> followed by nothing

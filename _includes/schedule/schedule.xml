@@ -909,10 +909,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <details>
 
                     <item>Sorting and ordering your sequence: two ways: <examples>
-                            <example>Apply the XPath <code>sort()</code> function the variable
+                            <example>Apply the XPath <code>sort()</code> function to the variable
                                 defining the sequence (above the <code>for</code> loop):
                                         <answer><code>let $distChPRs :=
-                                        distinct-values($ChasPlaceRefs)</code></answer></example>
+                                        sort(distinct-values($ChasPlaceRefs))</code></answer></example>
                             <example>Or, inside the <code>for</code> loop with the XQuery
                                     <code>order by</code> statement: <code>order by
                                     [X-value-connected to your sequence]</code> followed by nothing
