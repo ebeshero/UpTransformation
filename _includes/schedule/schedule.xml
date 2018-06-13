@@ -1088,6 +1088,13 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </item>
+                    <item>Complete <q>Ozymandias</q> transformation:
+                        <examples>
+                            <example>XSLT: <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example>
+                            <example>Output HTML: <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
+                        </examples>
+                    
+                    </item>
 
                 </details>
             </act>
@@ -1099,7 +1106,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <desc>Identity transformation for making changes to an XML file</desc>
                 <details>
           
-          <item>Change the structure and add line numbers to the Ozymandias XML file
+          <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML file
           <examples>
               <example>Open the url of our simple identity transformation starter: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
               <example>Change the <code>&lt;line&gt;</code> elements to self-closing <code>&lt;lb&gt;</code> elements.</example>
@@ -1133,6 +1140,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             <act time="PT25M">
                 <desc>Preparing XSLT to output HTML from TEI XML</desc>
                 <details>
+                    <item>The output we want: <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
                     <item>Open this file URL in &lt;oXygen&gt;:
                             <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
                     </item>

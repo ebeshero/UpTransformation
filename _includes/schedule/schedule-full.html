@@ -794,13 +794,18 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
     </section>
     <section>
         <h2>Wednesday, June 13: XPath and XSLT</h2>
-        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>XSLT overview in &lt;oXygen/&gt; (60 minutes; 9:00 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Open &lt;oXygen/&gt; and open the following url:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</code></li>
-                    <li>Open this starter XSLT file, too:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>
+        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>Preparation for writing XSLT in &lt;oXygen&gt; (20 minutes; 9:00 a.m.–9:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Settings: XSLT debugger and Saxon parser</li>
+                    <li>Selecting files to run and save
+                    <ol>
+                        <li>Open &lt;oXygen/&gt; and open the following url:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</code></li>
+                        <li>Open this starter XSLT file, too:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>. Save this file locally on your computer.</li>
+                    </ol>
                     </li>
-
+                </ol></li><li>XSLT overview in &lt;oXygen/&gt; (60 minutes; 9:20 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+       
                     <li>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</li>
                     <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
@@ -880,18 +885,43 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                     <li>The XPath expression in <code>@select</code> is <em>literal</em> and
                         defined by its relation to the node being matched by the template rule (in
                         the <code>@match</code> on <code>xsl:template</code>. </li>
-
-                </ol></li><li>Writing XSLT in &lt;oXygen&gt; (20 minutes; 10:00 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Settings in oXygen: XSLT debugger and Saxon parser</li>
-                    <li>How to run a transformation and save the output</li>
-                </ol></li><li>Break (10 minutes; 10:20 a.m.–10:30 a.m.) </li><li>Identity transformation: making a change to an XML file (45 minutes; 10:30 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Complete <q>Ozymandias</q> transformation:
+                        <ol>
+                            <li>XSLT: <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</a></li>
+                            <li>Output HTML: <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
+                        </ol>
                     
-                    <li>Open this file URL in &lt;oXygen/&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></li>
-                    <li>Repair our Pacific Voyage file:
-                            <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
-                    <li>Attribute value templates</li>
-                </ol></li><li>XSLT to output HTML from XML (45 minutes; 11:15 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    </li>
+
+                </ol></li><li>Break (10 minutes; 10:20 a.m.–10:30 a.m.) </li><li>Identity transformation for making changes to an XML file (50 minutes; 10:30 a.m.–11:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+          
+          <li>Change the structure and add line numbers to the <q>Ozymandias</q> XML file
+          <ol>
+              <li>Open the url of our simple identity transformation starter: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></li>
+              <li>Change the <code>&lt;line&gt;</code> elements to self-closing <code>&lt;lb&gt;</code> elements.</li>
+              <li>Work with <em>attribute value templates</em> to add numbers to the new &lt;lb&gt; elements.</li>
+          </ol>
+          </li>
+                    <li>Combining a collection of files into a single XML file
+                    <ol>
+                        <li>See <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</code>.</li>
+                    </ol>
+                    </li>
+          
+                    <li>Optional exercise: Repair our Pacific Voyage file:
+                        <ol>
+                            <li>Open this file URL in &lt;oXygen/&gt;:
+                                <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></li>
+                            <li>Develop this XSLT file following this exercise:  <a href="http://dh.newtfire.org/XSLTExercise1.html">http://dh.newtfire.org/XSLTExercise1.html</a></li>
+                        </ol>
+                            </li>
+                    
+                </ol></li><li>Comparing XSLT and XQuery (15 minutes; 11:20 a.m.–11:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Invoking namespaces</li>
+                    <li>Sequential processing</li>
+                    <li>Pull vs. push processing</li>
+                </ol></li><li>Preparing XSLT to output HTML from TEI XML (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>The output we want: <a href="https://ebeshero.github.io/UpTransformation/dickinson16.html">https://ebeshero.github.io/UpTransformation/dickinson16.html</a></li>
                     <li>Open this file URL in &lt;oXygen&gt;:
                             <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
                     </li>
@@ -902,15 +932,14 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                     <li> Structure of an HTML document: <code>&lt;head&gt;</code> and
                             <code>&lt;body&gt;</code></li>
                 </ol></li></ul></section>
-        <section><h3>XSLT Activity (1:30 p.m.–4:00 p.m.)</h3><ul><li>XML to HTML transformation (60 minutes; 1:30 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XSLT Activity (1:30 p.m.–4:00 p.m.)</h3><ul><li>TEI XML to HTML transformation (70 minutes; 1:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Open the url of the Emily Dickinson Fascicle 16 file: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>, and study the document.</li>
+                    <li>Open this starter XSLT file url in &lt;oXygen/&gt;: <code>https://github.com/ebeshero/UpTransformation/blob/master/data/xslt/TEI-HTML-Starter.xsl</code></li>
                     <li>Push processing: <code>&lt;xsl:apply-templates&gt;</code></li>
-                    <li>Pruning the tree: the <code>@select</code> attribute</li>
+                    <li>Pruning the tree: when to use the <code>@select</code> attribute</li>
                     <li>When to use <code>&lt;xsl:value-of&gt;</code></li>
-                </ol></li><li>Comparing XSLT and XQuery (20 minutes; 2:30 p.m.–2:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Invoking namespaces</li>
-                    <li>Sequential processing</li>
-                    <li>Pull vs. push processing</li>
-                </ol></li><li>Break (10 minutes; 2:50 p.m.–3:00 p.m.) </li><li>XSLT activity: Making a linked table of contents (60 minutes; 3:00 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>XSLT activity: Making a linked table of contents (70 minutes; 2:50 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Continue working with the XSLT we are writing on the Emily Dickinson file.</li>
                     <li>Modal XSLT: Processing the same nodes in multipe ways</li>
                     <li>How internal links work</li>
 
