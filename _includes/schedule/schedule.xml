@@ -1488,9 +1488,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <details>
                     <item>Project site: <link>http://digitalmitford.org</link></item>
                     <item>Site index<examples>
-                            <example>Local:
+                            <example>Workshop repo on GitHub:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</link></example>
-                            <example>Remote: <link>http://digitalmitford.org/si.xml</link></example>
+                            <example>Mitford project site:
+                                    <link>http://digitalmitford.org/si.xml</link></example>
                             <example>Outline:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
@@ -1499,8 +1500,12 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             <act time="PT25M">
                 <desc>Hamilton 1823-04-09 letter (site index up to date)</desc>
                 <details>
-                    <item>Letter
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></item>
+                    <item>Letter <examples>
+                            <example>XML:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></example>
+                            <example>Read on line:
+                                    <link>http://digitalmitford.org/getLetterText.php?uri=1823-04-09-Hamilton.xml</link></example>
+                        </examples></item>
                     <item>Schematron starter:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</link></item>
                     <item>Tasks <examples>
@@ -1516,16 +1521,21 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <desc>Webb 1819-05-16 letter (new site index entries in
                     <code>&lt;back&gt;</code>)</desc>
                 <details>
-                    <item>Letter:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></item>
+                    <item>Letter <examples>
+                            <example>XML:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
+                            <example>Read on line:
+                                    <link>http://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
+                        </examples></item>
                     <item>Schematron starter:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
                     <item>New items for the site index are in the <code>&lt;back&gt;</code>
                         <examples>
-                            <example>Some <code>@ref</code> values have been added to the site
-                                index; report them as errors</example>
-                            <example>Some still have to be added to the site index; report them as
-                                    <q>info</q></example>
+                            <example>Some <code>@ref</code> values in the back have also already
+                                been added to the site index; report pointers to them as
+                                errors</example>
+                            <example>Some <code>@ref</code> values in the back still have to be
+                                added to the site index; report them as <q>info</q></example>
                             <example>If the element types lack a <code>@ref</code>, report an
                                 error</example>
                         </examples></item>
