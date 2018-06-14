@@ -1454,7 +1454,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT1H10M">
+            <act time="PT15M">
                 <desc>Exploring Digital Mitford</desc>
                 <details>
                     <item>Project site: <link>http://digitalmitford.org</link></item>
@@ -1465,36 +1465,40 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example>Outline:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
-                    <item>Hamilton 1823-04-09 letter (site index up to date) <examples>
-                            <example>Letter
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></example>
-                            <example>Schematron:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</link></example>
-                            <example>Tasks <examples>
-                                    <example>Save local copy of Schematron</example>
-                                    <example>Associate letter with local copy</example>
-                                    <example>Test validation of <code>&lt;editor&gt;</code>
-                                        element</example>
-                                    <example>Add and test rules for other element types</example>
-                                </examples></example>
-                        </examples>
-                    </item>
-                    <item>Web 1819-05-16 letter (new site index entries in
-                        <code>&lt;back&gt;</code>) <examples>
-                            <example>Letter:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
-                            <example>Schematron:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></example>
-                            <example>New items for the site index are in the
-                                    <code>&lt;back&gt;</code>
-                                <examples>
-                                    <example>Some <code>@ref</code> values have been added to the
-                                        site index; report them as errors</example>
-                                    <example>Some still have to be added to the site index; report
-                                        them as <q>info</q></example>
-                                    <example>If the element types lack a <code>@ref</code>, report
-                                        an error</example>
-                                </examples></example>
+                </details>
+            </act>
+            <act time="PT25M">
+                <desc>Hamilton 1823-04-09 letter (site index up to date)</desc>
+                <details>
+                    <item>Letter
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></item>
+                    <item>Schematron starter:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</link></item>
+                    <item>Tasks <examples>
+                            <example>Save local copy of Schematron</example>
+                            <example>Associate letter with local copy</example>
+                            <example>Test validation of <code>&lt;editor&gt;</code>
+                                element</example>
+                            <example>Add and test rules for other element types</example>
+                        </examples></item>
+                </details>
+            </act>
+            <act time="PT30M">
+                <desc>Webb 1819-05-16 letter (new site index entries in
+                    <code>&lt;back&gt;</code>)</desc>
+                <details>
+                    <item>Letter:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></item>
+                    <item>Schematron starter:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
+                    <item>New items for the site index are in the <code>&lt;back&gt;</code>
+                        <examples>
+                            <example>Some <code>@ref</code> values have been added to the site
+                                index; report them as errors</example>
+                            <example>Some still have to be added to the site index; report them as
+                                    <q>info</q></example>
+                            <example>If the element types lack a <code>@ref</code>, report an
+                                error</example>
                         </examples></item>
                 </details>
             </act>
