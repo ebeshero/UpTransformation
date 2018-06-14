@@ -1463,7 +1463,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                                 'Moe'))</code></answer></example>
                                 </examples></example>
                             <example><code>substring(@ref, 2) =
-                                $si//tei:person/@xml:id</code></example>
+                                $ancillary//person/@xml:id</code></example>
                         </examples></item>
                 </details>
             </act>
