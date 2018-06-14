@@ -13,7 +13,7 @@
 
         Write (and test) the following  rules:
         
-        * The named entity types above should point to the correct type (@sortKey) in si.xml
+        * The named entity types above should point to the correct type ]in si.xml
         * If any of the seven types above lacks @ref, raise an error        
     -->
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>

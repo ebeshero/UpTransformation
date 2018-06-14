@@ -14,7 +14,7 @@
         
         Write (and test) the following  rules:
         
-        * The named entity types above should point to the correct type (@sortKey) in si.xml
+        * The named entity types above should point to the correct type in si.xml
         * If a @ref points only to <back>, but not si.xml, raise "info"
         * If a @ref points to both <back> and si.xml, raise "warning"
         * If any of the seven types above lacks @ref (except inside <back>, where @ref is not expected), raise an error        
