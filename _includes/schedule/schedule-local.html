@@ -1128,7 +1128,7 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                                 count()</code></li>
                         </ol></li>
                 </ol></li></ul></section>
-        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (35 minutes; 1:30 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</a></li>
@@ -1162,7 +1162,32 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                             <li>Subcategory support</li>
                             <li>Require (selected) mixed content to be non-empty</li>
                         </ol></li>
-                </ol></li><li>Schematron validation (35 minutes; 2:05 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>General comparison and value comparison (20 minutes; 1:55 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Value comparison<ol>
+                            <li>Operators: <code>eq</code>, <code>ne</code>, <code>lt</code>,
+                                    <code>gt</code>, <code>le</code>, <code>ge</code></li>
+                            <li>Compares one thing to one thing</li>
+                            <li>Example: <code>count(distinct-values('Curly', 'Larry', 'Moe'))
+                                    eq 1</code></li>
+                        </ol></li>
+                    <li>General comparison<ol>
+                            <li>Operators: <code>=</code>, <code>!=</code>, <code>&lt;</code>,
+                                    <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code> (angle
+                                brackets may have to be spelled <code>&amp;lt;</code>,
+                                    <code>&amp;gt;</code>)</li>
+                            <li>Compares sequences of any length</li>
+                            <li>Example:<ol>
+                                    <li><code>'Curly' = ('Curly', 'Larry',
+                                        'Moe')</code></li>
+                                    <li>What does <code>'Curly' != ('Curly', 'Larry',
+                                            'Moe')</code> return? What should we have written
+                                        instead?  <button class="answer">Answer</button> <span class="answer"><code>not('Curly' = ('Curly', 'Larry',
+                                                'Moe'))</code></span></li>
+                                </ol></li>
+                            <li><code>substring(@ref, 2) =
+                                $si//tei:person/@xml:id</code></li>
+                        </ol></li>
+                </ol></li><li>Schematron validation (25 minutes; 2:15 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Instance:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</a></li>
                     <li>Relax NG:

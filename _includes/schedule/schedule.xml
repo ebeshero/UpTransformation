@@ -1400,7 +1400,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
         </slot>
         <slot time="13:30:00">
             <title>Schematron and external files</title>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>ID/IDREF validation</desc>
                 <details>
                     <item>Files<examples>
@@ -1438,7 +1438,36 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT20M">
+                <desc>General comparison and value comparison</desc>
+                <details>
+                    <item>Value comparison<examples>
+                            <example>Operators: <code>eq</code>, <code>ne</code>, <code>lt</code>,
+                                    <code>gt</code>, <code>le</code>, <code>ge</code></example>
+                            <example>Compares one thing to one thing</example>
+                            <example>Example: <code>count(distinct-values('Curly', 'Larry', 'Moe'))
+                                    eq 1</code></example>
+                        </examples></item>
+                    <item>General comparison<examples>
+                            <example>Operators: <code>=</code>, <code>!=</code>, <code>&lt;</code>,
+                                    <code>&gt;</code>, <code>&lt;=</code>, <code>&gt;=</code> (angle
+                                brackets may have to be spelled <code>&amp;lt;</code>,
+                                    <code>&amp;gt;</code>)</example>
+                            <example>Compares sequences of any length</example>
+                            <example>Example:<examples>
+                                    <example><code>'Curly' = ('Curly', 'Larry',
+                                        'Moe')</code></example>
+                                    <example>What does <code>'Curly' != ('Curly', 'Larry',
+                                            'Moe')</code> return? What should we have written
+                                        instead? <answer><code>not('Curly' = ('Curly', 'Larry',
+                                                'Moe'))</code></answer></example>
+                                </examples></example>
+                            <example><code>substring(@ref, 2) =
+                                $si//tei:person/@xml:id</code></example>
+                        </examples></item>
+                </details>
+            </act>
+            <act time="PT25M">
                 <desc>Schematron validation</desc>
                 <details>
                     <item>Instance:
