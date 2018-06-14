@@ -1406,10 +1406,12 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>Files<examples>
                             <example>Instance:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</link></example>
-                            <example>Schema:
+                            <example>Relax NG:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.rnc</link></example>
                             <example>Transformed:
                                     <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</link></example>
+                            <example>Schematron:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_non-empty.sch</link></example>
                         </examples></item>
                     <item>Details<examples>
                             <example>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
