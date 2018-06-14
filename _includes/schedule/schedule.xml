@@ -1547,25 +1547,74 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
         <slot time="09:00:00">
             <title>Putting it all to work</title>
             <act time="PT1H25M">
-                <desc>XPath in up-conversion</desc>
+                <desc>XPath in up-conversion: Syriaca taxonomy</desc>
                 <details>
-                    <item>Autotagging plain text with XPath</item>
-                    <item>Planning the up-conversion: pipelining</item>
-                    <item>Document analysis:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/poe.txt</link><examples>
-                            <example>We have removed non-poem content: introductions, notes, plays,
-                                front and back matter, footnotes (but not inline footnote
-                                numbers)</example>
-                            <example>Document structure: section delimiter (1), use of whitespace
-                                (10)</example>
-                            <example>Poem structure: title (7), stanzas (10), lines (10), year
-                                (142), section numbers (157, 3240), editor’s notes (592), inline
-                                note numbers (1770)</example>
-                            <example>Typography: line indentation (10)?, em-dash (11), quotation
-                                marks (14), apostrophes (14)</example>
+                    <item>Project context: <link>http://syriaca.org/</link></item>
+                    <item>Planning ahead <examples>
+                            <example>document analysis <examples>
+                                    <example>Google spreadsheet:
+                                            <link>https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit#gid=959652535</link>
+                                        <examples>
+                                            <example>title for display (A)</example>
+                                            <example>title for filename (E)</example>
+                                            <example>terms (multiple languages) (O, P, Q, S, U, V,
+                                                X, Z)</example>
+                                            <example>glosses (multiple languages) (I, J, K, L, M, N,
+                                                R, T, W, Y, AA)</example>
+                                            <example>relations (AC, AD, AE, AF, AG, AH, AI, AJ, AK,
+                                                AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX,
+                                                AY, AZ, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK,
+                                                BL, BM, BN, BO, BP, BQ)</example>
+                                            <example>identifiers (idno) (F, G, H, )</example>
+                                            <example>note (AB)</example>
+                                        </examples></example>
+                                    <example>TSV export:
+                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.tsv</link></example>
+                                </examples></example>
+                            <example>Output specification</example>
+                        </examples>
+                    </item>
+                    <item>Autotagging plain text with XSLT (<emph>upconversion</emph>)</item>
+                    <item><emph>Pull</emph> vs <emph>push</emph> processing</item>
+                    <item>Features<examples>
+                            <example>Documentation (comments; 7)</example>
+                            <example>Variables (<code url="https://www.w3.org/TR/xslt-30/#variables"
+                                    >&lt;xsl:variable&gt;</code>; 26)</example>
+                            <example>Typing with <code>@as</code> (variables, parameters, functions;
+                                26)</example>
+                            <example>User-defined functions (<code
+                                    url="https://www.w3.org/TR/xslt-30/#stylesheet-functions"
+                                    >&lt;xsl:function&gt;</code>; 11)</example>
+                            <example>Apply XSLT to non-XML input (<code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-unparsed-text-lines"
+                                    >unparsed-text-lines()</code>; 26)</example>
+                            <example>Omit input document specification (<code
+                                    url="https://www.w3.org/TR/xslt-30/#invoking-initial-template"
+                                    >&lt;xsl:template name="xsl:initial-template"&gt;</code>;
+                                61)</example>
+                            <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"
+                                    >tokenize()</code> (44)</example>
+                            <example><code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
+                                    >index-of()</code> (48) and the user-defined
+                                    <code>skos:index-of-starts-with()</code> (11)</example>
+                            <example><code url="https://www.w3.org/TR/xslt-30/#message"
+                                    >&lt;xsl:message&gt;</code> (65)</example>
+                            <example><code
+                                    url="https://www.w3.org/TR/xslt-30/#creating-processing-instructions"
+                                    >&lt;xsl:processing-instruction&gt;</code> (75)</example>
+                            <example>Test whether a value exists with <code>&lt;xsl:if&gt;</code>
+                                before creating output<examples>
+                                    <example><code>&lt;xsl:if
+                                            test="string-length(normalize-space($values[current()]))
+                                            ne 0"&gt;</code> (228)</example>
+                                    <example>see esp. <code>&lt;listRelation&gt;</code>
+                                        (251)</example>
+                                </examples></example>
+                            <example><code url="https://www.w3.org/TR/xslt-30/#creating-attributes"
+                                    >&lt;xsl:attribute&gt;</code> (275)</example>
                         </examples></item>
-                    <item>Moving plain text in XSLT</item>
-                    <item>Autotagging and &lt;xsl:analyze-string&gt;</item>
                 </details>
             </act>
             <act time="PT10M">
