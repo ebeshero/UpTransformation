@@ -1429,10 +1429,12 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                 help)</example>
                             <example>No subcategory support (e.g., you can’t require person IDREF to
                                 match only person ID)</example>
+                            <example>Cannot require mixed content to be non-empty</example>
                         </examples></item>
                     <item>Desiderata<examples>
                             <example>Validation against external (remote) files</example>
                             <example>Subcategory support</example>
+                            <example>Require (selected) mixed content to be non-empty</example>
                         </examples></item>
                 </details>
             </act>
