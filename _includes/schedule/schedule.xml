@@ -1498,7 +1498,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 </details>
             </act>
             <act time="PT25M">
-                <desc>Hamilton 1823-04-09 letter (site index up to date)</desc>
+                <desc>Hamilton 1823-04-09 letter</desc>
                 <details>
                     <item>Letter <examples>
                             <example>XML:
@@ -1518,8 +1518,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 </details>
             </act>
             <act time="PT30M">
-                <desc>Webb 1819-05-16 letter (new site index entries in
-                    <code>&lt;back&gt;</code>)</desc>
+                <desc>Webb 1819-05-16 letter</desc>
                 <details>
                     <item>Letter <examples>
                             <example>XML:
@@ -1536,8 +1535,8 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                 errors</example>
                             <example>Some <code>@ref</code> values in the back still have to be
                                 added to the site index; report them as <q>info</q></example>
-                            <example>If the element types lack a <code>@ref</code>, report an
-                                error</example>
+                            <example>If an element that should have a <code>@ref</code> doesn’t,
+                                report an error</example>
                         </examples></item>
                 </details>
             </act>
