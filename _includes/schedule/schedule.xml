@@ -1445,7 +1445,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example>Operators: <code>eq</code>, <code>ne</code>, <code>lt</code>,
                                     <code>gt</code>, <code>le</code>, <code>ge</code></example>
                             <example>Compares one thing to one thing</example>
-                            <example>Example: <code>count(distinct-values('Curly', 'Larry', 'Moe'))
+                            <example>Example: <code>count(distinct-values(('Curly', 'Larry', 'Moe')))
                                     eq 1</code></example>
                         </examples></item>
                     <item>General comparison<examples>
