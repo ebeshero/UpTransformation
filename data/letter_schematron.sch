@@ -5,7 +5,7 @@
         value="doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml')"/>
     <sch:pattern>
         <sch:rule context="salutation | p | valediction | signature">
-            <sch:report test="empty(node()) and string-length(normalize-space(.)) eq 0">Element of
+            <sch:report test="not(*) and string-length(normalize-space(.)) eq 0">Element of
                 type "<sch:value-of select="name()"/>" cannot be empty</sch:report>
         </sch:rule>
         <sch:rule context="persName/@ref">
