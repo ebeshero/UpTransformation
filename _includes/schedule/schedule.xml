@@ -1410,8 +1410,6 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.rnc</link></example>
                             <example>Transformed:
                                     <link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/letter_id-idref.html</link></example>
-                            <example>Schematron:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_non-empty.sch</link></example>
                         </examples></item>
                     <item>Details<examples>
                             <example>Datatypes <code>xsd:ID</code>, <code>xsd:IDREF</code>,
@@ -1436,7 +1434,8 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>Desiderata<examples>
                             <example>Validation against external (remote) files</example>
                             <example>Subcategory support</example>
-                            <example>Require (selected) mixed content to be non-empty</example>
+                            <example>Require (selected) mixed content to be non-empty
+                                    (<link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_non-empty.sch</link>)</example>
                         </examples></item>
                 </details>
             </act>
