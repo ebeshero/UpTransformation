@@ -1,5 +1,5 @@
-content = mixed { (persName | eventName)* }
 nonEmpty = xsd:string { minLength = "1" }
+content = mixed { (persName | eventName)* }
 start = letter
 letter = element letter { header, \text }
 header = element header { title, provenance, persons, events }
