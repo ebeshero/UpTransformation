@@ -3,8 +3,8 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:pattern>
         <sch:rule context="end">
-            <sch:let name="start" value="preceding-sibling::start"/>
-            <sch:report test=". lt $start">The end page (<sch:value-of select="."/>) cannot be less
+            <sch:let name="start" value="number(preceding-sibling::start)"/>
+            <sch:report test="number(.) lt $start">The end page (<sch:value-of select="."/>) cannot be less
                 than the start page (<sch:value-of select="$start"/>)</sch:report>
         </sch:rule>
         <sch:rule context="text()" role="warning">

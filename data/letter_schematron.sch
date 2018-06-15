@@ -2,7 +2,7 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:let name="ancillary"
-        value="doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml')"/>
+        value="doc('letter_schematron_ancillary.xml')"/>
     <sch:pattern>
         <sch:rule context="salutation | p | valediction | signature">
             <sch:report test="not(*) and string-length(normalize-space(.)) eq 0">Element of
