@@ -1646,6 +1646,22 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         inclusion in GitHub pages<examples>
                             <example>XSLT:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></example>
+                            <example>Features<examples>
+                                    <example><code>@omit-xml-declaration</code> (6)</example>
+                                    <example>User-defined function (7)</example>
+                                    <example><code>@id</code> on <code>&lt;button&gt;</code>
+                                        elements (14)</example>
+                                    <example>Construct <code>&lt;h2&gt;</code> (26)</example>
+                                    <example>Calculate time range (38)</example>
+                                    <example>Datatype wrangling (48)</example>
+                                    <example><code>@class</code> on <code>&lt;button&gt;</code>
+                                        elements (62)</example>
+                                    <example>&lt;xsl:call-template&gt; (75)</example>
+                                    <example>Matching multiple element types in a single template
+                                        (88)</example>
+                                    <example>Dynamic element construction with
+                                            <code>&lt;xsl:element&gt;</code> (125)</example>
+                                </examples></example>
                         </examples></item>
                     <item>XInclude fragment in wrapper and transform to full local schedule with XSLT<examples>
                             <example>XML wrapper:
