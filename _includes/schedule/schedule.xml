@@ -1551,7 +1551,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <details>
                     <item>Project context: <link>http://syriaca.org/</link></item>
                     <item>Planning ahead <examples>
-                            <example>document analysis <examples>
+                            <example>Document analysis <examples>
                                     <example>Google spreadsheet:
                                             <link>https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit?usp=sharing</link>
                                         <examples>
@@ -1565,7 +1565,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                                 AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX,
                                                 AY, AZ, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK,
                                                 BL, BM, BN, BO, BP, BQ)</example>
-                                            <example>Identifiers (idno) (F, G, H, )</example>
+                                            <example>Identifiers (idno) (F, G, H)</example>
                                             <example>Note (AB)</example>
                                         </examples></example>
                                     <example>TSV export:
@@ -1621,6 +1621,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                             >&lt;xsl:attribute&gt;</code> (275)</example>
                                 </examples></example>
                         </examples></item>
+                    <item>Running saxon
+                            (<link>https://sourceforge.net/projects/saxon/files/Saxon-HE/</link>)
+                        from the command line <code>saxon -it Taxonomy.xsl</code></item>
+                    <item>Using the &lt;oXygen/&gt; Outline view with XML and XSLT</item>
                 </details>
             </act>
             <act time="PT10M">
