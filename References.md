@@ -1,5 +1,8 @@
 # Resources and references
 
+## Previous versions of this course:
+* [DHSI 2018 Course 44 (11-15 June, 2018)](schedule-2018.md) 
+
 ## Specifications
 
 * XPath: [XML Path Language (XPath) 3.1. W3C Recommendation 21 March 2017](https://www.w3.org/TR/2017/REC-xpath-31-20170321/)
