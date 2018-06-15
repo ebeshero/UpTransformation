@@ -1,31 +1,9 @@
 start = schedule
-schedule = element schedule { monday, tuesday, wednesday, thursday, friday }
-day = title, slot+
-monday =
-    element day {
-        attribute d { "Monday, June 11" },
-        day
-    }
-tuesday =
-    element day {
-        attribute d { "Tuesday, June 12" },
-        day
-    }
-wednesday =
-    element day {
-        attribute d { "Wednesday, June 13" },
-        day
-    }
-thursday =
-    element day {
-        attribute d { "Thursday, June 14" },
-        day
-    }
-friday =
-    element day {
-        attribute d { "Friday, June 15" },
-        day
-    }
+schedule = element schedule { meta, day+ }
+day = element day { d, title, slot+ }
+d = attribute d { "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" }
+meta = element meta { startDate }
+startDate = element startDate { xsd:date }
 title = element title { text }
 desc =
     element desc {

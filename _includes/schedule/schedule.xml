@@ -2,7 +2,10 @@
 <?xml-model href="schedule.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
-    <day d="Monday, June 11">
+    <meta>
+        <startDate>2018-06-11</startDate>
+    </meta>
+    <day d="Monday">
         <title>XPath</title>
         <slot time="10:15:00">
             <title>Introduction to XPath in eXist-db and &lt;oXygen/&gt;</title>
@@ -548,7 +551,7 @@
             </act>
         </slot>
     </day>
-    <day d="Tuesday, June 12">
+    <day d="Tuesday">
         <title>XPath and XQuery</title>
         <slot time="09:00:00">
             <title>XPath and XQuery in eXist-db</title>
@@ -987,7 +990,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             </act>
         </slot>
     </day>
-    <day d="Wednesday, June 13">
+    <day d="Wednesday">
         <title>XPath and XSLT</title>
         <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
@@ -1199,7 +1202,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
 
         </slot>
     </day>
-    <day d="Thursday, June 14">
+    <day d="Thursday">
         <title>XPath and Schematron</title>
         <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
@@ -1542,7 +1545,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             </act>
         </slot>
     </day>
-    <day d="Friday, June 15">
+    <day d="Friday">
         <title>Taking stock</title>
         <slot time="09:00:00">
             <title>Putting it all to work</title>
