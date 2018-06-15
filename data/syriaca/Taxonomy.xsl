@@ -67,7 +67,7 @@
                 in the value of the @active attribute in <relation> attributes 
                 in the newly constructed <idno type="URI">
             -->
-            <xsl:variable name="URI"
+            <xsl:variable name="URI" as="xs:string"
                 select="concat('http://syriaca.org/keyword/', $values[$filename])"/>
 
             <xsl:result-document method="xml" indent="yes" href="taxonomy/{$values[$filename]}.xml">
@@ -125,8 +125,7 @@
                             </editionStmt>
                             <publicationStmt>
                                 <authority>Syriaca.org: The Syriac Reference Portal</authority>
-                                <idno type="URI"
-                                    ><xsl:value-of select="$URI"/>/tei</idno>
+                                <idno type="URI"><xsl:value-of select="$URI"/>/tei</idno>
                                 <availability>
                                     <licence target="http://creativecommons.org/licenses/by/3.0/">
                                         <p>Distributed under a Creative Commons Attribution 3.0
