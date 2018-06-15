@@ -1546,7 +1546,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
         <title>Taking stock</title>
         <slot time="09:00:00">
             <title>Putting it all to work</title>
-            <act time="PT1H25M">
+            <act time="PT1H">
                 <desc>XPath in up-conversion: Syriaca taxonomy</desc>
                 <details>
                     <item>Project context: <link>http://syriaca.org/</link></item>
@@ -1627,10 +1627,16 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         from the command line <code>saxon -it Taxonomy.xsl</code></item>
                 </details>
             </act>
+            <act time="PT25M">
+                <desc>Resources and references</desc>
+                <details>
+                    <item><link>https://ebeshero.github.io/UpTransformation/References.html</link></item>
+                </details>
+            </act>
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT1H25M">
+            <act time="PT1H">
                 <desc>Building our syllabus</desc>
                 <details>
 
@@ -1673,8 +1679,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example>XProc:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</link></example>
                         </examples></item>
-
                 </details>
+            </act>
+            <act time="PT25M">
+                <desc>Retrospective</desc>
             </act>
         </slot>
     </day>
