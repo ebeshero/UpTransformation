@@ -1167,8 +1167,8 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                             <li>Operators: <code>eq</code>, <code>ne</code>, <code>lt</code>,
                                     <code>gt</code>, <code>le</code>, <code>ge</code></li>
                             <li>Compares one thing to one thing</li>
-                            <li>Example: <code>count(distinct-values('Curly', 'Larry', 'Moe'))
-                                    eq 1</code></li>
+                            <li>Example: <code>count(distinct-values(('Curly', 'Larry',
+                                    'Moe'))) eq 1</code></li>
                         </ol></li>
                     <li>General comparison<ol>
                             <li>Operators: <code>=</code>, <code>!=</code>, <code>&lt;</code>,
@@ -1250,20 +1250,20 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                     <li>Planning ahead <ol>
                             <li>document analysis <ol>
                                     <li>Google spreadsheet:
-                                            <a href="https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit#gid=959652535">https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit#gid=959652535</a>
+                                            <a href="https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit?usp=sharing</a>
                                         <ol>
-                                            <li>title for display (A)</li>
-                                            <li>title for filename (E)</li>
-                                            <li>terms (multiple languages) (O, P, Q, S, U, V,
+                                            <li>Title for display (A)</li>
+                                            <li>Title for filename (E)</li>
+                                            <li>Terms (multiple languages) (O, P, Q, S, U, V,
                                                 X, Z)</li>
-                                            <li>glosses (multiple languages) (I, J, K, L, M, N,
+                                            <li>Glosses (multiple languages) (I, J, K, L, M, N,
                                                 R, T, W, Y, AA)</li>
-                                            <li>relations (AC, AD, AE, AF, AG, AH, AI, AJ, AK,
+                                            <li>Relations (AC, AD, AE, AF, AG, AH, AI, AJ, AK,
                                                 AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX,
                                                 AY, AZ, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK,
                                                 BL, BM, BN, BO, BP, BQ)</li>
-                                            <li>identifiers (idno) (F, G, H, )</li>
-                                            <li>note (AB)</li>
+                                            <li>Identifiers (idno) (F, G, H, )</li>
+                                            <li>Note (AB)</li>
                                         </ol></li>
                                     <li>TSV export:
                                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.tsv">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.tsv</a></li>
@@ -1271,31 +1271,35 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                             <li>Output specification</li>
                         </ol>
                     </li>
-                    <li>Autotagging plain text with XSLT (<em>upconversion</em>)</li>
                     <li><em>Pull</em> vs <em>push</em> processing</li>
-                    <li>Features<ol>
-                            <li>Documentation (comments; 7)</li>
-                            <li>Variables (<code>&lt;xsl:variable&gt;</code><a href="https://www.w3.org/TR/xslt-30/#variables"><sup>⬀</sup></a>; 26)</li>
-                            <li>Typing with <code>@as</code> (variables, parameters, functions;
-                                26)</li>
-                            <li>User-defined functions (<code>&lt;xsl:function&gt;</code><a href="https://www.w3.org/TR/xslt-30/#stylesheet-functions"><sup>⬀</sup></a>; 11)</li>
-                            <li>Apply XSLT to non-XML input (<code>unparsed-text-lines()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-unparsed-text-lines"><sup>⬀</sup></a>; 26)</li>
-                            <li>Omit input document specification (<code>&lt;xsl:template name="xsl:initial-template"&gt;</code><a href="https://www.w3.org/TR/xslt-30/#invoking-initial-template"><sup>⬀</sup></a>;
-                                61)</li>
-                            <li><code>tokenize()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"><sup>⬀</sup></a> (44)</li>
-                            <li><code>index-of()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-index-of"><sup>⬀</sup></a> (48) and the user-defined
-                                    <code>skos:index-of-starts-with()</code> (11)</li>
-                            <li><code>&lt;xsl:message&gt;</code><a href="https://www.w3.org/TR/xslt-30/#message"><sup>⬀</sup></a> (65)</li>
-                            <li><code>&lt;xsl:processing-instruction&gt;</code><a href="https://www.w3.org/TR/xslt-30/#creating-processing-instructions"><sup>⬀</sup></a> (75)</li>
-                            <li>Test whether a value exists with <code>&lt;xsl:if&gt;</code>
-                                before creating output<ol>
-                                    <li><code>&lt;xsl:if
-                                            test="string-length(normalize-space($values[current()]))
-                                            ne 0"&gt;</code> (228)</li>
-                                    <li>see esp. <code>&lt;listRelation&gt;</code>
-                                        (251)</li>
+                    <li>Autotagging plain text with XSLT (<em>upconversion</em>) <ol>
+                            <li>XSLT:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.xsl</a></li>
+                            <li>Features<ol>
+                                    <li>Documentation (comments; 7)</li>
+                                    <li>Variables (<code>&lt;xsl:variable&gt;</code><a href="https://www.w3.org/TR/xslt-30/#variables"><sup>⬀</sup></a>; 26)</li>
+                                    <li>Typing with <code>@as</code> (variables, parameters,
+                                        functions; 26)</li>
+                                    <li>User-defined functions (<code>&lt;xsl:function&gt;</code><a href="https://www.w3.org/TR/xslt-30/#stylesheet-functions"><sup>⬀</sup></a>; 11)</li>
+                                    <li>Apply XSLT to non-XML input (<code>unparsed-text-lines()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-unparsed-text-lines"><sup>⬀</sup></a>; 26)</li>
+                                    <li>Omit input document specification (<code>&lt;xsl:template
+                                        name="xsl:initial-template"&gt;</code><a href="https://www.w3.org/TR/xslt-30/#invoking-initial-template"><sup>⬀</sup></a>; 61)</li>
+                                    <li><code>tokenize()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"><sup>⬀</sup></a> (44)</li>
+                                    <li><code>index-of()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-index-of"><sup>⬀</sup></a> (48) and the user-defined
+                                            <code>skos:index-of-starts-with()</code> (11)</li>
+                                    <li><code>&lt;xsl:message&gt;</code><a href="https://www.w3.org/TR/xslt-30/#message"><sup>⬀</sup></a> (65)</li>
+                                    <li><code>&lt;xsl:processing-instruction&gt;</code><a href="https://www.w3.org/TR/xslt-30/#creating-processing-instructions"><sup>⬀</sup></a>
+                                        (75)</li>
+                                    <li>Test whether a value exists with
+                                            <code>&lt;xsl:if&gt;</code> before creating output<ol>
+                                            <li><code>&lt;xsl:if
+                                                  test="string-length(normalize-space($values[current()]))
+                                                  ne 0"&gt;</code> (228)</li>
+                                            <li>see esp. <code>&lt;listRelation&gt;</code>
+                                                (251)</li>
+                                        </ol></li>
+                                    <li><code>&lt;xsl:attribute&gt;</code><a href="https://www.w3.org/TR/xslt-30/#creating-attributes"><sup>⬀</sup></a> (275)</li>
                                 </ol></li>
-                            <li><code>&lt;xsl:attribute&gt;</code><a href="https://www.w3.org/TR/xslt-30/#creating-attributes"><sup>⬀</sup></a> (275)</li>
                         </ol></li>
                 </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>Building our syllabus (85 minutes; 10:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Workflow <ol>
