@@ -29,9 +29,9 @@
     <xsl:template match="slot">
         <section>
             <xsl:apply-templates select="title"/>
-            <ul>
+            <ol>
                 <xsl:apply-templates select="act"/>
-            </ul>
+            </ol>
         </section>
     </xsl:template>
     <xsl:template match="slot/title">
