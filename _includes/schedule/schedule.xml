@@ -1621,10 +1621,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                             >&lt;xsl:attribute&gt;</code> (275)</example>
                                 </examples></example>
                         </examples></item>
+                    <item>Using the &lt;oXygen/&gt; Outline view with XML and XSLT</item>
                     <item>Running saxon
                             (<link>https://sourceforge.net/projects/saxon/files/Saxon-HE/</link>)
                         from the command line <code>saxon -it Taxonomy.xsl</code></item>
-                    <item>Using the &lt;oXygen/&gt; Outline view with XML and XSLT</item>
                 </details>
             </act>
             <act time="PT10M">
@@ -1633,32 +1633,31 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             <act time="PT1H25M">
                 <desc>Building our syllabus</desc>
                 <details>
-                    <item>Workflow <examples>
-                            <example>Author in XML, validating with Relax NG and Schematron<examples>
-                                    <example>XML:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</link></example>
-                                    <example>RelaxNG:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc</link></example>
-                                    <example>Schematron:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link></example>
-                                </examples></example>
-                            <example>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT
-                                for inclusion in GitHub pages<examples>
-                                    <example>XSLT:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></example>
-                                </examples></example>
-                            <example>XInclude fragment in wrapper and transform to full local
-                                schedule with XSLT<examples>
-                                    <example>XML wrapper:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</link></example>
-                                    <example>XSLT:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</link></example>
-                                </examples></example>
-                            <example>Use XProc to manage pipeline<examples>
-                                    <example>XProc:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</link></example>
-                                </examples></example>
+
+                    <item>Author in XML, validating with Relax NG and Schematron<examples>
+                            <example>XML:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xml</link></example>
+                            <example>RelaxNG:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.rnc</link></example>
+                            <example>Schematron:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.sch</link></example>
                         </examples></item>
+                    <item>Transform to fragment (<code>&lt;section&gt;</code>) with XSLT for
+                        inclusion in GitHub pages<examples>
+                            <example>XSLT:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule-full.xsl</link></example>
+                        </examples></item>
+                    <item>XInclude fragment in wrapper and transform to full local schedule with XSLT<examples>
+                            <example>XML wrapper:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/wrapper.xml</link></example>
+                            <example>XSLT:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/identity.xsl</link></example>
+                        </examples></item>
+                    <item>Use XProc to manage pipeline<examples>
+                            <example>XProc:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/_includes/schedule/schedule.xpl</link></example>
+                        </examples></item>
+
                 </details>
             </act>
         </slot>
