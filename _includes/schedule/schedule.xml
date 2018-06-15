@@ -1292,7 +1292,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                             url="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"
                                             >tokenize()</code>
                                         <answer><code>count(tokenize('one two three', ' '))</code>
-                                            or <code>tokenize( ('Curly Larry Moe') ,'\s+') =>
+                                            or <code>tokenize(('Curly Larry Moe') ,'\s+') =>
                                                 count()</code></answer></example>
                                 </examples></example>
                         </examples></item>
@@ -1662,7 +1662,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                     <example>Datatype wrangling (48)</example>
                                     <example><code>@class</code> on <code>&lt;button&gt;</code>
                                         elements (62)</example>
-                                    <example>&lt;xsl:call-template&gt; (75)</example>
+                                    <example><code>&lt;xsl:call-template&gt;</code> (75)</example>
                                     <example>Matching multiple element types in a single template
                                         (88)</example>
                                     <example>Dynamic element construction with
