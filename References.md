@@ -1,8 +1,5 @@
 # Resources and references
 
-## Previous versions of this course:
-* [DHSI 2018 Course 44 (11-15 June, 2018)](schedule-2018.md) 
-
 ## Specifications
 
 * XPath: [XML Path Language (XPath) 3.1. W3C Recommendation 21 March 2017](https://www.w3.org/TR/2017/REC-xpath-31-20170321/)
@@ -32,3 +29,7 @@ The best XSLT reference book is Michael Kay, _XSLT 2.0 and XPath 2.0 Programmerâ
 ### Schematron
 
 There are no Schematron books, but for a good Schematron tutorial on line see Mulberry Technologiesâ€™ [Introduction to Schematron](http://www.mulberrytech.com/papers/schematron-Philly.pdf), by Wendell Piez and Debbie Lapeyre. See also the Mulberry Technologies [ISO Schematron Quick Reference](http://mulberrytech.com/quickref/schematron_rev1.pdf), by Sam Wilmott.
+
+<!-- ## Previous versions of this course:
+* [DHSI 2018 Course 44 (11-15 June, 2018)](schedule-2018.md)  -->
+
