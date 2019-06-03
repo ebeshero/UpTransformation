@@ -544,8 +544,10 @@
                                 smaller than for the previous expression?
                                  <button class="answer">Answer</button> <div class="answer">xquery version "3.1";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}($|\D)')]
-let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]
+let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*
+    /text()[matches(., '(^|\D)\d{4}($|\D)')]
+let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*
+    /text()[matches(., '\d{4}')]
 return $b except $a (: returns items in $b that are not in $a: )</div></li>
                         </ol></li>
                     <li><code>translate()</code> vs. <code>replace()</code>

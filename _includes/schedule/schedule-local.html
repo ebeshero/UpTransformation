@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+<html xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Local view of schedule</title>
         <script type="text/javascript" src="../../schedule.js">/**/</script>
@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1>Local view of schedule</h1>
-        <section xml:base="schedule-full.html"><h1>Schedule</h1><p><button id="expand">Expand all</button> | <button id="collapse">Collapse
+        <section><h1>Schedule</h1><p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                 all</button></p><section>
         <h2>Monday, June 10: XPath</h2>
         <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:15 a.m.–12:00 p.m.)</h3><ol><li>Getting started with XPath and eXide (15 minutes; 10:15 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
@@ -556,8 +556,10 @@
                                 smaller than for the previous expression?
                                  <button class="answer">Answer</button> <div class="answer">xquery version "3.1";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}($|\D)')]
-let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]
+let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*
+    /text()[matches(., '(^|\D)\d{4}($|\D)')]
+let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*
+    /text()[matches(., '\d{4}')]
 return $b except $a (: returns items in $b that are not in $a: )</div></li>
                         </ol></li>
                     <li><code>translate()</code> vs. <code>replace()</code>
