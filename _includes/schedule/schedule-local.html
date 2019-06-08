@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+<html xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Local view of schedule</title>
         <script type="text/javascript" src="../../schedule.js">/**/</script>
@@ -10,13 +10,14 @@
     </head>
     <body>
         <h1>Local view of schedule</h1>
-        <section xml:base="schedule-full.html"><h1>Schedule</h1><p><button id="expand">Expand all</button> | <button id="collapse">Collapse
+        <section><h1>Schedule</h1><p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                 all</button></p><section>
         <h2>Monday, June 10: XPath</h2>
         <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:15 a.m.–12:00 p.m.)</h3><ol><li>Getting started with XPath and eXide (15 minutes; 10:15 a.m.–10:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a> , click
-                        “New XQuery”, and erase all content in the editing window. You’ll type your
-                        XPath in the editing window and run it with the “Eval” button.</li>
+                    <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a>
+                        ,
+                        click “New XQuery”, and erase all content in the editing window. You’ll type
+                        your XPath in the editing window and run it with the “Eval” button.</li>
                     <li>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
                         means learning the …<ol>
                             <li>Vocabulary (e.g., the division operator in XPath is <code>div</code><a href="https://www.w3.org/TR/xpath-31/#id-arithmetic"><sup>⬀</sup></a>,
@@ -425,7 +426,9 @@
                         longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length() eq
                                 max(//sp/string-length())]/speaker</code> (or, better:
                                 <code>//sp[string-length(normalize-space()) eq
-                                max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
+                                max(//sp/string-length(normalize-space()))]/speaker</code>).
+                                <code>//sp[not(string-length() &lt; //sp/string-length())]</code>
+                            also works; how?</span></li>
                 </ol></li></ol></section>
     </section><section>
         <h2>Tuesday, June 11: XPath and XQuery</h2>
@@ -472,6 +475,11 @@
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>
                                 return?  <button class="answer">Answer</button> <span class="answer">The <code>text()</code> nodes in each stage
                                     direction</span></li>
+                            <li>Compare: <ol>
+                                    <li><code>(doc('/db/mitford/literary/Charles1.xml')//tei:stage)[1]</code></li>
+                                    <li><code>(doc('/db/mitford/literary/Charles1.xml')//tei:stage)[1]/string()</code></li>
+                                    <li><code>(doc('/db/mitford/literary/Charles1.xml')//tei:stage)[1]/text()</code></li>
+                                </ol></li>
                         </ol>
                     </li>
                     <li>Rarely used: <code>comment()</code>, <code>namespace()</code>,
@@ -502,23 +510,25 @@
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
                         following? <ol>
-                            <li> Look at the <code>div</code> elements in the site index. What
-                                attribute on this element can tell you how the document is
-                                organized? Write an XPath that isolates these attribute values.
+                            <li> Use XPath to show the attributes on <code>div</code> elements.
+                                What are the attribute names, and how can you show their values in
+                                the return window?
                                          <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></span></li>
-                            <li>Look element children of the <code>&lt;div&gt;</code> elements
-                                (you can do this without seeing what all the elements are). What
-                                attribute on these elements can be used to differentiate the various
-                                lists in the document? Complete this XPath by isolating these
-                                attribute values.
+                            <li>Look at the element children of the <code>&lt;div&gt;</code>
+                                elements (you can do this without seeing what all the elements are).
+                                What attribute on these elements can be used to differentiate the
+                                various lists in the document? Complete this XPath by isolating
+                                these attribute values.
                                          <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
                                     or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></span>
                             </li>
-                            <li>Without knowing the names of the elements that are members of
-                                lists, you can tell that all follow the same XPath pattern. What is
-                                it?
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                            <li>Write an XPath expression that shows you the children of div
+                                elements (you don’t need to know their names). Now write an XPath
+                                expression that shows you only the grandchildren.  <button class="answer">Answer</button> <span class="answer">Children:
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*</code>.
+                                    Grandchildren:
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
                                         or </code> or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></span></li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the

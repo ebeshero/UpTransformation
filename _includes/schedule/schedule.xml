@@ -12,10 +12,11 @@
             <act time="PT15M">
                 <desc>Getting started with XPath and eXide</desc>
                 <details>
-                    <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> <!--(or
-                        eXide within eXist-db on your own laptop, if you’ve installed it)-->, click
-                        “New XQuery”, and erase all content in the editing window. You’ll type your
-                        XPath in the editing window and run it with the “Eval” button.</item>
+                    <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link>
+                        <!--(or
+                        eXide within eXist-db on your own laptop, if you’ve installed it)-->,
+                        click “New XQuery”, and erase all content in the editing window. You’ll type
+                        your XPath in the editing window and run it with the “Eval” button.</item>
                     <item>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
                         means learning the …<examples>
                             <example>Vocabulary (e.g., the division operator in XPath is <code
@@ -546,7 +547,9 @@
                         longest speech? <answer><code>//sp[string-length() eq
                                 max(//sp/string-length())]/speaker</code> (or, better:
                                 <code>//sp[string-length(normalize-space()) eq
-                                max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
+                                max(//sp/string-length(normalize-space()))]/speaker</code>).
+                                <code>//sp[not(string-length() &lt; //sp/string-length())]</code>
+                            also works; how?</answer></item>
                 </details>
             </act>
         </slot>
@@ -606,6 +609,11 @@
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:stage/text()</code>
                                 return? <answer>The <code>text()</code> nodes in each stage
                                     direction</answer></example>
+                            <example>Compare: <examples>
+                                    <example><code>(doc('/db/mitford/literary/Charles1.xml')//tei:stage)[1]</code></example>
+                                    <example><code>(doc('/db/mitford/literary/Charles1.xml')//tei:stage)[1]/string()</code></example>
+                                    <example><code>(doc('/db/mitford/literary/Charles1.xml')//tei:stage)[1]/text()</code></example>
+                                </examples></example>
                         </examples>
                     </item>
                     <item>Rarely used: <code>comment()</code>, <code>namespace()</code>,
@@ -644,19 +652,25 @@
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
                         following? <examples>
-                            <example> Use XPath to show the attributes on <code>div</code> elements. What are the attribute names, and how can you show their values in the return window?
+                            <example> Use XPath to show the attributes on <code>div</code> elements.
+                                What are the attribute names, and how can you show their values in
+                                the return window?
                                         <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
-                            <example>Look at the element children of the <code>&lt;div&gt;</code> elements
-                                (you can do this without seeing what all the elements are). What
-                                attribute on these elements can be used to differentiate the various
-                                lists in the document? Complete this XPath by isolating these
-                                attribute values.
+                            <example>Look at the element children of the <code>&lt;div&gt;</code>
+                                elements (you can do this without seeing what all the elements are).
+                                What attribute on these elements can be used to differentiate the
+                                various lists in the document? Complete this XPath by isolating
+                                these attribute values.
                                         <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
                                     or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer>
                             </example>
-                            <example>Write an XPath expression that shows you the children of div elements (you don’t need to know their names). Now write an XPath expression that shows you only the grandchildren. 
-                                <answer>Children: <code>doc('http://digitalmitford.org/si.xml')//tei:div/*</code>. Grandchildren: <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                            <example>Write an XPath expression that shows you the children of div
+                                elements (you don’t need to know their names). Now write an XPath
+                                expression that shows you only the grandchildren. <answer>Children:
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*</code>.
+                                    Grandchildren:
+                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
                                         or </code> or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the
