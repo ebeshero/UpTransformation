@@ -644,11 +644,9 @@
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
                         following? <examples>
-                            <example> Look at the <code>div</code> elements in the site index. What
-                                attribute on this element can tell you how the document is
-                                organized? Write an XPath that isolates these attribute values.
+                            <example> Use XPath to show the attributes on <code>div</code> elements. What are the attribute names, and how can you show their values in the return window?
                                         <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
-                            <example>Look element children of the <code>&lt;div&gt;</code> elements
+                            <example>Look at the element children of the <code>&lt;div&gt;</code> elements
                                 (you can do this without seeing what all the elements are). What
                                 attribute on these elements can be used to differentiate the various
                                 lists in the document? Complete this XPath by isolating these
@@ -657,10 +655,8 @@
                                     or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer>
                             </example>
-                            <example>Without knowing the names of the elements that are members of
-                                lists, you can tell that all follow the same XPath pattern. What is
-                                it?
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                            <example>Write an XPath expression that shows you the children of div elements (you don’t need to know their names). Now write an XPath expression that shows you only the grandchildren. 
+                                <answer>Children: <code>doc('http://digitalmitford.org/si.xml')//tei:div/*</code>. Grandchildren: <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
                                         or </code> or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the

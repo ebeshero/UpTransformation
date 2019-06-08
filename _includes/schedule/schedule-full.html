@@ -490,11 +490,9 @@
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
                         following? <ol>
-                            <li> Look at the <code>div</code> elements in the site index. What
-                                attribute on this element can tell you how the document is
-                                organized? Write an XPath that isolates these attribute values.
+                            <li> Use XPath to show the attributes on <code>div</code> elements. What are the attribute names, and how can you show their values in the return window?
                                          <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></span></li>
-                            <li>Look element children of the <code>&lt;div&gt;</code> elements
+                            <li>Look at the element children of the <code>&lt;div&gt;</code> elements
                                 (you can do this without seeing what all the elements are). What
                                 attribute on these elements can be used to differentiate the various
                                 lists in the document? Complete this XPath by isolating these
@@ -503,10 +501,8 @@
                                     or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></span>
                             </li>
-                            <li>Without knowing the names of the elements that are members of
-                                lists, you can tell that all follow the same XPath pattern. What is
-                                it?
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
+                            <li>Write an XPath expression that shows you the children of div elements (you don’t need to know their names). Now write an XPath expression that shows you only the grandchildren. 
+                                 <button class="answer">Answer</button> <span class="answer">Children: <code>doc('http://digitalmitford.org/si.xml')//tei:div/*</code>. Grandchildren: <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
                                         or </code> or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></span></li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the
