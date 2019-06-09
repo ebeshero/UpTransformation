@@ -538,12 +538,24 @@
                                     or (without knowing the name of the attribute)
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@*/string()</code></span>
                             </li>
-                            <li>What kinds of elements can be the parents of <code>@xml:id</code> attributes in this document? Write an XPath that isolates these elements.  <button class="answer">Answer</button> <span class="answer"><code>//@xml:id/parent::*</code> or <code>//*[@xml:id]</code>. These elements hold entries describing named entities, and the <code>@xml:id</code> contains a distinct identifier for each one.</span> </li>
+                            <li>What kinds of elements can be the parents of
+                                    <code>@xml:id</code> attributes in this document? Write an XPath
+                                that isolates these elements.
+                                         <button class="answer">Answer</button> <span class="answer"><code>//@xml:id/parent::*</code> or
+                                        <code>//*[@xml:id]</code>. These elements hold entries
+                                    describing named entities, and the <code>@xml:id</code> contains
+                                    a distinct identifier for each one.</span>
+                            </li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the
                                     First</em> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes (such as <code>@ref</code> but there may be others) whose values begin with a hash mark, formatted like this:
-                                "#CharlesI_MRMplay". Sometimes other entries (such as for persons or fictional characters) make reference to the play in their note or other internal elements (to say, for example, that an actor or a character was involved in this play). How can we find those entries? How many are there? (Use a function to do the counting.) 
+                                attributes (such as <code>@ref</code> but there may be others) whose
+                                values begin with a hash mark, formatted like this:
+                                "#CharlesI_MRMplay". Sometimes other entries (such as for persons or
+                                fictional characters) make reference to the play in their note or
+                                other internal elements (to say, for example, that an actor or a
+                                character was involved in this play). How can we find those entries?
+                                How many are there? (Use a function to do the counting.) 
                                  <button class="answer">Answer</button> <span class="answer">Find the elements with
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>.
                                     Count them with
@@ -917,7 +929,8 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li><em>With</em> a <code>@select</code> attribute, only the
                                 nodes specified by the XPath expressions are processed. Those nodes
                                 do not have to be children of the current context.</li>
-                            <li>The XPath expression may be absolute (e.g.,
+                            <li>The XPath expression that is the value of the
+                                    <code>@select</code> attribute may be absolute (e.g.,
                                     <code>&lt;xsl:apply-templates select="//p"/&gt;</code>;
                                     <code>&lt;xsl:apply-templates
                                     select="/TEI/teiHeader/titleStmt/title"/&gt;</code>) or relative
@@ -925,7 +938,9 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                     select="p"/&gt;</code>).</li>
                         </ol></li>
                 </ol></li><li>Group hands-on activity in &lt;oXygen/&gt; (20 minutes; 10:00 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><q>Ozymandias</q> transformation: <ol>
+                    <li><q>Ozymandias</q> transformation <ol>
+                            <li>XML:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</a></li>
                             <li>XSLT:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</a></li>
                             <li>Output HTML:
