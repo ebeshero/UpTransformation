@@ -874,8 +874,11 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                 <answer>Don’t forget the <code>string()</code> to return the
                                     attribute value: <code>let $ChasPlaceRefs :=
                                         $Chasplaces/@ref/string()</code></answer></example>
-                            <example>Take a look at the last XPath Scavenger hunt challenge and solution from this morning. (This asked you to find references to "CharlesI_MRMplay" in the site index.) How woud you rewrite that solution as a <code>let</code> statement in XQuery? <answer><code>let
-                                        $siChasRefs :=
+                            <example>Take a look at the last XPath Scavenger hunt challenge and
+                                solution from this morning. (This asked you to find references to
+                                "CharlesI_MRMplay" in the site index.) How woud you rewrite that
+                                solution as a <code>let</code> statement in XQuery?
+                                        <answer><code>let $siChasRefs :=
                                         $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
                             </example>
                         </examples>
@@ -1174,7 +1177,6 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</link>.</example>
                         </examples>
                     </item>
-
                     <item>Optional exercise: Repair our Pacific Voyage file: <examples>
                             <example>Open this file URL in &lt;oXygen/&gt;:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</link></example>
@@ -1182,7 +1184,6 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                     <link>http://dh.newtfire.org/XSLTExercise1.html</link></example>
                         </examples>
                     </item>
-
                 </details>
             </act>
             <act time="PT15M">
