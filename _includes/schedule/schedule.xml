@@ -680,14 +680,13 @@
                                     or (without knowing the name of the attribute)
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@*/string()</code></answer>
                             </example>
+                            <example>What kinds of elements can be the parents of <code>@xml:id</code> attributes in this document? Write an XPath that isolates these elements. <answer><code>//@xml:id/parent::*</code> or <code>//*[@xml:id]</code>. These elements hold entries describing named entities, and the <code>@xml:id</code> contains a distinct identifier for each one.</answer> </example>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the
                                     First</emph> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes that begin with a hash maark, formatted like this:
-                                "#CharlesI_MRMplay". Knowing this, can you locate all the individual
-                                entries in the site index lists that contain references of any kind
-                                to the play? How many are there (use a function to do the counting)? <!-- 
-                                    TODO: The question doesn’t contain enough information to get to the answer, that is, to know
+                                attributes (such as <code>@ref</code> but there may be others) whose values begin with a hash mark, formatted like this:
+                                "#CharlesI_MRMplay". Sometimes other entries (such as for persons or fictional characters) make reference to the play in their note or other internal elements (to say, for example, that an actor or a character was involved in this play). How can we find those entries? How many are there? (Use a function to do the counting.) <!-- ebb: I think I resolved this by adding a simpler task ahead of this, and by describing the entries in the site index in a little more detail.  
+                                    djb: TODO: The question doesn’t contain enough information to get to the answer, that is, to know
                                     that @xml:id is involved, or the level we want to look at, or the type of element that we want 
                                     to return. Can we simplify the task? It also seems like more of a bottom-up questions, i.e.:
                                     
