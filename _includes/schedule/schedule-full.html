@@ -421,7 +421,8 @@
     </section><section>
         <h2>Tuesday, June 11: XPath and XQuery</h2>
         <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ol><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                    <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a>. In
+                        the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</li>
                     <li>Access a document with <code>doc()</code>
                         <ol>
@@ -763,8 +764,8 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                 as part of a FLWOR: <code>order by $someVariable</code>. By default,
                                 the ordering is alphabetic and ascending (a to z). Override this
                                 with the optional keywords <code>numeric</code> and
-                                    <code>descending</code>. To order in reverse alphabetical
-                                order by the <code>@xml:id</code> in the site index entry?
+                                    <code>descending</code>. To order in reverse alphabetical order
+                                by the <code>@xml:id</code> in the site index entry?
                                          <button class="answer">Answer</button> <span class="answer"><code>order by $siCPrs/@xml:id
                                     descending</code></span>
                             </li>
@@ -834,17 +835,16 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                 Save this file locally on your computer.</li>
                         </ol>
                     </li>
-                </ol></li><li>XSLT overview in &lt;oXygen/&gt; (60 minutes; 9:20 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-
+                </ol></li><li>XSLT overview in &lt;oXygen/&gt; (40 minutes; 9:20 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</li>
                     <li>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</li>
                     <li>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace
-                            issue.</q>) <ol>
+                            issue!</q>) <ol>
                             <li><code>xsl:</code>: distinguishes the XSLT elements</li>
-                            <li>Namespaced input: set <code>xpath-default-namespace</code> on
-                                the xsl:stylesheet:
+                            <li>Namespaced input: set <code>@xpath-default-namespace</code> on
+                                the xsl:stylesheet, e.g.,
                                     <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
                             </li>
                             <li>Namespaced output: set
@@ -852,29 +852,35 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             </li>
                         </ol>
                     </li>
-                    <li>More housekeeping: <code>xsl:output</code> attributes:
+                    <li>More housekeeping: <code>&lt;xsl:output&gt;</code> attributes:
                             <code>@method</code>, <code>@indent</code>,
                             <code>@omit-xml-declaration</code>, <code>@doctype-system</code>
                         <ol>
-                            <li><code>&lt;xsl:output method="xml" indent="no"
-                                    omit-xml-declaration="yes"/&gt;</code></li>
-                            <li><code>&lt;xsl:output method="xhtml" encoding="utf-8"
-                                    indent="yes" doctype-system="about:legacy-compat"
-                                    omit-xml-declaration="yes"/&gt;</code></li>
+                            <li><code>&lt;xsl:output method="xml"
+                                indent="no"/&gt;</code></li>
+                            <li><code>&lt;xsl:output method="xml" indent="yes"
+                                    doctype-system="about:legacy-compat"/&gt;</code></li>
                         </ol>
                     </li>
                     <li>A <em>declarative programming language</em>. Not written to be
-                        executed in a line-by-line order. Template elements (or <em>template
-                            rules</em>) do the work, but can be written in any order. </li>
-
+                        executed in a line-by-line order. Templates can be written in any
+                        order.</li>
                     <li>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
-                        The <code>@match</code> here is a special kind of XPath called an
-                            <em>XPath pattern</em>, which could be found anywhere in the
-                        document hierarchy. Note: It is inefficient for processing to write these
-                        pattern expressions as we would an XPath search in the XPath Toolbar.</li>
+                        The value of <code>@match</code> is an <em>XPath pattern</em>, which is
+                        not the same as an XPath <em>path expression</em>. <ol>
+                            <li>XPath patterns don’t <em>find</em> elements; they
+                                    <em>match</em> them. <code>&lt;xsl:template
+                                    match="p"&gt;</code> will match (and process) a
+                                    <code>&lt;p&gt;</code> element anywhere in the
+                                document.</li>
+                            <li>For that reason, it is a mistake to write
+                                    <code>&lt;xsl:template match="//p"&gt;</code>. (It will work,
+                                but don’t do it; it isn’t idiomatic.)</li>
+                        </ol></li>
                     <li>In each example below, look at the <code>@match</code> value: What should
-                        the XPath pattern be matching in the source XML document? And how is this
-                        XPath different from the way we write XPath in the XPath Toolbar? <ol>
+                        the XPath pattern be matching in the source XML document? How is this XPath
+                            <em>pattern</em> different from the way we write an XPath
+                            <em>expression</em> in the XPath Toolbar? <ol>
                             <li><code>&lt;xsl:template match="div/head&gt;"</code>
                                  <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;head&gt;</code> child of a
                                         <code>&lt;div&gt;</code> at any level of the XML hierarchy.
@@ -885,44 +891,36 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li><code>&lt;xsl:template match="div[count(descendant::p) gt
                                     1]&gt;"</code>
                                  <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;div&gt;</code> element that contains
-                                    multiple (more than one) <code>&lt;p&gt;</code> descendants. In
-                                    the XPath toolbar, we must add <code>//</code> to the
-                                    beginning.</span>
+                                    more than one <code>&lt;p&gt;</code> descendant. In the XPath
+                                    toolbar, we must add <code>//</code> to the beginning.</span>
                             </li>
                         </ol>
                     </li>
-                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
-                        selection of the next template rules to fire.
-                            <code>&lt;xsl:apply-templates&gt;</code>
-                        <em>consumes</em> the XML node matched in the template rule, and
-                        determines that its children or other nodes in a set XPath relationship to
-                        the template match will be processed. </li>
-                    <li><code>xsl:apply-templates</code> with or without an <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with a specific XPath expression that specifically
-                        identifies which XML elements in the source document will be processed next.
-                        Without <code>@select</code>, all element contents are consumed and
-                        processed by default.</li>
-                    <li>The XPath expression in <code>@select</code> is <em>literal</em> and
-                        defined by its relation to the node being matched by the template rule (in
-                        the <code>@match</code> on <code>xsl:template</code>. </li>
-                    <li><code>xsl:apply-templates</code> with or without <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with an XPath expression that specifically identifies
-                        which XML elements in the source document will be processed next. Without
-                            <code>@select</code>, all element contents are consumed and processed by
-                        default.</li>
-                    <li>The XPath expression in <code>@select</code> is <em>literal</em> and
-                        defined by its relation to the node being matched by the template rule (in
-                        the <code>@match</code> on <code>xsl:template</code>. </li>
-                    <li>Complete <q>Ozymandias</q> transformation: <ol>
+                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> specifies
+                        what to process, and where.</li>
+                    <li><code>&lt;xsl:apply-templates&gt;</code> may or may not have a
+                            <code>@select</code> attribute. <ol>
+                            <li><em>Without</em> a <code>@select</code> attribute, all
+                                child nodes of the current context (typically element nodes and text
+                                nodes) are processed.</li>
+                            <li><em>With</em> a <code>@select</code> attribute, only the
+                                nodes specified by the XPath expressions are processed. Those nodes
+                                do not have to be children of the current context.</li>
+                            <li>The XPath expression may be absolute (e.g.,
+                                    <code>&lt;xsl:apply-templates select="//p"/&gt;</code>;
+                                    <code>&lt;xsl:apply-templates
+                                    select="/TEI/teiHeader/titleStmt/title"/&gt;</code>) or relative
+                                to the current context (e.g., <code>&lt;xsl:apply-templates
+                                    select="p"/&gt;</code>).</li>
+                        </ol></li>
+                </ol></li><li>Group hands-on activity in &lt;oXygen/&gt; (20 minutes; 10:00 a.m.–10:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li><q>Ozymandias</q> transformation: <ol>
                             <li>XSLT:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</a></li>
                             <li>Output HTML:
                                     <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
                         </ol>
                     </li>
-
                 </ol></li><li>Break (10 minutes; 10:20 a.m.–10:30 a.m.) </li><li>Identity transformation for making changes to an XML file (50 minutes; 10:30 a.m.–11:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
 
                     <li>Change the structure and add line numbers to the <q>Ozymandias</q> XML
