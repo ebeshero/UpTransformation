@@ -640,8 +640,9 @@
                         </examples></item>
                     <item><code>ancestor::</code>, <code>ancestor-or-self::</code>,
                             <code>descendant-or-self::</code>, <code>namespace::</code><examples>
-                            <example><code>//speaker[. eq 'Queen.']/ancestor::div[@type eq
-                                    'act']/@n</code></example>
+                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
+                                    eq 'Queen.']/ancestor::tei:div[@type eq
+                                    'act']/@n/string()</code></example>
                         </examples></item>
                 </details>
             </act>
@@ -650,39 +651,51 @@
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
-                        following? <examples>
-                            <example> Use XPath to show the attributes on <code>div</code> elements.
-                                What are the attribute names, and how can you show their values in
-                                the return window?
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
-                            <example>Look at the element children of the <code>&lt;div&gt;</code>
-                                elements (you can do this without seeing what all the elements are).
-                                What attribute on these elements can be used to differentiate the
-                                various lists in the document? Complete this XPath by isolating
-                                these attribute values.
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
-                                    or
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer>
-                            </example>
-                            <example>Write an XPath expression that shows you the children of div
-                                elements (you don’t need to know their names). Now write an XPath
-                                expression that shows you only the grandchildren. <answer>Children:
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*</code>.
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out
+                        the following? <examples>
+                            <example> Use XPath to show the attributes on <code>&lt;div&gt;</code>
+                                elements. What are the attribute names, and how can you show their
+                                values in the return window? <answer>Retrieve the names with
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/@*/name()
+                                        => distinct-values()</code>. Once you know thaat the name is
+                                        <code>@type</code>, retrieve the values with
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
+                            <example>Write an XPath expression that shows you the children of
+                                    <code>&lt;div&gt;</code> elements without your specifying their
+                                names. Now write an XPath expression that shows you the
+                                grandchildren. <answer>Children:
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*</code>.
                                     Grandchildren:
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
-                                        or </code> or
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*</code>.</answer></example>
+                            <example>Write an XPath expression to report the name of the only
+                                attribute that can appear on child elements of
+                                    <code>&lt;div&gt;</code> elements without your knowing what the
+                                elements are. What values can that attribute have in the document?
+                                        <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@*/name()
+                                        => distinct-values()</code> tells you that only attribute
+                                    that can appear there is <code>@sortKey</code>. Get the
+                                    occurring values with
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@sortKey/string()</code>
+                                    or (without knowing the name of the attribute)
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@*/string()</code></answer>
+                            </example>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the
                                     First</emph> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes that begin with a hashtag, formatted like this:
+                                attributes that begin with a hash maark, formatted like this:
                                 "#CharlesI_MRMplay". Knowing this, can you locate all the individual
                                 entries in the site index lists that contain references of any kind
-                                to the play?
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>
-                                    How can you find out how many these are using a function?
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
+                                to the play? How many are there (use a function to do the counting)? <!-- 
+                                    TODO: The question doesn’t contain enough information to get to the answer, that is, to know
+                                    that @xml:id is involved, or the level we want to look at, or the type of element that we want 
+                                    to return. Can we simplify the task? It also seems like more of a bottom-up questions, i.e.:
+                                    
+                                        doc('https://digitalmitford.org/si.xml')//@*[. eq  "#CharlesI_MRMplay"]/ancestor::*[@xml:id]
+                                -->
+                                <answer>Find the elements with
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>.
+                                    Count them with
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
                                         => count()</code>
                                 </answer>
                             </example>
@@ -718,45 +731,49 @@ let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*
     /text()[matches(., '(^|\D)\d{4}($|\D)')]
 let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*
     /text()[matches(., '\d{4}')]
-return $b except $a (: returns items in $b that are not in $a: )</answer></example>
+return $b except $a (: returns items in $b that are not in $a :)</answer></example>
                         </examples></item>
                     <item><code>translate()</code> vs. <code>replace()</code>
                         <examples>
                             <example>Try this expression,
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>,
-                                and notice the pseudomarkup in the cast list.
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:roleDesc//tei:rdg/string()</code>,
+                                and notice the pseudomarkup (parentheses) in the cast list.
                                     <code>translate()</code> to the rescue!
-                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
+                                    <code>doc('/db/mitford/literary/Charles1.xml')//tei:roleDesc//tei:rdg/translate(.,
                                     '()', '')</code></example>
 
-                            <example>The next examples work with the <code>@xml:id</code>s on the
-                                    <code>tei:l</code> elements. How can you get a look at the
-                                    <code>@xml:id</code>s first?
+                            <example>The next examples work with the <code>@xml:id</code> attributes
+                                on the <code>&lt;l&gt;</code> elements. How can you get a look at
+                                the <code>@xml:id</code> values first?
                                         <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></answer></example>
-                            <example>Change the format of the line <code>@xml:id</code>s with
-                                    <code>replace()</code>:
+                            <example>Uh oh! We wanted to write <q>C1</q> instead of <q>Chas</q>. How
+                                does the following XPath expression fix the problem?
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id,
-                                    'Chas(_\w+_)', 'C1$1')</code></example>
+                                    '^Chas', 'C1')</code></example>
                         </examples>
                     </item>
                     <item><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code>
                         <examples>
-                            <example>Return only location (e.g. ded, pro, act) and line number
-                                information in the <code>@xml:id</code>s:
+                            <example>Return only location (e.g. <q>ded</q>, <q>pro</q>, <q>act</q>)
+                                and line number information of the <code>@xml:id</code> attributes:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
                                     'Chas_')</code>
                             </example>
-                            <example>Working with the expression we just wrote, how would you apply
+                            <example>Working with the expression we just wrote, how would you use
                                     <code>substring-before()</code> to return only the location
-                                (ded, pro, act), and trim off the line number information?
-                                    <answer>Two ways: old-fashioned:
+                                    (<q>ded</q>, <q>pro</q>, <q>act</q>), trimming off the line
+                                number information? <answer>The old-fashioned way uses nested
+                                    functions:
                                         <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
-                                        'Chas_'), '_')</code> and more legible with simple map
-                                    operator:
+                                        'Chas_'), '_')</code>. The more legible way uses the simple
+                                    map operator:
                                         <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
-                                        'Chas_') ! substring-before(.,'_')</code> Why can’t we use
-                                    the arrow operator (<code>=></code>) here?</answer>
+                                        'Chas_') ! substring-before(.,'_')</code>, or even
+                                        <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id
+                                        ! substring-after(., 'Chas_') !
+                                        substring-before(.,'_')</code>. Why can’t we use the arrow
+                                    operator (<code>=></code>) here?</answer>
                             </example>
                         </examples></item>
                 </details>
@@ -766,7 +783,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
                     <item>In eXist-db, keep the TEI namespace declaration line, and copy the
-                        following global variables: <examples>
+                        following global variables (the trailing semicolon is required): <examples>
                             <example>
                                 <code>declare variable $Chas as document-node() :=
                                     doc('/db/mitford/literary/Charles1.xml');</code>
@@ -775,9 +792,17 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                     $Chas/*;</code></example>
                             <example>Return the value of the variables by typing their names on the
                                 next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the
-                                difference in the data type declaration and in the results. The
-                                value after <code>as</code> could also be <code>xs:string</code> or
-                                    <code>xs:integer()</code>.</example>
+                                difference in the data type declaration and in the
+                                results.</example>
+                            <example>The value after <code>as</code> specifies the <emph>data
+                                    type</emph>. It is optional, but strongly recommended. <examples>
+                                    <example>Other common values include <code>xs:string</code> or
+                                            <code>xs:integer()</code>.</example>
+                                    <example>May also include <emph>repetition indicators</emph>,
+                                        e.g., <code>declare variable $ChasActs as element(tei:div)+
+                                            :=
+                                            doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div;</code>.</example>
+                                </examples></example>
                         </examples>
                     </item>
                 </details>
@@ -791,15 +816,12 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         followed by <code>return</code></item>
                     <item>Retrieve a sequence of whole elements: <examples>
                             <example>
-                                <code>let $places := $Chas//tei:placeName</code>
-                            </example>
-                            <example>
-                                <code>return $places</code>
+                                <code>let $places := $Chas//tei:placeName return $places</code>
                             </example>
                             <example>How would you return only their text contents?
-                                        <answer><code>$places/string()</code>, but notice the white
-                                    space issues. Repair these with <code>return
-                                        $places/normalize-space(string())</code></answer></example>
+                                        <answer><code>return $places/string()</code>, but notice the
+                                    white space issues. Repair these with <code>return
+                                        $places/normalize-space()</code></answer></example>
                         </examples>
                     </item>
                 </details>
@@ -808,7 +830,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
         <slot time="13:30:00">
             <title>XQuery flow control</title>
             <act time="PT30M">
-                <desc>Scavenger Hunt 2: in XQuery this time.</desc>
+                <desc>Scavenger hunt 2</desc>
                 <details>
                     <item> Work in eXist-db in the same file we started before the break and delete
                         only the <code>return</code> line. let’s keep adding to it. Use variables
@@ -816,36 +838,37 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example> Define a global variable pointing to the Digital Mitford site
                                 index document, posted in eXist at <code>/db/mitford/si.xml</code>
                                 or the official version at its external
-                                    location:<code>http://digitalmitford.org/si.xml</code>. Hint:
-                                Global variables need to be defined before <code>FLWOR</code>
-                                statements. <answer><code>declare variable $si as document-node() :=
+                                    location:<code>https://digitalmitford.org/si.xml</code>.
+                                        <answer><code>declare variable $si as document-node() :=
                                         doc('/db/mitford/si.xml');</code> or <code>declare variable
                                         $si as document-node() :=
-                                        doc('http://digitalmitford.org/si.xml');</code> The new
-                                    global variable must be added before the first <code>let</code>
-                                    statement.</answer>
+                                        doc('https://digitalmitford.org/si.xml');</code>
+                                    <code>declare</code> statements must appear at the beginning of
+                                    the XQuery script.</answer>
                             </example>
                             <example>Write a variable (either global or in <code>let</code> form)
-                                that locates all of the <code>place</code> elements in the site
-                                index document. Use the variable you just defined for the si.xml
-                                document in your expression. <answer><code>let $siPlaces :=
-                                        $si//tei:place</code> or as a global variable above the
-                                    first let statement and after the variable defining the si.xml
-                                    document: <code>declare variable $siPlaces :=
-                                        $si//tei:place;</code>. </answer></example>
+                                that locates all of the <code>&lt;place&gt;</code> elements in the
+                                site index document. Use the variable you just defined for the
+                                    <emph>si.xml</emph> document in your expression.
+                                        <answer><code>declare variable $siPlaces :=
+                                        $si//tei:place;</code> or <code>let $siPlaces :=
+                                        $si//tei:place</code>.</answer></example>
                             <example>For housekeeping purposes, rename the variable
-                                    <code>$places</code> (that we defined earlier to retrieve
-                                    <code>$Chas//tei:placeName</code>): Call it
+                                    <code>$places</code> (which we defined earlier to retrieve
+                                    <code>$Chas//tei:placeName</code>); call it
                                     <code>$Chasplaces</code>.</example>
-                            <example>Define a new variable to retrieve the values of the
-                                    <code>@ref</code> on those <code>$Chasplaces</code><answer>Don’t
-                                    forget the <code>string()</code> to return the attribute value:
-                                        <code>let $ChasPlaceRefs :=
-                                    $Chasplaces/@ref/string()</code></answer></example>
-                            <example>How would you rewrite the last XPath Scavenger Hunt solution as
-                                a <code>let</code> statement in this XQuery? (find references to
-                                "CharlesI_MRMplay" in the site index): <answer><code>let $siChasRefs
-                                        :=
+                            <example>Define a new variable to retrieve the <emph>values</emph> of
+                                the <code>@ref</code> attributes on those <code>$Chasplaces</code>
+                                <answer>Don’t forget the <code>string()</code> to return the
+                                    attribute value: <code>let $ChasPlaceRefs :=
+                                        $Chasplaces/@ref/string()</code></answer></example>
+                            <!--
+                                TODO: See the discussion of this path expression above.
+                            -->
+                            <example>How would you rewrite the last XPath Scavenger hunt solution
+                                (find references to "CharlesI_MRMplay" in the site index) as a
+                                    <code>let</code> statement in XQuery? <answer><code>let
+                                        $siChasRefs :=
                                         $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
                             </example>
                         </examples>
@@ -853,32 +876,37 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 </details>
             </act>
             <act time="PT20M">
-                <desc>Review XPath <code>for</code> loops; sequence and range variables
-                    (&lt;oXygen/&gt;)</desc>
+                <desc>Review XPath <code>for</code> loops; sequence and range variables (in
+                    &lt;oXygen/&gt;)</desc>
                 <details>
                     <item>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
                             ("Curly", "Larry", "Moe") return concat($i, " is a
                         Stooge!")</code></item>
-                    <item>Can we write it as a simple map (with !)? <answer><code>("Curly", "Larry",
-                                "Moe") ! concat(., " is a Stooge!")</code></answer>
+                    <item>Rewrite it as a simple map (with <code>!</code>). <answer><code>("Curly",
+                                "Larry", "Moe") ! concat(., " is a Stooge!")</code></answer>
                     </item>
                     <item>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
-                            <code>http://digitalmitford.org/si.xml</code> . Try finding out the
-                        following in the &lt;oXygen/&gt; XPath Builder: <examples>
-                            <example>Find each person we have listed as born in Scotland in the site
-                                index. Notice that sometimes place names are stored inside the
-                                    <code>&lt;birth&gt;</code> elements. <answer><code>for $i in
-                                        //person[contains(birth, "Scotland")] return $i</code>. You
-                                    should return 28 <code>&lt;person&gt;</code>
-                                entries.</answer></example>
-                            <example>Now, modify that example to return the <code>@xml:id</code>,
-                                (or anything else you want to find out about the person elements):
-                                    <answer>For the <code>@xml:id</code>: <code>for $i in
+                            <code>https://digitalmitford.org/si.xml</code>. In the &lt;oXygen/&gt;
+                        XPath Builder: <examples>
+                            <example>Enter <code>//person[@xml:id eq 'Hume_Jos']</code> to find the
+                                entry for Joseph Hume. Notice that the string <q>Scotland</q>
+                                appears inside his <code>&lt;birth&gt;</code> child element, which
+                                means that he was born in Scotland.</example>
+                            <example>Find all persons listed as born in Scotland in two ways: with a
+                                    <code>for</code> loop and as a simple, one-line XPath path
+                                expression. <answer><code>for $i in //person[contains(birth,
+                                        "Scotland")] return $i</code> or
+                                        <code>//person[contains(birth, "Scotland")]</code>. You
+                                    should return 30 <code>&lt;person&gt;</code>
+                                elements.</answer></example>
+                            <example>Now, modify that example to return the <code>@xml:id</code>
+                                values of the <code>&lt;person&gt;</code> elements. <answer>For the
+                                        <code>@xml:id</code>: <code>for $i in
                                         //person[contains(birth, "Scotland")] return
-                                        $i/@xml:id</code>. Notice, we don’t need the
-                                        <code>string()</code> function after the @xml:id in the
-                                    &lt;oXygen/&gt; XPath builder vew, though it isn’t wrong to use
-                                    it.</answer></example>
+                                        $i/@xml:id</code> or <code>//person[contains(birth,
+                                        "Scotland")]/@xml:id</code>. Why don’t we need to write
+                                        <code>string()</code> at the end of the path
+                                    expression?</answer></example>
                         </examples>
                     </item>
                 </details>
@@ -887,23 +915,24 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
                     1</desc>
                 <details>
-                    <item><code>for</code> in XQuery and iterative returns: <code>for $i in
-                            $YourSequenceVariable</code>. Look up the places coded in <emph>Charles
-                            the First</emph> for their entries in the Digital Mitford site index. <examples>
-                            <example>Get the distinct (unique) values of <code>@ref</code>
-                                attributes on <code>placeName</code> elements. <answer><code>let
-                                        $distChPRs :=
-                                    distinct-values($ChasPlaceRefs)</code></answer></example>
+                    <item>We’ll find the places mentioned in <emph>Charles the First</emph> and
+                            <emph>dereference</emph> them (look them up) in the Digital Mitford site
+                        index. <examples>
+                            <example>First find the distinct (unique) values of <code>@ref</code>
+                                attributes on <code>&lt;placeName&gt;</code> elements in the play
+                                and assign them to a variable. <answer><code>let $distChPRs :=
+                                        distinct-values($ChasPlaceRefs)</code></answer></example>
                             <example>Next, loop through each of these distinct values:
                                         <answer><code>for $i in $distChPRs</code></answer>
                             </example>
-                            <example>How will we find the site index entry that matches up with each
-                                member of our sequence of place references in <emph>Charles the
-                                    First</emph>? <answer>Each site index entry holds an
+                            <example>How will we find the site index entry that matches distinct
+                                place reference? <answer>Each site index entry holds an
                                         <code>@xml:id</code>, and each <code>placeName</code>
                                     element has a <code>@ref</code> attribute whose value is
                                     formatted with a leading <code>#</code> followed by the
-                                        <code>@xml:id</code> value.</answer></example>
+                                        <code>@xml:id</code> value. We can use these to match the
+                                    references in the play with the relevant information in the site
+                                    index.</answer></example>
                             <example>Write the variable that finds the site index entry whose
                                     <code>@xml:id</code> matches the value of the range variable in
                                 our <code>for</code> loop. <answer><code>let $siCPrs :=
@@ -915,7 +944,6 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             </act>
             <act time="PT10M">
                 <desc>Break</desc>
-
             </act>
             <act time="PT30M">
                 <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
@@ -965,7 +993,6 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example> Retrieving a full canonical place name: <answer><code>let
                                         $name := $siCPrs/tei:placeName[1]</code></answer>
                             </example>
-
                         </examples>
                     </item>
                 </details>
@@ -1300,9 +1327,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example>Two ways of counting spaces and hyphens<examples>
                                     <example><code
                                             url="https://www.w3.org/TR/xpath-functions-31/#func-translate"
-                                            >translate()</code><answer><code>string-length('one two
-                                                three') - string-length(translate('one two three', '
-                                                ', ''))</code></answer></example>
+                                            >translate()</code>
+                                        <answer><code>string-length('one two three') -
+                                                string-length(translate('one two three', ' ',
+                                                ''))</code></answer></example>
                                     <example><code
                                             url="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"
                                             >tokenize()</code>
@@ -1501,12 +1529,12 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             <act time="PT15M">
                 <desc>Exploring Digital Mitford</desc>
                 <details>
-                    <item>Project site: <link>http://digitalmitford.org</link></item>
+                    <item>Project site: <link>https://digitalmitford.org</link></item>
                     <item>Site index<examples>
                             <example>Workshop repo on GitHub:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</link></example>
                             <example>Mitford project site:
-                                    <link>http://digitalmitford.org/si.xml</link></example>
+                                    <link>https://digitalmitford.org/si.xml</link></example>
                             <example>Outline:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
@@ -1519,7 +1547,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example>XML:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></example>
                             <example>Read on line:
-                                    <link>http://digitalmitford.org/getLetterText.php?uri=1823-04-09-Hamilton.xml</link></example>
+                                    <link>https://digitalmitford.org/getLetterText.php?uri=1823-04-09-Hamilton.xml</link></example>
                         </examples></item>
                     <item>Schematron starter:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</link></item>
@@ -1539,7 +1567,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <example>XML:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
                             <example>Read on line:
-                                    <link>http://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
+                                    <link>https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
                         </examples></item>
                     <item>Schematron starter:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
