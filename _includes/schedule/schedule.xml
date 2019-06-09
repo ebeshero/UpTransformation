@@ -1145,7 +1145,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                 </details>
             </act>
             <act time="PT20M">
-                <desc>Group hands-on activity in &lt;oXygen/&gt;</desc>
+                <desc>Group walk-through activity in &lt;oXygen/&gt;</desc>
                 <details>
                     <item><q>Ozymandias</q> transformation <examples>
                             <example>XML:
@@ -1162,12 +1162,11 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                 <desc>Break</desc>
             </act>
             <act time="PT50M">
-                <desc>Identity transformation for making changes to an XML file</desc>
+                <desc>From identity transformation to revision</desc>
                 <details>
-
                     <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <examples>
-                            <example>Open the url of our simple identity transformation starter:
+                            <example>Open our simple identity transformation starter:
                                     <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
                             <example>Change the <code>&lt;line&gt;</code> elements to self-closing
                                     <code>&lt;lb&gt;</code> elements.</example>
