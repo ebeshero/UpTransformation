@@ -858,7 +858,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                     <code>declare</code> statements must appear at the beginning of
                                     the XQuery script.</answer>
                             </example>
-                            <example>Write a variable (in eitheer <code>declare</code> or
+                            <example>Write a variable (in either <code>declare</code> or
                                     <code>let</code> form) that locates all of the
                                     <code>&lt;place&gt;</code> elements in the site index document.
                                 Use the variable you just defined for the <emph>si.xml</emph>
@@ -874,12 +874,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                 <answer>Don’t forget the <code>string()</code> to return the
                                     attribute value: <code>let $ChasPlaceRefs :=
                                         $Chasplaces/@ref/string()</code></answer></example>
-                            <!--
-                                TODO: See the discussion of this path expression above.
-                            -->
-                            <example>How would you rewrite the last XPath Scavenger hunt solution
-                                (find references to "CharlesI_MRMplay" in the site index) as a
-                                    <code>let</code> statement in XQuery? <answer><code>let
+                            <example>Take a look at the last XPath Scavenger hunt challenge and solution from this morning. (This asked you to find references to "CharlesI_MRMplay" in the site index.) How woud you rewrite that solution as a <code>let</code> statement in XQuery? <answer><code>let
                                         $siChasRefs :=
                                         $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
                             </example>
