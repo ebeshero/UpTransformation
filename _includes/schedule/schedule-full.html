@@ -421,7 +421,8 @@
     </section><section>
         <h2>Tuesday, June 11: XPath and XQuery</h2>
         <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ol><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                    <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a>. 
+                        In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</li>
                     <li>Access a document with <code>doc()</code>
                         <ol>
@@ -525,13 +526,12 @@
                                     or (without knowing the name of the attribute)
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@*/string()</code></span>
                             </li>
+                            <li>What kinds of elements can be the parents of <code>@xml:id</code> attributes in this document? Write an XPath that isolates these elements.  <button class="answer">Answer</button> <span class="answer"><code>//@xml:id/parent::*</code> or <code>//*[@xml:id]</code>. These elements hold entries describing named entities, and the <code>@xml:id</code> contains a distinct identifier for each one.</span> </li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the
                                     First</em> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes that begin with a hash maark, formatted like this:
-                                "#CharlesI_MRMplay". Knowing this, can you locate all the individual
-                                entries in the site index lists that contain references of any kind
-                                to the play? How many are there (use a function to do the counting)? 
+                                attributes (such as <code>@ref</code> but there may be others) whose values begin with a hash mark, formatted like this:
+                                "#CharlesI_MRMplay". Sometimes other entries (such as for persons or fictional characters) make reference to the play in their note or other internal elements (to say, for example, that an actor or a character was involved in this play). How can we find those entries? How many are there? (Use a function to do the counting.) 
                                  <button class="answer">Answer</button> <span class="answer">Find the elements with
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>.
                                     Count them with
