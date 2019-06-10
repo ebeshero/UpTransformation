@@ -33,6 +33,9 @@
                                     >count()</code> are functions, but there is no
                                     <code>length()</code> or <code>len()</code> or
                                     <code>size()</code>)</example>
+                            <example>Programming paradigm (e.g., you cannot change the value of a
+                                variable in a <emph>declarative or functional programming
+                                    language</emph> like XQuery or XSLT)</example>
                         </examples></item>
                     <item>All XPath expressions return a <emph>sequence</emph>. Sequences may
                         contain <emph>nodes</emph> (elements, attributes, etc.), <emph>atomic
@@ -135,9 +138,9 @@
                 <details>
                     <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
-                            <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
+                            <code>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</code>,
                         and hit <q>OK</q>. (Backup copy at
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</code>.)
                         This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
                     <item>Set the dropdown in the upper left to <q>XPath 3.1</q>. (This widget is
                         called the <emph
@@ -443,7 +446,7 @@
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>XPath predicates</desc>
                 <details>
                     <item><emph>Predicates</emph>, in square brackets after a path step,
@@ -464,6 +467,31 @@
                             <example><code>//sp[speaker eq 'Ophelia']</code></example>
                             <example><code>//sp[contains(speaker, 'Rosencrantz')]</code></example>
                             <example><code>//lg[@type eq 'couplet']</code></example>
+                        </examples></item>
+                </details>
+            </act>
+            <act time="PT15M">
+                <desc>Comparison</desc>
+                <details>
+                    <item>Value comparison <examples>
+                            <example><code>eq</code>, <code>ne</code>, <code>lt</code>,
+                                    <code>le</code>, <code>gt</code>, <code>ge</code></example>
+                            <example><code>1 eq 1</code></example>
+                            <example><code>1 lt 1</code></example>
+                            <example><code>"Curly" gt "Larry"</code></example>
+                        </examples></item>
+                    <item>General comparison <examples>
+                            <example><code>=</code>, <code>!=</code>, <code>&lt;</code>,
+                                    <code>&lt;=</code>, <code>&gt;</code>,
+                                <code>&gt;=</code></example>
+                            <example><code>1 = 1</code></example>
+                            <example><code>1 eq 1</code></example>
+                            <example><code>1 = (1, 2, 3)</code></example>
+                            <example><code>1 != (1, 2, 3)</code></example>
+                            <example><code>not(1 = (1, 2, 3))</code></example>
+                            <example><code>(1, 2, 3) = (1, 4, 5)</code></example>
+                            <example><code>1 eq (1, 2, 3)</code></example>
+                            <example><code>"Moe" = ("Curly", "Larry", "Moe")</code></example>
                         </examples></item>
                 </details>
             </act>
@@ -502,7 +530,7 @@
                         </examples></item>-->
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
                     <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
@@ -549,7 +577,8 @@
                                 <code>//sp[string-length(normalize-space()) eq
                                 max(//sp/string-length(normalize-space()))]/speaker</code>).
                                 <code>//sp[not(string-length() &lt; //sp/string-length())]</code>
-                            also works; how?</answer></item>
+                            (with or without a <code>normalize-space()</code> operation) also works;
+                            how?</answer></item>
                 </details>
             </act>
         </slot>

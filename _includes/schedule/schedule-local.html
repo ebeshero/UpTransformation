@@ -28,6 +28,9 @@
                             <li>Function library (e.g., <code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a> and <code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> are functions, but there is no
                                     <code>length()</code> or <code>len()</code> or
                                     <code>size()</code>)</li>
+                            <li>Programming paradigm (e.g., you cannot change the value of a
+                                variable in a <em>declarative or functional programming
+                                    language</em> like XQuery or XSLT)</li>
                         </ol></li>
                     <li>All XPath expressions return a <em>sequence</em>. Sequences may
                         contain <em>nodes</em> (elements, attributes, etc.), <em>atomic
@@ -104,9 +107,9 @@
                 </ol></li><li>XPath in &lt;oXygen/&gt; (20 minutes; 10:55 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
-                            <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
+                            <code>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</code>,
                         and hit <q>OK</q>. (Backup copy at
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</a>.)
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</code>.)
                         This is a copy of <em>Hamlet</em> with TEI markup.</li>
                     <li>Set the dropdown in the upper left to <q>XPath 3.1</q>. (This widget is
                         called the <em>XPath Toolbar</em><a href="https://www.oxygenxml.com/doc/versions/20.0/ug-editor/topics/xpath-console.html"><sup>⬀</sup></a>.) Enter some XPath expressions (from above, such
@@ -346,7 +349,7 @@
                     <li>Resources and references:
                             <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
                     
-                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>XPath predicates (20 minutes; 2:50 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>XPath predicates (15 minutes; 2:50 p.m.–3:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>
@@ -366,7 +369,28 @@
                             <li><code>//sp[contains(speaker, 'Rosencrantz')]</code></li>
                             <li><code>//lg[@type eq 'couplet']</code></li>
                         </ol></li>
-                </ol></li><li>Odds and ends (15 minutes; 3:10 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Comparison (15 minutes; 3:05 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Value comparison <ol>
+                            <li><code>eq</code>, <code>ne</code>, <code>lt</code>,
+                                    <code>le</code>, <code>gt</code>, <code>ge</code></li>
+                            <li><code>1 eq 1</code></li>
+                            <li><code>1 lt 1</code></li>
+                            <li><code>"Curly" gt "Larry"</code></li>
+                        </ol></li>
+                    <li>General comparison <ol>
+                            <li><code>=</code>, <code>!=</code>, <code>&lt;</code>,
+                                    <code>&lt;=</code>, <code>&gt;</code>,
+                                <code>&gt;=</code></li>
+                            <li><code>1 = 1</code></li>
+                            <li><code>1 eq 1</code></li>
+                            <li><code>1 = (1, 2, 3)</code></li>
+                            <li><code>1 != (1, 2, 3)</code></li>
+                            <li><code>not(1 = (1, 2, 3))</code></li>
+                            <li><code>(1, 2, 3) = (1, 4, 5)</code></li>
+                            <li><code>1 eq (1, 2, 3)</code></li>
+                            <li><code>"Moe" = ("Curly", "Larry", "Moe")</code></li>
+                        </ol></li>
+                </ol></li><li>Odds and ends (15 minutes; 3:20 p.m.–3:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Three ways to apply a function to a sequence<ol>
                             <li>Explicit <code>for</code><ol>
                                     <li><code>for $speaker in /TEI//speaker return
@@ -385,7 +409,7 @@
                             <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
                         </ol></li>
                     
-                </ol></li><li>Read and evaluate XML projects with XPath (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Read and evaluate XML projects with XPath (25 minutes; 3:35 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
                                  <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
                         'Ophelia'])</code></span></li>
@@ -428,7 +452,8 @@
                                 <code>//sp[string-length(normalize-space()) eq
                                 max(//sp/string-length(normalize-space()))]/speaker</code>).
                                 <code>//sp[not(string-length() &lt; //sp/string-length())]</code>
-                            also works; how?</span></li>
+                            (with or without a <code>normalize-space()</code> operation) also works;
+                            how?</span></li>
                 </ol></li></ol></section>
     </section><section>
         <h2>Tuesday, June 11: XPath and XQuery</h2>
