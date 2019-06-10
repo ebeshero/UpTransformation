@@ -330,7 +330,7 @@
                         accepts or requires, and the number and type of items it returns</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
                     <li><em>Cardinality error</em>:
-                        <code>string-length(/TEI/speaker)</code></li>
+                        <code>string-length(/TEI//speaker)</code></li>
                     <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?</li>
                     <li>The error message is your friend. Read it.</li>
@@ -415,7 +415,7 @@
                         those speeches?
                              <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
                     <li>Building on your answer to the last two questions, what kinds of elements
-                        they contain instead?
+                        do they contain instead?
                                  <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
                     <li>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
                                  <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
