@@ -1000,7 +1000,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                             <example>Set the <code>$pos</code> variable in the <code>for</code>
                                 statement: <code>for $i at $pos in $YourSequenceVariable</code>, but
                                 caution: <code>order by</code> happens <emph>after</emph>
-                                <code>$pos</code> is set. So if we want sorted, numbered output?
+                                <code>$pos</code> is set. How do we ask for sorted, numbered output?
                                     <answer>Use the <code>sort()</code> function before the
                                         <code>for</code> loop begins. Try a return like <code>return
                                         concat($pos, '. ',
