@@ -506,9 +506,9 @@
                             </li>
                         </ol></li>
                     <li><code>self::</code><ol>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></li>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
+                        <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2]</code></li>
+                        <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
+                        <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
                                     eq 'Queen.']</code></li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
