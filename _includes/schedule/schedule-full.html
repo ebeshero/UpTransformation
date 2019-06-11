@@ -501,8 +501,8 @@
                 </ol></li><li>Neglected XPath axes (25 minutes; 9:40 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>preceding::</code>, <code>following::</code><ol>
                             <li>Find all the stage directions (<code>&lt;stage&gt;</code>) that
-                                precede Act 2, Scene 2 in <em>Charles the First</em>
-                                 <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></span>
+                                precede Act 2, Scene 2 in <em>Charles the First</em>. (First, take a look at the TEI body element and see how acts and scenes are coded. Write an XPath to take you to the second act and the second scene. Then in your next path step, switch to the <code>preceding::</code> axis to look for the stage directions. 
+                                 <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/preceding::tei:stage</code></span>
                             </li>
                         </ol></li>
                     <li><code>self::</code><ol>
