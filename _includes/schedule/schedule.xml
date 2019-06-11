@@ -655,8 +655,8 @@
                 <details>
                     <item><code>preceding::</code>, <code>following::</code><examples>
                             <example>Find all the stage directions (<code>&lt;stage&gt;</code>) that
-                                precede Act 2, Scene 2 in <emph>Charles the First</emph>
-                                <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></answer>
+                                precede Act 2, Scene 2 in <emph>Charles the First</emph>. (First, take a look at the TEI body element and see how acts and scenes are coded. Write an XPath to take you to the second act and the second scene. Then in your next path step, switch to the <code>preceding::</code> axis to look for the stage directions. 
+                                <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/preceding::tei:stage</code></answer>
                             </example>
                         </examples></item>
                     <item><code>self::</code><examples>
