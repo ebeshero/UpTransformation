@@ -746,7 +746,7 @@
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
                                     'unrighteousness')]</code></example>
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
-                                    '[a-z]{15,}','i')]</code></example>
+                                '[a-z]{15,}','i')]</code> (Read about <code url="https://www.w3.org/TR/xpath-functions-31/#flags">flags</code>.) </example>
                             <example>
                                 <code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
                                     '\d{4}')]</code>
