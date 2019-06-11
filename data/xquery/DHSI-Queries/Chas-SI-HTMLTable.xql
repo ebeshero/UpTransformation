@@ -1,7 +1,7 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare variable $Chas as document-node() := doc('/db/mitford/literary/Charles1.xml');
 declare variable $ChasPlay as element() := $Chas/*;
-declare variable $si as document-node() := doc('http://digitalmitford.org/si.xml');
+declare variable $si as document-node() := doc('https://digitalmitford.org/si.xml');
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head><title>French Places in Charles the First</title>
         <style type="text/css">

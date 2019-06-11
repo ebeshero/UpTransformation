@@ -1,7 +1,7 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare variable $Chas as document-node() := doc('/db/mitford/literary/Charles1.xml');
 declare variable $ChasPlay as element() := $Chas/*;
-declare variable $si as document-node() := doc('http://digitalmitford.org/si.xml');
+declare variable $si as document-node() := doc('https://digitalmitford.org/si.xml');
 let $Chasplaces := $Chas//tei:placeName
 let $siPlaces := $si//tei:place
 let $ChasPlaceRefs := $Chasplaces/@ref/string()
