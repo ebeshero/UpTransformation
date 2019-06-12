@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:03 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0806::David Baddley independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv25756" url="http://archiveswest.orbiscascade.org/ark:/80444/xv25756">UUM_A0806</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the David Baddley independent film collection
+          <date era="ce" calendar="gregorian" normal="1980/1989" encodinganalog="date">1980s</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Baddley (David) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0806</unitid>
+      <unittitle encodinganalog="title">David Baddley independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1980/1989" encodinganalog="date">1980s</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Baddley, David</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 16mm film and 1 Mini-DV videocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The David Baddley independent film collection (1980s) consists of two experimental films Baddley made while studying at the University of Utah.  David Baddley is a Salt Lake City based artist; he teaches at Westminster College.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>David Baddley holds Bachelor of Fine Arts and Master of Fine Arts degrees from the University of Utah.  His art focuses on action based land art and photography, but he has also worked with film, video, concept work and performance. Baddley has exhibited work in galleries worldwide, and his art and writings have appeared in publications including <title render="italic">ArtWeek</title>, <title render="italic">Leica View</title> and <title render="italic">LensWork</title>.  A book of his photographs, <title render="italic">Peace</title>, was recently published by the Center for Documentary Arts.  David Baddley is an associate professor of art at Westminster College in Salt Lake City, Utah.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The David Baddley independent film collection (1980s) consists of two experimental films Baddley made while studying at the University of Utah.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format type.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Performing Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">2 films by David Baddley</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1980s</unitdate>
+          <physdesc>
+            <genreform>Mini-DV videocassette</genreform>
+            <physfacet>
+              Black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1. "Grass Bolex Plus-X Guitar," an experimental film composed of motion-blurred shots of grass with an electric guitar soundtrack.  Originally shot on 16mm film.</p>
+          <p>2. "Relay," an experimental short about a person running.  The film was shot from the point of view of the runner and was edited in-camera.  Originally shot on Super 8mm film.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">2</container>
+          <unittitle encodinganalog="title">"Grass Bolex Plus-X Guitar"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1980s</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>An experimental film composed of motion-blurred shots of grass with an electric guitar soundtrack.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

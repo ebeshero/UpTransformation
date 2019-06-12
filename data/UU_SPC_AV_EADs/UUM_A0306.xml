@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:31 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0306::O.C. Tanner Company video collection)//EN" encodinganalog="identifier" identifier="80444/xv76196" url="http://archiveswest.orbiscascade.org/ark:/80444/xv76196">UUM_A0306</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the O.C. Tanner Company video collection
+          <date era="ce" calendar="gregorian" normal="1988/1993" encodinganalog="date">1988-1993</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">O.C. Tanner Company video collection</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2008" encodinganalog="date">© 2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0306</unitid>
+      <unittitle encodinganalog="title">O.C. Tanner Company video collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1988/1993" encodinganalog="date">1988-1993</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">O.C. Tanner Company</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">3 VHS videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The O.C. Tanner Company video collection (1988-1993) consists of video tributes to Utah businessman and philanthropist Obert C. Tanner (1904-1993) and his O.C. Tanner Company, which specializes in employee recognition awards and operates as a retail jeweler in downtown Salt Lake City and Park City, Utah.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Obert Clark Tanner (1904-1993) was born September 20 in Farmington, Utah.  His mother, Annie Clark Tanner, was a wife of polygamist Joseph M. Tanner.  After serving a Church of Jesus Christ of Latter Day Saints (LDS) mission in Germany, O.C. Tanner attended the University of Utah and eventually earned B.A., L.L.B. and J.D. degrees from that institution, in addition to an M.A. from Stanford University and many honorary degrees from other Utah schools.  He married Grace Adams of Parowan, Utah on 5 August 1931.</p>
+      <p>In 1927, while still an undergraduate at the University of Utah, Tanner founded an business in the basement of his mother's home and began selling commemorative class rings and pins to graduates throughout Northern Utah and eventually manufactured his own products.  In the 1940s, Tanner's business expanded to include employee recognition awards for corporations, and, in 1976, O.C. Tanner opened a retail jewelry store in downtown Salt Lake City.  Ever successful, the O.C. Tanner Company provided medals for the 2002 Olympic Winter Games in Salt Lake City, Utah, as well as commemorative rings for athletes in the 2004 Athens and 2006 Torino Games.</p>
+      <p>As a philanthropist, Obert C. Tanner donated his time and money to myriad organizations for the arts and higher education.  An instructor of Religious Studies at Stanford University from 1939-1944, Tanner also authored numerous books including <emph render="italic">The New Testament Speaks</emph>, <emph render="italic">Christ's Ideals for Living</emph> and an autobiography, <emph render="italic">One Man's Journey: In Search of Freedom</emph>.  O.C. Tanner died 14 October 1993.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The O.C. Tanner Company video collection (1988-1993) consists of video tributes to Utah businessman and philanthropist Obert C. Tanner and his O.C. Tanner Company.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>This collection is arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Tanner, Obert C. (Obert Clark), 1904-</persname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--Business &amp; Economic Development</geogname>
+      <subject altrender="nodisplay" source="archiveswest">Retail Trade</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">1987: A Year to Remember</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988</unitdate>
+          <physdesc>
+            <genreform>VHS Videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) "Celebrating 60 Years": A look at the history and people of the O.C. Tanner Company on the occasion of its sixtieth anniversary.</p>
+          <p>2) "September 17, 1987": A celebration of the Bicentennial of the U.S. Constitution.</p>
+          <p>3) "An Evening of Music": The Utah Symphony, Utah Opera Company, and the Mormon Tabernacle Choir honor Obert C. Tanner and his company.</p>
+          <p>4) "O.C. Tanner: An Uncommon Man": A film biography of the O.C. Tanner Company founder and chairman.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Obert Tanner: An Uncommon Man</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988</unitdate>
+          <physdesc>
+            <genreform>VHS Videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A separate copy of a biography of Obert C. Tanner, founder of the O.C. Tanner Company.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Obert C. Tanner In Memoriam 1904-1993</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 October 18</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 October 20</unitdate>
+          <physdesc>
+            <genreform>VHS Videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) Memorial Service for Obert C. Tanner, Abravanel Hall.</p>
+          <p>2) Tribute to Obert C. Tanner as presented at a special company meeting.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

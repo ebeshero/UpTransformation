@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:29 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0024::David Pierpont Gardner audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv97335" url="http://archiveswest.orbiscascade.org/ark:/80444/xv97335">UUM_A0024</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the David Pierpont Gardner audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1973/1983" encodinganalog="date">1973-1983</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Gardner (David Pierpont) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1998" encodinganalog="date">© 1998</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Greg Midgley
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0024</unitid>
+      <unittitle encodinganalog="title">David Pierpont Gardner audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1973/1983" encodinganalog="date">1973-1983</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Gardner, David Pierpont,1933-</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">5 U-matic videocassettes, 1 VHS videocassette, 2 audiocassettes, 2 reel-to-reel audiotapes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The David Pierpont Gardner audio-visual collection (1973-1983) consists of instructional videos hosted by Gardner detailing research and academic life at the University of Utah.  The collection also contains audio recordings, including tapes of Gardner's inauguration as University of Utah president, a position he held from 1973-1982.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <p>David Pierpont Gardner (b. 1933) received his Bachelor of Science from Brigham Young University (BYU) in 1955, his M.A. from the University of California at Berkeley in 1959, and his Ph.D. from the University of Utah in 1966. He is a Fellow of the American Academy of Arts and Sciences, member of the National Academy of Education, and a member of the American Philosophical Society. Following his tenure as President at the University of Utah from 1973-1982, he became President of the University of California from 1983-1992. From 1993 to 1999, he was the president of the William and Flora Hewlett Foundation. More recently, he served as the chairman of the Board of Trustees of the J. Paul Getty Trust from 2000 to 2004. Now in his retirement, he remains an active supporter of education.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The David Pierpont Gardner audio-visual collection (1973-1983) consists of instructional videos hosted by Gardner detailing research and academic life at the University of Utah.  The collection also contains audio recordings, including tapes of Gardner's inauguration as University of Utah president.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The collection is arranged by material format and by subject.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the David Pierpont Gardner papers (Accn 2006) and the David Pierpont Gardner presidential records (Acc0387).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Tawnya Mosier in 1998.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject source="lcsh">Education--United States--Sources</subject>
+      <subject altrender="nodisplay" source="archiveswest">Colleges and Universities</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">moving images</genreform>
+      <genreform encodinganalog="type" source="aat">sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">What Is a University?</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Originally aired on KUED.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">What Is University Teaching? (part one)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Locally produced television program dealing with the questions of: What are the purposes, methods and results of University teaching?  Who decides what good or poor teaching is? Can students be protected from poor teaching?  How? How are improvements achieved?  What is the ultimate value of a teacher's work?  President David P. Gardner discusses these issues with faculty and students.  Originally aired on KUED.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">What Is University Teaching? (part two)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In the second program of the series, President Gardner discusses university teaching with Dr. Arvo Van Alstyne, Dr. Dale Dick and Dr. Jack Adamson of the U. of U. faculty.  Areas of discussion include: What is good teaching? What responsibilities does teaching carry, and how can a teacher serve his or her students?  Originally aired on KUED.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">What Is University Research?</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975 November</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Locally produced television program.  Originally aired on KUED.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Dr. David Gardner Speaks About Civic Dialog</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Locally produced television program.  Originally aired on KUED.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Technological Transfer and Universities</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 February 11</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>6th Herbert Spencer Lecture Series on Technology and Society delivered by University of Pennsylvania president emeritus Professor Martin Meyerson.</p>
+          <p>Alumni Hall, Towne Building, University of Pennsylvania, 3:30PM</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">G. Holton Phone-in comments on NCEE</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 April 8</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">The Declaration of Independence</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 April 20</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Soloist: James Javore</p>
+          <p>Performed at D.A.R. Constitution Hall, Washington D.C.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">9</container>
+          <unittitle encodinganalog="title">President David Pierpont Gardner inauguration (part one)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 November 19</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">10</container>
+          <unittitle encodinganalog="title">President David Pierpont Gardner inauguration (part two)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 November 19</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:01 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0773::Steven Pecchia-Bekkum independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv62652" url="http://archiveswest.orbiscascade.org/ark:/80444/xv62652">UUM_A0773</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Steven Pecchia-Bekkum independent film collection
+          <date era="ce" calendar="gregorian" normal="2003" encodinganalog="date">2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Pecchia-Bekkum (Steven) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0773</unitid>
+      <unittitle encodinganalog="title">Steven Pecchia-Bekkum independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="2003" encodinganalog="date">2003</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Pecchia-Bekkum, Steven</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Steven Pecchia-Bekkum independent film collection (2003) consists of a documentary about John Fillwalk, a video installation artist who teaches at Ball State University in Indiana.  The film is shot in Southern Utah and Northern Arizona.  Pecchia-Bekkum is a Salt Lake City filmmaker and adjunct assistant professor who teaches film production and traditional animation at the University of Utah.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Steven Pecchia-Bekkum has worked in film and video education since 1991 when he received Associate of Science degrees in filmmaking and video production from Minneapolis Community and Technical College.  He graduated from Metropolitan State University in St. Paul, Minnesota in 1997 with a Bachelor of Arts degree in liberal arts with an emphasis in translating literary works into film.  In 2002 he earned his Master of Fine Arts degree in film from the University of Utah.  In addition to his years teaching production, animation and screenwriting classes at the University of Utah, Pecchia-Bekkum has taught film studies at Weber State University and mentored young filmmakers at Salt Lake City's Spy Hop productions.  In 2011 he began designing the Film Department's new "Sound for Film and Video" course based on years of experience in production and post-production sound.</p>
+      <p>Steven Pecchia-Bekkum has written and directed several films, most notably <title render="italic">Walking in the Valley of the Gods</title> (2003), which was an official selection of the Anchorage International Film Festival, the Hollywood DV Film Festival, the Edgeworks Film Festival and the Utah Short Film &amp; Video Festival.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Steven Pecchia-Bekkum independent film collection (2003) consists of a documentary about John Fillwalk, a video installation artist who teaches at Ball State University in Indiana.  The film is shot in Southern Utah and Northern Arizona.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Walking in the Valley of the Gods</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Steven Pecchia-Bekkum describes his documentary as, "An exploration of Zen and the art of video tourism.  John Fillwalk, renowned for his video installation work, discusses his approach to his work against the breathtaking backdrop of Monument Valley and surrounding regions.  Armed with a high definition video camera and four wheel drive jeep, he searches for the perfect locations for his latest experimental creation."  20:00.</p>
+          <p>Featuring John, Eva and Lily Fillwalk</p>
+          <p>Directing, Videography and Editing by Steven Pecchia-Bekkum</p>
+          <p>Production Assistance by Jill Pecchia-Bekkum</p>
+          <p>Original Music by the Buck Naked Beavers</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

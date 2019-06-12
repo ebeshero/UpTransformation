@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0870::Willard and Betty Wilkinson home movies)//EN" encodinganalog="identifier" identifier="80444/xv86993" url="http://archiveswest.orbiscascade.org/ark:/80444/xv86993">UUM_A0870</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Willard and Betty Wilkinson home movies.
+				<date era="ce" calendar="gregorian" normal="1969/1983" encodinganalog="date">1969-1983</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Wilkinson (Willard and Betty) home movies</titleproper>
+        <author encodinganalog="creator">Finding aid created by Michael Hinderaker</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2013" encodinganalog="date">© 2013</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Michael Hinderaker
+			<date era="ce" calendar="gregorian" normal="2013">2013</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0870</unitid>
+      <origination>
+        <famname source="local" rules="dacs" encodinganalog="creator" role="creator">
+          Wilkinson family
+        </famname>
+      </origination>
+      <unittitle encodinganalog="title">Willard and Betty Wilkinson home movies</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1969/1983" encodinganalog="date">1969-1983</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">28 Super 8 films</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Willard and Betty Wilkinson home movies (1969-1983) consits of family films taken by the Wilkinson family, largely in Utah and the Intermountain West.  The movies contain many shots of national parks, camping, and hiking as well as family milestones and holidays.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>Released in 1965, Super 8mm film featured smaller sprocketholes than standard 8mm film, leaving more room on the 8mm film strip for the exposed image.  The advent of Super 8 provided families and amateur film makers with a higher image quality than standard 8mm without saddling them with the size and cost of 16mm film.  The Wilkinson family began documenting their activities in 1969, four years after the new format became available.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Willard and Betty Wilkinson home movies (1969-1983) consits of family films taken by the Wilkinson family, largely in Utah and the Intermountain West.  The movies contain many shots of national parks, camping, and hiking as well as family milestones and holidays.  All films have been digitized and are available to view on DVD.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arranged in chronological order.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Willard and Betty Wilkinson home movies must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                WIllard and Betty Wilkinson home movies A0870,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0870.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Willard and Betty Wilkinson in 2005.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Michael Hinderaker in 2013.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <subject encodinganalog="subject" source="lcsh">Home movies</subject>
+      <subject encodinganalog="subject" source="lcsh">National parks and reserves--United States</subject>
+      <subject altrender="nodisplay" source="archiveswest">Home and Family</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">Disc 1</unittitle>
+          <unitdate>1969</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>"Salt Lake Area Soap Box Derby", kids racing in soap box cars down a slight hill.</item>
+              <item>Footage shot of a television also showing something related to soap-box derby.</item>
+              <item>Young boy in front of a house.</item>
+              <item>Shots inside and outside Cottonwood Mall.  Many shots inside of a hobby shop selling little trains and cars.</item>
+              <item>Same young boy in a house with a ribbon that says "??? Award third place 1969".</item>
+              <item>A few more shots of children and adults dancing.</item>
+              <item>Two men fishing in a small river.</item>
+              <item>Dad's birthday 1969, shots of family, cake, opening presents, family eating together.</item>
+              <item>Children dressing up at Halloween, showing off costumes.  Little girl does magic tricks.</item>
+              <item>Children sit on Santa's lap, shots of Christmas tree.</item>
+              <item>Shots outside at night of Temple Square, followed by shots of pictures of Jesus.</item>
+              <item>Shots of Round Mountain, Castle Rock, the Colorado River near Moab, Canyonlands, Looking Glass rock, Wilson arch, sheep and goats, Hovenweep castle, Square tower canyon, Hovenweep house, Cliff dwelling, Rimrock house, Natural bridges national monument, Wedding cake, Bullfrog basin (Lake Powell), Cassidy arch, Egyptian temple, Capitol arch.</item>
+              <item>Children running on sand dunes.</item>
+              <item>Hogle zoo, many shots of various animals.</item>
+              <item>Kids playing with dog while camping (Huntington campground).</item>
+              <item>Family at an amusement park.</item>
+              <item>Various shots of the Heber Creeper, both inside and from the outside.</item>
+              <item>Trees have fallen, some on cars.</item>
+              <item>Family at Yellowstone, lots of geysers of various sizes.</item>
+              <item>Shots of Buffalo, Beryl spring.</item>
+              <item>Bear by the road, squirrels nibbling on crumbs.</item>
+              <item>Sheep Eater cliffs, shots of wildlife in same location.</item>
+              <item>Statues of dinosaurs, identified as "Dinosaur Safari".</item>
+              <item>Graves of four men who were hanged in the 1860s.</item>
+              <item>Nevada city, family on a pedal boat.</item>
+              <item>Rooster and dog playfully fighting.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">2</container>
+          <unittitle encodinganalog="title">Disc 2</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>Some kind of nativity scene being acted out with children.</item>
+              <item>Children riding bikes outside as well as using other toys which are presumably Christmas gifts.</item>
+              <item>Family eating dinner and cake while sitting on couch.</item>
+              <item>Family piling into cars, going to flowers and wreaths in a field, looks like a memorial of some kind.</item>
+              <item>Children looking for Easter eggs in a yard.</item>
+              <item>Cake that says "Happy Birthday to Shauna and Mom", whole family once again pictured.</item>
+              <item>Family outside in canyon in the fall, leaves are turning red.</item>
+              <item>Family at Stables Ski Resort.</item>
+              <item>Children appear to be having an Easter egg hunt, they're looking for something in the grass.</item>
+              <item>Christmas.  Kids are singing, stockings on the wall, kids in costumes, Christmas tree and decorations.</item>
+              <item>Boat on a lake, ten fish in the boat that appear to have just been caught.</item>
+              <item>Family in Girl Scouts, three girls.</item>
+              <item>Tram on the Snowbird ski hill, skiers and lifts shot from far away.  Many shots of mountains, parking lot, Alta lodge, Big Cottonwood Canyon.</item>
+              <item>People using inner tubes on the snow right next to a busy road.  Sometimes they come very close to sliding into the road.</item>
+              <item>More shots of the mountain and parking lots.</item>
+              <item>Lyle's birthday.</item>
+              <item>At the zoo watching animals appears to be San Diego zoo.  Shots of the tram at the zoo.</item>
+              <item>Shots of Sea World, show involving seals, penguins, a manatee, water fountains.  Also includes shots of a separate show with Shamu.</item>
+              <item>Shots of the ocean and the visitor center at the Cabrillo National Monument.</item>
+              <item>Shots of billboards and signs in Spanish while still in San Diego, Squibob Square shops.</item>
+              <item>Cruise ships, city skyline, people playing in the ocean.</item>
+              <item>Shots of Disneyland.</item>
+              <item>Brigham Young winter home.</item>
+              <item>People standing outside by some art and old cars.</item>
+              <item>People board a plane.</item>
+              <item>Birthday party for a young girl.</item>
+              <item>Family camping outside in the fall.</item>
+              <item>Many children in a swimming pool, quick shots of many different people, hard to see exactly what the shots are of.</item>
+              <item>Two dogs playing with each other.</item>
+              <item>Many skiers on a hill.</item>
+              <item>Family inside by snowman poster, children appear to be singing.</item>
+              <item>Children playing drums.</item>
+              <item>Snow outside, family in house around a Christmas tree.</item>
+              <item>Video of a parade on TV.</item>
+              <item>Kern county juvenile hall, shot of parking lot.</item>
+              <item>Las Vegas.  Shots of hotels, Circus Circus, Riviera, statues and casinos.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">3</container>
+          <unittitle encodinganalog="title">Disc 3</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>Family in Leadore city park, Idaho, with a trailer.</item>
+              <item>Moses Lake state park.</item>
+              <item>Gingko petrified forest museum.</item>
+              <item>Denny Creek campground.</item>
+              <item>Space needle in Seattle, amusement park, shots of city from an elevated point.</item>
+              <item>Orcas motel.</item>
+              <item>Shots form a large boat on a lake or other body of water.</item>
+              <item>Now in Victoria, BC at Butchart Gardens.  Live music is being played.</item>
+              <item>Goldstream provincial park campground.</item>
+              <item>Undersea gardens, seal.</item>
+              <item>World's tallest totem pole.</item>
+              <item>Bayshore Inn, then back to the U.S. Lake Aldwell, Olympic national park, Destruction Island.</item>
+              <item>Shots of waves crashing against the shore.  Cook's chasm in Oregon.</item>
+              <item>Prairie Creek campground – avenue of the giants, the immortal tree.</item>
+              <item>Kids in front of giant treehouse.</item>
+              <item>Shots of family, house, cars, talking.</item>
+              <item>Bonneville Salt Flats</item>
+              <item>Baby crawling then being helped to walk.</item>
+              <item>Family sitting in front of house, children playing on swingset, dog running around in the yard.</item>
+              <item>Children sitting around mother and father holding infant.</item>
+              <item>Grandmother with same infant.</item>
+              <item>Shots from a car driving toward mountains, people get out of car.</item>
+              <item>Birthday party, a small child walking through grass.</item>
+              <item>Girls helping family to cook, and then helping to set the table.</item>
+              <item>Christmas tree with gifts under it.</item>
+              <item>Kids in costumes in front of a barn poster singing.</item>
+              <item>Small white kitten hopping around.</item>
+              <item>Devil's Orchard hiking trail, many short shots of family, trees, flowers, etc.</item>
+              <item>Inferno cone view point, craters of the moon wilderness, Indian tunnel, totem poles.</item>
+              <item>Moose in a river, shots of a forest and mountains.</item>
+              <item>Haystack creek, waterfall/stream down side of mountain.</item>
+              <item>Continental divide Logan Pass, trail to Hidden Lake Overlook, Glacier Campground.</item>
+              <item>Dam of some sort, Hungry horse reservoir recreation area, Glacier national park, Museum of the plains Indian and crafts center.</item>
+              <item>Missouri river, headwaters state monument.</item>
+              <item>Targhee national forest campground.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">4</container>
+          <unittitle encodinganalog="title">Disc 4</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>Potluck or similar gathering outside, many people sitting in the grass talking and eating.</item>
+              <item>Play or musical of some sort.</item>
+              <item>Uinta national forest visitor center.</item>
+              <item>Shots of family, plants, bees, and fishing in a lake or river.  The shots are rather close so it's very hard to tell.</item>
+              <item>Small boy playing with a pipe, then sleeping.</item>
+              <item>Cake celebrating a marriage anniversary.</item>
+              <item>Woman putting on pants under a dress.</item>
+              <item>Christmas gifts being opened, decorations on table and a boy and a girl playing.</item>
+              <item>Family standing in front of garage, one of the girls is turning 13.</item>
+              <item>Family is at a ski hill.</item>
+              <item>Bumper sticker on car "When guns are outlawed, only outlaws will have guns."</item>
+              <item>A girl in a long dress stands in the dirt.</item>
+              <item>Mostly shots of family inside, same girl in a different long dress, this one with flowers pinned to it (like a corsage?).</item>
+              <item>Family playing volleyball outside.</item>
+              <item>Eating next to trailer while camping.</item>
+              <item>Cascade springs – camping (or hiking?) girl playing with dog in river.</item>
+              <item>Boy mowing lawn.</item>
+              <item>Shots of mountains, view from the top of one of them, no indication as to where they are.</item>
+              <item>Family camping, grilling meat over a fire.</item>
+              <item>Family at an amusement park, then shots out of a tram that goes over the park.</item>
+              <item>Car pulled over to side of the road, man changing a flat tire.</item>
+              <item>Girl's 15th birthday.</item>
+              <item>Shots of a sailboat on a lake.</item>
+              <item>Southern Utah rock formations, Park Avenue trail, La Sal mountains viewpoint, Courthouse Towers, Entrada sandstone, Petrified Dunes viewpoint, Garden of Eden viewpoint, North window, Turret arch, South window, Parade of elephants arch.</item>
+              <item>Tag-a-Long tours, river rafting shots from the river looking into the canyon.</item>
+              <item>Very shaky shots while going through more rapid sections of the river.</item>
+              <item>Hole in the rock, Canyonlands national park, Elephant Hill jeep trail, Devil's Kitchen campground, shots of jeeps over rocks and through canyons.</item>
+              <item>Shot from confluence overlook.</item>
+              <item>Upper fiery furnace, skyline arch, shots of trees, plants, cactus, etc.</item>
+              <item>Family walking along street.</item>
+              <item>County village inn</item>
+              <item>Family at a wedding, wedding car driving away.</item>
+              <item>79th and 41st birthday party.</item>
+              <item>Westwater ranger station – tag-a-long tours once again on river.</item>
+              <item>Shots of river and canyon.</item>
+              <item>Shots of license plates</item>
+              <item>Spruce tree house, Cliff Palace balcony house.</item>
+              <item>More license plates.</item>
+              <item>House of many window, Pithouse ruins, Square tower house mostly shot from a point well above the level of the ruins.</item>
+              <item>Oak tree house, Fire temple, Sun temple, Cliff palace view, far view house.</item>
+              <item>Family on a picnic.</item>
+              <item>
+              </item>
+              <item>
+              </item>
+              <item>
+              </item>
+              <item>
+              </item>
+              <item>
+              </item>
+              <item>
+              </item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">5</container>
+          <unittitle encodinganalog="title">Disc 5</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>Woman dancing in a costume, followed by a (different?) woman dancing in a similarly revealing costume.</item>
+              <item>Two boys playing in back yard, boys with family, then on swingset.  Shots of family and garden, football, grill.</item>
+              <item>Young boy playing with cat.</item>
+              <item>Family playing games at park.</item>
+              <item>Children singing.</item>
+              <item>Family at a funeral.</item>
+              <item>Birthday party for boy.</item>
+              <item>Woman in long dress.</item>
+              <item>Family playing croquet in the yard.</item>
+              <item>Paintings being sold by a man in the street.</item>
+              <item>Shot of city and traffic, then of coast with waves crashing and flowers.  Boats in the water, lighthouse.</item>
+              <item>Walking in cemetery by water.</item>
+              <item>Sea World: Turtle in water, birds, children, flowers, flamingo, whale, man riding whale, whale doing tricks, tricks while being ridden, jumping.</item>
+              <item>Feeding dolphins.</item>
+              <item>Seal doing tricks in the water with a basketball, doing flips, bowling.</item>
+              <item>Dolphins swimming and flipping in a show, polar and brown bears, koala bear, llamas, giraffes, caribou, zebras, various other plants and animals in short shots.</item>
+              <item>Lion country safari – many shots of animals in the grass.  Lions, zebras, cheetahs, rhinos, elephants, etc.</item>
+              <item>Halloween costumes, Christmas tree and dinner.</item>
+              <item>Family at a wedding.</item>
+              <item>Tons of motorcycles in a parking lot.</item>
+              <item>Many people outside a casino.</item>
+              <item>Elephant figurines inside a house.</item>
+              <item>Kids playing pong, adults playing pool.</item>
+              <item>Shots of a helicopter and a hillside.</item>
+              <item>Flowers on the hillside.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">6</container>
+          <unittitle encodinganalog="title">Disc 6</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>Birthday party.</item>
+              <item>Child playing in front yard with hose and little tub.</item>
+              <item>Two guys wrestling in the grass while being sprayed with the hose.</item>
+              <item>Couple getting on motorcycle and driving off.</item>
+              <item>Birthday and cake for small child.</item>
+              <item>Christmas tree with gifts under it.</item>
+              <item>16th birthday party.</item>
+              <item>Motorcycles in parking lot, club of some sort? Dugway.</item>
+              <item>Debbie's 18th birthday, cake and opening gifts.</item>
+              <item>Shots out of a moving car.</item>
+              <item>Shots of streets and traffics in Greene.</item>
+              <item>Family eating dinner together.</item>
+              <item>Thanksgiving decorations up, family eating off T.V. trays.</item>
+              <item>Christmas, children playing, then singing.</item>
+              <item>Shots of presents and decorations, then opening gifts.</item>
+              <item>17th birthday of same child that was pictured at 16th birthday on this disc.</item>
+              <item>Family at wedding – bride and groom eat cake and drink wine.</item>
+              <item>Shots of camping – river and canyon, rabbit and squirrel.</item>
+              <item>Fiery furnace hiking, shots of canyon, hikers, rocks, plants.</item>
+              <item>Kachina bridge.</item>
+              <item>Sipapu bridge, shots from bottom looking up.</item>
+              <item>Rappelling down rocks.</item>
+              <item>Family at Christmas – younger male with baby, woman in bed recovering from something, has cuts and bruises.</item>
+              <item>Presents under the tree.</item>
+              <item>Various women rocking same baby.</item>
+              <item>Little girl dancing on the carpet.</item>
+              <item>Baby trying to stand and walk with help from adult.</item>
+              <item>Many more shots of baby "Will" sitting and playing with various family members.</item>
+              <item>Shots of (Antelope?) Island, Great Salt Lake in background.</item>
+              <item>Camping, sawing tree.</item>
+              <item>Shots of family playing croquet outside.</item>
+              <item>Women in colorful dresses dancing on a stage – appears to be cultural in nature.</item>
+              <item>Snowbird tram</item>
+              <item>Ice cream eating contest, contestants have hands tied behind their backs.</item>
+              <item>More dancing on same stage that is essentially the same theme.</item>
+              <item>Motorcycles in Yellowstone.</item>
+              <item>Buffalo Bill historical center.</item>
+              <item>Devil's tower national monument.</item>
+              <item>South Dakota, still on motorcycles.  Mount Rushmore, Sturgis, and Crazy Horse mountain.</item>
+              <item>Family gathering, sitting, and talking.</item>
+              <item>Hot springs, Payne's Fountain of Youth R.V. Park, Thermopolis, Wyoming, eating in the water off of large trays of some sort.</item>
+              <item>Bear on rocks.</item>
+              <item>Fort Phil Kearny.</item>
+              <item>Bighorn National Forest – Shell Falls.</item>
+              <item>Buffalo Bill dam and reservoir, shots of water and dam, river, water marks on the canyon walls.</item>
+              <item>Buffalo Bill statue.</item>
+              <item>Old trail town – "Museum of the Old West".</item>
+              <item>Wapiti valley recreation area, shots of tops of canyon walls, plains, herds of moose.  Yellowstone Geyser, film "Yellowstone" by Finley Holiday.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">7</container>
+          <unittitle encodinganalog="title">Disc 7</unittitle>
+          <unitdate>1983</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>Old Faithful erupting, shots of many geysers, people walking on boardwalks.</item>
+              <item>River under a bridge and a waterfall.</item>
+              <item>River running through a large canyon.</item>
+              <item>Shot of lake from shore, moon.</item>
+              <item>Family inside celebrating birthday of a young child.</item>
+              <item>Children in various costumes.</item>
+              <item>Family sitting by Christmas tree.</item>
+              <item>Parents playing with child in the snow.</item>
+              <item>Birthday party, family sitting and talking, mostly shots of kids.</item>
+              <item>Small flower garden, shots close up of the flowers.</item>
+              <item>Child riding tricycle while adults watch.</item>
+              <item>Kids on swingset.</item>
+              <item>Fireworks.</item>
+              <item>People getting out of an RV in front of a house, family dinner.</item>
+              <item>Small child's birthday.</item>
+              <item>Old Fort Bridger, shots of all the buildings inside as well as dedication sign.</item>
+              <item>Shots of a river and canyon, mountains from above.</item>
+              <item>Man using chainsaw on tree while climbing it?  Unclear if he is actually using the chainsaw or just holding it like he is.</item>
+              <item>Halloween costumes.</item>
+              <item>Older man eating candy with young kid.</item>
+              <item>Christmas tree – gifts already appear to be opened.</item>
+              <item>Dogs running outside in the yard.</item>
+              <item>Family at a wedding, reception appears to be in a church basement or something like that.</item>
+              <item>Two that just got married back at the house, opening gifts, many others are also present but less than previously.</item>
+              <item>Driving in Big Cottonwood, shots of mountains from car, as well as turns, road, and other cars.</item>
+              <item>Gas is less than a dollar.</item>
+              <item>Saltair is still under construction (Early 1980s?), shots of building, construction workers and equipment.</item>
+              <item>Shots of mountains with snow, boats in Great Salt Lake.</item>
+              <item>Downed power lines and poles, no context but maybe a storm of some sort?</item>
+              <item>"Wildcat Stadium" track and field of some sort.</item>
+              <item>Grilling in backyard, family sitting around.</item>
+              <item>Cars driving through huge puddle, sandbags on the road, water flowing down either main or state street.</item>
+              <item>Return of the Jedi in theatres (1983).</item>
+              <item>Shots by Great Salt Lake, where water level appears to be extremely high.</item>
+              <item>Controlled demolition of a building on T.V. "Hotel Newhouse"</item>
+              <item>Little boy running through sprinkler in yard.</item>
+              <item>Birthday party for older man.</item>
+              <item>Man riding motorcycle with sidecar with wife and child in it.</item>
+              <item>Halloween costumes.</item>
+              <item>Family sitting on Santa's lap, including adults.</item>
+              <item>Very old Wells Fargo building, made out of wood clearly not in use any longer.</item>
+              <item>Four wheelers or ATVs on sand dunes, location unclear but probably near last shot of Wells Fargo building.</item>
+              <item>Plane flying over canyon in Zion.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">8</container>
+          <unittitle encodinganalog="title">Disc 8</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>"Norway" cruise ship.</item>
+              <item>Shots of other boats in harbor, palm trees so presumably in Florida.</item>
+              <item>People on beach, playing games, Limbo.</item>
+              <item>In Jamaica, on a tour of some kind that appears to be related to the cruise.</item>
+              <item>Being talked to about fruits, climbing trees, flowers, by guides.</item>
+              <item>Shots of houses, fields, people.</item>
+              <item>People in a waterfall of sorts, hiking up the waterfall which is tiered and not usually very steep.</item>
+              <item>Dunn's river, battle of Las Chorreras.</item>
+              <item>Cayman Islands, riding motorcycles and looking at graves.</item>
+              <item>Exploring in rocks by ocean.</item>
+              <item>Shots of old ruins.</item>
+              <item>Komodo dragon.</item>
+              <item>Fish in the water swimming.</item>
+              <item>"Journey into imagination" lots of large buildings, Epcott.</item>
+              <item>Many shots of buildings in Disney World, characters, parade, etc.</item>
+              <item>Dancers in costumes that seem to represent countries dancing on singing on stage, first men, then women, then both together.</item>
+              <item>Shots of many areas of the park representing different countries.</item>
+              <item>Gatorland Zoo, many alligators on wooden pier and grass.</item>
+              <item>Shots of "Sawgrass", an alligator originally captured in 1952, 13 ft. long and over 1000 lbs.</item>
+              <item>Turtles, monkeys, a train, snakes, gators, parrots, and flamingos.</item>
+              <item>Alligators being fed chickens by hand, the alligators jump up out of the water to grab the chicken from the hand of a man dangling them from a bridge.</item>
+              <item>Shots of camels, wolves, beavers, various birds, eagles, elephants, cats, rams, goats, polar bears, zebras, and giraffes.</item>
+              <item>Birthday party for older man, much younger woman in a bunny costume.</item>
+              <item>Betty's 50th birthday.</item>
+              <item>Easter egg hunt for the little children.</item>
+              <item>Rubber raft on a smaller river, father and son(?) in the raft.</item>
+              <item>Shot of a woman's leg, looks very irritated.</item>
+              <item>Birthday party.</item>
+              <item>Easter egg hunt again? Or kids just looking for things in the yard, hard to tell.</item>
+              <item>Boy filling up wagon with water, playing in leaves.</item>
+              <item>Baby on carpet playing with toys and a pacifier.</item>
+              <item>Rubber boats on slow moving river, tag-a-long tours.</item>
+              <item>Kids on little bicycles/tricycles, riding in front yard and driveway.</item>
+              <item>Shot of motorcycle for sale.</item>
+              <item>Easter, kids trying to hit egg-shaped piñata.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

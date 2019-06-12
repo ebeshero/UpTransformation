@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:32 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0314::Mountain Fuel Supply Company audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv41217" url="http://archiveswest.orbiscascade.org/ark:/80444/xv41217">UUM_A0314</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Mountain Fuel Supply Company audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1968/1979" encodinganalog="date">1968-1979</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Mountain Fuel Supply Company audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Christopher Drew.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1988" encodinganalog="date">© 1988</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0314</unitid>
+      <unittitle encodinganalog="title">Mountain Fuel Supply Company audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1968/1979" encodinganalog="date">1968-1979</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">Mountain Fuel Supply Company</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">57 16mm films, 7 reel-to-reel audiotapes, 2 phonograph records, 2 audiocassette, and 1 2-inch videotape.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Mountain Fuel Supply Company audio-visual collection (1968-1979) consists of films promoting the use of natural gas and documenting the production and transmission of natural gas and sound recordings of speeches and interviews relating to natural gas production.  The collection also contains some employee training films.  Mountain Fuel Supply was an oil and gas energy company based in Salt Lake City, Utah.  The company was reoragnized in 1984 to form Questar Corporation.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>Mountain Fuel Supply Company began life in 1928 as the oil and gas exploration and production division of Western Public Service Corporation, a Salt Lake City holding company which served the Salt Lake Valley with natural gas from northern Utah and southwestern Wyoming.  In 1935 shareholders consolidated Western Public Service Corporation into a single company called Mountain Fuel Supply Company.  Shareholders returned to the holding company structure in 1984 and reorganized the company to form Questar Corporation.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Mountain Fuel Supply Company audio-visual collection (1968-1979) consists of films promoting the use of natural gas and documenting the production and transmission of natural gas and sound recordings of speeches and interviews relating to natural gas production.  The collection also contains some employee training films.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format and by the order in which they were added to the collection.  Items 1-31 comprise the original collection while items 32-51 and 52-67 were accessioned in 1997 and 2002, respectively.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1988.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Questar Corporation</corpname>
+      <subject encodinganalog="subject" source="lcsh">Gas distribution--West (U.S.)--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Natural gas--West (U.S.)</subject>
+      <subject altrender="nodisplay" source="archiveswest">Public Utilities</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">1988 donation</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Green River broadcast</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">June 09</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Newcomer Society speech</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 March 07</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Featuring W.T. Nightngale, chairman of the board</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3</container>
+            <unittitle encodinganalog="title">Conversation with William</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 August 22</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conversations with William "Bill" Utzinger  at age 75.  In 1928-1929 he strung a gas pipe between Rock Springs, Wyoming and Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">4</container>
+            <unittitle encodinganalog="title">1968 Gas range campaign</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 August 22</unitdate>
+            <physdesc>
+              <genreform>Phonograph record</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">5</container>
+            <unittitle encodinganalog="title">Unidentified record</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Phonograph record</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Disc</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">"Natural Gas: Energy in the Home"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">American Gas Association</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Presentation of "One Chance"</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">"Vital Link"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">"The Energy Challenge"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">"Eternal Flame"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">"Journey to Total Energy"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">"Geology and Natural Gas"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">"Jet Age American Gas"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">"Physical and Chemical Properties of Natural Gas"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">"Heating and Refrigeration Show"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Old pipeline</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">"Natural Gas and You"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">"The Other Side of the Street"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">"Natural Gas"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">"Energy 2000: An Exclusive Enviromental Color Report"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">22</container>
+            <unittitle encodinganalog="title">"The Story of Natural Gas"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <userestrict>
+            <p>Attached notes indicates that this film should not be used.</p>
+          </userestrict>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">23</container>
+            <unittitle encodinganalog="title">"Energy/Scope Revisited" part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">"Energy/Scope Revisited" part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>MoFilm	The next four films are black and white.  A note enclosed with them indicates that these films have shrunk with age and will probably not run in a projector without damage.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <phystech>
+            <p>This item has experienced shrinkage and will not run in a projector without damage to the film.</p>
+          </phystech>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">26</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies" reel A</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <phystech>
+            <p>This item has experienced shrinkage and will not run in a projector without damage to the film.</p>
+          </phystech>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">27</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies" reel B</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <phystech>
+            <p>This item has experienced shrinkage and will not run in a projector without damage to the film.</p>
+          </phystech>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">28</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies" soundtrack</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <phystech>
+            <p>This item has experienced shrinkage and will not run in a projector without damage to the film.</p>
+          </phystech>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">29</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies" A and B rolls and soundtrack</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">30</container>
+            <unittitle encodinganalog="title">Outtakes</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A series of outtakes beginning with the 20th Century Fox theme music.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">31</container>
+            <unittitle encodinganalog="title">Mountain Fuel Supply Phil Riesen outtakes</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 February 23</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">1997 addendum</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">32</container>
+            <unittitle encodinganalog="title">"The Ego Trap"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">33</container>
+            <unittitle encodinganalog="title">"You Pack Your Own Chute"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">34</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">35</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">36</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">37</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">38</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">39</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">40</container>
+            <unittitle encodinganalog="title">"Thanks A-Plenty Boss: The Rewards of Rewarding"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">41</container>
+            <unittitle encodinganalog="title">"Thanks A-Plenty Boss: The Correct Way of Correcting"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">42</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">43</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">44</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">45</container>
+            <unittitle encodinganalog="title">"Pipeline in the Rockies"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">46</container>
+            <unittitle encodinganalog="title">W.T. Nightingale</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">47</container>
+            <unittitle encodinganalog="title">Newcomer Society speech</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 March 07</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>W.T. Nightingale, chairman of the board, Mountain Fuel Supply Co.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">48</container>
+            <unittitle encodinganalog="title">Mountain Fuel Supply Co., M.M. Fidlar, president</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 20</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">49</container>
+            <unittitle encodinganalog="title">Complete meeting of the NYSSA</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 March 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Featuring M.M. Fidlar, president.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">50</container>
+            <unittitle encodinganalog="title">Monitor: Dr. Simon Ramo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">51</container>
+            <unittitle encodinganalog="title">John Crawford at PGGA market conference</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">2002 addendum</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">52</container>
+            <unittitle encodinganalog="title">"Easy Energy"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">53</container>
+            <unittitle encodinganalog="title">"Turning on Energy"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">54</container>
+            <unittitle encodinganalog="title">"A History of Natural Gas"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">55</container>
+            <unittitle encodinganalog="title">"Cooking Al Fresco"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">56</container>
+            <unittitle encodinganalog="title">"Vital Link"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">57</container>
+            <unittitle encodinganalog="title">"Gas Energy for America"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">58</container>
+            <unittitle encodinganalog="title">"Pennsylvania Country Cooking"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">59</container>
+            <unittitle encodinganalog="title">"Pleasures of Chinese Cooking"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">60</container>
+            <unittitle encodinganalog="title">"Scandinavia"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">61</container>
+            <unittitle encodinganalog="title">"Cooking of Germany"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">62</container>
+            <unittitle encodinganalog="title">"Latin American"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">63</container>
+            <unittitle encodinganalog="title">"Outdoor Cooking"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">64</container>
+            <unittitle encodinganalog="title">"Pipeline 29"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">65</container>
+            <unittitle encodinganalog="title">"Laundry Bag"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">66</container>
+            <unittitle encodinganalog="title">"It All Comes out in the Wash"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">67</container>
+            <unittitle encodinganalog="title">Harris Lowe's commercial for Mountain Fuel</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>2-inch videotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

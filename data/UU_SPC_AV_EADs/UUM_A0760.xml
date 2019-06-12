@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:00 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0760::Jan Andrews independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv79214" url="http://archiveswest.orbiscascade.org/ark:/80444/xv79214">UUM_A0760</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Jan Andrews independent film collection
+          <date era="ce" calendar="gregorian" normal="1984/2002" encodinganalog="date">1984-2002</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Andrews (Jan) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0760</unitid>
+      <unittitle encodinganalog="title">Jan Andrews independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1984/2002" encodinganalog="date">1984-2002</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Andrews, Jan</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">7 VHS videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Jan Andrews independent film collection (1984-2002) consists of seven experimental and/or documentary films by Utah filmmaker Jan Andrews.  Andrews holds of Master of Fine Arts degree in film from the University of Utah.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Filmmaker Jan Andrews earned a Master of Fine Arts degree from the University of Utah in 1998.  A member of the Independent Film and Video Association and the European Documentary Network, Andrews is a visual arts panelist for the National Foundation for the Advancement in the Arts.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Jan Andrews independent film collection (1984-2002) consists of seven experimental and/or documentary films by Utah filmmaker Jan Andrews.  These movies are VHS dubs of Andrews' original 16mm films.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject encodinganalog="subject" source="lcsh">Native Americans</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">"Seduction"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental documentary presents a cross/cultural view of women and adornment.  7:50.</p>
+          <p>7 minutes, 50 seconds</p>
+          <p>Screenings and awares:</p>
+          <p>Special Merit, Utah Short Film &amp; Video Festival</p>
+          <p>Artists in Residence Gallery, New York City</p>
+          <p>Films Charas, New York City</p>
+          <p>Canyonlands Film Festival</p>
+          <p>New York Experimental Film Festival</p>
+          <p>This film was produced at the University of Utah.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">"Anasazi"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental documentary is a meditation on the vandalism of Anasazi sites and artifacts in Southern Utah.  5:53.</p>
+          <p>Screenings and awards:</p>
+          <p>Finalist, Anthropos '87 Film Festival Los Angeles</p>
+          <p>Finalist, San Francisco Film Festival, Golden Gate</p>
+          <p>Finalist, Utah Short Film &amp; Video Festival,</p>
+          <p>Women One World Film Festival, New York</p>
+          <p>Canyonlands Film Festival</p>
+          <p>International Student Film Festival</p>
+          <p>Learning Channel: Focus on Native American series</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">"Geography"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental film is a meditation on the influence of landscape, literature, painting, poetry, music and film on the filmmaker's life.  15:00.</p>
+          <p>Screenings and awards:</p>
+          <p>Ann Arbor Film Festival, Honorable Mention</p>
+          <p>Utah Film &amp; Video Festival: Best of Show</p>
+          <p>Black Maria Film Festival, Director's Citation</p>
+          <p>Sundance Film Festival, Park City, Utah</p>
+          <p>San Francisco International Film Festival</p>
+          <p>Oberhausen Short Film Festival, Oberhausen, Germany</p>
+          <p>Athens International Film Festival, Athens, Ohio</p>
+          <p>Mix '94, New York Experimental Film Festival</p>
+          <p>Brazil '94 Film Festival (5 cities)</p>
+          <p>NY Expo of Short Film and Video</p>
+          <p>Montreal, Quebec, Canada, Image et Nation Festival</p>
+          <p>Florida Film Festival, Miami</p>
+          <p>Central Florida Film Festival, Orlando</p>
+          <p>Sydney Film Festival, Sydney, Australia</p>
+          <p>Boston Experimental Film Festival</p>
+          <p>Funded by a grant from the Western States Regional Media Arts Fellowship (with the National Endowment of the Arts and the American Film Institute).</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">"In Suspect Terrain"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1997</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental documentary is a meditation on amnesia and schizophrenia which explores the injured brain and how it reacts to memory and loss of memory.  15:00.</p>
+          <p>Screenings and awards:</p>
+          <p>Utah Short Film &amp; Video Festival: Best Experimental Film</p>
+          <p>Sundance Screenwriter's Lab</p>
+          <p>Canyonlands Film Feseival</p>
+          <p>Dance on Film Festival, New York</p>
+          <p>Festival of Films on Disabilities</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">"Struck By Lightning"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2002</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This docuemtary explores the physical and cultural effects of lightning strikes and electrocution:</p>
+          <p>Lightning contributes annually to more death and injury that any other weather related phenomenon. Interestingly, 70% of victims survive the strike. Gretel Ehrlich explored the metaphors of electricity after surviving a lightning strike in her book A Match to the Heart. In language that surpasses the mere experience of being struck, she takes us into the strange world of weather and electrical phenomenon, dreams, exploration of the body under siege, cross cultural views of lightning and the philosophy of Tibetan Buddhism.</p>
+          <p>Gretel's story provides the "heart and soul" of this film. However, the film also explores how the dynamics of lightning and the conservation of electrical energy mediate her experience and the roll it plays, for good and ill, in all of our lives. For example, lightning caused the chemicals and compounds of the primordial soup to synthesize into amino acids, the basic building blocks of all organic life, and begin life on earth. It brings nitrogen rich rain, and causes fire which naturally "manages" the forests of the earth. Electricity is the force that runs our bodies and can be as beneficent as the electrical charge between God and Adam's fingers on the Sistine Chapel ceiling or it can send the body into seizure and early death. Electricity, tamed, gives us light and, in the form of medical implements, can diagnose and, in some cases, cure disease. The film also looks at the Dr. Frankenstein aspect of electricity, a creature charged to life by electrical currents roaming freely across the landscape. Electricity is also used to control or change behavior (electroshock treatment, aversion therapy) or to end life in the form of electrocutions.  58:00.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">"Cold Moon at the Center of the World"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This documentary about the 1955 termination of Utah's Southern Paiute Tribe both as a tribe and as a recipient of benefits from all federal programs. After a struggle to survive, the group fought successfully for restoration as a tribe and to federal monies in 1980. This is a film about those events and their effect upon the tribe.  19:30.</p>
+          <p>Screenings and awards:</p>
+          <p>Margaret Mead Film Festival, New York</p>
+          <p>Native American Film Festival (traveling festival)</p>
+          <p>Canyonlands Film Festival</p>
+          <p>Community Access Television (Utah, Ohio, Pennsylvania)</p>
+          <p>Funded in part. by a grant from the Utah Humanities Council.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">"Lysistrata"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental documentary based on Aristophanes' Ancient Greek play <title render="italic">Lysistrata</title> explores the relationships between men and women and war and peace over the past 2,500 years. Filmed with an all woman cast and crew.  29:46.</p>
+          <p>Screenings and awards:</p>
+          <p>Women Make Movies, New York City</p>
+          <p>Experimental Film Festival, New York City</p>
+          <p>Festival of Experimental Films, London, Great Britain</p>
+          <p>Canyonlands Film Festival</p>
+          <p>Oberhausen Film Festival, Germany</p>
+          <p>Funded in part by a grant from the American Film Institute and the National Endowment for the Arts.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

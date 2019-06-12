@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:31 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0241::Leroy J. Robertson music recordings)//EN" encodinganalog="identifier" identifier="80444/xv90075" url="http://archiveswest.orbiscascade.org/ark:/80444/xv90075">UUM_A0241</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Leroy J. Robertson music recordings
+          <date era="ce" calendar="gregorian" normal="1920/1971" encodinganalog="date">1920s-1970s</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Robertson (Leroy J.) music recordings</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Mark Jensen.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1991" encodinganalog="date">© 1991</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0241</unitid>
+      <unittitle encodinganalog="title">Leroy J. Robertson music recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1920/1971" encodinganalog="date">1920s-1970s</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Robertson, Leroy J.</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">Phonograph records and reel-to-reel audiotapes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Leroy J. Robertson music recordings (1920s-1970s) consist of audio recordings of pieces composed by Robertson as well as other music including hymns, carols, classical music and compositions by other American composers, some of which Robertson conducted or arranged.  A respected composer of works for chamber music, orchestra, violin, cello, piano and voice, Leroy J. Robertson taught music at Brigham Young University (BYU), the University of California Los Angeles (UCLA) and the University of Utah before retiring in 1964.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Leroy J. Robertson (1896-1971) was born in Fountain Green, Utah, on 21 December 1896, the son of Utah-born Mormon parents. His first musical experiences were simple and personal--he fashioned tunes on a homemade fiddle and played by ear on the parlor organ in his home. In grammar school, after a few rudimentary music lessons, he organized a small orchestra of young friends and taught them to play music of his own devising. He graduated from the New England Conservatory of Music in boston under George Whitefield Chadwick in 1923. His later studies were under Ernest Bloch in San Francisco and in Roveredo Capriasca, Switzerland; Hugo Leichtentritt in Berlin; and Arnold Schoenberg in Los Angeles. He received his B.A. and M.A. degrees from Brigham Young University (BYU) and Ph.D. degree from the University of Southern California, Los Angeles. He was professor and chairman of the music department at BYU; lecturer of composition at the University of California, Los Angeles (UCLA) and professor and chairman of the music department at the University of Utah from 1948 until his retirement in 1964. Upon retirement, Robertson received the first Distinguished Research Professorship at that institution.</p>
+      <p>Robertson was an honorary member of Phi Beta Kappa; a fellow of the Utah Academy of Arts, Sciences, and Letters; a member of the Executive Music Committee of the Church of Jesus Christ of Latter-day Saints; and a member of the American Society of Composers, Authors, and Publishrs (ASCAP). Robertson's compositions include works for chamber music and orchestra; concertos for violin, cello, and piano; solos, vocal, and instrumental; choral compositions and an "Oratorio from the Book of Mormon" for chorus, soloists, organ, and orchestra. While the Reichhold prize for his "Trilogy" was by far the most impressive, Robertson has a long list of other awards to hs credit. In 1923, he won the Endicott prize for his "Overture in E Minor"; his "Quintet in A Minor for Piano and Strings" won first place in a contest conducted by the Society for Publicaiton of American Music in 1936; his "String Quartet" was chosen by the Critics Circle in New York in 1944; and his "Rhapsody for Piano and Orchestra" was given an award by the Utah Institute of Fine Arts in 1945. He received the National Federation of Music Clubs Award of Merit in 1959. Robertson died on 25 July, 1971 in Salt Lake City.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Leroy J. Robertson music recordings (1920s-1970s) are phonograph records and reel-to-reel audiotapes of pieces composed by Robertson as well as other music including hymns, carols, classical music and compositions by other American composers, some of which Robertson conducted or arranged.  Several pieces are performed by Utah musical groups including the Utah Symphony and the University of Utah Orchestra.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format.  Most of the items in each format are listed alphabetically by title of composition.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+      <p>This collection is open to public research on library premises but no copies may be made.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Leroy J. Robertson papers (Ms 38) and photograph collection (P0038).  Sheet music for some of Robertson's compositions is available in the Maurice Abravanel papers (Ms 517).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Mark Jensen in 1991.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="contributor" source="lcnaf" role="contributor">Abravanel, Maurice, 1903-1993</persname>
+      <subject encodinganalog="subject" source="lcsh">American composers</subject>
+      <subject encodinganalog="subject" source="lcsh">Orchestral music</subject>
+      <subject altrender="nodisplay" source="archiveswest">Music</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1-2</container>
+          <unittitle encodinganalog="title">American Serenade</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Feri Roth with Normal Lee Madsen, Sally Peck and Marian Robertson.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">3-6</container>
+          <unittitle encodinganalog="title">American Serenade</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Utah Symphony Strings.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">7-8</container>
+          <unittitle encodinganalog="title">American Serenade</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Roth Quartet</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">9</container>
+          <unittitle encodinganalog="title">American Serenade, Caprice, Nocturne</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Roth, Madsen, Peck, and M. Robertson</p>
+          <p>Recorded by the University of Utah Radio Committee.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">10</container>
+          <unittitle encodinganalog="title">American Serenade test pressing</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Weicher Quartet</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">11</container>
+          <unittitle encodinganalog="title">Fantasia for Organ</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Robert Cundick, organ.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">12</container>
+          <unittitle encodinganalog="title">Novelette: Carl Fuerstner (piano)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">13</container>
+          <unittitle encodinganalog="title">Oratorio from the Book of Mormon test pressing</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">14-17</container>
+          <unittitle encodinganalog="title">Passacaglia</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">18-19</container>
+          <unittitle encodinganalog="title">Prelude, Scherzo and Ricercare parts 1-4</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1948</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">20</container>
+          <unittitle encodinganalog="title">Punch and Judy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1951</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the National Broadcasting Company (NBC) Symphony Orchestra.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">21</container>
+          <unittitle encodinganalog="title">Punch and Judy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Standard Hour NBC, Los Angeles</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">22</container>
+          <unittitle encodinganalog="title">Punch and Judy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Standard Hour NBC, Los Angeles</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">23-24</container>
+          <unittitle encodinganalog="title">Quartet in E minor</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Roth Quartet.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">25-26</container>
+          <unittitle encodinganalog="title">Quartet in E minor</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Roth Quartet.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">27</container>
+          <unittitle encodinganalog="title">Quartet in E minor</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Roth Quartet.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">28-29</container>
+          <unittitle encodinganalog="title">Quintet in A minor for piano and strings parts 1-4</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Roth Quartet and Carl Fuerstner, piano.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">30</container>
+          <unittitle encodinganalog="title">Quintet in A minor for piano and strings part 5 and G minor Etude</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>G minor Etude performed by Reid Nibley, piano.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">31-32</container>
+          <unittitle encodinganalog="title">Quintet in A minor for piano and strings</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Ferli Roth, Harold Wolf, Sally Peck, Marian Robertson and Reid Nibley.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">33-34</container>
+          <unittitle encodinganalog="title">Rhapsody for piano and orchestra</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1947</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performend by Andor Foldes, piano.</p>
+          <p>Conductor: Leon Barzin</p>
+          <p>WABC boradcast</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">35-36</container>
+          <unittitle encodinganalog="title">Rhapsody for piano and orchestra parts 2-6</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performend by the WCBS Symphony and Andor Foldes, piano.</p>
+          <p>Conductor: Leon Barzin</p>
+          <p>WCBS broadcast "Invitation to Music"</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">37-38</container>
+          <unittitle encodinganalog="title">Symphony no. 2, Trilogy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">39</container>
+          <unittitle encodinganalog="title">Symphony no. 2, Trilogy parts 1-2</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1957</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">40-45</container>
+          <unittitle encodinganalog="title">Symphony no. 2, Trilogy parts 1-3 (complete)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Detroit Symphony Orchestra.</p>
+          <p>Conductor: Karl Krueger</p>
+          <p>World premiere with award presentation.</p>
+          <p>Recorded from tapes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">46-47</container>
+          <unittitle encodinganalog="title">Concerto for violoncello</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra and Zara Nelsova, cello (entire concerto), Marian Robertson, cello, and Gladys Gladstone, piano (finale).</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">48-49</container>
+          <unittitle encodinganalog="title">Concerto for violoncello</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956</unitdate>
+          <physdesc>
+            <genreform>
+            </genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra and Zara Nelsova, cello, and Marian Robertson and Gladys Gladstone, piano.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">50</container>
+          <unittitle encodinganalog="title">Fugue in C minor</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1952</unitdate>
+          <physdesc>
+            <genreform>
+            </genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by William L. Fowler and Robert Cundick, piano.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">51</container>
+          <unittitle encodinganalog="title">Mozart's Sonata in G major and Robertson's Eb Etude</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1946</unitdate>
+          <physdesc>
+            <genreform>
+            </genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Sonata in G major performed by Mary Kroll, violin, and Marian Robertson, piano.</p>
+          <p>Eb Etude performed by Carl Fuerstner, piano.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">52</container>
+          <unittitle encodinganalog="title">Latter-day Organist: hymns, preludes, postludes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>
+            </genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Alexander Schreiner, organ.</p>
+          <p>Church of Jesus Christ of Latter-day Saints (LDS) General Music Committee</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">53</container>
+          <unittitle encodinganalog="title">The Lord's Prayer and Battle Hymn of the Republic</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949</unitdate>
+          <physdesc>
+            <genreform>
+            </genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the South High School a cappella choir, Salt Lake City, Utah.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">54-55</container>
+          <unittitle encodinganalog="title">Ernest Toch's Symphony no. 2</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>
+            </genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">56-58</container>
+          <unittitle encodinganalog="title">Alleluia and Chorale</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the University of Utah band.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">59-60</container>
+          <unittitle encodinganalog="title">American Serenade</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1943</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">61-64</container>
+          <unittitle encodinganalog="title">Book of Mormon Oratorio</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">65-66</container>
+          <unittitle encodinganalog="title">Book of Mormon Oratorio (exerpts)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Summer Youth Chorus Program.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">67-69</container>
+          <unittitle encodinganalog="title">Concerto for cello and orchestra</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra and Zara Nelsova.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">70-71</container>
+          <unittitle encodinganalog="title">University of Utah Festival Overture</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">72-74</container>
+          <unittitle encodinganalog="title">Passacaglia</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">75-77</container>
+          <unittitle encodinganalog="title">Passacaglia</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">78-80</container>
+          <unittitle encodinganalog="title">Passacaglia</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">81</container>
+          <unittitle encodinganalog="title">Piano Etudes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">83</container>
+          <unittitle encodinganalog="title">Piano Rhapsody</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1944</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra and Andor Foldes, piano .</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">86-90</container>
+          <unittitle encodinganalog="title">Punch and Judy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">91-92</container>
+          <unittitle encodinganalog="title">Quintet for Piano and Strings</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Paganini Quartet and Wolman, piano.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">93-95</container>
+          <unittitle encodinganalog="title">Saguaro Overture</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the Utah Symphony Orchestra.</p>
+          <p>Conductor: Maurice Abravanel</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">96-99</container>
+          <unittitle encodinganalog="title">Symphony no. 2, Trilogy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">100</container>
+          <unittitle encodinganalog="title">Brahms' Violin Concerto, slow movement</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1953</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the University of Utah Symphony.</p>
+          <p>Conductor: Leroy J. Robertson</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">101</container>
+          <unittitle encodinganalog="title">Delius' Walk to Paradise Garden and Wagner's Rienzi</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1953</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the University of Utah Symphony.</p>
+          <p>Conductor: Leroy J. Robertson</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">102</container>
+          <unittitle encodinganalog="title">Mendelssohn's Symphony no. 5 in D minor</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1953</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the University of Utah Symphony.</p>
+          <p>Conductor: Leroy J. Robertson</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">103</container>
+          <unittitle encodinganalog="title">Mozart's Violin Concerto (exerpts)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by Harold Wolf and Ardean Watts</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">104</container>
+          <unittitle encodinganalog="title">Schumann'a 4th Symphony in D Major</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the University of Utah Symphony.</p>
+          <p>Conductor: Leroy J. Robertson</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">105</container>
+          <unittitle encodinganalog="title">Summer Youth Chorus</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed with Alexander Schreiner, organ.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">106-107</container>
+          <unittitle encodinganalog="title">Tchaikovsky's Symphony no. 6</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed by the University of Utah Symphony.</p>
+          <p>Conductor: Leroy J. Robertson</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">108</container>
+          <unittitle encodinganalog="title">Folk Songs Collection</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Compiled by Dr. Cheney.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">109</container>
+          <unittitle encodinganalog="title">O Little Town of Bethlehem</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Arranged by Leroy J. Robertson.</p>
+          <p>Performed by the Mormon Tabernacle Choir and the New York Philharmonic Orchestra.</p>
+          <p>Conductor: Leonard Bernstein</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">110</container>
+          <unittitle encodinganalog="title">Selections from Verdi, Flowtow, Donizetti, Sibelius and Weber</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Conductor: Leroy J. Robertson</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

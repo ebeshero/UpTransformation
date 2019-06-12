@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A1079::Tanner family home movies)//EN" encodinganalog="identifier" identifier="80444/xv31170" url="http://archiveswest.orbiscascade.org/ark:/80444/xv31170">UUM_A1079</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Tanner family home movies
+				<date era="ce" calendar="gregorian" normal="1950/1980" certainty="appproximate" encodinganalog="date">circa 1960s</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Tanner family home movies</titleproper>
+        <author encodinganalog="creator">Finding aid created by Michael Hinderaker</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Michael Hinderaker
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A1079</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Tanner, William</persname>
+      </origination>
+      <unittitle encodinganalog="title">Tanner family home movies</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" certainty="appproximate" normal="1950/1980" encodinganalog="date">circa 1960s</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">7 16mm films, 5 8mm films, 1 DVD</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Tanner family home movies (circa 1960s) consist of family films from a variety of settings, people, and activities, mostly centered around Hayward, California.  The films were taken by William and Hertha Tanner, who grew up in Salt Lake City and Sandy, Utah respectively.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>William "Bill" Tanner and Hertha Tanner grew up in Salt Lake City and Sandy, Utah.  William became an oral surgeon and Hertha a homemaker.  During the time these films were taken, the family was living in Hayward, California with their children Judy, Justin, Valen, Clelen, and Kylan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Tanner family home movies (circa 1960s) consist of family films from a variety of settings, people, and activities, mostly centered around Hayward, California.  The films were taken by William and Hertha Tanner, who grew up in Salt Lake City and Sandy, Utah respectively.  The films contain video of family gatherings, community events, and outdoor footage in various locations.  All films have been digitized and are available to view on the DVD described in this finding aid.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Tanner family home videos collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Tanner family home videos collection A1079.
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A1079.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Kyle Tanner in 2012.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Michael Hinderaker in 2012.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">California</geogname>
+      <subject encodinganalog="subject" source="lcsh">Falconry</subject>
+      <subject encodinganalog="subject" source="lcsh">Home &amp; family</subject>
+      <subject altrender="nodisplay" source="archiveswest">Home and Family</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">Tanner family home movies</unittitle>
+          <unitdate>circa 1960s</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">1</container>
+            <unittitle encodinganalog="title">Film 1</unittitle>
+          </did>
+          <scopecontent>
+            <p>Family gathered in a room at or near Christmas time listening to a woman play piano while a man plays saxophone.  Then a little kid plays piano and another little kid plays a xylophone.  Another is in angel wins dancing, then there are a whole bunch of people both standing around and dancing.  A man and woman dance while another woman plays the piano.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">2</container>
+            <unittitle encodinganalog="title">Film 2</unittitle>
+          </did>
+          <scopecontent>
+            <p>Boy scouts receive papers of some kind; they all stand in a line smiling and happy.  Then they gather around a table and are seated, then stand with their parents seemingly receiving some kind of recognition.  Four are dressed as Indians and dance around a totem pole, and then others are pushing themselves around on a cart.  The rest who are seated seem very excited. A boy is dressed in a Halloween costume, then more in costume are shown.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">3</container>
+            <unittitle encodinganalog="title">Film 3</unittitle>
+          </did>
+          <scopecontent>
+            <p>A boy sits in front of the camera writing on a piece of paper with a book beside him.  People get off an airplane and walk towards the camera. The next shot is in a park with many people on the swing set and sitting around.  Next shot is outside of a street as cars go by.  Next shot is of a pottery wheel, with a man in a suit and a woman talking while another person uses the wheel.  The next clip shows children hanging onto a donkey and pulling it around, trying to get it to move.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">4</container>
+            <unittitle encodinganalog="title">Film 4</unittitle>
+          </did>
+          <scopecontent>
+            <p>A shot of rolling hills and then of pyramids of the Central and South American style. Shot of a little beetle crawling in the grass, very out of focus.  Shot of children and women washing clothes in a trough-like river.  Shot of children playing a game in the grass with paper headbands on, then dancing in a circle.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">5</container>
+            <unittitle encodinganalog="title">Film 5</unittitle>
+          </did>
+          <scopecontent>
+            <p>Shot of an area in a city with cars driving by, buildings pictured. One of the buildings says Banco Refaccionario De Jalisco S.A. Many people also walk along the sidewalks.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">6</container>
+            <unittitle encodinganalog="title">Film 6</unittitle>
+          </did>
+          <scopecontent>
+            <p>Children swimming in a river, there appear to be hut-like houses on the shore. Women are also washing clothes in the river. A woman walks to the river carrying a basket on her head, then the shot looks off the top of a building towards the coastline. There is an airplane pictured.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">7</container>
+            <unittitle encodinganalog="title">Film 7</unittitle>
+          </did>
+          <scopecontent>
+            <p>Mannequins are pictured in a storefront, then children on boards of some kind swimming after a fish in the water. People wade across a river holding their shoes.  There is a man in a boat rowing across a river and the camera man looks form one side to the other.  The next shots are from the water and picture another boat as well as coastline and homes, then another larger ship, and again back to the homes, which are on a beach.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">8</container>
+            <unittitle encodinganalog="title">Film 8</unittitle>
+          </did>
+          <scopecontent>
+            <p>William Tanner's falconry: A large bird is chained to a post what appears to be someone's front yard. It flies repeatedly onto a man's hand, then back to the post. It then flies from further away to his hand, this time it appears to be unchained.  It is chained again in all the rest of the shots, which mostly show it sitting on a piece of wood.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">9</container>
+            <unittitle encodinganalog="title">Film 9</unittitle>
+          </did>
+          <scopecontent>
+            <p>First show is into a bay with a couple of boats in it, then of a choir of young boys who are singing. People walk around at what looks to be a fair, then two men play instruments.  One appears to play a bagpipe, while the other plays something like a violin, although it is held upright. More shots of the fair. An older looking woman wearing sunglasses and a coat is at the wheel of a boat.  There is a shot from the boat of a marina with many boats and a city in the background.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">10</container>
+            <unittitle encodinganalog="title">Film 10</unittitle>
+          </did>
+          <scopecontent>
+            <p>A man and a woman look to be getting married, an older man and woman stand near them.  They both say things into the microphone,  then a different man comes and stands next to the groom and also says things into the microphone, as do the older man and woman.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">11</container>
+            <unittitle encodinganalog="title">Film 11</unittitle>
+          </did>
+          <scopecontent>
+            <p>A woman holds a book, then gets up to get a folder from a file cabinet. An older man sits in a chair, then the woman walks through a hall.  It appears to be a doctor's office of some sort. The woman again sits behind a desk like she was at the beginning. The man is doing dentist work on a younger boy, cleaning her teeth.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">12</container>
+            <unittitle encodinganalog="title">Film 12</unittitle>
+          </did>
+          <scopecontent>
+            <p>A woman behind the same desk as in the last film, and then sitting on a couch. The next shot is of a tree in a pot outside, along with other plants that appear to be in the ground. A man points at flowers and grabs some of them, still talking to the camera. The dentist from before stands with an older woman, putting his arm around her while they both talk to the camera, then they begin to dance. The older woman stands next to the younger woman who was sitting at the desk earlier in the film, and they converse.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

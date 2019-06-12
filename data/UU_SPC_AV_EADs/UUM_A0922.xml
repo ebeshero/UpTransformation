@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:05 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0922::Peter Edward Gibbs oral history audio recordings)//EN" encodinganalog="identifier" identifier="80444/xv65264" url="http://archiveswest.orbiscascade.org/ark:/80444/xv65264">UUM_A0922</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Peter Edward Gibbs oral history audio recordings
+          <date era="ce" calendar="gregorian" normal="20061011" encodinganalog="date">2006 October 11</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Gibbs (Peter Edward) oral history audio recordings</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2007" encodinganalog="date">© 2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2007">2007</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0922</unitid>
+      <unittitle encodinganalog="title">Peter Edward Gibbs oral history audio recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="20061011" encodinganalog="date">2006 October 11</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Gibbs, Peter Edward</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 Audiocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Peter Edward Gibbs oral history audio recordings (2006) consists of an interview with Gibbs, who discusses his life experiences pertaining to climbing, caving, skiing, kayaking, and running rivers.  A doctor of mechanical engineering, Gibbs is also an avid outdoorsman and was instrumental in the development of the Gibbs Ascender, an aid for climbers, spelunkers, arborists and rescue workers.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Peter Edward Gibbs (b. 1943) was born on October 16 in Salt Lake City, Utah and graduated from the University of Utah with a Doctor of Philosophy degree (PhD) in mechanical engineering in 1971.  As a young man he and his brother, Chalrles, developed Gibbs Ascender, the mechanical replacement for the prussik knot and an aid for climbers, spelunkers, arborists and rescue workers.  An outdoor enthusiast, Gibbs has acquired vast knowledge of recreational sports and their histories through his adventures in climbing, caving, sea kayaking, ski touring, and forty years of commercial river running.  He is the author of <title render="italic">Off Track In Colombia: A Tale of Action, Adventure, and Passion</title>.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Peter Edward Gibbs oral history audio recordings (2006) consists of an interview with Gibbs, who discusses his life experiences pertaining to climbing, caving, skiing, kayaking, and running rivers.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>A Gibbs Ascender is also available to view in Special Collections.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2007.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Rock climbing--West (U.S.)--History</subject>
+      <subject encodinganalog="subject" source="lcsh">Rivers--Recreational use </subject>
+      <subject encodinganalog="subject" source="lcsh">Caving</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Peter Edward Gibbs</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">11 October 2007</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Gibbs recalls hiking in the Uintah Mountains as a child in the 1950s with Boy Scout Troop 186: "Through my high school years I did an awful lot of hiking, mostly, and no serious climbing. By the time I got into college, I got hooked up with the Ute Alpine Club and with the Salt Lake Grotto."  As he got older, Gibbs took up climbing with his close friend, George Lowe.  He recalls climbing adventures with and others such as Karl Dunn, Eric Eliason, Ed Hicketa, and Bego (George) Gerhart.</p>
+          <p>Gibbs discusses graduating from the University of Utah with a PhD in mechanical engineering and developing the Gibbs Ascender as well as his adventures caving, sea kayaking, ski touring, working as a river guide, and participating in other outdoor sports. His first ascents include: The Twin Brothers, the first free ascent of the Bong Eater, Mexican Crack, the S-Matrix II, the original start to Gordon's Hangover, Gordon's Hangover, Gordon's Direct, and Frozen Stool.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

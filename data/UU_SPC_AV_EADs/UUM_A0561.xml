@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:43 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0561::Allan Moll broadcast radio audio collection)//EN" encodinganalog="identifier" identifier="80444/xv50570" url="http://archiveswest.orbiscascade.org/ark:/80444/xv50570">UUM_A0561</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Allan Moll broadcast radio audio collection
+          <date era="ce" calendar="gregorian" normal="1945/1966" encodinganalog="date">1945-1966</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Moll (Allan) broadcast radio audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2003" encodinganalog="date">© 2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio-Visual Archives</subarea>
+        <address>
+          <addressline>J. Willard Marriott Library</addressline>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0561</unitid>
+      <unittitle encodinganalog="title">Allan Moll broadcast radio audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1945/1966" encodinganalog="date">1945-1966</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Moll, Allan, 1922-</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">42 reel-to-reel audio tapes, 18 phonograph records and 3 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Allan Moll broadcast radio audio collection (1945-1966) consists of recordings of interviews and news reports compiled by Moll during his time at Los Angeles radio stations KLAC and KHJ as well as Utah's KDYL.  Subjects include the 1964 elections, other national issues, Hollywood and local California and Utah news stoires.  Moll is the reporter or interviewer on the majority of the recordings.  Minnesota native Allan Moll was a radio broadcaster in California and worked for Utah's KDYL radio and Channel 4 television at the beginning and end of his career, respectively.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Allan Moll (b.1922) was born 13 June in St. Paul, Minnesota. He moved to Salt Lake City, Utah in 1934. Moll began his broadcasting career with KDYL Radio in 1941. During World War II, Moll served in the United Sates Army Air Corps from 1942 to 1945. When he returned, he went to the University of Utah law School and graduated in 1951. Moll worked as Public Affairs Director for Los Angeles radio stations KLAC from 1957 to 1960 and KHJ from 1960 to 1968.  Moll worked as a news anchor on Salt Lake City's Channel 4 from 1965 to 1976. He also ran as the democratic candidate for Salt lake County Attorney. Moll has received several awards including: "Outstanding Lawyer of the Year" from the Utah State Justice Court Association, "Outstanding Lawyer of the Year" from the Brigham Young University Political and Legislative Association, and "Broadcaster of the Year" from the Utah Radio and Television Association.  He is now retired.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Allan Moll broadcast radio audio collection (1945-1966) consists of recordings of interviews and news reports compiled by Moll during his time at Los Angeles radio stations KLAC and KHJ as well as Utah's KDYL.  Subjects include the 1964 elections, other national issues, Hollywood and local California and Utah news stoires.  Moll is the reporter or interviewer on the majority of the recordings.  California recordings are on reel-to-reel audiotape and the older Utah recordings are on radio transcription discs.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format type.  Phonograph records from Moll's early Utah career follow reel-to-reel audiotapes from his California years.  Items from the 2004 addendum are listed at the end of the register.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Allan Moll papers (Accn 1716).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2003.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Political campaigns</subject>
+      <subject encodinganalog="subject" source="lcsh">Election Day</subject>
+      <subject encodinganalog="subject" source="lcsh">Radio broadcasters</subject>
+      <subject altrender="nodisplay" source="archiveswest">Journalism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">Viewpoint Los Angeles: interview with Robert Kendall</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 February 28</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Allan Moll interviews Robert Kendall who is the Author of <title render="italic">White Teacher in a Black School</title>, also known as, <title render="italic">Don't Say Nigger</title>. In this interview, Kendall reveals the lack of support that the faltering school system offers African American Schools. He also condemns the school system for lowering the standard of education among African American communities, which then limits their realm of possibilities.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">2</container>
+          <unittitle encodinganalog="title">Soundtrack pieces for a film about Henry Cabot Lodge running for president</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 May 04</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>An unedited short discussion of the candidates for the 1964 elections as well as the prerecorded opening and closing statements by Allan Moll for an interview with David Goldberg who was the Field Director of the National Draft Lodge Commity.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">3</container>
+          <unittitle encodinganalog="title">1964 elections - primary elections</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 June 02</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>First a brief address from a few candidates for the 1964 elections. These candidates include Ronald Reagan, Henry Salvatori, Senator Barry Goldwater, and Governor Nelson Rockefeller. Following this, Allan Moll interviews George McClain, a Democratic candidate for the United States Senate, Bill Taylor for the Communist Campaign, Judge Younger running for District attorney and Senator Kiko who comments on the variation in the tabulation of votes. Throughout this report, there are announcements of telephonic surveys as well as reviews of snap tallies, which are then discussed briefly.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">4</container>
+          <unittitle encodinganalog="title">Interview with an unnamed woman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 November 01</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This is an interview with a woman from Europe during World War II. She briefly speaks of the importance of overcoming Communism as well as her thoughts on Americas' decision to remain neutral until 1942.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">5</container>
+          <unittitle encodinganalog="title">Special assignment: November 3 1964 ballot</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 August 28</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This is the third radio show out of a series of five in which the pros and cons of various propositions appearing on the November 3, 1964 ballot are discussed. The propositions discussed here were two of the most controversial propositions, fifteen and seventeen. Proposition fifteen deals with paid television verses free television while proposition seventeen deals with railroad train crews declaring state policy on manning trains.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">6a-b</container>
+          <unittitle encodinganalog="title">In search of a solution: civil rights</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 September 13</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>a)	In search of a solution to the civil rights crisis of 1964, the Public Affairs Department of RKO General Broadcasting interviewed twenty-six leaders of thought and action as part of a national symposium. Each of these leaders present their various ideas for resolving the civil rights crisis peacefully and justly. The twenty-six leaders interviewed include: Governor Nelson Rockefeller, Mr. A. N. Sonnabend, Senator Jacob Javits, Malcolm X, Francis Cardinal Spellman, Reverand Dan Potter, Gus Tyler, Will Maslow, George Wallace, Leo Perlis, Stanley Lowell, Judah Cahn, Roy Wilkens, Benjamin Epstein, Reverend Sturgis Riddle, John Slawson, Frank H. Karelsen, Max J. Rubin, Hyman Bookbinder, Representative John Lindsey, Senator Allan Ellendar, Senator Pat McNamara, Senator Thomas Dodd, Senator Clifford Case, Representative Emmanuel Celler, and Senator Kenneth Keating.</p>
+          <p>b)	This Audiotape contains all of the opening and closing statements for the interviews conducted by Allan Moll.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">7</container>
+          <unittitle encodinganalog="title">Interview with Goodwin Knight</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 February 26</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this interview Goodwin Knight, former layer as well as former Judge and Governor of the state of California, discusses legal insanity, capital punishment, and unwritten law. Mr. Knight explains the nature of appeals and briefly describes his personal experiences with granting clemency along with his opinion on how fair of a trial a public defender can give.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">8</container>
+          <unittitle encodinganalog="title">Goldwater nomination announcement</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 January 03</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Barry Goldwater announces to the public that he will seek the republican presidential nomination for two main reasons; his personal beliefs coincide with millions of other Americans and there where no other republican candidates with a declaration of conscience or political position that would offer the American people a clear choice. He then takes questions from the media. These questions all reveal his stance on both foreign and domestic policy.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">9</container>
+          <unittitle encodinganalog="title">Lyndon Baines Johnson's State of The Union speech</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 January 08</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>President Johnson addresses congress with many prominent issues and offers his ideas in solving these issues. Among the many domestic and foreign issues he discusses are: civil rights, health needs of the elderly, tax cuts, transit policies, building schools homes and libraries, the war on poverty, social security, immigration, and strengthening Americas alliances. He continues his discussion by pledging to a progressive administration that will address these issues. President Johnson closes his speech with a brief tribute to John F. Kennedy.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">10</container>
+          <unittitle encodinganalog="title">The inauguration of Lyndon Baines Johnson</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 January 20</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Inauguration of Lyndon B. Johnson was opened with the musical number Stars and Stripes Forever preformed by the U.S Marine Core Band and the Tabernacle Choir. This was followed by an Invocation by Reverend George R. Davis. After the Chief Justice Earl Warren administered the Oath of Office to Lyndon B. Johnson, President Johnson spoke of justice, liberty, the Union in his Inaugural Address.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">11</container>
+          <unittitle encodinganalog="title">Special assignment: pornography</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this KHJ broadcasting Special Assignment, Allan Moll conducts an interview with James Clancy, the former Deputy District Attorney who was assigned to obscenity cases. James Clancy reviews the nature of obscenity laws, compares the national standards to community standards and discusses with Allan the difference between hardcore pornography and erotic realism in literature as well as in other forms of the media. Then they discuss the role that congress, the police force and the public play in maintaining morality without infringing on human rights.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">12</container>
+          <unittitle encodinganalog="title">The death of Eddie Cantor</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 October 10</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>To pay tribute to Eddie Cantor who died at age seventy-two, KHJ broadcasting airs excerpts of Bill Bradley conducting an interview with Eddie Cantor. The complete interview can be found in the Archives Museum in Hollywood. Eddie begins by describing how he began his career in show business and how much everything had changed since then. He defines "good" comedy and discusses his accomplishments and ambitions as an entertainer. He then goes on to share his opinion on the future of entertainment. This tribute is brought to a close with a recording of Eddie Cantor singing Aida.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">13</container>
+          <unittitle encodinganalog="title">1964 elections: KHJ election results</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 November 08</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Allan Molls invites special guest Judd Lathen, former Chairman of the G.O.P Central Comity, to discuss election results. In discussing these results, Ted Myers reports on the national round up, George Brown discusses concession, Allan Moll reports on information from the field reporters located at Governor Browns headquarters, and Art Kevin reports on figures at the Local level, Assembly level, State Senate level, and at the Congressional level.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">14</container>
+          <unittitle encodinganalog="title">Historic flight of Gemini</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 March 24</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Marv Rothschild and Art Thompson report on the return of the Gemini space shuttle. Their report contains excerpts from the phone call that President Johnson made to Virgil Grism and John Young, the two returning astronauts as well as excerpts from news broadcasts that where aired the day that Gemini launched into space. Also included are reports from Gemini control on experiments that where conducted during the first orbit, vehicle orbital adjustments, minor complications, and on the retro fire. In closing, Vice President Hubert Humphrey welcomes home the astronauts from the Cape Kennedy Mission Control Center.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">15</container>
+          <unittitle encodinganalog="title">Hollywood special: Richard Brooks</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 October 28</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This is the third interview in the Hollywood Special series. These series contain provocative and objective discussions with outstanding film personalities on the position of the American motion picture in a changing world of revolutionary transformations from war, scientific advancement, as well as developing skills in the arts. In this particular interview, Richard Brooks discusses with Allan Moll his past, present and future accomplishments and his experiences with taking risks as a film director. He also discusses the Hollywood star system and the highly controversial issue of how Hollywood portrays America through film.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">16</container>
+          <unittitle encodinganalog="title">Special assignment: pornography</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 January 21</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this Special Assignment, Art Kevin conducts an interview with Captain Walter Howell and Ernest E. Debbs. Walter Howell discusses the problems that policemen face when trying to make convictions in the vice squad and compares the regulations on modeling studios located in the city as opposed to the county. He also discusses the typical sentencing for prostitution and explains other areas of crime that the vice squad deals with. Ernest E. Debbs discusses the legality of the existence of modeling studios and book and movie stores, the publics' reaction to the existence of such places and explains the process of changing laws to maintain the moral fabric of society.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">17</container>
+          <unittitle encodinganalog="title">1964 elections: election aftermath</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 November 15</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape, audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This Audiotape was dubbed onto an Audiocassette due to very bad condition.</p>
+          <p>This is the eighth and final show in a series of election coverage in which Allan Moll interviews Judge Romney and RKO General Broadcastings' analyst and pollster, Samuel Lubell. In these interviews, issues such as defense spending, the republican struggle and conservative philosophies are discussed. In addition to these interviews, Don Stevens reports on the party votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">18</container>
+          <unittitle encodinganalog="title">1964 elections: presidential primary elections</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this election coverage series, Allan Moll reports from Los Angeles, Carlton Cordell reports from San Francisco, and Norm Woodruff reports from a RKO General Broadcasting mobile unit. Allan Moll introduces the leading candidates for the Presidential elections and the U.S Senate nominations as well as reviews the round up of the percentage of voters in the bay area and the facts about the G.O.P convention. Then Ben Hyte, a registrar of Los Angeles county voting, briefly takes us behind the scenes of voting. Norm Woodruff interviews voters as they exit the booths and recaps their views of the candidates. Carlton Cordell reports on the professional polling organization and Samuel Lubell analyses reports from the Goldwater headquarters in Los Angeles and from the Rockefeller headquarters in San Francisco and predicts the out come of the race. In closing, Allan Moll reviews the early returns.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">19</container>
+          <unittitle encodinganalog="title">1964 elections: presidential primary elections</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Allan Moll, Samuel Lubell, and George Brown discuss the difference between expressing an opinion of the outcome of a race and projecting the outcome of a race. They then go on to discuss the late associated press returns including Presidential and Senatorial results, and the voters' views of the candidates. In an interview with Senator Javits they compare the republican platform for 1960 and 1964 and discuss party unity. Cliff Engle reports on the Bay Area snap tallies from City Hall in San Francisco then the coverage is brought to a close with a statement from Rockefeller followed by questions from the press.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">20</container>
+          <unittitle encodinganalog="title">1964 elections: convention preview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 July 12</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>RKO General Broadcasting newsmen preview the 1964 Republican National Convention in Atlantic City. Lester Smith reports on the New York, New Jersey and Pennsylvania delegations, Al Benjamin and Bill Whelan report on the New England delegations, Don Stevens covers the Dixie delegations, Austin Grant covers the Mid-western delegations, Allan Moll covers the delegations of the Western states, and Carlton Cordell covers the Northwest delegations. Their guests include Ralph Goldwin, a Prophesier of Political Science, and Samuel Lubell, a pollster and political analyst. After reporting on the delegations, each newsman predicts the outcome of the November elections in their designated areas.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">21</container>
+          <unittitle encodinganalog="title">1964 elections: who is ahead</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 October 11</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This is the sixth in a series of eight election coverage specials. Each reporter is assigned to a different area of the Country where he reports on the areas response to different political issues and to the candidates. Lester Smith reports on New York, New Jersey and Pennsylvania, Al Benjamin reports on Boston, Don Stevens reports on the Southern states, Austin Grant covers the Midwest, Allan Moll covers South California and John Holbrook covers the Northwest. Some of the issues that are covered include white front lash and backlash, civil rights, employment and national issues such as communism, world peace, freedom, the defense industry, and nuclear weapons. Allan Moll and Carlton Cordell summarize which candidate is ahead in which areas, which is then analyzed by Samuel Lubell.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">22</container>
+          <unittitle encodinganalog="title">Goldwater interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this interview, Goldwater discusses the California Primary, the July Republican convention in San Francisco, his relations with Rockefeller and domestic and foreign issues. A few of the domestic and foreign issues that he shares his view on are civil rights and the Rumford Act, the prospect of a Cuban invasion, and the Vietnam War. He then discusses how foreign policy effects the November elections.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">23</container>
+          <unittitle encodinganalog="title">1964 elections: Governor Knight and Samuel Lubell</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This election coverage starts out with a review and analysis of the projections and results and is followed by an interview with Rockefellers campaign manager. This is followed by a report from Goldwater headquarters in which Goldwater thanks his supporters and claims a victory for the republicans and the grass roots movement. Following this is a press conference with senator Goldwater live from the Ambassador hotel. In closing, Allan Moll, Samuel Lubell, and George Brown discuss the "stop Goldwater movement" and Samuel Lubell explains the different methods of projecting the outcome of a race and on what basis these projections are made.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">24</container>
+          <unittitle encodinganalog="title">1964 elections: politics</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 April 08</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this analysis of the 1964 elections, Samuel Lubell gives us an inside look at the polls and the significance of the primary elections. In doing this, he explains the different methods that he uses when interviewing voters and explains the process of coming up with accurate projections. In closing Allan Moll reviews the facts that one should know when voting in California including eligibility and when and how to vote.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">25</container>
+          <unittitle encodinganalog="title">President Johnson's congressional address shortly after John F. Kennedy's death</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 November 27</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Mutual Broadcasting Systems brings us live and direct coverage from the House of Representatives. Presidents Johnson opens his address with a brief tribute to John F. Kennedy in which he urges congressmen to continue on with President Kennedys domestic movements. He then moves onto foreign policies discussing the national interest, national action and expansion of foreign trade. After President Johnsons address, an excerpt from America the Beautiful is aired.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">26</container>
+          <unittitle encodinganalog="title">Insanity and the law</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 May 10</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this program, Allan Moll discusses insanity and how the law deals with it with former Governor Goodwin Knight, Melvin Belli, one of the council members for the Jack Ruby trial, Assistant District Attorney Lynn Compton, Chief of Police Parker, and Dr. Lawrence Freedman. They discuss the history of the McNaughtin ruling, temporary insanity verses voluntary manslaughter, granting clemency and the function of physiatrists in criminal cases.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">27</container>
+          <unittitle encodinganalog="title">Viewpoint Los Angeles: interview with Governor Pat Brown</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 January 03</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this interview Governor Pat Brown shares his views on reapportionment, on Senator Kiko running for Governor, and the defeat of Pier Salinger. He discusses taxes in California and the split in the Democratic Party. He goes on to discuss his personal interest in the United States Senate and the Supreme Court.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">28</container>
+          <unittitle encodinganalog="title">Start of the Watts Riots - first bulletin, Gemini VIII</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Allan Moll reports on the beginning of the Watts Riots on KHJ Radio. In this coverage is the number of injuries caused by the riots and the different forms of violence used, what factors went into the cause of the riots, who was involved and the police forces response to the riots.</p>
+          <p>Next on this Audiotape is a report on the Gemini VIII space shuttle. This coverage begins with an excerpt from an interview with Major Scott at the NASA news conference in which Major Scott discusses some of the training required for E.V.A, required equipment and their functions, and contact dynamics.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">29</container>
+          <unittitle encodinganalog="title">The Academy Awards</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 April 05</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This Audiotape contains Allan Moll briefly interviewing the following stars on the night of the Academy Awards: Steve McQueen, Claudia Cardinelli, Angela Lansbury, Johnny Winters, Rear Garson, Rosalyn Russell, Vince Edwards, Merrill Oberon, Carl Molden, Erb Cubsonate, Rock Hudson, Arlene Doll, Elizabeth Ashley, Julie Andrews, Audrey Hepburn, Gladis Cooper and Rex Harrison.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">30</container>
+          <unittitle encodinganalog="title">Hollywood Special: interview with Jimmy Stewart</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 October 21</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this Hollywood Special Allan Moll interviews actor James Stewart who discusses Hollywood film production after World War II, the basic problems that the acting industry faces, and his personal acting history. He also discusses controversial issues such as the Star System, the American image overseas and how the Hollywood film industry effects that image, the future of Hollywood and paid television, run away productions, and actors who switch over to directing or producing movies.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">31</container>
+          <unittitle encodinganalog="title">Hollywood special: interview with Janet Leigh</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 November 08</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this interview conducted by Allan Moll, actress Janet Leigh discusses the role of cinema, Americas image overseas and how Hollywood cinema effects that image, the responsibilities of a producer, Independent films, what it takes to make a blockbuster hit, and the future of Hollywood. She also discusses how being a star has effected her personal life as well as her views on paid television and runaway productions.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">32</container>
+          <unittitle encodinganalog="title">Liftoff of Mercury</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 May 20</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape, audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This Audiotape was dubbed onto an Audiocassette due to bad condition.</p>
+          <p>This is a report from Mercury Control at the time of the Mercury space shuttles liftoff.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">33</container>
+          <unittitle encodinganalog="title">Interview with James Roosevelt</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">January 10</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this interview conducted by Allan Moll, James Roosevelt, Franklin D. Roosevelts son and congressman form the twenty-sixth congressional district, announces his candidacy for the Mayor of Los Angeles. He discusses his views on the influx of so many candidates into the mayoralty race, his relationship with Congressman Bell, politicians who hold one office while running for another, the antiquated city charter, and the role of Mayor. He also discusses his experiences as a congressman, his reasons for running for Mayor, the fight between the Mayor and the city regarding the Whyman machine, his stand on the House of American Activities committee and national issues such as air pollution, Education, and taxation.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">34</container>
+          <unittitle encodinganalog="title">Hollywood Special: interview with Harold Lloyd</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this interview conducted by Allan Moll, Harold Lloyd, a film comedian from the 1920s and 1930s, discusses the role of entertainment, the differences between low budget and high budget films, Americas image overseas and how Hollywood cinema effects that image, and the future of Hollywood. He goes on to discuss his views on the Hollywood star system, the trend of Actors becoming directors or producers, runaway film productions, and his personal interests.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">35</container>
+          <unittitle encodinganalog="title">1965 World Series playback with Sandy Koufax</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Allan Moll reports from the victorious Dodgers Clubhouse where he interviews Sandy Koufax, Dodgers pitcher, Warren Giles, the former Cincinnati representative who moved on to become the President of the National League, and Frank Howard, Dodgers Batter. Sandy Koufax discusses the changes in his pitching from game to game, his view of the Yankees, and his opinions of Frank Howard as a professional batter. In Warren Giles' interview, he discusses his views on the World Series game. In Frank Howards interview, he discusses his batting history, how he felt about the pitches that he received in the World Series game, and his views on Sandy Koufax as a pitcher.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">36</container>
+          <unittitle encodinganalog="title">Winston Churchill's obituary</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 January</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This tribute, narrated by Allan Moll, is opened with the history of Winston Churchills greatest accomplishments and greatest hardships accompanied by excerpts from the speeches that Churchill gave before and during World War II.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">37</container>
+          <unittitle encodinganalog="title">Special assignment: anti-poverty</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 May 30</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this Special Assignment, Allan Moll sits in at City Hall where concerned are discussed regarding a sudden commotion that arose over the local Administration of Anti-Poverty Program and the Youth Opportunities Board. Aired in this program are excerpts from Don Smith who was the core chairman, Augustus Hawkins who was a congressman, Attorney Joseph L. Wyatt, councilmen Tom Bradley and John Haulan, Reverend Brookens and Mayor Sam Yorty. In these excerpts, issues such as the origin of discontent with the Anti-Poverty Program and efforts to resolve the dilemma are discussed. After the sit in, Andy West interviewed Mayor Sam Yorty who discusses his position on the issue at hand and upcoming funds for the Anti-Poverty Program.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">38</container>
+          <unittitle encodinganalog="title">Car smog tests in california</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this program, Allan Moll interviews an unnamed man from the Office of Motor Vehicle Pollution Control Board for the state of California. This motor vehicle pollution expert explains which car parts emit smog and what is being done to reduce the amount emitted. He explains how smog reducing car parts work, their cost, State law requirements for installation of these parts, the adverse effects that they have and the benefits that they offer. He then reviews the statistics for the amount of air pollution that comes from cars, explains the components of smog and inversion levels, and discusses the responsibilities of car owners and manufactures in helping to keep the environment clean and healthy.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">39</container>
+          <unittitle encodinganalog="title">Special assignment:  literacy in America</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">
+          </unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this Special Assignment, Allan Moll interviews Phillip Beck who is the director of a reading institute. In this interview Mr. Beck gives the statistics on the percent of illiterate people in the California population and explains the role that the school systems plays in those figures. He discusses the differences between private and public education and introduces a few different approaches to teach people of all ages to read.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">40</container>
+          <unittitle encodinganalog="title">This is the place; big car auto racing</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947 July 24</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>a)	KDYL Special Events presents the unveiling of This Is The Place in Salt Lake City Utah. The event is opened by a prayer followed by a dedication to the park from President George Albert Smith. In closing we hear from Mahonri M. Young who sculpted the monument from granite found in Cottonwood Canyon.</p>
+          <p>2) At this event, twenty of the greatest dirt tract drivers inaugurate the speed derby at the State Fair Grounds. Allan Moll reviews the concepts behind racing and explains how the point system works. Then he conducts interviews with Sunny Epson and his wife as well as Ebb Stienbach.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">41</container>
+          <unittitle encodinganalog="title">King Cole Trio; "Slow Boat" and "Skunk"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947 September 06</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>a)	Allan Moll announces the live broadcasting of the King Cole trio from Salt Lake City to NBC, coast to coast then they air the performance.</p>
+          <p>b)	Slow Boat and Skunk are two musical pieces that where popular during the 1940sand 50s. The performing artist is unknown.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">42</container>
+          <unittitle encodinganalog="title">National Broadcasting Compnay (NBC) Miles news; world news with Richard Harkness</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1951 May 22</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) In this newscast, Morgan Matty reports on world news such as the condition of the American military forces, Korea, China, Russia, Britain and Iran. In closing, he takes us live to the Dugway Valley blasting.</p>
+          <p>2) In this newscast, Richard Harkness reports on world news such as the spread of Chinese communism, the United Nations and their negotiation plans and the Red Scare in the media and in the government.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">43</container>
+          <unittitle encodinganalog="title">Fisher Brewing newscast by Allan Moll; twilight tapestry</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947 February 21</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) In this newscast Allan Moll reports on President Johnson's request for money to aid the needy people all over the world, on Senator Van Burens request for military strength to stop Russian communism and on an anticipated civil war in India. Mr. Moll then goes into the sports report and finishes with the weather forecast.</p>
+          <p>2) This audio disc contains approximately the first thirty seconds of the music from Twilight Tapestry recorded three different times.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">44</container>
+          <unittitle encodinganalog="title">John Barrymore; Miles news</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950 August 04</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) This audio disc contains John Barrymore's last performance on NBC before his death in readings from various literary works by William Shakespeare.</p>
+          <p>2) In this newscast, Allan Moll reports on American relations with Korea, Russia and London and discusses the atomic energy crisis of the fifties. In closing he reports on news from around the world in two minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">45a-b</container>
+          <unittitle encodinganalog="title">John Barrymore part 1; Charles Denny; John Barrymore Part two</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950 August 10</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) and 3) John Barrymore's last performance on NBC before his death in readings from various literary works by William Shakespeare.</p>
+          <p>2) This is a closed circuit audio disc and is not for re-broadcasting. Charles Denny, the station manager, discusses broadcasting programs and scheduling.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">46a-b</container>
+          <unittitle encodinganalog="title">John Barrymore</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950 August 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950 August 24</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>These audio discs contain John Barrymore's last performance on NBC before his death in readings from various literary works by William Shakespeare.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">47a-d</container>
+          <unittitle encodinganalog="title">Hometown U.S.A.</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1945 September 16</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1945 September 23</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) Hometown U.S.A was a program designed to honor the Continental Air Command. This particular broadcasting begins with Allan Moll conducting an interview with a Lieutenant from the Air Force followed by a reading of the message that Dwight D. Eisenhower sent to the soldiers on D-Day before the attack. This is followed by an excerpt from a Cornel who survived D-Day. In this excerpt he discusses his personal experiences and emotions on and after D-Day.</p>
+          <p>2) Each week Hometown U.S.A honors a different American Air Force Combat Veterans and their hometown. In this broadcasting they honor the veterans Kentucky by listing their names and the names of various companies that assisted in wartime production.</p>
+          <p>3) This audio disc pays homage to Cincinnati with a narrated history of Fort Douglas, Fort Thomas and the wartime production that Cincinnati took part in.</p>
+          <p>d) In this broadcasting of Hometown U.S.A, Allan Moll interviews a pilot who experienced the Berlin Raid first hand. He then turns the time over to the special guest, linguist Jerry Bergin. In closing Allan Moll reads a letter from.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">St. Peter</container>
+          <unittitle encodinganalog="title"/>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">48</container>
+          <unittitle encodinganalog="title">Twilight tapestry; air checks</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Phonograph record, audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side b of this audio disc was dubbed onto an audiocassette due to bad condition.</p>
+          <p>1) and 2) This Twilight Tapestry is composed of a few musical numbers and a story about spring.</p>
+          <p>3) This audio disc contains air checks and various advertisements.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">49</container>
+          <unittitle encodinganalog="title">Pet Milk music show; Town House melodies</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 June 18-19</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) The Pet Milk music show was a musical show that was sponsored by Pet Milk.</p>
+          <p>2) In this broadcasting of Town House Melodies, vocalists Karen Kemple and Bob Hannon perform various musical numbers composed by Noah Collar.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">50</container>
+          <unittitle encodinganalog="title">Wyoming train wreck; the prophet</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1946 November 14</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) Allan Moll reports live from Wyoming by way of short wave radio when two train engines collide.</p>
+          <p>2) This audio disc contains a narrated story of the life of Jesus Christ.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">51</container>
+          <unittitle encodinganalog="title">Richard Harkness; Firestone opera</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947 July 14</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) In this newscast, Richard Harkness reports on the Governors' conference. He covers such issues as rehabilitating war stricken Europe, taxes, the lack of housing in America and savings bond programs.</p>
+          <p>2) This audio disc contains the opera Orpheus and is sponsored by Firestone tires.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">52</container>
+          <unittitle encodinganalog="title">Allan Moll March issue; Zions Cooperative Mercantile Institution (ZCMI) fashion show</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1946 March 17</unitdate>
+          <physdesc>
+            <genreform>Phonograph record</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1) This audio disc contains Allan Moll reading various poems and stories.</p>
+          <p>2) On this audio disc, Allan Moll narrates one of the first fashion shows held at the ZCMI shopping center.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">53</container>
+          <unittitle encodinganalog="title">Valentine show (2004 addendum)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1957 May 29</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">54</container>
+          <unittitle encodinganalog="title">Unidentified audiotape (2004 addendum)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:03 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0807::Mario DeAngelis independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv35531" url="http://archiveswest.orbiscascade.org/ark:/80444/xv35531">UUM_A0807</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Mario DeAngelis independent film collection
+          <date era="ce" calendar="gregorian" normal="2003" encodinganalog="date">2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">DeAngelis (Mario) independent film collection)</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Sara Montgomery.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2005" encodinganalog="date">© 2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Sara Montgomery
+        <date era="ce" calendar="gregorian" normal="2005">2005</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0807</unitid>
+      <unittitle encodinganalog="title">Mario DeAngelis independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="2003" encodinganalog="date">2003</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">DeAngelis, Mario</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">3 DVDs</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Mario DeAngelis independent film collection (2003) consists of short films made while DeAngelis was a film student at the University of Utah.  Most of the films are in the horror genre.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Mario DeAngelis studied film at the University of Utah.  He is an active producer, director and editor in the Utah film industry and the maker of documentary and narrative films. DeAngelis is the director of Salt Lake City's Salty Horror Film Festival, which accepts short and feature film, screenplays, trailers and music in the horror and science fiction horror genres from amateur and professional filmmakers of all ages.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Mario DeAngelis independent film collection (2003) consists of short films made while DeAngelis was a film student at the University of Utah.  Most of the films are in the horror genre.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The majority of the materials are arranged choronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Sara Montgomery in 2005.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject encodinganalog="subject" source="lcsh">Horror</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">"All Night Coffee Shop" with photo gallery and trailer, "The Couch"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>"All Night Coffee Shop":  A short horror narrative about young woman who confesses to sleeping with window open at night because she has dreamt since a small child that a dark figure would come to her at night and abduct her.  While working as a waitress at an all night coffee shop the young woman notes the appearance of a mysterious man in dark clothing in the empty shop.  Hoping for some company, she tries to strike up a conversation with the man who then grabs her wrist and she falls into a vision of sorts in which she is "shown" the emotional consequences which could follow by choosing a life as a vampire.  The vision cures her of her curiosity, and she confesses to a filmmaker that she doesn't desire such a life any longer but has never forgotten the experience.  Extras for this film include a trailer and a stills gallery with behind the scenes production photographs as well as stills from the film.</p>
+          <p>"The Couch":  A silent film with musical accompaniment about two young men who discover an abandoned couch on the side of the road.  After carrying the couch into town, they attempt to transport it via the city's light rail system but can't seem to get it through the doors.  After giving up on the light rail, the men continue to carry the couch when they are accosted by a group of smoking men loitering outside of a bar.  One of the young men carrying the couch gets into a fight with one of the smokers as all others watch the spectacle with little interest.  Finally, one of the smokers intervenes and ends the fight.  All of the men share a cigarette on the couch on the sidewalk outside of the bar and then the smokers assist the young men in carrying it to their apartment.  The film ends with all five men playing video games while sitting on the couch.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">2</container>
+          <unittitle encodinganalog="title">"All Night Coffee Shop"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A short horror narrative about young woman who confesses to sleeping with window open at night because she has dreamt since a small child that a dark figure would come to her at night and abduct her.  While working as a waitress at an all night coffee shop the young woman notes the appearance of a mysterious man in dark clothing in the empty shop.  Hoping for some company, she tries to strike up a conversation with the man who then grabs her wrist and she falls into a vision of sorts in which she is "shown" the emotional consequences which could follow by choosing a life as a vampire.  The vision cures her of her curiosity, and she confesses to a filmmaker that she doesn't desire such a life any longer but has never forgotten the experience</p>
+          <p>DVD</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">3</container>
+          <unittitle encodinganalog="title">"The Projectionist"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A short horror narrative:  A young female usher is cleaning a movie theater before the next show while another young woman sits in the empty theater bound and gagged.  When the usher encounters the bound woman, she takes her to the projectionist room where she and her projectionist boyfriend then murder the bound woman.  The bound woman awakens from a dream and notices the theater in which she sits is empty.  As she exits the theater, the door to the projectionist booth is open and from the doorway the usher and projectionist watch her leave.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

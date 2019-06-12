@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:59 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0718::Old timers Colorado River trip video collection)//EN" encodinganalog="identifier" identifier="80444/xv67361" url="http://archiveswest.orbiscascade.org/ark:/80444/xv67361">UUM_A0718</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Old timers Colorado River trip video collection
+          <date era="ce" calendar="gregorian" normal="19940909/19940914" encodinganalog="date">1994 September 09-14</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Old timers Colorado River trip video collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2006" encodinganalog="date">© 2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2006">2006</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0718</unitid>
+      <unittitle encodinganalog="title">Old timers Colorado River trip video collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="19940909/19940914" encodinganalog="date">1994 September 09-14</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="collector">Cline Library</corpname>
+        <corpname source="lcnaf" encodinganalog="creator" role="collector">University of Utah</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">22 U-matic videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The old timers Colorado River trip video collection (1994) consists of video recordings of an expedition down the Colorado River designed to document changes to the river, its geology and its ecosystem in the years after the construction of the Glen Canyon Dam.  Representatives of the United States Geological Survey (USGS) and veteran river guides were joined by historians and archivists.  This collection includes footage of the river trip, group meetings at Northern Arizona University, and anecdotes by veteran river runners about past journeys and historic rapids.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>In 1994 veteran river runners joined scientists from the United States Geological Survey (USGS) and a group of historians and archivists on an expedition down the Colorado River.  The participants discussed and compared environmental and experiential changes before and after the construction of Glen Canyon Dam and documented their findings with photographs, rephotography to document environmental impacts, and oral histories detailing past experiences on the river.</p>
+      <p>The USGS's Robert H. Webb, Theodore S. Melis, and Richard A. Valdez noted lower water temperatures, fewer sediment-laden flows, sand bar erosion, invasion of non-native tamarisk trees, reduction in driftwood, development of marshes, increase in non-native fish at the expense of native fishes, and increase in water bird populations. Additionally, they found evidence suggesting increases in the frequency of debris flows in the Grand Canyon, decreases in bat populations, and higher swallow and bighorn sheep populations. Perhaps more significantly, the observations and experiences gained from the trip and interviews help offer additional perspectives for Colorado River management.  (From the Cline Library).</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The old timers Colorado River trip video collection (1994) consists of video recordings of an expedition down the Colorado River conducted by the USGS and veteran river runners designed to document changes to the river, its geology and its ecosystem in the years after the construction of the Glen Canyon Dam.  This collection includes footage documenting the scientific changes along the Colorado River and in the Grand Canyon including shots of the river trip, group meetings at Northern Arizona University, and oral histories documenting the shifts and changes in rapids, beaches, flora and fauna.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>For photographs and oral histories from this expedition see the USGS Old-Timers' collection at Northern Arizona University's Cline Library Special Collections and Archives.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2006.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Colorado River (Colo.-Mexico)</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Grand Canyon (Ariz.)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Geology</subject>
+      <subject encodinganalog="subject" source="lcsh">Ecosystem health</subject>
+      <subject encodinganalog="subject" source="lcsh">Rapids</subject>
+      <subject encodinganalog="subject" source="lcsh">Rivers--West (U.S.)</subject>
+      <subject encodinganalog="subject" source="lcsh">Rivers--Recreational use</subject>
+      <subject altrender="nodisplay" source="archiveswest">Environmental Conditions</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Bob W. slide show</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of the Cline Library exterior, the Special Collection Archive viewing exhibits and interior, Bill Mullane in the conservation lab, and the USGS's Robert Webb's slide show with an introduction from Diane Boyer.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Bob W. slide show, Lees Ferry</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Robert Webb's slide show continued. The next scene is of San Francisco peaks, Northern Arizona University campus. The remainder of the tape contains footage of Harvey Butchart and Don Harris and others at Lees Ferry on the Colorado River. Butchart tells a story of going down the river on an air mattress, then discusses early river trips with Harris.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Launching from Lees Ferry</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Preparations for launching a dory and two cataract boats from Lees Ferry on the Colorado River. After they are launched, the boats pass Lees Ferry, Navajo Bridge, and bighorn sheep grazing on the shore. The three boats run Badger Rapid and pulling into Badger Camp. Food preparation begins after a talk by Kenton Grua. Robert Webb begins an evening speech.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Badger Camp evening speech</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Robert Webb's evening speech at Badger Camp continued. This is followed by words from Theodore Melis, Jack Schmidt, and Larry Stevens about the purpose of the trip and the sorts of things that they are each looking for. Robert Webb discusses why people from a wide variety of eras were included in the trip with regards to the scientific changes as well as oral histories. Brad says a few words about the history aspect of the trip, Lew Steiger says a bit about the camera, Richard Valdez tells the purpose of GCES, then Roy Webb discusses the history and importance of preserving information.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Badger to Vasey's</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of the group packing up and leaving Badger camp. Topics discussed include debris flows, rapid formation, rock types on debris fans, 1965 flows, and monitoring beaches that were blown out by debris flow. The group pulls in just above Vasey's Paradise to camp.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Larry Stevens interview, South Canyon</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 09</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of the group pulling into camp just above Vasey's Paradise in South Canyon followed by an interview with Larry Stevens.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">George Wendt interview, South Canyon</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 09</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This tape is composed of an interview with George Wendt in South Canyon.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Hansborough's grave; Bob Rigg interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 10</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Diane Boyer running Brian's boat, with Brian giving advice while eating pickled peppers. Gene Shoemaker and others discussing Royal Arches versus Triple Alcoves. Shot of Gene Shoemaker looking at his book. Turkeys on shore. Motor rig, views of side canyon. Brian and Jack Schmidt talking about being lucky to be alive. Jack Schmidt discusses a particularly nice moment. Passing kayakers. More of Diane Boyer driving, featuring various jaunty angles. Kayaker playing in riffle. Canyon walls, more of people on boats. close up of toilet chair on the back of Alistair Bleifuss' boat. Nice shot of Les studying his scroll map. More views of canyon, people on boats. Pulling into shore at Nankoweap. View of granaries, clouds passing by, Joan Nevills Stavely, Sandy Reiff and Kathryn. Waves on rocks. Canyon walls. Lunch preparations. Richard J. taking pictures, Theodore Melis running the camera. Kayakers in river. Martin pulling in.  Beginning of interiview with Bob Rigg.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">9</container>
+          <unittitle encodinganalog="title">South Canyon</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 10</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Bob Rigg interview continued. Boats on shore. John Jr. says a few words about the Tarahumara Indians in Mexico and Chinese farmers. Theodore Melis discussing group photo pointing at rock fall location. Boats on water and canyon walls. Visit Willie Taylor's grave. Garth Marston says a few words about Taylor. This is a very poignant scene, especially when he begins to cry. Includes views of the plaque marker.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">Gene Shoemaker interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 10</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Interview with Gene Shoemaker. Richard J. shooting people posing in front of cataract boat; Kent with sling shot (no audio). Tad and Bob Rigg talking with "Bugsy", who was on a trip with Tad in 1953.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">Jack Schmidt interview, Nankoweap</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 11</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Bugsy, Tad, Bob Rigg posing in front of cataract boat for Richard J. Then view of photographers. More of Bugsy, Tad, and Bob Rigg. Brian holding heart-shaped piece of chicken in front of his chest. View of Canyon wall. More shooting of crew; camp scenes. John Sr. talking with Woody, Joan Nevills Stavely, Sandy Reiff. Alistair Bleifuss digging through boxes. Martin and Les with ML's tent. Kitchen scenes. Diane Boyer in kitchen. Jan Balsom (very brief footage). Kenton Grua blowing conch for dinner. Views of Canyon. Campfire shots. Scattered conversation, Kenton Grua playing guitar. Ann cooking breakfast. Interview with Jack Schmidt, Nankoweap.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">Jack Schmidt interview continued, Nankoweap</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 11</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Interview with Jack Schmidt continues. View of canyon at Nankoweap. Going down river; views of river and canyon. Jack Schmidt. Garth rowing Kenton Grua's dory. Kwagunt Rapid; some nice close ups of waves. Martin rowing Sequoia with Kent, Roy Webb, Lew Steiger. Followed by cataract boat with Richard Q. rowing. Tom, Alistair Bleifuss fisheying ARR motor rigs. Martin rowing; views of canyon and river. Shots on Brians boat. ARR rigs. Hooking up with ARR rig. Music session with Kurt and an unknown person on banjo and guitar.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13</container>
+          <unittitle encodinganalog="title">ARR</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>ARR concert continues. Brian with his birthday bouquet. Gene Shoemaker at the oars of Kenton Grua's dory. Crew photo matching. John Sr. on boat. Continuing down river to the LCR. Robert Webb, Jack Schmidt, and Gene Shoemaker by a boulder on shore. Kent and Jack Schmidt. Photo matching: Robert Webb, Jack Schmidt, Gene Shoemaker, Kenton Grua, Kent, Richard Q.. Views of LCR. Nice shots of Robert Webb and Gene Shoemaker working on photo matching. Bob Rigg, Robert Webb, Kent, John Sr., and Tad eating lunch. People on shore next to rapid. cataract boat runs through; Brad with Sandy Reiff and Joan Nevills Stavely; Martin next. Rapid; Lew at oars of Sequoia with Kent, Tom, Martin (Nevills Rapid?). Brad with Joan Nevills Stavely and Sandy Reiff in cataract boat; Sandy Reiff fisheyeing. Looking up canyon.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">14</container>
+          <unittitle encodinganalog="title">Canyon scenery</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of the boats running rapids and of canyon scenery.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">15</container>
+          <unittitle encodinganalog="title">Myths of Crystal Rapid</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Stories pertaining to the myths of Crysatl Rapid. The group shares stories of the hydrolic jump and thier experiences with this rapid.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">16</container>
+          <unittitle encodinganalog="title">Crystal Rapid</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The discussion about Crytal Rapid contiunes to include a discussion of Crystal Rapid debris flow.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">17</container>
+          <unittitle encodinganalog="title">Canyon scenery</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of various rapids and canyon views, the group indulging in a water fight then bathing, and Robert Webb talking to the group. The end of the tape contains more scenic shots of the canyon from the boat.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">18</container>
+          <unittitle encodinganalog="title">Brad Dimock and Jerri Ledbetter interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of everyone sitting around the campfire telling stories while eating dinner. Roy Webb talks about the two rapids: Moonshine and School Boy. Bob talks about a 1950's boat named the Esmerelda. Roy Webb adds to the story about the Esmarelda and talks about Willie Taylor and Jimmy Jordan. John Jr. Talks about taking his power boat down the river in the 1970's. The next scenes are of the crew preparing for the day in the early morning. Everyone signs an old oar for Brian's Birthday. The plans are laid out for the day and then the crew is back on the river.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">19</container>
+          <unittitle encodinganalog="title">Garth Marston interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 16</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of the boats running rapids. Everyone pulls over for lunch in Havasu. There are several nice shots of the canyon and the river both from land and boat on this tape. The boats are pulled over at a confluence where people bath and explore. Towards the end of this tape, there is an interview with Garth Marston. He discusses a photo rematch trip in National Canyon.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">20</container>
+          <unittitle encodinganalog="title">Garth Marston interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 16</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Garth Marston interview continued.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">21</container>
+          <unittitle encodinganalog="title">Les Jones interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of the evening clean up, Brian recieving his birthday gift and having cake, and still shots of the canyon followed by slow panoramic shots. The tape ends with Les Jones' interview.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">22</container>
+          <unittitle encodinganalog="title">Recounts of Lava Falls</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Stories about Lava Falls.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:31 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0305::Italian oral history project audio recordings)//EN" encodinganalog="identifier" identifier="80444/xv39376" url="http://archiveswest.orbiscascade.org/ark:/80444/xv39376">UUM_A0305</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Italian oral history project audio recordings
+          <date era="ce" calendar="gregorian" normal="1970/1987" encodinganalog="date">1970-1987</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Italian oral history project audio recordings</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Christopher Drew.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1988" encodinganalog="date">© 1988</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0305</unitid>
+      <unittitle encodinganalog="title">Italian oral history project audio recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1970/1979" encodinganalog="date">1970-1979</unitdate>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1987" encodinganalog="date">1987</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="collector">American West Center</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">34 reel-to-reel audiotapes and 11 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Italian oral history project audio recordings (1970-1987) consist of interviews conducted with Utahns of Italian descent.  Interviews begin with a short biography of the subject and cover topics such as discrimination, labor unions and social events.  The American West Center conducted this and other ethnic oral history projects in an attempt to record the experiences Utah's eithnic minorities.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language> and 
+        <language encodinganalog="language" langcode="ita">Italian</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>In 1964, History professors A. R. Mortensen and Gregory Crampton conceived the University of Utah's American West Center (originally called the Western History Center) as an institution devoted exclusively to research on the American West.  As a part of its mission to create and disseminate knowledge about the American West, the center established the ongoing Ethnic Oral Histories Project to explore the experiences of Utah members of Native American and ethnic immigrant communities, including Italian Americans.</p>
+      <p>Many Italians immigrated to Utah during the late nineteenth and early twentieth centuries.  Although some came because they were Mormon converts, more were attracted to Utah as laborers for the state's railroad and mining industries in Salt Lake, Weber and Carbon Counties.  Although varying degrees of strife existed between the Italian immigrants, other residents of Utah, the Ku Klux Klan, and even between immigrants from Northern and Southern Italy, Italian Americans developed active communities like the "Little Italy" near Salt Lake City's Rio Grande Station and established lodges and societies in mining towns like Bingham and Castle Gate.  Miners joined labor unions and were active in several strikes in the early twentieth century.  The interviews in this collection focus on these early days, but they also more loosely encompass the Italian American experience in Utah from the end of the nineteenth century to the mid-late twentieth century when these oral histories were compiled.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Italian oral history project audio recordings (1970-1987) were recorded initially on reel-to-reel audiotape and later on audiocassettes.  They consist of interviews with subjects who either immigrated directly from Italy or were born in the United States immediately after their parents arrived in this country.  Each interview begins with a short biography of the subject and then expands to include various topics such as discrimination, early union organizational efforts, social events, etc.  Other topics are covered  in this register.  Some of the interviews are in Italian.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged in loose chronological order and by format.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>Transcripts of the Italian oral history project are available in the Manuscripts Division of Special Collections (Accn 1031).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1988.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--History</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--Ethnic relations</geogname>
+      <subject encodinganalog="subject" source="lcsh">Italians--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Italian Americans--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Immigrants--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Children of immigrants--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Italian Americans--Utah--Cultural assimilation</subject>
+      <subject encodinganalog="subject" source="lcsh">Coal mine accidents--Utah</subject>
+      <subject encodinganalog="subject" source="lcsh">Strikes and lockouts--Coal mining--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="box">1</container>
+          <unittitle encodinganalog="title">Reel-to-reel audiotape audiotapes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970-1979</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Joseph Merabelle</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 March 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Joseph Merabelle, who immigrated to the United States from Italy in 1911 and was a founder of the Italian American Civic League.  The interview was conducted in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Frank Notarianni</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 April 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Frank Notarianni, who immigrated to the United States from Italy in 1914. He discusses learning English, gaining citizenship, working for the Union Pacific Railroad, and the culture he found in Utah. The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">3</container>
+            <unittitle encodinganalog="title">Mr. and Mrs. Joseph Cannariato</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 August</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This reel-to-reel audiotape contains a copy of an interview in Italian with Mr. and Mrs. Joseph Cannariato, formerly of Price, Utah.  The interview was conducted by Joseph J. Cannariato in Fair Oaks, California.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">Angelo Calfo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 July 10</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Angelo Calfo, who talks about mining conditions in Carbon County and more personal aspects of his own life including living in a boxcar, starting a hotel and getting married.  The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">Giovanni Canepari</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 July 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview in Italian with Giovanni Canepari.  The interview was conducted by Renzo Canepari and Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6</container>
+            <unittitle encodinganalog="title">Dan Percerelli</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 October 09</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Dan Percerelli, who worked for the Union Pacific Railroad, lost his brother in World War I and spent six months in the Italian army after having spent time in the United States.  The interview was conducted by Phil Notarianni in Magna, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">Al Veltri</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Al Veltri, who speaks on Ku Klux Klan activities in Helper, Utah.  He also talks about integration, experiences in religion, education, Italian superstitions and home remedies, and the Carbon County mine strike.  The interview was conducted by Kent Powell and Phil Notarianni in Helper, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">Stanley V. Litizzette</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Stanley V. Litizzette, who speaks about working in the mines, the strike of 1903, the animosity between Northern and Southern Italians and discrimination towards Italians.  The interview was conducted by Kent Powell and Phil Notarianni in Helper, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Luigi Nicoletti</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 July 23</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview in Italian and some English with Luigi Nicoletti, who briefly describes the village where he was born and the family business ("Ranching").  The interview was conducted by Mrs. Mary Peterson (Nicoletti's daughter) and Phil Notarianni in Midvale, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Catherine Fratto</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 Nevember 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Catherine Fratto, who discusses midwifery, which was used quite often during the era when she was born.  She also tells much about superstitions and home remedies.  The interview was conducted by Phil Notarianni in Hunter, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Mr. and Mrs. Jim Chiodo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 July 11</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Mr. and Mrs. Jim Chiodo.  Chiodo worked for the Denver and Rio Grande (D.&amp;R.G.) Railroad.  The couple witnessed the strike of 1923.  The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Rocco and Paul Razzeca</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 June 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Rocco Razzeca and his son, Paul Razzeca.  Rocco worked as the rigger foreman for Kenneott Copper.  Most of this interview is based upon the recollection of Rocco's son, Paul.  He tells of his father's marriage, United States citizenship, and the treatment of Italians in Tooele.  The interview is conducted by Phil Notarianni in Magna, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">Charles Barber</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 Nevember 28</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Charles Barber, a retired Salt Lake City employee born in 1895 in Pedivigliano, Italy.  He discusses the treatment of Italians in Garfield, differences between Greeks and Italians, unions, strikes, railroad work, World War I, and social organizations.  The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">Fr. Frank Pellgrino</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 November 27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Fr. Frank Pellgrino, who was very knowledgeable about religion and superstition among early Italian immigrants.  He also speaks about liquor activities during the Prohibition period and talks about the 1923 strike in Carbon County and the explosion that killed 179 men.  The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Joe Merabelle</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 January 20</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Joe Merabelle.  The interview revolves completely around early Italian lodges and societies in Utah.  The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">Dr. Joe Dalplaz, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 February 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Dr. Joe Dalplaz, who discusses the Castle Gate coal strike of 1903, the brutality of the company guards, and the Black Hand (Mafia) activity in the area.  The interview was conducted by Phil Notarianni in Helper, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Dr. Joe Dalplaz, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 February 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conclusion of an interview with Dr. Joe Dalplaz, who discusses the Castle Gate coal strike of 1903, the brutality of the company guards, and the Black Hand (Mafia) activity in the area.  The interview was conducted by Phil Notarianni in Helper, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">Sam Siciliano</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 January 03</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Sam Siciliano.  The bulk of this interview centers around Siciliano's father, who immigrated to the United States from Italy in 1889.  The interview was conducted by Phil Notarianni in Salt Lake City, utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">Marion Bonacci Lupo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 June</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Marion Bonacci Lupo, who speaks about her father, Frank Bonacci, and his work with labor unions and the Utah House of Representatives.  Bonacci was a labor leader in Carbon County, and he served as a representative for 12 years, and was the first Italian born citizen to be elected to this position.  This interview also  reveals more about the brutality against union workers, along with the competition that existed between unions at that time.  The interview was conducted by Helen Papnikolas.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">Antonio Guadagnoli, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 June 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Antonio Guadagnoli, who immigrated in 1910 from Grimardi, Italy.  He discusses miners' unions, Sunnyside, and the strike of 1922.  The interview was conducted by Phil Notarianni in Price, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">Antonio Guadagnoli, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 June 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conclusion of an interview with Antonio Guadagnoli, who immigrated in 1910 from Grimardi, Italy.  He discusses miners' unions, Sunnyside, and the strike of 1922.  The interview was conducted by Phil Notarianni in Price, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">22</container>
+            <unittitle encodinganalog="title">Joseph Cannariato</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 June 14</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Joseph Cannariato, who speaks about the strikes in 1913 and 1922 and a lynching in 1925, as well as the Black Hand, the Works Progress Administration (WPA), and Italian beliefs and superstitions.  The interview was conducted by Phil Notarianni in Price, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">23</container>
+            <unittitle encodinganalog="title">John Bernardo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 July 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with John Bernardo, who provides information on "Little Italy," his days while working, and union progress and strength.  The interview was conducted by Phil Notarianni in Magna, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">"Essay on the Mafia": a CBS News Special</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 June 25</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This reel-to-reel audiotape is an off-air recording of the CBS News Special, "Essay on the Mafia", which explores subjects including: Italian writer Luigi Barzini, Italian rally participants, the film <emph render="italic">The Godfather</emph>, Mafia gang war, the size of the Italian American community, ethnic crime, clanishness in Sicily, Southern Italy, the immigrant experience, the Arkansas Italian community, Prohibition and the Mafia, and the shooting of Joe Columbo.  The program was recorded by Phil Notarianni.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">Harold Nielsen</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 July 20</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Harold Nielsen, who was a teacher in Bingham, UT.  He gives his views and recollections of the various ethnic groups in Bingham.  The interview was conducted by Vince Mayer and Phil Notarianni in Sandy, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">26</container>
+            <unittitle encodinganalog="title">Mike and Joe Lewis, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 June 26</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Mike and Joe Lewis, who discuss prejudices that existed against Italians early during the 20th century.  The interview was conducted by Phil Notarianni in Magna, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">27</container>
+            <unittitle encodinganalog="title">Mike and Joe Lewis, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 June 26</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conclusion of an interview with Mike and Joe Lewis, who discuss prejudices that existed against Italians early during the 20th century.  The interview was conducted by Phil Notarianni in Magna, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">28</container>
+            <unittitle encodinganalog="title">Margaret B. Bertolina</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 July 12</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Margaret B. Bertolina, who speaks at length about her family's store in Helper, Utah.  The interview was conducted by Phil Notarianni in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">29</container>
+            <unittitle encodinganalog="title">Louis Falvo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Louis Falvo, who tells briefly of life in Italy, his immigration to the United States and how he got started in business.  The interview was conducted by Phil Notarianni in Magna, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">30</container>
+            <unittitle encodinganalog="title">Joseph Tome, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 July 31</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Joseph Tome, who discusses his early years in Italy, his family's move to the United States in 1913, Ellis Island, and the ship to the United States. Tome recalls his first jobs, playing in an orchestra, working in Nevada, having currency in gold, and his military service. He talks about Lodge No. 68, single men, lodge activities, and his blacksmith work. He also discusses various ethnic populations in Bingham, Utah, Prohibition, the Ku Klux Klan, the Lopez incident, the Depression, and World War II.  The interview was conducted by Phil Notarianni in Sandy, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">31</container>
+            <unittitle encodinganalog="title">Joseph Tome, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 July 31</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conclusion of an interview with Joseph Tome, who discusses his early years in Italy, his family's move to the United States in 1913, Ellis Island, and the ship to the United States. Tome recalls his first jobs, playing in an orchestra, working in Nevada, having currency in gold, and his military service. He talks about Lodge No. 68, single men, lodge activities, and his blacksmith work. He also discusses various ethnic populations in Bingham, Utah, Prohibition, the Ku Klux Klan, the Lopez incident, the Depression, and World War II.  The interview was conducted by Phil Notarianni in Sandy, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">32</container>
+            <unittitle encodinganalog="title">Rose and Charlie Leonelli</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 August 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Rose and Charlie Leonelli, who discuss ethnic communities in Tooele, along with union activities, the Depression, and Italian Prisoners of War.  The interview was conducted by Phil Notarianni in Tooele, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">33</container>
+            <unittitle encodinganalog="title">Antonio Guadagnoli</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 August 08</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Antonio Guadagnoli, who speaks about the Sunnyside Italian Band.  The interview was conducted by Phil Notarianni in Price, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">34</container>
+            <unittitle encodinganalog="title">Vincent Massari</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 September 14</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Intervew with Vincent Massari, who talks about family life in Italy and his father's labor union strikes, including The United Mine Workers Strikes of 1898 and 1914.  The interview was conducted by Phil Notarianni and Joe Stipanovich in Pueblo, Colorado.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="box">2</container>
+          <unittitle encodinganalog="title">Audiocassettes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">Mary Juliano, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 May 02</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Mary Juliano, who discusses Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2</container>
+            <unittitle encodinganalog="title">Mary Juliano, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 May 02</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Mary Juliano, who discusses Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3</container>
+            <unittitle encodinganalog="title">Phillip Notarianni, Jr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 July 30</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Philip Notarianni, Jr., who discusses Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">Phil Notarianni: "Italians in Helper Utah"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Material about Italians living and working in the town of Helper, Utah.  Phil Notarianni is currently (as of June 2008) the Director of the Utah State Historical Society.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5</container>
+            <unittitle encodinganalog="title">Vito Bonaci, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 18</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Vito Bonaci, who discusses Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6</container>
+            <unittitle encodinganalog="title">Vito Bonaci, part 2; Filomena (Fazzio) Bonaci</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 18</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>One side of this audiocassette contains the conclusion of an interview with Vito Bonaci, who discusses Italian American experiences in Utah.  The other side contains an interview with Filomena (Fazzio) Bonaci.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7</container>
+            <unittitle encodinganalog="title">Joseph S. Bonaci</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 18</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Joseph S. Bonaci, who discusses Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">8</container>
+            <unittitle encodinganalog="title">Mary (Angotti) Palomi and John Angotti, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 19</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with Mary (Angotti) Palomi and John Angotti, who discuss Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">9</container>
+            <unittitle encodinganalog="title">Mary (Angotti) Paloni and John Angotti, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 19</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conclusion of an interview with Mary (Angotti) Paloni and John Angotti, who discuss Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10</container>
+            <unittitle encodinganalog="title">Oliveto Sisters, part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 October 22</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview with the Oliveto Sisters: Helen O. Smith, Rose O. Craven, Jennie O. Felice and Angelina O. King, who discuss Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">11</container>
+            <unittitle encodinganalog="title">Oliveto Sisters, part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 October 22</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Conclusion of an interview with the Oliveto Sisters: Helen O. Smith, Rose O. Craven, Jennie O. Felice and Angelina O. King, who discuss Italian American experiences in Utah.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

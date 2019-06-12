@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="file:///C|/Manuscripts/X-EAD/ss-committee.xsl" type="text/xsl"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">  
+    <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">	
+	<eadid countrycode="US" mainagencycode="US-UUML" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A1045::East Carbon High School Audio Visual Collection)//EN" encodinganalog="identifier" identifier="80444/xv64367">UUM_A1045</eadid>
+        
+        <filedesc>		            
+            <titlestmt>                
+                <titleproper encodinganalog="title">Guide to the East Carbon High School Audio Visual Collection
+				<date type="inclusive" era="ce" calendar="gregorian" normal="1959/1980" encodinganalog="date">1959-1980></date>
+                </titleproper>
+                
+                <titleproper type="filing" altrender="nodisplay"> East Carbon High School audio visual Collection</titleproper>
+                
+                <author encodinganalog="creator">Finding aid created by Ellyx Jolley</author>                                
+                                
+            </titlestmt>            
+            
+  		<publicationstmt>
+        	<publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        		<address>
+          			<addressline>295 South 1500 East</addressline>
+          			<addressline>Salt Lake City, Utah 84112-0860</addressline>
+          			<addressline>801-581-8864</addressline>
+					<addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        		</address>
+        	<date era="ce" calendar="gregorian" normal="2014">2014</date>			
+      	</publicationstmt>                      
+        </filedesc>
+        
+        <profiledesc>            
+            <creation>Encoded in Adobe Dreamweaver by Ellyx Jolley
+			<date era="ce" calendar="gregorian" normal="2014">2014</date>.
+			</creation>
+            
+            <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+            
+            <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>            
+        </profiledesc>
+    
+    </eadheader>
+    
+    <archdesc level="collection" type="inventory" relatedencoding="dc">        
+        <did>
+            
+	<repository>
+        <corpname encodinganalog="publisher">J. Willard Marriott Library, University of Utah</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+		  <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+		  <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+    </repository>	    
+            
+            <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-UUML">A1045</unitid>
+			
+			 <origination>                
+                <persname source="lcnaf" encodinganalog="creator" role="creator">East Carbon Museum</persname>
+            </origination>
+            
+            <unittitle encodinganalog="title">East Carbon High School audio visual collection</unittitle>
+            
+            <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1959/1980" encodinganalog="date">1959-1980</unitdate> 
+			            
+            <physdesc>                             
+                <extent encodinganalog="format">68 16mm film, 5 reel-to-reel audiotapes></extent>                
+            </physdesc>
+            
+            <abstract encodinganalog="description">This collection houses a variety of cultural audio and video clips of East Carbon High School. Ranging from sporting events to school dances, the films and audio reels provide multiple first hand accounts of the high school from 1959 to 1980.</abstract>            
+
+            <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>		
+            
+        </did>			
+		
+
+	    <bioghist encodinganalog="description">
+            <head>Historical Note</head>
+            <p>East Carbon High School was initially part of Dragerton before the incorporation of Dragerton and Columbia in 1973 that created East Carbon City. The high school, however, held the name from 1958 when the name and Viking mascot were appointed to the school. It remained one of the major high schools of Carbon County until 2005 when it was torn down and replaced by Bruin Point Elementary.</p>
+        </bioghist>
+		
+		<scopecontent encodinganalog="description">
+            <p>This collection has been digitized and is available on compact disc.</p>
+        </scopecontent>
+		
+		<arrangement encodinganalog="description">
+            <p>Ordered by chronology and format.</p>
+        </arrangement>		
+	
+		<accessrestrict encodinganalog="rights">
+            <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+        </accessrestrict>
+		
+		<userestrict encodinganalog="rights">
+            <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+            <p>Permission to publish material from the East Carbon High School Audio Visual Collection must be obtained from the Special Collections Multimedia Archivist.</p>
+        </userestrict>
+		
+		<prefercite>            
+            <p><emph render="italic">Initial Citation:</emph>
+                East Carbon High School Audio Visual Collection A1045, 
+                Special Collections and Archives. University of Utah, J. Willard Marriott Library. Salt Lake City, Utah.</p>
+            <p><emph render="italic">Following Citations:</emph>A1045.</p>            
+        </prefercite> 
+		
+		<acqinfo>
+            <p>Donated by East Carbon Museum in 2010.</p>
+        </acqinfo>               
+        
+        <processinfo>
+            <p>Processed by Cristine Baggerly.</p>
+        </processinfo>       
+
+        <controlaccess>
+			
+			<subject altrender="nodisplay" source="nwda" encodinganalog="690">Utah</subject>
+			<subject altrender="nodisplay" source="nwda" encodinganalog="690">Elementary and Secondary Education</subject>
+			<subject altrender="nodisplay" source="nwda" encodinganalog="690">Sports and Recreation</subject>
+			<subject altrender="nodisplay" source="nwda" encodinganalog="690">Student Life</subject>
+			<genreform encodinganalog="type" source="aat">Moving images</genreform>
+			<subject encodinganalog="subject" source="lcsh">High school</subject>
+			<geogname encodinganalog="coverage" source="lcnaf" role="subject">Carbon County (Utah)</geogname>
+		
+			
+			
+			
+		</controlaccess>
+ 
+        <dsc type="combined">
+        
+
+			<c01 level="item">                    
+                    <did>                        
+                        <container type="reel">1</container>                        
+                        <unittitle encodinganalog="title">East Carbon vs. Monticello 1959</unittitle> 
+						<unitdate type="inclusive" datechar="creation" normal="1959" era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>                               
+						<physdesc>
+		  					<genreform>16mm film</genreform>
+							<physfacet>Color, no sound, grainy, 14:36 minutes</physfacet>
+		 				</physdesc>              
+                    </did>             
+					<scopecontent encodinganalog="description">
+						<p>East Carbon plays football against Monticello.</p>
+					</scopecontent>
+			</c01>       					               
+			<c01 level="item">
+				<did>
+				<container type="reel">2</container>
+				<unittitle encodinganalog="title">East Carbon vs. San Juan 1964</unittitle>
+				<unitdate type="inclusive" datechar="creation" normal="1964" era="ce" calendar="gregorian" 			encodinganalog="date">1964</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 8:03 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against San Juan at home. East Carbon wins 73-49. In the final shot, fans and players can be seen milling around the court. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">3</container>
+				<unittitle encodinganalog="title">East Carbon vs. Green River 1965-1966</unittitle>
+				<unitdate type="inclusive" normal="1965/1966" era="ce" calendar="gregorian" encodinganalog="date">1965-1966</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 11:33 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Green River at Green River. East Carbon wins 57-71. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">4</container>
+				<unittitle encodinganalog="title">East Carbon vs. Notre Dame 1965-1966</unittitle>
+				<unitdate type="inclusive" normal="1965/1966" era="ce" calendar="gregorian" encodinganalog="date">1965-1966</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 11:02 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Notre Dame at home. East Carbon wins 59-32.  
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">5</container>
+				<unittitle encodinganalog="title">East Carbon vs. Green River 1966-1967</unittitle>
+				<unitdate type="inclusive" normal="1966/1967" era="ce" calendar="gregorian" encodinganalog="date">1966-1967</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 8 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Green River at Green River. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">6</container>
+				<unittitle encodinganalog="title">East Carbon vs. Notre Dame 1966-1967</unittitle>
+				<unitdate type="inclusive" normal="1966/1967" era="ce" calendar="gregorian" encodinganalog="date">1966-1967</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 8:41 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Notre Dame at home. East Carbon wins 54-44. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">7</container>
+				<unittitle encodinganalog="title">East Carbon vs. San Juan 1966-1967</unittitle>
+				<unitdate type="inclusive" normal="1966/1967" era="ce" calendar="gregorian" encodinganalog="date">1966-1967</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 8:50 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against San Juan at home. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">8</container>
+				<unittitle encodinganalog="title">East Carbon vs. Green River 1968</unittitle>
+				<unitdate type="inclusive" normal="1968" era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 5:57 minutes, poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Green River at home. During the game, there is a small clip of East Carbon cheerleaders doing a routine. East Carbon won 77-52. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">9</container>
+				<unittitle encodinganalog="title">East Carbon vs. Moab 1968</unittitle>
+				<unitdate type="inclusive" normal="1968" era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 5:54 minutes, intermittent parts of poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Moab at home. East Carbon wins 63-55. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">10</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello 1968</unittitle>
+				<unitdate type="inclusive" normal="1968" era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 8:48 minutes, film is washed out</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Monticello at home. East Carbon wins 61-59. 
+					</p>
+					</scopecontent>
+			</c01>	
+				<c01 level="item">
+				<did>
+				<container type="reel">11</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello, October 1969</unittitle>
+				<unitdate type="inclusive" normal="1969" era="ce" calendar="gregorian" encodinganalog="date">1969</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 10:56 minutes, intermittent parts of poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Monticello. </p>
+					</scopecontent>
+			</c01>
+				<c01 level="item">
+				<did>
+				<container type="reel">12</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello (34-6), September 24, 1971</unittitle>
+				<unitdate type="inclusive" normal="19710924" era="ce" calendar="gregorian" encodinganalog="date">1971 September 24</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 11:02 minutes, intermittent parts of poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Monticello.  
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">13</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello (14-8) 1972</unittitle>
+				<unitdate type="inclusive" normal="1972" era="ce" calendar="gregorian" encodinganalog="date">1972</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 16:54 minutes, poor quality from beginning to 1:15 then improves</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Monticello.  
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">14</container>
+				<unittitle encodinganalog="title">East Carbon vs. North Sevier (7-0) 08/31/1973</unittitle>
+				<unitdate type="inclusive" normal="19730831" era="ce" calendar="gregorian" encodinganalog="date">1973 August 31</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 16:55 minutes, grainy, low contrast</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against North Sevier. It begins with a cheerleading routine until 3:23 and then the game plays for the rest of the film.   
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">15</container>
+				<unittitle encodinganalog="title">East Carbon vs. San Juan (20-21) 1973</unittitle>
+				<unitdate type="inclusive" normal="1973" era="ce" calendar="gregorian" encodinganalog="date">1973</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 16:59 minutes, blurry, low contrast</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against San Juan. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">16</container>
+				<unittitle encodinganalog="title">East Carbon vs. Altamont (27-0), Homecoming, 1973</unittitle>
+				<unitdate type="inclusive" normal="1973" era="ce" calendar="gregorian" encodinganalog="date">1973</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 13:29 minutes, low contrast</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Altamont.
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">17</container>
+				<unittitle encodinganalog="title">East Carbon vs. Green River(28-8)</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 16:57 minutes, low contrast, blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Green River
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">18</container>
+				<unittitle encodinganalog="title">Moab vs Monticello (8-0)</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 16:55 minutes, grainy, blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> Moab plays football against Monticello. The video begins off with a different game, then switches to another game which is filmed in much better quality.   
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">19</container>
+				<unittitle encodinganalog="title">East Carbon Basketball Game (75-28)</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 8:50 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball at home. East Carbon is the team in white. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">20</container>
+				<unittitle encodinganalog="title">East Carbon vs. Park City, Nov. 1961</unittitle>
+				<unitdate type="inclusive" normal="1961-11" era="ce" calendar="gregorian" encodinganalog="date">November 1961</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 16:17 minutes, grainy, blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Park City at East Carbon High. Throughout film, there are shots of students and parents in the stands as well as cheerleaders on the side of the field. At the end, there is a shot of people rushing the field.   
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">21</container>
+				<unittitle encodinganalog="title">East Carbon vs. Green River and Moab</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated1</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, recorded in reverse, 5:35 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball against Green River and Moab at East Carbon. This video is in reverse. <!--FIX THIS--> 
+					</p>
+					</scopecontent>
+			</c01>	
+			<c01 level="item">
+				<did>
+				<container type="reel">22</container>
+				<unittitle encodinganalog="title">East Carbon vs. San Juan </unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, washed out, 30:03 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays basketball <!--Maybe a mix up between 21 and 22-->
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">23</container>
+				<unittitle encodinganalog="title">Basketball Leauge Games 1965</unittitle>
+				<unitdate type="inclusive" normal="1965" era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, sound, 14:10 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> This is a video put on by the Small Business Adminstrations promoting print advertising for small business. It attempts to prove this through the help of a journalist seeking an interview with a new small business owner. Throughout the video, the journalist shows the price of no advertising as well as the increase of business with print advertising. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">27</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello, 1972</unittitle>
+				<unitdate type="inclusive" normal="1972" era="ce" calendar="gregorian" encodinganalog="date">1972</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 12:56 minutes, blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Monticello at Monticello. East Carbon loses 12-0. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">28</container>
+				<unittitle encodinganalog="title">East Carbon vs. San Juan, 1972</unittitle>
+				<unitdate type="inclusive" normal="1972" era="ce" calendar="gregorian" encodinganalog="date">1972</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 13:13 minutes, blurry </physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against San Juan at San Juan. East Carbon wins 12-7. 
+					</p>
+					</scopecontent>
+			</c01>	
+			<c01 level="item">
+				<did>
+				<container type="reel">29</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello (15-20), 1973</unittitle>
+				<unitdate type="inclusive" normal="1973" era="ce" calendar="gregorian" encodinganalog="date">1973</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 6:47 minutes, blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Monticello. There is also a performance by  East Carbon cheerleaders.    
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">30</container>
+				<unittitle encodinganalog="title">East Carbon vs. South Summit (6-42), Quarter Final 1974</unittitle>
+				<unitdate type="inclusive" normal="1974" era="ce" calendar="gregorian" encodinganalog="date">1974</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 13:30 minutes, fading</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against South Summit. East Carbon players are in the light blue uniforms with red helmets. Midway through the game, it begins to snow. East Carbon loses 6-42 and the video ends with shots of the landscape and the clean up. 
+					</p>
+					</scopecontent>
+			</c01>	
+			<c01 level="item">
+				<did>
+				<container type="reel">31</container>
+				<unittitle encodinganalog="title">East Carbon vs. Emory(25-7) 1974</unittitle>
+				<unitdate type="inclusive" normal="1974" era="ce" calendar="gregorian" encodinganalog="date">1974</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 13: 23 minutes, blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays Emory at East Carbon. The game continues well after it gets dark, effecting some of the film quality. 
+					</p>
+					</scopecontent>
+			</c01>					
+			<c01 level="item">
+				<did>
+				<container type="reel">32</container>
+				<unittitle encodinganalog="title">East Carbon vs. Duschesne(47-0) 1974</unittitle>
+				<unitdate type="inclusive" normal="1974" era="ce" calendar="gregorian" encodinganalog="date">1974</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, <!--need a runtime--> </physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Duschesne possibly at East Carbon. The game is played at night under the lights. 
+					</p>
+					</scopecontent>
+			</c01>		
+			<c01 level="item">
+				<did>
+				<container type="reel">33</container>
+				<unittitle encodinganalog="title">East Carbon vs. Provo (6-23) 1975</unittitle>
+				<unitdate type="inclusive" normal="1975" era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 13:16 minutes, slightly blurry</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Provo at East Carbon.  
+					</p>
+					</scopecontent>
+			</c01>	
+			<c01 level="item">
+				<did>
+				<container type="reel">34</container>
+				<unittitle encodinganalog="title">East Carbon vs. Monticello (15-20) 1973</unittitle>
+				<unitdate type="inclusive" normal="1973" era="ce" calendar="gregorian" encodinganalog="date">1973</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 13:33 minutes, blurry </physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Monticello.  
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">35</container>
+				<unittitle encodinganalog="title">East Carbon vs. Beaver(39-0) 1975</unittitle>
+				<unitdate type="inclusive" normal="1975" era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 6:34 minutes, color deterioration</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Beaver at Beaver(Wildcat Mascots). The quality of this video cuts in and out.  
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">36</container>
+				<unittitle encodinganalog="title">East Carbon vs. Park City 09/12/1980</unittitle>
+				<unitdate type="inclusive" normal="19800912" era="ce" calendar="gregorian" encodinganalog="date">1980 September 12</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 13:10 minutes, blue toned</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Park City at East Carbon. There are shots of the scoreboard, but they are too washed out to see who won.  
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">37</container>
+				<unittitle encodinganalog="title">East Carbon vs. GRO(12-0) 1975</unittitle>
+				<unitdate type="inclusive" normal="1975" era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, no sound, 9:58 minutes, grainy, washed out</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against GRO at East Carbon
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">38</container>
+				<unittitle encodinganalog="title">East Carbon vs. Morgan 1969</unittitle>
+				<unitdate type="inclusive" normal="1969" era="ce" calendar="gregorian" encodinganalog="date">1969</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 16:51 minutes, grainy</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Morgan as titled; however, the game is played on Monticello High School's field. The game ends 34-6 Morgan.   
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">39</container>
+				<unittitle encodinganalog="title">East Carbon vs. Beaver(0-39) 1975</unittitle>
+				<unitdate type="inclusive" normal="1975" era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 17:02 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Beaver at East Carbon. This is only the first half of the game as the cheerleaders perform their half time routine right before this video ends. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">40</container>
+				<unittitle encodinganalog="title">East Carbon vs. Juab, 3rd Quarter</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:26 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Juab at Juab. This portion is only the first part of the third quarter ending with a score of 6-18, East Carbon. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">41</container>
+				<unittitle encodinganalog="title">East Carbon vs. Juab, 3rd and 4th Quarter</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:32 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Juab at Juab. This portion is the second part of the 3rd quarter and the beginning of the 4th. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">42</container>
+				<unittitle encodinganalog="title">East Carbon vs. Juab, 4th Quarter</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:27 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against Juab at Juab. This is the final part of the 4th quarter ending with a score of 6-34, East Carbon. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">43</container>
+				<unittitle encodinganalog="title">Snow Invitational Track, April 1970, Carl-Shot Put</unittitle>
+				<unitdate type="inclusive" normal="1970-04" era="ce" calendar="gregorian" encodinganalog="date">1970 April</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:27 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon competes at Snow College for the invitational. This a boys only track meet in which the film shows javelin and discus throwing, different types of track including sprints, hurdles, and relays, as well as the shot put and awards. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">44</container>
+				<unittitle encodinganalog="title">Snow Invitational Track Meet, April 1970, Part II</unittitle>
+				<unitdate type="inclusive" normal="1970-04" era="ce" calendar="gregorian" encodinganalog="date">1970 April</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:27 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon competes at Snow College for the invitational. This shows different teams competeing at pole vaulting, shot put, multiple running races like hurdles and sprints, and also discus. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">45</container>
+				<unittitle encodinganalog="title">East Carbon vs. unknown team #1</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 6:40 minutes, washed out</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against an unknown team. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">46</container>
+				<unittitle encodinganalog="title">East Carbon vs. unknown team #2</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 16:53, detriorated film in parts</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against an unknown team at East Carbon. East Carbon wears the red helmets and blue jerseys. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">47</container>
+				<unittitle encodinganalog="title">East Carbon vs. unknown team #3</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:30 minutes, cracking on film, poorer quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against an unknown team. East Carbon wears the red helmets. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">48</container>
+				<unittitle encodinganalog="title">East Carbon vs. unknown team #4</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:22 minutes, cracked film</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> East Carbon plays football against an unknown team. East Carbon wears the red helmets. 
+					</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">49</container>
+				<unittitle encodinganalog="title">Pictorial History 1961/1962</unittitle>
+				<unitdate type="inclusive" normal="1961/1962" era="ce" calendar="gregorian" encodinganalog="date">
+					1961/1962</unitdate>
+				<physdesc>
+					<genreform> 16mm film</genreform>
+					<physfacet>Color, no sound, 38:08 minutes</physfacet>
+					</physdesc>
+				</did>
+				<c02 level="item">
+					<did>
+					<container type="section">1</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Students</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>This section of the footage depicts students in a variety of academic situations. It begins with students walking into school followed by a female PE class. Then, students can be seen entering and dining in the lunchroom. The next scene is of students dressed in costume, posing in the front of the school. It cuts to students leaving school before cutting back to students dressed in costume again.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">2</container>
+					<unittitle encodinganalog="title">Classroom</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>The first scene in this section is of boys working on leather projects. The camera man says something to the boys and they all look into the camera. The next scene depicts a student giving a presentation to a classroom. The next few scene show the library, various hallways, and classroom. It then cuts to the basketball team getting a pep talk and visitors sitting around the gym.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">3</container>
+					<unittitle encodinganalog="title">Cheerleading</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>The girls begin by posing for the camera. Then, they go through two different routines: one without pom-poms, one with them.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">4</container>
+					<unittitle encodinganalog="title">Swimming/Diving</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>The first shot is boys diving into a pool for a freestyle race. It cuts between a few different stroke races and then gives a wide shot of the pool and spectators. Some of the boys appear to be wearing Utah gear. Boys diving on the low diving board is shown next before it cuts back to swimming. After a few more shots of boys swimming, divers go off the high jump. There are a few serious dives that have been slowed down and then a few silly dives, where the athletes are playing.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">5</container>
+					<unittitle encodinganalog="title">Biology Lab</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Students sit in a classroom filled with different test tubes and colored liquids. Both male and female students are working with these objects. It cuts to different students milling around the school and then to a typing class. The next scene depicts students dissecting star fish.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">6</container>
+					<unittitle encodinganalog="title">School Dance</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Students and chaperones are shown sitting around tables, conversing. It cuts to dancing where the students have coupled up. There are multiple different dances shown before it cuts back to another lab scene where students are dissecting frogs.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">7</container>
+					<unittitle encodinganalog="title">Dance Performance</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>It opens with female students dressed in 1920 flapper style dresses doing the Charleston. There are between 15 and 20 girls dancing in a line. The footage continues with other students singing and dancing, but the quality is very poor during these parts. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">8</container>
+					<unittitle encodinganalog="title">Party</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>The final section of this reel shows female students preparing punch and cookies before it cuts to people drinking and conversing in the same room. 
+					</p>
+					</scopecontent>
+				</c02>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">50</container>
+				<unittitle encodinganalog="title">Pictorial History 1962/1963</unittitle>
+				<unitdate type="inclusive" normal="1962/1963" era="ce" calendar="gregorian" encodinganalog="date">
+					1962/1963</unitdate>
+				<physdesc>
+					<genreform> 16mm film</genreform>
+					<physfacet>Color, no sound, 50:26 minutes</physfacet>
+					</physdesc>
+				</did>
+				<c02 level="item">
+					<did>
+					<container type="section">1</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">School</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Adults and student gather around outside and proceed to eat food from a cafeteria. The next scene is students, both male and female, walking into school. Students sit in classrooms, waiting for others to arrive on the first day of school. It cuts to students standing around outside while girls cheer, and then, a man gives a speech or announcement to the group. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">2</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Parade</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>It begins with men in uniform carrying various flags. They are followed by a student band riding in a car, the high school royalty dressed in gowns, and a boy covered in gold paint, holding a globe and shield. As the parade continues, the cheerleaders and various other floats proceed by the camera man, including the small child dressed as a Viking, East Carbon High’s mascot. 			
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">3</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Football</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					Students play a football game, white and blue vs red and blue. The homecoming royalty are shown in their dresses and then the rest of the game is played.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">4</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Costumed Students</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					Girls and boys stand outside the school in silly costumes. Many of the girls are covered in makeup, more ridiculous than accurate. After various students in costume are seen, it cuts to the students, still in costume, eating in the lunch room. Inside, the camera cuts to the lunch ladies and then back outside to students in costumes, this time with the boys dressed as girls running through the frame.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">5</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Cheerleaders</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					This is a dance routine by cheerleaders in green skirts and white sweaters. The little Viking mascot also performs with them. Another set of cheerleaders in red and white and blue dresses join these girls. The basketball players proceed to run through clapping cheerleaders.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">6</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Dancing</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					The sections begins with girls dressed in 1920s flapper girl dresses performing the can-can and the Charleston in line. The quality cuts out severely, but two children and a man dance. The film continues with other performances that are hard to decipher due to the quality. The cuts back to the flapper girls performing with varying film quality. The end of this section shows couples in their costumes standing around the gym, posing for the camera.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">7</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Flower Ladies</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					The next scene is of women wearing flower corsages in the office. They pose for the camera and then go about their business. It cuts to girls playing jacks in the hallway, sitting around, talking. Next, students are playing games outside including hopscotch. Three girls stand around in front of the camera, laughing and giggling. It cuts back to the women in the office.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">8</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Cheerleaders</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					 This is another section with the cheerleaders performing their routine, most likely as practice because no one is around watching them.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">9</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Hanging Out</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					The scene opens with guys and girls sitting against a brick wall, messing around and studying. It shows more people sitting in the school yard. The next part is the students dissecting frogs. It cuts to geometry class and then students walking into class.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">10</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Fashion Show</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					This section depicts a student fashion show. Girls dressed in a variety of different outfits walk on the stage and proceed to walk off stage with the help of boys. There are multiple different types of outfits including day wear, night wear, and children’s clothing.  It then cuts to students at a dance with couples dancing around the decorated room.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">11</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Track</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					This section begins with boys running around the track doing relay races. It then shows medals being handed out. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">12</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Barbecue</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					Girls and guys stand around the cafeteria and outside, grilling and dishing out different types of food. Students sit around chatting while they eat. It ends with a shot of boys standing outside a coal mine.
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">13</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Canyons Trip</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>
+					The opening shots show students sitting on the bus. Then, there are shots of canyons and land formation as people hike around. Girls and guys play volleyball and throw water at each other. Some girls sit in bathing suits and others play in water. A couple of girls and guys get in a water fight, tossing water at each other and posing for the camera.
+					</p>
+					</scopecontent>
+				</c02>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">51</container>
+				<unittitle encodinganalog="title">Pictorial History-Part One 1963/1964</unittitle>
+				<unitdate type="inclusive" normal="1963/1964" era="ce" calendar="gregorian" encodinganalog="date">1963-1964</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 19:32 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<c02 level="item">
+					<did>
+					<container type="section">1</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Outdoors</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Students play around outside, throwing water on each other. It cuts to students, dressed nicely inside the school. There are many people standing around, posing for the camera. 			</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">2</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Graduation</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Girls and boys in cap and gown sing at graduation. People are standing around taking photos either before or after the ceremony. Students pose with their diplomas and stand around talking with parents and peers. There is one last shot of the class together.The last shot is of a blackboard with “May 8th 1964-grad day” written on it. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">3</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Play</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Girls stand around a microphone, singing and playing guitar. The play is Alice in Wonderland with the caterpillar, mad hatter, different suited cards, and the white rabbit. After the show, students stand around showing off their costumes. Flowers are passed around and someone makes announcements. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">4</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Fashion Show</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>The fashion show begins with small children and their mothers showing off children's clothing. Then, the high school students begin showing off pajamas. The quality cuts out at this point. Another girl makes an announcement or a speech. There are a variety of different clothing styles like evening dresses and sport wear. The last shot is of women sitting around a table. 
+					</p>
+					</scopecontent>
+				</c02>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">52</container>
+				<unittitle encodinganalog="title">Pictorial History-Part Two 1963/1964</unittitle>
+				<unitdate type="inclusive" normal="1963/1964" era="ce" calendar="gregorian" encodinganalog="date">
+					1963/1964</unitdate>
+				<physdesc>
+					<genreform> 16mm film</genreform>
+					<physfacet>Color, no sound, 47:57 minutes</physfacet>
+					</physdesc>
+				</did>
+				<c02 level="item">
+					<did>
+					<container type="section">1</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Students</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Adults and students gather around outside an assembly hall. Others are seen inside, standing in the hall before entering another room. Many people are eating food and conversing in a large dining hall. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">2</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Bonfire</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Students stand around a large bonfire as some boys throw a straw man on top. The cheerleaders jump around, leading the crowd in a cheer. The scene cuts to entirely different unrelated content of women in an office, boys and girls listening to a record, a construction scene, and girls in pagentry attire, posing for photos. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">3</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Parade</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Pagent royalty sit in a car and then the band can be seen playing. They are followed by the cheerleaders and more floats with a variety of different themes. After the parade, the video cuts to the choir and then a big band on the gym stage. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">4</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Dancing</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Girls in flapper dresses stand in a line dancing the Charleston. There are a variety of people in 1920's attire. Two little girls and a gentleman dance on stage. Another girl sings at the piano. It appears to be some sort of talent show or performance as different people perform different routines from dancing and singing to acting out a scene. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">5</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Cheerleading</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>This section jumps around to multiple different locations. Girls are cheering and then the boys are playing basketball before the film cuts to girls cheering again. It then shows girls in dresses with pagent ribbons before it cuts back to basketball and cheerleading. In one portion, boys have put on the cheer uniform and perform a parody of the cheerleaders routine, lightheartedly. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">6</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Dancing 2</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>The stage is set like a French Bistro as a girl dances the can-can before a boy in a white coat, black turtleneck, and beret performs a monologue. A boy band plays with strong Beatles influence. Others sit around on the stage watching the frivolity. There is some auctioning of art before a few girls perform ballet. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">7</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Gym</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>In this section, both boys and girls are seen in gym clothes peforming calisthenics and stretches. The girls also do some form of gymnastics on mats while the boys do relay races. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">8</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Prom</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>Students can be seen in fine dress in a room decorated like starry night. They can be seen dancing in front of a band while others converse at tables around the dance floor. 
+					</p>
+					</scopecontent>
+				</c02>
+				<c02 level="item">
+					<did>
+					<container type="section">9</container><!--Not too sure about this-->
+					<unittitle encodinganalog="title">Track and Field</unittitle>
+					</did>
+					<scopecontent encodinganalog="description">
+					<p>This section shows a track and field meet. A variety of events like pole vaulting and long jump occur before some girls hand out ribbons. 
+					</p>
+					</scopecontent>
+				</c02>
+			</c01>
+			  <c01 level="item">
+			  <did>
+			  <container type="reel">53</container>
+			  <unittitle encodinganalog="title">Pictorial History-Part One 1964/1965</unittitle>
+			  <unitdate type="inclusive" normal="1964/1965" era="ce" calendar="gregorian" encodinganalog="date">1964-1965</unitdate>
+			  <physdesc>
+				  <genreform>16mm film</genreform>
+				  <physfacet>Color, no sound, 49:28 minutes</physfacet>
+				  </physdesc>
+			  </did>	
+			  <c02 level="item">
+				  <did>
+				  <container type="section">1</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Students</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>It is the first day of school, August 31st, 1964. Students sit in  classroom before it cuts to girls performing cheers outside the school. Boys stand around in leatherman jackets while a man talks to the group of students. 	
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">2</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Bonfire</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Students stand around big bonfire.A small group of girls attempt to throw a dummy on it and miss entirely. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">3</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Football</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>This is a daytime football game between East Carbon and Moab. There is some deterioration in the film quality. They stand around with gold football trophies after the game where East Carbon lost to Moab 7 to 14. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">4</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Mardi Gras Dance</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Large decorated letters spell out Mardi Gras. Students are in more casual dress as they gyrate all over the dance floor in 1960's style boogie. It cuts to girl students dressed in all sorts of different costumes.			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">5</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Football 2</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>A football game between a white team and a green team. Cheerleaders can be seen performing as well. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">6</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Costumes and Dance</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls are dressed in a variety of stereotypical costumes like mammie, hillbillies, or cats. Girls sing while another accompanies them on the piano. Sashes are pinned on the pagent winner for the Sweetheart dance. There are girls dancing in the gym and couples sitting around as well. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">7</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Athletics</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>This section contains scenes of a wrestling match, girls cheerleading, and basketball. 			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">8</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Biology</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Students sit in biology class, learning how to dissect frogs.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">9</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Dance Performance</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Dancers in flapper dresses perform 1920's style by doing the Charleston and swinging their beaded necklaces. There are a few other performances like couples dancing and two boys performing in front of microphone. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">10</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Cheer and Basketball</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>It begins with a cheer routine and the flag ceremony. The cheerleaders perform more gymnastic routines before the boys begin playing basketball. Another group of boys dress as the cheerleaders and perform. This is probably a game between the teachers and students. This seen ends with trophies being handed out. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">11</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Choir, Theater, Lunch</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Male and female students perform in the choir. Then, there is a recording of a play where a family sits in a living room, playing chess and talking. It cuts to students eating in the lunchroom with shots of the lunch ladies and students avoiding eye contact with the camera. 			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">12</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Dance</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Two girls announce while couples in fine dance attire walk into the dance area. They pose for the camera and continue walking. There are shots of people dancing, a small pond created in the center of the dance floor, and couples standing around. 	
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">13</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Cheer and Basketball 2</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls perform a cheerleading routine before a small Viking mascot joins them. It cuts to basketball with East Carbon in white. There are more shots of cheerleaders performing and then once again, back to the basketball game. 	
+				  </p>
+				  </scopecontent>
+			  </c02>
+			</c01>
+			<c01 level="item">
+			  <did>
+			  <container type="reel">54</container>
+			  <unittitle encodinganalog="title">Pictorial History-Part Two 1964/1965</unittitle>
+			  <unitdate type="inclusive" normal="1964/1965" era="ce" calendar="gregorian" encodinganalog="date">1964-1965</unitdate>
+			  <physdesc>
+				  <genreform>16mm film</genreform>
+				  <physfacet>Color, no sound, 32:47 minutes</physfacet>
+				  </physdesc>
+			  </did>	
+			  <c02 level="item">
+				  <did>
+				  <container type="section">1</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Cheerleading</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls bring the flag in before a game. Their performance is blurry but then, it cuts to girls doing the splits and cartwheels. The child Viking mascot peforms with them. Boys can be seen warming up before the game. East Carbon is in white with the opposing team in red. 			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">2</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Students</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Male and female stuents sit around outside, talking and playing around with each other. 			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">3</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Performance</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p> This section shows a variety of different people rallying before a game. It cuts to another court where two teams are playing basketball. It cuts back to the cheerleaders performing and having corsages pinned to their jackets. Multiple people are seen receiving an award as well as high school students.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			<c02 level="item">
+				  <did>
+				  <container type="section">4</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Ballet and Play</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>A girl in a tutu dances ballet. Multiple fairy tale characters can be seen on stage singing and dancing at various times.  
+				  </p>
+				  </scopecontent>
+			  </c02>
+			<c02 level="item">
+				  <did>
+				  <container type="section">5</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Lunchroom</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Older women stand outside lunchroom, milling around, posing for the camera before they are seen sitting in the lunchroom. Different couples stand in front of the camera posing with flowers. There is a quick shot of people playing chess before going back to couples standing around. 			</p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">6</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Men's Athletics</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p> One hundred or more boys stand in the gym performing calisthenics together as well as running relay races. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">7</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Trampoline</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Boys jump on trampoline, doing various flips and tricks while other boys stand around spotting them.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">8</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Women's Athletics</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls do calisthenics as well as tumbling sets like cartwheels and back bends.		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">9</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Band</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Male and female students sit on stage playing together. 			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">10</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Basketball</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>East Carbon, in blue, plays against another team in white. 			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			</c01>
+			<c01 level="item">
+			  <did>
+			  <container type="reel">55</container>
+			  <unittitle encodinganalog="title">Pictorial History 1965/1966</unittitle>
+			  <unitdate type="inclusive" normal="1965/1966" era="ce" calendar="gregorian" encodinganalog="date">1965-1966</unitdate>
+			  <physdesc>
+				  <genreform>16mm film</genreform>
+				  <physfacet>Color, no sound, 26:27 minutes</physfacet>
+				  </physdesc>
+			  </did>	
+			  <c02 level="item">
+				  <did>
+				  <container type="section">1</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Cheerleading</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Two different cheer groups perform routines.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">2</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Awards</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>The Snow Queen and her attendants are given their sashes. It cuts to dancing on the gym floor with spectators.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">3</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Students</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>It shows cheerleaders in the gym, girls and boys sitting around, and older men talking with a group of students. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">4</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Wrestling</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p> A few different wrestling matches are shown at East Carbon.
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">5</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Basketball</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>The Vikings play basketball at East Carbon.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">6</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Women's Gymnastics</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls in leotards perform various gymnastic tricks including high beam, floor work, and trampoline.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">7</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Swimming</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>This section is shots of swim practice. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">8</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Play</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>There are multiple different performances including ballet, singing, and dancing. The school band, The Crow and the Birds, perform. There is also a shot of the nativity scene and other christmas themed skits.  			
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">9</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Personal Development Class</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls and boys are shown learning different skills like tying bows and building toy cars. There are shots of christmas decorations. It cuts to a physics class where students are taking notes and laughing. The last scene is of students showing off their sculpture projects which are busts made of clay. 		
+				  </p>
+				  </scopecontent>
+			  </c02>
+			</c01>
+			<c01 level="item">
+			  <did>
+			  <container type="reel">56</container>
+			  <unittitle encodinganalog="title">Pictorial History-Part Two 1965/1966</unittitle>
+			  <unitdate type="inclusive" normal="1965/1966" era="ce" calendar="gregorian" encodinganalog="date">1965-1966</unitdate>
+			  <physdesc>
+				  <genreform>16mm film</genreform>
+				  <physfacet>Color, no sound, 38:15 minutes</physfacet>
+				  </physdesc>
+			  </did>	
+			  <c02 level="item">
+				  <did>
+				  <container type="section">1</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Students</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Students are dressed in a variety of costumes. There are students sitting around the gym. Then, students are dancing while other students sit around the edge of the gym as couples. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">2</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Basketball</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>The scene opens with basketball players running through a line of cheerleaders. There are shots of the pagent queen and her attendants with their male counterparts. After it cuts to another basketball game. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">3</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Dance</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>This section shows students in the gym doing multiple different kinds of dancing as couples. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">4</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Basketball 2</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls bring in the flag with cheerleaders doing a routine before the basketball game starts. The East Carbon Vikings are in blue. After the game, the little Viking mascot and cheerleader present awards. Then the cheerleaders pin corsages on themselves. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">5</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Play</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Some girls put on a play or fashion show that depicts women from every era starting with cave women up to the current period with a variety of different styles like sports wear. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">6</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Special Event</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Couples are dressed nicely while girls announce and present various corsages. Couples walk down some sort of ramp while people sit around watching. Dancing ensues. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">7</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Dinner</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Well dressed people sit around eating dinner before it changes to students standing in front of the school. It cuts back to small children being led down a ramp to show off their costume as well as a few other dance performances and fashion items by older girls. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">8</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Gym-Guys</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Boys run different types of relay races, jump on trampoline, perform acrobatics, and some weightlifting. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">9</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Gymnastics</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls tumble on mats doing dance like routines. They also perform on the high beam. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">10</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Gym-Girls</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls do weird jumprope like movement with sticks. Then they move onto calisthenics. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">11</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Women's Track</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls run short distance races. They also attempt long jumps and pole jumping with other various running exercises. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			 </c01>
+			 <c01 level="item">
+			  <did>
+			  <container type="reel">57</container>
+			  <unittitle encodinganalog="title">Pictorial History-Part One 1966/1967</unittitle>
+			  <unitdate type="inclusive" normal="1966/1967" era="ce" calendar="gregorian" encodinganalog="date">1966-1967</unitdate>
+			  <physdesc>
+				  <genreform>16mm film</genreform>
+				  <physfacet>Color, no sound, 55:16 minutes</physfacet>
+				  </physdesc>
+			  </did>	
+			  <c02 level="item">
+				  <did>
+				  <container type="section">1</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Football</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>At East Carbon, white versus green, play football. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">2</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Dancing and Fun</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>It opens with a luau where people are learning to hula dance. A man performas a dance while accompanied by a ukulele. It cuts to students on stage dressed as detectives while a girl dances. There are other types of skits going on. Boys dress as cheerleaders and perform as well as another pagent queen receiving her sash and crown. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">3</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Parade</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>The parade opens with band and dancers. The pagent queen and her attendants ride in the parade as well as various themed floats. There are cheerleaders and baton twirlers. This is all happening before the football game. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">4</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Basketball</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>At East Carbon, the boys play basketball with shots of people cheering. It cuts to another game with more cheerleaders. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">5</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Trampoline</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Girls perform different tricks on the trampoline. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">6</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Cheerleaders</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Multiple different cheering routines are performed for different crowds. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">7</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Play</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Various costumed students perform skits from witches singing to Batman and Robin. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">8</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Cheerleaders 2</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Two different sets of cheerleaders perform different routines before giving out prizes. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">9</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Play 2</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>This is another set of students messing around on stage performing skits. The quality of film cuts out slightly in this section. There is an overall farm theme happening on stage. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">10</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Prom</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Couples take pictures and walk down stairs in a grand entrance. They can be seen dancing and then posing with their parents. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">11</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">People</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>An older couple stand around as well as young women in bright clothing and hats. Some seem to be posing with their parents. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">12</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Graduation</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Students in cap and gown pose for pictures. Speeches are made and awards are given out. 
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  <c02 level="item">
+				  <did>
+				  <container type="section">13</container><!--Not too sure about this-->
+				  <unittitle encodinganalog="title">Construction</unittitle>
+				  </did>
+				  <scopecontent encodinganalog="description">
+				  <p>Boys are working on building an A-frame structure.  
+				  </p>
+				  </scopecontent>
+			  </c02>
+			  </c01>
+			 <c01 level="item">
+				<did>
+				<container type="reel">58</container>
+				<unittitle encodinganalog="title">Pictorial History Undated</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 17:07 minutes, intermittent parts of poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This reels shows a variety of different scenes like students walking around, a football game, and other performances. Students are in the classroom, couples are dancing, and there is a fashion show. </p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">59</container>
+				<unittitle encodinganalog="title">Inventing a Nation-Part I</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, sound</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>The film begins with warbled audio and washed out visuals. It is a film on the birth of America. Alistair Cooke narrates the rise of the American people from the clutches of British reign. He tells the story of the founding fathers and their vital roll in history with the Articles of Confederation. He ties it to current events like the 1970 Senatorial Campaign. This is the first of two parts on America's founding. It is a BBC Television time life film produced by Michael Gill.</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">60</container>
+				<unittitle encodinganalog="title">Inventing a Nation-Part II</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, sound, 25:54 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This film is the second part to the BBC's film on the invention of America. It continues with Alistair Cooke explaining the importance of the Supreme Court. It explores Thomas Jefferson's history and takes a look at Monticello through the amazing skills that shaped the home.It also speaks of the travel west as an important part of America's history with a look at Daniel Boone and territories in Kentucky and Tennessee.					
+					</p>
+				</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">61</container>
+				<unittitle encodinganalog="title">Classical Greek: Athens-The Golden Age</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, sound, 26:48 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This film is Encyclopedia Britannica's film on Classical Greek, given by Charles Kahn of Columbia University. It explores the major themes and idea of ancient Greece that made it so powerful. Through sculputure and theater, different themes like world order and the city state are illuminated as vital parts of their culture. It gives various historical facts about the acropolis and religious proceedings during that time. </p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">62</container>
+				<unittitle encodinganalog="title">World War II: 1939-1941</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Black and white, sound</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This is an education lecture given by Crane Brinton, Ph.D. from Harvard University. It gives historical background and analysis on Germany's progression across Europe using Blitzkrieg and the Luftwaffe. There are clips from WWII, intermixed with Brinton discussing the implications of certain actions like the attempted German invasion of Russia and the United States entrance into the war.</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">63</container>
+				<unittitle encodinganalog="title">Senior Trip to Moab 1963-64, Senior Tea, By Book Cliff Club, Seniors in Caps and Gowns</unittitle>
+				<unitdate type="inclusive" normal="1963/1964" era="ce" calendar="gregorian" encodinganalog="date">1963-1964</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 10:51 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>It begins with a film crew producing some sort of western involving horses, wagons, and fire. The signage ends up saying it is for "Guns of the Rio Conchos" in Moab Utah in 1964. Actors stand around with the students posing for the camera. It cuts to students messing around by the river with girls sitting in the shade or sunbathing. The next scene is of girl students with teacher meeting various people in nice clothing. Students also pose with their parents. The final part of this film is the students in their caps and gowns posing for pictures.</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">64</container>
+				<unittitle encodinganalog="title">Homecoming 1965, Bonfire, Assembly, Parade, Game</unittitle>
+				<unitdate type="inclusive" normal="1965" era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 6:18 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p> A band performs along with other students. There are shots of homecoming royalty. It cuts to the parade with a variety of Viking themed floats. It cuts to cheerleaders performing on the field and then cuts to the football game.</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">65</container>
+				<unittitle encodinganalog="title">Senior Tea May 1965</unittitle>
+				<unitdate type="inclusive" normal="1965-05" era="ce" calendar="gregorian" encodinganalog="date">May 1965</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 8:00 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>It begins with various performances including a man playing the accordion and girls singing. Other students and their parents stand around taking photos. There are shots of tables set with food and drink for everyone to enjoy. Then, their is a shot with the students in their caps and gowns. </p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">66</container>
+				<unittitle encodinganalog="title">Senior Tea 1968, May 26</unittitle>
+				<unitdate type="inclusive" normal="19680526" era="ce" calendar="gregorian" encodinganalog="date">1968 May 26</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 2:49 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>Students stand in hallways with their parents before walking into an auditorium. </p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">67</container>
+				<unittitle encodinganalog="title">Graduation 1968-Part 1</unittitle>
+				<unitdate type="inclusive" normal="1968" era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 2:48 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>Students walk across stage to receive diploma followed by speeches. </p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">68</container>
+				<unittitle encodinganalog="title">Graduation 1968-Part 2</unittitle>
+				<unitdate type="inclusive" normal="1968" era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+				<physdesc>
+					<genreform>16mm film</genreform>
+					<physfacet>Color, no sound, 3:01 minutes</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This reel is just shots of students receiving their diplomas.</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">69</container>
+				<unittitle encodinganalog="title">"America the Beautiful" student project</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>Reel-to-reel audiotape</genreform>
+					<physfacet>low volume, poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>Someone announces the project and then "America the Beautiful" song is played multiple times. It is difficult to hear anything at all. </p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">70</container>
+				<unittitle encodinganalog="title">Utah Mining Story</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>Reel-to-reel audiotape</genreform>
+					<physfacet>Begins poorly, restarts</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This audio gives historical information on the Kennecott and Bingham Canyon Mines. The narrator gives various facts about the mines as well as referencing some visual material.</p>
+					</scopecontent>
+			</c01>
+						<c01 level="item">
+				<did>
+				<container type="reel">71</container>
+				<unittitle encodinganalog="title">Graduation</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>Reel-to-reel audiotape</genreform>
+					<physfacet>low volume, poor quality</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>The audio is very faint on this reel, but a dialogue between a male and female can be heard. They may be discussing some form of drug and alcohol abuse prevention.</p>
+					</scopecontent>
+			</c01>
+			<c01 level="item">
+				<did>
+				<container type="reel">72</container>
+				<unittitle encodinganalog="title">"A Mother's Love" Poem and Various 1950s Songs</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>Reel-to-reel audiotape</genreform>
+					<physfacet>low volume, poor quality, 1:35:00 hours</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>This audiotape containes multiple different motherly references. There is the initial poem and then other orchestral music.</p>
+					</scopecontent>
+			</c01>
+						<c01 level="item">
+				<did>
+				<container type="reel">73</container>
+				<unittitle encodinganalog="title">"Vikings" Basketball Tournament Song and More</unittitle>
+				<unitdate type="inclusive" normal="0000/0000" era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+				<physdesc>
+					<genreform>Reel-to-reel audiotape</genreform>
+					<physfacet>low volume, poor quality, 1:26:29 hours</physfacet>
+					</physdesc>
+				</did>	
+				<scopecontent encodinganalog="description">
+					<p>It begins with multiple renditions of the Viking song. Then, it goes through multiple different ads for cars, grocery stores, and much more. There are other announcements like historical facts about the day, reports, both school and news, and people conversing.</p>
+					</scopecontent>
+			</c01>
+        </dsc>
+    </archdesc>
+    
+</ead>

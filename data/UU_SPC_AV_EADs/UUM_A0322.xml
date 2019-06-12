@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:36 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0322::Ballet West promotional materials audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv08282" url="http://archiveswest.orbiscascade.org/ark:/80444/xv08282">UUM_A0322</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Ballet West promotional materials audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1976/1987" encodinganalog="date">1976-1987</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Ballet West promotional materials audio-visual collection</titleproper>
+        <author encodinganalog="creator">Christopher Drew</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1989" encodinganalog="date">1989</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0322</unitid>
+      <unittitle encodinganalog="title">Ballet West promotional materials audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1976/1987" encodinganalog="date">1976-1987</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">Ballet West (U.S.)</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">41 reel-to-reel audiotapes, 9 audiocassettes, and 1 16mm film</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Ballet West promotional materials audio-visual collection (1976-1987) consists almost entirely of audio recordings of radio advertisements for Ballet West tickets and productions.  There are also audio recordins of Ballet West personalities on the "State of the Arts" radio program one television advertisment recorded on 16mm film.  A professional ballet company, Ballet West was established in 1963 and offers a season of performances at the Salt Lake City, Utah's Capitol Theatre.</abstract>
+      <langmaterial>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>Ballet West is a professional ballet company founded in 1963 by Utah's "First Lady of the Arts" Glenn Walker Wallace and Willam F. Christensen, founder of the University of Utah's ballet department and Ballet West's first artistic director.  The company has subsequently been led by artistic directors Bruce Marks, John Hart, Jonas Kåge and Adam Sklute.  In addition to its annual season of performances at the Capitol Theatre in downtown Salt Lake City, Utah, Ballet West has toured the world several times with its classical ballet performances.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Ballet West promotional materials audio-visual collection (1976-1987) consists almost entirely of audio recordings of radio advertisements for Ballet West tickets and productions.  There are also audio recordins of Ballet West personalities on the "State of the Arts" radio program one television advertisment recorded on 16mm film.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged rougly chronologically by format.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Ballet Archives audio-visual collection (A0247), the Ballet West records (Accn 1129) and the Ballet Archives photograph collection (P0247).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1989.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Dance--Utah-History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Dance companies--Utah-History--Sources</subject>
+      <subject altrender="nodisplay" source="archiveswest">Performing Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">"Don Juan" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 January 13</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">2</container>
+          <unittitle encodinganalog="title">"Cinderella" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 March 23</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">3</container>
+          <unittitle encodinganalog="title">Season ticket radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 April 22</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">4</container>
+          <unittitle encodinganalog="title">"Nutcracker" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">5</container>
+          <unittitle encodinganalog="title">Ticket radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977-1978</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">6</container>
+          <unittitle encodinganalog="title">Telebash radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">7</container>
+          <unittitle encodinganalog="title">"The Discover Season" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">8</container>
+          <unittitle encodinganalog="title">Ticket radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977-78</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">9</container>
+          <unittitle encodinganalog="title">"Don Quixote" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">10</container>
+          <unittitle encodinganalog="title">"Giselle" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">11</container>
+          <unittitle encodinganalog="title">"The Nutcracker" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">12-13</container>
+          <unittitle encodinganalog="title">"Swan Lake Last Bow" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1978 March 09</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">14</container>
+          <unittitle encodinganalog="title">Radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">15</container>
+          <unittitle encodinganalog="title">"The Nutcracker" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">16-17</container>
+          <unittitle encodinganalog="title">"The Nutcracker" radio promotion (extended)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Nutcracker doll and bear presentation.  Ten minutes.</p>
+          <p>2 copies</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">18</container>
+          <unittitle encodinganalog="title">"Invitation to Dance" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 March 16</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">19</container>
+          <unittitle encodinganalog="title">"Don Quixote" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 August 27</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Radio spots entitled "Don Quixote Coming" and "Don Quixote Here."</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">20</container>
+          <unittitle encodinganalog="title">"Petrouchka" television audio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 September 30</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">21-22</container>
+          <unittitle encodinganalog="title">1985-1986 season radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 June</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">23</container>
+          <unittitle encodinganalog="title">"Sleeping Beauty" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 January 14</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">24</container>
+          <unittitle encodinganalog="title">"A Salute to Ballanchine" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 March 18</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">25-26</container>
+          <unittitle encodinganalog="title">1986-1987 season radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">27</container>
+          <unittitle encodinganalog="title">"Gershwin" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 March 5</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">28-29</container>
+          <unittitle encodinganalog="title">"The Nutcracker" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 October 30</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 November 30</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">30</container>
+          <unittitle encodinganalog="title">KSL radio and television audio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">31</container>
+          <unittitle encodinganalog="title">Unidentified radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">32</container>
+          <unittitle encodinganalog="title">"A Celebration of the American Experience" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">33</container>
+          <unittitle encodinganalog="title">"Romeo and Juliet" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">34</container>
+          <unittitle encodinganalog="title">Unidentified radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">35</container>
+          <unittitle encodinganalog="title">"Sleeping Beauty" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">36</container>
+          <unittitle encodinganalog="title">Unidentified radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">37</container>
+          <unittitle encodinganalog="title">Touring radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">38</container>
+          <unittitle encodinganalog="title">Fundraising radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">39</container>
+          <unittitle encodinganalog="title">"The Nutcracker" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">40</container>
+          <unittitle encodinganalog="title">Telebash radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 October 02</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">41</container>
+          <unittitle encodinganalog="title">Glittering Gala radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="item">42</container>
+          <unittitle encodinganalog="title">There is no item 42.</unittitle>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">43</container>
+          <unittitle encodinganalog="title">Denver Symphony radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 December-1981 January</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1  Promotion for Ballet West's appearance with the Denver Symphony, in Denver, Colorado in January, 1981.</p>
+          <p>2  Promotion for the Denver Symphony's performance of Handel's "Messiah" in December, 1980</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">44</container>
+          <unittitle encodinganalog="title">"The Nutcracker" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1  Two promotions for performances of "The Nutcracker" in Salt Lake City.</p>
+          <p>2  Various promotions not related to Ballet West.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">45</container>
+          <unittitle encodinganalog="title">"Swan Lake" wiht the Denver Symphony radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 April 14</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">46</container>
+          <unittitle encodinganalog="title">"Sleeping Beauty" radio promotions</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 February</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">47</container>
+          <unittitle encodinganalog="title">"State of the Arts" radio program</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Broadcast on KWHO, Salt Lake City.</p>
+          <p>The guest is Sondra Sugai, Associate Artistic Director of Ballet West, who discusses the company's 20th anniversary.  Other topics include motivating performers; the stages of a dancer's growth; audience recognition of the company's improvement; artistic milestones in the company's history; Bruce Marks; works of the new choreographer (Helen Douglass); Sugai's reasons for her devotion to dance; performing Songs of the Ballet, Mistress of Sorrow and Ballanchine's Stars and Stripes; Helen Douglass and Rite of Spring; performing Etudes; Bruce Marks and Pipe Dreams; the performing of Beauty and the Beast; and the formulation of a successful season.  28 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">48</container>
+          <unittitle encodinganalog="title">"State of the Arts" radio program</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 October</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Broadcast on KWHO, Salt Lake City.</p>
+          <p>On side A the guest is Helen Douglass, Resident Choreographer of Ballet West.  Douglass discusses her past as a dancer; chore-ography; the Boston Choreographer's Competition; her initial experiences as a choreographer; developing origi-nality; working on Rite of Spring; the pros and cons of her position as Resident Choreographer.  33 minutes.</p>
+          <p>On side B the guests are Stacy Swaner and Bruce Caldwell, Principal Dancers at Ballet West.  Caldwell and Swaner discuss their early training as dancers; dedication to dance; daily regimen; the effect of injuries; greatest fears as dancers; strengths and weaknesses; favorite roles; and future after dance.  35 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">49</container>
+          <unittitle encodinganalog="title">"State of the Arts" radio program</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Broadcast on KWHO, Salt Lake City.</p>
+          <p>On side A the guest is Willam Christensen, founder of Ballet West.  Background information on Christensen and Ballet West is included.  Topics of discussion are Christensen's experiences at the University of Utah; the sources of his "vision;" early fundraising; the importance of touring; early performances; Cinderella; his hopes for Ballet West; guest artists; Bruce Marks as new Artistic Director; the ballet academy; and the dance careers of former Utahns.  40 minutes.</p>
+          <p>On side B the guest is Bruce Marks, Artistic Director of Ballet West.  The opening remarks of this segment are not recorded.  Topics of discussion include Marks' experiences and classmates at the High School of the Performing Arts in New York City; his reasons for becoming a dancer; performing as a soloist in Lucia di Lammermoor at the Metropolitan Opera; his experiences as a dancer at, and touring with, the American Ballet Theater; his self-description as a dancer; memorable performances; his reasons for giving up performing; the critical acclaim of Ballet West; choreographing; his opinion of holding an administrative position; and the ballet school.  28 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">50</container>
+          <unittitle encodinganalog="title">"KRP Night at the Ballet" radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1  One promotion for "KRP Night at the Ballet" in Salt Lake City (a performance of "Anna Karenina").</p>
+          <p>2  News coverage unrelated to Ballet West.  Three minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">51</container>
+          <unittitle encodinganalog="title">Season ticket radio promotion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="othertype">52</container>
+          <unittitle encodinganalog="title">"Ballet?"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1980</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Sound, color
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>One television promotion for Ballet West made by Harris and Love Film.  One minute.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

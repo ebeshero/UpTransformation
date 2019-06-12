@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2010/07/12 12:36:11 by xEAD vBETA 03-25-2009-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0099::Sonia Johnson audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv35437" url="http://archiveswest.orbiscascade.org/ark:/80444/xv35437">UUM_A0099</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Sonia Johnson audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1976/1981" encodinganalog="date">1976-1981</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Johnson (Sonia) audio-visual collection</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0099</unitid>
+      <unittitle encodinganalog="title">Sonia Johnson audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1976/1981" encodinganalog="date">1976-1981</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Johnson, Sonia</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">22 audiocassettes, 5 VHS videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The bulk of the Sonia Johnson collection is concerned with Johnson's excommunication from the Church of Jesus Christ of Latter-day Saints and her campaign in support of the Equal Rights Amendment (ERA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Sonia Johnson (born 1936), who was a member of the LDS Church from birth, began speaking out in support of the ERA in 1977. National exposure occurred with her 1978 testimony in front of the U. S. Senate's Constitutional Rights Subcommittee, and she continued speaking and promoting the ERA and denouncing what she perceived to be her church's political activities against the amendment. After a well-publicized church trial in December 1979, Johnson was excommunicated. Afterwards, she continued promoting the ERA as president of the Mormons for ERA group. She spoke at numerous functions throughout the country and appeared on a number of television talk shows. Her book about her embrace of feminism, From Housewife to Heretic, was published in 1981.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The bulk of the Sonia Johnson Collection is concerned with Johnson's excommunication from the Church of Jesus Christ of Latter-day Saints and her campaign in support of the Equal Rights Amendment (ERA).</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The collection is arranged chronologially by material format.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Women and religion</subject>
+      <subject encodinganalog="subject" source="lcsh">Mormon women--United States--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Feminism--United States</subject>
+      <subject encodinganalog="subject" source="lcsh">Women's rights--United States</subject>
+      <subject encodinganalog="subject" source="lcsh">Equal rights amendments--United States--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Mormon Church--Political activity</subject>
+      <subject altrender="nodisplay" source="archiveswest">Civil Rights</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">moving images</genreform>
+      <genreform encodinganalog="type" source="aat">sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Orrin Hatch, Campaign Tape</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Sonia Johnson, National  Organization for Women, Montana State Convention, Kalispell,  Montana</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 August 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Sonia Johnson, Tri-Cities, Washington</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 October 29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Idsvoog Program, KUTV</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Sonia Johnson Excommunication</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 December</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Sonia Johnson, Donahue Program</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">Sonia Johnson interview with Patrick Greenlaw, Beverly Campbell</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Barbara Smith and Beverly Campbell, Donahue Program</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Dick Norse and Shelly Thomas (KSL-TV commentary on Donahue program).</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 10</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">9</container>
+          <unittitle encodinganalog="title">Beverly Little and Marty  LaBrosse, interview with sisters by Cheryl L. Dalton</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 December 12</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">Sonia Johnson, Katherine Parker, Patricia Garett, and Thelma Adair, Women's Breakfast at the General Assembly of the United Presbyterian Church</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">Sonia Johnson, San Fransisco Women's Day</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 March 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">Sonia Johnson, Sonia-Camilla I</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 March 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13</container>
+          <unittitle encodinganalog="title">Sonia Johnson Sonia-Camilla II</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 March 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">14</container>
+          <unittitle encodinganalog="title">The ERA in America, National Public Radio; Margie Adam: New Possibilities</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 April 15</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">15</container>
+          <unittitle encodinganalog="title">Sonia Johnson: National Women's Political Caucus Speech Los Altos, California</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">16</container>
+          <unittitle encodinganalog="title">Sonia Johnson, Speech in Fresno, California</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">17</container>
+          <unittitle encodinganalog="title">Sonia Johnson 430-2650</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">18</container>
+          <unittitle encodinganalog="title">To Sonia Johnson from Gwen F. Johnson</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 April 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">19</container>
+          <unittitle encodinganalog="title">Guitar Song by a Woman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">20</container>
+          <unittitle encodinganalog="title">Dear Sonia</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">21</container>
+          <unittitle encodinganalog="title">Sonia Johnson: Mormons for ERA National Organizartion for Women, Montana State Convention</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 August 25</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Four segments from speech.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">22</container>
+          <unittitle encodinganalog="title">Sonia Johnson EXTRA with Karl Idsvoog, KUTV</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">23</container>
+          <unittitle encodinganalog="title">Sonia Johnson on Donahue program and Beverly Campbell's counteract to Donahue's interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">24</container>
+          <unittitle encodinganalog="title">Barbara Smith and Beverly Campbell, Donahue program, answer to Sonia Johnson</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 December 19</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">25</container>
+          <unittitle encodinganalog="title">Movie film sent to the Harris family from Sonia Johnson in Limbe, Malawi.</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A notation on the box says, "Ventures into the Interior, Laurens Vander Post".</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">26</container>
+          <unittitle encodinganalog="title">N.O.W. (National Organization for Women) presidential candidate Anne L. Lang</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">27</container>
+          <unittitle encodinganalog="title">Sonia Johnson on the LDS church, Gordon B. Hinkley and the ERA.</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

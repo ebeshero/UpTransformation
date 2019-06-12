@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:42 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0427::Edwin Brown Firmage audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv73114" url="http://archiveswest.orbiscascade.org/ark:/80444/xv73114">UUM_A0427</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Edwin Brown Firmage audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1968/2001" encodinganalog="date">1968-2001</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Firmage (Ediwn Brown) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Lorraine Crouse.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1998" encodinganalog="date">© 1998</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Greg Midgley
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0427</unitid>
+      <unittitle encodinganalog="title">Edwin Brown Firmage audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1968/2001" encodinganalog="date">1968-1969</unitdate>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1968/2001" encodinganalog="date">1996-2001</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Firmage, Edwin Brown</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">5 reel-to-reel audiotapes, 6 audiocassettes, 30 VHS videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Edwin Brown Firmage audio-visual collection (1968-2001)contains audio recordings of interviews conducted by Edwin B. Firmage with his grandfather, Hugh B. Brown (1883-1975), a prominent member and leader of the Church of Jesus Christ of Latter-day Saints (LDS Church).  The collection also includes video materials dealing with the teaching career of Edwin Firmage, a renowned educator and expert on international and constitutional law.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Edwin Brown Firmage (b.1935) teaches constitutional law and international law at the University of Utah S.J. Quinney College of Law in Salt Lake City, Utah. A Hinckley Fellow at Brigham Young University (BYU), he graduated with high honors in political science and history before earning his Master of Arts. He was National Honors Scholar at the University of Chicago Law School and served on the editorial board of the Chicago Law Review. He received the doctor of law, master of laws, and doctor of jurisprudence degrees from Chicago.</p>
+      <p>Dr. Firmage served as a White House Fellow on the staff of Vice President Hubert H. Humphrey, with responsibility for civil rights. In that capacity, he worked with Roy Wilkins of the National Association for the Advancement of Colored People (NAACP) and with the Reverend Martin Luther King, Jr. He also served as United Nations Visiting Scholar, and attended sessions of the General Assembly of the United Nations in New York and the arms control negotiations in Geneva, Switzerland, in 1970-71.</p>
+      <p>He served as Fellow in Law and Humanities at the Harvard Law School in 1974-75. He received the University of Utah Distinguished Teaching Award in 1977 and the Brigham Young University Alumni Distinguished Achievement Award in 1978.</p>
+      <p>The University of Utah invited Dr. Firmage to deliver the annual Reynolds Lecture, <emph render="italic">Ends and Means in Conflict</emph>, in October 1987.  In 1988, Professor Firmage was awarded the Charles Redd Prize by the Utah Academy of Science, Arts and Letters, for outstanding contributions in the humanities and social sciences during the past five years.  Professor Firmage was the recipient of the 1989 Governor's Award in the Humanities, given by the Utah Endowment for the Humanities.</p>
+      <p>He delivered the McDougall lecture, <emph render="italic">Reconciliation</emph>, at the Cathedral of the Madeleine in Salt Lake City, Utah, on March 7, 1989. With the late Francis Wormuth, he wrote <emph render="italic">To Chain the Dog of War: The War Power of Congress in History and Law</emph>, second edition published in 1989 by University of Illinois Press.</p>
+      <p>Professor Firmage's book with Collin Mangrum, <emph render="italic">Zion in the Courts: A Legal History of the Church of Jesus Christ of Latter-day Saints</emph>, the first legal history of the Mormon experience in the nineteenth century, was awarded the 1989 first place prize of the Alpha Sigma Nu Book Awards for the best book of the year, given by the Honors Society of the National Association of Jesuit Colleges &amp; Universities in the United States.</p>
+      <p>His book, <emph render="italic">Religion and Law: Biblical, Jewish and Islamic Perspectives</emph>, was written with J. Welch and B. Weiss, eds., (Eisenbraun's 1990).  Professor Firmage was named Samuel D. Thurman Professor of Law by the University of Utah in January 1990.   He was a participant in a Fulbright Seminar in the Soviet Union during the summer of 1990, traveling throughout the country, attending lectures and meetings with Soviet governmental leaders, scholars, and leaders of emerging political parties.</p>
+      <p>He worked with Vietnamese refugees in Vietnam, Thailand and Hong Kong in 1990 and 1991.  Dr. Firmage was the 1991 recipient of the Rosenblatt Prize for Excellence, the highest academic award given by the University of Utah.  In 1991 he was also awarded the Turner-Fairbourn Award for significant contributions to peace and justice.  He delivered the Lane Lecture at Creighton University School of Law, Omaha Nebraska, 1992.  Professor Firmage was a visiting professor August-December, 1992, Bentham House, University College, University of London. He taught Constitutional Law.  In  April of 1993, Professor Firmage gave lectures to the justice and peace representatives of the International Congregation of Men and Women Religious in Rome.</p>
+      <p>Professor Firmage delivered the Kellogg Lectures in May of 1993, entitled <emph render="italic">&lt;The Human Being: War, Peace and Faith</emph>, at the Episcopal Divinity School, Cambridge, Massachusetts.  Covey Oliver and Edwin B. Firmage, et al., are editors of The International Legal System, Fourth Edition, Foundation Press, New York, Spring, 1995.</p>
+      <p>Dr. Firmage attended the meetings of the Subcommission on Human Rights of the United Nations, in Geneva, Switzerland, during the month of August, 1999. His speech at the Sub-Commission began debate on the topic "Toward the Creation of a Culture of Peace and Non-Violence Toward Children, 2000-2010."</p>
+      <p>Following the Geneva meetings Professor Firmage enjoyed a personal audience with His Holiness, the Fourteenth Dalai Lama of Tibet, in Dharamsala, India, and later had extensive meetings with the Tibetan government-in-exile, and including members of the cabinet, legislative leaders of the government, and the Tibetan Supreme Justice Commission, on matters of constitutional revision and international relations, in September and again in November, 1999.  Professor Firmage teaches constitutional law at the University of Utah.</p>
+      <p>Hugh B. Brown (1883-1975) was one of the most popular twentieth-century Mormon leaders, as well as an attorney, educator, and author. Born on October 24 1883 to Homer Manley and Lydia Jane Brown in Granger Utah, he was fifteen when his family moved to Alberta, Canada.</p>
+      <p>Brown went to England as a missionary, serving from 1904 to 1906.  Upon returning from his missionary experiences, Brown married Zina Young Card in 1908.  The couple settled in Alberta, Canada where the first six of their eight children were born.  In 1912  Brown undertook military training preliminary to organizing a Latter-day Saint contingent for the Canadian armed reserves. By 1917 Brown had achieved the rank of major in the Canadian military. The Imperial military significantly influenced Brown, as shown in accounts of his service in his later writing, but he ultimately turned away from a military career.  Upon returning from World War I, Brown's Canadian vocations included stints as cowboy, farmer, soldier, businessman, and head of the LDS Lethbridge Stake.</p>
+      <p>Brown had studied at the Law Society of Alberta prior to his military service. Renewing an interest in law, he began working with Z. W. Jacobs, a Cardston barrister.  Completing a five-year apprenticeship while working a farm he had purchased near Cardston, Brown passed the bar examination and was admitted to the bar in 1921. Moving to Salt Lake City in 1927, Brown quickly became a successful lawyer and president of the LDS Granite Stake. He also formed a lifelong allegiance with the Democratic party, which led to an unsuccessful run for political office and an unpleasant term of service as first chairman of Utah's Liquor Control Commission from 1935 to 1937.</p>
+      <p>A call to head the LDS British Mission came soon, the first of many full-time church positions which brought him admiration and influence, but never the affluence for which he also yearned. As LDS Servicemen's Coordinator from 1941 to 1945, he traveled extensively in North America and western Europe as de facto chief chaplain for the thousands of Mormons in American, British, and Commonwealth uniforms; anecdotes born of this experience punctuated his sermons and writings thereafter. Early in 1944 he was given an additional appointment to reactivate the British Mission.</p>
+      <p>Intervals as a professor of religion at Brigham Young University (1946-1949), and with an Alberta oil prospecting firm (1949-1953), preceded his call, at age seventy, to be one of the LDS General Authorities - an Assistant to the Council of the Twelve. Thereafter he became a member of the Council of the Twelve in 1958, and Counselor to and then Second Counselor in the First Presidency in 1961, becoming First Counselor in 1963. His record of earlier service, his effective writings and sermons, and his long friendship and ideological affinity with LDS Church President David O. McKay probably accounted for his rapid advancement in the church hierarchy. McKay's failing health and his own policy differences within the church leadership later weakened Brown's influence, though his popularity remained great. Following McKay's death in 1970, he served in the Council of the Twelve until his own death, two years after Zina's, on 2 December 1975.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>This collection contains a number of audio recordings relating the oral history of Church of Jesus Christ of Latter Day Saints (L.D.S.) leader Hugh B. Brown conducted by his grandson Edwin B. Firmage.    This detailed oral history includes discussions on faith, influential people and events that shaped and guided Hugh B. Brown's life, as well as his careers in the military, law, politics, and the L.D.S. Church.   The collection also includes video materials dealing with the teaching career of Edwin Firmage, a renowned educator and expert on international and constitutional law.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>This collection is arranged chronologically and by format.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Lorraine Crouse in 1998.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Brown, Hugh B., 1883-1975</persname>
+      <subject encodinganalog="subject" source="lcsh">Church of Jesus Christ of Latter-day Saints</subject>
+      <subject altrender="nodisplay" source="archiveswest">Colleges and Universities</subject>
+      <subject altrender="nodisplay" source="archiveswest">Mormonism (Church of Jesus Christ of Latter-day Saints)	</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="box">1</container>
+          <unittitle encodinganalog="title">Hugh B. Brown interviews and "Law and Beyond Law: Peace and Justice"</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Hugh B. Brown interview</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 November 8-9</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>First years of Hugh B. Brown through his first L.D.S. mission.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Hugh B. Brown interview</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 November 09</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Life from first L.D.S. mission return through World War I.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">3</container>
+            <unittitle encodinganalog="title">Hugh B. Brown interview</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 November 09</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Post World War I, Canada to Salt Lake.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">Hugh B. Brown interview</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 January 09</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Brown discusses years 1927-1950, gives a frief sketch of his children and discusses his call as Assistant to the Quorum of the Twelve and influential figures in his life.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">Hugh B. Brown interview</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 November 30</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1953 to October Calling to Assistant Quorum, the Mormon family, divorce, etc.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6-11</container>
+            <unittitle encodinganalog="title">Hugh B. Brown interview duplicates</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968-1969</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Duplicate copies of reels 1-5.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">12</container>
+            <unittitle encodinganalog="title">"Law and Beyond Law: Peace and Justice"</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1996 October 31</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ed Firmage interviewed by John Geertsen.  Produced by SUTV, Southern Utah University.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="box">2</container>
+          <unittitle encodinganalog="title">Educational videos</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001</unitdate>
+          <physdesc>
+            <extent>29 VHS videocassettes</extent>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Educational videos pertaining to Edwin B. Firmage's career teaching law.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:59 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0707::Lost Forever, Everett Ruess motion picture)//EN" encodinganalog="identifier" identifier="80444/xv20333" url="http://archiveswest.orbiscascade.org/ark:/80444/xv20333">UUM_A0707</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+		  Guide to the Lost Forever, Everett Ruess motion picture
+          <date era="ce" calendar="gregorian" normal="2000" encodinganalog="date">2000</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Lost Forever, Everett Ruess motion picture</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0707</unitid>
+      <unittitle encodinganalog="title">
+        <title render="italic">Lost Forever, Everett Ruess</title> motion picture</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="2000" encodinganalog="date">2000</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Orr, Diane</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 VHS videocassestte</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The film <title render="italic">Lost Forever, Everett Ruess</title> is a docu-drama by Utah filmmaker and photographer Diane Orr that loosley interprets the story of Ruess, a Los Angeles artist who hitchhiked to Arizona in 1931 where he wandered into the desert alone and ultimately disappeared.  His fate remains unknown.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Diane Orr is a documentary filmmaker and photographer whose films have explored subjects including Iadho's 1961 SL-1 nuclear reactor accident, the 1976 Teton Dam disaster and the 1973 standoff at Wounded Knee, South Dakota.  Several of Orr's films document the culture and history of the American West and the issues facing Native Americans.  Her photography highlights Western landscapes and rock art (pictographs and petroglyphs).</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The <title render="italic">Lost Forever, Everett Ruess</title> motion picture is a docu-drama that loosley interprets the story of Ruess, a Los Angeles artist who hitchhiked to Arizona in 1931 where he wandered into the desert alone and ultimately disappeared.  His fate remains unknown.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>Additional copies of <title render="italic">Lost Forever, Everett Ruess</title> and raw footage of interviews and other material used in the making of the film are available in the Diane Orr audio-visual collection (A0428).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Ruess, Everett, b. 1914</persname>
+      <subject encodinganalog="subject" source="lcsh">Mysteries and conspiracies</subject>
+      <subject encodinganalog="subject" source="lcsh">West (U.S.)--History--20th century</subject>
+      <subject altrender="nodisplay" source="archiveswest">Expeditions and Adventure</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Lost Forever, Everett Ruess</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2000</unitdate>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Everett Ruess was a young artist from Los Angeles who, in 1931, hitchhiked to Arizona where he wandered into the dessert alone and ultimately disappeared. This movie presents an artistic interpretation of the life of Everett Ruess through his journal entries, newspaper clippings, letters to and from loved ones, and live interviews with the people he met along his journey.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

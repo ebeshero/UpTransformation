@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:00 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0763::Joan Woodbury dance audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv09768" url="http://archiveswest.orbiscascade.org/ark:/80444/xv09768">UUM_A0763</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Joan Woodbury dance audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1970/1979" encodinganalog="date">1970s</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Woodbury (Joan) dance audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Tawnya Mosier
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0763</unitid>
+      <unittitle encodinganalog="title">Joan Woodbury dance audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1970/1979" encodinganalog="date">1970s</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Woodbury, Joan</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">10 16mm films and 1 16mm sound track.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Joan Woodbury dance audio-visual collection (1970s) consists of completed movies of Woodbury's dance projects as well as the original film and soundtrack elements used to create the final version.  Joan Woodbury is an internationally recognized dancer and choreographer and co-founder of Salt Lake City's Ririe-Woodbury Dance Company.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Joan Woodbury graduated from the University of Wisconsin and became the first Fulbright Scholar in dance when she studied with Mary Wigman in Berlin, Germany in 1945.  A retired professor of modern dance at the University of Utah where she taught for 47 years, Woodbury choreographed more than 100 works throughout her career, collaborated in the creation of 16 dance videos, and has been commissioned to choreograph by the Conservatoire National in Portugal, Outlet Dance Company in Australia, Desert Dance in Arizona, the University of Hawaii and Juillard School of Music plus many others. She has taught dance workshops and master classes throughout the United States as well as Portugal, France, Yugoslavia, China, Canada, South Africa, Puerto Rico, Australia, New Zealand, Hong Kong, England, Ireland, Singapore and Italy.  She has received grants from the National Endowment for the Arts and has been honored by organizations across the world, including the prestigious French dictionary of dance, <title render="italic">Dictionnaire de la Danse</title>.</p>
+      <p>In 1964 Joan Woodbury founded Salt Lake City's Ririe-Woodbury Dance Company with fellow dancer and University of Utah professor Shirlie Ririe.  The company has toured the world.  Dedicated to educating children about the dance world, the Ririe-Woodbury Dance Company offers not only formal and informal performances but also lectures, demonstrations, workshops and classes for all age groups in dance for actors, stage production and theater lighting.  Joan Woodbury and Shirlie Ririe handed the artistic direction of the company over to Charlotte Boye-Christensen in 2008.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Joan Woodbury dance audio-visual collection (1970s) consists of completed movies of Woodbury's dance projects as well as the original film and soundtrack elements used to create the final version.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged alphabetically by title.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Joan Woodbury papers (Accn 2384) and the Ririe-Woodbury Dance Company records(Accn 709), photograph collection (P01029) and audio-visual collection (A0673).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Tawnya Mosier in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Ririe-Woodbury Dance Company</corpname>
+      <subject encodinganalog="subject" source="lcsh">Modern dance</subject>
+      <subject encodinganalog="subject" source="lcsh">Choreography</subject>
+      <subject altrender="nodisplay" source="archiveswest">Performing Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">Exados; Passacaglia; Duet</unittitle>
+          <physdesc>
+            <genreform>16mm film</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">2-9</container>
+          <unittitle encodinganalog="title">Nowhere Bird</unittitle>
+          <physdesc>
+            <genreform>16mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Completed film, raw footage, negative, work print, answer print, and outtakes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">10</container>
+          <unittitle encodinganalog="title">Ghost Dance</unittitle>
+          <physdesc>
+            <genreform>16mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Joan Woodbury's Master of Fine Arts (MFA) dance thesis.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">11</container>
+          <unittitle encodinganalog="title">Ghost Dance sound track</unittitle>
+          <physdesc>
+            <genreform>16mm sound track</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

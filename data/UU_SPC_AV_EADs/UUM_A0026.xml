@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0026::Fawn McKay Brodie audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv22158" url="http://archiveswest.orbiscascade.org/ark:/80444/xv22158">UUM_A0026</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Fawn McKay Brodie audio-visual collection
+				<date era="ce" calendar="gregorian" normal="1946/1995" encodinganalog="date">1946-1995</date><date era="ce" calendar="gregorian" type="bulk" normal="1971/1980" encodinganalog="date">1971-1980</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Brodie (Fawn McKay) audio-visual collection</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1998" encodinganalog="date">© 1998</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2013">2013</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0026</unitid>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Brodie, Fawn McKay, 1915-1981</persname>
+      </origination>
+      <unittitle encodinganalog="title">Fawn McKay Brodie audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1946/1995" encodinganalog="date">1946-1995</unitdate>
+      <unitdate era="ce" calendar="gregorian" type="bulk" normal="1971/1980" encodinganalog="date">1971-1980</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">61 audiocassettes, 1 reel-to-reel audiotape, 3 norelco microcassettes, 1 U-matic videocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Fawn McKay Brodie audio-visual collection (1946-1995, bulk 1971-1980) consists primarily of oral history interviews with people associated with President Richard Nixon, his life, his administartion, and the controversies surrounding it.  Brodie conducted these interviews as part of the research for her 1981 book, <title render="italic">Richard Nixon: The Shaping of his Character</title>.  In addition to Brodie's own interviews, the collection also contains archived dictation and radio news reports used by Brodie in her research, as well as a television interview with Brodie and a recording of her 1978 lecture, <title render="italic">Nixon: The Child and the Man</title> and other material relating to Brodie's works and interests.  Utah native Fawn Brodie was a history professor and biographer who published several books about historical figures, including Thomas Jefferson and Joseph Smith.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Fawn McKay Brodie (1915-1981) was born Fawn McKay in Ogden, Utah and grew up in nearby Huntsville. She earned a Bachelor of Arts degree in English Literature from the University of Utah in 1934 and in 1936 completed a Master of Arts degree at the University of Chicago, where she met and married Bernard Brodie.  After graduation began researching the history of the <title render="italic">Book of Mormon</title> and, in 1945, published <title render="italic">No Man Knows My History: The Life of Joseph Smith</title>, which resulted in her 1946 excommunication from Church of Jesus Christ of Latter-day Saints.</p>
+      <p>After publishing two more biographies, <title render="italic">Thaddeus Stevens: Scourge of the South</title> (1959) and <title render="italic">The Devil Drives: A Life of Sir Richard Burton</title> (1967), Brodie began to teach history and American political biography at the University of California Los Angeles (UCLA).  <title render="italic">Thomas Jefferson: An Intimate History</title> was published in 1974 and <title render="italic">Richard Nixon: The Shaping of His Character</title> in late 1981, nine monts after her death from lung cancer earlier that year.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Fawn McKay Brodie audio-visual collection (1946-1995, bulk 1971-1980) consists primarily of oral history interviews with people associated with President Richard Nixon, his life, his administartion, and the controversies surrounding it.  Brodie conducted these interviews as part of the research for her 1981 book, <title render="italic">Richard Nixon: The Shaping of his Character</title>.  In addition to Brodie's own interviews, the collection also contains archived dictation and radio news reports used by Brodie in her research, as well as a television interview with Brodie and a recording of her 1978 lecture, <title render="italic">Nixon: The Child and the Man</title> and other material relating to Brodie's works and interests.  Unless otherwise noted, all materials in this collection have been digitized and are available on compact disc or DVD.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arranged in the order of their original donation.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Fawn McKay Brodie audio-visual collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Fawn McKay Brodie audio-visual collection A0026,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A2206.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Pamela Brodie and Bruce Brodie in 1982 and Steve Mayfield in 1999.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed in 1998 and 1999.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Fawn McKay Brodie papers (Ms 360) and photograph collection (P0026).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Nixon, Richard M. (Richard Milhous), 1913-1994</persname>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Kissinger, Henry, 1923-</persname>
+      <subject encodinganalog="subject" source="lcsh">History, 20th Century--United States</subject>
+      <subject encodinganalog="subject" source="lcsh">Oral history</subject>
+      <subject altrender="nodisplay" source="archiveswest">Political Campaigns</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Nixon: The Child and the Man</title> lecture</unittitle>
+          <unitdate>1978 October 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">KUTV News interview with Fawn Brodie about her work on Joseph Smith</unittitle>
+          <unitdate>circa 1971</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassettes</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">John Dean</unittitle>
+          <unitdate>1977 June 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Jack Anderson</unittitle>
+          <unitdate>1975 April 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">General Robert Cushman</unittitle>
+          <unitdate>1978 June</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Bob Finch</unittitle>
+          <unitdate>1977 March</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">Helmut Sommerfeldt</unittitle>
+          <unitdate>1977 March 14</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Bob Woodward</unittitle>
+          <unitdate>1980 April 06</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">9</container>
+          <unittitle encodinganalog="title">Martin Agronsky, Henry Kissinger, Channel 28</unittitle>
+          <unitdate>1977 January 11</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">Richard Bergholz, <title render="italic">Los Angeles Times</title></unittitle>
+          <unitdate>1980 April 01</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">Thomas Bewley</unittitle>
+          <unitdate>1976 April 15</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">Richard Bissell</unittitle>
+          <unitdate>1977 March 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13</container>
+          <unittitle encodinganalog="title">Pat Brown (Edmund G.), Beverly Hills</unittitle>
+          <unitdate>1976 April 15</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">14</container>
+          <unittitle encodinganalog="title">Lou Cannon, <title render="italic">Washington Post</title></unittitle>
+          <unitdate>1980 April 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">15-16</container>
+          <unittitle encodinganalog="title">Kenneth Chotener (Murray Chotner's son), Santa Monica</unittitle>
+          <unitdate>1978 February 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">17</container>
+          <unittitle encodinganalog="title">Judge James Cobey</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">18</container>
+          <unittitle encodinganalog="title">Reverand Coffin, Last Whittier Quaker Church</unittitle>
+          <unitdate>1976 April 15</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">19</container>
+          <unittitle encodinganalog="title">Roy Coln, New York City Eye and Ear Hospital</unittitle>
+          <unitdate>1979 April 26</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">20</container>
+          <unittitle encodinganalog="title">Tom Dixon, KFAC Radio Los Angeles</unittitle>
+          <unitdate>1975 November 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">21</container>
+          <unittitle encodinganalog="title">Evelyn Dorn, Nixon's Whittier secretary</unittitle>
+          <unitdate>1946 April 13</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">22</container>
+          <unittitle encodinganalog="title">Eugene Genoresa, Los Angeles</unittitle>
+          <unitdate>1977 November 06</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">23</container>
+          <unittitle encodinganalog="title">Bob Green, Newsday, Rokonhoma, New York</unittitle>
+          <unitdate>1977 March 30</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">24</container>
+          <unittitle encodinganalog="title">Haldiman-Wallace</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">25</container>
+          <unittitle encodinganalog="title">Leonard Wood Hall, Garden City, New York</unittitle>
+          <unitdate>1975 August 20</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">26-27</container>
+          <unittitle encodinganalog="title">Hess</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Norelco microcassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>These interviews were recorded on a format not supported by our archive and are not available on compact disc at this time.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">28</container>
+          <unittitle encodinganalog="title">Stephen Hess</unittitle>
+          <unitdate>1978 February 01</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">29</container>
+          <unittitle encodinganalog="title">Phoebe Howard (Elizabeth Evans' sister)</unittitle>
+          <unitdate>1976 November 21</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">30</container>
+          <unittitle encodinganalog="title">Henry Kissinger and Dan Frost</unittitle>
+          <unitdate>1979 October 11</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">31</container>
+          <unittitle encodinganalog="title">Henry Kissinger lecture dictation</unittitle>
+          <unitdate>1968 April 04</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">32-33</container>
+          <unittitle encodinganalog="title">Herb Klein</unittitle>
+          <unitdate>1977 March 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">34</container>
+          <unittitle encodinganalog="title">Anthony Lewis, <title render="italic">New York Times</title>, Boston</unittitle>
+          <unitdate>1977 March 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">35</container>
+          <unittitle encodinganalog="title">Rose Olive and O. Marshburn (Nixon's aunt and uncle), Whittier</unittitle>
+          <unitdate>1977 April 30</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">36</container>
+          <unittitle encodinganalog="title">Dick Mathis, Los Angeles</unittitle>
+          <unitdate>1977 August 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">37</container>
+          <unittitle encodinganalog="title">Unidentified Nixon associate</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">38</container>
+          <unittitle encodinganalog="title">CBS News coverage of Nixon's resignation speech; statement by Gerald Ford</unittitle>
+          <unitdate>1974 August 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">39</container>
+          <unittitle encodinganalog="title">NBC News coverage of Nixon's farewell speech with commentary; Gerald Ford's inauguration</unittitle>
+          <unitdate>1977 August 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">40-44</container>
+          <unittitle encodinganalog="title">Nixon interview with Frost</unittitle>
+          <unitdate>1977 May 04</unitdate>
+          <unitdate>1977 May 12</unitdate>
+          <unitdate>1977 May 19</unitdate>
+          <unitdate>1977 May 25</unitdate>
+          <unitdate>1977 September 05</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">45-46</container>
+          <unittitle encodinganalog="title">Nixon and Dunpey</unittitle>
+          <unitdate>1979 November 26</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">47</container>
+          <unittitle encodinganalog="title">Nixon Melhouse film</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">48</container>
+          <unittitle encodinganalog="title">William Purdue, New York</unittitle>
+          <unitdate>1976 November 05</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">49</container>
+          <unittitle encodinganalog="title">Judge J. Pasht</unittitle>
+          <unitdate>1976 October 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">50</container>
+          <unittitle encodinganalog="title">Dan Rather, CBS, New York</unittitle>
+          <unitdate>1975 August 30</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">51</container>
+          <unittitle encodinganalog="title">James Reston, Jr., University of California Los Angeles (UCLA)</unittitle>
+          <unitdate>1977 April 21</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">52</container>
+          <unittitle encodinganalog="title">Ed Rubin</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">53</container>
+          <unittitle encodinganalog="title">Mrs. Foster (Georgia) Sherwood</unittitle>
+          <unitdate>1973 October 10</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">54-55</container>
+          <unittitle encodinganalog="title">Ralph de Toledano</unittitle>
+          <unitdate>1975 August 30</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">56</container>
+          <unittitle encodinganalog="title">Jerry Voorkis, Claremont</unittitle>
+          <unitdate>1978 February 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">57-58</container>
+          <unittitle encodinganalog="title">Jessamyn West (cousin of Richard Nixon) at home of her brother, Merle West, in Hacienda Heights</unittitle>
+          <unitdate>1976 September 29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">59</container>
+          <unittitle encodinganalog="title">Paul Ziffren</unittitle>
+          <unitdate>1976 December 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">60</container>
+          <unittitle encodinganalog="title">George Reedy at Marquette University</unittitle>
+          <unitdate>1977 March 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">61</container>
+          <unittitle encodinganalog="title">Stephen Hess</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Norelco microcassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>These interviews were recorded on a format not supported by our archive and are not available on compact disc at this time.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">62</container>
+          <unittitle encodinganalog="title">Discussion of future of higher education in the sate of Utah</unittitle>
+          <unitdate>1974</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">63-66</container>
+          <unittitle encodinganalog="title">"Fawn Brodie Symposium: No Man Knows My History"</unittitle>
+          <unitdate>1995 August</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Presenters include Martha Bradley, Linda K. Newell, Newell Bringhurst, Mario dePillis, Roger Launius, William Mulder, Laivinia Fielding Anderson, Mauricio Mazon, Todd Compton.  Also includes August 6, 1995, radio interview with Newell Bringhurst on KTKK radio.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

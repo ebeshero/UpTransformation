@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:44 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A1128::Marvin A. Melville family home movies)//EN" encodinganalog="identifier" identifier="80444/xv91687" url="http://archiveswest.orbiscascade.org/ark:/80444/xv91687">UUM_A1128</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Marvin A. Melville family home movies
+          <date era="ce" calendar="gregorian" normal="1965/1982" encodinganalog="date">1965-1982</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Melville (Marvin A.) family home movies</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Molly Creel.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2013" encodinganalog="date">© 2013</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2013">2013</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A1128</unitid>
+      <unittitle encodinganalog="title">Marvin A. Melville family home movies</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1965/1982" encodinganalog="date">1965-1982</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Melville, Marvin A.</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">6 8mm films, 11 Super 8mm films</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Marvin A. Melville family home movies (1965-1982) consist of footage of the Marvin Melville family's vacations, home life and special events, after the death of patriarch Alton Crane Melville in 1966.  Both Marvin Melville and his father, Alton Crane Melville are prominent members of the United States ski community, but this collection focuses on Marvin Melville's family life.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Marvin Melville (b. 1935), is an internationally decorated and respected skier.  He skied for the Granite High School, University of Utah, 1958 United States Olympic Alpine, and 1960 International Ski Federation (FIS) ski teams. In 1959, Marvin Melville became the National Collegiate Athletics Association (NCAA) champion in downhill, slalom and combined ski events.  After retiring from competition, he served a tour in the Army and then opened a ski school for young racers.  Melville coached the 1964 Women's Olympic Ski Team and the University of Utah Ski Team.  He was inducted into the Sports Hall of Fame in 1990.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Marvin A. Melville family home movies (1965-1982) consist of footage of the Marvin Melville family's vacations, home life and special events, after the death of patriarch Alton Crane Melville in 1966.  Both Marvin Melville and his father, Alton Crane Melville are prominent members of the United States ski community, but this collection focuses on Marvin Melville's family life.  All films have been digitized and are available to view on DVD.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The majority of the collection is arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Alton Crane Melville family home movies (A0655), which contains footage of Marvin Melville's parents, childhood, and early ski career.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Home movies</subject>
+      <subject altrender="nodisplay" source="archiveswest">City and Town Life</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Home movies and video</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">July 4th parades</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965-1969</unitdate>
+          <physdesc>
+            <genreform>8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The children's 4th of July street parades.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">2</container>
+          <unittitle encodinganalog="title">Cabin pack trip in the Tetons</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August</unitdate>
+          <physdesc>
+            <genreform>8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville family's cabin pack trip in the Tetons. The filmed activities are horseback riding, setting up camp, and cooking. There are also several scenic views shown along the way.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">3</container>
+          <unittitle encodinganalog="title">July 4th parades</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970-1973</unitdate>
+          <physdesc>
+            <genreform>8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The children's 4th of July street parades.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">4</container>
+          <unittitle encodinganalog="title">California</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973</unitdate>
+          <physdesc>
+            <genreform>8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville family's trip to California where they play in the ocean and on the sandy beach, and explore the nearby tide pools.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">5</container>
+          <unittitle encodinganalog="title">Europe</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This film contains footage of the Melville family's trip to Europe. They arrive at London's Gatwick Airport and go sightseeing and visit the Middle Tower LDS Church.  Then they travel to Dover, England and take the Hoverlloyd Ferry to France and rent a van to tour the continent with. There are several scenic views from their drive through the mountains and from a gondola ride.  The last destination in this film was Cortina d'Ampezzo where Marvin had previously competed in the Winter Olympics.  Continued in reel 6.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">6</container>
+          <unittitle encodinganalog="title">Europe (continued)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974</unitdate>
+          <physdesc>
+            <genreform>8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Continued from reel 5:  The Melville family travels to Germany where they visit the Volks Kunst Museum.  The next scene is a close up of a map of Innsbruck, Austria where the Melville children climb the steps leading from the Olympic rings and the torch site. The Melville family visits the Olympia station and the Wasserepilele, which is a beautiful garden with waterfalls and water fountains.  Next the Melville family hikes to a cabin in Bergalm where they play in the fields together. There are scenic views from their hike and from the fields that they play in.  Continued in reel 7.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">7</container>
+          <unittitle encodinganalog="title">Europe (continued)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Continued from reel 6:  The Melville family visits the home in Austria where <emph render="italic">The Sound Of Music</emph> was filmed.  They then visit the Wimbledon Club in Sweden and return to Gatwick Airport where the Melville girls are seen wearing their Austrian dresses.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">8</container>
+          <unittitle encodinganalog="title">The beach</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955 July</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville family's trips to California:  1955 trip:  The Melville children play on the beach and in the ocean, then the entire family goes to Sea World where they see seals, dolphins, and orcas (killer whales).  They return to the beach and then visit the grave of James Alexander Melville (1870-1942) as well as many other ancestors' graves.  1977 trip:  The Melville family goes to the beach and visits Disneyland, Universal Studios and Universal City.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">9</container>
+          <unittitle encodinganalog="title">July 4th parades, Sawtooth National Forest</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975-1979</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>4th of July street parades from 1975 thru 1979. The parades from 1975 and 1977 include the East Millcreek Parade, and the Dimple Dell Parade, which replaces the floats with horses.  In 1978 the Melville family goes to the East Millcreek Parade. After the parade, the family leaves for Bolboa Island.  In 1979 the Melville family attends the Miss Sandy Parade.  At the end of this film there is some footage of the Melville's trip to Sawtooth National Forest where they camp, cook, and go for hikes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">10</container>
+          <unittitle encodinganalog="title">Baja, Mexico</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1978 January</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville's family trip to Baja Mexico where the men go ocean fishing and the family goes snorkling from the beach. There are also several scenic views from the boat that the men fish from.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">11</container>
+          <unittitle encodinganalog="title">Youth Conference Pioneer Trek</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1978 August 17-18</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville children participating in the Youth Conference Pioneer Trek hosted by Brigham Young University (BYU). The young adults get onto and off of a bus, set up their covered wagons, walk, cook, and camp. The trail that they follow is the same trail that the early Mormon Pioneers used to make their way to Utah.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">12</container>
+          <unittitle encodinganalog="title">Baja Mexico, Hergen</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 January</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 August</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Baja, Mexico (January 1979):  The Melville family goes snorkeling from the beach, plays tennis, swims in the ocean, and plays on the beach. There are also scenic views of the coastline, and several shots of pelicans fishing nearby.  Backpacking trip to Hergen (August 1979)  Images of the family hiking, playing in a pond, boating, swimming, and lying out in the sun.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">13</container>
+          <unittitle encodinganalog="title">Hawaii, Babine River</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In Hawaii the Melville family is seen going to the beach and playing in the ocean, fishing, and parasailing. They also visit the L.D.S Temple, the Polynesian Cultural Center, and the Sea Life Park. The Melville women take Hula dancing lessons and then the family goes to the Hanauma Bay Beach where they play in the ocean and go snorkeling.  The Melville's trip to the Babine River consists of footage of the family fishing on a motorboat.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">14</container>
+          <unittitle encodinganalog="title">Marti and Ron's wedding day, Shari and Brent's wedding day</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 March</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 September</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Marvin Melville's two daughters, Marti and Shari, on their wedding days:  Marti and her fiance, Ron, are married at Temple Square in March of 1980. The footage of the wedding day consists of the reception and the wedding diner.  Shari and her fiance, Brent, are married at Temple Square in September of 1980. The footage of the wedding also consists of the reception and wedding diner.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">15</container>
+          <unittitle encodinganalog="title">Melville family reunion, Flaming Gorge</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 August</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville family reunion in Fillmore, Utah:  The extended family swims and has a picnic. The entire family also goes to visit George Crane's home, the cemetary where many relatives are buried, the "Old State House" Museum, Alexander Melville's first home, and James Andrew Melville's home.  This film also contains footage of the Melville's trip to Flaming Gorge where they Ride ATV's, and go fishing on a boat.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">16</container>
+          <unittitle encodinganalog="title">4th of July parades</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980-1982</unitdate>
+          <physdesc>
+            <genreform>Super 8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1980: Street parade in Salt Lake City.  1982: Footage of the preperation for the parade and of the parade itself.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">17</container>
+          <unittitle encodinganalog="title">Kids fishing</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976</unitdate>
+          <physdesc>
+            <genreform>8mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Melville children fishing at a stocked pay lake.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

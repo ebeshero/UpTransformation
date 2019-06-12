@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:32 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0316::Lila Eccles Brimhall memorial service audio collection)//EN" encodinganalog="identifier" identifier="80444/xv33276" url="http://archiveswest.orbiscascade.org/ark:/80444/xv33276">UUM_A0316</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Lila Eccles Brimhall memorial service audio collection
+          <date era="ce" calendar="gregorian" normal="1980" encodinganalog="date">1980</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Brimhall (Lila Eccles) memorial service audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Christopher Drew.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1989" encodinganalog="date">© 1989</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0316</unitid>
+      <unittitle encodinganalog="title">Lila Eccles Brimhall memorial service audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1980" encodinganalog="date">1980</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Brimhall, Lila Eccles, 1904-</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 audiocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Lila Eccles Brimhall memorial service audio collection (1980) contains an audio recording of the memorial service for speech and theater professor Lila Eccles Brimhall held in Pioneer Memorial Theatre.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographiocal Note</head>
+      <p>Lila Eccles Brimhall (1892-1980) was born November 26 in Ogden, Utah to Bertha Marie Jensen Eccles and her husband, David Eccles, who held half-ownership in the Ogden Opera House, where young Lila was exposed to the world of theater.  In 1914, Lila Eccles received a Bachelor of Arts from the University of Utah, where she studied under Maud May Babcock in the speech department.  She went on to receive a diploma from the American Academy of Dramatic Arts in New York City in 1916 and a certificate from the same institution in 1929.</p>
+      <p>After marrying Dean R. Brimhall, future Director of Research form the Civil Aeronautics Administration, in 1917, Lila Brimhall, nee Eccles, continued her studies at Columbia University (1917, 1933, 1941), the University of London (1937) and earned her Master of Arts degree from the University of Southern California in 1939.</p>
+      <p>Always returning to her native Utah, Lila Eccles Brimhall served as a member of faculty at the University of Utah as a speech instructor (1929-31), assistant professor (1948-1955) and associate professor in speech and theater (1956-1960).  After retiring to emeritus status, she held the positions of associate professor emeritus in speech (1930-1980) and associate professor emeritus in theater (1967-1980).</p>
+      <p>Having performed with the University of Utah Players, Moroni Olsen Players, California's Pasadena Players, and in various theatrical productions in the Salt Lake City area in addition to her many lectures and speeches, Lila Eccles Brimhall now watches over the lobby of the Pioneer Memorial Theatre via a 1977 portrait by Alvin Gittins.  She died in Salt Lake City on April 3, 1980.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Lila Eccles Brimhall memorial service audio collection (1980) contains an audio recording of the memorial service for speech and theater professor Lila Eccles Brimhall held in Pioneer Memorial Theatre.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Lila Eccles Brimhall photograph collection (P0337) and the Dean R. Brimhall papers (Ms 114).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1989.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">University of Utah--Faculty--Biography</subject>
+      <subject encodinganalog="subject" source="lcsh">Theatre</subject>
+      <subject encodinganalog="subject" source="lcsh">Memorial service</subject>
+      <subject altrender="nodisplay" source="archiveswest">Performing Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Memorial service for Lila Eccles Brimhall</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 April 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Conducted at Pioneer Memorial Theatre.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

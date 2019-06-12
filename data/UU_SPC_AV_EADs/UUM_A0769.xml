@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:00 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0769::Bert Estrada independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv72106" url="http://archiveswest.orbiscascade.org/ark:/80444/xv72106">UUM_A0769</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Gide to the Bert Estrada independent film collection
+          <date era="ce" calendar="gregorian" normal="2003" encodinganalog="date">2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Estrada (Bert) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0769</unitid>
+      <unittitle encodinganalog="title">Bert Estrada independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="2003" encodinganalog="date">2003</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Estrada, Bert</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Bert Estrada independent film collection (2003) consists of a feature length narrative film about homeless people in Salt Lake City, Utah.  Estrada is an alumnus of the University of Utah film program.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <scopecontent encodinganalog="description">
+      <p>The Bert Estrada independent film collection (2003) consists of a feature length documentary about homeless people in Salt Lake City, Utah.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Homeless persons</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Shadows along the Path</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Feature length film about a family of homeless people in Salt Lake City, Utah. Featured locations include Liberty Park (which appears extensively throughout the film) and Estrada's own neighborhood in downtown Salt Lake City. Some of the film's themes include the trials of homeless people, gender identity, child molestation, hate crimes, and Christianity (specifically the story of Job, upon which this film is loosely based).  Produced by Estrada's production company, Revolvervizion.  97 minutes.</p>
+          <p>From the back of the DVD case:</p>
+          <p>"Job (Mark Wunder) has lost his family due to tragedy. Alone and full of guilt he gives up his worldly possessions and becomes a street poet to try and make sense of his life. In his journey to redemption, he meets a group of homeless street performers: a mime (Michael Loosle), a preacher (Mark "Tuff" Christopherson) and an old couple (Kim Page and Pat Donahue). Together they form a "family" and struggle against society and the city streets.  Enter Amber (Jamie Kunz), a young runaway trying to escape a past full of turmoil and anguish. Alone and afraid she meets this "family." Will she survive the streets?  Will she rescue Job from his past?  Can she escape her own demons in order to create a better future?"</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

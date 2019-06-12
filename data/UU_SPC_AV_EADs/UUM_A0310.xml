@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:32 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0310::Louis S. Goodman audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv60766" url="http://archiveswest.orbiscascade.org/ark:/80444/xv60766">UUM_A0310</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Louis S. Goodman audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1968/1980" encodinganalog="date">1968-1980</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Goodman (Louis S.) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Christopher Drew.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1988" encodinganalog="date">© 1988</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0310</unitid>
+      <unittitle encodinganalog="title">Louis S. Goodman audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1968/1980" encodinganalog="date">1968-1980</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="collector">Goodman, Louis Sanford, 1906-</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">164 reel-to-reel audiotapes and 2 U-matic videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Louis S. Goodman audio-visual collection (1968-1980) consists of video and audio tapes relating to the personal life and scientific career of University of Utah pharmacologist Dr. Louis S. Goodman, a pioneer of anticancer chemotherapy.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Louis S. Goodman (1906-2000) was born August 27 in Portland, Oregon.  He graduated from Reed College in 1928, earned his medical degree at the University of Oregon in 1932 and interned at Johns Hopkins Hospital before moving to Yale University to study and later teach pharmacology.  During World War II, while investigating chemical warfare, Goodman and fellow Yale scientist Dr. Alfred Gilman discovered the effectiveness of nitrogen mustard as an anticancer chemotherapy, a breakthrough which led to chemotherapy's role as a major cancer treatment.</p>
+      <p>In 1943, Goodman left Yale for the University of Vermont, and, in 1944 he moved to Salt Lake City to become the founding chairman of the Department of Pharmacology at the University of Utah's School of Medicine.  There, he supervised experiments in anesthesia with the paralyzing muscle relaxant, curare, once used by South American Indians as poison.</p>
+      <p>A particular authority on drugs for treating both cancer and epileptic seizures, Goodman created the journal, <emph render="italic">Pharmacological Reviews for the American Society of Pharmacology and Experimental Therapeutics</emph> in 1949 and co-authored the seminal textbook, <emph render="italic">Goodman and Gilman's The Pharmacological Basis of Therapeutics</emph>, first published in 1941 and now well in to its tenth edition.  He retired from the Department of Pharmacology in 1971 and passed away 19 November 2000 at the age of ninety-four.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Louis S. Goodman Audio Visual Collection (1968-1980) consists of video and audio tapes relating to the personal life and scientific career of University of Utah pharmacologist Dr. Louis S. Goodman, a pioneer of anticancer chemotherapy.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>This collection is arranged chronologically and by format.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Louis S. Goodman papers (Accn 937) and photograph collection (P0308).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1988.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah--Faculty</corpname>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah--College of Medicine</corpname>
+      <subject encodinganalog="subject" source="lcsh">Pharmacologists--Utah</subject>
+      <subject encodinganalog="subject" source="lcsh">Pharmacology</subject>
+      <subject encodinganalog="subject" source="lcsh">Pharmacology--Study and teaching--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Medicine and Health</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1-164</container>
+          <unittitle encodinganalog="title">Correspondence with Carolyn and Stuart Turkanis</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958-1969</unitdate>
+          <physdesc>
+            <genreform>Reel-to-reel audiotape</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Audio recordings of personal correspondence between Dr. Louis Goodman's family and his daughter and son-in-law: teacher Carolyn Goodman Turkanis and pharmacologist Stuart Turkanis.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">165</container>
+          <unittitle encodinganalog="title">Interview with Dr. Alfred Gilman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 August 27</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Interview with Dr. Louis Goodman's colleague and collaborator, Dr. Alfred Gilman, with whom Goodman discovered the effectiveness of nitrogen mustard in cancer chemotherapy at Yale University in the 1940s.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">166</container>
+          <unittitle encodinganalog="title">Interview with Dr. Louis S. Goodman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 April</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Interview with noted pharmacologist Dr. Louis S. Goodman conducted by Dr. Harry Green.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

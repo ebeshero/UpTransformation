@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:42 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0487::Navajo Land motion picture)//EN" encodinganalog="identifier" identifier="80444/xv74362" url="http://archiveswest.orbiscascade.org/ark:/80444/xv74362">UUM_A0487</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Navajo Land motion picture
+          <date era="ce" calendar="gregorian" normal="1960/1980" encodinganalog="date">undated</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Navajo Land motion picture</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0487</unitid>
+      <unittitle encodinganalog="title">
+        <title render="italic">Navajo Land</title> motion picture</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1960/1980" encodinganalog="date">undated</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">Bureau of Indian Affairs</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 16mm film</extent>
+      </physdesc>
+      <abstract encodinganalog="description">
+        <title render="italic">Navajo Land</title> is a film produced by the Bureau of Indian Affairs to show Navajo people living on reservations the lives of Native Navajo people living in a big city.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>The Bureau of Indian Affairs (BIA) was formed in 1824.  An agency of the federal government of the United States within the US Department of the Interior, it is responsible for the administration and management of land held in trust by the United States for Native Americans in the United States, Native American Tribes and Alaska Natives.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>
+        <title render="italic">Navajo Land</title> is a film produced by the Bureau of Indian Affairs to show Navajo people living on reservations the lives of Native Navajo people living in a big city.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Navajo Nation, Arizona, New Mexico &amp; Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Native Americans</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Navajo Land</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Directed by Ted B. White</p>
+          <p>Produced by The Bureau oF Indian Affairs.</p>
+          <p>Navajo Consultant: Rudolph Russell.</p>
+          <p>Script Writter: Robert Magril.</p>
+          <p>Navajo's Appearing in the Film: Mary Rose Lather, Mark James, Jean Mahkee, June Nakai, Patrick Gatewood, Emerson Skeets, Alan Clah.</p>
+          <p>Title designers: Elroy Drake and Thomas J. Gamble.</p>
+          <p>Shot list:</p>
+          <p>Caucasian woman speaking to the viewer.</p>
+          <p>Shot of State Street in Chicago Illinois, a temperature/time sign, the front of the International Harvesting Company.</p>
+          <p>Shot of the City from above.</p>
+          <p>Shot of "Santa Fe" billboard showing "The Chiefs Are Still Chiefs - Chicago, Texas, California" with a picture of a Native American Chief.</p>
+          <p>Shot of a Coca-Cola sign.</p>
+          <p>Shots of a park, train, waterfountain, various buildings, and of cars and people on the streets.</p>
+          <p>Native Navajo girl places a vinal record on the record player.</p>
+          <p>Native Navajo man welds two pieces of metal together.</p>
+          <p>Elderly Navajo woman cleaning surgical instruments.</p>
+          <p>The same elderly woman walking home. When she reaches her house, she cooks diner, turns on and sits infront of the television.</p>
+          <p>Back to the City.</p>
+          <p>Back to a home. A mid-aged Navajo woman cooks, and displays pictures and other nicknacks on her mantel to the camera.</p>
+          <p>The mid aged Navajo woman then walks to work.</p>
+          <p>Back to a home. A Navajo family of three boys, three girls and mom and dad read together.</p>
+          <p>Shots of dad working at Belke MFG. Co.</p>
+          <p>Shots of various men working at Nickey Chevrolet.</p>
+          <p>The caucasin woman from the beginning of the film speaks for a few more minutes.</p>
+          <p>A Navajo man speaks for a few moments.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

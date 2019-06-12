@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0532::Brandy Blank river running video collection)//EN" encodinganalog="identifier" identifier="80444/xv17016" url="http://archiveswest.orbiscascade.org/ark:/80444/xv17016">UUM_A0532</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Brandy Blank river running video collection
+				<date era="ce" calendar="gregorian" normal="1940/1949" certainty="approximate" encodinganalog="date">1940s</date><date era="ce" calendar="gregorian" normal="1970/1979" certainty="approximate" encodinganalog="date">1970s</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Blank (Brandy) river running video collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Roy Webb</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1998" encodinganalog="date">© 1998</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0532</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="collector">Blank, Brandy</persname>
+      </origination>
+      <unittitle encodinganalog="title">Brandy Blank river running video collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1940/1949" certainty="approximate" encodinganalog="date">1940s</unitdate>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1970/1979" certainty="approximate" encodinganalog="date">1970s</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">1 VHS videocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Brandy Blank river running video collection (1940s, 1970s) consists of a VHS videocassette containing a dub of an 8mm color silent film of a 1940s Boy Scout river trip through Glen Canyon led by Bert Loper as well as footage of a 1970s era Westwater Canyon river trip.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>Before it was flooded by the rising waters of Lake Powell, Glen Canyon was a popular river running and destination.  Led by guides like Albert "Bert" Loper, boaters experienced redrock canyons and Anasazi ruins alongside the Colorado River.  Born in Missouri in 1869, Loper traveled west to the rivers of the Desert Southwest, where he spent the majority of his life in his adopted hometown of Green River, Utah.  In 1916 Loper and Ellsworth Kolb became the first people to boat through Utah's Westwater Canyon.  In 1920 Loper served as lead boatman for teh United States Geological Survey (USGS) mission to find a location for the future Hoover Dam.  In 1939, at the age of 69, Loper ran every rapid in the Grand Canyon with fellow riverman Don Harris.  He died in 1949 at the age of 79 when he flipped his self-made boat in the Grand Canyon's Marble Gorge.  Glen Canyon Dam was dedicated in 1966.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Brandy Blank river running video collection (1940s, 1970s) consists of a VHS videocassette containing a dub of an 8mm color silent film of a 1940s Boy Scout river trip through Glen Canyon led by Bert Loper as well as footage of a 1970s era Westwater Canyon river trip.  All materials have been digitized and are available to view on DVD.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Brandy Blank river running video collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Brandy Blank river running video collection A0532,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0532.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Brandy Blank in 1998.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Roy Webb in 1998.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Loper, Bert, 1869-1949</persname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Glen Canyon Region (Utah and Ariz.)--History.</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Westwater Canyon Wilderness (Utah)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Rivers--Recreational use</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation&gt;</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">River running videos</unittitle>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">1</container>
+            <unittitle encodinganalog="title">Glen Canyon river trip</unittitle>
+            <unitdate>1940s</unitdate>
+            <physdesc>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>Dub of what was probably an 8mm film of a Boy Scout trip through Glen Canyon led by Bert Loper.  Since Loper died in 1949 this film has been approximately dated to between 1946 and 1949.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">2</container>
+            <unittitle encodinganalog="title">Glen Canyon river trip with musical accompaniment</unittitle>
+            <unitdate>1940s</unitdate>
+            <physdesc>
+              <physfacet>
+                Color, sound (music)
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">3</container>
+            <unittitle encodinganalog="title">Westwater Canyon river trip</unittitle>
+            <unitdate>1970s</unitdate>
+            <physdesc>
+              <physfacet>
+                Color, sound (music)
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

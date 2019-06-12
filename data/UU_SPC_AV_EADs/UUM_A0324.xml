@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:36 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0324::Jewish oral history project audio recordings)//EN" encodinganalog="identifier" identifier="80444/xv91470" url="http://archiveswest.orbiscascade.org/ark:/80444/xv91470">UUM_A0324</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Jewish oral history project audio recordings
+          <date era="ce" calendar="gregorian" normal="1972/1977" encodinganalog="date">1972-1977</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Jewish oral history project audio recordings</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2008" encodinganalog="date">© 2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0324</unitid>
+      <unittitle encodinganalog="title">Jewish oral history project audio recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1972/1982" encodinganalog="date">1972-1982</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="collector">American West Center</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">141 audiocassetes and 37 compact discs. Each CD has a duplicate copy.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Jewish oral history project audio recordings (1972-1982) document the experiences of various people of the Jewish community in Utah and surrounding areas.  The American West Center conducted this and other ethnic oral history projects in an attempt to record the experiences Utah's eithnic minorities.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>In 1964, History professors A. R. Mortensen and Gregory Crampton conceived the University of Utah's American West Center (originally called the Western History Center) as an institution devoted exclusively to research on the American West.  As a part of its mission to create and disseminate knowledge about the American West, the center established the ongoing Ethnic Oral Histories Project to explore the experiences of Utah members of Native American and ethnic immigrant communities, including the Jewish community.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Jewish oral history project audio recordings (1972-1982) document the experiences of various people of the Jewish community in Utah and surrounding areas.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format:</p>
+      <p>Audiocassettes are arranged alphabetically by the interviewee's last name; recordings of subjects who were interviewed more than once are not necessarily listed in chronological order.</p>
+      <p>Compact discs are arranged chronologically by interview date.</p>
+      <p>Some subjects are represented by interviews held on both cassette and CD.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>Transcripts can be found in the Jewish oral history project (Accn 1629) and Interviews with Jews in Utah (Accn 998) in the Manuscripts Division of Special Collections.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2008.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--Emigration and immigration</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--Ethnic relations</geogname>
+      <subject encodinganalog="subject" source="lcsh">Jews, American--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Immigrants--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Children of immigrants--Utah--Interviews</subject>
+      <subject encodinganalog="subject" source="lcsh">Jews--Utah--Cultural assimilation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Judaism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Sadie Appleman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2-5</container>
+          <unittitle encodinganalog="title">Michael Arnovitz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 November 30</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 December 06</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 December 12</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6-9</container>
+          <unittitle encodinganalog="title">Rose Arnovitz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 April 14</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 March 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">Bernice Bernstein</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 17</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">Herman Bernstein</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">Sam Bernstein</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 01</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13-19</container>
+          <unittitle encodinganalog="title">Abe Cline</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May 19</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 02</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 06</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 June 15</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 20</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">20</container>
+          <unittitle encodinganalog="title">Jeannie Dupler</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">21-22</container>
+          <unittitle encodinganalog="title">Harold Findling</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">23-24</container>
+          <unittitle encodinganalog="title">Simon Frank</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 28-29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">25-26</container>
+          <unittitle encodinganalog="title">Alberta Freshman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 03</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">27</container>
+          <unittitle encodinganalog="title">Doris N. Guss</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 09</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">28-29</container>
+          <unittitle encodinganalog="title">Samuel Guss</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 January 20</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">30-31</container>
+          <unittitle encodinganalog="title">Eugene Hertz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 November 24</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">32-33</container>
+          <unittitle encodinganalog="title">Esther Klein</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 November 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 December 15</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">34-36</container>
+          <unittitle encodinganalog="title">Esther Landa</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 11</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">37-39</container>
+          <unittitle encodinganalog="title">Betsy Bamberger Lesser</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 27</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May 26</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">40</container>
+          <unittitle encodinganalog="title">Fred Livden</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">41-42</container>
+          <unittitle encodinganalog="title">JoAnne McGillis</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 13</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 02</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">43-44</container>
+          <unittitle encodinganalog="title">Howard Marcus</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 24</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">45-48</container>
+          <unittitle encodinganalog="title">Sidney Matz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 November 12</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 November 19</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 November 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">49-51</container>
+          <unittitle encodinganalog="title">Harry Miller</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 February 27</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 October 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">52-55</container>
+          <unittitle encodinganalog="title">Norman Nathan</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 February 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 February 24</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May 12</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">56-57</container>
+          <unittitle encodinganalog="title">Rose Nord</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 April 21</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 April 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">58-59</container>
+          <unittitle encodinganalog="title">Milton Pepper</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 29</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 23</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">60-61</container>
+          <unittitle encodinganalog="title">Sonia Pepper; Rose Arnovitz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 13-14</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">62-65</container>
+          <unittitle encodinganalog="title">Bernie Rose</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 20</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">66-68</container>
+          <unittitle encodinganalog="title">Isaac Rose</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 16</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 02</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 23</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">69-77</container>
+          <unittitle encodinganalog="title">Joseph Rosenblatt</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 04</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 21</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 11</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 02</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 10</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 25</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 31</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 August 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">78</container>
+          <unittitle encodinganalog="title">Sophie Rosenthal</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">79-80</container>
+          <unittitle encodinganalog="title">Helen Saudack</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">81-83</container>
+          <unittitle encodinganalog="title">A. Wally Saudack</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 22</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">84-89</container>
+          <unittitle encodinganalog="title">Joel Shapiro</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 26</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 09</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 15</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 20</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 August 11</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">90</container>
+          <unittitle encodinganalog="title">Cecelia Siegal</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 17</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">91-94</container>
+          <unittitle encodinganalog="title">Dal Siegal</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 10</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 15</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 May 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">95-96</container>
+          <unittitle encodinganalog="title">Harry Smith</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 02</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">97</container>
+          <unittitle encodinganalog="title">Marjoroe Smith</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 09</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">98-101</container>
+          <unittitle encodinganalog="title">Corinne Sweet</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 08</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 November 16</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 November 22</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 December 09</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">102-105</container>
+          <unittitle encodinganalog="title">Ralph Tanenbaum</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 24</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 June 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">106-107</container>
+          <unittitle encodinganalog="title">Sade Tanenbaum</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 06</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 July 24</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">108</container>
+          <unittitle encodinganalog="title">Harry Doctorman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 March 06</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 March 13</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">110</container>
+          <unittitle encodinganalog="title">Joe Doctoman and son Harry</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 February 24</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">111</container>
+          <unittitle encodinganalog="title">David Freedman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 June 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">112-113</container>
+          <unittitle encodinganalog="title">Jack Goodman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 November 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">114</container>
+          <unittitle encodinganalog="title">Abe Guss</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 December 01</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">115-117</container>
+          <unittitle encodinganalog="title">Victor Kassel</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 25</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 October 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">118-119</container>
+          <unittitle encodinganalog="title">Laurence D. Loeb</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 September 15</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 October 20</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">120</container>
+          <unittitle encodinganalog="title">Jerry Lutzker</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 December 24</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">121-122</container>
+          <unittitle encodinganalog="title">Harry Miller</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 17</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 October 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">123-124</container>
+          <unittitle encodinganalog="title">Isaac Rose</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 April 28-29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">125-126</container>
+          <unittitle encodinganalog="title">Milton A. Rosen</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 10</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">127-128</container>
+          <unittitle encodinganalog="title">Joseph Rosenblatt</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 October 21</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 October 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">129</container>
+          <unittitle encodinganalog="title">Eva Seigal</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 July 12</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">130-133</container>
+          <unittitle encodinganalog="title">Rabbi Eric Silver</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 February 13</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 February 26</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 March 10</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 April 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">134-136</container>
+          <unittitle encodinganalog="title">Abe Wagner</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 December 21</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 February 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">137-140</container>
+          <unittitle encodinganalog="title">Izzy Wagner</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 August 09</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 August 15</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 August 26</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 September 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">141</container>
+          <unittitle encodinganalog="title">Max Wilson; Anatole Zucker</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 August 13</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-3-01</unitid>
+          <container type="disc">142</container>
+          <unittitle encodinganalog="title">Clair Steris Vonstien</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 01</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Mrs. Vonstien discusses the history of Jews in Utah and the Intermountain West.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-4-01</unitid>
+          <container type="disc">143-144</container>
+          <unittitle encodinganalog="title">Ben Arnovitz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 11</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Mr. Arnovitz discusses the history of his family, work, and his religion.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-4-02</unitid>
+          <container type="disc">145</container>
+          <unittitle encodinganalog="title">Ben Arnovitz; unidentified Native American</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 11</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Mr. Arnovitz continues his discussion regarding Judaism in Salt Lake City. The end of track 3 through track 10 contains an interview with an unidentified Native American discussing World War II.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-5-01&amp;02</unitid>
+          <container type="disc">146-147</container>
+          <unittitle encodinganalog="title">Ed Isen</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 17</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-6-01&amp;02</unitid>
+          <container type="disc">148-149</container>
+          <unittitle encodinganalog="title">Max Callwin</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 18</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-7-01&amp;02</unitid>
+          <container type="disc">150-151</container>
+          <unittitle encodinganalog="title">Eva Seigal</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 22</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-8-01&amp;02</unitid>
+          <container type="disc">152-153</container>
+          <unittitle encodinganalog="title">Sarah Paulmrands</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 24</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-9-01&amp;02</unitid>
+          <container type="disc">154-155</container>
+          <unittitle encodinganalog="title">Phillip Pearlman</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 September 01</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-12-01</unitid>
+          <container type="disc">156</container>
+          <unittitle encodinganalog="title">Ray Bernstien</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 September 14</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-13a-01&amp;02, H13b-01, H14-01, H-19-01</unitid>
+          <container type="disc">157-160, 162</container>
+          <unittitle encodinganalog="title">Maurice Warshaw</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 October 28</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 November 07</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 November 14</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 February 06</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-16-01</unitid>
+          <container type="disc">161</container>
+          <unittitle encodinganalog="title">Ester Landa</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 December 26</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-25-01&amp;02, H-26-01&amp;02</unitid>
+          <container type="disc">163-166</container>
+          <unittitle encodinganalog="title">Charles Poritzky</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 June 18</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 July 01</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-27-01&amp;02  H-28-01&amp;02</unitid>
+          <container type="disc">167-170</container>
+          <unittitle encodinganalog="title">Min Crutcher</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 July 25</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-29-01&amp;02</unitid>
+          <container type="disc">171-172</container>
+          <unittitle encodinganalog="title">Maurice Hayden</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 November 08</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Shaare Zedek Congregation.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-29a-01</unitid>
+          <container type="disc">173</container>
+          <unittitle encodinganalog="title">Sam and Abe Bernstein</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 November 04</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-31-01&amp;02</unitid>
+          <container type="disc">174-175</container>
+          <unittitle encodinganalog="title">Harry Olchule</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 April 29</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-33-01</unitid>
+          <container type="disc">176</container>
+          <unittitle encodinganalog="title">Unidentified interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-34-01</unitid>
+          <container type="disc">177</container>
+          <unittitle encodinganalog="title">J. Pulman Waters, Samuel Newhouse</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977 July 16</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unitid label="Call number">H-36-01&amp;02, H-37-01&amp;02</unitid>
+          <container type="disc">178-179</container>
+          <unittitle encodinganalog="title">Doris Dearis</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

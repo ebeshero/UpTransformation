@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:42 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0486::Big Chance motion picture)//EN" encodinganalog="identifier" identifier="80444/xv23217" url="http://archiveswest.orbiscascade.org/ark:/80444/xv23217">UUM_A0486</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Big Chance motion picture
+          <date era="ce" calendar="gregorian" normal="1968" encodinganalog="date">1968</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Big Chance motion picture</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0486</unitid>
+      <unittitle encodinganalog="title">
+        <title render="italic">The Big Chance</title> motion picture</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1968" encodinganalog="date">1968</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Aller, Robert</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 16mm film</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The film <title render="italic">The Big Chance</title> (1968) focuses on the opportunities offered by the Madera Employment Training Center in Madera California.  The training center is operated by the Education and Technical Services Division under contract with the Bureau of Inadian Affairs, United States Department of Interior.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>The Madera Employment Training Center is a professional training school in Madera, California operated by the Education and Technical Services Division under contract with the Bureau of Inadian Affairs, United States Department of Interior.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The film <title render="italic">The Big Chance</title> (1968) focuses on the opportunities offered by the Madera Employment Training Center in Madera California.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Bureau of Indian Affairs</corpname>
+      <subject encodinganalog="subject" source="lcsh">Native Americans </subject>
+      <subject encodinganalog="subject" source="lcsh">Employment agencies</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">The Big Chance</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Damaged by scratch marks
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Directed by: Robert Aller</p>
+          <p>Presented by: Wexler Films Los Angeles and Philco Ford Corporation for the Madera Employment Training Center in Madera California.</p>
+          <p>All of the students featured in this film are Native American.</p>
+          <p>Shot list:</p>
+          <p>Shot of a bus driving.</p>
+          <p>People walking on sidewalk.</p>
+          <p>Men getting ready for training. They begin welding.</p>
+          <p>A woman in training for electrical work.</p>
+          <p>Shot of a "Philco Devil Box".</p>
+          <p>Several shots of Native American cerimonial dancing.</p>
+          <p>Shot of the cafeteria lunch line and students eating.</p>
+          <p>Men working on a car.</p>
+          <p>Several shots of students swimming in a pool, women sewing and men playing billiards.</p>
+          <p>Shot of math class.</p>
+          <p>Several men fixing a washer and dryer.</p>
+          <p>Young boy being attended to by a nurse.</p>
+          <p>Kids playing in the street.</p>
+          <p>Shots of Madera from above.</p>
+          <p>Several shots of kids playing at a day care facility.</p>
+          <p>Shots of these same children at the Zoo.</p>
+          <p>Shots of students working on typewritters.</p>
+          <p>Shots of students dancing.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

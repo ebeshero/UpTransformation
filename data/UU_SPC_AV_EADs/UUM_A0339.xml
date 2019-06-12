@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:37 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0339::Edna Clark Ericksen oral history audio recordings)//EN" encodinganalog="identifier" identifier="80444/xv67434" url="http://archiveswest.orbiscascade.org/ark:/80444/xv67434">UUM_A0339</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Edna Clark Ericksen oral history audio recordings
+          <date era="ce" calendar="gregorian" normal="1972/1982" encodinganalog="date">1972-1982</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Ericksen (Edna Clark) oral history audio recordings</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2002" encodinganalog="date">© 2002</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0339</unitid>
+      <unittitle encodinganalog="title">Edna Clark Ericksen oral history audio recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1972/1982" encodinganalog="date">1972-1982</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="collector">Ericksen, Edna Clark, 1889-1983</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">45 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Edna Clark Ericksen oral history audio recordings (1972-1982) consist of extensive interviews with Ericksen about her life experiences.  Ericksen served in the Utah State Legislature in the 1930s-1940s and on the Church of Jesus Christ of Latter-day Saints (LDS) Primary General Board.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Edna Clark Ericksen was born in Auburn, Wyoming, on 19 November 1889 to Hyrum Don Carlos Clark and Ann Eliza Porter Clark. In 1905, at the age of sixteen, Edna left Star Valley and went to Paris, Idaho, in order to attend Fielding Academy, a LDS Church-sponsored combination elementary and high school. Although she did not complete her studies there, she enrolled at Brigham Young College in 1907. There she met her future husband, Ephraim E. Ericksen, who became the University of Utah's first Professor of Philosophy. They married on 8 June 1910. In 1920, Edna was called to the General Board of the LDS Primary organization, and was assigned the task of developing a program for boys between the ages of nine and eleven. Characteristically, Edna began by listening to the boys themselves, and then went on to develop what has been called the most successful program in the history of the Primary. It was at this time that Edna turned her imagination and flair for craftwork into a home industry that would contribute to the Ericksen family coffers for the next thirty years. She designed, made, and sold uniforms, badges, and insignias for the Primary and other local organizations. In 1932, Edna was elected to the Utah House of Representatives, where she served until 1935. Six years later, she was appointed to fill the State Senate seat vacated by Gordon Weggeland. She was elected in her own right the following year. After the death of E. E. Ericksen in 1967, Edna traveled to Europe, Mexico, and the Far East. In 1974, she was honored by the Utah Women's Political Caucus and the National Organization for Women for her contribution to women's causes.</p>
+      <p>Edna Clark Ericksen's family is committed to the preservation of her personal history.  After a message was sent to the Clark Family Association by Clark S. Knowlton reminding the family that LDS Church authorities have instructed members to keep a record of their lives and the lives of their ancestors various family members taped interviews with Edna Clark Ericksen between 1972 and 1982.  Edna Clark Ericksen died in Salt Lake City on 15 August 1983.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Edna Clark Ericksen oral history audio recordings (1972-1982) consist of extensive interviews with Ericksen about her life experiences:</p>
+      <p>Tapes 1-3 were produced through the efforts of grandson Scott G. Kenney.</p>
+      <p>Tapes 4-19 are the result of conversations between Mrs. Ericksen and a grandniece and were intended to provide the basis for a life history.</p>
+      <p>Tapes 20-45 represent an attempt by Edna Clark Ericksen and Clark Knowlton to preserve a chronological record of her life.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologially by interview date.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Edna Clark Ericksen papers (Ms 617) and photograph collection (P0425).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Tawnya Mosier in 2002.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Ericksen, Ephraim Edward</persname>
+      <famname encodinganalog="subject" rules="dacs" role="subject">
+        Clark family
+      </famname>
+      <famname encodinganalog="subject" rules="dacs" role="subject">
+        Ericksen family
+      </famname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--Legislature</geogname>
+      <subject encodinganalog="subject" source="lcsh">Democratic Party (Utah)</subject>
+      <subject encodinganalog="subject" source="lcsh">Women in politics--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Women legislators--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Women in church work--Mormon Church--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Mormon women</subject>
+      <subject encodinganalog="subject" source="lcsh">Polygamy--Personal narratives</subject>
+      <subject altrender="nodisplay" source="archiveswest">Political Campaigns</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1-2</container>
+          <unittitle encodinganalog="title">Edna Clark Ericksen and Heber D. Clark on polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 March 30</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Primary board, Clark family, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 August</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Courtship, marriage and early married life</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Christmas greetings to Edna, Chopin recital by J. M. Robinault</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975 December</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 February 21</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">Edna's birth and childhood in Star Valley, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 February 21</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 March 13</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">9-10</container>
+          <unittitle encodinganalog="title">Clark family life, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 March 27</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">Courtship</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 April 17</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">Early married Life</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 May 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13</container>
+          <unittitle encodinganalog="title">Life in Beaver, Utah, life at 252 University Street</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 June 05</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">14</container>
+          <unittitle encodinganalog="title">Ericksen family life</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 June 19</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 June 29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">15</container>
+          <unittitle encodinganalog="title">Death of Eliza Porter Clark, Ericksen family life</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 October 02</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">16</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley, Church callings, trail builders</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977 January 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">17</container>
+          <unittitle encodinganalog="title">Trail builders, Clark family reunions, Primary Board</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977 January 29</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">18</container>
+          <unittitle encodinganalog="title">Death of Howard Bendt Erickson, life at 252 University Street</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">12 February 1977</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">19</container>
+          <unittitle encodinganalog="title">Raising children, Family Life Conference, Utah politics, election to the Utah Senate</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977 February 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">20</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley, early years and education</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">21</container>
+          <unittitle encodinganalog="title">University of Chicago, childhood in Star Valley, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">22</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">23</container>
+          <unittitle encodinganalog="title">Clark family, childhood, life at 252 University Street</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 190</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">24</container>
+          <unittitle encodinganalog="title">University of Chicago, LDS Church activity, trail builders, Church authorities</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">25</container>
+          <unittitle encodinganalog="title">Utah House of Representatives, Utah Senate</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">26</container>
+          <unittitle encodinganalog="title">Life in Star Valley, travels of the Ericksen family, trail builders</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 26</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">27</container>
+          <unittitle encodinganalog="title">Trail builders, E.E. Ericksen's book published</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 26</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 November 01</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">28</container>
+          <unittitle encodinganalog="title">Last years and death of E.E. Ericksen, Utah politics, Brigham Young statue commission</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 November 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">29</container>
+          <unittitle encodinganalog="title">Williamsburg, Pennsylvania, childhood memories, crafts, foster grandparents, better homes campaign </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 November 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">30</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley, polygamy, Clark family, Edna's Education</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 November 23</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">31</container>
+          <unittitle encodinganalog="title">Childhood in Star Valley, World War II</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 December 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">32</container>
+          <unittitle encodinganalog="title">E.E. Ericksen, university life, trail builders, Native Americans</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 December 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">33</container>
+          <unittitle encodinganalog="title">Edna's parents, early married life, Utah Legislature</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 January 17</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">34</container>
+          <unittitle encodinganalog="title">Clark family, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 February 01</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">35</container>
+          <unittitle encodinganalog="title">Clark family, pioneering in Star Valley</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 February 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">36</container>
+          <unittitle encodinganalog="title">Clark family, Ericksen family life</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 February 21</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">37</container>
+          <unittitle encodinganalog="title">Women in public life, polygamy, Utah politics, Brigham Young statue commission</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 March 28</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">38</container>
+          <unittitle encodinganalog="title">Clark family, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 July 24</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">39</container>
+          <unittitle encodinganalog="title">Ericksen family life, LDS Church authorities, E.E. Ericksen at the University of Utah, Ericksen children as adults</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 02</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">40</container>
+          <unittitle encodinganalog="title">Ericksen childrenm, Clark family</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 July 07</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 August 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">41</container>
+          <unittitle encodinganalog="title">LDS Church reaction to "The Psychological and Ethical Aspects of Mormon Group Life," Ericksen family</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 August 18</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">42</container>
+          <unittitle encodinganalog="title">University of Utah, LDS Church</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 September 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">43</container>
+          <unittitle encodinganalog="title">Ericksen family life</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 September 08</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">44</container>
+          <unittitle encodinganalog="title">Clark family, Knowlton family, polygamy, Ericksen family life, E.E. Ericksen's last years, Primary Board</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 September 08</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 September 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">45</container>
+          <unittitle encodinganalog="title">E.E. Ericksen's last years, settlement of Star Valley, polygamy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 September 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

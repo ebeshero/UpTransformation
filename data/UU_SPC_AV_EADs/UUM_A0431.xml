@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:42 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0431::KUED-TV productions audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv94869" url="http://archiveswest.orbiscascade.org/ark:/80444/xv94869">UUM_A0431</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the KUED-TV productions audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1966/2010" encodinganalog="date">1966-2010</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">KUED-TV productions audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Michael Hinderaker. Updated in 2014 by Jessica Breiman.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2011" encodinganalog="date">© 2011</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Steed
+        <date era="ce" calendar="gregorian" normal="2011">2011</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0431</unitid>
+      <unittitle encodinganalog="title">KUED-TV productions audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1966/2010" encodinganalog="date">1966-2010</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">KUED-TV (Television station : Salt Lake City, Utah)</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">64 VHS videocassettes, 11 DVDs, 83 compact discs, 1 U-matic videocassette, 1 Betacam videoassette, 1 Mini-DV videocassette, 1 Fuji D3001 videocassette and 1 16mm film</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The KUED-TV productions audio-visual collection (1966-2010) consists of recordings of local and regional television programs produced by or for KUED-TV.  Most of the programs focus on topics related to Utah or the American West.  KUED-TV is a Public Broadcasting Service (PBS) affiliated television station brodcasting from the University of Utah.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>KUED is a Public Broadcasting Service (PBS) affiliated television station that has operated in conjunction with the University of Utah since 1958.  In addition to airing nationally syndicated PBS programs KUED produces and airs television programs and documentaries made by local and regional filmmakers and about local and regional issues.  KUED was the recipient of the first Rocky Mountain Emmy Award of Excellence for the Best Overall TV Station, which recognizes the station's commitment to serving the community through its productions and outreach programs.  The Rocky Mountain Emmy Awards represent a division of the National Academy of Television Arts and Sciences that honors productions from Arizona, New Mexico, Utah, Wyoming and El Centro, California.  Based in Salt Lake City, Utah, KUED now broadcasts on digital channels 7.1 (KUED), 7.2 (KUED World) and 7.3 (KUED V-me, a Spanish language station).</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The KUED-TV productions audio-visual collection (1966-2010) consists of recordings of local and regional television programs produced by or for KUED-TV.  Most of the programs focus on topics related to Utah or the American West.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged in loose chronological order.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>All of the materials in this collection are under copyright and may not be reproduced or included in a production without permission of KUED-TV.  However, all materials are open to public viewing and research.</p>
+    </userestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the <extref xlink:type="simple" xlink:role="text/html" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://nwda.orbiscascade.org/ark:/80444/xv61886">KUED-TV promotional materials (Acc 409)</extref> and records <extref xlink:type="simple" xlink:role="text/html" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://nwda.orbiscascade.org/ark:/80444/xv78366">Acc 176</extref>, <extref xlink:type="simple" xlink:role="text/html" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://nwda.orbiscascade.org/ark:/80444/xv62106">Acc 355</extref>, and <extref xlink:type="simple" xlink:role="text/html" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://nwda.orbiscascade.org/ark:/80444/xv35128">Acc 374</extref> in the University Archives Records Management Division of Special Collections.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Michael Hinderaker in 2011.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Public television--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Educational television stations--Utah--History--Sources</subject>
+      <subject altrender="nodisplay" source="archiveswest">Arts, Humanities, and Social Sciences</subject>
+      <subject altrender="nodisplay" source="archiveswest">Journalism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Material Types</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Press and Politics I  (101)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>53:19 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Press and Politics II  (102)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>58:00 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">On the Medical Edge: Genetics Brain (101)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>25:51 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">On the Medical Edge: Cancer (102)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>24:21 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">On the Medical Edge: The Heart (103)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>24:21 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Wilderness: Utah's Great Debate</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>58:08 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">Insight: Norm Bangerter</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>56:46 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Insight: Senator Jake Garn</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>From the fall of communism to his highly publicized flight as a space shuttle astronaut, Senator Garn offers unprecedented insight to his political career in this interview.  He also speaks movingly about the personal tragedies and triumphs that marked his eighteen years in Washington.  56:46 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">9</container>
+          <unittitle encodinganalog="title">Insight: Tom Korologas</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>56:20 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">Insight: J. Bracken Lee</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1986</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director/Interviewer: Ken Verdoia</p>
+          <p>An interview with J. Bracken Lee, Governor of Utah (1949-1957) and Mayor of Salt Lake City (1960-1972).  Lee speaks out on his colorful political career including: his controversial years as Mayor of Price, Utah; political campaigns reaching from the Depression through the Vietnam era; his eight years as Governor; battles with the Internal Revenue Service; his management of the relationship between government and the LDS Church; numerous political comebacks, including his three terms as Mayor of Salt Lake City; the changing face of American politics.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">Insight: Calvin Rampton</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1994</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Host/Producer: Ken Verdoia</p>
+          <p>The triumphs, memories and struggles of a storied political career are at the heart of this program.  Over twelve years as Governor, Calvin Rampton carved out a unique and popular niche in Utah, running against a current of fleeting political fortunes and partisan intrigue.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">Insight: Mark Strand</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In an unprecedented interview with KUED Senior Producer Ken Verdoia, former national Poet Laureate Mark Strand speaks of his pending departure from the University of Utah, the influence of the West on his poetry, and the future of the humanities in a society.  28:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13</container>
+          <unittitle encodinganalog="title">Tribute: Maurice Abravanel</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1986</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>Interviewer: Ricklen Nobis</p>
+          <p>For forty years Maurice Abravanel served as a passionate force in Utah's fine arts community.  In a thoughtful, candid interview, Abravanel reflects on his storied career as conductor and musical director of the Utah Symphony.  Sometimes humorous...sometimes caustic...but always heartfelt, The Maestro offers penetrating insight into life and the arts in his adopted home site.  Re-issued in 1993 at the time of Abravanel's death at age 90</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">14</container>
+          <unittitle encodinganalog="title">Bruce Babbitt: Challenge, Change and the American West</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1994</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>In his most comprehensive broadcast interview to date, Secretary Babbitt discusses his views on preservation, development and the emergence of a Anew land ethic@ for hundreds of millions of acres of publicly owned land...land that dominates the future of the American West.  57:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">15</container>
+          <unittitle encodinganalog="title">Scott Matheson: Reflections</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1985</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director/Interviewer: Ken Verdoia</p>
+          <p>Recollections of Utah Governor Scott M. Matheson on his eight years of service (1977-1985).  This program was originally broadcast in 1985 as Matheson prepared to leave office, and was re-edited for broadcast in 1990 as a memorial program after his death.  During the program, Matheson discusses his part in redefining the role of Governor, changes in the federal/state relationship, the execution of Gary Gilmore, nuclear weapons testing and its health implications, political campaigns and his relationship with Republican legislative majorities, and the John Singer case.  Joined by his wife Norma Matheson, for the second half of the interview, Matheson discusses the private aspects of public service, the significance of a heart attack suffered during his second term, and his philosophical approach to public service.  Re-edited for broadcast in 1990.  60:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">16</container>
+          <unittitle encodinganalog="title">J. D. Williams: A University Portrait</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>In this University Portrait, Williams reflects on his Aforty year love affair@ with the University of Utah, his involvement in national and local political issues, and his deep personal commitment to the 20,000 students who studied under his guidance.  A fierce defender of political liberalism and involvement, AJ.D.@ is also one of Utah=s most recognized authorities on the Constitution of the Unites States of America.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">17</container>
+          <unittitle encodinganalog="title">A Matter of Principle: Polygamy in the Mountain West</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>A Matter of Principle provides an unprecedented look at the history, controversy, and contemporary practice of polygamy in the American West.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">18</container>
+          <unittitle encodinganalog="title">River of Stone: The Powell Expedition</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>KUED retraces Major Powell's historic expedition and charts the changes that occurred with the subsequent use and abuse of the river system he charted.  Dramatic footage of the region is alternated with some of the first photographs ever taken of the territories Powell explored.  Interviews with experts are combined with Powell's writings to bring the history and controversies surrounding the river into focus.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">19</container>
+          <unittitle encodinganalog="title">30 Years to Justice</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1985</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>An examination of the case of Bulloch V. United States.  A group of sheepherders from southern Utah and their flocks are exposed to massive amounts of radioactive fallout during nuclear weapons testing at the Nevada Test Site in the early 1950s.  Claiming to have suffered devastating losses, they undertake a thirty-year campaign seeking justice from the federal government.  The case offers unique insight into operations of the Atomic Energy Commission among people downwind from the Nevada Test Site during the open-air weapons testing period.  Featuring archival film and still photos from the era and nuclear weapons testing.  28:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">20</container>
+          <unittitle encodinganalog="title">Frontier Code Blue</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>Frontier Code Blue examines a quiet crisis in health care in the nation's most isolated areas.  In hundreds of rural towns in the Mountain West, health care systems are in danger of collapse.  Critical shortages of trained medical personnel leave many communities without any form of emergency care.  Rural hospitals are closing at the rate of one per month under the strain of expensive technology and the inability to recruit physicians.  Whether they could afford the care or not, nearly one million residents of the rural Mountain West have no access to medical care...simply because it does not exist.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">21</container>
+          <unittitle encodinganalog="title">Shades of Gray</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>Through intimate portraits of families facing the challenges of caring for an aging population, Shades of Gray documents the explosive growth of the nation's elderly.  The program also examines the potential impacts of the aging of America's Baby Boom generation.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">22</container>
+          <unittitle encodinganalog="title">Topaz</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>Fifty years ago Japanese-American children pledged allegiance to the flag of America while caged behind the barbed wire at the desert encampment of Central Utah, known as Topaz.  During WWII thousands of ethnic Japanese living in the U.S.--men, women, and children--were stripped of their constitutional rights, forced from their homes, and shipped to Topaz, a War Relocation camp near Delta, Utah.  For over three years, this barren desert camp was their</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">23</container>
+          <unittitle encodinganalog="title">A Rising Voice: Hispanic Utah</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Colleen Casto</p>
+          <p>This program examines the history of Hispanic immigration, the rich diversity of culture and its contributions, as well as the challenges facing Hispanic Utahns today.  Most Utahns are not even sure what the term AHispanic@ means yet it is projected that Hispanics, as the largest growing minority population in the nation, will play a major role in the future.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">24</container>
+          <unittitle encodinganalog="title">Utah's Black Legacy</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Co-producer/Director: Jerry Carter</p>
+          <p>Co-producer/Writer: Jane Maddock</p>
+          <p>Blacks were in Utah long before the mass immigration of the white settlers.  You=ll learn about these trappers, scouts and adventurers.  The people tell about growing up in Utah, in the early years as well as today.  Segregation, subtle discrimination, hatred, educational and religious closed-mindedness, and yes, great hope, characterize being back in Utah.  This documentary provides insight into the black culture of Utah, its history, its contributions to Utah's communities and its challenges and aspirations for the future.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">25</container>
+          <unittitle encodinganalog="title">Remembering David</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>This documentary provides an intimate profile of a man who dared to make a difference in society's response to an often misunderstood epidemic.  The program chronicles the final forty-two months in the life of David Sharpton, a man fighting a difficult battle in an unlikely location against tremendous odds.  Starting in 1988, Sharpton embarked on an exhaustive crusade to educate the public on the challenges of living with AIDS.  This program deals with sensitive issues related to death and dying and may not be suitable for children.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">26</container>
+          <unittitle encodinganalog="title">Arctic Wars</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: John Howe</p>
+          <p>Narrated by actor E.G. Marshall, Arctic Wars examines the fight for the Arctic National Wildlife Refuge.  The oil industry speculates it holds vast deposits of oil.  The controversy of whether to develop will be the environmental debate of the 1990s and will shape the future.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">27</container>
+          <unittitle encodinganalog="title">Grizzly: The Shining Mountains</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>29:20 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">28</container>
+          <unittitle encodinganalog="title">The Great West Collection:  The Last Cowboys</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1991</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Narrated by Joseph Campanella, The Last Cowboys provides a loving look at a truly American tradition.  The trail winds through the world of today's cowboys as they live and work in the shadow of the Old West.  60:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">29</container>
+          <unittitle encodinganalog="title">A Desert Sea</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1993</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer: John Howe</p>
+          <p>Hosted by author Terry Tempest Williams, A Desert Sea reveals the mysteries of Utah's Great Salt Lake.  From prehistoric Lake Bonneville to one of America's last shorebird sanctuaries, the program contrasts stark desert landscapes with a wealth of teeming wildlife and natural resources.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">30</container>
+          <unittitle encodinganalog="title">Return of the Wolves</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1989</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer: John Howe</p>
+          <p>It's been 60 years since the mournful howl of the wolf was heard in Yellowstone.  KUED chronicles the controversial attempts to reintroduce the wolf into Yellowstone.  Containing rare footage, this program sheds new light on this feared and often misunderstood animal.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">31</container>
+          <unittitle encodinganalog="title">The Environment and You</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The Environment and You explores the critical issues of air quality and recycling.  In two segments (A Darkening Sky, 23 minutes; Our Fragile Earth, 16 minutes), the video presents the dilemma and considers the solutions.  39:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">32</container>
+          <unittitle encodinganalog="title">Atomic Stampede</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1994</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer: Ken Verdoia</p>
+          <p>It was a time of opportunity and failure, virtue and deceit, and staggering human costs.  Fortunes were made and lost in the blink of an eye during America's Cold War uranium boom.  In this powerful documentary, KUED sheds new light on this forgotten chapter of our nation's history.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">33</container>
+          <unittitle encodinganalog="title">The Man and the Mountains: Paul Petzoldt</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1994</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer/Director: Ken Verdoia</p>
+          <p>He was a ground breaking mountaineer, an innovator in climbing, safety and survival.  He developed a cutting edge approach while educating three generations of Americans on wilderness leadership and self-discovery.  In a rare and candid interview, he talks of his life at the top of the world.  With the Majestic Teton range of western Wyoming as his backdrop, he recounts dangerous early climbing experiences, his breathtaking expeditions to the world's most challenging summits, and the evolution of a new ethical standard for enjoying outdoor recreation without destroying the wild landscape.  57:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">34</container>
+          <unittitle encodinganalog="title">The Faces of Utah</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A video presentation on the ethnic cultures of Utah.  Hispanics, Blacks, Jews, Navajos and Southeast Asians are featured in this 5-segment program.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">35</container>
+          <unittitle encodinganalog="title">Separate Journeys</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1993</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Members of the Native American (Ute), Mexican/Hispanic, Jewish, Japanese, and Greek communities share personal experiences regarding their immigration to (or relocation in) Utah, and the consequent struggle to maintain their respective cultural identities.  Performed by Repertory Dance Theatre, this 5-part video combines personal histories, dance, music, and photography to celebrate the rich ethnic and cultural heritage of Utah.  56:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">36</container>
+          <unittitle encodinganalog="title">Utah Women Considered</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1995</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producers: Louise Degn, Colleen Casto, Marie Cornwall</p>
+          <p>Like a tapestry handed down from one generation to the next, Utah Women Considered weaves together the common threads among four generations of Utah women in three families-one Ute, one Hispanic, and one Anglo-Mormon.  Through their personal stories, the documentary tells the larger story of the past century of Utah women.  While chronicling the changing lives and times of Utah women, the program explores universal issues ranging from education and aging to family and professional life.  57:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">37</container>
+          <unittitle encodinganalog="title">Hans Petersen's Tom Paine</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1994</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Produced by Elizabeth Searles; Directed by Ann Gallenson</p>
+          <p>In an intimate dramatic performance, Salt Lake City radio personality Hans Petersen brings to life this celebrated figure from America's past.  Petersen's one-man show traces Paine's life from his childhood in England to his revolutionary years in America to his near-execution in France to his lonely final days in New York.  55:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">38</container>
+          <unittitle encodinganalog="title">Desert Dreams</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1989</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Producer: John Howe</p>
+          <p>28:00 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">39</container>
+          <unittitle encodinganalog="title">Utah: A Portrait</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1995</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Produced by John Howe and written by William B. Smart</p>
+          <p>From the sapphire waters of Bear Lake to the sunbaked Salt Flats, Utah is a place justly celebrated for its geographic splendor and diversity.  Soar above Delicate Arch, the Great Salt Lake, the rugged peaks of the Uintas, and more in this stunning aerial portrait evoking the breadth and majesty of Utah's landscape.  Combines sweeping aerial photography with words and music to create a colorful collage of this unique land.  58:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">40</container>
+          <unittitle encodinganalog="title">Salt Lake City: Once Upon a Time</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1995</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Produced by Elizabeth Searles, written by Elizabeth Searles and Hans Petersen</p>
+          <p>Once upon a time, there were no malls in Salt Lake City.  Parking was abundant, and anything past 2700 South was considered Aout in of daily life revolved around the war effort.  Streetcars bustled people downtown to shop at large elegant department stores like Auerbach's.  The city was brimming with dance halls and grand movie houses.  Everyone took the train to Saltair and Lagoon.  It was a time when men wore hats, cars had running boards, and everyone dressed up to go downtown.  KUED takes you on a nostalgic journey to those days with this delightful video scrapbook featuring hundreds of photos, archival footage, and interviews with the people who fondly remember Salt Lake City "once upon a time." 80:00 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">41</container>
+          <unittitle encodinganalog="title">UTAH: The Struggle for Statehood parts 1-2</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1995</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Written, Produced and Directed by Ken Verdoia</p>
+          <p>Parts 1 and 2.  This documentary takes an often surprising look at Utah's path to statehood, from determined pioneers seeking a haven to back room lobbying and deal-making in the halls of Congress.  Three years in the making, the series was shot on location in four states and features more than 200 speaking roles in its powerful retelling of Utah's 50-year march to admission as the 45th state.  The film combines archival photographs, original footage, and interviews with historians and writers, together with moving written records of early Utah settlers, both famous and obscure.  150 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">42</container>
+          <unittitle encodinganalog="title">UTAH: The Struggle for Statehood parts 3-4</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1995</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Written, Produced and Directed by Ken Verdoia</p>
+          <p>135 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">43</container>
+          <unittitle encodinganalog="title">Probing the Genetic Universe</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1997</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Written, Produced and Directed by Kathleen Weiler</p>
+          <p>The impact of human genetics upon life and medicine inside and outside the laboratory is revolutionary.  What geneticists discover in the lab today will profoundly change our lives tomorrow--from decisions about what we eat, to the way we prevent, diagnose and treat human disease, to ultimately, how we frame our philosophical questions about birth and death.  56 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">44</container>
+          <unittitle encodinganalog="title">Brigham Young</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1997</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Written, Produced, and Directed by Ken Versoia</p>
+          <p>A comprehensive film biography of Brigham Young.  150 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">45</container>
+          <unittitle encodinganalog="title">Let the Women Vote!</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1997</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Produced and Directed by Louise Degn</p>
+          <p>Looks at the social and political contexts surrounding woman's suffrage.  From the homesteading tradition, in which western women engaged in hard labor with men, to the drafting of new constitutions for Western territories, and the effect of the civil war, the program reveals the many changes in America which brought about the women's movement in the West.  56 minutes.</p>
+          <p>46.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">46</container>
+          <unittitle encodinganalog="title">Utah's African-American Voices</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1999</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This program captures the African-American experience in Utah through interviews with historians, educators, community leaders, and the personal stories of both long-time residents and those new to Utah.  56 minutes.</p>
+          <p>47.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">47</container>
+          <unittitle encodinganalog="title">Utah's Greek-Americans</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2000</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Linking immigrant ancestors to today's vibrant community, Utah's Greek-Americans celebrates a cultural group steeped in generations of hard work, religious devotion, and family life.  Part of KUED's Many Faces, Many Voices diversity outreach project, this documentary highlights contemporary Hellenic traditions through interviews and visits to the annual Greek festivals in Salt Lake City and Price, Greek Orthodox ceremonies, and more.  57 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">48</container>
+          <unittitle encodinganalog="title">Tell Me: Joe Tippets</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 February 21</unitdate>
+          <physdesc>
+            <genreform>16mm film, U-matic videocassette, Mini-DV videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Joe Tippets, Director of the Federal Aviation Agency's Western Region is interviewed by Neal Maxwell for the Tell Me program on KUED.  30 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">49</container>
+          <unittitle encodinganalog="title">Fire in the Hole</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2000</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Fire in the Hole examines the mine labor wars that shaped the West during the early 1900s.  The documentary views the conflict in its social and historical context.  It was a time when industrialists surged forward to form an unchecked elite, and tens of thousands of new immigrants made their way West to work low-paying, often dangerous jobs.  Shot on location in seven states, the two-hour documentary uses archival photographs, interviews with historians and the powerful voices of those who fought the battles to illuminate this lost and compelling chapter of history.  120 minutes.</p>
+          <p>50.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">50</container>
+          <unittitle encodinganalog="title">Glen Canyon: A Dam, Water and the West</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1999</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>KUED produced documentary about the construction of the Glen Canyon Dam, which would create one of the world's largest man-made bodies of water in a desert, while at the same time drowning a thousand years of human history...and a million years of natural history.  57 minutes.</p>
+          <p>51.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">51</container>
+          <unittitle encodinganalog="title">Joe Hill</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1998</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>In this powerful and unprecedented documentary, KUED presents the story of Joe Hill, a labor organizer executed by the state of Utah in 1915. It's a story of a nation struggling with issues of justice, opportunity and the American Dream.  87 minutes.</p>
+          <p>52.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">52</container>
+          <unittitle encodinganalog="title">Flagship in the Desert: 150 Years at the University of Utah</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2000</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The remarkable saga of the University of Utah's 150 year history and its improbable emergence from a two-room rented school house to its status today as one of the top research universities in the world...which now attracts and educates people from all fifty states and 111 foreign countries.  The one-hour video scrapbook includes interviews with faculty, alumni, current and past presidents; rare historical photographs; as well as performances of the University of Utah A Cappella Choir; and a gospel arrangement of Utah Man performed by the New Pilgrim Baptist Church Choir.  60 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">53</container>
+          <unittitle encodinganalog="title">Promontory</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2002</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Promontory takes the viewer on a journey back in time to the days when the nation struggled to build the transcontinental railroad.  As construction armies raced east and west, it soon became clear that they would meet in the most unlikely spot in the nation: The Utah Territory under the leadership of Brigham Young.  What happened next would forever change the face of Utah and the West.  57 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">54</container>
+          <unittitle encodinganalog="title">The Spirit of Fort Douglas</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2002</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Directed and Produced by Joe Prokop</p>
+          <p>Documentary detailing the history of Fort Douglas, which was originally a federal camp overlooking Mormon pioneers, then a training ground for military personnel and later a prison for people feared to be a threat to national security.  55 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">55</container>
+          <unittitle encodinganalog="title">Twenty Years in Twenty Minutes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1992</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A short video history of KUED-TV.  20 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">56</container>
+          <unittitle encodinganalog="title">Battalion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette, DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Produced by Nancy Green and Ken Verdoia.</p>
+          <p>Documentary detailing the story of the Mormon Battalion during the U.S. war with Mexico.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">57</container>
+          <unittitle encodinganalog="title">No Safe Place: Domestic Violence</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1996</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">58</container>
+          <unittitle encodinganalog="title">Tell Me</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1966</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>24 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">59</container>
+          <unittitle encodinganalog="title">Twenty Years in Twenty Minutese</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1978</unitdate>
+          <physdesc>
+            <genreform>U-matic videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A documentary history of Television Station KUED, Salt Lake City, broadcast January 20, 1978.  Includes brief segments from important programs televised over KUED during its first twenty years.  20 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">60</container>
+          <unittitle encodinganalog="title">University of Utah at 150: Line Cut</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1999 February 07</unitdate>
+          <physdesc>
+            <genreform>Fuji D3001 videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">61</container>
+          <unittitle encodinganalog="title">University of Utah at 150: Line Cut</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2000 February 07</unitdate>
+          <physdesc>
+            <genreform>Betacam videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">62</container>
+          <unittitle encodinganalog="title">University of Utah at 150: Former Presidents with Questions and Answers</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2000 February 07</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">63</container>
+          <unittitle encodinganalog="title">Sesquicentennial, 150 Years at the University of Utah</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2000</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">64</container>
+          <unittitle encodinganalog="title">Washington D.C</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">65</container>
+          <unittitle encodinganalog="title">Crime Victims Reparation long version</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">66</container>
+          <unittitle encodinganalog="title">Skull Valley: Radioactive Waste and the American West</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2001</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The vast landscape of Utah's West Desert has become a crossroads for a national energy, safety and accountability crisis.  Already surrounded by military, chemical, and radiation hazards, the small Skull Valley Band of the Goshute Indian tripe may partner with a consortium of nuclear power utilities to store 80 million pounds of spent uranium fuel rods from the nation's nuclear power plants for up to 40 years.  With federal approval, an above ground storage plan would move forward on the tribe's reservation lands, despite the opposition of Utah's governor, the state legislature, and public sentiment.  Balanced and in-depth, Ken Verdoia's Skull Valley: Radioactive waste and the American West details a full-blown power struggle that pits government against government, culture against culture, and leaves little room for public concern to be addressed.  It's one of the most compelling public policy crises of the new century, and at the center of the controversy is arguably the most lethal industrial waste ever produced by man.  90 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">67</container>
+          <unittitle encodinganalog="title">Utah in the 1950's: Salt Lake City with Ted Capener</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2001</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>It was the best of times. Everyone liked Ike, and they loved Mayor Earl J. Glade. City streets were vibrant and drive-in movies were the place to be.  Women didn't go downtown without their hats and gloves. Movie houses like the Southeast Theater were packed-and not by crowds dressed in jeans and T-shirts, but in coats, ties, dresses and heels.  Ushers escorted droves of ticket-holders to the Technicolor world of Doris Day and Clark Gable.  Host Ted Capener takes viewers on a nostalgic journey featuring archival photographs and personal anecdotges from people who remember the fifties best.  Produced by Elizabeth Searles, Utah in the 50's: Salt Lake City with Ted Capener recalls a decade when cars were snazzy, malt shops ruled, and Elvis was King.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">68</container>
+          <unittitle encodinganalog="title">Promontory</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2002</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>57 minutes</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">69</container>
+          <unittitle encodinganalog="title">Utah: The National Parks</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2004</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This symphony of sight and sound features the spectacular landscapes of Utah's national parks, with music from some of the world's greatest composers. Canyonlands National Park, Arches National Park, Bryce Canyon National Park, Capitol Reef National Park, Zion National Park.  56 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">70</container>
+          <unittitle encodinganalog="title">Maynard Dixon: To the Desert Again</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2006</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>One hundred years ago, a solitary figure roamed the desert Southwest seeking to capture the endless sky and towering mesas in paint and poetry. His vision of the West was Matchless.  Maynard Dixon survived the great destruction of San Francisco by earthquake and fire, the Great Depression, and the civilizing of the West.  He spent over two decades sketching it for popular books and magazines, and then decades more on a question to find and portray it: the "real" West-the vast space, intense silence, and profound spirit of the land and its people. Discover the man and his art.  56 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">71</container>
+          <unittitle encodinganalog="title">Green River: Divided Waters</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2009</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Its whitewater formed the backdrop for one of the nation's great adventure stories.  Some consider it the birthplace of the modern environmental movement and its waters still attract those who prize outdoor experiences.  Now, it also attracts those who would use the water to sustain development for an energy-dependent nation and those who want to tap the river to quench booming populations in the West.  What does the future hold for the Green River?  57 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">72</container>
+          <unittitle encodinganalog="title">Secrets of the Lost Canyon</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 2005</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>It is one of the most significant finds in North America in the past 50 years.  Nested in the heart of Central Utah in Range Creek Canyon are the remains of a lost civilization that once thrived in the American Southwest.  For 500 years, the Fremont Indians lived in parts of the Great Basin and Colorado Plateau as hunters, gatherers, and farmers.  They left detailed art and symbols on the stone faces of canyons they inhabited and stored their grain high on cliff walls in well-built granaries that still survive.  Then, 800 years ago, the Fremont seemingly disappeared.  Today, University of Utah archeologists are surveying an entire canyon of more than 2,000 untouched Fremont Indian sites.  This KUED documentary captures a range of issue and challenges that threaten efforts to understand the past.  57 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">73</container>
+          <unittitle encodinganalog="title">Red Blood, Blue Blood: The Rivalry</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2010</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>It's a rivalry so powerful that office friendships turn cool, neighbors grow distant, even the faithful in church pews seem to split down the middle.  It's the nose-to-nose, generations-old – and often hilarious – showdown between football fans of the University of Utah and Brigham Young University.  Red Blood, Blue Blood: The Rivalry delivers first-hand stories through candid conversations with legendary coaches such as LaVell Edwards and Ron McBride.  Broadcasters and writers such as Dick Rosetta, Bill Marcroft, and Paul James share side-splitting anecdotes from behind the scenes.  But the greatest voice comes from the stands – from the men, women, and children who don the Red or Blue as a lifetime commitment and the often hilarious lengths they will go to defend their team.  56 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">74</container>
+          <unittitle encodinganalog="title">Green River, Utah: A Desert Oasis</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>John Wesley Powell was the first, in 1869, to document the area that would later become the town of Green River, Utah. Green River was initially inhabited by Anasazi and Fremont Indians; the town later became the site of oil well, as well as the "Utah Launch Complex," a missile launch site of the White Sands Missile Range. Green River has seen booms and busts, as the area, rich in uranium, swelled in size with the uranium rush of the 1950s, which later dwindled as interest in uranium waned, and which has lately become of interest due to the energy crisis. The beautiful backdrop of this small town has a rich history, and is still a site of outdoor exploration. Available on DVD, 28 minutes.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

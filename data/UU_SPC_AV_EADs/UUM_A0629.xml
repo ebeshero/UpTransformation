@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:44 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0629::Frank O'Rourke audio book)//EN" encodinganalog="identifier" identifier="80444/xv72399" url="http://archiveswest.orbiscascade.org/ark:/80444/xv72399">UUM_A0629</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Frank O'Rourke audio book
+          <date era="ce" calendar="gregorian" normal="1999" encodinganalog="date">1999</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">O'Rourke (Frank) audio book</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2001" encodinganalog="date">© 2001</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0629</unitid>
+      <unittitle encodinganalog="title">Frank O'Rourke audio book</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1999" encodinganalog="date">1999</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">O'Rourke, Frank, 1916-1989</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">4 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Frank O'Rourke audio book (1999) is an audio recording of <title render="italic">Ellen and the Barber</title>, a novel divided into three novellas set in the 1930s and published posthumously in 1997.  Born in Denver, Colorado, Frank O'Rourke was a prolific author, many of whose stories were related to the American West.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Frank O'Rourke (1916-1989) was born in Denver, Colorado. In a career spanning four decades, he published more than sixty works of fiction. The versatility which became a hallmark of O'Rourke's writing was demonstrated in the more than one hundred short stories which appeared during the 1940s and 1950s in such magazines as The Saturday Evening Post, Ladies' Home Journal, and Esquire. His first book, E Company, introduced in 1945 by Simon and Schuster, was hailed as the work of a "fresh and outstanding talent."</p>
+      <p>From 1948 to 1956, O'Rourke published seven sports novels, two mysteries (one under the pseudonym Frank O'Malley), an industrial novel, and twenty westerns. The early westerns were published in hardcover by Random House, and since they were continually reprinted, they came to be his most visible work and he was generally categorized over the years as a writer of westerns, the range of his work being overlooked.</p>
+      <p>While O'Rourke continued to write adventure westerns for several mass market publishers through the 1950s, he began a relationship with William Morrow and Company for publication of his more substantial work. The Diamond Hitch (1958) dealt with the realities of western range life and was the first to rank with authentic Americana, followed by The Last Ride (1958), a story of an old, freedom loving cowboy, chasing a proud old stallion who loves his freedom just as much. The Man Who Found Mountains  (1957) was one of the few works of fiction to make effective literary use of Hispanic witchcraft in New Mexico.</p>
+      <p>In 1959, O'Rourke's historical novel of New Mexico, The Far Mountains, won the Southern Library Association biennial award for a work which "best reflected the culture and heritage of the southwest and for literary excellence." William Morrow and Company supported O'Rourke's creative endeavors, and in the years during their association, published novels set in midwest America, which drew on his Nebraska background.</p>
+      <p>Contemporary satires on modern society's worship of money, Instant Gold (1964), and the automobile, The Duchess Says No  (1965), were the last to be published by Morrow; Kevin Connor and Patrick O'Malley were two pseudonyms used during this period. O'Rourke moved to J. B. Lippincott for the publication of The Swift Runner (1969) and The Abduction of Virginia Lee (1970). Three novels were produced as motion pictures, including the classic adventure film The Professionals in 1966 from his novel A Mule for the Marquesa (1964).</p>
+      <p>In his final years, Frank O'Rourke devoted himself to the creation of stories for children. The first, Burton and Stanley, was published posthumously by David R. Godine in 1993 to numerous accolades in the children's book trade and was also given a Parents Choice Award. In addition to this, Ellen and the Barber, a book of three short stories, set in the 1930s, was published, also posthumously, by St. Martins Press in 1997. In 2002, a collection of early baseball stories, The Heavenly Work Series, was published by Carroll and Graf, with an introduction by Darryl Brock.</p>
+      <p>Frank O'Rourke continued writing until the end of his life. Finally, beset by constant pain from a twenty-year struggle with bronchial asthma and fighting the effects of prednisone (a dangerous steroid), Frank O'Rourke took back his destiny and ended his life on 27 April 1989 in Tucson, Arizona.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Frank O'Rourke audio book (1999) is an audio recording of <title render="italic">Ellen and the Barber</title>, a novel divided into three novellas set in the 1930s and published posthumously in 1997.  This audiobook has been digitized and is availble to listen to on compact disc.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Frank O'Rourke papers (Accn 1201) and photograph collection (P0351).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Procssed by Tawnya Mosier in 2001.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Authors, American</subject>
+      <subject encodinganalog="subject" source="lcsh">Short stories</subject>
+      <subject altrender="nodisplay" source="archiveswest">Literature</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1-4</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Ellen and the Barber</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1999</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Published by Blackstone Audiobooks; Read by Mary Woods.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
