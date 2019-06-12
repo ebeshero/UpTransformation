@@ -1206,7 +1206,8 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                     <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</code></example>
                             <example>Output HTML:
                                     <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link>
-                                XSLT developed in class: <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/jane/split.xsl</link></answer>
+                                XSLT developed in class:
+                                        <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/jane/split.xsl</link></answer>
                             </example>
                         </examples>
                     </item>
@@ -1279,11 +1280,25 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                             <code>&lt;body&gt;</code></item>
                 </details>
             </act>
-
         </slot>
         <slot time="13:30:00">
             <title>XSLT Activity</title>
-            <act time="PT70M">
+            <act time="PT15M">
+                <desc>Extracting information from multiple documents with XSLT</desc>
+                <details>
+                    <item>Task: Output plain text lists of subjects and historical/biographical
+                        notes</item>
+                    <item>Input: corpus of 156 EAD documents. Sample:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/UU_SPC_AV_EADs/UUM_A0001.xml</link></item>
+                    <item>XSLT:
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/eads-to-text.xsl</link></item>
+                    <item>Subject list
+                            (<link>https://github.com/ebeshero/UpTransformation/blob/master/data/subjects.txt</link>)
+                        and historical/biographical notes
+                            (<link>https://github.com/ebeshero/UpTransformation/blob/master/data/bioghists.txt</link>)</item>
+                </details>
+            </act>
+            <act time="PT55M">
                 <desc>TEI XML to HTML transformation</desc>
                 <details>
                     <item>Continue to work with the Emily Dickinson Fascicle 16 document
@@ -1294,8 +1309,6 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
                 </details>
             </act>
-
-
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
