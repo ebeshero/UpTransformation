@@ -1186,7 +1186,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <examples>
                             <example>Open our simple identity transformation starter:
-                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</link></example>
                             <example>Change the <code>&lt;line&gt;</code> elements to self-closing
                                     <code>&lt;lb&gt;</code> elements.</example>
                             <example>Work with <emph>attribute value templates</emph> to add numbers

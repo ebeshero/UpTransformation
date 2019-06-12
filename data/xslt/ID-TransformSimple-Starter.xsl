@@ -6,9 +6,4 @@
 
   <xsl:mode on-no-match="shallow-copy"/>
 
-  <xsl:template match="line">
-    <lb n="{count(preceding-sibling::line)}"/>
-    <xsl:apply-templates/>
-  </xsl:template>
-
 </xsl:stylesheet>
