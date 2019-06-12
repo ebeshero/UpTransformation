@@ -1287,13 +1287,15 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                 <desc>Extracting information from multiple documents with XSLT</desc>
                 <details>
                     <item>Task: Output plain text lists of subjects and historical/biographical
-                        notes</item>
-                    <item>Input: corpus of 156 EAD documents. Sample:
+                        notes, as well as two-column TSV of subjects (with sources)</item>
+                    <item>Input: corpus of 155 EAD documents. Sample:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/UU_SPC_AV_EADs/UUM_A0001.xml</link></item>
                     <item>XSLT:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/eads-to-text.xsl</link></item>
                     <item>Subject list
-                            (<link>https://github.com/ebeshero/UpTransformation/blob/master/data/subjects.txt</link>)
+                            (<link>https://github.com/ebeshero/UpTransformation/blob/master/data/subjects.txt</link>),
+                        subject TSV
+                            (<link>https://github.com/ebeshero/UpTransformation/blob/master/data/subjects.tsv</link>),
                         and historical/biographical notes
                             (<link>https://github.com/ebeshero/UpTransformation/blob/master/data/bioghists.txt</link>)</item>
                 </details>
