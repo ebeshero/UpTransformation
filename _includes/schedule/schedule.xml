@@ -1072,9 +1072,9 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     <item>Settings: XSLT debugger and Saxon parser</item>
                     <item>Selecting files to run and save <examples>
                             <example>Open &lt;oXygen/&gt; and open the following url:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link></example>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</code></example>
                             <example>Open this starter XSLT file, too:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</link>.
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltStarter1.xsl</code>.
                                 Save this file locally on your computer.</example>
                         </examples>
                     </item>
@@ -1168,9 +1168,9 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                 <details>
                     <item><q>Ozymandias</q> transformation <examples>
                             <example>XML:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link></example>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</code></example>
                             <example>XSLT:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</code></example>
                             <example>Output HTML:
                                     <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
                         </examples>
@@ -1198,9 +1198,9 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</link>.</example>
                         </examples>
                     </item>
-                    <item>Optional exercise: Repair our Pacific Voyage file: <examples>
+                    <item>Exercise: Repair our Pacific Voyage file: <examples>
                             <example>Open this file URL in &lt;oXygen/&gt;:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</link></example>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></example>
                             <example>Develop this XSLT file following this exercise:
                                     <link>http://dh.newtfire.org/XSLTExercise1.html</link></example>
                         </examples>
@@ -1239,10 +1239,10 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                 <desc>TEI XML to HTML transformation</desc>
                 <details>
                     <item>Open the url of the Emily Dickinson Fascicle 16 file:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</link>,
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
                         and study the document.</item>
                     <item>Open this starter XSLT file url in &lt;oXygen/&gt;:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</link></item>
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code></item>
                     <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
                     <item>Pruning the tree: when to use the <code>@select</code> attribute</item>
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
@@ -1261,8 +1261,8 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     <item>Modal XSLT: Processing the same nodes in multipe ways <examples>
                             <example>The output we want:
                                     <link>https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html</link></example>
-                            <example>Modal XSLT to create the table of contents:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/DickinsonModal-TransformHTML.xsl</link></example>
+                            <example>Build a table of contents using the <code>@mode</code> attribute to permit XML nodes to be processed in multiple ways. 
+                                    <answer><code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/DickinsonModal-TransformHTML.xsl</code></answer></example>
                         </examples>
                     </item>
                     <item>How internal links work</item>
