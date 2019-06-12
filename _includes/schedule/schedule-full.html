@@ -960,7 +960,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     <li>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <ol>
                             <li>Open our simple identity transformation starter:
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</a></li>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></li>
                             <li>Change the <code>&lt;line&gt;</code> elements to self-closing
                                     <code>&lt;lb&gt;</code> elements.</li>
                             <li>Work with <em>attribute value templates</em> to add numbers
@@ -969,7 +969,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     </li>
                     <li>Combining a collection of files into a single XML file <ol>
                             <li>See
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</a>.</li>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</code>.</li>
                         </ol>
                     </li>
                     <li>Exercise: Repair our Pacific Voyage file: <ol>
@@ -984,10 +984,13 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     <li>Sequential processing</li>
                     <li>Pull vs. push processing</li>
                 </ol></li><li>Preparing XSLT to output HTML from TEI XML (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Open the url of the Emily Dickinson Fascicle 16 file:
+                        <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
+                        and study the document.</li>
                     <li>The output we want:
                             <a href="https://ebeshero.github.io/UpTransformation/dickinson16.html">https://ebeshero.github.io/UpTransformation/dickinson16.html</a></li>
-                    <li>Open this file URL in &lt;oXygen&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
+                    <li>Open this starter XSLT in &lt;oXygen&gt;:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code> and save it on your computer to work with it.
                     </li>
                     <li>
                         <code>&lt;xsl:stylesheet&gt;</code> and
@@ -997,11 +1000,8 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <code>&lt;body&gt;</code></li>
                 </ol></li></ol></section>
         <section><h3>XSLT Activity (1:30 p.m.–4:00 p.m.)</h3><ol><li>TEI XML to HTML transformation (70 minutes; 1:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Open the url of the Emily Dickinson Fascicle 16 file:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
-                        and study the document.</li>
-                    <li>Open this starter XSLT file url in &lt;oXygen/&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code></li>
+                    <li>Continue to work with the Emily Dickinson Fascicle 16 document (<code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>) to convert it to HTML, working with the XSLT file we started before lunch.
+                            </li>
                     <li>Push processing: <code>&lt;xsl:apply-templates&gt;</code></li>
                     <li>Pruning the tree: when to use the <code>@select</code> attribute</li>
                     <li>When to use <code>&lt;xsl:value-of&gt;</code></li>

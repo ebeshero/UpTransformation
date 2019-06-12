@@ -1186,7 +1186,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <examples>
                             <example>Open our simple identity transformation starter:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</link></example>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
                             <example>Change the <code>&lt;line&gt;</code> elements to self-closing
                                     <code>&lt;lb&gt;</code> elements.</example>
                             <example>Work with <emph>attribute value templates</emph> to add numbers
@@ -1195,7 +1195,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     </item>
                     <item>Combining a collection of files into a single XML file <examples>
                             <example>See
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</link>.</example>
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</code>.</example>
                         </examples>
                     </item>
                     <item>Exercise: Repair our Pacific Voyage file: <examples>
@@ -1218,10 +1218,13 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
             <act time="PT25M">
                 <desc>Preparing XSLT to output HTML from TEI XML</desc>
                 <details>
+                    <item>Open the url of the Emily Dickinson Fascicle 16 file:
+                        <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
+                        and study the document.</item>
                     <item>The output we want:
                             <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
-                    <item>Open this file URL in &lt;oXygen&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
+                    <item>Open this starter XSLT in &lt;oXygen&gt;:
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code> and save it on your computer to work with it.
                     </item>
                     <item>
                         <code>&lt;xsl:stylesheet&gt;</code> and
@@ -1238,11 +1241,8 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
             <act time="PT70M">
                 <desc>TEI XML to HTML transformation</desc>
                 <details>
-                    <item>Open the url of the Emily Dickinson Fascicle 16 file:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
-                        and study the document.</item>
-                    <item>Open this starter XSLT file url in &lt;oXygen/&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code></item>
+                    <item>Continue to work with the Emily Dickinson Fascicle 16 document (<code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>) to convert it to HTML, working with the XSLT file we started before lunch.
+                            </item>
                     <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
                     <item>Pruning the tree: when to use the <code>@select</code> attribute</item>
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
