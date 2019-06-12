@@ -501,14 +501,18 @@
                 </ol></li><li>Neglected XPath axes (25 minutes; 9:40 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>preceding::</code>, <code>following::</code><ol>
                             <li>Find all the stage directions (<code>&lt;stage&gt;</code>) that
-                                precede Act 2, Scene 2 in <em>Charles the First</em>. (First, take a look at the TEI body element and see how acts and scenes are coded. Write an XPath to take you to the second act and the second scene. Then in your next path step, switch to the <code>preceding::</code> axis to look for the stage directions. 
-                                 <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/preceding::tei:stage</code></span>
+                                precede Act 2, Scene 2 in <em>Charles the First</em>. (First,
+                                take a look at the TEI body element and see how acts and scenes are
+                                coded. Write an XPath to take you to the second act and the second
+                                scene. Then in your next path step, switch to the
+                                    <code>preceding::</code> axis to look for the stage directions.
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/preceding::tei:stage</code></span>
                             </li>
                         </ol></li>
                     <li><code>self::</code><ol>
-                        <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2]</code></li>
-                        <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
-                        <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
+                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[@type='act'][2]/tei:div[@type='scene'][2]/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
                                     eq 'Queen.']</code></li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
@@ -554,17 +558,28 @@
                             <li>What kinds of elements can be the parents of
                                     <code>@xml:id</code> attributes in this document? Write an XPath
                                 that isolates these elements.
-                                 <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//@xml:id/parent::*</code> or
-                                            <code>doc('https://digitalmitford.org/si.xml')//*[@xml:id]</code>. These elements hold entries
-                                    describing named entities, and the <code>@xml:id</code> contains
-                                    a distinct identifier for each one.</span>
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//@xml:id/parent::*</code>
+                                    or
+                                        <code>doc('https://digitalmitford.org/si.xml')//*[@xml:id]</code>.
+                                    These elements hold entries describing named entities, and the
+                                        <code>@xml:id</code> contains a distinct identifier for each
+                                    one.</span>
                             </li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the
-                                First</em> in the site index is "CharlesI_MRMplay". Write an XPath to retrieve that entry.  <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//*[@xml:id eq 'CharlesI_MRMplay']</code></span></li>
-                            <li>References to the play throughout the site index will be made with various attributes (such as <code>@ref</code> but there may be others) whose
-                                values begin with a hash mark, formatted like this: "#CharlesI_MRMplay". Sometimes other entries (such as for persons or
-                                fictional characters) make reference to the play in their note or other internal elements (to say, for example, that an actor or a character was involved in this play). How can we find those entries? How many are there? (Use a function to do the counting.) 
-                                 <button class="answer">Answer</button> <span class="answer">Find the elements with <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>.
+                                    First</em> in the site index is "CharlesI_MRMplay". Write an
+                                XPath to retrieve that entry.
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//*[@xml:id
+                                        eq 'CharlesI_MRMplay']</code></span></li>
+                            <li>References to the play throughout the site index will be made
+                                with various attributes (such as <code>@ref</code> but there may be
+                                others) whose values begin with a hash mark, formatted like this:
+                                "#CharlesI_MRMplay". Sometimes other entries (such as for persons or
+                                fictional characters) make reference to the play in their note or
+                                other internal elements (to say, for example, that an actor or a
+                                character was involved in this play). How can we find those entries?
+                                How many are there? (Use a function to do the counting.)
+                                     <button class="answer">Answer</button> <span class="answer">Find the elements with
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>.
                                     Count them with
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
                                         =&gt; count()</code>
@@ -581,7 +596,7 @@
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
                                     'unrighteousness')]</code></li>
                             <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:l[matches(.,
-                                '[a-z]{15,}','i')]</code> (Read about <code>flags</code><a href="https://www.w3.org/TR/xpath-functions-31/#flags"><sup>⬀</sup></a>.) </li>
+                                    '[a-z]{15,}','i')]</code> (Read about <code>flags</code><a href="https://www.w3.org/TR/xpath-functions-31/#flags"><sup>⬀</sup></a>.) </li>
                             <li>
                                 <code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
                                     '\d{4}')]</code>
@@ -682,19 +697,35 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     </li>
                 </ol></li></ol></section>
         <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ol><li>Writing XQuery in stages (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>If our eXist-db on the NewtFire server is misbehaving, we will be writing XQuery in the &lt;oXygen/&gt; XML editor. This involves some initial configuration. You may open the Digital Mitford site index at its external location (as we did yesterday with File &gt; Open URL): <code>https://digitalmitford.org/si.xml</code>. Look for four tiny buttons in the top right-hand corner of the interface. The second one from the right, marked <q>XQ</q>, is the XQuery debugger. Click on it to change the interface for XQuery writing. Then, go to File &gt; New (or click on the paper icon on the top left), and go to open a New File: Type <q>XQ</q> in the search window to open a new XQuery document. We can begin writing XQuery here. In the XQuery debugger view, we need to choose a dummy file to transform, and the name of an XQuery file to run. We also need to choose a parsing engine: choose <code>Saxon-PE XQuery...</code>. </li>
-                    <li> If working on the NewtFire eXist-db, work in the same file we started before the break and delete
-                        only the <code>return</code> line. Use variables and <code>FLWOR</code>
-                        statements to define and retrieve the following: <ol>
+                    <li>If our eXist-db on the NewtFire server is misbehaving, we will be writing
+                        XQuery in the &lt;oXygen/&gt; XML editor. This involves some initial
+                        configuration. You may open the Digital Mitford site index at its external
+                        location (as we did yesterday with File &gt; Open URL):
+                            <code>https://digitalmitford.org/si.xml</code>. Look for four tiny
+                        buttons in the top right-hand corner of the interface. The second one from
+                        the right, marked <q>XQ</q>, is the XQuery debugger. Click on it to change
+                        the interface for XQuery writing. Then, go to File &gt; New (or click on the
+                        paper icon on the top left), and go to open a New File: Type <q>XQ</q> in
+                        the search window to open a new XQuery document. We can begin writing XQuery
+                        here. In the XQuery debugger view, we need to choose a dummy file to
+                        transform, and the name of an XQuery file to run. We also need to choose a
+                        parsing engine: choose <code>Saxon-PE XQuery...</code>. </li>
+                    <li> If working on the NewtFire eXist-db, work in the same file we started
+                        before the break and delete only the <code>return</code> line. Use variables
+                        and <code>FLWOR</code> statements to define and retrieve the following: <ol>
                             <li> Define a global variable pointing to the Digital Mitford site
-                                index document, at its external
-                                location:<code>https://digitalmitford.org/si.xml</code>. Declare a second global variable for the Charles I play at its GitHub location: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml</code>
-                                         <button class="answer">Answer</button> <span class="answer"> <code>declare variable
-                                        $si as document-node() :=
+                                index document,
+                                at
+                                its external
+                                location:<code>https://digitalmitford.org/si.xml</code>. Declare a
+                                second global variable for the Charles I play at its GitHub
+                                location:
+                                    <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml</code>
+                                 <button class="answer">Answer</button> <span class="answer">
+                                    <code>declare variable $si as document-node() :=
                                         doc('https://digitalmitford.org/si.xml'); </code> and
-                                            <code>declare variable
-                                                $si as document-node() :=
-                                                doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml'); </code>
+                                        <code>declare variable $si as document-node() :=
+                                        doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml'); </code>
                                     <code>declare</code> statements must appear at the beginning of
                                     the XQuery script.</span>
                             </li>
@@ -837,7 +868,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li>HTML table output:
                                     <a href="https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html">https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</a></li>
                             <li>XQuery to make the HTML, in the newtfire eXist-db:
-                                <code>/db/DHSI-Queries/Chas-SI-HTMLTable.xql</code>, or on
+                                    <code>/db/DHSI-Queries/Chas-SI-HTMLTable.xql</code>, or on
                                 GitHub:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</a>
                             </li>
@@ -972,6 +1003,16 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                     <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</code>.</li>
                         </ol>
                     </li>
+                    <li>Splitting a single XML file into multiple output files <ol>
+                            <li>Input XML:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/jane/typopictoromania.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/jane/typopictoromania.xml</a>,
+                                a TEI document with six <code>&lt;div&gt;</code> children of
+                                    <code>&lt;body&gt;</code></li>
+                            <li>XSLT to output each <code>&lt;div&gt;</code> as a separate TEI
+                                document:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/jane/split.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/jane/split.xsl</a></li>
+                        </ol>
+                    </li>
                     <li>Exercise: Repair our Pacific Voyage file: <ol>
                             <li>Open this file URL in &lt;oXygen/&gt;:
                                     <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</code></li>
@@ -985,13 +1026,13 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     <li>Pull vs. push processing</li>
                 </ol></li><li>Preparing XSLT to output HTML from TEI XML (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open the url of the Emily Dickinson Fascicle 16 file:
-                        <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>,
                         and study the document.</li>
                     <li>The output we want:
                             <a href="https://ebeshero.github.io/UpTransformation/dickinson16.html">https://ebeshero.github.io/UpTransformation/dickinson16.html</a></li>
                     <li>Open this starter XSLT in &lt;oXygen&gt;:
-                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code> and save it on your computer to work with it.
-                    </li>
+                            <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
+                        and save it on your computer to work with it. </li>
                     <li>
                         <code>&lt;xsl:stylesheet&gt;</code> and
                         <code>&lt;xsl:output&gt;</code></li>
@@ -1000,8 +1041,9 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <code>&lt;body&gt;</code></li>
                 </ol></li></ol></section>
         <section><h3>XSLT Activity (1:30 p.m.–4:00 p.m.)</h3><ol><li>TEI XML to HTML transformation (70 minutes; 1:30 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Continue to work with the Emily Dickinson Fascicle 16 document (<code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>) to convert it to HTML, working with the XSLT file we started before lunch.
-                            </li>
+                    <li>Continue to work with the Emily Dickinson Fascicle 16 document
+                            (<code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</code>)
+                        to convert it to HTML, working with the XSLT file we started before lunch. </li>
                     <li>Push processing: <code>&lt;xsl:apply-templates&gt;</code></li>
                     <li>Pruning the tree: when to use the <code>@select</code> attribute</li>
                     <li>When to use <code>&lt;xsl:value-of&gt;</code></li>
@@ -1011,8 +1053,9 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     <li>Modal XSLT: Processing the same nodes in multipe ways <ol>
                             <li>The output we want:
                                     <a href="https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html">https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html</a></li>
-                            <li>Build a table of contents using the <code>@mode</code> attribute to permit XML nodes to be processed in multiple ways. 
-                                     <button class="answer">Answer</button> <span class="answer"><code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/DickinsonModal-TransformHTML.xsl</code></span></li>
+                            <li>Build a table of contents using the <code>@mode</code>
+                                attribute to permit XML nodes to be processed in multiple ways.
+                                         <button class="answer">Answer</button> <span class="answer"><code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/DickinsonModal-TransformHTML.xsl</code></span></li>
                         </ol>
                     </li>
                     <li>How internal links work</li>
