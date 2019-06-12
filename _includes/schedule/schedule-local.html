@@ -693,18 +693,20 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                         </ol>
                     </li>
                 </ol></li></ol></section>
-        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ol><li>Scavenger hunt 2 (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li> Work in eXist-db in the same file we started before the break and delete
+        <section><h3>XQuery flow control (1:30 p.m.–4:00 p.m.)</h3><ol><li>Writing XQuery in stages (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>If our eXist-db on the NewtFire server is misbehaving, we will be writing XQuery in the &lt;oXygen/&gt; XML editor. This involves some initial configuration. You may open the Digital Mitford site index at its external location (as we did yesterday with File &gt; Open URL): <code>https://digitalmitford.org/si.xml</code>. Look for four tiny buttons in the top right-hand corner of the interface. The second one from the right, marked <q>XQ</q>, is the XQuery debugger. Click on it to change the interface for XQuery writing. Then, go to File &gt; New (or click on the paper icon on the top left), and go to open a New File: Type <q>XQ</q> in the search window to open a new XQuery document. We can begin writing XQuery here. In the XQuery debugger view, we need to choose a dummy file to transform, and the name of an XQuery file to run. We also need to choose a parsing engine: choose <code>Saxon-PE XQuery...</code>. </li>
+                    <li> If working on the NewtFire eXist-db, work in the same file we started before the break and delete
                         only the <code>return</code> line. Use variables and <code>FLWOR</code>
                         statements to define and retrieve the following: <ol>
                             <li> Define a global variable pointing to the Digital Mitford site
-                                index document, posted in eXist at <code>/db/mitford/si.xml</code>
-                                or the official version at its external
-                                    location:<code>https://digitalmitford.org/si.xml</code>.
-                                         <button class="answer">Answer</button> <span class="answer"><code>declare variable $si as document-node() :=
-                                        doc('/db/mitford/si.xml');</code> or <code>declare variable
+                                index document, at its external
+                                location:<code>https://digitalmitford.org/si.xml</code>. Declare a second global variable for the Charles I play at its GitHub location: <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml</code>
+                                         <button class="answer">Answer</button> <span class="answer"> <code>declare variable
                                         $si as document-node() :=
-                                        doc('https://digitalmitford.org/si.xml');</code>
+                                        doc('https://digitalmitford.org/si.xml'); </code> and
+                                            <code>declare variable
+                                                $si as document-node() :=
+                                                doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml'); </code>
                                     <code>declare</code> statements must appear at the beginning of
                                     the XQuery script.</span>
                             </li>
