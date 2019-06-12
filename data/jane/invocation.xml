@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="DigEd">Typopictoromania: Digital Edition</title>
+                <author>John Thelwall</author>
+                <editor>Sarah Boyle and Michael Cameron</editor>
+                <respStmt>
+                    <resp>Introduction and Notes</resp>
+                    <name>Sarah Boyle and Michael Cameron</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Jane Boyes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Judith Thompson</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Per">
+                    <title level="a" type="chapter">The Epic Poem</title> in <title level="m">The
+                        Peripatetic</title>
+                    <author>John Thelwall</author>
+                    <editor>Judith Thompson</editor>
+                    <pubPlace>Detroit, Michigan</pubPlace>
+                    <publisher>Wayne State UP</publisher>
+                    <date when="2001">2001</date>
+                </bibl>
+                <bibl xml:id="Der">
+                    <title level="a">Typopictoromania</title> in <title level="u">The Derby
+                        Manuscript</title>
+                    <author>John Thelwall</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Our text is <title level="a">Typopictoromania,</title> an epic fragment that was
+                    to have been part of a much longer poem. It is epic like Dryden, satirical like
+                    Pope, critical like Blake; the fragment reveals the beginnings of a poem that
+                    was to use a grand yet cartoonish battle, one between the types of Caslon’s
+                    print house and the brushes of Boydell’s Shakespeare Gallery, as an opportunity
+                    to ridicule the abuse and abasement of poetic language during the revolutionary
+                    period in England. While the poem was never finished, what has survived—a
+                    preface, proposition, an invocation, a first canto, part of a second, and a few
+                    random fragments, together totalling close to five hundred lines of poetry—are
+                    both aesthetically and historically relevant to those interested in the early
+                    romanticism of the revolutionary period. While Thelwall claims that he initially
+                    intended to write a complete poem, its unfinished nature puts it in the same
+                    historical camp as Keats’ <title level="m">Hyperion</title> and Coleridge’s
+                        <title level="a">Kubla Khan</title>, texts that are paradoxically whole in
+                    their incompleteness. Furthermore, the poem is of particular import for Thelwall
+                    scholars; appearing in both <title level="m">The Peripatetic</title> of 1793 and
+                    in the later Derby Manuscript, the poem bookends Thelwall’s career. The two
+                    copies differ in a great many minor respects, particularly in punctuation, but a
+                    significant amount of major variations, where the later Thelwall has rewritten
+                    entire lines, are also present; a thorough study of the differences may be
+                    valuable for scholars interested in the development from the younger to older
+                    Thelwall. Thus, our task is to present a complete and accessible reading copy of
+                    the poem, showing a preference to the most recent and hitherto unpublished
+                    version (the Derby Manuscript) and including all important variations in
+                    editorial notes and additional yet important material in appendices.
+                    Furthermore, our TEI coding will ensure that scholars have access to all
+                    variations between the texts for the sake of comparison.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader><text><body><div xml:id="invocation">
+                <pb type="pdf" n="352"/>
+                <head resp="editor">Invocation</head>
+                <lg>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Genius of <placeName type="country">Britain</placeName>!—not that power who strung</lem>
+                            <rdg wit="#Der">Genius of Britain!—not that power who strung</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Genius of Britain</hi>!—Not that
+                                power who strung</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">A <hi><persName>Hampden’s</persName></hi> arm, and
+                                urg’d his patriot tongue—</lem>
+                            <rdg wit="#Der">A <hi rend="underline">Hampden’s</hi> arm, and urg’d his
+                                patriot tongue—</rdg>
+                            <rdg wit="#Per">A <hi rend="smallcaps">Hampden’s</hi> arm, and urg’d his
+                                patriot’s tongue—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Not she who warm’d a <persName><hi rend="italics">Sydney’s</hi></persName>, <persName><hi rend="italics">Russell’s</hi></persName> soul,<note>John Hampden
+                                    (1653-1696) was so admired by Thelwall that he named his second
+                                    son after him. An anti-monarchist who wanted to reinstate a
+                                    republic, Hampden was arrested for allegedly taking part in the
+                                    Rye-house plot, but later acquitted. Algernon Sydney (1623–1683)
+                                    and William, Lord Russell (1639-1683), both anti-monarchists
+                                    arrested with Hampden for the Rye-house plot, were unlike him,
+                                    executed. Thelwall named his eldest son after Sydney (Algernon
+                                    Sydney Thelwall). That the poet does not invoke the
+                                        <quote>Genius</quote> that inspired these three men, all of
+                                    whom Thelwall greatly admired for their political views, makes
+                                    clear the satirical nature of what is to come; the Genius of
+                                        <quote>Modern Britain,</quote> as it is named in the
+                                    prefatory material of <title level="m">P</title> (see Appendix
+                                    II), pales in comparison to that of the past. <p>Comma after
+                                            <quote>Sydney’s</quote> retained from <title level="m">P</title>: absent in <title level="u" rend="italics">DM</title>.</p></note></lem>
+                            <rdg wit="#Der">Not she <subst>
+                                    <del>that</del>
+                                    <add place="inline">who</add>
+                                </subst> warm’d a <hi rend="underline">Sydney’s Russell’s</hi>
+                                Soul,</rdg>
+                            <rdg wit="#Per">Not she that warmed a <hi rend="smallcaps">Sydney’s</hi>, <hi rend="smallcaps">Russel’s</hi> soul,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Corruption’s tyrant progress to control—</lem>
+                            <rdg wit="#Der">Corruption’s tyrant progress to controul—</rdg>
+                            <rdg wit="#Per">Corruption’s tyrant progress to control—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere yet <hi rend="italics">pretended Patriots</hi>,
+                                bought and sold,</lem>
+                            <rdg wit="#Der">Ere yet <hi rend="underlined">pretended Patriots</hi>,
+                                bought and sold,</rdg>
+                            <rdg wit="#Per">Ere yet <hi rend="italics">pretended Patriots</hi>,
+                                bought and sold,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Made public barter of their votes for gold;—</lem>
+                            <rdg wit="#Der">Made public barter of their votes for gold;—</rdg>
+                            <rdg wit="#Per">Made <hi rend="italics">public</hi> barter of their
+                                Votes, for Gold;—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere <hi rend="italics">Freedom’s Representatives</hi>,
+                                by <hi rend="italics">name</hi>,</lem>
+                            <rdg wit="#Der">Ere <hi rend="underline">Freedom’s Representatives</hi>,
+                                by <hi rend="underline">name</hi>
+                            </rdg>
+                            <rdg wit="#Per">Ere <hi rend="italics">Freedom’s representatives</hi>,
+                                by <hi rend="italics">name</hi>
+                            </rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Lauded despotic power, unaw’d by shame;</lem>
+                            <rdg wit="#Der">Lauded despotic power, unaw’d by shame;</rdg>
+                            <rdg wit="#Per">Lauded Despotic Power, unaw’d by shame;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">In public Senates (fir’d with frantic rage,</lem>
+                            <rdg wit="#Der">In public Senates fir’d with frantic rage,</rdg>
+                            <rdg wit="#Per">In public Senates (fired with frantic rage,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Which not the tears of friendship could
+                                    assuage)<note>As with the couplet at line 15, the parentheses,
+                                    despite being absent in <title level="u">DM</title>, are
+                                    retained from <title level="m">P</title> for this couplet. We
+                                    have chosen to retain the punctuation of <title level="m">P</title> because there is a formal echoing that is lost
+                                    without the parentheses; the mirroring of the
+                                        <quote>Senates</quote> and the <quote>driveling
+                                        dotards</quote> is less obvious without the
+                                    parentheses.</note></lem>
+                            <rdg wit="#Der">Which not the tears of friendship could assuage;</rdg>
+                            <rdg wit="#Per">Which not the tears of Friendship could assuage)</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Blacken’d each name that, true to Freedom’s
+                                cause,</lem>
+                            <rdg wit="#Der">Blacken’d each name that true to Freedom’s cause</rdg>
+                            <rdg wit="#Per">Blacken’d each Name that, true to Freedom’s cause,
+                            </rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Dar’d plead for <hi rend="italics">Nature’s violated
+                                    Laws</hi>;—</lem>
+                            <rdg wit="#Der">Dar’d plead for <hi rend="underline">nature’s violated
+                                    Laws;</hi>—</rdg>
+                            <rdg wit="#Per">Dar’d plead for <hi rend="italics">Nature’s violated
+                                    Laws</hi>;—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere yet, grown grey in party’s <hi rend="italics">sordid train</hi></lem>
+                            <rdg wit="#Der">Ere yet grown grey in party’s <hi rend="underline">sordid train</hi></rdg>
+                            <rdg wit="#Per">Ere yet, grown grey in <hi rend="italics">Party’s sordid
+                                    train</hi>,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">(Where who like them the clamorous throat to
+                                strain?)</lem>
+                            <rdg wit="#Der">(Where who like them the clamourous throat to
+                                strain?)</rdg>
+                            <rdg wit="#Per">(Where who like them the clamorous throat to
+                                strain?)</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Wild driveling dotards (fir’d with sacred hate</lem>
+                            <rdg wit="#Der"><add place="above">Wild driveling dotards, fir’d with
+                                    sacred hate</add></rdg>
+                            <rdg wit="#Per">Wild, driv’ling Dotards (fired with sacred hate</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Of all who held what they upheld of late)<note>In
+                                    addition to the retention of parentheses (see note 19), commas
+                                    have been removed from after <quote>dotards</quote> (present
+                                    only in <title level="u">DM</title>) and <quote>late</quote>
+                                    (present in both editions) to maintain the formal echo.</note>
+                            </lem>
+                            <rdg wit="#Der"><add place="above">Of all who held what they upheld of
+                                    late,</add></rdg>
+                            <rdg wit="#Per">Of all who held what they upheld of late,)</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Damn’d all the honors which a glossing
+                                    Tongue,<note>Thelwall spells <quote>honors</quote> in the <title level="u">DM</title> with the American spelling without the
+                                        <q>u,</q> but in the <title level="m">P</title> the British
+                                    spelling is used.</note></lem>
+                            <rdg wit="#Der">Damn’d all the honors <subst>
+                                    <add place="orig">with</add>
+                                    <add place="inspace">which</add>
+                                </subst> a glossing Tongue,</rdg>
+                            <rdg wit="#Per">Damn’d all the Honours with a glossing Tongue,</rdg>
+                        </app>
+                    </l>
+                    <l>Practis’d in fraud, and with persuasion hung,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Still with the rotten heart at prudent strife,</lem>
+                            <rdg wit="#Der">Still with the rotten heart at prudent strife,</rdg>
+                            <rdg wit="#Per">Still with the rotten Heart at prudent strife,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Had purchas’d with the <hi rend="italics">lie of a
+                                    whole life</hi>;</lem>
+                            <rdg wit="#Der">Had purchas’d with the <hi rend="underline">lie of a
+                                    whole life;</hi></rdg>
+                            <rdg wit="#Per">Had purchas’d with <hi rend="underline">the Lie of a
+                                    whole life;</hi></rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Renounc’d all principle, and bared the heart,</lem>
+                            <rdg wit="#Der">Renounc’d all principle, and bared the heart,</rdg>
+                            <rdg wit="#Per"><hi rend="italics">Renounc’d</hi> all Principle, and
+                                bared the Heart,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">So long conceal’d from view with painful art:</lem>
+                            <rdg wit="#Der">So long conceal’d from view with painful art:</rdg>
+                            <rdg wit="#Per">So long conceal’d from view with painful Art;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Threw off the mask, so long with credit worn,</lem>
+                            <rdg wit="#Der">Threw off the mask, so long with credit worn,</rdg>
+                            <rdg wit="#Per">Threw off the Mask, so long with credit worn,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And chang’d respect for pity and for scorn;</lem>
+                            <rdg wit="#Der">And chang’d respect for pity and for scorn;</rdg>
+                            <rdg wit="#Per">And chang’d respect for Pity, and for Scorn;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To Bathos div’d for culinary wit,<note>Spelling of
+                                        <quote>culinary</quote> corrected from
+                                        <quote>cullinary</quote>: spelled correctly in <title level="m">P</title></note></lem>
+                            <rdg wit="#Der">To Bathos div’d for <sic>cullinary</sic> wit,</rdg>
+                            <rdg wit="#Per">To Bathos dived for culinary wit,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Made e’en the Stews and
+                                    <placeName>Billingsgate</placeName> submit<note>London’s primary
+                                    fish market located at the docks. The British Library notes that
+                                    it was <quote>noted for the coarse language used by the women
+                                        who worked there and their propensity for gossip.</quote>
+                                    This explains the poet’s later description of the women’s voices
+                                    containing the <quote>Classic graces of the vulgar
+                                        tongue</quote> (line 18 of Canto Two).</note></lem>
+                            <rdg wit="#Der">Made e’en the Stews and Billinsgate submit</rdg>
+                            <rdg wit="#Per">Made e’en the Stews and Billingsgate submit</rdg>
+                        </app>
+                    </l>
+                    <pb type="pdf" n="354"/>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">With sheer scurrility, and blushing own<note> Spelling
+                                    of <quote>scurrility</quote> corrected from
+                                        <quote>scurility</quote>: spelled correctly in <title level="m">P</title>.</note></lem>
+                            <rdg wit="#Der">With sheer scurility, and blushing own</rdg>
+                            <rdg wit="#Per">With sheer scurrility, and blushing own</rdg>
+                        </app>
+                    </l>
+                    <l>Their claim to mount the Shrew’s contested Throne;</l>
+                    <l>Thence soaring high, or thinking that they soar’d,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">The Realms of <q>Beauteous and Sublime</q>
+                                    explor’d,—<note>A reference to Edmund Burke (1729-1797) and his
+                                        <title level="m">A Philosophical Enquiry into the Origin and
+                                        of Our Ideas of the Sublime and the Beautiful</title>
+                                    (1757). Much of this stanza refers to Burke: see <title level="a">Introduction.</title></note></lem>
+                            <rdg wit="#Der">The Realms of <q>Beauteous &amp; Sublime</q>
+                                explor’d,—</rdg>
+                            <rdg wit="#Per">The realms of <q>Beauteous and Sublime</q>
+                                explor’d,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Pluck’d down the Stars, and thought those stars too
+                                poor</lem>
+                            <rdg wit="#Der">Pluck’d down the Stars, &amp; thought those stars too
+                                poor</rdg>
+                            <rdg wit="#Per">Pluck’d down the <hi rend="italics">Stars</hi>, and
+                                thought those stars too poor</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">(Moon-struck themselves!) to deck a Royal
+                                        Whore,<note><quote>Moon-struck</quote> retained from <title level="m">P</title>. While the word is certainly not
+                                        <quote>struck</quote> in the <title level="u">DM</title>,
+                                    since there are many more than five letters and the final three
+                                    are definitely <q>ch’d,</q> we are unable to decipher with
+                                    absolute certainty what word it is. We believe it might be
+                                        <quote>stretch’d,</quote> but we are unable to find any
+                                    explanation of what <quote>moon stretch’d</quote> might mean.
+                                    Thus, we have retained the line from <title level="m">P</title>
+                                    for certainty’s sake.</note></lem>
+                            <rdg wit="#Der">(Moon <unclear cert="high">stretch’d</unclear>
+                                themselves!) to deck a Royal Whore,</rdg>
+                            <rdg wit="#Per">(Moon-struck themselves!) to deck a Royal Whore,</rdg>
+                        </app>
+                    </l>
+                    <l>Because she chanc’d the Gallic Throne to share,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">For which (<hi rend="italics">to
+                                        <placeName>Dorset</placeName> thanks!</hi>) she brought an
+                                    Heir.<note>In <title level="m">P</title>, this line reads,
+                                        <quote>To which (<hi rend="italics">to Dorset thanks!</hi>)
+                                        she brought an Heir.</quote> Exclamation mark retained from
+                                        <title level="m">P</title>: absent in <title level="u">DM</title>.</note></lem>
+                            <rdg wit="#Der">For which (<hi rend="underline">to Dorset thanks</hi>)
+                                she brought an Heir.</rdg>
+                            <rdg wit="#Per">To which (<hi rend="italics">to Dorset thanks!</hi>) she
+                                brought an Heir.</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">—But why with plurals thus mankind disgrace?</lem>
+                            <rdg wit="#Der">—But why with plurals thus mankind disgrace?</rdg>
+                            <rdg wit="#Per">—But why with plurals thus Mankind disgrace?</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">When even these times produce but one so
+                                    base.<note>Period retained from <title level="m">P</title>;
+                                    absent in <title level="u">DM</title>.</note></lem>
+                            <rdg wit="#Der">When even these times produce but one so base</rdg>
+                            <rdg wit="#Per">When even these times produce but one so base.</rdg>
+                        </app>
+                    </l>
+                </lg>
+                <lg>
+                    <l rend="indent">
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">Genius of Britain</hi> prompt my
+                                Epic Theme—</lem>
+                            <rdg wit="#Der"><hi rend="underline">Genius of Britain</hi> prompt my
+                                Epic Theme—</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Genius</hi>
+                                <hi rend="italics">of</hi>
+                                <hi rend="smallcaps">Britain</hi>! prompt my Epic theme—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Not thou who nurs’d by <name type="mythological">Heliconia’s</name> stream<note>In <title level="m">P</title>,
+                                    the line reads, <quote>Not thou who, nurs’d by Heliconia’s
+                                        stream,</quote> (in reference to Mt. Helicon, home of the
+                                    muses in Greek mythology); it is possible Thelwall removed the
+                                    commas for rhythmic purposes, to ensure no punctuation broke the
+                                    flow of the line.</note></lem>
+                            <rdg wit="#Der">Not thou who nurs’d by Heliconia’s stream</rdg>
+                            <rdg wit="#Per">Not thou who, nurs’d by Heliconia’s stream,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Taught one illustrious British Prince to feel</lem>
+                            <rdg wit="#Der">Taught one illustrious British Prince to feel</rdg>
+                            <rdg wit="#Per">Taught <hi rend="smallcaps">One Illustrious British
+                                    Prince</hi> to feel</rdg>
+                        </app>
+                    </l>
+                    <l><app>
+                            <lem wit="#DigEd">A noble love for Learning’s sacred weal,—</lem>
+                            <rdg wit="#Der">A noble love for Learning’s sacred weal,—</rdg>
+                            <rdg wit="#Per">A noble love for learning’s sacred weal,—</rdg>
+                        </app></l>
+                    <l>To Sage and Bard that patronage supply</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Which pimps and black-legs now alone
+                                    enjoy,—<note>Thelwall went through many possible variations
+                                    before settling on <quote>black-legs.</quote> In <title level="m">P</title>, the line says <quote>pimps and
+                                        fiddlers,</quote> but <quote>fiddlers</quote> is nowhere to
+                                    be found in the <title level="u">DM</title>. Instead,
+                                        <quote>pathics,</quote>
+                                    <quote>gamblers,</quote> and <quote>panders</quote> are all
+                                    written in as possible words, but are crossed out. According to
+                                    the <title level="m">1811 Dictionary of the Vulgar
+                                        Tongue</title>, <q>black-legs</q> is a term for <quote>a
+                                        gambler or sharper on the turf or in the cockpit: so called,
+                                        perhaps, from their appearing generally in boots; or else
+                                        from game-cocks whose legs are always black.</quote>
+                                    According to the <title level="m">OED</title>, a <q>pander</q>
+                                    is a pimp, a <q>fiddler</q> is a swindler or a cheat, and a
+                                        <q>pathic</q> is <quote>the passive partner in homosexual …
+                                        intercourse.</quote> One can only wonder why Thelwall spent
+                                    so long trying to find just the right term here.</note></lem>
+                            <rdg wit="#Der">Which pimps &amp; <subst>
+                                    <del rend="overstrike">pathics</del>
+                                    <add place="above"><del rend="overstrike">panders</del></add>
+                                    <add place="above"><del rend="overstrike">gamblers</del></add>
+                                    <add place="below">black-legs</add>
+                                </subst> now alone enjoy,—</rdg>
+                            <rdg wit="#Per">Which pimps and fiddlers now alone enjoy,—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And having freed the Land from <hi rend="italics">foreign foes</hi><note>In <title level="m">P</title>, the line
+                                    reads, <quote>And, having freed the Land from foreign
+                                        Foes,</quote>: see note 31.</note></lem>
+                            <rdg wit="#Der">And having freed the Land from <hi rend="underline">foreign foes</hi></rdg>
+                            <rdg wit="#Per">And, having freed the land from <hi rend="italics">foreign Foes</hi>,</rdg>
+                        </app>
+                    </l>
+                    <l>Rous’d him to purge it from the darker woes</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Of savage ignorance; and Science rear</lem>
+                            <rdg wit="#Der">Of savage ignorance; and Science rear</rdg>
+                            <rdg wit="#Per">Of <hi rend="italics">savage Ignorance</hi>, and Science
+                                rear,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">At once by his Example and his care;—</lem>
+                            <rdg wit="#Der">At once by his Example and his care;—</rdg>
+                            <rdg wit="#Per">At once by his Example, and his Care—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Not thou who urg’d the godlike
+                                    <persName>Alfred’s</persName> soul</lem>
+                            <rdg wit="#Der">Not thou who urg’d the godlike Alfred’s soul</rdg>
+                            <rdg wit="#Per">Not thou who urg’d the Godlike <hi rend="italics">Alfred’s</hi> soul,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">(<hi rend="italics">Virtue his race, immortal fame his
+                                    Goal!</hi>)<note>Spelling of <quote>immortal</quote> corrected
+                                    from <quote>imortal</quote>: spelled correctly in <title level="m">P</title>. In addition, comma retained from <title level="m">P</title>; absent in <title level="u">DM</title>.</note></lem>
+                            <rdg wit="#Der">(<hi rend="underline">Virtue his race imortal fame his
+                                    Goal!</hi>)</rdg>
+                            <rdg wit="#Per">(<hi rend="italics">Virtue</hi> his <hi rend="italics">Race, Immortal Fame</hi> his <hi rend="italics">Goal!</hi>)</rdg>
+                        </app>
+                    </l>
+                    <pb type="pdf" n="356"/>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">With reverend Sages to devote his
+                                        prime;—<note><quote>Prime</quote> retained from <title level="m">P</title>. It is unclear whether the word is
+                                        <q>prime</q> or <q>time</q> in the <title level="u">DM</title>; it looks like it reads <q>time,</q> but it
+                                    could just as easily be a hastily scribbled <q>prime.</q> For
+                                    certainty’s sake we retain <q>prime,</q> but one may wish to
+                                    read it as <q>time.</q></note></lem>
+                            <rdg wit="#Der">With reverend Sages to devote his <unclear cert="medium">time</unclear>;—</rdg>
+                            <rdg wit="#Per">With reverend Sages to devote his prime,—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere Dicers Boxers Swindlers curs’d the clime;</lem>
+                            <rdg wit="#Der">Ere Dicers Boxers Swindlers curs’d the clime;</rdg>
+                            <rdg wit="#Per">Ere <hi rend="italics">Caterers, Boxers, Swindlers</hi>,
+                                curs’d the Clime—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere yet the Turf alone had charms; ere yet</lem>
+                            <rdg wit="#Der">Ere yet the Turf alone had charms; ere yet</rdg>
+                            <rdg wit="#Per">Ere yet the <hi rend="italics">Turf</hi> alone had
+                                charms—Ere yet</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Rooking was Science, Jockeying was wit;</lem>
+                            <rdg wit="#Der">Rooking was Science, Jockeying was wit;</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Rooking</hi> was <hi rend="italics">Science</hi>, <hi rend="smallcaps">Jockeying</hi> was <hi rend="italics">Wit</hi>—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">For <hi rend="italics">Studs ere Splendid Palaces
+                                    arose</hi>,—</lem>
+                            <rdg wit="#Der">For <hi rend="underline">studs ere splendid Palaces
+                                    arose</hi>,—</rdg>
+                            <rdg wit="#Per">For <hi rend="italics">Studs</hi> ere <hi rend="italics">Splendid Palaces</hi> arose,—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Where <hi rend="italics">Steeds and Grooms</hi> in
+                                idle rank repose,</lem>
+                            <rdg wit="#Der">Where <hi rend="underline">Steeds and Grooms</hi> in
+                                idle rank repose,</rdg>
+                            <rdg wit="#Per">Where <hi rend="italics">Steeds</hi> and <hi rend="italics">Grooms</hi>, in idle ranks, repose,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Consuming more than <placeName>Gallia</placeName>’s
+                                haughty Lord,</lem>
+                            <rdg wit="#Der">Consuming more than Gallia’s haughty Lord,</rdg>
+                            <rdg wit="#Per">Consuming <hi rend="italics">more</hi> than Gallia’s
+                                haughty Lord,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Her fourteenth <persName>Louis</persName>, spent to
+                                deck that board<note>Louis XIV (1643-1715), King of
+                                France.</note></lem>
+                            <rdg wit="#Der">Her fourteenth Louis, spent to deck that board</rdg>
+                            <rdg wit="#Per">Her <hi rend="smallcaps">Fourteenth Louis</hi>, spent to
+                                deck that board</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Where <hi rend="italics">Taste</hi> and <hi rend="italics">Science</hi> found a sure retreat,</lem>
+                            <rdg wit="#Der">Where <hi rend="underline">taste</hi> and <hi rend="italics">science</hi> found a sure retreat,</rdg>
+                            <rdg wit="#Per">Where <hi rend="italics">Taste</hi> and <hi rend="italics">Science</hi> found a sure retreat,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And <hi rend="italics">all the Wits of
+                                        <placeName>Europe</placeName> had a Seat!</hi>—</lem>
+                            <rdg wit="#Der">And <hi rend="underline">all the wits of Europe had a
+                                    Seat!</hi>—</rdg>
+                            <rdg wit="#Per">And <hi rend="italics">all the Wits of Europe had a
+                                    Seat!</hi>—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Not thou who taught <hi rend="italics">mellifluous</hi>
+                                <persName>Pope</persName> to sing</lem>
+                            <rdg wit="#Der">Not thou who taught <hi rend="underline">mellifluous</hi> Pope to sing</rdg>
+                            <rdg wit="#Per">—Not thou who taught <hi rend="italics">mellifluous</hi>
+                                <hi rend="smallcaps">Pope</hi> to sing,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Plum’d <persName>Shakespeare</persName>’s,
+                                    <persName>Milton</persName>’s, <persName>Dryden</persName>’s
+                                daring wing;</lem>
+                            <rdg wit="#Der">Plum’d Shakespeare’s, Milton’s, Dryden’s daring
+                                wing;</rdg>
+                            <rdg wit="#Per">Plum’d <hi rend="smallcaps">Shakespeare’s, Milton’s,
+                                    Dryden’s</hi> daring wing,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere whining <persName>Pratt</persName>, the pink of
+                                common place,<note>Samuel Jackson Pratt (1749-1814) was a poet whose
+                                    sentimental literary persona rarely carried over into his
+                                    personal life. Thelwall often criticized him. In <title level="m">P</title>, <q>Pratt</q> is spelled with only one
+                                        <q>T</q>. According to the <title level="m">OED</title>, the
+                                    word <q>prat</q> meant, in the late eighteenth century, <quote>A
+                                        trick; a piece of trickery or fraud; a prank or practical
+                                        joke,</quote> and it was also slang for <quote>the
+                                        buttocks.</quote> Judith Thompson believes that by spelling
+                                    it with one <q>T</q> Thelwall was making a deliberate joke at
+                                    Pratt’s expense. Whether or not his choice to include the second
+                                        <q>T</q> in the <title level="u">DM</title>, long after
+                                    Pratt’s death, shows a change of heart on Thelwall’s part is up
+                                    to the reader to decide.</note></lem>
+                            <rdg wit="#Der">Ere whining Pratt, the pink of common place,</rdg>
+                            <rdg wit="#Per">Ere whining <hi rend="smallcaps">Prat</hi>, the Pink of
+                                Common Place,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Pour’d forth long nothings with so soft a grace,</lem>
+                            <rdg wit="#Der">Pour’d forth long nothings with so soft a grace,</rdg>
+                            <rdg wit="#Per">Pour’d forth long nothings with so <hi rend="italics">soft</hi> a grace,</rdg>
+                        </app>
+                    </l>
+                    <pb type="pdf" n="358"/>
+                    <l>Made Sentiment so languishingly creep<note>From <quote>Made Sentiment</quote>
+                            (line 63 of <title level="a">Invocation</title>) until <quote>as well as
+                                they</quote> (line 174 of <title level="a">Invocation</title>),
+                            Thelwall has pasted in pages from the <title level="m">P</title>. Thus,
+                            only minor changes are made by Thelwall. Since Thelwall clearly had
+                            access to a copy of the <title level="m">P</title> from which he could
+                            take pages, it is strange that he chose to handwrite some sections of
+                            the poem without making major changes to them: the first twenty lines of
+                            the <title level="a">Invocation,</title> for instance. One imagines he
+                            could have cut and pasted the whole poem into the <title level="u">DM</title> and then made his minor changes in the margins (as he
+                            does at line 130 of the <title level="a">Invocation</title>). One can
+                            only speculate as to the reasons for this decision. Editorial note:
+                            Words in full caps have been edited so as to only have first letter
+                            capitalized, and any other major changes marked with notes.</note></l>
+                    <l>To the charm’d Heart, as charm’d it quite to Sleep;</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Made Sympathy thro’ two long Cantoes shine,</lem>
+                            <rdg wit="#Der">Made <hi rend="smallcaps">Sympathy</hi> thro’ two long
+                                Cantoes shine,</rdg>
+                            <rdg wit="#Per">Made <hi rend="smallcaps">Sympathy</hi> thro’ two long
+                                Cantoes shine,</rdg>
+                        </app>
+                    </l>
+                    <l>Without assistance from one feeling line,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And fair Humanity—<hi rend="italics">so soft</hi>—<hi rend="italics">so sweet</hi>—</lem>
+                            <rdg wit="#Der">And <hi rend="italics">fair</hi>
+                                <hi rend="smallcaps">Humanity</hi>—<hi rend="italics">so
+                                    soft</hi>—<hi rend="italics">so sweet</hi>—</rdg>
+                            <rdg wit="#Per">And <hi rend="italics">fair</hi>
+                                <hi rend="smallcaps">Humanity</hi>—<hi rend="italics">so
+                                    soft</hi>—<hi rend="italics">so sweet</hi>—</rdg>
+                        </app>
+                    </l>
+                    <l><app>
+                            <lem wit="#DigEd">Drawl thro’ dull pages to the hundredth sheet;</lem>
+                            <rdg wit="#Der">Drawl thro’ dull pages to the hundredth sheet;</rdg>
+                            <rdg wit="#Per">Drawl thro dull pages to the hundredth sheet;</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">Drew <hi rend="italics">meek</hi> Morality with such a
+                                Grace,</lem>
+                            <rdg wit="#Der">Drew <hi rend="italics">meek</hi>
+                                <hi rend="smallcaps">Morality</hi> with such a Grace,</rdg>
+                            <rdg wit="#Per">Drew <hi rend="italics">meek</hi>
+                                <hi rend="smallcaps">Morality</hi> with such a Grace,</rdg>
+                        </app></l>
+                    <l>With such a <hi rend="italics">simpering</hi>, <hi rend="italics">lack-a-daisey</hi> Face,</l>
+                    <l>Such <hi rend="italics">water-gruel</hi> Sweetness, one would swear</l>
+                    <l>She <quote>suckled Fools, and chronicled small beer.</quote></l>
+                    <l><app>
+                            <lem wit="#DigEd">—Ere yet quaint Fopperies from the <hi rend="italics">Italian School</hi><note>The poetry of the Italian School was
+                                        <quote>characterised in terms of its theatrical displays of
+                                        emotion, overt sensuality, heavily stylised language and
+                                        complex sound structure</quote> (Broadhead
+                                577).</note></lem>
+                            <rdg wit="#Der">—Ere yet quaint Fopperies from the <hi rend="italics">Italian School</hi></rdg>
+                            <rdg wit="#Per">—Ere yet quaint Fopperies from the Italian School</rdg>
+                        </app></l>
+                    <l>Threw in forc’d Extasies each Rhyming Fool;<note>According to the <title level="m">OED</title>, <q>extasy</q> was an acceptable spelling well
+                            into the eighteenth century. Thus, we have retained the
+                        spelling.</note></l>
+                    <l>Bit, like the Gad Fly, <hi rend="italics">Widows, Wives</hi>, and <hi rend="italics">Maids</hi>,</l>
+                    <l>With frantic <hi rend="italics">bleat</hi> to scare the tuneful Shades,</l>
+                    <l>Where <hi rend="italics">self-thought</hi> Poets, deeper bit than they,</l>
+                    <l><app>
+                            <lem wit="#DigEd">To their wild <hi rend="italics">bleat</hi>, return’d
+                                as wild a <hi rend="italics">bray!</hi>—</lem>
+                            <rdg wit="#Der">To their wild <hi rend="italics">bleat</hi>, return’d as
+                                wild a <hi rend="italics">bray!</hi>—</rdg>
+                            <rdg wit="#Per">To their wild <hi rend="italics">bleat</hi> return’d as
+                                wild a <hi rend="italics">bray</hi>!—</rdg>
+                        </app></l>
+                </lg>
+                <lg>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere <persName type="pseudonym">Della
+                                Crusca</persName>, darling of the World!<note>Used first as a
+                                    pseudonym by Robert Merry, who was involved with a romantic
+                                    relationship with Hannah Cowley, the term Della Crusca was used,
+                                    after 1795, to label all of the poets following the Italian
+                                    school. For more see Alex Broadhead’s <title level="a">The Della
+                                        Cruscans: A Survey of the Criticisms and Resources.</title>
+                                    In <title level="u">DM</title>, Thelwall has written in an
+                                    additional <q>L</q> to turn the <quote>DE LA</quote> of the
+                                        <title level="m">P</title> to
+                                <quote>DELLA.</quote></note></lem>
+                            <rdg wit="#Der">Ere DELLA CRUSCA, darling of the WORLD!</rdg>
+                            <rdg wit="#Per">Ere <hi rend="smallcaps">de la Crusca</hi>, darling of
+                                the <hi rend="smallcaps">World</hi>!</rdg>
+                        </app>
+                    </l>
+                    <l>The random Gaze of Moon-struck-madness hurl’d</l>
+                    <l>Thro’ the wild <quote>Wilderness of blooming Suns,</quote><note>From Robert
+                            Merry’s <title level="a">Ode to Anna Matilda.</title></note></l>
+                    <l>And Scenes which Common Sense indignant shuns;</l>
+                    <l>Where <hi rend="italics">Popularity</hi>, (debauch’d, and led</l>
+                    <l>By that old Bawd, hight <hi rend="italics">Puffing</hi>, to his Bed,)</l>
+                    <l>Brought forth a Swarm of <hi rend="italics">misshaped Monsters</hi>, more</l>
+                    <l>Than ever spawn’d on <placeName type="mythological">Nilus</placeName>’ antic
+                        Shore;—</l>
+                    <l>Monsters, to nurture which, in happy Hour,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">Dame</hi>
+                                <persName>Cowley</persName> waken’d in the Muses Bow’r—</lem>
+                            <rdg wit="#Der"><hi rend="italics">Dame</hi> COWLEY waken’d in the Muses
+                                Bow’r—</rdg>
+                            <rdg wit="#Per"><hi rend="italics">Dame</hi>
+                                <hi rend="smallcaps">Cowley</hi> waken’d in the Muses Bow’r—</rdg>
+                        </app>
+                    </l>
+                    <l>That <hi rend="italics">Bow’r</hi> in which, strew’d by her Angel Hand</l>
+                    <l>With Poppies cull’d in <name type="mythological">Morpheus</name> happy
+                        Land—</l>
+                    <l><name type="mythological">Morpheus</name>! inspiring God of modern
+                            Themes!<note>Morpheus is the ancient Greek god of dreams.</note></l>
+                    <l>The Patron blest of Poesy and Dreams!—</l>
+                    <l>That Bow’r, in which the balmy-soothing Pow’r</l>
+                    <l>With <hi rend="italics">partial fondness</hi>, oft, at Evening Hour,</l>
+                    <l>(<q>Attention pillowing her reclining Head</q>)</l>
+                    <l>The sweetest Slumbers o’er her Senses spread;</l>
+                    <pb type="pdf" n="360"/>
+                    <l>While crowded Theatres, by Fate’s decree,</l>
+                    <l>First clapp’d, then yawn’d, then snor’d as loud as she.</l>
+                </lg>
+                <lg>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Genius <hi rend="italics">of</hi>
+                                <placeName>Britain</placeName>!—by what Title grac’d—</lem>
+                            <rdg wit="#Der">GENIUS <hi rend="italics">of</hi> BRITAIN!—by what Title
+                                grac’d—</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Genius</hi>
+                                <hi rend="italics">of</hi>
+                                <hi rend="smallcaps">Britain</hi>!—by what Title grac’d—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Fashion or Folly, Vanity or Taste—</lem>
+                            <rdg wit="#Der"><hi rend="smallcaps">Fashion</hi> or <hi rend="smallcaps">Folly, Vanity</hi> or <hi rend="smallcaps">Taste</hi>—</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Fashion</hi> or <hi rend="smallcaps">Folly, Vanity</hi> or <hi rend="smallcaps">Taste</hi>—</rdg>
+                        </app>
+                    </l>
+                    <l>Thou, whose high Laws, rever’d by Courtly Dames!</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><persName>Cecil’s</persName>
+                                <hi rend="italics">hereditary Wisdom</hi> frames.—<note>William
+                                    Cecil, Lord Burghley (1520-98) was an advisor to Elizabeth I,
+                                    and his descendent, Brownlow Cecil, the ninth Earl of Exeter
+                                    (1725-93), advised King George III. According to Judith
+                                    Thompson, the references to fashion can be interpreted as a
+                                    statement by Thelwall that the <quote>hereditary wisdom</quote>
+                                    once available in the counsel offered by the Cecil family has
+                                    degraded.</note></lem>
+                            <rdg wit="#Der"><hi rend="smallcaps">Cecil</hi>’s <hi rend="italics">hereditary Wisdom</hi> frames.—</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Cecil</hi>’s <hi rend="italics">hereditary Wisdom</hi> frames.—</rdg>
+                        </app>
+                    </l>
+                    <l>Important Guardian of a Royal Court!</l>
+                    <l><app>
+                            <lem wit="#DigEd">Imperial Grandeur’s <hi rend="italics">wisest;
+                                    best</hi> support!</lem>
+                            <rdg wit="#Der">Imperial Grandeur’s <hi rend="italics">wisest; best</hi>
+                                support!</rdg>
+                            <rdg wit="#Per">Imperial Grandeur’s <hi rend="italics">wisest,
+                                best</hi>, support!</rdg>
+                        </app></l>
+                    <l>Whose awful Nod prescribes the <hi rend="italics">Mantua’s grace</hi>,</l>
+                    <l>And dooms, without appeal, in <hi rend="italics">Gloves</hi> and <hi rend="italics">Lace</hi>,</l>
+                    <l>When, Wand in Hand, on Birth-Days, he presides,</l>
+                    <l><app>
+                            <lem wit="#DigEd">And with the Best of Kings, the sway divides!—</lem>
+                            <rdg wit="#Der">And with the BEST OF KINGS, the sway divides!—</rdg>
+                            <rdg wit="#Per">And with the <hi rend="smallcaps">Best of Kings</hi> the
+                                sway divides!—</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">—That Best of Kings, from whom what blessings
+                                flow!</lem>
+                            <rdg wit="#Der">—That BEST OF KINGS, from whom what blessings
+                                flow!</rdg>
+                            <rdg wit="#Per">—That <hi rend="smallcaps">Best of Kings</hi>, from whom
+                                what blessings flow!</rdg>
+                        </app></l>
+                    <l>Who for his People keeps a Raree-Show</l>
+                    <l>Of Pictures fine, a Month each Year, or more:</l>
+                    <l>But makes them <hi rend="italics">drop their Shillings at the Door!</hi>—</l>
+                    <l><app>
+                            <lem wit="#DigEd">That Best of Kings, who gives his Royal <hi rend="italics">Name</hi></lem>
+                            <rdg wit="#Der">That BEST OF KINGS, who gives his Royal <hi rend="italics">Name</hi></rdg>
+                            <rdg wit="#Per">That <hi rend="smallcaps">Best of kings</hi>, who gives
+                                his Royal <hi rend="italics">Name</hi></rdg>
+                        </app></l>
+                    <l>To every Work of Charity, or Fame;</l>
+                    <l>But, <hi rend="italics">liberal</hi> as he is, with <hi rend="italics">Prudence</hi> blest,</l>
+                    <l>Keeps the Subscription Guinea in his Chest.—</l>
+                    <l><app>
+                            <lem wit="#DigEd">That Best of Kings, who, <hi rend="italics">Umpire of
+                                    the Arts!</hi></lem>
+                            <rdg wit="#Der">That BEST OF KINGS, who, <hi rend="italics">Umpire of
+                                    the Arts!</hi></rdg>
+                            <rdg wit="#Per">That <hi rend="smallcaps">Best of Kings</hi>, who, <hi rend="italics">Umpire of the Arts!</hi></rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">To <persName>West</persName>’s coarse outline his
+                                first Smile imparts:—</lem>
+                            <rdg wit="#Der">To <hi rend="smallcaps">West</hi>’s coarse outline his
+                                first Smile imparts:—</rdg>
+                            <rdg wit="#Per">To <hi rend="smallcaps">West’s</hi> coarse outline his
+                                first Smile imparts;—</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd"><persName>West</persName>, from whose hand each Male
+                                Complexion shines</lem>
+                            <rdg wit="#Der"><hi rend="smallcaps">West</hi>, from whose hand each
+                                Male Complexion shines</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">West</hi>, from whose hand each
+                                Male Complexion shines</rdg>
+                        </app></l>
+                    <l>Like half-wrought Copper from our Cornish Mines;</l>
+                    <l>While, smooth as wax, each female Cheek is spread,</l>
+                    <l>And every Lip, with the same lifeless red!—</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><persName>West</persName>, whose long Groups, in
+                                order’d Rows display’d,</lem>
+                            <rdg wit="#Der"><hi rend="smallcaps">West</hi>, whose long Groups, in
+                                order’d Rows display’d,</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">West</hi>, whose long Groups, in
+                                order’d Rows display’d,</rdg>
+                        </app>
+                    </l>
+                    <l><app>
+                            <lem wit="#DigEd">(As ranks of Soldiers strut on the parade,)</lem>
+                            <rdg wit="#Der">(As ranks of Soldiers strut on the parade,)</rdg>
+                            <rdg wit="#Per">(As ranks of soldiers strut on the parade,)</rdg>
+                        </app></l>
+                    <l>At <hi rend="italics">Knightly Installations</hi>, make us stare,</l>
+                    <l><app>
+                            <lem wit="#DigEd">And ask <hi rend="italics">What Corporal drill’d the
+                                    noble Fair</hi>!—</lem>
+                            <rdg wit="#Der">And ask <hi rend="italics">What Corporal drill’d the
+                                    noble Fair</hi>!—</rdg>
+                            <rdg wit="#Per">And ask <hi rend="italics">What Corporal drill’d the
+                                    noble Fair!</hi>—</rdg>
+                        </app></l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">West, who, not only taught to husband <hi rend="italics">Time</hi>,</lem>
+                            <rdg wit="#Der"><hi rend="smallcaps">West</hi>, who, not only taught to
+                                husband <hi rend="italics">Time</hi>,</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">West</hi>, who, not only taught to
+                                husband <hi rend="italics">Time</hi>,</rdg>
+                        </app>
+                    </l>
+                    <l>Maintains the loss of <hi rend="italics">Space</hi> an equal Crime,</l>
+                    <l>So fills—despite of ease and simple grace—</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Each <hi rend="italics">Inch of Canvas</hi> with a
+                                varnish’d <hi rend="italics">Face</hi>,<note>Benjamin West
+                                    (1738-1820) was an American painter. His art is here satirized
+                                    as being flat, with the bodies of people clustered, as he
+                                    attempts to cover each inch of canvas. In <title level="m">P</title>, this line read <quote>So fills each <hi rend="italics">Scrap Of Canvas</hi> with a <hi rend="italics">Face</hi>,</quote>. Since this is a line
+                                    on a pasted page in the <title level="u">DM</title>, Thelwall’s
+                                    changes are scribbled in on top of the printed page.
+                                        <quote>Inch</quote> is not capitalized or underlined (for
+                                    italicization) in <title level="u">DM</title>, but we have
+                                    edited it to match the structure of <title level="m">P</title>’s
+                                            <quote><hi rend="italics">Scrap of Canvas</hi>.</quote>
+                                    Since Thelwall scribbled in <quote>inch</quote> in the small
+                                    margin between lines, he could not indicate how he wanted it
+                                    presented. Thus, editorial liberties have been taken to maintain
+                                    a uniform presentation.</note></lem>
+                            <rdg wit="#Der"><del rend="overstrike">So fills</del> each <hi rend="italics"><subst>
+                                        <del rend="srikethrough">Scrap</del>
+                                        <add place="above">inch</add>
+                                    </subst>of <del rend="overstrike"><add place="above"><gap reason="illegible" unit="word" quantity="1"/></add></del>Canvas</hi> with a <add place="above">varnish’d</add>
+                                <hi rend="italics">Face</hi>,</rdg>
+                            <rdg wit="#Per">So fills each <hi rend="italics">Scrap of Canvas</hi>
+                                with a <hi rend="italics">Face</hi>,</rdg>
+                        </app>
+                    </l>
+                    <pb type="pdf" n="361"/>
+                    <l>Which all, lest quarrels rise for shape and air,</l>
+                    <l>The self-same attitude and features share—</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><persName>West</persName>, who, <hi rend="italics">to
+                                    Scripture rules devoutly true</hi>,</lem>
+                            <rdg wit="#Der"><hi rend="smallcaps">West</hi>, who, <hi rend="italics">to Scripture rules devoutly true</hi>,</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">West</hi>, who, <hi rend="italics">to Scripture rules devoutly true</hi>,</rdg>
+                        </app>
+                    </l>
+                    <l>Thinks <hi rend="italics">Eye for Eye</hi>, and <hi rend="italics">Tooth for
+                            Tooth</hi>, are due,</l>
+                    <l>And painting <persName type="historical">Pharoah</persName>, and his warlike
+                        host</l>
+                    <l><hi rend="italics">O’erthown by <persName type="historical">Moses</persName>,
+                            and in Soap Suds lost,</hi></l>
+                    <l><app>
+                            <lem wit="#DigEd">With vengeful Brush, for Justice, arms his
+                                Hands,</lem>
+                            <rdg wit="#Der">With vengeful Brush, for Justice, arms his Hands,</rdg>
+                            <rdg wit="#Per">With vengeful Brush, for <hi rend="italics">Justice</hi>, arms his Hands,</rdg>
+                        </app></l>
+                    <l>And <hi rend="italics">murders <persName type="historical">Moses</persName></hi>, as the <hi rend="italics">Law</hi>
+                            commands.—<note>Possibly an allusion to West’s painting <title level="m">Pharoah and his Host Lost in the Red Sea</title> (1792).</note></l>
+                    <l><app>
+                            <lem wit="#DigEd">That <persName>West</persName>, who, lest the <hi rend="italics">first sad Curse</hi> be vain,</lem>
+                            <rdg wit="#Der">That <hi rend="underline">West</hi>, who, lest the <hi rend="italics">first sad Curse</hi> be vain,</rdg>
+                            <rdg wit="#Per">That <hi rend="smallcaps">West</hi>, who, lest the <hi rend="italics">first sad Curse</hi> be vain,</rdg>
+                        </app></l>
+                    <l><hi rend="italics">Damns</hi> our fall’n Parents, o’er and o’er again;</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Then, fired with <hi rend="italics">Zeal</hi>,
+                                instructs his glorious Son</lem>
+                            <rdg wit="#Der">Then, fired with <hi rend="italics">Zeal</hi>, instructs
+                                his glorious SON</rdg>
+                            <rdg wit="#Per">Then, fired with <hi rend="italics">Zeal</hi>, instructs
+                                his glorious <hi rend="smallcaps">Son</hi></rdg>
+                        </app>
+                    </l>
+                    <l>(By whom one Day the Sire shall be outdone)</l>
+                    <l>To force grim <hi rend="italics"><persName type="mythological">Satan</persName></hi> from the depths of <placeName type="mythological">Hell</placeName>,</l>
+                    <l>’Midst grinning Forms of Ridicule to dwell,</l>
+                    <l>Where <hi rend="italics">laughing Scorn</hi> shall more afflict his Pride</l>
+                    <l>Than all the Flames for torturing Ages tried.</l>
+                </lg>
+                <lg>
+                    <l><app>
+                            <lem wit="#DigEd">Genius of <placeName>Britain</placeName>!—That same
+                                Nymph I mean</lem>
+                            <rdg wit="#Der">GENIUS <hi rend="italics">of</hi> BRITAIN!—That same
+                                Nymph I mean</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Genius</hi>
+                                <hi rend="italics">of</hi>
+                                <hi rend="smallcaps">Britain</hi>!—That same Nymph I mean</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">Who teaches <hi rend="italics">Tambour</hi> to our
+                                Gracious Queen;</lem>
+                            <rdg wit="#Der">Who teaches <hi rend="italics">Tambour</hi> to our
+                                GRACIOUS QUEEN;</rdg>
+                            <rdg wit="#Per">Who teaches <hi rend="italics">Tambour</hi> to our <hi rend="smallcaps">Gracious Queen</hi>;</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">Whence from her Needle (wond’rous Art!) arise</lem>
+                            <rdg wit="#Der">Whence from her Needle (wond’rous Art!) arise</rdg>
+                            <rdg wit="#Per">Whence from her Needle (wondrous Art!) arise</rdg>
+                        </app></l>
+                    <l>Long Pomps of <hi rend="italics">Silken Trees</hi>, and <hi rend="italics">Worsted Skies</hi>;</l>
+                    <l><hi rend="italics">Quadrupeds</hi>, <hi rend="italics">non-descript</hi>, are
+                        forc’d to Fame,</l>
+                    <l><app>
+                            <lem wit="#DigEd"><hi rend="italics">Plants with new forms</hi>, and <hi rend="italics">Flowers without a name</hi>:</lem>
+                            <rdg wit="#Der"><hi rend="italics">Plants with new forms</hi>, and <hi rend="italics">Flowers without a name</hi>:</rdg>
+                            <rdg wit="#Per"><hi rend="italics">Plants with new forms</hi>, and <hi rend="italics">Flowers without a name</hi>;</rdg>
+                        </app></l>
+                    <l>Or, soaring higher, to the Human form,</l>
+                    <l>Her steel-eyed Pencil, (exquisitely warm!)</l>
+                    <l>Calls <hi rend="italics">faces</hi> forth—(if those who late have seen</l>
+                    <l><hi rend="italics"><persName>Laurence’s</persName></hi> Portrait of that <hi rend="italics">awful</hi> Mien</l>
+                    <l>For such a Fact can take a Poet’s word!)<note>Sir Thomas Lawrence (1769–1830)
+                            was a painter. The painting referenced here of Queen Charlotte is likely
+                            the one he was commissioned to do between 1789 and 1790.</note></l>
+                    <l>Still more unmeaning than her Royal Lord!</l>
+                    <l>—Prudent Amusement for a married Dame</l>
+                    <l>Whose <hi rend="italics">Numerous Babes</hi> her <hi rend="italics">frugal
+                            Fondness</hi> claim!</l>
+                    <l>Expensive Books might shrink her little Store,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Concerts and Treats make even the Wealthy
+                                    poor:<note>In the <title level="u">DM</title>, the <q>v</q> of
+                                        <quote>even</quote> is hand-written by Thelwall onto the cut
+                                    and pasted page; in <title level="m">P</title>, it is spelled
+                                        <quote>e’en.</quote> While we have chosen the <title level="u">DM</title> in this instance, we acknowledge that
+                                    it is a strange change, since it disrupts the strict iambic
+                                    pentameter of the line. The disruption of the earlier metre may
+                                    reflect Thelwall’s later prosodic theories and abandonment of
+                                    poetic contradictions but he does not do this
+                                    consistently.</note></lem>
+                            <rdg wit="#Der">Concerts and Treats make e<subst>
+                                    <del>’</del>
+                                    <add place="above">v</add>
+                                </subst>en the Wealthy poor:</rdg>
+                            <rdg wit="#Per">Concerts and Treats make e’en the Wealthy poor:</rdg>
+                        </app>
+                    </l>
+                    <l>But she at home who o’er her <hi rend="italics">Needle</hi> dreams,</l>
+                    <l>Or <hi rend="italics">patches Fragments</hi> up with frugal Seams,</l>
+                    <pb type="pdf" n="364"/>
+                    <l><app>
+                            <lem wit="#DigEd">Or works <hi rend="italics">old <choice>
+                                        <orig>Sattin</orig>
+                                        <reg>Satin</reg>
+                                    </choice> Coats</hi> with Colours fine,</lem>
+                            <rdg wit="#Der">Or works <hi rend="italics">old Sattin Coats</hi> with
+                                Colours fine,</rdg>
+                            <rdg wit="#Per">Or works <hi rend="italics">old Satin Coats</hi> with
+                                Colours fine,</rdg>
+                        </app></l>
+                    <l>O’er no <hi rend="italics">Upholsterer’s hideous Bill</hi> shall pine;</l>
+                    <l>Yet sees, blest Harvest of her Royal Cares!</l>
+                    <l><hi rend="italics">Quilts for her Beds</hi>, and <hi rend="italics">Covers
+                            for her Chairs</hi>.</l>
+                </lg>
+                <lg>
+                    <l><app>
+                            <lem wit="#DigEd">Genius <hi rend="italics">of</hi>
+                                <placeName>Britain</placeName>! who, with like control,</lem>
+                            <rdg wit="#Der">GENIUS <hi rend="italics">of</hi> BRITAIN! who, with
+                                like control,</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Genius</hi>
+                                <hi rend="italics">of</hi>
+                                <hi rend="smallcaps">Britain</hi>! who, with like control,</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">Sway George’s, Charlotte’s, West’s, and Warren’s
+                                    Soul!—<note>The references to George and Charlotte here are
+                                    obviously to King George III (1738-1820) and his wife Queen
+                                    Charlotte of Mecklenburg-Strelitz (1744–1818), who ruled at the
+                                    time of the poem’s composition. The earlier reference to the
+                                        <quote>Gracious Queen</quote> (line 148 of Canto One) is
+                                    also to Charlotte, who was known for her needle work. According
+                                    to Judith Thompson, <quote>Warren</quote> refers to Dr. Richard
+                                    Warren, a physician who had helped treating George III’s illness
+                                    during the Regency Crisis of 1788: see <title level="m">P</title>, note 197.</note></lem>
+                            <rdg wit="#Der">Sway GEORGE’s, CHARLOTTE’s, WEST’s, and WARREN’s
+                                Soul!—</rdg>
+                            <rdg wit="#Per">Sway <hi rend="smallcaps">George</hi>’s, <hi rend="smallcaps">Charlotte</hi>’s, <hi rend="smallcaps">West</hi>’s, and <hi rend="smallcaps">Warren</hi>’s
+                                Soul!—</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">Make <persName>Merry’s</persName> ravings,
+                                    <persName>Coleman’s</persName> stolen trash,<note>For Merry, see
+                                    notes 39 and 41. Thelwall parodies one of Merry’s poems—<title level="a">The Laurel of Liberty</title>—at the end of the
+                                        <title level="a">Epic Poetry</title> chapter in <title level="m">P</title>. <quote>Coleman</quote> refers to two
+                                    people: Colman the elder (1732-94) and the younger (1762-1836),
+                                    both playwrights and theatre managers. In the <title level="a">Prefatory Memoir</title> of <title level="m">Poems Chiefly
+                                        Written in Retirement</title>, Thelwall mentions that
+                                        <quote>free use</quote> (xxi) had been made of some of his
+                                    work. This suggests he may have been complaining of plagiarism
+                                    in this line.</note></lem>
+                            <rdg wit="#Der">Make MERRY’s ravings, COLEMAN’s stolen trash,</rdg>
+                            <rdg wit="#Per">Make <hi rend="smallcaps">Merry</hi>’s ravings, <hi rend="smallcaps">Coleman</hi>’s stolen trash,</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">His <hi rend="italics">Tragi-Comic-Pantomimic</hi>
+                                hash,</lem>
+                            <rdg wit="#Der">His <hi rend="italics">Tragi-Comic-Pantomimic</hi>
+                                hash,</rdg>
+                            <rdg wit="#Per">His <hi rend="italics">Tragi-Comic-Pantomimic
+                                hash</hi>,</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">Pass for true Wit! assist my Epic Lay:</lem>
+                            <rdg wit="#Der">Pass for true Wit! assist my EPIC LAY:</rdg>
+                            <rdg wit="#Per">Pass for true Wit! assist my <hi rend="smallcaps">Epic
+                                    Lay</hi>:</rdg>
+                        </app></l>
+                    <l><app>
+                            <lem wit="#DigEd">And I may hope to write <hi rend="italics">as well as
+                                    they</hi>!<note>In <title level="m">P</title>, the last line of
+                                    the <title level="a">Invocation</title> reads <quote>For hard
+                                        the Task my vent’rous Lines essay.</quote> In <title level="u">DM</title>, Thelwall has crossed out the original
+                                    line and written his correction underneath. His change makes
+                                    absolutely clear the satiric nature of the poem.</note></lem>
+                            <rdg wit="#Der"><subst>
+                                    <del rend="overstrike">For hard the Task my vent’rous Lines
+                                        essay.</del>
+                                    <add place="below">And I may hope to write <hi rend="underline">as well as they</hi>!</add>
+                                </subst></rdg>
+                            <rdg wit="#Per">For hard the Task my vent’rous Lines essay.</rdg>
+                        </app></l>
+                </lg>
+            </div></body></text></TEI>
