@@ -1340,7 +1340,10 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
         <title>XPath and Schematron</title>
         <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
-            <act time="PT15M">
+            <act time="PT30M">
+                <desc>XSLT odds and ends</desc>
+            </act>
+            <act time="PT10M">
                 <desc>Schematron overview</desc>
                 <details>
                     <item>Schematron is <emph>constraint based</emph>; Relax NG, XML Schema, DTD are
@@ -1359,10 +1362,10 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                             <code>&lt;report&gt;</code></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT20M">
                 <desc>Looking at Schematron</desc>
                 <details>
-                    <item>Document analysis of our XML:
+                    <item>Document analysis of a mock bibliography:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</link><examples>
                             <example><code>&lt;start&gt;</code> shouldn’t be greater than
                                     <code>&lt;end&gt;</code></example>
@@ -1392,7 +1395,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                     <item>Associating Schematron with XML</item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>Schematron error reporting</desc>
                 <details>
                     <item>Schematron has the best error messages</item>
@@ -1439,7 +1442,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT40M">
+            <act time="PT50M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
                 <details>
                     <item>Comparing three things <examples>
@@ -1504,10 +1507,12 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                 <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
                 </details>
             </act>
-            <act time="PT20M">
+        </slot>
+        <slot time="13:30:00">
+            <title>Schematron and external files</title>
+            <act time="PT15M">
                 <desc>One more way of counting spaces and hyphens</desc>
                 <details>
-
                     <item>Explode the string<examples>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"
@@ -1516,6 +1521,8 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                     >codepoints-to-string()</code></example>
                             <example><code>for $c in string-to-codepoints('one two three') return
                                     codepoints-to-string($c)</code></example>
+                            <example><code>string-to-codepoints('one two three') !
+                                    codepoints-to-string(.)</code></example>
                         </examples>
                     </item>
                     <item>Find the index values of the spaces<examples>
@@ -1535,9 +1542,6 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                         </examples></item>
                 </details>
             </act>
-        </slot>
-        <slot time="13:30:00">
-            <title>Schematron and external files</title>
             <act time="PT25M">
                 <desc>ID/IDREF validation</desc>
                 <details>
@@ -1576,7 +1580,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT10M">
                 <desc>General comparison and value comparison</desc>
                 <details>
                     <item>Value comparison<examples>
@@ -1605,7 +1609,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT30M">
                 <desc>Schematron validation</desc>
                 <details>
                     <item>Instance:
@@ -1621,7 +1625,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
             <act time="PT10M">
                 <desc>Break</desc>
             </act>
-            <act time="PT15M">
+            <act time="PT30M">
                 <desc>Exploring Digital Mitford</desc>
                 <details>
                     <item>Project site: <link>https://digitalmitford.org</link></item>
@@ -1635,7 +1639,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT30M">
                 <desc>Hamilton 1823-04-09 letter</desc>
                 <details>
                     <item>Letter <examples>
@@ -1655,7 +1659,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <!--<act time="PT30M">
                 <desc>Webb 1819-05-16 letter</desc>
                 <details>
                     <item>Letter <examples>
@@ -1677,7 +1681,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                 report an error</example>
                         </examples></item>
                 </details>
-            </act>
+            </act>-->
         </slot>
     </day>
     <day d="Friday">

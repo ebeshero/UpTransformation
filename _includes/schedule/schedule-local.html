@@ -1092,7 +1092,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                 </ol></li></ol></section>
     </section><section>
         <h2>Thursday, June 13: XPath and Schematron</h2>
-        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ol><li>Schematron overview (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ol><li>XSLT odds and ends (30 minutes; 9:00 a.m.–9:30 a.m.) </li><li>Schematron overview (10 minutes; 9:30 a.m.–9:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Schematron is <em>constraint based</em>; Relax NG, XML Schema, DTD are
                             <em>grammar based</em></li>
                     <li>Sample constraint-based tasks involve multiple elements<ol>
@@ -1107,8 +1107,8 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                     <li>Schematron structure: <code>&lt;pattern&gt;</code> →
                             <code>&lt;rule&gt;</code> → <code>&lt;assert&gt;</code> or
                             <code>&lt;report&gt;</code></li>
-                </ol></li><li>Looking at Schematron (30 minutes; 9:15 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Document analysis of our XML:
+                </ol></li><li>Looking at Schematron (20 minutes; 9:40 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Document analysis of a mock bibliography:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages.xml</a><ol>
                             <li><code>&lt;start&gt;</code> shouldn’t be greater than
                                     <code>&lt;end&gt;</code></li>
@@ -1136,7 +1136,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                 markup)</li>
                         </ol></li>
                     <li>Associating Schematron with XML</li>
-                </ol></li><li>Schematron error reporting (20 minutes; 9:45 a.m.–10:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Schematron error reporting (15 minutes; 10:00 a.m.–10:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Schematron has the best error messages</li>
                     <li>Enhance Schematron reporting with <code>&lt;sch:value-of&gt;</code>:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_value-of.sch</a></li>
@@ -1144,7 +1144,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_variables.sch</a></li>
                     <li>Generate warnings as well as errors with <code>@role</code>:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</a></li>
-                </ol></li><li>XPath functions practice: Leipzig glossing rules, part 1 (20 minutes; 10:05 a.m.–10:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions practice: Leipzig glossing rules, part 1 (20 minutes; 10:15 a.m.–10:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Document analysis:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.xml</a></li>
                     <li>Target output:
@@ -1168,7 +1168,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                                 count()</code></span></li>
                                 </ol></li>
                         </ol></li>
-                </ol></li><li>Break (10 minutes; 10:25 a.m.–10:35 a.m.) </li><li>XPath functions practice: Leipzig glossing rules, part 2 (40 minutes; 10:35 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 10:35 a.m.–10:45 a.m.) </li><li>XPath functions practice: Leipzig glossing rules, part 2 (50 minutes; 10:45 a.m.–11:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Comparing three things <ol>
                             <li>Three-way test not available in XPath<ol>
                                     <li><code>$a eq $b eq $c</code></li>
@@ -1205,7 +1205,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li>Finding which word has a hyphen misalignment
                                          <button class="answer">Answer</button> <span class="answer"><a href="http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html">http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</a></span></li>
                         </ol></li>
-                </ol></li><li>The Three Stooges go to Schematron Summer Camp (25 minutes; 11:15 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>The Three Stooges go to Schematron Summer Camp (25 minutes; 11:35 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The Edge Case Saloon<ol>
                             <li>“QA Engineer walks into a bar. Orders a beer. Orders 0 beers.
                                 Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a
@@ -1225,12 +1225,14 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                         </ol></li>
                     <li>Solution (no peeking!)
                                  <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
-                </ol></li><li>One more way of counting spaces and hyphens (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-
+                </ol></li></ol></section>
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ol><li>One more way of counting spaces and hyphens (15 minutes; 1:30 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Explode the string<ol>
                             <li><code>string-to-codepoints()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"><sup>⬀</sup></a>, <code>codepoints-to-string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"><sup>⬀</sup></a></li>
                             <li><code>for $c in string-to-codepoints('one two three') return
                                     codepoints-to-string($c)</code></li>
+                            <li><code>string-to-codepoints('one two three') !
+                                    codepoints-to-string(.)</code></li>
                         </ol>
                     </li>
                     <li>Find the index values of the spaces<ol>
@@ -1246,8 +1248,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                     codepoints-to-string(.) =&gt; index-of(' ') =&gt;
                                 count()</code></li>
                         </ol></li>
-                </ol></li></ol></section>
-        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ol><li>ID/IDREF validation (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>ID/IDREF validation (25 minutes; 1:45 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</a></li>
@@ -1281,7 +1282,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li>Subcategory support</li>
                             <li>Require (selected) mixed content to be non-empty</li>
                         </ol></li>
-                </ol></li><li>General comparison and value comparison (20 minutes; 1:55 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>General comparison and value comparison (10 minutes; 2:10 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Value comparison<ol>
                             <li>Operators: <code>eq</code>, <code>ne</code>, <code>lt</code>,
                                     <code>gt</code>, <code>le</code>, <code>ge</code></li>
@@ -1306,7 +1307,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li><code>substring(@ref, 2) =
                                 $ancillary//person/@xml:id</code></li>
                         </ol></li>
-                </ol></li><li>Schematron validation (25 minutes; 2:15 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Schematron validation (30 minutes; 2:20 p.m.–2:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Instance:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</a></li>
                     <li>Relax NG:
@@ -1315,7 +1316,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch</a></li>
                     <li>External reference file:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml</a></li>
-                </ol></li><li>Break (10 minutes; 2:40 p.m.–2:50 p.m.) </li><li>Exploring Digital Mitford (15 minutes; 2:50 p.m.–3:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (10 minutes; 2:50 p.m.–3:00 p.m.) </li><li>Exploring Digital Mitford (30 minutes; 3:00 p.m.–3:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Project site: <a href="https://digitalmitford.org">https://digitalmitford.org</a></li>
                     <li>Site index<ol>
                             <li>Workshop repo on GitHub:
@@ -1325,7 +1326,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li>Outline:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</a></li>
                         </ol></li>
-                </ol></li><li>Hamilton 1823-04-09 letter (25 minutes; 3:05 p.m.–3:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Hamilton 1823-04-09 letter (30 minutes; 3:30 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Letter <ol>
                             <li>XML:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</a></li>
@@ -1340,25 +1341,6 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                             <li>Test validation of <code>&lt;editor&gt;</code>
                                 element</li>
                             <li>Add and test rules for other element types</li>
-                        </ol></li>
-                </ol></li><li>Webb 1819-05-16 letter (30 minutes; 3:30 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Letter <ol>
-                            <li>XML:
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</a></li>
-                            <li>Read on line:
-                                    <a href="https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml">https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</a></li>
-                        </ol></li>
-                    <li>Schematron starter:
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</a></li>
-                    <li>New items for the site index are in the <code>&lt;back&gt;</code>
-                        <ol>
-                            <li>Some <code>@ref</code> values in the back have also already
-                                been added to the site index; report pointers to them as
-                                errors</li>
-                            <li>Some <code>@ref</code> values in the back still have to be
-                                added to the site index; report them as <q>info</q></li>
-                            <li>If an element that should have a <code>@ref</code> doesn’t,
-                                report an error</li>
                         </ol></li>
                 </ol></li></ol></section>
     </section><section>
