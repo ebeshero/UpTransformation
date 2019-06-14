@@ -5,11 +5,25 @@
     xmlns:owl="http://www.w3.org/TR/2004/REC-owl-guide-20040210/"
     xmlns:fa="http://www.w3.org/2005/xpath-functions"
     xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc.html"
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     exclude-result-prefixes="cwrc xsl schema rdf tei fa owl xs"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="3.0">
     <xsl:output method="xml" encoding="UTF-16" indent="yes"/>
     <xsl:key name="personById" match="person" use="@xml:id"/>
     <xsl:key name="relationById" match="relation" use="tokenize(@mutual) ! substring-after(., '#')"/>
+    <xsl:variable name="occupationPrefix"
+        select="'http://www.wikidata.org/wiki/Special:EntityData/Q'"/>
+    <xsl:variable name="occupations" as="map(xs:string, xs:string)">
+        <xsl:map>
+            <!-- add more entries for other occupations -->
+            <xsl:map-entry key="'Writer'" select="'36180'"/>
+            <xsl:map-entry key="'Actor'" select="'33999'"/>
+            <xsl:map-entry key="'Musician'" select="'639669'"/>
+            <xsl:map-entry key="'Photographer'" select="'33231'"/>
+            <xsl:map-entry key="'Poet'" select="'49757'"/>
+        </xsl:map>
+    </xsl:variable>
+
     <xsl:template match="/">
         <rdf:RDF xml:lang="en" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc.html"
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -128,9 +142,22 @@
     </xsl:template>
 
     <xsl:template match="occupation">
+        <xsl:choose>
+            <xsl:when test="map:contains($occupations, current())">
+                <cwrc:Occupation
+                    rdf:resource="{concat($occupationPrefix, $occupations(current()), '.rdf')}"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:comment>No URI for occupation <xsl:value-of select="current()"/></xsl:comment>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <!--    <xsl:template match="occupation">
         <cwrc:Occupation/>
         <cwrc:hasOccupation/>
     </xsl:template>
+-->
     <!-- <xsl:template match="occupation[text() = 'Writer']">
         <cwrc:Occupation rdf:resource="http://sparql.cwrc.ca/testing/cwrc#writer"/>
         <cwrc:hasOccupation rdf:resource="http://www.wikidata.org/wiki/Special:EntityData/Q36180.rdf"/>
