@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="../src/vmachine_evfl2Pre.xsl" type="text/xsl" ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"The Preface" from A General History of the Pyrates</title>
+                <author>Captain Charles Johnson</author>
+                <respStmt>
+                    <resp>Text Encoding by </resp>
+                    <name>Ingrid Reiche</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by </resp>
+                    <name>Ingrid Reiche</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <p> </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="image" anchored="true">
+                    <witDetail wit="#ed1" target="#ed1" place="apparatus">"The Preface" from <hi rend="italics"> A General History of the Pyrates1 (st ed, 1724)</hi>
+                        <figure>
+                            <graphic url="images/e1Pre1.jpg"/>
+                        </figure>
+                    </witDetail>
+                    <witDetail wit="#ed2" target="#ed2" place="apparatus">"The Preface" from <hi rend="italics"> A General History of the Pyrates</hi> (2nd ed., 1724)
+                        <figure>
+                            <graphic url="images/e2Pre1.jpg"/>
+                        </figure>
+                    </witDetail>
+                    <witDetail wit="#ed4v1" target="#ed4v1" place="apparatus">"The Preface" from <hi rend="italics"> A General History of the Pyrates</hi> (4th. ed., 1726)
+                        <figure>
+                            <graphic url="images/e4v1Pre1.jpg"/>
+                        </figure>
+                    </witDetail>
+                    <witDetail wit="#ed3" target="#ed3" place="apparatus">"The Preface" from <hi rend="italics"> A General History of the Pyrates</hi> (3rd ed., 1725)
+                        <figure>
+                            <graphic url="images/e3Pre1.jpg"/>
+                        </figure>
+                    </witDetail>
+            </note>
+                <note type="critIntro"><p>The changes across these four versions of "The Preface" are largely in typesetting and format. 
+                    The most common change occurs at the end of the lines where words have been moved down to the next line or have been hyphenated. 
+                    The spelling and capitalization of certain words and phrases have also been changed</p>
+                    <p> The most substantial change in the 1st edition is that “The Preface” is 6 pages whereas all subsequent editions are 8 pages. 
+                        The added text begins on with "P.S." on page 6, which is the verso of A4 at the bottom. 
+                        Another notable change is that the last 2 lines on page 5 of the first three editions have been moved to the top of page 6 in the 4th edition. </p>
+                    
+                    <p><hi rend="underline">Glossary Note Types</hi>
+                        <hi rend="underline">Gloss notes</hi>: denoted by superscript "g", point to changes in capitalization, spelling or wording.<lb/>
+                        <hi rend="underline">Physical notes</hi>: denoted by superscript "p", point to changes in formatting and the physical layout of the page 
+                        such as changes in line ends.<lb/>
+                        <hi rend="underline">Critical Notes</hi>: denoted by a superscript "c", point to critical changes in the text, such as added material.<lb/>
+                        <hi rend="underline">Notes</hi>: denoted by a superscript "n", point to more general comments about changes in the text.</p>
+                    <p>
+                        <hi rend="underline">Glossary of Abbreviations</hi><lb/>
+                        a.w. = added word(s)<lb/>
+                        c.c. = capitalization change (generally to the first letter in a word)<lb/>
+                        d.w. = deleted word(s)<lb/>
+                        l.c. = line change (of a word(s), or parts of a sentence)<lb/>
+                        l.e.c. = line end change<lb/>
+                        p.c. = punctuation change<lb/>
+                        s.c. = spelling change<lb/>
+                        w.c.= a word that is changed in some manner<lb/> 
+                        w.m.= a word(s) moved<lb/> 
+                        
+                    </p>
+                </note>
+                
+                
+                <note anchored="true"><p> This is a comparision of four version of the text from "The Preface" of  <hi rend="italics">A General History of the Pyrates</hi> 
+                        ranging from the 1st edition printed in 1724 to Volume 1 of the 4th edition printed 1726</p>
+               
+                
+                    <p><hi rend="underline">1st ed.-1724</hi> From the Baldwin Room at the Toronto Reference Library - photographs by Ingrid Reiche</p>
+                    <p>"The Preface" - 6 Pages: A2-A4; 3 leaves, pp.[3-6] <hi rend="italics">1-2</hi> </p>
+                    
+                    <p>
+                        <hi rend="underline">2nd ed.-1724:</hi> From the Internet Archive - scans from the Rare Book collection of the Boston Public Library</p>
+                    <p>"The Preface" - 8 Pages: A2-A5; 4 leaves, pp [3-4] <hi rend="italics">1-6</hi></p>
+                    
+                    <p>
+                        <hi rend="underline">3rd-1725:</hi>from Eighteeenth Century Collection Online (ECCO) - scans provide by the British Library</p>
+                    <p>"The Preface" - 8 Pages: A2-A5; 4 leaves, pp [3-4] <hi rend="italics">1-6</hi></p>
+                    <p>
+                        <hi rend="underline">4th ed.(Vol.1)-1726:</hi> From the Thomas Fisher Rare Book Library at the University of Toronto - scans by Ingrid Reiche</p>
+                    <p>"The Preface - 8 Pages: A2-A5; 4 leaves, pp [3-4] <hi rend="italics">1-6</hi> </p>
+                </note>
+                    
+                
+            </notesStmt>
+            
+          
+            <sourceDesc>
+                <p>Diplomatic editions of this text are based on transcriptions created by Ingrid
+                    Reiche for an MA Thesis at Carleton Unversity </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p> Marked-up collation of A General History of the Pyrates .</p>
+                <p>DTD constructed from TEI prose base with tagsets for linking, figures, analysis,
+                    transcr, textcrit.</p>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="external"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ed1">1st ed.-1724, " The Preface",(CaOTPH-910.4J57C.1/TPL>PREFACE,1st ed. </witness>
+                    <witness xml:id="ed2">2nd ed.-1724 "The Preface", (Internet Archive/scans from BPL-Defoe21.G421724B)</witness>
+                    <witness xml:id="ed3">3rd ed.-1725 "The Preface",(ECCO/scans from LO/N37- 276.i.4) </witness>
+                    <witness xml:id="ed4v1">4th ed.(V.I)-1726,"The Preface", (CaOTUTF B1003067-Vol.1/TFL) </witness>
+                   
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <head>
+                <title>
+                    <app>
+                        <rdg wit="#ed1">The PREFACE.</rdg>
+                        <rdg wit="#ed2">The PREFACE.</rdg>
+                        <rdg wit="#ed4v1">The PREFACE.</rdg>
+                        <rdg wit="#ed3">The PREFACE.</rdg>
+                       
+                        
+                      
+
+                    </app>
+                </title>
+            </head>
+            <div type="PrefaceText">
+
+                <l><lb/><lb/><app loc="p1">
+                                    <lem wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics"> HAVING taken more than
+                                        ordinary Pains in</hi></lem>
+                                </app>
+                            </l>
+                <l n="15"><app loc="p1">
+                    <lem wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">collecting the Materials which
+                                        compose the<lb/> following History, we could not be
+                                        satisfied <lb/> with our selves, if any Thing were Wanting
+                                        to</hi></lem></app></l>
+                        
+                            <l>
+                                <app loc="p1">
+                                    <lem wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">it, which might render it</hi></lem>
+                                </app>
+                                <app loc="C">
+                                    <lem wit="#ed1"><hi rend="italics"><choice>
+                                        
+                                        <orig> intirely</orig><reg>2nd ed onwards spelled "entirely"</reg>
+                                    </choice></hi><note type="gloss">spelling changed to "entirely" in subsquent editions </note></lem>
+                                </app>
+                                <app loc="C">
+                                    <rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics"><choice>
+                                            <corr> entirely</corr>
+                                            <orig>1st ed spelled "intirely"</orig>
+                                    </choice></hi><note type="gloss">spelling changed from 1st ed "intirely"</note></rdg></app>
+                                   
+                                   
+                                    <app loc="p1">
+                                        <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">satisfactory </hi></rdg></app>
+                                
+                                <app loc="p1">
+                                    <rdg wit="#ed1 #ed2 #ed3">
+                                <note type= "physical">In previous eds line ends with "satisfactory"; in 4th ed line ends with "Pub-"</note></rdg></app>
+                               
+                            <app loc="D">
+                                <rdg wit="#ed4v1"><hi rend="italics">
+                                        <choice><corr>to the Pub-</corr><seg>line change</seg> </choice></hi>
+                                        <note type= "physical">In previous eds line ends with "satisfactory"; in 4th ed line ends with "Pub-"</note></rdg></app>
+                              </l>
+
+                            <l>
+                                <app loc="D">
+                                    <rdg wit="#ed1 #ed2 #ed3"><hi rend="italics"><choice><corr>to the Publick:</corr><seg>text moved in 4th ed</seg> </choice> </hi></rdg>
+                                </app>
+                                <app loc="D">
+                                    <rdg wit="#ed4v1"><choice><abbr><hi rend="italics">lick:</hi></abbr><seg>text moved in 4th ed</seg> </choice></rdg>
+                                </app>
+                                <app loc="p1">
+                                    <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics"> It is for this Reason we have
+                                        subjoined </hi></rdg>
+                                </app>
+                                <app loc="E">
+                                    <rdg wit="#ed1 #ed2 #ed3"><choice><corr><hi rend="italics">to</hi></corr><seg>line end change</seg></choice>
+                                        <note type= "physical">In st, 2nd &amp; 3rd eds. line end with "to"; in 4th ed. adds the word "the" to the line end.</note></rdg>
+                                    
+                                </app>
+                                <app loc="E">
+                                    <rdg wit="#ed4v1"><choice><corr><hi rend="italics">to the</hi></corr><seg>line end change</seg></choice>
+                                        <note type= "physical">line adds  "to the" in the 4th ed. instead of "the" in previous editions</note></rdg>
+                                    
+                                </app></l>
+
+
+                            <l n="20">
+                                <app loc="E">
+                                    <rdg wit="#ed1 #ed2 #ed3"><choice><orig><hi rend="italics">the </hi></orig><corr>4th ed: line begins with "Work" </corr></choice></rdg>
+                                   
+                                </app>
+                                <app loc="p1">
+                                    <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">Work, a short Abstract of the
+                                        Laws now in Force against</hi></rdg></app></l>
+                            <l><app loc="p1">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics"> Pyrates and made</hi></rdg>
+                                </app>
+                                <app loc="e">
+                                    <rdg wit="#ed1"><choice><orig><hi rend="italics"> choice</hi></orig><sic>Choice</sic></choice></rdg>
+                                </app>
+                                <app loc="e">
+                                    <rdg wit=" #ed2 #ed3 #ed4v1">
+                                        <choice><orig><hi rend="italics"> Choice</hi></orig><sic></sic></choice>
+                                 
+                                        </rdg>
+                                </app><note type="gloss">1st ed. choice is NOT captialized; eds
+                                    2,3,4 capitalize the "C"  Choice in </note>
+                                <app loc="p1">
+                                    <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">of some particular
+                                        Cases, (the </hi></rdg></app></l>
+                            <l><app loc="p1">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics"> most curious we could meet with) which have
+                                        been hereto- </hi></rdg></app></l> 
+                                        
+                             <l> 
+                                 <app loc="p1">
+                                     <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">fore triedy by which it will appear what
+                                        Actions </hi></rdg>
+                                </app>
+                                <app loc="f">
+                                    <rdg wit="#ed1  #ed2 #ed3">
+                                        <choice><corr><hi rend="italics">have, and</hi></corr><seg>line end change</seg></choice>
+                                    </rdg>
+                                </app>
+                                
+                                <app loc="f">
+                                    <rdg wit="#ed4v1">
+                                        <choice><corr><hi rend="italics">have,</hi></corr><seg>line end change</seg></choice>
+                                    </rdg>
+                                    <note type="physical">Eds. 1,2 &amp; 3 line ends with "have, and"; 4th ed. line ends with "have," and moves "the" to the next line</note>
+                                </app>
+                            </l>
+                            <l>
+                                <app loc="f">
+                                    <rdg wit="#ed4v1">
+                                        <choice><corr><hi rend="italics">and</hi></corr><seg>line end change</seg></choice>
+                                        </rdg>
+                                </app>
+                                <app loc="p1">
+                                    <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">what have not been adjudged
+                                        Pyracy. </hi></rdg>
+                                </app></l>
+                       
+                
+              
+                    <l n="25"> <app loc="p1">
+                        <lem wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics"> It is possible this Book mayfall into the Hands of some<lb/> Masters
+                                of Ships, and other honest Mariners, who frequent-<lb/> ly, by
+                                contrary Winds or Tempests, or other Accidents inci- <lb/> dent to
+                                long Voyages, find themselves reduced to great Di-<lb/> stresses,
+                                either through Scarcity of Provisions, or Want of </hi></lem></app></l> 
+                <l n="30"> <app loc="p1">
+                    <lem wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">Stores. I
+                                say, it may be a Direction to such as those, what <lb/> Lengths they
+                                may venture to go, without violating the Law <lb/> of Nations, in
+                                Case they should meet other Ships at Sea, or<lb/> be cast on some
+                                inhospitable Shore, which should refuse to<lb/>
+                            trade with them for such Things are absolutely necessary</hi></lem>
+                    </app></l>
+                     
+                <l n="35"><app loc="p1"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                for the Preservation of their Lives, or the Safety of the </hi></rdg>
+                    </app>
+                    
+                    <app loc="G">
+                                    <rdg wit="#ed1">
+                                        <choice><corr><hi rend="italics">Ship</hi></corr><seg>line end change</seg></choice>
+                                        </rdg>
+                                </app></l>
+                            <l><app loc="G">
+                                    <rdg wit="#ed2 #ed3 #ed4v1">
+                                        <choice><corr>Ship</corr><orig>1st ed line begins with "and"</orig></choice>
+                                        </rdg>
+                                </app>
+                                <app loc="p1"><rdg wit ="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">and Cargoe.</hi>
+                                </rdg>
+                                    <note type="physical">line ends with "Ship" in 1 st ed.; In subsequent eds. this line ends with "the" and "ship is added to the next line  </note>
+                                </app></l>
+                        
+                
+                   <l><app loc="p1"> <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                    We have given a few Instances in the Course of this <lb/>
+                        History of the Inducements Men have to engage themselves</hi></rdg></app></l>
+                       
+                <p><hi rend="italics"><lg>
+                    <l><app loc="p1"> <rdg wit="#ed1 #ed2 #ed3 #ed4v1"> A2                  </rdg></app>
+                        <app loc="39"><rdg wit="#ed1"> 
+                            <choice><corr><hi rend="italics">headlong</hi></corr><seg>Eds 2,3 &amp; 4 "head-"</seg></choice>
+                            </rdg>
+                           </app>
+                        <app loc="39"><rdg wit="#ed2 #ed3 #ed4v1">
+                            <choice><corr><hi rend="italics">head-</hi></corr><seg>Ed 1 "headlong"</seg></choice>
+                           
+                        </rdg> <note type="physical"> In 1st ed. is the the catchword "headlong" is spelled out in full,In eds. 2, 3 &amp; 4 it is shortened to "head-"</note></app>
+ 
+                </l></lg></hi></p>
+            </div>
+            <pb ed="#ed1" facs="images/e1Pre2.jpg"/>
+            <pb ed="#ed2" facs="images/e2Pre2.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre2.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre2.jpg"/>
+                   
+            
+            <div type="PrePg2">
+                <head style="center">The PREFACE.</head>
+                <p n="1"><hi rend="italics">
+                    <lg>
+                        <l n="1">
+                            <app loc="p2"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                            headlong in a Life of so much Peril to themselves, and so<lb/> 
+                            destructive to the Navigation of the trading World ; to re- <lb/>
+                            medy which Evil there seems to be but two Ways, either to <lb/>
+                            find Employment for the great Numbers of Seamen turn'd </rdg></app></l>
+                        <l n="5"><app loc="p2"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"> adrift at the Conclusion of a War, and thereby prevent 
+                            </rdg></app></l>
+                        <l><app loc="p2">
+                            <rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                tbeir running into such Undertakings, or to guard  
+                            </rdg></app>
+                            
+                            <app loc="p2L7a"><rdg wit="#ed1">
+                                <choice><corr>suf-</corr><orig></orig></choice>
+                                <note type="physical">l.e.c. in the 1st ed. line 6  ends with "" and line 7 begins with; 
+                                    in the 2nd-4th ed. line 6  ends with and line 7 begins with ""  </note> 
+                            </rdg>
+                        </app>
+                            <app loc="p2L7a">
+                                <rdg wit="#ed2 #ed3 #ed4v1">
+                                    <choice><corr>suffici-</corr><orig>1st ed "suf-"</orig> </choice>
+                                    <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                        in the 1st ed. line end with "" and line   begins with ""  </note>    
+                                </rdg>
+                            </app></l>
+                            <l><app loc="p2L8a">
+                                <rdg wit="#ed1"><choice><corr>fficiently</corr><orig>1st ed "suf-"</orig> </choice></rdg>
+                            </app>
+                            <app loc="p2L8a">
+                                <rdg wit="#ed2 #ed3 #ed4v1">
+                                    <choice><corr>ently</corr><orig>1st ed ""</orig></choice>
+                                    </rdg>  
+                            </app>
+                            
+                        <app loc="p2">
+                            <rdg wit=" #ed1 #ed2  #ed3 #ed4v1"> the Coast of Africa, the Weft-Indies, and other<lb/> 
+                                Places whereto Pyrates resort.
+                            </rdg>
+                        </app>
+                    </l>
+                        </lg></hi>
+                
+                
+                
+                    <lg>
+                        <l>
+                            <app loc="p2">
+                                <rdg wit="  #ed1 #ed3 #ed2  #ed4v1"><hi rend="italics">
+                                    I cannot but take Notice in this Place, that during this</hi></rdg></app></l> 
+                        <l n="10">
+                            <app loc="p2">
+                                <rdg wit="  #ed1 #ed3 #ed2  #ed4v1"><hi rend="italics">long Peacet I have not so much as heard of a</hi> Dutch, 
+                                </rdg>
+                            </app>
+                            <app loc="p2p2L11">
+                                <rdg wit="#ed1"><choice><corr>Pyrate:</corr><orig>1st ed ""</orig></choice>
+                                    <note type="physical">l.e.c. in the 1st ed. line 10  ends with "Pyrate:" and line 11;
+                                        in the 2nd-4th ed. line 10 ends with "" and line 11 begins with ""  </note> 
+                                </rdg> 
+                            </app>
+                            <app loc="p2p2L11">
+                                <rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    <choice><corr>Py-</corr><orig>1st ed "Pyrate:"</orig> </choice></hi>
+                                    <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                        in the 1st ed. line end with "" and line   begins with ""  </note>      
+                                </rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app loc="p2p2L12">
+                                <rdg wit="#ed2 #ed3 #ed4v1"><choice><corr><hi rend="italics">rate:</hi></corr><orig>1st ed "Pyrate: | It" </orig> </choice>
+                                    </rdg>
+                            </app>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed3 #ed2  #ed4v1"><hi rend="italics">It is not that I take them to behonester than their</hi></rdg>
+                            </app>
+                            <app loc="p2p2L14">
+                                <rdg wit="#ed1"><hi rend="italics"><choice><corr>Neigh-</corr><orig>1st ed "Neigh- | bours;"</orig> </choice></hi>
+                                    <note type="physical">l.e.c. in the 1st ed. line 11  ends with "" and line 12 begins with; 
+                                        in the 2nd-4th ed. line 11  ends with and line 12 begins with ""  </note> 
+                                </rdg>
+                            </app>
+                        </l>
+                        <l>
+                           
+                            <app loc="p2p2L14">
+                                <rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    <choice><corr>Neighbours;</corr><orig>1st ed "Neigh- | bours;"</orig> </choice>
+                                    </hi>
+                                    <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                        in the 1st ed. line end with "" and line   begins with ""  </note> 
+                                </rdg>
+                            </app>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed3 #ed2  #ed4v1"><hi rend="italics"> but when we account for it, it will, perhaps,
+                                </hi></rdg></app>
+                            <app loc="p2p2L14b">
+                                <rdg wit=" #ed1"><hi rend="italics"><choice><corr>be a</corr><orig>1st ed "be a" NOT "be | a" </orig> </choice></hi>
+                                    <note type="physical">l.e.c. in the 1st ed. line   ends with "" and line  begins with; 
+                                        in the 2nd-4th ed. line   ends with and line  begins with ""  </note> 
+                                </rdg>
+                            </app>
+                            <app loc="p2p2L14b">
+                                <rdg wit=" #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    <choice><corr>be</corr><orig>1st ed "be a" NOT "be | a" </orig> </choice>
+                                    </hi>
+                                    <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                        in the 1st ed. line end with "" and line   begins with ""  </note> 
+                                </rdg>
+                            </app>
+                           
+                            </l>
+                        <l>
+                            <app loc="p2p2L14b">
+                                <rdg wit=" #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    <choice><corr>a</corr><orig>Reproach</orig> </choice>
+                                    </hi></rdg>
+                            </app>
+                            <app loc="p2">
+                                <rdg wit="  #ed1 #ed3 #ed2  #ed4v1"><hi rend="italics">
+                                    Reproach to our selves for our want of Industry : The Rea-<lb/> 
+                                    son take to be, that after a War, when the Dutch Ships</hi></rdg></app></l>
+                        <l n="15"><app loc="p2">
+                            <rdg wit="  #ed1 #ed3 #ed2  #ed4v1"><hi rend="italics">
+                                    are laid tip, they have a Fishery, where their Seamen find<lb/> 
+                                    immediate Business, and as comfortable Bread as they had <lb/>
+                                    before. Had ours the same Recourse in their Necessities,
+                                </hi></rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app loc="p2p2L19">
+                                <rdg wit="#ed1 #ed2 #ed3"><hi rend="italics">
+                                        <choice><corr>I m</corr><orig>Eds. 1,2 &amp; 3 "I m"</orig> </choice>
+                                </hi></rdg></app>
+                                    <app loc="p2p2L19"><rdg wit=" #ed4v1">
+                                        <hi rend="italics">
+                                    <choice><corr>I am</corr><orig>Eds. 1,2 &amp; 3 "I m"</orig> </choice>
+                                    </hi></rdg>
+                            </app>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    certain we should find the same Effect from it; for a <lb/>
+                                    Fishery is a Trade that cannot be overstock’d ; the Sea is</hi></rdg></app></l> 
+                        <l n="20"><app loc="p2">
+                            <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    wide enough for us all, we need not quarrel for Elbow-room :<lb/> 
+                                    Its Stores are infinite, and will ever </hi></rdg></app>
+                                    <app loc="p2p2L19">
+                                        <rdg wit="#ed1"><hi rend="italics">
+                                            <choice><corr>Reward</corr><orig>1st ed capitalized Reward"</orig> </choice>
+                                        </hi>
+                                        <note type="gloss"></note></rdg>
+                                    </app>
+                                    <app loc="p2p2L19">
+                                        <rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                                            <choice><corr>reward</corr><orig>1st ed capitalized "<hi rend="bold">R</hi>eward"</orig> </choice>
+                                            <note type="gloss"></note>
+                                        </hi></rdg>
+                                    </app>
+                           <app loc="p2">
+                               <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">the Labourer.</hi></rdg>     
+                            </app>
+                        </l>
+                        <l>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    Besides, our own Coast, for the most Part, supply the</hi> Dutch,<lb/> 
+                                    <hi rend="italics">who employ several hundred Sail constantly in the Trade,<lb/>
+                                    and so sell to us our own Fish. I call it our own, for the </hi></rdg></app>
+                                    
+                            <app loc="p2p2L25"><rdg wit="#ed1"><hi rend="italics">
+                                <choice><corr>Sove-</corr><orig>1st ed capitalized "<hi rend="bold">R</hi>eward"</orig> </choice></hi>
+                                <note type="physical">l.e.c. in the 1st ed. line   ends with "" and line  begins with; 
+                                in the 2nd-4th ed. line   ends with and line  begins with ""  </note></rdg></app>
+                                    </l>
+                    <l n="25">
+                        <app loc="p2p2L25"><rdg wit="#ed1"><hi rend="italics"><choice><corr>reignity</corr><orig>1st ed capitalized "<hi rend="bold">R</hi>eward"</orig> </choice>
+                        </hi>
+                            
+                        </rdg></app>
+                        <app loc="p2p2L25"><rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                            <choice><corr>Sovereignty</corr><orig>1st ed "Sove- | reignty"</orig></choice></hi>
+                            <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                in the 1st ed. line end with "" and line   begins with ""  </note> 
+                        </rdg></app>
+                        <app loc="p2"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">of the British Seas, are to this Day 
+                        </hi></rdg>
+                        </app>
+                        <app loc="p2p2L26"><rdg wit="#ed1"><hi rend="italics"><choice><corr>acknowledged</corr><orig>1st ed. "acknowledged"</orig> </choice></hi>
+                            <note type="physical">l.e.c. in the 1st ed. line   ends with "" and line  begins with; 
+                                in the 2nd-4th ed. line   ends with and line  begins with ""  </note>
+                        </rdg></app>
+                        <app loc="p2p2L26"><rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                            <choice><corr>acknowledg-</corr><orig>1st ed. "acknowledged"</orig> </choice>
+                            </hi>
+                            <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                in the 1st ed. line end with "" and line   begins with ""  </note> 
+                        </rdg></app>
+                        </l>
+                        <l>
+                            <app loc="p2p2L26"><rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics"><choice><corr>ed</corr><orig>us</orig></choice></hi></rdg></app>
+                            <app loc="p2"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                us by the</hi> Dutch, <hi rend="italics">and all the neighbouring Nations;</hi>
+                            </rdg>
+                            </app>
+                            <app loc="p2p2L28a"><rdg wit="#ed1"><hi rend="italics">
+                                <choice><corr> where-</corr><orig>is | but</orig> </choice></hi>
+                                <note type="physical">l.e.c. in the 1st ed. line   ends with "" and line  begins with; 
+                                    in the 2nd-4th ed. line   ends with and line  begins with ""  </note>
+                            </rdg></app>                           
+                        </l>
+                        <l>
+                            <app loc="p2p2L28a"><rdg wit="#ed1"><hi rend="italics">
+                                <choice><corr>fore</corr><orig>is | but</orig> </choice></hi></rdg></app>
+                            <app loc="p2p2L28a"><rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                                <choice><corr>wherefore</corr><orig>1st ed. line end is different "where- | fore"</orig> </choice>
+                                </hi>
+                                <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                    in the 1st ed. line end with "" and line   begins with ""  </note> 
+                            </rdg></app>
+                            <app loc="p2"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">if there was a publick Spirit</hi></rdg></app>
+                            <app loc="p2p2L28b"><rdg wit="#ed1"><hi rend="italics">
+                                <choice><corr> amongst</corr><orig>is | but</orig> </choice>
+                                </hi>
+                                <note type="gloss"></note>
+                            </rdg></app>
+                            <app loc="p2p2L28b"><rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                                <choice><corr> among</corr><orig>1st ed. line spelling different "amongst"</orig> </choice>
+                                </hi>
+                                <note type="gloss"></note>
+                            </rdg></app>
+                            <app loc="p2"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">us, it would</rdg></app>
+                            <app loc="p2p2L29"><rdg wit="#ed1"><hi rend="italics">
+                                <choice><corr> be</corr><orig>is | but</orig> </choice></hi>
+                                <note type="physical">l.e.c. in the 1st ed. line   ends with "" and line  begins with; 
+                                    in the 2nd-4th ed. line   ends with and line  begins with ""  </note>
+                            </rdg></app>
+                        </l>
+                        <l>
+                            <app loc="p2p2L29"><rdg wit="#ed2 #ed3 #ed4v1"><hi rend="italics">
+                                <choice><corr> be</corr><orig>1st ed. line end is different "be | Reproach"</orig> </choice>
+                               </hi>
+                                <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                    in the 1st ed. line end with "" and line   begins with ""  </note> 
+                            </rdg></app>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                                    well worth our while to establish a National Fishery, which<lb/> 
+                                    Would be the best Means in the World to prevent Pyracy,</hi></rdg></app></l> 
+                        <l n="30"><app loc="p2">
+                            <rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">employ a Number of the Poor, and ease the Nation of a<lb/> 
+                                    great Burthen, by lowering the Price of Provision in general,<lb/>  
+                                    as well as of several other Commodities.
+                                    </hi></rdg>
+                            </app>  
+                        </l></lg>
+              
+                
+                <hi rend="italics">
+                    <lg>
+                        <l>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                    I need not bring any Proofs of what I advance, viz. that<lb/> 
+                                    there are Multitudes of Seamen at this Day unemploy'd; 
+                                </rdg>
+                            </app>
+                            <app loc="p2p3L35"><rdg wit="#ed1">
+                                <choice><corr>it is</corr><orig>is | but</orig> </choice>
+                                <note type="physical">l.e.c. in the 1st ed. line   ends with "" and line  begins with; 
+                                    in the 2nd-4th ed. line   ends with and line  begins with ""  </note>
+                            </rdg></app>
+                            <app loc="p2p3L35"><rdg wit="#ed2 #ed3 #ed4v1">
+                                <choice><corr>it</corr><orig>is | but</orig> </choice>
+                                <note type="physical">l.e.c. in the 2nd-4th ed. line ends with and line begins with ""; 
+                                    in the 1st ed. line end with "" and line   begins with ""  </note> 
+                            </rdg></app>
+                            
+                       </l>
+                        <l n="35">
+                            <app loc="p2"><rdg wit="#ed2 #ed3 #ed4v1">
+                                <choice><corr>is</corr><orig>is | but</orig> </choice>
+                                </rdg></app>
+                            <app loc="p2">
+                                <rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                    but too evident by their straggling, and begging all over the<lb/> 
+                                    Kingdom. Nor is it so much their Inclination to Idleness, as<lb/> 
+                                    their own hard Fate, in being cast off after their Work is<lb/> 
+                                    done, to starve or steal. I have not known a Man of<lb/> 
+                                    War</rdg></app>      
+                        </l>
+                   </lg></hi>
+                </p>             
+            </div>
+            <pb ed="#ed1" facs="images/e1Pre3.jpg"/>
+            <pb ed="#ed2" facs="images/e2Pre3.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre3.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre3.jpg"/>
+            
+            <div type="PrePg3">
+                <head style="center">The PREFACE.</head>
+                <p n="P3p1"><hi rend="italics">
+                    <lg>
+                        <l n="1">
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                War commission’d for several Years past, but three times</rdg></app>
+                            <app loc="p3"><rdg wit="#ed1">
+                                <note type="physical">line end change - 1st ed. ends with "times"; subsequent eds. add the word "her" to this line word and end with "her".</note>
+                            </rdg></app>
+                            <app loc="p3p1L1a"><rdg wit="#ed2 #ed3 #ed4v1"> <choice><corr> her</corr><orig></orig> </choice>
+                                <note type="physical">line end change - 1st ed. ends with "times"; subsequent eds. add the word "her" to this line word and end with "her".</note>
+                            </rdg></app>
+                            
+                        </l>
+                        <l><app loc="p3p1L1a"><rdg wit="#ed1"><choice><corr>her </corr><orig></orig> </choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                Compliment of Men have offer'd themselves in</rdg></app>
+                            <app loc="p3p1L2a"><rdg wit="#ed1"><choice><orig> twenty</orig> <corr></corr></choice>
+                                <note type="physical">line end change - in 1st ed. line end with "twenty"; subsequent eds. it ends with "Hours;"</note> 
+                            </rdg></app>
+                            <app loc="p3p1L2a"><rdg wit="#ed2 #ed3 #ed4v1"><choice><corr> 24
+                                <note type="gloss">in 1st ed. "twenty four" is spelled out; in all subsequent eds. it is the number "24"</note>   Hours;</corr><orig></orig> </choice>
+                                
+                               <note type="physical">line end change - in 1st ed. line end with "twenty"; subsequent eds. it ends with "Hours;"</note> 
+                        </rdg></app></l>
+                        <l>
+                            <app loc="p3p1L2a"><rdg wit="#ed1"><choice><orig>four 
+                                <note type="gloss">in 1st ed. "twenty four" is spelled out; in all subsequent eds. it is the number "24"</note>
+                                Hours;</orig> <corr></corr></choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                the Merchants take their Advantage of this,</rdg></app>
+                            <app loc="p3p1L3a"><rdg wit="#ed2 #ed3 #ed4v1"><choice><corr>lessen of their</corr><orig></orig> </choice>
+                                <note type="physical">line end changes - 1st ed ends with "this"; subsequent eds. have added 3 more words and the line ends with "lessen of their".</note></rdg></app>
+                            
+                        </l>
+                        <l>
+                            <app loc="p3p1L3a"><rdg wit="#ed1"><choice><orig>lessen of their </orig><corr></corr> </choice>
+                                <note type="physical">line end changes - 1st ed ends with "this"; 
+                                    subsequent eds. have added 3 more words and the line ends with "lessen of their".</note>
+                            </rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                Wages, and those few who are in Business</rdg></app>
+                            <app loc="p3p1L4a"><rdg wit="#ed2 #ed3 #ed4v1"> <choice><corr> are poorly paid</corr><orig></orig> </choice>
+                                <note type="physical">line end change - in 1st ed. ends with "are" ; in subsequent eds. it end with  "are poorly paid" - adding 2 more word to the line</note> 
+                        </rdg></app>
+                        </l>
+                        <l n="5">
+                            <app loc="p3p1L4a"><rdg wit="#ed1"><choice><orig>are poorly paid </orig><corr></corr> </choice>
+                                <note type="physical">line end change - in 1st ed. ends with "are"; 
+                                    in subsequent eds. it end with  "are poorly paid" - adding 2 more word to the line</note></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                and but poorly fed ; such Usage breeds</rdg></app>
+                            <app loc="p3p1L5a"><rdg wit="#ed1"> <choice><orig> Dis-</orig><corr></corr> </choice>
+                                <note type="physical">line end change - in 1st ed. ends with "Dis-" ; in subsequent eds. it end with "Discontents amongst"</note></rdg></app>
+                            <app loc="p3p1L5a"><rdg wit="#ed2 #ed3 #ed4v1">
+                                <choice><corr>Discontents amongst  </corr><orig></orig> </choice> 
+                                <note type="physical">line end change - in 1st ed. ends with "Dis-" ; in subsequent eds. it end with "Discontents amongst"</note>
+                            </rdg></app>
+                    </l>
+                        <l>
+                            <app loc="p3p1L5a"><rdg wit="#ed1"> <choice><orig>contents amongst </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                them, and makes them eager for any Change.
+                            </rdg></app>
+                        </l>
+                    </lg></hi>
+                <hi rend="italics">
+                    <lg>
+                        <l>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                I shall not repeat what I have said in the History con-<lb/>
+                                erning the Privateers of the West-Indies, where I have</rdg></app></l> 
+                               
+                               <l> <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                  
+                               taken Notice they live upon Spoil ; and as Custom is a
+                           </rdg></app>
+                                   <app loc="p3p2L9"><rdg wit="#ed1 #ed2 #ed3"><choice><orig> second</orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3p2L9"><rdg wit=" #ed4v1">
+                                <choice><orig> se-</orig><corr></corr> </choice>
+                                <note type="physical">line end change - Eds. 1, 2 &amp; 3 line ends with "second" |. ; in 4th  ed (Vol.I) it ends with "se-"</note>
+                            </rdg></app>
+                        </l>
+                        <l n="10">
+                            <app loc="p3p2L9"><rdg wit=" #ed4v1">
+                                <choice><corr>cond </corr><orig></orig> </choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                Nature, it is no Wonder that, when an honest </rdg></app>
+                            <app loc="p3p2L10a"><rdg wit="#ed1 #ed2 #ed3"><choice><orig> Livlyhood
+                                <note type="gloss">line end change - Eds. 1, 2 &amp; 3 line ends with "Livlyhood is"; ed. 4(Vol.I) it end with "Liveli-"; 
+                                spelling is also changed from Livlyhood to Livelihood</note> is</orig> <corr></corr></choice>
+                                <note type="physical">line end change - Eds. 1, 2 &amp; 3 line ends with "Livlyhood is"; ed. 4(Vol.I) it end with "Liveli-"; 
+                                    spelling is also changed from Livlyhood to Livelihood</note>
+                            </rdg></app>
+                            <app loc="p3p2L10a"><rdg wit=" #ed4v1"><choice><orig> Liveli-</orig> <corr></corr></choice>
+                                <note type="gloss">line end change - Eds. 1, 2 &amp; 3 line ends with "Livlyhood is"; ed. 4(Vol.I) it end with "Liveli-"; 
+                                spelling is also changed from Livlyhood to Livelihood</note>
+                            </rdg></app>
+                        </l>
+                        <l>
+                            <app loc="p3p2L10a"><rdg wit=" #ed4v1"><choice><orig>hood is </orig> <corr></corr></choice>
+                                <note type="physical">line end change - Eds. 1, 2 &amp; 3 line ends with "Livlyhood is"; ed. 4(Vol.I) it end with "Liveli-"; 
+                                    spelling is also changed from Livlyhood to Livelihood</note>
+                            </rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                not easily had, they run into one so like their own ;
+                                    <note type="physical">line end change - Eds. 1, 2 &amp; 3 line ends with " their own; so that"; ed.4(Vol.I) line end with "their own" </note></rdg></app>
+                            <app loc="p3p2L11a"><rdg wit="#ed1 #ed2 #ed3">  <choice><orig> so that</orig> <corr></corr></choice>
+                                
+                            </rdg></app>
+                        </l>
+                        <l>
+                            <app loc="p3p2L11a"><rdg wit=" #ed4v1"><choice><orig>so that </orig> <corr></corr></choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">it may be said, that Privateers in Time of War</rdg></app>
+                            <app loc="p3p2L12a"><rdg wit="#ed1 #ed2 #ed3"> <choice><orig> are a Nur-</orig> <corr></corr></choice> 
+                                <note type="physical">line end change - Eds 1, 2 &amp; 3: "War are a Nur-" ; ed 4(Vol.I) "War"</note>
+                            </rdg></app>
+                            <app loc="p3p2L12a"><rdg wit=" #ed4v1"> War
+                                <note type="physical">line end change - Eds 1, 2 &amp; 3: "War are a Nur-" ; ed 4(Vol.I) "War"</note>
+                            </rdg></app>
+                        </l>
+                        <l>
+                            <app loc="p3p2L12a"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>sery </orig> <corr></corr></choice> </rdg></app>
+                            <app loc="p3p2L12a"><rdg wit=" #ed4v1"><choice><orig>are a Nursery </orig> <corr></corr></choice> </rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">for Pyrates against a Peace.</rdg></app>
+                        </l>
+                    </lg></hi>
+                <hi rend="italics">
+                    <lg><l>
+                    <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                        Now we have accounted for their Rise and Beginning, it</rdg></app></l> 
+                        <l n="15">
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">will be natural to enquire why they are not taken and de-<lb/>
+                        stroy'd, before they come to any Head, seeing that they are</rdg></app></l>
+                        
+                        <l><app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                        seldom less than twelve Men of War</rdg></app>
+                            <app loc="p3p2L17a"><rdg wit=" #ed1"><choice><corr> station'd </corr><orig></orig> </choice>
+                                <note type="gloss">spelling is changed - 1st ed "station'd"; Eds. 2, 3 &amp; 4(Vol.I) "stationed" </note>
+                            </rdg></app>
+                            <app loc="p3p2L17a"><rdg wit=" #ed2 #ed3 #ed4v1"><choice><corr> stationed </corr><orig></orig> </choice>
+                            <note type="gloss">spelling is changed - 1st ed "station'd"; Eds. 2, 3 &amp; 4(Vol.I) "stationed" </note>
+                        </rdg></app>
+                        <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">in our Ame-</rdg></app></l>
+                    <l>
+                        <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                            rican Plantations, even in Time of Peace ; a Force suff–<lb/> 
+                            cient to contend with a powerful Enemy. This Enquiry,</rdg></app></l> 
+                    <l n="20">
+                         <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                             perhaps, will not turn much to the Honour of those concern'd<lb/> 
+                            in that Service however, I hope I may be excus'd, if what<lb/> 
+                            I hint is with a Design of serving the Publick.</rdg></app>
+                    </l>
+                    </lg></hi>
+                <hi rend="italics">
+                    <lg><l>
+                        <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                        I say, ‘tis strange that d few Pyrates should ravage the<lb/>
+                        Seas for Years, without ever being light upon, by any of</rdg></app>
+                       <app loc="p3p4L24"><rdg wit=" #ed1"></rdg></app>
+                            <app loc="p3p4L24"><rdg wit=" #ed2 #ed3 #ed4v1"> <choice><corr> our</corr><orig></orig> </choice>
+                            <note type="physical">line end change - in 1st ed. "any of" | ; in subsequent eds. "any of our"</note>
+                        </rdg></app></l> 
+                    
+                        <l n="25">
+                            <app loc="p3p4L24"><rdg wit=" #ed1"> <choice><orig>our </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                Ships of War; when in the mean Time, they (the </rdg></app>
+                            <app loc="p3p4L25a"><rdg wit="#ed1"><choice><orig> Py-</orig><corr></corr> </choice> </rdg></app>
+                            <app loc="p3p4L25a"><rdg wit=" #ed2 #ed3"><choice><corr> Pyrates) shall</corr><orig></orig> </choice>
+                                <note type="physical">line end change - ed.1 "(the Py-" ; eds. 2 &amp; 3 "(the Pyrates) shall"; ed.4(Vol.1) "(the Pyrates) </note>
+                            </rdg></app>
+                            <app loc="p3p4L25a"><rdg wit="#ed4v1"> <choice><corr> Pyrates)</corr><orig></orig> </choice>
+                                <note type="physical">line end change - ed.1 "(the Py-" ; eds. 2 &amp; 3 "(the Pyrates) shall"; ed.4(Vol.1) "(the Pyrates) </note>
+ </rdg></app>
+                         
+                   </l>
+                        
+                        <l>
+                            <app loc="p3p4L25a"><rdg wit=" #ed4v1"><choice><corr>shall </corr><orig></orig> </choice></rdg></app>
+                            <app loc="p3p4L25a"><rdg wit="#ed1"> <choice><orig>rates) </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3p4L25a"><rdg wit="#ed1">  <choice><orig>shall </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                take Fleets of Ships ; it looks as if one was much</rdg></app>
+                            <app loc="p3p4L26b"><rdg wit="#ed2 #ed3"> <choice><orig> more </orig><corr></corr></choice></rdg></app>
+                            <app loc="p3p4L26b"><rdg wit="#ed2 #ed3"> <choice><corr>dili-</corr><orig></orig> </choice> 
+                                <note type="physical">line end change - ed.1 "much"; eds. 2 &amp; 3 "much more dili-"; ed.4(Vol.1) "much more" </note>
+                            </rdg></app>
+                            <app loc="p3p4L26b"><rdg wit=" #ed4v1"> <choice><corr> more </corr><orig></orig> </choice>
+                                <note type="physical">line end change - ed.1 "much"; eds. 2 &amp; 3 "much more dili-"; ed.4(Vol.1) "much more" </note></rdg></app>
+                        </l>
+                        <l>
+                            <app loc="p3p4L26b"><rdg wit="#ed1"> <choice><orig>more </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3p4L26b"><rdg wit="#ed1"> <choice><orig>diligent </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3p4L26b"><rdg wit="#ed2 #ed3"><choice><corr>gent </corr><orig></orig> </choice></rdg></app>
+                            <app loc="p3p4L26b"><rdg wit=" #ed4v1"><choice><corr>diligent </corr><orig></orig> </choice></rdg></app>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                in their Affairs, than the other. Roberts</rdg></app>
+                            <app loc="p3p4L27a"><rdg wit="#ed2 #ed3"><choice><corr>  and his Crew</corr><orig></orig> </choice>
+                                <note type="physical">line end change - ed.1 "Roberts"; eds.2 &amp; 3 "Roberts and his Crew"; ed.4(Vol.1) "Roberts and his" </note></rdg></app>
+                            <app loc="p3p4L27a"><rdg wit="#ed4v1"><choice><corr>  and his</corr><orig></orig> </choice>
+                                <note type="physical">line end change - ed.1 "Roberts"; eds.2 &amp; 3 "Roberts and his Crew"; ed.4(Vol.1) "Roberts and his" </note>
+                            </rdg></app>
+                            
+                                
+                        </l>
+                        <l>
+                            <app loc="p3p4L27a"><rdg wit="#ed1"> <choice><orig>and his Crew </orig><corr></corr> </choice></rdg></app>
+                            <app loc="p3p4L27a"><rdg wit=" #ed4v1"><choice><corr>Crew </corr><orig></orig> </choice></rdg></app>
+                                <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                    alone, took 400 Sail, before he was desray'd.
+                                </rdg></app>
+                         </l>
+                    </lg></hi>
+               <hi rend="italics">
+                    <lg>
+                        <l>
+                            <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                This Matter, I may probably set right another Time,</rdg></app></l>
+                        <l n="30"> <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                and only observe for the present, that the Pyrates at Sea,<lb/> 
+                                have the same Sagacity with Robbers at Land; as the latter <lb/>
+                                understand what Roads are are most frequented, and where it is <lb/>
+                                most  likely to meet with Booty, so the former know what<lb/> 
+                                Latitude to lie in, in order to intercept Ships; and as the </rdg></app></l>
+                            <l n="35"> <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">Pyrates happen to be in want of Provisions, Stores, or any<lb/> 
+                                particular Lading, they cruise accordingly for such Ships,</rdg></app></l>
+                                <l><app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                and are </rdg></app>
+                                    <app loc="p3p5L37a"><rdg wit="#ed1"><choice><orig>moraly </orig><corr></corr> </choice>
+                                        <note type="gloss">spelling change - ed.1 "moraly"; all subsequent eds. "morally"</note></rdg></app>
+                                    
+                                <app loc="p3p5L37a"><rdg wit="#ed2 #ed3 #ed4v1"><choice><corr>morally </corr><orig></orig> </choice>
+                                    <note type="gloss">spelling change - ed.1 "moraly"; all subsequent eds. "morally"</note>
+                                </rdg></app>
+                                <app loc="p3"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                                    certain of meeting with them ; and by the<lb/> 
+                                    same Reason, if the Men of War cruise in those Latitudes,<lb/>
+                                    A 3	                                they</rdg></app>
+                           
+                        </l>
+                    </lg></hi>
+                </p>  
+            </div>
+            
+            <pb ed="#ed1" facs="images/e1Pre4.jpg"/>
+            <pb ed="#ed2" facs="images/e2Pre4.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre4.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre4.jpg"/>
+            
+            <div type="PrePg4"><head style="center">The PREFACE.</head>
+                
+                <l n="1"><hi rend="italics"><app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">they</rdg></app> 
+                       <app loc="p4p1L1"><rdg wit="#ed1"><choice><orig> are</orig><corr>words change - subsquent eds. "might be"</corr></choice>
+                           <note type="gloss">w.c. - in the 1st ed.; in the 2nd, 3rd &amp; 4th eds. 
+                                
+                           </note>
+                       </rdg>
+                        <rdg wit="#ed2 #ed3 #ed4v1"><choice><orig> might be</orig><corr>word change - ed.1 "are"</corr></choice>
+                            <note type="gloss">w.c. - in the 2nd, 3rd &amp; 4th eds.  ; 
+                                in the 1st ed.  
+                            </note>
+                        </rdg></app> 
+                       
+                       <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                           as sure of finding the Pyrates, as the
+                       </rdg></app>
+                       
+                       <app loc="p4p1LA">
+                                <rdg wit="#ed1"><choice><orig> Pyrates are</orig><corr>line end change -  all subsquent eds. "Pyrates | are "</corr></choice>
+                                    <note type="physical">l.e.c. - in the 1st ed. line - ends with ""; 
+                                        in the 2nd-4th eds. line - ends with "", and "" is on line - " </note>
+                                </rdg>
+                                <rdg wit="#ed2 #ed3 #ed4v1"><choice><orig> Pyrates</orig><corr>line end change - ed.1"Pyrates are |"</corr></choice>
+                                    <note type="physical">l.e.c. - in the 2nd, 3rd &amp; 4th eds. line 1 ends with "Pyrates", and "are" begins line 2 ; 
+                                        in the 1st ed. line 1 ends with "Pyrates are"; 
+                                    </note>
+                                </rdg><lb/>
+                                <rdg wit="#ed2 #ed3 #ed4v1"><choice><orig>are</orig><corr>line beginning changed - ed.1 "to" ; all subsquent eds. "are "</corr></choice>
+                                </rdg></app> 
+                       <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                       to find the Merchant Ships ; and if the Pyrates are 
+                       </rdg></app>
+                    <app loc="p4p1L2"><rdg wit=" #ed1 #ed2 #ed3 "><choice><orig> not to </orig><corr>line end change - ed.4(Vol.1) "not | to" </corr></choice>
+                        <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                            in the 4th eds. line - ends with "", and "" is on line - " </note></rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>not</orig><corr>line end change - ed.1, 2 &amp; 3 "not to"</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 2 ends with "", and "" begins line 3; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                            </note>
+                        </rdg><lb/>
+                        
+                        <rdg wit=" #ed4v1"><choice><orig>to</orig><corr>line beginning change - ed.1, 2 &amp; 3 "be" </corr></choice></rdg></app>
+                       <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                       be met with by the Men of War in such a </rdg></app>
+                    <app loc="p4p1L3"><rdg wit=" #ed1 #ed2 #ed3 "><choice><orig>Latitude, then </orig><corr>line end change - ed.4(Vol.1)"Latitude, | then"</corr></choice>
+                        <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                            in the 4th eds. line - ends with "", and "" is on line - " </note>
+                    </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig> Latitude,</orig><corr>line end change - ed.1, 2 &amp; 3"Latitude, then"</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 3 ends with "", and "" begins line 4; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                            </note>
+                        </rdg><lb/>
+     
+                        <rdg wit=" #ed4v1"><choice><orig>then </orig><corr>line beginning changes - ed.1, 2 &amp; 3"surely"</corr></choice>
+                        </rdg></app><app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                       surely down the same Latitude may the Merchant Ships </rdg></app> 
+                    <app loc="p4p1L4"><rdg wit=" #ed2 #ed3"><choice><orig>ar-</orig><corr>line end change - ed.1, 3 &amp; 4(Vol.1) "Ships | arrive"</corr></choice>
+                        <note type="physical">l.e.c. - in the 2nd  &amp; 3rd eds. line - ends with ""; 
+                            in the 1st &amp; 4th eds. line - ends with "", and "" is on line - " </note>
+                    </rdg></app></hi></l> 
+                <l n="5"><hi rend="italics"><app loc="p4p1L4"><rdg wit=" #ed1  #ed4v1"><hi rend="italics"><choice><orig>arrive</orig><corr>line end &amp; beginning change - ed.2"ar- | rrive "</corr></choice>
+                </hi>
+                    <note type="physical">l.e.c. - in the 1st and 4th eds.  line - ends with ""; 
+                        in the 2nd &amp; 3rd eds. line - ends with "", and "" is on line - " </note>
+                </rdg></app>
+                           <app loc="p4p1L4"><rdg wit=" #ed2"><hi rend="italics"><choice><orig>rive</orig><corr>line beginning changes - ed.1, 3 &amp; 4(Vol.1)  "arrive"</corr></choice></hi></rdg></app>
+                           <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">safely to their Port.</rdg></app>
+                <lb/>
+                    <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">To make this a little plainer to my Country Readers,<lb/>
+                    I must observe that all our outward bound Ships,
+                    </rdg></app>
+                    <app loc="p4p2L8"><rdg wit=" #ed1 #ed2 #ed3 "><choice><orig>sometime</orig><corr>line end changes - 4(Vol.1)"some- | time"</corr></choice>
+                        <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                            in the 4th eds. line - ends with "", and "" is on line - " </note>
+                    </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>some-</orig><corr>line end changes - ed.1, 2 &amp; 3 "sometime |" </corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 7 ends with "", and "" begins line 8 ; 
+                                in the 1st-3rd eds. line 7 ends with ""; 
+                            </note>
+                        </rdg><lb/>  
+                        <rdg wit=" #ed4v1"><choice><orig>time</orig><corr>line beginning changes - ed.1, 2 &amp; 3 "after "</corr></choice></rdg></app>
+                    <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                        after they leave the l.and, steer into the Latitude of<lb/> 
+                       the Place they are bound to ; if to the West-India Islands,</rdg></app></hi></l> 
+                <l n="10"><hi rend="italics"><app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                         or any Part of the Main of America, as New-York,<lb/> 
+                        New-England, Virginia, &amp;c. because the Latitude is<lb/> 
+                        the only Certainty in those Voyages to be found, and then<lb/> 
+                        they sail due West, till they come to their Port, without<lb/> 
+                        altering their Course. In this West  Way lie the Pyrates,</rdg></app></hi></l> 
+                    
+                <l n="15"><hi rend="italics"><app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                    whether it he to Virginia, &amp;c. or Nevis,  St. Christo-<lb/>
+                    phers, Montserat, Jamaica, &amp;c. so that if the Mer-<lb/>
+                    chant Ships hound thither, do not fall a Prey to them one<lb/> 
+                    Day,they mult another: Therefore I say, if the Men </rdg></app> 
+                    <app loc="p4p2L19">
+                        <rdg wit=" #ed1 #ed2 #ed3 "><choice><orig>of War</orig><corr>line end changes - ed.4(Vol.1) "Men of | War "</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>of</orig><corr>line end changes - eds.1, 2 &amp; 3"Men of War |" </corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 18 ends with "", and "" begins line 19 ; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                            </note>
+                        </rdg>
+                        <lb/> 
+                        <rdg wit=" #ed4v1"><choice><orig> War </orig><corr>line beginning changes - eds.1, 2 &amp; 3 "take"</corr></choice>
+                        
+                        </rdg></app>
+                   <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">take the same Track, the Pyrates must unavoidably </rdg></app> 
+                    <app loc="p4p2L20">
+                        <rdg wit=" #ed1 #ed2 #ed3 "><choice><orig>fall into</orig><corr>line end changes -  ed.4(Vol.1) "fall | into "</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>fall </orig><corr>line end changes - eds.1, 2 &amp; 3"fall into |" </corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 19 ends with "", and "" begins line 20 ; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                            </note>
+                        </rdg></app></hi>
+                </l> 
+                    
+                <l n="20"><hi rend="italics"><app loc="p4p2L20"><rdg wit=" #ed4v1"><choice><orig>into </orig><corr>line beginning changes - eds.1, 2 &amp; 3 "their"</corr></choice></rdg></app>
+                   <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">
+                       their Mouths, or he frighted away, for where the
+                   </rdg></app>
+                    <app loc="p4p2L21">
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig> Game is,</orig><corr>line end changes - ed.4(Vol.1) "Game | is"</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig> Game </orig><corr>line end change - eds.1, 2 &amp; 3 Game is | " "</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 20 ends with "", and "" begins line 21 ; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                            </note>
+                        </rdg><lb/>  
+                        <rdg wit=" #ed4v1"><choice><orig>is </orig><corr>line end change - eds.1, 2 &amp; 3 "there"</corr></choice></rdg></app>
+                   <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">there  will the Vermin be ; if the latter should be </rdg></app> 
+                    
+                   <app loc="p4p2L22">
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig>the Case,</orig><corr>line end changes - ed.4(Vol.1) "the | Case"</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>the </orig><corr>line end changes - eds.1, 2 &amp; 3 ""the Case, | "</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 21 ends with "", and "" is on line 22 ; 
+                                in the 1st-3rd eds. line 21 ends with ""; 
+                            </note>
+                        </rdg><lb/> 
+                        <rdg wit=" #ed4v1"><choice><orig>Case</orig><corr>line beginning changes - eds.1, 2 &amp; 3 "the "</corr></choice></rdg></app> 
+                   
+                   <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">the trading Ships, as I said before, will pass </rdg></app> 
+                   
+                   <app loc="p4p2L23">
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig>unmolested  and</orig><corr>line end changes - ed.4(Vol.1) "unmo- | lested</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>unmo-</orig><corr>line end changes - eds.1, 2 &amp; 3 "unmolested  and"</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 22 ends with "", and "" is on line 23 ; 
+                                in the 1st-3rd eds. line 22 ends with ""; 
+                            </note>
+                        </rdg><lb/> 
+                        <rdg wit=" #ed4v1"><choice><orig>lested and </orig><corr>line beginning changes - eds.1, 2 &amp; 3 "safe"</corr></choice></rdg></app>
+                   <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">safe, and the Pyrates be reduced to take </rdg></app> 
+                    <app loc="p4p2L24">
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig>Refuge in some of</orig><corr>line end changes - ed.4(Vol.1) "Refugee | in some of"</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>Refuge</orig><corr>line end change - eds.1, 2 &amp; 3 "Refuge in some of |"</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line 23 ends with "", and "" is on line 24 ; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                            </note>
+                        </rdg><lb/>  
+                        <rdg wit=" #ed4v1"><choice><orig>in some of </orig><corr>line beginning changes - eds.1, 2 &amp; 3 "their"</corr></choice></rdg></app>
+                   <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">their lurking Holes about the uninhabited </rdg></app> 
+                    <app loc="p4p2L25">
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig>Islands, where</orig><corr>line end changes - ed.4(Vol.1) "Islands, | where"</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st-3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>Islands,</orig><corr>line end change - eds.1, 2 &amp; 3 "Islands, where | "</corr></choice>
+                            <note type="physical">l.e.c. - in the 4th eds. line - ends with "", and "" is on line - ; 
+                                in the 1st-3rd eds. line - ends with ""; 
+                                </note>
+                      
+                        </rdg></app></hi></l> 
+                       
+                <l n="25"><hi rend="italics">
+                        <app loc="p4p2L25">
+                            <rdg wit=" #ed4v1"><choice><orig> where </orig><corr>line beginning changes - eds.1, 2 &amp; 3 "their"</corr></choice></rdg></app>
+                        <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">their Fate would be like that of the Fox in his </rdg></app> 
+                    <app loc="p4p2L261">
+                        <rdg wit=" #ed1"><choice><orig>Den, if</orig><corr>line end changes - eds.2 &amp; 3 "Den, if they | "; ed.4(Vol.1) "Den, |  "</corr></choice>
+                            <note type="physical">l.e.c. - in the 1st ed. in the 2nd &amp; 3rd eds. line - ends with "", and "" is on line -; 
+                                in the 2nd &amp; 3rd eds. line - ends with ""; 
+                                in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg> 
+                        <rdg wit="#ed2 #ed3"><choice><orig>Den, if they</orig><corr>line end changes - ed.1 "Den, if | they"; ed.4(Vol.1) "Den, | if they "</corr></choice>
+                            <note type="physical">l.e.c. -  in the 2nd &amp; 3rd eds. line - ends with ""; in the 1st ed. line - end with "", and "" is on line -; 
+                                ; in the 4th eds. line - ends with "", and "" is on line - " </note>
+                        </rdg>
+                                
+                        <rdg wit=" #ed4v1"><choice><orig>Den,</orig><corr>line end changes - ed.1 "Den, if | "; eds.2 &amp; 3 "Den, if they | "</corr></choice>
+                            <note type="physical">l.e.c. -  in the 4th eds. line - ends with "", and "" is on line - ";
+                           in the 1st ed. line - end with "", and "" is on line -;
+                           in the 2nd &amp; 3rd eds. line - ends with ""; 
+                             </note>
+                        </rdg><lb/>  
+                        <rdg wit=" #ed1"><choice><orig>they </orig><corr>line beginning changes - eds.2 &amp; 3 "should"; ed.4(Vol.1) "if they "</corr></choice></rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>if they </orig><corr>line beginning changes - ed.1 "they should" ; eds.2 &amp; 3 "if they"</corr></choice></rdg></app>
+                        <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">should venture out, they would he hunted and </rdg></app> 
+                    <app loc="p4p2L21">
+                        <rdg wit="#ed2 #ed3"><choice><orig>taken, and if </orig><corr>line end changes - eds.1 &amp; 4(Vol.1) "taken, | and if "</corr></choice>
+                            <note type="physical">l.e.c. - in the 2nd &amp; 3rd eds. line - ends with ""; 
+                                in the  1st &amp; 4th  eds. line - ends with "", and "" is on line - </note>
+                        </rdg>
+                        <rdg wit=" #ed1 #ed4v1"><choice><orig>taken, </orig><corr>line end changes - eds.2 &amp; 3 "taken and if | " </corr></choice>
+                            <note type="physical">l.e.c. - in the 1st &amp; 4th  eds. line - ends with "", and "" is on line - ; 
+                                in the 2nd &amp; 3rd eds. line - ends with "" </note>
+                        </rdg><lb/>  
+                        <rdg wit=" #ed1 #ed4v1"><choice><orig>and if </orig><corr>line beginning changes - eds. 2 &amp; 3 "they"</corr></choice></rdg></app>
+                        
+                        <app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">they stay within they must starve.</rdg></app></hi></l>
+                    
+                    <l><app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                        I must  observe another Thing, that the Pyrates general-<lb/>
+                        ly shift their Rovings, according to the Season of the Year;</hi></rdg></app></l>
+                    
+                    <l n="30"><app loc="p4"> <rdg wit=" #ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                        in the Summer they cruise mostly along the Coast of the Con-<lb/>
+                        tinent of America, but the Winters there, being a little<lb/> 
+                        too cold for them, they follow the Sun, and go towards the<lb/> 
+                        Jslands, at the approach of cold Weather. Every Man<lb/> 
+                        who has used the West-India Trade, knows this to be</hi></rdg></app>
+                    </l>
+                        
+                    <l n="35"><app loc="p4"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">
+                        true ; therefore, since we are so well acquainted with all<lb/> 
+                        their Motions, I cannot see why our Men of War under a<lb/> 
+                        proper Regulation, may not go to the Southward, instead of<lb/> 
+                        lying up all the Winter useless : But I shall proceed too far<lb/>
+                        in</hi></rdg></app></l>
+          
+            </div>
+
+            <pb ed="#ed1" facs="images/e1Pre5.jpg"/>
+            <pb ed="#ed2" facs="images/e2Pre5.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre5.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre5.jpg"/>
+            
+            <div type="PrePg5">
+                <head style="center">The PREFACE.</head>
+                
+                   <l n="1"><hi rend="italics"> <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                       <choice><orig></orig><corr>b</corr></choice>
+                       in this Enquiry, I shall therefore quit it, and say some-<lb/>  
+                    thing of the following Sheets, which the Author may venture<lb/> 
+                    to assure the Reader that they have one Thing to recommend<lb/>
+                    them, which is Truth those Facts which he himself was</rdg></app></hi></l> 
+                <l n="5"><hi rend="italics"><app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">  not an Eye-Witness of, he had from the authentick</rdg></app>
+                       <app loc="p5p1L5"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig>Relati-</orig><corr>b</corr></choice></rdg>
+                           <rdg wit=" #ed4v1"><hi rend="italics"><choice><orig>Relations</orig><corr>n</corr></choice> </hi></rdg></app>
+                <hi rend="italics">
+                    <app loc="p5p1L5"> <rdg wit=" #ed1 #ed2 #ed3"><hi rend="italics"><choice><orig>ons</orig><corr>b</corr></choice></hi></rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"><hi rend="italics">of the Persons  concern'd in taking the Pyrates, as</hi></rdg></app> 
+                    <app loc="p4p1L6"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig>well</orig><corr>b</corr></choice> </rdg><rdg wit=" #ed4v1"><choice><orig> well as</orig><corr>b</corr></choice> </rdg></app><lb/>  
+                    <app loc="p4p1L6"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig>as</orig><corr>b</corr></choice></rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"> from the Mouths of the Pyrates themselves, after</rdg></app>  
+                    <app loc="p4p1L7"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig> they</orig><corr>b</corr></choice></rdg><rdg wit=" #ed4v1"><choice><orig> they were</orig><corr>b</corr></choice></rdg><lb/> 
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig>were </orig><corr>b</corr></choice></rdg></app>
+                       <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">taken, and he conceives no Man can produce better</rdg></app>
+                    <app loc="p4p1L8"><rdg wit=" #ed4v1"><choice><orig>Testi-</orig><corr>b</corr></choice> </rdg><lb/>
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig>Testimonies</orig><corr>b</corr></choice></rdg><rdg wit=" #ed4v1"><choice><orig>monies </orig><corr>b</corr></choice></rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">to support the Credit of any History.</rdg></app></hi></hi></l> 
+                    
+                
+                <l n="10"><hi rend="italics"><app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">It will be observed, that the Account of the Actions of<lb/> 
+                    Roberts runs into a greater Length, than that of any other<lb/> 
+                    Pyrate, for which we can assign two Reasons, first, because<lb/> 
+                    he ravaged the Seas longer than the rest, and of Consequence<lb/> 
+                    there must be a greater Scene of Business in his Life:</rdg></app>  
+                    <app loc="p4p2L6"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig> Second-</orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"><choice><orig> Se- </orig><corr></corr></choice></rdg></app>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "Second- | ly";  ed.4(Vol.1) "Se- | condly"</note></hi></l>
+                <l n="15"><hi rend="italics"><app loc="p4p2L6"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig>ly</orig><corr>b</corr></choice></rdg><rdg wit=" #ed4v1">
+                            <choice><orig>condly  </orig><corr></corr></choice></rdg></app>, 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">being resolved not to weary the Reader, with</rdg></app> 
+                    <app loc="p4p2L7"><rdg wit=" #ed1 #ed2 #ed3">
+                        <choice><orig> tiresome</orig><corr></corr></choice> </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig> tire-</orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "tiresome |";  ed.4(Vol.1) "tire- | some"</note><lb/>  
+                        <rdg wit=" #ed4v1">
+                            <choice><orig> some</orig><corr></corr></choice></rdg></app>
+                        <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">Repetitions: When we found the Circumstances in</rdg></app>  
+                    <app loc="p4p2L8"><rdg wit=" #ed1 #ed2 #ed3">
+                        <choice><orig>Roberts’s  </orig><corr></corr></choice>
+                        </rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>Ro- </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "Robert's |";  ed.4(Vol.1) "Ro- | bert's".</note><lb/> 
+                        <rdg wit=" #ed4v1">
+                            <choice><orig>bert's </orig><corr></corr></choice>
+                            </rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">Life, and other Pyrates, either as to pyratical</rdg></app> 
+                    <app loc="p4p2L9"><rdg wit=" #ed1 #ed2 #ed3">
+                        <choice><orig> Articles, or  </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"><choice><orig>Ar- </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "Articles, or | ";  ed.4(Vol.1) "Ar- | ticles or".</note><lb/>  
+                        <rdg wit=" #ed4v1">
+                            <choice><orig>ticles or  </orig><corr></corr></choice>
+                            </rdg></app>
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">any Thing else, to be the same, we thought</rdg></app> 
+                    <app loc="p4p2L10"><rdg wit=" #ed1 #ed2 #ed3">
+                        <choice><orig> it best to  give them  </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1">
+                            <choice><orig> it 
+                           </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "it best to give them | ";  ed.4(Vol.1) "thought it | best to give them".</note><lb/> 
+                        <rdg wit=" #ed4v1">
+                            <choice><orig> best to give them </orig><corr></corr></choice></rdg></app>
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">but once, and chose Roberts’s Life for</rdg></app>   
+                    <app loc="p4p2L11"><rdg wit=" #ed1 #ed2 #ed3">  
+                        <choice><orig>that Purpose, he ha-</orig><corr></corr></choice>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 " Robert's Life for that Purpose, he ha- | ving";  ed.4(Vol.1) "Robert's Life for | that Purpose".</note></rdg></app>
+                        </hi></l>
+                <l n="20"><hi rend="italics"><app loc="p4p2L11"><rdg wit=" #ed4v1">
+                            <choice><orig> that Purpose, he having</orig><corr></corr></choice>  </rdg>  
+                        <rdg wit=" #ed1 #ed2 #ed3">
+                            <choice><orig>ving  </orig><corr></corr></choice></rdg></app>
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">made more Noise in the World,</rdg></app> 
+                    <app loc="p421L12">
+                        <rdg wit=" #ed1 #ed2 #ed3">
+                            <choice><orig>  tham some others.</orig><corr></corr></choice></rdg>
+                    <note type="physical">line end change - eds.1, 2 &amp; 3 "World , than some others";  ed.4(Vol.1) "World, | than some others.".</note><lb/>
+                        <rdg wit=" #ed4v1"><choice><orig> than some others.</orig><corr></corr></choice>
+                            <note type="physical">eds.1, 2 &amp; 3 have 11 lines in this paragrpah ed.4(Vol.1) has 12 lines ine this paragraph</note><lb/></rdg></app></hi> 
+                
+                    <hi rend="italics"><app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">As to the Lives of our two female Pyrates, we must</rdg></app>  
+                    <app loc="p4p3L1">
+                        <rdg wit=" #ed1 #ed2 #ed3"><choice><orig> con- </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"><choice><orig> </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "must con- | ffess";  ed.4(Vol.1) "must | conffess".</note><lb/> 
+                    <rdg wit=" #ed4v1">
+                        <choice><orig>conffess </orig><corr></corr></choice></rdg> 
+                        <rdg wit=" #ed1 #ed2 #ed3">
+                            <choice><orig> fess </orig><corr></corr></choice>
+                           </rdg></app> 
+                        <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">they may appear a little</rdg></app>
+                        <app loc="p4p3L2">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> Extravagant</orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1">
+                            <choice><orig> extravagant</orig><corr></corr></choice>
+                            </rdg>
+                        <note type="gloss">capitalization changes - eds.1, 2 &amp; 3 capitalized "Extravagant"; in ed.4(Vol.1) all lower case"extravagant".</note></app>
+                        <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">, yet they are</rdg></app><lb/> 
+                        <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">never the less true for seeming so, but as they were pub-</rdg></app><lb/>
+                        <app loc="5"><rdg wit="#ed1 #ed2 #ed3"> lickly</rdg></app>  
+                            <app loc="p4p3L4">
+                            <rdg wit="#ed2 #ed3 "> <choice><orig> try’d </orig><corr></corr></choice></rdg></app>
+                            <app loc="p4p3L4"> <rdg wit=" #ed1"> <choice><orig> tried </orig><corr></corr></choice>
+                                <note> spelling change ed1:"tried" ed2,3,4(vol.I.)"try'd</note></rdg></app>
+                            
+                        <app loc="5"><rdg wit="#ed1 #ed2 #ed3">for their Pyracies, there are living Witnesses<lb/> </rdg></app></hi></l>
+                <l n="25"><hi rend="italics"><app loc="5"><rdg wit="#ed4v1">lickly</rdg></app>  
+                    <app loc="p4p3L4"><rdg wit="#ed4v1"> <choice><orig> try’d </orig><corr></corr></choice><note> spelling change ed1:"tried" ed2,3,4(vol.I.)"try'd</note></rdg></app>
+                    <app loc="5"><rdg wit="#ed4v1"> for their Pyracies, there are living Witnesses<lb/> 
+                enough to jusiify what we have laid down concerning them ;<lb/> 
+                it is certain, we have produced some Particulars which were<lb/> 
+                        not so publickly known, the Reason is, we were more  </rdg></app>
+                    
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3">enough to jusiify what we have laid down concerning them ;<lb/> 
+                    it is certain, we have produced some Particulars which were<lb/> 
+                    not so publickly known, the Reason is, we were more  </rdg></app>
+                    <app loc="p4p3L7">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> inquisi-</orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> inqui-</orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "inquisi- | tive";  ed.4(Vol.1) "inqui- | sitive".</note><lb/>
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig>-tive </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1">
+                            <choice><orig>sitive </orig><corr></corr></choice></rdg>
+                    </app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">into the Circumstances of their past Lives, than other</rdg></app></hi></l> 
+                <l n="30"><hi rend="italics">  <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">People, who had no other Design, than that of gratifying<lb/> 
+                their own private Curiosity : If there are some</rdg></app> 
+                    <app loc="p4p31L0">
+                        <rdg wit=" #ed1 #ed2 #ed3">
+                            <choice><orig>Incidents and </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1">
+                            <choice><orig>Incidents </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 " Incidents and |";  ed.4(Vol.1) "Incidents | and".</note><lb/>
+                        <rdg wit=" #ed4v1">
+                            <choice><orig> and </orig><corr></corr></choice></rdg></app>
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">Turns in their Stories, which may give them a </rdg></app>
+                    <app loc="p4p31L11">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> little the </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> little </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "little the |";  ed.4(Vol.1) "little | the".</note><lb/>  
+                                    <rdg wit=" #ed4v1">the</rdg></app>
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                    Air of a Novel, they are not invented or contrived
+                    </rdg></app>
+                    <app loc="p4p31L11b">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> contrived for </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> contrived </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "contrived for |";  ed.4(Vol.1) "contrived | for".</note><lb/>  
+                    <rdg wit=" #ed4v1">for</rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">
+                    that Purpose, it is a Kind of Reading this Author
+                    </rdg></app>
+                    <app loc="p4p3L12">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> is but </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> is </orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "is but | little";  ed.4(Vol.1) "is | but little".</note></app></hi></l> 
+                <l n="35"><hi rend="italics">  <app loc="p4p3L12"><rdg wit=" #ed4v1"> <choice><orig>but little </orig><corr></corr></choice></rdg> </app>  
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">acquainted with, but as he himself was</rdg></app> 
+                    <app loc="p4p31L13">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig>exceedingly </orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> exceed-</orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "exceedingly |";  ed.4(Vol.1) "exceed- | ingly".</note><lb/>  
+                        <rdg wit=" #ed4v1"> <choice><orig> ingly </orig><corr></corr></choice></rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">diverted with them, when they were related</rdg></app> 
+                    <app loc="p4p31L14"><rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> to him, he</orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> to</orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "to him he | thought";  ed.4(Vol.1) "to | him, he thought".</note><lb/>  
+                        <rdg wit=" #ed4v1"> <choice><orig> him, he thought</orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig>  thought</orig><corr></corr></choice></rdg></app> 
+                    <app loc="5"><rdg wit="#ed1 #ed2 #ed3 #ed4v1"> they might have the same Effect </rdg></app> 
+                    <app loc="p4p3L15">
+                        <rdg wit=" #ed1 #ed2 #ed3"> <choice><orig> upon the Reader.</orig><corr></corr></choice></rdg>
+                        <rdg wit=" #ed4v1"> <choice><orig> upon</orig><corr></corr></choice></rdg>
+                        <note type="physical">line end change - eds.1, 2 &amp; 3 "upon the Reader";  ed.4(Vol.1) "upon | him, the Reader"</note>
+                        <lb/>
+                        <rdg wit=" #ed4v1"> <choice><orig>the Reader. </orig><corr></corr></choice>
+                        <lb/>
+                            <app loc="5"><rdg wit=" #ed4v1">A4</rdg></app>  <app loc="thing"><rdg wit=" #ed4v1"><choice><orig>I pre</orig><corr></corr></choice></rdg></app></rdg></app></hi></l>
+                    
+                        <l><hi rend="italics"><app loc="p5p1L0">
+                            <rdg wit=" #ed1 #ed2 #ed3">
+                                <choice><orig> 
+                                    I presume 
+                                
+                            we need make no Apology for giving the Name<lb/> 
+                            of a History to the following Sheets, though they contain no-<lb/></orig><corr>b</corr></choice></rdg></app>
+                            <app loc="5"><rdg wit=" #ed1 #ed2 #ed3"> A4 </rdg></app>
+                                <app loc="p4p3L15"><rdg wit=" #ed1 #ed2 #ed3"><choice><orig>thing</orig><corr></corr></choice></rdg></app>
+                        </hi></l>
+                    </div> 
+                    
+                <pb/>
+                    
+                    
+                
+              
+                 
+            <pb ed="#ed1" facs="images/e1Pre7.jpg"/>
+            <pb ed="#ed2" facs="images/e2Pre7.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre7.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre7.jpg"/>
+            
+            <div type="PrePg6">
+                <head>The PREFACE.</head>
+                <p n="P5p6"><hi rend="italics"><choice><orig></orig><corr></corr></choice>
+                    <app loc="p5p1L0"><rdg wit=" #ed4v1"> I presume we need make no Apology for giving the Name<lb/> 
+                        of a History to the following Sheets, though they contain</rdg></app><lb/>
+                    <app loc="p5p1L1"><rdg wit=" #ed4v1">nothing</rdg><rdg wit=" #ed1 #ed2 #ed3">thing</rdg></app>
+                    <app loc="p5p1L3"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1">but the Actions of a Parcel of Robbers. It is Bra-<lb/> 
+                        very and Stratagem in War which make Actions worthy of<lb/> 
+                        Record ; in which Sense the Adventures here related will<lb/> 
+                        be thought deserving that Name. Plutarch is very cir-<lb/> 
+                        cumstantial in relating the Actions of Spartacus, the Slave,<lb/> 
+                        and makes the Conquest of him, one of the greatest Glories<lb/> 
+                        of Marcus Crassus ; and it is probable, if this Slave had<lb/> 
+                        liv’d a little longer, Plutarch would have given us his<lb/> 
+                        Life at large. Rome, the  Mistress of the World, was no<lb/> 
+                        more at first than a Refuge for Thieves and Outlaws ; and<lb/> 
+                        if the Progress of our Pyrates had been equal to their Be-<lb/>
+                        ginning ; had  they all united, and settled in some of those<lb/> 
+                        Jslands, they mighty by this Timey have been honoured with<lb/> 
+                        the Name of a Commonwealth, and no Power in those Parts<lb/>
+                        of the World could have been able to dispute it with them.<lb/></rdg></app></hi></p>
+                <p n="P6p3"><hi rend="italics"><app loc="p6p2"><rdg wit=" #ed1 #ed2 #ed3 #ed4v1"> If we have seem’d to glance, with seme Freedom at the<lb/> 
+                        Behaviour of some Governors of Provinces abroad it has<lb/> 
+                        been with Caution ; and, perhaps, we have, not declar'd as<lb/> 
+                        much as we knew : However, we hope those Gentlemen in the<lb/> 
+                        same Station, who have never given Occasion for the like<lb/> 
+                        Censure, will take no Offence, tho’ the Word Governor is<lb/> 
+                    sometimes made use of.</rdg></app> 
+                </hi></p>
+                <p n="P6p3"><hi rend="italics">
+                <app loc="p6p3L3"><rdg wit="  #ed4v1 #ed2 #ed3">
+                    P. S. It will be necessary to add a Word or two to this<lb/> 
+                    Preface in order to inform the Reader, that there are se¬<lb/>
+                    veral material Additions made to this second Impression,<lb/> 
+                    which swelling the Book in Bulk, must of Consequence add a<lb/> 
+                    small Matter to its Price.</rdg></app></hi></p>
+                <p n="P6p3"><hi rend="italics"><app loc="p6p3L3"><rdg wit="  #ed4v1 #ed2 #ed3">
+                    The first Impression having been received with so much<lb/> 
+                    Success by the Publick, occasioned a very earnest Demand<lb/> 
+                    for a second : In the mean Time,  several Persons who had<lb/> 
+                    been taken by the Pyrates, as well as others who had been<lb/>
+                    concerned in taking of them, have been so kind to commu-<lb/>
+                    nicate several Facts and Circumstances to us which had<lb/> 
+                    escaped us in the first Impression. This occasioned some De-<lb/>
+                    lay , therefore if we have not brought it outy as soon as<lb/> 
+                    wish’d it was to render it the more compleat.</rdg></app></hi></p>
+                    <p><hi rend="italics">
+                        <app loc="p6p3L3"><rdg wit="  #ed4v1 #ed2 #ed3">
+                            We shall not enter into a Detail of all the new Matter<lb/> 
+                            inserted here, but the Description of the Islands St. Thome<lb/>
+                    
+                </rdg></app>
+                </hi></p>
+            </div>
+
+            <pb ed="#ed1"/>
+            <pb ed="#ed2" facs="images/e2Pre7.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre7.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre7.jpg"/>
+            
+            <div type="PrePg5">
+                <p><app loc="p7p1L0"><rdg wit="#ed4v1 #ed2 #ed3">The PREFACE.</rdg></app></p>
+                <p n="P7p1"><hi rend="italics">
+                    <app loc="p7p1L0"><rdg wit="  #ed4v1 #ed2 #ed3">
+                        &amp;c. and that of Brasil are not to be passed by, with-<lb/>
+                        out a little Notice. It must be observed, that our spe-<lb/> 
+                        culative Mathematicians and Geographers, who are, no<lb/> 
+                        doubt, Men of the greatest Learning, seldom travel far-<lb/>
+                        ¬ther than their Closets for their Knowledge, &amp;c. are<lb/> 
+                        therefore unqualified to give as a good Description of<lb/> 
+                        Countries: It is for this Reason that all our Maps and<lb/> 
+                        Atlasses are so monstrously faulty, for these Gentlemen are<lb/> 
+                        obliged to take their Accounts from the Reports of illite-<lb/>
+                        ¬rate Men.
+                    </rdg></app></hi></p>
+                <p n="P7p2"><hi rend="italics">
+                    <app loc="p7p2L0"><rdg wit="  #ed4v1 #ed2 #ed3">
+                        It must be noted also, that when the Masters of Ships<lb/>
+                        make Discoveries this Way, they are not fond of commu¬-<lb/>
+                        nicating them a Man’s knowing this or that Coast, bet-<lb/>
+                        ¬ter than others, recommends him in his Business, and<lb/> 
+                        makes him more useful, and he'll no more discover it than a <lb/>
+                        Tradesman will the Mystery of his Trade.
+                    </rdg></app></hi></p>
+                <p n="P5p3"><hi rend="italics">
+                    <app loc="p7p3L0"><rdg wit="  #ed4v1 #ed2 #ed3">
+                        The Gentleman who has taken the Pains to make these<lb/> 
+                        Observations, is  Mr. Atkins, a Surgeon, an ingenious<lb/> 
+                        Man in his own Profession, and one who is not ty’d down<lb/> 
+                        by any narrow Considerations from doing a Service to the<lb/> 
+                        Publick, and has been pleased generously to communicate<lb/> 
+                        them for the good  of others. I don’t doubt, but his Ob<lb/>
+                        ¬servations will be found curious and very serviceable to<lb/> 
+                        such as Trade to those Parts, besides a Method of Trade is<lb/> 
+                        here laid down with the Portuguese, which may prove<lb/> 
+                        of great Profit to some of our Countrymen, if followed ac-<lb/> 
+                        cording to his Plan.
+                    </rdg></app></hi></p>
+                <p n="P7p4"><hi rend="italics">
+                    <app loc="p7p4L0"><rdg wit="#ed4v1 #ed2 #ed3">
+                        It is hoped these Things will satisfy the Publick, that<lb/>
+                        the Author of the following Sheets considered nothing so<lb/> 
+                        much as making the Book useful ; ------ tho’ he has been in-<lb/>
+                        ¬formed, that some Gentlemen have rais'd an Objection a-<lb/>  
+                        gainst the Truth of its Contents, viz. that it seems calcu-<lb/>
+                        ¬lated to entertain and divert. ------- If the Favts are related<lb/>
+                        with some Agreeableness and Life, we hope it will not be <lb/>
+                        imputed as a Fault ; but as to its Credit, we can assure them<lb/> 
+                        that the Sea-faring Men, that is all that know the Na-<lb/> 
+                        </rdg></app>
+                    <app loc="p7p4L0e2"><rdg wit="#ed2 #ed3">
+                        ture of these Things , have not been able to make the least<lb/> 
+                        Objection to its Credit: —- And he witt be bold to affirm,<lb/>
+                        that
+                    </rdg></app></hi></p></div>
+            
+            <pb ed="#ed2" facs="images/e2Pre8.jpg"/>
+            <pb ed="#ed3" facs="images/e3Pre8.jpg"/>
+            <pb ed="#ed4v1" facs="images/e4v1Pre8.jpg"/>
+            
+            <div type="PrePg8">
+                <p><app loc="p8L0"><rdg wit="#ed4v1 #ed2 #ed3">The PREFACE.</rdg></app></p>
+                <p n="P8p1"><hi rend="italics">
+                    <app loc="p7p4L0e2"><rdg wit="#ed4v1">
+                        ture of these Things , have not been able to make the least<lb/> 
+                        Objection to its Credit: —- And he witt be bold to affirm,<lb/>
+                    </rdg></app>
+                    <app loc="p8p1L0"><rdg wit="  #ed4v1 #ed2 #ed3">
+                        that there is not a  Fact or Circumstance in the</rdg></app>
+                    <app loc="p8p1L2"><rdg wit="#ed4v1"> whole <lb/></rdg>
+                    <rdg wit="#ed2 #ed3"> whole Book,<lb/></rdg> 
+                    <rdg wit="#ed4v1">Book,</rdg></app>
+                    <app loc="p8p1L0"><rdg wit="  #ed4v1 #ed2 #ed3">but he is able to prove by credible Witnesses.</rdg></app>
+                    
+                </hi></p>
+                <p n="P8p1"><hi rend="italics">
+                    <app loc="p8p2L0"><rdg wit="  #ed4v1 #ed2 #ed3">
+                        There have been same other Pyrates, besides those whose<lb/> 
+                        History are here related such as are hereafter named, <lb/>
+                        and their adventures are as extravagant and full of Mis-<lb/>
+                        chief, as those who are the Subject of this Book. ------ The<lb/>
+                        Author has already begun to digest them into Method, and<lb/> 
+                        as soon as he receives some Materials to male them com-<lb/> 
+                        pleat, (which he shortly expects from the West-indies) If<lb/> 
+                        the Fublick gives him Encouragement he intends to venture<lb/>  
+                        upon a second Volume,
+                    </rdg></app>
+                </hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

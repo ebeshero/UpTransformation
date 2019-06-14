@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet href="../src/vmachine_evfl2Pre.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"CHAP. I. OF Capt. AVERY"</title>
+                <author>Captain Charles Johnson</author>
+                <respStmt>
+                    <resp>Text Encoding by </resp>
+                    <name>Ingrid Reiche</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by </resp>
+                    <name>Ingrid Reiche</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                
+                   Ingrid Reiche
+                </publisher>
+            </publicationStmt>
+            <notesStmt>
+                <note type="image" anchored="true">
+                    <witDetail wit="#ed1" target="#ed1" place="apparatus">"CHAP. I. OF Captain AVERY And Othes of his CREW" from <hi rend="italics"> A General History of the Pyrates1 (st ed, 1724)</hi>
+                        <figure>
+                            <graphic url="images/ed1ch1.jpg"/>
+                        </figure>
+                    </witDetail>
+                    <witDetail wit="#ed2" target="#ed2" place="apparatus">"CHAP. I. OF Captain AVERY And his CREW" from <hi rend="italics"> A General History of the Pyrates</hi> (2nd ed., 1724)
+                        <figure>
+                            <graphic url="images/ed2ch1.jpg"/>
+                        </figure>
+                    </witDetail>
+                    
+                    <witDetail wit="#ed3" target="#ed3" place="apparatus">"CHAP. I. OF Captain AVERY And his CREW" from <hi rend="italics"> A General History of the Pyrates</hi> (3rd ed., 1725)
+                        <figure>
+                            <graphic url="images/ed3ch1.jpg"/>
+                        </figure>
+                    </witDetail>
+                    <witDetail wit="#ed4v1" target="#ed4v1" place="apparatus">"CHAP. I. OF Captain AVERY And his CREW" from <hi rend="italics"> A General History of the Pyrates</hi> (4th. ed., 1726)
+                        <figure>
+                            <graphic url="images/ed4ch1.jpg"/>
+                        </figure>
+                    </witDetail>
+                </note>
+                <note type="critIntro"><p>
+                    
+                    <hi rend="underline">About the Text</hi><lb/>
+                    The text from these four editions remains essentially the same. There are three major differences. The first is that this chapter is 17 pages in the 1st ed., and 18 pages in the 2nd - 4th eds. 
+                    This means an extra page plus one line (i.e. 39 lines) have been inserted in the 2nd-4th editions beginning on line 7 of page 57 and spanning over to line 8 of page 58. The text, from page 37 of the 1st ed., 
+                    then resumes where it left off in the third paragraph of page 58 (i.e. line 9). The second difference is that in the 1st edition many words are contractions or not spelled out in full, 
+                    as in line 31(32 in the 4th edition) where the 1st edition spells "acknowledg'd" and the 2nd - 4th eds. spell out the word in full as "acknowledged." 
+                    The third difference is that the text of the 1st - 3rd editions begins on line 14, whereas 4th edition begins on line 15, moving the whole body of the text one line on this page. 
+                    This is not recorded as a difference with highlighting, as it would mean the whole of the first page of the 4th ed. would be highlighted.</p>
+                    
+                    <p><hi rend="underline">Glossary Note Types</hi>
+                        <hi rend="underline">Gloss notes</hi>: denoted by superscript "g", point to changes in capitalization, spelling or wording.<lb/>
+                        <hi rend="underline">Physical notes</hi>: denoted by superscript "p", point to changes in formatting and the physical layout of the page 
+                        such as changes in line ends.<lb/>
+                        <hi rend="underline">Critical Notes</hi>: denoted by a superscript "c", point to critical changes in the text, such as added material.<lb/>
+                        <hi rend="underline">Notes</hi>: denoted by a superscript "n", point to more general comments about changes in the text.</p>
+                    <p>
+                        <hi rend="underline">Glossary of Abbreviations</hi><lb/>
+                        a.w. = added word(s)<lb/>
+                        c.c. = capitalization change (generally to the first letter in a word)<lb/>
+                        d.w. = deleted word(s)<lb/>
+                        l.c. = line change (of a word(s), or parts of a sentence)<lb/>
+                        l.e.c. = line end change<lb/>
+                        p.c. = punctuation change<lb/>
+                        s.c. = spelling change<lb/>
+                        w.c.= a word that is changed in some manner<lb/> 
+                        w.m.= a word(s) moved<lb/> 
+                        
+                    </p>
+                    
+                </note>
+                
+                
+                <note anchored="true"><p> This is a comparision of four version of the text from  the first page of "CHAP I. OF Captain <hi rend="italics">AVERY</hi>, And hiS CREW"  <hi rend="italics">A General History of the Pyrates</hi> 
+                    ranging from the 1st edition printed in 1724 to Volume I of the 4th edition printed 1726</p>
+                    
+                    
+                    <p><hi rend="underline">1st ed.-1724</hi> From the Baldwin Room at the Toronto Reference Library - photographs by Ingrid Reiche</p>
+                    <p> 9 leaves (-1 -the verso of leaf 9). pages 25-42. Signed C-C4<lb/>
+                        Running head: <hi rend="italics">Of Captain AVERY</hi> except on pages 37-42 where it becomes "<hi rend="italics">The HISTORY of the PYRATES</hi></p>
+                    
+                    <p>
+                        <hi rend="underline">2nd ed.-1724:</hi> From the Internet Archive - scans from the Rare Book collection of the Boston Public Library</p>
+                    <p>9 leaves. pages 45-63. Signed D-D4<lb/>
+                        Running head: <hi rend="italics">Of Captain AVERY</hi>
+                    </p>
+                    
+                    <p>
+                        <hi rend="underline">3rd-1725:</hi>from Eighteeenth Century Collection Online (ECCO) - scans provide by the British Library</p>
+                    <p>9 leaves. pages 45-63. Signed D-D4<lb/>
+                        Running head: <hi rend="italics">Of Captain AVERY</hi></p>
+                    <p>
+                        <hi rend="underline">4th ed.(Vol.1)-1726:</hi> From the Thomas Fisher Rare Book Library at the University of Toronto - scans by Ingrid Reiche</p>
+                    <p>9 leaves. pages 45-63. Signed D-D4<lb/>
+                        Running head: <hi rend="italics">Of Captain AVERY</hi> </p>
+                </note>
+                
+                
+            </notesStmt>
+            
+            
+            <sourceDesc>
+                <p>Diplomatic editions of this text are based on transcriptions created by Ingrid
+                    Reiche for an MA Thesis at Carleton Unversity </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p> Marked-up collation of A General History of the Pyrates.</p>
+                <p>DTD constructed from TEI prose base with tagsets for linking, figures, analysis,
+                    transcr, textcrit.</p>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="external"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ed1">1st ed.-1724, "CHAP. I. OF Captain AVERY And Others of his Crew",(CaOTPH-910.4J57C.1/TPL).> </witness>
+                    <witness xml:id="ed2">2nd ed.-1724 "CHAP. I. OF Captain AVERY And his CREW", (Internet Archive/scans from BPL-Defoe21.G421724B).</witness>
+                    <witness xml:id="ed3">3rd ed.-1725 "CHAP. I. OF Captain AVERY And his CREW",(ECCO/scans from LO/N37- 276.i.4). </witness>
+                    <witness xml:id="ed4v1">4th ed.(V.I)-1726,"CHAP. I. OF Captain AVERY And his CREW", (CaOTUTF B1003067-Vol.1/TFL). </witness>
+                    
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <head>
+                <title>
+                    
+                        
+                       
+                        <app loc="pn"><rdg wit="#ed1"><choice><orig>25</orig><corr></corr></choice><note type="critical">In the 1st ed. CHAP. I. start on page 25, whereas in the 2nd-4th eds. it starts on 45 because "The INTRODUCTION" has been made longer</note></rdg></app>
+                <app loc="pn"><rdg wit="#ed2 #ed3 #ed4v1"><choice><sic>45</sic><orig></orig></choice>
+                    <note type="critical">In the 2nd-4th eds. "CHAP. I. begins on page 45 because "The INTRODUCTION" has been expanded, whereas in the 1st ed. this chapter begins on page 25.</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3"></rdg></app>
+                        
+                    
+                </title>
+            </head>
+         
+            <div type="IntroductionText">
+                <l n="1">
+                    
+                </l>
+                <l></l>
+                <l></l>
+                <l><app loc="A"><rdg wit="#ed2 #ed3">CHAP. I.
+                    <note type="physical">The 2nd &amp; 3rd eds. use a different headpiece that is smaller and "CHAP. I." starts on line 4 but is in a larger font size so the body of the texr begins on line 14 as it does in the 1st ed</note></rdg></app></l>
+                <l n="5"><app loc="A"><rdg wit="#ed1 #ed4v1">CHAP. I.
+                    <note type="physical">The 1st &amp; 4th ed. use the same heapiece which larger than that in the 2nd &amp; 3rd ed., and the title is in a larger font 
+                        so "CHAP. I." starts on line 5 of the 1st and 4th eds.. In the 1st ed. the space between this line and the next have the body of the text beginning on line 14, which is
+                        replicated in the 2nd &amp; 3rd ed. But in the  4th ed. body of the text begins on line 15, one line below that of the first three editions, so that the 
+                        text of the 4th ed. on line 38 ends with the text of line 37 from all other editions, and the 4th ed. has a different catchword on page 45. </note></rdg></app></l>
+                <l> <app loc="A"><rdg wit="#ed2 #ed3"></rdg></app></l>
+                <l><app loc="A"><rdg wit="#ed1 #ed2 #ed3">OF</rdg></app></l>
+                <l><app loc="A"><rdg wit="#ed4v1">OF</rdg></app></l>
+                   <l> <app loc="A"><rdg wit="#ed1 #ed2 #ed3 #ed4v1">Captain <hi rend="italics"> AVERY</hi>,</rdg></app>
+               </l>
+                <l></l>
+                <l n="10"> </l>
+                <l><app loc="A"><rdg wit="#ed1 #ed2 #ed3">And</rdg></app>
+                    <app loc="A2"><rdg wit="#ed1"><choice><orig> Others of</orig><corr></corr></choice><note type="critical">a.w. in the 1st ed. "Others of" is in this line; in the 2nd-4th eds. these words hace been deleted</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3"> his</rdg></app>
+                    <app loc="A2"><rdg wit="#ed1"><choice><orig> Crew</orig><corr></corr></choice>
+                        <note type="gloss">c.c. in the 1st ed. "Crew" is not all-caps; in the 2nd-4th eds. "CREW" is all-caps</note><lb/><lb/></rdg></app>
+                    <app loc="A"><rdg wit="#ed2 #ed3"><choice><orig> CREW</orig><corr></corr></choice>
+                        <note type="gloss">c.c. in the 2nd-4th eds. "CREW" is all-caps; in the 1st ed. "Crew" is not all-caps</note><lb/><lb/></rdg></app>
+                </l>
+                <l><app loc="A"><rdg wit="#ed4v1">And his CREW
+                    <note type="gloss">c.c. in the 2nd-4th eds. "CREW" is all-caps; in the 1st ed. "Crew" is not all-caps</note>
+                    <lb/><lb/></rdg></app></l>
+                <l></l>
+                <l><app loc="A"><rdg wit="#ed1 #ed2 #ed3">NONE of these bold Adventurers were</rdg></app></l>
+                <l n="15">
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">ever so much talked of, for a while,</rdg></app>
+                        <app loc="14"><rdg wit="#ed1">
+                            <note type="physical">l.e.c. In the 1st ed. it ends with "while" and next line begins with "Avery"; 
+                                in the 2nd - 4th eds this line ends with "as"and "as" is at the beginning of line.</note></rdg></app>
+                        <app loc="14"><rdg wit="#ed2 #ed3"> </rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1"><choice><sic>NONE of these bold Adventurers were</sic><orig></orig></choice>
+                        <note type="critical">The text of the 4th ed. is moved down 1 lin, so it begins on line 15; in the 1st-4th eds. it begins on line 14 - this means all collation of changes in the edition refer to one line below that in the 1st-3rd editions, though the format of the remains almost the same until line 34. </note></rdg></app>
+                    <app loc="15b"><rdg wit="#ed2 #ed3"><choice><sic> as</sic><orig></orig></choice>
+                        <note type="physical">In the 2nd - 4th eds this line ends with "as"; in the 1st ed. it ends with "while", and "as" is at the beginning of the next line.</note></rdg></app>
+                </l>
+                <l>
+                    <app loc="15b"><rdg wit="#ed1"><choice><sic> as</sic><orig></orig></choice>
+                       </rdg></app>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3"><hi rend="italics">Avery</hi> he made as great a Noise in the</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">ever so much talked of, for a while,</rdg></app>
+                    <app loc="15b"><rdg wit="#ed4v1"><choice><sic> as</sic><orig></orig></choice>
+                        <note type="physical">l.e.c. in the 2nd-4th eds. this line ends with "as" and the next line begins with Avery; in the 1st ed. this line begins with "while" and next line begins with "as". </note></rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">World as <hi rend="italics">Meriveis</hi> does now, and was looked upon</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1"><hi rend="italics">Avery</hi> he made as great a Noise in the</rdg></app>  
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">to be a Person of as great Consequence ; he was re-</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">World as <hi rend="italics">Meriveis</hi> does now, and was looked upon</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">presented in <hi rend="italics">Europe</hi>, as one that had raised himself</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">to be a Person of as great Consequence ; he was re-</rdg></app>
+                </l>
+                <l n="20">
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">to the Dignity of a King, and was likely to be the</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">presented in <hi rend="italics">Europe</hi>, as one that had raised himself</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">Founder of a new Monarchy ; having, as it was said,</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">to the Dignity of a King, and was likely to be the</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">taken immense Riches, and married the <hi rend="italics">Great Mo-</hi></rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">Founder of a new Monarchy ; having, as it was said,</rdg></app>
+                </l>
+            <l>
+                <app loc="A"><rdg wit="#ed1 #ed2 #ed3"><hi rend="italics">guls</hi> Daughter, who was taken in an <hi rend="italics">Indian Ship</hi>,</rdg></app>
+                <app loc="A"><rdg wit="#ed4v1">taken immense Riches, and married the <hi rend="italics">Great Mo-</hi></rdg></app>
+            </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">which fell into his Hands ; and that he had by her</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1"><hi rend="italics">guls</hi> Daughter, who was taken in an Indian Ship,</rdg></app>
+                </l>
+                <l n="25">
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">many Children, living in great Royalty and State ;</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">which fell into his Hands ; and that he had by her</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">that he had built Forts, erected Magazines, and</rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">many Children, living in great Royalty and State ;</rdg></app>
+                </l>
+                <l>
+                    <app loc="27"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>was</orig><corr></corr></choice>
+                        <note type="physical">l.e.c. In the 1st-3rd eds. this  line begins with "was", 
+                    whereas in the 4th ed. the precious line ends with "and was"</note></rdg></app> 
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">Master of a stout Squadron of Ships, </rdg></app>
+                    <app loc="27B"><rdg wit="#ed1 "><choice><orig>man'd</orig><corr></corr></choice>
+                        <note type="gloss">w.c. in the 1st ed. "man'd" has one n; in the 2nd-4rh eds. "mann'd" has two "n"s</note></rdg></app> 
+                    <app loc="27B"><rdg wit=" #ed2 #ed3"><choice><orig>mann'd</orig><corr></corr></choice>
+                        <note type="gloss">w.c. in the 2nd-4rh eds. "mann'd" has two "n"s; in the 1st ed. "man'd" has one n</note></rdg></app>
+                    <app loc="27B"><rdg wit="#ed1"><choice><orig>with</orig><corr></corr></choice>
+                        <note type="physical">l.e.c. in the 1st &amp; 4th eds. "with" is at the end of this line; in the 2nd-4th eds. "with" begins the next line</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">that he had built Forts, erected Magazines, and</rdg></app><app loc="27">
+                        <rdg wit="#ed4v1"><choice><sic> was</sic><orig></orig></choice>
+                            <note type="physical">l.e.c. In the 4th ed. this line end with "was", whereas in the 1st-3rd eds. this line end with "and" and "was" begins line 27</note></rdg></app>
+                </l>
+                <l>
+                    <app loc="27C"><rdg wit="#ed2 #ed3"><choice><orig>with</orig><corr></corr></choice>
+                        <note type="physical">l.e.c. in the 2nd-3rd eds. "with" begins this line; in the 1st &amp; 4th eds. it is at the end of the previous line</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">able and desperate Fellows of all Nations; that</rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">Master of a stout Squadron of Ships, </rdg></app>
+                    <app loc="27B"><rdg wit="#ed4v1"><choice><orig>mann'd</orig><corr></corr></choice>
+                        <note type="gloss">w.c. in the 2nd-4rh eds. "mann'd" has two "n"s; in the 1st ed. "man'd" has one "n"</note>
+                    </rdg></app>
+                    <app loc="27C"><rdg wit="#ed4v1"><choice><orig>with</orig><corr></corr></choice><note type="physical">l.e.c. in the 1st &amp; 4th eds. "with" is at the end of this line; in the 2nd-4th eds. "with" begins the next line</note></rdg></app>
+                </l>
+                <l>
+                    <app loc="28D"><rdg wit="#ed1 #ed2 #ed3">he</rdg></app> <app loc="A"><rdg wit="#ed1 #ed2 #ed3">gave Commissions out in his own Name
+                        <app loc="29A"><rdg wit="#ed1">, <note type="physical">p.c. in the firts ed. there is a comma after "Name,"; in the 2nd-4th eds. there is not a comma after "Name"</note></rdg></app> to the</rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">able and desperate Fellows of all Nations; that</rdg></app><app loc="29D"><rdg wit="#ed4v1">he</rdg></app> 
+                </l>
+                <l n="30">
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">Captains of his Ships, and to the Commanders of</rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">gave Commissions out in his own Name to the</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">his Forts, and was 
+                        <app loc="31A"><rdg wit="#ed1"><choice><orig>acknowledg'd</orig><sic></sic></choice>
+                            <note type="gloss">s.c. in the 1st ed. "acknowledg'd" is not spelled out in full; in the 2nd-4th eds. it is spelled out in full as "acknowledged"</note></rdg></app>
+                        <app loc="31A"><rdg wit="#ed2 #ed3"><choice><sic>acknowledged</sic><orig></orig></choice>
+                            <note type="gloss">s.c. in the 2nd-4th eds. it is spelled out in full as "acknowledged"; in the 1st ed. "acknowledg'd" is not spelled out in full</note> 
+                            </rdg></app> by them
+                        <app loc="31B"><rdg wit="#ed1"><choice><orig>,</orig><sic></sic></choice>
+                            <note type="physical"> p.c. in the 1st ed. there is a comma after "them,"; in the 2nd-4th eds. there is not a comma after "them" </note></rdg></app>as their</rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">Captains of his Ships, and to the Commanders of</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">Prince. A Play was writ upon him,
+                        <app loc="32"><rdg wit="#ed1"><choice><orig>call'd</orig><sic></sic></choice>
+                            <note type="gloss">s.c. in the 1st ed. "call'd" is not spelled out in full; in the 2nd-4th eds. "called" is spelled out in full</note></rdg></app>
+                        <app loc="32"><rdg wit="#ed2 #ed3"><choice><sic> called</sic><orig></orig></choice>
+                            <note type="gloss">s.c. in the 2nd-4th eds. "called" is spelled out in full ; in the 1st ed. "call'd" is not spelled out in full</note></rdg></app>, the Suc-</rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">his Forts, and was
+                    <app loc="31A"><rdg wit="#ed4v1"><choice><sic>acknowledged</sic><orig></orig></choice>
+                        <note type="gloss">s.c. in the 2nd-4th eds. it is spelled out in full as "acknowledged"; in the 1st ed. "acknowledg'd" is not spelled out in full</note> 
+                    </rdg></app> by them as their</rdg></app>
+                </l>
+                <l>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">cessful Pyrate ; and, these Accounts obtain’d such
+                        <note type="physical">l.e.c. In the 1st-3rd eds. this line end with "such"" and next line begins with "Belief", whereas in the 4the ed. this line ends with "such Be-" and the next line starts with "lief</note></rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">Prince. A Play was writ upon him, 
+                        <app loc="32"><rdg wit="#ed4v1"><choice><sic> called</sic><orig></orig></choice>
+                            <note type="gloss">s.c. in the 2nd-4th eds. "called" is spelled out in full ; in the 1st ed. "call'd" is not spelled out in full</note>
+                        </rdg></app>, the Suc-</rdg></app>
+                    
+                </l>
+                <l>
+                    <app loc="34B"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>Belief</orig><corr></corr></choice>
+                        <note type="physical">l.e.c.In the 1st-3rd eds. this line begins with with;  in the 4the ed. the previous line ends with "Be-" andthis line begins "lief"</note></rdg></app>,
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3">that several Schemes were 
+                        <app loc="34A"><rdg wit="#ed1"><choice><orig>offer'd</orig><corr></corr></choice>
+                            <note type="gloss">s.c. in the 1st ed. "offer'd" is not spelled out in full; in the 2nd-4th eds. "offered" is spelled out in full</note></rdg></app> 
+                        <app loc="34A"><rdg wit="#ed2 #ed3"><choice><sic>offered</sic><corr></corr></choice>
+                            <note type="gloss">s.c. in the 2nd-4th eds. "offered" is spelled out in full ; in the 1st ed. "offer'd" is not spelled out in full</note></rdg></app> 
+                        <app loc="A"><rdg wit="#ed1 #ed2 #ed3">to the</rdg></app></rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">cessful Pyrate ; and, these Accounts obtain’d such</rdg></app>
+                    <app loc="34B"><rdg wit="#ed4v1"><choice><sic> Be-</sic><orig></orig></choice>
+                        <note type="physical">l.e.c. in the 4the ed. this line ends with "Be-" and the next line starts with "lief"; in the 1st-3rd eds. thi correlating line ends with "such" and next line begins with "Belief", whereas </note>
+                    </rdg></app>
+                </l>
+                <l n="35">
+                    <app loc="35B"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>Council</orig><corr></corr></choice>
+                        <note type="physical">l.e.c. In the 1st-3rd eds. this line begins with with "Council"; in the 4the ed. the previous line ends with "Coun-" and this line begins "cil</note></rdg></app>
+                        <app loc="34A"><rdg wit="#ed1"><choice><orig>,</orig><corr></corr></choice>
+                            <note type="gloss">s.c. in the 1st ed. there is a comma after "Council,"; in the 2nd-4th eds. there is no comma after "Council" </note></rdg></app>   
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3"> for fitting out a Squadron to take him ;</rdg></app> 
+                    <app loc="34B"><rdg wit="#ed4v1"><choice><sic>lief</sic><orig></orig></choice></rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1"> that several Schemes were</rdg></app> 
+                            <app loc="34A"><rdg wit="#ed4v1"><choice><orig> offered</orig><corr></corr></choice>
+                                <note type="gloss">s.c. in the 2nd-4th eds. "offered" is spelled out in full ; in the 1st ed. "offer'd" is not spelled out in full</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">to the</rdg></app><app loc="35B"><rdg wit="#ed4v1"><choice><sic>Coun-</sic><corr></corr></choice>
+                        <note type="physical">l.e.c. in the 4the ed. this line ends with "Coun-" and the next line begins "cil; 
+                            in 1st-3rd eds. the correlating line begins with with "the and the next line begins with "Council"</note></rdg></app>
+                </l>
+                <l>
+                    <app loc="36"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>while</orig><corr></corr></choice>
+                        <note type="physical">l.e.c. In the 1st-3rd eds. this line begins with "while"; in the 4th ed. this line end with "while"</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3"> others were for offering him
+                        <app loc="34A"><rdg wit="#ed1"><choice><orig>,</orig><corr></corr></choice>
+                            <note type="physical">p.c. in the 1st ed. there is a comma after "him,"; in the 2nd-4th eds. there is no comma after "him" </note></rdg></app>
+                        <app loc="A"><rdg wit="#ed1 #ed2 #ed3"> and his</rdg></app>
+                        <app loc="36B"><rdg wit="#ed1 #ed2 #ed3"><choice><orig> Compa-</orig><corr></corr></choice>
+                            <note type="physical">l.e.c. in the 1st-3rd eds. line 36 ends with Compa-" and line 37 begins with "nions an"; in the 4th ed. the coressponding line 37, end with "Companions an" "</note></rdg></app></rdg></app> 
+                    <app loc="35B"><rdg wit="#ed4v1"><choice><sic>cil</sic><corr></corr></choice></rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1"> for fitting out a Squadron to take him ; </rdg></app>
+                    <app loc="36"><rdg wit="#ed4v1"><choice><sic>while</sic><corr></corr></choice></rdg></app>
+                </l>
+                <l>
+                    <app loc="36B"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>nions</orig><corr></corr></choice></rdg></app>
+                        <app loc="36C"><rdg wit="#ed1"><choice><orig>,</orig><sic></sic></choice>
+                            <note type="physical">p.c. the 1st ed has a comma after "Companions,"; in the 2nd-4th eds. there is no comma</note></rdg></app> 
+                    <app loc="36B"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>an</orig><corr></corr></choice></rdg></app> 
+                    <app loc="37"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>Act of Grace, and inviting them to</orig><corr></corr></choice>
+                        <note type="physical">w.m. in the 1st-3rd eds. the words "Act of Grace, and inviting them to" are in thee middle of line 37;  in the 4th ed. they begin line 38</note>
+                    </rdg></app>
+                    <app loc="36D"><rdg wit="#ed1 #ed2 #ed3"><choice><orig><hi rend="italics"> Eng-</hi></orig><sic></sic></choice>
+                        <note type="physical">l.e.c. in the 1st-3rd eds. line 37 ends with "Eng-" and line 38 begins with "land, with"; in the 4th ed. line 38, the corresponding line, ends with "Endland, with"</note></rdg></app>
+                    <app loc="A"><rdg wit="#ed4v1">others were for offering him
+                        <note type="physical">in the 2nd-4th eds. there is no comma after "him"; in the 1st ed. there is a comma after "him,"</note> and his</rdg></app>
+                    <app loc="36B"><rdg wit="#ed4v1"><choice><sic> Companions an</sic><corr></corr></choice><note type="physical"></note></rdg></app>
+                </l>
+                <l>
+                    <app loc="36D"><rdg wit="#ed1 #ed2 #ed3"><choice><orig><hi rend="italics">land</hi></orig><sic></sic></choice> </rdg></app> 
+                    <app loc="A"><rdg wit="#ed1 #ed2 #ed3"> with </rdg></app>
+                    
+                    <app loc="36E"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>all</orig><corr></corr></choice><note type="critical">s.c. in the 1st-3rd eds. "all" is on line 38; in the 4th ed. "all" is the catchword on the last line of page 45, and the first word on page 46</note></rdg></app>    
+                    <app loc="B"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>their Treasure, least his growing</orig><sic></sic></choice>
+                        <note type="critical">in the 1st-3rd eds. the last line of the page contains the words "all their Treasure, least his growing"; in the 4th ed. these words begin page 46</note></rdg></app> 
+                    <app loc="37"><rdg wit="#ed4v1"><choice><orig>Act of Grace, and inviting them to </orig><sic></sic></choice>
+                        <note type="physical">w.m. in the 4th ed. the words "Act of Grace, and inviring them to" begin line 38; in the 1st-3rd eds. they were on line 37</note></rdg></app>
+                    <app loc="36D"><rdg wit="#ed4v1"><choice><orig><hi rend="italics">England </hi></orig><sic></sic></choice></rdg></app> 
+                    <app loc="A"><rdg wit="#ed4v1">with<note type="physical">in the 4th ed. "England with end line 38 and this page; in the 1st-3rd eds. "Eng-" end line 37, and "land, with" begins line 38.</note></rdg></app>
+                </l>
+            </div>
+            <div type="catword"><l>
+                <app loc="39"><rdg wit="#ed1 #ed2 #ed3"><choice><orig>Greatness</orig><corr></corr></choice>
+                    <note type="critical">c.i.cw. in the 1st-3rd eds. the catword is "Greatness; in the 4th ed. it is "all"</note></rdg></app>
+                <app loc="36E"><rdg wit="#ed4v1"><choice><orig>all</orig><corr></corr></choice>
+                    <note type="critical">in the 4th ed. the catword is "all"; in the 1st-3rd eds. it is "Greatness"</note></rdg></app>
+                
+            </l></div>
+        </body>
+    </text>
+</TEI>
+
+
+
