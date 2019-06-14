@@ -28,6 +28,7 @@
         <schema:Person rdf:about="{concat('http://example.org/tei#',@xml:id)}">
             <owl:sameAs xml:lang="en"
                 rdf:resource="{concat('https://www.wikidata.org/wiki/Special:EntityData/','Q')}"/>
+            <xsl:apply-templates select="@sex"/>
             <xsl:apply-templates/>
             <xsl:variable name="relations" as="element(relation)*"
                 select="key('relationById', @xml:id)"/>
@@ -49,7 +50,18 @@
             </xsl:for-each>
         </schema:Person>
     </xsl:template>
-    
+
+    <xsl:template match="@sex">
+        <xsl:variable name="gender" as="xs:string">
+            <xsl:choose>
+                <xsl:when test=". eq '1'">man</xsl:when>
+                <xsl:when test=". eq '2'">woman</xsl:when>
+                <xsl:otherwise>ERROR</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <cwrc:hasGender rdf:resource="{concat('http://sparql.cwrc.ca/testing/cwrc#', $gender)}"/>
+    </xsl:template>
+
     <!-- prevent the output of <label> and <desc> content -->
     <xsl:template match="label | desc"/>
 
@@ -96,17 +108,6 @@
         </schema:rolename>
     </xsl:template>
     <!-- FIND PROPER SCHEMA TAG -->
-
-    <!-- 
-       NOPE : 
-       <xsl:template match="person[@sex='1']">
-        <cwrc:hasGender rdf:resource="http://sparql.cwrc.ca/testing/cwrc#man"/>
-    </xsl:template>
-    
-    <xsl:template match="person[@sex='2']">
-        <cwrc:hasGender rdf:resource="http://sparql.cwrc.ca/testing/cwrc#man"/>
-    </xsl:template>
-   -->
 
     <xsl:template match="birth">
         <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
