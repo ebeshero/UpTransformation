@@ -8,7 +8,10 @@
     <xsl:output method="xhtml" indent="yes" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     
-    
+  <!-- 2019-06-14 ebb: This XSLT is meant to be run over
+  this input file from the Wayback Machine:
+  https://web.archive.org/web/20190328201754/http://www.collectionscanada.gc.ca/obj/900/f11/040004/csh.rdf
+  -->  
     <xsl:template match="/">
         
         <html xmlns="http://www.w3.org/1999/xhtml">
