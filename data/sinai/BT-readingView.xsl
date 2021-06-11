@@ -19,42 +19,38 @@
         <html>
             <head>
                 <title>BT Reading view</title>
-<!--                <link rel="stylesheet" type="text/css" href="BT-style.css"/>-->
+                <!--ebb: Here I'm linking an external CSS file and an external JavaScript file. These will show
+                up in the output HTML, and be ready for styling. 
+                The CSS and JS files are stored with this XSLT and its output. -->
+                <link rel="stylesheet" type="text/css" href="BT-style.css"/>
                 <script type="text/javascript" src="BT-highlight.js">/**/</script>
-                <style>
-                    span.seg {
-                    outline: maroon solid 1px;
-                    }
-                    span.seg.highlight {background-color: #ffd270;}
-                </style>
-               
             </head>   
             <body>
                 <h1>Reading view of three parallel texts in translation</h1>
+                <!-- mb: Moving the documents' main titles inside the first table because the table aligning is uneven -->
+              
+                   <xsl:apply-templates select="$Asher//titleStmt/title"/>
+                   <xsl:apply-templates select="$Haddad//titleStmt/title"/>
+                   <xsl:apply-templates select="$Adler//titleStmt/title"/>
                 
-                <!--ebb: Output each document's main title -->
-                <xsl:apply-templates select="$Asher//titleStmt/title"/>
-                <xsl:apply-templates select="$Haddad//titleStmt/title"/>
-                <xsl:apply-templates select="$Adler//titleStmt/title"/>
-                
-                
+                   
                 <!--ebb: Now, set up the reading view. -->
               <section id="readingView"> 
                   <!--ebb: How about we set this up as a series of tables to align the sections with the same xml:ids ?  -->
                   
-                <xsl:variable name="ab-ids" as="item()+" select="$xml-coll//ab/@xml:id => distinct-values()"/>
+                <xsl:variable name="ab-ids" as="item()+" select="$xml-coll//ab/@xml:id ! normalize-space() => distinct-values()"/>
+                 
                   <xsl:for-each select="$ab-ids">
-                     <table>
+                     <table> 
                         <tr>
                            <th>Asher edition</th> 
                            <th>Haddad edition</th>
                            <th>Adler edition</th>
                         </tr>
                          <tr>
-                           <td><xsl:apply-templates select="$Asher//ab[@xml:id = current()]"/></td>
-                           <td><xsl:apply-templates select="$Haddad//ab[@xml:id = current()]"/></td>
-                           <td><xsl:apply-templates select="$Adler//ab[@xml:id = current()]"/></td>
-                             
+                           <td class="rtl"><xsl:apply-templates select="$Asher//ab[@xml:id = current()]"/></td>
+                           <td class="rtl"><xsl:apply-templates select="$Haddad//ab[@xml:id = current()]"/></td>
+                           <td><xsl:apply-templates select="$Adler//ab[@xml:id = current()]"/></td> 
                          </tr>
                      </table> 
  
@@ -72,7 +68,7 @@
     
 <!--ebb: not sure whether we want this? 
  
-        <xsl:template match="lb">
+<xsl:template match="lb">
     <br/>
 </xsl:template>
 -->

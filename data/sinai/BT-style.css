@@ -1,2 +1,40 @@
-span.seg {outline: maroon solid 1px;}
-span.seg.highlight {background-color: #ffd270;}
+
+h1 {
+    text-align:center;
+    text-decoration:underline;
+}
+
+span.seg {
+    outline: maroon solid 1px;
+    display:inline-block;
+}
+span.seg.highlight {
+    background-color: #ffd270;
+    }
+
+table {
+    /*display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;*/
+    width: 100%;
+    border-style: groove;
+    
+}
+
+th.title {
+    text-align:left;
+   /* padding-left: 4%;*/
+}
+
+th#shift {
+    
+}
+
+td.rtl {
+    text-align: right;
+}
+
+td {
+    padding:1%;
+    border-left: 2px outset #ae9599;
+}
