@@ -68,14 +68,9 @@ I. Read and evaluate XML projects with XPath
 ___________________________________________________________
 
 ## Wednesday June 9, 2021
-* [Workshop Lessons + Exercises](https://ebeshero.github.io/UpTransformation/schedule.html)
-### Zoom Recording links:
-  
-https://psu.mediaspace.kaltura.com/media/DHSI+Course+12A+Processing+XML+and+TEI+into+WhatF/1_yzyi7rkl
-Alternate view: preserves the chat: 
-https://psu.zoom.us/rec/share/Xg9mz6lADzksNGd3pAslR7OCKnmi7q_J7P58LV5m5z3CpVII2yncvupQI2EVvuaz.ZQj7XroLg-2L62sO 
 
-From Syllabus Tuesday:
+### From Syllabus Tuesday:
+
 XPath and XQuery in eXist-db
 Housekeeping: documents, collections, and namespaces 
 In our back pockets:
