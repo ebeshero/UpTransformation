@@ -54,48 +54,68 @@ _______________________________________________________
 ## Tuesday June 8, 2021
 
 ### Starting point: 
+
 Launch  editor, hit Ctrl+u (Windows) or Cmd+u (MacOS), copy and paste the string http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml , and hit OK. (Backup copy at https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml .) This is a copy of Hamlet with TEI markup
-We are here: Syllabus Monday continued: 
-Exploring document structures and data with XPath
-XPath functions for numbers 
-XPath functions for sequences 
-Looking Stuff Up: XPath function signatures and cardinality 
+
+### Syllabus Monday continued: Exploring document structures and data with XPath
+
+B. XPath functions for numbers 
+
+C. XPath functions for sequences 
+
+D. Looking Stuff Up: XPath function signatures and cardinality 
 [...]
+
 F.  XPath predicates 
+
 G. Comparison 
+
 H. Odds and ends 
+
 I. Read and evaluate XML projects with XPath 
 ___________________________________________________________
 
 ## Wednesday June 9, 2021
 
-### From Syllabus Tuesday:
+### From Syllabus Tuesday: XPath and XQuery in eXist-db
 
-XPath and XQuery in eXist-db
 Housekeeping: documents, collections, and namespaces 
+
 In our back pockets:
+
 1. doc('/db/mitford/literary/Charles1.xml')//*[local-name()="stage"]
 2.  declare default element namespace "http://www.tei-c.org/ns/1.0"; 
+
 The seven types of nodes 
+
 Neglected XPath axes 
+
 Scavenger hunt 1 [Skip for now; Do this on your own later!]
+
 Break (?]
+
 Regex in XPath 
-(In our back pockets:
+
+In our back pockets:
+
 1. Regex solver:  https://regex101.com/
 2. Regex crosswords! https://regexcrossword.com/ 
- Introducing variables 
+
+Introducing variables 
+
 Introducing FLWOR 
+
 XQuery flow control 
+
 Writing XQuery in stages 
+
 Review XPath for loops; sequence and range variables (in ) [Skip for now; Do this on your own later!] 
+
 FLWOR statements in XQuery: how for works: Part 1 
+
 Break (?)
+
 FLWOR statements in XQuery: how for works: Part 2 
-
-
-
-
 
 Putting it all together: writing FLWORs to make new files 
 
