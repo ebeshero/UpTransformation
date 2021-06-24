@@ -37,13 +37,19 @@ How we'll conduct our class:
 * Posting Zoom recordings: here in the Google Doc
 
 ### Syllabus Monday: Introduction to XPath in eXist-db 
+
 A. Getting started with XPath and eXide
+
 B. Simple XPath expressions 
+
 C. XPath in &lt;oXygen/&gt;
+
 D. XPath path expressions
+
 E. XPath path steps
 
 ### Exploring document structures and data with XPath
+
 A. XPath functions for strings 
 
 _______________________________________________________
@@ -270,11 +276,12 @@ for $c at $pos in $ChasDPRs
 
 ______________________________
 
-### (Continuing with Syllabus Wednesday): XPath and XSLT
+### (Continuing with Syllabus Wednesday):Introduction to XPath in XSLT 
 
-Introduction to XPath in XSLT 
-Preparation for writing XSLT in  
-XSLT overview in `oXygen` 
+
+A. Preparation for writing XSLT in &lt;oXygen/&gt; 
+
+B. XSLT overview in &lt;oXygen/&gt; 
 
 UPDATE on B. 4.: 
 Let's use this new and better version of the xsl:output line:
@@ -283,7 +290,7 @@ Let's use this new and better version of the xsl:output line:
 <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" indent="yes"/>
 ```
 
-Group walk-through activity in &lt;oXygen/&gt;
+C. Group walk-through activity in &lt;oXygen/&gt;
 
 #### XSLT: Ozymandias non-namespaced XML  to HTML
 
@@ -354,8 +361,11 @@ Mia and I have been experimenting with transformations of code you've submitted 
 
 ### (Related course materials from our syllabus site): 
 ### Syllabus Wednesday: XPath and XSLT:
+
 E. From identity transformation to revision 
+
 F. Comparing XSLT and XQuery 
+
 G. Preparing XSLT to output HTML from TEI XML 
 
 ## Questions and Answers
