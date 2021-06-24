@@ -222,43 +222,50 @@ We'll also be ready to move to the XSLT debugger view for the next portion of th
 
 
 #### XQuery Script as written in oXygen, filtered and sorted
+
 ```xml
 xquery version "3.1";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare default element namespace "http://www.w3.org/1999/xhtml";
-
 (:  :declare default element namespace "http://www.tei-c.org/ns/1.0";
  : That is how we declare the namespace WITHOUT having to use a prefix later. :)
-declare variable $Chas as document-node() := doc('Charles1.xml');
+declare variable $Chas as document-node() := doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml');
 declare variable $ChasPlay as element() := $Chas/*;
 declare variable $ChasActs as element(tei:div)+ := doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div;
-declare variable $MitfordSI as document-node() := doc('si.xml');
-  
+declare variable $MitfordSI as document-node() := doc('https://digitalmitford.org/si.xml');
+
+<html>
+	<head><title>Mitford Charles I Place Geo Table </title></head>
+    
+	<body>
+   	 
+    	<h1>Places in Charles I</h1>
+    	<table>
+        	<tr><th>Number</th> <th>Place Reference</th>  <th>Geo Coordinates</th>  </tr>
+
+{
 let $places := $MitfordSI//tei:placeName
 let $Chasplaces := $Chas//tei:placeName
 let $ChasPlaceRefs := $Chasplaces/@ref ! normalize-space()
-let $ChasDPRs := $ChasPlaceRefs => distinct-values() => sort()
-let $onlyCs := 
-      for $r in $ChasDPRs
-      let $Cval := $r[starts-with(., '#C')]
-      return $Cval
-      
-for $c at $pos in $onlyCs
-    let $cMatch := substring-after($c, '#')
-    let $SImatch := $MitfordSI//*[@xml:id = $cMatch]
-    let $geo := ($SImatch//tei:geo ! string())[1]
-    (: ebb: we commented out the next two lines because we found a better way to sort and filter before the big for loop begins. :)
-    (: where $cMatch ! starts-with(., 'C') :)
-    (:order by $cMatch :) 
+let $ChasDPRs := $ChasPlaceRefs => distinct-values()
+for $c at $pos in $ChasDPRs
+	let $cMatch := substring-after($c, '#')
+	let $SImatch := $MitfordSI//*[@xml:id = $cMatch]
+	let $geo := ($SImatch//tei:geo ! string())[1]
    return
-        (:($pos || ': ' || $cMatch || ': ' || $geo) :)
+    	(:($pos || ': ' || $cMatch || ': ' || $geo) :)
   (: return concat($pos, '. ', $cMatch, ': ', $geo) :)
+
+<tr>
+	<td>{$pos}</td>   <td>{$cMatch}</td>   <td>{$geo}</td>
+    
+</tr>
+
 
 }
 
-Number	Place Reference	Geo Coordinates
-{$pos}	{$cMatch}	{$geo}
-
+</table>
+</body>
+</html>
 ```
 
 ______________________________
