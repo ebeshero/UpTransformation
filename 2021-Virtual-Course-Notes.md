@@ -2,7 +2,7 @@
 ## A workshop on XPath and its applications in XQuery and XSLT!
 ## Virtual DHSI 2021 Course 12
 ### taught by Elisa Beshero-Bondar, assisted by Mia Borgia 
-### When: Monday June 7 - Friday June 11, 2021
+### Monday June 7 - Friday June 11, 2021
 #### Three hours each day. Timezones:
 * 12 - 3pm Pacific Time
 * 3 - 6pm Eastern Time
