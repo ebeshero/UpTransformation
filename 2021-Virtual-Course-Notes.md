@@ -24,8 +24,7 @@
 
 
 ## Monday June 7, 2021
-### What we'll cover today
-##### Intros and housekeeping
+### Intros and housekeeping
 How we'll conduct our class:
 * Are we okay with cams on?
 * Introducing us instructors! 
