@@ -37,16 +37,15 @@ How we'll conduct our class:
 * REMINDING Mia/Elisa to hit the RECORD button! 
 * Posting Zoom recordings: here in the Google Doc
 
-Syllabus Monday
-Introduction to XPath in eXist-db and 
-Getting started with XPath and eXide
-Simple XPath expressions 
-XPath in 
-XPath path expressions
- *****5 minute break****   
-XPath path steps
-Exploring document structures and data with XPath
-XPath functions for strings 
+### Syllabus Monday: Introduction to XPath in eXist-db 
+A. Getting started with XPath and eXide
+B. Simple XPath expressions 
+C. XPath in &lt;oXygen/&gt;
+D. XPath path expressions
+E. XPath path steps
+
+### Exploring document structures and data with XPath
+A. XPath functions for strings 
 
 _______________________________________________________
 
@@ -64,7 +63,6 @@ B. XPath functions for numbers
 C. XPath functions for sequences 
 
 D. Looking Stuff Up: XPath function signatures and cardinality 
-[...]
 
 F.  XPath predicates 
 
@@ -79,45 +77,40 @@ ___________________________________________________________
 
 ### From Syllabus Tuesday: XPath and XQuery in eXist-db
 
-Housekeeping: documents, collections, and namespaces 
+A. Housekeeping: documents, collections, and namespaces 
 
-In our back pockets:
+  * Some alternative ways to work with and around namespaces (besides those shown in our course materials):
+     1. doc('/db/mitford/literary/Charles1.xml')//*[local-name()="stage"]
+     2.  declare default element namespace "http://www.tei-c.org/ns/1.0"; 
 
-1. doc('/db/mitford/literary/Charles1.xml')//*[local-name()="stage"]
-2.  declare default element namespace "http://www.tei-c.org/ns/1.0"; 
+B. The seven types of nodes 
 
-The seven types of nodes 
+C. Neglected XPath axes 
 
-Neglected XPath axes 
+D. Scavenger hunt 1 [Skip for now; Do this on your own later!]
 
-Scavenger hunt 1 [Skip for now; Do this on your own later!]
+F. Regex in XPath 
 
-Break (?]
+   * Handy/fun regex resources;
 
-Regex in XPath 
+      1. Regex solver:  https://regex101.com/
+      2. Regex crosswords! https://regexcrossword.com/ 
 
-In our back pockets:
+G. Introducing variables 
 
-1. Regex solver:  https://regex101.com/
-2. Regex crosswords! https://regexcrossword.com/ 
+H. Introducing FLWOR 
 
-Introducing variables 
+### XQuery flow control 
 
-Introducing FLWOR 
+A. Writing XQuery in stages 
 
-XQuery flow control 
+B. Review XPath for loops; sequence and range variables (in ) [Skip for now; Do this on your own later!] 
 
-Writing XQuery in stages 
+C. FLWOR statements in XQuery: how for works: Part 1 
 
-Review XPath for loops; sequence and range variables (in ) [Skip for now; Do this on your own later!] 
+E. FLWOR statements in XQuery: how for works: Part 2 
 
-FLWOR statements in XQuery: how for works: Part 1 
-
-Break (?)
-
-FLWOR statements in XQuery: how for works: Part 2 
-
-Putting it all together: writing FLWORs to make new files 
+F. Putting it all together: writing FLWORs to make new files 
 
 
 #### On the newtfire.org eXist-dB: text output in the return window:
@@ -199,7 +192,7 @@ ___________________________________________________________
 ## Thursday June 10
 
 ### Finish XQuery flow control 
-### E. FLWOR statements in XQuery: how for works: Part 2 
+E. FLWOR statements in XQuery: how for works: Part 2 
 [Write XQuery in oXygen this time, and experiment with sorting outputs.]
 
 #### Working with XQuery in the oXygen XML Editor:
@@ -284,9 +277,7 @@ Let's use this new and better version of the xsl:output line:
 <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" indent="yes"/>
 ```
 
-Group walk-through activity in  
-
-
+Group walk-through activity in &lt;oXygen/&gt;
 
 #### XSLT: Ozymandias non-namespaced XML  to HTML
 
@@ -355,10 +346,11 @@ Mia and I have been experimenting with transformations of code you've submitted 
 3. Sinai:  aligned reading view of three languages. xsl:for-each and xsl:choose
 4. Katia: Pull processing, and which is better for the task? XQuery vs. XSLT to make the same output (a data table of dialogue types). 
 
-(Break)
-From identity transformation to revision 
-Comparing XSLT and XQuery 
-Preparing XSLT to output HTML from TEI XML 
+### (Related course materials from our syllabus site): 
+### Syllabus Wednesday: XPath and XSLT:
+E. From identity transformation to revision 
+F. Comparing XSLT and XQuery 
+G. Preparing XSLT to output HTML from TEI XML 
 
 ## Questions and Answers
 
