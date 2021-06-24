@@ -435,23 +435,26 @@ Think about why: In Python and JS, the single `=` is used to assign a value to v
 ```xml
 declare variable $collection as document-node()+ := collection('filepath/to/collection/');
 
-   
-        ....
-        ....
-         
+   <html>
+        <head>....</head>
+        <body>....</body>
+         <table>
+                <tr> 
+                    <th>Number</th><th>Thing</th>
+                </tr>
             {
                let $things := $collection//some/xpath/that/leads/to/your/data
                for $t at $pos in $things
                return
-                  
+                  <tr> 
+                    <td>{$pos}</th><th>{$t}</th>
+                </tr>
            }
-      
-Number	Thing
-{$pos}	{$t}
-   
+      </table>
+   </body>
+</html>
 ```
                   
-
 * Q: What is the difference between declaring a namespace or simply using the prefix?
   A: Sometimes it is worth keeping the prefix for certain types of projects, for the purpose of mindfulness or even philosophical reasons - but for simplicity, declaring a namespace is usually preferred if you aren’t working with multiple namespaces and syntax rules TLDR: depends on the complexity of your project!
 
