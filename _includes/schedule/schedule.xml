@@ -843,7 +843,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                             <example>The value after <code>as</code> specifies the <emph>data
                                     type</emph>. It is optional, but strongly recommended. <examples>
                                     <example>Other common values include <code>xs:string</code> or
-                                            <code>xs:integer()</code>.</example>
+                                            <code>xs:integer</code>.</example>
                                     <example>May also include <emph>repetition indicators</emph>,
                                         e.g., <code>declare variable $ChasActs as element(tei:div)+
                                             :=
@@ -907,7 +907,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                         doc('/db/mitford/si.xml');</code> or-->
                                     <code>declare variable $si as document-node() :=
                                         doc('https://digitalmitford.org/si.xml'); </code> and
-                                        <code>declare variable $si as document-node() :=
+                                        <code>declare variable $Chas as document-node() :=
                                         doc('https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml'); </code>
                                     <code>declare</code> statements must appear at the beginning of
                                     the XQuery script.</answer>
@@ -961,7 +961,7 @@ return $b except $a (: returns items in $b that are not in $a :)</answer></examp
                                         <answer><code>for $i in //person[contains(birth,
                                         "Scotland")] return $i</code> or
                                         <code>//person[contains(birth, "Scotland")]</code>. You
-                                    should return 30 <code>&lt;person&gt;</code>
+                                    should return 45 <code>&lt;person&gt;</code>
                                 elements.</answer></example>
                             <example>Now, modify that example to return the <code>@xml:id</code>
                                 attributes of the <code>&lt;person&gt;</code> elements. <answer>For
