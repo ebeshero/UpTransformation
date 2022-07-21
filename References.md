@@ -10,7 +10,7 @@
 
 ## Books and links
 
-Our own teaching materials are available at [Obdurodon](http://dh.obdurodon.org) and [Newtfire](http://dh.newtfire.org).
+Our own teaching materials are available at [Obdurodon](http://dh.obdurodon.org) and [Newtfire](https://newtfire.org/courses/).
 
 ### XPath
 
