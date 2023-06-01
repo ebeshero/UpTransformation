@@ -2,9 +2,9 @@
 <?xml-model href="schedule.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
-    <day d="Monday, June 11">
+    <day d="Monday, June 5">
         <title>XPath</title>
-        <slot time="10:15:00">
+        <slot time="10:30:00">
             <title>Introduction to XPath in eXist-db and &lt;oXygen/&gt;</title>
             <act time="PT15M">
                 <desc>Getting started with XPath and eXide</desc>
@@ -150,7 +150,7 @@
                         triangle.</item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT30M">
                 <desc>XPath path expressions</desc>
                 <details>
                     <item>An XPath <emph>path expression</emph> is a sequence of steps, each of
@@ -187,6 +187,9 @@
                         behind the scenes (eXide does not).</item>
                 </details>
             </act>
+        </slot>
+        <slot time="13:00:00">
+            <title>Exploring document structures and data with XPath</title>
             <act time="PT25M">
                 <desc>XPath path steps</desc>
                 <details>
@@ -260,9 +263,6 @@
                         </examples></item>
                 </details>
             </act>
-        </slot>
-        <slot time="13:30:00">
-            <title>Exploring document structures and data with XPath</title>
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
                 <details>
@@ -377,7 +377,7 @@
                                 <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT20M">
                 <desc>XPath functions for sequences</desc>
                 <details>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"
@@ -419,6 +419,9 @@
                         </examples></item>
                 </details>
             </act>
+            <act time="PT15M">
+                <desc>Break</desc>
+            </act>
             <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
@@ -435,9 +438,6 @@
                     <!--<item>Mozilla Development Network (MDN):
                             <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
-            </act>
-            <act time="PT10M">
-                <desc>Break</desc>
             </act>
             <act time="PT20M">
                 <desc>XPath predicates</desc>
@@ -498,7 +498,7 @@
                         </examples></item>-->
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT30M">
                 <desc>Read and evaluate XML projects with XPath</desc>
                 <details>
                     <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
@@ -548,7 +548,7 @@
             </act>
         </slot>
     </day>
-    <day d="Tuesday, June 12">
+    <day d="Tuesday, June 6">
         <title>XPath and XQuery</title>
         <slot time="09:00:00">
             <title>XPath and XQuery in eXist-db</title>
@@ -579,19 +579,19 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT20M">
                 <desc>The seven types of nodes</desc>
                 <details>
-                    <item><code>document()</code></item>
-                    <item><code>element()</code></item>
-                    <item><code>attribute()</code><examples>
+                    <item>Document (<code>document-node()</code>)</item>
+                    <item>Element (<code>element()</code>)</item>
+                    <item>Attribute (match with XPath node <code>attribute()</code>)<examples>
                             <example><code>collection('/db/apps/shakespeare/data/')//tei:sp/@who</code></example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-string"
                                     >collection('/db/apps/shakespeare/data/')//tei:sp/@who/string()</code></example>
                         </examples>
                     </item>
-                    <item><code>text()</code> (not a function; not to be confused with
+                    <item>Text (<code>text()</code>; not a function; not to be confused with
                             <code>string()</code>)<examples>
                             <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>
                                 (Mary Russell Mitford’s <emph>Charles the First</emph>) </example>
@@ -605,11 +605,12 @@
                                     direction</answer></example>
                         </examples>
                     </item>
-                    <item>Rarely used: <code>comment()</code>, <code>namespace()</code>,
-                            <code>processing-instruction()</code></item>
+                    <item>Rarely used: comment (<code>comment()</code>), processing instruction
+                            (<code>processing-instruction()</code>)</item>
+                    <item>Deprecated: namespace (<code>namespace-uri())</code></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT20M">
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code>, <code>following::</code><examples>
@@ -634,8 +635,8 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT40M">
-                <desc> Scavenger hunt 1</desc>
+            <act time="PT25M">
+                <desc>Scavenger hunt 1</desc>
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
@@ -654,6 +655,19 @@
                                     or
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer>
                             </example>
+                        </examples></item>
+                </details>
+            </act>
+            <act time="PT15M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT15M">
+                <desc>Scavenger hunt 2</desc>
+                <details>
+                    <item>Work with the Digital Mitford Site Index posted in eXist at
+                            <code>/db/mitford/si.xml</code> or the official version at its external
+                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
+                        following? <examples>
                             <example>Without knowing the names of the elements that are members of
                                 lists, you can tell that all follow the same XPath pattern. What is
                                 it?
@@ -677,10 +691,7 @@
                     </item>
                 </details>
             </act>
-            <act time="PT10M">
-                <desc>Break</desc>
-            </act>
-            <act time="PT35M">
+            <act time="PT30M">
                 <desc>Regex in XPath</desc>
                 <details>
                     <item><code>contains()</code> vs. <code>matches()</code><examples>
@@ -746,7 +757,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT10M">
+            <act time="PT15M">
                 <desc>Introducing variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
@@ -767,7 +778,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT30M">
                 <desc>Introducing FLWOR</desc>
                 <details>
                     <item><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
@@ -790,7 +801,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 </details>
             </act>
         </slot>
-        <slot time="13:30:00">
+        <slot time="13:00:00">
             <title>XQuery flow control</title>
             <act time="PT30M">
                 <desc>Scavenger Hunt 2: in XQuery this time.</desc>
@@ -837,7 +848,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT30M">
                 <desc>Review XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
@@ -868,7 +879,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT30M">
                 <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
                     1</desc>
                 <details>
@@ -898,9 +909,8 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT10M">
+            <act time="PT15M">
                 <desc>Break</desc>
-
             </act>
             <act time="PT30M">
                 <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
@@ -955,7 +965,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT45M">
                 <image size="icon"
                     alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                     >flower.jpg</image>
@@ -987,7 +997,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             </act>
         </slot>
     </day>
-    <day d="Wednesday, June 13">
+    <day d="Wednesday, June 7">
         <title>XPath and XSLT</title>
         <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
@@ -1005,28 +1015,36 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT60M">
+            <act time="PT15M">
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
-
                     <item>XSLT (eXtensible Stylesheet Language Transformations): an XML document
                         with special namespaced elements designed to process XML documents</item>
+                    <item>A <emph>declarative programming language</emph>. Not written to be
+                        executed in a line-by-line order. Template elements (or <emph>template
+                            rules</emph>) do the work, but can be written in any order. </item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
                         with <code>&lt;xsl:template&gt;</code> children.</item>
-                    <item>Housekeeping: Namespaces and where they matter (<q>It’s always a namespace
-                            issue.</q>) <examples>
-                            <example><code>xsl:</code>: distinguishes the XSLT elements</example>
-                            <example>Namespaced input: set <code>xpath-default-namespace</code> on
-                                the xsl:stylesheet:
-                                    <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
-                            </example>
-                            <example>Namespaced output: set
-                                    <code>xmlns="http://www.w3.org/1999/xhtml"</code>
-                            </example>
-                        </examples>
+                </details>
+            </act>
+            <act time="PT15M">
+                <desc>Housekeeping: namespaces</desc>
+                <details>
+                    <item>Namespace for XSLT elements: <code>xsl:</code>: distinguishes the XSLT
+                        elements</item>
+                    <item>Namespace for input: set <code>xpath-default-namespace</code> on the
+                            <code>&lt;xsl:stylesheet&gt;</code>:
+                            <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
                     </item>
-                    <item>More housekeeping: <code>xsl:output</code> attributes:
-                            <code>@method</code>, <code>@indent</code>,
+                    <item>Namespace for the output output: set
+                            <code>xmlns="http://www.w3.org/1999/xhtml"</code>
+                    </item>
+                </details>
+            </act>
+            <act time="PT15M">
+                <desc>Housekeeping: <code>&lt;xsl:output&gt;</code></desc>
+                <details>
+                    <item><code>@method</code>, <code>@indent</code>,
                             <code>@omit-xml-declaration</code>, <code>@doctype-system</code>
                         <examples>
                             <example><code>&lt;xsl:output method="xml" indent="no"
@@ -1036,10 +1054,11 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                                     omit-xml-declaration="yes"/&gt;</code></example>
                         </examples>
                     </item>
-                    <item>A <emph>declarative programming language</emph>. Not written to be
-                        executed in a line-by-line order. Template elements (or <emph>template
-                            rules</emph>) do the work, but can be written in any order. </item>
-
+                </details>
+            </act>
+            <act time="PT10M">
+                <desc>XSLT and templates, part 1</desc>
+                <details>
                     <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
                         The <code>@match</code> here is a special kind of XPath called an
                             <emph>XPath pattern</emph>, which could be found anywhere in the
@@ -1098,14 +1117,12 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
 
                 </details>
             </act>
-
-            <act time="PT10M">
+            <act time="PT15M">
                 <desc>Break</desc>
             </act>
             <act time="PT50M">
                 <desc>Identity transformation for making changes to an XML file</desc>
                 <details>
-
                     <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <examples>
                             <example>Open the url of our simple identity transformation starter:
@@ -1156,11 +1173,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <code>&lt;body&gt;</code></item>
                 </details>
             </act>
-
         </slot>
-        <slot time="13:30:00">
+        <slot time="13:00:00">
             <title>XSLT Activity</title>
-            <act time="PT70M">
+            <act time="PT90M">
                 <desc>TEI XML to HTML transformation</desc>
                 <details>
                     <item>Open the url of the Emily Dickinson Fascicle 16 file:
@@ -1173,12 +1189,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
                 </details>
             </act>
-
-
-            <act time="PT10M">
+            <act time="PT15M">
                 <desc>Break</desc>
             </act>
-            <act time="PT70M">
+            <act time="PT75M">
                 <desc>XSLT activity: Making a linked table of contents</desc>
                 <details>
                     <item>Continue working with the XSLT we are writing on the Emily Dickinson
@@ -1191,15 +1205,11 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples>
                     </item>
                     <item>How internal links work</item>
-
-
                 </details>
-
             </act>
-
         </slot>
     </day>
-    <day d="Thursday, June 14">
+    <day d="Thursday, June 8">
         <title>XPath and Schematron</title>
         <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
@@ -1222,7 +1232,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <code>&lt;report&gt;</code></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT25M">
                 <desc>Looking at Schematron</desc>
                 <details>
                     <item>Document analysis of our XML:
@@ -1255,7 +1265,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     <item>Associating Schematron with XML</item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>Schematron error reporting</desc>
                 <details>
                     <item>Schematron has the best error messages</item>
@@ -1298,7 +1308,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT10M">
+            <act time="PT15M">
                 <desc>Break</desc>
             </act>
             <act time="PT40M">
@@ -1342,7 +1352,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT30M">
                 <desc>The Three Stooges go to Schematron Summer Camp</desc>
                 <details>
                     <item>The Edge Case Saloon<examples>
@@ -1398,7 +1408,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                 </details>
             </act>
         </slot>
-        <slot time="13:30:00">
+        <slot time="13:00:00">
             <title>Schematron and external files</title>
             <act time="PT25M">
                 <desc>ID/IDREF validation</desc>
@@ -1480,10 +1490,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml</link></item>
                 </details>
             </act>
-            <act time="PT10M">
-                <desc>Break</desc>
-            </act>
-            <act time="PT15M">
+            <act time="PT20M">
                 <desc>Exploring Digital Mitford</desc>
                 <details>
                     <item>Project site: <link>http://digitalmitford.org</link></item>
@@ -1497,7 +1504,10 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT15M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT35M">
                 <desc>Hamilton 1823-04-09 letter</desc>
                 <details>
                     <item>Letter <examples>
@@ -1517,7 +1527,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT40M">
                 <desc>Webb 1819-05-16 letter</desc>
                 <details>
                     <item>Letter <examples>
@@ -1542,92 +1552,17 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
             </act>
         </slot>
     </day>
-    <day d="Friday, June 15">
+    <day d="Friday, June 9">
         <title>Taking stock</title>
         <slot time="09:00:00">
             <title>Putting it all to work</title>
             <act time="PT1H">
-                <desc>XPath in up-conversion: Syriaca taxonomy</desc>
+                <desc>Hands on activity with participant data TBA</desc>
                 <details>
-                    <item>Project context: <link>http://syriaca.org/</link></item>
-                    <item>Planning ahead <examples>
-                            <example>Document analysis <examples>
-                                    <example>Google spreadsheet:
-                                            <link>https://docs.google.com/spreadsheets/d/1p9VMDrrM1N_TDrs7oTWHz2wekzu3j4HJOq09AAla2Pg/edit?usp=sharing</link>
-                                        <examples>
-                                            <example>Title for display (A)</example>
-                                            <example>Title for filename (E)</example>
-                                            <example>Terms (multiple languages) (O, P, Q, S, U, V,
-                                                X, Z)</example>
-                                            <example>Glosses (multiple languages) (I, J, K, L, M, N,
-                                                R, T, W, Y, AA)</example>
-                                            <example>Relations (AC, AD, AE, AF, AG, AH, AI, AJ, AK,
-                                                AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX,
-                                                AY, AZ, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK,
-                                                BL, BM, BN, BO, BP, BQ)</example>
-                                            <example>Identifiers (idno) (F, G, H)</example>
-                                            <example>Note (AB)</example>
-                                        </examples></example>
-                                    <example>TSV export:
-                                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.tsv</link></example>
-                                </examples></example>
-                            <example>Output specification</example>
-                        </examples>
-                    </item>
-                    <item><emph>Pull</emph> vs <emph>push</emph> processing</item>
-                    <item>Autotagging plain text with XSLT (<emph>upconversion</emph>) <examples>
-                            <example>XSLT:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/syriaca/Taxonomy.xsl</link></example>
-                            <example>Features<examples>
-                                    <example>Documentation (comments; 7)</example>
-                                    <example>Variables (<code
-                                            url="https://www.w3.org/TR/xslt-30/#variables"
-                                            >&lt;xsl:variable&gt;</code>; 26)</example>
-                                    <example>Typing with <code>@as</code> (variables, parameters,
-                                        functions; 26)</example>
-                                    <example>User-defined functions (<code
-                                            url="https://www.w3.org/TR/xslt-30/#stylesheet-functions"
-                                            >&lt;xsl:function&gt;</code>; 11)</example>
-                                    <example>Apply XSLT to non-XML input (<code
-                                            url="https://www.w3.org/TR/xpath-functions-31/#func-unparsed-text-lines"
-                                            >unparsed-text-lines()</code>; 26)</example>
-                                    <example>Omit input document specification (<code
-                                            url="https://www.w3.org/TR/xslt-30/#invoking-initial-template"
-                                            >&lt;xsl:template
-                                        name="xsl:initial-template"&gt;</code>; 61)</example>
-                                    <example><code
-                                            url="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"
-                                            >tokenize()</code> (44)</example>
-                                    <example><code
-                                            url="https://www.w3.org/TR/xpath-functions-31/#func-index-of"
-                                            >index-of()</code> (48) and the user-defined
-                                            <code>skos:index-of-starts-with()</code> (11)</example>
-                                    <example><code url="https://www.w3.org/TR/xslt-30/#message"
-                                            >&lt;xsl:message&gt;</code> (65)</example>
-                                    <example><code
-                                            url="https://www.w3.org/TR/xslt-30/#creating-processing-instructions"
-                                            >&lt;xsl:processing-instruction&gt;</code>
-                                        (75)</example>
-                                    <example>Test whether a value exists with
-                                            <code>&lt;xsl:if&gt;</code> before creating output<examples>
-                                            <example><code>&lt;xsl:if
-                                                  test="string-length(normalize-space($values[current()]))
-                                                  ne 0"&gt;</code> (228)</example>
-                                            <example>see esp. <code>&lt;listRelation&gt;</code>
-                                                (251)</example>
-                                        </examples></example>
-                                    <example><code
-                                            url="https://www.w3.org/TR/xslt-30/#creating-attributes"
-                                            >&lt;xsl:attribute&gt;</code> (275)</example>
-                                </examples></example>
-                        </examples></item>
-                    <item>Using the &lt;oXygen/&gt; Outline view with XML and XSLT</item>
-                    <item>Running saxon
-                            (<link>https://sourceforge.net/projects/saxon/files/Saxon-HE/</link>)
-                        from the command line <code>saxon -it Taxonomy.xsl</code></item>
+                    <item>Watch this space!</item>
                 </details>
             </act>
-            <act time="PT25M">
+            <!--<act time="PT25M">
                 <desc>Resources and references</desc>
                 <details>
                     <item><link>https://ebeshero.github.io/UpTransformation/References.html</link></item>
@@ -1681,7 +1616,8 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            -->
+            <act time="PT15M">
                 <desc>Retrospective</desc>
             </act>
         </slot>
