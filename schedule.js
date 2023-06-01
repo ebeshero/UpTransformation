@@ -16,13 +16,13 @@ function init() {
     }
 }
 function expand() {
-    var sections = document.querySelectorAll('section > ul > li > ol');
+    var sections = document.querySelectorAll('section > ol > li > ol');
     for (var i = 0, length = sections.length; sections[i]; i++) {
         sections[i].style.display = 'block';
     }
 }
 function collapse() {
-    var sections = document.querySelectorAll('section > ul > li > ol');
+    var sections = document.querySelectorAll('section > ol > li > ol');
     for (var i = 0, length = sections.length; sections[i]; i++) {
         sections[i].style.display = 'none';
     }

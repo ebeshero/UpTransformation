@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0094::Charles R. and Jane A. Thompsen World War II airplane gunner films)//EN" encodinganalog="identifier" identifier="80444/xv19213" url="http://archiveswest.orbiscascade.org/ark:/80444/xv19213">UUM_A0094</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Charles R. and Jane A. Thompsen World War II airplane gunner films
+				<date era="ce" calendar="gregorian" normal="1942" certainty="approximate" encodinganalog="date">circa 1942</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Thompsen (Charles R. and Jane A.) World War II airplane gunner films</titleproper>
+        <author encodinganalog="creator">Finding aid created by Molly Creel</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0094</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Thompsen, Charles R.</persname>
+      </origination>
+      <unittitle encodinganalog="title">Charles R. and Jane A. Thompsen World War II airplane gunner films</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1942" certainty="approximate" encodinganalog="date">circa 1942</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">7 16mm films</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Charles R. and Jane A. Thompsen World War II airplane gunner films (circa 1942) consist of seven short clips of 16mm film recorded from a gun turret on an airplane during combat.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <scopecontent encodinganalog="description">
+      <p>The Charles R. and Jane A. Thompsen World War II airplane gunner films (circa 1942) consist of seven short clips of 16mm film recorded from a gun turret on an airplane during combat.  The clips were likely filmed on scraps of 16mm left over at the end of several different reels.  All seven clips have been digitized and are available for viewing on a single DVD.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Charles R. and Jane A. Thompsen World War II airplane gunner films must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Charles R. and Jane A. Thompsen World War II airplane gunner films A0094,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0094.</p>
+    </prefercite>
+    <processinfo>
+      <p>Processed by Molly Creel in 2011.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Charles R. and Jane A. Thompsen photograph collection (P1637).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">World War II</subject>
+      <subject encodinganalog="subject" source="lcsh">Airplanes</subject>
+      <subject encodinganalog="subject" source="lcsh">Home movies</subject>
+      <subject altrender="nodisplay" source="archiveswest">Military</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1-7</container>
+          <unittitle encodinganalog="title">World War II airplane gunner films</unittitle>
+          <unitdate>circa 1942</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>Seven very short home movie clips shot from the window of an airplane during combat in World War II.  Clear targets include a truck convoy and other airplanes, but images are often difficulat to distinguish.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:37 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0333::Willem J. Kolff audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv57766" url="http://archiveswest.orbiscascade.org/ark:/80444/xv57766">UUM_A0333</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Willem J. Kolff audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1949/1995" encodinganalog="date">1949-1995</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Kolff (Willem J.) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Mark Jensen, Debra Penman, Tawnya Mosier, and Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1999" encodinganalog="date">© 1999</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0333</unitid>
+      <unittitle encodinganalog="title">Willem J. Kolff audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1949/1995" encodinganalog="date">1949-1995</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="collector">Kolff, Willem J., 1912-</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">16mm films, 8mm films, U-Matic videocassettes, Betacam videocassettes, VHS videocassettes, audiocassettes, microcassettes, reel-to-reel audiotapes, phonograph records and dictaphone cards.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Willem J. Kolff audio-visual collection (1949-1995) consists of film, video and audio recordings relevant to Kolff's groundbreaking medical research into the development of artificial organs, including the artificial kidney and artificial heart.</abstract>
+      <langmaterial>Material in 
+        <language encodinganalog="language" langcode="eng">English</language>, 
+        <language encodinganalog="language" langcode="dut">Dutch</language> and 
+		<language encodinganalog="language" langcode="jpn">Japanese</language></langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Dr. Willem Johan Kolff (1911-2009) has been an internationally-known name in the world of medicine since 1957 when he began working on the total artificial heart at the Cleveland Clinic in Ohio. Known as the "Father of Artificial Organs", his pioneering spirit actually led him to make giant leaps in medicine long before he was so well-known.</p>
+      <p>Born February 14, 1911, in Leyden, The Netherlands, Dr. Kolff went to the University of Groningen for his residency in medicine during the German occupation. He started working on the artificial kidney in 1939, and became the first internist at a small hospital in Kampen, where he continued the work on the artificial kidney. The rotating drum kidney was developed in 1941, and by 1955 the twin-coil kidney had led to the possibility of dialysis worldwide. Work on the heart-lung machines began in 1948, and the first membrane oxygenators were used successfully in patients in 1955.</p>
+      <p>Dr. Kolff and his wife Janke had five children who were all born in the Netherlands. They immigrated to the United States in 1950. Here Dr. Kolff worked in the Research Department and the Department of Surgery of the Cleveland Clinicirca He worked on the artificial kidney, the heart lung machine, and invented the total artificial heart in 1957, one year after becoming a United States citizen. He became Scientific Director of Cleveland's Artificial Organ program, then moved to Utah in 1967 to direct the Division of Artificial Organs and the Institute for Biomedical Engineering at the University of Utah in Salt Lake City.</p>
+      <p>At the Division of Artificial Organs and the Institute for Biomedical Engineering, Dr. Kolff was in charge of teams working on artificial kidneys, artificial hearing, the artificial eye, artificial arm, the subcutaneous peritoneal access device, and the artificial heart. In 1982 Dr. Barney Clark received the first "permanent artificial heart" implanted in a human. This event made the University of Utah known throughout the world as the leader in artificial organ research.</p>
+      <p>Dr. Kolff has received more than a hundred awards, among these the prestigious Japan Prize in 1986. He has published more than six hundred articles. He has been active in social issues such as abortion rights and nuclear weapon protests, and has always been interested in nature and art.  He died February 11, 2009 in Philadelphia, Pennsylvania.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Willem J. Kolff audio-visual collection (1949-1995) consists of film, video and audio recordings relevant to Kolff's research into the development of artificial organs, including the artificial kidney and artificial heart.  Collection materials show the evolution of Kolff's artificial organs and include experiments, lectures, interviews, patient treatments, etcirca</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged roughly chronologically by subject matter.  Items detailing Kolff's work on the artificial kidney are followed by those focused on the artificial heart and then by material relevant to the development of other artificial organs and miscellaneous collection materials.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Willem J. Kolff papers (Ms 654) and photograph collection (PO343).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Mark Jensen, Debra Penman, Tawnya Mosier, and Elizabeth Shuput in 1999.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah--Faculty</corpname>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah--Division of Artificial Organs</corpname>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah--Institute for Biomedical Engineering</corpname>
+      <subject encodinganalog="subject" source="lcsh">Artificial kidney--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Heart, Artificial--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Heart, Mechanical--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Artificial arms--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Eyes, Artificial--Utah--History--Sources</subject>
+      <subject altrender="nodisplay" source="archiveswest">Medicine and Health</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Artificial kidney</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949-1975</unitdate>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The items concerned with the artificial kidney date from 1949, the year Kolff introduced the artificial kidney in Kampen, Netherlands, to 1975, as he was developing a wearable artificial kidney. Most of these materials show the evolution of the artificial kidney since 1949, with emphasis on the technical aspect of its use. Other subjects covered include recorded lectures and interviews, visual presentations, patient treatment, peritoneal lavage, single-needle dialysis and transplantation.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Artificial kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The gauges of an artificial kidney, the operation of coiled cellophane, connecting a calf with the artificial kidney, and an examination of the calfs kidney. Filmed in Kampen, Netherlands.  Ten minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Artificial kidney for the treatment of serious uremia</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The construction and use of one of the first artificial kidneys in Kampen, Netherlands. Included are scenes of Kampen, winding cellophane tubing around the artificial kidney drum the addition of salts to the rinsing fluid, and connecting the patient with the artificial kidney. Produced by A. Willering. 10 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3</container>
+            <unittitle encodinganalog="title">Commentary</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 November 03</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Narration by Dr. Kolff for item 101.  Kolff returns to Kampen, Netherlands and discusses his life's work.  See 101 for further details.  Nine minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">Disposable coil kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The manufacturing process and rolling by hand of a twin-coil artificial kidney. 12 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">Untitled film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Two reciprocating air pumps, close oxygenator, poly tank with rinsing fluid, heart suspended in funnel beating. Made by Cahill.  Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6</container>
+            <unittitle encodinganalog="title">Dialysis patient interviews</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958 April 17</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958 November 25-27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>These interviews were conducted in Cleveland, OH.</p>
+            <p>1 Joseph McLoskey, History 854396, age 55, no date given. The interviewer asks the patient about his appetite, physical and mental condition. The patient counts numbers and talks about reading the newspaper.</p>
+            <p>2 (Begins at counter 115.) Joanne Sears, History 853475, April 17, 1958. The interviewer asks the patient about her physical and mental condition, appetite, weight, age and walking ability. The patient counts numbers and talks about reading the newspaper.</p>
+            <p>3 (Begins at counter 287.) John Milligan, history 832707, November 25, 1958. This interview occurred before the patient's first dialysis, and includes a recording of his respiration. The interviewer asks about his mental and physical condition, age, location of interview, his breathing difficulties and appetite. The patient counts numbers. On November 27, the second day after dialysis, a second interview finds the patient hungry and discussing his pre-dialysis condition. A repeat copy of Milligan's interviews immediately follows, which is more complete than the first. 24 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">Dialysis patient interviews</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959 May 12</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Prepared at the Cleveland Clinicirca</p>
+            <p>1 Patient Harry Rogers discusses his emotional and physical state.</p>
+            <p>2 (Begins at counter 200.) Harry Rogers 24 hours after his first dialysis treatment. He discusses his memory, appetite, hunting, farming, and the alteration in his physical and mental condition. Seven minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">Dialysis patient interviews</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>These interviews are conducted by multiple physicians. They ask the patients about their memory, appetite, physical condition and emotional condition, both immediately after their first, second or third dialysis and a day later.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Uremia patient</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows patient demonstrating movement skills. Box reads "Patient in uremia; stroke hemiplegia; total renal cortical necrosis." Three minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Peritoneal lavage in the rat</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">July 19</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>With Calvin Cooper. This shows the weighing of a rat and the procedure of peritoneal lavage, including draining of the fluid and a detail of the abdominal attachment. Four minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Film made for The Mike Douglas Show</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows working artificial kidney with patients and medical personnel.</p>
+            <p>2 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Renal transplantation patients</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 January 23</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Renal transplant patients demonstrate their recovery by walking and doing light calisthenics on the roof and sun porch (of the Cleveland Clinic?). Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">Coil winding</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film shows the operation of a winding machine, a patient using an artificial kidney, and the later unwinding of the coil after use.</p>
+            <p>Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">Dixon: 1965 Polyneuritis (one year after transplantation)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955-1966</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film has two segments. The first shows a patient (Dixon?) in a wheelchair demonstrating arm movement and performing simple manual tasks, such as drinking and eating, with a close-up of his hands. The second segment shows the same patient getting out of his wheelchair, standing, and using crutches to walk. Four minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Child with nurse</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Two scenes of a child, approximately four to six years of age, in a hospital bed. The first segment shows a nurse in attendance. In the second, the child is recovering from abdominal or chest surgery. The carton reads "Little child playing with a doll and with chest bare showing Teflon coated tubes going into the chest..." Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">McConnor winding machine</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows how this winding machine is used to prepare coils for artificial kidney machines. Four minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">EZS loading</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970-75</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This shows medical personnel wrapping cellophane tubing around layers of boards, after which a patient is connected with the artificial kidney. Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">Single-needle dialysis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This shows the entire single needle dialysis procedure, including hookup to the machine, the pump, the bubble trap, a bolus of saline entering the bloodline, and disappearing saline in the blood line. The credits list W. J. Kolff and Klaus F. Kopp, M.D. Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">Single-needle dialysis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This is a slightly different version of item 18.</p>
+            <p>Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">Kidney machine and Dr. Kolff</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows Dr. Kolff demonstrating a kidney machine, kidney machine in use with patient, and Kolff at Building 512 at the University of Utah describing the artificial heart.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">Wearable artificial kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A discussion of progress in the development of a wearable artificial kidney, including a demonstration by Levi Porter and interviews with various unidentified researchers. Reported by Ed Yeates.  Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">22</container>
+            <unittitle encodinganalog="title">Dialysis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 "The First Dialysis Machine" is narrated by Dr. Kolff.  See also items 3, 101.</p>
+            <p>2 "Machine Dialysis: A Life Saver" is narrated and directed by Prof. Ed Daub. This film explains dialysis in a technological context, showing its first use in Kampen, Netherlands; the wearable artificial kidney today; arteriovenous shunt and fistula; and advances in dialysis machines. Includes comments from Dr. Weldon Shelp of Methodist Hospital, Madison, WI; nurse Anita Levin, social worker Joan Penrod, and dialysis patients Terry Oberly and Ed Lease. Produced by the Audio Visual Service of the College of Engineering, University of Wisconsin at Madison. 23 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">23</container>
+            <unittitle encodinganalog="title">Towards a wearable artificial kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film, narrated by Dr. Kolff, shows how a wearable artificial kidney could be compatible with the daily life of patients and demonstrates how the machine functions. The credits for the film list W. J. Kolff, M.D., director; S. J. Davidson, Ph. D., 'WAK designer;' E. Thor, M.D.; E Thor, M.D.; E. C. Bullock; D. Vandura; S. Hughes; H. R. Smith and D. Guestaveson. Ten minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">Wearable artificial kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film contains unused footage from item 23.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">Wearable artificial kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film contains unused footage from item 23.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">26</container>
+            <unittitle encodinganalog="title">Dr. Kolff speaking on the artificial kidney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975 November 04</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Brief and incomplete speech on hemodialysis regeneration systems.</p>
+            <p>2 Paper, "Towards a Wearable Artificial Kidney", given by Dr. Kolff, using film. Discusses operation of wearable artificial kidney, its components and their manufacture, and the artificial kidney's future.</p>
+            <p>3 Dr. Kolff interviews "Kathy," from Ogden, Utah, who uses an artificial kidney.</p>
+            <p>4 Dr. Kolff speaks about the benefits of the wearable artificial kidney and the specific case of "Levi," a dialysis patient. 32 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">27</container>
+            <unittitle encodinganalog="title">Dialysis symposium</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side A</p>
+            <p>Recording of a dialysis symposium (at National Kidney Foundation?) in New York. 32 minutes.</p>
+            <p>1 Opening remarks by ?? of the National Institute of Arthritis Metabolism and Digestive Diseases.</p>
+            <p>2 Presentation by Dr. Kolff on methods of dialysis and problem of removing urea in dialysis.</p>
+            <p>3 Discussion led by Dr. Kolff on improving patient treatment, frequency of dialysis, use of the gastro-intestinal tract for removal of urea.</p>
+            <p>Continued on side B.</p>
+            <p>Side B</p>
+            <p>1 Continuation of discussion on side A, number 3. 12 minutes.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Artificial heart</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958-1985</unitdate>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The items concernde with the artificial heart begin with Kolff's research into artificial heart valves in 1958. Films document the effect of thrombosis on different valve material and high speed photography is used to explore the strengths of different valves, in testing machines. The development of the Norton, or Solenoid, heart is shown in films documenting the insertion of this heart and the recovery of the animals used. Later films present the manufacture and use of a heart made from silasticirca Films made in the early 1960s document progress made in the artificial heart for other researchers, and films made in the 1970s show test animals and other aspects of work on the Jarvik heart at the University of Utah. Completing this section is a videocassette discussing a portable artificial heart driver.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="reel">28</container>
+            <unittitle encodinganalog="title">Heart valve studies, polyurethane II</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows artificial valves with high-speed photography.  The label lists "a torn valve, a rigid valve, a good valve, dog valve."</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">29</container>
+            <unittitle encodinganalog="title">Cineangiograms</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white and color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Cine-cardioangiography studies of a Norton heart in a dog. Six minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">30</container>
+            <unittitle encodinganalog="title">Short history of monocusp valve</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Valve and thrombosis studies.</p>
+            <p>2 Patches inside hearts. 3 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">31</container>
+            <unittitle encodinganalog="title">Seidel's valve</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows Seidel's valve on the removed heart of a dog that survived about twenty days, with thrombi on the atrial and ventricular sides.  One minute.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">32</container>
+            <unittitle encodinganalog="title">Seidel's valve (numbers 1, 2 and 3)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960 August 01</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>High speed photography of Seidel's valve with chordae tendineae in testing machine, with both straight-on and side views. 5 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">33</container>
+            <unittitle encodinganalog="title">Seidel's valve (numbers 4, 5 and 6)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960 August 01</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>High speed photography of Seidel's valve with chordae tendineae in testing machine, with both straight-on and side views. 5 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">34</container>
+            <unittitle encodinganalog="title">Seidel's valve (numbers 7, 8, 9 and 10)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960 August 01</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>High speed photography of Seidel's valve with chordae tendineae in testing machine, with both straight-on and side views. 4 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">35</container>
+            <unittitle encodinganalog="title">Mitral valve thrombosis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows thrombosis on artificial mitral valve of a dog heart.  1 minute.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">36</container>
+            <unittitle encodinganalog="title">Medicine</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988-1989</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This video is narrated in Japanese and was made for ASAHI. It is a tribute to Simon Flexner, an American pathologist, and Hideyo Noguchi, a Japanese bacteriologist who worked together at the Rockfeller University. There is footage from the Cleveland Clinic showing the insertion of an artificial heart in a cow as well as an interview with a medical personnel who discusses both the artificial heart and the artificial kidney. There is also footage of interviews with patients who where waiting for a donated heart followed by an interview with a patient with diabetes who received the second artificial heart implant ever.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">37</container>
+            <unittitle encodinganalog="title">AV patch thrombosis studies</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">30 March 1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Several segments, including "polyurethane, 7 days." One minute.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">38</container>
+            <unittitle encodinganalog="title">Valve testing, testing with dogs, and thrombosis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958-1961</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white and color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Plastic valve in valve-testing machine (circa 1958).</p>
+            <p>2 High speed photography of plastic valves.</p>
+            <p>3 High speed photography of normal dog valve.</p>
+            <p>4 Insertion of tricuspid polyurethane valve in the mitral orifice in a dog (circa 1958).</p>
+            <p>5 Defibrillation of the heart.</p>
+            <p>6 Similar dog after 35 days.</p>
+            <p>7 Angiocardiogram with injection of dye in the laboratory of Sones-Shirey.</p>
+            <p>8 Thrombosis on Teflon valves being peeled off (1959).</p>
+            <p>9 Norton heart pulsating while being held (1959).</p>
+            <p>10 Same heart inserted in a dog.</p>
+            <p>11 Following of contrast with image amplifier.</p>
+            <p>12 Dog with an air-driven heart inside the chest (1961). 9 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">39</container>
+            <unittitle encodinganalog="title">Cine-cardioangiography studies on a dog</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows studies and the dog recovering from surgery. Norton heart.  Six minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">40</container>
+            <unittitle encodinganalog="title">Pressure graphs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows several comparative graphs of ventricular and aortic pressure in a dog's aortic valve and an artificial aortic valve. One minute.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">41</container>
+            <unittitle encodinganalog="title">Untitled film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Two segments, the first of which is high speed photography of a heart valve, while the second is a cineangiocardiogram of artificial arteries (and heart?). One minute.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">42</container>
+            <unittitle encodinganalog="title">Heart valve thrombosis studies</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 High-speed photography of artificial valve in operation; peeling away of thrombi from Teflon heart valves, including a monocusp valve.</p>
+            <p>2 Angiogram of valve in operation.</p>
+            <p>3 Polyurethane monocusp after eight days.</p>
+            <p>4 Examination of atrioventricular patch; collagen and atrioventricular patch; Teflon.</p>
+            <p>5 Silastic valve after eleven days.</p>
+            <p>6 Silastic atrioventricular patch after eight days.</p>
+            <p>7 Examination of fibrinolysin and Teflon valves.</p>
+            <p>8 Angiograms of valves in operation. 7 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">43</container>
+            <unittitle encodinganalog="title">Thrombosis studies</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Examination of two hearts, one labeled '17 days' and the other labeled 'Dacron collagen.'</p>
+            <p>2 Examination of heart labeled '16 days' with Teflon valve. 3 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">44</container>
+            <unittitle encodinganalog="title">Teflon mitral heart valves</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>High speed photography of artificial valves in a testing machine.  10 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">45</container>
+            <unittitle encodinganalog="title">Teflon valves</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Same as item 44, except this film has numbered sequences.  10 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">46</container>
+            <unittitle encodinganalog="title">Valves in testing machine</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white and color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 View of testing machine.</p>
+            <p>2 Mitral valve in testing machine.</p>
+            <p>3 Mitral valve in heart of dead dog.</p>
+            <p>4 Mitral valve. Shows thrombosis after fifteen days.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">47</container>
+            <unittitle encodinganalog="title">Ball valve</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Several segments showing ball valve "instability." Three minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">48</container>
+            <unittitle encodinganalog="title">Flow studies in prosthetic heart valves</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Probably poduced at Cleveland Clinic.  National Aeronautics and Space Administration(NASA) high speed photography (500 fps) done at the Lewis Research Center.</p>
+            <p>1 Natural aorticirca</p>
+            <p>2 Teardrop (mitral).</p>
+            <p>3 Cross Jones (aortic).</p>
+            <p>4 Trapdoor (aortic).</p>
+            <p>5 Starr-Edwards (aortic).</p>
+            <p>6 Gott (mitral).</p>
+            <p>7 Hammersmith (aortic). 8 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">49</container>
+            <unittitle encodinganalog="title">Untitled film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Includes footage of the Bailey oxygenator, the pump of Clark&amp;Gollen, X-rays of dog chests, a diagram of the circulatory system, and dogs at play. Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">50</container>
+            <unittitle encodinganalog="title">Norton heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Footage of the Norton heart functioning externally and of two dogs with artificial hearts recovering from surgery. Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">51</container>
+            <unittitle encodinganalog="title">Cineangiogram</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Cineangiogram of counter pulsation with an intraortic balloon and post-mortem injections into descending aorta with Kolff pump.  Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">52</container>
+            <unittitle encodinganalog="title">Post-mortem study: Mr. Hawthorne</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Cineangiocardiograms. Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">53</container>
+            <unittitle encodinganalog="title">Angiogram</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Angiogram of a pumping balloon in a patient, post-mortem. Canister label identifies "Mr. Hawthorne." Ten minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">54</container>
+            <unittitle encodinganalog="title">Atrioventricular captions</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 "Aortic grafts with rough surfaces are covered with fibrin and stay patent. For valves use knitted Teflon."</p>
+            <p>2 "All of the right atrial patches were covered with thrombi. Thrombi were the most extensive 5-9 days after the operation; the largest were on the suture lines."</p>
+            <p>3 "Atrioventricular patches were free of thrombi when they had smooth surfaces." Three minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">55</container>
+            <unittitle encodinganalog="title">Polyurethane tricuspid valve in testing machine</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961 May</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Footage of rubber and polyurthane valves in a testing machine, made by Goodyear, Akron, Ohio. Each valve is identified by a product number and description. 8 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">56</container>
+            <unittitle encodinganalog="title">Oxygenator and artificial heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows assembly of a membrane oxygenator, an artificial heart operating externally, and a dog with an artificial heart. "This film was shown in Atlantic City at ASAID meeting; Kyestra and Moulopoulos; membrane oxygenator." Three minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">57</container>
+            <unittitle encodinganalog="title">Intracardiac thrombosis on plastics</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film discusses abdominal aortic grafts in dogs; tricuspid mitral Teflon valves and thrombi; atrial patches and thrombi; atrioventricular patches and thrombi; atrioventricular window patches and thrombi; atrioventricular smooth polyurethane patches with Dacron chordae tendineae; selection of chordae tendineae material; construction of and insertion of Seidel's valve; and conclusions on how to avoid thrombosis on artificial valves. This film was made with V. Mirkovitch, M. D.; T. Akutu, M. D.; and W. Seidel, M. D. and was produced by the Cleveland Clinic, Department of Artificial organs. It is narrated by Dr. Kolff.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">58</container>
+            <unittitle encodinganalog="title">Dog barking</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961 March 10</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Prepared at Cleveland Clinicirca This is a recording of a dog with a belloframe artificial heart barking, the sound of the air pump, and the sound of the artificial heart valves. Drs. Akutsu, Merkowitz and Seidel performed the operation. Six minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">59</container>
+            <unittitle encodinganalog="title">Artificial heart inside the chest</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958-61</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white and color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Valve in testing machine. Color regular film, then high speed film (1400 fps).</p>
+            <p>2 Norton heart in hand and in dog. Dog on image amplifier.</p>
+            <p>3 Pendulum heart in mock circulation. Blood is poured into the mock circulation to show its course.</p>
+            <p>4 Bellofram heart in mock circulation showing the two different hearts, right and left; the level in the venous reservoir stays constant with considerable flow.</p>
+            <p>5 Thrombosis on atrioventricular patches. The first is Teflon and the second is silastic, with thrombi growing along the legs and one thrombus under the patch.</p>
+            <p>6 NASA control tower with Wolfgang Seidel, Spyridon Moulopoulos, Sanborn recording equipment to left. The excursion of the pistons is shown on the scope.</p>
+            <p>7 Forty-eight potentiometers to define the shape of the electrical function of the NASA equipment. Recording of electrical function, resulting ventricular pressure, and blood flow as measured with a thermistor in the mock circulation.</p>
+            <p>Result of gentle ventricular pressure on the top of the aorta showing gentle flow and abrupt ventricular pressure showing abrupt flow, followed by another set of recordings with changes of electrical function and simultaneous changes in ventricular pressure due to a steep curve. The Akutsu heart pulsed gently, then pulsed abruptly so that it jumps on the table, then gently.</p>
+            <p>8 Norton air driven heart. Reciprocating air pump pumping the two ventricles with anti-suction bellows where the inlet and outlet to one ventricle are occluded by hand. The anti-suction bellows, or ballon, collapses during diastole.</p>
+            <p>9 Dog on the operating table five hours after insertion of a Bellofram heart inside the chest. Next, the dog on a platform eight hours after insertion. Next, the same dog ten hours after insertion.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">60</container>
+            <unittitle encodinganalog="title">Angiocardiograms</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Labeled "Dog 305 G." Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">61</container>
+            <unittitle encodinganalog="title">Old total heart procedure</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This presents the preparation of a calf for surgery and the removal of the calf's heart and its replacement with an artificial heart. Shows calf, later, in suspension, along with the monitoring equipment.  Eight minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">62</container>
+            <unittitle encodinganalog="title">Calf experiments 1 and 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 October-November</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film shows Dr. Kolff with a calf that is recovering from installation of an artificial heart; the interior of the laboratory and monitoring equipment; the calf drinking water; the calf in suspension hammock with the medical team. 7 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">63</container>
+            <unittitle encodinganalog="title">Artificial heart In chest</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959-1964</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white and color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Tricuspid valve in mock circulation. Ordinary movie with high-speed factors.</p>
+            <p>2 Electromotor driven, pendulum type heart in mock circulation.</p>
+            <p>3 Dog on table with chest closed and solenoid driven heart inside. Its own heart shows mitral valve inside. Cineangiocardiograms of same (Sones, 1959).</p>
+            <p>4 Seidel and Moulopoulos on NASA time scope.</p>
+            <p>5 Forty-eight potentiometers. Also, quiet pumping and turbulent pumping.</p>
+            <p>6 Dog on table waking up from anesthesia, 1961.</p>
+            <p>7 Tricuspid mitral valves made of Teflon patches in the ventricles.</p>
+            <p>Atrioventricular window patch.</p>
+            <p>8 Manufacturing of Silastic heart. Cerrotru mold with the ball valves inside are being layered. Finished product (right ventricle).</p>
+            <p>9 Calf being given water and in suspension.</p>
+            <p>10 Heart with anti-suction bellows added. 11 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">64</container>
+            <unittitle encodinganalog="title">Pendulum in mock circulation</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 Pendulum heart in mock circulation. Filling with blood to show sequence of flow.</p>
+            <p>2 Layering of Silastic hearts. First, cerrotru molds, then balls in place. Next, layering with Silasticirca Right and left sides.</p>
+            <p>3 NASA Tower. Scope movement of the ventricles.</p>
+            <p>4 Black calf on table given water from a syringe.</p>
+            <p>5 Brown calf suspended with adhesive tape</p>
+            <p>6 Black calf with a heart driven by a fluid amplifier trying to run. Suspended with bone pins.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">65</container>
+            <unittitle encodinganalog="title">Fluid amplifier heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows artificial heart pumping in a chest. One minute.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">66</container>
+            <unittitle encodinganalog="title">Artificial heart inside the chest 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964-65</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Sequence: Plaster ventricular cavity molds; right atrial and ventricular molds by electroplating; rotational cavity molding PUC of hollow molds; plastic parts (atrium, ventricle, aorta); valve molds; completed heart (first model); sewing rings for atrium attachment; mock circulation; dead dog--heart placement; first in a live dog, December 12, 1957; wooden model of solenoid heart; actual solenoid heart; mock circulation; dog with solenoid heart; cineangiocardiogram of solenoid heart; back view of solenoid pump; solenoid pump in mock circulation; polyurethane working techniques; polyurethane valves; corrugated vessels; dip molding polyurethane ventricles; removing polyurethane parts from model; plastic parts for solenoid pump; cineangiocardiogram of valve in a dog; and view of solenoid. 25 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">67</container>
+            <unittitle encodinganalog="title">Artificial heart inside the chest 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Sequence: Pendulum heart in mock circulation; close-up of pendulum; air driven hearts; NASA control equipment; wave form of driving air pressure; demonstration of recoil due to abrupt driving air pressure; dog with heart in chest.  Wires being repaired; NASA control equipment and recorders, Seidel and Molopoulous; dog coming out of anesthesia with an artificial heart; Norton reciprocating air pump; Norton hearts, right and left; Norton drive (newer model); vacuum control system, anti-suction bellows; devcon master molds for Silastic hearts; molding technique for RTV Silastic; removal of molds; inside of molds; making of metal disposable casts; assembly of casts; layering of silastic on metal molds; completed Silastic heart with coils; Holter company; Holter injection molds; finishing disposable metal molds; removal of metal mold by melting; assembly of artificial heart; testing air driven artificial hearts in mock circulation; recording equipment; calf with artificial heart; tracing; and calf drinking water. 32 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">68</container>
+            <unittitle encodinganalog="title">Artificial heart inside the chest</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Sequence: Testing of valves; testing machine; tricuspid valve on high speed pictures; bad valve in tester; natural valve of a dog in testing machine; polyurethane valves; placement of a tricuspid valve in a dog (natural heart); cineangiocardiogram of mitral in a dog; rubber valves in testing machine; valve in a natural heart showing clot; plastic patches for clot investigation; clots in plastic valve in a dog's heart; woven Teflon valves, clotted. 20 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">69</container>
+            <unittitle encodinganalog="title">Artificial heart inside the chest</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A compilation recording of items 66 and 67. 60 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">70</container>
+            <unittitle encodinganalog="title">Fluid amplifier heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows the activities of a calf in suspension.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">71</container>
+            <unittitle encodinganalog="title">Left heart bypass</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film shows segments of bypass surgery on a sheep, using an external heart machine. 7 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">72</container>
+            <unittitle encodinganalog="title">Animal suspension and artificial heart re-circulation</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960-1966</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Demonstrates the older method of suspending an animal while it is recovering from installation of an artificial heart. This also shows a type of artificial heart in a re-circulation position outside of the animal. 3 minutes</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">73</container>
+            <unittitle encodinganalog="title">Artificial heart implant test film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 August 18</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Footage of the implantation of an artificial heart; footage of a calf connected to monitoring equipment and in suspension. Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">74</container>
+            <unittitle encodinganalog="title">Artificial heart control system</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film discusses the functioning of the artificial heart; the control system developed by NASA; the components of that system; and how it works. Written by Michael J. Crosby and Kirby W. Hiller; produced by NASA (film serial C247). 17 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">75</container>
+            <unittitle encodinganalog="title">Artificial heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969</unitdate>
+            <physdesc>
+              <genreform>8mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This is a copy of an 8mm film made by Albert Kolff showing Dr. Kolff and building 512 at the University of Utah and at a meeting; the manufacture of an artificial heart; mock circulation; surgery and monitoring equipment.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">76</container>
+            <unittitle encodinganalog="title">Artificial heart insertion</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows medical personnel in conference, operating room and surgery footage of artificial heart insertion in a calf.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">77</container>
+            <unittitle encodinganalog="title">Total heart replacement in aheep</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 March</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The sheep who is operated on in this film is identified as TR 4 -70. This film shows the intibation and preparation of the sheep followed by the opening of the chest, the bypassing of the heart, pulsatile return, dissection of the heart, insertion of the artery connector also known as the flow probe, insertion of the aortic connector, viewing of the right atrium, and the connection of the right then left ventricles. It then shows the heart pumping, the closing of the chest and the sheep recovering from the anesthesia.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">78</container>
+            <unittitle encodinganalog="title">Calves with artificial hearts</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 April 20</unitdate>
+            <physdesc>
+              <genreform>
+              </genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Six scenes of lab personnel feeding calf with artificial heart. Label on cage in film is TH 71 C11 F4. Canister label identifies "Pam, Kwan-G." Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">79</container>
+            <unittitle encodinganalog="title">Artificial Heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 April</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>One week survival of calf with an artificial heart. Includes section on hypothermia and a list of team members. Credited to University of Utah College of Medicine, Department of Surgery and the Institute of Biomedical Engineering. 10 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">80</container>
+            <unittitle encodinganalog="title">Operation footage</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 March 02</unitdate>
+            <physdesc>
+              <genreform>
+              </genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The canister is labeled "Hypothermia; Drs. Peters, Kawai, Zwart. The footage shows preparation for surgery, chest surgery on a calf and a process of immersing the calf in ice before surgery and water after surgery. Afterwards, the calf is seen recovering at 99 and 100 hours after the operation and there are views of the monitoring equipment.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">81</container>
+            <unittitle encodinganalog="title">Calf film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Three films:</p>
+            <p>A: H. Zwart and J. Kawai with calf attempting to insert endotracheal tube. Three minutes.</p>
+            <p>B: Shows University of Utah Building 512 (Division of Artificial Organs) and the Park Building. As well as, H. Zwart and J. Kawai with a calf in the recovery cage. Views of monitoring equipment. Three minutes.</p>
+            <p>C: The making a K-G diaphragm; Mixing of unidentified chemicals; and finally,</p>
+            <p>H. Zwart and J. Kawai giving water to a calf in the recovery cage.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">82</container>
+            <unittitle encodinganalog="title">Unlimited Future for the Artificial Heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 November 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This address, "Unlimited Future for the Artificial Heart, was presented by Dr. Kolf at a symposium on artificial organs at the California Institute of Technology, Pasadena, California. Kolff is introduced by Dave Yen. This recording was provided for Dr. Kolff by Dr. N. W. Tschoegl through the California Institute of Technology's Office of Public Relations.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">83</container>
+            <unittitle encodinganalog="title">Calf with artificial heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 February</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Canister label identifies TH72 C6 B6 DV4, "300 hr. calf." The film itself is labeled TH72 C10 B8 DC 5 AEC 2. The footage is of lab attendants working with calf, feeding it, getting it to stand. There are views of the monitoring equipment in the lab. Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">84</container>
+            <unittitle encodinganalog="title">Calf: 300 hours</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">March 1972</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Records a calf in a laboratory cage with a doctor and monitoring equipment. A sign in the scene denotes hours with the artificial heart as 289. The Calf eats and drinks. Five minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">85</container>
+            <unittitle encodinganalog="title">Calf with artificial heart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 March 07</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Canister identifies calf as TH 72 C10 B8 DC5 AEC2.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">86</container>
+            <unittitle encodinganalog="title">Sheep in surgery</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 February</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film shows the prepartion of a sheep for surgery, the insertion of a tracheal tube; chest surgery; monitoring equipment; preparing sheep for recovery; and the view of Salt Lake City from the Avenues. Made by Academy Production Co., Ltd; Suginami-Ku, Tokyo. Eight minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">87</container>
+            <unittitle encodinganalog="title">Implantation G7V7-4</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 February 23</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows surgery from an overhead viewpoint, in which a calf's (?) heart is removed and replaced with an artificial heart. 240 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">88</container>
+            <unittitle encodinganalog="title">Heart and portable driver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 January 16</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This videocassette shows the portable heart drive system, developed by Peter Heimes, and its operation in conjunction with the Jarvik 7 heart. Also, footage of the operating room during the installation of Barney Clark's artificial heart. Made by Symbion, Incirca 17 minutes.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Artificial Organs</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983-1985</unitdate>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>The section on other artificial organs includes material concerning work on the artificial arm and artificial ear at the University of Utah.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="cassette">89</container>
+            <unittitle encodinganalog="title">Artificial organs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1 "The Challenge of Artificial Organs" was made by Skyline Productions. Ontario, Canada, and includes views of the Dumke building; Dr. Kolff Speaking on his role and aims at the University of Utah; the Jarvik 7 heart and ventricular assist devices; the dialysis center and progress in dialysis; "Dialysis In</p>
+            <p>Wonderland" with John Warner and Lauraine Stephen; comments by Dr. Robert Jarvik on his artificial heart and drive mechanism; animal subjects; and Dr. Don Eddington and the artificial ear.</p>
+            <p>2 "The Utah Artificial Arm" shows Dr. Stephen L. Jacobsen explaining the operation of the artificial arm. The credits list the names of the engineering team led by Dr. Jacobsen. 47 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">90</container>
+            <unittitle encodinganalog="title">Artificial organs today</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side A</p>
+            <p>A recording of a speech made by Dr. Kolff at Accounting and Finance Conference. Topics include reminiscences of the Second World War, the invention of the artificial kidney and recovery rates; slide presentation on artificial kidney development; the wearable artificial kindney; patient selection; questions from audience concerning the cost of artificial organs; a discussion of the intraortic balloon pump; the Jarvik heart; Barney Clark and details of his case; and the artificial ear and eye. Kolff speaks out against increased United States militarization. Continued on side B. 45 minutes.</p>
+            <p>Side B</p>
+            <p>A continuation of side A. Two minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">91</container>
+            <unittitle encodinganalog="title">Interview with Scott Shepherd</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 January 08</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+              <physfacet>
+                Silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shepherd uses an "Ineraid" artificial ear. In this interview, he gives advice for others who could use the artificial ear and describes the level of "understanding" he has attained, as well as the quality of his life. Includes diagrams on how the "Ineraid" system works. Made by Symbion, Incirca Five minutes.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Miscellaneous items</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949-1995</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">92</container>
+            <unittitle encodinganalog="title">Artificial kidney in Korean War</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1953</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film documents use of an artificial kidney in military field hospitals during the Korean War. Shown are the 11th Evacuation Hospital, transfer of a patient from helicopter to hospital, his treatment by medical personnel, and the preparation and use of an artificial kidney. 30 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">93</container>
+            <unittitle encodinganalog="title">Heart research news</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Persented by the National Heart Institute. Narrated by Charles Rodgers and</p>
+            <p>produced by the Heart Information Center.</p>
+            <p>1 "Alpha-Methyl DOPA proves effective for hypertension."</p>
+            <p>2 "Countershocks saves hearts with abnormal rhythms."</p>
+            <p>3 "Diet modification shown practical in pilot study."</p>
+            <p>4 "Profile of aging emerging from unique National Heart Institute study."</p>
+            <p>5 "Conduction system locator helps lesser dangers of open-heart surgery."</p>
+            <p>6 "Computer monitoring of fetal ECG may save lives."</p>
+            <p>7 "Microscopy techniques help surgeons repair small blood vessels."</p>
+            <p>8 "New heart pump shows worth against heart attack."</p>
+            <p>9 "Artificial heart passes first experimental trials." 16 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">94</container>
+            <unittitle encodinganalog="title">Internal Medicine; Vol. XI, No. 17</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 Seotenver 07</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side A</p>
+            <p>Five papers on a variety of subjects.</p>
+            <p>Side B</p>
+            <p>A panel discussion held in Portland, Oregon, which discusses the issues of patient selection and funding for the artificial kidney. Participants are Belding H. Scribner, Professor of Medicine, University of Washington School of Medicine (Moderator); Dr. Kolff; John S. Murray, Clinical Director, Seattle Artificial Kidney Center, The Swedish Hospital, Seattle; and Rev. Robert H. Springer, Professor of Ethics, Loyola Seminary, Shrub Oak, New York. A "Table of Contents" which accompanied this tape is available. 35 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">95</container>
+            <unittitle encodinganalog="title">Interview with Dr. Kolff</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 August</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Recorded from the radio program "Carol's Corner" on WKET, Dayton, OH. The host is Carol Klein. Dr. Kolff speaks about the development, ethics and operation of the artificial kidney.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">96</container>
+            <unittitle encodinganalog="title">Farm and kidney transplantation picnic</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 August 17</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Sequence: Allan Pert on tractor to right; people on tractor; tractor &amp; trailer on the way; tractor approaching pond and the dock; people on dock; Ferrara, his wife and &gt;Dr. Nakamoto; Juris Gailitis and boat; Mrs. Nagle putting Allan in boat and calling him in; Nakamoto and Roberts; picnic served from trailer; Mrs. Nagle, son and husband; Dr. Kolff, Allan Pert and Wayne Hasenyager eating; Juris Gailitis and Phillip Routzon eating hotdogs; Mrs. and Mrs. Paul Kuhn; Aslean Cooper and Royce Ann Cooper; and Dr. Kolff. Some of the people in this film are the same transplant patients seen in item 107. Ten minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">97</container>
+            <unittitle encodinganalog="title">Who shall live?</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A National Broadcasting Company (NBC) News production, narrated by Edwin Newman. This documentary discusses the issues surrounding the use of the artificial kidney. The locale for most of the film is the Seattle Artificial Kidney Center. The film discusses the steps in screening patients for dialysis, the history of the development of the artificial kidney (including an interview with Dr. Kolff), the problems of financing treatment, and the possibilities provided by home dialysis. 20 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">98</container>
+            <unittitle encodinganalog="title">The 21st century</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This documentary is concerned with the future of artificial organs and includes comments by Dr. Kolff on kidney donation. Includes footage of kidney transplantation at the Cleveland Clinic, discussion of patient selection, installation of an artificial heart in a calf, and the electrical stimulation of muscles in pursuit of artificial limb technology. Reported by Walter Cronkite. 27 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">99</container>
+            <unittitle encodinganalog="title">Everybody's problem</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A documentary on the issues of kidney disease, including Dr. Louis G. Welt on kidney disease prevention and use of the artificial kidney; Dr. John P. Merrill on Kidney transplantation; stories of actual kidney transplantations and the importance of dialysis in treatment of kidney disease. Produced by Educational Media, Incirca and the National Kidney Foundation. 18 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">100</container>
+            <unittitle encodinganalog="title">Dialysis picnic at the Hogle's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 September 16</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Scenes filmed at a picnic in Utah with musicians, horseback riding and close-ups of participants, including Kolff. Four minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">101</container>
+            <unittitle encodinganalog="title">Dr. Kolff was here</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979-1983</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Made by AVRO and narrated by Dr. Kolff, this documentary shows Dr. Kolff returning to Kampen, Netherlands, the city where he developed the artificial kidney; discusses the Jarvik heart, artificial arm, eye and ear; and discusses modern dialysis. Kolff relates stories about his experiences in the Second World War; gives his reasons for immigrating to the United States; discusses the wearable artificial kidney; gives his thoughts on transplantation; and discusses his relationship with his wife. 48 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">102</container>
+            <unittitle encodinganalog="title">Markant</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1989 November 15</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Sound, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Dr. Kolff narrates. This film discusses dialysis, has views of the Dumke building, and gives biographical information on Dr. Kolff, Kampen, Kolff's war experiences, the Cleveland Clinic, and the University of Utah. It has interviews with nurses who worked with Dr. Kolff in Kampen; and discusses the "Dialysis in Wonderland" program, the artificial heart, and Barney Clark. 50 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">103</container>
+            <unittitle encodinganalog="title">Leif Stenberg going to restaurant in Stockholm</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A recording of a trip to a restaurant by a patient using the Heimer drive system.</p>
+            <p>Made by Peter Heimer. 17 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">104</container>
+            <unittitle encodinganalog="title">On the shoulders of giants</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A recording of ceremonies in which individuals, including Dr. Kolff, who are considered "pioneers" in cardiovascular research, are awarded by the John P. Murphy Foundation in Cleveland, OH.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">105</container>
+            <unittitle encodinganalog="title">Kolff films</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949-1972</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+              <physfacet>
+                Silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A compilation of these films (listed above):</p>
+            <p>1 Item 1.</p>
+            <p>2 Item 75.</p>
+            <p>3 Item 59, oxygenator preparation, dog--shows heart removed.</p>
+            <p>4 Valve studies and item 39.</p>
+            <p>5 Item 64, part 1.</p>
+            <p>6 Thrombosis studies.</p>
+            <p>7 Item 59, part 6.</p>
+            <p>8 Item 63, part 8.</p>
+            <p>9 Item 39.</p>
+            <p>10 Item 16.</p>
+            <p>11 Item 85.</p>
+            <p>12 Item 84.</p>
+            <p>13 Kolff with dialysis machines (circa1978)and patient.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">106</container>
+            <unittitle encodinganalog="title">Heart valve studies negatives</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, black and white
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">107</container>
+            <unittitle encodinganalog="title">Artificial heart from the Cleveland Clinic</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Silent, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows an artificial heart in operation on pump as well as an artificial ventricle, a real ventricle, and a Teflon ventricle with the valves opening and closing. This film also shows Atrioventricular window patches 8-21 days. These include two silastic, one polyurethane smooth, two knitted Teflon, two collagen, and one polyurethane sponge. In closing, they show a monocusp valve.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">108</container>
+            <unittitle encodinganalog="title">Thermo vacuum forming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981-1983</unitdate>
+            <physdesc>
+              <genreform>8mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Produced by Nannie K.M. De Leeuw</p>
+            <p>Different techniques used in thermo vacuum forming in 1981 and in 1982.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">109</container>
+            <unittitle encodinganalog="title">Dr. V. Mirkovitch, research 6, Cleveland Clinic</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Seidel's valve until Ciludae? Trend?</p>
+            <p>Unedited remains of high speed (something unreadable) of valve in mock circulation. Last part is watchable.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">110</container>
+            <unittitle encodinganalog="title">Pendulum in mock circulation</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">111</container>
+            <unittitle encodinganalog="title">National Inventors Hall of Fame induction ceremony</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 April 25</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Includes a letter to Dr. Kolff from Raymond V. Damadian, September 15, 1992.</p>
+            <p>Ceremony held at the E. J. Thomas Performing Arts Hall in Akron, Ohio.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">112</container>
+            <unittitle encodinganalog="title">KUED production: Civic dialogue</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 March 02</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Topics: Dr. Kolff, Dr. Brophy, and Dr. Wilson. Interviewer: Clifton Jolley</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">113</container>
+            <unittitle encodinganalog="title">KRCL Production: Life is a creative process</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">10 May 1984</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interview of Dr. Kolff by Desiree Mays.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">114</container>
+            <unittitle encodinganalog="title">Memoirs and anecdotes by Willem J. Kolff</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 September</unitdate>
+            <physdesc>
+              <genreform>Microcassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="image">115-116</container>
+            <unittitle encodinganalog="title">Photographic materials transferred to the Willem J. Kolff photograph collection (P0343)</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">117</container>
+            <unittitle encodinganalog="title">Patterns of thought for writers conference</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1953</unitdate>
+            <physdesc>
+              <genreform>Phonograph record</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Mrs. M.F.K fisher is the special guest in this series of "Patterns of thought for writers conference". She discusses food and gastronomy as well as the three great hungers: warmth love and food.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">118</container>
+            <unittitle encodinganalog="title">An envelope containing 5 phono discs.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+            <physdesc>
+              <genreform>Phonograph record</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>
+            </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">119</container>
+            <unittitle encodinganalog="title">An envelope containing a phono disc.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+            <physdesc>
+              <genreform>Phonograph record</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>J. Louis Reynolds of the Marquadt Corporation.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="card">120</container>
+            <unittitle encodinganalog="title">13 Folders of Magnetic Dictaphone Cards for the FDA Application.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981</unitdate>
+            <physdesc>
+              <genreform>dictaphone card</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="card">121</container>
+            <unittitle encodinganalog="title">119 Folders of Magnetic Dictaphone Cards covering a variety of topics.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>dictaphone card</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>See Folders for further information.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">122</container>
+            <unittitle encodinganalog="title">Legacy of life: Willem J. Kolff, M.D., Ph. D. part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 March 23</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>LDS Hospital Media Services. 1 hour 28 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">123</container>
+            <unittitle encodinganalog="title">Legacy of life Willem J. Kolff, M.D., Ph. D. part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 March 23</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>LDS Hospital Media Services. 15 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">124</container>
+            <unittitle encodinganalog="title">National Inventors Hall of Fame ceremony</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985</unitdate>
+            <physdesc>
+              <genreform>Betacam videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">125</container>
+            <unittitle encodinganalog="title">National Inventors Hall of Fame</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 April 24</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Induction ceremony (Akron, Ohio).  1 hour 40 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">126</container>
+            <unittitle encodinganalog="title">National Inventors Hall of Fame</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">23 April 1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>&gt;Induction ceremony (Akron, Ohio).  1 hour 45 minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">127</container>
+            <unittitle encodinganalog="title">Thoracoscopic breathing pacemaker surgery, DoBelle</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 November 03</unitdate>
+            <physdesc>
+              <genreform>VHs videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">128</container>
+            <unittitle encodinganalog="title">A history of extra corporeal circulation</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>PSICOR Incirca Production.  44 minutes</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">129</container>
+            <unittitle encodinganalog="title">Dr. B. Lott: History of renal dialysis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">130</container>
+            <unittitle encodinganalog="title">Implantation of the GORE-TEX peritoneal catheter</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983</unitdate>
+            <physdesc>
+              <genreform>Betacam videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">131</container>
+            <unittitle encodinganalog="title">Dutch interview with Dr. Kolff</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The tape is an interview in Dutch about Kolff's years in Kampen by Rie Hulsmann-Gosen. It was made in 1991.  The envelope containing the cassette also contains a copy of a letter about the cassette</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">132</container>
+            <unittitle encodinganalog="title">Dr. W.J. Kolff's induction into Beehive Hall of Fame in Salt Lake City</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 September 28</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">133</container>
+            <unittitle encodinganalog="title">Dialysis in wonderland</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 June 7-15</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Grand Canyon: June 7-15, 1982</p>
+            <p>Colorado River, Moab, Utah: 1979</p>
+            <p>From a copy from Mr. John Warner.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">134</container>
+            <unittitle encodinganalog="title">State-Of-The-Art lecture: Persisting medical problems in dialysis treatment, are there any solutions?</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">26 April 1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>J. Bergstrom, John P. Peters Award.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">135</container>
+            <unittitle encodinganalog="title">Kidney transplant patients on Dr. Kolff's farm</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Cleveland, Ohio</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">136</container>
+            <unittitle encodinganalog="title">Farm sequence of patients after kidney transplantation</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 August 24</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 September 13</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Recorded on September 13, 1990 in Cleveland, Ohio.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">137</container>
+            <unittitle encodinganalog="title">Kidney dialysis presentation by Sarah Goldberg</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">138</container>
+            <unittitle encodinganalog="title">Dialysis Pioneer's dinner (Rottach)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">139</container>
+            <unittitle encodinganalog="title">Four films narrated by Dr. W. J. Kolff</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Artificial Kidney for the Treatment of Serious Uremia</p>
+            <p>Disposable Coil Kidney</p>
+            <p>Single Needle Dialysis</p>
+            <p>Towards a Wearable Artificial Kidney</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">140</container>
+            <unittitle encodinganalog="title">Markant</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1989 November 15</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Dutch film with English inserts by Dr. Kolff.</p>
+            <p>Kolff-narrated version recorded November 15, 1989.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">141</container>
+            <unittitle encodinganalog="title">Artificial eye</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This audiocassette contains an interview with a patient who had an artificial eye inserted and an interview with the doctor who performs the same type of procedures. The patient talks about the time and incident in which he lost his eye sight as well as the sensation of having surgery while still awake. He also talks about recognition by sight verses recognition by touch and he discusses the change in speed of his reading before and after his surgery. The Physician talks about the future possibilities for further improving the patients eye  sight, explains the procedure in simplified terms and discusses the role of computers in eye surgery.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">142</container>
+            <unittitle encodinganalog="title">Vacuum Formed Heart: Implantation of I7V7</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 February 23</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

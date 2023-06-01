@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0736::Deedee Corradini audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv50997" url="http://archiveswest.orbiscascade.org/ark:/80444/xv50997">UUM_A0736</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Deedee Corradini audio-visual collection
+				<date era="ce" calendar="gregorian" normal="1984/1999" encodinganalog="date">1984-1999</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Corradini (Deedee) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Michael Hinderaker</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Michael Hinderaker
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0736</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Corradini, Deedee</persname>
+      </origination>
+      <unittitle encodinganalog="title">Deedee Corradini audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1984/1999" encodinganalog="date">1984-1999</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">121 VHS videocassettes, 1 Betamax vieocassette, and 9 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Deedee Corradini audio-visual collection (1984-1999) consists of mostly VHS cassettes relating to Corradini's two terms as mayor of Salt Lake City.  Materials include election coverage of both elections, news clips, and various other related materials.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Deedee Corradini was the first and to date only female mayor of Salt Lake City.  She was instrumental in many important projects during her time as mayor (1992-2000) including but not limited to Salt Lake City's bid for the 2002 Winter Olympic Games, support of Trax public transportation in downtown, and the development of Gateway shopping center.  She was also head of the US conference of mayors in 1998.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Deedee Corradini audio-visual collection (1984-1999) consists of mostly VHS cassettes relating to Corradini's two terms as mayor of Salt Lake City.  Materials include election coverage of both elections, news clips, and various other related materials.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arranged alphabetically by format.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Deedee Corradini audio-visual collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Deedee Corradini audio-visual collection A0736,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0736.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Deedee Corradini in 2012.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Michael Hinderaker in 2012.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Deedee Corradini papers (Accn 2024) and photograph collection (P1445).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Salt Lake City (Utah)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Mayors</subject>
+      <subject encodinganalog="subject" source="lcsh">Politics and culture--United States</subject>
+      <subject altrender="nodisplay" source="archiveswest">Political Campaigns</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="series">
+        <did>
+          <container type="file">1</container>
+          <unittitle encodinganalog="title">Box 1</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">Airport design</unittitle>
+            <unitdate>1999</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2</container>
+            <unittitle encodinganalog="title">"Airport master plan"</unittitle>
+            <unitdate>1997 March 27</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3</container>
+            <unittitle encodinganalog="title">Announcement, Kolls interview, KSL story, Kolls</unittitle>
+            <unitdate>1991 June 4</unitdate>
+            <unitdate>1991 September 24</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">BAT news broadcast chronology</unittitle>
+            <unitdate>1990 August-1993 January</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5</container>
+            <unittitle encodinganalog="title">Bike to work day Salt Lake City</unittitle>
+            <unitdate>1998 May 13</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6</container>
+            <unittitle encodinganalog="title">The Bloomberg forum Salt Lake City Deedee Corradini, Mayor interview</unittitle>
+            <unitdate>1998 July 30</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7</container>
+            <unittitle encodinganalog="title">Bowlmania</unittitle>
+            <unitdate>1984 January 7</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">8</container>
+            <unittitle encodinganalog="title">Buhler, Jones, Zuhl announcements</unittitle>
+            <unitdate>1991 May</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">9</container>
+            <unittitle encodinganalog="title">Bull Session</unittitle>
+            <unitdate>1997 March 7</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10</container>
+            <unittitle encodinganalog="title">Calgary '88 16 days of glory part II</unittitle>
+            <unitdate>1988</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">11</container>
+            <unittitle encodinganalog="title">CBS This Morning</unittitle>
+            <unitdate>1994 February 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">12</container>
+            <unittitle encodinganalog="title">CBS this morning Salt Lake City 2002</unittitle>
+            <unitdate>1998 February 20</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">13</container>
+            <unittitle encodinganalog="title">Colorado incident/Salt Lake City mayor</unittitle>
+            <unitdate>1999 April 20</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">14</container>
+            <unittitle encodinganalog="title">Columbus</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">15</container>
+            <unittitle encodinganalog="title">A conversation with Deedee Corradini</unittitle>
+            <unitdate>1999 October</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">16</container>
+            <unittitle encodinganalog="title">Corradini, Deedee – KSL interview</unittitle>
+            <unitdate>1993 May</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">17</container>
+            <unittitle encodinganalog="title">Corradini for Mayor 1 – Action, 2 – Kids, 3 – Mom</unittitle>
+            <unitdate>1995 September 19</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">18</container>
+            <unittitle encodinganalog="title">Corradini news clips</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">19</container>
+            <unittitle encodinganalog="title">Corradini/McKeown debate KSL</unittitle>
+            <unitdate>1995 October 27</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">20</container>
+            <unittitle encodinganalog="title">Corradini off the record</unittitle>
+            <unitdate>1993 May 26</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">21</container>
+            <unittitle encodinganalog="title">Corradini Presidency: Year of our youth, 2 copies</unittitle>
+            <unitdate>1999 June</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">22</container>
+            <unittitle encodinganalog="title">Crime bill signing</unittitle>
+            <unitdate>1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">23</container>
+            <unittitle encodinganalog="title">Curbside recycling</unittitle>
+            <unitdate>1993 April 7</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">24</container>
+            <unittitle encodinganalog="title">Death at Oceanside Park</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>Betamax</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">25</container>
+            <unittitle encodinganalog="title">Deedee announcement channels 2 and 5</unittitle>
+            <unitdate>1991 June 4</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">26</container>
+            <unittitle encodinganalog="title">Deedee at RSC (illegible)</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">27</container>
+            <unittitle encodinganalog="title">Deedee – CBS night watch</unittitle>
+            <unitdate>1991 November 14</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">28</container>
+            <unittitle encodinganalog="title">Deedee – Ch.5  post election, Deedee – CBS night watch</unittitle>
+            <unitdate>1991 November 14</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">29</container>
+            <unittitle encodinganalog="title">Deedee Corradini</unittitle>
+            <unitdate>1993</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">30</container>
+            <unittitle encodinganalog="title">Deedee Corradini 1x:30</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">31</container>
+            <unittitle encodinganalog="title">Deedee Corradini 4x:30, 2 copies</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="file">2</container>
+          <unittitle encodinganalog="title">Box 2</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">32</container>
+            <unittitle encodinganalog="title">Deedee Corradini</unittitle>
+            <unitdate>1991 August 29</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">33</container>
+            <unittitle encodinganalog="title">Deedee Corradini airport channel spots</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">34</container>
+            <unittitle encodinganalog="title">Deedee Corradini for mayor "chair"</unittitle>
+            <unitdate>1995 October 30</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">35</container>
+            <unittitle encodinganalog="title">Deedee Corradini for mayor "couple"</unittitle>
+            <unitdate>1995 October 24</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">36</container>
+            <unittitle encodinganalog="title">Deedee Corradini national plan on youth violence fox news channel</unittitle>
+            <unitdate>1998 October 14</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">37</container>
+            <unittitle encodinganalog="title">Deedee Corradini speaks on metropolitan economies, 2 copies</unittitle>
+            <unitdate>1998 December 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">38</container>
+            <unittitle encodinganalog="title">Deedee 1996 Debate</unittitle>
+            <unitdate>1995 October 26</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">39</container>
+            <unittitle encodinganalog="title">Deedee dub</unittitle>
+            <unitdate>1994 September 26</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">40</container>
+            <unittitle encodinganalog="title">Deedee press conference</unittitle>
+            <unitdate>1992 June 22</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">41</container>
+            <unittitle encodinganalog="title">Deedee swearing-in</unittitle>
+            <unitdate>1992 January 6</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">42</container>
+            <unittitle encodinganalog="title">Deedee Today</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">43</container>
+            <unittitle encodinganalog="title">Disertacion de la Alcaldesa Deedee Corradini</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">44</container>
+            <unittitle encodinganalog="title">Election news Deedee</unittitle>
+            <unitdate>1991</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">45</container>
+            <unittitle encodinganalog="title">Endorsement DC-04 Deedee for mayor</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">46</container>
+            <unittitle encodinganalog="title">The dream comes true</unittitle>
+            <unitdate>2002</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">47</container>
+            <unittitle encodinganalog="title">Fox mayoral debate</unittitle>
+            <unitdate>1995 October 31</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">48</container>
+            <unittitle encodinganalog="title">"Franklin Quest Field"</unittitle>
+            <unitdate>1996 April 4</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">49</container>
+            <unittitle encodinganalog="title">From New York to Portland "looking back and moving forward"</unittitle>
+            <unitdate>1993-1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">50</container>
+            <unittitle encodinganalog="title">"The future is now" A Salt Lake City youth city government video</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">51</container>
+            <unittitle encodinganalog="title">The game goes on</unittitle>
+            <unitdate>1994 April 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">52</container>
+            <unittitle encodinganalog="title">"Gateway project"</unittitle>
+            <unitdate>1997 April 24</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">53</container>
+            <unittitle encodinganalog="title">Good Morning America</unittitle>
+            <unitdate>1991 July 25</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">54</container>
+            <unittitle encodinganalog="title">Good Morning America Mayor Deedee Corradini on Salt Lake City olympics, 2 copies</unittitle>
+            <unitdate>1999 January 15</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">55</container>
+            <unittitle encodinganalog="title">Governor/mayor interviews CBS network</unittitle>
+            <unitdate>1994 February 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">56</container>
+            <unittitle encodinganalog="title">"Inside Politics" with Mayor Corradini</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">57</container>
+            <unittitle encodinganalog="title">The James Brown Show "Mayors"</unittitle>
+            <unitdate>1997 November</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">58</container>
+            <unittitle encodinganalog="title">"Janet Reno" Larry King Live</unittitle>
+            <unitdate>1999 April 26</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">59</container>
+            <unittitle encodinganalog="title">KSL 6pm KTVX 10pm "Mayors meet in Washington"</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">60</container>
+            <unittitle encodinganalog="title">KSL 6pm Jay Kolls re: Finances, Phil Rirsen Panel, Rod Doricon, KSL profile</unittitle>
+            <unitdate>1991 September 24</unitdate>
+            <unitdate>1991 September 29</unitdate>
+            <unitdate>1991 September 29</unitdate>
+            <unitdate>1991 October 2</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">61</container>
+            <unittitle encodinganalog="title">KUTV, KUED Deedee press conference</unittitle>
+            <unitdate>1992 June 23</unitdate>
+            <unitdate>1991 June 22</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">62</container>
+            <unittitle encodinganalog="title">Lessons Deedee Corradini</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="file">3</container>
+          <unittitle encodinganalog="title">Box 3</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">63</container>
+            <unittitle encodinganalog="title">Light rail transit – one component of an integrated transit system</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">64</container>
+            <unittitle encodinganalog="title">Lillehammer '94 16 days of glory</unittitle>
+            <unitdate>1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">65</container>
+            <unittitle encodinganalog="title">Lillehammer '94 16 days of glory part II</unittitle>
+            <unitdate>1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">66</container>
+            <unittitle encodinganalog="title">Local news segments on UP and L pres. resignation</unittitle>
+            <unitdate>1987 February 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">67</container>
+            <unittitle encodinganalog="title">Management services total quality assessment presentation</unittitle>
+            <unitdate>1997 April 9</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">68</container>
+            <unittitle encodinganalog="title">March of Dimes – gourmet gala</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">69</container>
+            <unittitle encodinganalog="title">"Martin Luther King Jr. Blvd.", Fleet</unittitle>
+            <unitdate>1993 August 10</unitdate>
+            <unitdate>1993 August 12</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">70</container>
+            <unittitle encodinganalog="title">Master plan copy SLCAA – 2 copies</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">71</container>
+            <unittitle encodinganalog="title">Mayor Corradini Engaged, 3 copies</unittitle>
+            <unitdate>1999 June 30</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">72</container>
+            <unittitle encodinganalog="title">Mayor Corradini is married</unittitle>
+            <unitdate>1999 November 27</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">73</container>
+            <unittitle encodinganalog="title">Mayor Deedee Corradini early edition Cable News Network 2/12/99</unittitle>
+            <unitdate>1999 February 12</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">74</container>
+            <unittitle encodinganalog="title">Mayor Deedee Corradini's late night basketball league all-star game, 2 copies</unittitle>
+            <unitdate>1992 August 1</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">75</container>
+            <unittitle encodinganalog="title">Mayor Deedee Corradini's press conference and interview</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">76</container>
+            <unittitle encodinganalog="title">Mayor Deedee Corradini speech at leadership Louisville</unittitle>
+            <unitdate>1994 April 21</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">77</container>
+            <unittitle encodinganalog="title">"Mayor meets with Clinton Administration", 2 copies</unittitle>
+            <unitdate>1998 May 8</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">78</container>
+            <unittitle encodinganalog="title">Mayoral Candidates</unittitle>
+            <unitdate>1991 March 7</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">79</container>
+            <unittitle encodinganalog="title">"Mayoral Race"</unittitle>
+            <unitdate>1997 April 15</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">80</container>
+            <unittitle encodinganalog="title">Mayors' olympikids for fitness</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">81</container>
+            <unittitle encodinganalog="title">McNeil-Lehrer, Mayors – unfunded mandates</unittitle>
+            <unitdate>1995 January 27</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">82</container>
+            <unittitle encodinganalog="title">Mean Streets SLC gangs</unittitle>
+            <unitdate>1989 July 18</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">83</container>
+            <unittitle encodinganalog="title">MGMT 4950 executive lecture series Dr. Christopher G. Jones, Deedee Corradini</unittitle>
+            <unitdate>2003 September 25</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">84</container>
+            <unittitle encodinganalog="title">Nagano '98 Olympics Stories of Honor and Glory</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">85</container>
+            <unittitle encodinganalog="title">Newsmakers Saturday, 2 copies</unittitle>
+            <unitdate>1993 December 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">86</container>
+            <unittitle encodinganalog="title">Nightly business report</unittitle>
+            <unitdate>1992 March 30</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">87</container>
+            <unittitle encodinganalog="title">Niketown Boston "Thursday night running club"</unittitle>
+            <unitdate>1998 March</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">88</container>
+            <unittitle encodinganalog="title">The Olympic Games in the world's second home</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">89</container>
+            <unittitle encodinganalog="title">Olympics: Nagano closing ceremony, SLC – arrival of flag, news story</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">90</container>
+            <unittitle encodinganalog="title">Olympikids in Oakland 3/22/99</unittitle>
+            <unitdate>1999 March 22</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">91</container>
+            <unittitle encodinganalog="title">Race for mayor – Steve Harmsen, Doug Foxley</unittitle>
+            <unitdate>1995 June 5</unitdate>
+            <unitdate>1995 June 13</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">92</container>
+            <unittitle encodinganalog="title">Salt Lake City and County building: "For another century" 7/11/91</unittitle>
+            <unitdate>1991 July 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">93</container>
+            <unittitle encodinganalog="title">Salt Lake City bid for the 1998 winter games</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">94</container>
+            <unittitle encodinganalog="title">Salt Lake City mayor's office news clips</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">95</container>
+            <unittitle encodinganalog="title">Salt Lake City "once upon a time"</unittitle>
+            <unitdate>1995</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="file">4</container>
+          <unittitle encodinganalog="title">Box 4</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">96</container>
+            <unittitle encodinganalog="title">"Secretary of Transportation Slater visits Utah"</unittitle>
+            <unitdate>1997 November 17</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">97</container>
+            <unittitle encodinganalog="title">SLC Mayor</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">98</container>
+            <unittitle encodinganalog="title">SL Mayors recycling committee Albertsons generic</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">99</container>
+            <unittitle encodinganalog="title">SLC Mayor TV news coverage 1 of 3</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">100</container>
+            <unittitle encodinganalog="title">SLC Mayor TV news coverage 2 of 3</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">101</container>
+            <unittitle encodinganalog="title">SLC Mayor TV news coverage 3 of 3</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">102</container>
+            <unittitle encodinganalog="title">SLOC Olympic emblem story</unittitle>
+            <unitdate>1997 August 31</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">103</container>
+            <unittitle encodinganalog="title">Specialist for a day: SLC Mayor Deedee Corradini, SLC Mayor's attorney in Wash. DC.</unittitle>
+            <unitdate>1993 November 12</unitdate>
+            <unitdate>1995 May 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">104</container>
+            <unittitle encodinganalog="title">Sterling Scholars presenters tape</unittitle>
+            <unitdate>1993 April 15</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">105</container>
+            <unittitle encodinganalog="title">Take action America on America's Voice</unittitle>
+            <unitdate>1999 April 21</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">106</container>
+            <unittitle encodinganalog="title">Travelers Aid Society "Benihana Celebrity Chef"</unittitle>
+            <unitdate>1994</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">107</container>
+            <unittitle encodinganalog="title">The United States Conference of Mayors "A salute to our presidents"</unittitle>
+            <unitdate>1995 June 16</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">108</container>
+            <unittitle encodinganalog="title">U.S. Conference of Mayors, olympikids, dancing in the streets, 3 copies</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">109</container>
+            <unittitle encodinganalog="title">U.S. Conference of Mayors summer fitness olympikids, 5 copies</unittitle>
+            <unitdate>1999 May 24</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">110</container>
+            <unittitle encodinganalog="title">USOC Presentation with Salt Lake revision</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">111</container>
+            <unittitle encodinganalog="title">Utah Winter Olympics "Higher ground"</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">112</container>
+            <unittitle encodinganalog="title">Westin Hotels in Salt Lake City</unittitle>
+            <unitdate>1996 March 8</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">113</container>
+            <unittitle encodinganalog="title">Wirth Watching: Franklin Quest Field, Wirth Watching: Franklin Quest Field</unittitle>
+            <unitdate>1993 October 13</unitdate>
+            <unitdate>1994 March 2</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">114</container>
+            <unittitle encodinganalog="title">KUED</unittitle>
+            <unitdate>1995 October 31</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">115</container>
+            <unittitle encodinganalog="title">1995 Mayor's Race</unittitle>
+            <unitdate>1995</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">116</container>
+            <unittitle encodinganalog="title">"2002 Olympics/Salt Lake City" Mayor Deedee Corradini</unittitle>
+            <unitdate>1996 May 22</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">117</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">118</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">119</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">120</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">121</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">122</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">123</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">124</container>
+            <unittitle encodinganalog="title">Unlabeled</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">Amanda Dixon KSL</unittitle>
+            <unitdate>1991 May 5</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2</container>
+            <unittitle encodinganalog="title">Corradini for mayor "Headlines"</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3</container>
+            <unittitle encodinganalog="title">Deedee Corradini for mayor "Headlines"</unittitle>
+            <unitdate>1991 September</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">Deedee Corradini for mayor "Testimonial"</unittitle>
+            <unitdate>1991 October</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5</container>
+            <unittitle encodinganalog="title">Deedee K-Talk radio</unittitle>
+            <unitdate>1991 April 22</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6</container>
+            <unittitle encodinganalog="title">Deedee radio spot – please return</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7</container>
+            <unittitle encodinganalog="title">Executive/entrepreneur lecture Deedee Corradini</unittitle>
+            <unitdate>Undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">8</container>
+            <unittitle encodinganalog="title">Talk America radio network "America good morning"</unittitle>
+            <unitdate>1984 September 24</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">9</container>
+            <unittitle encodinganalog="title">Talk of the nation mayor roundtable</unittitle>
+            <unitdate>1998 August 3</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10</container>
+            <unittitle encodinganalog="title">Youth fitness event in Oakland, CA</unittitle>
+            <unitdate>1999 March 22</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

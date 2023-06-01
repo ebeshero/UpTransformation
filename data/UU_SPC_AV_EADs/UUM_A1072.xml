@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A1072::Williams family ranch home movies)//EN" encodinganalog="identifier" identifier="80444/xv54077" url="http://archiveswest.orbiscascade.org/ark:/80444/xv54077">UUM_A1072</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Williams family ranch home movies
+				<date era="ce" calendar="gregorian" normal="1950/1970" certainty="appproximate" encodinganalog="date">circa 1960s</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Williams family ranch home movies</titleproper>
+        <author encodinganalog="creator">Finding aid created by Michael Hinderaker</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Michael Hinderaker 
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A1072</unitid>
+      <origination>
+        <famname source="local" rules="dacs" encodinganalog="creator" role="creator">
+          Williams family
+        </famname>
+      </origination>
+      <unittitle encodinganalog="title">Williams family ranch home movies</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1950/1970" certainty="approximate" encodinganalog="date">circa 1960s</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Williams family ranch home movies is a set of twenty films from the early 1960s.  It depicts the land of the Williams family ranch in Flaming Gorge before the Flaming Gorge reservoir was created, flooding the land. It also depicts family members in various locations participating in a variety of activities.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>Groundbreaking for the Flaming Gorge Dam began in 1958, and the structure was completed in 1964.  The resulting Flaming Gorge Reservoir extends through 91 miles of the Green River and flooded the land that the Williams family ranch previously sat on. The dam was built and is operated by the United States Bureau of Reclamation. </p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Williams family ranch home movies is a set of twenty home films from the early 1960s.  It depicts the land of the Williams family ranch in Flaming Gorge before the Flaming Gorge reservoir was created, flooding the land. It also depicts family members in various locations participating in a variety of activities. Videos include landscapes in winter as well as summer, various parades, as well as many people.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Williams family ranch home movies must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Williams family ranch home movies A1072.
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A1072.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Barbara Williams Amburn in 2011.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Michael Hinderaker in 2012.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Williams family ranch photographs (P1162) and papers (Accn 2628) and the Flaming Gorge Bureau of Reclamation video collection (A0548).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Green River (Wyo.-Utah)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Ranching</subject>
+      <subject altrender="nodisplay" source="archiveswest">Home and Family</subject>
+      <subject altrender="nodisplay" source="archiveswest">Ranching</subject>
+      <subject altrender="nodisplay" source="archiveswest">Water and Water Rights</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">Williams family ranch home videos</unittitle>
+          <unitdate>circa 1960s</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">1</container>
+            <unittitle encodinganalog="title">Film 1</unittitle>
+          </did>
+          <scopecontent>
+            <p>Starts with a shot of a set of trees, wooded area.  It transitions to a shot of a white horse and then more horses as well as people and trucks of some kind.  Shot shows an open area with many trees and some animals.  The film transitions to a number of people standing around with horses, and then riding them. Some of these shots are far away, some showing mountains in the background.  Shot of a lake with trees on the other shoreline and a mountain behind them.  </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">2</container>
+            <unittitle encodinganalog="title">Film 2</unittitle>
+          </did>
+          <scopecontent>
+            <p>Shot of a lot of smoke rising in the distance in what appears to be late afternoon or early evening. Shot of a rainbow over telephone wires, then of many men and women on horses inside a wooden corral.  Some of the men are riding around holding flags while spectators watch, it appears to be a competition of some kind. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">3</container>
+            <unittitle encodinganalog="title">Film 3</unittitle>
+          </did>
+          <scopecontent>
+            <p>Shot of mountains and a valley from a very long ways away. Moving shot of a river down from a hillside, and then of a few people, mostly women with a few men and children talking to each other. A plane takes off and then is pictured flying, although not very high from the ground. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">4</container>
+            <unittitle encodinganalog="title">Film 4</unittitle>
+          </did>
+          <scopecontent>
+            <p>Shot of a river with water running through it.  Some people are riding on a raft down the river, and it appears the cameraman may be on a raft as well because the footage is very shaky. People on two different rafts splash water at each other using paddles. The next shot is of a young girl wearing a headband standing in the sun in front of a metal fence.  She smiles and occasionally looks at the camera but mostly is focused on something else. The next shot is of a city but mostly focused on the huge mountains in the background. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">5</container>
+            <unittitle encodinganalog="title">Film 5</unittitle>
+          </did>
+          <scopecontent>
+            <p>Shot is taken in the snow and appears to be on one wall of a canyon looking across to other walls of the same canyon.  The city is again shown, this time with a lot of snow covering the ground, sometimes extending halfway up the doors of establishments. Next shot is of a hillside covered in snow with a few trees as well. Next there is a house and a man shoveling, then a Vehicle on skis with a man, a woman, and two children in it powered by a giant fan.  It does not move quickly, but the fan is able to propel it along.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">6</container>
+            <unittitle encodinganalog="title">Film 6</unittitle>
+          </did>
+          <scopecontent>
+            <p>There is a quick shot of what looks to be a mining or construction operation of some sort, but it is difficult to tell as greater perspective is not given in the shot and some of it is very dark.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">7</container>
+            <unittitle encodinganalog="title">Film 7</unittitle>
+          </did>
+          <scopecontent>
+            <p>A little boy runs around outside and plays with the hose, then two young girls also come outside. The girls are back inside and holding a baby, then a mother is holding the baby and brings it by the little boy.  The boy pretends to mow the lawn with a fake lawnmower, and then rides a toy horse. He then gets pulled around in his wagon by his mother, and runs around pulling it himself as well. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">8</container>
+            <unittitle encodinganalog="title">Film 8</unittitle>
+          </did>
+          <scopecontent>
+            <p>Again there are a number of people on a raft on a river, and then a number of rafts on the shore, then shots of the river itself.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">9</container>
+            <unittitle encodinganalog="title">Film 9</unittitle>
+          </did>
+          <scopecontent>
+            <p>Shots of the river and of canyon walls, this time covered in snow.  It appears these shots come from a moving vehicle of some kind as they are very steady.  A man puts more gasoline in the fan-powered vehicle and gets in it, this time it goes much faster – presumably because he is the only one in it.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">10</container>
+            <unittitle encodinganalog="title">Film 10</unittitle>
+          </did>
+          <scopecontent>
+            <p>A baby plays on a blanket on the floor of a house, rolling around and smiling. A young boy sits next to the baby, then goes to play with his toy horse again. There is a parade of some sort, but it appears to be a relatively small town.  Not a lot of people are gathered to watch, but it involves people on horses, cars, some floats, and running along beside as well. It transitions to people on horses playing polo with a soccer ball, then back to more scenes of nature, mostly of grass on what appears to be farmland.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">11</container>
+            <unittitle encodinganalog="title">Film 11</unittitle>
+          </did>
+          <scopecontent>
+            <p>There is a shot of a lake or reservoir of some type, bordered by a road with hills on the other side.  There is then some footage of a relatively hilly area with brush all over and a fence of wood beams.  There do not appear to be as many people.  A man on a sidewalk is showing off the dear that he shot and has a little boy with him as well kneeling and holding the antlers.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">12</container>
+            <unittitle encodinganalog="title">Film 12</unittitle>
+          </did>
+          <scopecontent>
+            <p>The next shot is from a very high point looking down at a lake (or large river?) and a very steep large hill on the other side. Two men hold up ten or so fish they have strung up, a little boy in front of them holds a single fish.  There is a shot of mountains and a lake and various areas from inside a car while it is moving, then from outside stationary.  Again there is a shot of a man holding a fish, showing it to the same boy who was holding one before. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">13</container>
+            <unittitle encodinganalog="title">Film 13</unittitle>
+          </did>
+          <scopecontent>
+            <p>Many people walk by pulling covered wagons, small ones. Like earlier, there are a bunch of people riding horses in a corral, and again it appears to either be a competition of some kind of some kind of pageantry.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">14</container>
+            <unittitle encodinganalog="title">Film 14</unittitle>
+          </did>
+          <scopecontent>
+            <p>There is a shot of forest and woods. There is a shot of a sign with water from a river running over it, then of people rafting down a river that seems to be moving very quickly and turbulently. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">15</container>
+            <unittitle encodinganalog="title">Film 15</unittitle>
+            <unitdate>1967</unitdate>
+          </did>
+          <scopecontent>
+            <p>Children are playing in the rocks by the shore of a river, throwing them into the water.  They are then standing by a campfire and throwing leaves and other little things into the fire. The next shot is of the parade at the 78th annual tournament of roses.  There are a large number of people sitting and watching and the floats that go by are for the most part extremely intricate and large, much more so than the smaller parade that was shown before.  Many of the floats are drawn by horses and some are enormous.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">16</container>
+            <unittitle encodinganalog="title">Film 16</unittitle>
+          </did>
+          <scopecontent>
+            <p>Again there is video at a corral.  This time men are riding horses that try to buck them off as well as lassoing cattle. Men also ride the horses through a slalom course of sorts.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">17</container>
+            <unittitle encodinganalog="title">Film 17</unittitle>
+          </did>
+          <scopecontent>
+            <p>After this there are many shots of just open space filmed from a higher point.  A little boy plays with a dog and a younger man shows off the deer that he has shot, holding it by its antlers.  A woman and a couple of children ride in a carriage pulled by a single horse.  </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">18</container>
+            <unittitle encodinganalog="title">Film 18</unittitle>
+          </did>
+          <scopecontent>
+            <p>There are two boys playing in the grass, one on a pogo stick.  One does a handstand while the other watches.  Their father tries to use a pogo stick as well.  The next shot is of a large body of water that appears to be a bay or perhaps a large lake.  There are piers and docks built along the water and a city in the background.  The video is shot from a ship that is moving out into the water away from the shore.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">19</container>
+            <unittitle encodinganalog="title">Film 19</unittitle>
+          </did>
+          <scopecontent>
+            <p>There is footage of another parade, but it is difficult to tell exactly what the parade is.  Many floats go by although for the most part they are much smaller than they were in the tournament of roses parade. It appears to be somewhere in Utah. </p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">20</container>
+            <unittitle encodinganalog="title">Film 20</unittitle>
+          </did>
+          <scopecontent>
+            <p>It eventually transitions back to a shot of a lake or river with the mountains on the other side of it.  Some of the shots are from on the river itself, maybe from a boat? Others seem to be more stationary and are probably from the other side looking across.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

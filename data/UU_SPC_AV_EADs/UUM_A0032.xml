@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:29 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0032::Utah Scottish Association audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv07705" url="http://archiveswest.orbiscascade.org/ark:/80444/xv07705">UUM_A0032</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Utah Scottish Association audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1971/1981" encodinganalog="date">1971-1981</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Utah Scottish Association audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Mark Jensen and Lorraine Crouse.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1996" encodinganalog="date">© 1996</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Greg Midgley
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0032</unitid>
+      <unittitle encodinganalog="title">Utah Scottish Association audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1971/1981" encodinganalog="date">1971-1981</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Buchanan, Frederick Stewart</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">2 audiocassette tapes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Utah Scottish Association audio-visual collection (1971-1981) consists of audiocassette recordings taken from the lectures and interviews of Dr. Frederick S. Buchanan on Scottish culture and the experience of Scottish-American immigrants to the United States.  An historian and educator, Buchanan emigrated from Scotland to Utah with his parents in 1949.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <p>The Utah Scottish Association was formed to celebrate and promote the customs, civilization, and achievement of Scottish heritage. Utah Scottish Association Annual events throughout the year include lectures, demonstrations, displays and other activities to help Scots, Scottish-Americans, Scotland lovers and their descendants learn more about, and participate in, their Celtic culture.</p>
+      <p>Frederick S. Buchanan was born in Stevenson, Ayrshire Scotland in 1931. In 1949 he moved to Utah with his parents. Between 1951 and 1953 Buchanan served a Church of Jesus Christ of Lattery Day Saints (L.D.S.) mission in Great Britain and was later drafted into the United States Military. After his release from the army, Buchanan attended the University of Utah where he received his undergraduate and graduate degrees. Buchanan also attended Ohio State University where he earned his Ph.D. in Education on 1967. Buchanan taught history and literature at Bountiful High School and the University of Toledo. Buchanan was later appointed to the University of Utah's Graduate School of Education where he taught the history of education until his retirement in June of 1996.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Utah Scottish Association audio-visual collection (1971-1981) consists of audiocassette recordings taken from the lectures and interviews of Dr. Frederick S. Buchanan on Scottish culture and the experience of Scottish-American immigrants to the United States.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>This collection is arranged by subject.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor. </p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Frederick Buchanan Photograph collection (P0573) and Manuscript collection (Accn 379).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Mark Jensen and Lorraine Crouse in 1996.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah--Emigration and immigration</geogname>
+      <subject source="lcsh">Scottish Americans--Utah--Interviews</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Lecture and interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1971-1973</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A</p>
+          <p>Frederick S. Buchanan lectures on and recites the poetry of Robert Burns at the Wasatch Academy on January 25, 1973.  He discusses the importance of Burns in Scotland and why Burns is important for study, relating anecdotes in Burns' life, and answers questions from the audience.  Buchanan sings and plays the bagpipes as part of his presentation.  38 minutes.</p>
+          <p>Side B</p>
+          <p>Buchanan interviews Mrs. Elizabeth Millar of Mt. Pleasant, Utah; circa 1971.  A Scottish woman, Millar discusses Scottish people in the United States, her husband (William Millar)and  their experiences after immigrating to the United States, her family, growing up in Scotland, celebrating New Year's Day in Scotland, the differences between Utah and Scotland, and her current daily activities. Buchanan sings and plays the bagpipes during the interview. 48 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">"Scottish Highland Games in Utah" interview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1981</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Interview on KBYU Radio.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

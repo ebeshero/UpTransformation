@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:01 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0793::First Vampire motion picture)//EN" encodinganalog="identifier" identifier="80444/xv35409" url="http://archiveswest.orbiscascade.org/ark:/80444/xv35409">UUM_A0793</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the First Vampire motion picture
+          <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">2004</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">First Vampire motion picture</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0793</unitid>
+      <unittitle encodinganalog="title">
+        <title render="italic">The First Vampire</title> motion picture</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="2004" encodinganalog="date">2004</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Ipson, Jason Todd</persname>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Weiss, Randy</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The film <title render="italic">The First Vampire</title> is a narrative short produced by Randy Weiss and directed by Jason Todd Ipson while he was a student at the University of Southern California.  The movide was flimed largely in Utah using local extras and equipment from Salt Lake City's Redman Movies and Stories.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Randy Weis (b. 1975) was born in Manalapan, New Jersey.  He has worked as a producer or production coordinator on numerous films since 2002, including <title render="italic">The Illusionist</title> (Neil Burger 2006), <title render="italic">The Painted Veil</title> (John Curran 2006) and <title render="italic">Hannah Montana: The Movie</title> (Peter Chelsom 2009) as well as several lower profile projects.</p>
+      <p>Jason Todd Ipson began his career as a plastic surgery resident in Boston before resigning to attend the Peter Stark Producing Program at the University of Southern California (USC).  In 2002 he directed the short "Peeping Tom."  He went on to write, direct and produce his own films, including "The First Vampire: Don't Fall for the Devil's Illusions," <title render="italic">Unrest</title> (2006) and <title render="italic">Everybody Wants to Be Italian</title> (2007).</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>
+        <title render="italic">The First Vampire</title> motion picture is a narrative short produced by Randy Weiss and directed by Jason Todd Ipson while he was a student at the University of Southern California.  The movide was flimed largely in Utah using local extras and equipment from Salt Lake City's Redman Movies and Stories.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Southern California</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">The First Vampire: Don't Fall for the Devil's Illusions</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2004</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A narrative short set in 14th century Sweden.  After something attacks a little girl outside the small town of Bergholm, other victims soon display similar symptoms. The characters Father Anderson and Ingrid try to take care of the victims, but soon the condition grows serious that they need to send for a physician. As the number of patients mount, the townspeople and Father Anderson work to capture the demon responsible while Dr. Jörgen claims that the patients' illness is not due to a monster, putting medicine and religion at odds as the panic-stricken town tries to save itself. Only one villager, Erik, holds the secret to the truth.  24:00.</p>
+          <p>Awards:</p>
+          <p>National Alfred P. Sloan Foundation scholarship</p>
+          <p>Bialis Foundation grant</p>
+          <p>Golden Reel nominee finalist 2004</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

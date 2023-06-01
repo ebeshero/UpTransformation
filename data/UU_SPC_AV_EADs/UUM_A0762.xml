@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:00 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0762::Elizabeth and Jimmy Miklavcic independent film and dance collection)//EN" encodinganalog="identifier" identifier="80444/xv94702" url="http://archiveswest.orbiscascade.org/ark:/80444/xv94702">UUM_A0762</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Elizabeth and Jimmy Miklavcic independent film and dance collection
+          <date era="ce" calendar="gregorian" normal="1984/2012" encodinganalog="date">1984-2012</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Miklavcic (Elizabeth and Jimmy) independent film and dance collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0762</unitid>
+      <unittitle encodinganalog="title">Elizabeth and Jimmy Miklavcic independent film and dance collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1984/2012" encodinganalog="date">1984-2012</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Miklavcic, Elizabeth</persname>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Miklavcic, Jimmy</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">2 VHS videocassettes, 23 DVDs and 2 Mini-DV videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Elizabeth and Jimmy Miklavcic independent film and dance collection (1984-2012) consists of dance related experimental films and documentaries based in the Salt Lake City area.  The collection includes recordings of "InterPlay," an annual broadcast of concurrent music, dance and poetry performances taking place in cities around the world.  The Miklavcics are live performance professionals and educators and founders of the Another Language Performing Arts Company.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Co-artistic directors Elizabeth and Jimmy Miklavcic founded the Another Language Performing Arts Company in 1985.  Focused on creating dance-based interdisciplinary performance works, Another Language provides collaborative opportunities to artists and arts organizations to combine different art forms in innovative ways, and to broaden access to community arts education.  In 1987 Beth Miklavcic returned to school, enrolling at the University of Utah to pursue a Master of Fine Arts degree in dance.</p>
+      <p>Salt Lake City filmmakers with ties to the local interpretive dance scene and the University of Utah's Modern Dance Department, Elizabeth and Jimmy Miklavcic and Another Language have worked with local students, artists and art and performance organizations to produce video installations and live performances in formal settings and on Salt Lake City's streets.  In 2003 they introduced "InterPlay," which they describe as "a multi-faceted event that consists of two or more performances that occur simultaneously in various cities around the world. The performances are concurrently captured, mixed, digitized, encoded and streamed onto the network. The digital mix is manipulated as each video stream can appear in any of several video playback windows. This creates a work that takes individual stories and weaves them into a multi layered, distributed, cinematic performance. InterPlay is similar to the process that the brain performs during the formulation of a dream sequence. Images that have been stored through recent experiences simultaneously emerge in pieces and the brain mixes them into a surreal sequence that loosely resembles a story. Video streams, similar to these emerging images, coming from several sites across the country and the world, are then combined into a richly woven audio-visual tapestry."  InterPlay is broadcast from the University of Utah campus.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Elizabeth and Jimmy Miklavcic independent film and dance collection (1984-2012) consists of dance related experimental films and documentaries based in the Salt Lake City area.  The collection includes recordings of Another Language Performing Arts Company's "InterPlay," an annual broadcast of concurrent music, dance and poetry performances taking place in cities around the world.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>For Beth Miklavcic's University of Utah MFA dance thesis see the University of Utah Dance Department audio-visual collection (A0365).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <corpname encodinganalog="subject" source="local" rules="dacs" role="subject">Another Language Performing Arts Company</corpname>
+      <subject encodinganalog="subject" source="lcsh">Modern dance</subject>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="umabroad">Arts, Humanities, and Social Sciences</subject>
+      <subject altrender="nodisplay" source="umanarrow">Performing Arts</subject>
+      <subject altrender="nodisplay" source="umabroad">Material Types</subject>
+      <subject altrender="nodisplay" source="umanarrow">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1-7</container>
+          <unittitle encodinganalog="title">"What? A Choreographic Evolution"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984-1999</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Photographs, text histories, and videos from Beth Miklavcic's modern dance performances in Salt Lake City, Utah from 1984 through 1999. Most of the videos take place in black box theaters, but some are outdoor performances from the 1996 Utah Arts Festival.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8-9</container>
+          <unittitle encodinganalog="title">"Creative Passings"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental piece features shots of a modern dance performance by a female dancer intercut with various shots of natural settings (streams, woods, etc.). The piece is dedicated to Izzy Wagner, and was written, edited, and directed by Beth Miklavcic and features music by the band 3jane.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10-11</container>
+          <unittitle encodinganalog="title">"InterPlay: Intransitive Senses"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003 October 10</unitdate>
+          <physdesc>
+            <genreform>Mini-DVD videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus. It is the first such internet broadcast in the University of Utah's history. 2003 performers include Alex Caldiero, Samuel T. Liston, Kate MacLeod, Beth Miklavcic and daughter Hanelle Miklavcic.</p>
+          <p>Director Jimmy Miklavcic</p>
+          <p>Assistant director Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">12-14</container>
+          <unittitle encodinganalog="title">"InterPlay: Intransitive Senses"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003 October 10</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus. It is the first such internet broadcast in the University of Utah's history. 2003 performers include Alex Caldiero, Samuel T. Liston, Kate MacLeod, Beth Miklavcic and daughter Hanelle Miklavcic.</p>
+          <p>Director Jimmy Miklavcic</p>
+          <p>Assistant director Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">15-17</container>
+          <unittitle encodinganalog="title">"InterPlay: Hallucinations"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2004 April 23-25</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2004 participants include the University of Utah, the University of Alaska Fairbanks and the University of Maryland.</p>
+          <p>Director Jimmy Miklavcic</p>
+          <p>Assistant director Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">18</container>
+          <unittitle encodinganalog="title">"InterPlay: Loose Minds in a Box"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2005 August 04</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2005 participants performed simulatneously in Alaska, Montana, Illinois, Indiana, Maryland, Utah and at the Los Angeles Convention Center in California.</p>
+          <p>Director Jimmy Miklavcic</p>
+          <p>Assistant director Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">19-20</container>
+          <unittitle encodinganalog="title">"Music for Bubble Biters"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2005</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This mockumentary focuses on a conductor (Jimmy Miklavcic) trying to hold together a crazy band of performers while putting together a concert performance of a music composition that uses bowls of water as musical instruments.  Based on an original composition by Jimmy Miklavcic.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">21</container>
+          <unittitle encodinganalog="title">"InterPlay: Dancing on the Banks of Packet Creek"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2006 March 31-April 02</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2006 participants include the University of Utah, the University of Alaska Fairbanks, Purdue University, Boston University, the University of Maryland and Ryerson University in Toronto, Ontario.</p>
+          <p>Director Jimmy Miklavcic</p>
+          <p>Assistant director Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">22</container>
+          <unittitle encodinganalog="title">"InterPlay: Nel Tempo di Sogno"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2007 March 30-April 01</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2007 participants include the University of Utah, the University of Alaska Fairbanks, Boston University, the Universtiy of Maryland, the University of Illinois Urbana Champaign and Purdue University.</p>
+          <p>Co-directed by Jimmy and Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">23</container>
+          <unittitle encodinganalog="title">"InterPlay: Carnivale"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2008 March 28-30</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2008 participants include the University of Utah, the University of Illinois Urbana-Champaign, the Rochester Institute of Technology and Cardiff University, Wales.</p>
+          <p>Co-directed by Jimmy and Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">24</container>
+          <unittitle encodinganalog="title">"InterPlay: AnARTomy"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2009 March 27-29</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2009 April 03-05</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2009 participants include the University of Utah, Brigham Young University (BYU), Cardiff University, the University of Alaska Fairbanks, Purdue University, Long Island University, and HIT Lab New Zealand.</p>
+          <p>Co-directed by Jimmy and Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">25</container>
+          <unittitle encodinganalog="title">"InterPlay: Event Horizon"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2010 March 26-28</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2010 April 02-03</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This experimental international collaborative poetry, music and dance performance broadcast over the internet from the University of Utah campus.  2010 participants include the University of Utah, the University of Alaska Fairbanks, and artists in Los Angeles, California and Tokyo, Japan.</p>
+          <p>Co-directed by Jimmy and Beth Miklavcic</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">26</container>
+          <unittitle encodinganalog="title">"Duel-Ality 1.0"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2011</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed at the University of Utah Center for High Performance Computing VisLab Black Box Theater, this telematic play focuses on the characters of Duel (Jimmy Miklavcic) and Ality (Elizabeth Miklavcic) as they explore technology, relationships, creativity and personal duality.  30 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">27</container>
+          <unittitle encodinganalog="title">"Duel-Ality 2.0"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2012</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Performed at the University of Utah Center for High Performance Computing VisLab Black Box Theater, this telematic play was expanded from the 2011 play <title render="italic">Duality 1.0</title>, which focuses on the characters of Duel (Jimmy Miklavcic) and Ality (Elizabeth Miklavcic) as they explore technology, relationships, creativity and personal duality.  30 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">28</container>
+          <unittitle encodinganalog="title">XYZ</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2013</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This project was debuted and performed at the University of Utah Center for High Performance Computing VisLab Black Box Theater February 22, 2013 and ran through March 3, 2013. "XYZ - A Digital Poem" was written by Elizabeth Miklavcic and explores the social and personal elements of width, height, and depth through poetry, music, movement, and stereographic media.  25 minutes.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

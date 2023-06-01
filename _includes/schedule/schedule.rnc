@@ -1,4 +1,5 @@
 start = schedule
+
 schedule = element schedule { monday, tuesday, wednesday, thursday, friday }
 day = title, slot+
 monday =
@@ -26,6 +27,7 @@ friday =
         attribute d { "Friday, June 9" },
         day
     }
+
 title = element title { text }
 desc =
     element desc {

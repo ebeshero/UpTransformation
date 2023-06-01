@@ -1,7 +1,7 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare variable $Chas as document-node() := doc('/db/mitford/literary/Charles1.xml');
 declare variable $ChasPlay as element() := $Chas/*;
-declare variable $si as document-node() := doc('http://digitalmitford.org/si.xml');
+declare variable $si as document-node() := doc('https://digitalmitford.org/si.xml');
 declare variable $yStretchFactor := 10;
 declare variable $xStretchFactor := 75;
 <svg xmlns="http://www.w3.org/2000/svg" width="{14 * $xStretchFactor}" height="{50 * $yStretchFactor}" viewBox="0,0,1300,700">

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:31 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0286::Japanese American Citizens League audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv79666" url="http://archiveswest.orbiscascade.org/ark:/80444/xv79666">UUM_A0286</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Japanese American Citizens League audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1926/1975" encodinganalog="date">1926-1975</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Japanese American Citizens League audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Tawnya Mosier
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0286</unitid>
+      <unittitle encodinganalog="title">Japanese American Citizens League audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1926/1975" encodinganalog="date">1926-1975</unitdate>
+      <unitdate type="bulk" era="ce" calendar="gregorian" normal="1927/1939" encodinganalog="date">1927-1939</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">Japanese American Citizens League</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">18 16mm films and one audiocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Japanese American Citizens League audio-visual collection (1926-1975) consists largely of black and white, silent 16mm films taken by Ogden resident Dr. Sanji Oda, who recorded parades, sporting events and other activities throughout Northern Utah as well as material specific to the Japanese American community and Oda's own family from the late 1920s through the 1930s.  The colleciton also includes a 1927 newsreel and a 1975 audio recording of an appeal to obtain redress for the World War II evacuation and imprisonment of Japanese Americans produced by the Seattle, Washington chapter of the JACL.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language> and 
+        <language encodinganalog="language" langcode="jpn">Japanese</language>.
+      </langmaterial>
+    </did>
+    <phystech>
+      <p>Most of the films are in poor condition due to age and inappropriate storage conditions prior to their arrival in Special Collections.  They suffer from mold, warping and vinegar syndrome and have been relocated to a cold storage vault for preservation.  Digital copies were made for patron access.</p>
+    </phystech>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>Founded in 1930, the Japanese American Citizens League (JACL) is a membership organization whose mission is to secure and maintain the human and civil rights of Americans of Japanese ancestry and others victimized by injustice. The JACL has 112 chapters nationwide and eight regional districts with over 24,000 members found in 23 states. In addition to its national headquarters in San Francisco, the JACL has five regional offices (Los Angeles, Fresno, San Francisco, Seattle, Chicago), as well as an office in Washington D.C. and an organizational newspaper, the Pacific Citizen, distributed nationally from its office in Los Angeles. According to its official website, www.jacl.org, the JACL derives its effectiveness through its regional offices located in key cities and areas to serve the needs of the organization's members and to maintain the well-being of all Asian Americans.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Japanese American Citizens League audio-visual collection (1926-1975) consists largely of black and white, silent 16mm films taken by Ogden resident Dr. Sanji Oda, who recorded parades, sporting events and other activities throughout Northern Utah as well as material specific to the Japanese American community and Oda's own family from the late 1920s through the 1930s.  The colleciton also includes a 1927 newsreel and a 1975 audio recording of an appeal to obtain redress for the World War II evacuation and imprisonment of Japanese Americans produced by the Seattle, Washington chapter of the JACL.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The majority of the materials are arranged by subject.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.      </p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the records of the Utah chapter of the JACL (Accn 1852) and the JACL photograph collection (P1003).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Tawnya Mosier in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Japanese Americans--Utah--History--Sources</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Our Navy in the World War</title> and <title render="italic">Lindbergh: The Epic Trans-Atlantic Flight</title></unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1927</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white with yellow and sepia tint
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <list type="simple">
+              <item>
+                <title render="italic">Our Navy in the World War</title> is an educational film produced by United States Navy.  The film uses archival footage interspersed with intertitles to explain the U.S. Navy's accomplishments and involvement in World War I.  There is footage taken from a U-boat of water-based explosions.  Subsequent intertitles explain the United States' entry into the war.  Footage of a great number of people being transported on a naval ship followed by footage of two African-American men tap-dancing for a largely Caucasian crowd on the ship's deck.  This shot is followed by more footage of explosions. The film ends with an image of the Official Navy Seal and Coat of Arms.</item>
+              <item>
+                <title render="italic">Lindbergh: The Epic Trans-Atlantic Flight</title> is a newsreel about Charles Lindbergh's trans-Atlantic flight.  Intertitles and archival footage tell the story of the numerous fateful attempts by people to cross the Atlantic by plane.  There is footage of crashes, burning planes, etc, as well as footage of the actual people who attempted the flight before Charles Lindbergh.  Intertitles and footage then tell the story Charles Lindbergh's successful trans-Atlantic flight.</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">2</container>
+          <unittitle encodinganalog="title">Current Events reel one</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1930s</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production; Photographed by Dr. Sanji Oda.  Footage of current JACL events interspliced with intertitles to explain some of the images.  (Note: Intertitles are in italics.  Also, where the information on the intertitle explains all following footage, there will be no description of actual footage.  However, if the intertitle is vague, there will be further description of the shots following the intertitle).
+		<list type="simple"><item><emph render="italic">Ambassador Matsudaira and Miss Setsuko Matsudaira, Bride-Elect to Prince Chichibu at Ogden Depot on the way to Japan</emph>.</item><item><emph render="italic">In the garden of Mr. Kaneko's home with Maragaret Mitsuko San, Katherine Kazuko San, Susie Suzuko San</emph>.  Footage of young girls dancing in the garden around a large bird bath.  </item><item><emph render="italic">Carps in pond/Bobby playing in sand</emph>.  Footage of a boy playing in the sand followed by an intertitle written entirely in Japanese.  Shots of crowds of people in front of a train, some people are waving at the camera.</item><item><emph render="italic">In the zoo</emph>.  Footage of a brown or black bear followed by footage of an elephant.</item><item><emph render="italic">Boys Day Parade/A Boy Drummer-Royal Tribe/Boy Scouts start on hike/Thos. D. Dee Memorial Hospital/Nurses Home of the hospital/The operation room/A scene of operation</emph>.  Footage of an operation in progress.</item><item><emph render="italic">The Laboratory/Nurses Graduates from Thos. D. Dee Memorial Hospital 1928</emph>.  Footage of graduates walking outside of building in a line.</item><item><emph render="italic">The Graduating Nurses 1929/1930 Graduates; Dee Hopsital Nurses</emph>.  Footage of nurses in graduation gowns walking in a line outside of building.</item><item><emph render="italic">Prof. Ichihashi from Stanford University</emph>.  Footage of people shaking hands and greeting the professor from Stanford University.</item><item><emph render="italic">Leaving Union Depot, Ogden, Utah/Babies posed for a show/Night street scene of Ogden/Interior of laboratory/End of Reel One</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">3</container>
+          <unittitle encodinganalog="title">Current Events reel two</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1939</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production. Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).
+		  <list type="simple"><item><emph render="italic">Gekken-Japanese Fencing</emph>.  Footage of young adults in protective gear, fencing.</item><item><emph render="italic">Rev. Kawai from Japan</emph>.  Footage of people greeting Reverend Kawai.</item><item><emph render="italic">Hotel Bigelow, one of Ogden's prides</emph>.  Footage of the hotel, traffic, etc.</item><item><emph render="italic">The floats in the parade/High-Diving</emph>.  Footage of parade floats followed by footage of a male highdiver climbing a very tall ladder and then diving into a small, circular outdoor pool.</item><item><emph render="italic">By Telephoto Slow Motion</emph>.  The high dive is shown again, this time in slow motion.</item><item><emph render="italic">The First Winter Sports in Ogden/The Professional Jumpers</emph>.  Footage of ski jumpers taken from the bottom of a ski jump hill.</item><item><emph render="italic">The amateurs taking spill/Fishing in the South Fork Canyon early in the Sept. morn</emph>. Footage of amateur skiing followed by shots of men fishing in a river.</item><item><emph render="italic">A herd of cattle</emph>. Footage of cowboys herding cattle.</item><item><emph render="italic">A flock of sheep/A prize cow (owned by Mr. Sakurada)</emph>.  The following title is written in Japanese acompanied by a notation marking the year as 1928.  Footage of small boys wrestling, other children playing various games and eating lunch picnic-style.  Footage of people dressed up suits and dresses, some are waving at the camera.  Footage of a baby crying.</item><item><emph render="italic">Duck Hunters/The Dawn</emph>.  Footage of men in a field with guns, also shots of some field scenery.</item><item><emph render="italic">Big Telephoto Lens</emph>.  Footage of men shooting into the sky.</item><item><emph render="italic">Deer Hunting</emph>.  Footage of men carrying a dead deer to a truck and attaching it to the vehicle in order to transport it elsewhere.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">4</container>
+          <unittitle encodinganalog="title">Current Events reel three</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1928-1939</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).
+		  <list type="simple"><item><emph render="italic">Commissioner Yamamuro of Salvation Army/UCT Parade at Ogden, Utah/Mr. Kiyoshi Kiyosawa/Buddhist's Sunday School Children and Rev. Ike/Mr. Hoover in Political Campaign at Ogden, Utah</emph>.  Footage of President Hoover (before he was elected President) waving and greeting people from the back of a train during what looks to a be a train-stop campaign tour.</item><item><emph render="italic">An Ambassador of Goodwill from Japan</emph>.</item><item>Scrolling Title: <emph render="italic">"Miss Fukai", the Special Ambassador received by the State of Utah is one of fifty-eight Doll Ambassadors sent by 2,610,000 Japanese school girls in those primary schools and kindergartens which have received one of the 12,739 Doll Messengers of Friendship sent to Japan in the spring of 1927 by thousands of American children and young people.  This goodwill adventure was carried out under the auspices of the Committee of World Friendship among Children instituted by the Federal Council of the Churches of Christ in America.  She was received into the State Capitol building by Governor Dern on the twenty-fifth of May 1929.</emph></item><item><emph render="italic">"Miss Japan" has her permanent home in the National Museum in Washington D.C.  She is valued at $350 and is the gift of the Empress of Japan.  The other 57 Doll Ambassadors, one from each profesture (51) and six from six of the principal cities of Japan, are loacted one in each State and one each in a few of our principal cities.  Each Doll Ambassador, with her outfit, is valued at $200.</emph></item><item><emph render="italic">"Miss America" and the 48 Doll Messengers of Friendship named for the 48 States of our Union, were placed on exhibition for days in Japan.  They were then established as a permanent exhibit in the Imperial Educational Museum in Tokyo, occupying a beautiful miniature doll palace, a gift of the Empress of Japan</emph>.  This title is followed by footage of the doll presentations, fan dancing at the presentation and traditional Japanese dancing.</item><item><emph render="italic">Blowing Blow-Gum</emph>.  Footage of two small girls blowing bubbles with bubble gum.</item><item><emph render="italic">Enjoying a Slice of Watermelon</emph>.  Footage of four young girls eating watermelon.</item><item><emph render="italic">Weber Canyon Flood in Summer 1930</emph>.  Footage of flood damage, water running over rocks, a steam engine train in motion, more water, etc.</item><item><emph render="italic">Taking Chair Contest/Horse Riding/Ant's Nest/By Telephoto Slow Motion/Swimming in Weber Gym/By Telephoto Slow Motion</emph>.  The action desribed in the previous titles is followed by slow motion footage of a baseball game.</item><item><emph render="italic">Pitching by Ray Kano (A Slow Motion Picture)/Swimming and Diving/End of Reel Two</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">5</container>
+          <unittitle encodinganalog="title">Current Events reel four</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1926</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).
+		  <list type="simple"><item><emph render="italic">A Pony and Children/Mr. Nakashima, who is justly proud of his handsome beard</emph>.  Footage of an elderly man with a very long white beard.</item><item><emph render="italic">Ambassador Katsuji Debuchi and his family on their way to Japan</emph>.  Footage of people dressed up in nice clothing at a train depot.</item><item><emph render="italic">Doll Ambassador, Miss Fukai, on Capitol Steps/Planting the Cherry Trees Presented to Salt Lake City by the Japanese people of the Intermountain District/Viscount Kikuijirolshii with Other Delegates to the London Economic Conference at the Ogden Union Station/Consul General Kaname Wakasugi Visiting the Intermountain Region/Ogden, Utah Pioneer Day Parade, July 24, 1934</emph>.  Footage of parade, crowds watching, someone swimming laps (competition) with spectators watching.  Men, women and children walking by and posing for the camera.</item><item><emph render="italic">End of Reel Four</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">6</container>
+          <unittitle encodinganalog="title">Current Events reel five</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1930s</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  Footage of a crowd, then a parachuter, followed by a plane taking off, flying around in various formations, etc.  Footage of a woman in a kimono being photographed by a photographer.  Footage of a group of people (a family?) being photographed during the winter months (there is snow on the ground).  Footage of women making a quilt of some sort, a baseball game, a young adult sumo(?) wrestling competition, other various young adults games and races, men fishing in a river, parade going by, track and field games, overhead shots of downtown Salt Lake City, most notably of the Salt Lake LDS Temple, Temple Square and the statue of Brigham Young in downtown Salt Lake City.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">7</container>
+          <unittitle encodinganalog="title">Ogden Air Jubilee; Peach Day Festival at Brigham City</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1928</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>
+            <emph render="italic">Ogden Air Jubilee:</emph>
+          </p>
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics). 
+		  <list type="simple"><item><emph render="italic">Ogden Holds Air Jubilee, June 30th 1928/The Parade/Consists of Various Carriages and Vehicles Used Away back in '46/Old Enough/A Wheel of Stage Wagon Breaks on the way</emph>.  Footage of wagons and a small plane in the parade.</item><item><emph render="italic">Opening Ceremony/Mayor Frank Francis gives Opening Address</emph>.  Footage of the crowd while the mayor gives an address.</item><item><emph render="italic">Governor Dern congratulates the occassion/Number of airplanes take part/Ogden's first Air Marriage/Group of Witnesses/The Bride and Groom/Ready to go up for the ceremony</emph>.  Footage of the plane taking off with the bride and groom inside.</item><item><emph render="italic">Marriage Certificate witnessed by leading member of Ogden/Pilot "Tommy" Thompson and members of Air Jubilee</emph>.</item><item><emph render="italic">Peach Day Festival at Brigham City:</emph></item><item>Parade Footage.  There is a car in the parade with the words, "Boxelder High School State Champions 1928," printed on the side.</item><item><emph render="italic">The End</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">8</container>
+          <unittitle encodinganalog="title">Current Events (Japanese title cards only)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1939</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  Footage of adults leading schoolchildren in a loose line in a field.  There is an American flag on a flagpole.  (This could be footage from a summer camp activity).  Footage of children in a circle, holding hands and playing some sort of game.  Footage of children playing a "capture the flag" type game, followed by a game of tag and a game in which it looks like the goal is to hit the top of a flagpole with small balls.  Footage of children playing a drawbridge game, followed by footage of children playing tug-of-war, eating lunch picnic style.  Footage of children racing each other while wearing books on their heads.  Footage of adults racing in a similar manner, the women are holding teacups full of liquid in front of them while they race.  It is unclear what the men hold as they race.  Footage of a number of unidentifiable (to this processor) games.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">9</container>
+          <unittitle encodinganalog="title">Football reel one</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1929</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).
+		  <list type="simple"><item><emph render="italic">McKinley Football team of Hawaii visits Ogden, Utah 1929/Arrival at Ogden Depot/Parade</emph>.  Footage of a train station, a train arriving, parade marching band, soldiers marching parade, etc.</item><item><emph render="italic">McKinley vs. Weber College/The Opening Ceremony/Kickoff</emph>.  Footage of the football game.</item><item><emph render="italic">Drill of American Legion band</emph>.  Footge of the band performing as well as more game footage.</item><item><emph render="italic">End of Reel One</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">10</container>
+          <unittitle encodinganalog="title">Football reel two</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1929</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).  Footage of the game.
+		  <list type="simple"><item><emph render="italic">Touchdown/Weber College vs. Santa Rosa/The Opening Ceremony/Kick-off/By Telephoto slow motion</emph>.  Footage of the game, some in slow motion.</item><item><emph render="italic">VS. Albion/The End</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">11</container>
+          <unittitle encodinganalog="title">Baseball reel one</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1928</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).
+		  <list type="simple"><item><emph render="italic">Ogden Nippon Baseball Team Season 1928/The practice at Five Point Ground/At Industrial School of Ogden</emph>.  Baseball game footage.</item><item><emph render="italic">All kinds of fans</emph>.  Footage of fans in the bleachers.</item><item><emph render="italic">Intermountain Nippon Baseball League opens season of 1928/First game vs. Tremonton team at Five Point/Opening Address by Mr. Tamaki and Commissioner Williams/Opening Ceremony: Pitcher-Williams, Batter-Takashashi, Catcher-Kurozumi/First Man Up</emph>.  Footage of the baseball game.</item><item><emph render="italic">Tamaki hits single/At Syracuse/Hard Luck/Sakaki makes home run</emph>.  Footage of the home run.</item><item><emph render="italic">Again Chiba hits home run/At Orchards Second Team of Syracuse and Murray playing/At Fair Ground of Salt Lake City/Second team playing on same ground</emph>.  More footage of baseball games.</item><item><emph render="italic">End of Reel One</emph>.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">12</container>
+          <unittitle encodinganalog="title">Baseball reel two</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1929</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A Fan Production.  Photographed by Dr. Sanji Oda.  (Note: Intertitles are in italics).
+		  <list type="simple"><item><emph render="italic">VS. Syracuse team at Five Point/Warming Up/First man George makes a hit/VS. Bingham team at Five Point/Now on picture taken at 1/24 slow motion speed/Mark makes three bagger/Manager "Bill"/Back to normal speed/The tying run/The winning run/At Tremonton/Players of both teams/Home run/First game of second season at Salt Lake City-1st and 2nd team/At Tremonton/Syracuse team visits at Lorin Farr park-2nd team and 1st team/At Syracuse/1928 League game ends at Five Points Ground.  Utah Nippo presents the pennant to Ogden Nippon, winners</emph>.  Footage of the celebration following the win.</item><item><emph render="italic">The second team of Ogden Nippon 1930</emph>.  Footage of the team posing for the camera.</item></list></p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">13</container>
+          <unittitle encodinganalog="title">Home movie - Japan</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1930s</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white, Sakura safety film
+            </physfacet>
+          </physdesc>
+        </did>
+        <phystech>
+          <p>This reel is badly warped and has water damage</p>
+        </phystech>
+        <scopecontent encodinganalog="description">
+          <p>Footage of a house, outside daytime shots of neighborhood houses, a Japanese flag waving in the wind, a man in a suit walking towards a building that looks to be some sort of governmental building (i.e. an embassy).  There are shots of the man walking onto the grounds of the building followed by shots of the man indoors, facing the camera and on the doorstep next to the front of the building.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">14</container>
+          <unittitle encodinganalog="title">Toyohachi (Home movie) - Japan</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1939</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of family in traditional Japanese dress standing in front of the camera.  There are shots of children riding a bicycle, a woman in front of the camera with a toddler.  More footage of children (this time in contemporary western dress) on bicycles.  Footage of man with young boy on his shoulders, people on the front steps to a house, boy in a go-cart, etc.  Footage of a sign which reads, "Toyohachi" followed by shots of a building with cars parked in front of it, street scenes with shops and other sights of the town.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">15</container>
+          <unittitle encodinganalog="title">Home movie - Japan</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1930s</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white, Sakura safety film
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of signs written in Japanese, trees, a birdhouse/birdbath, garden, house with garden in back.  Footage of an older woman and young woman sitting on a step outside of the house in the garden.  They pose for the camera and then walk towards the camera, while talking.  Footage of a man in a white western-style suit and a woman in a kimono, followed by shots of the man walking down a path towards the camera, a man on a bicycle riding the same path and a woman walking down the same path out onto the road.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">16</container>
+          <unittitle encodinganalog="title">Home movie - Utah</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1930s</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of a man standing near a public mailbox.  Shots of people walking by store fronts.  There is a sign on one store front which reads, "United Press Flashes".  Footage of a Japanese woman smiling at the camera in front of the store.  Couples greeting each other and talking in front of camera.  Footage of the two couples (one Japanese, one Caucasian) playing catch and goofing around.  They look like they might be on a college campus.  Outside footage of what could be campus housing followed by indoor shots of a woman sitting at a dining room table and then playing piano.  Footage of an older woman and young boy posing for the camera followed by footage of people on bicycles, boxes on the ground outside in what looks to be preparations for a bonfire (Location: President's Circle at the University of Utah or Weber College?)  Footage of a parade going by the camera (military-themed?).</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">17</container>
+          <unittitle encodinganalog="title">Home movie - Japan</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1939</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Silent, black and white
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Footage of field workers working in a field followed by a shot of a sign written in Japanese.  Footage of shop fronts, a garden, a lake(?), more signs, store fronts on what looks to be a dirt road.  Footage of a large group of people (family?) posing for the camera followed by footage of a garedn and grounds outside of a building.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="reel">18</container>
+          <unittitle encodinganalog="title">Cherry Blossoms and Japanese Customs (Parade)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1930s</unitdate>
+          <physdesc>
+            <genreform>16mm film, Kodacolor.  Because we do not currently have Kodacolor equipment at the University of Utah this film is currently available only in black and white.</genreform>
+            <physfacet>
+              Silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>(Note: Outside of can reads: Toyota? Ogden. Title on film itself reads: Cherry Bloosoms and Japanese Customs).  Footage of a parade in Ogden at the time of the Cherry Blossom celebration.  This reel also contains footage of a Japanese American family posing in ceremonila kimonos.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">19</container>
+          <unittitle encodinganalog="title">An appeal for action to obtain evacuation redress</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1975 November 19</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>An appeal for an action to obtain redress for the World War Two Evacuation and Imprisonment of Japanese Americans.  Produced by the Seattle, Washington Chapter of the JACL.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0754::Helen B. Andelin audio collection)//EN" encodinganalog="identifier" identifier="80444/xv08261" url="http://archiveswest.orbiscascade.org/ark:/80444/xv08261">UUM_A0754</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Helen B. Andelin audio collection
+				<date era="ce" calendar="gregorian" normal="1976" encodinganalog="date">1976</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Andelin (Helen B.) audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Molly Creel</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0754</unitid>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Andelin, Helen B. </persname>
+      </origination>
+      <unittitle encodinganalog="title">Helen B. Andelin audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1976" encodinganalog="date">1976</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">1 audiocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Helen B. Andelin audio collection (1976) consists of an abridged audiobook recording of Andelin's 1963 book, <title render="italic">Fascinating Womanhood</title>.  A proponent of traditional gender roles, which she believed were the key to a successful marriage, Andelin originally wrote the book in 1963 to correspond with the marriage enrichment classes she was teaching.  The Fascinating Womanhood movement continues to thrive today.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Helen B. Andelin (1920-2009) was born Helen Berry in Mesa, Arizona.  A devout member of the Church of Jesus Christ of Latter-day Saints, Helen Berry attended Brigham Young University, where she met and married Aubrey Passey Andelin (1918-1999).   Hoping to share the secret of her own happy marriage with other women, Helen Andelin began teaching marriage enrichment classes and wrote and initially self published her controversial book, <title render="italic">Fascinating Womanhood</title>.  Emphasizing traditional domestic roles for women, Andelin's teachings conflicted with other women's movements of the era; however, the Fascinating Womanhood movement gained a strong following which is still alive today.  Andelin continued to be active in the movement until her death in 2009.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Helen B. Andelin audio collection (1976) consists of an abridged audiobook recording of Andelin's 1963 book, <title render="italic">Fascinating Womanhood</title>.  The cassette was produced and distributed by the Success Motivation Institute of Waco, Texas.  It has been digitized and is available to listen to on compact disc.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Helen B. Andelin audio collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Helen B. Andelin audio collection A0754,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0754.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Helen Andelin in 2003.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Molly Creel in 2012.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Women</subject>
+      <subject encodinganalog="subject" source="lcsh">Gender and culture</subject>
+      <subject encodinganalog="subject" source="lcsh">Textbooks.</subject>
+      <subject altrender="nodisplay" source="archiveswest">Home and Family</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Facinating Womanhood</title> audiobook</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Abridged audio recording of Helen Andelin's 1963 book advocating traditional domestic roles for women.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

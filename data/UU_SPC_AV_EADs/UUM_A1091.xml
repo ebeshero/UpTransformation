@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A1091::Mignon H. Olive collection of University of Utah lecture audio recordings)//EN" encodinganalog="identifier" identifier="80444/xv76516" url="http://archiveswest.orbiscascade.org/ark:/80444/xv76516">UUM_A1091</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Mignon H. Olive collection of University of Utah lecture audio recordings
+				<date era="ce" calendar="gregorian" normal="1978/1984" encodinganalog="date">1978-1984</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Olive (Mignon H.) collection of University of Utah lecture audio recordings</titleproper>
+        <author encodinganalog="creator">Finding aid created by Mignon H. Olive</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2007" encodinganalog="date">© 2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A1091</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Olive, Mignon H.</persname>
+      </origination>
+      <unittitle encodinganalog="title">Mignon H. Olive collection of University of Utah lecture audio recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1978/1984" encodinganalog="date">1978-1984</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">486 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Mignon H. Olive collection of University of Utah lecture audio recordings (1978-1984) consist of recordings of lectures attended by Ms. Olive during her time as a student at the university.  This collection includes recordings of courses in psychology, history, art, social work, biology and other subjects taught by professors like Dr. Brigham Madsen and Dr. Robert Olpin.  Mignon H. Olive earned a Master's degree in Educational Psychology and worked for fifteen years with youth who needed special training to qualify for jobs in the work force.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Mignon H. Olive attended the University of Utah between 1977 and 1984 and recorded her lectures due to hearing problems.  She earned a Bachelor of Science, a Bachelor of Fine Arts, and a Master of Education.  She worked for fifteen years as an educational psychologist for Management Training Corps, working with youth ages 17 to 25 who needed special training to qualify for jobs in the work force.  Olive retired at the age of 67 and donated her class recordings and notes for research use.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Mignon H. Olive collection of University of Utah lecture audio recordings (1978-1984) consist of recordings of lectures attended by Ms. Olive during her time as a student at the university.  This collection includes recordings of courses in psychology, history, art, social work, biology and other subjects taught by professors Dr. Brigham Madsen, Dr. Alexander, Dr. Berchan, Dr. Milt Meux, Dr. David Dodd, Dr. Harry Bluhm, Dr. Chuck Gregg, Dr. Robert Olpin, Dr. Cal Turner, Dr. Legler, Dr. Patton, Dr. Pappas, Dr. Jorgensen, Dr. Orlando Rivera, Dr. Swenson, Dr. Clark, Dr. Zietak, Dr. R. Goka, Dr. Stenehyin, Dr. S. Wise, Dr. Jorgensen, Dr. P. Escobar, Dr. James Papa, Dr. Dave George, Dr. Fank Garner, Dr. Palmatier, Dr. P.B. Porter, Dr. E.G. Beier.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials arranged by course by donor.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Mignon H. Olive collection of University of Utah lecture audio recordings must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Mignon H. Olive collection of University of Utah lecture audio recordings A1091,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A1091.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Mignon H. Olive in 2007.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Molly Creel in 2012.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Madsen, Brigham D.</persname>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Olpin, Robert S.</persname>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <subject encodinganalog="subject" source="lcsh">Educational psychology</subject>
+      <subject altrender="nodisplay" source="archiveswest">Colleges and Universities</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="carton">1</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">1</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-29</container>
+              <unittitle encodinganalog="title">History 170: American Civilization</unittitle>
+              <unitdate>1980 January 02-March 06</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Brigham Madsen.</p>
+            </scopecontent>
+            <note>
+              <p>The following class recordings are in carton 3, box 8: January 23, January 28, January 30, January 31.</p>
+            </note>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">2</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-23</container>
+              <unittitle encodinganalog="title">Psychology 340: Abnormal Behavior</unittitle>
+              <unitdate>1978 January 03-March 05</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Alexander.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">3</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-20</container>
+              <unittitle encodinganalog="title">Human Values, Proust "Swann's Way"</unittitle>
+              <unitdate>1979 September 26-November 29</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Berchan.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="carton">2</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">4</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-10</container>
+              <unittitle encodinganalog="title">Educational Psychology 603: Introduction to Research Design</unittitle>
+              <unitdate>1983 January 11-March 08</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Milt Meux.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-10</container>
+              <unittitle encodinganalog="title">Psychology 261: Research Design</unittitle>
+              <unitdate>1979 February 12-March 09</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. David Dodd.  Research and statistics notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">5</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-17</container>
+              <unittitle encodinganalog="title">Psychology 260: Research and Statistics</unittitle>
+              <unitdate>1978 October 11-December 06</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. David Dodd.  Research and statistics notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-7</container>
+              <unittitle encodinganalog="title">Psychology 260: Research and Statistics Lab</unittitle>
+              <unitdate>1978 October 12-November 30</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. David Dodd.  Research and statistics notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">6</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-26</container>
+              <unittitle encodinganalog="title">Educational Psychology 630: Research and Methods</unittitle>
+              <unitdate>1983 September 26-December 05</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Harry Bluhm.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="carton">3</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">7</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-19</container>
+              <unittitle encodinganalog="title">Educational Psychology 601: Statistics and Concepts</unittitle>
+              <unitdate>1981 September 30-December 09</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Milt Meux.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-15</container>
+              <unittitle encodinganalog="title">Educational Psychology 601: Statistics and Concepts</unittitle>
+              <unitdate>1982 June 29-August 12</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Chuck Gregg.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">8</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-5</container>
+              <unittitle encodinganalog="title">Fine Arts 493: Honors Workshop</unittitle>
+              <unitdate>1978 September 28-October 29</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Robert Olpin.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-9</container>
+              <unittitle encodinganalog="title">Pharmacology 570: Drug Abuse</unittitle>
+              <unitdate>1979 January 04-February 01</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-5</container>
+              <unittitle encodinganalog="title">History 170: American Civilization</unittitle>
+              <unitdate>1980 January 23-31</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Brigham Madsen.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">9</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-7</container>
+              <unittitle encodinganalog="title">Educational Psychology 780: Seminar on Creativity</unittitle>
+              <unitdate>1981 July 2-30</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Cal Turner.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-6</container>
+              <unittitle encodinganalog="title">Social Work 692: Art Therapy</unittitle>
+              <unitdate>1981 September 28-November 23</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-11</container>
+              <unittitle encodinganalog="title">Biology 231: Human Anatomy</unittitle>
+              <unitdate>1981 March 04-July 28</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Legler.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="carton">4</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">10</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-19</container>
+              <unittitle encodinganalog="title">Educational Psychology 621: Advanced Counseling</unittitle>
+              <unitdate>1982 March 30-June 01</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Patton.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-4</container>
+              <unittitle encodinganalog="title">Educational Psychology 623: Rehab</unittitle>
+              <unitdate>1982 October 15-November 18</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Chuck Greg.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">11</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-19</container>
+              <unittitle encodinganalog="title">Educational Psychology 626: Adulthood-Aging</unittitle>
+              <unitdate>1982 April 07-June 02</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">12</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-7</container>
+              <unittitle encodinganalog="title">Educational Psychology 620: Introduction on Counseling</unittitle>
+              <unitdate>1981 October 07-November 04</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Chuck Greg.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-13</container>
+              <unittitle encodinganalog="title">Educational Psychology 633: Vocational Psychology Career</unittitle>
+              <unitdate>1982 October 06-November 24</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="carton">5</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">13</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-5</container>
+              <unittitle encodinganalog="title">Educational Psychology 623: Personal Theories</unittitle>
+              <unitdate>1982 July 08-August 12</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Pappas.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-11</container>
+              <unittitle encodinganalog="title">Educational Psychology 664: Rehab Theories</unittitle>
+              <unitdate>1983 January 05-February 23</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Jorgensen.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">14</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-12</container>
+              <unittitle encodinganalog="title">Educational Psychology 635: Group Counseling</unittitle>
+              <unitdate>1982 June 30-August 18</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Class notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-14</container>
+              <unittitle encodinganalog="title">Educational Psychology 636: Cross Culuture Counseling</unittitle>
+              <unitdate>1983 February 28-May 16</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Orlando Rivera.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">15</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-18</container>
+              <unittitle encodinganalog="title">Educational Psychology 665: Theories of Rehabilitation</unittitle>
+              <unitdate>1983 March 30-June 01</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Swenson.  Guest professors:</p>
+              <list type="simple">
+                <item>Dr. Clark (3/30/83)</item>
+                <item>Dr. Zietak (4/06/83)</item>
+                <item>Dr. R. Goka (4/13/83)</item>
+                <item>Dr. Stenehyin (4/20/83)</item>
+                <item>Dr. S. Wise (4/27/83)</item>
+                <item>Dr. Jorgensen (5/11/83)</item>
+                <item>Dr. P. Escobar (5/18/83)</item>
+              </list>
+              <p>Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="carton">6</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">16</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-4</container>
+              <unittitle encodinganalog="title">Educational Psychology 630: Tests and Measures</unittitle>
+              <unitdate>1983 October 31-November 07</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Harry Bluhm.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-19</container>
+              <unittitle encodinganalog="title">Educational Psychology 631: Interpreting Tests</unittitle>
+              <unitdate>1984 January 09-April 16</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. James Papa.  Class notes available.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">17-18</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-35</container>
+              <unittitle encodinganalog="title">Spanish 101-103</unittitle>
+              <unitdate>1983 September 26-1984 April 24</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="carton">7</container>
+          <unittitle encodinganalog="title">University of Utah lecture recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">19</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-19</container>
+              <unittitle encodinganalog="title">Common Medicines</unittitle>
+              <unitdate>1978 October 18-1979 January 30</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Dave George.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">20</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-8</container>
+              <unittitle encodinganalog="title">Social Work 690: Psych Medicines</unittitle>
+              <unitdate>1981 July 17-August 13</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Frank Garner.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-8</container>
+              <unittitle encodinganalog="title">Social Work 692: Reality Therapy</unittitle>
+              <unitdate>1981 July 30-August 08</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Palmatier.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-7</container>
+              <unittitle encodinganalog="title">Psychology 780: Seminar on Creativity</unittitle>
+              <unitdate>1981 July 09-August 13</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Cal Turner.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">21</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-13</container>
+              <unittitle encodinganalog="title">Art History 493: Honors Art History</unittitle>
+              <unitdate>1980 January 08-March 03</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Robert Olpin.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-9</container>
+              <unittitle encodinganalog="title">Educational Psychology 481: Field Experience</unittitle>
+              <unitdate>1979 February 12-March 08</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. Dodd.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">22</container>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-6</container>
+              <unittitle encodinganalog="title">Psychology 371: Physical Psychology</unittitle>
+              <unitdate>1979 September 26-December 06</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. P.B. Porter.</p>
+            </scopecontent>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="cassette">1-22</container>
+              <unittitle encodinganalog="title">Psychology 344: Personal Theories</unittitle>
+              <unitdate>1979 September 224-December 05</unitdate>
+              <physdesc>
+                <genreform>audiocassette</genreform>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>Professor: Dr. E.G. Beier.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

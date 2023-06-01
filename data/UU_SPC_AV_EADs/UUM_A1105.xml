@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A1105::Ken Sleight river running video collection)//EN" encodinganalog="identifier" identifier="80444/xv59735" url="http://archiveswest.orbiscascade.org/ark:/80444/xv59735">UUM_A1105</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Ken Sleight river running video collection
+				<date era="ce" calendar="gregorian" certainty="approximate" normal="1962" encodinganalog="date">circa 1962</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Sleight (Ken) river running video collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Roy Webb</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2013" encodinganalog="date">© 2013</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2013">2013</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A1105</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Sleight, Ken</persname>
+      </origination>
+      <unittitle encodinganalog="title">Ken Sleight river running video collection</unittitle>
+      <unitdate type="inclusive" era="ce" certainty="approximate" calendar="gregorian" normal="1962" encodinganalog="date">circa 1962</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">1 16mm film</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Ken Sleight river running video collection (circa 1962) consists of a 16mm silent film of a river trip through Glen Canyon.  The areas depicted in the film were flooded after the completion of Glen Canyon Dam in 1963.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Idaho native Ken Sleight began running rivers in Utah in the 1950s.  After serving in the Korean War and working as a bookeeper for Firestone Tires, Sleight relocated his family to Southern Utah and started his own rafting company, Wonderland Expeditions.  Inspired in part by the flooding of his beloved Glen Canyon, Sleight became a vocal environmental activist intent on protecting the Southern Utah landscapes he loved from further development.  In 1967, Sleight met and befriended fellow activist and author Edward Abbey and may have provided the inspiration for the <title render="italic">Monkey Wrench Gang</title> character, Seldom Seen Smith.  Sleight currently owns the Pack Creek Ranch ourside Moab, Utah.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Ken Sleight river running video collection (circa 1962) consists of a 16mm silent film of a river trip through Glen Canyon.  The areas depicted in the film were flooded after the completion of Glen Canyon Dam in 1963.  This movie and been digitized and is available to view on DVD.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Ken Sleight river running video collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Ken Sleight river running video collection A1105,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A1105.</p>
+    </prefercite>
+    <processinfo>
+      <p>Processed by Roy Webb in 2013.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Glen Canyon National Recreation Area (Utah and Ariz.)</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Colorado River (Colo.-Mexico)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Rivers--Recreational use</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="reel">1</container>
+          <unittitle encodinganalog="title">Wonderland Expeditions presents "Escalante County"</unittitle>
+          <unitdate>circa 1962</unitdate>
+          <physdesc>
+            <genreform>16mm film</genreform>
+            <physfacet>
+              Color, silent
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Shot list:
+							<list type="simple"><item>Opening credits: Rainbow Bridge</item><item>0:30	Running rapids in 10-man boat; not sure of location.  San Juan River or Glen Canyon?</item><item>1:06	sandstone buttes</item><item>1:30	small rapids, buttes</item><item>1:46	Bert Loper's Cabin, Glen Canyon</item><item>2:15	breakfast</item><item>2:34	Native American ruins.  Defiance House?</item><item>2:55	Smith Fork petroglyph panel</item><item>3:15	sunset light on buttes and cliffs</item><item>3:29	start of hike to Hole-in-the-rock.  Carved steps; view back down to river and across; group at top of hike; returning from hike</item><item>4:23	hike in Escalante Canyon; cliff walls</item><item>5:50	people swimming/wading in river at unknown side canyon mouth</item><item>6:35	Native American ruins</item><item>6:58	Pictographs</item><item>7:05	metates (grinding stones)</item><item>7:16	Native American ruins</item><item>7:37	female passengers, some climbing into Native American ruins (strictly forbidden today)(great 1950s sunglasses)</item><item>8:05	Pictographs</item><item>8:29	"NEMO 1934" Everett Ruess inscription, Davis Gulch</item><item>8:40	seeps with ferns, vegetation</item><item>9:25	Escalante River, trees, seeps, vegetation</item><item>10:05	Gregory Natural Bridge (now under Lake Powell)</item><item>10:16	man with packhorse going under Gregory Natural Bridge; man walking under bridge</item><item>10:57	Stevens Arch</item><item>11:45	Gregory Natural Bridge</item><item>12:15	small waterfalls on Escalante River</item><item>12:55	10-man military surplus boats in rapids, Colorado River</item><item>13:15	Olympia Bar, old mining machinery, Glen Canyon</item><item>13:55	oil seeps, oil well</item><item>14:47	sand dunes</item><item>15:13	blooming barrel cactus; passengers cutting up cactus to eat?  (putting slices from inside of cactus in pot)</item><item>15:46	people jumping off boats into river, throwing each other in river, water fights  (SOCTWA trip?  Looks like different passengers, different boats, all boys)</item><item>16:52	people jumping into pool in side canyon</item><item>17:10	waterfall in side canyon</item><item>17:37	hike up Forbidding Canyon (route  to Rainbow Bridge; 14 mile round trip); pools</item><item>18:04	Rainbow Bridge; Navajo Mountain in background</item><item>19:15	climb up buttress to side of Rainbow Bridge with rope</item><item>19:45	climb down onto top of Rainbow Bridge with rope (the procedure was to climb up the side of the canyon next to the bridge, then use a rope to help walk/climb down onto the top of the Bridge)</item><item>20:30	top of Rainbow Bridge (no longer allowed); Navajo Mountain in background</item><item>21:33	sitting in pool</item><item>21:50	hiking at base of cliffs; woman finds white chert arrowhead</item><item>22:22	Hidden Passage</item><item>22:40	cliffs, camera pans down to someone's watercolor painting of the same cliffs, other watercolors, including Rainbow Bridge</item><item>23:30	sleeping on boats; Navajo Mountain seen from river</item><item>23:58	paddling boat up side canyon (Mystery Canyon?)</item><item>24:27	boy catches catfish</item><item>25:00	boy in mud</item><item>25:18	everyone in river, swimming small riffle in life jackets</item><item>26:00 passengers on boat, reading, combing hair, smoking cigarettes, mugging for camera</item><item>27:00	wet toilet paper roll</item><item>27:30	hoodoos, Henry Mountains in background</item><item>28:22	man in pool</item><item>29:25	Peekaboo Arch</item><item>29:50	small plane landing at Marble Canyon airstrip; pilot loading passengers duffle; two people boarding;  plane taking off</item><item>31:15	END</item></list></p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

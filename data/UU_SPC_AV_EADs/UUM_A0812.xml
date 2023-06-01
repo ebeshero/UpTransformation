@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:03 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0812::Jerry Dixon smokejumping film)//EN" encodinganalog="identifier" identifier="80444/xv37399" url="http://archiveswest.orbiscascade.org/ark:/80444/xv37399">UUM_A0812</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Jerry Dixon smokejumping film
+          <date era="ce" calendar="gregorian" normal="1999" encodinganalog="date">1999</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Dixon (Jerry) smokejumping film</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0812</unitid>
+      <unittitle encodinganalog="title">Jerry Dixon smokejumping film</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1999" encodinganalog="date">1999</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Dixon, Jerry</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Jerry Dixon smokejumping film (1999) consists of a short documentary about smokejumping in Alaska made by University of Utah graduate Jerry Dixon.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Jerry Dixon earned Bachelor of Arts degrees from the University of Utah in 1970 and 1973.  An extreme sports, outdoors and travel enthusiast, Dixon currently participates in the University of Utah's Environmental Humanities Graduate Program by helping students travel to locations like Brazil, Costa Rica, Moose, Wyoming and Castle Valley, Utah to study what Environmental Humanitites Dean Robert Newman describes as "our relationship and responsibility to life on our planet, from environmental degradation and their consequences in human dispossession, species extinction, and sustainability as well as in ethical, health, and public policy concerns."</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Jerry Dixon smokejumping film (1999) consists of a short documentary about smokejumping in Alaska made by University of Utah graduate Jerry Dixon.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Alaska</geogname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject encodinganalog="subject" source="lcsh">Smokejumping</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">"Ten Seconds over Birch Hill"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1999</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This documentary about smokejumping in Alaska was made in response to a call for documentaries about smokejumping from the Smithsonian and was accepted into the Smithsonian's collection.  7 minutes.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

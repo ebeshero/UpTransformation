@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:30 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0151::Rick Reese mountaineering audio collection)//EN" encodinganalog="identifier" identifier="80444/xv90350" url="http://archiveswest.orbiscascade.org/ark:/80444/xv90350">UUM_A0151</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Rick Reese mountaineering audio collection
+          <date era="ce" calendar="gregorian" normal="1980/1996" encodinganalog="date">1980-1996</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Reese (Rick) mountaineering audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2007" encodinganalog="date">© 2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2007">2007</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0151</unitid>
+      <unittitle encodinganalog="title">Rick Reese mountaineering audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1980/1996" encodinganalog="date">1980-1996</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="collector">Reese, Rick</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">3 compact discs</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Rick Reese mountaineering audio collection (1980-1996) consists of oral histories of mountaineers once active in Wyoming's Teton Range.  An historian and former Grand Teton National Park climbing ranger, Reese himself conducts one of the interviews.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Rick Reese grew up in Salt Lake City, Utah, where he spent countless hours climbing with friends in the Wasatch Mountains. He is an experienced mountineer.  He was a climbing ranger in Grand Teton National Park in the 1960s and has served as director of Community Relations at the University of Utah, co-chair of the Bonneville Shoreline preservation group, director of the Yellowstone Institute and founder the Greater Yellowstone Coalition.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Rick Reese mountaineering audio collection (1980-1996) contains oral history interviews which preserve the stories of the pioneering of climbing and skiing in the Teton Range.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically by interview date.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Rick Reese papers (Accn 1424) and the Alpenbock Club records (Accn 2296) in the Manuscripts Division of Special Collections.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2007.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Mountaineers--West (U.S.)--Biography</subject>
+      <subject encodinganalog="subject" source="lcsh">Mountaineering--West (U.S.)--History</subject>
+      <subject encodinganalog="subject" source="lcsh">Rock climbing--West (U.S.)--History</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">David F. DeLap</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 23</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>DeLap discusses his ascent of the Grand Teton on August 23 1923, the third ascent, made with Quin Blackburn and Andy DePirro. The first and second ascents were made by William Owen, Frank Peterson, John Shive, and Franklin Spalding in 1898.</p>
+          <p>Interview conducted by Rick Reese in Bozeman Montana.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">2</container>
+          <unittitle encodinganalog="title">Leigh N. Ortenburger</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1989 Fall</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Leigh (1929-1991) was a historian, researcher, guidebook author, and talented photographer. He was an accomplished mountaineer and climber, spending a tremendous amount of time in the Tetons and the Andes. In this interview, Leigh directly correlates the decrease of traditional mountaineering to the raise of competitive climbing. They discuss climbing ethics of old and how they have changed with the development of the sport.</p>
+          <p>Leigh discusses his publications regarding the history of the Teton mountain range, particularly his book <emph render="italic">A Climbers Guide To The Teton Range</emph> coauthored by Reynold G. Jackson. He talks about the types and levels of climbing the range offers, as well as his personal experiences climbing in this area.</p>
+          <p>Interview conducted by Mathew Goewert in Palo Alto, California.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">3</container>
+          <unittitle encodinganalog="title">Paul Petzoldt speaks about Fred Brown</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1996 July 10</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Petzoldt discusses everything that he and Brown had in common, activities that they participated in, and their friendship. Fred Brown, Paul Petzoldt and Eldon (Curly) Petzoldt were the first to descent Rendezvous Mountain which is now the Jackson Hole Mountain Resort. This was the first winter ascent of the Grand Teton. They skied to the caves in Garnet Canyon and carried loads of gear up to the lower saddle. From there they ascended to the summit via the Owen Spalding route. Fred later became the president of the ski club and helped form the Jackson Hole Ski Association.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

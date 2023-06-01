@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="DigEd">Typopictoromania: Digital Edition</title>
+                <author>John Thelwall</author>
+                <editor>Sarah Boyle and Michael Cameron</editor>
+                <respStmt>
+                    <resp>Introduction and Notes</resp>
+                    <name>Sarah Boyle and Michael Cameron</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Jane Boyes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Judith Thompson</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Per">
+                    <title level="a" type="chapter">The Epic Poem</title> in <title level="m">The
+                        Peripatetic</title>
+                    <author>John Thelwall</author>
+                    <editor>Judith Thompson</editor>
+                    <pubPlace>Detroit, Michigan</pubPlace>
+                    <publisher>Wayne State UP</publisher>
+                    <date when="2001">2001</date>
+                </bibl>
+                <bibl xml:id="Der">
+                    <title level="a">Typopictoromania</title> in <title level="u">The Derby
+                        Manuscript</title>
+                    <author>John Thelwall</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Our text is <title level="a">Typopictoromania,</title> an epic fragment that was
+                    to have been part of a much longer poem. It is epic like Dryden, satirical like
+                    Pope, critical like Blake; the fragment reveals the beginnings of a poem that
+                    was to use a grand yet cartoonish battle, one between the types of Caslon’s
+                    print house and the brushes of Boydell’s Shakespeare Gallery, as an opportunity
+                    to ridicule the abuse and abasement of poetic language during the revolutionary
+                    period in England. While the poem was never finished, what has survived—a
+                    preface, proposition, an invocation, a first canto, part of a second, and a few
+                    random fragments, together totalling close to five hundred lines of poetry—are
+                    both aesthetically and historically relevant to those interested in the early
+                    romanticism of the revolutionary period. While Thelwall claims that he initially
+                    intended to write a complete poem, its unfinished nature puts it in the same
+                    historical camp as Keats’ <title level="m">Hyperion</title> and Coleridge’s
+                        <title level="a">Kubla Khan</title>, texts that are paradoxically whole in
+                    their incompleteness. Furthermore, the poem is of particular import for Thelwall
+                    scholars; appearing in both <title level="m">The Peripatetic</title> of 1793 and
+                    in the later Derby Manuscript, the poem bookends Thelwall’s career. The two
+                    copies differ in a great many minor respects, particularly in punctuation, but a
+                    significant amount of major variations, where the later Thelwall has rewritten
+                    entire lines, are also present; a thorough study of the differences may be
+                    valuable for scholars interested in the development from the younger to older
+                    Thelwall. Thus, our task is to present a complete and accessible reading copy of
+                    the poem, showing a preference to the most recent and hitherto unpublished
+                    version (the Derby Manuscript) and including all important variations in
+                    editorial notes and additional yet important material in appendices.
+                    Furthermore, our TEI coding will ensure that scholars have access to all
+                    variations between the texts for the sake of comparison.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader><text><body><div xml:id="fragments">
+                <head resp="Editor">Fragments<note place="bottom" resp="ed">These fragments appear
+                        in <title level="m">P</title> surrounded by discussion of Sylvanus’ plans
+                        for the rest of the poem. While the poem itself is unfinished, the second
+                        fragment is almost certainly a piece of what might have become the final
+                        Canto, and thus it serves as a fitting conclusion for the poem while also
+                        harkening back to the closing couplets of the Proposition.</note></head>
+                <div type="I">
+                    <head resp="Editor">I</head>
+                    <lg>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">By his Herculean side sweet handmaid glows,<note place="bottom" resp="ed">Spelling of
+                                            <quote>Herculean</quote> corrected from
+                                            <quote>herculian.</quote></note></lem>
+                                <rdg wit="#Per">By his herculian side sweet handmaid glows,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Fair <persName type="mythological">Hebe</persName>, blushing like a full blown Rose</lem>
+                                <rdg wit="#Per">Fair <persName type="mythological">Hebe</persName>,
+                                    blushing like a full blown Rose</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">That full blown Rose, whose shape she once
+                                    assum’d,</lem>
+                                <rdg wit="#Per">That full blown Rose, whose shape she once
+                                    assum’d,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And bright on <placeName>Covent Garden</placeName>
+                                    Hustings bloom’d,</lem>
+                                <rdg wit="#Per">And bright on <placeName>Covent Garden</placeName>
+                                    Hustings bloom’d,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Till <name type="mythological">Argos</name> eyes
+                                    detect the treacherous thorn,</lem>
+                                <rdg wit="#Per">Till <name type="mythological">Argos</name> eyes
+                                    detect the treacherous thorn,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">To goad fair Freedom’s side malignant worn;</lem>
+                                <rdg wit="#Per">To goad fair Freedom’s side malignant worn;</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">At which, abash’d, she fled the light of
+                                    Day,</lem>
+                                <rdg wit="#Per">At which, abash’d, she fled the light of Day,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And hid beneath <persName type="mythological">Minerva</persName>’s buckler lay.—</lem>
+                                <rdg wit="#Per">And hid beneath <persName type="mythological">Minerva</persName>’s buckler lay.—</rdg>
+                            </app>
+                        </l>
+                    </lg>
+                </div>
+                <div type="II">
+                    <head>II</head>
+                    <lg>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Thus fled the types when thro’ the troubled
+                                    sky</lem>
+                                <rdg wit="#Per">Thus fled the types when thro’ the troubled
+                                    sky</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Dread thundering <persName type="mythological">Jove</persName> resistless beam’d on high;</lem>
+                                <rdg wit="#Per">Dread thundering <persName type="mythological">Jove</persName> resistless beam’d on high;</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">His awful wig of lightest hair around</lem>
+                                <rdg wit="#Per">His awful wig of lightest hair around</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">A star-gem’d diadem imperial frown’d,</lem>
+                                <rdg wit="#Per">A star-gem’d diadem imperial frown’d,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">In front of which bright beam’d the radiant
+                                    stone,</lem>
+                                <rdg wit="#Per">In front of which bright beam’d the radiant
+                                    stone,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">An eastern Nabob lately call’d his own;</lem>
+                                <rdg wit="#Per">An eastern Nabob lately call’d his own;</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Till at the altar of the thundering God,</lem>
+                                <rdg wit="#Per">Till at the altar of the thundering God,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">In supplication of his guardian nod,</lem>
+                                <rdg wit="#Per">In supplication of his guardian nod,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Submiss ‘twas offer’d. <persName type="mythological">Jove</persName>, as Gods are us’d,</lem>
+                                <rdg wit="#Per">Submiss ‘twas offer’d. <persName type="mythological">Jove</persName>, as Gods are us’d,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Receiv’d the offering, but the pray’r
+                                    refus’d.</lem>
+                                <rdg wit="#Per">Receiv’d the offering, but the pray’r refus’d.</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">—Dread was his presence; in his red right
+                                    hand,</lem>
+                                <rdg wit="#Per">—Dread was his presence; in his red right
+                                    hand,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Prepar’d to vindicate his high command,</lem>
+                                <rdg wit="#Per">Prepar’d to vindicate his high command,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">He grasps those thunders Alphabeta’s care</lem>
+                                <rdg wit="#Per">He grasps those thunders Alphabeta’s care</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Had forg’d the terrors of his will to bear.</lem>
+                                <rdg wit="#Per">Had forg’d the terrors of his will to bear.</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Now when the adverse conflict he espies,</lem>
+                                <rdg wit="#Per">Now when the adverse conflict he espies,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">With face of scarlet and grey rolling eyes,</lem>
+                                <rdg wit="#Per">With face of scarlet and grey rolling eyes,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Sees types on types dispers’d, dismay’d, or
+                                    slain,</lem>
+                                <rdg wit="#Per">Sees types on types dispers’d, dismay’d, or
+                                    slain,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And <persName type="historical">Boydell</persName>
+                                    raging thro’ the ensanguin’d plain:<note place="bottom" resp="ed">Spelling of <q>Boydell</q> corrected from
+                                            <quote>Boydel.</quote></note></lem>
+                                <rdg wit="#Per">And <persName type="historical">Boydel</persName>
+                                    raging thro’ the ensanguin’d plain:</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Indignant wrath and keen resentment rise,</lem>
+                                <rdg wit="#Per">Indignant wrath and keen resentment rise,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And, What! what! what! with thick short speech, he
+                                    cries;</lem>
+                                <rdg wit="#Per">And, What! what! what! with thick short speech, he
+                                    cries;</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">But could no more, for choler choak’d his
+                                    tongue,</lem>
+                                <rdg wit="#Per">But could no more, for choler choak’d his
+                                    tongue,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And what! what! what! thro’ heaven’s wide concave
+                                    rung.</lem>
+                                <rdg wit="#Per">And what! what! what! thro’ heaven’s wide concave
+                                    rung.</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Scar’d Moorfields shakes, clouds tremble as they
+                                    roll,</lem>
+                                <rdg wit="#Per">Scar’d Moorfields shakes, clouds tremble as they
+                                    roll,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Fork’d lightnings fly, big angry thunders
+                                    growl,</lem>
+                                <rdg wit="#Per">Fork’d lightnings fly, big angry thunders
+                                    growl,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And what! what! what! chills every victor’s
+                                    soul.</lem>
+                                <rdg wit="#Per">And what! what! what! chills every victor’s
+                                    soul.</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Scar’d <persName type="historical">Boydell</persName> flies, Woodmason’s puff expires,</lem>
+                                <rdg wit="#Per">Scar’d <persName type="historical">Boydell</persName> flies, Woodmason’s puff expires,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And e’en thy deamon, <persName type="historical">Opie</persName>, slow retires,<note place="bottom" resp="ed">John Opie (1761-1807) was a painter popular for
+                                        his portraits and historical works.</note></lem>
+                                <rdg wit="#Per">And e’en thy deamon, <persName type="historical">Opie</persName>, slow retires,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd"><persName type="mythological">Jove</persName>
+                                    throws his bolts thick scatter’d o’er the ground,</lem>
+                                <rdg wit="#Per"><persName type="mythological">Jove</persName> throws
+                                    his bolts thick scatter’d o’er the ground,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And brands of heavenly fury blaze around.</lem>
+                                <rdg wit="#Per">And brands of heavenly fury blaze around.</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Thro’ <name type="place">Britain</name>’s empire
+                                    spreads the sacred ire,</lem>
+                                <rdg wit="#Per">Thro’ <name type="place">Britain</name>’s empire
+                                    spreads the sacred ire,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Prints every gate-house, post, and village
+                                    spire,</lem>
+                                <rdg wit="#Per">Prints every gate-house, post, and village
+                                    spire,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Whence gazing Rustics, wondering what is
+                                    meant,</lem>
+                                <rdg wit="#Per">Whence gazing Rustics, wondering what is
+                                    meant,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Read dreadful words of treason, discontent,</lem>
+                                <rdg wit="#Per">Read dreadful words of treason, discontent,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">Sedition rumour’d, enemies to peace,</lem>
+                                <rdg wit="#Per">Sedition rumour’d, enemies to peace,</rdg>
+                            </app>
+                        </l>
+                        <l>
+                            <app>
+                                <lem wit="#DigEd">And dread commands, <hi rend="italics">that
+                                        Reason’s voice should cease</hi>.</lem>
+                                <rdg wit="#Per">And dread commands, <hi rend="italics">that Reason’s
+                                        voice should cease</hi>.</rdg>
+                            </app>
+                        </l>
+                    </lg>
+                </div>
+            </div></body></text></TEI>

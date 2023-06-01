@@ -60,11 +60,13 @@
                                         <String>XPROC</String>
                                     </list>
                                 </field>
+
                                 <field name="scenarioStorageLocations">
                                     <list>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
+
                             </scenarioAssociation>
                         </scenarioAssociation-array>
                     </entry>
@@ -87,6 +89,7 @@
                                 <field name="outputPorts">
                                     <xprocOutputPort-array>
                                         <xprocOutputPort>
+
                                             <field name="url">
                                                 <null/>
                                             </field>
@@ -96,6 +99,7 @@
                                             <field name="portName">
                                                 <String>result</String>
                                             </field>
+
                                         </xprocOutputPort>
                                     </xprocOutputPort-array>
                                 </field>

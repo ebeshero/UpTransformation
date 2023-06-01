@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="DigEd">Typopictoromania: Digital Edition</title>
+                <author>John Thelwall</author>
+                <editor>Sarah Boyle and Michael Cameron</editor>
+                <respStmt>
+                    <resp>Introduction and Notes</resp>
+                    <name>Sarah Boyle and Michael Cameron</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Jane Boyes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Judith Thompson</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Per">
+                    <title level="a" type="chapter">The Epic Poem</title> in <title level="m">The
+                        Peripatetic</title>
+                    <author>John Thelwall</author>
+                    <editor>Judith Thompson</editor>
+                    <pubPlace>Detroit, Michigan</pubPlace>
+                    <publisher>Wayne State UP</publisher>
+                    <date when="2001">2001</date>
+                </bibl>
+                <bibl xml:id="Der">
+                    <title level="a">Typopictoromania</title> in <title level="u">The Derby
+                        Manuscript</title>
+                    <author>John Thelwall</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Our text is <title level="a">Typopictoromania,</title> an epic fragment that was
+                    to have been part of a much longer poem. It is epic like Dryden, satirical like
+                    Pope, critical like Blake; the fragment reveals the beginnings of a poem that
+                    was to use a grand yet cartoonish battle, one between the types of Caslon’s
+                    print house and the brushes of Boydell’s Shakespeare Gallery, as an opportunity
+                    to ridicule the abuse and abasement of poetic language during the revolutionary
+                    period in England. While the poem was never finished, what has survived—a
+                    preface, proposition, an invocation, a first canto, part of a second, and a few
+                    random fragments, together totalling close to five hundred lines of poetry—are
+                    both aesthetically and historically relevant to those interested in the early
+                    romanticism of the revolutionary period. While Thelwall claims that he initially
+                    intended to write a complete poem, its unfinished nature puts it in the same
+                    historical camp as Keats’ <title level="m">Hyperion</title> and Coleridge’s
+                        <title level="a">Kubla Khan</title>, texts that are paradoxically whole in
+                    their incompleteness. Furthermore, the poem is of particular import for Thelwall
+                    scholars; appearing in both <title level="m">The Peripatetic</title> of 1793 and
+                    in the later Derby Manuscript, the poem bookends Thelwall’s career. The two
+                    copies differ in a great many minor respects, particularly in punctuation, but a
+                    significant amount of major variations, where the later Thelwall has rewritten
+                    entire lines, are also present; a thorough study of the differences may be
+                    valuable for scholars interested in the development from the younger to older
+                    Thelwall. Thus, our task is to present a complete and accessible reading copy of
+                    the poem, showing a preference to the most recent and hitherto unpublished
+                    version (the Derby Manuscript) and including all important variations in
+                    editorial notes and additional yet important material in appendices.
+                    Furthermore, our TEI coding will ensure that scholars have access to all
+                    variations between the texts for the sake of comparison.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader><text><body><div xml:id="canto2">
+                <pb type="#Per" n="312"/>
+                <head resp="Editor">Canto Two</head>
+                <lg>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><persName>Aurora’s</persName> rush-light melted now
+                                away</lem>
+                            <rdg wit="#Per"><persName type="myth">Aurora</persName>’s rush-light
+                                melted now away</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Before the flambeau of the God of Day,</lem>
+                            <rdg wit="#Per">Before the flambeau of the God of Day,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Whose broad unwelcome glare o’er house tops
+                                seen,</lem>
+                            <rdg wit="#Per">Whose broad unwelcome glare o’er house tops seen,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Tips <persName type="literary">Betty</persName>’s
+                                casement with refulgent sheen,</lem>
+                            <rdg wit="#Per">Tips <persName type="literary">Betty</persName>’s
+                                casement with refulgent sheen,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And calls young <persName type="literary">Barnwell</persName> from her brawny arms,<note place="bottom" resp="ed">This is potentially a reference to the play <title level="m">The London Merchant</title>, written by George
+                                    Lillo and first performed in 1731. It is a tragedy that centres
+                                    around the middle class; Barnwell, an apprentice, becomes
+                                    involved with a prostitute, and then steals from, and eventually
+                                    murders, his master. Although the prostitute in the play is not
+                                    named Betty, Betty Careless was a well-known prostitute of the
+                                    18th century. For more information, see the British Museum
+                                    website, and the <title level="m">Encyclopedia
+                                        Britannica</title>.</note></lem>
+                            <rdg wit="#Per">And calls young <persName type="literary">Barnwell</persName> from her brawny arms,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To ‘scape, unseen, thro’ gutters from her
+                                charms,</lem>
+                            <rdg wit="#Per">To ‘scape, unseen, thro’ gutters from her charms,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Just time enough to let his master in,</lem>
+                            <rdg wit="#Per">Just time enough to let his master in,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Reeling to business from the tavern’s din.</lem>
+                            <rdg wit="#Per">Reeling to business from the tavern’s din.</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">—Now bakers, on their dough-troughs yawn in
+                                state,</lem>
+                            <rdg wit="#Per">—Now bakers, on their dough-troughs yawn in state,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Damn the assize, and shrink the destin’d weight;</lem>
+                            <rdg wit="#Per">Damn the assize, and shrink the destin’d weight;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">The midnight robber skulking hides his head,</lem>
+                            <rdg wit="#Per">The midnight robber skulking hides his head,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And unplied trulls steal pennyless to bed;</lem>
+                            <rdg wit="#Per">And unplied trulls steal pennyless to bed;</rdg>
+                        </app>
+                    </l>
+                    <pb type="#Per" n="313"/>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While <name type="occupation">milk-maids</name> haste
+                                to <name type="place">Islington</name>, whose stream</lem>
+                            <rdg wit="#Per">While <name type="occupation">milk-maids</name> haste to
+                                    <name type="place">Islington</name>, whose stream</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Mingles with milk to furnish
+                                    <placeName>London</placeName> cream;</lem>
+                            <rdg wit="#Per">Mingles with milk to furnish
+                                    <placeName>London</placeName> cream;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">—Now sprightly <placeName>Billingsgate</placeName> is
+                                just awake,</lem>
+                            <rdg wit="#Per">—Now sprightly <placeName>Billingsgate</placeName> is
+                                just awake,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And the throng’d Nereids their stations take:</lem>
+                            <rdg wit="#Per">And the throng’d Nereids their stations take:</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Sweet sound their treble pipes; each accent hung</lem>
+                            <rdg wit="#Per">Sweet sound their treble pipes; each accent hung</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">With Classic graces of the vulgar tongue;</lem>
+                            <rdg wit="#Per">With Classic graces of the vulgar tongue;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While <placeName>Covent Garden</placeName> echoes back
+                                the strain;</lem>
+                            <rdg wit="#Per">While <placeName>Covent Garden</placeName> echoes back
+                                the strain;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Where throng the pastoral nymph and rural swain</lem>
+                            <rdg wit="#Per">Where throng the pastoral nymph and rural swain</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">From Putney’s, Battersea’s, and Peckham’s plain;</lem>
+                            <rdg wit="#Per">From Putney’s, Battersea’s, and Peckham’s plain;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Those Nymphs and Swains, whose rural Eclogues
+                                sweet</lem>
+                            <rdg wit="#Per">Those Nymphs and Swains, whose rural Eclogues
+                                sweet</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Have oft made vocal <name type="occupation">Carpenter</name>’s retreat—</lem>
+                            <rdg wit="#Per">Have oft made vocal <name type="occupation">Carpenter</name>’s retreat—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Who knows not <name type="occupation">Carpenter</name>’s? whose early doors</lem>
+                            <rdg wit="#Per">Who knows not <name type="occupation">Carpenter</name>’s? whose early doors</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ope with the dawn for <name type="occupation">hucksters</name>, <name type="occupation">thieves</name>, and
+                                    <name type="occupation">whores</name>,</lem>
+                            <rdg wit="#Per">Ope with the dawn for <name type="occupation">hucksters</name>, <name type="occupation">thieves</name>, and
+                                    <name type="occupation">whores</name>,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Rooks who with E.O. chace the midnight gloom,</lem>
+                            <rdg wit="#Per">Rooks who with E.O. chace the midnight gloom,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And poor gull’d Pigeons stripp’d of every plume;</lem>
+                            <rdg wit="#Per">And poor gull’d Pigeons stripp’d of every plume;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While jilts, culls, bullies, mingle with the
+                                throng,</lem>
+                            <rdg wit="#Per">While jilts, culls, bullies, mingle with the
+                                throng,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Pour the loud curse, and belch the reeling song.</lem>
+                            <rdg wit="#Per">Pour the loud curse, and belch the reeling song.</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To these responsive, what blithe sounds arise!</lem>
+                            <rdg wit="#Per">To these responsive, what blithe sounds arise!</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Bid shops unfold, and house maids rub their
+                                eyes!</lem>
+                            <rdg wit="#Per">Bid shops unfold, and house maids rub their eyes!</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><q>Primroses!</q>  <q>Dust O!</q> 
+                                    <q>Lavender!</q>  <q>Old Clothes!</q></lem>
+                            <rdg wit="#Per"><q>Primroses!</q>
+                                <q>Dust O!</q>
+                                <q>Lavender!</q>
+                                <q>Old Clothes!</q></rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And <q>Water Cresses!</q> banish dull repose;</lem>
+                            <rdg wit="#Per">And <q>Water Cresses!</q> banish dull repose;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><q>Brick Dust!</q>  <q>Sweep Soot O!</q> on the
+                                breezes swim</lem>
+                            <rdg wit="#Per"><q>Brick Dust!</q>
+                                <q>Sweep Soot O!</q> on the breezes swim</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And waft from street to street the matin hymn;</lem>
+                            <rdg wit="#Per">And waft from street to street the matin hymn;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While, in full chorus to the jocund lay,</lem>
+                            <rdg wit="#Per">While, in full chorus to the jocund lay,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Carts rattle, <name type="occupation">drivers</name>
+                                swear, and asses bray!—</lem>
+                            <rdg wit="#Per">Carts rattle, <name type="occupation">drivers</name>
+                                swear, and asses bray!—</rdg>
+                        </app>
+                    </l>
+                </lg>
+                <lg>
+                    <l rend="indent">
+                        <app>
+                            <lem wit="#DigEd">But dead to this blithe chorus of the morn</lem>
+                            <rdg wit="#Per">But dead to this blithe chorus of the morn</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Turns purse-proud Grandeur with an idle yawn,</lem>
+                            <rdg wit="#Per">Turns purse-proud Grandeur with an idle yawn,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Bent to renew once more, in flattering dreams,</lem>
+                            <rdg wit="#Per">Bent to renew once more, in flattering dreams,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">His Dissipations or ambitious schemes.</lem>
+                            <rdg wit="#Per">His Dissipations or ambitious schemes.</rdg>
+                        </app>
+                    </l>
+                </lg>
+                <lg>
+                    <l rend="indent">
+                        <app>
+                            <lem wit="#DigEd">New forest ‘closures sweeten Rose’s sleep,</lem>
+                            <rdg wit="#Per">New forest ‘closures sweeten Rose’s sleep,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And <persName>Smith</persName>’s damn’d verdict from
+                                his memory keep,</lem>
+                            <rdg wit="#Per">And <persName>Smith</persName>’s damn’d verdict from his
+                                memory keep,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">In <persName>Pitt</persName>’s bright fancy bolder
+                                hopes arise—</lem>
+                            <rdg wit="#Per">In <persName>Pitt</persName>’s bright fancy bolder hopes
+                                arise—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Unbounded sway, and general excise;</lem>
+                            <rdg wit="#Per">Unbounded sway, and general excise;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Confiding Senates, Camps of Observation,</lem>
+                            <rdg wit="#Per">Confiding Senates, Camps of Observation,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To crush enquiry, and dragoon the nation,</lem>
+                            <rdg wit="#Per">To crush enquiry, and dragoon the nation,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Navies and armaments, at
+                                    <placeName>Britain</placeName>’s cost,</lem>
+                            <rdg wit="#Per">Navies and armaments, at
+                                <placeName>Britain</placeName>’s cost,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Foredoom’d to gain—of Patronage a host;—<note place="bottom" resp="ed">William Pitt (1759-1806), a British
+                                    prime minister, was one of Thelwall’s political enemies, and,
+                                    along with Burke, a chief object of his satire. Thelwall
+                                    references Pitt’s augmenting of troops and taxes in 1793 to
+                                    support the British allies in the war against
+                                France.</note></lem>
+                            <rdg wit="#Per">Foredoom’d to gain—of Patronage a host;—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Foredoom’d to crush, (if Heaven their purpose
+                                aid)</lem>
+                            <rdg wit="#Per">Foredoom’d to crush, (if Heaven their purpose aid)</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">The impious crew who Rights of King’s invade.</lem>
+                            <rdg wit="#Per">The impious crew who Rights of King’s invade.</rdg>
+                        </app>
+                    </l>
+                </lg>
+                <lg>
+                    <l rend="indent">
+                        <app>
+                            <lem wit="#DigEd">For Dreams like these thrice strives Dundas in
+                                vain,</lem>
+                            <rdg wit="#Per">For Dreams like these thrice strives Dundas in
+                                vain,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While whip-gall’d Afric clanks the lengthen’d
+                                chain,</lem>
+                            <rdg wit="#Per">While whip-gall’d Afric clanks the lengthen’d
+                                chain,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And with fierce rage the wretch’s bosom rends,</lem>
+                            <rdg wit="#Per">And with fierce rage the wretch’s bosom rends,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Who damn’d her cause by joining with her
+                                friends.</lem>
+                            <rdg wit="#Per">Who damn’d her cause by joining with her friends.</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Thrice turns he round and sleeps; and thrice
+                                arise</lem>
+                            <rdg wit="#Per">Thrice turns he round and sleeps; and thrice arise</rdg>
+                        </app>
+                    </l>
+                    <pb type="#Per" n="314"/>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Grim hedious Spectres to his haggard eyes,</lem>
+                            <rdg wit="#Per">Grim hedious Spectres to his haggard eyes,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Shrieking aloud “No more expect repose,</lem>
+                            <rdg wit="#Per">Shrieking aloud “No more expect repose,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><said>Till slow the guilty eighteenth Century
+                                    close.</said></lem>
+                            <rdg wit="#Per"><said>Till slow the guilty eighteenth Century
+                                    close.</said></rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Again he turns. His country’s curses swell</lem>
+                            <rdg wit="#Per">Again he turns. His country’s curses swell</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Thick in his ears and while the hedious swell</lem>
+                            <rdg wit="#Per">Thick in his ears and while the hedious swell</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Harrows his soul, the gibbet rears elate,</lem>
+                            <rdg wit="#Per">Harrows his soul, the gibbet rears elate,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And burning effigies foretel his fate,</lem>
+                            <rdg wit="#Per">And burning effigies foretel his fate,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Tho’ lawless magistrates wage Civil war</lem>
+                            <rdg wit="#Per">Tho’ lawless magistrates wage Civil war</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To save with British blood the men of straw.</lem>
+                            <rdg wit="#Per">To save with British blood the men of straw.</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Great Mammon Nimrod now, as when awake,</lem>
+                            <rdg wit="#Per">Great Mammon Nimrod now, as when awake,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Creeps to his store, a fond, fond glance to
+                                take;</lem>
+                            <rdg wit="#Per">Creeps to his store, a fond, fond glance to take;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Laughs at an o’ertax’d people’s groans, and
+                                cries,</lem>
+                            <rdg wit="#Per">Laughs at an o’ertax’d people’s groans, and cries,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">With goat-like mouth, and idiot glaring eyes,</lem>
+                            <rdg wit="#Per">With goat-like mouth, and idiot glaring eyes,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While, pile on pile, his seventeen millions
+                                swell,</lem>
+                            <rdg wit="#Per">While, pile on pile, his seventeen millions swell,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><q>What—what—what—what—don’t all—all things go
+                                    well;</q></lem>
+                            <rdg wit="#Per"><q>What—what—what—what—don’t all—all things go
+                                well;</q></rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Then, (tho’ his purblind eyes, disloyal, fail</lem>
+                            <rdg wit="#Per">Then, (tho’ his purblind eyes, disloyal, fail</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To shew the difference ‘twixt the mane and tail)</lem>
+                            <rdg wit="#Per">To shew the difference ‘twixt the mane and tail)</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Calls for his horse, and with heroic grace</lem>
+                            <rdg wit="#Per">Calls for his horse, and with heroic grace</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Braves all the pleasing dangers of the chace.</lem>
+                            <rdg wit="#Per">Braves all the pleasing dangers of the chace.</rdg>
+                        </app>
+                    </l>
+                </lg>
+            </div></body></text></TEI>

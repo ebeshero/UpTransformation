@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="DigEd">Typopictoromania: Digital Edition</title>
+                <author>John Thelwall</author>
+                <editor>Sarah Boyle and Michael Cameron</editor>
+                <respStmt>
+                    <resp>Introduction and Notes</resp>
+                    <name>Sarah Boyle and Michael Cameron</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Jane Boyes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Judith Thompson</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Per">
+                    <title level="a" type="chapter">The Epic Poem</title> in <title level="m">The
+                        Peripatetic</title>
+                    <author>John Thelwall</author>
+                    <editor>Judith Thompson</editor>
+                    <pubPlace>Detroit, Michigan</pubPlace>
+                    <publisher>Wayne State UP</publisher>
+                    <date when="2001">2001</date>
+                </bibl>
+                <bibl xml:id="Der">
+                    <title level="a">Typopictoromania</title> in <title level="u">The Derby
+                        Manuscript</title>
+                    <author>John Thelwall</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Our text is <title level="a">Typopictoromania,</title> an epic fragment that was
+                    to have been part of a much longer poem. It is epic like Dryden, satirical like
+                    Pope, critical like Blake; the fragment reveals the beginnings of a poem that
+                    was to use a grand yet cartoonish battle, one between the types of Caslon’s
+                    print house and the brushes of Boydell’s Shakespeare Gallery, as an opportunity
+                    to ridicule the abuse and abasement of poetic language during the revolutionary
+                    period in England. While the poem was never finished, what has survived—a
+                    preface, proposition, an invocation, a first canto, part of a second, and a few
+                    random fragments, together totalling close to five hundred lines of poetry—are
+                    both aesthetically and historically relevant to those interested in the early
+                    romanticism of the revolutionary period. While Thelwall claims that he initially
+                    intended to write a complete poem, its unfinished nature puts it in the same
+                    historical camp as Keats’ <title level="m">Hyperion</title> and Coleridge’s
+                        <title level="a">Kubla Khan</title>, texts that are paradoxically whole in
+                    their incompleteness. Furthermore, the poem is of particular import for Thelwall
+                    scholars; appearing in both <title level="m">The Peripatetic</title> of 1793 and
+                    in the later Derby Manuscript, the poem bookends Thelwall’s career. The two
+                    copies differ in a great many minor respects, particularly in punctuation, but a
+                    significant amount of major variations, where the later Thelwall has rewritten
+                    entire lines, are also present; a thorough study of the differences may be
+                    valuable for scholars interested in the development from the younger to older
+                    Thelwall. Thus, our task is to present a complete and accessible reading copy of
+                    the poem, showing a preference to the most recent and hitherto unpublished
+                    version (the Derby Manuscript) and including all important variations in
+                    editorial notes and additional yet important material in appendices.
+                    Furthermore, our TEI coding will ensure that scholars have access to all
+                    variations between the texts for the sake of comparison.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader><text><body><div xml:id="preface">
+                <pb type="pdf" n="349"/>
+                <head resp="editor">Preface</head>
+                <p>
+                    <app>
+                        <lem wit="DigEd">The object of this Poem (one entire canto of which was
+                            written many years ago, but of which only the following fragments which
+                            appeared in <title level="m" rend="quote">the peripatetic</title> are
+                            preserved) was to ridicule the rage for splendid editions of the Poets
+                            etc. The fable a supposed conflict between the Types upon
+                                <placeName>Caslon’s Foundry in Chiswell Street</placeName>, and the
+                            Pictures in <placeName>Boydell’s Gallery</placeName>. It was designed
+                            however as a vehicle for political Satyr.<note>According to the <title level="m">OED</title>, <q>satyr</q> was a common spelling for
+                                    <q>satire</q> up until the early eighteenth century. Like his
+                                use of <quote>camelion</quote> in the Proposition, it is likely that
+                                Thelwall used this archaic spelling to evoke the writing of earlier
+                                poets (see note 10). However, it is strange that he does not use the
+                                same spelling in the next two paragraphs. Regardless, we have chosen
+                                to retain the original spelling.</note> The following extracts from
+                            the Peripatetic might serve as materials for a preface.<note>Thelwall
+                                has cut out and pasted the sections <quote>You will not...the
+                                    laborious and</quote> and <quote>induced me...magnanimous
+                                    hero.</quote> from <title level="m">P</title>. Interestingly,
+                                Thelwall chose to hand write the material in between. This is
+                                strange because, apart from some seemingly insignificant changes,
+                                this material is also present in <title level="m">P</title>; he
+                                changes <quote>had long struck my mind</quote> to <quote>had long
+                                    impressed my mind,</quote> and <quote>the proposal of the BEST
+                                    OF LETTER FOUNDERS to the BEST OF KINGS</quote> becomes
+                                    <quote>the proposals of Mr Caslon (letter founder to his
+                                    Majesty).</quote></note>
+                        </lem>
+                        <rdg wit="#Der">The object of this Poem (<subst>
+                                <del>two</del>
+                                <add place="inline">one</add>
+                            </subst> entire canto<del>s</del> of which <subst>
+                                <del>were</del>
+                                <add place="inline">was</add>
+                            </subst> written many years ago, but of which only the following
+                            fragments which appeared in <choice>
+                                <orig><title level="a">the peripatetic</title></orig>
+                                <reg><title level="m">The Peripatetic</title></reg>
+                            </choice> are preserved) was to ridicule the rage for splendid editions
+                            of the Poets &amp;c. The fable a supposed conflict between the Types
+                            from Caslon’s Foundry in Chiswell Street, &amp; the Pictures in
+                            Boydell’s Gallery. It was designed however as a vehicle for political
+                                <sic>Satyr</sic>. The following extracts from <choice>
+                                <orig>the peripatetic</orig>
+                                <reg><title level="m">The Peripatetic</title></reg>
+                            </choice> might serve as materials for a preface.</rdg>
+                    </app>
+                </p>
+                <p>
+                    <app>
+                        <lem wit="#DigEd">You will not, I dare say, be very angry at seeing placed
+                            in a ridiculous point of view, this rage for splendid editions of works,
+                            however excellent in their nature: a rage so prejudicial to the solid
+                            interests of literature; and, with respect to the art of Painting
+                            itself, rather holding out a kind of commercial temptation to hasty and
+                            copious production, than a generous and liberal patronage to the
+                            laborious and scientific pursuit of excellence and sublimity. The
+                            absurdity of thus reducing the noblest specimens of literary genius to
+                            mere expensive pieces of furniture, to please the vacant eye of foppery,
+                            had long impressed my mind as a very proper object for satire and
+                            ridicule, when the proposals of <persName>Mr Caslon</persName> (letter
+                            founder to his Majesty) for adding to the list of popular publications
+                            in editions <hi rend="italics">all too splendid to be read,</hi> the
+                                <title level="m" rend="quote">Gil Blas</title> and <title level="m" rend="quote">Devil on Two Sticks</title><note>Closing
+                                quotation mark retained from <title level="m">P</title>: absent in
+                                    <title level="u">DM</title>.</note> of <persName>Le
+                                Sage</persName>,<note>Alain-René Lesage (1668-1747) was a French
+                                novelist and playwright. <title level="m">Gil Blas</title> and
+                                    <title level="m">Devil on Two Sticks</title> are two of his
+                                scathingly satirical works. Thelwall’s comment here indicates his
+                                displeasure that such books are being printed to be decorative, but
+                                not functional.</note> induced me to form the plan of a mock heroic
+                            poem, of which the mighty <hi rend="italics">Alphabeta</hi>, the Vulcan
+                            of Chiswell-street, and forger of the literary thunderbolts of the
+                            terrestrial <name type="mythological">Jove</name>,<note>Jove (Jupiter)
+                                is the ancient Roman god of the sky and thunder. He is the king of
+                                other gods, making him an appropriate substitution for George
+                                III.</note> was to be the magnanimous hero.</lem>
+                        <rdg wit="#Der"><span type="print">You will not, I dare say, be very angry
+                                at seeing placed in a ridiculous point of view, this rage for
+                                splendid editions of works, however excellent in their nature: a
+                                rage so prejudicial to the solid interests of literature; and, with
+                                respect to the art of Painting itself, rather holding out a kind of
+                                commercial temptation to hasty and copious production, than a
+                                generous and liberal patronage to the laborious and</span>
+                            scientific pursuit of excellence &amp; sublimity. The absurdity of thus
+                            reducing the noblest specimens of literary genius to mere expensive
+                            pieces of furniture, to please the vacant eye of foppery, had long
+                            impressed my mind as a very proper object for satire &amp; ridicule,
+                            when the proposals of Mr Caslon (letter founder to his Majesty) for
+                            adding to the list of popular publications in editions <hi rend="underline">all too splendid to be read,</hi> the “Gil Blas”
+                            and “Devil on Two Sticks of Le Sage induced me to form the plan of a
+                            mock heroic poem, of which the mighty <hi rend="italics">Alphabeta</hi>,
+                            the Vulcan of Chiswell-street, and forger of the literary thunderbolts
+                            of the terrestrial <hi rend="smallcaps">Jove</hi>, was to be the
+                            magnanimous hero. <del resp="Thelwall" rend="overstrike">Of the local
+                                situation of the</del></rdg>
+                        <rdg wit="#Per">You will not, I dare say, be very angry at seeing placed in
+                            a ridiculous point of view, this rage for splendid editions of works,
+                            however excellent in their nature: a rage so prejudicial to the solid
+                            interests of literature; and, with respect to the art of Painting
+                            itself, rather holding out a kind of commercial temptation to hasty and
+                            copious production, than a generous and liberal patronage to the
+                            laborious and scientific pursuit of excellence, and sublimity of
+                            composition. The absurdity of thus reducing the noblest specimens of
+                            literary genius to mere expensive pieces of furniture, to please the
+                            vacant eye of Foppery, had long struck my mind as a very proper object
+                            for satire and ridicule, and the proposal of the <hi rend="smallcaps">Best of Letter Founders</hi> to the <hi rend="smallcaps">Best of
+                                Kings</hi>, for adding to the list of <hi rend="italics">popular
+                                publications, too splendid to be read</hi>, the <title level="a">Gil
+                                Blas</title> and <title level="a">Devil on Two Sticks</title> of Le
+                            Sage, induced me to form the plan of a mock heroic poem, of which the
+                            mighty <hi rend="italics">Alphabeta</hi>, the Vulcan of Chiswell-Street,
+                            and forger of the literary thunderbolts of the terrestrial <hi rend="smallcaps">Jove</hi>, was to be the magnanimous hero.</rdg>
+                    </app>
+                </p>
+                <p>
+                    <app>
+                        <lem wit="#DigEd">P.S. What I had written was at first very highly commended
+                            by <persName>J. Horne Tooke</persName>,<note>John Horne Tooke
+                                (1736-1812) was greatly admired by Thelwall. When Tooke ran
+                                (unsuccessfully) for the Westminster election in 1780, Thelwall
+                                developed a close bond, acting as his assistant. Tooke had many of
+                                the same radical revolutionary ideals as Thelwall. In 1794, Tooke
+                                was arrested alongside Thelwall and others for sedition, and both
+                                spent time in the Tower of London (see Bugg).</note> with whom I had
+                            recently become acquainted; but he afterwards discouraged me from
+                            proceeding, being very desirous of drawing me to some subject more
+                            exclusively political. He proposed a satire on the Coalition of
+                                Kings:<note>In 1793, Great Britain joined a coalition of European
+                                monarchies in a war against France. Thelwall’s fear that a satirical
+                                take on the subject would have put him in danger was likely
+                                justified considering the anti-Jacobin sentiment that was rising at
+                                the time.</note> but <choice>
+                                <orig>tho</orig>
+                                <reg>though</reg>
+                            </choice> I dropt (unwisely I think) my own project,<note>Thelwall
+                                scratches out the word <quote>satire</quote> and corrects it with
+                                the word <quote>project.</quote> This correction seems to be have
+                                been made immediately upon composition, since <quote>project</quote>
+                                follows sequentially as opposed to being written above the crossed
+                                out word.</note> I could never see his in that point of view which
+                            would furnish materials for a mock heroic poem. Had I then written upon
+                            such a subject I should have written with a bitterness which might have
+                            been amusing to him; but would have been dangerous to me.</lem>
+                        <rdg wit="#Der">P.S. <p>What I had written was at first very highly
+                                commended by J. Horne Tooke, with whom I had recently become
+                                acquainted; but he afterwards discouraged me from proceeding, being
+                                very desirous of drawing me to some subject more exclusively
+                                political. He proposed a satire on the Coalition of Kings: but tho I
+                                dropt (unwisely I think) my own <unclear cert="medium"><del rend="overstrike">satire</del></unclear> project, I could
+                                never see his in that point of view which would furnish materials
+                                for a mock heroic poem. Had I then written upon such a subject I
+                                should have written with a bitterness which might have been amusing
+                                to him; but would have been dangerous to me.</p>
+                        </rdg>
+                    </app>
+                </p>
+            </div></body></text></TEI>

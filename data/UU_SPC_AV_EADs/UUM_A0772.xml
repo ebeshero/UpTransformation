@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:01 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0772::Darin Tinney independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv81665" url="http://archiveswest.orbiscascade.org/ark:/80444/xv81665">UUM_A0772</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Darin Tinney independent film collection
+          <date era="ce" calendar="gregorian" normal="1997/2000" encodinganalog="date">1997-2000</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Tinney (Darin) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0772</unitid>
+      <unittitle encodinganalog="title">Darin Tinney independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1997/2000" encodinganalog="date">1997-2000</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Tinney, Darin</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 VHS videocassette.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Darin Tinney independent film collection (1997-2000) consists of one cassette containing five films completed by Tinney while studying film at the University of Utah.  Tinney is an active Salt Lake City filmmaker who has worked for local television stations and charity organizations in addition to pursuing his independent film career.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Darin Tinney is a graduate of the film department at the University of Utah. In addition to being a freelance video producer, Tinney has also worked for Salt Lake City television stations KSL-TV and KJZZ-TV. He has produced training and promotional videos for private businesses and public agencies. Tinney has also worked as an assistant producer on a public television historical documentary as well as having written, directed and produced a number of films of his own.  Darrin Tinney is a teacher for YouthCity Always, a Salt Lake City arts education program.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Darin Tinney independent film collection (1997-2000) consists of one cassette containing five films completed by Tinney while studying film at the University of Utah.  Both narrative and documentary films are represented.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">5 films by Darin Tinney</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1997-2000</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>1.	"The Groder," a brief mockumentary about the Groder, a strange, gimp-like person with an obsession with an ATM. The piece contains no diegetic sound and is accompanied by rambling narration about the Groder.  3:00.</p>
+          <p>2.	"Noisy Blood," a short police drama shot around Salt Lake City. The piece features ongoing narration of the hardboiled detective story genre.  The story is about two police detectives on the hunt for a missing person.  7:00.</p>
+          <p>3.	"Slapdown," a documentary about the band Slapdown filmed at Liquid Joe's in Salt Lake City. The piece has narration mixed with actual audio from Slapdown's performance. There are also interviews with band members interspersed within the shots of the band performing. The band discusses their genesis as well as how they work together to produce songs.  8:00.</p>
+          <p>4.	"THUNDERandLIGHTNINGand," a police drama shot entirely on the University of Utah campus. The piece takes place around a crime scene. The lead character is a volatile police investigator who can discern details about a murder in a fashion flabbergasting to his colleagues. This film uses looped music and innovative editing to achieve a hypnotic, ethereal feeling to the story.  12:00.</p>
+          <p>5.	"with Ed," a documentary about a trip Tinney took with a man named Ed to Spanish Fork, Utah. The piece uses no narration and employs only occasional title cards to explain the action. The piece features a great deal of southern Utah scenery as seen through the eyes of people on a road trip.  4:00.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

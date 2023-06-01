@@ -27,7 +27,9 @@
                 </sourceDesc>
                 </fileDesc>
             </teiHeader>
-            <xsl:copy-of select="$dickinsonColl/TEI"/>
+            <xsl:copy-of select="$dickinsonColl/TEI">
+               
+            </xsl:copy-of>
             
         </teiCorpus>  
     </xsl:template>

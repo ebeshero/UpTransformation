@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0159::David C. Evans audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv84585" url="http://archiveswest.orbiscascade.org/ark:/80444/xv84585">UUM_A0159</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the David C. Evans audio-visual collection
+				<date era="ce" calendar="gregorian" normal="1972/1987" encodinganalog="date">1972-1987</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Evans (David C.) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Cristne Baggerly</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2013" encodinganalog="date">© 2013</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2013">2013</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0159</unitid>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Evans, David C. (David Cannon), 1924-</persname>
+      </origination>
+      <unittitle encodinganalog="title">David C. Evans audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1972/1987" encodinganalog="date">1972-1987</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">5 VHS videocassettes, 3 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The David C. Evans audio-visual collection (1972-1987) consists of films and audio relating to Evans &amp; Sutherland, a computer graphics company founded in Salt Lake City by David Evans and Ivan Sutherland. The films demonstrate computer modeling and animation made from the Picture System 1 and 2 including 3D microorganism models for scientists, flight simulators for pilot training, space simulations for NASA, and more.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>David Cannon Evans was born February 24, 1924, in Salt Lake City, Utah. He is the son of David W. and Beatrice C. Evans. His father was the founder and president of David W. Evans, Inc., an advertising firm. He married Joy Frewin in 1947, and is the father of seven children.</p>
+      <p>Evans attended the University of Utah, receiving his Bachelor of Science in Physics in 1949 and his Doctorate in Physics in 1953. After completing his education, he was employed by the Bendix Corp. as Senior Physicist in the Computer Division. In 1955, he was promoted to Director of Engineering of the Computer Division. This position gave him responsibility for research, development, and product design of commercial computing systems and special purpose information processing systems for military and industrial applications. Two of the most noteworthy projects he directed while at Bendix were the innovative G-20 computing system and the G-15 computer, the first inexpensive general purpose computer to be mass produced.</p>
+      <p>In 1962, Evans joined the faculty of the Department of Electrical Engineering at the University of Utah. He later was named the University's first Director of Computer Science in 1965, becoming the main force in the founding of the Computer Science Department. During his years at the University of Utah, Evans pioneered time-shared computing systems, as well as real-time continuous-tone computer graphics. Other research activities included the hidden-line problem, syntax-directed computers, constraint processor declarative languages, and memory systems. Evans left his full-time position at the University in 1966, but continued his involvement with the institution as an Adjunct Professor. In 1967, he served on the University of Utah Academic Policy Committee.</p>
+      <p>During the same years he was employed by the University of Utah, Evans was also a Professor of Electrical Engineering and the Associate Director of the Computer Center at the University of California at Berkeley. During this time, he was the principal investigator of a project sponsored by the Advanced Research Projects Agency (United States Department of Defense) aimed at improving computer-aided problem solving capabilities.</p>
+      <p>Along with Ivan Sutherland, Evans founded Evans &amp; Sutherland Computer Corporation in 1968, serving as President and/or Chief Executive Officer until his retirement.</p>
+      <p>Throughout his life, Evans was involved in numerous professional organizations. These included the American Federation of Information Processing Societies, the Institute of Electrical and Electronic Engineers, the National Academy of Engineering, the National Academy of Science, the American Electronics Association, the Utah Engineers Council, the Association for Computing Machinery, the National Research Council's Committee on Computer-Aided Manufacturing, the Committee for Computer Science in Electrical Engineering, and various university advisory committees, among others. In addition, he was also involved in community service, participating in directorial capacities for Westminster College and Holy Cross Hospital. He was also Vice Chair of the State of Utah Steering Committee for Systems Planning and Computing, and was involved with the Boy Scouts of America throughout his life.</p>
+      <p>Evans &amp; Sutherland Computer Corporation was founded by David Evans and Ivan Sutherland in 1968. The first offices for the company were in a building on the University of Utah campus. Eventually, the company found a permanent home in the University of Utah Research Park, where it grew to a company occupying four buildings and employing 830 people, with sales of 60 million, by 1982. Before going public, the company was a privately held company backed by a group of eastern investment groups. These included Venrock, the Venture Capital Investment Co. of the Rockefeller family, the Endowment Management and Research Corp., GCA Corp., and Hambrecht &amp; Quist investment bankers.</p>
+      <p>The company was one of the first developers of interactive graphics. The first product produced by the company was the Line Drawing System, a high-speed interactive graphics display system patterned after a prototype based on research done by Dr. Sutherland at Harvard University. The application of the Line Drawing System to flight simulation followed its introduction.</p>
+      <p>Along with advanced versions of the Line Drawing System, other computer graphics systems have been developed by the company. Novoview was a family of computer image generators which produce visual scenes for use in pilot training simulation. This product was the outcome of Evans &amp; Sutherland's collaboration with Redifon/Rediffusion, a European company specializing in computer simulation. The Picture System product line was a three-dimensional graphics system which yielded smooth motion computations for rotation, translation, clipping, scaling and zoom display requirements. Other products, including Digistar, a system which adapted computer graphics for projection displays in planetariums, have also been developed by the company.</p>
+      <p>In addition to its collaboration with Redifon/Rediffusion, Evans &amp; Sutherland purchased or invested in other companies to enhance their product line. These include Shape Data, VLSI Technologies, Inc., Mosaic Systems, and Unicad. Major customers included many commercial airlines, Volkswagen, General Motors, McDonnell Douglas, the United States Department of Defense, the National Aeronautics and Space Administration, Boeing, General Dynamics, General Electric, International Business Machines, and Northrup.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The David C. Evans audio-visual collection (1972-1987) consists of films and audio relating to Evans &amp; Sutherland, a computer graphics company founded in Salt Lake City by David Evans and Ivan Sutherland. The films demonstrate computer modeling and animation made from the Picture System 1 and 2 including 3D microorganism models for scientists, flight simulators for pilot training, space simulations for NASA, and more.  The audio recordings describe the history of the Evans &amp; Sutherland company.  All materials have been digitized and are available to access on CD or DVD.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arrange by subject matter.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the David C. Evans audio-visual collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                David C. Evans audio-visual collection A0159,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0159.</p>
+    </prefercite>
+    <processinfo>
+      <p>Processed by Cristine Baggerly in 2013.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the David C. Evans papers (Ms 25) and photograph collection (P0452).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Evans &amp; Sutherland</corpname>
+      <subject encodinganalog="subject" source="lcsh">Computer graphics</subject>
+      <subject encodinganalog="subject" source="lcsh">Flight simulators--Design and construction--History</subject>
+      <subject altrender="nodisplay" source="archiveswest">Technology</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">History of Evans &amp; Sutherland part 1</unittitle>
+          <unitdate>1977 June 17</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>David Evans recounts the history of Evans &amp; Sutherland, the computer firm he started with Co-founder Ivan Sutherland that became a pioneer in computer-generated imagery. Evans speaks with humor and provides a detailed account of his quest to make computer programs that ordinary people can use.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">History of Evans &amp; Sutherland part 2</unittitle>
+          <unitdate>1977 June 17</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Continuation from cassette 2. David Evans talks about the history of Evans &amp; Sutherland, the computer graphics company that he co-founded.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Computer animations F001-F006, F101-F104</unittitle>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">F001</container>
+            <unittitle encodinganalog="title">Voyager 2 encounters Jupiter, computer simulation, NASA/JPL</unittitle>
+            <unitdate>1979</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A three minute, narrated computer simulation of the upcoming Voyager 2 Jupiter encounter scheduled for July 1979. Detailed computer models of Jupiter, its moons, and the Voyager 2 satellite are shown while the narrator explains what will occur during the encounter.  By James F Blinn, Charles E Kohlhase.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F002</container>
+            <unittitle encodinganalog="title">Voyager I encounter film, computer animation, Jet Propulsion Lab and Pioneer 11 encounters Saturn, computer simulation, NASA</unittitle>
+            <unitdate>1979</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Short, silent computer simulations of the Voyager 1 and Pioneer 11 encounters in space. Detailed computer models of planets including Saturn and satellites are animated to create the impression of flying through space.  By James F Blinn, Bill Blume, Robert E Holzman, Julian E Gomez, Peter H Blinn.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F003</container>
+            <unittitle encodinganalog="title">Halftone animation, University of Utah</unittitle>
+            <unitdate>1972</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A silent film that displays several early computer animated models created at the University of Utah. The film first shows a computer-animated hand along with the steps taken to create it. Next there are shots of a computer-animated artificial heart valve and human faces (including smoosh shaded faces using cosine interpolation and two faces using linear interpolation).  By Ed Catmull and Fred Parke, 3D titles by Bob Ingebretsen.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F004</container>
+            <unittitle encodinganalog="title">Case Western University film</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A silent film that shows a man using the Evans &amp; Sutherland hidden-surface processor to create "real-time pictures" at Case Western University. Operating two pens wired into the computer, he manipulates a ship model created with basic geometric shapes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F005</container>
+            <unittitle encodinganalog="title">SST vs. Capitol, an example of computer halftone animation</unittitle>
+            <unitdate>1972</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This silent film demonstrates "computer halftone" with a computer animated short of an airplane crashing into the capitol building.  Made by Barry Wessler.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F006</container>
+            <unittitle encodinganalog="title">Early computer animations</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Computer animations are shown that include blocky human models playing football and walking, the state of Utah being lifted out of a 3D map of the U.S., and an aircraft carrier landing.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F101</container>
+            <unittitle encodinganalog="title">A demonstration of H01, Evans &amp; Sutherland Computer Corporation</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>In this silent film, a man demonstrates how to use an Evans &amp; Sutherland computer graphics system. Controls involve a wired pen and tablet and a joystick.  Simple shapes are drawn and the text and graphics are repositioned on the screen.   Made at Princeton University Department of Chemistry.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F102</container>
+            <unittitle encodinganalog="title">The Evans &amp; Sutherland Picture System, Evans and Sutherland</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This narrated film demonstrates what the Picture System computer graphics program can do. A man shows how to use the pen and tablet to navigate the program and build 3D wire mesh models. Credits: Vertebra – University of Colorado, Turbine Blade – Pratt &amp; Whitney Aircraft, Highway – State of Utah, Aircraft Maneuvering Range – Cubic Corporation.  Produced by John Whitney Jr. and Gary Demos.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F103</container>
+            <unittitle encodinganalog="title">Wire mesh woman</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A silent film that shows a wire mesh model of a woman being pieced together and walking.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F104</container>
+            <unittitle encodinganalog="title">Cubes and pyramids computer game</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>his silent film shows a Computer game in which cubes and pyramids picked up by a claw machine are stacked on top of and inside each other. A conversation with commands and responses is typed out on screen.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Computer animations F105-F110</unittitle>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">F105</container>
+            <unittitle encodinganalog="title">High altitude resonance graph and models</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film from Evans &amp; Sutherland demonstrates a computer graphics program with an animated graph labeled "high altitude resonance" and 3D wireframe shapes that are manipulated and rotated.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F106</container>
+            <unittitle encodinganalog="title">A computer graphics demonstration, Ecstall Mining Limited</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This silent film was made for Ecstall Mining Limited by Professor W. Todd Wipke and Mr. P Friedland of the Chemistry Department of Princeton University. It shows a series of Programs designed to expose the potential of computer graphics as a mine engineering tool. The programs were written by Dr. J. Warnock of Computer Sciences Corporation, Prof Wipke and Mr. Friedland.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F107</container>
+            <unittitle encodinganalog="title">An atomic d-orbital</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This narrated film illustrates how faculty members at the University of California have been using computer animation to aid chemistry research. Several aspects of their work are shown and described in technical detail. Topics include Teddy Trailer's wave function modeling, Kent Wilson's quasi-diatomic model for photo association dynamic, Robert Bowl and Tom DeGennaro's post NMR modified spinicular studies, and Nguyen Sang's study relation of structure and electrophysiological function in neural networks.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F108</container>
+            <unittitle encodinganalog="title">Tomato bushy stunt virus, The National Resource for Computation in Chemistry (NRCC)</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A film sequence programmed by Arthur J. Olson that shows rotating scientific 3D models such as the tomato bushy stunt virus, a cubic crystal, icosahedral geometry, viral protein subunits, and more.  Credits: Data used in the film are the result of a collective effort spanning over 10 years in the lab of Professor Stephen C. Harrison, Harvard University.  Researchers on the Tomato Bushy Stunt Virus structure: S.C. Harrison, A. Jack, C.E. Schnutt, F.K. Winkler, G. Bricogne, A.J. Olson, I.K. Robinson.  Dot surfaces were generated by Michael Connolly's program, Molecular dynamics of C subunit arms calculated by David Ceperley's program called CLAMPS.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F109</container>
+            <unittitle encodinganalog="title">New developments in day/night CGI, recorded from Lufthansa Image Generator, Evans &amp; Sutherland, Redifon, American Airlines</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A first person computerized simulation of an airplane takeoff and flight above farmlands and cities. Models are simple but textured.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F110</container>
+            <unittitle encodinganalog="title">Abase graphics terminal</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shows revolving wireframe models of graphs, directional arrows, simple shapes, and numbers.  Prepared by: the Computer Graphics Group, the Applied Research Laboratory, the Pennsylvania State University.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Computer animations F111-F119</unittitle>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">F111</container>
+            <unittitle encodinganalog="title">Molecular dynamics of Bovine Pancreatic Trypsin Inhibitor</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Silent film shows an animated 3D model of a Bovine Pancreatic Trypsin Inhibitor from the front, back, and sides.  Credits:  Molecular Calculations by Michael Levitt, Salk Institute of San Diego, California and Weizmann Institute of Science Rehovot, Israel. Crystallographic structure by Robert Huber, Johann Deisenhofer, Wolfgang Steigemann. Max Planck Institut fuer Biochemie Martinsreid, Germany.  Filming by Richard J. Feldmann, National Institutes of Health, Bethesda, Maryland.  Hidden surface algorithm by Thomas K Porter, Title program by Charles R. T. Bacon, National Institutes of Health, Bethesda, Maryland.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F112</container>
+            <unittitle encodinganalog="title">Yisplan – an interactive graphics visual scheduling and planning tool</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film demonstrates a program that monitors and adjusts bus routes interactively. Its purpose was to develop user-oriented bus schedules, improve scheduler's productivity, and reduce wait time at major transfer points. In the film, the program displays bus routes and times, a list of commands to type, and a map titled "Utah Transit Authority" with moving markers that indicate buses traveling along their routes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F113</container>
+            <unittitle encodinganalog="title">Evans &amp; Sutherland Picture System 2 Demonstrations</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A simple demonstration program filmed on an Evans and Sutherland Picture System 2 to illustrate the potential application of high performance computer graphics. There are two short demos that show a grid of squares gradually darkening and several wireframe geometric shapes revolving.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F114</container>
+            <unittitle encodinganalog="title">Space and shapes demonstration</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The computer program displays a scene of flying through space with stars and constellations. Next various shapes made up of jagged lines are manipulated. They revolve, move, and appear to draw themselves.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F115</container>
+            <unittitle encodinganalog="title">Chicago</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Film shows wireframe models of buildings in a computer generated Chicago city. The camera flies through the city, exploring it from various heights and angles.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F116</container>
+            <unittitle encodinganalog="title">Carrier landing simulation, produced for the Department of the Navy</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Exhibits a computer program that simulates landing a plane on an aircraft carrier. Includes a version that displays simultaneous views through left and front windows. Also shows live action, black and white footage of the computer system and a man controlling the program with a tablet and stylus. Credits: Equipment used in simulation is an Evans &amp; Sutherland LDS-1 graphic display system connected to a PDP-10 computer manufactured by Digital Equipment Corporation.  Programming Dan Cohen and Frank S. Greatorex, Jr., Photography by Red Lunde.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F117</container>
+            <unittitle encodinganalog="title">Automatic landings in low visibility at night and approaches and landings in low visibility by day</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Live action, first person views of a plane landing at night and during the day under various conditions. This film is narrated.  Photography by R.A.E. Bedford Flights Photographic group, produced by the Blind Landing Experimental Units.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F118</container>
+            <unittitle encodinganalog="title">UCSF Computer Graphics Laboratory, Molecular Interactive Display System with prealbumin, thyroxine &amp; DNA</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Film shows revolving models of molecules.  Director: Dr. Eugene Jorgenson.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F119</container>
+            <unittitle encodinganalog="title">Man using aircraft carrier flight simulator</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This film shows a man operating an early flight simulation computer program with a joystick and keypad. Scenes were generated on an Evans &amp; Sutherland Picture System 2 graphics display with software developed by Martin Pensak and Thomas Ferrin. Robert Langridge, principle investigator.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Computer animations F120-F121, F202-F204</unittitle>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">F120</container>
+            <unittitle encodinganalog="title">Describing three-dimensional objects for computer display</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This narrated, educational film illustrates a method for creating computerized objects using polygons and coordinate points. Their 3D data input system uses two data pens to measure points on drawings of objects. Typewriter printing assists the user by recording the sequence of points. The film demonstrates creating a ship. Unfortunately, the film is cut off before finishing.  By Picture Design Group for Evans &amp; Sutherland Computer Corp.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F121</container>
+            <unittitle encodinganalog="title">Examples of current computer graphics technology</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A collaboration of short computer graphic works that demonstrate current technology from researchers at the University of Utah and Brigham Young University. Highlights include Ed Catmull's animated hand, carrier plane landing and takeoff simulations, and transfigurations of 3D shapes. Contents in Detail - Line Drawing: Carrier approach and landing, Creation of a Specific Complex Form (Jim Clarke), Solid Forms in Motion: Shading &amp; Texture (Fred Parke) – human face models, Solid Forms in Motion: Shading &amp; Texture (Ed Catmull) – hand model, Shading Techniques for Theoretical Models: Phong's Shading (Transparency),  Dynamic Representation of Complex DATA (Henry Christiansen), Dynamic Representation of Complex DATA (Henry Christiansen).  Contributors from the University of Utah (Ed Catmull, Jim Clarke, Fred Parke, Frank Crow, Phong Bui Tuong) and Brigham Young University (Henry Christiansen.) Equipment from Evans &amp; Sutherland Computer Corp., Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F202</container>
+            <unittitle encodinganalog="title">Evans &amp; Sutherland 3D models</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Two 3D models, one rectangular and one thimble shaped, are shown with some animation. There is text, but it is difficult to read.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F203</container>
+            <unittitle encodinganalog="title">Cartos, visualizing nerves in three dimensions</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A narrated educational film about Cartos, Columbia University's new technique that simplifies the production of 3D neuronal structures. The film includes live interviews, demonstrations of the production process, and revolving computer images. Credits: Produced by NIH Division of Research Resources and its Research Resources Information Center, in afficliation with Cineworks, INC. Directed by Larry Engel, written by Irwin Sobel, Gregory Freiher, Larry Engel; Narrator Robb webb. Music by Rusty Cloud, Jim Clouse. Computer Graphics Photography by Irwin Sobel, Nicholas Necles, Bert Fichman. Color Vector Display Stan Kiger, Evans &amp; Sutherland Corp., Salt Lake City, Utah. Laser film scanner built by Alman Associates, Stamford, Conn. Camera Operator Yuet-Fong Ho. Assistant Cameraman Richard Crudo. Sound Recordist Li-Shin Yu. Gaffer Stand Davis. Editor Larry Engel. Assistant Editors Richard Crudo, Stan Davis. Re-recordist Rick Dior. Titles Christos Tountas, Irwin Sobel, Isaac Kerlow. Special thanks to Lee Buck, Noel Kropf, Stephen Senft, Nicholas Necles, Euardo Macagno, Irwin Sobel.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F204</container>
+            <unittitle encodinganalog="title">NormalmModes of vibration of a sonar projector transducer element</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This narrated film is about a computer simulation of a sonar projector transducer. The film presents a sequence of computer-generated images that describe a mathematical model used to predict the normal modes of vibration. Credits: Produced by Computer Science Division, University of Utah and Naval Ships System Command.  Finite element analysis by Larry Gwin of Standford University. Computer animation by Hank Chistiansen, Professor of civil engineering at BYU and research associate at University of Utah. Technical Assistance Bruce Brown. Film processing by Mike Milochik and Sy Felt.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">Computer animations F205-F208</unittitle>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="video">F205</container>
+            <unittitle encodinganalog="title">Interactive molecular graphics</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Demonstrates colorful molecule models that move and rotate. Molecules include Carboxypeptidase, Trypsin, and Deoxyribonucleic Acid (DNA). Credits: By Thomas Ferrin and Robert Langridge, University of California, San Francisco. Scenes in this film were generated on an Evans &amp; Sutherland Picture System 2 graphics display using a calligraphic shadow mask color monitor. Graphics made at the UCSF Computer Graphics Laboratory.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F206</container>
+            <unittitle encodinganalog="title">Applications of the LDS system</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A collection of silent short films presented by Evans &amp; Sutherland to demonstrate the Picture System computer graphics program. Includes Splashdown, 2D and 3D printed circuit boards (shows how the LDS-1 can be used in printed circuit board design), Aircraft Carrier Landing (simulates a plane landing, produced for the Naval Training Device Center), Piping Diagram (shows model of the piping layout of an oil refinery), Road (very coarse simulation of the view from a car driving down a road), and black and white footage of an operator working at the CRT using a pen and tablet.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F207</container>
+            <unittitle encodinganalog="title">Evans &amp; Sutherland demonstrations</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Another demonstration of the Picture System computer graphics program. This film displays wiremesh models of Kitsault Mine, jets flying in formation, planes with propellars, and a car. Also shows the interface for manipulating models.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="video">F208</container>
+            <unittitle encodinganalog="title">Evans &amp; Sutherland demonstrations 2</unittitle>
+            <unitdate>undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Includes clips of various computer projects with title cards such as an oil well, Kitshault Mine (red, various angles), "Battle" (shooting airplanes flying over a mesh landscape), "Surface," Shooting Star Productions logo animations, and live action footage of a man describing the Picture System (silent).</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Corporate overview</unittitle>
+          <unitdate>1984 May</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A ten minute commercial overview of Evans &amp; Sutherland, "a Salt Lake City company located adjacent to the University of Utah that makes computer graphics systems for research, design, entertainment, and training." The narration includes Evans &amp; Sutherland history from 1968 to current times, descriptions of their products and the people who use them, and their work ethic.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

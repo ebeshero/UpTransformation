@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:44 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0641::Joseph Desloge river running video collection)//EN" encodinganalog="identifier" identifier="80444/xv99707" url="http://archiveswest.orbiscascade.org/ark:/80444/xv99707">UUM_A0641</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Joseph Desloge river running video collection
+          <date era="ce" calendar="gregorian" normal="1942/1958" encodinganalog="date">1942-1958</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Desloge (Joseph) river running video collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier and Roy Webb.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2001" encodinganalog="date">© 2001</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0641</unitid>
+      <unittitle encodinganalog="title">Joseph Desloge river running video collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1942/1958" encodinganalog="date">1942-1958</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Desloge, Joseph, 1889-1971</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">23 16mm films, 2 8mm films and 7 VHS videocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Joseph Desloge river running video collection (1942-1958) consists almost entirely of footage of river trips on the Green and Colorado Rivers.  Several films were shot at the Grand Canyon.  The collection also contains movies of trips on other rivers and of the Desloge family's other vacations and home life.  Joseph Desloge was a St. Louis industrialist and philanthropist who frequently vacationed on the rivers of the West and joined expeditions led by prominent river guides of the mid 20th century.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Joseph "Joe" Desloge (1889-1971) was born in St. Louis, Missouri to Lydia Davis and Firmin Vincent Desloge, who had moved to St. Louis to attend St. Louis University.  A descendant of French immigrants, Joseph Desloge served in the French army in WWI and was decorated for bravery near Vouziers.  He graduated from the Massachusettes Institute of Technology (MIT) in 1912 with a degree in electrical engineering and founded the Minerva Oil Company (miners of zinc and fluorspar), Killark Electric Manufacturing Company, Louisiana Manufacturing Company and Atlas Manufacturing Company.  In 1946, built an elegant mansion in Florissant, Missouri, whcih he named "Vouziers" after the site of his glory in France.  A frequent vacationer on the Colorado River, Desloge used his wealth to preserve and share natural landscapes in his home state by donating the land to create Johnson's Shut-Ins State Park in Reynold County, Missouri and Sunset Park in the city of Florissant.  Desloge and his first wife, Anne Kennett Farrar, had four children.  She died in 1934, and Desloge spent his later years with Anna Margaret Saalfrank, whom he married in 1953.  Joseph Desloge passed away in 1971.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Joseph Desloge river running video collection (1942-1958) consists almost entirely of original and composite print films and videocassettes of river trips on the Green and Colorado Rivers.  Several films were shot at the Grand Canyon.  The collection also contains movies of trips on other rivers and of the Desloge family's other vacations and home life.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically by format type.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>For photographs of some of these river trips see Northern Arizona University's Bill Belknap collection.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Tawnya Mosier and Roy Webb in 2001.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Marston, Otis R.</persname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Colorado River (Colo.-Mexico)</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Green River (Wyo.-Utah)</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Grand Canyon (Ariz.)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Rivers--West (U.S.)</subject>
+      <subject encodinganalog="subject" source="lcsh">Rivers--Recreational use</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">16mm and 8mm films</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Grand Canyon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1942</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>With Otis "Dock" Marston.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2-3</container>
+            <unittitle encodinganalog="title">Grand Canyon - Colorado River parts 1-2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1942-1948</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">Grand Canyon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This copy does not contain parts excerpted for composite print on 09/20/1954.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">Grand Canyon riverways</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1951</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6-7</container>
+            <unittitle encodinganalog="title">Grand Canyon - Colorado River parts 1-2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1951</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>With Otis "Dock" Marston and others.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">Four vacations</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1951-1955</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Mexico City, Guadalajara (1951)</p>
+            <p>Green River, Hell's Half Mile (1953)</p>
+            <p>Wind River Mountains river trip with Erma and Christy (1954)</p>
+            <p>Green River (1955)</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Motor boating in Grand Canyon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1952</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>With Otis "Dock" Marston and others.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Green River and oil fields</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1952</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Joe Desloge, A.H., M.D. and Zoe Desloge.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Green River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1952</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Joe Desloge, Marie Saalfrank and A.K. Reynolds.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Colorado River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955</unitdate>
+            <physdesc>
+              <genreform>8mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>With Hugh Cutler, Otis "Dock" Marston and others.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">Grand Canyon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">Grand Canyon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Composite print including boat upset, Otis "Dock" Marston, etc.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Unidentified film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">Colorado River, Green River, San Juan River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Unidentified film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">Green River, Colorado River, San Juan River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Four separate river trips are included on this film reel.  Participants include Norman Nevills, Otis "Dock Marston," H.K., Loc Moore, Arthur, (M)Hilotte, Comptons.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">Hudson River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>8mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Boat trip, Statue of Liberty, New York City skyline, etc.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">San Juan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">Green River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>With Norman Nevills, Anne Desloge, B.D., Zoe Desloge, Marie Saalfrank, Comptons, Arthur, Botty and John.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">22-23</container>
+            <unittitle encodinganalog="title">Riverways of Rapidsmen parts 1-2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">Colorado River reel 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Helicopter, etc.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">Unidentified film</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>16mm film</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">VHS videocassettes</unittitle>
+        </did>
+        <arrangement>
+          <p>These videos are arranged in the order in which they appear on the videocassettes, with 1.1 being the first film on the first cassette, 1.2 being the second film on the first cassette and so on.</p>
+        </arrangement>
+        <scopecontent encodinganalog="description">
+          <p>These cassettes contain footage of river trips and occasional other home movies dubbed from 16mm or 8mm film.  Scenes were filmed in the Grand Canyon unless otherwise noted.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1.1</container>
+            <unittitle encodinganalog="title">Otis Marston presents: Through the Grand Canyon by boat.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1942</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, sound
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Otis Marston narrates:</p>
+            <p>Maps of river and Grand Canyon</p>
+            <p>Rapids, water, scenery</p>
+            <p>"Ross Wheeler" (boat)</p>
+            <p>Scenery, aerials of Hoover Dam</p>
+            <p>Norman Nevills in boat</p>
+            <p>Norman Nevills on shore</p>
+            <p>Norman Nevills demonstrating "face your danger" river running technique with model, diagram</p>
+            <p>Scenes of boats</p>
+            <p>Loading boats at Lees Ferry</p>
+            <p>Launch, with powerboat in background (unidentified boat)</p>
+            <p>Running rapids (not Badger Creek Rapid)</p>
+            <p>Hiking near Tanner Flats</p>
+            <p>Granaries at Nankoweap Canyon</p>
+            <p>Rapids</p>
+            <p>Norman Nevills giving signals while someone else runs rapid</p>
+            <p>Desert View Watchtower on south rim of Grand Canyon</p>
+            <p>Norman Nevills building signal fire</p>
+            <p>Camp, breakfast</p>
+            <p>Phanton Ranch, swimming in pool, loading boats at Bright Angel Creek</p>
+            <p>Lining Horn Creek Rapid</p>
+            <p>Running rapids in Middle Granite Gorge</p>
+            <p>Diamond Peak</p>
+            <p>End of trip, tow-out on Lake Mead</p>
+            <p>Hoover Dam</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1.2</container>
+            <unittitle encodinganalog="title">San Francisco, Green River to Colorado River travelogue</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>San Francisco Bay, San Francisco street scenes including streetcars on turntables, streets</p>
+            <p>Woman at typewriter</p>
+            <p>Russell Henderson typing in Grand Canyon</p>
+            <p>Randall Henderson leaving note in can in cairn</p>
+            <p>Map of Green and Colorado Rivers</p>
+            <p>Aerials of mountains</p>
+            <p>Rapids in Gore Canyon, Colorado River</p>
+            <p>moving water</p>
+            <p>Flaming Gorge, Green River</p>
+            <p>Uinta Mountains</p>
+            <p>Upper Green River:  Ashley Falls,  Browns Park, Gates of Lodore,  Hell's Half Mile, rapid,  Echo Park, Highway 40 bridge at Jensen, Utah</p>
+            <p>Aerial of confluence of Green and Colorado</p>
+            <p>Rapids in Cataract Canyon (?)</p>
+            <p>Glen Canyon</p>
+            <p>Hole-in-the-Rock</p>
+            <p>Otis Marston</p>
+            <p>Mouth of San Juan River</p>
+            <p>Lees Ferry</p>
+            <p>Aerial of Vermillion Cliffs, Marble Canyon</p>
+            <p>Map of Grand Canyon region</p>
+            <p>View from rim of Grand Canyon</p>
+            <p>Marble Canyon</p>
+            <p>Stanton's Cave</p>
+            <p>Vasey's Paradise</p>
+            <p>View from south rim</p>
+            <p>Bridge at Cameron, Arizona, over Little Colorado River</p>
+            <p>Angel's Window, north rim of Grand Canyon</p>
+            <p>View from north rim into Unkar Delta area</p>
+            <p>Tanner Flats</p>
+            <p>Carbon Creek - Tanner Rapid</p>
+            <p>View into upper Granite Gorge, Bright Angel area</p>
+            <p>Phantom Ranch swimming pool</p>
+            <p>Inner Gorge</p>
+            <p>Scouting rapids</p>
+            <p>Lining Lava Falls - Norman Nevills, Garth Marston, others; Margaret Marston filming</p>
+            <p>Reloading below Lava falls, re-launching boats</p>
+            <p>Lining process in fast motion</p>
+            <p>Portaging boats in Canyon of Lodore (out of sequence)</p>
+            <p>Aerials of Grand Canyon</p>
+            <p>Debris from 1944 crash of US Army transport airplane on north rim of Grand Canyon</p>
+            <p>Diamond Peak</p>
+            <p>Power boats doing upruns</p>
+            <p>Lake Mead</p>
+            <p>Hoover Dam tour, riding aerial tramway</p>
+            <p>Power lines</p>
+            <p>The transition between videos 1.2 and 1.3 is unclear.  They may not actually be separate films.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1.3</container>
+            <unittitle encodinganalog="title">Green River to Colorado River and Southern Utah region travelogue</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Map of Green - Colorado River region</p>
+            <p>Rapids</p>
+            <p>Nankoweap ruins</p>
+            <p>Marston twin girls with pottery</p>
+            <p>John Wesley Powell with boats</p>
+            <p>Powell party  inscriptions at Music Temple, Glen Canyon</p>
+            <p>plaque at Separation Rapid</p>
+            <p>Stanton Expedition (?) photos</p>
+            <p>Galloway inscription, Elves Chasm</p>
+            <p>Emery Kolb with NPS park ranger</p>
+            <p>Clyde Eddy</p>
+            <p>Unidentified man</p>
+            <p>Unidentified woman</p>
+            <p>Lois Jotter</p>
+            <p>Bert Loper</p>
+            <p>Loper's boat</p>
+            <p>uUnidentified man</p>
+            <p>Hyde inscription</p>
+            <p>Skeleton at South Cave</p>
+            <p>Hiking in Glen Canyon with Norman Nevills</p>
+            <p>Old mining site in Glen Canyon</p>
+            <p>Wreck of Stanton (Hokasninni Mining Co.) dredge, after being set on fire</p>
+            <p>Norman Nevills clowns with old clothes from trunk found in Glen Canyon</p>
+            <p>Oil rig near Mexican Hat</p>
+            <p>Rapids</p>
+            <p>Cable car over San Juan River</p>
+            <p>Bridges: Moab, Utah, Navajo Bridge over Marble Canyon (aerial, including flying under bridge; from land, and from river, Kaibab Bridge, near Phantom Ranch</p>
+            <p>Bright Angel trail with mules</p>
+            <p>Cable car at Bass Camp</p>
+            <p>Natural bridges and arches: Wilson Arch, Angel's Window, Jug Handle Arch, Gregory Bridge, Delicate Arch, Druid Arch, Double-O Arch, Landscape  Arch, Steven's Arch, Rainbow Bridge</p>
+            <p>Map of southeast Utah</p>
+            <p>Sorting canned good for river trip with Frank Wright</p>
+            <p>Cooking, serving meal on river</p>
+            <p>Washing dishes - Garth Marston</p>
+            <p>Fossils</p>
+            <p>Hiking, rock-hounding in badlands along river</p>
+            <p>Southern Utah scenery</p>
+            <p>Wildlife: lizard, scorpion, rattlesnake, deer swimming river, bighorn sheep, antelope, bison</p>
+            <p>Sliding on smooth slope on air mattress</p>
+            <p>Rapids</p>
+            <p>Boats</p>
+            <p>Rapids in Idaho, 1946 (out of sequence)</p>
+            <p>Pres Walker being washed out of boat in rapid in Idaho, 1946 (out of sequence)</p>
+            <p>Rapids, Grand Canyon: scouting, running bailing boats</p>
+            <p>Starting driftwood fires</p>
+            <p>Patticake</p>
+            <p>The transition between videos 1.3 and 1.4 is unclear.  They may not actually be separate films.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1.4</container>
+            <unittitle encodinganalog="title">Grand Canyon river trip with Ed Hudson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1940s</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ed Hudson</p>
+            <p>Running Bedrock Rapid</p>
+            <p>Hiking</p>
+            <p>Rapids</p>
+            <p>Water fights</p>
+            <p>Havasu</p>
+            <p>Windstorm with blowing sandbars</p>
+            <p>Clouds in Glen Canyon</p>
+            <p>Wind blowing spray off tops of waves</p>
+            <p>Glen Canyon rainstorm</p>
+            <p>Waterfalls off rim of canyon</p>
+            <p>Rainbow</p>
+            <p>Southern Utah scenery</p>
+            <p>Mexican Hat</p>
+            <p>Shiprock</p>
+            <p>Marston twin girls in front of Navajo Twins (rock formation), near Bluff, Utah</p>
+            <p>Monument Valley scenes</p>
+            <p>Grand Canyon scenery</p>
+            <p>Swimming in river</p>
+            <p>Sliding in mud</p>
+            <p>Havasu: swimming, diving, boarding boats in mouth of Havasu Creek</p>
+            <p>Little Colorado River: swimming, diving</p>
+            <p>Lava flows</p>
+            <p>Vulcan's Anvil</p>
+            <p>Playing in mud</p>
+            <p>Lava Falls</p>
+            <p>Rapids</p>
+            <p>Oarlocks on boats</p>
+            <p>Rapids</p>
+            <p>Rockfall</p>
+            <p>Scouting rapids: NDN, Otis Marston, Garth Marston</p>
+            <p>Swimming rapids in inner tubes, air mattresses, life jackets, without life jacket</p>
+            <p>Dubendorff rapid</p>
+            <p>Rapids from boats</p>
+            <p>Otis Marston rowing boat</p>
+            <p>Rapids from boat</p>
+            <p>Travertine Falls</p>
+            <p>Rapids from boat</p>
+            <p>Otis Marston rowing boat</p>
+            <p>Swirlies</p>
+            <p>Lower Grand Canyon</p>
+            <p>Garth Marston rowing</p>
+            <p>Lake Mead</p>
+            <p>Floatplane landing</p>
+            <p>"Hae Dae" (power launch) on Lake Mead</p>
+            <p>Towing out Nevills boats on Lake Mead</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2.1</container>
+            <unittitle encodinganalog="title">Grand Canyon river trip with Ed Hudson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ed Hudson and other crew</p>
+            <p>Bureau of Reclamation camp, Marble Canyon: aerial tramway, boats from rim</p>
+            <p>Hiking</p>
+            <p>Scenery: travertine waterfall</p>
+            <p>Hiking to old mine, Tanner Flats</p>
+            <p>Rapids</p>
+            <p>South river of Grand Canyon views, near Unkar Delta, various rim scenery</p>
+            <p>Camp: washing dishes</p>
+            <p>Scenes around Hance Rapid</p>
+            <p>Helicopter circling over boats and river</p>
+            <p>Scenes from helicopter of boats in rapids</p>
+            <p>Esmerelda II (boat)</p>
+            <p>Helicopter</p>
+            <p>Boats in rapids</p>
+            <p>Abandonment of Esmerelda II</p>
+            <p>Helicopter rescue of passengers: landing, Margaret  Marston boarding</p>
+            <p>Take-off of helicopter</p>
+            <p>"SOS" on beach</p>
+            <p>Second helicopter landing</p>
+            <p>Ed Hudson with beer</p>
+            <p>Scenes from helicopter</p>
+            <p>Second helicopter taking off</p>
+            <p>Scenes from helicopter</p>
+            <p>Wreck of first helicopter</p>
+            <p>Rescue of passengers by second helicopter</p>
+            <p>Second helicopter lands on south rim</p>
+            <p>Swimming in Havasu Creek</p>
+            <p>Lava Falls</p>
+            <p>Man with horse (Bundys at Whitmore Wash?)</p>
+            <p>Lake Mead</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2.2</container>
+            <unittitle encodinganalog="title">Desloge family home movies</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Black and white, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Probably in Missouri:</p>
+            <p>Children on swings</p>
+            <p>Playing with dogs</p>
+            <p>Climbing trees</p>
+            <p>Swimming</p>
+            <p>Biking</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2.3</container>
+            <unittitle encodinganalog="title">Grand Canyon river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1951</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Flying over Lees Ferry, Navajo Bridge, rapids in Marble Canyon</p>
+            <p>Aerial tramway cable spools</p>
+            <p>Aerials of Grand Canyon</p>
+            <p>Airplane landing at Marble Canyon airstrip</p>
+            <p>Power boats arriving at Lees Ferry on trailers</p>
+            <p>Unloading, launching boats</p>
+            <p>Putting one boat back on trailer for unknown reason</p>
+            <p>Boats in river</p>
+            <p>Water-skiing on river</p>
+            <p>Looking down on boats from Navajo Bridge</p>
+            <p>Boats in rapids: Badger, Soap Creek</p>
+            <p>F.M. Brown inscriptions below Soap Creek</p>
+            <p>North rim scene</p>
+            <p>Repairing propellor on ASweet Chariot" (boat)</p>
+            <p>Boats on river</p>
+            <p>Swimming in Little Colorado River</p>
+            <p>Camp</p>
+            <p>River and rapids</p>
+            <p>Repairing ASweet Chariot" again</p>
+            <p>Boats tied up on bank</p>
+            <p>Boats on river</p>
+            <p>Rapids</p>
+            <p>Landing, repairing unnamed blue boat</p>
+            <p>Rapids</p>
+            <p>Havasu</p>
+            <p>Boats on river</p>
+            <p>Lava Falls</p>
+            <p>People swimming rapids</p>
+            <p>Boats in rapids</p>
+            <p>Basalt formations below Lava Falls</p>
+            <p>Diamond Peak</p>
+            <p>Boats on river</p>
+            <p>Landing "June Bug" (boat)</p>
+            <p>Water skiing, lower Grand Canyon</p>
+            <p>Camp</p>
+            <p>Lake Mead</p>
+            <p>Views of crews and boats</p>
+            <p>Lake Mead</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3.1</container>
+            <unittitle encodinganalog="title">Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Navajos weaving</p>
+            <p>Dust devils from car</p>
+            <p>Reynolds River Expeditions boats in rapids: Disaster Falls, Triplet Falls, Hell's Half Mile</p>
+            <p>Camp, chopping wood by cabin (where?)</p>
+            <p>Rapids</p>
+            <p>Loading boats</p>
+            <p>Unloading boats</p>
+            <p>Camp</p>
+            <p>Boats in rapids</p>
+            <p>Hatch River Expeditions pontoons in rapids</p>
+            <p>Lining Reynolds River Expeditions boats</p>
+            <p>Hatch pontoon stuck on rock</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3.2</container>
+            <unittitle encodinganalog="title">Grand Canyon river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1951</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent, out of focus
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Same trip as 2.3 filmed by a different person:</p>
+            <p>Boats in river</p>
+            <p>Water skiing behind boats</p>
+            <p>Boats in rapids</p>
+            <p>Men shaving</p>
+            <p>Mud</p>
+            <p>Boat on river</p>
+            <p>Swimming in Little Colorado River</p>
+            <p>Camping</p>
+            <p>Boats on river, entrance to Inner Gorge</p>
+            <p>Repairing propellors</p>
+            <p>VBoats in Hance Rapid</p>
+            <p>Mules with supplies</p>
+            <p>Riding mules</p>
+            <p>Phantom Ranch swimming pool</p>
+            <p>Loading boats</p>
+            <p>Boats in rapids, one broken down and under tow</p>
+            <p>Swimming Tapeats Creek</p>
+            <p>Granite Falls</p>
+            <p>Boats on river</p>
+            <p>Lake Mead</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3.3</container>
+            <unittitle encodinganalog="title">Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>First scene badly over-exposed</p>
+            <p>Men at "Illinois Girl" (wrecked boat) at Winnie's Rapid</p>
+            <p>Boats running Disaster Falls</p>
+            <p>Camp: cooking, kitchen area, sleeping bags rolled out.</p>
+            <p>Scene shifts to Missouri:</p>
+            <p>Men drilling water well</p>
+            <p>1953 Chevrolet pickup truck</p>
+            <p>Family on porch</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3.4</container>
+            <unittitle encodinganalog="title">Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Titles in the film are in quotes:</p>
+            <p>"Red Canyon"</p>
+            <p>Sheepherder along river</p>
+            <p>Camp: cooking</p>
+            <p>"Ashley Falls"</p>
+            <p>High water runs of Ashley Falls</p>
+            <p>"Red Creek Rapids"</p>
+            <p>Camp scenes in Hideout Flats?</p>
+            <p>"Lodore"</p>
+            <p>Triplet Falls</p>
+            <p>Boats in fast water</p>
+            <p>Buster Basin</p>
+            <p>Man swimming rapid</p>
+            <p>Loading boats</p>
+            <p>"Hell's Half Mile"</p>
+            <p>Lining boats through Hell's Half Mile</p>
+            <p>Rapids</p>
+            <p>Camp scenes</p>
+            <p>Echo Park</p>
+            <p>Passengers and crew: "Joe Desloge, Marie Saalfrank, Hugh Cutler, Marian Cutler, chief boatman A.K. Reynolds, boatmen Lug Larsen, Walt Furen"</p>
+            <p>Chipmunks in camp</p>
+            <p>Camp at mouth of Split Mountain Canyon</p>
+            <p>End of trip</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3.5</container>
+            <unittitle encodinganalog="title">Down the Colorado River 365 miles from Lees Ferry to Boulder Dam through the Grand Canyon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1950s</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Titles in the film are in quotes:</p>
+            <p>Men on boat "Rattlesnake"</p>
+            <p>Men on boat "Bootoo"</p>
+            <p>Men on boat "Cactus"</p>
+            <p>Boats on river</p>
+            <p>"Badger Creek Rapid"</p>
+            <p>Boats in Badger Creek rapid</p>
+            <p>"Lee's Ferry to Lake Mead (,) 239 miles with a drop of 1945 feet"</p>
+            <p>Boats in rapid (out of focus)</p>
+            <p>"A Canyon Evening"</p>
+            <p>Camp and riverside scenes</p>
+            <p>"Looking over a rapid"</p>
+            <p>Scouting rapid from shore</p>
+            <p>Boats on river</p>
+            <p>Rapids filmed from boat</p>
+            <p>"Three aluminum boats"</p>
+            <p>Boats on river at speed</p>
+            <p>Travertine</p>
+            <p>"The Little Colorado River"</p>
+            <p>Swimming in Little Colorado River</p>
+            <p>"A pair of 15 hp motors"</p>
+            <p>Scenes of outboard motors and interiors of boats</p>
+            <p>Boat repairs</p>
+            <p>Boats in Lava Falls</p>
+            <p>"Horn Creek Rapid" (sic - actually looks like Granite Falls)</p>
+            <p>Boats in Hermit Rapid</p>
+            <p>Damaged boat on shore</p>
+            <p>Man with two-way radio</p>
+            <p>Looking at rapid from shore</p>
+            <p>Elves Chasm</p>
+            <p>Boats on riverbank</p>
+            <p>Deer Creek Falls</p>
+            <p>Boats on riverbank</p>
+            <p>Boats on river</p>
+            <p>"Lava Falls"</p>
+            <p>Boats running Lava Falls</p>
+            <p>Boats in rapids</p>
+            <p>Travertine Falls</p>
+            <p>"The last 111 miles of the 350 miles were on Lake Mead"</p>
+            <p>Boats at speed on Lake Mead</p>
+            <p>"Lake Mead and the last camp site"</p>
+            <p>Camp on Lake Mead with power launch</p>
+            <p>"Silt has filled the head of the lake"</p>
+            <p>Scenes on Lake Mead</p>
+            <p>Mud cracks</p>
+            <p>Otis Marston</p>
+            <p>Bill Belknap?</p>
+            <p>Frank Masland</p>
+            <p>Unidentified man</p>
+            <p>Joe Desloge</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3.6</container>
+            <unittitle encodinganalog="title">Through the Grand Canyon by aluminum boat and outboard motor from Lee's Ferry, Arizona to Boulder City, Nevada on Lake Mead</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956 June 4-11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Possibly the same trip as 3.5</p>
+            <p>Titles in the film are in quotes:</p>
+            <p>"Cameras of: Ballard Atherton, Bill Beer, Hugh Cutler, Josh Eisaman, (Otis) Dock Marston, Arch (Frank) Masland"</p>
+            <p>Boats on river</p>
+            <p>Hand tracing route on map</p>
+            <p>Marble Canyon trading post</p>
+            <p>Navajo Bridge</p>
+            <p>Lees Ferry</p>
+            <p>"Lee's Ferry June 1"</p>
+            <p>Boats on shore</p>
+            <p>Working on boats</p>
+            <p>Launch</p>
+            <p>Otis Marston and ?</p>
+            <p>Willy Taylor</p>
+            <p>Working on boats</p>
+            <p>Garth Marston</p>
+            <p>Bill Beer</p>
+            <p>Unidentified man</p>
+            <p>Otis Marston</p>
+            <p>Unidentified man</p>
+            <p>Frank Masland</p>
+            <p>Unidentified man</p>
+            <p>Unidentified man/ Garth Marston</p>
+            <p>Bill Beer</p>
+            <p>Unidentified man</p>
+            <p>Otis Marston</p>
+            <p>"We're Off!"</p>
+            <p>Going up river into lower Glen Canyon</p>
+            <p>Under Navajo Bridge</p>
+            <p>"Badger Creek Rapid from rim"</p>
+            <p>Boats in rapid, landing below</p>
+            <p>"Soap Creek Rapid"</p>
+            <p>Boats in rapid, shot from boat</p>
+            <p>"242 Mile Rapid"</p>
+            <p>Boats in rapid, shot from shore</p>
+            <p>Replacing propellor on one boat</p>
+            <p>Motoring through Marble Canyon</p>
+            <p>Redwall Cavern (flooded)</p>
+            <p>Marble Canyon scenery</p>
+            <p>Rapid, men with cameras</p>
+            <p>"Pres. (sic) Harding Rapid"</p>
+            <p>Boats running rapid</p>
+            <p>Stopped for lunch</p>
+            <p>Fast water</p>
+            <p>"Little Colorado River"</p>
+            <p>Boats stopped up Little Colorado River, swimming in blue water</p>
+            <p>Rapids</p>
+            <p>Camp: making beds, cooking, eating</p>
+            <p>Loading boats</p>
+            <p>"Unkar Rapid"</p>
+            <p>View of Unkar delta and rapid from cliffs above</p>
+            <p>"Hance Rapid"</p>
+            <p>Boats in Hance rapid (several different versions)</p>
+            <p>Bill Beer swimming Hance rapid</p>
+            <p>Entering Inner Gorge</p>
+            <p>Phantom  Ranch: eating lunch at table, swimming in pool</p>
+            <p>Boats on river</p>
+            <p>"Granite Falls Rapid"</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4.1</container>
+            <unittitle encodinganalog="title">Duplicate of 3.6</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4.2</container>
+            <unittitle encodinganalog="title">Running Grand Canyon of Colorado River, Desloge-Sanderson Expedition</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956 September</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent, out of focus
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Boats: one S-rig, one double pontoon)</p>
+            <p>Loading boats</p>
+            <p>Launch</p>
+            <p>Rapids</p>
+            <p>Camp</p>
+            <p>Rapids</p>
+            <p>Phantom Ranch</p>
+            <p>Helicopter</p>
+            <p>Bright Angel Creek</p>
+            <p>Views from south rim of Grand Canyon</p>
+            <p>Hiking down Kaibab Trail</p>
+            <p>Mule train</p>
+            <p>Airport at South Rim</p>
+            <p>Applying first aid for blistered feet</p>
+            <p>Lava Falls</p>
+            <p>Springs on left side below Lava Falls</p>
+            <p>Camp</p>
+            <p>Rapids</p>
+            <p>Other boats</p>
+            <p>Hiking</p>
+            <p>Swimming in river</p>
+            <p>Camp</p>
+            <p>Loading boats</p>
+            <p>Elves Chasm (out of sequence)</p>
+            <p>De-rigging boats at Diamond Creek</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4.3</container>
+            <unittitle encodinganalog="title">Nevills Expeditions San Juan River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1940s</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent, backwards
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Boats</p>
+            <p>Swimming</p>
+            <p>Hiking with Norman Nevills</p>
+            <p>Rapids</p>
+            <p>Cooking, camp scenes</p>
+            <p>Pres Walker</p>
+            <p>Climbing, hiking</p>
+            <p>Boats on river: Gunsight Butte</p>
+            <p>Hiking</p>
+            <p>Swimming</p>
+            <p>Rainbow Bridge</p>
+            <p>Boats on river</p>
+            <p>Mud bathing</p>
+            <p>Crossing of the Fathers plaque</p>
+            <p>Standing on driftwood log in river</p>
+            <p>Rapids</p>
+            <p>End of trip at Lees Ferry</p>
+            <p>Boats on trailer</p>
+            <p>Navajo baby</p>
+            <p>Norman Nevills</p>
+            <p>Unidentified man</p>
+            <p>Otis Marston</p>
+            <p>Joe Desloge</p>
+            <p>Unidentified man</p>
+            <p>Unidentified man</p>
+            <p>The rest of the film is out of sequence:</p>
+            <p>Camp, hiking</p>
+            <p>Film is no longer backwards:</p>
+            <p>Boats on river</p>
+            <p>Rapids</p>
+            <p>Camp</p>
+            <p>Hiking</p>
+            <p>Boats on river</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.1</container>
+            <unittitle encodinganalog="title">Nevills Expeditions Grand Canyon river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1947-1948</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent, backwards
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Otis Marston</p>
+            <p>Garth Marston</p>
+            <p>Rapids</p>
+            <p>Rattlesnake</p>
+            <p>Norman Nevills holding rattlesnake by tail</p>
+            <p>Scouting rapids from shore</p>
+            <p>Rapids filmed from boat</p>
+            <p>Camp</p>
+            <p>Rapids from boat</p>
+            <p>Landing boat, hauling on shore</p>
+            <p>Cooking, eating</p>
+            <p>Deer Creek Falls</p>
+            <p>Rapids: Bedrock Rapid?  (wrecked barge on top of middle rock)</p>
+            <p>Havasu Creek: swimming, climbing, diving</p>
+            <p>Lining Lava Falls</p>
+            <p>Building cairn</p>
+            <p>Tow out on Lake Mead</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.2</container>
+            <unittitle encodinganalog="title">Reynolds-Hallacy Expeditions Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Rapids</p>
+            <p>Gates of Lodore</p>
+            <p>Boat stuck on rock</p>
+            <p>Triplet Rapid</p>
+            <p>Lining Hell's Half Mile Rapid</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.3</container>
+            <unittitle encodinganalog="title">Nevills Expeditions Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1947</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ashley Falls high water run</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.4</container>
+            <unittitle encodinganalog="title">Better copy of 4.2 (in focus)</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.5</container>
+            <unittitle encodinganalog="title">Edited version of 4.3 (not backwards)</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.6</container>
+            <unittitle encodinganalog="title">Edited version of 5.1</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Black and white, silent
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.7</container>
+            <unittitle encodinganalog="title">Duplicate of 5.2</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Black and white, silent
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.8</container>
+            <unittitle encodinganalog="title">Nevills Expeditions Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1947</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent, backwards
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Longer version of the same trip as 5.3:</p>
+            <p>Boats on river</p>
+            <p>Ashley Falls high water run, more footage than 5.3</p>
+            <p>Man in life vest floating through rapid</p>
+            <p>Camp</p>
+            <p>Scenery</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.9</container>
+            <unittitle encodinganalog="title">Desloge family home movies</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Boat or barge trip on Hudson River</p>
+            <p>West Point</p>
+            <p>New York Harbor</p>
+            <p>Brooklyn Bridge</p>
+            <p>New York City skyline</p>
+            <p>U.S.N. destroyer</p>
+            <p>United Nations building</p>
+            <p>New York skyline with Chrysler Building</p>
+            <p>Amphibious car</p>
+            <p>Chinese Junk</p>
+            <p>Boys on barge</p>
+            <p>Goodyear blimp</p>
+            <p>Riding pony, horses</p>
+            <p>Family estate?</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5.10-5.12</container>
+            <unittitle encodinganalog="title">Nevills Expeditions San Juan River trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1940s</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Norman Nevills, Preston Walker, Kent Frost, Joseph Desloge, Joseph Desloge Jr., Marie Saalfrank, Anne Desloge, Zoe Desloge</p>
+            <p>Launch</p>
+            <p>Playing in river</p>
+            <p>Filming boats</p>
+            <p>Boats on river</p>
+            <p>Petroglyphs</p>
+            <p>Rapids</p>
+            <p>Hiking, climbing</p>
+            <p>Burning driftwood jammed in side canyon</p>
+            <p>Wrestling</p>
+            <p>Hiking back to boats</p>
+            <p>Filling water jugs</p>
+            <p>Boating</p>
+            <p>Lunch</p>
+            <p>Hiking</p>
+            <p>Scouting rapids</p>
+            <p>Running rapid</p>
+            <p>Building cairn with message in can</p>
+            <p>Camp on driftwood beach</p>
+            <p>Bright Angel creek</p>
+            <p>Out of sequence:</p>
+            <p>Lower Granite Gorge, Travertine Falls, fluting, rapids</p>
+            <p>Deer Creek Falls hike</p>
+            <p>Rapids from boat</p>
+            <p>Camping</p>
+            <p>Around Lava falls</p>
+            <p>Travertine Falls</p>
+            <p>Boating, swimming</p>
+            <p>Climbing</p>
+            <p>Separation Rapid plaque</p>
+            <p>Lake Mead</p>
+            <p>Randall Henderson</p>
+            <p>Columbine Falls</p>
+            <p>Power cruiser, floatplane on Lake Mead</p>
+            <p>Swimming in river</p>
+            <p>Scenery</p>
+            <p>Swimming</p>
+            <p>Signing register books at Rainbow Bridge (?)</p>
+            <p>Boating</p>
+            <p>Hiking on slickrock</p>
+            <p>Back on boat</p>
+            <p>Girl in wild swimsuit</p>
+            <p>Lizards</p>
+            <p>Hiking</p>
+            <p>Shaving</p>
+            <p>Mud baths</p>
+            <p>Sitting on boats</p>
+            <p>Scenery</p>
+            <p>Grooming</p>
+            <p>Norman Nevills shaving</p>
+            <p>Boating</p>
+            <p>Meeting people on shore with dog</p>
+            <p>Boat on trailer</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6.1</container>
+            <unittitle encodinganalog="title">Nevills Expeditions Green River river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1949</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ceremony at Expedition Island, Wyoming</p>
+            <p>Dedication of Powell monument</p>
+            <p>Start of river trip</p>
+            <p>Boating</p>
+            <p>Horses swimming in river</p>
+            <p>Firehole Towers</p>
+            <p>Girl</p>
+            <p>Stop at ranch</p>
+            <p>Livestock</p>
+            <p>Flaming Gorge</p>
+            <p>Horseshoe Canyon</p>
+            <p>Fast water</p>
+            <p>Lunch</p>
+            <p>Ashley Falls</p>
+            <p>Boating in Red Canyon</p>
+            <p>Ashley Falls again (out of sequence, black and white - this segment may have been spliced in)</p>
+            <p>Boats in rapid, one person swimming</p>
+            <p>Red Creek Rapid</p>
+            <p>Breaking camp</p>
+            <p>Red Canyon</p>
+            <p>Hiking at old ranch</p>
+            <p>Riding horses</p>
+            <p>Lunch</p>
+            <p>Rapids</p>
+            <p>Lunch</p>
+            <p>Camping</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6.2</container>
+            <unittitle encodinganalog="title">Nevills Expeditions Grand Canyon  river trip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1947-1948</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Much of this footage also appears in 1.2 and 1.3:</p>
+            <p>Map of river</p>
+            <p>Street scene, San Francisco</p>
+            <p>Flaming Gorge</p>
+            <p>Green River view of canyon from cliffs above</p>
+            <p>Ashley Falls</p>
+            <p>Gates of Lodore</p>
+            <p>Echo Park</p>
+            <p>Aerial of confluence of Colorado and Green Rivers</p>
+            <p>Cataract Canyon</p>
+            <p>Nevills boat in rapid</p>
+            <p>Glen Canyon: Outlaw Cave, mouth of San Juan River</p>
+            <p>Aerial views of Vermillion Cliffs, Marble Canyon</p>
+            <p>Buffalo</p>
+            <p>Little Colorado River</p>
+            <p>Aerial view of Grand Canyon</p>
+            <p>Map of Grand Canyon</p>
+            <p>View from rim</p>
+            <p>Emery Kolb</p>
+            <p>View from rim</p>
+            <p>Unkar Delta</p>
+            <p>Boat on river</p>
+            <p>Tanner Flats area, below Little Colorado River</p>
+            <p>Boats</p>
+            <p>Inner Gorge</p>
+            <p>Rapids: scouting Sockdologer Rapid</p>
+            <p>View of big rapids</p>
+            <p>Lining rapids: Otis Marston, Norman Nevills, Garth Marston, Margaret Marston</p>
+            <p>Re-loading boats</p>
+            <p>Lining sequence speeded up</p>
+            <p>Streets scenes in San Francisco with trolleys, turntables</p>
+            <p>Office scene, woman typing</p>
+            <p>Randall Henderson using typewriter on river, putting note in cairn</p>
+            <p>Fossils, fossil hunting</p>
+            <p>Petroglyphs</p>
+            <p>Monument Valley</p>
+            <p>Granaries at Nankoweap, Grand Canyon</p>
+            <p>Marston twins with pieces of pottery</p>
+            <p>Pottery</p>
+            <p>Sign about John Wesley Powell</p>
+            <p>F.S. Dellenbaugh inscription, Music Temple, Glen Canyon</p>
+            <p>Separation Rapid plaque</p>
+            <p>Letter from Nathaniel Galloway, inscription by Galloway</p>
+            <p>Various inscriptions: Kolb brothers, Clyde Eddy, Pathe-Bray, Hydes</p>
+            <p>Skeleton in Stanton Cave</p>
+            <p>Hiking on slickrock in Glen Canyon</p>
+            <p>Mining camps, Glen Canyon: Olympia Bar, Zahn's camp</p>
+            <p>Nevills finding chest with old clothes in Glen Canyon, modeling old clothes</p>
+            <p>Oil camp</p>
+            <p>Lizard</p>
+            <p>Scorpion</p>
+            <p>Garth Marston holding rattlesnake</p>
+            <p>Deer swimming in river</p>
+            <p>Bighorn sheep</p>
+            <p>Marston at oars of boat</p>
+            <p>Aerial tram car at Bass Camp, Grand Canyon</p>
+            <p>Bridge at Moab, Utah</p>
+            <p>Aerial of Navajo Bridge</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6.3</container>
+            <unittitle encodinganalog="title">Miscellaneous river trips</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">circa 1947-1948</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Map of Grand Canyon</p>
+            <p>Two boats running rapids</p>
+            <p>Bedrock rapid with boat or barge on top</p>
+            <p>Hiking</p>
+            <p>Boating at sunset</p>
+            <p>Running rapids: Unkar?  Nankoweap?</p>
+            <p>Lava flows, Vulcan's throne</p>
+            <p>Wind blowing sand</p>
+            <p>Glen Canyon</p>
+            <p>Wind blowing spray in rapid (rain on river)</p>
+            <p>Deer Creek Falls, water falling into river (i.e., high water)</p>
+            <p>Monument Valley</p>
+            <p>Mexican Hat</p>
+            <p>Agathla Peak</p>
+            <p>Marston twin daughters in front of Navajo Twins (rock formation near Bluff, Utah)</p>
+            <p>Spires in Monument Valley, Mittens</p>
+            <p>Angel's Window, North Rim of Grand Canyon</p>
+            <p>Views of Grand Canyon from rims</p>
+            <p>Rapids</p>
+            <p>Havasu Creek</p>
+            <p>Diving off rocks</p>
+            <p>Boarding boat, launching at Havasu</p>
+            <p>Scouting rapids</p>
+            <p>Running various rapids</p>
+            <p>Floating rapids with inner tubes, life vests, air mattresses</p>
+            <p>Running bigger rapid (Dubendorff?)</p>
+            <p>Filming rapids from boat</p>
+            <p>Rapids from boat and shore</p>
+            <p>Otis Marston at oars of boat</p>
+            <p>Mrs. Marston in boat in rapid</p>
+            <p>Water swirling</p>
+            <p>Garth Marson swimming rapid</p>
+            <p>Sign: AWarning: do not swim in the Colorado..."</p>
+            <p>Lake M Columbine falls?</p>
+            <p>Floatplane landing</p>
+            <p>Big cruiser</p>
+            <p>Tow out</p>
+            <p>Hoover Dam.  Last title is: "Rapidly yours, Dock (Marston)"</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6.4-7.1</container>
+            <unittitle encodinganalog="title">Miscellaneous Grand Canyon footage</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Motor boats in Grand Canyon</p>
+            <p>Bureau of Reclamation camp on rim of Marble Canyon</p>
+            <p>Aerial tramway, rim of Grand Canyon</p>
+            <p>Helicopter by river</p>
+            <p>Film taken from helicopter</p>
+            <p>Helicopter landing</p>
+            <p>Rapids:  scouting, running, with helicopter overhead</p>
+            <p>Film of boat running rapids, taken from helicopter.</p>
+            <p>Powerboat in rapid (beginning of 7.1)</p>
+            <p>Blank</p>
+            <p>Powerboat on Lake Mead</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7.2</container>
+            <origination>
+              <persname encodinganalog="creator" source="local" rules="dacs" role="creator">Olsen, Edwin E.</persname>
+            </origination>
+            <unittitle encodinganalog="title">Danger River</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, sound
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>"Danger River" consists of outtakes from Olsen's 1946 Academy Award winning short, "Facing Your Danger."  Both films were compiled from footage filmed during a 1942 Grand Canyon river trip with Nevills Expeditions.</p>
+            <p>Waves in rapids</p>
+            <p>View from South Rim, Grand Canyon</p>
+            <p>Rapids</p>
+            <p>Skeleton at South Cave</p>
+            <p>Norman Nevills</p>
+            <p>Nevills working on boats, loading boats, boats on trailer approaching Lees Ferry, launching boats, packing boats</p>
+            <p>Badger Rapid: scouting, running</p>
+            <p>Flip at Tanner Rapid, 1942; Ed Hudson in water holding onto boat</p>
+            <p>Numerous scenes of running various rapids</p>
+            <p>Wreck of old boat</p>
+            <p>Skeleton--not one in South Cave</p>
+            <p>Granaries at Nankoweap</p>
+            <p>Boats in creek at Havasu</p>
+            <p>Fishing at Tapeats Creek</p>
+            <p>Deer</p>
+            <p>Rapids--Sockdologer (includes slow-motion sequence)</p>
+            <p>233 mile rapid (narrator's identification of location may be incorrect)</p>
+            <p>Sunset on cliffs</p>
+            <p>Lake Mead</p>
+            <p>Last shot of wave in rapid</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7.3</container>
+            <unittitle encodinganalog="title">Duplicate of 4.2</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+              <physfacet>
+                Color, silent
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

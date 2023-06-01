@@ -8,12 +8,14 @@
         <xsl:param name="input" as="xs:time" required="yes"/>
         <xsl:value-of select="format-time($input, '[h]:[m01] [Pn]')"/>
     </xsl:function>
+    <xsl:variable name="days" as="xs:string+"
+        select="'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'"/>
     <xsl:template match="/">
         <section>
             <h1>Schedule</h1>
             <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                 all</button></p>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="schedule/day"/>
         </section>
     </xsl:template>
     <xsl:template match="day">
@@ -22,16 +24,18 @@
         </section>
     </xsl:template>
     <xsl:template match="day/title">
+        <xsl:variable name="date" as="xs:string"
+            select="(xs:date(ancestor::schedule/meta/startDate) + xs:dayTimeDuration(concat('P', index-of($days, ../@d) - 1, 'D'))) => xs:date() => format-date('[FNn], [MNn] [D]')"/>
         <h2>
-            <xsl:apply-templates select="concat(../@d, ': ', .)"/>
+            <xsl:apply-templates select="concat($date, ': ', .)"/>
         </h2>
     </xsl:template>
     <xsl:template match="slot">
         <section>
             <xsl:apply-templates select="title"/>
-            <ul>
+            <ol>
                 <xsl:apply-templates select="act"/>
-            </ul>
+            </ol>
         </section>
     </xsl:template>
     <xsl:template match="slot/title">

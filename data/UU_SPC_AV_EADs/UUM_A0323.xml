@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:36 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0323::Utah Ski Archives miscellaneous videos)//EN" encodinganalog="identifier" identifier="80444/xv26092" url="http://archiveswest.orbiscascade.org/ark:/80444/xv26092">UUM_A0323</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Utah Ski Archives miscellaneous videos
+          <date era="ce" calendar="gregorian" normal="1932/2003" encodinganalog="date">1932-2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Utah Ski Archives miscellaneous videos</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Christopher Drew.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1993" encodinganalog="date">© 1993</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0323</unitid>
+      <unittitle encodinganalog="title">Utah Ski Archives miscellaneous videos</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1932/2003" encodinganalog="date">1932-2003</unitdate>
+      <origination>
+        <corpname source="local" rules="dacs" encodinganalog="creator" role="collector">Utah Ski Archives</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">12 VHS videocassettes and 1 Betacam videocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Utah Ski Archives miscellaneous videos (1932-2003) consist of moving images which do not currently fit with in other ski collections.  The Utah Ski Archives was established in 1989 to preserve a comprehensive history of skiing in Utah and the Intermountain region.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <phystech>
+      <p>Most of the items in this collection are VHS dubs of earlier films.  Many are of relatively poor image quality and should only be used for research purposes.</p>
+    </phystech>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>Even before 1900, miners, mail carriers and other travelers were using skis to traverse Utah's mountain snow, and it was not long before skiing in the state arose as a recreational activity and spectator sport.  The Wasatch Mountain Club formed and began leading ski treks in 1912, and, in 1915, the Norwegian Young Folks Society began organizing ski jumping competitions at Ogden's Becker Hill and along the Wasatch Front.  By 1936, the resort town of Brighton featured the state's first rope tow and hosted ski races, and it was only a short time after Joe Quinney formed the Salt Lake City Winter Sports Association in 1937 that Utah's first chairlift (only the second in the country) was constructed at the former alpine mining town of Alta in 1938.  In the 1940s, Norwegian ski jumper Sverre Engen became Alta's first ski patrolman and the Forest Service's first snow ranger, while his equally accomplished older brother, Alf, took over Alta's ski school.  As skiing continued to increase in popularity, organized ski areas sprung up throughout the Wasatch Mountains and in alpine areas across the state, attracting recreational and competitive skiers from local communities and around the world.  Salt Lake City hosted the Winter Olympic Games in 2002.</p>
+      <p>The Utah Ski Archives was established in 1989 to preserve a comprehensive history of skiing in Utah and the Intermountain region.  They are housed at the University of Utah J. Willard Marriott Library in the Special Collections department and consist of photographs, manuscripts and audio-visual material.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>Utah Ski Archives miscellaneous videos (1932-2003) consist of various ski-related VHS videocassettes which do not currently fit with any other ski collections.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>This collection is arranged in roughly chronological order.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1993.</p>
+    </processinfo>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Skis and skiing--Utah--History--Sources</subject>
+      <subject encodinganalog="subject" source="lcsh">Avalanches--Utah</subject>
+      <subject encodinganalog="subject" source="lcsh">Winter Olympics</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Skiing with Hannes Schneider; Ski Flight; The White Badge; Ski Wonderland; World Ski Techniques</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1936-1965</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copies of movies transferred from 16mm film:</p>
+          <p>1.) <emph render="italic">Skiing with Hannes Schneider</emph> (1936)</p>
+          <p>Director: Hannes Schneider</p>
+          <p>Sound, B/W (18 minutes)</p>
+          <p>This skiing action film depicts a number of skiers as they cross hills, valleys and ski in various formations.  At the end of the film, an inter-title appears on the screen with the following information: "Slo-Motion scenes of the highlights in the preceding picture."  This inter-title is followed by a number of slow motion takes of previous scenes.</p>
+          <p>2.) <emph render="italic">Ski Flight: A Document of Skiing According to the Principles of Hannes Schneider (with OTTO LANG)</emph> (1937)</p>
+          <p>Director: Jerome Hill</p>
+          <p>Narrator: Ira Genet</p>
+          <p>Commentator: Howard Claney</p>
+          <p>Music: David Mendoza</p>
+          <p>Editor: Bert Frank</p>
+          <p>Sound, B/W (10 minutes)</p>
+          <p>This instructional ski film features Otto Lang demonstrating Hannes Schneider's "Arlburg Method" of skiing.  The separate steps to the method are discussed and are as follows; Schuss, Snowplow, Snowplow turn, Stem turn, Stem Christiania and Parallel Christiania.</p>
+          <p>3.) <emph render="italic">The White Badge</emph> (1962)</p>
+          <p>Sound, Color</p>
+          <p>Director: Bob Bourdon</p>
+          <p>This instructional ski film features some of the most prominent ski instructors in the U.S. at the time of its release.  The film's featured instructors include Paul Velar (Franconia), Bruce Fen (Lake Placid), Paula Levar (Mittersill), Gary Fisher (Stowe), Rudy Kirsteiner (Snow Ridge), Herbert Schneider (North Conway) and Kurt Sparks (Stowe).  As there was no written guide accompanying the VHS tape, the names of featured ski instructors may be spelled incorrectly.</p>
+          <p>4.) <emph render="italic">Ski Wonderland</emph> (1949)</p>
+          <p>Silent, B/W (13 minutes)</p>
+          <p>This silent instructional ski film deals with ski instruction in Switzerland in 1939.</p>
+          <p>5.) <emph render="italic">World Ski Techniques </emph> (1965)</p>
+          <p>Sound, Color</p>
+          <p>Director: Robert Bourdon</p>
+          <p>This instructional ski film documents the 7th Interski which took place in Europe in 1965.  The film utilizes the talents of professional ski instructors such as Phil Jones, Glen Young, Barry Bryan, Eric Wendish, Toby Vanue, Paul Velar and Willy Shepler.  The preceding names were taken from the narration accompanying the film and therefore may be spelled incorrectly.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Legends of American Skiing; Skiing with Hannes Schneider; Ski Flight; Ski Wonderland</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1936-circa 1940</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copies of movies transferred from 16mm film:</p>
+          <p>1.) <emph render="italic">Legends of American Skiing, 1849-1940</emph></p>
+          <p>Sound, Color (75 minutes)</p>
+          <p>
+            <emph render="italic">Legends of American Skiing</emph> presents the history of the development of modern skiing, especially in the U.S.  Featured individuals include John "Snowshoe" Thompson, Charlie Proctor, Roger Langley, "Jackrabbit" Johanssen, Alf Engen, Barney Maclean, Georgi Wren, Dick Durrance, Helen Leigh and Billy Fisk.</p>
+          <p>2.) <emph render="italic">Skiing with Hannes Schneider</emph> (1936)</p>
+          <p>Director: Hannes Schneider</p>
+          <p>Sound, B/W (18 minutes)</p>
+          <p>This skiing action film depicts a number of skiers as they cross hills, valleys and ski in various formations.  At the end of the film, an inter-title appears on the screen with the following information: "Slo-Motion scenes of the highlights in the preceding picture."  This inter-title is followed by a number of slow motion takes of previous scenes.</p>
+          <p>3.) <emph render="italic">Ski Flight: A Document of Skiing According to the Principles of Hannes Schneider (with OTTO LANG)</emph> (1937)</p>
+          <p>Director: Jerome Hill</p>
+          <p>Narrator: Ira Genet</p>
+          <p>Commentator: Howard Claney</p>
+          <p>Music: David Mendoza</p>
+          <p>Editor: Bert Frank</p>
+          <p>Sound, B/W (10 minutes)</p>
+          <p>This instructional ski film features Otto Lang demonstrating Hannes Schneider's "Arlburg Method" of skiing.  The separate steps to the method are discussed and are as follows; Schuss, Snowplow, Snowplow turn, Stem turn, Stem Christiania and Parallel Christiania.</p>
+          <p>4.) <emph render="italic">Ski Wonderland</emph> (1949)</p>
+          <p>Silent, B/W (13 minutes)</p>
+          <p>This silent instructional ski film deals with ski instruction in Switzerland in 1939.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Skiing 1932; Ruth Hanson at Sun Valley and Alta</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1932-1947</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copies of movies transferred from 8mm film:</p>
+          <p>1.) Skiing 1932</p>
+          <p>Silent, B/W (10 minutes)</p>
+          <p>This film contains silent footage of skiers, dog sled races, ski jumping, a man playing with a dog, panoramic shots of mountainsides, spectators watching a ski jumping competition and shots of men and women joking around in front of the camera.</p>
+          <p>In previous registers, it is noted that this VHS tape contains footage of a ski jumper's ski-related death at Ecker Hill.  However, during the most recent viewing of the tape, the cataloguer was not able to identify such footage</p>
+          <p>2.) Ruth Hanson at Sun Valley and Alta (1947)</p>
+          <p>Silent, Color</p>
+          <p>This portion of the videocassette contains self explanatory images of Ruth Hanson and others skiing at Sun Valley and Alta.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Skiing 1932</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1932</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copy of a movie transferred from 8mm film:</p>
+          <p>Silent, B/W (10 minutes)</p>
+          <p>This film contains silent footage of skiers, dog sled races, ski jumping, a man playing with a dog, panoramic shots of mountainsides, spectators watching a ski jumping competition and shots of men and women joking around in front of the camera.</p>
+          <p>In previous registers, it is noted that this VHS tape contains footage of a ski jumper's ski-related death at Ecker Hill.  However, during the most recent viewing of the tape, the cataloguer was not able to identify such footage</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Dr. Quakenbush Skis the Headwall</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1942</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copy of a movie transferred from 16mm film:</p>
+          <p>Silent, B/W</p>
+          <p>This fiction film was produced by Sidney Shurcliff in 1942.  The musical accompaniment was produced in 1992 by Keystone Productions.  The videocassette copy of this film was donated to the Marriott Library by the New England Ski Museum.  The film itself is an intentionally humorous, silent fictional piece dealing with the adventures of Dr. Quakenbush, an explorer, and his two nephews as they attempt to take a ski holiday.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Geland Freeskiing</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1940s</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copy of a movie transferred from 8mm film:</p>
+          <p>Silent, Color</p>
+          <p>This videocassette contains images of freeskiing during the 1940s.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">The Fox Chase</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1938</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copy of a movie transferred from 16mm film:</p>
+          <p>Writer/Director: Hap Kimball</p>
+          <p>Silent (with music), Sepia toned</p>
+          <p>This humorous fictional film depicts a man on skis being chased by a group of other men on skis.  The film has musical accompaniment but has no dialogue, instead relying on a series of inter-titles to tell its story.   At the film's start, there is an inter-title that states that the film was awarded 2nd Place in the Utah Amateur Movie Contest of 1938.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8-9</container>
+          <unittitle encodinganalog="title">Park City; Ski</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1954-circa 1960s</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copies of movies transferred from 16mm film:</p>
+          <p>1.) <emph render="italic">Park City</emph> (1954)</p>
+          <p>Sound, B/W (18 minutes)</p>
+          <p>This roughly edited, mainly silent film deals with Park City, Utah's failing mining industry in the early 1950s.  At points throughout the film, the viewer is shown interviews with Park City citizens, although these interviews seem to be roughly edited or perhaps even unedited (as does the entire film).  The film addresses the fact that Park City, once a booming mining town, was quickly becoming a "Ghost Town" due to low metal prices.  The second part of the reel contains interviews with various citizens concerning the uneasy future of the city and the result of the stockpiling solution to the mining problem.</p>
+          <p>2.) <emph render="italic">Ski</emph> (circa 1960s)</p>
+          <p>Silent, Color (18 minutes)</p>
+          <p>
+            <emph render="italic">Ski</emph> paints an ironic portrait of Park City, the once ailing mining town.  By the time Ski was filmed, Park City had a growing ski industry that has replaced mining as the city=s primary industry.  This film shows ski areas with skiers using rope tows and other early lifts. Downhill and slalom competitions are also included.</p>
+          <p>3 copies</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">Park City; Ski (Betacam copy)</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1954-circa 1960s</unitdate>
+          <physdesc>
+            <genreform>Betacam videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Copies of movies transferred from 16mm film:</p>
+          <p>1.) <emph render="italic">Park City</emph> (1954)</p>
+          <p>Sound, B/W (18 minutes)</p>
+          <p>This roughly edited, mainly silent film deals with Park City, Utah's failing mining industry in the early 1950s.  At points throughout the film, the viewer is shown interviews with Park City citizens, although these interviews seem to be roughly edited or perhaps even unedited (as does the entire film).  The film addresses the fact that Park City, once a booming mining town, was quickly becoming a "Ghost Town" due to low metal prices.  The second part of the reel contains interviews with various citizens concerning the uneasy future of the city and the result of the stockpiling solution to the mining problem.</p>
+          <p>2.) <emph render="italic">Ski</emph> (circa 1960s)</p>
+          <p>Silent, Color (18 minutes)</p>
+          <p>
+            <emph render="italic">Ski</emph> paints an ironic portrait of Park City, the once ailing mining town.  By the time Ski was filmed, Park City had a growing ski industry that has replaced mining as the city=s primary industry.  This film shows ski areas with skiers using rope tows and other early lifts. Downhill and slalom competitions are also included.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">11</container>
+          <unittitle encodinganalog="title">NBC Nightly News: Alf Engen</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Short National Broadcasting Company (NBC) news feature concerning Alf Engen's long career as a skier and ski school teacher.  After the interview, the tape features an unedited interview with Alf Engen by NBC (National Broadcasting Company) correspondent, Mike Leonard.  This raw footage is also available on Betacam videocassette.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">12</container>
+          <unittitle encodinganalog="title">University of Utah ski team 2003 highlights</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Head coach: Kevin Sweeney</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">13</container>
+          <unittitle encodinganalog="title">The Greatest Snow on Earth: Utah's Skiing Story</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1999</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A 55 minute documentary directed by Shawn Emery about the history of skiing in Utah from the late 19th century use of skis for transportation to the state's preparations for the 2002 Olympic Winter Games.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">14</container>
+          <unittitle encodinganalog="title">Olympic Highlights: The 2002 Olympic Winter Games</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2002</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>NBC produced video featuring highlights from the 2002 Olympic Winter Games in Salt Lake City, Utah.  Narrated by Bob Costas.  83 minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">15</container>
+          <unittitle encodinganalog="title">Salt Lake 2002: Remember the Journey</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2002</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Salt Lake Organizing Committee (SLOC) produced video featuring hightlights from the 2002 Olympic Winter Games in Salt Lake City, Utah.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">16</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Pipe Dreams</title> preview</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2002</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Preview for the motion picture, <title render="italic">Pipe Dreams</title> (Enzo Mileti and James Fields 2002).  According to High West Pictures, "Pipe Dreams follows the lives of the US National Snowboard Team member Ricky Bower and US National Aerial Team member Joe Pack during the eight months leading up to the 2002 Olympic Winter Games.  Not only does the film capture Ricky and Joe on the mountain during training, free riding, and competition, but it also follows them off the mountain to examine the lives to two world-class athletes. " This DVD contains only a preview, not the entire motion picture.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">17</container>
+          <unittitle encodinganalog="title">Bud Greenspan's Salt Lake 2002: Stories of Olympic Glory</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>From disc jacket: "Award-winning sports chronicler Bud Greenspan delivers a powerful and emotional look at six individual stories in the official film of the 2002 Olympic Winter Games in Salt Lake City.  Greenspan goes beyond highlight footage to tell the story of how these athletes overcome incredible obstacles to achieve Olympic glory."  2 hours.  Featuring:</p>
+          <list type="simple">
+            <item>Opening Ceremony</item>
+            <item>Jim Shea, Jr. (skeleton)</item>
+            <item>Janica Kostelic (alpine skiing)</item>
+            <item>Canada vs. USA (men's ice hockey)</item>
+            <item>Stefania Belmondo (cross-country skiing)</item>
+            <item>Alisa Camplin (freestyle aerials)</item>
+            <item>Brian Shimer (bobsled)</item>
+            <item>Closing Ceremony</item>
+          </list>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

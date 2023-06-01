@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0008::Friends of Gilgal Garden/EN" encodinganalog="identifier" identifier="80444/xv74279" url="http://archiveswest.orbiscascade.org/ark:/80444/xv74279">UUM_A0008</eadid>
+    <!--need arc number from UDA-->
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Friends of Gilgal Garden Audio Visual Collection
+				<date era="ce" calendar="gregorian" encodinganalog="date">undated</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Friends of Gilgal Garden Audio-Visual Collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Ellyx Jolley</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2014" encodinganalog="date">©2014</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Ellyx Jolley
+			<date era="ce" calendar="gregorian" normal="2014">2014</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0008</unitid>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Friends of Gilgal Garden</persname>
+      </origination>
+      <unittitle encodinganalog="title">Friends of Gilgal Garden Audio-Visual Collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="0000/0000" encodinganalog="date">undated</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">2 VHS videocassette, 1 compact disc</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Friends of Gilgal Garden Audio-Visual Collection details the attempts to preserve and save Gilgal Garden by Friends of Gilgal Garden.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>
+        <extref xlink:type="simple" xlink:role="text/html" xlink:show="new" xlink:actuate="onRequest" xlink:href="http://www.gilgalgarden.org/">Gilgal Garden</extref> was created by Thomas B. Child, Jr.(1888-1963),a bishop of the LDS church. He began creating the garden in 1947, using his skills as a mason. From 1947 to 1963 at the time of his death, Child built the garden with the help of others. Much of the focus for the twelve sculptures and more than seventy engraved stones was the Mormon religion. He chose themes like the restoration of the Aaronic and Melchizedek Priesthood that allowed worthy men to baptize and bestow the Holy Ghost, the great Mormon migration West from Nauvoo to escape persectution, and the deep connection between the ancient Israelites and the LDS forefathers. Child's choice of naming it Gilgal Garden further describes the deep connection to his heritage. Gilgal can mean circle of sacred stone, etymologically related to the location where Joshua ordered the Israelites to place twelve stones at a memorial.</p>
+      <p> After Child's death, the garden passed on to the Grant Ketzer family who cared for it and opened it to the public on Sundays. In 2000, however, after many acts of vandalism, the family decided to sell it. Hortense Child Smith, the widow of Child's son, decide to attempt to raise funds to buy and restore Gilgal Garden by creating the Friends of Gilgal Garden. Through donations by the LDS church and other large names in Utah, Friends of Gilgal Garden was able to purchase the park and begin restoration. In October of 2001, Gilgal Garden became a public park in Salt Lake City. Even now it is open to public to examine and enjoy the historical garden. </p>
+      <p>Originally a private, housed in Child's backyard, the garden has grown into a popular public park where many gather to admire the sculptures created by Child. Tucked away in the middle of Salt Lake City, the garden is known for its eclectic collection of sculptures including the sphinx with Joseph Smith Jr.'s face, an altar to his wife, and Nebuchadnezzar's Dream from the Book of Daniel. It is often a site for both curious travelers and locals to see the work of Child and his creativity. 
+		</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>This collection has been digitized and is available in the Special Collections' reading room on compact disc or DVD.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arranged as provided by donor. </p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Friends of Gilgal Garden Audio-Visual Collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+               Friends of Gilgal Garden Audio-Visual Collection A0008,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0008</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Mary Lee Peters in 2011.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Braden J McKenna in 2013.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See the Thomas Battersby Child Collection(A0757)</p>
+    </relatedmaterial>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Thomas B. Child</persname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <subject encodinganalog="subject" source="lcsh">Gilgal Garden</subject>
+      <subject altrender="nodisplay" source="archiveswest">Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Salt Lake City</subject>
+      <subject altrender="nodisplay" source="archiveswest">Mormonism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Parks And Playgrounds</subject>
+      <subject altrender="nodisplay" source="archiveswest">Material Types</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <!--<genreform encodinganalog="type" source="aat">Moving images</genreform>
+			<genreform encodinganalog="type" source="aat">Sound recordings</genreform>\
+			NOT SURE ABOUT THIS-->
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="video">1</container>
+          <unittitle encodinganalog="title">Save Gilgal Garden</unittitle>
+          <unitdate>undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+            <physfacet>
+              Color, sound, 7:00 minutes
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A short presentation from the Friends of Gilgal Garden requesting monetary donations to prevent the Gilgal
+						property from being sold to commercial developers. It also gives a brief historical background to the garden.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="video">2</container>
+          <unittitle encodinganalog="title">Gilgal Garden KSL TV Ch 5</unittitle>
+          <unitdate>undated</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+            <physfacet>
+              Color, sound, 2:30 minutes
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A KSL Ch. 5 News program on Gilgal Garden, covering some historical information and the current work being done for preservation and restoration.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="video">3</container>
+          <unittitle encodinganalog="title">Brian Jackson Fetzer-Salt Lake City:Ready to Fly!</unittitle>
+          <unitdate>undated</unitdate>
+          <physdesc>
+            <genreform>compact disc</genreform>
+            <physfacet>
+              audio track, 1:06:00 hours
+            </physfacet>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A concept album dedicated to Salt Lake City, track 18, "Love, It's A Beautiful Word", is about Gilgal Garden.</p>
+          <p>
+            <list type="simple">
+              <item>1: "We've Got To Move The World"</item>
+              <item>2: "Ready to Fly"</item>
+              <item>3: "Winds of Change"</item>
+              <item>4: "Romantically Involved"</item>
+              <item>5: "Feeling Like A Country Song"</item>
+              <item>6: "Salt Lake City, Diamond in the Desert"</item>
+              <item>7: "Up From The Ahses, Come The Roses of Happiness"</item>
+              <item>8: "Festival of The Trees"</item>
+              <item>9: "Santa's Gonna Be Riding On The Shuttle"</item>
+              <item>10: "For a Wintry Night"</item>
+              <item>11: "Shoppin' Up Town, I Love It!"</item>
+              <item>12: "Give Me That Jazz!"</item>
+              <item>13: "Up Town Cats, Hummin' and A Countin'"</item>
+              <item>14: "Itsy Bitsy Spider"</item>
+              <item>15: "Don't Let Go"</item>
+              <item>16: "Help Them Live!"</item>
+              <item>17: "We, The People"</item>
+              <item>18: "Love, It's A Beautiful Word"</item>
+              <item>19: "Colors"</item>
+              <item>20: "Planetary Bells"</item>
+              <item>21:"After The News"</item>
+              <item>22: "Call Me"</item>
+              <item>23: "The University Song"</item>
+            </list>
+          </p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

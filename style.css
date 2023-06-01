@@ -31,11 +31,12 @@ body {
     background-color: #f4eee2 !important;
     color: black;
     /* padding-left: 5px; */
+    counter-reset: level1 0;
 }
 section.main-content {
     max-width: 80rem !important;
 }
-section > ul > li > ol {
+section > ol > li > ol {
     display: none;
 }
 
@@ -100,53 +101,27 @@ code {
     font-family: "Andale Mono", "Courier New", monospace !important;
     /*color : #870429;*/
     color: #D7301F !important;
-    background-color: rgba(0,0,0,0.1) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
     font-weight: bold !important;
 }
 sub,
 sup {
     line-height: 0em;
 }
-ol li ol {
+section > ol {
+    list-style-type: upper-alpha;
+}
+section > ol > li > ol {
+    list-style-type: decimal;
+}
+section > ol > li > ol > li > ol {
     list-style-type: lower-alpha;
 }
-ol li ol li ol {
+section > ol > li > ol > li > ol > li > ol {
     list-style-type: lower-roman;
 }
-/* set main spacing at the h3 element instead of the ul
-    so that it will be present when the list is collapsed
-    but add a bit more at the ul level */
-#toc h2 {
-    margin-bottom: 0px;
-    padding-bottom: 0.5em;
-    cursor: pointer; /* indicate clickability */
-}
-#toc h3 {
-    font-size: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 0.1em;
-    margin-top: 0px;
-    padding-top: 0.3em;
-    cursor: pointer; /* indicate clickability */
-}
-/* toc lists have no bullets and no top-level indentation 
-    they are also closer to the header above than below */
-#toc ul {
-    margin-left: 0px;
-    padding-left: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0.5em;
-}
-#toc li > span {
-    list-style-type: none;
-    /* simulate a link */
-    color: blue;
-    cursor: pointer;
-}
-#toc li > span:hover {
-    text-decoration: underline;
+section > ol > li > ol > li > ol > li > ol > li > ol {
+    list-style-type: lower-greek;
 }
 a {
     text-decoration: none; /* don't underline links */
@@ -175,22 +150,6 @@ td {
     border-style: solid;
     border-width: 1px;
     padding: 5px;
-}
-.level2 {
-    /* indentation for nested list */
-    margin-left: 1em;
-}
-.level3 {
-    /* indentation for nested list */
-    margin-left: 2em;
-}
-.level4 {
-    /* indentation for nested list */
-    margin-left: 3em;
-}
-.level5 {
-    /* indentation for nested list */
-    margin-left: 4em;
 }
 /* floating divs for pseudo-frames*/
 #header {
@@ -295,4 +254,6 @@ span.buttons {
 section[title = "mainPage"] > p {
     text-align: center !important;
 }
-footer{text-align:center;}
+footer {
+    text-align: center;
+}

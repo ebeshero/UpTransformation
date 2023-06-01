@@ -1,0 +1,3008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:05 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0874::Native American oral histories audio recordings)//EN" encodinganalog="identifier" identifier="80444/xv00604" url="http://archiveswest.orbiscascade.org/ark:/80444/xv00604">UUM_A0874</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Native American oral histories audio recordings
+          <date era="ce" calendar="gregorian" normal="1954/1993" encodinganalog="date">1954-1993</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Native American oral histories audio recordings</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2005" encodinganalog="date">© 2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2005">2005</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0874</unitid>
+      <unittitle encodinganalog="title">Native American oral histories audio recordings</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1954/1993" encodinganalog="date">1954-1993</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="collector">American West Center</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">138 reel-to-reel audiotapes and 91 audiocassettes. 2 compact disc duplicates (258 CDs) of each item are available for patron use.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Native American oral histories audio recordings (1954-1993) consists of interviews with members of various Native American tribes who discuss subjects such as land use, land boundaries, tribal history, rituals, and tribal songs.  Represented groups include: Nevada Intertribal Council, Hupa, various Ute groups, Tohono O'odham, Tesuqe and Santa Ana Pueblo.  The American West Center is dedicated to documenting the history of the intermountain region and surrounding areas.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>The American West Center is a research center at the University of Utah which is affiliated with the College of Social and Behavioral Science. The Center is dedicated to providing educational and curricular support to Indian tribes, school districts, other interested organizations, and the general public through consultations, research, and publications.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Native American oral histories audio recordings (1954-1993) consists of interviews with members of various Native American tribes who discuss subjects such as land use, land boundaries, tribal history, rituals, and tribal songs.  Represented groups include: Nevada Intertribal Council, Hupa, various Ute groups, Tohono O'odham, Tesuqe and Santa Ana Pueblo.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are organized by Native American tribe.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Doris Duke American Indian oral history project audio recordings (A0001).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2005.</p>
+    </processinfo>
+    <controlaccess>
+      <subject source="lcsh">Indians of North America--Interviews</subject>
+      <subject source="lcsh">Indians of North America--West (U.S.)--Interviews</subject>
+      <subject source="lcsh">Indians of North America--History--20th century--Interviews</subject>
+      <subject source="lcsh">Indians of North America--Social life and customs</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Nevada Intertribal Council</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 1</container>
+            <unittitle encodinganalog="title">June Tom</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 2</container>
+            <unittitle encodinganalog="title">Andy Garrison</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 28</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 3</container>
+            <unittitle encodinganalog="title">Frank Sam</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 April 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 4</container>
+            <unittitle encodinganalog="title">Millie Reynolds</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 April 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 5</container>
+            <unittitle encodinganalog="title">Bridgeport meeting, land problem</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Land issues.</p>
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 6</container>
+            <unittitle encodinganalog="title">Marie Bill</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 19</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 7</container>
+            <unittitle encodinganalog="title">Ida Stewart, Louie Stewart</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sharon Malotte</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 8</container>
+            <unittitle encodinganalog="title">Lemard Tylo; Marie Bill</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 May 19</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shoshone men's hand-game song and women's hand-game song.</p>
+            <p>Interviewed and recorded by Sharon Malotte, South Fork Indian Reservation</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 9</container>
+            <unittitle encodinganalog="title">Dannie Millett</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 January 16</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shoshone songs.</p>
+            <p>Interviewed and recorded by Sharon Malotte, South Fork Indian Reservation</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 10</container>
+            <unittitle encodinganalog="title">Earl Dean Horney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 26</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shoshone songs.</p>
+            <p>Interviewed and recorded by Sharon Malotte, South Fork Indian Reservation</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 11</container>
+            <unittitle encodinganalog="title">Songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Native songs</p>
+            <p>Interviewed and recorded by Sharon Malotte, South Fork Indian Reservation</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 12</container>
+            <unittitle encodinganalog="title">Native Stories</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side 1: "Antelope Surround Road at Golconda"; "Big Times at Owyhee"</p>
+            <p>Side 2: "Captain Buck Preparing Willows Plants"</p>
+            <p>Compiled by: Earl Dean Horney, David Teller, Bessie Hall, Tom Premo, Lucy Hall, and Anna Thomas.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 13</container>
+            <unittitle encodinganalog="title">Lesson 1-15; song and prayer</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side 1: Lesson 1-15 by B. Crum and Tom Premo. Potontsia by Lucy Hall. Indian prayer and song by John Jones.</p>
+            <p>Side 2: Song and prayer by John Jones. Songs by Bessie Hall. Plants by Lucy Hall.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 15</container>
+            <unittitle encodinganalog="title">Frank San, Helen McGee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 April 4</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 May 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 16</container>
+            <unittitle encodinganalog="title">Nellie Sanchez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil and Jackie Rice</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 17</container>
+            <unittitle encodinganalog="title">Moapa, Nevada</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil and Jackie Rice</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 21</container>
+            <unittitle encodinganalog="title">Irene Dick, M. Dressler</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 22</container>
+            <unittitle encodinganalog="title">Songs of Johnny Wager; hand game songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1955 November 30</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side 1: Songs of Johnny Wager, parts 1 and 2 from W. Jacobson Collection.</p>
+            <p>Conclusion of hand-game songs by Clara Frank.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 23</container>
+            <unittitle encodinganalog="title">Rubell Miller</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 24</container>
+            <unittitle encodinganalog="title">Washo Dance Songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Washo Dance Songs</p>
+            <p>Compiled by W. D. D'Azenado</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 25</container>
+            <unittitle encodinganalog="title">Songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Compiled by Clara Frank, Fred Richards, and John Wager.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 26</container>
+            <unittitle encodinganalog="title">Hamilton Kizer and M. Dressler</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 27</container>
+            <unittitle encodinganalog="title">Yetta Jacke</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 28</container>
+            <unittitle encodinganalog="title">Sam Panance</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 June 11</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Moapa, Nevada.</p>
+            <p>Interviewed and recorded by Jackie Rice</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 29</container>
+            <unittitle encodinganalog="title">Clifford Jake</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 June</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Cedar City, Utah.</p>
+            <p>Interviewed and recorded by Jackie Rice</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 30</container>
+            <unittitle encodinganalog="title">Harry Winnemucca</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 September 11</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 31</container>
+            <unittitle encodinganalog="title">Harry Winnemucca</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 Octoer 11</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 32</container>
+            <unittitle encodinganalog="title">Washo dance songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Compiled by W. D. D'Azenado</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 33</container>
+            <unittitle encodinganalog="title">Dolly Silver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The story of how the first white men came to Nevada, four songs.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 34</container>
+            <unittitle encodinganalog="title">Helen Enos, Minnie Poole</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Jean and Grace Dexter</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 35</container>
+            <unittitle encodinganalog="title">Hand-game songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 36</container>
+            <unittitle encodinganalog="title">Alex Cleveland</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 May 29</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Owyhee.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 37</container>
+            <unittitle encodinganalog="title">Indian living</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Indian medicines, food, clothing, shelters, etc.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel">NITC 38</container>
+            <unittitle encodinganalog="title">David Christy</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 August 16</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 39</container>
+            <unittitle encodinganalog="title">Bill James, Therian Shan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 40</container>
+            <unittitle encodinganalog="title">Dane Christy</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 August 29</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 41</container>
+            <unittitle encodinganalog="title">Frank Morgan parts 1-2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 September 6</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 42</container>
+            <unittitle encodinganalog="title">Albert M.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 43</container>
+            <unittitle encodinganalog="title">Filmstrips part 1</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 44</container>
+            <unittitle encodinganalog="title">Filmstrips part 2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 45</container>
+            <unittitle encodinganalog="title">Aunt Mamie</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 46</container>
+            <unittitle encodinganalog="title">Edith Dewey, Joe Bowers, Sam Kinney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side 1: Edith Dewey and Joe Bowers.</p>
+            <p>Side 2: Sam Kinney.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 47</container>
+            <unittitle encodinganalog="title">Raymond Stone</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 48</container>
+            <unittitle encodinganalog="title">Edith Moke, Herbert Myers, Juanita Lee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 21</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>History of Las Vegas Colony, Moapa, Nevada.</p>
+            <p>Interviewed and recorded by Floyd A. O'Neil, John Alley, Louella Tom, and Belinda Anderson.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 49</container>
+            <unittitle encodinganalog="title">Edith Mike, Juanita Lee, Belinda Anderson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 21</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>History of Las Vegas Colony, Moapa, Nevada.</p>
+            <p>Interviewed and recorded by John Alley, Louella Tom, and Floyd A. O'Neil.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 50</container>
+            <unittitle encodinganalog="title">Edith Dewey, Joe Bowers, Sam Kinney</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side 1: Edith Dewey and Joe Bowers.</p>
+            <p>Side 2: Sam Kinney.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 51</container>
+            <unittitle encodinganalog="title">Maureen Frank</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Southern Paiutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 52</container>
+            <unittitle encodinganalog="title">Guy Manning, Willie McKinney, John Dieh, Sr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1954 November 19</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Owyhee History, stories and songs.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 53</container>
+            <unittitle encodinganalog="title">Guy Manning, Willie McKinney, John Dick</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1954 November 19</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Shoshone history, Shoshone songs, and Coyote legends.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 54</container>
+            <unittitle encodinganalog="title">Daisy Mike</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977 January 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Las Vegas, Nevada.</p>
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 55</container>
+            <unittitle encodinganalog="title">Daisy Mike</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Southern Paiute</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 56</container>
+            <unittitle encodinganalog="title">Edith Mike, Herbert Meyers, Juanita Lee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 21</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>History of the Las Vegas Colony, Moapa, Nevada.</p>
+            <p>Interviewed and recorded by Louella Tom, Belinda Anderson, John Alley, and Floyd A. O'Neil.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 57</container>
+            <unittitle encodinganalog="title">Edith Mike, Juanita Lee, Belinda Anderson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 21</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>History of the Las Vegas Colony, Moapa, Nevada.</p>
+            <p>Interviewed and recorded by John Alley, Louella Tom, and Floyd A. O'Neil.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">NITC 58</container>
+            <unittitle encodinganalog="title">Daisy Mike</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977 January 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Las Vegas, Nevada.</p>
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Urban Indian</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 1</container>
+            <unittitle encodinganalog="title">George Howell</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Mary Ellen Sloan</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 3</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at The University Of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 05</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Tribalism. Six panel members: No name - Sioux, John Maestas - Pueblo, Edd Brown - Yaqui, David Jacobs - Mohawk, no name - Assiniboine, Joe Sequi - no tribe name.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 4</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at the University of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 05</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>No name - Sioux, John Maestas - Pueblo, Edd Brown - Yaqui, David Jacobs - Mohawk, no name - Assiniboine, Joe Sequi - no tribe name.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 7</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at The University Of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Dennis Banks: American Indian Movement</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 8</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at The University Of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Dennis Banks: American Indian Movement.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 9</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at The University Of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Intro: Gilbert Frazier, John Mackey, Dick Young.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 10</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at The University Of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Jerry Wilkenson from the National Indian Youth Council.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 11</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at the University of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Dick Young and Jerry Wilkenson from the National Indian Youth Council.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 12</container>
+            <unittitle encodinganalog="title">Indian Awareness Week at the University of Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Intro: Gilbert Fraiser, Leon Cook.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 13</container>
+            <unittitle encodinganalog="title">Clyde Bellecourt, Ed Benton, Stanley Snake</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Urban Indian.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">U 14</container>
+            <unittitle encodinganalog="title">George Howell Indian Awareness Week speech</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 May 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Indian minorities.</p>
+            <p>Recorded by Mary Ellen Sloan</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Hupa</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 1</container>
+            <unittitle encodinganalog="title">G. B. Nelson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 January 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 2</container>
+            <unittitle encodinganalog="title">James E. Jackson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 January 15</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 3</container>
+            <unittitle encodinganalog="title">James E. Jackson continued</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987 January 15</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 4</container>
+            <unittitle encodinganalog="title">Peter N. Jackson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 23</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 5</container>
+            <unittitle encodinganalog="title">Peter N. Jackson continued</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 23</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 6</container>
+            <unittitle encodinganalog="title">Peter Masten, Jr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 23</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 7</container>
+            <unittitle encodinganalog="title">Richard Rickleffs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 23</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 8</container>
+            <unittitle encodinganalog="title">Wilfred Colgrone</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 9</container>
+            <unittitle encodinganalog="title">C. Joe Moon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 24</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 10</container>
+            <unittitle encodinganalog="title">C. Joe Moon continued</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 24</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 11</container>
+            <unittitle encodinganalog="title">Byron Nelson, Sr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 25</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 12</container>
+            <unittitle encodinganalog="title">Peter Nix</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 25</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 13</container>
+            <unittitle encodinganalog="title">Gary Risling</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 25</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">H 14</container>
+            <unittitle encodinganalog="title">Jesse Short, Robert McCoy</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 August 26</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Navajo</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">N 1</container>
+            <unittitle encodinganalog="title">Virginia Smith, Sherril Burge</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 August 01</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Oljato Trading Post.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">N 2</container>
+            <unittitle encodinganalog="title">Fanny Ben</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 January 5-6</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Hard Ground Area, New Mexico.</p>
+            <p>Interviewed and recorded by Mike Benally</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">N 3</container>
+            <unittitle encodinganalog="title">Mike Benally, Gloria Twitchell</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 December 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by John D. Sylvester and Gregory C. Thompson in Salt Lake City, Utah.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Southern Ute</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">SU 1</container>
+            <unittitle encodinganalog="title">Harry Richards</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Translation of Harry Richards</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SU 2</container>
+            <unittitle encodinganalog="title">Harry Richards</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SU 3</container>
+            <unittitle encodinganalog="title">Harry Richards</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Translation of Harry Richards.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SU 4</container>
+            <unittitle encodinganalog="title">Harry Richards</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Southern Ute history</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">SUH 1</container>
+            <unittitle encodinganalog="title">
+              <emph render="italic">Exploration in Southern Ute History</emph> narration</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Narration to accompany <emph render="italic">Explorations in Southern Ute History</emph> filmstrip.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SUH 2</container>
+            <unittitle encodinganalog="title">Explorations in Southern Ute history</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SUH 3</container>
+            <unittitle encodinganalog="title">
+              <emph render="italic">Southern Ute History Today</emph> narration</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Narration to accompany <emph render="italic">Southern Ute History Today</emph> filmstrips.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Tohono O'odham Nation</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 1</container>
+            <unittitle encodinganalog="title">Patrick Johnny Franco</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 2</container>
+            <unittitle encodinganalog="title">James McCarty</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 3</container>
+            <unittitle encodinganalog="title">Jose Cruz Pablo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 4</container>
+            <unittitle encodinganalog="title">Lena Ramon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 5</container>
+            <unittitle encodinganalog="title">Accencion Anton</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil. Translated by Anna Anton</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 6</container>
+            <unittitle encodinganalog="title">Rufina Morris</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 7</container>
+            <unittitle encodinganalog="title">Peter Blaine</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 8</container>
+            <unittitle encodinganalog="title">Clara "Bonnie" Price</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 13</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 9</container>
+            <unittitle encodinganalog="title">Claudia Daniel</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">T 10</container>
+            <unittitle encodinganalog="title">Tony Lopez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 September 11</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Tesuque tribal history</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 1</container>
+            <unittitle encodinganalog="title">Lorenzo Pino</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 2</container>
+            <unittitle encodinganalog="title">Ignacia Duran</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 3</container>
+            <unittitle encodinganalog="title">Dominguita Abeyta</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 4</container>
+            <unittitle encodinganalog="title">Lorenzo Pino</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 5</container>
+            <unittitle encodinganalog="title">Ignacia Duran</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 6</container>
+            <unittitle encodinganalog="title">Marvin Herrera</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 16</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil and Bob Delaney</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 7</container>
+            <unittitle encodinganalog="title">Camillio Suazo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 16</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil and Bob Delaney</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 8</container>
+            <unittitle encodinganalog="title">Marcus Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 16</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil and Bob Delaney</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 9</container>
+            <unittitle encodinganalog="title">Dominguita Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 17</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 10</container>
+            <unittitle encodinganalog="title">Priscilla Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 September 17</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 11</container>
+            <unittitle encodinganalog="title">Caroline C. Padilla</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 11</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 12</container>
+            <unittitle encodinganalog="title">Vicenta Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 11</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 13</container>
+            <unittitle encodinganalog="title">Joe G. Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 14</container>
+            <unittitle encodinganalog="title">Rumaldo Herrera</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 15</container>
+            <unittitle encodinganalog="title">Teresa Tapia</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 14</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 16</container>
+            <unittitle encodinganalog="title">Grace Mora</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 05</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 17</container>
+            <unittitle encodinganalog="title">Marcus Vigil, Joe G. Vigil, Jose Pino</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 05</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Tesuque geography</p>
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 18</container>
+            <unittitle encodinganalog="title">Marcus Vigil, Jose Pino</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 December 05</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Mapping</p>
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 19</container>
+            <unittitle encodinganalog="title">Virginia Leno</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 20</container>
+            <unittitle encodinganalog="title">Joe A. Pino</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 21</container>
+            <unittitle encodinganalog="title">Marie Vigil Dorame</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="cassette">TES 22</container>
+            <unittitle encodinganalog="title">Helen Herrera</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 23</container>
+            <unittitle encodinganalog="title">Emiliana Romero Samuel</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 24</container>
+            <unittitle encodinganalog="title">Marie Felix Quinlivan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 25</container>
+            <unittitle encodinganalog="title">James Hena</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 26</container>
+            <unittitle encodinganalog="title">Paul Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 27</container>
+            <unittitle encodinganalog="title">Marie Veronica Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">TES 28</container>
+            <unittitle encodinganalog="title">Eligio Vigil</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1993 February 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Sue Dorame</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Ute curriculum project</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 1</container>
+            <unittitle encodinganalog="title">Ruth Cohoe, Elisa Pawwinnee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 Fall</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Uintah Basin, Utah.</p>
+            <p>Interviewed and recorded by Norma Denver and Daisy Jenks</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 2</container>
+            <unittitle encodinganalog="title">Velmon Johnson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 October 27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Norma Denver in Whiteriver, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 3</container>
+            <unittitle encodinganalog="title">Rose Johnson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 Fall</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Uintah Basin, Utah.</p>
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 4</container>
+            <unittitle encodinganalog="title">Rose Johnson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 October 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Fort Duchesne, Utah.</p>
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 5</container>
+            <unittitle encodinganalog="title">Harrette Johnson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 October 28</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Tanapont and Ft. Duchesne, Utah.</p>
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 6</container>
+            <unittitle encodinganalog="title">Dwight Copperfield</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 03</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ft. Duchesne, Utah</p>
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 7</container>
+            <unittitle encodinganalog="title">Ethel Grant</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 02-03</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 8</container>
+            <unittitle encodinganalog="title">Ethel Grant</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 10</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ute Tribal Museum, Ft. Duchesne Utah.</p>
+            <p>interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 9</container>
+            <unittitle encodinganalog="title">Ethel Grant</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 10</container>
+            <unittitle encodinganalog="title">Ruth Cohoe, Elise Powwinnee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ft. Duchesne, Utah</p>
+            <p>interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 11</container>
+            <unittitle encodinganalog="title">Rose Johnson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ft. Duchesne, Utah</p>
+            <p>Interviewed and recorded by Norma Denver</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 12</container>
+            <unittitle encodinganalog="title">Dick and Katy McKewan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ft. Duchesne, Utah.</p>
+            <p>Interviewed and recorded by Norma Denver. Translated by Daisy Jenks.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 13</container>
+            <unittitle encodinganalog="title">Dick and Katy McKewan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ft. Duchesne, Utah.</p>
+            <p>Interviewed and recorded by Norma Denver. Translated by Daisy Jenks.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 14</container>
+            <unittitle encodinganalog="title">Lucy Astha-Patterson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 October</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 15</container>
+            <unittitle encodinganalog="title">Tommy Thompson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 07</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 16</container>
+            <unittitle encodinganalog="title">Esther Jack, Effie Eaton, Helen Wash</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 November 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Norma Denver.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 17</container>
+            <unittitle encodinganalog="title">Daisy Jenks</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 18</container>
+            <unittitle encodinganalog="title">Rebecca Cuch</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 28</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Daisy Jenks.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">UCP 19</container>
+            <unittitle encodinganalog="title">Vessie Ioka Cesspooch</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 December 29</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Daisy Jenks.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Indian Unity Caravan</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">IUC 1</container>
+            <unittitle encodinganalog="title">Mad Bear, Tom Benaka, 'Warm South Wind'</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 18</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Prayer by: Mad Bear, Tom Benaka, and 'Warm South Wind' at the Indian Unity Caravan: West Jordan Park, West Jordan, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">IUC 2</container>
+            <unittitle encodinganalog="title">Tom Benaka, 'Warm South Wind'</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Tom Benaka and 'Warm South Wind' at the Indian Unity Caravan at West Jordan Park, West Jordan, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">IUC 3</container>
+            <unittitle encodinganalog="title">Mad Bear</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Mad Bear at the Indian Unity Caravan at West Jordan Park, West Jordan, Utah.</p>
+            <p>Recorded by Mary Ellen Sloan</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">IUC 4</container>
+            <unittitle encodinganalog="title">Indian Unity Caravan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Recorded by Mary Ellen Sloan at West Jordan Park in West Jordan, Utah.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">IUC 5</container>
+            <unittitle encodinganalog="title">Indian Unity Caravan</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1972 August 17</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Recorded by Mary Ellen Sloan at West Jordan Park in West Jordan, Utah.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Santa Ana Pueblo</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 1</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 November 27</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Santa Ana Pueblo.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 2</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January 16</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Aboriginal boundary.</p>
+            <p>Interviewed and recorded by Floyd Montoya</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 3</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January 16</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Migration story of the Santa Ana Pueblo Indians.</p>
+            <p>Interviewed and recorded by Donna Pino and Thomas Huebben.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 4</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January 21</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Migration story of the Santa Ana Pueblo Indians (continued from SAP 3).</p>
+            <p>Interviewed and recorded by Donna Pino and Thomas Huebben</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 5</container>
+            <unittitle encodinganalog="title">Leo Pena</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January 24</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Santa Ana history.</p>
+            <p>Interviewed and recorded by Ben Pena and Floyd Montoya</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 6</container>
+            <unittitle encodinganalog="title">Santa Ana/San Felipe overlap</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January 25</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This tape contains information on the overlapping boundaries of the Santa Ana Pueblo Indians and the San Felipe Pueblo Indians. Offering information are: Porfirio Montoya, Elijio Montoya, Governor Lawrence Montoya, Lt. Gov. Louis Armijo, Roy Montoya, Andy Leon, Floyd Montoya, Tom Luebben, and Richard Hughes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 7</container>
+            <unittitle encodinganalog="title">Santa Ana/San Felipe overlap</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 January 25</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Discussion of Santa Ana/San Felipe Pueblo Boundary overlap. Offering information are: Porfirio Montoya, Elijio Montoya, Clyde Leon, Gov. Lawrence, Lt. Gov. Louis Armijo, Alfonso Garcia, Albert Montoya, Vicente Armijo, Roy Montoya, Andy Leon, Floyd Montoya, Tom Luebben, and Richard Hughes.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 8</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Migration of Santa Ana Pueblo Indians.</p>
+            <p>Interviewed and recorded by Donna Pino, Thomas Luebben, and Floyd Montoya.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 9</container>
+            <unittitle encodinganalog="title">Christo Garcia, Floyd Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 04</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The general history of Santa Ana Pueblo.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 10</container>
+            <unittitle encodinganalog="title">General History of Santa Ana</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 05</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Trip with delegates from Jemez, Zia, and Santa Ana to cover the Ojo Del Espiritu Santo grant.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 11</container>
+            <unittitle encodinganalog="title">Jose Ramond Sanchez, Felix Garcia, Floyd Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 07</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Albuquerque Indian Schools (1910). General history of Santa Ana.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 12</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 February 11</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Pueblo livestock, herding in the Rio Rancho area.</p>
+            <p>Interviewed and recorded by Donna Pino, Thomas Luebben, and Floyd Montoya.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 13</container>
+            <unittitle encodinganalog="title">Porfirio Montoya</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Pueblo livestock herding.</p>
+            <p>Interviewed and recorded by Donna Pino, Thomas Luebben, and Floyd Montoya.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 14</container>
+            <unittitle encodinganalog="title">Eudora L. Montoya, Floyd Montoya,</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 26</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 February 28</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Eudora L. Montoya discusses Pueblo pottery making and Pueblo Indian cooking. Floyd Montoya discusses his personal history, Sisters of Loretto School, and techniques of Pueblo pottery making.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 15</container>
+            <unittitle encodinganalog="title">Porfirio Montoya, Floyd Montoya, Thomas Luebben</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 March 10</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Migration story from the Sandia Mountain to Tamaya, a portion of the secular form of government introduced by the Spaniards.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 16</container>
+            <unittitle encodinganalog="title">Porfirio Montoya, Floyd Montoya, Thomas Luebben</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 March 25</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Migrations of Tamaya.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">SAP 17</container>
+            <unittitle encodinganalog="title">Truman Eustis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>New England Association for Oral History meeting.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Ute - Mountain Ute series I</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 1</container>
+            <unittitle encodinganalog="title">Stanley C. Lyman</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 March 12</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Stanley C. Lyman; Ute singers from Ft. Duchesne.</p>
+            <p>Recorded by Stanley Lyman</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 2</container>
+            <unittitle encodinganalog="title">Stanley C. Lyman</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 March 12</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Stanley C. Lyman; Ute Singers from Ft. Duchesne.</p>
+            <p>Recorded by Stanley Lyman</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 3</container>
+            <unittitle encodinganalog="title">Hall Taylor</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 March 27</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>
+              <emph render="italic">Four Tales</emph> told by Hall Taylor.</p>
+            <p>Recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 4</container>
+            <unittitle encodinganalog="title">Hall Taylor</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 March 27</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>
+              <emph render="italic">Four Tales</emph> told by Hall Taylor.</p>
+            <p>Recorded by Floyd A. O'Neil</p>
+            <p>This is a duplicate of item UMT 3.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 5</container>
+            <unittitle encodinganalog="title">Harry Dutchie</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 May 30</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Greg Thompson</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 6</container>
+            <unittitle encodinganalog="title">Evalina Mills Lopez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 May 30</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 7</container>
+            <unittitle encodinganalog="title">Evaline Mills Lopez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 May 30</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>This is a continuation of UMT 6.</p>
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 8</container>
+            <unittitle encodinganalog="title">Norman Lopez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 May 30</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Greg Thompson</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 9</container>
+            <unittitle encodinganalog="title">Leslie Hart et al</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 May 30</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 10</container>
+            <unittitle encodinganalog="title">Paul Ute</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 June 26</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 11</container>
+            <unittitle encodinganalog="title">Paul Ute</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Translation of item UMT 10.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT 12</container>
+            <unittitle encodinganalog="title">Arlene Caspooch</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 June 26</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Victor Height and Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Ute - Mountain Ute contract series II</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 1</container>
+            <unittitle encodinganalog="title">Raymond Talk, Sr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 December 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 2</container>
+            <unittitle encodinganalog="title">Gladys Hammond</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 December 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 3</container>
+            <unittitle encodinganalog="title">Susan Lehi</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 December</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 4</container>
+            <unittitle encodinganalog="title">Maria Hight</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 December 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 5</container>
+            <unittitle encodinganalog="title">Arthur Cuthair</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil and Winston Erickson</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 6</container>
+            <unittitle encodinganalog="title">Lucy Shed Jacket Lopez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 7</container>
+            <unittitle encodinganalog="title">Molly Deer Bearshead</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 8</container>
+            <unittitle encodinganalog="title">Miles M. Mills</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 9</container>
+            <unittitle encodinganalog="title">Iris Salt</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 10</container>
+            <unittitle encodinganalog="title">Albert Wing Sr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 11</container>
+            <unittitle encodinganalog="title">Clifford White Sr.</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 12</container>
+            <unittitle encodinganalog="title">Maude Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 13</container>
+            <unittitle encodinganalog="title">Tom Johnson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 14</container>
+            <unittitle encodinganalog="title">Frances Wall</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 15</container>
+            <unittitle encodinganalog="title">Chloe Ute</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 00</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 16</container>
+            <unittitle encodinganalog="title">Nedra Kuebler</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 17</container>
+            <unittitle encodinganalog="title">Charles Knight</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 18</container>
+            <unittitle encodinganalog="title">Sarah Hatch</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 19</container>
+            <unittitle encodinganalog="title">Effie Hemp Root</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 January 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 20</container>
+            <unittitle encodinganalog="title">James Root</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">&gt;1991 January 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">UMT Crt. 21</container>
+            <unittitle encodinganalog="title">Annie Cantsee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">&gt;1991 January 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Floyd A. O'Neil</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">White Mesa Ute project</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 1</container>
+            <unittitle encodinganalog="title">Pochief Mike</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 March 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Reel-to-Reel A-Tape</p>
+            <p>There is also an A-Cass Tape Duplicate available for patron use.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 2</container>
+            <unittitle encodinganalog="title">Chester Cantsee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 March 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Reel-to-Reel A-Tape</p>
+            <p>There is also an A-Cass Tape Duplicate available for patron use.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 3</container>
+            <unittitle encodinganalog="title">Willie Lehi</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 March 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 4</container>
+            <unittitle encodinganalog="title">Anna Lee Duchie</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 5</container>
+            <unittitle encodinganalog="title">Mayers Cantsee</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 6</container>
+            <unittitle encodinganalog="title">Milly Mike</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 7</container>
+            <unittitle encodinganalog="title">Anna Marie Nat</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 22</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 8</container>
+            <unittitle encodinganalog="title">Joyce Lehi Posey</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 23</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 9</container>
+            <unittitle encodinganalog="title">Jennie Lehi Posey</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 23</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 10</container>
+            <unittitle encodinganalog="title">Pete Bishop</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 23</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 11</container>
+            <unittitle encodinganalog="title">Joe Leigh</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 23</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 12</container>
+            <unittitle encodinganalog="title">Sarah Owl</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 May 23</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 13</container>
+            <unittitle encodinganalog="title">Lola Nelson Mike</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 July 01</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 14</container>
+            <unittitle encodinganalog="title">Stella Eyetoo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 July 01</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 15</container>
+            <unittitle encodinganalog="title">Wahlella Laner Begay</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 July 01</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 16</container>
+            <unittitle encodinganalog="title">Dan W. Lehi</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 July 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 17</container>
+            <unittitle encodinganalog="title">Zelma Black Acton</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 July 02</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 18</container>
+            <unittitle encodinganalog="title">Mary Cantsee May</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 August 12</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 19</container>
+            <unittitle encodinganalog="title">Patty M. Dutchie</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 August 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 20</container>
+            <unittitle encodinganalog="title">Nedra Ketchum</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 August 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 21</container>
+            <unittitle encodinganalog="title">Helen Lang</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 August 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">WMU 22</container>
+            <unittitle encodinganalog="title">Bonnie Mike Lehi</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 August 13</unitdate>
+            <physdesc>
+              <genreform>Reel-to-reel audiotape</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">WMU 23a-b</container>
+            <unittitle encodinganalog="title">Patty M. Dutchie</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 August 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>White Mesa.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">WMU 24</container>
+            <unittitle encodinganalog="title">Adeline Eyetoo, Stella Eyetoo</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 August 09</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">WMU 25</container>
+            <unittitle encodinganalog="title">Raymond Lopez</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 February 23</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by Rose Ann Mills Silas</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">WMU 26</container>
+            <unittitle encodinganalog="title">Hall Taylor Towaoc</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 February 02</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by LaVerna Summer and Rose Ann Mills Silas</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">WMU 27</container>
+            <unittitle encodinganalog="title">Paul Ute Towaoc</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 February 02</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Interviewed and recorded by LaVerna Summer and Rose Ann Mills Silas</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

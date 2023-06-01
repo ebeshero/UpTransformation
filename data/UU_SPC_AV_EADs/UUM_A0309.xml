@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:32 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0309::Peter Goss interview with Norman Hill audio recording)//EN" encodinganalog="identifier" identifier="80444/xv59066" url="http://archiveswest.orbiscascade.org/ark:/80444/xv59066">UUM_A0309</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Peter Goss interview with Norman Hill audio recording
+          <date era="ce" calendar="gregorian" normal="19830510" encodinganalog="date">1983 May 10</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Goss (Peter) interview with Norman Hill audio recording</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Christopher Drew.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1988" encodinganalog="date">© 1988</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Molly Creel
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0309</unitid>
+      <unittitle encodinganalog="title">Peter Goss interview with Norman Hill audio recording</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="19830510" encodinganalog="date">1983 May 10</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="collector">Goss, Peter L.</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 audiocassette</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Peter Goss interview with Norman Hill audio recording (1983) covers the career of architect Norman Hill, an engineer and former associate of Frank Lloyd Wright and Taylor Woolley.  Goss is a professor of architectural history at the University of Utah.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Peter L. Goss, Ph.D. (b. 1943) is a professor of architectural history and associate vice president for scholarly and creative activities at the University of Utah.  His specialties include the Arts and Crafts Movement, American Suburbia, Utah architecture, the vernacular architecture of the American West, and the Prairie School architecture of Frank Lloyd Wright, which was popularized in Utah in part by Wright's associate, Utah architect Taylor Woolley.</p>
+      <p>Norman Hill was an engineer who worked with Wright and Woolley.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Peter Goss interview with Norman Hill audio recording (1983) covers the career of architect Norman Hill, an engineer and former associate of Frank Lloyd Wright and Taylor Woolley.</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>Peter Goss also contributed photographs to the University of Utah archives photographs collection (P0305).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Christopher Drew in 1988.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Hill, Norman--Interviews</persname>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Wright, Frank Lloyd, 1867-1959</persname>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Woolley, Taylor A</persname>
+      <subject encodinganalog="subject" source="lcsh">Engineers--Utah--Interviews</subject>
+      <subject altrender="nodisplay" source="archiveswest">Architecture</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Interview with Norman Hill</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 May 10</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>A retired engineer, Hill offers a brief biographical sketch, highlighting his experience at Taliesin under Frank Lloyd Wright and his association with Taylor Woolley, a Utah architect who worked with Wright in the early 1900s and contributed to the spread of the famous architect's low, "prairie style" architecture in Utah.  The interview was conducted by Edmund Barlow at Hill's residence in Salt Lake City, Utah.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

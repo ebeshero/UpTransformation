@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:41 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0377::E. Richard Hart audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv41003" url="http://archiveswest.orbiscascade.org/ark:/80444/xv41003">UUM_A0377</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the E. Richard Hart audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1930/2003" encodinganalog="date">1930-2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Hart (E. Richard) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Summer Zemp.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1995" encodinganalog="date">© 1995</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0377</unitid>
+      <unittitle encodinganalog="title">E. Richard Hart audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1970/2003" encodinganalog="date">1930-2003</unitdate>
+      <unitdate type="bulk" era="ce" calendar="gregorian" normal="1982/1990" encodinganalog="date">bulk 1982-1990</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="collector">Hart, E. Richard</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">66 audiocassettes, 8 VHS videocassettes, 13 U-matic videocassettes, 1 phonograph record, and 1 compact disc</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The E. Richard Hart audio-visual collection (1970-2003) consists of audio and video recordings relating to the history Native Americans and the American West.  Hart is an author and researcher associated with the American West Center (Salt Lake City, Utah), the Institute of the American West (Sun Valley, Idaho) and the Institute of the North American West (Seattle, Washington). He has served as an expect witness in several federal court cases involving land claims by the Zuni, some of which are represented in this collection.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>E. Richard Hart is an historian of the American West.  He was associated with the American West Center at the University of Utah from 1969 to 1975. From 1979 to 1984, he was director of the Institute of the American West at Sun Valley, Idaho. He was editor for several publications resulting from conferences held by the Institute. In 1984, Hart helped to establish the Institute of the North American West in Seattle, Washington.  He has also served as an expect witness in several federal court cases involving land claims by the Zuni Indians.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The E. Richard Hart audio-visual collection (1970-2003) consists largely of audio and video recordings relating to the history Native Americans in the American West, including documentaries, songs and several items pertain to Zuni land claims.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format type.  Audiocassettes, videocassettes and phonograph records are followed by an addendum of 4 items added in 2002.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the E. Richard Hart papers (Accn 1251) and the Doris Duke Indian oral history project audio recordings (A0001) and transcripts (Ms 417), which were compiled by the American West Center.</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Summer Zemp in 1995.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Institute of the North American West</corpname>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Institute of the American West</corpname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Duck Valley Indian Reservation (Idaho and Nev.)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Zuni Indians--Claims</subject>
+      <subject encodinganalog="subject" source="lcsh">Zuni Indians--Land tenure</subject>
+      <subject encodinganalog="subject" source="lcsh">Zuni Indians--History</subject>
+      <subject altrender="nodisplay" source="archiveswest">Social Classes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Audiocassettes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970-1988</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1-3</container>
+            <unittitle encodinganalog="title">Indian self-rule: fifty years under the Indian Reorganization Act</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Produced by Western Media Concepts.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">American originals</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Produced by the National Humanities Center.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5-6</container>
+            <unittitle encodinganalog="title">Westroots 2: agriculture</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 September 07</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Produced by Western Media Concepts.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7-9</container>
+            <unittitle encodinganalog="title">Walpi 300 years of change</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side 1</p>
+            <p>Walpi restoration project</p>
+            <p>Side 2</p>
+            <p>Dr. Fred Eggan, cultural relationship</p>
+            <p>Dr. Chuck Adams project</p>
+            <p>Side 3</p>
+            <p>Dr. Chuck Adams</p>
+            <p>Bill Fields, project engineer</p>
+            <p>Emery Sekaquaptewa</p>
+            <p>Side 4</p>
+            <p>Emery Sekaquaptewa (continued)</p>
+            <p>Side 5</p>
+            <p>Alvin Dashee, Hopi Housing Authority</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10</container>
+            <unittitle encodinganalog="title">John Gray</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 April 05</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">11-13</container>
+            <unittitle encodinganalog="title">Zuni Tribal Council</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 January 22</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">14-16</container>
+            <unittitle encodinganalog="title">Kotuwala:Wa</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">17</container>
+            <unittitle encodinganalog="title">Tlep to Zuni</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 May</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">18</container>
+            <unittitle encodinganalog="title">Zuni Ceremony</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 November 11</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">19</container>
+            <unittitle encodinganalog="title">Alex Seowtewa</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">April 01</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">20</container>
+            <unittitle encodinganalog="title">Notes</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 February 13</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">21</container>
+            <unittitle encodinganalog="title">First person radio</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 February 10</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>KUER radio audition tape</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">22</container>
+            <unittitle encodinganalog="title">Zuni</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 October 27</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">23</container>
+            <unittitle encodinganalog="title">Zuni comments, politics</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 June 17</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">24</container>
+            <unittitle encodinganalog="title">Zuni SK ceremony</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985 November 11</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">25</container>
+            <unittitle encodinganalog="title">Wesley Hall</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981 September 04</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">26</container>
+            <unittitle encodinganalog="title">Dave McKenney: boar dance songs and round range songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">27</container>
+            <unittitle encodinganalog="title">Great Basin Indians</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">28</container>
+            <unittitle encodinganalog="title">Northern Rockies Folk Festival (NRFF) songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">August 06</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">29-30</container>
+            <unittitle encodinganalog="title">Governor Lewis</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 March 16</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">31-35</container>
+            <unittitle encodinganalog="title">Seowtewa</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 October 07</unitdate>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980 October 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">36-37</container>
+            <unittitle encodinganalog="title">Weskema Eriako, Gabriel Pinto</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">38-58</container>
+            <unittitle encodinganalog="title">Zuni History Conference</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Master copies and duplicates.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">59-60</container>
+            <unittitle encodinganalog="title">Zuni tapes 1-2</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 April 03</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">61-62</container>
+            <unittitle encodinganalog="title">Zuni tapes 3-4</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 April 03</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Kothliwalawa</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">63-65</container>
+            <unittitle encodinganalog="title">Zuni statements</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 April 03</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Tape 1: Statement from religious leaders</p>
+            <p>Tape 2: Zuni statements</p>
+            <p>Tape 3: Statements</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Videocassettes</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982-1990</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">Winds of change</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1988 March 09</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2</container>
+            <unittitle encodinganalog="title">From stump to stump</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1930</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A 1930 logging film with transcript.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3</container>
+            <unittitle encodinganalog="title">A request for the return of the Zuni war gods from the Brooklyn Museum</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 September 28</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">GIS Language System</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5</container>
+            <unittitle encodinganalog="title">Zuni Settlement Act</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1990 February 09</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6</container>
+            <unittitle encodinganalog="title">A strand in the web</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Directed by Valerie Weaver (professional name Madeleine Muir).</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7-8</container>
+            <unittitle encodinganalog="title">Duck Valley: harvest of hope</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>KAID-TV, Boise, Idaho</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">9</container>
+            <unittitle encodinganalog="title">Next year country</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982 January 08</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10-11</container>
+            <unittitle encodinganalog="title">That awesome space</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Produced by the Institute of the American West.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">12-13</container>
+            <unittitle encodinganalog="title">Future of agriculture in the Rocky Mountains</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Produced by the Institute of the American West.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">14-15</container>
+            <unittitle encodinganalog="title">Western songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Northern Rockies Folk Festival series on KBGL-TV</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">16</container>
+            <unittitle encodinganalog="title">Women performing folk songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Northern Rockies Folk Festival series on KBGL-TV</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">17</container>
+            <unittitle encodinganalog="title">Traditional songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Northern Rockies Folk Festival series on KBGL-TV</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">18</container>
+            <unittitle encodinganalog="title">Southern folk songs</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Northern Rockies Folk Festival series on KBGL-TV</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">19</container>
+            <unittitle encodinganalog="title">Duck Valley</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Broadcast master</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Phonograph records</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="disc">1</container>
+            <unittitle encodinganalog="title">Soy Mexicano: traditional Mexican-American music from Southern Idaho</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+            <physdesc>
+              <genreform>Phonograph record</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Side A:</p>
+            <p>Hasta Garras</p>
+            <p>Dejenme Llorar</p>
+            <p>Nampa</p>
+            <p>Corrido de Santos Hernandez</p>
+            <p>Hace un Ano</p>
+            <p>Rio Rebelde</p>
+            <p>Las Gaviotas</p>
+            <p>Side B:</p>
+            <p>Flor del Campo</p>
+            <p>Palomito Orgulloso</p>
+            <p>El Becerro</p>
+            <p>Cruz de Olvido</p>
+            <p>Soy Mexicano</p>
+            <p>Cien Ovejas</p>
+            <p>Hasta Garras</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Addendum</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2002</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">False promises: the lost land of the Wenatchi</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001</unitdate>
+            <physdesc>
+              <genreform>VHS videocassetste</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>A film by Rustin Thompson narrated by Jackie O'Ryan.  Story based on historical research by E. Richard Hart.  Running time 56:40.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2</container>
+            <unittitle encodinganalog="title">False promises: the lost land of the Wenatchi (short version)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Running time 13:30.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">3</container>
+            <unittitle encodinganalog="title">False promises: the lost land of the Wenatchi (soundtrack)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001</unitdate>
+            <physdesc>
+              <genreform>Compact disc</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>All compositions copyright of Salamander Music.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">E. Richard Hart interview with Laura Lee Northcott</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">2003 November 08</unitdate>
+            <physdesc>
+              <genreform>Audiocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Hart discusses his book <title render="italic">Pedro Pino: Governor of Zuni Pueblo 1830-1878</title>.  Broadcast on KVLR-FM, Twisp, Washington.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

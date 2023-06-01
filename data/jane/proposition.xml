@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="DigEd">Typopictoromania: Digital Edition</title>
+                <author>John Thelwall</author>
+                <editor>Sarah Boyle and Michael Cameron</editor>
+                <respStmt>
+                    <resp>Introduction and Notes</resp>
+                    <name>Sarah Boyle and Michael Cameron</name>
+                </respStmt>
+                <respStmt>
+                    <resp>General Editor</resp>
+                    <name>Jane Boyes</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Judith Thompson</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Per">
+                    <title level="a" type="chapter">The Epic Poem</title> in <title level="m">The
+                        Peripatetic</title>
+                    <author>John Thelwall</author>
+                    <editor>Judith Thompson</editor>
+                    <pubPlace>Detroit, Michigan</pubPlace>
+                    <publisher>Wayne State UP</publisher>
+                    <date when="2001">2001</date>
+                </bibl>
+                <bibl xml:id="Der">
+                    <title level="a">Typopictoromania</title> in <title level="u">The Derby
+                        Manuscript</title>
+                    <author>John Thelwall</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Our text is <title level="a">Typopictoromania,</title> an epic fragment that was
+                    to have been part of a much longer poem. It is epic like Dryden, satirical like
+                    Pope, critical like Blake; the fragment reveals the beginnings of a poem that
+                    was to use a grand yet cartoonish battle, one between the types of Caslon’s
+                    print house and the brushes of Boydell’s Shakespeare Gallery, as an opportunity
+                    to ridicule the abuse and abasement of poetic language during the revolutionary
+                    period in England. While the poem was never finished, what has survived—a
+                    preface, proposition, an invocation, a first canto, part of a second, and a few
+                    random fragments, together totalling close to five hundred lines of poetry—are
+                    both aesthetically and historically relevant to those interested in the early
+                    romanticism of the revolutionary period. While Thelwall claims that he initially
+                    intended to write a complete poem, its unfinished nature puts it in the same
+                    historical camp as Keats’ <title level="m">Hyperion</title> and Coleridge’s
+                        <title level="a">Kubla Khan</title>, texts that are paradoxically whole in
+                    their incompleteness. Furthermore, the poem is of particular import for Thelwall
+                    scholars; appearing in both <title level="m">The Peripatetic</title> of 1793 and
+                    in the later Derby Manuscript, the poem bookends Thelwall’s career. The two
+                    copies differ in a great many minor respects, particularly in punctuation, but a
+                    significant amount of major variations, where the later Thelwall has rewritten
+                    entire lines, are also present; a thorough study of the differences may be
+                    valuable for scholars interested in the development from the younger to older
+                    Thelwall. Thus, our task is to present a complete and accessible reading copy of
+                    the poem, showing a preference to the most recent and hitherto unpublished
+                    version (the Derby Manuscript) and including all important variations in
+                    editorial notes and additional yet important material in appendices.
+                    Furthermore, our TEI coding will ensure that scholars have access to all
+                    variations between the texts for the sake of comparison.</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader><text><body><div xml:id="proposition">
+                <pb type="pdf" n="350"/>
+                <head resp="editor">Proposition</head>
+                <lg>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">Types and the brush</hi> I sing,
+                                whose friendly aid<note>Comma retained from <title level="m">P</title>: absent in <title level="u">DM</title>.</note></lem>
+                            <rdg wit="#Der"><hi rend="underline">Types and the brush</hi> I sing
+                                whose friendly aid,</rdg>
+                            <rdg wit="#Per"><hi rend="smallcaps">Types</hi> and the <hi rend="smallcaps">Brush</hi> I sing, whose friendly aid</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Calls buried genius forth from learning’s shade—</lem>
+                            <rdg wit="#Der">Calls buried genius forth from learning’s shade—</rdg>
+                            <rdg wit="#Per">Calls buried Genius forth from Learning’s shade—</rdg>
+                        </app>
+                    </l>
+                    <l>That shade deserted now by every wight,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Save only those who feed on what they write;—</lem>
+                            <rdg wit="#Der">Save only those who feed on what they write;—</rdg>
+                            <rdg wit="#Per">Save only those who feed on what they write,—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Camelion like, in attic dome, on high,<note>We have
+                                    retained the unusual spelling of <quote>Camelion,</quote> since
+                                    Thelwall spells it thus in both the <title level="u">DM</title>
+                                    and the <title level="m">P</title>. In doing so, he is probably
+                                    following Dryden, whose translation of Ovid’s <title level="a">Pythagorean Philosophy</title> the <title level="m">OED</title> quotes with this spelling.</note></lem>
+                            <rdg wit="#Der">Camelion like, in attic dome, on high,</rdg>
+                            <rdg wit="#Per">Camelion like, in Attic dome, on high,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">On Couplets feast, and commune with the
+                                    Sky!—<note>Exclamation point retained from <title level="m">P</title>: replaces semicolon in <title level="u" rend="italics">DM</title>.</note></lem>
+                            <rdg wit="#Der">On Couplets feast, and commune with the Sky;—</rdg>
+                            <rdg wit="#Per">On Couplets feast, and commune with the Sky!—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">That Shade</hi> (if books may
+                                justify the Creed?)</lem>
+                            <rdg wit="#Der"><hi rend="underline">That Shade</hi> (if Books may
+                                justify the Creed?)</rdg>
+                            <rdg wit="Per"><hi rend="italics">That Shade</hi> (if Books may justify
+                                the Creed?)</rdg>
+                        </app>
+                    </l>
+                    <l>When Bishops preach’d and mighty Lords could read,</l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Which <hi rend="italics">even Statesmen</hi> deign’d
+                                with smiles to view,</lem>
+                            <rdg wit="#Der"><add place="above">Which <hi rend="underline">even
+                                        Statesmen</hi> deign’d with smiles to view,</add></rdg>
+                            <rdg wit="#Per">Which <hi rend="italics">even Statesmen</hi> deign’d
+                                with Smiles to view,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To Rectors dear and Reverend prebends too;—</lem>
+                            <rdg wit="#Der">To Rectors dear &amp; Reverend prebends too;—</rdg>
+                            <rdg wit="#Per">To Rectors dear, and reverend Prebends too,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Ere yet (for then no sordid Avarice reign’d)</lem>
+                            <rdg wit="#Per">Ere yet (for then no sordid Avarice reign’d)</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">Mitres</hi> they found more slowly
+                                were obtained</lem>
+                            <rdg wit="#Per"><hi rend="italics">Mitres</hi> they found more slowly
+                                were obtained</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">By <hi rend="italics">gaining Crowns</hi> in Wisdom’s
+                                laurel’d List</lem>
+                            <rdg wit="#Per">By <hi rend="italics">gaining Crowns</hi> in Wisdom’s
+                                laurel’d List</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Than <hi rend="italics">losing Crowns</hi> with
+                                gracious <hi rend="italics">Queen’s</hi> at Whist!—<note>The
+                                    previous two couplets (from <quote>Ere yet</quote> to
+                                        <quote>Whist!</quote>) are absent in <title level="u">DM</title> but present in <title level="m">P</title>.</note></lem>
+                            <rdg wit="#Per">Than <hi rend="italics">losing Crowns</hi> with gracious
+                                    <hi rend="italics">Queen’s</hi> at Whist!—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">That Shade</hi> where <hi rend="italics"><persName>Shakespeare’s</persName></hi> memory
+                                might expire,</lem>
+                            <rdg wit="#Der"><hi rend="underline">That Shade</hi> where <hi rend="underline">Shakespeare’s</hi> memory might expire,</rdg>
+                            <rdg wit="#Per"><hi rend="italics">That Shade</hi> where <hi rend="smallcaps">Shakespeare</hi>’s memory might expire,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">And <persName>Milton</persName> String unheard, his
+                                Epic Lyre,</lem>
+                            <rdg wit="#Der">And Milton String unheard, his Epic Lyre,</rdg>
+                            <rdg wit="#Per">And <hi rend="smallcaps">Milton</hi> string unheard his
+                                Epic Lyre,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Did not prim <hi rend="italics">Editors</hi>, with
+                                timely aid,</lem>
+                            <rdg wit="#Der">Did not prim <hi rend="underline">Editors</hi>, with
+                                timely aid,</rdg>
+                            <rdg wit="#Per">Did not prim <hi rend="italics">Editors</hi>, with
+                                timely aid,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Rear the long varnish’d Vista’s quaint parade,</lem>
+                            <rdg wit="#Der">Rear the long varnish’d Vista’s quaint parade,</rdg>
+                            <rdg wit="#Per">Rear the long varnish’d Vista’s quaint parade,</rdg>
+                        </app>
+                    </l>
+                    <l><app>
+                            <lem wit="#DigEd">With gilding gay, with flaunting picture grac’d,</lem>
+                            <rdg wit="#Der">With gilding gay, with flaunting picture grac’d,</rdg>
+                            <rdg wit="#Per">With gilding gay, with flaunting Picture grac’d,</rdg>
+                        </app></l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">To lure the Coxcomb eye of modern <hi rend="italics">Taste</hi>;<note>According to the <title level="m">OED</title>,
+                                    a <q>coxcomb</q> is <quote>a foolish, conceited, showy person,
+                                        vain of his accomplishments, appearance, or
+                                    dress.</quote></note></lem>
+                            <rdg wit="#Der">To lure the Coxcomb eye of modern <hi rend="underline">Taste</hi>;</rdg>
+                            <rdg wit="#Per">To lure the coxcomb eye of modern <hi rend="smallcaps">Taste</hi>—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd"><hi rend="italics">That Shade</hi> which now (<hi rend="italics">as Fashion bids</hi>) shall shine,</lem>
+                            <rdg wit="#Der"><hi rend="underline">That Shade</hi> which now (<hi rend="underline">as Fashion bids</hi>) shall shine,</rdg>
+                            <rdg wit="#Per"><hi rend="italics">That Shade</hi> which now (as <hi rend="smallcaps">Fashion</hi> bids) shall shine</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Throng’d like <placeName>Vauxhall</placeName>—as <hi rend="italics">courtly</hi>, and as fine!<note>Exclamation point
+                                    retained from <title level="m">P</title>; replaces period in
+                                        <title level="u">DM</title>.</note></lem>
+                            <rdg wit="#Der">Throng’d like Vauxhall—as <hi rend="underline">courtly</hi> &amp; as fine.</rdg>
+                            <rdg wit="#Per">Throng’d like <hi rend="italics">Vauxhall</hi>—as
+                                courtly, and as <hi rend="italics">fine!</hi>
+                            </rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Yet hence what strife with dire contagion
+                                spread!—</lem>
+                            <rdg wit="#Der">Yet hence what strife with dire contagion spread!—</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">While printer’s ink and paint of artists
+                                    shed,<note>Spelling of <quote>printer’s</quote> corrected from
+                                        <quote>printers.</quote> Correct spelling found in <title level="m">P</title>: see note 17.</note></lem>
+                            <rdg wit="#Der">While <sic>printers</sic> ink &amp; paint of artists
+                                shed,</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Heap’d <placeName>Chiswell Street</placeName> and
+                                fam’d <placeName>Pall-Mall</placeName> with slain;<note>Spelling of
+                                        <quote>Pall-Mall</quote> corrected from
+                                        <quote>Pal-Mal.</quote> Correct spelling in <title level="m">P</title>: see note 17.</note></lem>
+                            <rdg wit="#Der">Heap’d Chiswell Street &amp; fam’d <sic>Pal-Mal</sic>
+                                with slain;</rdg>
+                        </app>
+                    </l>
+                    <l>
+                        <app>
+                            <lem wit="#DigEd">Till <name type="mythological">Jove’s</name> own
+                                thunder clear’d the embattled plain.<note>These final four lines do
+                                    not appear in <title level="m">P</title> at this point. The
+                                    middle two appear in one of Sylvanus’s explanatory interjections
+                                    (as <quote>Printer’s ink, and paint of artist’s shed, heap’d
+                                        Chiswell-street and fam’d Pall Mall with slain,
+                                        &amp;c.</quote> [see Appendix II]), but the other two lines
+                                    do not show up at all. These four lines also seem crammed into
+                                    the bottom of the page, are darker in colour, and appear over
+                                    smudges from an earlier erased passage. Thus, it is likely he
+                                    added them later.</note></lem>
+                            <rdg wit="#Der">Till Jove’s own thunder clear’d the embattled
+                                plain.</rdg>
+                        </app>
+                    </l>
+                </lg>
+            </div></body></text></TEI>

@@ -1,0 +1,2786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:28 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0002::University of Utah basketball films collection)//EN" encodinganalog="identifier" identifier="80444/xv48165" url="http://archiveswest.orbiscascade.org/ark:/80444/xv48165">UUM_A0002</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the University of Utah basketball films collection
+          <date era="ce" calendar="gregorian" normal="1950/1985" encodinganalog="date">1950-1985</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">University of Utah basketball films collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Tawnya Mosier.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1998" encodinganalog="date">© 1998</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0002</unitid>
+      <unittitle encodinganalog="title">University of Utah basketball films collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1944/1985" encodinganalog="date">1944-1985</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">University of Utah</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">Approximately 1,300 16mm film reels and VHS videocassettes.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">A collection of films of University of Utah basketball games.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Historical Note</head>
+      <p>The University of Utah Utes basketball team was founded in 1908.  The team has finished its season among the National Collegiate Athelitcs Association's (NCAA) top-25 teams 19 times 1949-2009 and has played in the following conferences:</p>
+      <p>–1937: Rocky Mountain Athletic Conference</p>
+      <p>1938–1961: Skyline Conference</p>
+      <p>1962–1998: Western Athletic Conference (WAC)</p>
+      <p>1999–2010: Mountain West Conference</p>
+      <p>2011– : Pacific-12 Conference (Pac-12)</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>A collection of films of University of Utah basketball games and highlight reels. Footage dates are sporadic and range from 1944-1984.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Most of the collection is arranged chronologially by format and by content (complete game or highlight reel).</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">NCAA Basketball Tournament</subject>
+      <subject encodinganalog="subject" source="lcsh">Basketball--History</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">moving images</genreform>
+      <genreform encodinganalog="type" source="aat">sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">University of Utah basketball games on 16mm film</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950-1985</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Brigham Young University (BYU)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950 January 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Dixie Classic</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">3</container>
+            <unittitle encodinganalog="title">San Francisco</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">Colorado State (CSU)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">University of California Los Angeles (UCLA)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6</container>
+            <unittitle encodinganalog="title">Montana</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Pennsylvania State University (Penn State)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960 December 27</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">California State University (Cal State)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">University of Southern California (USC)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Original Rosebud</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Texas Western</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 December 15</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 48-51</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">Wisconson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 72-94</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">Original Rosebud</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 February 08</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 104-73</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">22</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">23</container>
+            <unittitle encodinganalog="title">Loyola</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 December 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 99-77</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">Villanova</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 75-82</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">26</container>
+            <unittitle encodinganalog="title">University of Cincinnati (Cincy)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 January 01</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 76-68</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">27</container>
+            <unittitle encodinganalog="title">Stanford</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">28</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">29</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 February 29</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 78-103</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">30</container>
+            <unittitle encodinganalog="title">Butler</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">31</container>
+            <unittitle encodinganalog="title">Saint Mary's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">32</container>
+            <unittitle encodinganalog="title">San Jose State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">33</container>
+            <unittitle encodinganalog="title">California</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">34</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">35</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">36</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">37</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">38</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 February 20</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 99-108</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">39</container>
+            <unittitle encodinganalog="title">Intro Squad</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 November 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">40</container>
+            <unittitle encodinganalog="title">Loyola</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">41</container>
+            <unittitle encodinganalog="title">Saint Mary's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">42</container>
+            <unittitle encodinganalog="title">San Jose State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">43</container>
+            <unittitle encodinganalog="title">Cincy</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">44</container>
+            <unittitle encodinganalog="title">North Carolina (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 December 30</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">45</container>
+            <unittitle encodinganalog="title">North Carolina (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 December 30</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">46</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 January 13</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 93-81</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">47</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 January 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 87-88</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">48</container>
+            <unittitle encodinganalog="title">University of Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">49</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">50</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">51</container>
+            <unittitle encodinganalog="title">Team unknown (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>600 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">52</container>
+            <unittitle encodinganalog="title">Loyola</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 February 10</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 69-59</p>
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">53</container>
+            <unittitle encodinganalog="title">North Carolina State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 December 21</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Scire: 86-76</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">54</container>
+            <unittitle encodinganalog="title">Bradley (Sugar Bowl)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 December 30</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 62-64</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">55</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 January 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 76-89</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">56</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 January 13</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 84-71</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">57</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">58</container>
+            <unittitle encodinganalog="title">Stanford</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">59</container>
+            <unittitle encodinganalog="title">New Mexico</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 January 20</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 66-64</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">60</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">61</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 February 11</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 62-64</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">62</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 Feburary 17</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 60-61</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">63</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 March 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 92-81</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">64</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">65</container>
+            <unittitle encodinganalog="title">Colorado</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 95-84</p>
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">66</container>
+            <unittitle encodinganalog="title">Wichita</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">67</container>
+            <unittitle encodinganalog="title">Stanford</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 16</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 101-92</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">68</container>
+            <unittitle encodinganalog="title">USC</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 21</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 87-84</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">69</container>
+            <unittitle encodinganalog="title">Denver (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 99-87</p>
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">70-71</container>
+            <unittitle encodinganalog="title">Ghost Dance (2 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1700 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">72</container>
+            <unittitle encodinganalog="title">Oregon (Far West Classic)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 64-63</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">73</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">74</container>
+            <unittitle encodinganalog="title">New Mexico</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">75</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">76</container>
+            <unittitle encodinganalog="title">University of Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 January 26</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 76-93</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">77</container>
+            <unittitle encodinganalog="title">University of Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">78</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 February 03</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 106-92</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">79</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">80</container>
+            <unittitle encodinganalog="title">Oregon</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">81</container>
+            <unittitle encodinganalog="title">University of Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">82</container>
+            <unittitle encodinganalog="title">Oregon State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">83</container>
+            <unittitle encodinganalog="title">CSU (Finals: Utah Classic)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 58-70</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">84</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">85</container>
+            <unittitle encodinganalog="title">New Mexico</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 January 16</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Scope: 77-76</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">86</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 January 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Scope: 88-93</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">87</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 January 25</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 64-90</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">88</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 February 01</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Scope: 92-95</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">89</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1969 February 08</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Scope: 67-73</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">90</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">91</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 January 10</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 79-74</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">92</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">93</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 January 24</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 91-81</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">94</container>
+            <unittitle encodinganalog="title">USC</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 January 31</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 73-78</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">95</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">96</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 February 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 77-89</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">97</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 February 12</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 92-75</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">98</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 February 19</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 69-83</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">99</container>
+            <unittitle encodinganalog="title">Marquette</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">100</container>
+            <unittitle encodinganalog="title">USC</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 December 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 81-90</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">101</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 December 05</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 77-94</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">102</container>
+            <unittitle encodinganalog="title">Oregon State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 December 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 71-95</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">103</container>
+            <unittitle encodinganalog="title">Army</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">104</container>
+            <unittitle encodinganalog="title">University of Pennsylvania (Penn) (Q.C.T. Spectrum)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1970 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">105</container>
+            <unittitle encodinganalog="title">CSU (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 February 19</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 86-101</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">106-108</container>
+            <unittitle encodinganalog="title">USC (3 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 November 19</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 67-79</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">109</container>
+            <unittitle encodinganalog="title">BYU (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 November 22</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">110</container>
+            <unittitle encodinganalog="title">BYU (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 November 22</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">111</container>
+            <unittitle encodinganalog="title">Utah State (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">112</container>
+            <unittitle encodinganalog="title">Utah State (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Sc0re: 93-74</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">113</container>
+            <unittitle encodinganalog="title">Kansas State (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 59-65</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">114</container>
+            <unittitle encodinganalog="title">Washington State (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 18</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 74-60</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">115</container>
+            <unittitle encodinganalog="title">Northwestern (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 88-69</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">116</container>
+            <unittitle encodinganalog="title">Northwestern (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 December 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 88-69</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">117</container>
+            <unittitle encodinganalog="title">University of Texas El Paso (UTEP)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 January 08</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 56-81</p>
+            <p>200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">118</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">119</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">120</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971 January 21</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 92-102</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">121</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">122</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">123</container>
+            <unittitle encodinganalog="title">New Mexico</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">124</container>
+            <unittitle encodinganalog="title">UTEP</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">125</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">126</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">127</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1971</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">128</container>
+            <unittitle encodinganalog="title">Rutgers National Invitation Tournament (NIT) (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 17</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">129</container>
+            <unittitle encodinganalog="title">Rutgers National Invitation Tournament (NIT) (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 17</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 102-89</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">130</container>
+            <unittitle encodinganalog="title">Arizona (floor shots)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976 February 13</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">131</container>
+            <unittitle encodinganalog="title">Pepperdine</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979 March 09</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 88-92</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">132-137</container>
+            <unittitle encodinganalog="title">BYU (6 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 January 25</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>2800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">138</container>
+            <unittitle encodinganalog="title">BYU (first half in slow motion)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">139</container>
+            <unittitle encodinganalog="title">Air Force (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 March 12</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">140</container>
+            <unittitle encodinganalog="title">Air Force (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 March 12</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">141</container>
+            <unittitle encodinganalog="title">Air Force</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1985</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Highlight Films</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950-1983</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1950 January 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Dixie Classic</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">3</container>
+            <unittitle encodinganalog="title">San Francisco</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">UCLA</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6</container>
+            <unittitle encodinganalog="title">Montana</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Penn State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960 December 27</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">Cal State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">USC</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Original Rosebud</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">CSU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Texas Western</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 December 15</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 48-51</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">Wisconson</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1962 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 72-94</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">Original Rosebud</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 February 08</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 104-73</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">22</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">23</container>
+            <unittitle encodinganalog="title">Loyola</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 December 02</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 99-77</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">Villanova</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 75-82</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">Utah State </unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">26</container>
+            <unittitle encodinganalog="title">Cincy</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964 January 01</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 76-68</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">27</container>
+            <unittitle encodinganalog="title">Stanford</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">28</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">29</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 February 29</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 78-103</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">30</container>
+            <unittitle encodinganalog="title">Butler</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">31</container>
+            <unittitle encodinganalog="title">Saint Mary's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">32</container>
+            <unittitle encodinganalog="title">San Jose State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">33</container>
+            <unittitle encodinganalog="title">California</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1964</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">34</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">35</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">36</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">37</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">38</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 February 20</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 99-108</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">39</container>
+            <unittitle encodinganalog="title">Intro Squad</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 November 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">40</container>
+            <unittitle encodinganalog="title">Loyola</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">41</container>
+            <unittitle encodinganalog="title">Saint Mary's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">42</container>
+            <unittitle encodinganalog="title">San Jose State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">43</container>
+            <unittitle encodinganalog="title">Cincy</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">44</container>
+            <unittitle encodinganalog="title">North Carolina (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 December 30</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">45</container>
+            <unittitle encodinganalog="title">North Carolina (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1965 December 30</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">46</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 January 13</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 93-81</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">47</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 January 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 87-88</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">48</container>
+            <unittitle encodinganalog="title">University of Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">49</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">50</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">51</container>
+            <unittitle encodinganalog="title">Loyola (reel 1)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>600 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">52</container>
+            <unittitle encodinganalog="title">Loyola (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 December 10</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 69-59</p>
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">53</container>
+            <unittitle encodinganalog="title">North Carolina State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 December 21</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 86-76</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">54</container>
+            <unittitle encodinganalog="title">Bradley (Sugar Bowl)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1966 December 30</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">55</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 January 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 76-89</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">56</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 January 13</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 84-71</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">57</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">58</container>
+            <unittitle encodinganalog="title">Stanford (reel 2)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">59</container>
+            <unittitle encodinganalog="title">New Mexico</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 January 20</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 66-64</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">60</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">61</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 February 11</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 62-64</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">62</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 February 17</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 60-61</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">63</container>
+            <unittitle encodinganalog="title">Arizona State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 March 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 92-81</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">64</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">65</container>
+            <unittitle encodinganalog="title">Colorado</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 February 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 95-84</p>
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">66</container>
+            <unittitle encodinganalog="title">Wichita</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">67</container>
+            <unittitle encodinganalog="title">Stanford</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 16</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 101-92</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">68</container>
+            <unittitle encodinganalog="title">USC</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 21</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 87-84</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">69</container>
+            <unittitle encodinganalog="title">Denver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 23</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 99-87</p>
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">70-71</container>
+            <unittitle encodinganalog="title">Ghost Dance (2 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1700 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">72</container>
+            <unittitle encodinganalog="title">Oregon (Far West Classic)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967 December 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 64-63</p>
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">73</container>
+            <unittitle encodinganalog="title">Arizona</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">74</container>
+            <unittitle encodinganalog="title">New Mexico</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">75-77</container>
+            <unittitle encodinganalog="title">Basketball highlights (3 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956-1957</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>3600 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">78-80</container>
+            <unittitle encodinganalog="title">Basketball highlights (3 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1957-1958</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>3600 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">81</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1958-1959</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">82-85</container>
+            <unittitle encodinganalog="title">Basketball highlights (4 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1959-1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>4800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">86</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1960-1961</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">87-92</container>
+            <unittitle encodinganalog="title">Basketball highlights (6 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1961-1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>7200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">93-98</container>
+            <unittitle encodinganalog="title">Basketball highlights (6 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967-1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>7200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">99-102</container>
+            <unittitle encodinganalog="title">Basketball highlights (4 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1968-1969</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>3200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">103</container>
+            <unittitle encodinganalog="title">Utah: A Winning Way of Life</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">197-/77</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">104</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1976-1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">105</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1977-1978</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">105-108</container>
+            <unittitle encodinganalog="title">Basketball Highlight (4 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1978-1979</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>3200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">109-110</container>
+            <unittitle encodinganalog="title">Basketball highlights (2 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1979-1980</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">111-112</container>
+            <unittitle encodinganalog="title">Basketball highlights (champions) (2 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980-1981</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>2400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">113</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1981</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">114</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982-1983</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Miscellaneous basketball film reels</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1-19</container>
+            <unittitle encodinganalog="title">University of Utah basketball (19 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Reels of unlabelled 16mm basketball films.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">University of Utah basketball: Jerry Pimm</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+            <p>Negative, optical soundtrack</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">University of Utah basketball action</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">22</container>
+            <unittitle encodinganalog="title">Convention Version: A Going Place</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1973 January 19</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">23</container>
+            <unittitle encodinganalog="title">University of Utah basketball conditioning drills</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>600 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">24</container>
+            <unittitle encodinganalog="title">University of Utah basketball pressure team defense)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>600 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">25</container>
+            <unittitle encodinganalog="title">University of Utah Basketball: A Day at the U</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">21</container>
+            <unittitle encodinganalog="title">Lasalle</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>1200 feet of 35mm film</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Basketball films on VHS</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1944-1983</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">University of Utah NCAA Tournament</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1944</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2</container>
+            <unittitle encodinganalog="title">University of Utah NCAA Tournament (Madison Square Garden)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1944</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">3-4</container>
+            <unittitle encodinganalog="title">St. John's (2 cassettes)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1944</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>NCAA champion Utah plays NIT champion St. John's for a Red Cross benefit</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5</container>
+            <unittitle encodinganalog="title">University of Massachusettes (Mass)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947 December 19</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7</container>
+            <unittitle encodinganalog="title">NIT (Madison Square Garden)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">8</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1948 January 17</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">9</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1948 March 06</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1963 February 23</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">11</container>
+            <unittitle encodinganalog="title">Basketball highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1967-68</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">12</container>
+            <unittitle encodinganalog="title">Institute of the American West: That Awesome Space</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">13</container>
+            <unittitle encodinganalog="title">Rutgers NIT</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1974 March 17</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">14</container>
+            <unittitle encodinganalog="title">Basketball highlights (Champions)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1980-1981</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">15</container>
+            <unittitle encodinganalog="title">Western Athletic Conference (WAC) Highlights</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982-1983</unitdate>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">16</container>
+            <unittitle encodinganalog="title">BYU</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1983 February 05</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Score: 75-72</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">2002 addendum</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1944-1956</unitdate>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">St. John's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1944</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>NCAA champion Utah plays NIT champion St. John's for a Red Cross benefit</p>
+            <p>1000 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Wyoming (2 reels)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">3</container>
+            <unittitle encodinganalog="title">Wyoming</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>200 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">4</container>
+            <unittitle encodinganalog="title">St. John's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1947</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>NCAA champion Utah plays NIT champion St. John's for a Red Cross benefit</p>
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1948 February 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">6</container>
+            <unittitle encodinganalog="title">Denver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 December 09</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">Long Island</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 February 02</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">Long Island</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 February 02</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Utah State</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 February 07</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Colorado A&amp;M (now CSU)</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 February 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Colorado A&amp;M</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 February 28</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Denver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 March 04</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">Denver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 March 05</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">Denver</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1949 March 05</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Saint Joseph's</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Team unknown</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>400 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">University of Washington</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1956</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>800 feet of 16mm film</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

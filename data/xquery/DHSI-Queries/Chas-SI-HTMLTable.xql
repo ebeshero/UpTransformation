@@ -1,44 +1,45 @@
-declare namespace tei="http://www.tei-c.org/ns/1.0";
-declare variable $Chas as document-node() := doc('/db/mitford/literary/Charles1.xml');
-declare variable $ChasPlay as element() := $Chas/*;
-declare variable $si as document-node() := doc('http://digitalmitford.org/si.xml');
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>French Places in Charles the First</title>
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+declare variable $si as document-node() := doc("https://digitalmitford.org/si.xml");
+declare variable $Chas as document-node() :=
+doc("https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/Charles1.xml");
+declare variable $places as element(tei:place)* := $si/descendant::tei:place;
+declare variable $Chasplaces as element(tei:placeName)* := $Chas/descendant::tei:placeName;
+declare variable $Chas_placerefs as attribute(ref)* := $Chasplaces//@ref;
+declare variable $distinct-Chas_placerefs := distinct-values($Chas_placerefs);
+                
+<html
+    xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Places in Mary Mitford’s play “Charles I”</title>
         <style type="text/css">
-        table, tr, th, td {{border:1px purple solid; border-collapse:collapse;}}
-        td, th {{padding:.5em;}} 
+            table, tr, th, td {{border:1px purple solid; border-collapse:collapse;}}
+            td, th {{padding:.5em;}}
         </style>
-        
     </head>
     <body>
-        <h1>French places in Mary Russell Mitford’s <i>Charles the First</i></h1>
-    <table>
-        <tr><th>Id</th><th>Full Name</th><th>Note</th>
-            </tr>
-{let $Chasplaces := $Chas//tei:placeName
-let $siPlaces := $si//tei:place
-let $ChasPlaceRefs := $Chasplaces/@ref/string()
-let $siChasRefs := $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
-let $distChPRs := sort(distinct-values($ChasPlaceRefs))
-for $i at $pos in $distChPRs
-let $siCPrs := $si//tei:place[@xml:id = substring-after($i, '#')]
-where $siCPrs[contains(string(.), 'France')]
-let $name := $siCPrs/tei:placeName[1]
-let $note := $siCPrs//tei:note
-order by $siCPrs/@xml:id
-(:  :return concat($name, ': ', $siCPrs//tei:note)  :)
-return 
-<tr>
-<td>{$siCPrs/@xml:id/string()}</td>
- <td>{$name/string()}</td> 
- <td>{$note/string()}</td>
-</tr>    
-    
-}   
- </table> 
- </body>
+        <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Note</th>
+            <th>Original position</th>
+            <th>Output position</th>
+        </tr>
+            {
+                for $i at $pos in $distinct-Chas_placerefs
+                let $si_match := $si//tei:place[@xml:id eq substring-after($i, '#')]
+                where contains($si_match, "France")
+                order by $pos descending
+                count $counter
+                return
+                    <tr>
+                        <td>{$si_match/@xml:id/string()}</td>
+                        <td>{$si_match/tei:placeName[1]/string()}</td>
+                        <td>{$si_match/tei:note[1]/string()}</td>
+                        <td>{$pos}</td>
+                        <td>{$counter}</td>
+                    </tr>
+            }
+        </table>
+    </body>
 </html>
-
-
-
-

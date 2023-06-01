@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:01 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0771::Rick Page independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv43707" url="http://archiveswest.orbiscascade.org/ark:/80444/xv43707">UUM_A0771</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Rick Page independent film collection
+          <date era="ce" calendar="gregorian" normal="1998/2003" encodinganalog="date">1998-2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Page (Rick) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Jimi Jones.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Jimi Jones
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0771</unitid>
+      <unittitle encodinganalog="title">Rick Page independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1998/2003" encodinganalog="date">1998-2003</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Page, Rick</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Rick Page independent film collection (1998-2003) consists of copies of films written and directed by Page and filmed by Page and other crew members of the television program <title render="italic">Touched by an Angel</title> during their spare time.  These films, like the television program, were shot in and around Salt Lake City, Utah.  A local independent filmmaker, Rick Page has also worked as a cameraman for numerous television shows and movies filmed in Salt Lake City.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Rick Page is a local Salt Lake City filmmaker.  In addition to writing and directing his own short films, Page has worked as a cameraman on numerous television shows and movies filmed in the Salt Lake City area, including <title render="italic">Touched by an Angel</title>, <title render="italic">Legally Blonde 2</title> (Charles Herman-Wurmfeld 2003), <title render="italic">High School Musical 3</title> (Kenny Ortega 2008) and over 50 others.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Rick Page independent film collection (1998-2003) consists of copies of films written and directed by Page and filmed by Page and other crew members of the television program <title render="italic">Touched by an Angel</title> during their spare time.  These films, like the television program, were shot in and around Salt Lake City, Utah.  The DVD of Page's work also includes some publicity clips from local news stations covering the production of the shorts.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Jimi Jones in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Salt Lake City (Utah)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">Rick Page director reel</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1998-2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>This DVD contains two short narrative films, some publicity clips from local Salt Lake City television news broadcasts about the production of the shorts, Page's resume, a brief biographical video about Page (originally submitted to HBO's Project Greenlight contest), and a "director's reel" or montage of clips from Page's professional directing work:</p>
+          <p>1. "Water With Food Coloring"</p>
+          <p>Originally shot on 35mm film, this short piece was filmed in Salt Lake City by the crew of <title render="italic">Touched by an Angel</title> on their days off.  Directed by Page, this piece is a spoof of the rigamarole of filmmaking. The piece features some of the cast and crew of <title render="italic">Touched by an Angel</title> in supporting roles.  16:00.</p>
+          <p>2. "Alyson's Closet"</p>
+          <p>Originally shot on 35mm film, this piece was also produced by members of the crew of <title render="italic">Touched by an Angel</title> during their off hours and features the actor Ossie Davis in a small role. The movie centers around a writer who can't overcome personal demons and break out of his writer's block. The film was shot in and around an apartment at Salt Lake City's Hillcrest Apartments in the Avenues.  30:00.</p>
+          <p>3. Director's reel</p>
+          <p>A short promotional piece consisting of clips collected from the above two pieces. This piece is a video resume designed to be sent out to prospective employers.  15:00.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

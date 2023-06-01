@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_a0382::Philo T. and Elma G. Farnsworth audio collection)//EN" encodinganalog="identifier" identifier="80444/xv81082" url="http://archiveswest.orbiscascade.org/ark:/80444/xv81082">UUM_a0382</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Philo T. and Elma G. Farnsworth audio collection.
+				<date era="ce" calendar="gregorian" normal="1960/1978" encodinganalog="date">1960-1978</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Farnsworth (Philo T. and Elma G.) audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Michael Hinderaker</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2013" encodinganalog="date">© 2013</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Michael Hinderaker
+			<date era="ce" calendar="gregorian" normal="2013">2013</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0382</unitid>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Farnsworth, Elma</persname>
+      </origination>
+      <unittitle encodinganalog="title">Philo T. and Elma G. Farnsworth audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1960/1978" encodinganalog="date">1960-1978</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">The Philo T. and Elma G. Farnsworth audio collection contains 45 compact discs.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Philo T. and Elma G. Farnsworth audio collection (1960-1978) contains audio recordings of Farnsworth speaking to audiences as well as recordings his wife, Elma G. "Pem" Farnsworth, made while researching a biography following his death in 1971.   Philo Taylor Farnsworth (1906-1971) was a researcher, writer, and a pioneering developer of television, radar technology, peacetime applications of nuclear fusion, and the infant incubator.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Philo Taylor Farnsworth (1906-1971) was born on 19 August 1906, to Lewis Edwin and Serena Bastian Farnsworth in a log cabin at Indian Creek, near the town of Beaver in Southwestern Utah. He was the namesake of his paternal grandfather who built the log home in 1856 while settling the area at the request of Mormon Church leader Brigham Young.</p>
+      <p>Philo was six years old when the hand-cranked Bell telephone and Edison gramophone became well known, just old enough to become inquisitive about motors, magnets, coils, armatures, and other components of the newly popular electric power. By the time his family moved to his Uncle Albert's 240 acre ranch near Rigby, Idaho the thirteen-year-old was reading everything about electricity that he could get his hands on, including instructions to the farm's Delco power system. However, Philo's avid reading of Popular Science and other technical magazines found in the attic, soon had him using the power system to operate the family's washing machine, sewing machine, and barn lights.</p>
+      <p>Philo's appetite for knowledge gave him a mental grasp of such developing concepts as Einstein's theory of relativity, sub-atomic particles, radio waves, and mechanic disc-operated television. He was also well ahead of his classmates in most math and science subjects by the time he entered Rigby High School. In fact, it was in his first chemistry class that he disclosed his idea of an "image dissector tube." Such a vacuum tube, he suggested, was capable of operating a television unit electronically by shooting a stream of electrons toward a fluorescent screen, thereby accurately reflecting pre-designated images.</p>
+      <p>With the loss of his uncle's farm in 1922, Philo's family moved to Provo, Utah. For the next two years, Philo attended Brigham Young University. It was there that he was introduced to Elma "Pem" Gardner in 1924. However, just three months later, he was forced to leave school to assume the role of family provider when his father died.</p>
+      <p>Farnsworth's attempts to provide support for himself and his family were many and varied during this period. He labored on logging crews, repaired and delivered radios, sold electrical products door to door, and worked on the railroad as an electrician. His acumen in math and science helped him pass the Navy's Officer Candidate School Examination, but after being assigned to Annapolis as a first-year midshipman he decided a military career was not his goal. He returned home to work on a Salt Lake City street cleaning crew. It was his knowledge of Salt Lake City's street plan that eventually earned him a supervisor position for an out-of-state charitable organization managed by George Everson and Leslie Gorrell.</p>
+      <p>Everson and Gorrell were professional fundraisers from California who were impressed with Farnsworth's ability to organize a job, dedicate himself to completing the tasks involved, and motivate other team members, They listened to him recount his ideas of electronic television as they performed the mundane work of folding, stuffing, sorting, and stamping bulk mailings of fundraising letters, and became convinced of the investment possibilities such a venture could bring. So impressed were these two men with Farnsworth's knowledge of current television literature and his own innovative concepts, they offered to financially support the venture under a formal partnership know as Everson, Farnsworth &amp; Gorrell. Three days later, on 27 May 1926, Philo and Pem were married.</p>
+      <p>On 7 September 1927, George Everson watched with staff members as Farnsworth slowly turned on the controls. An unmistakable line appeared across the small bluish square of light on the end of the Oscillite tube. Although fuzzy at first, it became distinct with adjustment, and through the visual static each could see the side of a black triangle previously inserted by Pem's brother, Cliff Gardner.</p>
+      <p>For the next three years support was provided by a group of bankers and investors calling themselves Crocker Research Laboratories. In March 1929, Jesse McCarger took the reins of the fledgling group, provided substantially more support and renamed the company Television, Inc. It was during this period (1929-1933), that publicity catapulted the promise of this little organization. However, with public awareness came the problems of competition, races to the patent office and legal disputes. The most significant and long-lasting conflict began in April 1930, when Dr. Vladimir Zworykin of Westinghouse visited Farnsworth's Laboratory. For three days he was a guest of the investors, who hoped to persuade Zworykin's employer to purchase their small company. But, unbeknownst to the Farnsworth staff, Zworykin had recently been hired by RCA, who sent him to the laboratory to obtain information for replicating the necessary television equipment. For the next decade Farnsworth and his attorneys were involved in court battles endeavoring to convince the United States Patent Office that it was he and not Vladimir Zworykin who had invented the basic components of electronic television. It was later to be one of Farnsworth's great professional satisfactions to have rival competitor RCA concede and pay one million dollars for rights to the Farnsworth patents.</p>
+      <p>During 1933, Farnsworth acquired enough investment capital to restructure the organization and change its name to Farnsworth Television, Inc. This name remained until 1938, when management purchased the Capehart Company of Fort Wayne along with a general household utilities plant in Marion, Indiana. With these acquisitions they were prepared to compete in the blossoming radio and phonograph manufacturing market. But while endeavoring to develop and refine his electronic television invention, Farnsworth was also responsible for providing investors with saleable products during the post-depression economy and directing and supervising laboratory personnel.</p>
+      <p>With the slowdown in radio and television production during the war years, Farnsworth closed down his Fort Wayne, Indiana home and moved permanently to Fernworth Farm in Brownfield, Maine. The Farnsworth Company had been converted to the production of war materials and was supplying electronic components to the federal government. With a subsidy from the Farnsworth Company, Farnsworth was able to spend more time developing ideas that had previously been dwarfed by the race for television patents. From 1939-1948 he utilized the farms lumber resources for the production of ammunition boxes for the War Production Board. The family venture was organized under the name of Farnsworth Wood Products Company and flourished for the duration of the war.</p>
+      <p>Anticipating the end of the war, RCA, Philco, and several other large companies received their commercial licenses from the FCC. They immediately began retooling their equipment for the commercial manufacturing of televisions. The Farnsworth Company quickly found itself at the rear of this aggressive pack of electronics firms in the scramble for parts and materials. In addition, the one-year grace period allowed by the federal government for repayment of its wartime bank loans was up. The company found itself financially strapped and frantically tried to sell its assets in order to remain afloat in the post-war market. When all but the original plant had been sold, substantial bank loans still remained outstanding. The board of directors voted to sell the company to International Telephone and Telegraph (ITT) in 1949. Under the new management, Farnsworth retained his position as vice president of research and advance engineering. His primary function within the ITT system was to engineer his staff toward timely completion of space-age contracts awarded by the Air Force and other government agencies. During the next eighteen years he was to make ITT his home. It was within this environment that he invented components of the Defense Early Warning Signal, the PPI Projector (which allowed safe control of air traffic from the ground), an infrared telescope, submarine detection devices, radar calibration equipment, and other inventions.</p>
+      <p>Although his health continued to deteriorate, he actively worked on many military research projects. Nevertheless, due to illness and the time necessary for recuperation, ITT transferred him from his responsibilities as vice president of research to that of systems consultant. As such, he was able to follow his own pursuits and still remain on the ITT payroll. Fortunately, ITT management agreed to nominally fund his new controlled fusion ideas. He and staff members invented and refined a series of fusion reaction tubes called "fusors." Publicity about his activities persuaded ITT management to raise Farnsworth's salary and promote him to the position of director of research. For Scientific reasons unknown to Farnsworth and his staff, the necessary reaction lasted no longer than thirty seconds. In December 1965, ITT came under pressure from its board of directors to terminate the expensive fusion research and sell the Farnsworth subsidiary. It was only from the urging of President Harold Geneen that the 1966 budget was accepted, permitting ITT's fusion research one additional year. However, the stress associated with this managerial ultimatum threw Farnsworth into relapse. One year later he was terminated and eventually allowed medical retirement.</p>
+      <p>In the spring off 1967, Farnsworth and his family moved back to Utah to continue his fusion research at Brigham Young University, which presented him with an honorary doctorate. The university also offered him office space and an underground concrete bunker location for the project realizing the fusion lab was to be dismantled at ITT, Farnsworth invited staff members to accompany him to Salt Lake City as team members in his planned Philo T. Farnsworth Associates (PTFA) organization. By late 1968 the associates began holding regular business meetings and PTFA was underway. However, although a contract with the National Aeronautics and Space Administration was promptly secured and more possibilities were within reach, the financing needed to pay the $24,000 in monthly expenses for equipment rental and salaries was stalled.</p>
+      <p>By Christmas 1970, PTFA had failed to secure the necessary financing, the Farnsworth's had sold all their own ITT stock and cashed out Philo's life insurance policy to maintain organization stability. The underwriter had failed to provide the financial backing that was to have supported the organization during its critical first year. The banks called-in all outstanding loans. Repossession notices were placed on anything not previously sold and the Internal Revenue Service put a lock on the laboratory door until delinquent taxes were paid. During January 1970, Philo T. Farnsworth Associates disbanded. Farnsworth became seriously ill with pneumonia and died on 11 March 1971.</p>
+      <p>Although best known for his development of television, Farnsworth was involved in research in many other areas. He invented the first infant incubator. He was involved in the development of radar, peacetime uses of atomic energy, and the nuclear fusion process. At his death, Farnsworth held 300 U.S. and foreign patents, and Scientific American magazine called him one of the ten greatest mathematicians of his time.</p>
+      <p>Elma "Pem" Gardner Farnsworth (1908- 2006) was born on 25 February 1908 in Jensen, Utah. "Pem", as she was affectionately known, married Philo Taylor Farnsworth in 1926. She became part of her husband's lab team, handling the technical drawings for his early experiments on his vision for television and was present in San Francisco on 7 September 1927, when electronic television was first demonstrated successfully. Pem Farnsworth was the first person ever to appear on a cathode-ray-tube receiver via transmission from her husband's lab and has been referred to as "The Mother of Television."</p>
+      <p>During the last three decades following Philo's death, Elma Farnsworth had been a tireless advocate of her husband's work. During this period he received many posthumous honors. In 1977 he was awarded an Emmy by the Academy of Television Arts and Sciences; in 1983 his image was placed on a U.S. postage stamp; the Inventors Hall of Fame inducted him as a member in 1984. In 1990 a life-sized statue of him was placed in the Statuary Hall in Washington D.C. Elma wrote a biography on Philo It was published in 1989 with the title Distant Vision: Romance and Discovery on an Invisible Frontier.</p>
+      <p>Well into her 90's Mrs. Farnsworth continued her cause and was successful in lobbying the Academy of Television Arts and Sciences to consider creating an award in honor of her husband's accomplishments. She took center stage to present the first " Philo T. Farnsworth" award for technical excellence in television at the 56th Annual Emmy Awards in Los Angeles in 2003. A devout Mormon, she derived her greatest satisfaction from meeting school children and encouraging them to follow in her late husband's footsteps. Elma died on 27 April 2006 at the age of 98</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Philo T. and Elma G. Farnsworth audio collection (1960-1978) contains audio recordings of Farnsworth speaking to audiences as well as recordings his wife, Elma G. "Pem" Farnsworth, made while researching a biography following his death in 1971.  The recordings mostly contain Philo's wife, Pem, and people that knew Farnsworth and worked with him.  On each disc she asks them questions and they respond and both tell stories that provide a glimpse of the life of Philo Farnsworth.  The collection is digitized and available to listen to on compact disc.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Philo T. and Elma G. Farnsworth audio collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Philo T. and Elma G. Farnsworth audio collection A0382,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0382.</p>
+    </prefercite>
+    <processinfo>
+      <p>Processed by Michael Hinderaker in 2013.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Philo T. and Elma G. Farnsworth papers (Ms 648).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <subject encodinganalog="subject" source="lcsh">Television--History</subject>
+      <subject encodinganalog="subject" source="lcsh">Nuclear fusion</subject>
+      <subject altrender="nodisplay" source="archiveswest">Technology</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">Disc 1</unittitle>
+          <unitdate>1960</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">1</container>
+            <unittitle encodinganalog="title">"PTF Talk at Manchester College" Fall 1960 Side 1</unittitle>
+            <unitdate>1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Philo and his wife went from Hollywood to San Francisco, and the Crocker Bank agreed to put up $25000 in addition to the $8000 dollars they had already invested.</item>
+              <item>His brother in law worked as his lab assistant.</item>
+              <item>They were able to find a scientist from Cal who could blow the glass tube they needed.</item>
+              <item>Philo says that it took approximately six months to get the lab set up.</item>
+              <item>After eighteen months, he says that they could see a distinguishable picture on the screen.</item>
+              <item>Early on, there was no competition and the competition that came to exist wasn't necessarily designed in the same way and didn't work as well.</item>
+              <item>In 1932 the first commercial message sent using his tube by the Institute of Radio Engineers in San Francisco.</item>
+              <item>Many people began to visit as it became more and more clear that his version of the television would actually work.</item>
+              <item>They applied for 35 patents the first year, and again about that many the second year.</item>
+              <item>He built the first electron microscope in 1927, and then a field emission ion microscope.</item>
+              <item>By 1932 Philo felt that the picture quality was pretty good.  He felt that the television helped to pull the United States out of the great depression, as did Dr. Tethering of General Motors.</item>
+              <item>In 1934 he went to the Franklin Institute to demonstrate the television, which was a 15 inch tube.  500 people at a time came to watch the demonstration and this continued from 11 am to 11 pm each day every twenty minutes for three weeks.</item>
+              <item>They were going to sell an interest to United Artists, but when they were going to demonstrate the capabilities of the television it didn't work very well.  They managed to fix it, but the deal fell through when the attorney in charge of the deal was found to be taking bribes.</item>
+              <item>By 1934 Philco and the American Telephone Telegraph Company as well as a German and British company were licensed to use his technology. He then discusses how the technology actually works.  He holds 165 American patents and 140 foreign patents.</item>
+              <item>He talks about the implications of national and international television and its possible impact on the world.  He also discusses the changing technology in color, number of stations, etc. </item>
+              <item>He launches into a longer dialogue about Russia, home improvements, bomb shelters, and more.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">2</container>
+            <unittitle encodinganalog="title">"PTF Talk at Manchester College" Fall 1960 Side 2</unittitle>
+            <unitdate>1960</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Begins to talk about cancers, how he believes they come about, and how believes they could be treated or even cured.</item>
+              <item>He begins to demonstrate an electronic device of some kind, talk is relatively technical and difficult to comprehend without the visual part of the presentation.</item>
+              <item>He also describes his ideas for space travel and his expectations for its growth over the next twenty years.</item>
+              <item>He believes that energy will be able to be produced limitlessly and free in the near future and that people will be able to purchase cars and spaceships with unlimited energy supplies built into them during the late 1960s.</item>
+              <item>He discusses how to make yourself a more creative and innovative person.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">2</container>
+          <unittitle encodinganalog="title">Disc 2</unittitle>
+          <unitdate>March 1962</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">2</container>
+            <unittitle encodinganalog="title">"Philo Farnsworth before the Art Convention of Indianapolis, Ind." 3/23/62</unittitle>
+            <unitdate>1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Introductory speaker talks about Farnsworth's work with television as well as radioactive materials.</item>
+              <item>Philo Farnsworth talks about population and how it will grow wildly in the early 2000s.</item>
+              <item>Time is a perspective, it has no physical significance, he believes that space is non-existent (?).  He believes that mileage in space will work very differently as we get past Pluto because there will essentially be zero mass in the space.</item>
+              <item>He believes by the end of the decade speeds in space will reach up to 1000 miles per second.</item>
+              <item>Farnsworth says that if you live during the next ten years you will likely live 100 years, and if you live during the following ten years, you will likely live 1000 in terms of relative years.  A little unsure exactly what he is saying here, but I believe he is talking about the rapid growth of technology in an exponential fashion meaning that life will not actually last longer, but that people will experience relatively 'more'.</item>
+              <item>Talks about his predictions for space exploration and his expectation that anyone will be able to visit Mars by 1970.</item>
+              <item>Farnsworth talks about fusion energy and how he believes it will change our life experience – individual energy sources with enough fuel for a lifetime for a small cost.</item>
+              <item>Talks about energy costs and what he believes will be their drastic reduction in price.  Talks about heating the whole of New York City for less than a dollar.</item>
+              <item>He talks about the building of space colonies to solve what he believes is an inevitable population overgrowth.</item>
+              <item>Farnsworth discusses the building of bomb shelters as a civic project as opposed to a government sponsored one.</item>
+              <item>His wife tells the story of his attempt to develop a fusion device.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">3</container>
+            <unittitle encodinganalog="title">"What to expect of our future" - PTF speech to Indianapolis, Ind. State art groups 3/23/62</unittitle>
+            <unitdate>1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Secondary recording of the same speech as #2.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">3</container>
+          <unittitle encodinganalog="title">Disc 3</unittitle>
+          <unitdate>March 1962, 1968</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">3</container>
+            <unittitle encodinganalog="title">"What to expect of our future – PTF speech to Indianapolis, Ind. State art groups" 3/23/62</unittitle>
+            <unitdate>1962</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Second half of the second recording of same speech as #2.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">4</container>
+            <unittitle encodinganalog="title">"Beginning at 80" Side 1, Los Altos, 1968</unittitle>
+            <unitdate>1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Man and woman tell a story about driving on the highway, the sound quality is very poor and it is difficult to hear exactly what they are saying.</item>
+              <item>There is music playing on a separate track maybe? It doesn't seem to be in the background because the words of the speakers are so distorted and the music is very clear and it drowns out what the people are saying.</item>
+              <item>It's not loud, but it makes their speech totally unintelligible. You can hear occasional words but huge parts of the sentence are lost.  The words are very muddy.</item>
+              <item>This continues for the entire track.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">4</container>
+          <unittitle encodinganalog="title">Disc 4</unittitle>
+          <unitdate>1968</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">4</container>
+            <unittitle encodinganalog="title">"Meeting at 80" Phil, Cliff, Pem, Seline Los Altos 1968</unittitle>
+            <unitdate>1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Once again, sound quality is very poor.</item>
+              <item>Very hard to follow conversation, I believe four of them are talking but they often talk over each other and that combined with the poor sound quality makes it very jumbled.</item>
+              <item>The sound cuts out and back in, it now seems to be a slightly different conversation but once again the number of people talking makes it difficult to follow.</item>
+              <item>It is a meeting discussing the seal (?) for an unnamed company, as well as the differences from a trademark.</item>
+              <item>They discuss selling 1,050,000 shares of a company at a price of $12/share.</item>
+              <item>The primary man who is talking describes a phone conversation with the police in which they ask him to provide them with tubes capable of recording infrared images.  They want to use it over binoculars to help get evidence against drug smugglers.</item>
+              <item>They say that they may or may not be able to handle the increase in business and consider passing it off to a competitor, then get to talking about the specs for the product and what the police force currently has.  This discussion seems to relate especially to what the medium for recording will actually be.</item>
+              <item>The Speaker talks about his personal desire to stop drug trafficking as his main motivation as opposed to profit.</item>
+              <item>They debate whether or not to pair with ITT (?), who is their competitor, to work on this project and are divided to some extent.</item>
+              <item>A lady asks if she can have 25 shares of stock per month which she says are valued at approximately $200 in total.  The meeting is a board of director's meeting.</item>
+              <item>They talk about getting bids from insurance companies, but it's not entirely clear what they are interested in having insured.</item>
+              <item>They discuss whether taking on another project will overextend them, and then discuss which projects they should be focusing on primarily based on quickest return.  They are considering doing something with a dryer, but as of yet it hasn't been chosen for sure.</item>
+              <item>The man in charge discusses whether or not he can hire a secretary who will work for nine months of the year while pursuing her CPA for the other three.</item>
+              <item>They don't want to hire someone because of her inability to be quiet, as they fear that she will talk about projects that she is not allowed to outside of work.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">5</container>
+            <unittitle encodinganalog="title">"Copy of tape made at Cliff's home.  Phil, Pem, Seline, Bo, Cliff" 1968</unittitle>
+            <unitdate>1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>A woman introduces the segment saying that she will play a tape that was recorded in 1968.</item>
+              <item>Talking is quite muddled once again. Some of the speakers are somewhat understandable, but others are not enunciating clearly and it is nearly impossible to keep track of the conversation given that only about half of what is said can be heard.</item>
+              <item>A man reads what seems to be an article about Philo Farnsworth and others working for his company.  It isn't clear where the article is from. Everyone in the room is amused by the article.</item>
+              <item>Once again, various people talk over each other and only small snippets of conversation can be heard.</item>
+              <item>The audio then is turned off for a minute or so.</item>
+              <item>Once the audio comes back on it's difficult to hear what is being said.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">5</container>
+          <unittitle encodinganalog="title">Disc 5</unittitle>
+          <unitdate>1968, 1969</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">5</container>
+            <unittitle encodinganalog="title">"Copy of Tape made at Cliff's home. Phil, Pem, Seline, Bo, Cliff" 1968 pt. 2</unittitle>
+            <unitdate>1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>A man tells a story, but it is difficult to make out exactly what he is saying. The rest of this track is difficult to hear.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">5</container>
+            <unittitle encodinganalog="title">"Copy of tape made at Cliff's home.  Phil, Pem, Seline, Bo, Cliff" 1968 pt. 2, side 2.</unittitle>
+            <unitdate>1968</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Difficult to hear what is said.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">6</container>
+            <unittitle encodinganalog="title">"PTFA's Director's Meeting" 1969</unittitle>
+            <unitdate>1969</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Man speaking says that the meeting has been called because they need to talk about demonstrating a product that they are working on for another company (Black Mountain?).  This company will bring their metallurgist, an attorney, and the division expert to attend the demonstration.</item>
+              <item>He talks about the specifications for the product, specifically the metals involved in the tube and some of the processes involved with the metals.</item>
+              <item>This section stretches on and is quite technical. The people in the meeting talk a little bit about sourcing some of the materials as well.</item>
+              <item>The people in the meeting vote on electing Dewey Bluke (Bluth? Unsure on spelling) to VP and senior member of the associates.  Ralph Maxwell is up for becoming an interim associate when he has enough education, but it seems the vote is postponed because of some confusion over bylaws relating to being an associate. This not totally clear. It appears Ralph will retire when his son begins to work, but still be employed as a consultant.</item>
+              <item>They talk about allowing associates to purchase stock at par value, which they believe is a very good deal.  Each associate must own at least one share of the stock.</item>
+              <item>They are about to open up an IPO to the public, and discuss the price that they feel they should list it at, and at what point they will want to cut off stock purchases.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">6</container>
+          <unittitle encodinganalog="title">Disc 6</unittitle>
+          <unitdate>1970</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">7</container>
+            <unittitle encodinganalog="title">"Interview with Frank Smith at our home in Holladay, Ut." 2/6/70 Side 1</unittitle>
+            <unitdate>1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Frank Smith is interviewing Philo Farnsworth.</item>
+              <item>Philo says that he knew at six that he would be an inventor. It's difficult to hear what he says sometimes as he speaks very softly and not very well.</item>
+              <item>He describes an invention that he made at eight years old, but it is very difficult to hear exactly what he says.</item>
+              <item>Mr. Farnsworth says he knew Justin Tollman, the brother of a principle at an Idaho high school that Philo attended.  He says that Mr. Tollman had notes that Philo had made and kept them for fifteen years.  He tutored Philo extremely frequently throughout school.</item>
+              <item>In San Francisco, he created the first electronic television transmitter tube.  Sound comes in and out from the tape for a little bit.</item>
+              <item>He was told by a Caltech engineer that he stood as much a chance as a drip of ice on a red hot stove.</item>
+              <item>It took about a year to get a television picture that was as good as the average home set during 1970.</item>
+              <item>Philo owns a patent for horizontal and vertical synchronization that he believes is extremely important because it removes the horizontal lines from the picture.  He says it is still being used in the exact same form as of the time of the interview.</item>
+              <item>He owned at some point 165 US patents, unsure if he still owns this many. RCA attempted to sue him for some of the patents but he did not lose a single case.</item>
+              <item>He developed a serum for hemolytic streptococcus while working with the University of Pennsylvania, which had been incurable previously.  He says that the loss of his second son to hemolytic streptococcus motivated him to work in the field of medicine.</item>
+              <item>He believes that television is beginning to hurt the peripheral vision of children and envisions a television experience in which you would simply be able to walk into the virtual projection rather than watching it on a screen.</item>
+              <item>He thanks Roy N. Bishop, W.W. Crocker, Joseph Feagen (unsure on spelling), because they were his initial backers in his research and development of the television.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">7</container>
+            <unittitle encodinganalog="title">"Interview with Frank Smith at our home in Holladay, Ut." 2/6/70 Side 2.</unittitle>
+            <unitdate>1970</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>His wife continues to reflect on the time that they spent working on the television.  She says his charisma and self-confidence were infectious and helped to draw financial backers.</item>
+              <item>She talks about his hope to help the world with his invention of a fusion energy source, specifically those who are in worse positions.  He believes that this invention specifically could help to provide food in places that struggle to grow it.</item>
+              <item>His wife says that they moved to Fort Wayne, Indiana because at that point there were not guidelines in place that allowed for enough airwaves available for commercial television to have legs at that point. </item>
+              <item>They needed money while that was worked out, so they helped to manufacture radios.  They left there in either late 1939 or early 1940 to allow Philo to regain his health in Maine.</item>
+              <item>In Maine he worked on lumber production for World War 2, as well as fusion technology, and even some work on jet planes.</item>
+              <item>They moved to Salt Lake City in 1968 because KSL and David McKay wanted to make a documentary on Philo.</item>
+              <item>During his portion of the interview, Philo had just recovered from Pneumonia and was under heavy medication.  He struggled to talk largely because of that.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">7</container>
+          <unittitle encodinganalog="title">Disc 7</unittitle>
+          <unitdate>1974</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">8</container>
+            <unittitle encodinganalog="title">"Cy Day" 7/74 Side 1.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>"The Story of Television" by George Everson came out in 1949. Philo's wife tells the story of the first time he had health problems.  They were visiting the French Riviera at the time and had to stay for a few weeks because the doctor wouldn't release him.  George was unhappy about this and the original manuscript reflected this.</item>
+              <item>His wife and the older man she is talking with discuss a few of his old friends and what has happened to them.  The man she is talking to is difficult to understand and sounds very old.</item>
+              <item>They talk about his work ethic, how he was to work with, what he expected of others, and things like that for a little while.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">8</container>
+            <unittitle encodinganalog="title">"Cy Day" 7/74 Side 2.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>A woman is now being interviewed.  She graduated from University in 1943 and talks about her experiences with the first company she worked for K-part Farnsworth Television company.</item>
+              <item>She talks about some half tubes that she had made while working specifically with Philo, which seemed to be for demonstration not for any practical purpose. They had to be made by hand.</item>
+              <item>They talk about the difficulty of continuing Philo's fusion research now that he has died.  They say the math is too complicated and most people wouldn't be able to understand it very well.</item>
+              <item>They talk about how sharp Philo was and how it sometimes made his conversation difficult to follow because he would shift gears so quickly.</item>
+              <item>Philo's wife tells a story about how RCA drove a man to jump out of a window because of lawsuits over a patent.</item>
+              <item>His wife talks about his obsession with the future and how she found it impressive but also believes that it cut his life short.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">8</container>
+          <unittitle encodinganalog="title">Disc 8</unittitle>
+          <unitdate>1974</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">9</container>
+            <unittitle encodinganalog="title">"Cy Day" 7/74 Side 1.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Philo's wife says that his nervous breakdown in 1939 was brought on by the extra responsibility when the firm he was working with became a manufacturer as well as a research firm, giving him engineering duties in addition to what he had already been doing.</item>
+              <item>They discuss the use of tubes in various applications, including talk of using it in a radio control tower at an airport for quite a while.</item>
+              <item>After that discussion they mostly talk about people who worked with Phil and what has happened to them since.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">9</container>
+            <unittitle encodinganalog="title">"Cy Day" 7/74 Side 2.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She tells a story about how their car had died at the airport and because Ed White knew the airport manager so they were able to jump their car even though it was about 1 AM.</item>
+              <item>They talk about all the times that Farnsworth's company changed names.</item>
+              <item>They again talk about different people who worked for the company as well as stories working for the company.</item>
+              <item>She says that at one point the lab they worked in became contaminated with radioactive particles and they went on vacation for three weeks while it was being cleaned.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">9</container>
+          <unittitle encodinganalog="title">Disc 9</unittitle>
+          <unitdate>1974</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">10</container>
+            <unittitle encodinganalog="title">"Gene and Jim – Steve Blaising" 1974 Side 1.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>He began working at the company just before the United States entered World War 2.  He took motion pictures of his lab.</item>
+              <item>They talk about Phil's love of baseball and listening to it on the radio.</item>
+              <item>He recounts seeing color TV for the first time at the company in 1941 which was pretty much unheard of at that time.</item>
+              <item>They talk about Phil's procrastination when it comes to signing books.  He says that Phil left the book on his desk in his room for six weeks before it was finally returned.  Phil never read the book because it wasn't entirely complimentary.</item>
+              <item>He tells a story of when they discovered their fusion experiment was working and the joy that they all felt when they thought they had proved it was working.  A graduate student then pointed out that it was not working as they had hoped and in the end the project was unsuccessful.</item>
+              <item>They talk about Phil's impatience with the publishing process and his wife tells a story of Phil talking to Albert Einstein, who insisted that Phil push forward his math on fusion for publication.  Phil instead tried to make his fusion energy system work, and then have someone else go through the process of getting the math to be published and publicly accepted.  Unfortunately, he was unable to complete this project before he died.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">10</container>
+            <unittitle encodinganalog="title">"Gene and Jim – Steve Blaising, Jim Hiney" 1974 Side 1.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Gene first met Phil in 1959 while looking for extra overtime work.  He came over in the early afternoon and didn't leave until four thirty AM.</item>
+              <item>Jim first met Phil in 1961 because a drafter he had assigned to work with Phil left.  He was given the opportunity after the first guy had left.  Phil introduced himself to Jim after a few days of doing drafting work and Phil invited him into the basement to the lab.</item>
+              <item>They didn't receive very much funding to work on the fusion project until either late 1959 or early 1960.</item>
+              <item>One of them remembers receiving a call to come to Phil's house to work at around eleven PM.</item>
+              <item>They talk about his work attitudes and his feeling that if you weren't enjoying your work you should find a new job.</item>
+              <item>They talk about his assumption that everyone he employed was very smart and how it was both a good and bad thing.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">10</container>
+          <unittitle encodinganalog="title">Disc 10</unittitle>
+          <unitdate>1974</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">10</container>
+            <unittitle encodinganalog="title">"Gene and Jim – Steve Blaising" 1974 Side 2.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>After Phil died, one of them asked for money to continue to work on the experiment and ended up getting five thousand dollars.  Their experiments were relatively successful and the next year they were able to obtain twenty eight thousand dollars. At this point in time, the work was only going on at BYU, Illinois, and Penn State.</item>
+              <item>They say that at the end of Phil's life he was very determined to quickly make progress on his fusion research because he knew he didn't have too much longer to live.</item>
+              <item>They tell a story of Phil cleaning out a boat that they all find very funny.</item>
+              <item>He tells a story of a cookout right after Phil had some teeth pulled.  His wife got his son a steak, and got baby food for Phil and they all laugh at the story.</item>
+              <item>They talk about the difficulty of getting funding for some of Phil's projects because he often was doing things that went against what the people they were asking for funding had spent their lives working on and with.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">11</container>
+          <unittitle encodinganalog="title">Disc 11</unittitle>
+          <unitdate>1974</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">11</container>
+            <unittitle encodinganalog="title">"ITT East Gate Guard – Paul Redding" and "Don Carlos – tube dept." 1974 Side 1.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She first speaks with Paul Redding. They talk about a few people that she can go see who used to work for the company when Philo was first starting it who would have worked with him.</item>
+              <item>They talk about Phil's manners, she remarks that she had heard that he had raised his voice at work only twice in his life.</item>
+              <item>She talks to Don Carlos, who is still working on tubes.  From what is said it appears that they are in a factory or manufacturing facility of some sort as they talk.</item>
+              <item>He tells her about a variety of different tubes that were manufactured for different specific purposes.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">11</container>
+            <unittitle encodinganalog="title">"ITT East Gate Guard – Paul Redding" and "Don Carlos – tube dept." 1974 Side 2.</unittitle>
+            <unitdate>1974</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Mrs. Smith was a teacher at Eaglebrook.  Phil's younger son recounts his experience, specifically his dislike of Eaglebrook and its practices.  He said that he got through his first month at Eaglebrook by fantasizing about running away with a bag full of cookies.</item>
+              <item>World War 2 ended the summer before he went to Eaglebrook, he was ten years old at the time.</item>
+              <item>He tells a story of staying with his uncle and having someone from the FBI come to the door to ask about his uncle.</item>
+              <item>Phil's wife tells a story about living in Maine and the suspicions of the local people that they were Nazi spies, then another story about the police in Hollywood suspecting they were running a distillery.</item>
+              <item>She tells a story about when she was pregnant but didn't know it yet.  She went to a doctor initially who misdiagnosed her as having a tumor, but a second doctor correctly found that she was actually just pregnant.</item>
+              <item>He talks about losing all of his instruments when he and his brother shipped everything they owned to New York and when he got there he didn't have enough money to collect them.</item>
+              <item>He says something that Phil said to him was to give yourself a chance to solve a difficult problem by going to a quiet place to work on it.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">12</container>
+          <unittitle encodinganalog="title">Disc 12</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">12</container>
+            <unittitle encodinganalog="title">"At Cliff's house with Cliff, Arch, Harold, and Pem" 1/4/75 Side 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She says she is working on getting Phil's name in more history books because she is sad that her younger family will grow up with less evidence that he was so influential in the development of the television.</item>
+              <item>Cliff says he is unsure exactly which tubes would have been older.</item>
+              <item>Arch says that the techniques for glass blowing tubes were developed by Charlie Litten at Federal in about 1930 or 1931 and this allowed for the creation of large tubes for transmitters.</item>
+              <item>He says that he began to work for Federal in 1929 but was laid off when the lab he was working in closed due to the great depression.  He went to see Phil and began to work for him after that.
+They get into some of the more technical work that he spent time on during his early time with Phil's company.
+</item>
+              <item>Harold says he joined Phil's company in the winter of 1935 just before 1936.  He says that when Cliff picked him up from the depot after midnight they went to check out the lab before taking him home. He says that everyone except for the glass blowers were still at the lab and working.</item>
+              <item>Phil's wife tells a story about hiring a nurse to run the clean room during World War 2.  She says that a doctor that had previously operated on Phil came out to see the clean room and remarked that it was cleaner than his operating room.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">13</container>
+          <unittitle encodinganalog="title">Disc 13</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">12</container>
+            <unittitle encodinganalog="title">"At Cliff's house with Cliff, Arch, Harold, and Pem" 1/4/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She talks about the difficulty of understanding what Phil's patents actually mean.  This mostly stems from the fact that patents name what they do, but not the context for what they do in a more complex combination.</item>
+              <item>One of them remarks that they would sometimes doubt what he said but because his track record was so good they would go along with them regardless.</item>
+              <item>She tells a story of being in Germany in 1939 and their uncomfortable experience because their sailings were cancelled repeatedly.</item>
+              <item>They remark that the difficulty in writing the biography for Pem is not finding out when Phil was doing things, but finding out how that timeline related to other companies and individuals.</item>
+              <item>They talk about some of the early processes they used and developed.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">13</container>
+            <unittitle encodinganalog="title">"Steve Hafer in SLC" 6/19/75 Side 1 Part 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She tells the same story about the still in Hollywood from Disc 11.</item>
+              <item>She tells a story about people following his speaking tour, and people who followed him to each appearance he gave despite the fact that his speech was the same at each stop.</item>
+              <item>She tells the story of RCA battling in 1937 in court with Phil over who had invented television first.  They were able to call on Justin Tollman, who was his chemistry teacher as a freshman in high school in 1922.</item>
+              <item>They were able to locate him and bring him to the deposition and he was able to accurately describe and write what Phil had told him about fifteen years earlier.  RCA did not win the case and was awarded nothing, and Phil felt it was largely because of Justin Tollman.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">14</container>
+          <unittitle encodinganalog="title">Disc 14</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">13</container>
+            <unittitle encodinganalog="title">"Steve Hafer in SLC" 6/19/75 Side 1 Part 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Before Phil had a nervous breakdown in early 1941, he had licensed some of his television patents in order to not hold up the television industry as a whole.</item>
+              <item>She felt that he was very unhappy with the way the financials of the industry worked and this put a great deal of stress on him.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">13</container>
+            <unittitle encodinganalog="title">"Steve Hafer in SLC" 6/19/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She reads a first draft of her speech to a ward.  She speaks about life with Phil and their experiences together inside and out of the church.  She talks about his loss of faith for a period, but also about how he worked and hoped for a better future for mankind.  There are approximately five minutes of blank tape at the end of this.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">14</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Arch at his home" 8/24/75 Side 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Cliff tells a story of German Reich post scientists came over to learn what they could about electron multipliers, sometime in the fall of 1934 or 1935.  They disagreed on which type of multiplier was more effective, the box type or the screen type.  He made examples of both and tested them which proved that the box type was indeed more effective.</item>
+              <item>He says that in order to operate the pump, they needed liquid air.  The only way he could get it was to take a train and a ferry to Emeryville and fill up a five liter container, and then bring it back.</item>
+              <item>She tells a story of a man borrowing another's safety light and how it lead to one of them getting a 5000 volt shock.  The man who was borrowing the light was fired and the other somehow survived it.</item>
+              <item>Although he had more training than Phil, he said that he quickly found that Phil had an amazing penchant for coming up with ideas.</item>
+              <item>She tells a story of a fire at the lab and the problems with firefighting.  The lab had enough materials that were extremely sensitive to water that the fire was very difficult to get under control.</item>
+              <item>Early pictures tended to be green because they used a mineral called willemite.</item>
+              <item>There are approximately six minutes of empty space at the end of the track.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">15</container>
+          <unittitle encodinganalog="title">Disc 15</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">14</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Arch at his home" 8/24/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She talks about more mishaps between tubes exploding and sulfuric acid eating through the floor into the motor business that was beneath them.</item>
+              <item>They discuss which Mickey Mouse films they had, presumably for broadcasting of some sort.</item>
+              <item>She describes some work Phil had done for a bean company.  They had been having problems with including beans that were not good in their cans, so he developed something that would kick discolored beans off of the conveyor belt.</item>
+              <item>She says that Phil often struggled to get away from work and because of this Cliff would invite him and her on fishing trips to get him outside and out of the lab.</item>
+              <item>She tells a story of catching and mounting a 20 inch trout and says that people would look at her funny when they saw it because normally that wouldn't be big enough to mount.</item>
+              <item>He says they ran out of money for three months in San Francisco while the backers were questioning the investment.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">15</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Arch at his home" 8/24/75 Side 1 Part 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk about losing the stock that they had bought in RCA to ITT at some point but it's not totally clear what caused this.  Possibly Phil's company going under? Difficult to tell exactly what happened.</item>
+              <item>One of the men kept resolution charts from the company on glass slides.  They are all very excited about this. He also has a clip of Mary Pickford combing her hair which was the first thing they ever put on the television.</item>
+              <item>Pem recounts an agreement that Phil came to with ATT where they would pay him for the use of his patents, but he did not have to pay them for the use of theirs, which was especially significant because they owned so many.</item>
+              <item>They talk about a time where Phil was considering the use of a Black Widow web in the crosshairs of an optical system, because the web of a Black Widow is especially strong.</item>
+              <item>Pem says that Phil was extremely upset when they returned to Fort Wayne in 1948 because much of their early stuff had been thrown away.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">16</container>
+          <unittitle encodinganalog="title">Disc 16</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">15</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Arch at his home" 8/24/75 Side 1 Part 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Disc is blank, no audio.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">15</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Arch at his home" 8/24/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Disc is blank, no audio.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">16</container>
+            <unittitle encodinganalog="title">"Agnes, Laura, Pem" 8/31/75 Side 1 Part 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Disc is blank, no audio.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">17</container>
+          <unittitle encodinganalog="title">Disc 17</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">16</container>
+            <unittitle encodinganalog="title">"Agnes, Laura, Pem" 8/31/75 Side 1 Part 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem tells a story about Phil sending kids to sell kits to households.  Phil left the company that he was working for at that time because the owner accused him of stealing money.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">16</container>
+            <unittitle encodinganalog="title">"Agnes, Laura, Pem" 8/31/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>The tape is all of people talking to each other, it sounds like they must be looking at photographs.  They talk over each other and mostly remark about the photos. Because they aren't speaking specifically for the tape recorder, the context is not really explained and it's difficult to get much out of it.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">18</container>
+          <unittitle encodinganalog="title">Disc 18</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">17</container>
+            <unittitle encodinganalog="title">"Agnes and Ethyl Rush" 9/1/75 Side 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem says that Phil's father was very interested in astronomy and was constantly studying it and this knowledge was passed on to Phil.</item>
+              <item>Phil's father, Lewis, went on a mission after he had his children and his wife had a bad heart.   He went without any money or extra clothes and was able to live off of the generosity of people.  His first wife died and he then was married to a woman named Serena.</item>
+              <item>Agnes recounts learning bad words from men who were around the house because they would use them to describe pigs.</item>
+              <item>They tell a story about Phil being taken by a group of Native Americans to a ceremony after playing with a Native American boy.  He later tried to find these Native Americans to help them, but was unable to locate them.</item>
+              <item>Agnes says they spent two months together hunting squirrels one summer because the Native Americans would pay fifteen cents for a squirrel.  She says that Phil had a bow and arrow with nails attached to the arrows.</item>
+              <item>Algebra was taught to Phil by Mr. Wells, but Mr. Wells had a procedure done on his eyes that made him very uncomfortable.  Because of this, Phil helped to teach both algebra one and two one year and received extra-credit for doing so.</item>
+              <item>Agnes tells the story of Lincoln B. Farnsworth, who was born unable to really eat very well.  They thought he would die but she felt that her father's blessing saved him.</item>
+              <item>Agnes tells a story of Phil going to get a bucket of milk at age eight in heavy snow.  He took a long time to bring it back and her mother kept looking out the door.  Eventually, she saw just a bucket above the snow, as it was so deep as to almost cover him.</item>
+              <item>They all talk about Phil's ability to accomplish vast amounts of work and achieve great things.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">17</container>
+            <unittitle encodinganalog="title">"Agnes and Ethyl Rush" 9/1/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem says she has briefs of the case where Phil won the decision against RCA in the invention of the electric television. She says they spent about thirty thousand dollars defending themselves and were thankful that RCA chose not to appeal the ruling in a civil court because she and Phil didn't have much more money and would have struggled to continue to fight.</item>
+              <item>They talk about missing books of day to day office operations that they wish they could find.</item>
+              <item>Pem talks about all the different institutions looking for materials that Phil wrote or that mention him.</item>
+              <item>She is concerned that if she isn't able to find them first she will be unable to access them.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">19</container>
+          <unittitle encodinganalog="title">Disc 19</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">17</container>
+            <unittitle encodinganalog="title">"Agnes and Ethyl Rush" 9/1/75 Side 2 Part 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem says that they were unable to stand being in Maine after the house burned down, but they eventually went back and built a cabin on the pond that their house had overlooked in 1966.  At one time they owned over 3000 acres of land in Maine.</item>
+              <item>They tell stories about a man named Herb Metcalf.</item>
+              <item>They talk about Ruth and how impressed they are with her despite her struggles with age or possibly a singular incident, it's difficult to tell exactly.</item>
+              <item>About five minutes of blank tape at the end of the track.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">18</container>
+            <unittitle encodinganalog="title">"Cliff" 9/28/75 Side 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Cliff says that he remembers Mary Pickford as being the first image on television, Pem says it was Mickey Mouse because of the higher contrast.  He says the first time he remembers really believing television would be big was when he found himself subconsciously focused on the content instead of the quality of the image during 1928.</item>
+              <item>Cliff and Pem both tell a story of a Christmas party getting out of control and they laugh about it.</item>
+              <item>Pem tells a story of taking a cab from a driver who was rude and took a longer route to get more money so they ended up tipping him a nickel and then taking it back after he made a disgusted face.</item>
+              <item>Cliff remarks that he was always impressed most with Phil's ability to multi-task and handle such a huge variety and volume of tasks.</item>
+              <item>She notes that there is a large gap in Phil's journal from September to October of the year that there was a fire in the lab and asks why that might have been because he was usually so meticulous about writing regularly.</item>
+              <item>He tells a story about missing rent payments for three months and not being kicked out and says he was amazed by the generosity and trust that he was shown which he didn't expect in a bigger city</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">20</container>
+          <unittitle encodinganalog="title">Disc 20</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">18</container>
+            <unittitle encodinganalog="title">"Cliff" 9/28/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>He tells a story of losing control of a truck going down a canyon but being able to stop it by riding it up against a clay wall.</item>
+              <item>He talks about picking cherries and taking them on a ten hour drive to sell them where he would get forty or fifty dollars for them which he thought was a good price.</item>
+              <item>He tells a story of going to the opening night of the Fox Theater in San Francisco and listening to Will Rogers speak.</item>
+              <item>Pem tells a story about when they all drove down from Maine to North Carolina in their new Cadillac.</item>
+              <item>Phil put a dent in it and they all found the following exchange with the police officer to be very funny.</item>
+              <item>There are approximately four minutes of empty space at the end of the disc.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">21</container>
+          <unittitle encodinganalog="title">Disc 21</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">19</container>
+            <unittitle encodinganalog="title">"Cliff, Phil, and Pem" 9/28/75 Side 1.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>He describes the method for creating a crystal control units for radio stations, which they spent a few months creating after their lab was shut down and funding was stopped for a period of time.</item>
+              <item>They talk about the fire that destroyed a ton of equipment in their lab.  The firefighters were scared to go in because some of the chemicals had exploded due to contact with either the fire or water.</item>
+              <item>He talks about the process for creating tubes, saying that six inches was about the largest that they did at that time.  They talk about how they had considered a ten inch tube but didn't end up completing it.</item>
+              <item>He talks about experiences with tubes exploding while he was holding them as well as mercury thermometers cracking in the oven.</item>
+              <item>The same story from before about another employee taking his safety light and eventually being fired for it comes up again.</item>
+              <item>There are approximately fifteen minutes of empty space at the end of the disc.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">22</container>
+          <unittitle encodinganalog="title">Disc 22</unittitle>
+          <unitdate>1975</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">19</container>
+            <unittitle encodinganalog="title">"Cliff, Phil, and Pem" 9/28/75 Side 2.</unittitle>
+            <unitdate>1975</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She found a drawing of a flat bottom tube from 1927, but he claims that it was just a drawing and there is no way he had completed one at that time.</item>
+              <item>He says early on they made their own ovens for the tubes.</item>
+              <item>At the time they couldn't buy Cesium, so they would create it instead.  He describes their process for doing this.</item>
+              <item>He tells a story of getting potassium in his eyes and washing them out quickly to avoid damage.</item>
+              <item>They spend some time reading Phil's journal to ascertain when they were experimenting with different ideas.</item>
+              <item>There are approximately seven minutes of empty space at the end of the disc.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">23</container>
+          <unittitle encodinganalog="title">Disc 23</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">20</container>
+            <unittitle encodinganalog="title">Excerpts from Author Crawford tape Side 1.</unittitle>
+            <unitdate>No date given.</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem interviews a cousin of Philo's father.</item>
+              <item>Pem tells a story of Phil working as an electrician at the railroad one winter despite not being 21, which apparently was required. </item>
+              <item>Crawford says that when he was attending the University of Utah and taking physics classes he would often have  Phil study with him because he was so good at it.</item>
+              <item>This is a tape where Pem is playing the tape and occasionally talking over it or giving notes while it is playing.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">21</container>
+            <unittitle encodinganalog="title">"Art" 1/30/76 Side 1, Part 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem is talking to a man named Don, who began to work with Phil in February of 1936 in Philadelphia.</item>
+              <item>He says he was originally interested in the music of television but became more interested in radio electronics over time.</item>
+              <item>He talks about working with John Stagnaro on a couple of projects, included a guided missile, although it was not frequently used.</item>
+              <item>He first received a music degree from Temple University before going back to school at Purdue and receiving a degree in electrical engineering.</item>
+              <item>In 1949 he was sent to Princeton by RCA to work on the development of the color television.</item>
+              <item>He talks about various issues with color TVs from different companies at the time and its change over time.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">24</container>
+          <unittitle encodinganalog="title">Disc 24</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">21</container>
+            <unittitle encodinganalog="title">"Art" 1/30/76 Side 1, Part 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>He notes that the biggest reason that color TV had improved dramatically was due to the improvement of the lenses, not of the tubes in the television itself.</item>
+              <item>He describes the filming of a space launch.  They had to record it in case something went wrong because they did not want to broadcast a failed launch. At that time video tape recorders were just becoming available.  He says he was able to work something out with a friend of his who was working with these tape recorders at the time.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">21</container>
+            <unittitle encodinganalog="title">"Art" 1/30/76 Side 2, Part 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>He tells a story of being in China and being told to move their camera after a telephone pole partially obstructed a giant portrait of Chairman Mao.</item>
+              <item>He also recounts his experiences working with the Japanese government and different Japanese companies.</item>
+              <item>She says that Phil was very excited to work with him because of his broad range of interests.</item>
+              <item>They talk about some of the trends in the music business specifically the use of synthesizers in music.</item>
+              <item>They talk about Phil's ability to inspire others to work harder with his own great work ethic and attitude about work.</item>
+              <item>The last six minutes they listen to a couple of arrangements that he had made on records.  He says that he worked on this at the same time that he was working in the lab.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">21</container>
+            <unittitle encodinganalog="title">"Art" 1/30/76 Side 2, Part 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>The name of the track is the same but I don't believe that the man on the other tapes is the same as the man on this one.  He sounds different.</item>
+              <item>He describes a situation where they were trying to have a new metal piece built and they visited many metallurgists who after charging a consulting fee were all unable to do it.  They finally asked a local company that had done some work for them and they were able to make it work, which he found very amusing.</item>
+              <item>He moved to Las Vegas in 1931 and stayed there ever since.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">25</container>
+          <unittitle encodinganalog="title">Disc 25</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">22</container>
+            <unittitle encodinganalog="title">"Ruth L." 5/6/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Four or five people including Pem and her Son go to visit Ruth who seems to be in the hospital.  They talk about how the stocks she has can cover her medical expenses as well as a couple of other options.</item>
+              <item>They seem to record it for her to listen to later.</item>
+              <item>It's not totally clear if she's listening at the time or is sleeping.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">23</container>
+            <unittitle encodinganalog="title">"ITT" 4/23/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>She talks to someone about the things that came out of Phil's work.  He talks about something as a pattern or fault recognition device.</item>
+              <item>The iotron tube had been used in airports at some point but he doesn't know if it's still in use in this capacity.</item>
+              <item>The two men she's talking to say that ITT did not store any records other than those which are required by the IRS and are unlikely to have anything of historical value in terms of paperwork from when Phil worked at ITT.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">23</container>
+            <unittitle encodinganalog="title">"ITT" 4/23/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem talks about her experience interviewing Cliff, and how helpful he has been even though he was unsure he would remember very much.</item>
+              <item>They talk about who at ITT might be able to provide her with more information about what she's looking for.  She doesn't think she'll be able to interview him because he's leaving on vacation that evening and she won't be able to come back.</item>
+              <item>They discuss a couple of other people she could try to interview but they're unsure where these people actually are at the moment.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">26</container>
+          <unittitle encodinganalog="title">Disc 26</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">24</container>
+            <unittitle encodinganalog="title">"Skee Turner" Side 1</unittitle>
+            <unitdate>No date given.</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem talks about many people being let go when they moved from Philco. They struggle to remember how many people were kept and how many were let go.</item>
+              <item>Skee said he had a huge amount of records and photos but they burned in a fire.</item>
+              <item>Skee talks about a business agreement they had with the Baird Company and their work on another deal with a German company named Fernseh.</item>
+              <item>They talk about his negotiation on the royalty clause of the contract with the German company, and they were unable to find a deal that satisfied both parties.</item>
+              <item>They walked away from the deal initially but came back to the same company and were able to find a deal that satisfied both parties.</item>
+              <item>He talks about their anxiety to start actually moving forward with productions of television as opposed to simply research.</item>
+              <item>They talk about the start of world war two and how they had hoped that the development of the television would help to curb war in general.</item>
+              <item>There are approximately three minutes of empty space at the end of the tape.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">24</container>
+            <unittitle encodinganalog="title">"Interview with KSL man for inventors' conference" 5/76.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>RCA challenged whether Phil was the inventor of the dissector tube which powered the television. The final hearing was in 1934. She tells the story of another man jumping out the window after being sued by RCA and losing all of his money.</item>
+              <item>There is a very loud airplane that makes it difficult to hear what is said for a minute or so.</item>
+              <item>Before the interview itself, you get to hear them discuss what they will talk about in the interview.</item>
+              <item>Dr. Zworykin challenged that he had developed the tube before Phil, but through cross questioning they found out that he was unaware how his tube actually worked.  RCA believed that Phil could not have possibly developed his tube as a thirteen to fifteen year old.</item>
+              <item>Pem says that Phil would sympathize with inventors in the United States because it is so difficult to fight a large corporation because the inventor must give so much control to the company that helps to finance them.</item>
+              <item>She discusses his other inventions as well as his television related patents.</item>
+              <item>She tries to describe his habits and thought processes and the way that he worked on inventions.</item>
+              <item>She talks about his disinterest in writing papers or articles and how it contributed to his lack of credit for many of his inventions.</item>
+              <item>They look through a photo album that Pem has and they decide on pictures that will be used.</item>
+              <item>She says that working in a small group helped Phil's ability to complete his television project because they didn't have many of the same guidelines and rules that restricted what the engineers at larger companies were able to do.</item>
+              <item>She once again begins to talk about photos that she is showing the interviewer.</item>
+              <item>The last few minutes of the tape are blank, it is unclear if they forgot it was running or what happened.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">27</container>
+          <unittitle encodinganalog="title">Disc 27</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">25</container>
+            <unittitle encodinganalog="title">"Herman Phleger at Sutter St. office, S.F." 5/7/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They went to Philadelphia to set up Philco's laboratory because they were the first company to license many of Phil's patents.</item>
+              <item>They left after a couple of years to go to Fort Wayne, Indiana to form Farnsworth television to manufacture their own televisions.</item>
+              <item>They talk about one of the men who sold his stock just before it dropped significantly and was accused of insider trading, although it was found to just be coincidence in the end.</item>
+              <item>They talk about some investors who ended up not really making any money but helping to finance some of Phil's work.</item>
+              <item>They talk about a time where all the holders of stock in the company put forth a proportionate amount of money to build the laboratory.</item>
+              <item>They talk about corporations in California and how they used to not be limited liability until they realized that this was really hindering their ability to attract corporations because of stockholder liability.</item>
+              <item>He says that Phil was very fortunate to come into contact with responsible decent investors who didn't take advantage of him.</item>
+              <item>The last few minutes of the disc are blank.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">26</container>
+            <unittitle encodinganalog="title">"EXEL – 90 Mins. – Frances Critchlaro, Philo, and Pem" 5/25/76 Side 1, Part 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Frances says Phil was in 6th grade when he came to Rigby, Idaho.  She says that this was just after the end of World War 1 and there was an influenza epidemic around the same time.</item>
+              <item>Frances taught Phil music in 7th, 8th, and 9th grade, but only taught him for home room in 6th grade.</item>
+              <item>Pem tells a story about Phil making cream puffs and having a bottle of turpentine in the cupboard above that must have been poured in.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">28</container>
+          <unittitle encodinganalog="title">Disc 28</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">26</container>
+            <unittitle encodinganalog="title">"EXEL – 90 Mins. – Frances Critchlaro, Philo, and Pem" 5/25/76 Side 1, Part 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Very short part, only five minutes.</item>
+              <item>They talk about who was principle at the time and why she left the school, which she says was because they cut the music program.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">27</container>
+            <unittitle encodinganalog="title">"At Jim Heiniyo – Fusor Group" 7/76</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk to Cy Day who is difficult to understand.</item>
+              <item>There are multiple people talking in the background and the conversation is often less focused than in many of the other interviews.</item>
+              <item>Because of the people speaking in the background and jumping in and out of the conversation, it's often difficult to hear what is said.</item>
+              <item>After about twenty minutes, the setting changes and there are no longer other people talking in the background.</item>
+              <item>They get into some of the specifics of Phil's beliefs relating to what was most efficient in terms of energy.</item>
+              <item>They talk a little bit about some of the things they built and the designs.</item>
+              <item>There are approximately forty minutes of blank space at the end of the track.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">29</container>
+          <unittitle encodinganalog="title">Disc 29</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">26</container>
+            <unittitle encodinganalog="title">"EXEL – 90 Mins. – Frances Critchlaro, Philo, and Pem" 5/25/76</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Blank CD no audio.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">30</container>
+          <unittitle encodinganalog="title">Disc 30</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">27</container>
+            <unittitle encodinganalog="title">"At Jim Heiniyo – Fusor Group" 7/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk about a man named Charlie who sold his business for two or three million dollars and how frugal he and his wife were when they were first married.</item>
+              <item>They seem to be at a party of sorts or something and people keep coming up and talking to them.  Much like the first side of this tape, it makes it a little bit harder to follow.</item>
+              <item>Pem says that someone has decided to make a made-for-television movie about Phil's life.</item>
+              <item>One of them talks about the development of the Fusor and how many of the things that are taken for granted now were things that they figured out during that time.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">28</container>
+            <unittitle encodinganalog="title">"Fritz Furth at Belines" 8/24/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Fritz talks about his experiences with Phil.  He recalls that Phil was called into his office to help design a specific tube that they needed.  The tube was designed to help in the navigation of airplanes.</item>
+              <item>They talk a little bit about the iotron tube and its various applications and the struggles they had in creating and building it.  EGG was the main purchaser of the iotron tube during this time.</item>
+              <item>He talks about a couple of presentations that they put together and talks about how some people thought it had real potential and others were highly skeptical.</item>
+              <item>Pem talks about the difficulty of crediting Philo with all that he did while not stretching the truth and maintaining credibility.</item>
+              <item>They talk about what they believe contributed the most to Phil's victory over RCA in regards to the invention of the image dissector tube.  They had both thought that it was primarily because of Justin Tollman's ability to recall what Phil had told him, but were surprised that another source had claimed that it was mostly because of Professor Zworykin's inability to produce a working dissector tube of his own.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">31</container>
+          <unittitle encodinganalog="title">Disc 31</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">28</container>
+            <unittitle encodinganalog="title">"Fritz Furth at Belines" 8/24/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>He says that he has a picture of Phil with the Fusor which Pem is excited about since she believes she had lost her only picture of him with the Fusor.</item>
+              <item>They talk about Phil's math frequently confusing them and the difficulties that this caused at times.</item>
+              <item>This is a short track, only about seven minutes.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">29</container>
+            <unittitle encodinganalog="title">"At Tobe Rutherford's – Tobe, Philo III, Rem" 8/25/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk about Phil flying east to make a presentation to Bell Labs and the difficulty that cross-country flights had at the time.  Pem says there was a storm that forced them to land and take part of the trip by train.  It's not entirely clear whether they are saying that this is what happened, but they talk about passengers being brought along on mail planes for a period of time.</item>
+              <item>They talk about Bell Labs, who were interested in Phil's work and had increased cesium sensitivity dramatically in one of their products.  This was important because cesium was difficult to obtain.</item>
+              <item>Tobe tells a story about Phil leaving for a week and while he was gone everyone in the lab was fired.</item>
+              <item>Tobe says he was laid off for about a month after this and that it was the longest he was ever laid off.</item>
+              <item>Tobe tells a story about Phil's fixing a major problem and how surprised they were that he was able to solve it rather simply.</item>
+              <item>Tobe talks about Phil's belief that everyone he hired was working with him, not for him.  He also says that they were not worried about layoffs partly because of Phil's attitude and ability to lead them.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">29</container>
+            <unittitle encodinganalog="title">"At Tobe Rutherford's – Tobe, Philo III, Rem" 8/25/76 Side 2 Part 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Tobe tells a story about a man named Baird (?) who toured their facility and saw their setup but didn't believe it would work.  They laugh about his reaction when Phil demonstrated it for him because he had made a somewhat snarky remark just before.</item>
+              <item>They talk about Phil not getting the credit he deserved primarily because he was not particularly concerned with getting any of his ideas published in academic journals.</item>
+              <item>Tobe talks about Phil's invention of the television tube and says that he took a fundamentally different approach than most did.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">32</container>
+          <unittitle encodinganalog="title">Disc 32</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">29</container>
+            <unittitle encodinganalog="title">"At Tobe Rutherford's – Tobe, Philo III, Rem" 8/25/76 Side 2 Part 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk about Ski and although they all say he wasn't usually an integral part of the business, they recount a story where he was able to shift an early negotiation in England dramatically in their favor.</item>
+              <item>They talk about the end of Phil's time at Philco and how unhappy the company was when he left.</item>
+              <item>Tobe tells a story about Philco trying to license RCA patents for less than they should by selling items from one company to another rather than directly to consumers because the price for licensing was based on income.  This didn't work.</item>
+              <item>At that time, Philco was licensing radio patents from RCA and television patents from Farnsworth, giving them advanced royalties on projected sales under the condition that the Farnsworth lab would move to Philco.</item>
+              <item>After the television research had sufficiently developed, they brought in their own engineers and tried to ensure that eventually they would no longer need to give these advances to Farnsworth.</item>
+              <item>Tobe believed that the company board at Philco was extremely interested in getting in early on the television, not necessarily one main person unlike at RCA where Sarnov was clearly the most interested.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">30</container>
+            <unittitle encodinganalog="title">"At Tobe Rutherford's – Tobe, Philo III, Rem" 8/25/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They spend time talking about the current state of people that worked on the television project with them.</item>
+              <item>There are twenty six minutes of blank space at the end of the tape.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">33</container>
+          <unittitle encodinganalog="title">Disc 33</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">31</container>
+            <unittitle encodinganalog="title">"Alice Yarish, Examiner Interview" 8/26/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Sound quality is very poor, lots of background noise.</item>
+              <item>Alice is interviewing Philo III and Pem, asking them what they plan to do for the fiftieth anniversary of the invention of television.  They plan to use original parts to demonstrate what Phil had created.</item>
+              <item>The tape is of them being interviewed, not the interview itself.  They often talk to Alice, she tells people to take pictures, and there is other cross talk as well.</item>
+              <item>This demonstration is scheduled for September 7th, 1976. They first projected a straight line because it was easily distinguishable from the horizontal noise of the early projections.</item>
+              <item>They seem to show her some of the materials but are very cautious about showing it to her because it is so fragile.</item>
+              <item>The photographer takes a number of pictures, which is apparent because of the sound of the camera shutter in the background.</item>
+              <item>The tube that they have at the moment is made by Cliff, as were the original tubes.</item>
+              <item>Philo describes Cliff's background to Alice, helping to explain where he came from and how he became what he is now.</item>
+              <item>They plan to host media and people who worked in the Farnsworth shop originally at the demonstration on September 7th, but from the 8th going forward he says that there will be an ongoing exhibit in the museum.</item>
+              <item>They talk about a man named Paul Schatzkin who is interested in working with them on a made for TV movie about Phil and the invention of the television.</item>
+              <item>They describe to Alice the RCA lawsuit against Farnsworth and how it worked and why Farnsworth was able to win despite much less money.</item>
+              <item>They talk about efforts to create a plaque or memorial of sorts at the place where Phil invented the television tubes in San Francisco.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">31</container>
+            <unittitle encodinganalog="title">"Alice Yarish, Examiner Interview" 8/26/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem says that she and Phil weren't planning on getting married so soon, but because George Everson invested his money in Phil and wanted him to come to California, they got married so she could come with him.</item>
+              <item>Before Phil received backing from George Everson, it was very difficult to find work in Salt Lake City because of the depression.  He was able to find odd work doing electrical jobs but overall struggled to make much money.</item>
+              <item>Alice reads them part of the article that suggested commemoration of Phil's invention in the form of a plaque and it was written by someone different than they had believed it to be.</item>
+              <item>Philo III talks about his interest in creating a modular, mass producible house that will allow for much cheaper single-family dwellings.</item>
+              <item>Pem talks about her sons' ability to play a variety of musical instruments.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">34</container>
+          <unittitle encodinganalog="title">Disc 34</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">32</container>
+            <unittitle encodinganalog="title">"Cliff to 52 Russings; Russ' letters" 11/12/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They go through some poetry, some of which is Russell's.</item>
+              <item>They listen to a record of a man singing, which may be Russell but it's not clear from the dialogue.</item>
+              <item>They continue to listen to him sing a few songs, sometimes the man sings alone, sometimes with others. He sings for about fifteen minutes.</item>
+              <item>Pem reads a letter or summary of Phil's early work, with a focus on Russell and how he came to work for Phil and what he learned while working for him.  It describes the actual process for television transmission as well.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">32</container>
+            <unittitle encodinganalog="title">"Cliff to 52 Russings; Russ' letters" 11/12/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem continues to read Russ' letters, which talk more about the process of the electric television as well as some of what he was working on for Phil.</item>
+              <item>It's not clear whether she is reading only letters or another narrative that goes along about the letters as well.</item>
+              <item>A woman tells a number of stories about Russell's family heritage.  These stories lead up to the birth of Russell after talking about his parents' work and life in the United States.  They sold eucalyptus oil and were not especially successful but made enough to survive.  She talks about their continuing struggle to find employment.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">35</container>
+          <unittitle encodinganalog="title">Disc 35</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">33</container>
+            <unittitle encodinganalog="title">"Sam Smith" 11/24/76 Side 1, Part 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem talks about being approached by various institutions because of Phil's papers, and having to tell them that she was still using them.</item>
+              <item>The man Pem is talking to was a lawyer for RCA and worked on the interference cases filed against Phil.</item>
+              <item>He talks about the mutual respect that he and Phil had for each other and that Phil was able to avoid taking the legal action personally.</item>
+              <item>They talk about a variety of the cases, talk about the timeline, and a couple of other things.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">33</container>
+            <unittitle encodinganalog="title">"Sam Smith" 11/24/76 Side 1, Part 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Sam guesses that there were between twenty and thirty interference cases between Farnsworth and RCA.</item>
+              <item>He believes that RCA won most of the interference cases, when Pem believes that RCA had not won a single case.  It's hard to understand how they could have differing opinions on this, but they do.</item>
+              <item>Philo III and Pem talk to him for a while about how to obtain patent files from the patent office that should contain more complete information than what they have at the time of the interview.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">36</container>
+          <unittitle encodinganalog="title">Disc 36</unittitle>
+          <unitdate>1976</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">33</container>
+            <unittitle encodinganalog="title">"Sam Smith" 11/24/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Mr. Smith talks about Farnsworth's system and says that it wasn't very effective in terms of quality and that he believes that was the reason it wasn't as successful as some other systems.</item>
+              <item>Mr. Smith talks them through some of what the actual patent interference results mean, which sometimes differ from what they had understood.</item>
+              <item>They continue to disagree on some of the points and their relevance.  He believes that some of the claims were drawn too broadly and although Farnsworth had won many of the interferences, his system wouldn't work in the way that modern television needs to function.</item>
+              <item>Most of their disagreements seem to come from a difference of opinion about the quality of Farnsworth's system compared to other systems from that same time.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">34</container>
+            <unittitle encodinganalog="title">"A.H. Brolly at his house, PTF, EGF, AHB" 6/11/76 Side 1.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Arch has been talking to them about a man named Albert Abramson who is writing a book about the history of television who may contact them.</item>
+              <item>They talk about the conversation that they had with Mr. Smith but still disagree with much of what he said and clearly believe he was being disingenuous for much of their conversation.</item>
+              <item>They talk about Zworykin touring their lab and seeing some of the things they were doing with glass tubes he was impressed by what they were able to accomplish.</item>
+              <item>They talk about George Everson who is 92 at this point and had recently had a minor stroke.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">37</container>
+          <unittitle encodinganalog="title">Disc 37</unittitle>
+          <unitdate>1976-77</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">34</container>
+            <unittitle encodinganalog="title">"A.H. Brolly at his house, PTF, EGF, AHB" 6/11/76 Side 2.</unittitle>
+            <unitdate>1976</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Very heavy bass sound makes it difficult to hear exactly what is said at the very beginning, this is quickly fixed.</item>
+              <item>Arch talks about a nitrate film that caught fire in the projector room while they were working on a film at the green street lab.</item>
+              <item>They look through some of his notes trying to figure out exactly when certain things happened, after remarking that it's been very difficult to pin down exactly when some things happened.</item>
+              <item>They talk about Justin Tollman who is still working.  They lament that it was difficult to get ahold of him as his wife was quite ill and he was awfully busy.</item>
+              <item>They briefly talk about Tobe Rutherford, Pem explains that because his wife had fallen ill he was working again.</item>
+              <item>Pem and Arch talk about the layout of the Green Street lab for a bit, trying to decide where rooms were in relation to each other and to the streets.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">35</container>
+            <unittitle encodinganalog="title">"Arch Brally" 6/21/77 Side 1, Part 1.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem talks about Phil's hope that she could become interested in what he was working on and help so that they would have it in common.  She says that she was always happy to have a chance to work on it with him and the other employees.</item>
+              <item>She talks about the movie industry's interest in television and how well they were treated by people in the movie industry when they believed that television might be the next big thing.</item>
+              <item>They talk through a number of pictures, explaining the significance as well as who is in them and where they were taken.</item>
+              <item>They talk about some of Phil's other interests besides television, getting into his ideas of getting the virus out of the water, fusion, and other issues.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">38</container>
+          <unittitle encodinganalog="title">Disc 38</unittitle>
+          <unitdate>1977</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">35</container>
+            <unittitle encodinganalog="title">"Arch Brally" 6/21/77 Side 1, Part 2.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem tells a short story about how Phil became interested in working on fusion.</item>
+              <item>They talk about some of the issues that Phil faced early in his work on the television tube and Pem remarks that perhaps his best quality was that he simply believed that he could achieve what many others had thought was not possible.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">35</container>
+            <unittitle encodinganalog="title">"Arch Brally" 6/21/77 Side 1, Part 1.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk for a little bit about the difficulties of inventing as a profession, especially the money side of things.</item>
+              <item>Pem talks about his true passion for his ideas and how she believed that helped him to be more successful because his ability to communicate his belief in himself came through.</item>
+              <item>They talk a little bit about George Everson's book on the subject of the invention of television but criticize it for exaggerating his role and for some of his ideas about Phil.</item>
+              <item>They talk to her a little bit about trying to coordinate efforts to get news attention for their demonstration in September, but she wants to run the news story much sooner than that.</item>
+              <item>The last minute of the track is basically silent.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">36</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Philo III" 6/11/77 Side 1, Part 1.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Cliff describes the process that they will be using for the September demonstration.  This is highly technical and Pem and Philo III ask a number of questions to clarify.</item>
+              <item>Cliff seems a little skeptical about their ability to actually execute this demonstration.</item>
+              <item>They talk through some of their early designs for parts of the television tube and what worked and what didn't work as well or at all.</item>
+              <item>They talk through some of the layout of the lab and when Cliff moved and where everything else was situated.</item>
+              <item>Cliff tells the story about having to wash out his eyes after getting chemicals in them, trying to back up his story of where sinks and things were located in the building at that time.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">39</container>
+          <unittitle encodinganalog="title">Disc 39</unittitle>
+          <unitdate>1977</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">36</container>
+            <unittitle encodinganalog="title">"Cliff, Pem, and Philo III" 6/11/77 Side 1, Part 2.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Cliff talks about his system for dispersing noble gases that he had developed in the early days of the lab.</item>
+              <item>This is a short segment, only about seven minutes long.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">36</container>
+            <unittitle encodinganalog="title">36. "Cliff, Pem, and Philo III" 6/11/77 Side 2.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Cliff shows them a number of his patents in work related to television throughout his career.</item>
+              <item>Cliff talks about an invention that would help with the transmission of television and how RCA had a very similar invention but were unable to actually get it to work because they missed something fundamental about how it operated.</item>
+              <item>Cliff talks about a tube he invented that were still in heavy production at the time of the interview that were extremely profitable because of its remarkable stability that made it very popular.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">37</container>
+            <unittitle encodinganalog="title">"Harriet Stix, L.A. Times" 6/27/77 Side 1 cont., Part 1.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Philo III and Pem are being interviewed for a news story.</item>
+              <item>Pem talks about 1939, when the Farnsworth company began to manufacture equipment in Fort Wayne, Indiana.</item>
+              <item>When Farnsworth became a subsidiary of ITT, Farnsworth began to work on other projects instead including his nuclear research.  ITT moved the production of televisions to Europe at that time.</item>
+              <item>Pem and Philo III talk for a little bit about the invention of electric television, the various claims by different people and their feelings about these claims.</item>
+              <item>Philo and Pem talk about the expiration of some of the Farnsworth patents before they were extremely profitable because of World War II.</item>
+              <item>The earliest investors made a reasonable return but cashed out quickly.</item>
+              <item>The first time that RCA ever paid a royalty was to Farnsworth after it was found that the image orthicon tube infringed on Farnsworth patents and they were forced to take a license.</item>
+              <item>Philo talks a little bit about what he is currently working on outside of the book, which is a cheaper modular house that he envisions helping to replace apartment living.</item>
+              <item>They talk about Phil's general disinterest in television programming, but remark that he was most struck by witnessing the moon landing and that he found it especially spectacular.</item>
+              <item>They've currently signed a contract for a made for TV movie, but a major network has yet to pick it up at the time of the interview.  They question whether or not some of this is motivated by the somewhat controversial nature of the invention and early days of television.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">40</container>
+          <unittitle encodinganalog="title">Disc 40</unittitle>
+          <unitdate>1977</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">37</container>
+            <unittitle encodinganalog="title">"Harriet Stix, L.A. Times" 6/27/77 Side 1 cont., Part 2.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk a little bit about David Sarnoff and his actions leading up to the interference case.  They believe that these demonstrated pretty clearly that he was not involved in the invention of television.</item>
+              <item>The track is about fourteen minutes long, but the audio stops after two minutes and there are approximately twelve minutes of blank tape.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">37</container>
+            <unittitle encodinganalog="title">"Harriet Stix, L.A. Times" 6/27/77 Side 2.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk about the financial backers who financed Phil's labwork initially.  Philo believes that the quality of these backers, who mostly came from banking backgrounds, indicated the quality of his father's work.</item>
+              <item>Pem talks about Phil's early life and his interest in electronics from a young age.</item>
+              <item>Philo recounts the story of Phil and Justin Tolman and their interactions during Phil's first year of high school in Rigby, Idaho.</item>
+              <item>From the time Phil was 14 until he was almost 19, he worked odd jobs and things like that to help his family, which was suffering due to the Great Depression.</item>
+              <item>Pem and Phil were married when they were 18 and 19, respectively.  They had planned on waiting to be married but because Phil had to move to San Francisco to work on the television, they were married on only three days' notice.</item>
+              <item>At the time, all of the larger companies were working on a mechanical television involving what Philo and Pem refer to as a scanning disk.  This was not working well at the time, primarily because they say that the disk could not be made to spin fast enough, nor could it be machined precisely enough.</item>
+              <item>Although it worked, it could only create a picture of 30-40 lines, leaving the picture very difficult to see.
+The last seventeen minutes are blank.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">41</container>
+          <unittitle encodinganalog="title">Disc 41</unittitle>
+          <unitdate>1977-78</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">38</container>
+            <unittitle encodinganalog="title">"Agnes and Laura at Larkspur" 1977 Side 1.</unittitle>
+            <unitdate>1977</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>They talk about one of their friends who often tells people about the invention of television, and her experience hearing the same story from a husband of a friend because his family had been doing reporting in North Hollywood at the time.</item>
+              <item>They talk a little bit about how they believe Phil may have been targeted a little bit by the RFC, which was a government agency that refused to help give money to Farnsworth after World War II.</item>
+              <item>They talk a little about RCA's offer to buy out Farnsworth and the discrepancy in what different people believed that RCA offered, some claiming that it was as high as one million dollars, which Pem disputes.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">39a</container>
+            <unittitle encodinganalog="title">"Ron and Pem" 2 tapes, 3 sides Side 1, Part 1. 10/22/78</unittitle>
+            <unitdate>1978</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Ron says that just before he was working for Phil, he had been a merchant marine.  The amount of time that it would take for him to be promoted had doubled due to an act that had just come into effect.</item>
+              <item>Because of this, he was less interested in sailing and thought that the job would be a good opportunity.</item>
+              <item>They talk a little bit about the lab they were in at the time, its layout, and the fire.</item>
+              <item>He says that he was convinced by Tobe and Phil to stay behind in San Francisco and keep working with them.</item>
+              <item>He talks about how he became interested in machine work in the first place, during his childhood.</item>
+              <item>He says that he remembers when Dr. Zworykin came to visit Phil at his lab and how surprised he was when Zworykin tried to claim some of Phil's inventions as his own.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">42</container>
+          <unittitle encodinganalog="title">Disc 42</unittitle>
+          <unitdate>1978</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">39a</container>
+            <unittitle encodinganalog="title">"Ron and Pem" 2 tapes, 3 sides Side 1, Part 2. 10/22/78</unittitle>
+            <unitdate>1978</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Ron talks about people's early misconceptions about television, and failure to understand the possibilities for it.</item>
+              <item>Ron felt that in some of their first demonstrations Phil was too willing to allow others to try to help and it ended up reducing the quality of their earliest projections.</item>
+              <item>Ron says that Zworykin offered Cliff a job when he visited Phil's lab, not realizing how close he was to Phil.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">39a</container>
+            <unittitle encodinganalog="title">"Ron and Pem" 2 tapes, 3 sides Side 2. 10/22/78</unittitle>
+            <unitdate>1978</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Ron talks about the camaraderie between those who were working in the lab in the early days.</item>
+              <item>Pem and Ron both agree that Phil's interest in doing things that were commonly believed to be impossible or improbable was a perfect match for the close-knit dynamic of the group.</item>
+              <item>They talk about the incredibly delicate process for creating some of the tubes for more uncommon designs.</item>
+              <item>Pem talks about Phil's relationship with Philco and how it became strained after they would not allow him to return to Provo for the funeral of his son.  She says that they were under immense pressure at the time because they were trying to establish their independence from RCA in television, which they had previously been unable to do in regards to radio.</item>
+              <item>They both talk about their relationships with George Everson and a man named McCarter, and McCarter's feelings about those who worked in the lab, specifically Tobe who he felt was under qualified.</item>
+              <item>They talk about everyone getting laid off at Philco and how when they tried to re-hire everyone they were all unhappy with the situation and most would not go back without Phil.</item>
+              <item>Pem believes that eventually RCA said that Philco could only license RCA's radio patents if they also used their television patents.  This was highly detrimental to Philco but they had little choice because most of their income was from radios at that time.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">43</container>
+          <unittitle encodinganalog="title">Disc 43</unittitle>
+          <unitdate>1978</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">39b</container>
+            <unittitle encodinganalog="title">"Ron and Pem" 2 tapes, 3 sides. 10/22/78</unittitle>
+            <unitdate>1978</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Pem says that Ski Turner and Phil had talked about trying to only license patents rather than manufacture any products, but the investors felt that there would not be enough money in it and pushed for the manufacture of television.</item>
+              <item>They talk about what they believe was very poor management at Philco that resulted in nobody making very much money.</item>
+              <item>Pem talks about a time where a lawsuit required Phil to stay in New York City for over a month, although it was eventually decided that pursuing the lawsuit was a waste of time.</item>
+              <item>Pem tells a story about a neighbor who warned them about a bank run, but Phil refused to contribute to it.  She says that their bank never reopened and they had only 10$ at that time, but that Phil soon received a large check in the mail and it was okay.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">44</container>
+          <unittitle encodinganalog="title">Disc 44</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">40</container>
+            <unittitle encodinganalog="title">"Bob and Paul, #4" Side 1</unittitle>
+            <unitdate>Undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Disc is blank.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">40</container>
+            <unittitle encodinganalog="title">"Geo Everson" Side 2</unittitle>
+            <unitdate>Undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Disc is blank.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="disc">45</container>
+          <unittitle encodinganalog="title">Disc 45</unittitle>
+          <unitdate>Undated</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="track">41</container>
+            <unittitle encodinganalog="title">"KSL, Interview with Rich Finderson – Kent and Pem"</unittitle>
+            <unitdate>Undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>This is an interview with KSL that lasts about ten minutes and covers some of the basic stuff related to their relationships with Phil and his inventions.  She talks about their relationship and how she felt about him and his inventing.</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">42</container>
+            <unittitle encodinganalog="title">"Frank Smith Interview, University of Utah, PTF and EQF"</unittitle>
+            <unitdate>Undated</unitdate>
+          </did>
+          <scopecontent encodinganalog="description">
+            <list type="simple">
+              <item>Phil sounds very old at the time of the interview, he speaks very slowly and struggles to enunciate.</item>
+              <item>He talks about his work in nuclear research and his expectations for his success.</item>
+              <item>He talks about his work on a serum for hemolytic streptococcus, and how his desire came from the death of his son from the virus.</item>
+              <item>He talks about removing the screen from television and instead creating a virtual reality environment of sorts.</item>
+              <item>He thanks all of his original backers as well as his wife.</item>
+              <item>Pem talks about Phil's work on fusion energy and his hopes for the impact he believes this can have on the world.</item>
+              <item>They talk through their timeline together, where, when, and why they moved over the years and what Phil was working on.</item>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

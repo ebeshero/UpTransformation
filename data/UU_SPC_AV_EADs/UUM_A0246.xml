@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0246::Joel Rosenberg audio collection)//EN" encodinganalog="identifier" identifier="80444/xv66851" url="http://archiveswest.orbiscascade.org/ark:/80444/xv66851">UUM_A0246</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Joel Rosenberg audio collection
+				<date era="ce" calendar="gregorian" normal="1982" encodinganalog="date">1982</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Rosenberg (Joel) audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Molly Creel</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel, 
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0246</unitid>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Rosenberg, Joel</persname>
+      </origination>
+      <unittitle encodinganalog="title">Joel Rosenberg audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1982" certainty="approximate" encodinganalog="date">1982</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">1 compact disc</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Joel Rosenberg audio collection (1982) consists of audio recordings of Mormon hymns arranged for viola and piano.  The recordings feature Rosenberg on viola and were orchestrated by the pianist, David Bonham.  Joel Rosenberg is the music director of the American West Symphony of Sandy City and the Paradigm Chamber Orchestra and has been viola soloist with numerous symphony orchestras and has conducted orchestras around the world, including the Utah Opera.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Joel Rosenberg graduated from the Julliard School of Music and received a Fulbright Grant to study in Rome.  While studying in Italy he received a Certificate of Merit from the Accademia Musicale Chigiana in Siena.  Current Music Director of Utah's Paradigm Chamber Orchestra and the American West Symphony in Sandy, UT, Rosenberg has conducted the Utah Opera as well as symphonies and ballets around the world, including orchestras in California, New Mexico, Oregon, Arizona, Australia and New Zealand.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Joel Rosenberg audio collection (1982) consists of audio recordings of Mormon hymns arranged for viola and piano and published on the album <title render="italic">Beautiful Mormon Hymns: The Day Dawn is Breaking</title>.  The recordings feature Rosenberg on viola and were orchestrated by the pianist, David Bonham.  The recordings in this collection were dubbed from the original reel-to-reel audiotapes as well as the published record album.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged as original published.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Joel Rosenberg audio collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Joel Rosenberg audio collection A0246.
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0246.</p>
+    </prefercite>
+    <acqinfo>
+      <p>Donated by Joel Rosenberg in 2011.</p>
+    </acqinfo>
+    <processinfo>
+      <p>Processed by Molly Creel in 2012.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">Church of Jesus Christ of Latter-day Saints</corpname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <subject encodinganalog="subject" source="lcsh">Conductors</subject>
+      <subject encodinganalog="subject" source="lcsh">Viola</subject>
+      <subject encodinganalog="subject" source="lcsh">Hymn tunes</subject>
+      <subject altrender="nodisplay" source="archiveswest">Music</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Beautiful Mormon Hymns: The Day Dawn is Breaking</title>
+          </unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1982</unitdate>
+          <physdesc>
+            <genreform>Compact disc</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Joel Rosenberg, viola.  David Bonham, piano and orchestration.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="track">1</container>
+            <unittitle encodinganalog="title">"The Day Dawn is Breaking"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">2</container>
+            <unittitle encodinganalog="title">"Beautiful Zion For Me"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">3</container>
+            <unittitle encodinganalog="title">"Today, While the Sun Shines"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">4</container>
+            <unittitle encodinganalog="title">"There is Sunshine in My Soul Today"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">5</container>
+            <unittitle encodinganalog="title">"Abide with Me; Tis Eventide"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">6</container>
+            <unittitle encodinganalog="title">"Abide With Me"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">7</container>
+            <unittitle encodinganalog="title">"A Poor Wayfaring Man of Grief"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">8</container>
+            <unittitle encodinganalog="title">"Let Us Oft Speak Kind Words"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">9</container>
+            <unittitle encodinganalog="title">"Jesus, Savior, Pilot Me"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">10</container>
+            <unittitle encodinganalog="title">"Though Deepening Trials"</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="track">11</container>
+            <unittitle encodinganalog="title">"Sing We Now at Parting"</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

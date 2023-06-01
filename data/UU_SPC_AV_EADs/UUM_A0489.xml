@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:43 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0489::Lennox Tierney interviews audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv02902" url="http://archiveswest.orbiscascade.org/ark:/80444/xv02902">UUM_A0489</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Lennox Tierney interviews audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1994/1997" encodinganalog="date">1994-1997</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Tierney (Lennox) interviews audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Elizabeth Shuput.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Elizabeth Shuput
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0489</unitid>
+      <unittitle encodinganalog="title">Lennox Tierney interviews audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1994/1997" encodinganalog="date">1994-1997</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Tierney, Lennox</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">9 audiocassettes, 1 VHS videocassette.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Lennox Tierney interviews audio-visual collection (1994-1997) concern Tierney's experiences as an orientalist.  Dr. Tierney is an emeritus professor in art history at the University of Utah and an expert in Asian art and culture who once served as Commissioner of Art and Monuments during the Allied occupation of Japan.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Dr. Lennox Tierney is a Japanologist academic in the field of art history, an emeritus professor at the University of Utah, a former Curator of Japanese Art at the Utah Museum of Fine Arts, a former Director of the Pacific Asia Museum, and former Commissioner of Art and Monuments during the Allied occupation of Japan (1945-1952).</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Lennox Tierney interviews audio-visual collection (1994-1997) concern Tierney's experiences as an orientalist. The interviews were conducted by Bonnie Balisteri, Elna Watts, and Cathy Edens Memmott.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chronologically by interview date.  The numbers announced on the tapes will not match the numbers labeling the tapes starting with item 3.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Lennox Tierney papers (Accn 1180).</p>
+    </relatedmaterial>
+    <processinfo>
+      <p>Processed by Elizabeth Shuput in 2004.</p>
+    </processinfo>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Japan</geogname>
+      <subject encodinganalog="subject" source="lcsh">World War II</subject>
+      <subject altrender="nodisplay" source="archiveswest">Colleges and Universities</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Family background and the Colorado draft experience</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 June 13</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 July 06</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>Dr. Lennox Tierney begins this interview with his family background. He discusses his parents history and how they have influenced his life. He then goes on to discuss the history of his grandparents and his school experiences from elementary school thru College. He briefly speaks about his teaching experiences then begins the story of his Colorado draft experience.</p>
+          <p>Side B:</p>
+          <p>Dr. Lennox Tierney continues the story of his Colorado draft experience at the Navy Language School where he first learns to speak Japanese.</p>
+          <p>He also talks about the origination of his interest and beginnings in photography, as well as his experiences counseling the camera club at the Beverly Hills High School.</p>
+          <p>He then goes on to talk about the Great Depression and how it affected his and his family's lives. During the Great Depression, Lennox Tierney graduated from the University Of California. He discusses in some detail his experiences after college. Because there was not much work during the Great Depression, Lennox decided to travel. He began his expedition up the West Coast until he came to Santa Cruz Island where he was offered a sheep-herding job by the Caire family. He worked for room and board as a Basque Cowboy at Prisoners Bay for one year. He shares many stories from that year including how he spent his time at work and off work.</p>
+          <p>At the end of that year, Lennox continued to travel up the coast. On the San Miguel Island, he encountered Herbert Lester who had a farm on a desolate island. Lennox shares the history of the Lester family and his experiences working for them as a sheepherder and island patrolman. He also shares the story of Joao Rodrigues Cabrillo and the mystery of his burial place.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">World War II experiences and time spent in Japan</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 July 06</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 July 12</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>Dr. Lennox Tierney continues his stories from his time spent on the San Miguel Island which where compiled by Marjorie Heilbron in her manuscript "Saga Of Lennox". The slides that will eventually illustrate the book can be found in the J. Willard Marriott Library under 'Channel Islands'.</p>
+          <p>Lennox then speaks about his experiences in the Military Occupation Services and his assignment to Japan during World War Two. He shares many stories from his time spent in Japan including morning sightings of General Douglass McArther entering a near by Temple and what his responsibilities were as the supervisor of the Arts in an occupation school in Nuguro-ku Japan. Lennox also takes a moment to discuss a few historically important building in Kyoto that where protected from bombing during World War Two by Langdon Warner.</p>
+          <p>Side B:</p>
+          <p>Dr. Lennox Tierney continues to share his stories from the time he spent in Japan including the opportunity he had to meet with the Emperor of Japan and the story of how the Crown Princes American tutor, Elizabeth Grey Vining, came to be.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">Asian religion</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 July 10-28</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 August 02</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>Lennox Tierney discusses his experiences of going to the Ise Shrine and introduces a few Shinto terms that stem from ancient Buddhism. He shares some details of the Ise Shrine's construction and of the importance of it's structure to the Shinto religion.</p>
+          <p>He also discusses Zen Buddhism and it's historical relationship to the Shinto religion. At this time he tells his stories of frequently visiting the Ryoan-Ji and Kenchoji monasteries.</p>
+          <p>Side B:</p>
+          <p>He goes on to discuss Zen Koans, Zen Abbots, the principles behind the philosophy of Zen and his personal interest in Zen. He explains the importance of living with nature and recognizing the insignificance of Man to the powers of nature. He uses the topic of nature and art as a segue to discuss the origins of tea ceremonies and the nature of Japanese Gardens.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">Tea ceremonies</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 August 02</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 August 22</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>Dr. Tierney continues his discussion about Japanese tea ceremonies by telling the story of a tea ceremony that was held in his honor. Although he did not know it at the time, this tea ceremony was his final doctoral exam. He also speaks about the Salt Lake City Canyon tea ceremony and how the knowledge of tea ceremonies disseminated in the United States of America by the Boulder Language School in Colorado.</p>
+          <p>Side B:</p>
+          <p>In this interview, Dr. Lennox Tierney discusses Korean Tanchong painting, which involves painting geometric patterns with bright and vibrant color, and Ikebana, which is the Japanese art of arranging flowers. He also discusses the contrasts between Eastern and Western cultures using Versailles and Kyoto as his examples.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Simplicity versus complexity and stories from Burma and Thailand</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 09</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 14</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>In this interview Dr. Lennox Tierney discusses the dualism of simplicity and complexity and how it appears in Japanese art, culture, and religion. He then discusses the ultimate duality of the United States of America and Japan.</p>
+          <p>Lennox then goes on to talk about various periods in Japan including the Heiyan, Tokugawa, and Edo periods. He explains where each period originated from and how they affect the art styles in Japan.</p>
+          <p>Side B:</p>
+          <p>He continues the discussion with stories of the secret statues of the Sokkulam Monastery and of the longest wooden building in the world, the Rengo-in Temple. The Rengo-in Temple was built in 1185 in Kyoto and is plated with gold leaf. Dr. Lennox Tierney then tells the stories that he accumulated along his travels to Burma and Thailand.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Early religious influences, art, and ohilosophies of Asia</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 September 14</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 January 25</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>In this interview, Dr. Lennox Tierney shares the stories from his time spent in Thailand and Burma where he encounters many Buddhas on the Silk Road. He uses these stories as a segue into a discussion about the early religious influences in Asia.</p>
+          <p>Lennox also talks about Chinese gardens and landscape paintings and how they compare to Japanese gardens.</p>
+          <p>Side B:</p>
+          <p>Lennox uses the Katsura Palace Garden as an example of an ideal Japanese garden. He defines Chinese literati and explains how they tie into Chinese landscaping. Then he discusses the history behind tea ceremonies and ceramics and compares Chinese tea ceremony styles and Japanese tea ceremony styles. He also briefly talks about Japanese rock gardens then starts a discussion about the Yin and Yang philosophical concepts as well as anthropocentric and cosmocentric concepts of the Eastern and Western cultures.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">7</container>
+          <unittitle encodinganalog="title">Climbing Mt. Fuji and pottery</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 February 06</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 March 03</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>Dr. Lennox Tierney begins this discussion with stories of the Kiomizu Temple and the sand paintings that are housed within. Then he tells the story of his and his wifes adventures climbing Mt. Fuji.</p>
+          <p>Side B:</p>
+          <p>Dr. Lennox Tierney finishes telling the story of climbing Mt. Fuji and revisits the topic of sand painting. He explains that sand painting is often used to memorialize a special occasion. He then moves onto discuss the history of pottery and his experiences studying pottery in Japan with a master by the name of Shoji Hamada. Lennox shares his stories of building hillside kilns in the Mashiko village with Shoji Hamada and discusses Shoji's attributions to the Mingei art movement, which is better known as the Folk Art Movement.</p>
+          <p>Dr. Lennox Tierney also talks about the Mingei and Simulacra styles in Japan and the United States of America. He speaks about Laura Andresen, an American pottery teacher, and the importance of how the art of pottery in the USA is connected to pottery in Japan.</p>
+          <p>Lennox begins to share his experiences of being an Asian Art Curator in the San Diego Museum. He continues these stories in item #8.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">8</container>
+          <unittitle encodinganalog="title">Chinese pottery</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 March 03</unitdate>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 March 10</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>Dr. Lennox Tierney continues sharing his experiences of being an Asian Art Curator at the Sand Diego Museum. He then discusses his personal experiences with pottery in China where he lived with a pottery master named Kawai. He talks about the Momoyama period and the different styles of pottery during that period.</p>
+          <p>He goes on to talk about the three major historical migrations of people into Japan and their influences on art and culture. He also discusses how the closing and opening of Japan affected this issue.</p>
+          <p>Side B:</p>
+          <p>Dr. Lennox Tierney continues discussing the history and effects of the closing and opening of Japan. He talks about the Meiji Period when Japan invested considerable amounts of energy into reconnecting with the rest of the world, the first American Consol General, Townsend Harris, to travel to Japan, and the first Japanese Contingent to visit America and Europe.</p>
+          <p>Lennox goes on to discuss the industrial revolution in Japan and how World War Two affected Japan's culture.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="cassette">9</container>
+          <unittitle encodinganalog="title">Post-Retirement accomplishments</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995 April 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Side A:</p>
+          <p>In this interview, Dr. Lennox Tierney summerizes his post-retirement activities and accomplishments. These consist of: a sabatical year spent in Kyoto with his wife and son, time spent as a Curator at the Art Museum in San Diego where he also became the Art Director of the largest Japanese Garden project in the country, guiding trips to various Countries through the University of Pittsberg where he also worked as an Art Historian, and working in the Asian Studies Department at the Pasadena City College.</p>
+          <p>Side B:</p>
+          <p>Dr. Lennox Tierney shares his experiences from his post-retirement activities in great detail including opportunities he had to meet with various famous artists including Frank Lloyd Wright, Grandma Moses, Salvidor Dali, and George Hurrell. Lennox closes this interview with a question and answer session. Also at this time, the interviewers, Cathy Edens Memmott, Bonnie Balisteri, and Elna Watts, share thier evaluations of the interviews.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="cassette">10</container>
+          <unittitle encodinganalog="title">The orientalist</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1997</unitdate>
+          <physdesc>
+            <genreform>Videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Directed by Scott Rivers.</p>
+          <p>Produced at the University of Utah.</p>
+          <p>In this videotape, Dr. Lennox Tierney discusses the realization of his passion for Oriental Art. He shows many of the relics that he collected throughout Asia and guides us through the Japanese garden at his home. He also discusses his student as the legacy of his greatest accomplishments.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

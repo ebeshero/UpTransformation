@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//University of Utah::Special Collections and Archives//TEXT (US::UUML::UUM_A0779::Edward Abbey audio collection)//EN" encodinganalog="identifier" identifier="80444/xv41323" url="http://archiveswest.orbiscascade.org/ark:/80444/xv41323">UUM_A0779</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Guide to the Edward Abbey audio collection
+				<date era="ce" calendar="gregorian" normal="1981/1989" encodinganalog="date">1981-1989</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Abbey (Edward) audio collection</titleproper>
+        <author encodinganalog="creator">Finding aid created by Molly Creel</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2012" encodinganalog="date">© 2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded in Adobe Dreamweaver by Molly Creel
+			<date era="ce" calendar="gregorian" normal="2012">2012</date>.
+			</creation>
+      <langusage>Finding aid encoded in 
+			<language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language> in Latin script.
+			</langusage>
+      <descrules>Finding aid based on DACS (<title render="italic">Describing Archives: A Content Standard</title>).</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" type="inventory" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>801-581-8864</addressline>
+          <addressline>http://www.lib.utah.edu/collections/multimedia-archives/</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0779</unitid>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Abbey, Edward, 1927-1989</persname>
+      </origination>
+      <unittitle encodinganalog="title">Edward Abbey audio collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1981/1989" encodinganalog="date">1981-1989</unitdate>
+      <physdesc>
+        <extent encodinganalog="format">4 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Edward Abbey audio collection (1981-1989) consists of audio recordings or public and published works of Edward Abbey, as well as his memorial service in 1989.  Recordings of include Abbey's speech at the 'cracking' of Glen Canyon Dam in 1981 and the audiobook <title render="italic">Freedom and Wilderness: Edward Abbey Reads from his Work</title>.  Edward Abbey was a noted author and environmental activist, much of whose work focused on the desert Southwest.</abstract>
+      <langmaterial>Collection material in 
+			<language langcode="eng" encodinganalog="language">English</language>.
+            </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Edward Abbey (1927-1989) was born in Indiana, Pennsylvania.  After attending the University of New Mexico, Abbey studied as a Fulbright scholar at Edinburgh University and as a Wallace Stegner Creative Writing Fellow at Stanford University.  Abbey became a teacher, a writer, an advocate of environmentalism, and a vocal critic of public land policies. His writings, especially his novel <title render="italic">The Monkey Wrench Gang</title> are still used as inspiration by radical environmental groups. His book, <title render="italic">Desert Solitaire</title>, is a partial autobiography centering on Abbey's years as a park ranger at Arches National Monument in Utah from 1956-1957.  He died March 14, 1989 at the age of 62.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Edward Abbey audio collection (1981-1989) consists of audio recordings or public and published works of Edward Abbey, as well as his memorial service in 1989.  Recordings of include Abbey's speech at the 'cracking' of Glen Canyon Dam in 1981 and the audiobook <title render="italic">Freedom and Wilderness: Edward Abbey Reads from his Work</title>.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>Materials are arranged by subject matter.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <userestrict encodinganalog="rights">
+      <p>It is the responsibility of the researcher to obtain any necessary copyright clearances.</p>
+      <p>Permission to publish material from the Edward Abbey audio collection must be obtained from the Special Collections Multimedia Archivist.</p>
+    </userestrict>
+    <prefercite>
+      <p>
+        <emph render="italic">Initial Citation:</emph>
+                Edward Abbey audio collection A0779,
+                Special Collections and Archives. University of Utah, J. Willard Marriott. Salt Lake City, Utah.</p>
+      <p>
+        <emph render="italic">Following Citations:</emph>A0779.</p>
+    </prefercite>
+    <processinfo>
+      <p>Processed by Molly Creel in 2012.</p>
+    </processinfo>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Edward Abbey papers (Accn 2444).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Utah</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Arizona</geogname>
+      <geogname encodinganalog="coverage" source="lcsh" role="subject">Glen Canyon Dam (Ariz.)</geogname>
+      <subject encodinganalog="subject" source="lcsh">Environmentalism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Environmental Activism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1-2</container>
+          <unittitle encodinganalog="title">Glen Canyon Dam 'cracking' ceremony and Edward Abbey memorial service</unittitle>
+          <unitdate>1981</unitdate>
+          <unitdate>1989</unitdate>
+          <physdesc>
+            <genreform>audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3-4</container>
+          <unittitle encodinganalog="title">
+            <title render="italic">Freedom and Wilderness: Edward Abbey Reads from his Work</title>
+          </unittitle>
+          <unitdate>1987</unitdate>
+          <physdesc>
+            <genreform>audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

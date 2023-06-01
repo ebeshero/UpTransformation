@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:29 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0107::Brigham Madsen audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv77883" url="http://archiveswest.orbiscascade.org/ark:/80444/xv77883">UUM_A0107</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Brigham Madsen audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1986/1994" encodinganalog="date">1986-1994</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Madsen (Brigham) audio-visual collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Lorraine Crouse.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="1999" encodinganalog="date">© 1999</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Greg Midgley
+        <date era="ce" calendar="gregorian" normal="2008">2008</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0107</unitid>
+      <unittitle encodinganalog="title">Brigham Madsen audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1986/1994" encodinganalog="date">1986-1994</unitdate>
+      <origination>
+        <persname source="lcnaf" encodinganalog="creator" role="creator">Madsen, Brigham D.</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 VHS videocassette, 5 audiocassettes</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Brigham Madsen audio-visual collection (1986-1994) consists of video and audio recordings of speeches, interviews, and radio broadcasts covering a variety of religious and Western historical subjects.  Dr. Brigham D. Madsen is a historian, educator, and author of several works concerning Western/Native American history.  He has served as chair of the University of Utah History Department and earned academic honors including the Distinguished Teacher of the Year.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Biographical Note</head>
+      <p>Brigham Dwaine Madsen (b.1914), was raised in Pocatello, Idaho. In 1935 he served a Mormon mission to the Cumberland Mountains. He attended the University of California, Berkeley, where he received a Ph.D. in history. Travels abroad to Germany during World War II saw him act as chief historian for Patton's Third Army, where he observed the War Crimes Trials in Nuremberg, among other significant experiences.</p>
+      <p>After the war, he accepted a faculty position at Brigham Young University in Provo, Utah. His curiosity about Mormon history soon brought him head to head with the limits of academic freedom there at that time, ultimately resulting in his resignation and forcing him to work in construction for seven years until a Utah State University position opened. Madsen turned his attention to Native American history. In pursuing the truth about an 1862 military campaign against the Northwestern Shoshoni, he discovered that the engagement was not a battle but a brutal slaughter. His dogged persistence in this area resulted in the establishment of the Bear River Massacre National Historic Landmark. There was similar controversy in his writings on other Western topics, including Mormon history.</p>
+      <p>Dr. Madsen also served as chair of the University of Utah History Department, director of libraries, deputy academic vice president, and administrative vice president. He was honored for his efforts with a Distinguished Service Award from the Utah Academy of Sciences, Arts, and Letters and two awards from the University of Utah: Honorary Doctor of Humanities and Distinguished Teacher of the Year.</p>
+      <p>He is the author of eight books: <emph render="italic">Against the Grain: Memoirs of a Western Historian</emph>, <emph render="italic">The Bannock of Idaho</emph>, <emph render="italic">Corinne: The Gentile Capital of Utah</emph>, <emph render="italic">Exploring the Great Salt Lake: The Stansbury Expedition of 1848-50</emph>, <emph render="italic">Glory Hunter: A Biography of Patrick Edward Connor</emph>, <emph render="italic">The Lemhi: Sacajawea's People</emph>, <emph render="italic">The Northern Shoshoni</emph>, and <emph render="italic">The Shoshoni Frontier and the Bear River Massacre</emph>. He is the co-author of: <emph render="italic">North to Montana! Jehus, Bullwhackers, and Mule Skinners on the Montana Trail</emph>. He is the editor of three works:<emph render="italic">A Forty-Niner in Utah with the Stansbury Exploration of Great Salt Lake: Letters and Journal of John Hudson, 1848-1850</emph>, <emph render="italic">The Now Generation: Student Essays on Social Change in the Sixties, and Studies of the Book of Mormon</emph>. He has also authored several monograph-length studies and contributed to such books as <emph render="italic">The Feminine Frontier: Wyoming Women, 1850-1900</emph>.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Brigham Madsen Audio Visual collection (1986-1994) consists of video and audio recordings of speeches, interviews, and radio broadcasts covering a variety of religious and Western historical subjects.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>This collection is arranged chronologically and by subject.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Lorraine Crouse in 1999.</p>
+    </processinfo>
+    <controlaccess>
+      <persname encodinganalog="subject" source="lcnaf" role="subject">Roberts, B. H.(Brigham Henry), 1857-1933</persname>
+      <subject encodinganalog="subject" source="lcsh">Book of Mormon--Criticism, interpretation, etc.</subject>
+      <subject altrender="nodisplay" source="archiveswest">Mormonism (Church of Jesus Christ of Latter-day Saints</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">moving images</genreform>
+      <genreform encodinganalog="type" source="aat">sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="cassette">1</container>
+          <unittitle encodinganalog="title">Studies of the Book of Mormon</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1986 May 06</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Dr. Brigham Madsen and Dr Sterling McMurrin, B. H. Roberts - Hinckley Institute.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Brigham Madsen on Almo</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 February 16</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>Aired on National Public Radio (NPR)</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">3</container>
+          <unittitle encodinganalog="title">B. H. Roberts I</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">4</container>
+          <unittitle encodinganalog="title">B. H. Roberts II</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">undated</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">5</container>
+          <unittitle encodinganalog="title">Sterling McMurrin</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1994 April 21</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <container type="cassette">6</container>
+          <unittitle encodinganalog="title">Dr. Brigham D. Madsen: "Sunday Afternoon at the Marriott"</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">1999 March 07</unitdate>
+          <physdesc>
+            <genreform>Audiocassette</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>J. Willard Marriott Library lecture series</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

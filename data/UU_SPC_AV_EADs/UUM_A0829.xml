@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:11:04 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0829::Karin Hodgin Jones independent film collection)//EN" encodinganalog="identifier" identifier="80444/xv50866" url="http://archiveswest.orbiscascade.org/ark:/80444/xv50866">UUM_A0829</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Karin Hodgin Jones independent film collection
+          <date era="ce" calendar="gregorian" normal="2001/2003" encodinganalog="date">2001-2003</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Jones (Karin Hodgin) independent film collection</titleproper>
+        <author encodinganalog="creator">Finding aid prepared by Sara Montgomery.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2005" encodinganalog="date">© 2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Sara Montgomery
+        <date era="ce" calendar="gregorian" normal="2005">2005</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0829</unitid>
+      <unittitle encodinganalog="title">Karin Hodgin Jones independent film collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="2001/2003" encodinganalog="date">2001-2003</unitdate>
+      <origination>
+        <persname source="local" rules="dacs" encodinganalog="creator" role="creator">Jones, Karin Hodgin</persname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">1 DVD and 1 VHS videocassette.</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Karin Hodgin Jones independent film collection (2001-2003) consists of art related films and video installations created by Jones while a student of sculpture at the University of Utah.  Jones' films are analytical experiments with frameless animation and Technicolor film processing.  This collection is part of the Utah Independent Film Archive (UIFA).</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <p>Karin Hodgin Jones grew up in Indiana.  She earned her Bachelor of Fine Arts degree in sclupture from the University of Utah in 2003 and her Master of Fine Arts degree in studio art from the University of Illinois, Urbaba-Champaign.  In 2010 she taught classes in the ArtReach Program at the Corcoran Gallery and School of Art in Washington, D.C.  Specializing in three dimensional art, Jones has exhibited works all over the United States.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Karin Hodgin Jones independent film collection (2001-2003) consists of art related films and video installations created by Jones while a student of sculpture at the University of Utah.  Jones' films are analytical experiments with frameless animation and Technicolor film processing.  This collection is part of the Utah Independent Film Archive (UIFA).</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged chonologically.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <processinfo>
+      <p>Processed by Sara Montgomery in 2005.</p>
+    </processinfo>
+    <controlaccess>
+      <corpname encodinganalog="subject" source="lcnaf" role="subject">University of Utah</corpname>
+      <subject encodinganalog="subject" source="lcsh">Independent filmmakers</subject>
+      <subject encodinganalog="subject" source="lcsh">Artists--Utah</subject>
+      <subject altrender="nodisplay" source="archiveswest">Fine Arts</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <subject altrender="nodisplay" source="archiveswest">Oral Histories</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="in-depth">
+      <c01 level="item">
+        <did>
+          <container type="disc">1</container>
+          <unittitle encodinganalog="title">Frameless animation examples and multimedia exhibit pieces</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001-2003</unitdate>
+          <physdesc>
+            <genreform>DVD</genreform>
+          </physdesc>
+        </did>
+        <scopecontent encodinganalog="description">
+          <p>"Resolution Revolution Mark II" (2001 January):  Video footage of a collaborative installation of a six hour video projected onto the side of an object which resembles a Ferris wheel.  Images shown were of a decaying mouse (as the remains decay) and of trees.</p>
+          <p>"CMYKman" (2002 October): A digital/analogue comparison study of Technicolor film processing.  Subject is a man standing near Parliament and Big Ben in London.  Subject is wearing a suit, hat, and coat, and carrying a briefcase.  Frameless animation.</p>
+          <p>"Image Other Side" (2002 December): Visual degradation study from degraded surface image.  Photo study of old photos of primarily women and children in rural areas.  Frameless animation.</p>
+          <p>"Installation 1" (2003 March):  Reproduction of the Technicolor process through projected light bending.  Image shown (of a man's bare chest) was projected in a series of different colors onto a series of silk-like screens blown by a fan.</p>
+          <p>"Amalgam Base 10" (2003 November): An analogue audio history study in four languages using voice/sound patterning as the visual display.  Frameless animation.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <container type="cassette">2</container>
+          <unittitle encodinganalog="title">Frameless animation examples and multimedia exhibit pieces</unittitle>
+          <unitdate era="ce" calendar="gregorian" encodinganalog="date">2001-2003</unitdate>
+          <physdesc>
+            <genreform>VHS videocassette</genreform>
+          </physdesc>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

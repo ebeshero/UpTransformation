@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <!--Last Edited: 2008/12/08 10:10:43 by xEAD vBETA 07-14-2008-->
+  <eadheader langencoding="iso639-2b" scriptencoding="iso15924" relatedencoding="dc" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601">
+    <eadid countrycode="US" mainagencycode="US-uuml" publicid="-//:://TEXT(US::UUML::UUM_A0590::Ski Utah audio-visual collection)//EN" encodinganalog="identifier" identifier="80444/xv12377" url="http://archiveswest.orbiscascade.org/ark:/80444/xv12377">UUM_A0590</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">
+          Guide to the Ski Utah audio-visual collection
+          <date era="ce" calendar="gregorian" normal="1975/2004" encodinganalog="date">undated</date></titleproper>
+        <titleproper type="filing" altrender="nodisplay">Ski Utah audio-visual collection</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Multimedia Archives, J. Willard Marriott Library, University of Utah</publisher>
+        <address>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+        <date era="ce" calendar="gregorian" normal="2004" encodinganalog="date">© 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        Encoded by Manish Singh
+        <date era="ce" calendar="gregorian" normal="2004">2004</date></creation>
+      <langusage>
+        <language encodinganalog="language" langcode="eng" scriptcode="Latn">English</language>
+      </langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc type="inventory" level="collection" relatedencoding="dc">
+    <did>
+      <repository>
+        <corpname encodinganalog="publisher">University of Utah Libraries, Special Collections</corpname>
+        <subarea encodinganalog="publisher">Audio Visual Archives</subarea>
+        <address>
+          <addressline>Special Collections</addressline>
+          <addressline>295 South 1500 East</addressline>
+          <addressline>Salt Lake City, Utah 84112-0860</addressline>
+          <addressline>(801) 581-8864</addressline>
+        </address>
+      </repository>
+      <unitid encodinganalog="identifier" countrycode="US" repositorycode="US-uuml">A0590</unitid>
+      <unittitle encodinganalog="title">Ski Utah audio-visual collection</unittitle>
+      <unitdate type="inclusive" era="ce" calendar="gregorian" normal="1975/2004" encodinganalog="date">undated</unitdate>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="creator" role="creator">Ski Utah, Inc.</corpname>
+      </origination>
+      <physdesc>
+        <extent encodinganalog="format">20 16mm films, 22 VHS videocassettes, 10 U-matic videocassettes, 3 Betacam videocassettes, 4 compact discs</extent>
+      </physdesc>
+      <abstract encodinganalog="description">The Ski Utah audio-visual collection consists largely of promotional films, videos and compact discs designed to attract tourists to Utah on behalf of the ski and snowboard industry.  The collection also includes a some news stories related to Utah's ski industry.  Ski Utah, Inc. is a marketing firm represnting the state's resorts and related service industries.</abstract>
+      <langmaterial>Materials in 
+        <language encodinganalog="language" langcode="eng">English</language>.
+      </langmaterial>
+    </did>
+    <bioghist encodinganalog="description">
+      <head>Organizational History</head>
+      <p>Ski Utah, Inc. was founded in 1978 as the marketing firm for the Utah Ski and Snowboard Association, a non-profit trade organization founded in 1975, with the aim of promoting Utah's ski and snowboard industry.  The organizations represent the state's resorts, lodging, transportation, retail, restaurants and other ski or snowboard related services.  Ski Utah works to create brand awareness for Utah's winter sports industry.</p>
+    </bioghist>
+    <scopecontent encodinganalog="description">
+      <p>The Ski Utah audio-visual collection consists largely of promotional films, videos and compact discs designed to attract tourists to Utah on behalf of the ski and snowboard industry.  The collection also includes a some news stories related to Utah's ski industry.</p>
+    </scopecontent>
+    <arrangement encodinganalog="description">
+      <p>The materials are arranged by format type.  16mm films are followed by videocassettes and compact discs.</p>
+    </arrangement>
+    <accessrestrict encodinganalog="rights">
+      <p>Materials must be used on-site; no use of original material, access copies will be made available for viewing. Five business days advanced notice required. Access to parts of this collection may be restricted under provisions of state or federal law, condition of the material, or by donor.</p>
+    </accessrestrict>
+    <relatedmaterial encodinganalog="relation">
+      <p>See also the Ski Utah photograph collection (P0913).</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject encodinganalog="subject" source="lcsh">Skiing--Utah--History</subject>
+      <subject encodinganalog="subject" source="lcsh">Snowboarding</subject>
+      <subject encodinganalog="subject" source="lcsh">Tourism</subject>
+      <subject altrender="nodisplay" source="archiveswest">Advertising and Marketing</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sports and Recreation</subject>
+      <subject altrender="nodisplay" source="archiveswest">Moving Images</subject>
+      <subject altrender="nodisplay" source="archiveswest">Sound Recordings</subject>
+      <genreform encodinganalog="type" source="aat">Moving images</genreform>
+      <genreform encodinganalog="type" source="aat">Sound recordings</genreform>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">16mm films</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="reel">1</container>
+            <unittitle encodinganalog="title">Utah! The greatest snow on Earth</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Optical soundtrack, color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>The film begins with shots of mountainsides, the sun rising and setting and snow falling on pine trees.  After the title sequence, we see shots of skiers on the slopes.  These are the characters that will dominate much of the film and they are identified as members of the local Ski Patrol.  There is also footage of skiers paying for lift tickets, children competing in Junior Ski competitions, hot air balloons , youth ski school classes and dog-sled competitions.</p>
+            <p>The film then shifts to show the nightlife of the resorts.  We see shots of people barbequing, eating in lodges and restaurants and waving at the camera.  The next images are of the Salt Lake International Airport.  The camera follows one particular skier with a Snowbird resort jacket on as he arrives in Salt Lake and takes a Taxi to his hotel.  There are a few images of buildings in Salt Lake as well as a shot of the city skyline during daylight hours.  In addition, we are given a glimpse of the entertainment that the city has to offer visitors.  There is footage of people watching a basketball game (unidentified teams) as well as a Hockey game featuring the Salt Lake Golden Eagles).  There is also a short montage of various alcoholic beverages available in the city as well as a short bit of footage of a ballet performance and a woman playing the violin in an orchestra.  The film then shifts back to the skiers (members of Ski Patrol) and the nightlife afforded them.  We see footage of an after dark drum circle followed by that of a country and western band.  There are shots of people warming themselves in front of a fire and cooking meat on an outdoor grill.  Finally, we see footage of a helicopter with the members of the Ski Patrol inside it take off for a mountain top not used by ordinary skiers.  The helicopter lands and the skiers file out and proceed down the slope.  After a montage highlighting their skiing prowess the film ends.</p>
+            <p>Utah Ski Resorts and Areas Seen in Film:</p>
+            <p>Alta, Beaver Mountain, Brian Head, Brighton, Deer Valley, Mt. Holly, Nordic Valley, Park City, Park West, Parley's Summit, Powder Mountain, Snow Basin, Snowbird, Solitude, Sundance.</p>
+            <p>Produced by the Utah Travel Council by Telescene, Inc.  Salt lake City, Utah.</p>
+            <p>Director: Art Wilder</p>
+            <p>Cameramen: Bruce Aoki, Art Wilder</p>
+            <p>Production Coordinator: Virginia Timmons</p>
+            <p>Editor: Art Wilder</p>
+            <p>Narrator: Richard Ramos</p>
+            <p>Musical Score: Larry Bastian</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">2</container>
+            <unittitle encodinganalog="title">Authorized personnel only</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Black and white
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">3-4</container>
+            <unittitle encodinganalog="title">Utah! The greatest snow on Earth</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Short version</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">5-6</container>
+            <unittitle encodinganalog="title">Utah! The greatest snow on Earth</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Incomplete short version</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">7</container>
+            <unittitle encodinganalog="title">A matter of decision</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Black and white
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">8</container>
+            <unittitle encodinganalog="title">Utah! The greatest snow on Earth</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">9</container>
+            <unittitle encodinganalog="title">Freestyle with Jean Claude Killy</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">10</container>
+            <unittitle encodinganalog="title">Utah! The greatest snow on Earth</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Long version</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">11</container>
+            <unittitle encodinganalog="title">Buddy Werner races</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Black and white
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">12</container>
+            <unittitle encodinganalog="title">Professional Freestyle Association</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">13</container>
+            <unittitle encodinganalog="title">Ski Park City</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">14</container>
+            <unittitle encodinganalog="title">Skiing is believing</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">15</container>
+            <unittitle encodinganalog="title">Professionals</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">16</container>
+            <unittitle encodinganalog="title">Helix</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>United States version</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">17</container>
+            <unittitle encodinganalog="title">Authorized personnel only</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">18</container>
+            <unittitle encodinganalog="title">A matter of decision</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">19</container>
+            <unittitle encodinganalog="title">Skiing film of Matumoto Ski Club</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="reel">20</container>
+            <unittitle encodinganalog="title">Utah! The greatest snow on Earth</unittitle>
+            <physdesc>
+              <genreform>16mm film</genreform>
+              <physfacet>
+                Color
+              </physfacet>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Short version</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Videocasettes</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="cassette">1</container>
+            <unittitle encodinganalog="title">Ski Utah media day</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 December 11</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>KUTV News, Prime Time Access/Other</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">2-3</container>
+            <unittitle encodinganalog="title">Ski Utah miscellaneous footage</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">4</container>
+            <unittitle encodinganalog="title">Ski Utah</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1991 December 31</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Rocky Mountain Motion Pictures</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">5</container>
+            <unittitle encodinganalog="title">Ski Utah</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Various shots cleared for broadcast</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">6</container>
+            <unittitle encodinganalog="title">Ski Salt Lake</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">7</container>
+            <unittitle encodinganalog="title">Snowbird - skiing above all else</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">8</container>
+            <unittitle encodinganalog="title">Beaver Mountain promotional</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1995</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">9</container>
+            <unittitle encodinganalog="title">All that glitters is not gold</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">10</container>
+            <unittitle encodinganalog="title">Winter vacation planner</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1992 November 20</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">11</container>
+            <unittitle encodinganalog="title">Ski Utah promotional</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">12</container>
+            <unittitle encodinganalog="title">Ski Utah</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">13</container>
+            <unittitle encodinganalog="title">Ski Brian Head</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">14</container>
+            <unittitle encodinganalog="title">Skinners Ogden Valley</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1989 November 22</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">15</container>
+            <unittitle encodinganalog="title">Mike Allen stories</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">16</container>
+            <unittitle encodinganalog="title">Utah news clips</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">17</container>
+            <unittitle encodinganalog="title">Back roads prototype</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>PM Magazine Utah (KUTV)</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">18</container>
+            <unittitle encodinganalog="title">The quest ...... staying on top</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">19</container>
+            <unittitle encodinganalog="title">Utah Winter Games news clip</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987</unitdate>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">20</container>
+            <unittitle encodinganalog="title">Youth Ski League - Small World Cup</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Rocky Division copy</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">21</container>
+            <unittitle encodinganalog="title">Ski Utah</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">22</container>
+            <unittitle encodinganalog="title">Snowbird travelview</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">23</container>
+            <unittitle encodinganalog="title">Ski it to believe it</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">24</container>
+            <unittitle encodinganalog="title">Deer Valley video press release</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">25</container>
+            <unittitle encodinganalog="title">Ski riders</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">26</container>
+            <unittitle encodinganalog="title">Ski Utah miscellaneous footage</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">27</container>
+            <unittitle encodinganalog="title">Ski Utah Inc.</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">28</container>
+            <unittitle encodinganalog="title">Hot shots unlimited</unittitle>
+            <physdesc>
+              <genreform>VHS videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">29</container>
+            <unittitle encodinganalog="title">Snowbird miscellaneous winter video</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">30</container>
+            <unittitle encodinganalog="title">Ski riders of the Wasatch</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1987</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">31</container>
+            <unittitle encodinganalog="title">Ski Utah promotional video</unittitle>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">32</container>
+            <unittitle encodinganalog="title">Ski Utah interconnect</unittitle>
+            <unitdate era="ce" calendar="gregorian" encodinganalog="date">1984 January 29-March 14</unitdate>
+            <physdesc>
+              <genreform>U-matic videocassette</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>KUTV, PM Magazine</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">33</container>
+            <unittitle encodinganalog="title">Ski Utah promotional</unittitle>
+            <physdesc>
+              <genreform>Betacam videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">34</container>
+            <unittitle encodinganalog="title">Unidentified video</unittitle>
+            <physdesc>
+              <genreform>Betacam videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="cassette">35</container>
+            <unittitle encodinganalog="title">Olympic announcement</unittitle>
+            <physdesc>
+              <genreform>Betacam videocassette</genreform>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle encodinganalog="title">Compact discs</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="disc">36-37</container>
+            <unittitle encodinganalog="title">Wickline: A world of white</unittitle>
+            <physdesc>
+              <genreform>Compact disc</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Ski music album</p>
+          </scopecontent>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="disc">38-39</container>
+            <unittitle encodinganalog="title">Discovering Utah</unittitle>
+            <physdesc>
+              <genreform>CD-ROM</genreform>
+            </physdesc>
+          </did>
+          <scopecontent encodinganalog="description">
+            <p>Multimedia "Ski-D-Rom" guide</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
