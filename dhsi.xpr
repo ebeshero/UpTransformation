@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="21.1">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="dhsi.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="21.1" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>author.show.comments</String>
@@ -60,6 +60,13 @@
                                         <String>XPROC</String>
                                     </list>
                                 </field>
+
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+
                             </scenarioAssociation>
                         </scenarioAssociation-array>
                     </entry>
@@ -70,11 +77,11 @@
                                 <field name="inputPorts">
                                     <xprocInputPort-array>
                                         <xprocInputPort>
-                                            <field name="portName">
-                                                <String>source</String>
-                                            </field>
                                             <field name="urls">
                                                 <String-array/>
+                                            </field>
+                                            <field name="portName">
+                                                <String>source</String>
                                             </field>
                                         </xprocInputPort>
                                     </xprocInputPort-array>
@@ -82,15 +89,17 @@
                                 <field name="outputPorts">
                                     <xprocOutputPort-array>
                                         <xprocOutputPort>
-                                            <field name="portName">
-                                                <String>result</String>
-                                            </field>
+
                                             <field name="url">
                                                 <null/>
                                             </field>
                                             <field name="showInSequenceView">
                                                 <Boolean>true</Boolean>
                                             </field>
+                                            <field name="portName">
+                                                <String>result</String>
+                                            </field>
+
                                         </xprocOutputPort>
                                     </xprocOutputPort-array>
                                 </field>
