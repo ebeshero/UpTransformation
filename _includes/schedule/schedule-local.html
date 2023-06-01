@@ -1219,9 +1219,12 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                         </ol></li>
                     <li>Solution (no peeking!)
                                  <button class="answer">Answer</button> <span class="answer"><a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</a></span></li>
-                </ol></li></ol></section>
-        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3><ol><li>One more way of counting spaces and hyphens (15 minutes; 1:30 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Explode the string<ol>
+                </ol></li></ul></section>
+        <section><h3>Schematron and external files (1:30 p.m.–4:00 p.m.)</h3>
+            <ol><li>One more way of counting spaces and hyphens (15 minutes; 1:30 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span>
+                    <ol>
+                    <li>Explode the string
+                        <ol>
                             <li><code>string-to-codepoints()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-to-codepoints"><sup>⬀</sup></a>, <code>codepoints-to-string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-codepoints-to-string"><sup>⬀</sup></a></li>
                             <li><code>for $c in string-to-codepoints('one two three') return
                                     codepoints-to-string($c)</code></li>
@@ -1242,7 +1245,7 @@ return $b except $a (: returns items in $b that are not in $a :)</div></li>
                                     codepoints-to-string(.) =&gt; index-of(' ') =&gt;
                                 count()</code></li>
                         </ol></li>
-                </ol></li></ul></section>
+                </ol></li></ol></section>
         <section><h3>Schematron and external files (1:00 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
