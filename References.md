@@ -25,7 +25,7 @@ There are twogood general XQuery books:
 
 The Mulberry Technologies [XQuery 1.0 Quick Reference](http://mulberrytech.com/quickref/xquery1.pdf) and [XQuery 1.0 and XPath 2.0 Functions and Operators Quick Reference](http://mulberrytech.com/quickref/functions.pdf) by Sam Wilmott are excellent, but they do not include more recent features. 
 
-One of the best resources for exploring and building with XQuery is the [eXist-db XML database](https://exist-db.org). We have prepared [instructions for installing eXist-db on your own computer](xquery_setup.html), so that you can upload and work with your own files. If you use eXist-db as your XML database, we also recommend Erik Siegel and Adam Retter, _eXist: a NoSQL document database and application platform_, O’Reilly, 2014. If you use eXist-db, you should also subscribe to the [exist-open](https://sourceforge.net/projects/exist/lists/exist-open) mailing list.
+One of the best resources for exploring and building with XQuery is the [eXist-db XML database](https://exist-db.org). We have prepared [instructions for installing eXist-db on your own computer](https://github.com/newtfire/textAnalysis-Hub/blob/main/Install-eXist-dB.md), so that you can upload and work with your own files. If you use eXist-db as your XML database, we also recommend Erik Siegel and Adam Retter, _eXist: a NoSQL document database and application platform_, O’Reilly, 2014. If you use eXist-db, you should also subscribe to the [exist-open](https://sourceforge.net/projects/exist/lists/exist-open) mailing list.
 
 ### XSLT
 
