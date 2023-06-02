@@ -9,14 +9,12 @@
                 days</sch:p>
             <sch:assert test="
                     if (ancestor::day/@d eq 'Monday, June 5') then
-                        . eq '10:30:00'
-
+                        . eq '10:30:00'                    
                     else
                         . eq '09:00:00'">Monday starts at 10:30 a.m., other days at
                 9:00</sch:assert>
         </sch:rule>
         <sch:rule context="slot[2]/@time">
-
             <sch:p>Second (afternoon) slot should start at 1:00, except that there is no second slot
                 on Friday</sch:p>
             <sch:assert test="
@@ -26,7 +24,6 @@
                         0">Afternoon sessions Monday through Thursday start at 1:00
                 p.m.</sch:assert>
             <sch:assert test="ancestor::day/@d ne 'Friday, June 9'">There is no afternoon session on
-
                 Friday</sch:assert>
         </sch:rule>
         <sch:rule context="slot[1]">
@@ -36,8 +33,7 @@
 
             <sch:assert test="
                     if (../@d eq 'Monday, June 5') then
-                        $duration eq xs:dayTimeDuration('PT1H30M')
-
+                        $duration eq xs:dayTimeDuration('PT1H30M')                    
                     else
                         if (../@d eq 'Friday, June 9') then
                             $duration eq xs:dayTimeDuration('PT1H15M')
