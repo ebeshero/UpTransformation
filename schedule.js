@@ -1,3 +1,4 @@
+"use strict";
 window.addEventListener('DOMContentLoaded', init, false);
 function init() {
     document.getElementById('expand').addEventListener('click', expand, false);
