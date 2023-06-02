@@ -584,7 +584,7 @@
                 <details>
                     <item>Document (<code>document-node()</code>)</item>
                     <item>Element (<code>element()</code>)</item>
-                    <item>Attribute (match with XPath node <code>attribute()</code>)<examples>
+                    <item>Attribute (<code>attribute()</code>)<examples>
                             <example><code>collection('/db/apps/shakespeare/data/')//tei:sp/@who</code></example>
                             <example><code
                                     url="https://www.w3.org/TR/xpath-functions-31/#func-string"
