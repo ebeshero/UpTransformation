@@ -2,7 +2,7 @@
                 all</button></p>
     <section>
         <h2>Monday, June 5: XPath</h2>
-        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:30 a.m.–12:00 p.m.)</h3><ul><li>Getting started with XPath and eXide (15 minutes; 10:30 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:30 a.m.–12:00 p.m.)</h3><ol><li>Getting started with XPath and eXide (15 minutes; 10:30 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a> (or
                         eXide within eXist-db on your own laptop, if you’ve installed it), click
                         “New XQuery”, and erase all content in the editing window. You’ll type your
@@ -141,8 +141,8 @@
                     <li>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
                         behind the scenes (eXide does not).</li>
-                </ol></li></ul></section>
-        <section><h3>Exploring document structures and data with XPath (1:00 p.m.–4:00 p.m.)</h3><ul><li>XPath path steps (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li></ol></section>
+        <section><h3>Exploring document structures and data with XPath (1:00 p.m.–4:00 p.m.)</h3><ol><li>XPath path steps (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
                             <code>descendant::</code>, <code>ancestor::</code>,
                             <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
@@ -416,11 +416,11 @@
                                 max(//sp/string-length())]/speaker</code> (or, better:
                                 <code>//sp[string-length(normalize-space()) eq
                                 max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
-                </ol></li></ul></section>
+                </ol></li></ol></section>
     </section>
     <section>
         <h2>Tuesday, June 6: XPath and XQuery</h2>
-        <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ul><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ol><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</li>
                     <li>Access a document with <code>doc()</code>
@@ -631,8 +631,8 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                                         $places/normalize-space(string())</code></span></li>
                         </ol>
                     </li>
-                </ol></li></ul></section>
-        <section><h3>XQuery flow control (1:00 p.m.–4:00 p.m.)</h3><ul><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:00 p.m.–1:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li></ol></section>
+        <section><h3>XQuery flow control (1:00 p.m.–4:00 p.m.)</h3><ol><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:00 p.m.–1:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li> Work in eXist-db in the same file we started before the break and delete
                         only the <code>return</code> line. let’s keep adding to it. Use variables
                         and <code>FLWOR</code> statements to define and retrieve the following: <ol>
@@ -797,11 +797,11 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</a></li>
                         </ol>
                     </li>
-                </ol></li></ul></section>
+                </ol></li></ol></section>
     </section>
     <section>
         <h2>Wednesday, June 7: XPath and XSLT</h2>
-        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ul><li>Preparation for writing XSLT in &lt;oXygen&gt; (20 minutes; 9:00 a.m.–9:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Introduction to XPath in XSLT (9:00 a.m.–12:00 p.m.)</h3><ol><li>Preparation for writing XSLT in &lt;oXygen&gt; (20 minutes; 9:00 a.m.–9:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Settings: XSLT debugger and Saxon parser</li>
                     <li>Selecting files to run and save <ol>
                             <li>Open &lt;oXygen/&gt; and open the following url:
@@ -938,8 +938,8 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                     <li>Template matching on the document node to output HTML</li>
                     <li> Structure of an HTML document: <code>&lt;head&gt;</code> and
                             <code>&lt;body&gt;</code></li>
-                </ol></li></ul></section>
-        <section><h3>XSLT Activity (1:00 p.m.–4:00 p.m.)</h3><ul><li>TEI XML to HTML transformation (90 minutes; 1:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li></ol></section>
+        <section><h3>XSLT Activity (1:00 p.m.–4:00 p.m.)</h3><ol><li>TEI XML to HTML transformation (90 minutes; 1:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open the url of the Emily Dickinson Fascicle 16 file:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</a>,
                         and study the document.</li>
@@ -959,11 +959,11 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                         </ol>
                     </li>
                     <li>How internal links work</li>
-                </ol></li></ul></section>
+                </ol></li></ol></section>
     </section>
     <section>
         <h2>Thursday, June 8: XPath and Schematron</h2>
-        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ul><li>Schematron overview (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Using Schematron to constrain your markup (9:00 a.m.–12:00 p.m.)</h3><ol><li>Schematron overview (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Schematron is <em>constraint based</em>; Relax NG, XML Schema, DTD are
                             <em>grammar based</em></li>
                     <li>Sample constraint-based tasks involve multiple elements<ol>
@@ -1116,8 +1116,8 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                                     codepoints-to-string(.) =&gt; index-of(' ') =&gt;
                                 count()</code></li>
                         </ol></li>
-                </ol></li></ul></section>
-        <section><h3>Schematron and external files (1:00 p.m.–4:00 p.m.)</h3><ul><li>ID/IDREF validation (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li></ol></section>
+        <section><h3>Schematron and external files (1:00 p.m.–4:00 p.m.)</h3><ol><li>ID/IDREF validation (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</a></li>
@@ -1230,12 +1230,12 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                             <li>If an element that should have a <code>@ref</code> doesn’t,
                                 report an error</li>
                         </ol></li>
-                </ol></li></ul></section>
+                </ol></li></ol></section>
     </section>
     <section>
         <h2>Friday, June 9: Taking stock</h2>
-        <section><h3>Putting it all to work (9:00 a.m.–10:15 a.m.)</h3><ul><li>Hands on activity with participant data TBA (60 minutes; 9:00 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Putting it all to work (9:00 a.m.–10:15 a.m.)</h3><ol><li>Hands on activity with participant data TBA (60 minutes; 9:00 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Watch this space!</li>
-                </ol></li><li>Retrospective (15 minutes; 10:00 a.m.–10:15 a.m.) </li></ul></section>
+                </ol></li><li>Retrospective (15 minutes; 10:00 a.m.–10:15 a.m.) </li></ol></section>
     </section>
 </section>
