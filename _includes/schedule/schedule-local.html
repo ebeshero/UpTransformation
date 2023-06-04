@@ -342,7 +342,8 @@
                     <li><em>Cardinality error</em>:
                         <code>string-length(/TEI/speaker)</code></li>
                     <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
-                        'Larry', 'Moe')</code> is broken?  <button class="answer">Answer</button> <span class="answer">The <code>count()</code> function is receiving three arguments, but it is designed to receive only one argument. To give it one argument, it needs a set of inner parentheses: <code>count((('Curly',
+                        'Larry', 'Moe')</code> is broken?  <button class="answer">Answer</button> <span class="answer">The <code>count()</code> function is receiving three arguments, but it is designed to receive only one argument. 
+                            To give it one argument, it needs a set of inner parentheses: <code>count(('Curly',
                             'Larry', 'Moe'))</code></span></li>
                     <li>The error message is your friend. Read it.</li>
                     <li>Resources and references:
