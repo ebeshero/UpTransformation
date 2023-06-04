@@ -43,9 +43,9 @@
                 other days should be PT3H</sch:assert>
         </sch:rule>
         <sch:rule context="slot[2][../@d eq 'Monday, June 5']">
-            <sch:p>Duration of second (afternoon) slot on Monday is 1:15.</sch:p>
+            <sch:p>Duration of second (afternoon) slot on Monday is 1:30.</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration eq xs:dayTimeDuration('PT1H15M')">Duration of <sch:value-of
+            <sch:assert test="$duration eq xs:dayTimeDuration('PT1H30M')">Duration of <sch:value-of
                     select="$duration"/> is incorrect; duration of Monday afternoon session should
                 be PT1H15M</sch:assert>
         </sch:rule>

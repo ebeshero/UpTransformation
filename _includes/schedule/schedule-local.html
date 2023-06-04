@@ -102,7 +102,7 @@
                         </ol></li>
                     <li>Path expressions may span multiple lines (try it with the examples above),
                         that is, new-line and space have the same meaning</li>
-                </ol></li><li>XPath in &lt;oXygen/&gt; (20 minutes; 11:10 a.m.–11:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath in &lt;oXygen/&gt; (15 minutes; 11:10 a.m.–11:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
                             <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
@@ -120,7 +120,7 @@
                         multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
                         (Windows) or <q>Cmd+Enter</q> (MacOS), or click the red right-pointed
                         triangle.</li>
-                </ol></li><li>XPath path expressions (30 minutes; 11:30 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath path expressions (15 minutes; 11:25 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>An XPath <em>path expression</em> is a sequence of steps, each of
                         which proceeds from one node (called the <em>context node</em>) to a
                         sequence of zero (!) or more others. It returns the results in document
@@ -150,25 +150,22 @@
                             <li><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (raises
                                 an error; spaces are not allowed in path expressions)</li>
                         </ol></li>
-                    <li>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
-                        &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
-                        behind the scenes (eXide does not).</li>
-                </ol></li></ol></section>
-        <section><h3>Exploring document structures and data with XPath (1:00 p.m.–4:00 p.m.)</h3><ol><li>XPath path steps (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    
+                </ol></li><li>XPath path steps (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
-                            <code>descendant::</code>, <code>ancestor::</code>,
-                            <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
+                        <code>descendant::</code>, <code>ancestor::</code>,
+                        <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
                         See:
-                            <a href="http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes">http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</a>.</li>
+                        <a href="http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes">http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</a>.</li>
                     <li>Axes are specified with a double colon, e.g., <code>descendant::div</code>
                         matches all <code>&lt;div&gt;</code> descendants of the current context
                         node. There are two common shortcut notations<ol>
                             <li>The default is the <em>child</em> axis, so
-                                    <code>/TEI/teiHeader</code> is synonymous with
-                                    <code>/child::TEI/child::teiHeader</code>. Use the
+                                <code>/TEI/teiHeader</code> is synonymous with
+                                <code>/child::TEI/child::teiHeader</code>. Use the
                                 shorthand.</li>
                             <li><code>//</code> is shorthand for
-                                    <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
+                                <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
                                 finds all of the <code>&lt;div&gt;</code> elements that are
                                 descendants of the <code>&lt;TEI&gt;</code> root element, that is,
                                 anywhere in the document. The document node has a descendant axis,
@@ -179,51 +176,52 @@
                         next path step. Only the final path step is permitted to return something
                         other than a node. Why?</li>
                     <li>The end of a path expression may return nodes or atomic values<ol>
-                            <li><code>//body/div/count(descendant::sp)</code> navigates from
-                                the document node to all of the acts in the play and then returns a
-                                count of the speeches in each act</li>
-                            <li>What’s wrong with <code>//body/div/count(//sp)</code>?
-                                     <button class="answer">Answer</button> <span class="answer">The leading double slash resets the current context to
-                                    the document node, and selects all <code>&lt;sp&gt;</code>
-                                    elements in the entire document, instead of just the individual
-                                    act.</span></li>
-                        </ol></li>
+                        <li><code>//body/div/count(descendant::sp)</code> navigates from
+                            the document node to all of the acts in the play and then returns a
+                            count of the speeches in each act</li>
+                        <li>What’s wrong with <code>//body/div/count(//sp)</code>?
+                             <button class="answer">Answer</button> <span class="answer">The leading double slash resets the current context to
+                                the document node, and selects all <code>&lt;sp&gt;</code>
+                                elements in the entire document, instead of just the individual
+                                act.</span></li>
+                    </ol></li>
                     <li><code>*</code> matches any element<ol>
-                            <li><code>/TEI/teiHeader/*</code> matches all child elements of the
-                                    <code>&lt;teiHeader&gt;</code></li>
-                        </ol></li>
+                        <li><code>/TEI/teiHeader/*</code> matches all child elements of the
+                            <code>&lt;teiHeader&gt;</code></li>
+                    </ol></li>
                     <li><code>..</code> matches the parent node of the current context node. That
                         is, it’s shorthand for <code>parent::*</code><ol>
                             <li><code>//stage/..</code> matches the parent nodes of all
-                                    <code>&lt;stage&gt;</code> elements</li>
+                                <code>&lt;stage&gt;</code> elements</li>
                         </ol></li>
                     <li>Your turn: <ol>
-                            <li>Find the acts (<code>&lt;div&gt;</code> children of
-                                    <code>&lt;body&gt;</code>) in <em>Hamlet</em>
-                                 <button class="answer">Answer</button> <span class="answer">
-                                    <code>//body/div</code>
-                                </span></li>
-                            <li>Find the stage directions (<code>&lt;stage&gt;</code>) in
-                                    <em>Hamlet</em>
-                                 <button class="answer">Answer</button> <span class="answer">
-                                    <code>//stage</code>
-                                </span></li>
-                            <li>Find the <code>&lt;stage&gt;</code> children of
-                                    <code>&lt;div&gt;</code> elements (but not other
-                                    <code>&lt;stage&gt;</code> elements) in <em>Hamlet</em>
-                                 <button class="answer">Answer</button> <span class="answer">
-                                    <code>//div/stage</code>
-                                </span></li>
-                            <li>Find the parents of the stage directions in <em>Hamlet</em>
-                                 <button class="answer">Answer</button> <span class="answer">
-                                    <code>//stage/..</code> or <code>//stage/parent::*</code>
-                                </span></li>
-                            <li>Find the <code>&lt;div&gt;</code> parents of the stage
-                                directions in <em>Hamlet</em>, but not other parents  <button class="answer">Answer</button> <span class="answer">
-                                    <code>//stage/parent::div</code>
-                                </span></li>
-                        </ol></li>
-                </ol></li><li>XPath functions for strings (25 minutes; 1:25 p.m.–1:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                        <li>Find the acts (<code>&lt;div&gt;</code> children of
+                            <code>&lt;body&gt;</code>) in <em>Hamlet</em>
+                             <button class="answer">Answer</button> <span class="answer">
+                                <code>//body/div</code>
+                            </span></li>
+                        <li>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                            <em>Hamlet</em>
+                             <button class="answer">Answer</button> <span class="answer">
+                                <code>//stage</code>
+                            </span></li>
+                        <li>Find the <code>&lt;stage&gt;</code> children of
+                            <code>&lt;div&gt;</code> elements (but not other
+                            <code>&lt;stage&gt;</code> elements) in <em>Hamlet</em>
+                             <button class="answer">Answer</button> <span class="answer">
+                                <code>//div/stage</code>
+                            </span></li>
+                        <li>Find the parents of the stage directions in <em>Hamlet</em>
+                             <button class="answer">Answer</button> <span class="answer">
+                                <code>//stage/..</code> or <code>//stage/parent::*</code>
+                            </span></li>
+                        <li>Find the <code>&lt;div&gt;</code> parents of the stage
+                            directions in <em>Hamlet</em>, but not other parents  <button class="answer">Answer</button> <span class="answer">
+                                <code>//stage/parent::div</code>
+                            </span></li>
+                    </ol></li>
+                </ol></li></ol></section>
+        <section><h3>Exploring document structures and data with XPath (1:00 p.m.–2:30 p.m.)</h3><ol><li>XPath functions for strings (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
                         <ol>
                             <li>
@@ -276,7 +274,7 @@
                     <li><code>starts-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"><sup>⬀</sup></a>, <code>ends-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"><sup>⬀</sup></a><ol>
                             <li><code>starts-with('Ophelia', 'Op')</code></li>
                         </ol></li>
-                </ol></li><li>XPath functions for numbers (20 minutes; 1:50 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for numbers (20 minutes; 1:25 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>max()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>, <code>min()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-min"><sup>⬀</sup></a>,
                             <code>sum()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sum"><sup>⬀</sup></a>, <code>avg()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-avg"><sup>⬀</sup></a><ol>
                             <li><code>max((1, 2, 3))</code>, etc.</li>
@@ -300,7 +298,7 @@
                                 <code>string-length(//speaker)</code> work?)</span></li>
                     <li>Find the length of the longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
-                </ol></li><li>XPath functions for sequences (20 minutes; 2:10 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for sequences (15 minutes; 1:45 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
@@ -335,7 +333,7 @@
                                         <code>&lt;div&gt;</code> elements of different types
                                     together: acts, scenes, cast list.</span></li>
                         </ol></li>
-                </ol></li><li>Break (15 minutes; 2:30 p.m.–2:45 p.m.) </li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 2:45 p.m.–2:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 2:00 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The <em>function signature</em> is the number and type of arguments it
                         accepts or requires, and the number and type of items it returns</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
@@ -347,7 +345,7 @@
                     <li>Resources and references:
                             <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
                     
-                </ol></li><li>XPath predicates (20 minutes; 2:55 p.m.–3:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath predicates (20 minutes; 2:10 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>
@@ -367,72 +365,72 @@
                             <li><code>//sp[contains(speaker, 'Rosencrantz')]</code></li>
                             <li><code>//lg[@type eq 'couplet']</code></li>
                         </ol></li>
-                </ol></li><li>Odds and ends (15 minutes; 3:15 p.m.–3:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Three ways to apply a function to a sequence<ol>
-                            <li>Explicit <code>for</code><ol>
-                                    <li><code>for $speaker in /TEI//speaker return
-                                            string-length($speaker)</code></li>
-                                </ol></li>
-                            <li>Implicit <code>for</code><ol>
-                                    <li><code>/TEI//speaker/string-length()</code></li>
-                                </ol></li>
-                            <li>Simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)<ol>
-                                    <li><code>/TEI//speaker ! string-length(.)</code></li>
-                                </ol></li>
-                        </ol></li>
-                    <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
-                        arrow (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) <ol>
-                            <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
-                            <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
-                        </ol></li>
-                    
-                </ol></li><li>Read and evaluate XML projects with XPath (30 minutes; 3:30 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
-                                 <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
-                        'Ophelia'])</code></span></li>
-                    <li>How many speeches does Ophelia have in Act 2?
-                                 <button class="answer">Answer</button> <span class="answer"><code>count(//body/div[2]//sp[speaker eq
-                            'Ophelia'])</code></span></li>
-                    <li>What types of elements can have stage directions
-                            (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
-                        function.)
-                         <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
-                    <li>How many speeches don’t contain any metrical line child elements
-                            (<code>&lt;l&gt;</code>)? (Hint: use the <code>not()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-not"><sup>⬀</sup></a>
-                        function.)  <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
-                    <li>Building on your answer to the last question, who are the speakers of
-                        those speeches?
-                             <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
-                    <li>Building on your answer to the last two questions, what kinds of elements
-                        they contain instead?
-                                 <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
-                    <li>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
-                                 <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
-                        'Hamlet']/l)[1]</code></span></li>
-                    <li>What is the last stage direction in the entire document?
-                                 <button class="answer">Answer</button> <span class="answer"><code>(//stage)[last()]</code></span></li>
-                    <li>How many speeches have more than 8 line children?
-                                 <button class="answer">Answer</button> <span class="answer"><code>count(//sp[count(l) gt 8])</code></span></li>
-                    <li>Building on your answer to the preceding question, how many line children
-                        does each of those speeches have?  <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt
-                                8]/count(l)</code></span></li>
-                    <li>Building on your answers to the preceding two questions, who are the
-                        speakers of speeches that have more than 8 line children?
-                                 <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
-                            8]/speaker)</code></span></li>
-                    <li>How long is the longest speech?
-                                 <button class="answer">Answer</button> <span class="answer"><code>max(//sp/string-length())</code> (or, better:
-                                <code>max(//sp/string-length(normalize-space()))</code>)</span></li>
-                    <li>Building on your answer to the last question, who is the speaker of the
-                        longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length() eq
-                                max(//sp/string-length())]/speaker</code> (or, better:
-                                <code>//sp[string-length(normalize-space()) eq
-                                max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
                 </ol></li></ol></section>
     </section>
     <section>
         <h2>Tuesday, June 6: XPath and XQuery</h2>
-        <section><h3>XPath and XQuery in eXist-db (9:00 a.m.–12:00 p.m.)</h3><ol><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:00 a.m.–9:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>From XPath to XQuery (9:00 a.m.–12:00 p.m.)</h3><ol><li>Odds and ends (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                <li>Three ways to apply a function to a sequence<ol>
+                    <li>Explicit <code>for</code><ol>
+                        <li><code>for $speaker in /TEI//speaker return
+                            string-length($speaker)</code></li>
+                    </ol></li>
+                    <li>Implicit <code>for</code><ol>
+                        <li><code>/TEI//speaker/string-length()</code></li>
+                    </ol></li>
+                    <li>Simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)<ol>
+                            <li><code>/TEI//speaker ! string-length(.)</code></li>
+                        </ol></li>
+                </ol></li>
+                <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
+                    arrow (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) <ol>
+                            <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
+                            <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
+                        </ol></li>
+                
+            </ol></li><li>Read and evaluate XML projects with XPath (30 minutes; 9:15 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
+                     <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
+                        'Ophelia'])</code></span></li>
+                <li>How many speeches does Ophelia have in Act 2?
+                     <button class="answer">Answer</button> <span class="answer"><code>count(//body/div[2]//sp[speaker eq
+                        'Ophelia'])</code></span></li>
+                <li>What types of elements can have stage directions
+                    (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
+                    function.)
+                     <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
+                <li>How many speeches don’t contain any metrical line child elements
+                    (<code>&lt;l&gt;</code>)? (Hint: use the <code>not()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-not"><sup>⬀</sup></a>
+                    function.)  <button class="answer">Answer</button> <span class="answer"><code>count(//sp[not(l)])</code></span></li>
+                <li>Building on your answer to the last question, who are the speakers of
+                    those speeches?
+                     <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
+                <li>Building on your answer to the last two questions, what kinds of elements
+                    they contain instead?
+                     <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
+                <li>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
+                     <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
+                        'Hamlet']/l)[1]</code></span></li>
+                <li>What is the last stage direction in the entire document?
+                     <button class="answer">Answer</button> <span class="answer"><code>(//stage)[last()]</code></span></li>
+                <li>How many speeches have more than 8 line children?
+                     <button class="answer">Answer</button> <span class="answer"><code>count(//sp[count(l) gt 8])</code></span></li>
+                <li>Building on your answer to the preceding question, how many line children
+                    does each of those speeches have?  <button class="answer">Answer</button> <span class="answer"><code>//sp[count(l) gt
+                        8]/count(l)</code></span></li>
+                <li>Building on your answers to the preceding two questions, who are the
+                    speakers of speeches that have more than 8 line children?
+                     <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[count(l) gt
+                        8]/speaker)</code></span></li>
+                <li>How long is the longest speech?
+                     <button class="answer">Answer</button> <span class="answer"><code>max(//sp/string-length())</code> (or, better:
+                        <code>max(//sp/string-length(normalize-space()))</code>)</span></li>
+                <li>Building on your answer to the last question, who is the speaker of the
+                    longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length() eq
+                        max(//sp/string-length())]/speaker</code> (or, better:
+                        <code>//sp[string-length(normalize-space()) eq
+                            max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
+            </ol></li><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:45 a.m.–9:55 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</li>
                     <li>Access a document with <code>doc()</code>
@@ -455,7 +453,7 @@
                                          <button class="answer">Answer</button> <span class="answer"><code>collection('/db/apps/shakespeare/data/')//tei:stage</code></span>
                             </li>
                         </ol></li>
-                </ol></li><li>The seven types of nodes (20 minutes; 9:10 a.m.–9:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>The seven types of nodes (20 minutes; 9:55 a.m.–10:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Document (<code>document-node()</code>)</li>
                     <li>Element (<code>element()</code>)</li>
                     <li>Attribute (<code>attribute()</code>)<ol>
@@ -480,28 +478,7 @@
                     <li>Rarely used: comment (<code>comment()</code>), processing instruction
                             (<code>processing-instruction()</code>)</li>
                     <li>Deprecated: namespace (<code>namespace-uri()</code>)</li>
-                </ol></li><li>Neglected XPath axes (20 minutes; 9:30 a.m.–9:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li><code>preceding::</code>, <code>following::</code><ol>
-                            <li>Find all the stage directions (<code>&lt;stage&gt;</code>) that
-                                precede Act 2, Scene 2 in <em>Charles the First</em>
-                                 <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></span>
-                            </li>
-                        </ol></li>
-                    <li><code>self::</code><ol>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></li>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></li>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></li>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
-                                    eq 'Queen.']</code></li>
-                            <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
-                                    eq 'Queen.']</code></li>
-                        </ol></li>
-                    <li><code>ancestor::</code>, <code>ancestor-or-self::</code>,
-                            <code>descendant-or-self::</code>, <code>namespace::</code><ol>
-                            <li><code>//speaker[. eq 'Queen.']/ancestor::div[@type eq
-                                    'act']/@n</code></li>
-                        </ol></li>
-                </ol></li><li>Scavenger hunt 1 (25 minutes; 9:50 a.m.–10:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (15 minutes; 10:15 a.m.–10:30 a.m.) </li><li>Scavenger hunt (20 minutes; 10:30 a.m.–10:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
@@ -520,7 +497,7 @@
                                         <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></span>
                             </li>
                         </ol></li>
-                </ol></li><li>Break (15 minutes; 10:15 a.m.–10:30 a.m.) </li><li>Scavenger hunt 2 (15 minutes; 10:30 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Wildcard node testing (15 minutes; 10:50 a.m.–11:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
@@ -546,7 +523,7 @@
                             </li>
                         </ol>
                     </li>
-                </ol></li><li>Regex in XPath (30 minutes; 10:45 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Regex in XPath (30 minutes; 11:05 a.m.–11:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>contains()</code> vs. <code>matches()</code><ol>
                             <li>
                                 <code>doc('/db/mitford/literary/Charles1.xml')//tei:l[contains(.,
@@ -567,7 +544,7 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}($|\D)')]
 let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]
-return $b except $a (: returns items in $b that are not in $a: )</div></li>
+return $b except $a (: returns items in $b that are not in $a:)</div></li>
                         </ol></li>
                     <li><code>translate()</code> vs. <code>replace()</code>
                         <ol>
@@ -608,7 +585,7 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                                     the arrow operator (<code>=&gt;</code>) here?</span>
                             </li>
                         </ol></li>
-                </ol></li><li>Introducing variables (15 minutes; 11:15 a.m.–11:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Introducing variables (15 minutes; 11:35 a.m.–11:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Global variables and syntax, how to return their values in eXist-db</li>
                     <li>In eXist-db, keep the TEI namespace declaration line, and copy the
                         following global variables: <ol>
@@ -625,26 +602,28 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                                     <code>xs:integer()</code>.</li>
                         </ol>
                     </li>
-                </ol></li><li>Introducing FLWOR (30 minutes; 11:30 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Introducing FLWOR (10 minutes; 11:50 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
                             <code>where</code>, <code>order by</code>, <code>return</code></li>
                     <li>The simplest <code>FLWOR</code>: <code>let</code> (or <code>for</code>)
                         followed by <code>return</code></li>
-                    <li>Retrieve a sequence of whole elements: <ol>
-                            <li>
-                                <code>let $places := $Chas//tei:placeName</code>
-                            </li>
-                            <li>
-                                <code>return $places</code>
-                            </li>
-                            <li>How would you return only their text contents?
-                                         <button class="answer">Answer</button> <span class="answer"><code>$places/string()</code>, but notice the white
-                                    space issues. Repair these with <code>return
-                                        $places/normalize-space(string())</code></span></li>
-                        </ol>
-                    </li>
+                    
                 </ol></li></ol></section>
-        <section><h3>XQuery flow control (1:00 p.m.–4:00 p.m.)</h3><ol><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:00 p.m.–1:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XQuery flow control (1:00 p.m.–4:00 p.m.)</h3><ol><li>Introducing FLWOR, continued. (20 minutes; 1:00 p.m.–1:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Retrieve a sequence of whole elements: <ol>
+                        <li>
+                            <code>let $places := $Chas//tei:placeName</code>
+                        </li>
+                        <li>
+                            <code>return $places</code>
+                        </li>
+                        <li>How would you return only their text contents?
+                             <button class="answer">Answer</button> <span class="answer"><code>$places/string()</code>, but notice the white
+                                space issues. Repair these with <code>return
+                                    $places/normalize-space(string())</code></span></li>
+                    </ol>
+                    </li>
+                </ol></li><li>Scavenger Hunt 2: in XQuery this time. (30 minutes; 1:20 p.m.–1:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li> Work in eXist-db in the same file we started before the break and delete
                         only the <code>return</code> line. let’s keep adding to it. Use variables
                         and <code>FLWOR</code> statements to define and retrieve the following: <ol>
@@ -686,7 +665,7 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                         </ol>
                     </li>
                 </ol></li><li>Review XPath <code>for</code> loops; sequence and range variables
-                    (&lt;oXygen/&gt;) (30 minutes; 1:30 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    (&lt;oXygen/&gt;) (15 minutes; 1:50 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
                             ("Curly", "Larry", "Moe") return concat($i, " is a
                         Stooge!")</code></li>
@@ -713,7 +692,7 @@ return $b except $a (: returns items in $b that are not in $a: )</div></li>
                         </ol>
                     </li>
                 </ol></li><li><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
-                    1 (30 minutes; 2:00 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    1 (25 minutes; 2:05 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for</code> in XQuery and iterative returns: <code>for $i in
                             $YourSequenceVariable</code>. Look up the places coded in <em>Charles
                             the First</em> for their entries in the Digital Mitford site index. <ol>

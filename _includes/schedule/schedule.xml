@@ -420,9 +420,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+        
             <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
@@ -464,30 +462,38 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Odds and ends</desc>
-                <details>
-                    <item>Three ways to apply a function to a sequence<examples>
-                            <example>Explicit <code>for</code><examples>
-                                    <example><code>for $speaker in /TEI//speaker return
-                                            string-length($speaker)</code></example>
-                                </examples></example>
-                            <example>Implicit <code>for</code><examples>
-                                    <example><code>/TEI//speaker/string-length()</code></example>
-                                </examples></example>
-                            <example>Simple map (<code
-                                    url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>)<examples>
-                                    <example><code>/TEI//speaker ! string-length(.)</code></example>
-                                </examples></example>
-                        </examples></item>
-                    <item>Difference between simple map (<code
-                            url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>) and
-                        arrow (<code url="https://www.w3.org/TR/xpath-31/#id-arrow-operator"
-                            >=></code>) <examples>
+         
+           
+        </slot>
+    </day>
+    <day d="Tuesday, June 6">
+        <title>XPath and XQuery</title>
+        <slot time="09:00:00">
+            <title>From XPath to XQuery</title>
+        <act time="PT15M">
+            <desc>Odds and ends</desc>
+            <details>
+                <item>Three ways to apply a function to a sequence<examples>
+                    <example>Explicit <code>for</code><examples>
+                        <example><code>for $speaker in /TEI//speaker return
+                            string-length($speaker)</code></example>
+                    </examples></example>
+                    <example>Implicit <code>for</code><examples>
+                        <example><code>/TEI//speaker/string-length()</code></example>
+                    </examples></example>
+                    <example>Simple map (<code
+                        url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>)<examples>
+                            <example><code>/TEI//speaker ! string-length(.)</code></example>
+                        </examples></example>
+                </examples></item>
+                <item>Difference between simple map (<code
+                    url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>) and
+                    arrow (<code url="https://www.w3.org/TR/xpath-31/#id-arrow-operator"
+                        >=></code>) <examples>
                             <example><code>('Curly', 'Larry', 'Moe') => count()</code></example>
                             <example><code>('Curly', 'Larry', 'Moe') ! count(.)</code></example>
                         </examples></item>
-                    <!--<item>Concatenating nodes<examples>
+                <!--<item>Concatenating nodes<examples>
                             <example><code>string-join()</code><examples>
                                     <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                             ')</code></example>
@@ -497,62 +503,56 @@
                                         instead</example>
                                 </examples></example>
                         </examples></item>-->
-                </details>
-            </act>
-            <act time="PT30M">
-                <desc>Read and evaluate XML projects with XPath</desc>
-                <details>
-                    <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
-                                <answer><code>count(//sp[speaker eq
+            </details>
+        </act>
+        <act time="PT30M">
+            <desc>Read and evaluate XML projects with XPath</desc>
+            <details>
+                <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
+                    <answer><code>count(//sp[speaker eq
                         'Ophelia'])</code></answer></item>
-                    <item>How many speeches does Ophelia have in Act 2?
-                                <answer><code>count(//body/div[2]//sp[speaker eq
-                            'Ophelia'])</code></answer></item>
-                    <item>What types of elements can have stage directions
-                            (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
-                            url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
-                        function.)
-                        <answer><code>distinct-values(//stage/../name())</code></answer></item>
-                    <item>How many speeches don’t contain any metrical line child elements
-                            (<code>&lt;l&gt;</code>)? (Hint: use the <code
-                            url="https://www.w3.org/TR/xpath-functions-31/#func-not">not()</code>
-                        function.) <answer><code>count(//sp[not(l)])</code></answer></item>
-                    <item>Building on your answer to the last question, who are the speakers of
-                        those speeches?
-                            <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
-                    <item>Building on your answer to the last two questions, what kinds of elements
-                        they contain instead?
-                                <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
-                    <item>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
-                                <answer><code>(//sp[speaker eq
+                <item>How many speeches does Ophelia have in Act 2?
+                    <answer><code>count(//body/div[2]//sp[speaker eq
+                        'Ophelia'])</code></answer></item>
+                <item>What types of elements can have stage directions
+                    (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
+                        url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
+                    function.)
+                    <answer><code>distinct-values(//stage/../name())</code></answer></item>
+                <item>How many speeches don’t contain any metrical line child elements
+                    (<code>&lt;l&gt;</code>)? (Hint: use the <code
+                        url="https://www.w3.org/TR/xpath-functions-31/#func-not">not()</code>
+                    function.) <answer><code>count(//sp[not(l)])</code></answer></item>
+                <item>Building on your answer to the last question, who are the speakers of
+                    those speeches?
+                    <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
+                <item>Building on your answer to the last two questions, what kinds of elements
+                    they contain instead?
+                    <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
+                <item>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
+                    <answer><code>(//sp[speaker eq
                         'Hamlet']/l)[1]</code></answer></item>
-                    <item>What is the last stage direction in the entire document?
-                                <answer><code>(//stage)[last()]</code></answer></item>
-                    <item>How many speeches have more than 8 line children?
-                                <answer><code>count(//sp[count(l) gt 8])</code></answer></item>
-                    <item>Building on your answer to the preceding question, how many line children
-                        does each of those speeches have? <answer><code>//sp[count(l) gt
-                                8]/count(l)</code></answer></item>
-                    <item>Building on your answers to the preceding two questions, who are the
-                        speakers of speeches that have more than 8 line children?
-                                <answer><code>distinct-values(//sp[count(l) gt
-                            8]/speaker)</code></answer></item>
-                    <item>How long is the longest speech?
-                                <answer><code>max(//sp/string-length())</code> (or, better:
-                                <code>max(//sp/string-length(normalize-space()))</code>)</answer></item>
-                    <item>Building on your answer to the last question, who is the speaker of the
-                        longest speech? <answer><code>//sp[string-length() eq
-                                max(//sp/string-length())]/speaker</code> (or, better:
-                                <code>//sp[string-length(normalize-space()) eq
-                                max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
-                </details>
-            </act>
-        </slot>
-    </day>
-    <day d="Tuesday, June 6">
-        <title>XPath and XQuery</title>
-        <slot time="09:00:00">
-            <title>XPath and XQuery in eXist-db</title>
+                <item>What is the last stage direction in the entire document?
+                    <answer><code>(//stage)[last()]</code></answer></item>
+                <item>How many speeches have more than 8 line children?
+                    <answer><code>count(//sp[count(l) gt 8])</code></answer></item>
+                <item>Building on your answer to the preceding question, how many line children
+                    does each of those speeches have? <answer><code>//sp[count(l) gt
+                        8]/count(l)</code></answer></item>
+                <item>Building on your answers to the preceding two questions, who are the
+                    speakers of speeches that have more than 8 line children?
+                    <answer><code>distinct-values(//sp[count(l) gt
+                        8]/speaker)</code></answer></item>
+                <item>How long is the longest speech?
+                    <answer><code>max(//sp/string-length())</code> (or, better:
+                        <code>max(//sp/string-length(normalize-space()))</code>)</answer></item>
+                <item>Building on your answer to the last question, who is the speaker of the
+                    longest speech? <answer><code>//sp[string-length() eq
+                        max(//sp/string-length())]/speaker</code> (or, better:
+                        <code>//sp[string-length(normalize-space()) eq
+                            max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
+            </details>
+        </act>
             <act time="PT10M">
                 <desc>Housekeeping: documents, collections, and namespaces</desc>
                 <details>
@@ -611,6 +611,9 @@
                     <item>Deprecated: namespace (<code>namespace-uri()</code>)</item>
                 </details>
             </act>
+            <act time="PT15M">
+                <desc>Break</desc>
+            </act>
            <!-- <act time="PT20M">
                 <desc>Neglected XPath axes</desc>
                 <details>
@@ -659,9 +662,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+   
             <act time="PT15M">
                 <desc>Wildcard node testing</desc>
                 <details>
@@ -779,31 +780,38 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT10M">
                 <desc>Introducing FLWOR</desc>
                 <details>
                     <item><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
                             <code>where</code>, <code>order by</code>, <code>return</code></item>
                     <item>The simplest <code>FLWOR</code>: <code>let</code> (or <code>for</code>)
                         followed by <code>return</code></item>
-                    <item>Retrieve a sequence of whole elements: <examples>
-                            <example>
-                                <code>let $places := $Chas//tei:placeName</code>
-                            </example>
-                            <example>
-                                <code>return $places</code>
-                            </example>
-                            <example>How would you return only their text contents?
-                                        <answer><code>$places/string()</code>, but notice the white
-                                    space issues. Repair these with <code>return
-                                        $places/normalize-space(string())</code></answer></example>
-                        </examples>
-                    </item>
+                    
                 </details>
             </act>
         </slot>
         <slot time="13:00:00">
             <title>XQuery flow control</title>
+            <act time="PT20M">
+                <desc>Introducing FLWOR, continued.</desc>
+                <details>
+                    <item>Retrieve a sequence of whole elements: <examples>
+                        <example>
+                            <code>let $places := $Chas//tei:placeName</code>
+                        </example>
+                        <example>
+                            <code>return $places</code>
+                        </example>
+                        <example>How would you return only their text contents?
+                            <answer><code>$places/string()</code>, but notice the white
+                                space issues. Repair these with <code>return
+                                    $places/normalize-space(string())</code></answer></example>
+                    </examples>
+                    </item>
+                </details>
+            
+            </act>
             <act time="PT30M">
                 <desc>Scavenger Hunt 2: in XQuery this time.</desc>
                 <details>
@@ -849,7 +857,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>Review XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
