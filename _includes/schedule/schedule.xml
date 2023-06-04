@@ -126,7 +126,7 @@
                         that is, new-line and space have the same meaning</item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
@@ -150,7 +150,7 @@
                         triangle.</item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT15M">
                 <desc>XPath path expressions</desc>
                 <details>
                     <item>An XPath <emph>path expression</emph> is a sequence of steps, each of
@@ -182,9 +182,9 @@
                             <example><code>/TEI/teiHeader/fileDesc/title Stmt/title</code> (raises
                                 an error; spaces are not allowed in path expressions)</example>
                         </examples></item>
-                    <item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
+                    <!--<item>Namespaces matter in Real Life (XSLT, XQuery, Schematron), but the
                         &lt;oXygen/&gt; XPath Toolbar and XPath Builder take care of them for you
-                        behind the scenes (eXide does not).</item>
+                        behind the scenes (eXide does not).</item>-->
                 </details>
             </act>
         </slot>
@@ -377,7 +377,7 @@
                                 <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"
@@ -610,7 +610,7 @@
                     <item>Deprecated: namespace (<code>namespace-uri()</code>)</item>
                 </details>
             </act>
-            <act time="PT20M">
+           <!-- <act time="PT20M">
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code>, <code>following::</code><examples>
@@ -634,9 +634,9 @@
                                     'act']/@n</code></example>
                         </examples></item>
                 </details>
-            </act>
-            <act time="PT25M">
-                <desc>Scavenger hunt 1</desc>
+            </act>-->
+            <act time="PT20M">
+                <desc>Scavenger hunt</desc>
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
@@ -662,7 +662,7 @@
                 <desc>Break</desc>
             </act>
             <act time="PT15M">
-                <desc>Scavenger hunt 2</desc>
+                <desc>Wildcard node testing</desc>
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
@@ -714,7 +714,7 @@
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}($|\D)')]
 let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]
-return $b except $a (: returns items in $b that are not in $a: )</answer></example>
+return $b except $a (: returns items in $b that are not in $a:)</answer></example>
                         </examples></item>
                     <item><code>translate()</code> vs. <code>replace()</code>
                         <examples>
@@ -848,7 +848,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT20M">
                 <desc>Review XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
@@ -879,7 +879,7 @@ return $b except $a (: returns items in $b that are not in $a: )</answer></examp
                     </item>
                 </details>
             </act>
-            <act time="PT30M">
+            <act time="PT25M">
                 <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
                     1</desc>
                 <details>
