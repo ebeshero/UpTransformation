@@ -647,20 +647,17 @@
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
                         following? <examples>
                             <example> Look at the <code>div</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
                                 organized? Write an XPath that isolates these attribute values.
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
-                            <example>Look element children of the <code>&lt;div&gt;</code> elements
-                                (you can do this without seeing what all the elements are). What
-                                attribute on these elements can be used to differentiate the various
-                                lists in the document? Complete this XPath by isolating these
-                                attribute values.
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
-                                    or
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></answer>
+                                        <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
+                            <example>Look at the element children of the <code>&lt;div&gt;</code> elements
+                                (you can do this without knowing what all the elements are). What do you think is the purpose of the <code>@sortKey</code> attributes?
+                                What XPath expression would show you those values?
+                                        <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@sortKey ! string()</code>
+                                    </answer>
                             </example>
                         </examples></item>
                 </details>
@@ -671,24 +668,18 @@
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
                         following? <examples>
-                            <example>Without knowing the names of the elements that are members of
-                                lists, you can tell that all follow the same XPath pattern. What is
-                                it?
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
-                                        or </code> or
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></answer></example>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the
                                     First</emph> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes that begin with a hashtag, formatted like this:
-                                "#CharlesI_MRMplay". Knowing this, can you locate all the individual
-                                entries in the site index lists that contain references of any kind
+                                attributes that begin with a hashmark <code>#</code>, formatted like this:
+                                <code>"#CharlesI_MRMplay"</code>. Knowing this, can you locate all the individual
+                                entries in any of the site index lists that contain references of any kind
                                 to the play?
-                                        <answer><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>
+                                        <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]</code>
                                     How can you find out how many these are using a function?
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]
                                         => count()</code>
                                 </answer>
                             </example>
@@ -824,12 +815,12 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example> Define a global variable pointing to the Digital Mitford site
                                 index document, posted in eXist at <code>/db/mitford/si.xml</code>
                                 or the official version at its external
-                                    location:<code>http://digitalmitford.org/si.xml</code>. Hint:
+                                    location:<code>https://digitalmitford.org/si.xml</code>. Hint:
                                 Global variables need to be defined before <code>FLWOR</code>
                                 statements. <answer><code>declare variable $si as document-node() :=
                                         doc('/db/mitford/si.xml');</code> or <code>declare variable
                                         $si as document-node() :=
-                                        doc('http://digitalmitford.org/si.xml');</code> The new
+                                        doc('https://digitalmitford.org/si.xml');</code> The new
                                     global variable must be added before the first <code>let</code>
                                     statement.</answer>
                             </example>
@@ -871,7 +862,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 "Moe") ! concat(., " is a Stooge!")</code></answer>
                     </item>
                     <item>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
-                            <code>http://digitalmitford.org/si.xml</code> . Try finding out the
+                            <code>https://digitalmitford.org/si.xml</code> . Try finding out the
                         following in the &lt;oXygen/&gt; XPath Builder: <examples>
                             <example>Find each person we have listed as born in Scotland in the site
                                 index. Notice that sometimes place names are stored inside the
@@ -1510,7 +1501,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example>Workshop repo on GitHub:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</link></example>
                             <example>Mitford project site:
-                                    <link>http://digitalmitford.org/si.xml</link></example>
+                                    <link>https://digitalmitford.org/si.xml</link></example>
                             <example>Outline:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</link></example>
                         </examples></item>
