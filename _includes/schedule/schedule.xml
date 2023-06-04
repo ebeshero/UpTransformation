@@ -716,16 +716,16 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         <examples>
                             <example>Try this expression,
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>,
-                                and notice the pseudomarkup in the cast list.
+                                and notice the pseudo-markup in the cast list.
                                     <code>translate()</code> to the rescue!
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
                                     '()', '')</code></example>
 
-                            <example>The next examples work with the <code>@xml:id</code>s on the
-                                    <code>tei:l</code> elements. How can you get a look at the
-                                    <code>@xml:id</code>s first?
+                            <example>The next examples work with the <code>@xml:id</code> attributes on the
+                                    <code>&lt;l&gt;</code> elements. How can you get a look at the
+                                    <code>@xml:id</code> attributes first?
                                         <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></answer></example>
-                            <example>Change the format of the line <code>@xml:id</code>s with
+                            <example>Change the format of the <code>@xml:id</code> attributes on the <code>&lt;l&gt;</code> elements with
                                     <code>replace()</code>:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id,
                                     'Chas(_\w+_)', 'C1$1')</code></example>
@@ -734,14 +734,14 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code>
                         <examples>
-                            <example>Return only location (e.g. ded, pro, act) and line number
-                                information in the <code>@xml:id</code>s:
+                            <example>Return only the document location (e.g., "ded", "pro", "act") and line number
+                                information in the <code>@xml:id</code> attributes:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
                                     'Chas_')</code>
                             </example>
                             <example>Working with the expression we just wrote, how would you apply
-                                    <code>substring-before()</code> to return only the location
-                                (ded, pro, act), and trim off the line number information?
+                                    <code>substring-before()</code> to return only the document location
+                                ("ded", "pro", "act"), and trim off the line number information?
                                     <answer>Two ways: old-fashioned:
                                         <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
                                         'Chas_'), '_')</code> and more legible with simple map
