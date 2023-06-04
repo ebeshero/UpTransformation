@@ -187,26 +187,23 @@
                         behind the scenes (eXide does not).</item>-->
                 </details>
             </act>
-        </slot>
-        <slot time="13:00:00">
-            <title>Exploring document structures and data with XPath</title>
-            <act time="PT25M">
+            <act time="PT20M">
                 <desc>XPath path steps</desc>
                 <details>
                     <item>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
-                            <code>descendant::</code>, <code>ancestor::</code>,
-                            <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
+                        <code>descendant::</code>, <code>ancestor::</code>,
+                        <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
                         See:
-                            <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
+                        <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
                     <item>Axes are specified with a double colon, e.g., <code>descendant::div</code>
                         matches all <code>&lt;div&gt;</code> descendants of the current context
                         node. There are two common shortcut notations<examples>
                             <example>The default is the <emph>child</emph> axis, so
-                                    <code>/TEI/teiHeader</code> is synonymous with
-                                    <code>/child::TEI/child::teiHeader</code>. Use the
+                                <code>/TEI/teiHeader</code> is synonymous with
+                                <code>/child::TEI/child::teiHeader</code>. Use the
                                 shorthand.</example>
                             <example><code>//</code> is shorthand for
-                                    <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
+                                <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
                                 finds all of the <code>&lt;div&gt;</code> elements that are
                                 descendants of the <code>&lt;TEI&gt;</code> root element, that is,
                                 anywhere in the document. The document node has a descendant axis,
@@ -217,52 +214,56 @@
                         next path step. Only the final path step is permitted to return something
                         other than a node. Why?</item>
                     <item>The end of a path expression may return nodes or atomic values<examples>
-                            <example><code>//body/div/count(descendant::sp)</code> navigates from
-                                the document node to all of the acts in the play and then returns a
-                                count of the speeches in each act</example>
-                            <example>What’s wrong with <code>//body/div/count(//sp)</code>?
-                                    <answer>The leading double slash resets the current context to
-                                    the document node, and selects all <code>&lt;sp&gt;</code>
-                                    elements in the entire document, instead of just the individual
-                                    act.</answer></example>
-                        </examples></item>
+                        <example><code>//body/div/count(descendant::sp)</code> navigates from
+                            the document node to all of the acts in the play and then returns a
+                            count of the speeches in each act</example>
+                        <example>What’s wrong with <code>//body/div/count(//sp)</code>?
+                            <answer>The leading double slash resets the current context to
+                                the document node, and selects all <code>&lt;sp&gt;</code>
+                                elements in the entire document, instead of just the individual
+                                act.</answer></example>
+                    </examples></item>
                     <item><code>*</code> matches any element<examples>
-                            <example><code>/TEI/teiHeader/*</code> matches all child elements of the
-                                    <code>&lt;teiHeader&gt;</code></example>
-                        </examples></item>
+                        <example><code>/TEI/teiHeader/*</code> matches all child elements of the
+                            <code>&lt;teiHeader&gt;</code></example>
+                    </examples></item>
                     <item><code>..</code> matches the parent node of the current context node. That
                         is, it’s shorthand for <code>parent::*</code><examples>
                             <example><code>//stage/..</code> matches the parent nodes of all
-                                    <code>&lt;stage&gt;</code> elements</example>
+                                <code>&lt;stage&gt;</code> elements</example>
                         </examples></item>
                     <item>Your turn: <examples>
-                            <example>Find the acts (<code>&lt;div&gt;</code> children of
-                                    <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
-                                <answer>
-                                    <code>//body/div</code>
-                                </answer></example>
-                            <example>Find the stage directions (<code>&lt;stage&gt;</code>) in
-                                    <emph>Hamlet</emph>
-                                <answer>
-                                    <code>//stage</code>
-                                </answer></example>
-                            <example>Find the <code>&lt;stage&gt;</code> children of
-                                    <code>&lt;div&gt;</code> elements (but not other
-                                    <code>&lt;stage&gt;</code> elements) in <emph>Hamlet</emph>
-                                <answer>
-                                    <code>//div/stage</code>
-                                </answer></example>
-                            <example>Find the parents of the stage directions in <emph>Hamlet</emph>
-                                <answer>
-                                    <code>//stage/..</code> or <code>//stage/parent::*</code>
-                                </answer></example>
-                            <example>Find the <code>&lt;div&gt;</code> parents of the stage
-                                directions in <emph>Hamlet</emph>, but not other parents <answer>
-                                    <code>//stage/parent::div</code>
-                                </answer></example>
-                        </examples></item>
+                        <example>Find the acts (<code>&lt;div&gt;</code> children of
+                            <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
+                            <answer>
+                                <code>//body/div</code>
+                            </answer></example>
+                        <example>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                            <emph>Hamlet</emph>
+                            <answer>
+                                <code>//stage</code>
+                            </answer></example>
+                        <example>Find the <code>&lt;stage&gt;</code> children of
+                            <code>&lt;div&gt;</code> elements (but not other
+                            <code>&lt;stage&gt;</code> elements) in <emph>Hamlet</emph>
+                            <answer>
+                                <code>//div/stage</code>
+                            </answer></example>
+                        <example>Find the parents of the stage directions in <emph>Hamlet</emph>
+                            <answer>
+                                <code>//stage/..</code> or <code>//stage/parent::*</code>
+                            </answer></example>
+                        <example>Find the <code>&lt;div&gt;</code> parents of the stage
+                            directions in <emph>Hamlet</emph>, but not other parents <answer>
+                                <code>//stage/parent::div</code>
+                            </answer></example>
+                    </examples></item>
                 </details>
             </act>
+        </slot>
+        <slot time="13:00:00">
+            <title>Exploring document structures and data with XPath</title>
+            
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
                 <details>

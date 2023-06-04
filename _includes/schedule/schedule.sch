@@ -9,7 +9,7 @@
                 days</sch:p>
             <sch:assert test="
                     if (ancestor::day/@d eq 'Monday, June 5') then
-                        . eq '10:30:00'                    
+                        . eq '10:30:00'
                     else
                         . eq '09:00:00'">Monday starts at 10:30 a.m., other days at
                 9:00</sch:assert>
@@ -33,7 +33,7 @@
 
             <sch:assert test="
                     if (../@d eq 'Monday, June 5') then
-                        $duration eq xs:dayTimeDuration('PT1H30M')                    
+                        $duration eq xs:dayTimeDuration('PT1H30M')
                     else
                         if (../@d eq 'Friday, June 9') then
                             $duration eq xs:dayTimeDuration('PT1H15M')
@@ -42,13 +42,18 @@
                     <sch:value-of select="$duration"/> is incorrect; Monday should be PT1H30M and
                 other days should be PT3H</sch:assert>
         </sch:rule>
-        <sch:rule context="slot[2]">
-            <sch:p>Duration of second (afternoon) slot is 3:00</sch:p>
+        <sch:rule context="slot[2][../@d eq 'Monday, June 5']">
+            <sch:p>Duration of second (afternoon) slot on Monday is 1:15.</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-            <sch:assert test="
-                    $duration eq xs:dayTimeDuration('PT3H')">Duration of <sch:value-of
-                    select="$duration"/> is incorrect; duration of all afternoon sessions should be
-                PT3H</sch:assert>
+            <sch:assert test="$duration eq xs:dayTimeDuration('PT1H15M')">Duration of <sch:value-of
+                    select="$duration"/> is incorrect; duration of Monday afternoon session should
+                be PT1H15M</sch:assert>
+        </sch:rule>
+        <sch:rule context="slot[2][../@d ne 'Monday, June 5']">
+            <sch:p>Duration of second (afternoon) slot is 3:00.</sch:p>
+            <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
+            <sch:assert test="$duration eq xs:dayTimeDuration('PT3H')">Duration of <sch:value-of
+                    select="$duration"/> is incorrect; duration should be PT3H</sch:assert>
         </sch:rule>
         <sch:rule context="title">
             <sch:p>title element must have non-whitespace content</sch:p>
