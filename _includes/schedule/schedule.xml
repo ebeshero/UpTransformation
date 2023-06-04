@@ -135,7 +135,7 @@
                         and hit <q>OK</q>. (Backup copy at
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)
                         This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
-                    <item>Set the dropdown in the upper left to <q>XPath 3.0</q>. (This widget is
+                    <item>Set the dropdown in the upper left to <q>XPath 3.1</q>. (This widget is
                         called the <emph
                             url="https://www.oxygenxml.com/doc/versions/20.0/ug-editor/topics/xpath-console.html"
                             >XPath Toolbar</emph>.) Enter some XPath expressions (from above, such
@@ -144,7 +144,7 @@
                         &lt;oXygen/&gt;, even if you aren’t using the document in your XPath
                         expression.</item>
                     <item>Go to Window → Show View → XPath/XQuery Builder. Set the dropdown in the
-                        upper left to <q>XPath 3.0</q>. Enter some XPath expressions. May span
+                        upper left to <q>XPath 3.1</q>. Enter some XPath expressions. May span
                         multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
                         (Windows) or <q>Cmd+Enter</q> (MacOS), or click the red right-pointed
                         triangle.</item>
@@ -203,7 +203,7 @@
                                 <code>/child::TEI/child::teiHeader</code>. Use the
                                 shorthand.</example>
                             <example><code>//</code> is shorthand for
-                                <code>/descendant-or-self::</code>, so <code>/TEI//div</code>
+                                <code url="http://dh.obdurodon.org/xpath-assignment-02-answers.xhtml#descendant-or-self">descendant-or-self::node()/</code>, so <code>/TEI//div</code>
                                 finds all of the <code>&lt;div&gt;</code> elements that are
                                 descendants of the <code>&lt;TEI&gt;</code> root element, that is,
                                 anywhere in the document. The document node has a descendant axis,
@@ -324,13 +324,14 @@
                             <example><code>substring('Curly', 1, 2)</code> XPath starts counting
                                 with 1 (not 0).</example>
                         </examples></item>
-                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-contains"
-                            >contains()</code> Foreshadowing: This returns a Boolean
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-contains">contains()</code> Foreshadowing: This returns a Boolean
                             (<code>True</code> or <code>False</code>) value. How might this be useful?<examples>
                             <example><code>contains('Ophelia', 'ph')</code></example>
                             <example><code>//speaker/contains(., 'ph')</code> (the dot refers to the
                                 current context item)</example>
-                        </examples></item>
+                                <example>See also <code url="https://www.w3.org/TR/xpath-functions-31/#func-contains-token">contains-token()</code>, which would match "Rosencrantz" but not "Rosencrantzenfeld".</example>
+                        </examples>
+                    </item>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"
                             >starts-with()</code>, <code
                             url="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"
@@ -340,18 +341,8 @@
                 </details>
             </act>
             <act time="PT20M">
-                <desc>XPath functions for numbers</desc>
+                <desc>XPath functions for numbers and for sequences of numbers</desc>
                 <details>
-                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
-                            >max()</code>, <code
-                            url="https://www.w3.org/TR/xpath-functions-31/#func-min">min()</code>,
-                            <code url="https://www.w3.org/TR/xpath-functions-31/#func-sum"
-                            >sum()</code>, <code
-                            url="https://www.w3.org/TR/xpath-functions-31/#func-avg">avg()</code><examples>
-                            <example><code>max((1, 2, 3))</code>, etc.</example>
-                            <example>What happens when these are applied to strings? To a sequence
-                                that mixes strings and numbers?</example>
-                        </examples></item>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"
                             >ceiling()</code>, <code
                             url="https://www.w3.org/TR/xpath-functions-31/#func-floor"
@@ -371,6 +362,16 @@
                             <example><code>format-integer(154,'I')</code></example>
                             <example><code>format-number(1, '#.000')</code></example>
                         </examples></item>
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
+                        >max()</code>, <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-min">min()</code>,
+                        <code url="https://www.w3.org/TR/xpath-functions-31/#func-sum"
+                            >sum()</code>, <code
+                                url="https://www.w3.org/TR/xpath-functions-31/#func-avg">avg()</code><examples>
+                                    <example><code>max((1, 2, 3))</code>, etc.</example>
+                                    <example>What happens when these are applied to strings? To a sequence
+                                        that mixes strings and numbers?</example>
+                                </examples></item>
                     <item>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <answer><code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</answer></item>
@@ -430,7 +431,8 @@
                     <item><emph>Cardinality error</emph>:
                         <code>string-length(/TEI/speaker)</code></item>
                     <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
-                            'Larry', 'Moe')</code> is broken?</item>
+                        'Larry', 'Moe')</code> is broken? <answer>The <code>count()</code> function is receiving three arguments, but it is designed to receive only one argument. To give it one argument, it needs a set of inner parentheses: <code>count((('Curly',
+                            'Larry', 'Moe'))</code></answer></item>
                     <item>The error message is your friend. Read it.</item>
                     <item>Resources and references:
                             <link>https://ebeshero.github.io/UpTransformation/References.html</link></item>
@@ -455,9 +457,9 @@
                             <example><code>//stage[parent::div]</code> is equivalent to
                                     <code>//div/stage</code></example>
                         </examples></item>
-                    <item>Predicates with operators and functions<examples>
+                    <item>Predicates with functions and operators<examples>
                             <example><code>//sp[speaker eq 'Ophelia']</code></example>
-                            <example><code>//sp[contains(speaker, 'Rosencrantz')]</code></example>
+                            <example><code>//sp[contains-token(speaker, 'Rosencrantz')]</code></example>
                             <example><code>//lg[@type eq 'couplet']</code></example>
                         </examples></item>
                 </details>
