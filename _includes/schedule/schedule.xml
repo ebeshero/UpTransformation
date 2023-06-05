@@ -924,7 +924,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
 
-                    <item>Sorting your sequence: two ways: <examples>
+                    <item>Sort your sequence: two ways: <examples>
                             <example>Apply the XPath <code>sort()</code> function to the variable
                                 that defines the sequence (above the <code>for</code> loop):
                                         <answer><code>let $distChPRs := $ChasPlaceRefs => distinct-values() => sort()</code>
@@ -939,7 +939,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         <example>Do either of these methods really deliver alphabetical order? <answer>In no human understanding of alphabetical order does Zebra come before aardvark. This sorting reflects Unicode order.</answer></example>
                         </examples>
                     </item>
-                    <item>Numbering the results with <code>$pos</code><examples>
+                    <item>Number the results with <code>$pos</code><examples>
                             <example>Set the <code>$pos</code> variable in the <code>for</code>
                                 statement: <code>for $i at $pos in $YourSequenceVariable</code>, but
                                 caution: <code>order by</code> happens <emph>after</emph>
@@ -948,7 +948,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         concat($pos, ': ',
                                 $siCPrs/@xml:id)</code></answer></example>
                         </examples></item>
-                    <item>Adding <code>where</code> in a <code>for-loop</code> to limit the returns <examples>
+                    <item>Add <code>where</code> in a <code>for expression</code> to limit the returns <examples>
                             <example>Notice the blank results: A number of entries are not yet in
                                 the site index. So we can limit by selecting only those where the
                                 variable <code>$siCPrs</code> exists: <code>where $siCPrs</code>
