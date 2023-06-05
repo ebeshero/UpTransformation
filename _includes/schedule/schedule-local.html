@@ -485,43 +485,34 @@
                 </ol></li><li>Break (15 minutes; 10:15 a.m.–10:30 a.m.) </li><li>Scavenger hunt (20 minutes; 10:30 a.m.–10:50 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
                         following? <ol>
                             <li> Look at the <code>div</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
                                 organized? Write an XPath that isolates these attribute values.
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/@type/string()</code></span></li>
-                            <li>Look element children of the <code>&lt;div&gt;</code> elements
-                                (you can do this without seeing what all the elements are). What
-                                attribute on these elements can be used to differentiate the various
-                                lists in the document? Complete this XPath by isolating these
-                                attribute values.
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@sortKey</code>
-                                    or
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/@*</code></span>
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//tei:div/@type/string()</code></span></li>
+                            <li>Look at the element children of the <code>&lt;div&gt;</code> elements
+                                (you can do this without knowing what all the elements are). What do you think is the purpose of the <code>@sortKey</code> attributes?
+                                What XPath expression would show you those values?
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@sortKey ! string()</code>
+                                    </span>
                             </li>
                         </ol></li>
                 </ol></li><li>Wildcard node testing (15 minutes; 10:50 a.m.–11:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>http://digitalmitford.org/si.xml</code> Can you find out the
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
                         following? <ol>
-                            <li>Without knowing the names of the elements that are members of
-                                lists, you can tell that all follow the same XPath pattern. What is
-                                it?
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*
-                                        or </code> or
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id]</code></span></li>
                             <li>The <code>@xml:id</code> for the play <em>Charles the
                                     First</em> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes that begin with a hashtag, formatted like this:
-                                "#CharlesI_MRMplay". Knowing this, can you locate all the individual
-                                entries in the site index lists that contain references of any kind
+                                attributes that begin with a hashmark <code>#</code>, formatted like this:
+                                <code>"#CharlesI_MRMplay"</code>. Knowing this, can you locate all the individual
+                                entries in any of the site index lists that contain references of any kind
                                 to the play?
-                                         <button class="answer">Answer</button> <span class="answer"><code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code>
+                                         <button class="answer">Answer</button> <span class="answer"><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]</code>
                                     How can you find out how many these are using a function?
-                                        <code>doc('http://digitalmitford.org/si.xml')//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]
+                                        <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]
                                         =&gt; count()</code>
                                 </span>
                             </li>
@@ -554,16 +545,16 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                         <ol>
                             <li>Try this expression,
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList</code>,
-                                and notice the pseudomarkup in the cast list.
+                                and notice the pseudo-markup in the cast list.
                                     <code>translate()</code> to the rescue!
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
                                     '()', '')</code></li>
 
-                            <li>The next examples work with the <code>@xml:id</code>s on the
-                                    <code>tei:l</code> elements. How can you get a look at the
-                                    <code>@xml:id</code>s first?
+                            <li>The next examples work with the <code>@xml:id</code> attributes on the
+                                    <code>&lt;l&gt;</code> elements. How can you get a look at the
+                                    <code>@xml:id</code> attributes first?
                                          <button class="answer">Answer</button> <span class="answer"><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></span></li>
-                            <li>Change the format of the line <code>@xml:id</code>s with
+                            <li>Change the format of the <code>@xml:id</code> attributes on the <code>&lt;l&gt;</code> elements with
                                     <code>replace()</code>:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id,
                                     'Chas(_\w+_)', 'C1$1')</code></li>
@@ -572,14 +563,14 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                     <li><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code>
                         <ol>
-                            <li>Return only location (e.g. ded, pro, act) and line number
-                                information in the <code>@xml:id</code>s:
+                            <li>Return only the document location (e.g., "ded", "pro", "act") and line number
+                                information in the <code>@xml:id</code> attributes:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
                                     'Chas_')</code>
                             </li>
                             <li>Working with the expression we just wrote, how would you apply
-                                    <code>substring-before()</code> to return only the location
-                                (ded, pro, act), and trim off the line number information?
+                                    <code>substring-before()</code> to return only the document location
+                                ("ded", "pro", "act"), and trim off the line number information?
                                      <button class="answer">Answer</button> <span class="answer">Two ways: old-fashioned:
                                         <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
                                         'Chas_'), '_')</code> and more legible with simple map
@@ -599,11 +590,10 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             </li>
                             <li><code>declare variable $ChasPlay as element() :=
                                     $Chas/*;</code></li>
-                            <li>Return the value of the variables by typing their names on the
+                            <li>Return the value of the variables one by one, by typing each of their names on the
                                 next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the
-                                difference in the data type declaration and in the results. The
-                                value after <code>as</code> could also be <code>xs:string</code> or
-                                    <code>xs:integer()</code>.</li>
+                                difference in the data type declaration and in the results. Other common values of <code>as</code> include <code>xs:string</code> or
+                                    <code>xs:integer</code>.</li>
                         </ol>
                     </li>
                 </ol></li><li>Introducing FLWOR (10 minutes; 11:50 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
@@ -634,12 +624,12 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <li> Define a global variable pointing to the Digital Mitford site
                                 index document, posted in eXist at <code>/db/mitford/si.xml</code>
                                 or the official version at its external
-                                    location:<code>http://digitalmitford.org/si.xml</code>. Hint:
+                                    location:<code>https://digitalmitford.org/si.xml</code>. Hint:
                                 Global variables need to be defined before <code>FLWOR</code>
                                 statements.  <button class="answer">Answer</button> <span class="answer"><code>declare variable $si as document-node() :=
                                         doc('/db/mitford/si.xml');</code> or <code>declare variable
                                         $si as document-node() :=
-                                        doc('http://digitalmitford.org/si.xml');</code> The new
+                                        doc('https://digitalmitford.org/si.xml');</code> The new
                                     global variable must be added before the first <code>let</code>
                                     statement.</span>
                             </li>
@@ -677,7 +667,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                 "Moe") ! concat(., " is a Stooge!")</code></span>
                     </li>
                     <li>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
-                            <code>http://digitalmitford.org/si.xml</code> . Try finding out the
+                            <code>https://digitalmitford.org/si.xml</code> . Try finding out the
                         following in the &lt;oXygen/&gt; XPath Builder: <ol>
                             <li>Find each person we have listed as born in Scotland in the site
                                 index. Notice that sometimes place names are stored inside the
@@ -1186,7 +1176,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <li>Workshop repo on GitHub:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</a></li>
                             <li>Mitford project site:
-                                    <a href="http://digitalmitford.org/si.xml">http://digitalmitford.org/si.xml</a></li>
+                                    <a href="https://digitalmitford.org/si.xml">https://digitalmitford.org/si.xml</a></li>
                             <li>Outline:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</a></li>
                         </ol></li>

@@ -765,11 +765,10 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </example>
                             <example><code>declare variable $ChasPlay as element() :=
                                     $Chas/*;</code></example>
-                            <example>Return the value of the variables by typing their names on the
+                            <example>Return the value of the variables one by one, by typing each of their names on the
                                 next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the
-                                difference in the data type declaration and in the results. The
-                                value after <code>as</code> could also be <code>xs:string</code> or
-                                    <code>xs:integer()</code>.</example>
+                                difference in the data type declaration and in the results. Other common values of <code>as</code> include <code>xs:string</code> or
+                                    <code>xs:integer</code>.</example>
                         </examples>
                     </item>
                 </details>
