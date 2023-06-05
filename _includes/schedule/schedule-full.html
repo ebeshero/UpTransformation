@@ -91,7 +91,7 @@
                     <li>Path expressions may span multiple lines (try it with the examples above),
                         that is, new-line and space have the same meaning</li>
                 </ol></li><li>XPath in &lt;oXygen/&gt; (15 minutes; 11:10 a.m.–11:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
+                    <li>Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
                             <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
                         and hit <q>OK</q>. (Backup copy at
@@ -361,7 +361,7 @@
     </section>
     <section>
         <h2>Tuesday, June 6: XPath and XQuery</h2>
-        <section><h3>From XPath to XQuery (9:00 a.m.–12:00 p.m.)</h3><ol><li>Odds and ends (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>From XPath to XQuery (9:00 a.m.–12:00 p.m.)</h3><ol><li>Working with sequences (15 minutes; 9:00 a.m.–9:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                 <li>Three ways to apply a function to a sequence<ol>
                     <li>Explicit <code>for</code><ol>
                         <li><code>for $speaker in /TEI//speaker return
@@ -381,6 +381,12 @@
                         </ol></li>
                 
             </ol></li><li>Read and evaluate XML projects with XPath (30 minutes; 9:15 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                <li>Let’s open <em>Hamlet</em> again in &lt;oXygen/&gt;. Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
+                    (MacOS), copy and paste the string
+                    <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
+                    and hit <q>OK</q>. (Backup copy at
+                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</a>.)
+                    This is a copy of <em>Hamlet</em> with TEI markup.</li>
                 <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
                      <button class="answer">Answer</button> <span class="answer"><code>count(//sp[speaker eq
                         'Ophelia'])</code></span></li>
@@ -397,8 +403,8 @@
                 <li>Building on your answer to the last question, who are the speakers of
                     those speeches?
                      <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
-                <li>Building on your answer to the last two questions, what kinds of elements
-                    they contain instead?
+                <li>Building on your answers to the last two questions, what kinds of elements
+                    do they contain instead?
                      <button class="answer">Answer</button> <span class="answer"><code>distinct-values(//sp[not(l)]/*/name())</code></span></li>
                 <li>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
                      <button class="answer">Answer</button> <span class="answer"><code>(//sp[speaker eq
@@ -579,7 +585,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <li><code>declare variable $ChasPlay as element() :=
                                     $Chas/*;</code></li>
                             <li>Return the value of the variables one by one, by typing each of their names on the
-                                next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the
+                                next line: <code>$Chas</code> and <code>$ChasPlay</code>. Notice the
                                 difference in the data type declaration and in the results. Other common values of <code>as</code> include <code>xs:string</code> or
                                     <code>xs:integer</code>.</li>
                         </ol>
@@ -625,7 +631,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                 index document. Use the <code>$si</code> variable you just defined for the site index
                                 document in your expression.  <button class="answer">Answer</button> <span class="answer"><code>let $siPlaces as element()+ :=
                                         $si//tei:place</code> or as a global variable above the
-                                    first let statement and after the variable defining the si.xml
+                                    first <code>let</code> statement and after the variable defining the si.xml
                                     document: <code>declare variable $siPlaces as element()+ :=
                                         $si//tei:place;</code>. </span></li>
                             <li>For housekeeping purposes, rename the variable
@@ -645,12 +651,12 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             </li>
                         </ol>
                     </li>
-                </ol></li><li>XPath <code>for</code> loops; sequence and range variables
+                </ol></li><li>XPath <code>for</code> expressions; sequence and range variables
                     (&lt;oXygen/&gt;) (15 minutes; 1:50 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
                             ("Curly", "Larry", "Moe") return concat($i, " is a
                         Stooge!")</code></li>
-                    <li>Can we write it as a simple map (with !)?  <button class="answer">Answer</button> <span class="answer"><code>("Curly", "Larry",
+                    <li>Can we write it as a simple map (with <code>!</code>)?  <button class="answer">Answer</button> <span class="answer"><code>("Curly", "Larry",
                                 "Moe") ! concat(., " is a Stooge!")</code></span>
                     </li>
                     <li>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
@@ -692,7 +698,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                         <code>@xml:id</code> value.</span></li>
                             <li>Write the variable that finds the site index entry whose
                                     <code>@xml:id</code> matches the value of the range variable in
-                                our <code>for</code> loop.  <button class="answer">Answer</button> <span class="answer"><code>let $siCPrs :=
+                                our <code>for</code> expression.  <button class="answer">Answer</button> <span class="answer"><code>let $siCPrs :=
                                         $si//tei:place[@xml:id = substring-after($i,
                                     '#')]</code></span></li>
                         </ol>
