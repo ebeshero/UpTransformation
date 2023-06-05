@@ -643,13 +643,13 @@
                 </details>
             </act>-->
             <act time="PT20M">
-                <desc>Scavenger hunt</desc>
+                <desc>Scavenger hunt 1</desc>
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
                         location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
                         following? <examples>
-                            <example> Look at the <code>div</code> elements in the site index. What
+                            <example> Look at the <code>&lt;div&gt;</code> elements in the site index. What
                                 attribute on this element can tell you how the document is
                                 organized? Write an XPath that isolates these attribute values.
                                         <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
@@ -776,9 +776,9 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT10M">
                 <desc>Introducing FLWOR</desc>
                 <details>
-                    <item><code>FLWOR</code> keywords: <code>for</code>, <code>let</code>,
+                    <item>FLWOR keywords: <code>for</code>, <code>let</code>,
                             <code>where</code>, <code>order by</code>, <code>return</code></item>
-                    <item>The simplest <code>FLWOR</code>: <code>let</code> (or <code>for</code>)
+                    <item>The simplest FLWOR: <code>let</code> (or <code>for</code>)
                         followed by <code>return</code></item>
                     
                 </details>
@@ -799,24 +799,23 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         <example>How would you return only their text contents?
                             <answer><code>$places/string()</code>, but notice the white
                                 space issues. Repair these with <code>return
-                                    $places/normalize-space(string())</code></answer></example>
+                                    $places/normalize-space()</code></answer></example>
                     </examples>
                     </item>
                 </details>
             
             </act>
             <act time="PT30M">
-                <desc>Scavenger Hunt 2: in XQuery this time.</desc>
+                <desc>Scavenger hunt 2: in XQuery this time.</desc>
                 <details>
                     <item> Work in eXist-db in the same file we started before the break and delete
-                        only the <code>return</code> line. let’s keep adding to it. Use variables
-                        and <code>FLWOR</code> statements to define and retrieve the following: <examples>
+                        only the <code>return</code> line. Let’s keep adding to it. Use variables
+                        and FLWOR statements to define and retrieve the following: <examples>
                             <example> Define a global variable pointing to the Digital Mitford site
                                 index document, posted in eXist at <code>/db/mitford/si.xml</code>
                                 or the official version at its external
                                     location:<code>https://digitalmitford.org/si.xml</code>. Hint:
-                                Global variables need to be defined before <code>FLWOR</code>
-                                statements. <answer><code>declare variable $si as document-node() :=
+                                Declarations need to come first. <answer><code>declare variable $si as document-node() :=
                                         doc('/db/mitford/si.xml');</code> or <code>declare variable
                                         $si as document-node() :=
                                         doc('https://digitalmitford.org/si.xml');</code> The new
@@ -824,12 +823,12 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     statement.</answer>
                             </example>
                             <example>Write a variable (either global or in <code>let</code> form)
-                                that locates all of the <code>place</code> elements in the site
-                                index document. Use the variable you just defined for the si.xml
-                                document in your expression. <answer><code>let $siPlaces :=
+                                that locates all of the <code>&lt;place&gt;</code> elements in the site
+                                index document. Use the <code>$si</code> variable you just defined for the site index
+                                document in your expression. <answer><code>let $siPlaces as element()+ :=
                                         $si//tei:place</code> or as a global variable above the
                                     first let statement and after the variable defining the si.xml
-                                    document: <code>declare variable $siPlaces :=
+                                    document: <code>declare variable $siPlaces as element()+ :=
                                         $si//tei:place;</code>. </answer></example>
                             <example>For housekeeping purposes, rename the variable
                                     <code>$places</code> (that we defined earlier to retrieve
@@ -840,18 +839,18 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     forget the <code>string()</code> to return the attribute value:
                                         <code>let $ChasPlaceRefs :=
                                     $Chasplaces/@ref/string()</code></answer></example>
-                            <example>How would you rewrite the last XPath Scavenger Hunt solution as
-                                a <code>let</code> statement in this XQuery? (find references to
+                            <example>How would you rewrite the last XPath scavenger hunt solution as
+                                a <code>let</code> statement in this XQuery? (Find references to
                                 "CharlesI_MRMplay" in the site index): <answer><code>let $siChasRefs
                                         :=
-                                        $si//tei:div/*/*[@xml:id][descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
+                                        $si//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]</code></answer>
                             </example>
                         </examples>
                     </item>
                 </details>
             </act>
             <act time="PT15M">
-                <desc>Review XPath <code>for</code> loops; sequence and range variables
+                <desc>XPath <code>for</code> loops; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
                     <item>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
@@ -873,22 +872,21 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 (or anything else you want to find out about the person elements):
                                     <answer>For the <code>@xml:id</code>: <code>for $i in
                                         //person[contains(birth, "Scotland")] return
-                                        $i/@xml:id</code>. Notice, we don’t need the
-                                        <code>string()</code> function after the @xml:id in the
-                                    &lt;oXygen/&gt; XPath builder vew, though it isn’t wrong to use
-                                    it.</answer></example>
+                                        $i/@xml:id</code>. Notice that we don’t need the
+                                        <code>string()</code> function after the <code>@xml:id</code> in the
+                                    &lt;oXygen/&gt; XPath builder view because the &lt;oXygen/&gt; viewer exposes the attribute values and eXide does not.</answer></example>
                         </examples>
                     </item>
                 </details>
             </act>
             <act time="PT25M">
-                <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
+                <desc>FLWOR statements in XQuery: how <code>for</code> works: Part
                     1</desc>
                 <details>
                     <item><code>for</code> in XQuery and iterative returns: <code>for $i in
                             $YourSequenceVariable</code>. Look up the places coded in <emph>Charles
                             the First</emph> for their entries in the Digital Mitford site index. <examples>
-                            <example>Get the distinct (unique) values of <code>@ref</code>
+                            <example>Get the unique (distinct) values of <code>@ref</code>
                                 attributes on <code>placeName</code> elements. <answer><code>let
                                         $distChPRs :=
                                     distinct-values($ChasPlaceRefs)</code></answer></example>
@@ -915,25 +913,24 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <desc>Break</desc>
             </act>
             <act time="PT30M">
-                <desc><code>FLWOR</code> statements in XQuery: how <code>for</code> works: Part
+                <desc>FLWOR statements in XQuery: how <code>for</code> works: Part
                     2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
 
-                    <item>Sorting and ordering your sequence: two ways: <examples>
+                    <item>Sorting your sequence: two ways: <examples>
                             <example>Apply the XPath <code>sort()</code> function to the variable
-                                defining the sequence (above the <code>for</code> loop):
-                                        <answer><code>let $distChPRs :=
-                                        sort(distinct-values($ChasPlaceRefs))</code></answer></example>
-                            <example>Or, inside the <code>for</code> loop with the XQuery
-                                    <code>order by</code> statement: <code>order by
-                                    [X-value-connected to your sequence]</code> followed by nothing
+                                that defines the sequence (above the <code>for</code> loop):
+                                        <answer><code>let $distChPRs := $ChasPlaceRefs => distinct-values() => sort()</code>
+                                        </answer></example>
+                            <example>Or, within the FLWOR with the XQuery
+                                <code>order by</code> statement: <code>order by $siCPrs/@xml:id</code> followed by nothing
                                 (default: ascending alphabetical order), or a keyword:
                                     <code>ascending</code> or <code>descending</code>. To order in
                                 reverse alphabetical order by the <code>@xml:id</code> in the site
-                                index entry? <answer><code>order by $siCPrs/@xml:id
-                                        descending</code></answer>
+                                index entry? <answer><code>order by $siCPrs/@xml:id descending</code></answer>
                             </example>
+                        <example>Do either of these methods really deliver alphabetical order? <answer>In no human understanding of alphabetical order does Zebra come before aardvark. This sorting reflects Unicode order.</answer></example>
                         </examples>
                     </item>
                     <item>Numbering the results with <code>$pos</code><examples>
@@ -941,19 +938,18 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 statement: <code>for $i at $pos in $YourSequenceVariable</code>, but
                                 caution: <code>order by</code> happens <emph>after</emph>
                                 <code>$pos</code> is set. So if we want sorted, numbered output?
-                                    <answer>Use the <code>sort()</code> function before the
-                                        <code>for</code> loop begins. Try a return like <code>return
-                                        concat($pos, '. ',
-                                $siCPrs/@xml:id/string())</code></answer></example>
+                                    <answer>Use the <code>sort()</code> function on the sequence. Try a return like <code>return
+                                        concat($pos, ': ',
+                                $siCPrs/@xml:id)</code></answer></example>
                         </examples></item>
                     <item>Adding <code>where</code> in a <code>for-loop</code> to limit the returns <examples>
                             <example>Notice the blank results: A number of entries are not yet in
                                 the site index. So we can limit by selecting only those where the
-                                variable <code>$siCPrs</code> exists: <code>where $siCPRs</code>
+                                variable <code>$siCPrs</code> exists: <code>where $siCPrs</code>
                             </example>
                             <example>Or use where to return only results in the site index whose
                                     <code>string()</code> contains "France": <code>where
-                                    $siCPrs[contains(string(.), 'France')]</code></example>
+                                    $siCPrs[contains(., 'France')]</code></example>
                         </examples></item>
                     <item>Which is more efficient in XQuery: a predicate or <code>where</code>? </item>
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
@@ -1324,7 +1320,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example>What is available <examples>
                                     <example>Composite expression: <code>$a eq $b and $b eq
                                             $c</code></example>
-                                    <example>Compare to average value: <code>($a, $b, $c) !=
+                                    <example>Compare to averSge value: <code>($a, $b, $c) !=
                                             avg(($a, $b, $c))</code></example>
                                     <example>Count distinct values<examples>
                                             <example><code>count(distinct-values(($a, $b, $c))) eq
@@ -1495,7 +1491,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT20M">
                 <desc>Exploring Digital Mitford</desc>
                 <details>
-                    <item>Project site: <link>http://digitalmitford.org</link></item>
+                    <item>Project site: <link>https://digitalmitford.org</link></item>
                     <item>Site index<examples>
                             <example>Workshop repo on GitHub:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si.xml</link></example>
@@ -1516,7 +1512,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example>XML:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</link></example>
                             <example>Read on line:
-                                    <link>http://digitalmitford.org/getLetterText.php?uri=1823-04-09-Hamilton.xml</link></example>
+                                    <link>https://digitalmitford.org/getLetterText.php?uri=1823-04-09-Hamilton.xml</link></example>
                         </examples></item>
                     <item>Schematron starter:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford.sch</link></item>
@@ -1536,7 +1532,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example>XML:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
                             <example>Read on line:
-                                    <link>http://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
+                                    <link>https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
                         </examples></item>
                     <item>Schematron starter:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
