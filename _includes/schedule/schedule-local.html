@@ -730,7 +730,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                 reverse alphabetical order by the <code>@xml:id</code> in the site
                                 index entry?  <button class="answer">Answer</button> <span class="answer"><code>order by $siCPrs/@xml:id descending</code></span>
                             </li>
-                        <li>Do either of these methods really deliver alphabetical order?  <button class="answer">Answer</button> <span class="answer">In no human understanding of alphabetical order does Zebra come before aardvark. This sorting reflects Unicode order.</span></li>
+                        <li>Do either of these methods really deliver alphabetical order?  <button class="answer">Answer</button> <span class="answer">In no human understanding of alphabetical order does <q>Zebra</q> come before <q>aardvark</q>. This sorting reflects Unicode order.</span></li>
                         </ol>
                     </li>
                     <li>Number the results with <code>$pos</code><ol>
@@ -742,24 +742,19 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                         concat($pos, ': ',
                                 $siCPrs/@xml:id)</code></span></li>
                         </ol></li>
-                    <li>Add <code>where</code> in a <code>for expression</code> to limit the returns <ol>
+                    <li>Add <code>where</code> in a FLWOR expression to filter the returns <ol>
                             <li>Notice the blank results: A number of entries are not yet in
-                                the site index. So we can limit by selecting only those where the
+                                the site index. We can filter by selecting only those where the
                                 variable <code>$siCPrs</code> exists: <code>where $siCPrs</code>
                             </li>
-                            <li>Or use where to return only results in the site index whose
-                                    <code>string()</code> contains "France": <code>where
+                            <li>Or use <code>where</code> to return only results in the site index whose
+                                    string value contains "France": <code>where
                                     $siCPrs[contains(., 'France')]</code></li>
                         </ol></li>
                     <li>Which is more efficient in XQuery: a predicate or <code>where</code>? </li>
                     <li>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code>
-                        <ol>
-                            <li> Retrieving a full canonical place name:  <button class="answer">Answer</button> <span class="answer"><code>let
-                                        $name := $siCPrs/tei:placeName[1]</code></span>
-                            </li>
-
-                        </ol>
+                       
                     </li>
                 </ol></li><li><html:span xmlns:html="http://www.w3.org/1999/xhtml" class="image">[image]</html:span>Putting it all together: writing FLWORs to make new files (45 minutes; 3:15 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>HTML returns: how to use curly braces to layer and activate XQuery in an
@@ -775,7 +770,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                     </li>
                     <li>SVG returns: a bar graph from XQuery <ol>
                             <li>SVG bar graph output:
-                                    <a href="http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql">http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</a>
+                                   <a href="http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql">http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</a> (may require permission)
                                 or
                                     <a href="https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg">https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</a></li>
                             <li>XQuery to make the SVG, in the newtfire eXist-db: <code>

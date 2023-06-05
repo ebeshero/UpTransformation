@@ -936,7 +936,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 reverse alphabetical order by the <code>@xml:id</code> in the site
                                 index entry? <answer><code>order by $siCPrs/@xml:id descending</code></answer>
                             </example>
-                        <example>Do either of these methods really deliver alphabetical order? <answer>In no human understanding of alphabetical order does Zebra come before aardvark. This sorting reflects Unicode order.</answer></example>
+                        <example>Do either of these methods really deliver alphabetical order? <answer>In no human understanding of alphabetical order does <q>Zebra</q> come before <q>aardvark</q>. This sorting reflects Unicode order.</answer></example>
                         </examples>
                     </item>
                     <item>Number the results with <code>$pos</code><examples>
@@ -948,24 +948,24 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         concat($pos, ': ',
                                 $siCPrs/@xml:id)</code></answer></example>
                         </examples></item>
-                    <item>Add <code>where</code> in a <code>for expression</code> to limit the returns <examples>
+                    <item>Add <code>where</code> in a FLWOR expression to filter the returns <examples>
                             <example>Notice the blank results: A number of entries are not yet in
-                                the site index. So we can limit by selecting only those where the
+                                the site index. We can filter by selecting only those where the
                                 variable <code>$siCPrs</code> exists: <code>where $siCPrs</code>
                             </example>
-                            <example>Or use where to return only results in the site index whose
-                                    <code>string()</code> contains "France": <code>where
+                            <example>Or use <code>where</code> to return only results in the site index whose
+                                    string value contains "France": <code>where
                                     $siCPrs[contains(., 'France')]</code></example>
                         </examples></item>
                     <item>Which is more efficient in XQuery: a predicate or <code>where</code>? </item>
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code>
-                        <examples>
+                       <!-- <examples>
                             <example> Retrieving a full canonical place name: <answer><code>let
                                         $name := $siCPrs/tei:placeName[1]</code></answer>
                             </example>
 
-                        </examples>
+                        </examples>-->
                     </item>
                 </details>
             </act>
@@ -988,7 +988,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                     <item>SVG returns: a bar graph from XQuery <examples>
                             <example>SVG bar graph output:
-                                    <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
+                                   <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link> (may require permission)
                                 or
                                     <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
                             <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
