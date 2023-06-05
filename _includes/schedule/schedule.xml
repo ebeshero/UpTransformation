@@ -129,7 +129,7 @@
             <act time="PT15M">
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>Launch &lt;oXygen/&gt; editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
+                    <item>Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
                             <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
                         and hit <q>OK</q>. (Backup copy at
@@ -474,7 +474,7 @@
         <slot time="09:00:00">
             <title>From XPath to XQuery</title>
         <act time="PT15M">
-            <desc>Odds and ends</desc>
+            <desc>Working with sequences</desc>
             <details>
                 <item>Three ways to apply a function to a sequence<examples>
                     <example>Explicit <code>for</code><examples>
@@ -511,6 +511,12 @@
         <act time="PT30M">
             <desc>Read and evaluate XML projects with XPath</desc>
             <details>
+                <item>Let’s open <emph>Hamlet</emph> again in &lt;oXygen/&gt;. Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
+                    (MacOS), copy and paste the string
+                    <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
+                    and hit <q>OK</q>. (Backup copy at
+                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)
+                    This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
                 <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
                     <answer><code>count(//sp[speaker eq
                         'Ophelia'])</code></answer></item>
@@ -529,8 +535,8 @@
                 <item>Building on your answer to the last question, who are the speakers of
                     those speeches?
                     <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
-                <item>Building on your answer to the last two questions, what kinds of elements
-                    they contain instead?
+                <item>Building on your answers to the last two questions, what kinds of elements
+                    do they contain instead?
                     <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
                 <item>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
                     <answer><code>(//sp[speaker eq
@@ -766,7 +772,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example><code>declare variable $ChasPlay as element() :=
                                     $Chas/*;</code></example>
                             <example>Return the value of the variables one by one, by typing each of their names on the
-                                next line <code>$Chas</code>, and <code>$ChasPlay</code>. Notice the
+                                next line: <code>$Chas</code> and <code>$ChasPlay</code>. Notice the
                                 difference in the data type declaration and in the results. Other common values of <code>as</code> include <code>xs:string</code> or
                                     <code>xs:integer</code>.</example>
                         </examples>
@@ -827,7 +833,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 index document. Use the <code>$si</code> variable you just defined for the site index
                                 document in your expression. <answer><code>let $siPlaces as element()+ :=
                                         $si//tei:place</code> or as a global variable above the
-                                    first let statement and after the variable defining the si.xml
+                                    first <code>let</code> statement and after the variable defining the si.xml
                                     document: <code>declare variable $siPlaces as element()+ :=
                                         $si//tei:place;</code>. </answer></example>
                             <example>For housekeeping purposes, rename the variable
@@ -850,13 +856,13 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 </details>
             </act>
             <act time="PT15M">
-                <desc>XPath <code>for</code> loops; sequence and range variables
+                <desc>XPath <code>for</code> expressions; sequence and range variables
                     (&lt;oXygen/&gt;)</desc>
                 <details>
                     <item>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
                             ("Curly", "Larry", "Moe") return concat($i, " is a
                         Stooge!")</code></item>
-                    <item>Can we write it as a simple map (with !)? <answer><code>("Curly", "Larry",
+                    <item>Can we write it as a simple map (with <code>!</code>)? <answer><code>("Curly", "Larry",
                                 "Moe") ! concat(., " is a Stooge!")</code></answer>
                     </item>
                     <item>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
@@ -902,7 +908,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         <code>@xml:id</code> value.</answer></example>
                             <example>Write the variable that finds the site index entry whose
                                     <code>@xml:id</code> matches the value of the range variable in
-                                our <code>for</code> loop. <answer><code>let $siCPrs :=
+                                our <code>for</code> expression. <answer><code>let $siCPrs :=
                                         $si//tei:place[@xml:id = substring-after($i,
                                     '#')]</code></answer></example>
                         </examples>
