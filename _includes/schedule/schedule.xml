@@ -565,7 +565,8 @@
             <act time="PT10M">
                 <desc>Housekeeping: documents, collections, and namespaces</desc>
                 <details>
-                    <item>In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                    <item>Open our web server installation of eXist-dB at <link>http://exist.newtfire.org/exist/apps/eXide/index.html</link>. 
+                        In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</item>
                     <item>Access a document with <code>doc()</code>
                         <examples>
