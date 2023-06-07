@@ -828,9 +828,8 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <code>@xpath-default-namespace</code> attribute on the
                             <code>&lt;xsl:stylesheet&gt;</code>. For example:
                             <code>&lt;xsl:stylesheet
-                            xpath-default-namespace="http://www.tei-c.org/ns/1.0"&gt; says that
-                            input will be in the TEI namespace unless specified otherwise.</code>
-                    </li>
+                            xpath-default-namespace="http://www.tei-c.org/ns/1.0"&gt;</code> says
+                        that input will be in the TEI namespace unless specified otherwise.</li>
                     <li>Namespace for output: set the default namespace using the
                             <code>@xmlns</code> attribute. For example, <code>&lt;xsl:stylesheet
                             xpath-default-namespace="http://www.tei-c.org/ns/1.0"
@@ -841,9 +840,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                     <li>Configure the <code>@method</code>, <code>@html-version</code>,
                             <code>@omit-xml-declaration</code>, <code>@include-content-type</code>,
                         and <code>@indent</code> attributes on the <code>&lt;xsl:output&gt;</code>
-                        element <ol>
-                            <li><code>&lt;xsl:output method="xml" indent="no"
-                                    omit-xml-declaration="yes"/&gt;</code></li>
+                        element: <ol>
                             <li><code>&lt;xsl:output method="xhtml" html-version="5"
                                     omit-xml-declaration="no" include-content-type="no"
                                     indent="yes"/&gt;</code></li>
@@ -851,53 +848,52 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                     </li>
                 </ol></li><li>XSLT and templates, part 1 (10 minutes; 10:05 a.m.–10:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
-                        The <code>@match</code> here is a special kind of XPath called an
-                            <em>XPath pattern</em>, which could be found anywhere in the
-                        document hierarchy. Note: It is inefficient for processing to write these
-                        pattern expressions as we would an XPath search in the XPath Toolbar.</li>
+                        The <code>@match</code> attribute is an <em>XPath pattern</em> that
+                        specifies what the template processes. XPath patterns are not the same as
+                        XPath expressions because they don’t navigate or find; they just match. For
+                        example <code>&lt;xsl:template match="p"&gt;</code> will match and process
+                        all <code>&lt;p&gt;</code> elements. It is a mistake to write
+                            <code>&lt;xsl:template match="//p"&gt;</code> because
+                            <code>@match</code> values don’t have to find <code>&lt;p&gt;</code>
+                        elements; they just have to … well … <em>match</em> them.</li>
                     <li>In each example below, look at the <code>@match</code> value: What should
                         the XPath pattern be matching in the source XML document? And how is this
-                        XPath different from the way we write XPath in the XPath Toolbar? <ol>
+                        XPath different from the way we write XPath expressions (which have to find,
+                        and not just match, elements) in the XPath Toolbar? <ol>
                             <li><code>&lt;xsl:template match="div/head&gt;"</code>
-                                 <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;head&gt;</code> child of a
+                                 <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;head&gt;</code> child of any
                                         <code>&lt;div&gt;</code> at any level of the XML hierarchy.
                                     In the XPath Toolbar, we have to start the expression with two
-                                    leading forward slashes (<code>//</code>) to indicate we are
-                                    looking <q>down</q> the tree from the document node.</span>
+                                    leading forward slashes (<code>//div/head</code>) to indicate we
+                                    are looking <q>down</q> the tree from the document
+                                    node.</span>
                             </li>
                             <li><code>&lt;xsl:template match="div[count(descendant::p) gt
                                     1]&gt;"</code>
                                  <button class="answer">Answer</button> <span class="answer">Matches any <code>&lt;div&gt;</code> element that contains
-                                    multiple (more than one) <code>&lt;p&gt;</code> descendants. In
-                                    the XPath toolbar, we must add <code>//</code> to the
-                                    beginning.</span>
+                                    more than one <code>&lt;p&gt;</code> descendants. In the XPath
+                                    toolbar, we must add <code>//</code> to the beginning.</span>
                             </li>
                         </ol>
                     </li>
-                    <li>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
-                        selection of the next template rules to fire.
-                            <code>&lt;xsl:apply-templates&gt;</code>
-                        <em>consumes</em> the XML node matched in the template rule, and
-                        determines that its children or other nodes in a set XPath relationship to
-                        the template match will be processed. </li>
-                    <li><code>xsl:apply-templates</code> with or without an <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with a specific XPath expression that specifically
-                        identifies which XML elements in the source document will be processed next.
-                        Without <code>@select</code>, all element contents are consumed and
-                        processed by default.</li>
-                    <li>The XPath expression in <code>@select</code> is <em>literal</em> and
-                        defined by its relation to the node being matched by the template rule (in
-                        the <code>@match</code> on <code>xsl:template</code>. </li>
-                    <li><code>xsl:apply-templates</code> with or without <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with an XPath expression that specifically identifies
-                        which XML elements in the source document will be processed next. Without
-                            <code>@select</code>, all element contents are consumed and processed by
-                        default.</li>
-                    <li>The XPath expression in <code>@select</code> is <em>literal</em> and
-                        defined by its relation to the node being matched by the template rule (in
-                        the <code>@match</code> on <code>xsl:template</code>. </li>
+                    <li>Inside a template rule, an <code>&lt;xsl:apply-templates&gt;</code>
+                        elements specifies what to process at that location.</li>
+                    <li>An <code>&lt;xsl:apply-templates/&gt;</code> element with no
+                            <code>@select</code> attribute means <q>process all my child nodes
+                            here</q>. What if you want to process only some children, or some
+                        non-children?</li>
+                    <li><code>xsl:apply-templates</code> with a <code>@select</code> attribute
+                        specifies what to process. The value of <code>@select</code> is an XPath
+                        expression (not the shorter pattern) because it has to find the things to
+                        process. The path starts from the current context, that is, from the single
+                        item you are processing at the moment.</li>
+                    <li>Examples: <ol>
+                            <li><code>&lt;xsl:template
+                                    match="body/div"&gt;&lt;xsl:apply-templates&gt;&lt;/xsl:template&gt;</code></li>
+                            <li><code>&lt;xsl:template
+                                    match="body/div"&gt;&lt;xsl:apply-templates
+                                    select="div[1]"/&gt;&lt;/xsl:template&gt;</code></li>
+                        </ol></li>
                     <li>Complete <q>Ozymandias</q> transformation: <ol>
                             <li>XSLT:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</a></li>
