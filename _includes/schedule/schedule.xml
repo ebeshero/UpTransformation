@@ -1172,18 +1172,15 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         file <examples>
                             <example>Open the url of our simple identity transformation starter:
                                     <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
-                            <example>Change the <code>&lt;line&gt;</code> elements to self-closing
-                                    <code>&lt;lb&gt;</code> elements.</example>
-                            <example>Work with <emph>attribute value templates</emph> to add numbers
-                                to the new &lt;lb&gt; elements.</example>
+                            <example>Use <emph>attribute value templates</emph> to add numbers to
+                                the new <code>&lt;code&gt;</code> elements</example>
                         </examples>
                     </item>
-                    <item>Combining a collection of files into a single XML file <examples>
+                    <item>Optional activity: Combining a collection of files into a single XML file <examples>
                             <example>See
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</link>.</example>
                         </examples>
                     </item>
-
                     <item>Optional exercise: Repair our Pacific Voyage file: <examples>
                             <example>Open this file URL in &lt;oXygen/&gt;:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</link></example>
