@@ -1139,12 +1139,22 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     match="body/div"&gt;&lt;xsl:apply-templates
                                     select="div[1]"/&gt;&lt;/xsl:template&gt;</code></example>
                         </examples></item>
-                    <item>Complete <q>Ozymandias</q> transformation: <examples>
+                    <item>Complete basic <q>Ozymandias</q> transformation:<examples>
+                            <example>Input:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link>)</example>
+                            <example>Required HTML elements: <code>&lt;html&gt;</code>,
+                                    <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                                    <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
+                                    <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
+                                    <code>&lt;cite&gt;</code> (for publication venue),
+                                    <code>&lt;div&gt;</code> (for poem), <code>&lt;br/&gt;</code>
+                                (NB: empty element, after all lines except the last)</example>
+                        </examples><!--: <examples>
                             <example>XSLT:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example>
                             <example>Output HTML:
                                     <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
-                        </examples>
+                        </examples>-->
                     </item>
 
                 </details>
@@ -1155,6 +1165,9 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT50M">
                 <desc>Identity transformation for making changes to an XML file</desc>
                 <details>
+                    <item>Why perform an identity transformation?</item>
+                    <item>How to perform an identity transformation: <code>&lt;xsl:mode
+                            on-no-match="shallow-copy"/&gt;</code></item>
                     <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <examples>
                             <example>Open the url of our simple identity transformation starter:

@@ -882,15 +882,23 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                     match="body/div"&gt;&lt;xsl:apply-templates
                                     select="div[1]"/&gt;&lt;/xsl:template&gt;</code></li>
                         </ol></li>
-                    <li>Complete <q>Ozymandias</q> transformation: <ol>
-                            <li>XSLT:
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</a></li>
-                            <li>Output HTML:
-                                    <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
+                    <li>Complete basic <q>Ozymandias</q> transformation:<ol>
+                            <li>Input:
+                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</a>)</li>
+                            <li>Required HTML elements: <code>&lt;html&gt;</code>,
+                                    <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                                    <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
+                                    <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
+                                    <code>&lt;cite&gt;</code> (for publication venue),
+                                    <code>&lt;div&gt;</code> (for poem), <code>&lt;br/&gt;</code>
+                                (NB: empty element, after all lines except the last)</li>
                         </ol>
                     </li>
 
                 </ol></li><li>Break (15 minutes; 10:15 a.m.–10:30 a.m.) </li><li>Identity transformation for making changes to an XML file (50 minutes; 10:30 a.m.–11:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    <li>Why perform an identity transformation?</li>
+                    <li>How to perform an identity transformation: <code>&lt;xsl:mode
+                            on-no-match="shallow-copy"/&gt;</code></li>
                     <li>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <ol>
                             <li>Open the url of our simple identity transformation starter:
