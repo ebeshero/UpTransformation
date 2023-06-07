@@ -29,11 +29,13 @@
   </xsl:template>
   <xsl:template match="publication">
     <p>
+      <xsl:text>Published in </xsl:text>
       <xsl:apply-templates/>
     </p>
   </xsl:template>
   <xsl:template match="source">
     <p>
+      <xsl:text>Source: </xsl:text>
       <a href="{ref/@target}">
         <xsl:apply-templates/>
       </a>
