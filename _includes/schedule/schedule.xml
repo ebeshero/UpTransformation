@@ -1121,20 +1121,20 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </example>
                         </examples>
                     </item>
-                    <item>Inside a template rule, an <code>&lt;xsl:apply-templates&gt;</code>
+                    <item>Inside a template rule, an <code>&lt;xsl:apply-templates/&gt;</code>
                         elements specifies what to process at that location.</item>
                     <item>An <code>&lt;xsl:apply-templates/&gt;</code> element with no
                             <code>@select</code> attribute means <q>process all my child nodes
                             here</q>. What if you want to process only some children, or some
                         non-children?</item>
-                    <item><code>xsl:apply-templates</code> with a <code>@select</code> attribute
-                        specifies what to process. The value of <code>@select</code> is an XPath
-                        expression (not the shorter pattern) because it has to find the things to
-                        process. The path starts from the current context, that is, from the single
-                        item you are processing at the moment.</item>
-                    <item>Examples: <examples>
+                    <item><code>&lt;xsl:apply-templates/&gt;</code> with a <code>@select</code>
+                        attribute specifies what to process. The value of <code>@select</code> is an
+                        XPath <emph>expression</emph> (not the shorter XPath <emph>pattern</emph>)
+                        because it has to find the things to process. The path starts from the
+                        current context, that is, from the single item you are processing at the
+                        moment. Examples: <examples>
                             <example><code>&lt;xsl:template
-                                    match="body/div"&gt;&lt;xsl:apply-templates&gt;&lt;/xsl:template&gt;</code></example>
+                                    match="body/div"&gt;&lt;xsl:apply-templates/&gt;&lt;/xsl:template&gt;</code></example>
                             <example><code>&lt;xsl:template
                                     match="body/div"&gt;&lt;xsl:apply-templates
                                     select="div[1]"/&gt;&lt;/xsl:template&gt;</code></example>
