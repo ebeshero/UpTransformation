@@ -1364,7 +1364,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example>What is available <examples>
                                     <example>Composite expression: <code>$a eq $b and $b eq
                                             $c</code></example>
-                                    <example>Compare to averSge value: <code>($a, $b, $c) !=
+                                    <example>Compare to average value: <code>($a, $b, $c) !=
                                             avg(($a, $b, $c))</code></example>
                                     <example>Count distinct values<examples>
                                             <example><code>count(distinct-values(($a, $b, $c))) eq
