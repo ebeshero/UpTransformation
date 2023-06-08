@@ -191,19 +191,20 @@
                 <desc>XPath path steps</desc>
                 <details>
                     <item>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
-                        <code>descendant::</code>, <code>ancestor::</code>,
-                        <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
+                            <code>descendant::</code>, <code>ancestor::</code>,
+                            <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
                         See:
-                        <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
+                            <link>http://dh.obdurodon.org/introduction-xpath.xhtml#xpath_axes</link>.</item>
                     <item>Axes are specified with a double colon, e.g., <code>descendant::div</code>
                         matches all <code>&lt;div&gt;</code> descendants of the current context
                         node. There are two common shortcut notations<examples>
                             <example>The default is the <emph>child</emph> axis, so
-                                <code>/TEI/teiHeader</code> is synonymous with
-                                <code>/child::TEI/child::teiHeader</code>. Use the
+                                    <code>/TEI/teiHeader</code> is synonymous with
+                                    <code>/child::TEI/child::teiHeader</code>. Use the
                                 shorthand.</example>
-                            <example><code>//</code> is shorthand for
-                                <code url="http://dh.obdurodon.org/xpath-assignment-02-answers.xhtml#descendant-or-self">descendant-or-self::node()/</code>, so <code>/TEI//div</code>
+                            <example><code>//</code> is shorthand for <code
+                                    url="http://dh.obdurodon.org/xpath-assignment-02-answers.xhtml#descendant-or-self"
+                                    >descendant-or-self::node()/</code>, so <code>/TEI//div</code>
                                 finds all of the <code>&lt;div&gt;</code> elements that are
                                 descendants of the <code>&lt;TEI&gt;</code> root element, that is,
                                 anywhere in the document. The document node has a descendant axis,
@@ -214,56 +215,56 @@
                         next path step. Only the final path step is permitted to return something
                         other than a node. Why?</item>
                     <item>The end of a path expression may return nodes or atomic values<examples>
-                        <example><code>//body/div/count(descendant::sp)</code> navigates from
-                            the document node to all of the acts in the play and then returns a
-                            count of the speeches in each act</example>
-                        <example>What’s wrong with <code>//body/div/count(//sp)</code>?
-                            <answer>The leading double slash resets the current context to
-                                the document node, and selects all <code>&lt;sp&gt;</code>
-                                elements in the entire document, instead of just the individual
-                                act.</answer></example>
-                    </examples></item>
+                            <example><code>//body/div/count(descendant::sp)</code> navigates from
+                                the document node to all of the acts in the play and then returns a
+                                count of the speeches in each act</example>
+                            <example>What’s wrong with <code>//body/div/count(//sp)</code>?
+                                    <answer>The leading double slash resets the current context to
+                                    the document node, and selects all <code>&lt;sp&gt;</code>
+                                    elements in the entire document, instead of just the individual
+                                    act.</answer></example>
+                        </examples></item>
                     <item><code>*</code> matches any element<examples>
-                        <example><code>/TEI/teiHeader/*</code> matches all child elements of the
-                            <code>&lt;teiHeader&gt;</code></example>
-                    </examples></item>
+                            <example><code>/TEI/teiHeader/*</code> matches all child elements of the
+                                    <code>&lt;teiHeader&gt;</code></example>
+                        </examples></item>
                     <item><code>..</code> matches the parent node of the current context node. That
                         is, it’s shorthand for <code>parent::*</code><examples>
                             <example><code>//stage/..</code> matches the parent nodes of all
-                                <code>&lt;stage&gt;</code> elements</example>
+                                    <code>&lt;stage&gt;</code> elements</example>
                         </examples></item>
                     <item>Your turn: <examples>
-                        <example>Find the acts (<code>&lt;div&gt;</code> children of
-                            <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
-                            <answer>
-                                <code>//body/div</code>
-                            </answer></example>
-                        <example>Find the stage directions (<code>&lt;stage&gt;</code>) in
-                            <emph>Hamlet</emph>
-                            <answer>
-                                <code>//stage</code>
-                            </answer></example>
-                        <example>Find the <code>&lt;stage&gt;</code> children of
-                            <code>&lt;div&gt;</code> elements (but not other
-                            <code>&lt;stage&gt;</code> elements) in <emph>Hamlet</emph>
-                            <answer>
-                                <code>//div/stage</code>
-                            </answer></example>
-                        <example>Find the parents of the stage directions in <emph>Hamlet</emph>
-                            <answer>
-                                <code>//stage/..</code> or <code>//stage/parent::*</code>
-                            </answer></example>
-                        <example>Find the <code>&lt;div&gt;</code> parents of the stage
-                            directions in <emph>Hamlet</emph>, but not other parents <answer>
-                                <code>//stage/parent::div</code>
-                            </answer></example>
-                    </examples></item>
+                            <example>Find the acts (<code>&lt;div&gt;</code> children of
+                                    <code>&lt;body&gt;</code>) in <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//body/div</code>
+                                </answer></example>
+                            <example>Find the stage directions (<code>&lt;stage&gt;</code>) in
+                                    <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//stage</code>
+                                </answer></example>
+                            <example>Find the <code>&lt;stage&gt;</code> children of
+                                    <code>&lt;div&gt;</code> elements (but not other
+                                    <code>&lt;stage&gt;</code> elements) in <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//div/stage</code>
+                                </answer></example>
+                            <example>Find the parents of the stage directions in <emph>Hamlet</emph>
+                                <answer>
+                                    <code>//stage/..</code> or <code>//stage/parent::*</code>
+                                </answer></example>
+                            <example>Find the <code>&lt;div&gt;</code> parents of the stage
+                                directions in <emph>Hamlet</emph>, but not other parents <answer>
+                                    <code>//stage/parent::div</code>
+                                </answer></example>
+                        </examples></item>
                 </details>
             </act>
         </slot>
         <slot time="13:00:00">
             <title>Exploring document structures and data with XPath</title>
-            
+
             <act time="PT25M">
                 <desc>XPath functions for strings</desc>
                 <details>
@@ -324,12 +325,16 @@
                             <example><code>substring('Curly', 1, 2)</code> XPath starts counting
                                 with 1 (not 0).</example>
                         </examples></item>
-                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-contains">contains()</code> Foreshadowing: This returns a Boolean
+                    <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-contains"
+                            >contains()</code> Foreshadowing: This returns a Boolean
                             (<code>True</code> or <code>False</code>) value. How might this be useful?<examples>
                             <example><code>contains('Ophelia', 'ph')</code></example>
                             <example><code>//speaker/contains(., 'ph')</code> (the dot refers to the
                                 current context item)</example>
-                                <example>See also <code url="https://www.w3.org/TR/xpath-functions-31/#func-contains-token">contains-token()</code>, which would match "Rosencrantz" but not "Rosencrantzenfeld".</example>
+                            <example>See also <code
+                                    url="https://www.w3.org/TR/xpath-functions-31/#func-contains-token"
+                                    >contains-token()</code>, which would match "Rosencrantz" but
+                                not "Rosencrantzenfeld".</example>
                         </examples>
                     </item>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"
@@ -363,15 +368,15 @@
                             <example><code>format-number(1, '#.000')</code></example>
                         </examples></item>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-max"
-                        >max()</code>, <code
+                            >max()</code>, <code
                             url="https://www.w3.org/TR/xpath-functions-31/#func-min">min()</code>,
-                        <code url="https://www.w3.org/TR/xpath-functions-31/#func-sum"
+                            <code url="https://www.w3.org/TR/xpath-functions-31/#func-sum"
                             >sum()</code>, <code
-                                url="https://www.w3.org/TR/xpath-functions-31/#func-avg">avg()</code><examples>
-                                    <example><code>max((1, 2, 3))</code>, etc.</example>
-                                    <example>What happens when these are applied to strings? To a sequence
-                                        that mixes strings and numbers?</example>
-                                </examples></item>
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-avg">avg()</code><examples>
+                            <example><code>max((1, 2, 3))</code>, etc.</example>
+                            <example>What happens when these are applied to strings? To a sequence
+                                that mixes strings and numbers?</example>
+                        </examples></item>
                     <item>Find the length in character count of each <code>&lt;speaker&gt;</code>
                         <answer><code>//speaker/string-length()</code> (why doesn’t
                                 <code>string-length(//speaker)</code> work?)</answer></item>
@@ -421,7 +426,7 @@
                         </examples></item>
                 </details>
             </act>
-        
+
             <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
@@ -431,9 +436,11 @@
                     <item><emph>Cardinality error</emph>:
                         <code>string-length(/TEI/speaker)</code></item>
                     <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
-                        'Larry', 'Moe')</code> is broken? <answer>The <code>count()</code> function is receiving three arguments, but it is designed to receive only one argument. 
-                            To give it one argument, it needs a set of inner parentheses: <code>count(('Curly',
-                            'Larry', 'Moe'))</code></answer></item>
+                            'Larry', 'Moe')</code> is broken? <answer>The <code>count()</code>
+                            function is receiving three arguments, but it is designed to receive
+                            only one argument. To give it one argument, it needs a set of inner
+                            parentheses: <code>count(('Curly', 'Larry',
+                        'Moe'))</code></answer></item>
                     <item>The error message is your friend. Read it.</item>
                     <item>Resources and references:
                             <link>https://ebeshero.github.io/UpTransformation/References.html</link></item>
@@ -460,43 +467,44 @@
                         </examples></item>
                     <item>Predicates with functions and operators<examples>
                             <example><code>//sp[speaker eq 'Ophelia']</code></example>
-                            <example><code>//sp[contains-token(speaker, 'Rosencrantz')]</code></example>
+                            <example><code>//sp[contains-token(speaker,
+                                'Rosencrantz')]</code></example>
                             <example><code>//lg[@type eq 'couplet']</code></example>
                         </examples></item>
                 </details>
             </act>
-         
-           
+
+
         </slot>
     </day>
     <day d="Tuesday, June 6">
         <title>XPath and XQuery</title>
         <slot time="09:00:00">
             <title>From XPath to XQuery</title>
-        <act time="PT15M">
-            <desc>Working with sequences</desc>
-            <details>
-                <item>Three ways to apply a function to a sequence<examples>
-                    <example>Explicit <code>for</code><examples>
-                        <example><code>for $speaker in /TEI//speaker return
-                            string-length($speaker)</code></example>
-                    </examples></example>
-                    <example>Implicit <code>for</code><examples>
-                        <example><code>/TEI//speaker/string-length()</code></example>
-                    </examples></example>
-                    <example>Simple map (<code
-                        url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>)<examples>
-                            <example><code>/TEI//speaker ! string-length(.)</code></example>
-                        </examples></example>
-                </examples></item>
-                <item>Difference between simple map (<code
-                    url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>) and
-                    arrow (<code url="https://www.w3.org/TR/xpath-31/#id-arrow-operator"
-                        >=></code>) <examples>
+            <act time="PT15M">
+                <desc>Working with sequences</desc>
+                <details>
+                    <item>Three ways to apply a function to a sequence<examples>
+                            <example>Explicit <code>for</code><examples>
+                                    <example><code>for $speaker in /TEI//speaker return
+                                            string-length($speaker)</code></example>
+                                </examples></example>
+                            <example>Implicit <code>for</code><examples>
+                                    <example><code>/TEI//speaker/string-length()</code></example>
+                                </examples></example>
+                            <example>Simple map (<code
+                                    url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>)<examples>
+                                    <example><code>/TEI//speaker ! string-length(.)</code></example>
+                                </examples></example>
+                        </examples></item>
+                    <item>Difference between simple map (<code
+                            url="https://www.w3.org/TR/xpath-31/#id-map-operator">!</code>) and
+                        arrow (<code url="https://www.w3.org/TR/xpath-31/#id-arrow-operator"
+                            >=></code>) <examples>
                             <example><code>('Curly', 'Larry', 'Moe') => count()</code></example>
                             <example><code>('Curly', 'Larry', 'Moe') ! count(.)</code></example>
                         </examples></item>
-                <!--<item>Concatenating nodes<examples>
+                    <!--<item>Concatenating nodes<examples>
                             <example><code>string-join()</code><examples>
                                     <example><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
                                             ')</code></example>
@@ -506,67 +514,69 @@
                                         instead</example>
                                 </examples></example>
                         </examples></item>-->
-            </details>
-        </act>
-        <act time="PT30M">
-            <desc>Read and evaluate XML projects with XPath</desc>
-            <details>
-                <item>Let’s open <emph>Hamlet</emph> again in &lt;oXygen/&gt;. Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
-                    (MacOS), copy and paste the string
-                    <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
-                    and hit <q>OK</q>. (Backup copy at
-                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)
-                    This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
-                <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
-                    <answer><code>count(//sp[speaker eq
+                </details>
+            </act>
+            <act time="PT30M">
+                <desc>Read and evaluate XML projects with XPath</desc>
+                <details>
+                    <item>Let’s open <emph>Hamlet</emph> again in &lt;oXygen/&gt;. Launch
+                        &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q> (MacOS),
+                        copy and paste the string
+                            <link>http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</link>,
+                        and hit <q>OK</q>. (Backup copy at
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</link>.)
+                        This is a copy of <emph>Hamlet</emph> with TEI markup.</item>
+                    <item>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
+                                <answer><code>count(//sp[speaker eq
                         'Ophelia'])</code></answer></item>
-                <item>How many speeches does Ophelia have in Act 2?
-                    <answer><code>count(//body/div[2]//sp[speaker eq
-                        'Ophelia'])</code></answer></item>
-                <item>What types of elements can have stage directions
-                    (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
-                        url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
-                    function.)
-                    <answer><code>distinct-values(//stage/../name())</code></answer></item>
-                <item>How many speeches don’t contain any metrical line child elements
-                    (<code>&lt;l&gt;</code>)? (Hint: use the <code
-                        url="https://www.w3.org/TR/xpath-functions-31/#func-not">not()</code>
-                    function.) <answer><code>count(//sp[not(l)])</code></answer></item>
-                <item>Building on your answer to the last question, who are the speakers of
-                    those speeches?
-                    <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
-                <item>Building on your answers to the last two questions, what kinds of elements
-                    do they contain instead?
-                    <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
-                <item>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
-                    <answer><code>(//sp[speaker eq
+                    <item>How many speeches does Ophelia have in Act 2?
+                                <answer><code>count(//body/div[2]//sp[speaker eq
+                            'Ophelia'])</code></answer></item>
+                    <item>What types of elements can have stage directions
+                            (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-name">name()</code>
+                        function.)
+                        <answer><code>distinct-values(//stage/../name())</code></answer></item>
+                    <item>How many speeches don’t contain any metrical line child elements
+                            (<code>&lt;l&gt;</code>)? (Hint: use the <code
+                            url="https://www.w3.org/TR/xpath-functions-31/#func-not">not()</code>
+                        function.) <answer><code>count(//sp[not(l)])</code></answer></item>
+                    <item>Building on your answer to the last question, who are the speakers of
+                        those speeches?
+                            <answer><code>distinct-values(//sp[not(l)]/speaker)</code></answer></item>
+                    <item>Building on your answers to the last two questions, what kinds of elements
+                        do they contain instead?
+                                <answer><code>distinct-values(//sp[not(l)]/*/name())</code></answer></item>
+                    <item>What is Hamlet’s first spoken line (<code>&lt;l&gt;</code>)?
+                                <answer><code>(//sp[speaker eq
                         'Hamlet']/l)[1]</code></answer></item>
-                <item>What is the last stage direction in the entire document?
-                    <answer><code>(//stage)[last()]</code></answer></item>
-                <item>How many speeches have more than 8 line children?
-                    <answer><code>count(//sp[count(l) gt 8])</code></answer></item>
-                <item>Building on your answer to the preceding question, how many line children
-                    does each of those speeches have? <answer><code>//sp[count(l) gt
-                        8]/count(l)</code></answer></item>
-                <item>Building on your answers to the preceding two questions, who are the
-                    speakers of speeches that have more than 8 line children?
-                    <answer><code>distinct-values(//sp[count(l) gt
-                        8]/speaker)</code></answer></item>
-                <item>How long is the longest speech?
-                    <answer><code>max(//sp/string-length())</code> (or, better:
-                        <code>max(//sp/string-length(normalize-space()))</code>)</answer></item>
-                <item>Building on your answer to the last question, who is the speaker of the
-                    longest speech? <answer><code>//sp[string-length() eq
-                        max(//sp/string-length())]/speaker</code> (or, better:
-                        <code>//sp[string-length(normalize-space()) eq
-                            max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
-            </details>
-        </act>
+                    <item>What is the last stage direction in the entire document?
+                                <answer><code>(//stage)[last()]</code></answer></item>
+                    <item>How many speeches have more than 8 line children?
+                                <answer><code>count(//sp[count(l) gt 8])</code></answer></item>
+                    <item>Building on your answer to the preceding question, how many line children
+                        does each of those speeches have? <answer><code>//sp[count(l) gt
+                                8]/count(l)</code></answer></item>
+                    <item>Building on your answers to the preceding two questions, who are the
+                        speakers of speeches that have more than 8 line children?
+                                <answer><code>distinct-values(//sp[count(l) gt
+                            8]/speaker)</code></answer></item>
+                    <item>How long is the longest speech?
+                                <answer><code>max(//sp/string-length())</code> (or, better:
+                                <code>max(//sp/string-length(normalize-space()))</code>)</answer></item>
+                    <item>Building on your answer to the last question, who is the speaker of the
+                        longest speech? <answer><code>//sp[string-length() eq
+                                max(//sp/string-length())]/speaker</code> (or, better:
+                                <code>//sp[string-length(normalize-space()) eq
+                                max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
+                </details>
+            </act>
             <act time="PT10M">
                 <desc>Housekeeping: documents, collections, and namespaces</desc>
                 <details>
-                    <item>Open our web server installation of eXist-dB at <link>http://exist.newtfire.org/exist/apps/eXide/index.html</link>. 
-                        In the eXide window, click on the <q>New XQuery</q> tab. This brings up a
+                    <item>Open our web server installation of eXist-dB at
+                            <link>http://exist.newtfire.org/exist/apps/eXide/index.html</link>. In
+                        the eXide window, click on the <q>New XQuery</q> tab. This brings up a
                         window with <code>xquery version "3.1";</code> at the top.</item>
                     <item>Access a document with <code>doc()</code>
                         <examples>
@@ -624,7 +634,7 @@
             <act time="PT15M">
                 <desc>Break</desc>
             </act>
-           <!-- <act time="PT20M">
+            <!-- <act time="PT20M">
                 <desc>Neglected XPath axes</desc>
                 <details>
                     <item><code>preceding::</code>, <code>following::</code><examples>
@@ -654,36 +664,38 @@
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
-                        following? <examples>
-                            <example> Look at the <code>&lt;div&gt;</code> elements in the site index. What
-                                attribute on this element can tell you how the document is
-                                organized? Write an XPath that isolates these attribute values.
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out
+                        the following? <examples>
+                            <example> Look at the <code>&lt;div&gt;</code> elements in the site
+                                index. What attribute on this element can tell you how the document
+                                is organized? Write an XPath that isolates these attribute values.
                                         <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/@type/string()</code></answer></example>
-                            <example>Look at the element children of the <code>&lt;div&gt;</code> elements
-                                (you can do this without knowing what all the elements are). What do you think is the purpose of the <code>@sortKey</code> attributes?
-                                What XPath expression would show you those values?
-                                        <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@sortKey ! string()</code>
-                                    </answer>
+                            <example>Look at the element children of the <code>&lt;div&gt;</code>
+                                elements (you can do this without knowing what all the elements
+                                are). What do you think is the purpose of the <code>@sortKey</code>
+                                attributes? What XPath expression would show you those values?
+                                        <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/@sortKey
+                                        ! string()</code>
+                                </answer>
                             </example>
                         </examples></item>
                 </details>
             </act>
-   
+
             <act time="PT15M">
                 <desc>Wildcard node testing</desc>
                 <details>
                     <item>Work with the Digital Mitford Site Index posted in eXist at
                             <code>/db/mitford/si.xml</code> or the official version at its external
-                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out the
-                        following? <examples>
+                        location: <code>https://digitalmitford.org/si.xml</code> Can you find out
+                        the following? <examples>
                             <example>The <code>@xml:id</code> for the play <emph>Charles the
                                     First</emph> in the site index is "CharlesI_MRMplay". References
                                 to the play throughout the site index will be made with various
-                                attributes that begin with a hashmark <code>#</code>, formatted like this:
-                                <code>"#CharlesI_MRMplay"</code>. Knowing this, can you locate all the individual
-                                entries in any of the site index lists that contain references of any kind
-                                to the play?
+                                attributes that begin with a hashmark <code>#</code>, formatted like
+                                this: <code>"#CharlesI_MRMplay"</code>. Knowing this, can you locate
+                                all the individual entries in any of the site index lists that
+                                contain references of any kind to the play?
                                         <answer><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]</code>
                                     How can you find out how many these are using a function?
                                         <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]
@@ -728,12 +740,12 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:castList//tei:roleDesc/translate(.,
                                     '()', '')</code></example>
 
-                            <example>The next examples work with the <code>@xml:id</code> attributes on the
-                                    <code>&lt;l&gt;</code> elements. How can you get a look at the
-                                    <code>@xml:id</code> attributes first?
+                            <example>The next examples work with the <code>@xml:id</code> attributes
+                                on the <code>&lt;l&gt;</code> elements. How can you get a look at
+                                the <code>@xml:id</code> attributes first?
                                         <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:l/@xml:id/string()</code></answer></example>
-                            <example>Change the format of the <code>@xml:id</code> attributes on the <code>&lt;l&gt;</code> elements with
-                                    <code>replace()</code>:
+                            <example>Change the format of the <code>@xml:id</code> attributes on the
+                                    <code>&lt;l&gt;</code> elements with <code>replace()</code>:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/replace(@xml:id,
                                     'Chas(_\w+_)', 'C1$1')</code></example>
                         </examples>
@@ -741,15 +753,15 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item><code>substring-before()</code> and <code>substring-after()</code> vs.
                             <code>tokenize()</code>
                         <examples>
-                            <example>Return only the document location (e.g., "ded", "pro", "act") and line number
-                                information in the <code>@xml:id</code> attributes:
+                            <example>Return only the document location (e.g., "ded", "pro", "act")
+                                and line number information in the <code>@xml:id</code> attributes:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
                                     'Chas_')</code>
                             </example>
                             <example>Working with the expression we just wrote, how would you apply
-                                    <code>substring-before()</code> to return only the document location
-                                ("ded", "pro", "act"), and trim off the line number information?
-                                    <answer>Two ways: old-fashioned:
+                                    <code>substring-before()</code> to return only the document
+                                location ("ded", "pro", "act"), and trim off the line number
+                                information? <answer>Two ways: old-fashioned:
                                         <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
                                         'Chas_'), '_')</code> and more legible with simple map
                                     operator:
@@ -772,9 +784,11 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </example>
                             <example><code>declare variable $ChasPlay as element() :=
                                     $Chas/*;</code></example>
-                            <example>Return the value of the variables one by one, by typing each of their names on the
-                                next line: <code>$Chas</code> and <code>$ChasPlay</code>. Notice the
-                                difference in the data type declaration and in the results. Other common values of <code>as</code> include <code>xs:string</code> or
+                            <example>Return the value of the variables one by one, by typing each of
+                                their names on the next line: <code>$Chas</code> and
+                                    <code>$ChasPlay</code>. Notice the difference in the data type
+                                declaration and in the results. Other common values of
+                                    <code>as</code> include <code>xs:string</code> or
                                     <code>xs:integer</code>.</example>
                         </examples>
                     </item>
@@ -783,11 +797,11 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT10M">
                 <desc>Introducing FLWOR</desc>
                 <details>
-                    <item>FLWOR keywords: <code>for</code>, <code>let</code>,
-                            <code>where</code>, <code>order by</code>, <code>return</code></item>
-                    <item>The simplest FLWOR: <code>let</code> (or <code>for</code>)
-                        followed by <code>return</code></item>
-                    
+                    <item>FLWOR keywords: <code>for</code>, <code>let</code>, <code>where</code>,
+                            <code>order by</code>, <code>return</code></item>
+                    <item>The simplest FLWOR: <code>let</code> (or <code>for</code>) followed by
+                            <code>return</code></item>
+
                 </details>
             </act>
         </slot>
@@ -797,20 +811,20 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <desc>Introducing FLWOR, continued.</desc>
                 <details>
                     <item>Retrieve a sequence of whole elements: <examples>
-                        <example>
-                            <code>let $places := $Chas//tei:placeName</code>
-                        </example>
-                        <example>
-                            <code>return $places</code>
-                        </example>
-                        <example>How would you return only their text contents?
-                            <answer><code>$places/string()</code>, but notice the white
-                                space issues. Repair these with <code>return
-                                    $places/normalize-space()</code></answer></example>
-                    </examples>
+                            <example>
+                                <code>let $places := $Chas//tei:placeName</code>
+                            </example>
+                            <example>
+                                <code>return $places</code>
+                            </example>
+                            <example>How would you return only their text contents?
+                                        <answer><code>$places/string()</code>, but notice the white
+                                    space issues. Repair these with <code>return
+                                        $places/normalize-space()</code></answer></example>
+                        </examples>
                     </item>
                 </details>
-            
+
             </act>
             <act time="PT30M">
                 <desc>Scavenger hunt 2: in XQuery this time.</desc>
@@ -822,21 +836,22 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 index document, posted in eXist at <code>/db/mitford/si.xml</code>
                                 or the official version at its external
                                     location:<code>https://digitalmitford.org/si.xml</code>. Hint:
-                                Declarations need to come first. <answer><code>declare variable $si as document-node() :=
-                                        doc('/db/mitford/si.xml');</code> or <code>declare variable
-                                        $si as document-node() :=
+                                Declarations need to come first. <answer><code>declare variable $si
+                                        as document-node() := doc('/db/mitford/si.xml');</code> or
+                                        <code>declare variable $si as document-node() :=
                                         doc('https://digitalmitford.org/si.xml');</code> The new
                                     global variable must be added before the first <code>let</code>
                                     statement.</answer>
                             </example>
                             <example>Write a variable (either global or in <code>let</code> form)
-                                that locates all of the <code>&lt;place&gt;</code> elements in the site
-                                index document. Use the <code>$si</code> variable you just defined for the site index
-                                document in your expression. <answer><code>let $siPlaces as element()+ :=
+                                that locates all of the <code>&lt;place&gt;</code> elements in the
+                                site index document. Use the <code>$si</code> variable you just
+                                defined for the site index document in your expression.
+                                        <answer><code>let $siPlaces as element()+ :=
                                         $si//tei:place</code> or as a global variable above the
-                                    first <code>let</code> statement and after the variable defining the si.xml
-                                    document: <code>declare variable $siPlaces as element()+ :=
-                                        $si//tei:place;</code>. </answer></example>
+                                    first <code>let</code> statement and after the variable defining
+                                    the si.xml document: <code>declare variable $siPlaces as
+                                        element()+ := $si//tei:place;</code>. </answer></example>
                             <example>For housekeeping purposes, rename the variable
                                     <code>$places</code> (that we defined earlier to retrieve
                                     <code>$Chas//tei:placeName</code>): Call it
@@ -863,8 +878,9 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
                             ("Curly", "Larry", "Moe") return concat($i, " is a
                         Stooge!")</code></item>
-                    <item>Can we write it as a simple map (with <code>!</code>)? <answer><code>("Curly", "Larry",
-                                "Moe") ! concat(., " is a Stooge!")</code></answer>
+                    <item>Can we write it as a simple map (with <code>!</code>)?
+                                <answer><code>("Curly", "Larry", "Moe") ! concat(., " is a
+                                Stooge!")</code></answer>
                     </item>
                     <item>Open the Digital Mitford site index URL in &lt;oXygen/&gt; using
                             <code>https://digitalmitford.org/si.xml</code> . Try finding out the
@@ -880,15 +896,16 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     <answer>For the <code>@xml:id</code>: <code>for $i in
                                         //person[contains(birth, "Scotland")] return
                                         $i/@xml:id</code>. Notice that we don’t need the
-                                        <code>string()</code> function after the <code>@xml:id</code> in the
-                                    &lt;oXygen/&gt; XPath builder view because the &lt;oXygen/&gt; viewer exposes the attribute values and eXide does not.</answer></example>
+                                        <code>string()</code> function after the
+                                        <code>@xml:id</code> in the &lt;oXygen/&gt; XPath builder
+                                    view because the &lt;oXygen/&gt; viewer exposes the attribute
+                                    values and eXide does not.</answer></example>
                         </examples>
                     </item>
                 </details>
             </act>
             <act time="PT25M">
-                <desc>FLWOR statements in XQuery: how <code>for</code> works: Part
-                    1</desc>
+                <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 1</desc>
                 <details>
                     <item><code>for</code> in XQuery and iterative returns: <code>for $i in
                             $YourSequenceVariable</code>. Look up the places coded in <emph>Charles
@@ -920,24 +937,28 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <desc>Break</desc>
             </act>
             <act time="PT30M">
-                <desc>FLWOR statements in XQuery: how <code>for</code> works: Part
-                    2</desc>
+                <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
 
                     <item>Sort your sequence: two ways: <examples>
                             <example>Apply the XPath <code>sort()</code> function to the variable
                                 that defines the sequence (above the <code>for</code> loop):
-                                        <answer><code>let $distChPRs := $ChasPlaceRefs => distinct-values() => sort()</code>
-                                        </answer></example>
-                            <example>Or, within the FLWOR with the XQuery
-                                <code>order by</code> statement: <code>order by $siCPrs/@xml:id</code> followed by nothing
+                                        <answer><code>let $distChPRs := $ChasPlaceRefs =>
+                                        distinct-values() => sort()</code>
+                                </answer></example>
+                            <example>Or, within the FLWOR with the XQuery <code>order by</code>
+                                statement: <code>order by $siCPrs/@xml:id</code> followed by nothing
                                 (default: ascending alphabetical order), or a keyword:
                                     <code>ascending</code> or <code>descending</code>. To order in
                                 reverse alphabetical order by the <code>@xml:id</code> in the site
-                                index entry? <answer><code>order by $siCPrs/@xml:id descending</code></answer>
+                                index entry? <answer><code>order by $siCPrs/@xml:id
+                                        descending</code></answer>
                             </example>
-                        <example>Do either of these methods really deliver alphabetical order? <answer>In no human understanding of alphabetical order does <q>Zebra</q> come before <q>aardvark</q>. This sorting reflects Unicode order.</answer></example>
+                            <example>Do either of these methods really deliver alphabetical order?
+                                    <answer>In no human understanding of alphabetical order does
+                                        <q>Zebra</q> come before <q>aardvark</q>. This sorting
+                                    reflects Unicode order.</answer></example>
                         </examples>
                     </item>
                     <item>Number the results with <code>$pos</code><examples>
@@ -945,23 +966,23 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 statement: <code>for $i at $pos in $YourSequenceVariable</code>, but
                                 caution: <code>order by</code> happens <emph>after</emph>
                                 <code>$pos</code> is set. So if we want sorted, numbered output?
-                                    <answer>Use the <code>sort()</code> function on the sequence. Try a return like <code>return
-                                        concat($pos, ': ',
-                                $siCPrs/@xml:id)</code></answer></example>
+                                    <answer>Use the <code>sort()</code> function on the sequence.
+                                    Try a return like <code>return concat($pos, ': ',
+                                        $siCPrs/@xml:id)</code></answer></example>
                         </examples></item>
                     <item>Add <code>where</code> in a FLWOR expression to filter the returns <examples>
                             <example>Notice the blank results: A number of entries are not yet in
                                 the site index. We can filter by selecting only those where the
                                 variable <code>$siCPrs</code> exists: <code>where $siCPrs</code>
                             </example>
-                            <example>Or use <code>where</code> to return only results in the site index whose
-                                    string value contains "France": <code>where
+                            <example>Or use <code>where</code> to return only results in the site
+                                index whose string value contains "France": <code>where
                                     $siCPrs[contains(., 'France')]</code></example>
                         </examples></item>
                     <item>Which is more efficient in XQuery: a predicate or <code>where</code>? </item>
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code>
-                       <!-- <examples>
+                        <!-- <examples>
                             <example> Retrieving a full canonical place name: <answer><code>let
                                         $name := $siCPrs/tei:placeName[1]</code></answer>
                             </example>
@@ -989,8 +1010,8 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                     <item>SVG returns: a bar graph from XQuery <examples>
                             <example>SVG bar graph output:
-                                   <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link> (may require permission)
-                                or
+                                    <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
+                                (may require permission) or
                                     <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
                             <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
                                     /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
@@ -1023,40 +1044,47 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT15M">
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
-                    <item>XSLT (eXtensible Stylesheet Language Transformations): an XML document
-                        with special namespaced elements designed to process XML documents</item>
-                    <item>A <emph>declarative programming language</emph>. Not written to be
+                    <item>XSLT (eXtensible Stylesheet Language Transformations) is a
+                            <emph>programming language expressed as an XML document</emph>, where
+                        programming instructions are represented by elements in the XSLT
+                        namespace</item>
+                    <item>XSLT is a <emph>declarative programming language</emph>. Not written to be
                         executed in a line-by-line order. Template elements (or <emph>template
-                            rules</emph>) do the work, but can be written in any order. </item>
+                            rules</emph>) do the work, but can be written in any order.</item>
                     <item>Basic structure: <code>&lt;xsl:stylesheet&gt;</code> is the root element,
-                        with <code>&lt;xsl:template&gt;</code> children.</item>
+                        with <code>&lt;xsl:template&gt;</code> children that do the
+                        processing.</item>
                 </details>
             </act>
             <act time="PT15M">
-                <desc>Housekeeping: namespaces</desc>
+                <desc>Housekeeping: up to three namespaces</desc>
                 <details>
                     <item>Namespace for XSLT elements: <code>xsl:</code>: distinguishes the XSLT
                         elements</item>
-                    <item>Namespace for input: set <code>xpath-default-namespace</code> on the
-                            <code>&lt;xsl:stylesheet&gt;</code>:
-                            <code>xpath-default-namespace="http://www.tei-c.org/ns/1.0"</code>
-                    </item>
-                    <item>Namespace for the output output: set
-                            <code>xmlns="http://www.w3.org/1999/xhtml"</code>
-                    </item>
+                    <item>Namespace for input: if the input is in a namespace, set the
+                            <code>@xpath-default-namespace</code> attribute on the
+                            <code>&lt;xsl:stylesheet&gt;</code>. For example:
+                            <code>&lt;xsl:stylesheet
+                            xpath-default-namespace="http://www.tei-c.org/ns/1.0"&gt;</code> says
+                        that input will be in the TEI namespace unless specified otherwise.</item>
+                    <item>Namespace for output: set the default namespace using the
+                            <code>@xmlns</code> attribute. For example, <code>&lt;xsl:stylesheet
+                            xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+                            xmlns="http://www.w3.org/1999/xhtml"&gt;</code> means that input is in
+                        the TEI namespace and output will be HTML (that is, in the HTML
+                        namespace)</item>
                 </details>
             </act>
             <act time="PT15M">
                 <desc>Housekeeping: <code>&lt;xsl:output&gt;</code></desc>
                 <details>
-                    <item><code>@method</code>, <code>@indent</code>,
-                            <code>@omit-xml-declaration</code>, <code>@doctype-system</code>
-                        <examples>
-                            <example><code>&lt;xsl:output method="xml" indent="no"
-                                    omit-xml-declaration="yes"/&gt;</code></example>
-                            <example><code>&lt;xsl:output method="xhtml" encoding="utf-8"
-                                    indent="yes" doctype-system="about:legacy-compat"
-                                    omit-xml-declaration="yes"/&gt;</code></example>
+                    <item>Configure the <code>@method</code>, <code>@html-version</code>,
+                            <code>@omit-xml-declaration</code>, <code>@include-content-type</code>,
+                        and <code>@indent</code> attributes on the <code>&lt;xsl:output&gt;</code>
+                        element: <examples>
+                            <example><code>&lt;xsl:output method="xhtml" html-version="5"
+                                    omit-xml-declaration="no" include-content-type="no"
+                                    indent="yes"/&gt;</code></example>
                         </examples>
                     </item>
                 </details>
@@ -1065,59 +1093,68 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <desc>XSLT and templates, part 1</desc>
                 <details>
                     <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
-                        The <code>@match</code> here is a special kind of XPath called an
-                            <emph>XPath pattern</emph>, which could be found anywhere in the
-                        document hierarchy. Note: It is inefficient for processing to write these
-                        pattern expressions as we would an XPath search in the XPath Toolbar.</item>
+                        The <code>@match</code> attribute is an <emph>XPath pattern</emph> that
+                        specifies what the template processes. XPath patterns are not the same as
+                        XPath expressions because they don’t navigate or find; they just match. For
+                        example <code>&lt;xsl:template match="p"&gt;</code> will match and process
+                        all <code>&lt;p&gt;</code> elements. It is a mistake to write
+                            <code>&lt;xsl:template match="//p"&gt;</code> because
+                            <code>@match</code> values don’t have to find <code>&lt;p&gt;</code>
+                        elements; they just have to … well … <emph>match</emph> them.</item>
                     <item>In each example below, look at the <code>@match</code> value: What should
                         the XPath pattern be matching in the source XML document? And how is this
-                        XPath different from the way we write XPath in the XPath Toolbar? <examples>
+                        XPath different from the way we write XPath expressions (which have to find,
+                        and not just match, elements) in the XPath Toolbar? <examples>
                             <example><code>&lt;xsl:template match="div/head&gt;"</code>
-                                <answer>Matches any <code>&lt;head&gt;</code> child of a
+                                <answer>Matches any <code>&lt;head&gt;</code> child of any
                                         <code>&lt;div&gt;</code> at any level of the XML hierarchy.
                                     In the XPath Toolbar, we have to start the expression with two
-                                    leading forward slashes (<code>//</code>) to indicate we are
-                                    looking <q>down</q> the tree from the document node.</answer>
+                                    leading forward slashes (<code>//div/head</code>) to indicate we
+                                    are looking <q>down</q> the tree from the document
+                                    node.</answer>
                             </example>
                             <example><code>&lt;xsl:template match="div[count(descendant::p) gt
                                     1]&gt;"</code>
                                 <answer>Matches any <code>&lt;div&gt;</code> element that contains
-                                    multiple (more than one) <code>&lt;p&gt;</code> descendants. In
-                                    the XPath toolbar, we must add <code>//</code> to the
-                                    beginning.</answer>
+                                    more than one <code>&lt;p&gt;</code> descendants. In the XPath
+                                    toolbar, we must add <code>//</code> to the beginning.</answer>
                             </example>
                         </examples>
                     </item>
-                    <item>Inside template rules, <code>&lt;xsl:apply-templates&gt;</code> drives the
-                        selection of the next template rules to fire.
-                            <code>&lt;xsl:apply-templates&gt;</code>
-                        <emph>consumes</emph> the XML node matched in the template rule, and
-                        determines that its children or other nodes in a set XPath relationship to
-                        the template match will be processed. </item>
-                    <item><code>xsl:apply-templates</code> with or without an <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with a specific XPath expression that specifically
-                        identifies which XML elements in the source document will be processed next.
-                        Without <code>@select</code>, all element contents are consumed and
-                        processed by default.</item>
-                    <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
-                        defined by its relation to the node being matched by the template rule (in
-                        the <code>@match</code> on <code>xsl:template</code>. </item>
-                    <item><code>xsl:apply-templates</code> with or without <code>@select</code>:
-                            <code>@select</code>
-                        <q>prunes the tree</q> with an XPath expression that specifically identifies
-                        which XML elements in the source document will be processed next. Without
-                            <code>@select</code>, all element contents are consumed and processed by
-                        default.</item>
-                    <item>The XPath expression in <code>@select</code> is <emph>literal</emph> and
-                        defined by its relation to the node being matched by the template rule (in
-                        the <code>@match</code> on <code>xsl:template</code>. </item>
-                    <item>Complete <q>Ozymandias</q> transformation: <examples>
+                    <item>Inside a template rule, an <code>&lt;xsl:apply-templates/&gt;</code>
+                        elements specifies what to process at that location.</item>
+                    <item>An <code>&lt;xsl:apply-templates/&gt;</code> element with no
+                            <code>@select</code> attribute means <q>process all my child nodes
+                            here</q>. What if you want to process only some children, or some
+                        non-children?</item>
+                    <item><code>&lt;xsl:apply-templates/&gt;</code> with a <code>@select</code>
+                        attribute specifies what to process. The value of <code>@select</code> is an
+                        XPath <emph>expression</emph> (not the shorter XPath <emph>pattern</emph>)
+                        because it has to find the things to process. The path starts from the
+                        current context, that is, from the single item you are processing at the
+                        moment. Examples: <examples>
+                            <example><code>&lt;xsl:template
+                                    match="body/div"&gt;&lt;xsl:apply-templates/&gt;&lt;/xsl:template&gt;</code></example>
+                            <example><code>&lt;xsl:template
+                                    match="body/div"&gt;&lt;xsl:apply-templates
+                                    select="div[1]"/&gt;&lt;/xsl:template&gt;</code></example>
+                        </examples></item>
+                    <item>Complete basic <q>Ozymandias</q> transformation:<examples>
+                            <example>Input:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link>)</example>
+                            <example>Required HTML elements: <code>&lt;html&gt;</code>,
+                                    <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                                    <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
+                                    <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
+                                    <code>&lt;cite&gt;</code> (for publication venue),
+                                    <code>&lt;div&gt;</code> (for poem), <code>&lt;br/&gt;</code>
+                                (NB: empty element, after all lines except the last)</example>
+                        </examples><!--: <examples>
                             <example>XSLT:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example>
                             <example>Output HTML:
                                     <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
-                        </examples>
+                        </examples>-->
                     </item>
 
                 </details>
@@ -1128,22 +1165,22 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT50M">
                 <desc>Identity transformation for making changes to an XML file</desc>
                 <details>
+                    <item>Why perform an identity transformation?</item>
+                    <item>How to perform an identity transformation: <code>&lt;xsl:mode
+                            on-no-match="shallow-copy"/&gt;</code></item>
                     <item>Change the structure and add line numbers to the <q>Ozymandias</q> XML
                         file <examples>
                             <example>Open the url of our simple identity transformation starter:
                                     <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformSimple-Starter.xsl</code></example>
-                            <example>Change the <code>&lt;line&gt;</code> elements to self-closing
-                                    <code>&lt;lb&gt;</code> elements.</example>
-                            <example>Work with <emph>attribute value templates</emph> to add numbers
-                                to the new &lt;lb&gt; elements.</example>
+                            <example>Use <emph>attribute value templates</emph> to add numbers to
+                                the new <code>&lt;code&gt;</code> elements</example>
                         </examples>
                     </item>
-                    <item>Combining a collection of files into a single XML file <examples>
+                    <item>Optional activity: Combining a collection of files into a single XML file <examples>
                             <example>See
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/coll-IDTransform.xsl</link>.</example>
                         </examples>
                     </item>
-
                     <item>Optional exercise: Repair our Pacific Voyage file: <examples>
                             <example>Open this file URL in &lt;oXygen/&gt;:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/ID-TransformTEI-Starter.xsl</link></example>
