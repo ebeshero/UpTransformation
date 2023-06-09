@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:teix="http://www.tei-c.org/ns/Examples"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    ns="http://www.tei-c.org/ns/1.0">
+
+    <!-- ============
+         NEW ELEMENTS
+         ============ -->
+        
+    <!-- note that TEI has a tei:sp (speech) element -->
+    <define name="spc">
+        <element name="spc" ns="temporary_namespace_Giovanni_Verri"> <!-- this element is modeled on pc -->
+            <zeroOrMore>
+                <choice>
+                    <text/>
+                    <ref name="model.gLike"/>
+                    <ref name="model.segLike"/>
+                    <ref name="model.global"/>
+                    <ref name="choice"/>
+                    <ref name="model.menota"/>
+                    <ref name="c"/>
+                    <ref name="model.pPart.edit"/>
+                </choice>
+            </zeroOrMore>
+            <ref name="att.global.attributes"/>
+            <ref name="att.segLike.attributes"/>
+            <ref name="att.typed.attributes"/>
+            <ref name="att.linguistic.attributes"/>
+            <optional>
+                <attribute name="force">
+                    <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the extent to which this punctuation mark conventionally separates words or phrases</a:documentation>
+                    <choice>
+                        <value>strong</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space is a word separator</a:documentation>
+                        <value>weak</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space is not a word separator</a:documentation>
+                        <value>inter</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the space may or may not be a word separator</a:documentation>
+                    </choice>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="unit">
+                    <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a name for the kind of unit delimited by this space.</a:documentation>
+                    <data type="token">
+                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                    </data>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="pre">
+                    <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether this space precedes or follows the unit it delimits.</a:documentation>
+                    <data type="boolean"/>
+                </attribute>
+            </optional>
+            <empty/>
+        </element>
+    </define>
+    
+    <!-- =====================
+         INCLUDE MENOTA P5 RNG
+         + REDEFINE STUFF
+         ===================== -->
+
+    <include href="https://www.menota.org/menotaP5.rng">
+                
+        <define name="model.segLike">
+            <choice>
+                <ref name="s"/>
+                <ref name="cl"/>
+                <ref name="phr"/>
+                <ref name="w"/>
+                <ref name="m"/>
+                <ref name="c"/>
+                <ref name="pc"/>
+                <ref name="seg"/>
+                <ref name="punct"/>
+                <ref name="all"/>
+                <ref name="ass"/>
+                <ref name="spc"/> <!-- NEW in gv_menota_tweaks -->
+            </choice>
+        </define>
+        
+        <define name="anyElement-content">
+            <element>
+                <anyName>
+                    <except>
+                        <nsName ns="http://www.tei-c.org/ns/1.0"/>
+                        <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+                        <nsName ns="http://www.menota.org/ns/1.0"/>
+                        <nsName ns="temporary_namespace_Giovanni_Verri"/>   <!-- NEW in gv_menota_tweaks -->
+                    </except>
+                </anyName>
+                <zeroOrMore>
+                    <attribute>
+                        <anyName/>
+                    </attribute>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <choice>
+                        <text/>
+                        <ref name="anyElement-content"/>
+                    </choice>
+                </zeroOrMore>
+            </element>
+            <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                id="d23709997e84817-constraint">
+                <rule context="tei:content">
+                    <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">content descendants must be in the
+                        namespaces
+                        'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
+                </rule>
+            </pattern>
+        </define>
+
+        <define name="anyElement-constraint">
+            <element>
+                <anyName>
+                    <except>
+                        <nsName ns="http://www.tei-c.org/ns/1.0"/>
+                        <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+                        <nsName ns="http://www.menota.org/ns/1.0"/>
+                        <nsName ns="temporary_namespace_Giovanni_Verri"/>   <!-- NEW in gv_menota_tweaks -->
+                    </except>
+                </anyName>
+                <zeroOrMore>
+                    <attribute>
+                        <anyName/>
+                    </attribute>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <choice>
+                        <text/>
+                        <ref name="anyElement-constraint"/>
+                    </choice>
+                </zeroOrMore>
+            </element>
+        </define>
+        
+        <define name="anyElement-datatype">
+            <element>
+                <anyName>
+                    <except>
+                        <nsName ns="http://www.tei-c.org/ns/1.0"/>
+                        <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+                        <nsName ns="http://www.menota.org/ns/1.0"/>
+                        <nsName ns="temporary_namespace_Giovanni_Verri"/>   <!-- NEW in gv_menota_tweaks -->
+                    </except>
+                </anyName>
+                <zeroOrMore>
+                    <attribute>
+                        <anyName/>
+                    </attribute>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <choice>
+                        <text/>
+                        <ref name="anyElement-datatype"/>
+                    </choice>
+                </zeroOrMore>
+            </element>
+            <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                id="d23709997e86084-constraint">
+                <rule context="tei:datatype">
+                    <report test="descendant::*[not(namespace-uri(.) =               ('http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'))]">datatype descendants must be in the
+                        namespaces
+                        'http://relaxng.org/ns/structure/1.0', 'http://www.tei-c.org/ns/1.0'</report>
+                </rule>
+            </pattern>
+        </define>
+        
+        <define name="anyElement-egXML">
+            <element>
+                <anyName>
+                    <except>
+                        <nsName ns="http://www.tei-c.org/ns/1.0"/>
+                        <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+                        <nsName ns="http://www.menota.org/ns/1.0"/>
+                        <nsName ns="temporary_namespace_Giovanni_Verri"/>   <!-- NEW in gv_menota_tweaks -->
+                    </except>
+                </anyName>
+                <zeroOrMore>
+                    <attribute>
+                        <anyName/>
+                    </attribute>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <choice>
+                        <text/>
+                        <ref name="anyElement-egXML"/>
+                    </choice>
+                </zeroOrMore>
+            </element>
+        </define>
+        <define name="anyElement-xenoData">
+            <element>
+                <anyName>
+                    <except>
+                        <nsName ns="http://www.tei-c.org/ns/1.0"/>
+                        <name ns="http://www.tei-c.org/ns/Examples">egXML</name>
+                        <nsName ns="http://www.menota.org/ns/1.0"/>
+                        <nsName ns="temporary_namespace_Giovanni_Verri"/>   <!-- NEW in gv_menota_tweaks -->
+                    </except>
+                </anyName>
+                <zeroOrMore>
+                    <attribute>
+                        <anyName/>
+                    </attribute>
+                </zeroOrMore>
+                <zeroOrMore>
+                    <choice>
+                        <text/>
+                        <ref name="anyElement-xenoData"/>
+                    </choice>
+                </zeroOrMore>
+            </element>
+        </define>
+        
+    </include>
+    
+</grammar>
