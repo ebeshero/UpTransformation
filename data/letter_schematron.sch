@@ -3,7 +3,7 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:let name="ancillary"
         value="doc('letter_schematron_ancillary.xml')"/>
-    <sch:pattern>
+    <sch:pattern id="X-context">
         <sch:rule context="salutation | p | valediction | signature">
             <sch:report test="not(*) and string-length(normalize-space(.)) eq 0">Element of
                 type "<sch:value-of select="name()"/>" cannot be empty</sch:report>
@@ -20,4 +20,9 @@
                     select="$ref"/> is not in the ancillary reference list</sch:assert>
         </sch:rule>
     </sch:pattern>
+    <sch:pattern>
+        <sch:title>All rules dealing with X </sch:title>
+        
+    </sch:pattern>
+   
 </sch:schema>
