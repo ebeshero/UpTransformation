@@ -1037,7 +1037,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT5M">
                 <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                 <details>
                     <item>XSLT (eXtensible Stylesheet Language Transformations) is a
@@ -1052,7 +1052,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         processing.</item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT10M">
                 <desc>Housekeeping: up to three namespaces</desc>
                 <details>
                     <item>Namespace for XSLT elements: <code>xsl:</code>: distinguishes the XSLT
@@ -1071,7 +1071,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         namespace)</item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT10M">
                 <desc>Housekeeping: <code>&lt;xsl:output&gt;</code></desc>
                 <details>
                     <item>Configure the <code>@method</code>, <code>@html-version</code>,
@@ -1085,7 +1085,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            <act time="PT10M">
+            <act time="PT30M">
                 <desc>XSLT and templates, part 1</desc>
                 <details>
                     <item>Templates match patterns: <code>&lt;xsl:template match="???"&gt;</code>:
@@ -1214,7 +1214,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         </slot>
         <slot time="13:00:00">
             <title>XSLT Activity</title>
-            <act time="PT90M">
+            <act time="PT75M">
                 <desc>TEI XML to HTML transformation</desc>
                 <details>
                     <item>Open the url of the Emily Dickinson Fascicle 16 file:
@@ -1222,6 +1222,11 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         and study the document.</item>
                     <item>Open this starter XSLT file url in &lt;oXygen/&gt;:
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</link></item>
+                </details>
+            </act>
+            <act time="PT15M">
+                <desc>Push and pull</desc>
+                <details>
                     <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
                     <item>Pruning the tree: when to use the <code>@select</code> attribute</item>
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
@@ -1230,7 +1235,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT15M">
                 <desc>Break</desc>
             </act>
-            <act time="PT75M">
+            <act time="PT60M">
                 <desc>XSLT activity: Making a linked table of contents</desc>
                 <details>
                     <item>Continue working with the XSLT we are writing on the Emily Dickinson
@@ -1545,7 +1550,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT15M">
                 <desc>Break</desc>
             </act>
-            <act time="PT35M">
+            <act time="PT25M">
                 <desc>Hamilton 1823-04-09 letter</desc>
                 <details>
                     <item>Letter <examples>
@@ -1565,7 +1570,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </examples></item>
                 </details>
             </act>
-            <act time="PT40M">
+            <act time="PT35M">
                 <desc>Webb 1819-05-16 letter</desc>
                 <details>
                     <item>Letter <examples>
