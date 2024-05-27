@@ -2,7 +2,7 @@
 <?xml-model href="schedule.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
-    <day d="Monday, June 5">
+    <day d="Monday, June 10">
         <title>XPath</title>
         <slot time="10:30:00">
             <title>Introduction to XPath in eXist-db and &lt;oXygen/&gt;</title>
@@ -264,8 +264,7 @@
         </slot>
         <slot time="13:00:00">
             <title>Exploring document structures and data with XPath</title>
-
-            <act time="PT25M">
+            <act time="PT20M">
                 <desc>XPath functions for strings</desc>
                 <details>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-concat"
@@ -345,7 +344,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>XPath functions for numbers and for sequences of numbers</desc>
                 <details>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"
@@ -426,7 +425,6 @@
                         </examples></item>
                 </details>
             </act>
-
             <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
@@ -448,7 +446,7 @@
                             <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT15M">
                 <desc>XPath predicates</desc>
                 <details>
                     <item><emph>Predicates</emph>, in square brackets after a path step,
@@ -473,11 +471,9 @@
                         </examples></item>
                 </details>
             </act>
-
-
         </slot>
     </day>
-    <day d="Tuesday, June 6">
+    <day d="Tuesday, June 11">
         <title>XPath and XQuery</title>
         <slot time="09:00:00">
             <title>From XPath to XQuery</title>
@@ -936,7 +932,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <act time="PT15M">
                 <desc>Break</desc>
             </act>
-            <act time="PT30M">
+            <act time="PT25M">
                 <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
                 <details>
@@ -991,7 +987,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            <act time="PT45M">
+            <act time="PT35M">
                 <image size="icon"
                     alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                     >flower.jpg</image>
@@ -1023,7 +1019,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             </act>
         </slot>
     </day>
-    <day d="Wednesday, June 7">
+    <day d="Wednesday, June 12">
         <title>XPath and XSLT</title>
         <slot time="09:00:00">
             <title>Introduction to XPath in XSLT</title>
@@ -1251,7 +1247,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             </act>
         </slot>
     </day>
-    <day d="Thursday, June 8">
+    <day d="Thursday, June 13">
         <title>XPath and Schematron</title>
         <slot time="09:00:00">
             <title>Using Schematron to constrain your markup</title>
@@ -1594,7 +1590,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             </act>
         </slot>
     </day>
-    <day d="Friday, June 9">
+    <day d="Friday, June 14">
         <title>Taking stock</title>
         <slot time="09:00:00">
             <title>Putting it all to work</title>

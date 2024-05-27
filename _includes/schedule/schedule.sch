@@ -4,11 +4,10 @@
     <!-- TODO: Repeated rule for break duration should be consolidated-->
     <sch:pattern>
         <sch:rule context="slot[1]/@time">
-
             <sch:p>First (morning) slot should start at 10:30 a.m. on Monday and 9:00 on other
                 days</sch:p>
             <sch:assert test="
-                    if (ancestor::day/@d eq 'Monday, June 5') then
+                    if (ancestor::day/@d eq 'Monday, June 10') then
                         . eq '10:30:00'
                     else
                         . eq '09:00:00'">Monday starts at 10:30 a.m., other days at
@@ -18,7 +17,7 @@
             <sch:p>Second (afternoon) slot should start at 1:00, except that there is no second slot
                 on Friday</sch:p>
             <sch:assert test="
-                    if (ancestor::day/@d ne 'Friday, June 9') then
+                    if (ancestor::day/@d ne 'Friday, June 14') then
                         . eq '13:00:00'
                     else
                         0">Afternoon sessions Monday through Thursday start at 1:00
@@ -30,30 +29,29 @@
             <sch:p>Duration of first (morning) slot is 1:30 hours Monday, 1:15 hours on Friday, and
                 3:00 on other days</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-
             <sch:assert test="
-                    if (../@d eq 'Monday, June 5') then
+                    if (../@d eq 'Monday, June 10') then
                         $duration eq xs:dayTimeDuration('PT1H30M')
                     else
-                        if (../@d eq 'Friday, June 9') then
+                        if (../@d eq 'Friday, June 14') then
                             $duration eq xs:dayTimeDuration('PT1H15M')
                         else
                             $duration eq xs:dayTimeDuration('PT3H')">Duration of
                     <sch:value-of select="$duration"/> is incorrect; Monday should be PT1H30M and
                 other days should be PT3H</sch:assert>
         </sch:rule>
-        <sch:rule context="slot[2][../@d eq 'Monday, June 5']">
-            <sch:p>Duration of second (afternoon) slot on Monday is 1:30.</sch:p>
+        <sch:rule context="slot[2][../@d eq 'Monday, June 10']">
+            <sch:p>Duration of second (afternoon) slot on Monday is 1:15.</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration eq xs:dayTimeDuration('PT1H30M')">Duration of <sch:value-of
+            <sch:assert test="$duration eq xs:dayTimeDuration('PT1H15M')">Duration of <sch:value-of
                     select="$duration"/> is incorrect; duration of Monday afternoon session should
                 be PT1H15M</sch:assert>
         </sch:rule>
-        <sch:rule context="slot[2][../@d ne 'Monday, June 5']">
-            <sch:p>Duration of second (afternoon) slot is 3:00.</sch:p>
+        <sch:rule context="slot[2][../@d ne 'Monday, June 10']">
+            <sch:p>Duration of second (afternoon) slot is 2:45.</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration eq xs:dayTimeDuration('PT3H')">Duration of <sch:value-of
-                    select="$duration"/> is incorrect; duration should be PT3H</sch:assert>
+            <sch:assert test="$duration eq xs:dayTimeDuration('PT2H45M')">Duration of <sch:value-of
+                    select="$duration"/> is incorrect; duration should be PT2H45M</sch:assert>
         </sch:rule>
         <sch:rule context="title">
             <sch:p>title element must have non-whitespace content</sch:p>
