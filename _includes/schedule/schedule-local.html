@@ -340,7 +340,7 @@
                         accepts or requires, and the number and type of items it returns</li>
                     <li><em>Type error</em>: <code>string-length(1.2345)</code></li>
                     <li><em>Cardinality error</em>:
-                        <code>string-length(/TEI/speaker)</code></li>
+                        <code>string-length(/TEI//speaker)</code></li>
                     <li>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken?  <button class="answer">Answer</button> <span class="answer">The <code>count()</code>
                             function is receiving three arguments, but it is designed to receive
