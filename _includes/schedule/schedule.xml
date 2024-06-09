@@ -432,7 +432,7 @@
                         accepts or requires, and the number and type of items it returns</item>
                     <item><emph>Type error</emph>: <code>string-length(1.2345)</code></item>
                     <item><emph>Cardinality error</emph>:
-                        <code>string-length(/TEI/speaker)</code></item>
+                        <code>string-length(/TEI//speaker)</code></item>
                     <item>Why is <code>count(/TEI//speaker)</code> okay, while <code>count('Curly',
                             'Larry', 'Moe')</code> is broken? <answer>The <code>count()</code>
                             function is receiving three arguments, but it is designed to receive
