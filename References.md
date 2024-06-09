@@ -18,7 +18,7 @@ There are no XPath-specific reference books, but XPath is discussed in  the book
 
 ### XQuery
 
-There are twogood general XQuery books:
+There are two good general XQuery books:
 
 * Priscilla Walmsley, _XQuery_, 2nd edition, 2015, O’Reilly. It contains documentation of both XPath functions used in XQuery and XQuery itself.  XQuery and XPath share a function library, so the XPath references above also pertain to XQuery. 
 * Clifford B. Anderson and Joseph C. Wicentowski, _XQuery for humanists_, 2020, Texas A&amp;M University Press. Less complete than Priscilla Walmsley’s book, but very accessible to XQuery beginners.
