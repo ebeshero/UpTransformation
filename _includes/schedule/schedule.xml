@@ -363,7 +363,9 @@
                             url="https://www.w3.org/TR/xpath-functions-31/#func-format-number"
                             >format-number()</code><examples>
                             <example><code>format-integer(154,'w')</code></example>
-                            <example><code>format-integer(154,'w','fr')</code> (You could also try 'ar', 'de', 'bg', or see <link>https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes</link>) </example>
+                            <example><code>format-integer(154,'w','fr')</code> (You could also try
+                                'ar', 'de', 'bg', or see
+                                    <link>https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes</link>) </example>
                             <example><code>format-integer(154,'I')</code></example>
                             <example><code>format-number(1, '#.000')</code></example>
                         </examples></item>
@@ -429,8 +431,9 @@
             <act time="PT10M">
                 <desc>Looking Stuff Up: XPath function signatures and cardinality</desc>
                 <details>
-                    <item>The <emph>function signature</emph> is the number and type of arguments it
-                        accepts or requires, and the number and type of items it returns</item>
+                    <item>The <emph>function signature</emph> consists of 1) the name of the
+                        function, 2) the number and type of arguments it accepts or requires, and 3)
+                        the number and type of items it returns</item>
                     <item><emph>Type error</emph>: <code>string-length(1.2345)</code></item>
                     <item><emph>Cardinality error</emph>:
                         <code>string-length(/TEI//speaker)</code></item>
