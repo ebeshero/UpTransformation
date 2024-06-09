@@ -363,6 +363,7 @@
                             url="https://www.w3.org/TR/xpath-functions-31/#func-format-number"
                             >format-number()</code><examples>
                             <example><code>format-integer(154,'w')</code></example>
+                            <example><code>format-integer(154,'w','fr')</code> (You could also try 'ar', 'de', 'bg', or see <link>https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes</link>) </example>
                             <example><code>format-integer(154,'I')</code></example>
                             <example><code>format-number(1, '#.000')</code></example>
                         </examples></item>
