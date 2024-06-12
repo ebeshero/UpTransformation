@@ -982,12 +982,12 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item>Which is more efficient in XQuery: a predicate or <code>where</code>? </item>
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code>
-                        <!-- <examples>
+                         <examples>
                             <example> Retrieving a full canonical place name: <answer><code>let
                                         $name := $siCPrs/tei:placeName[1]</code></answer>
                             </example>
 
-                        </examples>-->
+                        </examples>
                     </item>
                 </details>
             </act>
@@ -999,11 +999,10 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <details>
                     <item>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <examples>
-                            <example>HTML table output:
-                                    <link>https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</link></example>
-                            <example>XQuery to make the HTML, in the newtfire eXist-db:
-                                    <code>/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
-                                GitHub:
+                            <example>HTML table output: <link>https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</link>
+                            </example>
+                            <example>XQuery to make the HTML, as created in the June 2024 edition of this course:
+                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas1-SI-HTMLTable-2024.xquery</link>, or earlier version:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</link>
                             </example>
                         </examples>
