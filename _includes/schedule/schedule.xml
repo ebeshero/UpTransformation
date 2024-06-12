@@ -1246,7 +1246,11 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item>Modal XSLT: Processing the same nodes in multipe ways <examples>
                             <example>The output we want:
                                     <link>https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html</link></example>
-                            <example>Modal XSLT to create the table of contents:
+                            <example>Starter file for Modal XSLT to create the table of contents
+                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</link>
+                            </example>
+                               <example>One possibility for modal XSLT with a table of contents
+                          
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/DickinsonModal-TransformHTML.xsl</link></example>
                         </examples>
                     </item>
