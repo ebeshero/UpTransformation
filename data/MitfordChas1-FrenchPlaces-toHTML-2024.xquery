@@ -3,6 +3,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare default element namespace "http://www.w3.org/1999/xhtml";
 declare variable $Chas as document-node() := doc('http://exist.newtfire.org/exist/rest/db/mitford/literary/Charles1.xml');
 declare variable $si as document-node() := doc('http://exist.newtfire.org/exist/rest/db/mitford/si.xml');
+(: The global variables above are pointing into my eXist-dB from outside the system, so you can execute this XQuery in oXygen! :)
 
 <html>
   <head>
