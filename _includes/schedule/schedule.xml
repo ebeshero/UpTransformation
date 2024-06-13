@@ -1390,9 +1390,9 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         pattern = "(\S+ )*\S+" }</code></answer></example>
                             <example>Require it in the XML with Schematron <answer><code>test='. eq
                                         normalize-space(.)'</code></answer></example>
-                            <example>Manage it with Schematron inside tier-comparison <answer>test
+                            <!--<example>Manage it with Schematron inside tier-comparison <answer>test
                                         <code>normalize-space(.)</code> instead of just
-                                        <code>.</code></answer></example>
+                                        <code>.</code></answer></example>-->
                         </examples>
                     </item>
                     <item>Solutions<examples>
@@ -1400,8 +1400,8 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig-basic.sch</link></answer></example>
                             <example>Enhanced
                                         <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/leipzig.sch</link></answer></example>
-                            <example>Finding which word has a hyphen misalignment
-                                        <answer><link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</link></answer></example>
+                            <!--<example>Finding which word has a hyphen misalignment
+                                        <answer><link>http://htmlpreview.github.io/?https://github.com/ebeshero/UpTransformation/blob/master/data/leipzig-enhanced.html</link></answer></example>-->
                         </examples></item>
                 </details>
             </act>
@@ -1492,12 +1492,12 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 help)</example>
                             <example>No subcategory support (e.g., you can’t require person IDREF to
                                 match only person ID)</example>
-                            <example>Cannot require mixed content to be non-empty</example>
+                            <!--<example>Cannot require mixed content to be non-empty</example>-->
                         </examples></item>
                     <item>Desiderata<examples>
                             <example>Validation against external (remote) files</example>
                             <example>Subcategory support</example>
-                            <example>Require (selected) mixed content to be non-empty</example>
+                            <!--<example>Require (selected) mixed content to be non-empty</example>-->
                         </examples></item>
                 </details>
             </act>
