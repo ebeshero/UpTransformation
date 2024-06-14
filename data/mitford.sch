@@ -25,4 +25,12 @@
                 &lt;person&gt; element in the site index</sch:assert>
         </sch:rule>
     </sch:pattern>
+    <!-- 2024-06-14 ebb: Added this rule during DHSI 2024 to look for any outlier persName variants in coded files that aren't represented in the site index entry. -->
+    <sch:pattern>
+        <sch:rule context="tei:persName" role="info">
+            <sch:assert test="normalize-space() ! tokenize(., ' ') = $si//*[@xml:id = current()/@ref/substring(., 2)]/tei:persName ! normalize-space() ! tokenize(., ' ')">
+                The contents of this <sch:value-of select="name()"/> element aren't fully 
+                represented as a name for this entity in the site index.  </sch:assert>
+        </sch:rule>
+    </sch:pattern>
 </sch:schema>

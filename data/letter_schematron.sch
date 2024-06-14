@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
+    
     <sch:let name="ancillary"
         value="doc('letter_schematron_ancillary.xml')"/>
+    
+   
     <sch:pattern id="X-context">
         <sch:rule context="salutation | p | valediction | signature">
             <sch:report test="not(*) and string-length(normalize-space(.)) eq 0">Element of

@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="mitford.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -104,7 +105,7 @@
                or document details in Mitford's letters in the margins of her pages, noted in the
                manuscripts held at <orgName ref="#ReadingCL">Reading Central Library</orgName>. This
                may be <persName ref="#Harness_Wm">William Harness</persName> or <persName
-                  ref="#Lestrange">A. G. L'Estrange</persName>. This annotator left a note at the
+                  ref="#Lestrange">A. G. L’Estrange</persName>. This annotator left a note at the
                top of the first leaf that documents the recipient of the letter as S. Hamilton,
                followed by a single "dotted x" that refers the reader to the bottom of the page
                where there is another single "x" followed by "Editor of the Lady's Magazine". There
