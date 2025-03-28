@@ -4,20 +4,16 @@
     xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:c="http://www.w3.org/ns/xproc-step"
     version="3.0">
     <!-- ================================================================ -->
-    <!-- Reads schedule.xml                                               -->
-    <!--   Transforms to schedule-full.html and saves                     -->
-    <!-- Reads wrapper.xml                                                -->
-    <!--   Includes schedule-full.html                                    -->
-    <!-- Transforms to schedule-local.html and saves                      -->
-    <!-- ================================================================ -->
-    <!-- Prologue: No primary output                                      -->
+    <!-- Read schedule.xml                                                -->
+    <!-- No primary output                                                -->
     <!-- ================================================================ -->
     <p:input port="source" sequence="false" content-types="xml" href="schedule.xml"/>
     <p:output port="result" sequence="true">
         <p:empty/>
     </p:output>
     <!-- ================================================================ -->
-    <!-- Create and save full schedule                                    -->
+    <!-- Create schedule for GitHub Pages                                 -->
+    <!--   Transform and save as schedule-full.html                       -->
     <!-- ================================================================ -->
     <p:xslt>
         <p:with-input port="stylesheet" href="schedule-full.xsl"/>
@@ -30,6 +26,9 @@
         }"/>
     <!-- ================================================================ -->
     <!-- Create local schedule                                            -->
+    <!--   Read wrapper.xml                                               -->
+    <!--   Include schedule-full.html                                     -->
+    <!--   Transform to schedule-local.html and save                      -->
     <!-- ================================================================ -->
     <p:load href="wrapper.xml"/>
     <p:xinclude/>
