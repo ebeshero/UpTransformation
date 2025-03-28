@@ -1,44 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p:declare-step name="process" xmlns:p="http://www.w3.org/ns/xproc"
-    xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0">
-    <p:documentation> Reads schedule.xml Transforms to schedule-full.html and saves Reads
-        wrapper.xml, includes schedule-full.html Transforms to schedule-local.html and saves TODO:
-        suppress final output </p:documentation>
-    <p:input port="source" sequence="true">
-        <p:empty/>
-    </p:input>
+<p:declare-step xmlns:p="http://www.w3.org/ns/xproc" exclude-inline-prefixes="#all"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ex="extensions"
+    xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:c="http://www.w3.org/ns/xproc-step"
+    version="3.0">
+    <!-- ================================================================ -->
+    <!-- Reads schedule.xml                                               -->
+    <!--   Transforms to schedule-full.html and saves                     -->
+    <!-- Reads wrapper.xml                                                -->
+    <!--   Includes schedule-full.html                                    -->
+    <!-- Transforms to schedule-local.html and saves                      -->
+    <!-- ================================================================ -->
+    <!-- Prologue: No primary output                                      -->
+    <!-- ================================================================ -->
+    <p:input port="source" sequence="false" content-types="xml" href="schedule.xml"/>
     <p:output port="result" sequence="true">
-        <p:pipe port="result" step="finish"/>
+        <p:empty/>
     </p:output>
-    <p:serialization port="result" indent="false" method="xml" encoding="utf-8"
-        omit-xml-declaration="true"/>
+    <!-- ================================================================ -->
+    <!-- Create and save full schedule                                    -->
+    <!-- ================================================================ -->
     <p:xslt>
-        <p:input port="source">
-            <p:document href="schedule.xml"/>
-        </p:input>
-        <p:input port="stylesheet">
-            <p:document href="schedule-full.xsl"/>
-        </p:input>
-        <p:input port="parameters">
-            <p:empty/>
-        </p:input>
+        <p:with-input port="stylesheet" href="schedule-full.xsl"/>
     </p:xslt>
-    <p:store href="schedule-full.html"/>
+    <p:store href="schedule-full.html" serialization="map {
+        'method' : 'xml',
+        'indent' : false(),
+        'encoding' : 'utf-8',
+        'omit-xml-declaration' : true()
+        }"/>
+    <!-- ================================================================ -->
+    <!-- Create local schedule                                            -->
+    <!-- ================================================================ -->
     <p:load href="wrapper.xml"/>
     <p:xinclude/>
     <p:xslt>
-        <p:input port="stylesheet">
-            <p:document href="identity.xsl"/>
-        </p:input>
-        <p:input port="parameters">
-            <p:empty/>
-        </p:input>
+        <p:with-input port="stylesheet" href="identity.xsl"/>
     </p:xslt>
-    <p:store name="save" href="schedule-local.html"/>
-    <!-- is there a better way to suppress final output? -->
-    <p:identity name="finish">
-        <p:input port="source">
-            <p:empty/>
-        </p:input>
-    </p:identity>
+    <p:store href="schedule-local.html"/>
 </p:declare-step>

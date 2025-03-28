@@ -4,27 +4,27 @@ schedule = element schedule { monday, tuesday, wednesday, thursday, friday }
 day = title, slot+
 monday =
     element day {
-        attribute d { "Monday, June 10" },
+        attribute d { "Monday, May 26" },
         day
     }
 tuesday =
     element day {
-        attribute d { "Tuesday, June 11" },
+        attribute d { "Tuesday, May 27" },
         day
     }
 wednesday =
     element day {
-        attribute d { "Wednesday, June 12" },
+        attribute d { "Wednesday, May 28" },
         day
     }
 thursday =
     element day {
-        attribute d { "Thursday, June 13" },
+        attribute d { "Thursday, May 29" },
         day
     }
 friday =
     element day {
-        attribute d { "Friday, June 14" },
+        attribute d { "Friday, May 30" },
         day
     }
 
