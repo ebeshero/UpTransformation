@@ -37,18 +37,11 @@
                     <sch:value-of select="$duration"/> is incorrect; Monday should be 1 hour
                 (PT1H00M) and other days should be 3 hours (PT3H)</sch:assert>
         </sch:rule>
-        <sch:rule context="slot[2][../@d eq 'Monday, May 26']">
-            <sch:p>Duration of second (afternoon) slot on Monday is 1:15.</sch:p>
+        <sch:rule context="slot[2]">
+            <sch:p>Duration of second (afternoon) slot is 2:30.</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration eq xs:dayTimeDuration('PT1H15M')">Duration of <sch:value-of
-                    select="$duration"/> is incorrect; duration of Monday afternoon session should
-                be PT1H15M</sch:assert>
-        </sch:rule>
-        <sch:rule context="slot[2][../@d ne 'Monday, May 26']">
-            <sch:p>Duration of second (afternoon) slot is 2:45.</sch:p>
-            <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration eq xs:dayTimeDuration('PT2H45M')">Duration of <sch:value-of
-                    select="$duration"/> is incorrect; duration should be PT2H45M</sch:assert>
+            <sch:assert test="$duration eq xs:dayTimeDuration('PT2H30M')">Duration of <sch:value-of
+                    select="$duration"/> is incorrect; duration should be PT2H30M</sch:assert>
         </sch:rule>
         <sch:rule context="title">
             <sch:p>title element must have non-whitespace content</sch:p>
