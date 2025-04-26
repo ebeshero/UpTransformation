@@ -92,7 +92,7 @@
                     <li>Path expressions may span multiple lines (try it with the examples above),
                         that is, new-line and space have the same meaning</li>
                 </ol></li></ol></section>
-        <section><h3>Exploring document structures and data with XPath (1:30 p.m.–3:50 p.m.)</h3><ol><li>XPath in &lt;oXygen/&gt; (15 minutes; 1:30 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Exploring document structures and data with XPath (1:30 p.m.–4:00 p.m.)</h3><ol><li>XPath in &lt;oXygen/&gt; (15 minutes; 1:30 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
                             <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
@@ -141,7 +141,7 @@
                                 an error; spaces are not allowed in path expressions)</li>
                         </ol></li>
                     
-                </ol></li><li>XPath path steps (20 minutes; 2:00 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath path steps (25 minutes; 2:00 p.m.–2:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
                             <code>descendant::</code>, <code>ancestor::</code>,
                             <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
@@ -209,7 +209,7 @@
                                     <code>//stage/parent::div</code>
                                 </span></li>
                         </ol></li>
-                </ol></li><li>XPath functions for strings (20 minutes; 2:20 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for strings (20 minutes; 2:25 p.m.–2:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
                         <ol>
                             <li>
@@ -265,7 +265,7 @@
                     <li><code>starts-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"><sup>⬀</sup></a>, <code>ends-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"><sup>⬀</sup></a><ol>
                             <li><code>starts-with('Ophelia', 'Op')</code></li>
                         </ol></li>
-                </ol></li><li>XPath functions for numbers and for sequences of numbers (15 minutes; 2:40 p.m.–2:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for numbers and for sequences of numbers (15 minutes; 2:45 p.m.–3:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>ceiling()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"><sup>⬀</sup></a>, <code>floor()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-floor"><sup>⬀</sup></a>
                         <ol>
                             <li><code>ceiling(3.141592653)</code></li>
@@ -292,7 +292,7 @@
                                 <code>string-length(//speaker)</code> work?)</span></li>
                     <li>Find the length of the longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
-                </ol></li><li>XPath functions for sequences (15 minutes; 2:55 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (15 minutes; 3:00 p.m.–3:15 p.m.) </li><li>XPath functions for sequences (15 minutes; 3:15 p.m.–3:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
@@ -327,7 +327,7 @@
                                         <code>&lt;div&gt;</code> elements of different types
                                     together: acts, scenes, cast list.</span></li>
                         </ol></li>
-                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 3:10 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 3:30 p.m.–3:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The <em>function signature</em> consists of 1) the name of the
                         function, 2) the number and type of arguments it accepts or requires, and 3)
                         the number and type of items it returns</li>
@@ -344,7 +344,7 @@
                     <li>Resources and references:
                             <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
                     
-                </ol></li><li>Break (15 minutes; 3:20 p.m.–3:35 p.m.) </li><li>XPath predicates (15 minutes; 3:35 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath predicates (20 minutes; 3:40 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>

@@ -192,7 +192,7 @@
                         behind the scenes (eXide does not).</item>-->
                 </details>
             </act>
-            <act time="PT20M">
+            <act time="PT25M">
                 <desc>XPath path steps</desc>
                 <details>
                     <item>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
@@ -389,6 +389,9 @@
                 </details>
             </act>
             <act time="PT15M">
+                <desc>Break</desc>
+            </act>
+            <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
                     <item><code url="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"
@@ -452,10 +455,7 @@
                             <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
-            <act time="PT15M">
+            <act time="PT20M">
                 <desc>XPath predicates</desc>
                 <details>
                     <item><emph>Predicates</emph>, in square brackets after a path step,
