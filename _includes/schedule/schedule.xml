@@ -262,7 +262,7 @@
                 </details>
             </act>
         </slot>
-        <slot time="13:00:00">
+        <slot time="13:30:00">
             <title>Exploring document structures and data with XPath</title>
             <act time="PT20M">
                 <desc>XPath functions for strings</desc>
@@ -449,6 +449,9 @@
                     <!--<item>Mozilla Development Network (MDN):
                             <link>https://developer.mozilla.org/en-US/docs/Web/XPath</link></item>-->
                 </details>
+            </act>
+            <act time="PT15M">
+                <desc>Break</desc>
             </act>
             <act time="PT15M">
                 <desc>XPath predicates</desc>
@@ -681,7 +684,6 @@
                         </examples></item>
                 </details>
             </act>
-
             <act time="PT15M">
                 <desc>Wildcard node testing</desc>
                 <details>
@@ -805,7 +807,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 </details>
             </act>
         </slot>
-        <slot time="13:00:00">
+        <slot time="13:30:00">
             <title>XQuery flow control</title>
             <act time="PT20M">
                 <desc>Introducing FLWOR, continued.</desc>
@@ -1218,7 +1220,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 </details>
             </act>
         </slot>
-        <slot time="13:00:00">
+        <slot time="13:30:00">
             <title>XSLT Activity</title>
             <act time="PT75M">
                 <desc>TEI XML to HTML transformation</desc>
@@ -1461,7 +1463,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 </details>
             </act>
         </slot>
-        <slot time="13:00:00">
+        <slot time="13:30:00">
             <title>Schematron and external files</title>
             <act time="PT25M">
                 <desc>ID/IDREF validation</desc>
