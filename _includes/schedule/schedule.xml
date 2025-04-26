@@ -4,9 +4,9 @@
 <schedule>
     <day d="Monday, May 26">
         <title>XPath</title>
-        <slot time="10:30:00">
+        <slot time="11:00:00">
             <title>Introduction to XPath in eXist-db and &lt;oXygen/&gt;</title>
-            <act time="PT15M">
+            <act time="PT20M">
                 <desc>Getting started with XPath and eXide</desc>
                 <details>
                     <item>Open <link>http://newtfire.org:8338/exist/apps/eXide/index.html</link> (or
@@ -17,7 +17,8 @@
                         means learning the …<examples>
                             <example>Vocabulary (e.g., the division operator in XPath is <code
                                     url="https://www.w3.org/TR/xpath-31/#id-arithmetic">div</code>,
-                                not <code>/</code>)</example>
+                                not <code>/</code>: <code>6 div 2</code> evaluates to
+                                <code>3</code>, but <code>6 / 2</code> raises an error)</example>
                             <example>Syntax (e.g., in XPath <emph>conditional expressions</emph>,
                                 the <code url="https://www.w3.org/TR/xpath-31/#doc-xpath31-IfExpr"
                                     >if</code> test must be parenthesized and an <code>else</code>
@@ -54,7 +55,7 @@
                         </examples></item>
                 </details>
             </act>
-            <act time="PT25M">
+            <act time="PT40M">
                 <desc>Simple XPath expressions</desc>
                 <details>
                     <item>Review: strings and numbers (atomic values) are XPath expressions <examples>
@@ -96,7 +97,8 @@
                                     >count(('Curly', 'Larry', 'Moe'))</code> (Why two sets of
                                 parentheses? Hint: How many arguments, and of what type?)</example>
                             <example>Function <emph>signature</emph> and <emph>cardinality</emph>:
-                                    <code>count($items as item()*) as xs:integer</code></example>
+                                    <code url="https://www.w3.org/TR/xpath-functions-31/#func-count"
+                                    >count($items as item()*) as xs:integer</code></example>
                         </examples>
                     </item>
                     <item>Nested XPath library functions and operations are XPath expressions. Read
@@ -126,6 +128,9 @@
                         that is, new-line and space have the same meaning</item>
                 </details>
             </act>
+        </slot>
+        <slot time="13:30:00">
+            <title>Exploring document structures and data with XPath</title>
             <act time="PT15M">
                 <desc>XPath in &lt;oXygen/&gt;</desc>
                 <details>
@@ -261,9 +266,6 @@
                         </examples></item>
                 </details>
             </act>
-        </slot>
-        <slot time="13:30:00">
-            <title>Exploring document structures and data with XPath</title>
             <act time="PT20M">
                 <desc>XPath functions for strings</desc>
                 <details>

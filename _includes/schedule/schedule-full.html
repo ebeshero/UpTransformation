@@ -2,7 +2,7 @@
                 all</button></p>
     <section>
         <h2>Monday, May 26: XPath</h2>
-        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (10:30 a.m.–12:00 p.m.)</h3><ol><li>Getting started with XPath and eXide (15 minutes; 10:30 a.m.–10:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Introduction to XPath in eXist-db and &lt;oXygen/&gt; (11:00 a.m.–12:00 p.m.)</h3><ol><li>Getting started with XPath and eXide (20 minutes; 11:00 a.m.–11:20 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open <a href="http://newtfire.org:8338/exist/apps/eXide/index.html">http://newtfire.org:8338/exist/apps/eXide/index.html</a> (or
                         eXide within eXist-db on your own laptop, if you’ve installed it), click
                         “New XQuery”, and erase all content in the editing window. You’ll type your
@@ -10,7 +10,8 @@
                     <li>Learning XPath (and other languages, including XSLT, XQuery, Schematron)
                         means learning the …<ol>
                             <li>Vocabulary (e.g., the division operator in XPath is <code>div</code><a href="https://www.w3.org/TR/xpath-31/#id-arithmetic"><sup>⬀</sup></a>,
-                                not <code>/</code>)</li>
+                                not <code>/</code>: <code>6 div 2</code> evaluates to
+                                <code>3</code>, but <code>6 / 2</code> raises an error)</li>
                             <li>Syntax (e.g., in XPath <em>conditional expressions</em>,
                                 the <code>if</code><a href="https://www.w3.org/TR/xpath-31/#doc-xpath31-IfExpr"><sup>⬀</sup></a> test must be parenthesized and an <code>else</code>
                                 is required: <code>if (condition) then 1 else ()</code>)</li>
@@ -40,7 +41,7 @@
                                     4))</code>, and hit Eval. What result do you expect? What do you
                                 get?</li>
                         </ol></li>
-                </ol></li><li>Simple XPath expressions (25 minutes; 10:45 a.m.–11:10 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Simple XPath expressions (40 minutes; 11:20 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Review: strings and numbers (atomic values) are XPath expressions <ol>
                             <li><code>"Hi, Mom!"</code> (Strings are enclosed in single or
                                 double quotation marks—straight, not curly)</li>
@@ -68,7 +69,7 @@
                             <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
                                 parentheses? Hint: How many arguments, and of what type?)</li>
                             <li>Function <em>signature</em> and <em>cardinality</em>:
-                                    <code>count($items as item()*) as xs:integer</code></li>
+                                    <code>count($items as item()*) as xs:integer</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a></li>
                         </ol>
                     </li>
                     <li>Nested XPath library functions and operations are XPath expressions. Read
@@ -90,7 +91,8 @@
                         </ol></li>
                     <li>Path expressions may span multiple lines (try it with the examples above),
                         that is, new-line and space have the same meaning</li>
-                </ol></li><li>XPath in &lt;oXygen/&gt; (15 minutes; 11:10 a.m.–11:25 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li></ol></section>
+        <section><h3>Exploring document structures and data with XPath (1:30 p.m.–3:50 p.m.)</h3><ol><li>XPath in &lt;oXygen/&gt; (15 minutes; 1:30 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Launch &lt;oXygen/&gt; Editor, hit <q>Ctrl+u</q> (Windows) or <q>Cmd+u</q>
                         (MacOS), copy and paste the string
                             <a href="http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml">http://newtfire.org:8338/exist/apps/shakespeare/data/ham.xml</a>,
@@ -108,7 +110,7 @@
                         multiple lines; <q>Enter</q> for a new line. To run, hit <q>Ctrl+Enter</q>
                         (Windows) or <q>Cmd+Enter</q> (MacOS), or click the red right-pointed
                         triangle.</li>
-                </ol></li><li>XPath path expressions (15 minutes; 11:25 a.m.–11:40 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath path expressions (15 minutes; 1:45 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>An XPath <em>path expression</em> is a sequence of steps, each of
                         which proceeds from one node (called the <em>context node</em>) to a
                         sequence of zero (!) or more others. It returns the results in document
@@ -139,7 +141,7 @@
                                 an error; spaces are not allowed in path expressions)</li>
                         </ol></li>
                     
-                </ol></li><li>XPath path steps (20 minutes; 11:40 a.m.–12:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath path steps (20 minutes; 2:00 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Path steps move along axes: <code>child::</code>, <code>parent::</code>,
                             <code>descendant::</code>, <code>ancestor::</code>,
                             <code>preceding-sibling::</code>, <code>following-sibling::</code>, etc.
@@ -207,8 +209,7 @@
                                     <code>//stage/parent::div</code>
                                 </span></li>
                         </ol></li>
-                </ol></li></ol></section>
-        <section><h3>Exploring document structures and data with XPath (1:00 p.m.–2:15 p.m.)</h3><ol><li>XPath functions for strings (20 minutes; 1:00 p.m.–1:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for strings (20 minutes; 2:20 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
                         <ol>
                             <li>
@@ -264,7 +265,7 @@
                     <li><code>starts-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"><sup>⬀</sup></a>, <code>ends-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"><sup>⬀</sup></a><ol>
                             <li><code>starts-with('Ophelia', 'Op')</code></li>
                         </ol></li>
-                </ol></li><li>XPath functions for numbers and for sequences of numbers (15 minutes; 1:20 p.m.–1:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for numbers and for sequences of numbers (15 minutes; 2:40 p.m.–2:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>ceiling()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ceiling"><sup>⬀</sup></a>, <code>floor()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-floor"><sup>⬀</sup></a>
                         <ol>
                             <li><code>ceiling(3.141592653)</code></li>
@@ -291,7 +292,7 @@
                                 <code>string-length(//speaker)</code> work?)</span></li>
                     <li>Find the length of the longest speaker name
                                  <button class="answer">Answer</button> <span class="answer"><code>max(//speaker/string-length())</code></span></li>
-                </ol></li><li>XPath functions for sequences (15 minutes; 1:35 p.m.–1:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>XPath functions for sequences (15 minutes; 2:55 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>distinct-values()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-distinct-values"><sup>⬀</sup></a>
                         <ol>
                             <li><code>distinct-values(/TEI//speaker)</code></li>
@@ -326,7 +327,7 @@
                                         <code>&lt;div&gt;</code> elements of different types
                                     together: acts, scenes, cast list.</span></li>
                         </ol></li>
-                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 1:50 p.m.–2:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Looking Stuff Up: XPath function signatures and cardinality (10 minutes; 3:10 p.m.–3:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>The <em>function signature</em> consists of 1) the name of the
                         function, 2) the number and type of arguments it accepts or requires, and 3)
                         the number and type of items it returns</li>
@@ -343,7 +344,7 @@
                     <li>Resources and references:
                             <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
                     
-                </ol></li><li>XPath predicates (15 minutes; 2:00 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (15 minutes; 3:20 p.m.–3:35 p.m.) </li><li>XPath predicates (15 minutes; 3:35 p.m.–3:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><em>Predicates</em>, in square brackets after a path step,
                             <em>filter</em> the results</li>
                     <li>Numerical predicates<ol>
@@ -611,7 +612,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <code>return</code></li>
 
                 </ol></li></ol></section>
-        <section><h3>XQuery flow control (1:00 p.m.–3:45 p.m.)</h3><ol><li>Introducing FLWOR, continued. (20 minutes; 1:00 p.m.–1:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XQuery flow control (1:30 p.m.–4:15 p.m.)</h3><ol><li>Introducing FLWOR, continued. (20 minutes; 1:30 p.m.–1:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Retrieve a sequence of whole elements: <ol>
                             <li>
                                 <code>let $places := $Chas//tei:placeName</code>
@@ -625,7 +626,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                         $places/normalize-space()</code></span></li>
                         </ol>
                     </li>
-                </ol></li><li>Scavenger hunt 2: in XQuery this time. (30 minutes; 1:20 p.m.–1:50 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Scavenger hunt 2: in XQuery this time. (30 minutes; 1:50 p.m.–2:20 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li> Work in eXist-db in the same file we started before the break and delete
                         only the <code>return</code> line. Let’s keep adding to it. Use variables
                         and FLWOR statements to define and retrieve the following: <ol>
@@ -667,7 +668,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                         </ol>
                     </li>
                 </ol></li><li>XPath <code>for</code> expressions; sequence and range variables
-                    (&lt;oXygen/&gt;) (15 minutes; 1:50 p.m.–2:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                    (&lt;oXygen/&gt;) (15 minutes; 2:20 p.m.–2:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i in
                             ("Curly", "Larry", "Moe") return concat($i, " is a
                         Stooge!")</code></li>
@@ -695,7 +696,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                     values and eXide does not.</span></li>
                         </ol>
                     </li>
-                </ol></li><li>FLWOR statements in XQuery: how <code>for</code> works: Part 1 (25 minutes; 2:05 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>FLWOR statements in XQuery: how <code>for</code> works: Part 1 (25 minutes; 2:35 p.m.–3:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li><code>for</code> in XQuery and iterative returns: <code>for $i in
                             $YourSequenceVariable</code>. Look up the places coded in <em>Charles
                             the First</em> for their entries in the Digital Mitford site index. <ol>
@@ -720,7 +721,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                     '#')]</code></span></li>
                         </ol>
                     </li>
-                </ol></li><li>Break (15 minutes; 2:30 p.m.–2:45 p.m.) </li><li>FLWOR statements in XQuery: how <code>for</code> works: Part 2 (25 minutes; 2:45 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (15 minutes; 3:00 p.m.–3:15 p.m.) </li><li>FLWOR statements in XQuery: how <code>for</code> works: Part 2 (25 minutes; 3:15 p.m.–3:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
 
                     <li>Sort your sequence: two ways: <ol>
                             <li>Apply the XPath <code>sort()</code> function to the variable
@@ -770,7 +771,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
 
                         </ol>
                     </li>
-                </ol></li><li><img src="images/flower.jpg" alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" title="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" class="icon"/>Putting it all together: writing FLWORs to make new files (35 minutes; 3:10 p.m.–3:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li><img src="images/flower.jpg" alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" title="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell" class="icon"/>Putting it all together: writing FLWORs to make new files (35 minutes; 3:40 p.m.–4:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <ol>
                             <li>HTML table output:
@@ -948,17 +949,17 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                     <li> Structure of an HTML document: <code>&lt;head&gt;</code> and
                             <code>&lt;body&gt;</code></li>
                 </ol></li></ol></section>
-        <section><h3>XSLT Activity (1:00 p.m.–3:45 p.m.)</h3><ol><li>TEI XML to HTML transformation (75 minutes; 1:00 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>XSLT Activity (1:30 p.m.–4:15 p.m.)</h3><ol><li>TEI XML to HTML transformation (75 minutes; 1:30 p.m.–2:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Open the url of the Emily Dickinson Fascicle 16 file:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</a>,
                         and study the document.</li>
                     <li>Open this starter XSLT file url in &lt;oXygen/&gt;:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</a></li>
-                </ol></li><li>Push and pull (15 minutes; 2:15 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Push and pull (15 minutes; 2:45 p.m.–3:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Push processing: <code>&lt;xsl:apply-templates&gt;</code></li>
                     <li>Pruning the tree: when to use the <code>@select</code> attribute</li>
                     <li>When to use <code>&lt;xsl:value-of&gt;</code></li>
-                </ol></li><li>Break (15 minutes; 2:30 p.m.–2:45 p.m.) </li><li>XSLT activity: Making a linked table of contents (60 minutes; 2:45 p.m.–3:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (15 minutes; 3:00 p.m.–3:15 p.m.) </li><li>XSLT activity: Making a linked table of contents (60 minutes; 3:15 p.m.–4:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Continue working with the XSLT we are writing on the Emily Dickinson
                         file.</li>
                     <li>Modal XSLT: Processing the same nodes in multipe ways <ol>
@@ -1128,7 +1129,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                 count()</code></li>
                         </ol></li>
                 </ol></li></ol></section>
-        <section><h3>Schematron and external files (1:00 p.m.–3:45 p.m.)</h3><ol><li>ID/IDREF validation (25 minutes; 1:00 p.m.–1:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+        <section><h3>Schematron and external files (1:30 p.m.–4:15 p.m.)</h3><ol><li>ID/IDREF validation (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Files<ol>
                             <li>Instance:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_id-idref.xml</a></li>
@@ -1162,7 +1163,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <li>Subcategory support</li>
                             
                         </ol></li>
-                </ol></li><li>General comparison and value comparison (20 minutes; 1:25 p.m.–1:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>General comparison and value comparison (20 minutes; 1:55 p.m.–2:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Value comparison<ol>
                             <li>Operators: <code>eq</code>, <code>ne</code>, <code>lt</code>,
                                     <code>gt</code>, <code>le</code>, <code>ge</code></li>
@@ -1187,7 +1188,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <li><code>substring(@ref, 2) =
                                 $ancillary//person/@xml:id</code></li>
                         </ol></li>
-                </ol></li><li>Schematron validation (25 minutes; 1:45 p.m.–2:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Schematron validation (25 minutes; 2:15 p.m.–2:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Instance:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.xml</a></li>
                     <li>Relax NG:
@@ -1196,7 +1197,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron.sch</a></li>
                     <li>External reference file:
                             <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml</a></li>
-                </ol></li><li>Exploring Digital Mitford (20 minutes; 2:10 p.m.–2:30 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Exploring Digital Mitford (20 minutes; 2:40 p.m.–3:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Project site: <a href="https://digitalmitford.org">https://digitalmitford.org</a></li>
                     <li>Site index<ol>
                             <li>Workshop repo on GitHub:
@@ -1206,7 +1207,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                             <li>Outline:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/si-outline.xml</a></li>
                         </ol></li>
-                </ol></li><li>Break (15 minutes; 2:30 p.m.–2:45 p.m.) </li><li>Hamilton 1823-04-09 letter (25 minutes; 2:45 p.m.–3:10 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Break (15 minutes; 3:00 p.m.–3:15 p.m.) </li><li>Hamilton 1823-04-09 letter (25 minutes; 3:15 p.m.–3:40 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Letter <ol>
                             <li>XML:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1823-04-09-Hamilton.xml</a></li>
@@ -1222,7 +1223,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                 element</li>
                             <li>Add and test rules for other element types</li>
                         </ol></li>
-                </ol></li><li>Webb 1819-05-16 letter (35 minutes; 3:10 p.m.–3:45 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                </ol></li><li>Webb 1819-05-16 letter (35 minutes; 3:40 p.m.–4:15 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                     <li>Letter <ol>
                             <li>XML:
                                     <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</a></li>
