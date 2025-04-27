@@ -2,7 +2,7 @@
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" exclude-inline-prefixes="#all"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ex="extensions"
     xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:c="http://www.w3.org/ns/xproc-step"
-    xmlns:html="http://www.w3.org/1999/xhtml" version="3.0">
+    xmlns:html="http://www.w3.org/1999/xhtml" version="3.0">    
     <!-- ================================================================ -->
     <!-- Read schedule.xml                                                -->
     <!-- No primary output                                                -->
@@ -11,6 +11,19 @@
     <p:output port="result" sequence="true">
         <p:empty/>
     </p:output>
+    <!-- ================================================================ -->
+    <!-- Ensure validity                                                  -->
+    <!-- ================================================================ -->
+    <p:validate-with-relax-ng message="Validate with Relax NG">
+        <p:with-input port="schema">
+            <p:document href="schedule.rnc" content-type="text/plain"/>
+        </p:with-input>
+    </p:validate-with-relax-ng>
+    <p:validate-with-schematron message="Validate with Schematron">
+        <p:with-input port="schema">
+            <p:document href="schedule.sch"/>
+        </p:with-input>
+    </p:validate-with-schematron>
     <!-- ================================================================ -->
     <!-- Create schedule for GitHub Pages                                 -->
     <!--   Transform and save as schedule-full.html                       -->
