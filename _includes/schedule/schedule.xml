@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="schedule.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- ==================================================================== -->
+<!-- Entity for easy reuse                                                -->
+<!-- ==================================================================== -->
+<!DOCTYPE schedule [
+<!ENTITY break "<act time='PT15M'>
+    <desc>Break</desc>
+</act>">]>
+<!-- ==================================================================== -->
 <schedule>
     <day d="Monday, May 26">
         <title>XPath</title>
@@ -388,9 +396,7 @@
                                 <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
@@ -636,9 +642,8 @@
                     <item>Deprecated: namespace (<code>namespace-uri()</code>)</item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
+
             <!-- <act time="PT20M">
                 <desc>Neglected XPath axes</desc>
                 <details>
@@ -937,9 +942,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT25M">
                 <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
@@ -1162,12 +1165,9 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
                         </examples>-->
                     </item>
-
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT50M">
                 <desc>Identity transformation for making changes to an XML file</desc>
                 <details>
@@ -1242,9 +1242,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT60M">
                 <desc>XSLT activity: Making a linked table of contents</desc>
                 <details>
@@ -1365,9 +1363,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT40M">
                 <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
                 <details>
@@ -1561,9 +1557,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT25M">
                 <desc>Hamilton 1823-04-09 letter</desc>
                 <details>
@@ -1625,9 +1619,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item><link>https://ebeshero.github.io/UpTransformation/References.html</link></item>
                 </details>
             </act>
-            <act time="PT10M">
-                <desc>Break</desc>
-            </act>
+            &break;
             <act time="PT1H">
                 <desc>Building our syllabus</desc>
                 <details>

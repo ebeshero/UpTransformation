@@ -2,7 +2,7 @@
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" exclude-inline-prefixes="#all"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ex="extensions"
     xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:c="http://www.w3.org/ns/xproc-step"
-    xmlns:html="http://www.w3.org/1999/xhtml" version="3.0">    
+    xmlns:html="http://www.w3.org/1999/xhtml" version="3.0">
     <!-- ================================================================ -->
     <!-- Read schedule.xml                                                -->
     <!-- No primary output                                                -->
@@ -31,7 +31,7 @@
     <p:xslt>
         <p:with-input port="stylesheet" href="schedule-full.xsl"/>
     </p:xslt>
-    <p:identity name="create-html-full"/>
+    <p:identity name="create-html-full" message="Create and save full schedule"/>
     <p:store href="schedule-full.html" serialization="map {
         'method' : 'xml',
         'indent' : false(),
@@ -51,6 +51,7 @@
     <p:xslt>
         <p:with-input port="stylesheet" href="identity.xsl"/>
     </p:xslt>
+    <p:identity name="create-html-local" message="Create and save local schedule"/>
     <p:store href="schedule-local.html" serialization="map {
         'method' : 'xhtml',
         'html-version': 5,
