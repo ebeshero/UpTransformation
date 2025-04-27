@@ -643,32 +643,6 @@
                 </details>
             </act>
             &break;
-
-            <!-- <act time="PT20M">
-                <desc>Neglected XPath axes</desc>
-                <details>
-                    <item><code>preceding::</code>, <code>following::</code><examples>
-                            <example>Find all the stage directions (<code>&lt;stage&gt;</code>) that
-                                precede Act 2, Scene 2 in <emph>Charles the First</emph>
-                                <answer><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div[2]/tei:div[2]/preceding::tei:stage</code></answer>
-                            </example>
-                        </examples></item>
-                    <item><code>self::</code><examples>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2]</code></example>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][self::tei:stage]</code></example>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:body/tei:div/tei:div/tei:head/following-sibling::*[2][not(self::tei:stage)]</code></example>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[.
-                                    eq 'Queen.']</code></example>
-                            <example><code>doc('/db/mitford/literary/Charles1.xml')//tei:speaker[self::node()
-                                    eq 'Queen.']</code></example>
-                        </examples></item>
-                    <item><code>ancestor::</code>, <code>ancestor-or-self::</code>,
-                            <code>descendant-or-self::</code>, <code>namespace::</code><examples>
-                            <example><code>//speaker[. eq 'Queen.']/ancestor::div[@type eq
-                                    'act']/@n</code></example>
-                        </examples></item>
-                </details>
-            </act>-->
             <act time="PT20M">
                 <desc>Scavenger hunt 1</desc>
                 <details>
@@ -781,7 +755,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </examples></item>
                 </details>
             </act>
-            <act time="PT15M">
+            <act time="PT25M">
                 <desc>Introducing variables</desc>
                 <details>
                     <item>Global variables and syntax, how to return their values in eXist-db</item>
@@ -803,6 +777,9 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
+        </slot>
+        <slot time="13:30:00">
+            <title>XQuery flow control</title>
             <act time="PT10M">
                 <desc>Introducing FLWOR</desc>
                 <details>
@@ -813,9 +790,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
 
                 </details>
             </act>
-        </slot>
-        <slot time="13:30:00">
-            <title>XQuery flow control</title>
             <act time="PT20M">
                 <desc>Introducing FLWOR, continued.</desc>
                 <details>
@@ -833,7 +807,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </examples>
                     </item>
                 </details>
-
             </act>
             <act time="PT30M">
                 <desc>Scavenger hunt 2: in XQuery this time.</desc>
@@ -993,16 +966,16 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <example> Retrieving a full canonical place name: <answer><code>let
                                         $name := $siCPrs/tei:placeName[1]</code></answer>
                             </example>
-
                         </examples>
                     </item>
                 </details>
             </act>
-            <act time="PT35M">
+            <act time="PT20M">
                 <image size="icon"
                     alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                     >flower.jpg</image>
-                <desc>Putting it all together: writing FLWORs to make new files</desc>
+                <desc>Putting it all together: writing FLWORs to make new files I (HTML
+                    output)</desc>
                 <details>
                     <item>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <examples>
@@ -1015,17 +988,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 or earlier version:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</link>
                             </example>
-                        </examples>
-                    </item>
-                    <item>SVG returns: a bar graph from XQuery <examples>
-                            <example>SVG bar graph output:
-                                    <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
-                                (may require permission) or
-                                    <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
-                            <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
-                                    /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
-                                GitHub:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link></example>
                         </examples>
                     </item>
                 </details>
@@ -1607,6 +1569,26 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         <title>Taking stock</title>
         <slot time="09:00:00">
             <title>Putting it all to work</title>
+            <act time="PT35M">
+                <image size="icon"
+                    alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
+                    >flower.jpg</image>
+                <desc>Putting it all together: writing FLWORs to make new files II (SVG
+                    output)</desc>
+                <details>
+                    <item>SVG returns: a bar graph from XQuery <examples>
+                            <example>SVG bar graph output:
+                                    <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
+                                (may require permission) or
+                                    <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
+                            <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
+                                    /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
+                                GitHub:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link></example>
+                        </examples>
+                    </item>
+                </details>
+            </act>
             <act time="PT1H">
                 <desc>Hands on activity with participant data TBA</desc>
                 <details>

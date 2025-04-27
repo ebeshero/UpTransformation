@@ -66,13 +66,13 @@
         <sch:rule context="slot[1]/act[desc eq 'Break']">
             <sch:let name="duration_before_break"
                 value="sum(preceding-sibling::act/@time ! xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration_before_break eq xs:dayTimeDuration('PT1H15M')">Morning break falls after <sch:value-of select="$duration_before_break"/>; must fall after PT1H15M</sch:assert>
+            <sch:assert test="$duration_before_break eq xs:dayTimeDuration('PT1H15M')">Morning break falls after <sch:value-of select="$duration_before_break => dhsi:format-duration()"/> minutes; must fall after 75 minutes</sch:assert>
             <sch:assert test="@time eq 'PT15M'">Morning break duration of <sch:value-of select="@time"/> is incorrect; break duration must be PT15M</sch:assert>
         </sch:rule>
         <sch:rule context="slot[2]/act[desc eq 'Break']">
             <sch:let name="duration_before_break"
                 value="sum(preceding-sibling::act/@time ! xs:dayTimeDuration(.))"/>
-            <sch:assert test="$duration_before_break eq xs:dayTimeDuration('PT1H30M')">Afternoon break falls after <sch:value-of select="$duration_before_break"/>; must fall after PT1H30M</sch:assert>
+            <sch:assert test="$duration_before_break eq xs:dayTimeDuration('PT1H30M')">Afternoon break falls after <sch:value-of select="$duration_before_break => dhsi:format-duration()"/> minutes; must fall after 90 minutes</sch:assert>
             <sch:assert test="@time eq 'PT15M'">Afternoon break duration of <sch:value-of select="@time"/> is incorrect; break duration must be PT15M</sch:assert>
         </sch:rule>
     </sch:pattern>

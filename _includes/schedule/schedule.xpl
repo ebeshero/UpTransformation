@@ -4,6 +4,14 @@
     xmlns:cx="http://xmlcalabash.com/ns/extensions" xmlns:c="http://www.w3.org/ns/xproc-step"
     xmlns:html="http://www.w3.org/1999/xhtml" version="3.0">
     <!-- ================================================================ -->
+    <!-- Turn Schematron validation off or on                             -->
+    <!-- When all times are correct, use:                                 -->
+    <!--   valid="?true()" (XML Calabash)                                 -->
+    <!--   -static:valid="true" (MorganaXProc-IIIse)                      -->
+    <!-- Keep off with unbalanced times                                   -->
+    <!-- ================================================================ -->
+    <p:option name="valid" as="xs:boolean" static="true" select="false()"/>
+    <!-- ================================================================ -->
     <!-- Read schedule.xml                                                -->
     <!-- No primary output                                                -->
     <!-- ================================================================ -->
@@ -12,14 +20,19 @@
         <p:empty/>
     </p:output>
     <!-- ================================================================ -->
-    <!-- Ensure validity                                                  -->
+    <!-- Ensure validity with Relax NG                                    -->
     <!-- ================================================================ -->
     <p:validate-with-relax-ng message="Validate with Relax NG">
         <p:with-input port="schema">
             <p:document href="schedule.rnc" content-type="text/plain"/>
         </p:with-input>
     </p:validate-with-relax-ng>
-    <p:validate-with-schematron message="Validate with Schematron">
+    <!-- ================================================================ -->
+    <!-- Ensure validity with Schematron                                  -->
+    <!-- Enable by setting static parameter $valid to true()              -->
+    <!--   (off by default)                                               -->
+    <!-- ================================================================ -->
+    <p:validate-with-schematron use-when="$valid" message="Validate with Schematron">
         <p:with-input port="schema">
             <p:document href="schedule.sch"/>
         </p:with-input>
