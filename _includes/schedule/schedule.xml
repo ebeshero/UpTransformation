@@ -354,6 +354,7 @@
                         </examples></item>
                 </details>
             </act>
+            &break;
             <act time="PT15M">
                 <desc>XPath functions for numbers and for sequences of numbers</desc>
                 <details>
@@ -396,7 +397,6 @@
                                 <answer><code>max(//speaker/string-length())</code></answer></item>
                 </details>
             </act>
-            &break;
             <act time="PT15M">
                 <desc>XPath functions for sequences</desc>
                 <details>
@@ -886,6 +886,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
+            &break;
             <act time="PT25M">
                 <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 1</desc>
                 <details>
@@ -915,7 +916,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            &break;
             <act time="PT25M">
                 <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
@@ -1196,6 +1196,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</link></item>
                 </details>
             </act>
+            &break;
             <act time="PT15M">
                 <desc>Push and pull</desc>
                 <details>
@@ -1204,7 +1205,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
                 </details>
             </act>
-            &break;
             <act time="PT60M">
                 <desc>XSLT activity: Making a linked table of contents</desc>
                 <details>
@@ -1505,6 +1505,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/letter_schematron_ancillary.xml</link></item>
                 </details>
             </act>
+            &break;
             <act time="PT20M">
                 <desc>Exploring Digital Mitford</desc>
                 <details>
@@ -1519,7 +1520,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </examples></item>
                 </details>
             </act>
-            &break;
             <act time="PT25M">
                 <desc>Hamilton 1823-04-09 letter</desc>
                 <details>
