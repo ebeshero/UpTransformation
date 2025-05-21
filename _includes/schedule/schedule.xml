@@ -886,7 +886,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
-            &break;
             <act time="PT25M">
                 <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 1</desc>
                 <details>
@@ -916,6 +915,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </item>
                 </details>
             </act>
+            &break;
             <act time="PT25M">
                 <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 2</desc>
                 <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
@@ -963,41 +963,47 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <item>Text returns: combining strings into one result: <code>concat()</code> and
                             <code>string-join()</code>
                         <examples>
-                            <example> Retrieving a full canonical place name: <answer><code>let
-                                        $name := $siCPrs/tei:placeName[1]</code></answer>
+                            <example>Retrieving a full canonical place name: <answer>
+                                    <code>let $name := $siCPrs/tei:placeName[1]</code></answer>
                             </example>
                         </examples>
                     </item>
                 </details>
             </act>
+           
+        </slot>
+    </day>
+    <day d="Wednesday, May 28">
+        <title>XPath and XSLT</title>
+        <slot time="09:00:00">
+            <title>XQuery to HTML</title>
             <act time="PT20M">
                 <image size="icon"
                     alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                     >flower.jpg</image>
-                <desc>Putting it all together: writing FLWORs to make new files I (HTML
+                <desc>Putting it all together: writing FLWORs to make new files (HTML
                     output)</desc>
                 <details>
                     <item>HTML returns: how to use curly braces to layer and activate XQuery in an
                         HTML file. <examples>
                             <example>HTML table output:
-                                    <link>https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</link>
+                                <link>https://ebeshero.github.io/UpTransformation/Chas1_FrenchPlaces.html</link>
                             </example>
                             <example>XQuery to make the HTML, as created in the June 2024 edition of
                                 this course:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas1-SI-HTMLTable-2024.xquery</link>,
+                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas1-SI-HTMLTable-2024.xquery</link>,
                                 or earlier version:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</link>
+                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-SI-HTMLTable.xql</link>
                             </example>
                         </examples>
                     </item>
                 </details>
             </act>
         </slot>
-    </day>
-    <day d="Wednesday, May 28">
-        <title>XPath and XSLT</title>
-        <slot time="09:00:00">
+    
+        <slot time="09:20:00">
             <title>Introduction to XPath in XSLT</title>
+           
             <act time="PT20M">
                 <desc>Preparation for writing XSLT in &lt;oXygen&gt;</desc>
                 <details>
@@ -1159,14 +1165,14 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
 
                 </details>
             </act>
-            <act time="PT15M">
+           <!-- <act time="PT15M">
                 <desc>Comparing XSLT and XQuery</desc>
                 <details>
                     <item>Invoking namespaces</item>
                     <item>Sequential processing</item>
                     <item>Pull vs. push processing</item>
                 </details>
-            </act>
+            </act>-->
             <act time="PT25M">
                 <desc>Preparing XSLT to output HTML from TEI XML</desc>
                 <details>
