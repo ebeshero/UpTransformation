@@ -26,7 +26,8 @@ thursday =
 friday =
   element day {
     attribute d { "Friday, May 30" },
-    day
+    title,
+    morning
   }
 title = element title { text }
 desc =
