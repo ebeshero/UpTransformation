@@ -1,38 +1,38 @@
 start = schedule
-
 schedule = element schedule { monday, tuesday, wednesday, thursday, friday }
-day = title, slot+
+day = title, morning, afternoon
+morning = element morning { slot+ }
+afternoon = element afternoon { slot+ }
 monday =
-    element day {
-        attribute d { "Monday, May 26" },
-        day
-    }
+  element day {
+    attribute d { "Monday, May 26" },
+    day
+  }
 tuesday =
-    element day {
-        attribute d { "Tuesday, May 27" },
-        day
-    }
+  element day {
+    attribute d { "Tuesday, May 27" },
+    day
+  }
 wednesday =
-    element day {
-        attribute d { "Wednesday, May 28" },
-        day
-    }
+  element day {
+    attribute d { "Wednesday, May 28" },
+    day
+  }
 thursday =
-    element day {
-        attribute d { "Thursday, May 29" },
-        day
-    }
+  element day {
+    attribute d { "Thursday, May 29" },
+    day
+  }
 friday =
-    element day {
-        attribute d { "Friday, May 30" },
-        day
-    }
-
+  element day {
+    attribute d { "Friday, May 30" },
+    day
+  }
 title = element title { text }
 desc =
-    element desc {
-        mixed { (code | q)* }
-    }
+  element desc {
+    mixed { (code | q)* }
+  }
 code = element code { url?, text }
 url = attribute url { xsd:anyURI }
 slot = element slot { clocktime, title, desc?, activity+ }
@@ -44,31 +44,31 @@ activity = element act { image?, durtime, desc, details? }
 durtime = attribute time { xsd:duration }
 details = element details { item+ }
 item =
-    element item {
-        mixed { (link | q | code | emph | image | answer)* },
-        examples?
-    }
+  element item {
+    mixed { (link | q | code | emph | image | answer)* },
+    examples?
+  }
 image = element image { alt, size, text }
 alt = attribute alt { text }
 # describes the image
 size = attribute size { "icon" | "larger" }
 link =
-    element link {
-        xsd:string { pattern = "\S+" }
-    }
+  element link {
+    xsd:string { pattern = "\S+" }
+  }
 q =
-    element q {
-        mixed { code* }
-    }
+  element q {
+    mixed { code* }
+  }
 examples = element examples { example+ }
 example =
-    element example {
-        mixed { (answer | examples | link | q | code | emph | image)* }
-    }
+  element example {
+    mixed { (answer | examples | link | q | code | emph | image)* }
+  }
 emph = element emph { url?, text }
 answer =
-    element answer {
-        type?,
-        mixed { (code | emph | link | q)* }
-    }
+  element answer {
+    type?,
+    mixed { (code | emph | link | q)* }
+  }
 type = attribute type { "inline" | "block" }
