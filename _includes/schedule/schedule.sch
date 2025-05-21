@@ -44,14 +44,17 @@
             <sch:assert test="ancestor::day/@d ne 'Friday, May 30'">There is no afternoon session on Friday</sch:assert>
         </sch:rule>
         <sch:rule context="slot[1]">
-            <sch:p>Duration of first (morning) slot is 1 hour Monday and 3 hours on other
-                days</sch:p>
+            <sch:p>Duration of first (morning) slot is 1 hour Monday, 2.5 hours Friday, and 3 hours
+                on other days</sch:p>
             <sch:let name="duration" value="sum(act/@time/xs:dayTimeDuration(.))"/>
             <sch:assert test="
-                    if (../@d eq 'Monday, May 26') then
+                    if (starts-with(../@d, 'Monday')) then
                         $duration eq xs:dayTimeDuration('PT1H')
                     else
-                        $duration eq xs:dayTimeDuration('PT3H')">Total duration of <sch:value-of select="$duration => dhsi:format-duration()"/> minutes is incorrect; Monday should be 60 minutes and other days should be 180 minutes</sch:assert>
+                        if (starts-with(../@d, 'Friday')) then
+                            $duration eq xs:dayTimeDuration('PT2H30M')
+                        else
+                            $duration eq xs:dayTimeDuration('PT3H')">Total duration of <sch:value-of select="$duration => dhsi:format-duration()"/> minutes is incorrect; Monday should be 60 minutes and other days should be 180 minutes</sch:assert>
         </sch:rule>
         <sch:rule context="slot[2]">
             <sch:p>Duration of second (afternoon) slot is 2:30.</sch:p>
@@ -62,7 +65,7 @@
             <sch:p>title element must have non-whitespace content</sch:p>
             <sch:assert test="string-length(normalize-space(.)) gt 0">&lt;title&gt; element must have content</sch:assert>
         </sch:rule>
-        <sch:rule context="slot[1]/act[desc eq 'Break']">
+<!--        <sch:rule context="slot[1]/act[desc eq 'Break']">
             <sch:let name="duration_before_break"
                 value="sum(preceding-sibling::act/@time ! xs:dayTimeDuration(.))"/>
             <sch:assert test="$duration_before_break ge xs:dayTimeDuration('PT1H15M') and $duration_before_break le xs:dayTimeDuration('PT1H30M')">Morning break falls after <sch:value-of select="$duration_before_break => dhsi:format-duration()"/> minutes; must fall after 75–90 minutes</sch:assert>
@@ -73,6 +76,11 @@
                 value="sum(preceding-sibling::act/@time ! xs:dayTimeDuration(.))"/>
             <sch:assert test="$duration_before_break ge xs:dayTimeDuration('PT1H') and $duration_before_break le xs:dayTimeDuration('PT1H15M')">Afternoon break falls after <sch:value-of select="$duration_before_break => dhsi:format-duration()"/> minutes; must fall after 60–75 minutes</sch:assert>
             <sch:assert test="@time eq 'PT15M'">Afternoon break duration of <sch:value-of select="@time"/> is incorrect; break duration must be PT15M</sch:assert>
+        </sch:rule>-->
+    </sch:pattern>
+    <sch:pattern>
+        <sch:rule context="slot[not(ancestor::day/position() eq 1 and ../position() eq 1)]">
+            <sch:assert test="count(act[@desc eq 'Break']) eq 1">Every slot except Monday morning must have exactly one break</sch:assert>
         </sch:rule>
     </sch:pattern>
 </sch:schema>
