@@ -862,7 +862,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                             variable $si as document-node() :=
                                             doc('https://digitalmitford.org/si.xml');</code> The new
                                         global variable must be added before the first
-                                            <code>let</code> statement.</answer>
+                                            <code>let</code> statement.</answer>S
                                 </example>
                                 <example>Write a variable (either global or in <code>let</code>
                                     form) that locates all of the <code>&lt;place&gt;</code>
@@ -894,6 +894,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
+                &break;
                 <act time="PT20M">
                     <desc>XPath <code>for</code> expressions; sequence and range variables
                         (&lt;oXygen/&gt;)</desc>
@@ -928,7 +929,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                &break;
+                
                 <act time="PT30M">
                     <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 1</desc>
                     <details>
