@@ -640,6 +640,7 @@
                             </examples></item>
                     </details>
                 </act>
+                &break;
                 <act time="PT20M">
                     <desc>The seven types of nodes</desc>
                     <details>
@@ -672,7 +673,6 @@
                         <item>Deprecated: namespace (<code>namespace-uri()</code>)</item>
                     </details>
                 </act>
-                &break;
                 <act time="PT20M">
                     <desc>Scavenger hunt 1</desc>
                     <details>
@@ -848,7 +848,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <act time="PT30M">
                     <desc>Scavenger hunt 2: in XQuery this time.</desc>
                     <details>
-                        <item> Work in eXist-db in the same file we started before the break and
+                        <item>Work in eXist-db in the same file we started before the break and
                             delete only the <code>return</code> line. Let’s keep adding to it. Use
                             variables and FLWOR statements to define and retrieve the following: <examples>
                                 <example> Define a global variable pointing to the Digital Mitford
@@ -1019,7 +1019,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         </afternoon>
     </day>
     <day d="Wednesday, May 28">
-        <title>XQuery and XSLT</title>
+        <title>XPath and XSLT</title>
         <morning>
             <slot time="09:00:00">
                 <title>XQuery to HTML</title>
@@ -1235,11 +1235,10 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <desc>Preparing XSLT to Output HTML</desc>
                     <details>
                         <item>Using default XSLT processing. (This is not an identity transformation! Remove <code>&lt;xsl:mode/&gt;</code> for shallow-copying nodes.)</item>
-                        <item>
-                            <code>&lt;xsl:stylesheet&gt;</code> and
+                        <item><code>&lt;xsl:stylesheet&gt;</code> and
                             <code>&lt;xsl:output&gt;</code></item>
                         <item>Template matching on the document node to output HTML</item>
-                        <item> Structure of an HTML document: <code>&lt;head&gt;</code> and
+                        <item>Structure of an HTML document: <code>&lt;head&gt;</code> and
                             <code>&lt;body&gt;</code></item>
                         <item>Complete basic <q>Ozymandias</q> transformation:<examples>
                                 <example>Input:
@@ -1262,10 +1261,10 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </details>
                 </act>
            
-                <act time="PT75M">
+                <act time="PT40M">
                     <desc>XSLT Activity: TEI XML to HTML transformation</desc>
                     <details>
-                        <item><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to HTML: (<q>It's always a namespace issue!</q>)</item>
+                        <item><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to HTML: (<q>It’s always a namespace issue!</q>)</item>
                         <item>Open the url of the Emily Dickinson Fascicle 16 file:
                                 <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</link>,
                             and study the document.</item>
@@ -1276,7 +1275,15 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </details>
                 </act>
                 &break;
-                <act time="PT30M">
+                <act time="PT35M">
+                    <desc>XSLT Activity: TEI XML to HTML transformation (continued)</desc>
+                   <details>
+                       <item>Writing and refining template rules.</item>
+                       <item>Numbering lines</item>
+                       <item>CSS for styling</item>
+                   </details>
+                </act>
+                <act time="PT35M">
                     <desc>XSLT activity: Making a linked table of contents</desc>
                     <details>
                         <!-- <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
@@ -1289,25 +1296,22 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 <example><link>https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html</link></example>
                             </examples>
                         </item>
-                        <item>How internal links work</item>
-                    </details>
-                </act>
-                <act time="PT30M">
-                    <desc>XSLT activity continued</desc>
-                    <details>
-                        <item>Modal XSLT: Processing the same nodes in multipe ways <examples>
-
+                        <item>How internal links work in HTML</item>
+                        <item>Attribute Value Templates</item>
+                        <item>Modal XSLT: Processing the same nodes in multiple ways
+                            <examples>
+                                
                                 <example>Starter file for Modal XSLT to create the table of contents
-                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</link>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</link>
                                 </example>
                                 <example>One possibility for modal XSLT with a table of contents
                                     (example from DHSI 2024)
-                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</link></example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</link></example>
                             </examples>
                         </item>
-
                     </details>
                 </act>
+                
             </slot>
         </afternoon>
     </day>
@@ -1315,6 +1319,16 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         <title>XPath and Schematron</title>
         <morning>
             <slot time="09:00:00">
+                <title>Concluding XSLT</title>
+           <act time="PT30M">
+                  
+                <desc>XSLT activity: Making a linked table of contents (continued)</desc>
+                <details>
+                    <item>Modal XSLT: Processing the same nodes in multiple ways </item>
+                </details>
+            </act>
+            </slot>
+            <slot time="09:30:00">
                 <title>Using Schematron to constrain your markup</title>
                 <act time="PT15M">
                     <desc>Schematron overview</desc>
@@ -1381,7 +1395,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                 <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/pages_warnings.sch</link></item>
                     </details>
                 </act>
-                <act time="PT20M">
+                <act time="PT15M">
                     <desc>XPath functions practice: Leipzig glossing rules, part 1</desc>
                     <details>
                         <item>Document analysis:
@@ -1413,7 +1427,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </details>
                 </act>
                 &break;
-                <act time="PT40M">
+                <act time="PT35M">
                     <desc>XPath functions practice: Leipzig glossing rules, part 2</desc>
                     <details>
                         <item>Comparing three things <examples>
@@ -1480,7 +1494,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
                     </details>
                 </act>
-                <act time="PT20M">
+          <!--      <act time="PT20M">
                     <desc>One more way of counting spaces and hyphens</desc>
                     <details>
 
@@ -1512,7 +1526,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         count()</code></example>
                             </examples></item>
                     </details>
-                </act>
+                </act>-->
             </slot>
         </morning>
         <afternoon>
@@ -1600,7 +1614,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     </details>
                 </act>
                 &break;
-                <act time="PT20M">
+                <act time="PT25M">
                     <desc>Exploring Digital Mitford</desc>
                     <details>
                         <item>Project site: <link>https://digitalmitford.org</link></item>
@@ -1614,7 +1628,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </examples></item>
                     </details>
                 </act>
-                <act time="PT25M">
+                <act time="PT30M">
                     <desc>Hamilton 1823-04-09 letter</desc>
                     <details>
                         <item>Letter <examples>
@@ -1634,17 +1648,26 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </examples></item>
                     </details>
                 </act>
-                <act time="PT35M">
+               
+            </slot>
+        </afternoon>
+    </day>
+    <day d="Friday, May 30">
+        <title>Taking stock</title>
+        <morning>
+            <slot time="09:00:00">
+                <title>Schematron Exercise</title>
+                <act time="PT40M">
                     <desc>Webb 1819-05-16 letter</desc>
                     <details>
                         <item>Letter <examples>
                                 <example>XML:
-                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
                                 <example>Read on line:
-                                        <link>https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
-                            </examples></item>
+                                    <link>https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
+                        </examples></item>
                         <item>Schematron starter:
-                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
+                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
                         <item>New items for the site index are in the <code>&lt;back&gt;</code>
                             <examples>
                                 <example>Some <code>@ref</code> values in the back have also already
@@ -1657,15 +1680,10 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </examples></item>
                     </details>
                 </act>
-            </slot>
-        </afternoon>
-    </day>
-    <day d="Friday, May 30">
-        <title>Taking stock</title>
-        <morning>
-            <slot time="09:00:00">
-                <title>Putting it all to work</title>
                 &break;
+            </slot>
+            <slot time="09:40:00">
+                <title>Putting it all to work</title>
                 <act time="PT1H">
                     <desc>Hands on activity with participant data TBA</desc>
                     <details>
