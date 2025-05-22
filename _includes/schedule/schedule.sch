@@ -65,6 +65,9 @@
             <sch:p>title element must have non-whitespace content</sch:p>
             <sch:assert test="string-length(normalize-space(.)) gt 0">&lt;title&gt; element must have content</sch:assert>
         </sch:rule>
+        <sch:rule context="item/node()[1][self::text()]">
+            <sch:report test="matches(., '^\s')">A text node at the beginning of an <![CDATA[<item>]]> must not start with whitespace.</sch:report>
+        </sch:rule>
         <!--        <sch:rule context="slot[1]/act[desc eq 'Break']">
             <sch:let name="duration_before_break"
                 value="sum(preceding-sibling::act/@time ! xs:dayTimeDuration(.))"/>
