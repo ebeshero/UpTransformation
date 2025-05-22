@@ -894,7 +894,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                <act time="PT15M">
+                <act time="PT20M">
                     <desc>XPath <code>for</code> expressions; sequence and range variables
                         (&lt;oXygen/&gt;)</desc>
                     <details>
@@ -928,7 +928,8 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                <act time="PT25M">
+                &break;
+                <act time="PT30M">
                     <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 1</desc>
                     <details>
                         <item><code>for</code> in XQuery and iterative returns: <code>for $i in
@@ -958,7 +959,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                &break;
                 <act time="PT25M">
                     <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 2</desc>
                     <!--ebb: Next: work with Charles I and places, and get the most popularly mentioned places, and retrieve their information from the SI. -->
