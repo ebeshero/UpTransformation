@@ -1019,15 +1019,15 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         </afternoon>
     </day>
     <day d="Wednesday, May 28">
-        <title>XPath and XSLT</title>
+        <title>XQuery and XSLT</title>
         <morning>
             <slot time="09:00:00">
                 <title>XQuery to HTML</title>
-                <act time="PT20M">
+                <act time="PT35M">
                     <image size="icon"
                         alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
                         >flower.jpg</image>
-                    <desc>Putting it all together: writing FLWORs to make new files (HTML
+                    <desc>Putting it all together, Part I: Writing FLWORs to make new files (HTML
                         output)</desc>
                     <details>
                         <item>HTML returns: how to use curly braces to layer and activate XQuery in
@@ -1045,11 +1045,26 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
+                <act time="PT20M">
+                    <desc>Putting it all together, Part II: Writing FLWORs to make new files (SVG
+                        output)</desc>
+                    <details>
+                        <item>SVG returns: a bar graph from XQuery <examples>
+                                <example>SVG bar graph output:
+                                        <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
+                                    (may require permission) or
+                                        <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
+                                <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
+                                        /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
+                                    GitHub:
+                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link></example>
+                            </examples>
+                        </item>
+                    </details>
+                </act>
             </slot>
-
-            <slot time="09:20:00">
+            <slot time="09:55:00">
                 <title>Introduction to XPath in XSLT</title>
-
                 <act time="PT20M">
                     <desc>Preparation for writing XSLT in &lt;oXygen&gt;</desc>
                     <details>
@@ -1064,7 +1079,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                <act time="PT5M">
+                <act time="PT10M">
                     <desc>XSLT overview in &lt;oXygen/&gt;</desc>
                     <details>
                         <item>XSLT (eXtensible Stylesheet Language Transformations) is a
@@ -1080,6 +1095,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             processing.</item>
                     </details>
                 </act>
+                &break;
                 <act time="PT10M">
                     <desc>Housekeeping: up to three namespaces</desc>
                     <details>
@@ -1100,7 +1116,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             namespace)</item>
                     </details>
                 </act>
-                <act time="PT10M">
+                <act time="PT5M">
                     <desc>Housekeeping: <code>&lt;xsl:output&gt;</code></desc>
                     <details>
                         <item>Configure the <code>@method</code>, <code>@html-version</code>,
@@ -1114,7 +1130,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                <act time="PT30M">
+                <act time="PT20M">
                     <desc>XSLT and templates, part 1</desc>
                     <details>
                         <item>Templates match patterns: <code>&lt;xsl:template
@@ -1166,28 +1182,11 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         match="body/div"&gt;&lt;xsl:apply-templates
                                         select="div[1]"/&gt;&lt;/xsl:template&gt;</code></example>
                             </examples></item>
-                        <item>Complete basic <q>Ozymandias</q> transformation:<examples>
-                                <example>Input:
-                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link>)</example>
-                                <example>Required HTML elements: <code>&lt;html&gt;</code>,
-                                        <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
-                                        <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
-                                        <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
-                                        <code>&lt;cite&gt;</code> (for publication venue),
-                                        <code>&lt;div&gt;</code> (for poem),
-                                        <code>&lt;br/&gt;</code> (NB: empty element, after all lines
-                                    except the last)</example>
-                            </examples><!--: <examples>
-                            <example>XSLT:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example>
-                            <example>Output HTML:
-                                    <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
-                        </examples>-->
-                        </item>
+
                     </details>
                 </act>
-                &break;
-                <act time="PT50M">
+
+                <act time="PT45M">
                     <desc>Identity transformation for making changes to an XML file</desc>
                     <details>
                         <item>Why perform an identity transformation?</item>
@@ -1217,6 +1216,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
 
                     </details>
                 </act>
+              
                 <!-- <act time="PT15M">
                 <desc>Comparing XSLT and XQuery</desc>
                 <details>
@@ -1232,50 +1232,71 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
             <slot time="13:30:00">
                 <title>XSLT to HTML</title>
                 <act time="PT25M">
-                    <desc>Preparing XSLT to output HTML from TEI XML</desc>
+                    <desc>Preparing XSLT to Output HTML</desc>
                     <details>
-                        <item>The output we want:
-                                <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
-                        <item>Open this file URL in &lt;oXygen&gt;:
-                                <code>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</code>
-                        </item>
+                        <item>Using default XSLT processing. (This is not an identity transformation! Remove <code>&lt;xsl:mode/&gt;</code> for shallow-copying nodes.)</item>
                         <item>
                             <code>&lt;xsl:stylesheet&gt;</code> and
                             <code>&lt;xsl:output&gt;</code></item>
                         <item>Template matching on the document node to output HTML</item>
                         <item> Structure of an HTML document: <code>&lt;head&gt;</code> and
-                                <code>&lt;body&gt;</code></item>
+                            <code>&lt;body&gt;</code></item>
+                        <item>Complete basic <q>Ozymandias</q> transformation:<examples>
+                                <example>Input:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link>)</example>
+                                
+                                <example>Required HTML elements: <code>&lt;html&gt;</code>,
+                                    <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                                    <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
+                                    <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
+                                    <code>&lt;cite&gt;</code> (for publication venue),
+                                    <code>&lt;div&gt;</code> (for poem),
+                                    <code>&lt;br/&gt;</code> (NB: empty element, after all lines
+                                    except the last)</example>
+                                <example>The output we want: <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
+                                <!-- <example>XSLT:
+                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example> -->
+                        </examples>
+                            
+                        </item>
                     </details>
                 </act>
-                <title>XSLT Activity</title>
+           
                 <act time="PT75M">
-                    <desc>TEI XML to HTML transformation</desc>
+                    <desc>XSLT Activity: TEI XML to HTML transformation</desc>
                     <details>
+                        <item><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to HTML: (<q>It's always a namespace issue!</q>)</item>
                         <item>Open the url of the Emily Dickinson Fascicle 16 file:
                                 <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</link>,
                             and study the document.</item>
                         <item>Open this starter XSLT file url in &lt;oXygen/&gt;:
                                 <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</link></item>
+                        <item>The output we want:
+                            <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
                     </details>
                 </act>
                 &break;
-                <act time="PT15M">
-                    <desc>Push and pull</desc>
-                    <details>
-                        <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
-                        <item>Pruning the tree: when to use the <code>@select</code>
-                            attribute</item>
-                        <item>When to use <code>&lt;xsl:value-of&gt;</code></item>
-                    </details>
-                </act>
-                <act time="PT60M">
+                <act time="PT30M">
                     <desc>XSLT activity: Making a linked table of contents</desc>
                     <details>
-                        <item>Continue working with the XSLT we are writing on the Emily Dickinson
-                            file.</item>
+                        <!-- <item>Push processing: <code>&lt;xsl:apply-templates&gt;</code></item>
+                        <item>Pruning the tree: when to use the <code>@select</code>
+                            attribute</item>
+                        <item>When to use <code>&lt;xsl:value-of&gt;</code></item>-->
+                        <!--<item>Continue working with the XSLT we are writing on the Emily Dickinson
+                            file.</item>-->
+                        <item>The output we want <examples>
+                                <example><link>https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html</link></example>
+                            </examples>
+                        </item>
+                        <item>How internal links work</item>
+                    </details>
+                </act>
+                <act time="PT30M">
+                    <desc>XSLT activity continued</desc>
+                    <details>
                         <item>Modal XSLT: Processing the same nodes in multipe ways <examples>
-                                <example>The output we want:
-                                        <link>https://ebeshero.github.io/UpTransformation/dickinson16-with-toc.html</link></example>
+
                                 <example>Starter file for Modal XSLT to create the table of contents
                                         <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</link>
                                 </example>
@@ -1284,7 +1305,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                         <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</link></example>
                             </examples>
                         </item>
-                        <item>How internal links work</item>
+
                     </details>
                 </act>
             </slot>
@@ -1644,26 +1665,6 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         <morning>
             <slot time="09:00:00">
                 <title>Putting it all to work</title>
-                <act time="PT35M">
-                    <image size="icon"
-                        alt="'To create a little flower is the labour of ages.' –William Blake, The Proverbs of Hell"
-                        >flower.jpg</image>
-                    <desc>Putting it all together: writing FLWORs to make new files II (SVG
-                        output)</desc>
-                    <details>
-                        <item>SVG returns: a bar graph from XQuery <examples>
-                                <example>SVG bar graph output:
-                                        <link>http://newtfire.org:8338/exist/rest/db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link>
-                                    (may require permission) or
-                                        <link>https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</link></example>
-                                <example>XQuery to make the SVG, in the newtfire eXist-db: <code>
-                                        /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
-                                    GitHub:
-                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</link></example>
-                            </examples>
-                        </item>
-                    </details>
-                </act>
                 &break;
                 <act time="PT1H">
                     <desc>Hands on activity with participant data TBA</desc>
