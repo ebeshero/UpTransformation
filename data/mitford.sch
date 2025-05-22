@@ -14,7 +14,8 @@
         Write (and test) the following  rules:
         
         * The named entity types above should point to the correct lists in si.xml
-        * If any of the seven types above lacks @ref, raise an error        
+        * If any of the seven types above lacks @ref, raise an error about this.
+              
     -->
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     <sch:let name="si"
@@ -25,12 +26,13 @@
                 &lt;person&gt; element in the site index</sch:assert>
         </sch:rule>
     </sch:pattern>
-    <!-- 2024-06-14 ebb: Added this rule during DHSI 2024 to look for any outlier persName variants in coded files that aren't represented in the site index entry. -->
+    
+    <!-- EXTRA 2024-06-14 ebb: Added this rule during DHSI 2024 to look for any outlier persName variants in coded files that aren't represented in the site index entry. -->
     <sch:pattern>
         <sch:rule context="tei:persName" role="info">
             <sch:assert test="normalize-space() ! tokenize(., ' ') = $si//*[@xml:id = current()/@ref/substring(., 2)]/tei:persName ! normalize-space() ! tokenize(., ' ')">
                 The contents of this <sch:value-of select="name()"/> element aren't fully 
-                represented as a name for this entity in the site index.  </sch:assert>
+                represented as a name for this entity in the site index.</sch:assert>
         </sch:rule>
     </sch:pattern>
 </sch:schema>

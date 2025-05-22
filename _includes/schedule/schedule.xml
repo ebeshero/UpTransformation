@@ -1657,8 +1657,8 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         <morning>
             <slot time="09:00:00">
                 <title>Schematron Exercise</title>
-                <act time="PT40M">
-                    <desc>Webb 1819-05-16 letter</desc>
+                <act time="PT60M">
+                    <desc>Webb 1819-05-16 letter (or participant project data)</desc>
                     <details>
                         <item>Letter <examples>
                                 <example>XML:
@@ -1682,10 +1682,10 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 </act>
                 &break;
             </slot>
-            <slot time="09:40:00">
+            <slot time="10:15:00">
                 <title>Putting it all to work</title>
                 <act time="PT1H">
-                    <desc>Hands on activity with participant data TBA</desc>
+                    <desc>Hands on activity with participant data: TBA</desc>
                     <details>
                         <item>Watch this space!</item>
                     </details>
