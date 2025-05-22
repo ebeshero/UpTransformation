@@ -43,6 +43,15 @@
                         0">There is no afternoon session on Friday</sch:assert>
             <sch:assert test="ancestor::day/@d ne 'Friday, May 30'">There is no afternoon session on Friday</sch:assert>
         </sch:rule>
+        <sch:rule context="slot[position() gt 1]/@time">
+            <sch:let name="preceding-duration"
+                value="sum(../preceding-sibling::slot/act/@time ! xs:dayTimeDuration(.))"/>
+            <sch:let name="computed-start-time"
+                value="../preceding-sibling::slot[last()]/xs:time(@time) + $preceding-duration"/>
+            <sch:let name="recorded-start-time" value="xs:time(../@time)"/>
+            <sch:assert test="$computed-start-time eq $recorded-start-time">Reported start time (<sch:value-of select="$recorded-start-time"/> does not match
+            computed start time (<sch:value-of select="$computed-start-time"/>)</sch:assert>
+        </sch:rule>
         <sch:rule context="morning">
             <sch:p>Τοταl duration of all morning slots is 1 hour Monday, 2.5 hours Friday, and 3
                 hours on other days</sch:p>
