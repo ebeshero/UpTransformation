@@ -30,16 +30,22 @@
                         <li>Learning XPath (and other languages, including XSLT, XQuery,
                            Schematron) means learning the …
                            <ol>
-                              <li>Vocabulary (e.g., the division operator in XPath is <code>div</code><a href="https://www.w3.org/TR/xpath-31/#id-arithmetic"><sup>⬀</sup></a>, not <code>/</code>: <code>6 div 2</code>
-                                 evaluates to <code>3</code>, but <code>6 / 2</code> raises an
+                              <li>Vocabulary (e.g., the division operator in XPath is
+                                 <code>div</code><a href="https://www.w3.org/TR/xpath-31/#id-arithmetic"><sup>⬀</sup></a>,
+                                 not <code>/</code>: <code>6 div 2</code> evaluates to
+                                 <code>3</code>, but <code>6 / 2</code> raises an
                                  error)</li>
                               <li>Syntax (e.g., in XPath <em>conditional
-                                    expressions</em>, the <code>if</code><a href="https://www.w3.org/TR/xpath-31/#doc-xpath31-IfExpr"><sup>⬀</sup></a> test must be parenthesized and an
-                                 <code>else</code> is required: <code>if (condition) then 1
-                                    else ()</code>)</li>
-                              <li>Function library (e.g., <code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a> and <code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> are functions, but there is no
-                                 <code>length()</code> or <code>len()</code> or
-                                 <code>size()</code>)</li>
+                                    expressions</em>, the
+                                 <code>if</code><a href="https://www.w3.org/TR/xpath-31/#doc-xpath31-IfExpr"><sup>⬀</sup></a>
+                                 test must be parenthesized and an <code>else</code> is required:
+                                 <code>if (condition) then 1 else ()</code>)</li>
+                              <li>Function library (e.g.,
+                                 <code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a>
+                                 and
+                                 <code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a>
+                                 are functions, but there is no <code>length()</code> or
+                                 <code>len()</code> or <code>size()</code>)</li>
                            </ol>
                         </li>
                         <li>All XPath expressions return a <em>sequence</em>. Sequences may
@@ -62,9 +68,9 @@
                                  separated by commas. Try wrapping them in parentheses. Try
                                  wrapping them in multiple parentheses. Try removing the commas.
                                  This is a multi-item sequence.</li>
-                              <li>Try to type a nested sequence, e.g., <code>(1, 2, (3,
-                                    4))</code>, and hit Eval. What result do you expect? What do
-                                 you get?</li>
+                              <li>Try to type a nested sequence, e.g.,
+                                 <code>(1, 2, (3, 4))</code>, and hit Eval. What result do you
+                                 expect? What do you get?</li>
                            </ol>
                         </li>
                      </ol>
@@ -97,40 +103,38 @@
                         </li>
                         <li>XPath library functions (with arguments) are XPath expressions
                            <ol>
-                              <li><code>upper-case('dhsi')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a> (How many arguments, and of what
-                                 type?)</li>
-                              <li><code>concat('Curly', 'Larry', 'Moe')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a> (How many arguments,
-                                 and of what type?)</li>
-                              <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a> (Why two sets of
-                                 parentheses? Hint: How many arguments, and of what
-                                 type?)</li>
+                              <li><code>upper-case('dhsi')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a>
+                                 (How many arguments, and of what type?)</li>
+                              <li><code>concat('Curly', 'Larry', 'Moe')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a>
+                                 (How many arguments, and of what type?)</li>
+                              <li><code>count(('Curly', 'Larry', 'Moe'))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a>
+                                 (Why two sets of parentheses? Hint: How many arguments, and of
+                                 what type?)</li>
                               <li>Function <em>signature</em> and
-                                 <em>cardinality</em>: <code>count($items as item()*) as xs:integer</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a></li>
+                                 <em>cardinality</em>:
+                                 <code>count($items as item()*) as xs:integer</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a></li>
                            </ol>
                         </li>
                         <li>Nested XPath library functions and operations are XPath expressions.
                            Read them from the inside out
                            <ol>
-                              <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a> (Remember those two
-                                 sets of parentheses?)</li>
+                              <li><code>max((1 + 2, 10 div 5, 6 * 0.2))</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>
+                                 (Remember those two sets of parentheses?)</li>
                               <li><code>translate(upper-case('Hi, Mom!'),'AEIOU','xxxxx')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-translate"><sup>⬀</sup></a>
-                                 (How is this different from <code>upper-case(translate('Hi,
-                                    Mom!','AEIOU','xxxxx'))</code>?)</li>
-                              <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn], [FNn],
-                                    [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
-                              <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn], [FNn],
-                                    [D1o] [MNn]', 'fr', (), ())</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
+                                 (How is this different from
+                                 <code>upper-case(translate('Hi, Mom!','AEIOU','xxxxx'))</code>?)</li>
+                              <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn], [FNn], [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
+                              <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn], [FNn], [D1o] [MNn]', 'fr', (),
+                                    ())</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
                            </ol>
                         </li>
                         <li>Nested functions are hard to read. Use the <em>arrow
                               operator</em><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a> (<code>=&gt;</code>) instead
                            <ol>
-                              <li><code>upper-case('Hi, Mom!') =&gt;
-                                    translate('AEIOU','xxxxx')</code></li>
-                              <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn],
-                                    [FNn], [D1o] [MNn]')</code></li>
-                              <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn],
-                                    [FNn], [D1o] [MNn]', 'fr', (), ())</code></li>
+                              <li><code>upper-case('Hi, Mom!') =&gt; translate('AEIOU','xxxxx')</code></li>
+                              <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn], [FNn], [D1o] [MNn]')</code></li>
+                              <li><code>current-dateTime() =&gt; format-dateTime('[h].[m01][Pn], [FNn], [D1o] [MNn]', 'fr', (),
+                                    ())</code></li>
                            </ol>
                         </li>
                         <li>Path expressions may span multiple lines (try it with the examples
@@ -169,8 +173,8 @@
                            order (order of start tags). (Details at Kay 1227)</li>
                         <li>Sample XPath path expression: <code>/TEI/text/body/div</code>: start
                            at the document node, then navigate to a sequence of all its
-                           <code>&lt;TEI&gt;</code> children. For each of those, navigate to
-                           all of their <code>&lt;text&gt;</code> children, then to their
+                           <code>&lt;TEI&gt;</code> children. For each of those, navigate to all of
+                           their <code>&lt;text&gt;</code> children, then to their
                            <code>&lt;body&gt;</code> children, and then to their
                            <code>&lt;div&gt;</code> children.</li>
                         <li>XPath steps are separated by single slashes (<code>/</code>).</li>
@@ -211,11 +215,12 @@
                                  <code>/TEI/teiHeader</code> is synonymous with
                                  <code>/child::TEI/child::teiHeader</code>. Use the
                                  shorthand.</li>
-                              <li><code>//</code> is shorthand for <code>descendant-or-self::node()/</code><a href="http://dh.obdurodon.org/xpath-assignment-02-answers.xhtml#descendant-or-self"><sup>⬀</sup></a>, so
-                                 <code>/TEI//div</code> finds all of the
-                                 <code>&lt;div&gt;</code> elements that are descendants of
-                                 the <code>&lt;TEI&gt;</code> root element, that is, anywhere in
-                                 the document. The document node has a descendant axis, too:
+                              <li><code>//</code> is shorthand for
+                                 <code>descendant-or-self::node()/</code><a href="http://dh.obdurodon.org/xpath-assignment-02-answers.xhtml#descendant-or-self"><sup>⬀</sup></a>,
+                                 so <code>/TEI//div</code> finds all of the
+                                 <code>&lt;div&gt;</code> elements that are descendants of the
+                                 <code>&lt;TEI&gt;</code> root element, that is, anywhere in the
+                                 document. The document node has a descendant axis, too:
                                  <code>//div</code>. Be careful with this one!</li>
                            </ol>
                         </li>
@@ -267,8 +272,8 @@
                         <li><code>concat()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-concat"><sup>⬀</sup></a><ol>
                               <li><code>concat('Curly','Larry','Moe')</code></li>
                               <li><code>concat('Curly is #', 1)</code></li>
-                              <li>Or use the <em>concatenation operator</em><a href="https://www.w3.org/TR/xpath-31/#id-string-concat-expr"><sup>⬀</sup></a>: <code>'Curly is #' ||
-                                    1</code></li>
+                              <li>Or use the <em>concatenation operator</em><a href="https://www.w3.org/TR/xpath-31/#id-string-concat-expr"><sup>⬀</sup></a>:
+                                 <code>'Curly is #' || 1</code></li>
                               <li>What’s wrong with <code>concat(//speaker)</code>?
                                  <button class="answer">Answer</button><span class="answer">The arguments to <code>concat()</code> must be two
                                     or more individual atomic (or atomizable) items, and
@@ -276,8 +281,7 @@
                            </ol>
                         </li>
                         <li><code>string-join()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-join"><sup>⬀</sup></a><ol>
-                              <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',
-                                    ')</code></li>
+                              <li><code>string-join(( 'Curly', 'Larry', 'Moe'), ',')</code></li>
                               <li><code>string-join(//speaker, ', ')</code></li>
                               <li><code>string-join(//speaker)</code> Why does this work when
                                  <code>concat(//speaker)</code> didn’t?  <button class="answer">Answer</button><span class="answer">The first
@@ -287,8 +291,7 @@
                            </ol>
                         </li>
                         <li><code>string-length()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string-length"><sup>⬀</sup></a><ol>
-                              <li><code>string-length('Curly, Larry, and
-                                    Moe')</code></li>
+                              <li><code>string-length('Curly, Larry, and Moe')</code></li>
                            </ol>
                         </li>
                         <li><code>lower-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-lower-case"><sup>⬀</sup></a>, <code>upper-case()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-upper-case"><sup>⬀</sup></a><ol>
@@ -296,8 +299,7 @@
                            </ol>
                         </li>
                         <li><code>normalize-space()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-normalize-space"><sup>⬀</sup></a><ol>
-                              <li><code>normalize-space(' Curly, Larry, Moe
-                                    ')</code></li>
+                              <li><code>normalize-space(' Curly, Larry, Moe ')</code></li>
                            </ol>
                         </li>
                         <li><code>substring-before()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-before"><sup>⬀</sup></a>, <code>substring-after()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-substring-after"><sup>⬀</sup></a><ol>
@@ -312,14 +314,17 @@
                                  with 1 (not 0).</li>
                            </ol>
                         </li>
-                        <li><code>contains()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains"><sup>⬀</sup></a> Foreshadowing: This returns a Boolean
-                           (<code>True</code> or <code>False</code>) value. How might this be useful?
+                        <li><code>contains()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains"><sup>⬀</sup></a>
+                           Foreshadowing: This returns a Boolean (<code>True</code> or
+                           <code>False</code>) value. How might this be useful?
                            <ol>
                               <li><code>contains('Ophelia', 'ph')</code></li>
                               <li><code>//speaker/contains(., 'ph')</code> (the dot refers to
                                  the current context item)</li>
-                              <li>See also <code>contains-token()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains-token"><sup>⬀</sup></a>, which would match "Rosencrantz"
-                                 but not "Rosencrantzenfeld".</li>
+                              <li>See also
+                                 <code>contains-token()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-contains-token"><sup>⬀</sup></a>,
+                                 which would match "Rosencrantz" but not
+                                 "Rosencrantzenfeld".</li>
                            </ol>
                         </li>
                         <li><code>starts-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-starts-with"><sup>⬀</sup></a>, <code>ends-with()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-ends-with"><sup>⬀</sup></a><ol>
@@ -348,14 +353,15 @@
                               <li><code>format-number(1, '#.000')</code></li>
                            </ol>
                         </li>
-                        <li><code>max()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>, <code>min()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-min"><sup>⬀</sup></a>, <code>sum()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sum"><sup>⬀</sup></a>, <code>avg()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-avg"><sup>⬀</sup></a><ol>
+                        <li><code>max()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-max"><sup>⬀</sup></a>,
+                           <code>min()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-min"><sup>⬀</sup></a>,
+                           <code>sum()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sum"><sup>⬀</sup></a>, <code>avg()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-avg"><sup>⬀</sup></a><ol>
                               <li><code>max((1, 2, 3))</code>, etc.</li>
                               <li>What happens when these are applied to strings? To a
                                  sequence that mixes strings and numbers?</li>
                            </ol>
                         </li>
-                        <li>Find the length in character count of each
-                           <code>&lt;speaker&gt;</code><button class="answer">Answer</button><span class="answer"><code>//speaker/string-length()</code> (why doesn’t
+                        <li>Find the length in character count of each <code>&lt;speaker&gt;</code><button class="answer">Answer</button><span class="answer"><code>//speaker/string-length()</code> (why doesn’t
                               <code>string-length(//speaker)</code> work?)</span></li>
                         <li>Find the length of the longest speaker name
                            <button class="answer">Answer</button><span class="answer"><code>max(//speaker/string-length())</code></span></li>
@@ -367,18 +373,14 @@
                            </ol>
                         </li>
                         <li><code>count()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-count"><sup>⬀</sup></a><ol>
-                              <li><code>count(('Curly', 'Larry', 'Moe',
-                                    'Curly'))</code></li>
-                              <li><code>count(distinct-values(('Curly', 'Larry', 'Moe',
-                                    'Curly')))</code></li>
-                              <li><code>distinct-values(count(('Curly', 'Larry', 'Moe',
-                                    'Curly')))</code></li>
+                              <li><code>count(('Curly', 'Larry', 'Moe', 'Curly'))</code></li>
+                              <li><code>count(distinct-values(('Curly', 'Larry', 'Moe', 'Curly')))</code></li>
+                              <li><code>distinct-values(count(('Curly', 'Larry', 'Moe', 'Curly')))</code></li>
                            </ol>
                         </li>
                         <li><code>sort()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-sort"><sup>⬀</sup></a><ol>
                               <li><code>sort(//speaker)</code></li>
-                              <li><code>sort(//speaker,(), function($item)
-                                    {string-length($item)})</code></li>
+                              <li><code>sort(//speaker,(), function($item){string-length($item)})</code></li>
                            </ol>
                         </li>
                         <li>Your turn: 
@@ -411,10 +413,10 @@
                            <code>string-length(/TEI//speaker)</code></li>
                         <li>Why is <code>count(/TEI//speaker)</code> okay, while
                            <code>count('Curly', 'Larry', 'Moe')</code> is broken?  <button class="answer">Answer</button><span class="answer">The
-                              <code>count()</code> function is receiving three arguments, but
-                              it is designed to receive only one argument. To give it one
-                              argument, it needs a set of inner parentheses: <code>count(('Curly',
-                                 'Larry', 'Moe'))</code></span></li>
+                              <code>count()</code> function is receiving three arguments, but it
+                              is designed to receive only one argument. To give it one argument,
+                              it needs a set of inner parentheses:
+                              <code>count(('Curly', 'Larry', 'Moe'))</code></span></li>
                         <li>The error message is your friend. Read it.</li>
                         <li>Resources and references:
                            <a href="https://ebeshero.github.io/UpTransformation/References.html">https://ebeshero.github.io/UpTransformation/References.html</a></li>
@@ -426,12 +428,12 @@
                         <li>Numerical predicates
                            <ol>
                               <li><code>//body/div[3]</code> matches the third
-                                 <code>&lt;div&gt;</code> child of each
-                                 <code>&lt;body&gt;</code> element (same as
+                                 <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
+                                 element (same as
                                  <code>//body/div[position() eq 3]</code></li>
                               <li><code>//body/div[last()]</code> matches the last
-                                 <code>&lt;div&gt;</code> child of each
-                                 <code>&lt;body&gt;</code> element</li>
+                                 <code>&lt;div&gt;</code> child of each <code>&lt;body&gt;</code>
+                                 element</li>
                            </ol>
                         </li>
                         <li>Predicates with node tests
@@ -443,8 +445,7 @@
                         <li>Predicates with functions and operators
                            <ol>
                               <li><code>//sp[speaker eq 'Ophelia']</code></li>
-                              <li><code>//sp[contains-token(speaker,
-                                    'Rosencrantz')]</code></li>
+                              <li><code>//sp[contains-token(speaker, 'Rosencrantz')]</code></li>
                               <li><code>//lg[@type eq 'couplet']</code></li>
                            </ol>
                         </li>
@@ -462,8 +463,7 @@
                         <li>Three ways to apply a function to a sequence
                            <ol>
                               <li>Explicit <code>for</code><ol>
-                                    <li><code>for $speaker in /TEI//speaker return
-                                          string-length($speaker)</code></li>
+                                    <li><code>for $speaker in /TEI//speaker return string-length($speaker)</code></li>
                                  </ol>
                               </li>
                               <li>Implicit <code>for</code><ol>
@@ -472,14 +472,15 @@
                               </li>
                               <li>Simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)
                                  <ol>
-                                    <li><code>/TEI//speaker !
-                                          string-length(.)</code></li>
+                                    <li><code>/TEI//speaker ! string-length(.)</code></li>
                                  </ol>
                               </li>
                            </ol>
                         </li>
-                        <li>Difference between simple map (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>) and
-                           arrow (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) 
+                        <li>Difference between simple map
+                           (<code>!</code><a href="https://www.w3.org/TR/xpath-31/#id-map-operator"><sup>⬀</sup></a>)
+                           and arrow
+                           (<code>=&gt;</code><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a>) 
                            <ol>
                               <li><code>('Curly', 'Larry', 'Moe') =&gt; count()</code></li>
                               <li><code>('Curly', 'Larry', 'Moe') ! count(.)</code></li>
@@ -496,17 +497,18 @@
                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ham.xml</a>.)
                            This is a copy of <em>Hamlet</em> with TEI markup.</li>
                         <li>How many speeches (<code>&lt;sp&gt;</code>) does Ophelia have?
-                           <button class="answer">Answer</button><span class="answer"><code>count(//sp[speaker eq
-                                 'Ophelia'])</code></span></li>
+                           <button class="answer">Answer</button><span class="answer"><code>count(//sp[speaker eq 'Ophelia'])</code></span></li>
                         <li>How many speeches does Ophelia have in Act 2?
-                           <button class="answer">Answer</button><span class="answer"><code>count(//body/div[2]//sp[speaker eq
-                                 'Ophelia'])</code></span></li>
+                           <button class="answer">Answer</button><span class="answer"><code>count(//body/div[2]//sp[speaker eq 'Ophelia'])</code></span></li>
                         <li>What types of elements can have stage directions
-                           (<code>&lt;stage&gt;</code>) as children? (Hint: use the <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a> function.)
+                           (<code>&lt;stage&gt;</code>) as children? (Hint: use the
+                           <code>name()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-name"><sup>⬀</sup></a>
+                           function.)
                            <button class="answer">Answer</button><span class="answer"><code>distinct-values(//stage/../name())</code></span></li>
                         <li>How many speeches don’t contain any metrical line child elements
-                           (<code>&lt;l&gt;</code>)? (Hint: use the <code>not()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-not"><sup>⬀</sup></a> function.)
-                           <button class="answer">Answer</button><span class="answer"><code>count(//sp[not(l)])</code></span></li>
+                           (<code>&lt;l&gt;</code>)? (Hint: use the
+                           <code>not()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-not"><sup>⬀</sup></a>
+                           function.)  <button class="answer">Answer</button><span class="answer"><code>count(//sp[not(l)])</code></span></li>
                         <li>Building on your answer to the last question, who are the speakers of
                            those speeches?
                            <button class="answer">Answer</button><span class="answer"><code>distinct-values(//sp[not(l)]/speaker)</code></span></li>
@@ -521,7 +523,8 @@
                         <li>How many speeches have more than 8 line children?
                            <button class="answer">Answer</button><span class="answer"><code>count(//sp[count(l) gt 8])</code></span></li>
                         <li>Building on your answer to the preceding question, how many line
-                           children does each of those speeches have?  <button class="answer">Answer</button><span class="answer"><code>//sp[count(l)
+                           children does each of those speeches have?
+                           <button class="answer">Answer</button><span class="answer"><code>//sp[count(l)
                                  gt 8]/count(l)</code></span></li>
                         <li>Building on your answers to the preceding two questions, who are the
                            speakers of speeches that have more than 8 line children?
@@ -532,8 +535,8 @@
                               <code>max(//sp/string-length(normalize-space()))</code>)</span></li>
                         <li>Building on your answer to the last question, who is the speaker of
                            the longest speech?  <button class="answer">Answer</button><span class="answer"><code>//sp[string-length() eq
-                                 max(//sp/string-length())]/speaker</code> (or, better:
-                              <code>//sp[string-length(normalize-space()) eq
+                                 max(//sp/string-length())]/speaker</code>
+                              (or, better: <code>//sp[string-length(normalize-space()) eq
                                  max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
                      </ol>
                   </li>
@@ -573,8 +576,7 @@
                               <li><code>collection('/db/apps/shakespeare/data/')//tei:sp/@who/string()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-string"><sup>⬀</sup></a></li>
                            </ol>
                         </li>
-                        <li>Text (<code>text()</code>; not a function; not to be confused with
-                           <code>string()</code>)
+                        <li>Text (<code>text()</code>; not a function; not to be confused with <code>string()</code>)
                            <ol>
                               <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:stage</code>
                                  (Mary Russell Mitford’s <em>Charles the First</em>) </li>
@@ -596,9 +598,9 @@
                   </li>
                   <li>Scavenger hunt 1 (20 minutes; 10:15 a.m.–10:35 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Work with the Digital Mitford Site Index posted in eXist at
-                           <code>/db/mitford/si.xml</code> or the official version at its
-                           external location: <code>https://digitalmitford.org/si.xml</code> Can
-                           you find out the following? 
+                           <code>/db/mitford/si.xml</code> or the official version at its external
+                           location: <code>https://digitalmitford.org/si.xml</code> Can you find
+                           out the following? 
                            <ol>
                               <li> Look at the <code>&lt;div&gt;</code> elements in the site
                                  index. What attribute on this element can tell you how the
@@ -619,18 +621,18 @@
                   <li>Break (15 minutes; 10:35 a.m.–10:50 a.m.) </li>
                   <li>Wildcard node testing (15 minutes; 10:50 a.m.–11:05 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Work with the Digital Mitford Site Index posted in eXist at
-                           <code>/db/mitford/si.xml</code> or the official version at its
-                           external location: <code>https://digitalmitford.org/si.xml</code> Can
-                           you find out the following? 
+                           <code>/db/mitford/si.xml</code> or the official version at its external
+                           location: <code>https://digitalmitford.org/si.xml</code> Can you find
+                           out the following? 
                            <ol>
                               <li>The <code>@xml:id</code> for the play <em>Charles the
                                     First</em> in the site index is "CharlesI_MRMplay".
                                  References to the play throughout the site index will be made
                                  with various attributes that begin with a hashmark
                                  <code>#</code>, formatted like this:
-                                 <code>"#CharlesI_MRMplay"</code>. Knowing this, can you
-                                 locate all the individual entries in any of the site index lists
-                                 that contain references of any kind to the play?
+                                 <code>"#CharlesI_MRMplay"</code>. Knowing this, can you locate
+                                 all the individual entries in any of the site index lists that
+                                 contain references of any kind to the play?
                                  <button class="answer">Answer</button><span class="answer"><code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]</code>
                                     How can you find out how many these are using a function?
                                     <code>doc('https://digitalmitford.org/si.xml')//tei:div/*/*[descendant::*/@*="#CharlesI_MRMplay"]
@@ -650,9 +652,9 @@
                               <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
                                     '\d{4}')]</code></li>
                               <li><code>doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(.,
-                                    '(^|\D)\d{4}($|\D)')]</code> Why is the number of results
-                                 smaller than for the previous expression?
-                                 <button class="answer">Answer</button><div class="answer">xquery version "3.1";
+                                    '(^|\D)\d{4}($|\D)')]</code>
+                                 Why is the number of results smaller than for the previous
+                                 expression?  <button class="answer">Answer</button><div class="answer">xquery version "3.1";
                                     declare namespace tei="http://www.tei-c.org/ns/1.0";
                                     let $a := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '(^|\D)\d{4}($|\D)')]
                                     let $b := doc('/db/mitford/literary/Charles1.xml')//tei:*/text()[matches(., '\d{4}')]
@@ -677,8 +679,7 @@
                                     'Chas(_\w+_)', 'C1$1')</code></li>
                            </ol>
                         </li>
-                        <li><code>substring-before()</code> and <code>substring-after()</code> vs.
-                           <code>tokenize()</code><ol>
+                        <li><code>substring-before()</code> and <code>substring-after()</code> vs. <code>tokenize()</code><ol>
                               <li>Return only the document location (e.g., "ded", "pro",
                                  "act") and line number information in the <code>@xml:id</code>
                                  attributes:
@@ -689,11 +690,12 @@
                                  document location ("ded", "pro", "act"), and trim off the line
                                  number information?  <button class="answer">Answer</button><span class="answer">Two ways: old-fashioned:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-before(substring-after(@xml:id,
-                                       'Chas_'), '_')</code> and more legible with simple map
-                                    operator:
+                                       'Chas_'), '_')</code>
+                                    and more legible with simple map operator:
                                     <code>doc('/db/mitford/literary/Charles1.xml')//tei:l/substring-after(@xml:id,
-                                       'Chas_') ! substring-before(.,'_')</code> Why can’t we
-                                    use the arrow operator (<code>=&gt;</code>) here?</span></li>
+                                       'Chas_') ! substring-before(.,'_')</code>
+                                    Why can’t we use the arrow operator (<code>=&gt;</code>)
+                                    here?</span></li>
                            </ol>
                         </li>
                      </ol>
@@ -710,8 +712,8 @@
                                     $Chas/*;</code></li>
                               <li>Return the value of the variables one by one, by typing
                                  each of their names on the next line: <code>$Chas</code> and
-                                 <code>$ChasPlay</code>. Notice the difference in the data
-                                 type declaration and in the results. Other common values of
+                                 <code>$ChasPlay</code>. Notice the difference in the data type
+                                 declaration and in the results. Other common values of
                                  <code>as</code> include <code>xs:string</code> or
                                  <code>xs:integer</code>.</li>
                            </ol>
@@ -736,8 +738,8 @@
                               <li><code>let $places := $Chas//tei:placeName</code></li>
                               <li><code>return $places</code></li>
                               <li>How would you return only their text contents?
-                                 <button class="answer">Answer</button><span class="answer"><code>$places/string()</code>, but notice the
-                                    white space issues. Repair these with <code>return
+                                 <button class="answer">Answer</button><span class="answer"><code>$places/string()</code>, but notice the white
+                                    space issues. Repair these with <code>return
                                        $places/normalize-space()</code></span></li>
                            </ol>
                         </li>
@@ -750,24 +752,26 @@
                            <ol>
                               <li> Define a global variable pointing to the Digital Mitford
                                  site index document, posted in eXist at
-                                 <code>/db/mitford/si.xml</code> or the official version at
-                                 its external
-                                 location:<code>https://digitalmitford.org/si.xml</code>.
-                                 Hint: Declarations need to come first.  <button class="answer">Answer</button><span class="answer"><code>declare
+                                 <code>/db/mitford/si.xml</code> or the official version at its
+                                 external
+                                 location:<code>https://digitalmitford.org/si.xml</code>. Hint:
+                                 Declarations need to come first.  <button class="answer">Answer</button><span class="answer"><code>declare
                                        variable $si as document-node() :=
-                                       doc('/db/mitford/si.xml');</code> or <code>declare
+                                       doc('/db/mitford/si.xml');</code>
+                                    or <code>declare
                                        variable $si as document-node() :=
-                                       doc('https://digitalmitford.org/si.xml');</code> The new
-                                    global variable must be added before the first
+                                       doc('https://digitalmitford.org/si.xml');</code>
+                                    The new global variable must be added before the first
                                     <code>let</code> statement.</span>S </li>
                               <li>Write a variable (either global or in <code>let</code>
                                  form) that locates all of the <code>&lt;place&gt;</code>
                                  elements in the site index document. Use the <code>$si</code>
                                  variable you just defined for the site index document in your
                                  expression.  <button class="answer">Answer</button><span class="answer"><code>let $siPlaces as element()+ :=
-                                       $si//tei:place</code> or as a global variable above the
-                                    first <code>let</code> statement and after the variable
-                                    defining the si.xml document: <code>declare variable
+                                       $si//tei:place</code>
+                                    or as a global variable above the first <code>let</code>
+                                    statement and after the variable defining the si.xml
+                                    document: <code>declare variable
                                        $siPlaces as element()+ := $si//tei:place;</code>.
                                     </span></li>
                               <li>For housekeeping purposes, rename the variable
@@ -775,10 +779,9 @@
                                  <code>$Chas//tei:placeName</code>): Call it
                                  <code>$Chasplaces</code>.</li>
                               <li>Define a new variable to retrieve the values of the
-                                 <code>@ref</code> on those
-                                 <code>$Chasplaces</code><button class="answer">Answer</button><span class="answer">Don’t forget the
-                                    <code>string()</code> to return the attribute value:
-                                    <code>let $ChasPlaceRefs :=
+                                 <code>@ref</code> on those <code>$Chasplaces</code><button class="answer">Answer</button><span class="answer">Don’t
+                                    forget the <code>string()</code> to return the attribute
+                                    value: <code>let $ChasPlaceRefs :=
                                        $Chasplaces/@ref/string()</code></span></li>
                               <li>How would you rewrite the last XPath scavenger hunt
                                  solution as a <code>let</code> statement in this XQuery? (Find
@@ -792,7 +795,8 @@
                   <li>Break (15 minutes; 2:30 p.m.–2:45 p.m.) </li>
                   <li>XPath <code>for</code> expressions; sequence and range variables
                      (&lt;oXygen/&gt;) (20 minutes; 2:45 p.m.–3:05 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                        <li>In the &lt;oXygen/&gt; XPath Builder View, try this code: <code>for $i
+                        <li>In the &lt;oXygen/&gt; XPath Builder View, try this code:
+                           <code>for $i
                               in ("Curly", "Larry", "Moe") return concat($i, " is a
                               Stooge!")</code></li>
                         <li>Can we write it as a simple map (with <code>!</code>)?
@@ -813,9 +817,9 @@
                                  about the person elements):  <button class="answer">Answer</button><span class="answer">For the
                                     <code>@xml:id</code>: <code>for $i in
                                        //person[contains(birth, "Scotland")] return
-                                       $i/@xml:id</code>. Notice that we don’t need the
-                                    <code>string()</code> function after the
-                                    <code>@xml:id</code> in the &lt;oXygen/&gt; XPath
+                                       $i/@xml:id</code>.
+                                    Notice that we don’t need the <code>string()</code> function
+                                    after the <code>@xml:id</code> in the &lt;oXygen/&gt; XPath
                                     builder view because the &lt;oXygen/&gt; viewer exposes the
                                     attribute values and eXide does not.</span></li>
                            </ol>
@@ -824,12 +828,13 @@
                   </li>
                   <li>FLWOR statements in XQuery: how <code>for</code> works: Part 1 (30 minutes; 3:05 p.m.–3:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li><code>for</code> in XQuery and iterative returns: <code>for $i in
-                              $YourSequenceVariable</code>. Look up the places coded in
-                           <em>Charles the First</em> for their entries in the Digital
-                           Mitford site index. 
+                              $YourSequenceVariable</code>. Look up the
+                           places coded in <em>Charles the First</em> for their entries in the
+                           Digital Mitford site index. 
                            <ol>
                               <li>Get the unique (distinct) values of <code>@ref</code>
-                                 attributes on <code>placeName</code> elements.  <button class="answer">Answer</button><span class="answer"><code>let
+                                 attributes on <code>placeName</code> elements.
+                                 <button class="answer">Answer</button><span class="answer"><code>let
                                        $distChPRs :=
                                        distinct-values($ChasPlaceRefs)</code></span></li>
                               <li>Next, loop through each of these distinct values:
@@ -842,8 +847,9 @@
                                     formatted with a leading <code>#</code> followed by the
                                     <code>@xml:id</code> value.</span></li>
                               <li>Write the variable that finds the site index entry whose
-                                 <code>@xml:id</code> matches the value of the range variable
-                                 in our <code>for</code> expression.  <button class="answer">Answer</button><span class="answer"><code>let $siCPrs :=
+                                 <code>@xml:id</code> matches the value of the range variable in
+                                 our <code>for</code> expression.
+                                 <button class="answer">Answer</button><span class="answer"><code>let $siCPrs :=
                                        $si//tei:place[@xml:id = substring-after($i,
                                        '#')]</code></span></li>
                            </ol>
@@ -860,9 +866,10 @@
                               <li>Or, within the FLWOR with the XQuery <code>order by</code>
                                  statement: <code>order by $siCPrs/@xml:id</code> followed by
                                  nothing (default: ascending alphabetical order), or a keyword:
-                                 <code>ascending</code> or <code>descending</code>. To order
-                                 in reverse alphabetical order by the <code>@xml:id</code> in the
-                                 site index entry?  <button class="answer">Answer</button><span class="answer"><code>order by $siCPrs/@xml:id
+                                 <code>ascending</code> or <code>descending</code>. To order in
+                                 reverse alphabetical order by the <code>@xml:id</code> in the
+                                 site index entry?
+                                 <button class="answer">Answer</button><span class="answer"><code>order by $siCPrs/@xml:id
                                        descending</code></span></li>
                               <li>Do either of these methods really deliver alphabetical
                                  order?  <button class="answer">Answer</button><span class="answer">In no human understanding of alphabetical order
@@ -875,7 +882,8 @@
                                  statement: <code>for $i at $pos in $YourSequenceVariable</code>,
                                  but caution: <code>order by</code> happens <em>after</em><code>$pos</code> is set. So if we want sorted, numbered output?
                                  <button class="answer">Answer</button><span class="answer">Use the <code>sort()</code> function on the
-                                    sequence. Try a return like <code>return concat($pos, ': ',
+                                    sequence. Try a return like
+                                    <code>return concat($pos, ': ',
                                        $siCPrs/@xml:id)</code></span></li>
                            </ol>
                         </li>
@@ -886,7 +894,8 @@
                                  the variable <code>$siCPrs</code> exists: <code>where
                                     $siCPrs</code></li>
                               <li>Or use <code>where</code> to return only results in the
-                                 site index whose string value contains "France": <code>where
+                                 site index whose string value contains "France":
+                                 <code>where
                                     $siCPrs[contains(., 'France')]</code></li>
                            </ol>
                         </li>
@@ -931,8 +940,8 @@
                                  (may require permission) or
                                  <a href="https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg">https://ebeshero.github.io/UpTransformation/Chas-PersNameGraph.svg</a></li>
                               <li>XQuery to make the SVG, in the newtfire eXist-db: <code>
-                                    /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>, or on
-                                 GitHub:
+                                    /db/DHSI-Queries/Chas-PersNameGraph-SVG.xql</code>,
+                                 or on GitHub:
                                  <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xquery/DHSI-Queries/Chas-PersNameGraph-SVG.xql</a></li>
                            </ol>
                         </li>
@@ -984,16 +993,16 @@
                         <li>Namespace for output: set the default namespace using the
                            <code>@xmlns</code> attribute. For example, <code>&lt;xsl:stylesheet
                               xpath-default-namespace="http://www.tei-c.org/ns/1.0"
-                              xmlns="http://www.w3.org/1999/xhtml"&gt;</code> means that input is
-                           in the TEI namespace and output will be HTML (that is, in the HTML
-                           namespace)</li>
+                              xmlns="http://www.w3.org/1999/xhtml"&gt;</code>
+                           means that input is in the TEI namespace and output will be HTML (that
+                           is, in the HTML namespace)</li>
                      </ol>
                   </li>
                   <li>Housekeeping: <code>&lt;xsl:output&gt;</code> (5 minutes; 10:50 a.m.–10:55 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Configure the <code>@method</code>, <code>@html-version</code>,
-                           <code>@omit-xml-declaration</code>,
-                           <code>@include-content-type</code>, and <code>@indent</code>
-                           attributes on the <code>&lt;xsl:output&gt;</code> element: 
+                           <code>@omit-xml-declaration</code>, <code>@include-content-type</code>,
+                           and <code>@indent</code> attributes on the
+                           <code>&lt;xsl:output&gt;</code> element: 
                            <ol>
                               <li><code>&lt;xsl:output method="xhtml" html-version="5"
                                     omit-xml-declaration="no" include-content-type="no"
@@ -1004,13 +1013,13 @@
                   </li>
                   <li>XSLT and templates, part 1 (20 minutes; 10:55 a.m.–11:15 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Templates match patterns: <code>&lt;xsl:template
-                              match="???"&gt;</code>: The <code>@match</code> attribute is an
-                           <em>XPath pattern</em> that specifies what the template
-                           processes. XPath patterns are not the same as XPath expressions because
-                           they don’t navigate or find; they just match. For example
-                           <code>&lt;xsl:template match="p"&gt;</code> will match and process
-                           all <code>&lt;p&gt;</code> elements. It is a mistake to write
-                           <code>&lt;xsl:template match="//p"&gt;</code> because
+                              match="???"&gt;</code>: The
+                           <code>@match</code> attribute is an <em>XPath pattern</em> that
+                           specifies what the template processes. XPath patterns are not the same
+                           as XPath expressions because they don’t navigate or find; they just
+                           match. For example <code>&lt;xsl:template match="p"&gt;</code> will
+                           match and process all <code>&lt;p&gt;</code> elements. It is a mistake
+                           to write <code>&lt;xsl:template match="//p"&gt;</code> because
                            <code>@match</code> values don’t have to find <code>&lt;p&gt;</code>
                            elements; they just have to … well … <em>match</em> them.</li>
                         <li>In each example below, look at the <code>@match</code> value: What
@@ -1019,11 +1028,11 @@
                            have to find, and not just match, elements) in the XPath Toolbar? 
                            <ol>
                               <li><code>&lt;xsl:template match="div/head&gt;"</code><button class="answer">Answer</button><span class="answer">Matches any <code>&lt;head&gt;</code> child of any
-                                    <code>&lt;div&gt;</code> at any level of the XML
-                                    hierarchy. In the XPath Toolbar, we have to start the
-                                    expression with two leading forward slashes
-                                    (<code>//div/head</code>) to indicate we are looking
-                                    <q>down</q> the tree from the document node.</span></li>
+                                    <code>&lt;div&gt;</code> at any level of the XML hierarchy.
+                                    In the XPath Toolbar, we have to start the expression with
+                                    two leading forward slashes (<code>//div/head</code>) to
+                                    indicate we are looking <q>down</q> the tree from the
+                                    document node.</span></li>
                               <li><code>&lt;xsl:template match="div[count(descendant::p) gt
                                     1]&gt;"</code><button class="answer">Answer</button><span class="answer">Matches any <code>&lt;div&gt;</code> element that
                                     contains more than one <code>&lt;p&gt;</code> descendants.
@@ -1107,9 +1116,8 @@
                                  <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
                                  <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
                                  <code>&lt;cite&gt;</code> (for publication venue),
-                                 <code>&lt;div&gt;</code> (for poem),
-                                 <code>&lt;br/&gt;</code> (NB: empty element, after all lines
-                                 except the last)</li>
+                                 <code>&lt;div&gt;</code> (for poem), <code>&lt;br/&gt;</code>
+                                 (NB: empty element, after all lines except the last)</li>
                               <li>The output we want:
                                  <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
                            </ol>
@@ -1261,7 +1269,8 @@
                                              two three') - string-length(translate('one two
                                              three', ' ', ''))</code></span></li>
                                     <li><code>tokenize()</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-tokenize"><sup>⬀</sup></a><button class="answer">Answer</button><span class="answer"><code>count(tokenize('one two three', '
-                                             '))</code> or <code>tokenize(('Curly Larry Moe')
+                                             '))</code>
+                                          or <code>tokenize(('Curly Larry Moe')
                                              ,'\s+') =&gt; count()</code></span></li>
                                  </ol>
                               </li>
@@ -1282,9 +1291,11 @@
                               </li>
                               <li>What is available 
                                  <ol>
-                                    <li>Composite expression: <code>$a eq $b and $b eq
+                                    <li>Composite expression:
+                                       <code>$a eq $b and $b eq
                                           $c</code></li>
-                                    <li>Compare to average value: <code>($a, $b, $c) !=
+                                    <li>Compare to average value:
+                                       <code>($a, $b, $c) !=
                                           avg(($a, $b, $c))</code></li>
                                     <li>Count distinct values
                                        <ol>
@@ -1303,7 +1314,8 @@
                               <li>Require it in the XML with Relax NG
                                  <button class="answer">Answer</button><span class="answer"><code>xsd:string { pattern = "(\S+ )*\S+"
                                        }</code></span></li>
-                              <li>Require it in the XML with Schematron  <button class="answer">Answer</button><span class="answer"><code>test='.
+                              <li>Require it in the XML with Schematron
+                                 <button class="answer">Answer</button><span class="answer"><code>test='.
                                        eq normalize-space(.)'</code></span></li>
                            </ol>
                         </li>
@@ -1399,7 +1411,8 @@
                                  <code>lt</code>, <code>gt</code>, <code>le</code>,
                                  <code>ge</code></li>
                               <li>Compares one thing to one thing</li>
-                              <li>Example: <code>count(distinct-values(('Curly', 'Larry',
+                              <li>Example:
+                                 <code>count(distinct-values(('Curly', 'Larry',
                                     'Moe'))) eq 1</code></li>
                            </ol>
                         </li>
@@ -1415,8 +1428,9 @@
                                     <li><code>'Curly' = ('Curly', 'Larry',
                                           'Moe')</code></li>
                                     <li>What does <code>'Curly' != ('Curly', 'Larry',
-                                          'Moe')</code> return? What should we have written
-                                       instead?  <button class="answer">Answer</button><span class="answer"><code>not('Curly' = ('Curly', 'Larry',
+                                          'Moe')</code>
+                                       return? What should we have written instead?
+                                       <button class="answer">Answer</button><span class="answer"><code>not('Curly' = ('Curly', 'Larry',
                                              'Moe'))</code></span></li>
                                  </ol>
                               </li>
