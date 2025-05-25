@@ -118,6 +118,8 @@
                                     Mom!','AEIOU','xxxxx'))</code>?)</li>
                               <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
                                     [FNn], [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
+                              <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
+                                    [FNn], [D1o] [MNn]', 'fr', (), ())</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
                            </ol>
                         </li>
                         <li>Nested functions are hard to read. Use the <em>arrow
@@ -755,8 +757,7 @@
                                        variable $si as document-node() :=
                                        doc('https://digitalmitford.org/si.xml');</code> The new
                                     global variable must be added before the first
-                                    <code>let</code> statement.</span>S
-                                 </li>
+                                    <code>let</code> statement.</span>S </li>
                               <li>Write a variable (either global or in <code>let</code>
                                  form) that locates all of the <code>&lt;place&gt;</code>
                                  elements in the site index document. Use the <code>$si</code>
@@ -1087,7 +1088,9 @@
                <h3>XSLT to HTML (1:30 p.m.–4:00 p.m.)</h3>
                <ol>
                   <li>Preparing XSLT to Output HTML (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                        <li>Using default XSLT processing. (This is not an identity transformation! Remove <code>&lt;xsl:mode/&gt;</code> for shallow-copying nodes.)</li>
+                        <li>Using default XSLT processing. (This is not an identity
+                           transformation! Remove <code>&lt;xsl:mode/&gt;</code> for
+                           shallow-copying nodes.)</li>
                         <li><code>&lt;xsl:stylesheet&gt;</code> and
                            <code>&lt;xsl:output&gt;</code></li>
                         <li>Template matching on the document node to output HTML</li>
@@ -1105,13 +1108,15 @@
                                  <code>&lt;div&gt;</code> (for poem),
                                  <code>&lt;br/&gt;</code> (NB: empty element, after all lines
                                  except the last)</li>
-                              <li>The output we want: <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
+                              <li>The output we want:
+                                 <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
                            </ol>
                         </li>
                      </ol>
                   </li>
                   <li>XSLT Activity: TEI XML to HTML transformation (40 minutes; 1:55 p.m.–2:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                        <li><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to HTML: (<q>It’s always a namespace issue!</q>)</li>
+                        <li><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to
+                           HTML: (<q>It’s always a namespace issue!</q>)</li>
                         <li>Open the url of the Emily Dickinson Fascicle 16 file:
                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</a>,
                            and study the document.</li>
@@ -1138,8 +1143,7 @@
                         </li>
                         <li>How internal links work in HTML</li>
                         <li>Attribute Value Templates</li>
-                        <li>Modal XSLT: Processing the same nodes in multiple ways
-                           
+                        <li>Modal XSLT: Processing the same nodes in multiple ways 
                            <ol>
                               <li>Starter file for Modal XSLT to create the table of contents
                                  <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</a></li>

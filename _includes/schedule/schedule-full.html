@@ -87,6 +87,8 @@
                                         Mom!','AEIOU','xxxxx'))</code>?)</li>
                                 <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
                                         [FNn], [D1o] [MNn]')</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
+                                <li><code>format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
+                                        [FNn], [D1o] [MNn]', 'fr', (), ())</code><a href="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"><sup>⬀</sup></a></li>
                             </ol></li>
                         <li>Nested functions are hard to read. Use the <em>arrow
                                 operator</em><a href="https://www.w3.org/TR/xpath-31/#id-arrow-operator"><sup>⬀</sup></a> (<code>=&gt;</code>) instead<ol>
@@ -665,8 +667,7 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                                             variable $si as document-node() :=
                                             doc('https://digitalmitford.org/si.xml');</code> The new
                                         global variable must be added before the first
-                                            <code>let</code> statement.</span>S
-                                </li>
+                                            <code>let</code> statement.</span>S </li>
                                 <li>Write a variable (either global or in <code>let</code>
                                     form) that locates all of the <code>&lt;place&gt;</code>
                                     elements in the site index document. Use the <code>$si</code>
@@ -965,43 +966,46 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
         
         
             <section><h3>XSLT to HTML (1:30 p.m.–4:00 p.m.)</h3><ol><li>Preparing XSLT to Output HTML (25 minutes; 1:30 p.m.–1:55 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                        <li>Using default XSLT processing. (This is not an identity transformation! Remove <code>&lt;xsl:mode/&gt;</code> for shallow-copying nodes.)</li>
+                        <li>Using default XSLT processing. (This is not an identity
+                            transformation! Remove <code>&lt;xsl:mode/&gt;</code> for
+                            shallow-copying nodes.)</li>
                         <li><code>&lt;xsl:stylesheet&gt;</code> and
-                            <code>&lt;xsl:output&gt;</code></li>
+                                <code>&lt;xsl:output&gt;</code></li>
                         <li>Template matching on the document node to output HTML</li>
                         <li>Structure of an HTML document: <code>&lt;head&gt;</code> and
-                            <code>&lt;body&gt;</code></li>
+                                <code>&lt;body&gt;</code></li>
                         <li>Complete basic <q>Ozymandias</q> transformation:<ol>
                                 <li>Input:
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</a>)</li>
-                                
+                                        <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</a>)</li>
+
                                 <li>Required HTML elements: <code>&lt;html&gt;</code>,
-                                    <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
-                                    <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
-                                    <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
-                                    <code>&lt;cite&gt;</code> (for publication venue),
-                                    <code>&lt;div&gt;</code> (for poem),
-                                    <code>&lt;br/&gt;</code> (NB: empty element, after all lines
+                                        <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                                        <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
+                                        <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
+                                        <code>&lt;cite&gt;</code> (for publication venue),
+                                        <code>&lt;div&gt;</code> (for poem),
+                                        <code>&lt;br/&gt;</code> (NB: empty element, after all lines
                                     except the last)</li>
-                                <li>The output we want: <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
+                                <li>The output we want:
+                                        <a href="https://ebeshero.github.io/UpTransformation/ozymandias.html">https://ebeshero.github.io/UpTransformation/ozymandias.html</a></li>
                                 
-                        </ol>
-                            
+                            </ol>
                         </li>
                     </ol></li><li>XSLT Activity: TEI XML to HTML transformation (40 minutes; 1:55 p.m.–2:35 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                        <li><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to HTML: (<q>It’s always a namespace issue!</q>)</li>
+                        <li><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to
+                            HTML: (<q>It’s always a namespace issue!</q>)</li>
                         <li>Open the url of the Emily Dickinson Fascicle 16 file:
                                 <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</a>,
                             and study the document.</li>
                         <li>Open this starter XSLT file url in &lt;oXygen/&gt;:
                                 <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</a></li>
                         <li>The output we want:
-                            <a href="https://ebeshero.github.io/UpTransformation/dickinson16.html">https://ebeshero.github.io/UpTransformation/dickinson16.html</a></li>
+                                <a href="https://ebeshero.github.io/UpTransformation/dickinson16.html">https://ebeshero.github.io/UpTransformation/dickinson16.html</a></li>
                     </ol></li><li>Break (15 minutes; 2:35 p.m.–2:50 p.m.) </li><li>XSLT Activity: TEI XML to HTML transformation (continued) (35 minutes; 2:50 p.m.–3:25 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                       <li>Writing and refining template rules.</li>
-                       <li>Numbering lines</li>
-                       <li>CSS for styling</li>
-                   </ol></li><li>XSLT activity: Making a linked table of contents (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+                        <li>Writing and refining template rules.</li>
+                        <li>Numbering lines</li>
+                        <li>CSS for styling</li>
+                    </ol></li><li>XSLT activity: Making a linked table of contents (35 minutes; 3:25 p.m.–4:00 p.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         
                         
                         <li>The output we want <ol>
@@ -1010,15 +1014,14 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
                         </li>
                         <li>How internal links work in HTML</li>
                         <li>Attribute Value Templates</li>
-                        <li>Modal XSLT: Processing the same nodes in multiple ways
-                            <ol>
-                                
+                        <li>Modal XSLT: Processing the same nodes in multiple ways <ol>
+
                                 <li>Starter file for Modal XSLT to create the table of contents
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</a>
+                                        <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</a>
                                 </li>
                                 <li>One possibility for modal XSLT with a table of contents
                                     (example from DHSI 2024)
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</a></li>
+                                        <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</a></li>
                             </ol>
                         </li>
                     </ol></li></ol></section>
@@ -1028,8 +1031,8 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
         <h2>Thursday, May 29: XPath and Schematron</h2>
         
             <section><h3>Concluding XSLT (9:00 a.m.–9:30 a.m.)</h3><ol><li>XSLT activity: Making a linked table of contents (continued) (30 minutes; 9:00 a.m.–9:30 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
-                    <li>Modal XSLT: Processing the same nodes in multiple ways </li>
-                </ol></li></ol></section>
+                        <li>Modal XSLT: Processing the same nodes in multiple ways </li>
+                    </ol></li></ol></section>
             <section><h3>Using Schematron to constrain your markup (9:30 a.m.–12:00 p.m.)</h3><ol><li>Schematron overview (15 minutes; 9:30 a.m.–9:45 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Schematron is <em>constraint based</em>; Relax NG, XML Schema, DTD
                             are <em>grammar based</em></li>
@@ -1269,12 +1272,12 @@ return $b except $a (: returns items in $b that are not in $a:)</div></li>
             <section><h3>Schematron Exercise (9:00 a.m.–10:15 a.m.)</h3><ol><li>Webb 1819-05-16 letter (or participant project data) (60 minutes; 9:00 a.m.–10:00 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Letter <ol>
                                 <li>XML:
-                                    <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</a></li>
+                                        <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</a></li>
                                 <li>Read on line:
-                                    <a href="https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml">https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</a></li>
-                        </ol></li>
+                                        <a href="https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml">https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</a></li>
+                            </ol></li>
                         <li>Schematron starter:
-                            <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</a></li>
+                                <a href="https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch">https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</a></li>
                         <li>New items for the site index are in the <code>&lt;back&gt;</code>
                             <ol>
                                 <li>Some <code>@ref</code> values in the back have also already

@@ -132,6 +132,10 @@
                                         url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
                                         >format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
                                         [FNn], [D1o] [MNn]')</code></example>
+                                <example><code
+                                        url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
+                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
+                                        [FNn], [D1o] [MNn]', 'fr', (), ())</code></example>
                             </examples></item>
                         <item>Nested functions are hard to read. Use the <emph
                                 url="https://www.w3.org/TR/xpath-31/#id-arrow-operator">arrow
@@ -862,8 +866,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                             variable $si as document-node() :=
                                             doc('https://digitalmitford.org/si.xml');</code> The new
                                         global variable must be added before the first
-                                            <code>let</code> statement.</answer>S
-                                </example>
+                                            <code>let</code> statement.</answer>S </example>
                                 <example>Write a variable (either global or in <code>let</code>
                                     form) that locates all of the <code>&lt;place&gt;</code>
                                     elements in the site index document. Use the <code>$si</code>
@@ -929,7 +932,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                     </details>
                 </act>
-                
+
                 <act time="PT30M">
                     <desc>FLWOR statements in XQuery: how <code>for</code> works: Part 1</desc>
                     <details>
@@ -1217,7 +1220,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
 
                     </details>
                 </act>
-              
+
                 <!-- <act time="PT15M">
                 <desc>Comparing XSLT and XQuery</desc>
                 <details>
@@ -1235,54 +1238,57 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                 <act time="PT25M">
                     <desc>Preparing XSLT to Output HTML</desc>
                     <details>
-                        <item>Using default XSLT processing. (This is not an identity transformation! Remove <code>&lt;xsl:mode/&gt;</code> for shallow-copying nodes.)</item>
+                        <item>Using default XSLT processing. (This is not an identity
+                            transformation! Remove <code>&lt;xsl:mode/&gt;</code> for
+                            shallow-copying nodes.)</item>
                         <item><code>&lt;xsl:stylesheet&gt;</code> and
-                            <code>&lt;xsl:output&gt;</code></item>
+                                <code>&lt;xsl:output&gt;</code></item>
                         <item>Template matching on the document node to output HTML</item>
                         <item>Structure of an HTML document: <code>&lt;head&gt;</code> and
-                            <code>&lt;body&gt;</code></item>
+                                <code>&lt;body&gt;</code></item>
                         <item>Complete basic <q>Ozymandias</q> transformation:<examples>
                                 <example>Input:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link>)</example>
-                                
+                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/ozymandias.xml</link>)</example>
+
                                 <example>Required HTML elements: <code>&lt;html&gt;</code>,
-                                    <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
-                                    <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
-                                    <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
-                                    <code>&lt;cite&gt;</code> (for publication venue),
-                                    <code>&lt;div&gt;</code> (for poem),
-                                    <code>&lt;br/&gt;</code> (NB: empty element, after all lines
+                                        <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                                        <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code>,
+                                        <code>&lt;h2&gt;</code>, <code>&lt;p&gt;</code>,
+                                        <code>&lt;cite&gt;</code> (for publication venue),
+                                        <code>&lt;div&gt;</code> (for poem),
+                                        <code>&lt;br/&gt;</code> (NB: empty element, after all lines
                                     except the last)</example>
-                                <example>The output we want: <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
+                                <example>The output we want:
+                                        <link>https://ebeshero.github.io/UpTransformation/ozymandias.html</link></example>
                                 <!-- <example>XSLT:
                                     <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/xsltOzy-to-html.xsl</link></example> -->
-                        </examples>
-                            
+                            </examples>
                         </item>
                     </details>
                 </act>
-           
+
                 <act time="PT40M">
                     <desc>XSLT Activity: TEI XML to HTML transformation</desc>
                     <details>
-                        <item><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to HTML: (<q>It’s always a namespace issue!</q>)</item>
+                        <item><code>&lt;xsl:stylesheet&gt;</code> adaptation for processing TEI to
+                            HTML: (<q>It’s always a namespace issue!</q>)</item>
                         <item>Open the url of the Emily Dickinson Fascicle 16 file:
                                 <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/dickinsonColl.xml</link>,
                             and study the document.</item>
                         <item>Open this starter XSLT file url in &lt;oXygen/&gt;:
                                 <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/TEI-HTML-Starter.xsl</link></item>
                         <item>The output we want:
-                            <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
+                                <link>https://ebeshero.github.io/UpTransformation/dickinson16.html</link></item>
                     </details>
                 </act>
                 &break;
                 <act time="PT35M">
                     <desc>XSLT Activity: TEI XML to HTML transformation (continued)</desc>
-                   <details>
-                       <item>Writing and refining template rules.</item>
-                       <item>Numbering lines</item>
-                       <item>CSS for styling</item>
-                   </details>
+                    <details>
+                        <item>Writing and refining template rules.</item>
+                        <item>Numbering lines</item>
+                        <item>CSS for styling</item>
+                    </details>
                 </act>
                 <act time="PT35M">
                     <desc>XSLT activity: Making a linked table of contents</desc>
@@ -1299,20 +1305,19 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                         </item>
                         <item>How internal links work in HTML</item>
                         <item>Attribute Value Templates</item>
-                        <item>Modal XSLT: Processing the same nodes in multiple ways
-                            <examples>
-                                
+                        <item>Modal XSLT: Processing the same nodes in multiple ways <examples>
+
                                 <example>Starter file for Modal XSLT to create the table of contents
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</link>
+                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/dickinson-dhsi24.xsl</link>
                                 </example>
                                 <example>One possibility for modal XSLT with a table of contents
                                     (example from DHSI 2024)
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</link></example>
+                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/xslt/modal-dickinson.xsl</link></example>
                             </examples>
                         </item>
                     </details>
                 </act>
-                
+
             </slot>
         </afternoon>
     </day>
@@ -1321,13 +1326,13 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
         <morning>
             <slot time="09:00:00">
                 <title>Concluding XSLT</title>
-           <act time="PT30M">
-                  
-                <desc>XSLT activity: Making a linked table of contents (continued)</desc>
-                <details>
-                    <item>Modal XSLT: Processing the same nodes in multiple ways </item>
-                </details>
-            </act>
+                <act time="PT30M">
+
+                    <desc>XSLT activity: Making a linked table of contents (continued)</desc>
+                    <details>
+                        <item>Modal XSLT: Processing the same nodes in multiple ways </item>
+                    </details>
+                </act>
             </slot>
             <slot time="09:30:00">
                 <title>Using Schematron to constrain your markup</title>
@@ -1495,7 +1500,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                                     <answer><link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/stooges.sch</link></answer></item>
                     </details>
                 </act>
-          <!--      <act time="PT20M">
+                <!--      <act time="PT20M">
                     <desc>One more way of counting spaces and hyphens</desc>
                     <details>
 
@@ -1649,7 +1654,7 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                             </examples></item>
                     </details>
                 </act>
-               
+
             </slot>
         </afternoon>
     </day>
@@ -1663,12 +1668,12 @@ return $b except $a (: returns items in $b that are not in $a:)</answer></exampl
                     <details>
                         <item>Letter <examples>
                                 <example>XML:
-                                    <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
+                                        <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/1819-05-16_MWebb.xml</link></example>
                                 <example>Read on line:
-                                    <link>https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
-                        </examples></item>
+                                        <link>https://digitalmitford.org/getLetterText.php?uri=1819-05-16_MWebb.xml</link></example>
+                            </examples></item>
                         <item>Schematron starter:
-                            <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
+                                <link>https://raw.githubusercontent.com/ebeshero/UpTransformation/master/data/mitford-back.sch</link></item>
                         <item>New items for the site index are in the <code>&lt;back&gt;</code>
                             <examples>
                                 <example>Some <code>@ref</code> values in the back have also already
