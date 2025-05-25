@@ -11,7 +11,7 @@
     <xsl:template match="/">
         <section>
             <h1>Schedule</h1>
-            <p>All class sessions are in room B-3255 in the main University building at 3200 Rue
+            <p>All class sessions are in room B-3255 in the main University building at 3200 rue
                 Jean-Brillant.</p>
             <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                 all</button></p>
