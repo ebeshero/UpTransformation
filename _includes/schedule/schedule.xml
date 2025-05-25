@@ -134,7 +134,7 @@
                                         [FNn], [D1o] [MNn]')</code></example>
                                 <example><code
                                         url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
-                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
+                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn],
                                         [FNn], [D1o] [MNn]', 'fr', (), ())</code></example>
                             </examples></item>
                         <item>Nested functions are hard to read. Use the <emph
