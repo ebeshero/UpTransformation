@@ -130,20 +130,22 @@
                                         Mom!','AEIOU','xxxxx'))</code>?)</example>
                                 <example><code
                                         url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
-                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn] on
-                                        [FNn], [D1o] [MNn]')</code></example>
+                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn], [FNn],
+                                        [D1o] [MNn]')</code></example>
                                 <example><code
                                         url="https://www.w3.org/TR/xpath-functions-31/#func-format-dateTime"
-                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn],
-                                        [FNn], [D1o] [MNn]', 'fr', (), ())</code></example>
+                                        >format-dateTime(current-dateTime(),'[h].[m01] [Pn], [FNn],
+                                        [D1o] [MNn]', 'fr', (), ())</code></example>
                             </examples></item>
                         <item>Nested functions are hard to read. Use the <emph
                                 url="https://www.w3.org/TR/xpath-31/#id-arrow-operator">arrow
                                 operator</emph> (<code>=&gt;</code>) instead<examples>
                                 <example><code>upper-case('Hi, Mom!') =>
                                         translate('AEIOU','xxxxx')</code></example>
-                                <example><code>current-dateTime() => format-dateTime('[h].[m01][Pn]
-                                        on [FNn], [D1o] [MNn]')</code></example>
+                                <example><code>current-dateTime() => format-dateTime('[h].[m01][Pn],
+                                        [FNn], [D1o] [MNn]')</code></example>
+                                <example><code>current-dateTime() => format-dateTime('[h].[m01][Pn],
+                                        [FNn], [D1o] [MNn]', 'fr', (), ())</code></example>
                             </examples></item>
                         <item>Path expressions may span multiple lines (try it with the examples
                             above), that is, new-line and space have the same meaning</item>
