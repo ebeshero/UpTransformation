@@ -11,6 +11,8 @@
     <xsl:template match="/">
         <section>
             <h1>Schedule</h1>
+            <p>All class sessions are in room B-3255 in the main University building at 3200 Rue
+                Jean-Brillant.</p>
             <p><button id="expand">Expand all</button> | <button id="collapse">Collapse
                 all</button></p>
             <xsl:apply-templates/>
@@ -52,8 +54,7 @@
         <li>
             <xsl:apply-templates select="image"/>
             <xsl:apply-templates select="desc"/>
-            <xsl:value-of
-                select="
+            <xsl:value-of select="
                     concat(' (', xs:dayTimeDuration(@time) div xs:dayTimeDuration('PT1M'), ' minutes; ',
                     djb:format-time($act_start), '–', djb:format-time($act_end), ')')"/>
             <xsl:text> </xsl:text>
