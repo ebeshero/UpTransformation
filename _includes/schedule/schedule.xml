@@ -536,7 +536,11 @@
                             the longest speech? <answer><code>//sp[string-length() eq
                                     max(//sp/string-length())]/speaker</code>
                                 (or, better: <code>//sp[string-length(normalize-space()) eq
-                                    max(//sp/string-length(normalize-space()))]/speaker</code>)</answer></item>
+                                    max(//sp/string-length(normalize-space()))]/speaker</code>)
+                             Try writing it this way: 
+                                <code>let $max := //sp ! normalize-space() ! string-length() => max()
+return sp[normalize-space() ! string-length() = $max]</code>
+                            </answer></item>
                     </details>
                 </act>
                 <act time="PT10M">

@@ -457,7 +457,11 @@
                             the longest speech?  <button class="answer">Answer</button> <span class="answer"><code>//sp[string-length() eq
                                     max(//sp/string-length())]/speaker</code>
                                 (or, better: <code>//sp[string-length(normalize-space()) eq
-                                    max(//sp/string-length(normalize-space()))]/speaker</code>)</span></li>
+                                    max(//sp/string-length(normalize-space()))]/speaker</code>)
+                             Try writing it this way: 
+                                <code>let $max := //sp ! normalize-space() ! string-length() =&gt; max()
+return sp[normalize-space() ! string-length() = $max]</code>
+                            </span></li>
                     </ol></li><li>Housekeeping: documents, collections, and namespaces (10 minutes; 9:45 a.m.–9:55 a.m.) <span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
                         <li>Open our web server installation of eXist-dB at
                                 <a href="http://exist.newtfire.org/exist/apps/eXide/index.html">http://exist.newtfire.org/exist/apps/eXide/index.html</a>.
