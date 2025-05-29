@@ -4,7 +4,7 @@
     <sch:pattern>
         <sch:rule context="results">
             <sch:assert test="sum(stooge/number()) eq 100">Total percentages must equal
-                100</sch:assert>
+                100. (The sum of the percentages here is <sch:value-of select="sum(stooge/number())"/>.</sch:assert>
             <sch:assert test="count(stooge) eq 3">There are exactly three stooges!</sch:assert>
             <sch:assert test="count(stooge) eq count(distinct-values(stooge/@name))">No duplicate
                 stooges allowed!</sch:assert>
