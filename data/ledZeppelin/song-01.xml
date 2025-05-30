@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../zeppelinInClass2025.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei ixml:state="ambiguous"
      xmlns:ixml="http://invisiblexml.org/NS">
    <music>
@@ -164,7 +165,7 @@
          <chordLine>
             <chord num="1">E</chord>
             <chord num="b7">D</chord>
-            <chord num="4/6">A/C#</chord>
+            <chord num="4/6">A/C</chord>
          </chordLine>
          <lyrics>I'm gonna love you each and ev'ry day.</lyrics>
       </section>
@@ -172,7 +173,7 @@
          <chordLine>
             <chord num="1">E</chord>
             <chord num="b7">D</chord>
-            <chord num="4/6">A/C#</chord>
+            <chord num="4/6">  A/C#</chord>
             <chord num="1">E</chord>
          </chordLine>
          <lyrics>You can feel the beat within my heart.</lyrics>
@@ -181,7 +182,7 @@
             <chord num="4/6">A/C#</chord>
             <chord num="1">E</chord>
             <chord num="b7">D</chord>
-            <chord num="4/6">A/C#</chord>
+            <chord num="4/6">A/C  </chord>
             <chord num="1">E</chord>
          </chordLine>
          <lyrics>Realize sweet babe we ain't never gonna part.</lyrics>
