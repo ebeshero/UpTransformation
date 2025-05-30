@@ -32,9 +32,11 @@
     <xsl:template match="dateline">
         <xsl:variable name="dateTokens" as="xs:string+"
             select="normalize-space() ! tokenize(., '[ ,.]+') ! translate(., '[]', '')"/>
+        
+
         <xsl:copy>
             <date
-                when="{$dateTokens[4]}-{$monthLookup($dateTokens[2])}-{replace($dateTokens[3], '[A-Za-z]', '')}">
+                when="{$dateTokens[4]}-{$monthLookup($dateTokens[2])}-{replace($dateTokens[3], '[A-Za-z]', '') ! xs:integer(.) ! format-integer(., '00')}">
                 <xsl:apply-templates/>
             </date>
         </xsl:copy>
