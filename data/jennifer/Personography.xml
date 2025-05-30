@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="per.00001">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>Mary</forename>
+                  <forename>Virginia</forename>
+                  <addName>Virginia</addName>
+                  <addName>MVM</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1850-04-16"/>
+               <death when="1902-08-08"/>
+               <education> Oberlin College </education>
+               <residence><placeName corresp="Brierfield">Brierfield</placeName></residence>
+               <residence><placeName corresp="DavisBend">Davis Bend,
+                  Mississippi</placeName></residence>
+               <residence><placeName corresp="brierfield">Brierfield</placeName></residence>
+               <note type="bio"><persName corresp="#MontgomeryMaryVirgnia">Mary Virginia
+                     Montgomery</persName> was enslaved to <persName corresp="DavisJosephEmory"
+                     >Joseph Davis</persName> upon her birth in 1850. She and her family were
+                  emancipated during the Civil War. <persName corresp="#MontgomeryMaryVirgnia"
+                     >Virginia</persName> began her diary in January 1872 while living with her
+                  family at <placeName corresp="Davis Bend">Davis Bend, Mississippi</placeName>.
+                  When the diary concludes in December 1872, she is attending Oberlin College
+                     in<placeName corresp="Oberlin">Oberlin, Ohio</placeName>.</note>
+            </person>
+
+            <person xml:id="per.00002">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>Benjamin</forename>
+                  <forename>Thornton</forename>
+                  <addName>Pa</addName>
+                  <addName>Papa</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1819" cert="medium"/>
+               <death when="1877-12-09" cert="high"/>
+               <education>self-educated</education>
+               <residence><placeName corresp="Davis Bend">Davis Bend,
+                  Mississippi</placeName></residence>
+               <residence corresp="Brierfeidl">Brierfield</residence>
+               <note type="bio"><persName corresp="#MontgomeryBenjaminThornton">Benjamin Thornton
+                     Montgomery</persName> was born in Virginia in approximately 1819 and was
+                  purchased by <persName corresp="DavisJosephEmory">Joseph Davis></persName> in
+                  1837. He married <persName corresp="#MontgomeryMaryLewis">Mary Lewis
+                     Montgomery</persName> in 1840. Together with his family, he lived in <placeName
+                     corresp="DavisBend">Davis Bend, Mississippi</placeName> in 1872.</note>
+            </person>
+
+            <person xml:id="per.00003">
+               <persName>
+                  <surname type="married">Montgomery</surname>
+                  <surname type="maiden">Lewis</surname>
+                  <forename>Mary</forename>
+                  <addName>Ma</addName>
+                  <addName>Mother</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1822" cert="medium"/>
+               <death when="1885" cert="medium"/>
+               <residence><placeName corresp="Brierfield">Brierfield</placeName></residence>
+               <residence><placeName corresp="DavisBend">Davis Bend,
+                  Mississippi</placeName></residence>
+               <note type="bio">Mary Lewis Montgomery was the mother of Mary Virginia Montgomery.
+                  She was born in Mississippi in the early 1820s and married Montgomery's father,
+                  Benjamin Thornton Montgomery in approximately 1840. The couple had four children
+                  together: William Thornton, Isaiah Thornton, Mary Virginia, and Rebecca C. The
+                  family was enslaved by Joseph Davis until 1862. Together with her husband and two
+                  daughters, Mary Lewis Montgomery lived at Brierfield plantation in Davis Bend,
+                  Mississippi, in 1872.</note>
+               <!-- how to encode relationships, like MLM's marriage to BTM? -->
+            </person>
+
+
+            <person xml:id="per.00004">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>Rebecca C.</forename>
+                  <addName>Beck</addName>
+                  <addName>Sister</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1854" cert="medium">1854</birth>
+               <death/>
+               <education>Oberlin College</education>
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <residence corresp="Brierfield">Brierfield</residence>
+               <note type="bio"><persName corresp="#MontgomeryRebeccaC">Rebecca C.
+                     Montgomery</persName> was four years younger than her sister, <persName
+                     corresp="#MontgomeryMaryVirgnia">Virginia</persName>. Like her sister, she also
+                  attended Oberlin College starting in November 1872.</note>
+            </person>
+
+            <person xml:id="per.00005">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>Isaiah</forename>
+                  <forename>Thornton</forename>
+                  <addName>Zie</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1847-05-21"/>
+               <death when="1924-03-05"/>
+               <education>tutor</education>
+               <education>self-educated</education>
+               <!-- how to indicate date of marriage and name of spouse? -->
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <residence corresp="Hurricane">Hurricane</residence>
+               <occupation>farmer</occupation>
+               <note type="bio">Isaiah, or "Zie," Montgomerywas the second child of Benjamin and
+                  Mary Montgomery and was three years older than his sister Virginia. He married
+                  Martha Robb in 1871. In 1872, he cultivated the Hurricane plantation acreage not
+                  rented out to tenants and managed the office above the Montgomery family
+                  store.</note>
+            </person>
+
+            <person xml:id="per.00006">
+               <persName>
+                  <surname type="married">Montgomery</surname>
+                  <surname type="maiden">Robb</surname>
+                  <forename>Martha</forename>
+                  <addName>Mat</addName>
+                  <addName>Mattie</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1852-06-04"/>
+               <death when="1923-07-23"/>
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <residence corresp="Hurricane">Hurricane</residence>
+            </person>
+
+            <person xml:id="per.00007">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>William</forename>
+                  <forename>Thornton</forename>
+                  <addName>Willie</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1872-03-04"/>
+               <note type="bio">Born on March 4, 1872, <persName corresp="#MontgomeryWillie">Willie
+                     Montgomery</persName> was the son of <persName
+                     corresp="#MontgomeryIsaiahThornton">Isaiah Montgomery</persName> and <persName
+                     corresp="#MontgomeryMarthaRobb">Martha, or Mattie, Robb
+                  Montgomery.</persName></note>
+            </person>
+
+            <person xml:id="per.00008">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>William</forename>
+                  <forename>Thornton</forename>
+                  <addName>Bro. T</addName>
+                  <addName>Brother T</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1843-02"/>
+               <death when="1909-07-03"/>
+               <education>tutor</education>
+               <education>self-taught</education>
+               <occupation>merchant</occupation>
+               <occupation>farmer</occupation>
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <residence corresp="Ursino">Ursino</residence>
+               <note type="bio"><persName corresp="MontgomeryWilliamThornton">William T.
+                     Montgomery</persName> was the eldest son of <persName
+                     corresp="#MontgomeryBenjaminThornton">Benjamin Montgomery</persName> and
+                     <persName corresp="#MontgomeryMaryLewis">Mary Montgomery</persName>. Born in
+                  1843 in <placeName>Davis Bend, Mississippi</placeName>
+                  <persName corresp="#MontgomeryWilliamThornton">William</persName>, like the rest
+                  of his family, was enslaved by Joseph Davis. On July 15, 1863, he enlisted in the
+                  United States Navy as an officer's steward on the USS Carondelet. He returned to
+                     <placeName corresp="DavisBend"/>immediately after the end of the Civil War. In
+                  1884, <persName corresp="#MontgomeryWilliamThornton">William</persName> moved to
+                  Dakota Territory where he had a large farm. He returned to Mississippi in
+                  <!-- date? -->, settling in Mound Bayou with the rest of his siblings. He died
+                  there in 1909.</note>
+            </person>
+
+            <person xml:id="per.00009">
+               <persName>
+                  <surname>Green</surname>
+                  <forename>Virginia</forename>
+                  <forename>C.</forename>
+                  <addName>Mrs. Green</addName>
+                  <addName>Miss Green</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1845"/>
+               <education cert="low">Oberlin</education>
+               <occupation>clerk</occupation>
+               <occupation>teacher</occupation>
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <residence corresp="Ursino">Ursino</residence>
+               <note type="bio"><persName corresp="GreenVirginiaC">Virginia C. Green</persName> was
+                  born in Ohio around 1845. She came to Davis Bend to teach recently enslaved
+                  children at the end of the Civil War.</note>
+            </person>
+
+            <person xml:id="per.00010">
+               <persName>
+                  <surname type="married">Shadd</surname>
+                  <surname type="maiden">Freeman</surname>
+                  <forename>Amelia</forename>
+                  <addName>Mrs. Shadd</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1833"/>
+               <education>Oberlin College</education>
+               <occupation>teacher</occupation>
+               <residence>Davis Bend, Mississippi</residence>
+               <residence>Ursino</residence>
+               <note type="bio"><persName corresp="#ShaddAmeliaFreeman"/>was born in 1833 in either
+                  Ohio or Pennsylvania. She was a teacher and activist, first in Pittsburgh and then
+                  in Chatham, where she moved in the spring of 1856. She married <persName>Isaac D.
+                     Shadd</persName>several months later. In 1870, the Shadds moved to Mississippi,
+                  where <persName corresp="#ShaddAmeliaFreeman">Amelia Shadd</persName> taught,
+                  first in <placeName>Davis Bend</placeName> and then, in 1872, in
+                     <placeName>Vicksburg</placeName>. Her date of death is unknown.</note>
+            </person>
+
+            <person xml:id="per.00011">
+               <persName>
+                  <surname>Shadd</surname>
+                  <forename>Isaac D.</forename>
+                  <addName>Mr. I.D.</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1829" cert="medium"/>
+               <death when="1896"/>
+               <occupation>politician</occupation>
+               <occupation>editor</occupation>
+               <occupation>activist</occupation>
+               <residence>Davis Bend, Mississippi</residence>
+               <residence>Ursino</residence>
+               <note type="bio"><persName corresp="#ShaddIsaacD">Isaac D. Shadd</persName> was
+                  likely born in 1829 in Wilmington, Delaware. He was the son of antislavery and
+                  civil rights activist Abraham Doras Shadd and the brother of activist and
+                  journalist Mary Ann Shadd Cary. He married <persName corresp="#ShaddAmeliaFreeman"
+                     >Amelia Freeman</persName>in 1856. He and his wife moved to Davis Bend,
+                  Mississippi in 1870, where he may have worked as a bookkeeper for <persName
+                     corresp="#MontgomeryWilliamThornton">W. T. Montgomery</persName>. He moved to
+                  Vicksburg, Mississippi in 1827, where he was elected to the Mississippi House of
+                  Representatives.</note>
+            </person>
+
+            <person xml:id="per.00012">
+               <persName>
+                  <surname>Hickman</surname>
+                  <forename>Barriteer L.</forename>
+                  <addName>Mr. H.</addName>
+                  <addName>Baratea</addName>
+                  <addName>Barratien</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1852"/>
+               <death when="1875-10-19"/>
+               <occupation>life insurance agent</occupation>
+               <occupation>bookkeeper</occupation>
+               <residence corresp="DavisBend">Davis Bend</residence>
+               <residence corresp="Ursino" cert="medium">Ursino</residence>
+               <note type="bio"><persName corresp="#HickmanBarriteer">Barriteer L.
+                     Hickman</persName> was born in Virginia but moved to St. Louis, Missouri, with
+                  his parents when he was a young child. In 1870, when he was eighteen years old, he
+                  was living with his parents in St. Louis and working as a life insurance agent. It
+                  is not clear how he met the Montgomery family or when he moved to Davis Bend to
+                  work as a bookkeeper. <persName corresp="MontgomeryMaryVirginia">Mary Virginia
+                     Montgomery</persName> worked as his assistant.</note>
+            </person>
+
+            <person xml:id="per.00013">
+               <persName>
+                  <surname>Green</surname>
+                  <forename>Chleotha</forename>
+                  <addName>Chlote</addName>
+                  <addName>Clote</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1863" cert="low"/>
+               <death when="1929-12"/>
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <residence corresp="Brierfield">Brierfield</residence>
+               <note type="bio"><persName corresp="#GreenChlote">Chlote Green</persName> was born in
+                  approximately 1863 to Isaac Green and Kitty or Katie Jane Lewis, the sister of
+                     <persName corresp="#MontgomeryMaryLewis">Mary Lewis Montgomery</persName>. In
+                  the early 1870s, she and her brother <persName corresp="GreenBenjaminTitus"
+                     >Benjamin Green</persName>lived with the Montgomery family at <placeName
+                     corresp="Brierfield">Brierfield</placeName>.</note>
+
+            </person>
+
+            <person xml:id="per.00014">
+               <persName>
+                  <addName>Uncle Peter</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00015">
+               <persName>
+                  <addName>Red</addName>
+               </persName>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00016">
+               <persName>
+                  <surname>Street</surname>
+                  <forename>Mary</forename>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1853"/>
+               <occupation>farm laborer</occupation>
+               <note type="bio">Mary Street lived at Davis Bend with her mother, Lucy. Both Mary and
+                  her mother were born in Virginia. According to the 1870 census, neither could read
+                  or write. Mary worked as a farm hand. </note>
+            </person>
+
+            <person xml:id="per.00017">
+               <persName>Samuel Robert Wells</persName>
+               <birth when="1820"/>
+               <death>1875</death>
+               <occupation type="author"/>
+               <occupation type="publisher"/>
+            </person>
+
+            <person xml:id="per.00018">
+               <persName>Alex</persName>
+            </person>
+
+            <person xml:id="per.00019">
+               <persName>
+                  <surname>Ayre</surname>
+                  <forename>Charles</forename>
+                  <addName>C Ayre</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00020">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Toney</forename>
+                  <addName>Uncle Toney</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1821" cert="low"/>
+               <occupation>farmer</occupation>
+               <note><persName corresp="#LewisToney">Toney Lewis</persName>, or "Uncle Toney," was
+                  likely the brother of <persName corresp="#MontgomeryMaryLewis">Mary Lewis
+                     Montgomery</persName>. According to the 1870 census, he lived in Davis Bend
+                  with a woman who was either a much younger wife or an older child (thirty years
+                  old to his forty-nine), Virginia, and eight children, six of whom had the last
+                  name "Lewis."</note>
+            </person>
+
+            <person xml:id="per.00021">
+               <persName>Mrs. Belle</persName>
+            </person>
+
+            <person xml:id="per.00022">
+               <persName>
+                  <surname>Brooks</surname>
+                  <forename>Lucy</forename>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1852"/>
+               <note type="bio"><persName corresp="#BrooksLucy"/> was the daughter of <persName
+                     corresp="#BrooksMartha">Martha Brooks</persName>, or "Aunt Martha," a cook who
+                  lived with and worked for the Montgomery family.</note>
+            </person>
+
+            <person xml:id="per.00023">
+               <persName>Mrs. Tilly</persName>
+               <persName>Mrs. Tilley</persName>
+               <gender value="F"/>
+               <!-- Need to do more research here. Mrs. Tilley does not live at Davis Bend. She seems to visit and depart. -->
+            </person>
+
+            <person xml:id="per.00024">
+               <persName>
+                  <surname>James</surname>
+                  <forename>Bettie</forename>
+                  <addName>Betsy</addName>
+               </persName>
+
+            </person>
+
+            <person xml:id="per.00025">
+               <persName>
+                  <surname>Montgomery</surname>
+                  <forename>Joshua</forename>
+                  <addName>Josh</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1854" cert="low"/>
+               <note type="bio"><persName corresp="#MontgomeryJoshua">Joshua Montgomery</persName>
+                  was the cousin of <persName corresp="#MontgomeryMaryVirginia">Virginia
+                     Montgomery</persName>. It is unclear whether his mother or his father was a
+                  sibling of <persName corresp="#MontgomeryBenjaminThornton">Benjamin
+                     Montgomery</persName>.<persName corresp="#MontgomeryJoshua">Joshua</persName>
+                  appears to have worked with his uncle as a mechanic and in other capacities.
+               </note>
+            </person>
+
+            <person>
+               <persName xml:id="per.00026">
+                  <surname>Hardin</surname>
+                  <forename>Henry</forename>
+                  <addName>Henry Harding</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1830"/>
+               <occupation>farmer</occupation>
+               <note type="bio"><persName corresp="#HardinHenry">Henry Hardin</persName> or Harding
+                  was born around 1830. According to the 1870 census, he lived with Hannah Hardin,
+                  fifty years old, and two children: four-year-old Shephard and an infant named M.G.
+                  He could not read or write, which explains why <persName
+                     corresp="#MontgomeryMaryVirgnia">Virginia writes a letter for him on 26
+                     January.</persName></note>
+            </person>
+
+            <person xml:id="per.00027">
+               <persName>
+                  <surname>Green</surname>
+                  <forename>Benjamin</forename>
+                  <forename>Titus</forename>
+                  <addName>Ben</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1854-12-14" cert="high"/>
+               <death when="1896-06-25"/>
+               <residence corresp="DavisBend">Davis Bend, Mississippi</residence>
+               <note type="bio"><persName corresp="GreenBenjaminTitus">Bejamin Titus
+                     Green</persName> was born in 1854 to Isaac Green and Kitty or Katie Jane Lewis,
+                  the sister of <persName corresp="#MontgomeryMaryLewis">Mary Lewis
+                     Montgomery</persName>. In the early 1870s, he and his sister <persName
+                     corresp="GreenChlote">Chlote Green</persName>lived with the Montgomery family
+                  at <placeName corresp="Brierfield">Brierfield</placeName>.</note>
+            </person>
+
+            <person xml:id="per.00028">
+               <persName>
+                  <surname>Owen</surname>
+                  <forename>George</forename>
+               </persName>
+               <note type="bio"><persName corresp="OwenGeorge">George Owen</persName> was the
+                  inventor of the Owen Double Plow and Cultivator, or, as it was sometimes called,
+                  the Owen Twin Plow and Cultivator. He visited the Montgomery family a number of
+                  times in 1872.</note>
+
+            </person>
+
+            <person xml:id="per.00029">
+               <persName>
+                  <forename>Henny</forename>
+               </persName>
+               <!-- possibly Henny Adams, born 1851, 19 years old in 1870 census -->
+            </person>
+
+            <person xml:id="per.00030">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Rachel</forename>
+                  <addName>Granny</addName>
+                  <addName>Grandma</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1800" cert="low"/>
+               <residence>Davis Bend, Mississippi</residence>
+               <note><persName corresp="#LewisRachel">Rachel Lewis</persName> was the mother of
+                     <persName corresp="#MontgomeryMaryLewis">Mary Lewis Montgomery</persName> and
+                  the grandmother of <persName corresp="#MontgomeryMaryVirgnia">Mary Virginia
+                     Montgomery</persName>. <persName corresp="#LewisRachel">Rachel Lewis</persName>
+                  and her husband <persName>William Lewis, Sr.</persName> were likely born in
+                  Virginia, but were purchased by <persName>Joseph E. Davis</persName> and moved to
+                  Davis Bend earlier than <persName corresp="#MontgomeryBenjaminThornton">Benjamin
+                     Montgomery</persName>.</note>
+            </person>
+
+            <person xml:id="per.00031">
+               <persName>
+                  <forename>Horrace</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00032">
+               <persName>
+                  <forename>Willie</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00033">
+               <persName>
+                  <forename>Gus</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00034">
+               <persName>
+                  <surname>Alden</surname>
+                  <addName>Mrs. Alden</addName>
+               </persName>
+               <gender value="W"/>
+            </person>
+
+            <person xml:id="per.00035">
+               <persName>
+                  <forename>Grant</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00036">
+               <persName>
+                  <forename>Tom</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00037">
+               <persName>
+                  <surname>Payne</surname>
+                  <addName>Little</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00038">
+               <persName>
+                  <surname>Green</surname>
+                  <forename>David</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00039">
+               <persName>
+                  <forename>Jimmie</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00040">
+               <persName>
+                  <forename>John</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00041">
+               <persName>
+                  <forename>Phil</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00042">
+               <persName>
+                  <forename>Wash</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00043">
+               <persName>
+                  <forename>Sam</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00044">
+               <persName>
+                  <forename>Robert</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00045">
+               <persName>
+                  <surname>Currigan</surname>
+                  <forename>Tom</forename>
+               </persName>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00046">
+               <persName>
+                  <forename>Blanton</forename>
+                  <surname>Gilbert</surname>
+                  <!-- I can only find Gilbert Blanton on an 1870 list of state census returns from Warren Cty. It shows that he is Black and lives in Warren Cty. with a small family. Possibly "Giffort Blanton" in DB in 1870? -->
+               </persName>
+
+            </person>
+
+            <person xml:id="per.00047">
+               <persName>
+                  <surname>Becks</surname>
+                  <forename>Margaret</forename>
+                  <addName>Mrs Bex</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1847"/>
+               <residence>Davis Bend</residence>
+               <note type="bio"><persName corresp="#BecksMargaret"/> was born in Mississippi in
+                  approximately 1847. In the 1870 census, she is living at Davis Bend with her
+                  husband Calvin and her three-year-old daughter, Nannie. By 1880, they were living
+                  in Goosey Precinct, Yazoo County.</note>
+
+            </person>
+
+            <person xml:id="per.00048">
+               <persName>
+                  <forename>Ethel</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00049">
+               <persName>
+                  <surname>Karrigan</surname>
+                  <forename>William</forename>
+               </persName>
+               <gender value="M"/>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00050">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Susan</forename>
+                  <addName>S.H.</addName>
+                  <addName>Aunt Susan</addName>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <birth>1839</birth>
+               <death>1907</death>
+               <residence>Davis Bend</residence>
+               <note>Susan Lewis seems to have been born </note>
+            </person>
+
+            <person xml:id="per.00051">
+               <persName>
+                  <forename>Bernice</forename>
+               </persName>
+               <!-- May live with Rachel Lewis, MVM's grandmother, and Aunt Susan -->
+            </person>
+
+            <person xml:id="per.00052">
+               <persName>
+                  <surname>McGinnis</surname>
+                  <forename>Sarah</forename>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1835"/>
+               <residence>Bolivar County</residence>
+               <note type="bio">Sarah McGinnis and her husband William lived in Bolivar County,
+                  Mississippi, with their three children Sarah, Edward, and Lucy. Prior to her
+                  marriage to Isaiah Montgomery, Martha Robb Montgomery lived with the McGinnis
+                  family. It is not clear how she knew them.</note>
+            </person>
+
+            <person xml:id="per.00053">
+               <persName>
+                  <surname>McGinnis</surname>
+                  <forename>Eddie</forename>
+                  <addName>Edward</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1866"/>
+               <residence>Bolivar County, Mississippi</residence>
+               <!-- May be Edward Lee McGinnis, born around 1865 in Mississippi, but goes to live in Arkansas as an adult. Attends Fisk University in 1876, with the record listing his home as "Port Anderson, Bolivar, Miss." -->
+            </person>
+
+            <person xml:id="per.00054">
+               <persName>
+                  <surname>McGinnis</surname>
+                  <forename>Lissy</forename>
+                  <addName>Lucy</addName>
+               </persName>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <birth when="1870"/>
+               <residence>Bolivar County, Mississippi</residence>
+
+
+            </person>
+
+            <person xml:id="per.00055">
+               <persName>
+                  <surname>Kelly</surname>
+                  <forename>Esther</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00056">
+               <persName>
+                  <surname>Alden</surname>
+                  <forename>Charlie</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00057">
+               <persName>
+                  <forename>William</forename>
+               </persName>
+               <!-- I don't think this is William Kerrigan. She speaks favorably of WK's work, but this William is a "source of daily annoyance" on 2/28. -->
+            </person>
+
+            <person xml:id="per.00058">
+               <persName>
+                  <surname>Shadd</surname>
+                  <forename>Abraham W.</forename>
+                  <addName>Abe</addName>
+                  <addName>Mr. A. W.</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1844"/>
+               <death when="1878"/>
+               <education>LL. B., Howard University, 1871</education>
+               <occupation>lawyer</occupation>
+               <residence cert="low">Washington County, Mississippi</residence>
+               <note type="bio"><persName corresp="#ShaddAbrahamW">Abraham W. Shadd</persName> was
+                  the younger brother of <persName corresp="#ShaddIsaacD">Isaac D. Shadd</persName>.
+                  After recieving his law degree from Howard University in 1871, he moved to
+                  Mississippi, where he served as an attorney and a public official.</note>
+            </person>
+
+            <person xml:id="per.00059">
+               <persName>
+                  <surname>Willis</surname>
+                  <forename>Louis</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1824" cert="medium"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00060">
+               <persName>
+                  <surname>Hockerty</surname>
+                  <forename>Thomas</forename>
+               </persName>
+            </person>
+
+
+            <person xml:id="per.00061">
+               <persName>
+                  <surname>Scharff</surname>
+                  <forename>Laz</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>German</nationality>
+               <birth when="1847" cert="medium"/>
+               <death when="1930"/>
+               <occupation>merchant</occupation>
+               <note type="bio"><persName corresp="#ScharffLaz">Laz Scharff</persName> was the
+                  younger brother of <persName corresp="#ScharffMoses">Moses Scharff</persName> and,
+                  in 1870, lived with him and his family in Vicksburg. He likely worked for his
+                  elder brother at Scharff Bros. selling dry goods and clothing.</note>
+            </person>
+
+            <person xml:id="per.00062">
+               <persName>
+                  <surname>Scharff</surname>
+                  <forename>Moses</forename>
+                  <addName>Mr. Scharff</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>German</nationality>
+               <birth when="1834"/>
+               <death when="1905"/>
+               <occupation>merchant</occupation>
+               <note type="bio"><persName corresp="#ScharffMoses">Moses Scharff lived in Vicksburg,
+                     Mississippi, with his wife and small children, as well as several brothers.
+                     Along with at least one brother, he had a dry goods and clothing business
+                     called Scharff Bros. By 1830, he and his family had moved to St. Louis,
+                     Missouri. The Scharffs were likely part of an active and organized Jewish
+                     community in Vicksburg, established around 1830.</persName></note>
+            </person>
+
+            <person xml:id="per.00063">
+               <persName>
+                  <surname>Scharff</surname>
+                  <forename>Edgar</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>America</nationality>
+               <birth when="1863"/>
+            </person>
+
+            <person xml:id="per.00064">
+               <persName>
+                  <surname>Bourne</surname>
+                  <forename>Joshua W.</forename>
+                  <addName>Captain Bourne</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1839"/>
+               <death when="1884"/>
+               <occupation>politician</occupation>
+               <note type="bio"><persName corresp="#BourneJoshuaW">Joshua W. Bourne, or Captain
+                     Bourne, as Virginia calls him in her diary, was a former Union solder who
+                     settled in Vicksburg after the Civil War. He became a politician, serving as
+                     county assessor and deputy collector of internal revenue before he was murdered
+                     during a duel in 1884.</persName></note>
+            </person>
+
+            <person xml:id="per.00065">
+               <persName>
+                  <forename>Josephine</forename>
+                  <forename>Joe</forename>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1852"/>
+               <occupation>seamstress</occupation>
+               <note type="bio"><persName corresp="#Josephine">"Joe"</persName> is likely Josephine
+                  Robinson, who lives with Edward and Nancy Robinson in Davis Bend in 1870. Her
+                  relationship to them is unclear. On 4 May, 1872, Josephine married Charles Miller.
+                  By 1880, the couple lived in Vicksburg, Mississippi.</note>
+            </person>
+
+            <person xml:id="per.00066">
+               <persName>
+                  <surname>Stone</surname>
+                  <forename>Charles</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00067">
+               <persName>
+                  <surname>Gailor</surname>
+                  <forename>P</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00068">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Jack</forename>
+                  <addName>J. H.</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1832"/>
+               <occupation>carpenter</occupation>
+               <note type="bio"><persName corresp="#LewisJack">Jack (J. H.) Lewis</persName> was
+                  likely the brother of <persName corresp="#MontgomeryMaryLewis">Mary Lewis
+                     Montgomery</persName>.</note>
+            </person>
+
+            <person xml:id="per.00069">
+               <persName>
+                  <surname>Rice</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00070">
+               <persName>
+                  <surname>Tennyson</surname>
+                  <forename>Alfred</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>English</nationality>
+               <birth when="1809"/>
+               <death when="1892"/>
+               <occupation>writer</occupation>
+            </person>
+
+            <person xml:id="per.00071">
+               <persName>
+                  <surname>Doyle</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00072">
+               <persName>
+                  <surname>Parker</surname>
+                  <forename>Washington</forename>
+                  <addName>Wash</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1810" cert="medium"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00073">
+               <persName>
+                  <forename>Jim</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00074">
+               <persName>
+                  <forename>Sampson</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00075">
+               <persName>
+                  <surname>Gates</surname>
+                  <forename>P.</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00076">
+               <persName>
+                  <forename>Adam</forename>
+               </persName>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00077">
+               <persName>
+                  <surname>Brown</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00078">
+               <persName>
+                  <surname>Hicks</surname>
+                  <forename>Billy</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00079">
+               <persName>
+                  <surname>Toy</surname>
+                  <forename>Thomas</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00080">
+               <persName>
+                  <surname>Ousley</surname>
+                  <forename>Benjamin</forename>
+                  <addName>Ben</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1815"/>
+               <occupation>planter</occupation>
+               <note type="bio"><persName corresp="#OusleyBen">Benjamin Ousley</persName> was
+                  enslaved by <persName>Joseph E. Davis</persName> and lived at <placeName>Davis
+                     Bend</placeName> until 1870, when, dissatisfied with <persName
+                     corresp="#MontgomeryBenjaminThornton">Benjamin Montgomery</persName>'s rental
+                  terms, he led a group of about twenty-five residents from <placeName>Davis
+                     Bend</placeName> to a plantation near <placeName>Glencoe</placeName> in Bolivar
+                  County.<!-- Is Glencoe a town? --> Relations between <persName
+                     corresp="#OusleyBen">Ousley</persName> and <persName
+                     corresp="#MontgomeryBenjaminThornton">Montgomery</persName> seem to have
+                  remained friendly, as he dined with the family on 13 March and their children
+                  remained friendly. </note>
+            </person>
+
+            <person>
+               <persName xml:id="per.00081">
+                  <surname>Ousley</surname>
+                  <forename>Joseph E.</forename>
+                  <addName>Joe</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1850"/>
+               <death when="1896"/>
+               <occupation>planter</occupation>
+               <note type="bio"><persName corresp="#OusleyJosephE">Joseph E. Ousley</persName> was
+                  the son of <persName corresp="#OusleyBenjamin">Benjamin Ousley</persName> and was
+                  enslaved by <persName>Joseph E. Davis</persName> until the Civil War. He followed
+                     <persName corresp="#OusleyBenjamin">his father</persName> to Bolivar County in
+                  1870, but remained friendly with the Montgomery family, visiting them in May
+                  1872.</note>
+
+            </person>
+
+            <person xml:id="per.00082">
+               <persName>
+                  <name>Bradshaw</name>
+               </persName>
+            </person>
+
+            <person xml:id="per.00083">
+               <persName>
+                  <forename>Frank</forename>
+                  <addName>Crazy Frank</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00084">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>William</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1833"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00085">
+               <persName>
+                  <forename>Maylon</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00086">
+               <persName>
+                  <surname>Martin</surname>
+                  <forename>Isaac</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1815"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00087">
+               <persName>
+                  <surname>Brooks</surname>
+                  <forename>Martha</forename>
+                  <addName>Aunt Martha</addName>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1820"/>
+               <occupation>cook</occupation>
+            </person>
+
+            <person xml:id="per.00088">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Moses</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1841"/>
+               <occupation>farmer</occupation>
+               <note type="bio"><persName corresp="#LewisMoses">Moses Lewis</persName> was likely
+                  the brother of <persName corresp="#MontgomeryMaryLewis">Mary Lewis
+                     Montgomery.</persName></note>
+            </person>
+
+            <person xml:id="per.00089">
+               <persName>
+                  <surname>Johnson</surname>
+                  <forename>Jack</forename>
+               </persName>
+            </person>
+
+            <person>
+               <persName xml:id="per.00090">
+                  <surname>Scott</surname>
+                  <forename>J.</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00091">
+               <persName>
+                  <surname>Cowley</surname>
+                  <forename>Abraham</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>English</nationality>
+               <birth when="1618"/>
+               <death when="1667"/>
+               <occupation>poet</occupation>
+            </person>
+
+            <person xml:id="per.00092">
+               <persName>
+                  <surname>Scott</surname>
+                  <forename>Walter</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>English</nationality>
+               <birth when="1771"/>
+               <death when="1832"/>
+               <occupation>author</occupation>
+            </person>
+
+            <person xml:id="per.00093">
+               <persName>
+                  <surname>James</surname>
+               </persName>
+               <gender value="M"/>
+               <occupation>surveyor</occupation>
+            </person>
+
+            <person xml:id="per.00094">
+               <persName>
+                  <forename>Wilson</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00095">
+               <persName>
+                  <surname>Walker</surname>
+                  <forename>Evan</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1852"/>
+               <occupation>laborer</occupation>
+               <note type="bio"><persName corresp="#WalkerEvan">Evan Walker was the son of Harry and
+                     Rose Walker of Davis Bend. He was twenty years old in 1872.</persName></note>
+            </person>
+
+            <person xml:id="per.00096">
+               <persName>
+                  <surname>Davis</surname>
+                  <forename>Jefferson</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1808"/>
+               <death when="1889"/>
+               <occupation>politician</occupation>
+            </person>
+
+            <person xml:id="per.00097">
+               <persName>
+                  <surname>Bowmar</surname>
+                  <forename>Joseph Hamilton Davies</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1811"/>
+               <death when="1890"/>
+               <occupation>doctor</occupation>
+               <occupation>lawyer</occupation>
+            </person>
+
+            <person xml:id="per.00098">
+               <persName>
+                  <surname>Cox</surname>
+                  <forename>Samuel</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1847"/>
+               <occupation>farmer</occupation>
+               <note type="bio"><persName corresp="#CoxSamuel">Samuel Cox</persName> was born in
+                  Virginia and enslaved on Davis Bend. In 1870, he followed <persName
+                     corresp="#OusleyBenjamin">Benjamin Ousley</persName> to Bolivar County. On the
+                  1870 census, he is listed as living with Jordan Green, another former resident of
+                  Davis Bend, in Bolivar County.</note>
+            </person>
+
+            <person xml:id="per.00099">
+               <persName>
+                  <surname>Miller</surname>
+                  <forename>Charles</forename>
+                  <addName>Charlie</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1848"/>
+               <note type="bio"><persName corresp="#MillerCharles">Charles Miller married a
+                     seamstress named Josephine in 1872. He is mentioned only a handful of times in
+                     MVM's diary.</persName></note>
+            </person>
+
+            <person xml:id="per.00100">
+               <persName>
+                  <surname>Watson</surname>
+                  <forename>Jeff</forename>
+                  <addName>Uncle Jeff</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1795"/>
+               <occupation>farmer</occupation>
+               <note type="bio"><persName corresp="#WatsonJeff">Jeff Watson</persName> was born in
+                  Virginia in 1895. It is not clear whether he was actually related to the
+                  Montgomerys or was called "Uncle" out of respect for his advanced age. He was
+                  married to <persName>Harriet Watson</persName>.</note>
+            </person>
+
+            <person xml:id="per.00101">
+               <persName>
+                  <surname>Watson</surname>
+                  <forename>Harriet</forename>
+                  <addName>Aunt Harriet</addName>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1812"/>
+               <note type="bio"><persName corresp="#WatsonHarriet">Harriet Watson was born in
+                     Mississippi.</persName></note>
+
+            </person>
+
+            <person xml:id="per.00102">
+               <persName>
+                  <surname>Haney</surname>
+               </persName>
+               <gender value="M"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00103">
+               <persName>
+                  <surname>Brooks</surname>
+                  <forename>Alice</forename>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1858"/>
+               <note><persName corresp="#BrooksAlice">Alice Brooks</persName>was the daughter of
+                     <persName corresp="#BrooksMartha">Martha Brooks</persName>, who lived with the
+                  Montgomery family and worked as their cook in the 1870s.</note>
+            </person>
+
+            <person xml:id="per.00104">
+               <persName>
+                  <surname>Grant</surname>
+                  <forename>Ulysses S.</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1822"/>
+               <death when="1885"/>
+               <occupation>politician</occupation>
+               <note type="bio"><persName corresp="#GrantUlyssesS">Ulysses S. Grant</persName>
+                  served as the eighteenth President of the United States from 1869 to 1877.</note>
+            </person>
+
+            <person xml:id="per.00105">
+               <persName>
+                  <surname>Stephens</surname>
+                  <addName>Young Stephens</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <residence>New Town</residence>
+            </person>
+
+            <person xml:id="per.00106">
+               <persName>
+                  <surname>Lewis</surname>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <residence>New Town</residence>
+            </person>
+
+            <person xml:id="per.00107">
+               <persName>
+                  <surname>Wiggins</surname>
+                  <forename>Catherine</forename>
+                  <addName>Miss Wiggins</addName>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1852"/>
+               <residence>Davis Bend</residence>
+               <note><persName corresp="#WigginsCatherine">Catherine Wiggins lived with the family
+                     of <persName corresp="#LewisWilliamJr">William Lewis</persName>, MVM's maternal
+                     uncle, close to Brierfield. It is not clear what her relationship to the family
+                     was. Her class status is indicated by the fact that MVM calls her "Miss
+                     Wiggins."</persName></note>
+            </person>
+
+            <person xml:id="per.00108">
+               <persName>
+                  <forename>Isaiah</forename>
+               </persName>
+               <!-- This is not Isaiah Montgomery, or "Zie." Isaiah seems to be a young boy who drives the buggy for MVM from time to time.  -->
+            </person>
+
+            <person xml:id="per.00109">
+               <persName>
+                  <name>Romulus</name>
+               </persName>
+               <gender value="M"/>
+               <nationality>Roman</nationality>
+            </person>
+
+            <person xml:id="per.00110">
+               <persName>
+                  <forename>Tom</forename>
+                  <addName>Old Tom</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00111">
+               <persName>
+                  <surname>McKee</surname>
+                  <forename>George C.</forename>
+                  <addName>General McKee</addName>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <residence>Vicksburg, Mississippi</residence>
+               <occupation>lawyer</occupation>
+               <occupation>planter</occupation>
+               <occupation>politician</occupation>
+            </person>
+
+            <person>
+               <persName xml:id="per.00112">
+                  <surname>Mitchell</surname>
+               </persName>
+               <occupation>doctor</occupation>
+            </person>
+
+            <person xml:id="per.00113">
+               <persName>
+                  <surname>Bradford</surname>
+               </persName>
+               <gender value="F"/>
+            </person>
+
+            <person xml:id="per.00114">
+               <persName>
+                  <surname>Thomas</surname>
+               </persName>
+               <gender value="F"/>
+            </person>
+
+            <person xml:id="per.00115">
+               <persName>
+                  <surname>Carter</surname>
+                  <forename>Lucinda</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00116">
+               <persName>
+                  <surname>Bradshaw</surname>
+                  <forename>Emanuel</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00117">
+               <persName>
+                  <surname>Brown</surname>
+                  <forename>Judge</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00118">
+               <persName>
+                  <surname>Wilder</surname>
+                  <forename>E</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00119">
+               <persName>
+                  <surname>Henry</surname>
+                  <forename>Betsy</forename>
+               </persName>
+               <gender value="F"/>
+               <nationality>American</nationality>
+               <birth when="1810"/>
+               <occupation>clerk</occupation>
+               <!-- lived at Ursino in 1870 -->
+            </person>
+
+            <person xml:id="per.00120">
+               <persName>
+                  <surname>Green</surname>
+                  <forename>George</forename>
+               </persName>
+               <gender value="M"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00121">
+               <persName>
+                  <surname>Willis</surname>
+                  <forename>John</forename>
+               </persName>
+               <gender value="M"/>
+               <nationality>American</nationality>
+               <birth when="1842"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00122">
+               <persName>Groff</persName>
+               <occupation>laborer</occupation>
+            </person>
+
+            <person xml:id="per.00123">
+               <persName>Burgess</persName>
+            </person>
+
+            <person xml:id="per.00124">
+               <persName>Dumb George</persName>
+            </person>
+
+            <person xml:id="per.00125">
+               <persName>
+                  <name>Newton</name>
+                  <addName>young Newton</addName>
+               </persName>
+
+
+            </person>
+
+            <person xml:id="per.00126">
+               <persName>
+                  <surname>John</surname>
+                  <addName>Dr John</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00127">
+               <persName>
+                  <surname>Munce</surname>
+                  <addName>Capt Munce</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00128">
+               <persName>
+                  <surname>Dryden</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00129">
+               <persName>
+                  <surname>Sand</surname>
+                  <forename>Deleware</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00130">
+               <persName>
+                  <addName>Little Aunt</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00131">
+               <persName>
+                  <surname>Demorest</surname>
+                  <forename>Ellen Louise</forename>
+                  <addName>Mme. Demorest</addName>
+               </persName>
+               <birth when="1824"/>
+               <death when="1898"/>
+               <gender value="W"/>
+               <nationality>American</nationality>
+               <occupation>business woman</occupation>
+               <occupation>milliner</occupation>
+               <note type="bio"><persName corresp="#MontgomeryMaryVirgnia">Virginia
+                     Montgomery</persName> did not know <persName corresp="#Demorest"/>personally,
+                  but she seems to have subscribed to one of her magazines--either <title>Mme.
+                     Demorest's Mirror of Fashions</title> or <title>Demorest's Illustrated Monthly
+                     Magazine</title>--and likely acquired dressmaking patterns from her company, as
+                  she describes writing "to Mme Demorest" on 21 February.</note>
+            </person>
+
+            <person xml:id="per.00132">
+               <persName>
+                  <surname>Rankin</surname>
+                  <addName>Mr Rankin</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00133">
+               <persName>
+                  <surname>Lane</surname>
+                  <addName>Mr Lane</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00134">
+               <persName>
+                  <forename>Mary Jane</forename>
+                  <addName>Cousin Mary Jane</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00135">
+               <persName>
+                  <surname>Wood</surname>
+                  <addName>Elder Wood</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00136">
+               <persName>
+                  <addName>M. G. T.</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00137">
+               <persName>
+                  <surname>Payne</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00138">
+               <persName>
+                  <forename>Siller</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00139">
+               <persName>
+                  <surname>White</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00140">
+               <persName>
+                  <surname>Smith</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00141">
+               <persName>
+                  <surname>Perry</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00142">
+               <persName>
+                  <forename>Walter</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00143">
+               <persName>
+                  <surname>Clements</surname>
+                  <forename>P.</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00144">
+               <persName>
+                  <surname>Bradford</surname>
+                  <forename>A.</forename>
+                  <addName>Uncle A. Bradford</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00145">
+               <persName>
+                  <surname>Gaitor</surname>
+               </persName>
+               <residence>Louisiana</residence>
+            </person>
+
+            <person xml:id="per.00146">
+               <!-- CUT THIS ITEM and use annotation? -->
+               <persName>
+                  <surname>Byron</surname>
+                  <forename>George Gordon</forename>
+                  <addName>Lord Byron</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00147">
+               <persName>
+                  <surname>Newton</surname>
+                  <addName>Mr Newton</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00148">
+               <persName>
+                  <surname>Richardson</surname>
+               </persName>
+            </person>
+
+            <person xml:id="per.00149">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>William Sr.</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00150">
+               <persName>
+                  <forename>Bertie</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00151">
+               <persName>
+                  <surname>Meyer</surname>
+                  <forename>Ben</forename>
+                  <addName>Benjamin</addName>
+               </persName>
+               <birth when="1854"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00152">
+               <persName>
+                  <surname>Allyn</surname>
+                  <addName>Allan</addName>
+                  <forename>Reuben</forename>
+               </persName>
+               <birth when="1848"/>
+               <occupation>farmer</occupation>
+            </person>
+
+            <person xml:id="per.00153">
+               <persName>
+                  <surname>Plato</surname>
+                  <addName>Mrs. Plaot</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00154">
+               <persName>
+                  <surname>Blanton</surname>
+                  <addName>Mrs. Blanton</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00155">
+               <persName>
+                  <surname>Green</surname>
+                  <forename>Henry</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00156">
+               <persName>
+                  <surname>Cardozo</surname>
+                  <forename>Thomas</forename>
+               </persName>
+
+            </person>
+            <person xml:id="per.00157">
+               <persName>
+                  <surname>Hunt</surname>
+               </persName>
+               <!-- possibly a judge -->
+            </person>
+
+            <person xml:id="per.00158">
+               <persName>
+                  <surname>Bender</surname>
+               </persName>
+
+            </person>
+
+            <person xml:id="per.00159">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Lucy Jane</forename>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <birth>1847</birth>
+               <occupation>keeping house</occupation>
+               <note>Lucy Jane Lewis was the wife of Moses Lewis, the brother of MVM's mother, Mary
+                  Lewis Montgomery.</note>
+            </person>
+
+            <person xml:id="per.00160">
+               <persName>Bennie</persName>
+               <!-- possibly related to Susan and William Lewis -->
+            </person>
+
+            <person xml:id="per.00161">
+               <persName>Mr. Shepard</persName>
+               <!--  an agent, for AMM Sons, N.O. -->
+            </person>
+
+            <person xml:id="per.00162">
+
+               <persName>Uncle Basen</persName>
+            </person>
+
+            <person xml:id="per.00163">
+               <persName>Sabe</persName>
+            </person>
+
+            <person xml:id="per.00164">
+               <persName>
+                  <surname>Shadd</surname>
+                  <forename>Eunice P.</forename>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <nationality>Canadian</nationality>
+               <birth>1846</birth>
+               <death>1888</death>
+               <occupation>student</occupation>
+               <occupation>teacher</occupation>
+               <residence>Washington DC</residence>
+            </person>
+
+            <person xml:id="per.00165">
+               <persName>Demosthenes</persName>
+            </person>
+
+            <person xml:id="per.00166">
+               <persName>Cicero</persName>
+            </person>
+
+            <person xml:id="per.00167">
+               <persName>
+                  <surname>Crosby</surname>
+                  <forename>Peter</forename>
+               </persName>
+               <gender>M</gender>
+               <nationality>American</nationality>
+               <birth>1844</birth>
+               <death>1884</death>
+               <occupation>Warren County Treasurer</occupation>
+               <note>African American, formerly enslaved in Clarke County, Mississippi</note>
+            </person>
+
+            <person xml:id="per.00168">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Barney</forename>
+               </persName>
+            </person>
+
+            <person xml:id="per.00169">
+               <persName>
+                  <surname>Martin</surname>
+                  <forename>Helen Elizabeth</forename>
+                  <addName>Miss Martin</addName>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <birth when="1836-04-01"/>
+               <death when="1911-08-03"/>
+               <note>Helen Elizabeth Martin was Assistant Principal of the Women's Department at
+                  Oberlin College from 1866 to 1874 and 1875 to 1876.</note>
+            </person>
+
+            <person xml:id="per.00170">
+               <persName>
+                  <surname>Hatch</surname>
+                  <addName>Miss Hatch</addName>
+               </persName>
+               <!-- Possibly Angie K. Hatch, a third-year student in the Ladies Department, or Annie E. Hatch, from the Preparatory Course. Likely Angie K.? -->
+            </person>
+
+            <person xml:id="per.00171">
+               <persName>
+                  <surname>Smith</surname>
+                  <forename>Judson</forename>
+                  <roleName>Reverend</roleName>
+               </persName>
+               <gender>M</gender>
+               <nationality>American</nationality>
+               <birth when="1837-06-28"/>
+               <death when="1906-06-29"/>
+               <occupation>teacher</occupation>
+               <note>Reverend Judson Smith taught Latin and History from 1866 to 1884.</note>
+            </person>
+
+            <person xml:id="per.00172">
+               <persName>
+                  <surname>Bradley</surname>
+                  <addName>Miss Bradley</addName>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <!-- "Miss Bradley" is either Sarah Adorna Bradley (1850-1933) or her sister, Mary Adele Bradley (1854-1926). Both attended Oberlin in 1872. Sarah and Mary were the children of Dan Beach Bradley and Sarah Blachly Bradford, missionaries to Siam, or Thailand. -->
+            </person>
+
+            <person xml:id="per.00173">
+               <persName>
+                  <surname>Freeman</surname>
+                  <forename>Ida</forename>
+                  <addName>Miss Freeman</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00174">
+               <persName>
+                  <surname>Carver</surname>
+                  <addName>Miss Carver</addName>
+               </persName>
+               <gender>F</gender>
+               <!-- Either Maria Carver, from Pawlet, Vermont, or Emma M. Carver, from Manchester, Vermont. -->
+            </person>
+
+            <person xml:id="per.00175">
+               <persName>
+                  <surname>Johnston</surname>
+                  <surname type="maiden">Field</surname>
+                  <forename>Adelia Antoinette</forename>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <birth when="1837-02-05"/>
+               <death when="1910-07-22"/>
+               <occupation>educator</occupation>
+               <note>Adelia A. Field Johnston was principal of the Ladies' Department at Oberlin
+                  College from 1870 to 1900.</note>
+            </person>
+
+            <person xml:id="per.00176">
+               <persName>
+                  <surname>Wyatt</surname>
+                  <forename>Georgianna</forename>
+                  <addName>Anna</addName>
+                  <addName>Miss Wyatt</addName>
+               </persName>
+               <gender>F</gender>
+               <nationality>English</nationality>
+               <birth when="1834"/>
+               <occupation>teacher of drawing</occupation>
+               <note>Anna Wyatt was not listed in the Oberlin catalogue for 1872-1873, but she seems
+                  to have provided drawing lessons to students at Oberlin.</note>
+            </person>
+
+            <person xml:id="per.00177">
+               <persName>
+                  <surname>Loomis</surname>
+                  <addName>Miss Loomis</addName>
+               </persName>
+               <gender>F</gender>
+               <note>Miss Loomis was a student at Oberlin College in late 1872. There were at least
+                  four young women named Loomis attending Oberlin that fall, so it is impossible to
+                  say which one MVM refers to.</note>
+
+            </person>
+
+            <person xml:id="per.00178">
+               <persName>
+                  <surname>Hinman</surname>
+                  <forename>Harriet Louise</forename>
+                  <addName>Miss Hinman</addName>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <birth when="1857"/>
+               <note>Harriet Hinman was a student in the English School at Oberlin College in the
+                  1872-1873 academic year.</note>
+            </person>
+
+            <person xml:id="per.00179">
+               <persName>
+                  <surname>Ford</surname>
+                  <addName>Miss Ford</addName>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <!-- In 1872, there were two Miss Fords at Oberlin College: Laura Susanna Ford (1837-1900) and Elizabeth Ida Ford (1857-post-1930). -->
+            </person>
+
+            <person xml:id="per.00180">
+               <persName>
+                  <surname>Scidmore</surname>
+                  <forename>Lillie</forename>
+               </persName>
+               <gender>F</gender>
+               <nationality>American</nationality>
+               <birth when="1856"/>
+               <death when="1928"/>
+               <note>Lillie Scidmore, born as Eliza Ruhamah Scidmore, was a student at Oberlin
+                  College in 1872-1873.</note>
+            </person>
+
+            <person xml:id="per.00181">
+               <persName>
+                  <surname>Morse</surname>
+                  <addName>Miss Morse</addName>
+                  <addName>Miss Moorse</addName>
+               </persName>
+               <!-- In 1872, there are several female students with the last name Morse. -->
+            </person>
+
+            <person xml:id="per.00182">
+               <persName>
+                  <surname>Rice</surname>
+                  <addName>Miss Rice</addName>
+               </persName>
+               <!-- In 1872, there are several female students with the last name Rice -->
+            </person>
+
+            <person xml:id="per.00183">
+               <persName>
+                  <surname>Aiken</surname>
+                  <addName>Miss Aiken</addName>
+               </persName>
+               <!-- Possibly Miss Emma J. Aiken, from Beaver Dam, Wisconsin. -->
+            </person>
+
+            <person xml:id="per.00184">
+               <persName>
+                  <surname>Ryder</surname>
+                  <forename>Charles J.</forename>
+                  <addName>Professor Ryder</addName>
+               </persName>
+               <gender>M</gender>
+               <occupation>Teacher of Greek at Oberlin College</occupation>
+            </person>
+
+            <person xml:id="per.00185">
+               <persName>
+                  <surname>Freeman</surname>
+                  <addName>Miss Freeman</addName>
+               </persName>
+
+            </person>
+
+            <person xml:id="per.00186">
+               <persName>
+                  <surname>Steele</surname>
+                  <addName>Miss Steele</addName>
+               </persName>
+               <!-- Could be Eliza B. Steele, of Melmore, Ohio; Eleanora O. Steele, of Nashville, Tennessee; or Mary C. Steele, of Urbana, Illinois. -->
+            </person>
+
+            <person xml:id="per.00187">
+               <persName>
+                  <surname>Sharpe</surname>
+                  <forename>Laura A.</forename>
+               </persName>
+               <!-- Listed in Oberlin catalog as being from Waltham, Massachusetts. -->
+            </person>
+
+            <person xml:id="per.00188">
+               <persName>
+                  <surname>Lewis</surname>
+                  <forename>Mary</forename>
+               </persName>
+               <!-- Not sure how she fits into the Lewis family. She is mentioned in the final entry of the diary. -->
+            </person>
+
+            <person xml:id="per.00189">
+               <persName>
+                  <surname>Wilson</surname>
+                  <forename>Henry</forename>
+               </persName>
+               <gender>M</gender>
+               <nationality>American</nationality>
+               <birth>1812</birth>
+               <death>1875</death>
+               <occupation>politician</occupation>
+            </person>
+
+            <person xml:id="per.00190">
+               <persName>
+                  <surname>Greeley</surname>
+                  <forename>Horace</forename>
+               </persName>
+               <gender>M</gender>
+               <nationality>American</nationality>
+               <birth>1811</birth>
+               <death>1872</death>
+               <occupation>newspaper editor and publisher</occupation>
+               <occupation>politician</occupation>
+            </person>
+
+            <person xml:id="per.00191">
+               <persName>
+                  <surname>Shelby</surname>
+                  <forename>W. B.</forename>
+               </persName>
+               <gender>M</gender>
+               <nationality>American</nationality>
+               <occupation>politician</occupation>
+               <note>W. B. Shelby was the Democratic candidate for the Mississippi House of
+                  Representatives, from District 5, running against the Republican candidate, George
+                  C. McKee.</note>
+            </person>
+
+            <person xml:id="per.00192">
+               <persName>
+                  <forename>Dennis</forename>
+                  <addName>Uncle Dennis</addName>
+               </persName>
+            </person>
+
+            <person xml:id="per.00193">
+               <persName>
+                  <surname>Walton</surname>
+                  <forename>Ben</forename>
+               </persName>
+            </person>
+
+         </listPerson>
+
+         <listPerson xml:id="corp.00001">
+            <!-- Mr. and Mrs. Shadd -->
+            <person sameAs="per.00011"/>
+            <person sameAs="per.00010"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00002">
+            <!-- Mrs. Alden's children -->
+            <person sameAs="per.00056"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00003">
+            <!-- Lewis grandparents -->
+            <person sameAs="per.00030"/>
+            <person sameAs="per.00149"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00004">
+            <!-- Ma's Hands or Mother's Hands -->
+            <person sameAs="per.00003"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00005">
+            <!-- "the Parents" -->
+            <person sameAs="per.00003"/>
+            <person sameAs="per.00002"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00006">
+            <!-- Brothers -->
+            <person sameAs="per.00005"/>
+            <person sameAs="per.00008"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00007">
+            <!-- "the Millers" -->
+            <person sameAs="per.00099"/>
+            <person sameAs="per.00065"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00008">
+            <!-- WT's Hands -->
+            <person sameAs="per.00008"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00009">
+            <!-- Unspecified Uncle -->
+            <person sameAs="per"/>
+         </listPerson>
+
+         <listPerson xml:id="corp.00010">
+            <!-- S. bros. or Scharff Brothers -->
+            <person sameAs="#corp.00061"/>
+            <person sameAs="#corp.00062"/>
+         </listPerson>
+
+
+      </body>
+   </text>
+</TEI>
