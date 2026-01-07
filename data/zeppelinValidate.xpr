@@ -2,7 +2,40 @@
 <project>
     <meta>
         <filters directoryPatterns="" filePatterns="\QzeppelinValidate.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../TEIC/lemdo.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>4/tei/teip5odd.framework/TEI ODD/TEI ODD to RelaxNG XML</String>
+                                        <String>4/tei/teip5odd.framework/TEI ODD/TEI ODD XHTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
     </meta>
     <projectTree name="zeppelinValidate.xpr">
         <folder path="."/>
