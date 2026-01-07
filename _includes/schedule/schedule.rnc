@@ -5,27 +5,27 @@ morning = element morning { slot+ }
 afternoon = element afternoon { slot+ }
 monday =
   element day {
-    attribute d { "Monday, May 26" },
+    attribute d { "Monday, June 15" },
     day
   }
 tuesday =
   element day {
-    attribute d { "Tuesday, May 27" },
+    attribute d { "Tuesday, June 16" },
     day
   }
 wednesday =
   element day {
-    attribute d { "Wednesday, May 28" },
+    attribute d { "Wednesday, June 17" },
     day
   }
 thursday =
   element day {
-    attribute d { "Thursday, May 29" },
+    attribute d { "Thursday, June 18" },
     day
   }
 friday =
   element day {
-    attribute d { "Friday, May 30" },
+    attribute d { "Friday, June 19" },
     title,
     morning
   }
